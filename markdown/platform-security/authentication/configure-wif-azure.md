@@ -7,7 +7,7 @@ release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 3
 keywords: [Workload Identity Federation, Microsoft Azure, Microsoft Entra, federated credential, subject identifier]
 breadcrumb: [Workload Identity Federation, OAuth Outbound, OAuth authentication, Authentication, Access Management]

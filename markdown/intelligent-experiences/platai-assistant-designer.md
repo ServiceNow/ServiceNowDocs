@@ -77,7 +77,7 @@ The **Analytics** tab has several page views, each answering a different questio
 
 \[Omitted image "NAinVA-assistant-designer-analytics-overview.png"\] Alt text: Overview dashboard page in Assistant analytics.
 
-For more information, see [Analyzing assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/ai-engagement-analytics.md).
+For more information, see .
 
 **Parent Topic:**[Creating AI user experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platai-creating-ai-user-experiences.md)
 

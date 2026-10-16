@@ -23,7 +23,7 @@ The ServiceNow® Developer Sandboxes application enables your administrators and
 -   Integrate with source control \(Git\), reducing merge conflicts and making co-development smoother compared to shared development instances.
 -   Safely test configurations, workflows, and integrations within your own sandbox before promoting changes, reducing rework and protecting system stability.
 
-See  for more information.
+See [Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/sandboxes-landing.md) for more information.
 
 ## Activation and other requirements
 
@@ -40,7 +40,7 @@ The October 2026 release of Developer Sandboxes includes fully automated self-se
 
 ### What's new
 
--   **Fully automated setup with self-serve license assignment**
+-   **[Fully automated setup with self-serve license assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/dsb-license-allocation-about.md)**
 
     Assign purchased sandbox packs to non-production instances directly from the **Developer Sandbox Management** tab in App Engine Management Center \(AEMC\), without opening a support case. Install the new licensing plugin on your license management instance, install the sandbox plugin on your non-production instances, and use the license management UI on the controller instance to distribute packs. Each pack provides 10 sandboxes, and you can assign a maximum of 3 packs to a single non-production instance.
 
@@ -48,7 +48,7 @@ The October 2026 release of Developer Sandboxes includes fully automated self-se
 
     -   A new instance allocation table \[sys\_dsb\_instance\_allocation\] is now installed with Developer Sandboxes.
     -   The new sandbox admin role \(`sn_dsb_commons.sandbox_license_admin`\) lets users distribute sandbox packs to non-production instances without full admin access.
--   **Four free sandbox licenses**
+-   **[Four free sandbox licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/dev-sbx-entitlements.md)**
 
     All instances now get four free sandboxes per non-production instance to try out Developer Sandboxes. You can use the four free licenses on the same instance as purchased sandboxes, for a maximum of 34 sandboxes on an instance.
 
@@ -66,13 +66,13 @@ The Brazil Early Availability release introduces sandbox pooling for faster prov
 
 ### What's new
 
--   **Sandbox pooling for faster provisioning**
+-   **[Sandbox pooling for faster provisioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/allocating-sandboxes.md)**
 
     Allocate sandboxes faster using pre-pooled instances. When you allocate a sandbox, you claim one from a pre-created pool rather than waiting for a new instance to be provisioned. Sandbox URLs are randomly generated strings and no longer match the sandbox display name. The display name remains configurable, but you can't change the URL.
 
     **Note:** Because pooled sandboxes are precreated, they may be out of date from the current base instance state, but are refreshed every 24 hours.
 
--   **Automatic update set sources**
+-   **[Automatic update set sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/dsb-update-sets.md)**
 
     Transfer update sets between production and sandbox instances without manual configuration. When a sandbox is created, an update set source pointing to the sandbox is automatically created on the base instance, and an update set source pointing to production is automatically created on the sandbox. When a sandbox is retired, both update set sources are automatically removed.
 

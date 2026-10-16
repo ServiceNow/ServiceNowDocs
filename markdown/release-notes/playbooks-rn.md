@@ -21,7 +21,7 @@ The ServiceNow® Playbook helps you automate complex business processes. See the
 -   Benefits include eliminating the need to memorize processes, providing real‑time guidance, automating routine steps, and enabling administrators to update processes centrally, which applies to all users.
 -   Playbooks support use cases across multiple domains.
 
-See  for more information.
+See [Workflow Studio playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio-playbooks-landing.md) for more information.
 
 ## Activation and other requirements
 
@@ -49,7 +49,7 @@ This release introduces the ability to view conditional activities and the prefe
 
 ### What's new
 
--   **Ideal path for a playbookIdeal path for a playbook**
+-   **[Ideal path for a playbookIdeal path for a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/ideal-path-for-playbook.md)**
 
     Use ideal path to identify the intended execution path or view upcoming work hidden behind conditions. Ideal Path enables playbook authors to define and visualize the preferred process route. The end users of a playbook gets runtime visibility into the expected workflow path, improving process clarity, usability, and observability.
 

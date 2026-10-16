@@ -16,19 +16,19 @@ The ServiceNow® Zero Copy Connector for ERP application enables you to connect 
 
 ## What's new
 
--   **Support for Oracle E-Business Suite**
+-   **[Support for Oracle E-Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-canvas-oracle-rest-support.md)**
 
     Select Oracle E-Business Suite \(12.2 or later\) as the ERP software when you configure an ERP system record. Oracle E-Business Suite connects through REST.
 
--   **Use Oracle EBS ISG services**
+-   **[Use Oracle EBS ISG services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-canvas-create-an-oracle-ebs-connection.md)**
 
     Add Oracle E-Business Suite Integrated SOA Gateway \(ISG\) services to a model using their Web Application Description Language \(WADL\) definitions. When you create a model entity for a WADL operation, Zero Copy Connector for ERP generates its fields from the operation's WADL and XSD definitions.
 
--   **AI search for WADL service endpoints**
+-   **[AI search for WADL service endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-canvas-oracle-ebs-wadl-support.md)**
 
     Search for endpoints of discovered WADL services from the interface using AI Search.
 
--   **Row count for the scriptable API**
+-   **[Row count for the scriptable API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-api-getrowcount.md)**
 
     Call the `getRowCount()` method on the `API` class to return the total number of rows that a query matches without retrieving the records. Configure the query as you would for `execute()`.
 

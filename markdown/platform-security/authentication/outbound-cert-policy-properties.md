@@ -7,7 +7,7 @@ release: brazil
 product: Authentication
 classification: authentication
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 1
 keywords: [outbound certificate policy, system properties, certificate validation, glide properties, reference]
 breadcrumb: [Outbound certificate policies, Authentication, Access Management]

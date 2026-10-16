@@ -79,7 +79,7 @@ Site \[cmdb\_ci\_site\]
 
 Captures and maintains the location-specific attributes for each network site, including the network centers, buildings, floors, and rooms where the equipment is located.
 
- The network site records enable you to view all the equipment at a location. You can filter the locations by the assigned type, role, or function categories. To learn more, see [a42bd03443c35f2a64b41ccb9e132de81a9150ce.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/define-tni-sites.md).
+ The network site records enable you to view all the equipment at a location. You can filter the locations by the assigned type, role, or function categories. To learn more, see [7364ede3b32e97bcf67fb8e3c0ca954bf9687fdf.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/define-tni-sites.md).
 
 </td></tr><tr><td>
 
@@ -93,7 +93,7 @@ Hardware \[cmdb\_ci\_hardware\]
 
 Represents the physical units that contain the telecommunications equipment, including the cages, bays, cabinets, slots, and relay racks. An equipment holder can contain the other equipment holders. For example, the line-ups contain the individual relay racks and each relay rack contains the equipment shelves.
 
- Use the equipment holder records to track and manage your network assets. To learn more, see [b1d35984b5d54b6f7cdf924afb286502f3239a2b.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/define-tni-equipment-holders.md).
+ Use the equipment holder records to track and manage your network assets. To learn more, see [643f5d76f5382bb6151ab293dbadd46cd9951f11.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/define-tni-equipment-holders.md).
 
  To learn more about the extension classes of the equipment holder, see [Equipment holder extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/equipment-holder-types.md).
 

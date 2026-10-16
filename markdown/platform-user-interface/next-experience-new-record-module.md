@@ -53,15 +53,15 @@ Use the New Record module to create custom forms for adding table entries. Custo
 
 8.  Customize the form layout that displays in the form editor by performing the following actions.
 
-<table id="choicetable_u3j_f4j_wrb"><thead><tr><th align="left" id="d88112e227">
+<table id="choicetable_u3j_f4j_wrb"><thead><tr><th align="left" id="d88224e227">
 
 Option
 
-</th><th align="left" id="d88112e230">
+</th><th align="left" id="d88224e230">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d88112e236">
+</th></tr></thead><tbody><tr><td id="d88224e236">
 
 **Add form sections**
 
@@ -71,7 +71,7 @@ Action
 2.  Select **Section**, and then drag the section to the desired location above or below any existing sections on the form.
 
 
-</td></tr><tr><td id="d88112e263">
+</td></tr><tr><td id="d88224e263">
 
 **Configure section layout \(columns\)**
 
@@ -81,7 +81,7 @@ Change the layout of your section. Sections can consist of one column or be spli
 2.  Change the column layout via the section header menu. Select **One-column** or **Two-column**.
 
 
-</td></tr><tr><td id="d88112e287">
+</td></tr><tr><td id="d88224e287">
 
 **Merge section with the section above**
 
@@ -91,7 +91,7 @@ Merge two sections. Merging a section refers to combining two sections together 
 2.  From the section panel, select **Merge with section above**.
 
 
-</td></tr><tr><td id="d88112e308">
+</td></tr><tr><td id="d88224e308">
 
 **Detach section**
 
@@ -101,7 +101,7 @@ Detach a section. You can split two previously merged sections apart into separa
 2.  In the section header, select the Additional actions \(**\|**\) menu, and then select **Detach from section above**.
 
 
-</td></tr><tr><td id="d88112e333">
+</td></tr><tr><td id="d88224e333">
 
 **Remove section from form**
 
@@ -120,15 +120,15 @@ Detach a section. You can split two previously merged sections apart into separa
 
     **Note:** Certain field types are only supported in Core UI.
 
-<table id="choicetable_u3j_f5j_wrb"><thead><tr><th align="left" id="d88112e389">
+<table id="choicetable_u3j_f5j_wrb"><thead><tr><th align="left" id="d88224e389">
 
 Option
 
-</th><th align="left" id="d88112e392">
+</th><th align="left" id="d88224e392">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d88112e398">
+</th></tr></thead><tbody><tr><td id="d88224e398">
 
 **Add an existing field to a form**
 
@@ -138,7 +138,7 @@ Action
 2.  In the form editor, drag the selected field to the desired location and then move it around as necessary.
 
 
-</td></tr><tr><td id="d88112e416">
+</td></tr><tr><td id="d88224e416">
 
 **Add a new field to a form**
 
@@ -149,7 +149,7 @@ Action
 3.  The field appears in above or below the existing field.
 
 
-</td></tr><tr><td id="d88112e443">
+</td></tr><tr><td id="d88224e443">
 
 **Remove field from form**
 

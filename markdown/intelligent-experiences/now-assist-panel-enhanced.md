@@ -233,7 +233,7 @@ After you enter a question or request on the ServiceNow Otto panel, ServiceNow O
 
 ## Fallback options
 
-**Note:** For more information about where and how to enable fallback options, see [Manage an assistant chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/manage-assistant-chat-experience.md).
+**Note:** For more information about where and how to enable fallback options, see .
 
 A fallback state can occur whenever search results are unavailable. Scenarios where search results are unavailable include when ServiceNow Otto didn't understand the query, complaint small talk was found, or an error occurred. When search results are unavailable, the **Search the web** fallback option may appear. If you select the **Search the web** fallback option, the web search mode is triggered and uses the internet to search for the results.
 

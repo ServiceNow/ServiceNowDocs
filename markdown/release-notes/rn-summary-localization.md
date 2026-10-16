@@ -260,7 +260,7 @@ ServiceNow Otto for Virtual Agent
 
 -   ****
 
-Dynamic Translation is supported for non-streaming ServiceNow Otto for Virtual Agent conversations. For more information, see .
+Dynamic Translation is supported for non-streaming ServiceNow Otto for Virtual Agent conversations. For more information, see [Dynamic Translation in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/dynamic-translation-va.md).
 
 
 </td></tr><tr><td>

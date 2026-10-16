@@ -209,7 +209,7 @@ The Security dashboard page displays metrics and status information related to s
 
     To ask natural-language questions about AI Analytics dashboards and metrics, use the AI Analytics Q and A agent from the ServiceNow Otto panel. For more information, see [AI Analytics Q and A agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-ask-analytics-agent.md).
 
-    The Assistants tab provides dashboards showing usage and performance metrics for AI assistants. The dashboards are featured on the Analytics feature of the Assistant Designer. For more information, see [Analyzing assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/ai-engagement-analytics.md).
+    The Assistants tab provides dashboards showing usage and performance metrics for AI assistants. The dashboards are featured on the Analytics feature of the Assistant Designer. For more information, see .
 
 <table id="table_hph_t5z_x3c"><thead><tr><th>
 
@@ -227,7 +227,7 @@ Overview
 
 The Overview dashboard page provides high-level summary of assistant activity, assist usage, user engagement and overall customer satisfaction \(CSAT\) score.
 
- For more information, see [Overview page in Assistant analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/overview-page-in-assistant-analytics.md).
+ For more information, see .
 
 </td></tr><tr><td>
 
@@ -237,7 +237,7 @@ Usage
 
 The Usage dashboard page aggregates key metrics related to assistant usage, including the total number of conversations by assistant, conversations by channel, citations associated with the results, and the flow of conversation states.
 
- For more information, see [Usage page in Assistant analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/usage-page-in-assistant-analytics.md).
+ For more information, see .
 
 </td></tr><tr><td>
 
@@ -247,7 +247,7 @@ Adoption &amp; Engagement
 
 The Adoption &amp; Engagement dashboard page aggregates metrics related to user adoption and engagement, including average active users, new user growth, conversation volume trends, assist-to-execution trend, and channel distribution.
 
- For more information, see [Adoption and Engagement page in Assistant analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/adoption-and-engagement-page-in-assistant-analytics.md).
+ For more information, see .
 
 </td></tr><tr><td>
 
@@ -259,7 +259,7 @@ The Self-Solve Performance dashboard page aggregates metrics related to self-sol
 
  The deflection rate shown for each assistant is based on the custom metric active for that assistant. To customize how deflection is measured, create custom metrics. For more information, see [Custom metrics in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-admin-center-custom-metric.md).
 
- For more information, see [Self-Solve Performance page in Assistant analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/self-solve-performance-page-in-assistant-analytics.md).
+ For more information, see .
 
 </td></tr><tr><td>
 
@@ -269,7 +269,7 @@ Sentiment
 
 The Sentiment dashboard page aggregates metrics related to user satisfaction, emotional feedback, empathy levels, and conversation outcomes. These metrics enable you to monitor inferred CSAT, track transfers and escalations, analyze empathy distribution, and review negative emotion trends.
 
- For more information, see [Sentiment page in Assistant analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/sentiment-page-in-assistant-analytics.md).
+ For more information, see .
 
 </td></tr><tr><td>
 
@@ -279,7 +279,7 @@ Assists
 
 The Assists dashboard page aggregates metrics related to conversational assists, including total assists consumed, usage breakdown by assistant, usage trends, and features which used the most number of assists.
 
- For more information, see [Assists page in Assistant analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/assists-page-in-assistant-analytics.md).
+ For more information, see .
 
 </td></tr></tbody>
 </table>

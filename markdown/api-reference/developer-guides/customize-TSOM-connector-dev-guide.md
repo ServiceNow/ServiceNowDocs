@@ -7,7 +7,7 @@ release: brazil
 product: Developer Guides
 classification: developer-guides
 topic_type: concept
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 36
 breadcrumb: [Developer guides, API implementation and reference]
 ---

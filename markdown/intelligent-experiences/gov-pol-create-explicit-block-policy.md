@@ -41,15 +41,15 @@ An Explicit Block policy stops a user, a department, or everyone in your organiz
 
 6.  In the Block section, define what they're blocked from using.
 
-<table><thead><tr><th align="left" id="d364992e169">
+<table><thead><tr><th align="left" id="d364989e169">
 
 Option
 
-</th><th align="left" id="d364992e172">
+</th><th align="left" id="d364989e172">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d364992e178">
+</th></tr></thead><tbody><tr><td id="d364989e178">
 
 **AI agent**
 
@@ -60,7 +60,7 @@ Description
 3.  Combine multiple conditions with **and** or **or**, or select **Add group** for another set of conditions.
 
 
-</td></tr><tr><td id="d364992e220">
+</td></tr><tr><td id="d364989e220">
 
 **Model**
 
@@ -70,7 +70,7 @@ Description
 2.  Enter one or more models in a comma-separated list.
 
 
-</td></tr><tr><td id="d364992e241">
+</td></tr><tr><td id="d364989e241">
 
 **Domain**
 

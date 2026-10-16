@@ -104,7 +104,7 @@ Role required: admin, sn\_cbs.admin
 
 9.  Configure notifications sent through Email, Portal, and Workspace to users about submitted or assigned requests.
 
-    -   To create an email notifications, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateANotification.md).
+    -   To create an email notifications, see .
     -   To create Portal or Workspace notifications, see [Trigger conditions form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/notif-trigger-form.md).
 10. After you finish all configuration steps, select **Mark as configured**.
 

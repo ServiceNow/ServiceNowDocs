@@ -33,15 +33,15 @@ Role required: sn\_ai\_asset\_mgmt.ai\_asset\_owner or sn\_ai\_governance.ai\_st
 
 4.  Resolve the recommendation using AI automation, AI review, or resolve the issue yourself.
 
-<table><thead><tr><th align="left" id="d63877e111">
+<table><thead><tr><th align="left" id="d63875e111">
 
 Option
 
-</th><th align="left" id="d63877e114">
+</th><th align="left" id="d63875e114">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d63877e120">
+</th></tr></thead><tbody><tr><td id="d63875e120">
 
 **Automate using AI**
 
@@ -52,7 +52,7 @@ Description
 3.  Monitor progress in the side panel. The **Focused** view shows the steps the agent is taking and the estimated time to complete. The recommendation status moves to **In progress** while the agent runs and to **Complete** when the agent is finished.
 
 
-</td></tr><tr><td id="d63877e156">
+</td></tr><tr><td id="d63875e156">
 
 **Review with AI**
 
@@ -62,7 +62,7 @@ Description
 2.  Close the conversation when the agent reports that the recommendation is resolved. The recommendation status moves to **Complete**.
 
 
-</td></tr><tr><td id="d63877e177">
+</td></tr><tr><td id="d63875e177">
 
 **Open**
 

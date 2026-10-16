@@ -112,7 +112,7 @@ App Engine Studio
 
 -   **PDF Extractor tool \(table creation from PDFs\)**
 
-The PDF Extractor tool that enables table creation from PDFs in App Engine Studio is deprecated starting in the Brazil release. To create tables from PDFs, you can migrate your application to Build Agent. For more information, see .
+The PDF Extractor tool that enables table creation from PDFs in App Engine Studio is deprecated starting in the Brazil release. To create tables from PDFs, you can migrate your application to Build Agent. For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-agent.md).
 
 
 </td></tr><tr><td>
@@ -570,20 +570,20 @@ ServiceNow Otto for Virtual Agent
 
 -   **Agentic support page**
 
-The **Agentic support** page has been deprecated for ServiceNow Otto for Virtual Agent and ServiceNow Otto panel - Platform. There is no loss of functionality previously provided by the **Agentic support** page. By default, all existing assistants operate in agentic mode. The **Prioritize AI agents during skills discovery** option is available when configuring additional chat features.
+The **Agentic support** page has been deprecated for ServiceNow Otto for Virtual Agent and ServiceNow Otto panel - Platform. There is no loss of functionality previously provided by the **Agentic support** page. By default, all existing assistants operate in agentic mode. The **Prioritize AI agents during skills discovery** option is available when configuring [additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/additional-chat-features.md).
 
 
--   **Deprecation of Virtual Agent for NLU and keywords**
+-   **[Deprecation of Virtual Agent for NLU and keywords](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent-landing-page-nlu.md)**
 
 Starting with the Brazil release, Virtual Agent for NLU and Virtual Agent Lite are being prepared for future deprecation. They will eventually be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
--   **Deprecation of Virtual Agent channel integrations applications**
+-   **[Deprecation of Virtual Agent channel integrations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/integrate-virtual-agent-nlu.md)**
 
 Starting with the Brazil release, the following Virtual Agent channel integration applications are being prepared for future deprecation:
 
-    -   Conversational Integration with Alexa
-    -   Conversational IVR with Amazon Connect
-    -   IBM Watson Assistant conversations
+    -   [Conversational Integration with Alexa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/conv-integ-alexa.md)
+    -   [Conversational IVR with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/va-ivr-voice.md)
+    -   [IBM Watson Assistant conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/va-ibm-watson-assistant-config.md)
 They will eventually be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 -   **[Now LLM Service deprecation notice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-llm-model-updates.md)**
@@ -608,7 +608,7 @@ The Experience switcher has been removed from ServiceNow Studio. ServiceNow IDE 
 
 -   **Tools tab**
 
-The Tools tab has been removed from the ServiceNow Studio home page, with no replacement. For links to documentation for each development tool, see .
+The Tools tab has been removed from the ServiceNow Studio home page, with no replacement. For links to documentation for each development tool, see [Integrated development tools for ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/integrated-development-tools.md).
 
 -   **Create menu**
 

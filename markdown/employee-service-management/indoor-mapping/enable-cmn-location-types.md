@@ -52,7 +52,7 @@ Role required: admin
 
 9.  Select **Indoor Mapping**.
 
-    \[Omitted image "31b06fce06fe0f0879319f4c6157f5066c736223.png"\] Alt text: Application scope changed to Indoor MMapping.
+    \[Omitted image "4761c529808e13ca1a249ceee1eeef7f2ee7fedf.png"\] Alt text: Application scope changed to Indoor MMapping.
 
 10. Navigate to the **All** &gt; **Indoor Mapping** &gt; **Place types** table.
 

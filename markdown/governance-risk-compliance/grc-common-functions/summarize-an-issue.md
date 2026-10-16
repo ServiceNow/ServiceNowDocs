@@ -76,7 +76,7 @@ Select the information icon \(\[Omitted image "icon-more-info.png"\] Alt text: I
 
 </td><td>
 
-Select the expand icon \(\[Omitted image "1359f0820edb015bf9a07a974954c3a7e4bba5ea.png"\] Alt text: Expand icon.\) or collapse icon \(\[Omitted image "94e89fa3fcd2fd8b5bf89b6b1ba9b007c36cadfd.png"\] Alt text: Collapse icon.\) next to Share to work notes to expand or collapse the summary.
+Select the expand icon \(\[Omitted image "bf643225ee69308f886146a34a1c345fe8d00524.png"\] Alt text: Expand icon.\) or collapse icon \(\[Omitted image "81d1e28858415fa38af591a50a38ab88d3deeeef.png"\] Alt text: Collapse icon.\) next to Share to work notes to expand or collapse the summary.
 
 </td></tr><tr><td id="d180866e214">
 
@@ -84,7 +84,7 @@ Select the expand icon \(\[Omitted image "1359f0820edb015bf9a07a974954c3a7e4bba5
 
 </td><td>
 
-Select the helpful icon \(\[Omitted image "0770bcf2ec3103e8b027eeab0eddd1ec0270fc84.png"\] Alt text: Helpful icon.\) for positive feedback. Select the not helpful icon \(\[Omitted image "008c03a70062904ececacc6eac173689052fb804.png"\] Alt text: Not helpful icon.\) if the summary wasn't helpful.
+Select the helpful icon \(\[Omitted image "0f4f761bb302a42febaf1326bbad7122d4b4f595.png"\] Alt text: Helpful icon.\) for positive feedback. Select the not helpful icon \(\[Omitted image "0fe51378e8a0ed386fd2302e4f87570499828fd7.png"\] Alt text: Not helpful icon.\) if the summary wasn't helpful.
 
  **Note:** Feedback improves the generative AI model and can help to improve future versions of this skill.
 
@@ -94,7 +94,7 @@ Select the helpful icon \(\[Omitted image "0770bcf2ec3103e8b027eeab0eddd1ec0270f
 
 </td><td>
 
-Select the copy icon \(\[Omitted image "b4c3211d08fa1fec983aab14a5a10fc78925e5a9.png"\] Alt text: Copy icon.\) to copy the summary to the clipboard.
+Select the copy icon \(\[Omitted image "dda1b3ea328d00d95b9536eb265cf670c825d09d.png"\] Alt text: Copy icon.\) to copy the summary to the clipboard.
 
 </td></tr><tr><td id="d180866e260">
 

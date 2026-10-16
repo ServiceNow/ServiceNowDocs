@@ -504,6 +504,6 @@ Available agentic workflows
 
 |Product|Available agentic workflows|
 |-------|---------------------------|
-|[Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-agent.md)|[Create in-app agents, skills, and workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/create-custom-ai-agent.md)|
-|[ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-creator-landing.md)|[Create a theme using ServiceNow Otto®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/create-theme-now-assist.md)|
+|Build Agent|Create in-app agents, skills, and workflows|
+|ServiceNow Otto for Creator|[Create a theme using ServiceNow Otto®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/create-theme-now-assist.md)|
 

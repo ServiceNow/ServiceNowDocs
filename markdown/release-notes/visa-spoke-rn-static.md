@@ -21,7 +21,7 @@ The ServiceNow® Visa Spoke application enables ServiceNow AI Platform to connec
 -   Connect with Visa's REST APIs to manage card disputes with VROL.
 -   Perform transaction inquiries, order digital insights, collaborate with merchants, and handle other dispute events with enhanced security through Visa spoke actions.
 
-See  for more information.
+See [Visa Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/visa-spoke.md) for more information.
 
 ## Activation and other requirements
 

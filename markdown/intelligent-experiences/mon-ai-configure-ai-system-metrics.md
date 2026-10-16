@@ -36,15 +36,15 @@ The metrics evaluated for an AI system come from your organization's global metr
 
     **Important:** Adding more metrics increases the visibility you gain into each session, but also increases assist usage to evaluate it. Select the metrics that give you the insight you need.
 
-<table id="choicetable_configure_metrics"><thead><tr><th align="left" id="d351197e166">
+<table id="choicetable_configure_metrics"><thead><tr><th align="left" id="d351194e166">
 
 Scenario
 
-</th><th align="left" id="d351197e169">
+</th><th align="left" id="d351194e169">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d351197e175">
+</th></tr></thead><tbody><tr><td id="d351194e175">
 
 **Configuring for the first time**
 
@@ -55,7 +55,7 @@ Steps
 3.  Select the check box next to each metric that you want to evaluate for this AI system.
 
 
-</td></tr><tr><td id="d351197e211">
+</td></tr><tr><td id="d351194e211">
 
 **Modifying an existing configuration**
 

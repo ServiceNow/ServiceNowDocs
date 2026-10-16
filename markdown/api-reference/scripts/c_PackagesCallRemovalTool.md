@@ -7,7 +7,7 @@ release: brazil
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 14
 breadcrumb: [Debug scripts, Scripting, API implementation, API implementation and reference]
 ---

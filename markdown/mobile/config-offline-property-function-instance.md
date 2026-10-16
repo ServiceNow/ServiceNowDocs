@@ -34,15 +34,15 @@ Function instances define the location of the function within the screen. For ex
 
 3.  Select one of the following methods to access a function instance.
 
-<table><thead><tr><th align="left" id="d83702e98">
+<table><thead><tr><th align="left" id="d83929e98">
 
 Method
 
-</th><th align="left" id="d83702e101">
+</th><th align="left" id="d83929e101">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d83702e107">
+</th></tr></thead><tbody><tr><td id="d83929e107">
 
 **From an existing screen**
 
@@ -54,7 +54,7 @@ Procedure
 
 **Note:** The default value of the **Disable Offline** field is turned off.
 
-</td></tr><tr><td id="d83702e136">
+</td></tr><tr><td id="d83929e136">
 
 **From the function instance table**
 

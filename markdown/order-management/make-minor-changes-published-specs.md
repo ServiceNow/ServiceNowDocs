@@ -115,7 +115,7 @@ Order
 
     3.  On the form, fill in the fields.
 
-        For a description of form fields, see [9626a5d4c5b87f7d0f86345c40d7750688bdd05d.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-specification-rels.md).
+        For a description of form fields, see [005478a3a2e11faa3db0f470995a2f6c04a61581.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-specification-rels.md).
 
         The **Mandatory** and **Default** options are disabled.
 

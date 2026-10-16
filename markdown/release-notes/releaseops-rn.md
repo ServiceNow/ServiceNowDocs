@@ -23,7 +23,7 @@ The ServiceNow® ReleaseOps application enables you to deploy and validate code 
 -   Schedule releases for routine updates or trigger on-demand releases to fast-track patches and hotfixes.
 -   Resolve deployment issues efficiently with auto-generated deployment tasks that are assigned to the right stakeholders.
 
-See  for more information.
+See [ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops-landing.md) for more information.
 
 ## Activation and other requirements
 

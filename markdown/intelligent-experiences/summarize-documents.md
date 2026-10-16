@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/summarize-documents.html
 release: brazil
 topic_type: task
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 1
 breadcrumb: [Content insights AI agent, Use, Content Understanding, Generative AI skills, Enable AI Experiences]
 ---

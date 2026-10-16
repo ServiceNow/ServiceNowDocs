@@ -7,7 +7,7 @@ release: brazil
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: task
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 1
 breadcrumb: [Default data discovery job, Default data privacy configurations, Data Privacy, Platform Privacy]
 ---

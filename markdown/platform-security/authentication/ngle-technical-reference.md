@@ -7,7 +7,7 @@ release: brazil
 product: Authentication
 classification: authentication
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 1
 keywords: [NGLE technical reference, login routes, policy\_based\_login\_experience.enabled]
 breadcrumb: [IFL policy field reference, Authentication Console, Authentication, Access Management]

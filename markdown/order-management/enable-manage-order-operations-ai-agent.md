@@ -65,5 +65,7 @@ Customize the subject, content, or formatting of the default email templates for
 
 [AI Agent Studio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-agent-studio.md)
 
-[bundle-convint.promote-demote-va-topics]
+[Promote or demote LLM conversational subflows, actions, and topics in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/promote-demote-va-topics.md)
+
+[Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/vad-topics-page.md)
 

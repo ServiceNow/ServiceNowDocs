@@ -16,7 +16,7 @@ Give users the option to use their voice when interacting with the ServiceNow Ot
 
 ## Before you begin
 
-**Note:** Voice input is automatically activated when the ServiceNow Otto panel is activated. As of the Zurich Patch 4 release, voice input is configured in [Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/additional-chat-features.md) and not with this option.
+**Note:** Voice input is automatically activated when the ServiceNow Otto panel is activated. As of the Zurich Patch 4 release, voice input is configured in  and not with this option.
 
 You must have installed at least one ServiceNow Otto application with a skill that uses the ServiceNow Otto panel. See [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-panel-overview.md) for more information about supported skills.
 

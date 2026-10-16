@@ -135,7 +135,7 @@ The benefit of using the approval assistance AI agent is that you don't need to 
 
 Ask you administrator to configure the display fields and the knowledge base \(KB\) search fields to generate a Gen AI checklist to assist the approval assistance AI agent in making targeted decisions. The checklist uses KB articles and policies to assist the agent in decision making. The checklist fetches information from knowledge base articles about specific requester approval tickets. An approval\_admin and admin role are required to configure the agent. For more information, see [Configure Service Portal Approval Configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/configure-approval-assistance-ai-agent.md).
 
-**Note:** Provide cross-scope privileges to the Requester Agents - Foundation plugin for tables whose records are restricted within the scope of an application. For more information, see [Define cross-scope access to an application resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/set-RCA-level.md).
+**Note:** Provide cross-scope privileges to the Requester Agents - Foundation plugin for tables whose records are restricted within the scope of an application. For more information, see .
 
 ### Prerequisites and setup
 

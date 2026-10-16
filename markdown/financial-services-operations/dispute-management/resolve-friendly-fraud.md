@@ -87,15 +87,15 @@ For information on modifying the agentic workflow, see [Configure agentic workfl
 
     -   If you're working with the AI agent, in the chat, enter the number corresponding to your decision.
     -   If you're not working with the AI agent, select one of the following options directly on the form.
-<table id="choicetable_z24_15n_52c"><thead><tr><th align="left" id="d112346e323">
+<table id="choicetable_z24_15n_52c"><thead><tr><th align="left" id="d112373e323">
 
 Action
 
-</th><th align="left" id="d112346e326">
+</th><th align="left" id="d112373e326">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d112346e332">
+</th></tr></thead><tbody><tr><td id="d112373e332">
 
 **Decline dispute transaction**
 
@@ -105,7 +105,7 @@ Result
 2.  The next activity **Customer communication** is displayed. See [Manage customer communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/resolve-fraud-customer-communication.md).
 
 
-</td></tr><tr><td id="d112346e362">
+</td></tr><tr><td id="d112373e362">
 
 **Issue credit and write-off**
 
@@ -119,7 +119,7 @@ The **Issue credit** activity is displayed.
 3.  Provide the final credit and select **Close task**. The task is marked as **Closed Complete.**
 .
 
-</td></tr><tr><td id="d112346e398">
+</td></tr><tr><td id="d112373e398">
 
 **Proceed with dispute**
 

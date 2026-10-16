@@ -30,7 +30,7 @@ In this stage, you can perform a what-if analysis by including or excluding dema
 
 2.  In the [planning view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-management/demands-projects-view-port-workbench.md) of portfolio workbench.
 
-<table id="choicetable_gqr_bgj_nx"><tbody><tr><td id="d204255e90">
+<table id="choicetable_gqr_bgj_nx"><tbody><tr><td id="d204366e90">
 
 **In Bubble Chart**
 
@@ -41,7 +41,7 @@ Right-click and select:-   **View demand** to open and view the [demand form](ht
 -   **Remove** to exclude a demand from portfolio planning.
 
 
-</td></tr><tr><td id="d204255e124">
+</td></tr><tr><td id="d204366e124">
 
 **In Timeline View**
 

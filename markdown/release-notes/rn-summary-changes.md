@@ -248,13 +248,13 @@ Agent experience for CSM
 
 </td><td>
 
--   **Name change for CSM/FSM Configurable Workspace**
+-   **[Name change for CSM/FSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-config-ws-base-experience.md#section_cjb_ama_ljc)**
 
 The name of the CSM/FSM Configurable Workspace has changed. The workspace name is dependent on the installed products.
 
     -   CRM Workspace: For customers using the Customer Service Management application or working in the Customer Relationship Management \(CRM\) environment.
     -   Industry-specific names: For customers using any of the industry products, such as Financial Services or Public Sector.
--   **ServiceNow Otto for Customer Service Management \(CSM\)**
+-   **[ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-csm.md)**
 
 Starting with Zurich Patch 12, ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Customer Service Management \(CSM\). Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 
@@ -319,7 +319,7 @@ The Test Agent settings for Autonomous Engineer are enabled by default.
 The input field for Build Agent and Autonomous Engineer prompts and instructions now expands to accommodate longer text entries.
 
 
--   **Build Agent in ServiceNow Studio UI updates**
+-   **[Build Agent in ServiceNow Studio UI updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/access-build-agent.md)**
 
 Several changes have been made to how you access Build Agent in ServiceNow Studio:
 
@@ -505,11 +505,11 @@ Customer self-service for Sales Customer Relationship Management
 
 </td><td>
 
--   **Order number in the submit order response**
+-   **[Order number in the submit order response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/sales-cart-api.md)**
 
 Reference a new order in downstream systems without a follow-up call to retrieve its number. Previously, the /sn\_sales\_cart/sales\_cart/\{cart\_id\}/submitOrder response returned only the order ID, so external ordering systems had to query the order record separately to obtain the order number. Now, the response returns the order number alongside the order ID.
 
--   **Product offering eligibility validation when creating a cart**
+-   **[Product offering eligibility validation when creating a cart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/sales-cart-api.md)**
 
 Prevent ineligible product offerings from reaching order submission by validating them as the cart is created.
 
@@ -551,13 +551,13 @@ Add service organizations as buyers on install base records to control access to
 
 Gain write access to the Assignment group and Assigned to field, and read access to the Priority field, on business organization project tasks with the Location Project Member \[sn\_bus\_loc.location\_project\_stakeholder\] or Location Project Manager Contributor \[sn\_bus\_loc.location\_manager\_project\_stakeholder\] role.
 
--   **Billing account roles and responsibility access**
+-   **[Billing account roles and responsibility access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/granular-roles-and-supported-entities-CAM.md)**
 
 Updated billing account roles and responsibility access to align with the expanded billing account capabilities. Extended access to Billing Account Address, Billing Account Payment Profile, and Billing Schedule \(schedule and schedule entry\) through:
 
     -   Billing Account platform granular and CRM granular roles
     -   Billing Account responsibilities through the customer access management \(CAM\) framework
--   ****
+-   **[Create a sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-sold-item.md)**
 
 Edit and view multiple related parties in the sold product enable users to review the details of a deal and review deal context without leaving the record. **Deal type** and **Route to Market** aren't captured on the sold product, with route to market options filtered automatically based on the selected deal type.
 
@@ -827,26 +827,26 @@ Enterprise Architecture
 
 </td><td>
 
--   **Business application insights trigger**
+-   **[Business application insights trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/generate-insights-into-ba.md)**
 
 Choose how the ServiceNow Otto Business application insights skill is triggered on the **Define trigger** tab in the AI Admin Hub. With the **Automatic** option selected, business application insights are generated when you open a business application record page, and the side panel in the application rationalization bubble chart opens on the **Insights** tab.
 
 With the **User trigger** option selected, business application insights are generated only when you select **Generate insights**, and the side panel opens on the **Details** tab.
 
--   **Enterprise Architecture query agent**
+-   **[Enterprise Architecture query agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/ea-qna-overview.md)**
 
 Ask the Enterprise Architecture query agent about the impact of an infrastructure configuration item \(CI\), such as a database, database instance, server, or storage device. The agent follows CMDB relationships from the CI to the application services, business applications, and business capabilities that depend on it. You can also ask which infrastructure a business application or application service depends on.
 
--   **ServiceNow Otto for Enterprise Architecture skills**
+-   **[ServiceNow Otto for Enterprise Architecture skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/exploring-now-assist-for-ea.md)**
 
 Use the Gemma 4 model with ServiceNow Otto for Enterprise Architecture skills that run on the Now LLM Service.
 
--   **Technical debt list and form**
+-   **[Technical debt list and form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/view-trm-tech-debt.md)**
 
 View the new **Number** field in the technical debt list and form. Select a value in the **Number** column in the Technology Portfolio page to open the technical debt record.
 
 
--   **Domain separation for AI Control Tower integration with business applications**
+-   **[Domain separation for AI Control Tower integration with business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-aict.md)**
 
 Enterprise Architecture Workspace now supports domain separation for AI system associations with business applications. On domain-separated instances, the business applications available for association reflect the domain hierarchy: you can associate applications in the global domain and in your current domain, and viewing the association from a parent domain shows the AI system associations created in that domain and in all of its child domains.
 
@@ -1475,7 +1475,7 @@ Performance Analytics
 
 </td><td>
 
--   **Create indicators on Workflow Data Fabric tables**
+-   **[Create indicators on Workflow Data Fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/data-fabric-tables-zcc.md)**
 
 Create classic automated indicators on external data via Workflow Data Fabric. Use Workflow Data Fabric tables in indicator sources just as you would any other facts tables.
 
@@ -1636,11 +1636,11 @@ Product Catalog Management
 
 </td><td>
 
--   **Catalog filtering for the eligible catalog-category hierarchy**
+-   **[Catalog filtering for the eligible catalog-category hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/product-catalog-search-api.md)**
 
 Retrieve only the catalog you need when loading the eligible catalog-category hierarchy. Previously, the response included the complete hierarchy for all eligible catalogs, even when a catalog was specified in the **selectedCatalog** parameter. Now, when you specify a catalog, the response includes only that catalog and its category hierarchy. The default value, `allCatalog`, still returns the complete hierarchy.
 
--   **Optional product details in catalog search results**
+-   **[Optional product details in catalog search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/product-catalog-search-api.md)**
 
 Reduce response size and processing time by requesting only the product details your integration needs.
 
@@ -1671,7 +1671,7 @@ New columns have been added to the Product Catalog Management tables to enable n
     -   Effective from column has been added to the Product Offering Relationship \[sn\_prd\_pm\_product\_offering\_relationship\] and Specification Relationship \[sn\_prd\_pm\_specification\_relationship\] tables.
     -   Order column has been added to the Catalog Category \[sn\_prd\_pm\_catalog\_category\_relationship\] and Product Offering Catalog \[sn\_prd\_pm\_product\_offering\_catalog\] tables.
     -   Display Order column has been added to the Product Offering \[sn\_prd\_pm\_product\_offering\] table
--   **Product offering family in catalog search results**
+-   **[Product offering family in catalog search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/product-catalog-search-api.md)**
 
 Identify the product offering family of each search result without a separate lookup. Previously, the catalog search REST API response didn't include the product offering family. Now, the response returns the **productOfferingFamily** object for each product offering, whether or not AI Search is turned on.
 
@@ -1898,7 +1898,7 @@ Self-service and omnichannel engagement for CSM
 
 </td><td>
 
--   ****
+-   **[Usage calculation of self-service experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-portal-user-sessions-timeouts_2.md)**
 
 Get more accurate portal usage data with an updated analytics definition that eliminates double-counting of guest user sessions.
 
@@ -1973,11 +1973,11 @@ Configure choice fields to display either None or --None-- for empty options usi
 
 Control how the system invalidates Restricted Caller Access records when a source code record, such as a script include, in a cross-scope access table is committed in an update set with the glide.sys.fencing.restricted\_caller\_access.invalidation\_mode system property. By default, a database listener monitors update set commits on source code tables and invalidates RCA records at the time of the commits so that cross-scope access is based on the latest source code updates.
 
--   **ECMAScript 2021 \(ES12\) JavaScript mode supports additional scripting features**
+-   **[ECMAScript 2021 \(ES12\) JavaScript mode supports additional scripting features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/javascript-engine-feature-support.md)**
 
 Use additional scripting features in applications or scripts that use the ECMAScript 2021 \(ES12\) JavaScript mode.
 
--   **JavaScript engine updated with changes from the Rhino engine**
+-   **[JavaScript engine updated with changes from the Rhino engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/updates-javascript-engine.md)**
 
 The JavaScript engine on the ServiceNow AI Platform was updated to incorporate changes from the open-source Rhino JavaScript engine.
 
@@ -2018,24 +2018,24 @@ ServiceNow Otto for Virtual Agent
 
 </td><td>
 
--   ****
+-   **[Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/additional-chat-features.md)**
 
 The **Prioritize AI agents during skills discovery** option is available when configuring additional chat features. Because all assistants now use agentic orchestration by default, AI agent skills are available during skills discovery. Turning on this option gives AI agents priority over other assets \(such as knowledge bases and Q&amp;A modules\) when the assistant discovers skills. If your assistant has overlapping skills \(for example, a knowledge base article and an AI agent that both answer the same question\), this setting lets you decide which one is prioritized, so you can steer users toward the AI agent experience instead of a static article.
 
--   ****
+-   **[ServiceNow® Otto for Virtual Agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/nava-sys-props.md)**
 
-The **sn\_nowassist\_va.assistant\_personalization** system property is removed from the admin experience. This property previously let admins show or hide chat personalization options \(agent persona, tone, and response length\) when branding an assistant. By default, all settings are shown.
+The **sn\_nowassist\_va.assistant\_personalization** system property is removed from the admin experience. This property previously let admins show or hide chat personalization options \(agent persona, tone, and response length\) when [branding an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/brand-assistant.md). By default, all settings are shown.
 
 
 -   ****
 
 Role-based configuration is no longer stored or managed within Assistant Designer.
 
--   **Upload files improvements**
+-   **[Upload files improvements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/upload-documents-na-va.md)**
 
 Upload up to 10 files or 50 MB for the following file types: PDF native, PDF OCR, Word, PPTX, Excel, CSV, TXT, JPEG, PNG for premium chat in ServiceNow Otto for Virtual Agent and Otto panel.
 
--   **Updated ServiceNow Otto processing animation**
+-   **[Updated ServiceNow Otto processing animation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/nava-integrated-chat.md)**
 
 View an updated ServiceNow Otto processing animation.
 
@@ -2046,16 +2046,16 @@ ServiceNow Studio
 
 </td><td>
 
--   ****
+-   **[Managing application and record changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/managing-application-and-record-changes.md)**
 
 Update sets and changes linked to source control both display in the Changes tab, with clear tracking paths for both options and support for simultaneous update set and source control use.
 
 
--   ****
+-   **[ServiceNow Studio settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-settings.md)**
 
 ServiceNow Studio user preferences and settings have moved from the top right corner to the bottom left corner of the interface. View what's new in ServiceNow Studio, access command palette and keyboard shortcut options, and update preferences.
 
--   **App summary generation moves to an agentic architecture**
+-   **[App summary generation moves to an agentic architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/sns-exploring-now-assist-app-summarize.md)**
 
 ServiceNow Otto for app summary generation now uses an AI agent to generate application summaries. This change moves the App summary generation from a skill-based architecture to the AI agent orchestration model.
 
@@ -2453,11 +2453,11 @@ Zero Copy Connectors
 
 -   **MySQL connector moved to Primary with Preview label**
 
-The  connector moved from the Community connector list to the Primary connector list. This connector is available with a **Preview** label, indicating that performance enhancements are ongoing.
+The [MySQL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/mysql-zcc.md) connector moved from the Community connector list to the Primary connector list. This connector is available with a **Preview** label, indicating that performance enhancements are ongoing.
 
 -   **PostgreSQL connector moved to Primary**
 
-The  connector moved from the Community connector list to the Primary connector list.
+The [PostgreSQL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/postgresql-zcc.md) connector moved from the Community connector list to the Primary connector list.
 
 
 </td></tr></tbody>

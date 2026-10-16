@@ -52,7 +52,7 @@ Data snapshots indicators now support bucket groups and calculated date fields.
 
 ### What's changed
 
--   **Create indicators on Workflow Data Fabric tables**
+-   **[Create indicators on Workflow Data Fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/data-fabric-tables-zcc.md)**
 
     Create classic automated indicators on external data via Workflow Data Fabric. Use Workflow Data Fabric tables in indicator sources just as you would any other facts tables.
 

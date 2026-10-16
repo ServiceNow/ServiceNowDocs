@@ -7,7 +7,7 @@ release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: concept
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 2
 keywords: [maturity assessment, questionnaire, Impact, accelerator]
 breadcrumb: [Self-serve Accelerator fulfillment process, Request Accelerators and Initiatives, Accelerators and Initiatives, Using Impact, Impact]

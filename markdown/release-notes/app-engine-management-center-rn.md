@@ -22,7 +22,7 @@ The ServiceNow® App Engine Management Center application provides an innovative
 -   View insights into custom app production and usage across your organization.
 -   Analyze individual developer trends and contributions.
 
-See  for more information.
+See [App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center.md) for more information.
 
 ## Activation and other requirements
 
@@ -39,7 +39,7 @@ App Engine Management Center \(AEMC\) was enhanced and updated in the October 20
 
 ### What's new
 
--   ****
+-   **[Assign Developer Sandboxes packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/assign-dsb-packs-aemc.md)**
 
     Assign Developer Sandboxes packs inside AEMC. You can see how many free, purchased, and unassigned sandbox packs you have entitlements for. You can also see which instances already have sandbox packs assigned to them and whether the packs include free sandboxes.
 

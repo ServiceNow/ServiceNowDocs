@@ -46,11 +46,11 @@ Retrieve smaller, more targeted responses from the Product Catalog Search REST A
 
 ### What's changed
 
--   **Catalog filtering for the eligible catalog-category hierarchy**
+-   **[Catalog filtering for the eligible catalog-category hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/product-catalog-search-api.md)**
 
     Retrieve only the catalog you need when loading the eligible catalog-category hierarchy. Previously, the response included the complete hierarchy for all eligible catalogs, even when a catalog was specified in the **selectedCatalog** parameter. Now, when you specify a catalog, the response includes only that catalog and its category hierarchy. The default value, `allCatalog`, still returns the complete hierarchy.
 
--   **Optional product details in catalog search results**
+-   **[Optional product details in catalog search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/product-catalog-search-api.md)**
 
     Reduce response size and processing time by requesting only the product details your integration needs.
 
@@ -112,7 +112,7 @@ Validate catalog changes before publishing, control when a published offering be
     -   Effective from column has been added to the Product Offering Relationship \[sn\_prd\_pm\_product\_offering\_relationship\] and Specification Relationship \[sn\_prd\_pm\_specification\_relationship\] tables.
     -   Order column has been added to the Catalog Category \[sn\_prd\_pm\_catalog\_category\_relationship\] and Product Offering Catalog \[sn\_prd\_pm\_product\_offering\_catalog\] tables.
     -   Display Order column has been added to the Product Offering \[sn\_prd\_pm\_product\_offering\] table
--   **Product offering family in catalog search results**
+-   **[Product offering family in catalog search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/product-catalog-search-api.md)**
 
     Identify the product offering family of each search result without a separate lookup. Previously, the catalog search REST API response didn't include the product offering family. Now, the response returns the **productOfferingFamily** object for each product offering, whether or not AI Search is turned on.
 

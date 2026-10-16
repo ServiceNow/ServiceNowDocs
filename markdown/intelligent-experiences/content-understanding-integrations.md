@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/content-understanding-integrations.html
 release: brazil
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 1
 breadcrumb: [Reference, Content Understanding, Generative AI skills, Enable AI Experiences]
 ---
@@ -24,7 +24,7 @@ Content Understanding connects with the following ServiceNow products and capabi
 |Accounts Payable Operations \(APO\)|Invoice data extraction. Extract invoice details from PDFs submitted through email or supplier portal and automatically process the digitized invoice within Accounts Payable Operations \(APO\).|[ServiceNow Otto for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/now-assist-apo.md)|
 |Operational Sustainability Management \(formerly ESG Management\)|ESG information extraction. Extract ESG-related information from invoices to support Operational Sustainability Management \(ESG\) initiatives and regulatory compliance.|[Filter citations documents for Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/filter-citations-and-authority-documents-for-esg.md).|
 |IT Service Management \(ITSM\)|Attachment summarization. Agents can view a summary of attachment content along with the record summary in ITSM. Attachment summarization is available in Now Assist for ITSM.|[Customize a ServiceNow Otto for IT Service Management \(ITSM\) skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/cust-now-assist-itsm-skill.md)|
-|ServiceNow Otto for Virtual Agent|Document chat. Agents can receive chat responses based on document content. Document chat is available in ServiceNow Otto for Virtual Agent.|[Upload documents in a chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/upload-documents-na-va.md)|
+|ServiceNow Otto for Virtual Agent|Document chat. Agents can receive chat responses based on document content. Document chat is available in ServiceNow Otto for Virtual Agent.||
 
 **Parent Topic:**[Content Understanding Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/content-understanding-reference.md)
 

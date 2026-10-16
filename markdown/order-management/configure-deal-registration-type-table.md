@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configure-deal-registration-type-table.html
 release: brazil
 topic_type: task
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 1
 breadcrumb: [Data model for Deal Registration Management, Deal Registration, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---

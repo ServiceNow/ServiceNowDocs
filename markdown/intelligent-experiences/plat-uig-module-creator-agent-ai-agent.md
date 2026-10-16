@@ -123,7 +123,7 @@ Used in agentic workflows
 Not applicable.
 
 </td></tr></tbody>
-</table>Learn more about ServiceNow Otto for Creator at [ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-creator-landing.md).
+</table>Learn more about ServiceNow Otto for Creator at .
 
 **Parent Topic:**[ServiceNow Otto for Creator AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platform-creator-ai-agents-overview.md)
 

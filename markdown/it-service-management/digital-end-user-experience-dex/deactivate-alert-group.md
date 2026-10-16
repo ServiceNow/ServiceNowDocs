@@ -7,7 +7,7 @@ release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 1
 keywords: [deactivate alert grouping, alert correlation rule, individual alert visibility, alert grouping]
 breadcrumb: [DEX Alerts, Monitor application performance, Manage employee experience, Digital End-User Experience, IT Service Management]

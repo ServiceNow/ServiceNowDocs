@@ -40,7 +40,7 @@ From the asset library, asset types are created by opening their respective appl
 
 -   Create Virtual Agent assets with Assistant Designer, including topics, virtual assistants, subflows, and actions.
 
-    For more information, see [Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/assistant-designer.md).
+    For more information, see .
 
 -   Create custom skills with AI Skill Kit.
 

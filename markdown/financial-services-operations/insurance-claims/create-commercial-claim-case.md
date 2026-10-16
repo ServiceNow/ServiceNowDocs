@@ -28,15 +28,15 @@ Role required: sn\_ins\_claim\_cml.fnol\_representative or sn\_ins\_claim\_cml.a
 
 3.  Create a case from the commercial auto claim cases list or an interaction record.
 
-<table><thead><tr><th align="left" id="d110986e85">
+<table><thead><tr><th align="left" id="d111013e85">
 
 Option
 
-</th><th align="left" id="d110986e88">
+</th><th align="left" id="d111013e88">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d110986e94">
+</th></tr></thead><tbody><tr><td id="d111013e94">
 
 **Commercial auto claim case from the commercial auto claim case list**
 
@@ -46,7 +46,7 @@ Steps
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d110986e124">
+</td></tr><tr><td id="d111013e124">
 
 **Commercial auto claim case from an interaction record**
 

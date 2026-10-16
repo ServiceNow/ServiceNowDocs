@@ -45,5 +45,5 @@ To locate the asset, search your inventory for AICT Assistant.
 
 Bringing AICT Assistant under management applies the same governance to your conversational experience that you apply to the rest of your AI portfolio, including evaluation scoring, lifecycle stages, risk classification, and value tracking. Like other discovered ServiceNow AI assets, AICT Assistant arrives unmanaged. See [Managed and unmanaged AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/disc-ai-managed-unmanaged.md) and [Working with AI asset records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/disc-managing-ai-assets.md).
 
-You can edit or customize the AICT Assistant in Assistant Designer. See [Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/assistant-designer.md).
+You can edit or customize the AICT Assistant in Assistant Designer. See .
 
