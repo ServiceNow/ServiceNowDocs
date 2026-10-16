@@ -60,7 +60,7 @@ Users with the admin or report\_admin role can see if a report has been publishe
 
 [Report options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/t_CreateYourOwnReport.md)
 
-[Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/c_BusinessRules.md)
+[bundle-crapiref.c_BusinessRules]
 
 ## Unpublish a report
 

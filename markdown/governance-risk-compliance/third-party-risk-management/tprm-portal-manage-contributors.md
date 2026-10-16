@@ -38,15 +38,15 @@ Only the current questionnaire owner can use the **Manage Contributors** and **R
 
 3.  Choose the action based on what you need to do.
 
-<table id="choicetable_contributor_actions"><thead><tr><th align="left" id="d376585e92">
+<table id="choicetable_contributor_actions"><thead><tr><th align="left" id="d376433e92">
 
 Goal
 
-</th><th align="left" id="d376585e95">
+</th><th align="left" id="d376433e95">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d376585e101">
+</th></tr></thead><tbody><tr><td id="d376433e101">
 
 **Add or remove contributors**
 
@@ -54,7 +54,7 @@ Steps
 
 In the right panel under **Contributors**, select **Manage**. In the **Manage contributors** dialog, select contacts to add or remove, then select **Save and close**. Use **Sectional access** to assign contacts to specific sections of the questionnaire only.
 
-</td></tr><tr><td id="d376585e128">
+</td></tr><tr><td id="d376433e128">
 
 **Transfer questionnaire ownership**
 

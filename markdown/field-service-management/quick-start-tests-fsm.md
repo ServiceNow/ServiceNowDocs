@@ -445,5 +445,5 @@ Zurich
 </table>**Related topics**  
 
 
-[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/quick-start-tests.md)
+[bundle-cadev.quick-start-tests]
 

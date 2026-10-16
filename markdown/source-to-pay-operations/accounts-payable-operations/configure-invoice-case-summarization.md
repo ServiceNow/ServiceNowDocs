@@ -52,15 +52,15 @@ Install the Document Intelligence for Accounts Payable Operations Content Pack f
 
     6.  Select **Define Availability** and choose one of the following options.
 
-<table id="choicetable_rhm_hxq_1fc"><thead><tr><th align="left" id="d222304e251">
+<table id="choicetable_rhm_hxq_1fc"><thead><tr><th align="left" id="d222309e251">
 
 Option
 
-</th><th align="left" id="d222304e254">
+</th><th align="left" id="d222309e254">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d222304e260">
+</th></tr></thead><tbody><tr><td id="d222309e260">
 
 **Skill is always available**
 
@@ -68,7 +68,7 @@ Description
 
 The skill is always available to users.
 
-</td></tr><tr><td id="d222304e269">
+</td></tr><tr><td id="d222309e269">
 
 **Customize skill availability**
 
@@ -81,15 +81,15 @@ The skill is available only when the certain conditions are met \(default\).Use 
 
     2.  Choose **Select display** to determine where you'd like to display the skill.
 
-<table id="choicetable_fhc_qxq_1fc"><thead><tr><th align="left" id="d222304e305">
+<table id="choicetable_fhc_qxq_1fc"><thead><tr><th align="left" id="d222309e305">
 
 Option
 
-</th><th align="left" id="d222304e308">
+</th><th align="left" id="d222309e308">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d222304e314">
+</th></tr></thead><tbody><tr><td id="d222309e314">
 
 **In-product desktop**
 
@@ -97,13 +97,13 @@ Description
 
 Now Assist skills are displayed on forms and workspaces.
 
-</td></tr><tr><td id="d222304e325">
+</td></tr><tr><td id="d222309e325">
 
 **ServiceNow Otto panel**
 
 </td><td>
 
-ServiceNow Otto skills are available in the ServiceNow Otto panel. Turn on multi-language support for user-entered text with Dynamic Translation in ServiceNow Otto applications. For more information, see .**Note:** If you don't see this option, you must activate the ServiceNow Otto panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
+ServiceNow Otto skills are available in the ServiceNow Otto panel. Turn on multi-language support for user-entered text with Dynamic Translation in ServiceNow Otto applications. For more information, see [Configure multilingual service for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/enable-dynamic-translation-for-now-assist-applications.md).**Note:** If you don't see this option, you must activate the ServiceNow Otto panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 </td></tr></tbody>
 </table>5.  Select **Save and continue** to go to the next step.

@@ -31,7 +31,7 @@ Configure the Employee Center for Operational Technology \(OT\) so that you and 
 
 3.  Add more connected content to the Employee Center for OT.
 
-    You can optionally add content to the Industrial services topic page as needed for your organization. For more information about how to add content in the Employee Center, see [Add menu items to primary navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/add-menu-items.md).
+    You can optionally add content to the Industrial services topic page as needed for your organization. For more information about how to add content in the Employee Center, see .
 
 
 **Parent Topic:**[Employee Center for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/ot-employee-portal-landing.md)

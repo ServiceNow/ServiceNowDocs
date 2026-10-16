@@ -24,7 +24,7 @@ Action that stops the specified Amazon Web Services \(AWS\) Virtual Machine \(VM
 
 -   **Role requirements**
 
-    This action requires roles granted by delegated development or assigned to the user. For more information, see User access to Flow Designer.
+    This action requires roles granted by delegated development or assigned to the user. For more information, see [User access to Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/user-access-flow-designer.md).
 
 
 ## Cloud permission

@@ -33,7 +33,7 @@ ServiceNow Otto for SPO interprets conversational input, so you can phrase reque
 -   `I want to order a desk lamp`
 -   `Show me how to request a product`
 
-For more information, see .
+For more information, see [Using ServiceNow® Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/using-now-assist-in-va.md).
 
 ## Request and buy a product
 
@@ -91,7 +91,7 @@ Check the status of your purchases at any time through ServiceNow Otto for SPO.
 
 ## Related resources
 
-To learn how a conversation powered by generative AI works in Virtual Agent, see .
+To learn how a conversation powered by generative AI works in Virtual Agent, see [Using ServiceNow® Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/using-now-assist-in-va.md).
 
 As an administrator, you can use the ServiceNow Otto for Virtual Agent Analytics dashboard to monitor the performance of ServiceNow Otto for Virtual Agent as a self-service deflection tool. To learn more, see [Using AI Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/using-now-assist-analytics.md). The dashboard calculates the conversation deflection rate based on the resolution status associated with ServiceNow Otto query responses.
 

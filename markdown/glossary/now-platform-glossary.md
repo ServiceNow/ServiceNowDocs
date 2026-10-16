@@ -60,7 +60,7 @@ App shells are the static elements of a web experience \(for example, the header
 
 Provides predefined data, experience, logic and automation, and security to support a certain use case. For example, the Travel Request template provides application content for submitting and approving employee travel requests.
 
-For more information on the available templates, see [Available templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/template-library.md).
+For more information on the available templates, see .
 
 ### assignment workbench
 
@@ -370,7 +370,7 @@ The process of identifying an event handler to run when an event occurs.
 
 ### Experience
 
-Graphical interface that your users interact with. For example, you can create a portal where users find information, submit requests, or complete business tasks. For more information on the available application experiences, see [Add an application experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/add-experience.md).
+Graphical interface that your users interact with. For example, you can create a portal where users find information, submit requests, or complete business tasks. For more information on the available application experiences, see .
 
 ### execution logs
 

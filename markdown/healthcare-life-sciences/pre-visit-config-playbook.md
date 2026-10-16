@@ -26,5 +26,5 @@ The playbooks in the Pre-Visit Management application use the CRM Workspace play
 
 Configure a playbook by navigating to **All** &gt; **Process Automation** &gt; **Process Automation Designer**. You can either select an existing process definition or create a new process definition for the playbook associated with procedure request cases. For more information, see [Process definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/process-definitions.md).
 
-**Note:** When configuring a process definition for the playbook associated with procedure request cases, ensure that the application scope is set to Pre-Visit Management or Healthcare and Life Sciences Service Management Core by using the application picker. For more information, see Application picker.
+**Note:** When configuring a process definition for the playbook associated with procedure request cases, ensure that the application scope is set to Pre-Visit Management or Healthcare and Life Sciences Service Management Core by using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/c_ApplicationPicker.md).
 

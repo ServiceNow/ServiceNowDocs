@@ -122,13 +122,13 @@ Status of the catalog item.The copied catalog item is active by default.
 
     4.  Refer to the cloud provider documentation and implement the &lt;Catalog item name&gt;\_Action per the business needs of your organization.
 
-        For more information on building Integration Hub actions, see Building custom actions.
+        For more information on building Integration Hub actions, see [Building custom actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/actions.md).
 
     5.  Save the updated &lt;Catalog item name&gt;\_Action.
 
     6.  Test the &lt;Catalog item name&gt;\_Action.
 
-        For more information, see Test an action.
+        For more information, see [Test an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/test-action.md).
 
     7.  Publish the &lt;Catalog item name&gt;\_Action.
 

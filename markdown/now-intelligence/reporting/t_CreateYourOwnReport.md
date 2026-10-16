@@ -28,7 +28,7 @@ This topic refers to Reporting in the Core UI.
 
 1.  Follow one of these paths.
 
-<table id="choicetable_urt_hlc_5w"><tbody><tr><td id="d197657e85">
+<table id="choicetable_urt_hlc_5w"><tbody><tr><td id="d197556e85">
 
 **Create a report**
 
@@ -36,7 +36,7 @@ This topic refers to Reporting in the Core UI.
 
 Navigate to **Reports** &gt; **Create New**.
 
-</td></tr><tr><td id="d197657e103">
+</td></tr><tr><td id="d197556e103">
 
 **Edit an existing report**
 
@@ -44,7 +44,7 @@ Navigate to **Reports** &gt; **Create New**.
 
 Navigate to **Reports** &gt; **View / Run** and click the edit icon \(\[Omitted image "Pencil.png"\] Alt text: The edit icon\) beside the report name.
 
-</td></tr><tr><td id="d197657e125">
+</td></tr><tr><td id="d197556e125">
 
 **Create a report on a dashboard**
 
@@ -52,7 +52,7 @@ Navigate to **Reports** &gt; **View / Run** and click the edit icon \(\[Omitted 
 
 Navigate to the dashboard where you want to add the report, click the Add Widgets icon \(\[Omitted image "AddWidgetButton.png"\] Alt text: Plus sign button\), and select **Reports**.
 
-</td></tr><tr><td id="d197657e143">
+</td></tr><tr><td id="d197556e143">
 
 **Edit a report on a dashboard**
 

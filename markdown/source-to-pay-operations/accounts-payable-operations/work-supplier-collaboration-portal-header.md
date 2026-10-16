@@ -30,15 +30,15 @@ Role required: Supplier
 
 2.  On the **Exception task** form, you can view the following details.
 
-<table id="choicetable_evl_lvy_zxb"><thead><tr><th align="left" id="d190032e95">
+<table id="choicetable_evl_lvy_zxb"><thead><tr><th align="left" id="d190036e95">
 
 Option
 
-</th><th align="left" id="d190032e98">
+</th><th align="left" id="d190036e98">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d190032e104">
+</th></tr></thead><tbody><tr><td id="d190036e104">
 
 **Number**
 
@@ -46,7 +46,7 @@ Description
 
 An auto-generated number that uniquely identifies the task.
 
-</td></tr><tr><td id="d190032e113">
+</td></tr><tr><td id="d190036e113">
 
 **Due Date**
 
@@ -54,7 +54,7 @@ An auto-generated number that uniquely identifies the task.
 
 The assigned date by which the task must be completed.
 
-</td></tr><tr><td id="d190032e122">
+</td></tr><tr><td id="d190036e122">
 
 **State**
 
@@ -67,7 +67,7 @@ The current state of the task. The states are: -   New
 -   Closed incomplete
 
 
-</td></tr><tr><td id="d190032e148">
+</td></tr><tr><td id="d190036e148">
 
 **Supplier**
 
@@ -75,7 +75,7 @@ The current state of the task. The states are: -   New
 
 Name of the supplier
 
-</td></tr><tr><td id="d190032e158">
+</td></tr><tr><td id="d190036e158">
 
 **Supplier invoice number**
 
@@ -83,7 +83,7 @@ Name of the supplier
 
 The invoice number of the supplier invoice.
 
-</td></tr><tr><td id="d190032e167">
+</td></tr><tr><td id="d190036e167">
 
 **Purchase order**
 
@@ -91,7 +91,7 @@ The invoice number of the supplier invoice.
 
 Purchase order number related to the invoice.
 
-</td></tr><tr><td id="d190032e176">
+</td></tr><tr><td id="d190036e176">
 
 **Amount invoiced \(Transaction currency\)**
 
@@ -99,7 +99,7 @@ Purchase order number related to the invoice.
 
 Charges applied on the invoice.
 
-</td></tr><tr><td id="d190032e185">
+</td></tr><tr><td id="d190036e185">
 
 **Description**
 
@@ -107,7 +107,7 @@ Charges applied on the invoice.
 
 Detailed description about the task.
 
-</td></tr><tr><td id="d190032e194">
+</td></tr><tr><td id="d190036e194">
 
 **Activity**
 
@@ -115,7 +115,7 @@ Detailed description about the task.
 
 Lists the activity postings between Accounts Payable Specialist and supplier.
 
-</td></tr><tr><td id="d190032e203">
+</td></tr><tr><td id="d190036e203">
 
 **Attachments**
 
@@ -126,15 +126,15 @@ Supplier uses attachments in the form of PDF, JPEG, PNG formats.
 </td></tr></tbody>
 </table>3.  On the **Invoice case** task form, you can view the following.
 
-<table id="choicetable_fcx_cxy_zxb"><thead><tr><th align="left" id="d190032e224">
+<table id="choicetable_fcx_cxy_zxb"><thead><tr><th align="left" id="d190036e224">
 
 Option
 
-</th><th align="left" id="d190032e227">
+</th><th align="left" id="d190036e227">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d190032e233">
+</th></tr></thead><tbody><tr><td id="d190036e233">
 
 **Number**
 
@@ -142,7 +142,7 @@ Description
 
 Auto-generated number that uniquely identifies the invoice case.
 
-</td></tr><tr><td id="d190032e242">
+</td></tr><tr><td id="d190036e242">
 
 **Due Date**
 
@@ -150,7 +150,7 @@ Auto-generated number that uniquely identifies the invoice case.
 
 The assigned date by which the task must to be completed.
 
-</td></tr><tr><td id="d190032e251">
+</td></tr><tr><td id="d190036e251">
 
 **State**
 
@@ -163,7 +163,7 @@ The current state of the task. The states are:-   New
 -   Closed incomplete
 
 
-</td></tr><tr><td id="d190032e277">
+</td></tr><tr><td id="d190036e277">
 
 **Supplier invoice number**
 
@@ -171,7 +171,7 @@ The current state of the task. The states are:-   New
 
 The invoice number of the supplier invoice.
 
-</td></tr><tr><td id="d190032e287">
+</td></tr><tr><td id="d190036e287">
 
 **Purchase order**
 
@@ -179,7 +179,7 @@ The invoice number of the supplier invoice.
 
 Purchase order number related to the invoice.
 
-</td></tr><tr><td id="d190032e296">
+</td></tr><tr><td id="d190036e296">
 
 **Parent case**
 
@@ -187,7 +187,7 @@ Purchase order number related to the invoice.
 
 Name of the parent case assigned to.
 
-</td></tr><tr><td id="d190032e305">
+</td></tr><tr><td id="d190036e305">
 
 **Description**
 
@@ -195,7 +195,7 @@ Name of the parent case assigned to.
 
 Detailed description about the task.
 
-</td></tr><tr><td id="d190032e314">
+</td></tr><tr><td id="d190036e314">
 
 **Activity**
 
@@ -203,7 +203,7 @@ Detailed description about the task.
 
 Lists the activity postings between Accounts Payable Specialist and supplier.
 
-</td></tr><tr><td id="d190032e323">
+</td></tr><tr><td id="d190036e323">
 
 **Attachments**
 

@@ -28,7 +28,7 @@ Make record content searchable by configuring an indexed source to add it to the
 
 Change the general settings to Source-to-Pay Workspace experience in UI Builder to fit the needs of your organization. For example, you can modify the title, description, and path for your workspace experience. Use the Global search to show or hide the search functionality in Source-to-Pay Workspace. Use the Show global search and select Source-to-Pay workspace configuration.\[Omitted image "source-to-pay-workspace-config.png"\]\[Omitted image ""\] Alt text: Source-to-Pay workspace configuration in Global search
 
-For more information on global search, see .
+For more information on global search, see [Display global search in a workspace experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/workspace-global-search.md).
 
 -   **[Configuring knowledge bases to enable guest users to read knowledge articles from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/source-to-pay-workspace/configuring-kb-publish.md)**  
 Configure knowledge bases so that guest users can read the created knowledge articles from the Source-to-Pay Workspace.
