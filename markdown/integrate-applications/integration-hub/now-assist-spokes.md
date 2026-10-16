@@ -45,8 +45,8 @@ ServiceNow Otto for Integration Hub v2.3.2 is the latest version.
 After installing the ServiceNow Otto for Integration Hub application, you can use the available AI agents and configure the available conversational spoke actions.
 
 -   See Otto to learn about AI agents.
--   See [Conversational subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/conversational-subflows.md) to learn more about configuring the conversational settings.
--   See [Conversational actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/conversational-actions.md) to learn more about creating and configuring the conversational skill from Workflow Studio.
+-   See  to learn more about configuring the conversational settings.
+-   See  to learn more about creating and configuring the conversational skill from Workflow Studio.
 -   See  in [Generative AI skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-on-now-platform.md) to learn more about conversation experience and skills.
 
 ## Available AI agents

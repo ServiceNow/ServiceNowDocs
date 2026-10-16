@@ -38,7 +38,7 @@ Australia Patch 6 includes fixes for security-related problems that affected cer
 
 ## Changes in Australia Patch 6
 
--   ****
+-   **[Access your ServiceNow data using Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/accessing-your-servicenow-data-using-sql-api.md)**
 
     Live Connect provides read-only access to your ServiceNow tables, allowing you to write SQL queries, create reports, and perform analysis while maintaining your existing security controls. This eliminates the need for data synchronization and ensures you work with current ServiceNow data.
 
@@ -46,55 +46,55 @@ Australia Patch 6 includes fixes for security-related problems that affected cer
 
     Activate a Stream Producer configuration to begin capturing and streaming table changes to your Kafka topic. You can deactivate it at any time to stop streaming changes. When you deactivate a producer, any unprocessed messages in the CDC queue are discarded.
 
--   ****
--   ****
+-   **[Assign roles and create service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/create-service-account.md)**
+-   **[Configure ServiceNow Live Connect JDBC driver on a client machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/configure-jdbc-driver.md)**
 
     Configure the JDBC driver to connect to your ServiceNow instance and query your data.
 
--   ****
+-   **[Configuring Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/configuring-sql-api.md)**
 -   **[Connect a private relay to the Reverse Tunnel gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connect-customer-relay.md)**
 
     In the relay record, select **Recreate** gateways to recreate a gateway instance.
 
--   ****
--   ****
--   ****
--   ****
--   ****
--   ****
--   ****
--   ****
+-   **[Connect Power BI Desktop to ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/connect-power-bi-odbc.md)**
+-   **[Connect DB Visualizer to JDBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/connect-dbvisualizer-jdbc.md)**
+-   **[Create Access Control Lists \(ACLs\) for Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/create-acls-sql-api.md)**
+-   **[Create IP filter criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/create-ip-filter-criteria.md)**
+-   **[Download the Live Connect drivers on a client machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/download-sql-api-drivers.md)**
+-   **[Getting started with ServiceNow Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/getting-started-with-servicenow-sql-api.md)**
+-   **[Install Live Connect on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/install-sql-api-plugin.md)**
+-   **[Install the ServiceNow Live Connect ODBC driver on a client machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/install-odbc-driver.md)**
 
     Use the installation wizard to install the ODBC driver and configure the connection between your Business Intelligence tools and ServiceNow data.
 
--   ****
+-   **[Integrate Live Connect Drivers with third-party BI tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/configure-drivers-bi-tools.md)**
 
     Configure ServiceNow Live Connect drivers to connect with third-party business intelligence and database tools for direct data access and analysis.
 
--   ****
+-   **[Live Connect architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/sql-api-architecture.md)**
 
     Live Connect provides secure, read-only access to ServiceNow data for external BI platforms via industry-standard database APIs, while maintaining all existing security policies and role-based restrictions.
 
--   ****
+-   **[Use cases for Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/common-use-cases-for-sql-api.md)**
 
     Live Connect supports business intelligence \(BI\) reporting, ad-hoc data analysis, and custom report development.
 
--   ****
--   ****
+-   **[Live Connect configuration on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/configure-sql-api-overview.md)**
+-   **[Test Live Connect ODBC driver connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/test-sql-api-odbc-driver-connection-using-interactive-sql.md)**
 
     Use Interactive SQL to verify that the ODBC driver connects to your ServiceNow instance and returns query results.
 
--   ****
--   ****
+-   **[Route Live Connect calls to Read Replica](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/routing-sql-api-calls-to-read-replica.md)**
+-   **[Live Connect reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/troubleshooting.md)**
 
     This section provides details about Live Connect reference information like minimum requirements and usage limitations.
 
--   ****
+-   **[Minimum requirements and supported software for Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/minimum-requirements-and-supported-softwares.md)**
 
     This section lists the minimum supported versions for ServiceNow server releases, client drivers \(ODBC and JDBC\), and Java Development Kit required for Live Connect.
 
--   ****
--   ****
+-   **[Usage limitations for Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/usage-limitations.md)**
+-   **[Supported SQL functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/supported-sql-functions.md)**
 
     Common SQL functions used in Live Connect for querying and analyzing incident data.
 

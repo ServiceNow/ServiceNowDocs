@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/austral
 release: australia
 topic_type: reference
 last_updated: "2026-04-03"
-reading_time_minutes: 94
+reading_time_minutes: 95
 breadcrumb: [Available patches and hotfixes, Learn about the Australia release, Australia release notes]
 ---
 
@@ -38,73 +38,73 @@ Australia Patch 1 includes fixes for security-related problems that affected cer
 
 ## Changes in Australia Patch 1
 
--   ****
+-   **[Access your ServiceNow data using Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/accessing-your-servicenow-data-using-sql-api.md)**
 
     Live Connect provides read-only access to your ServiceNow tables, allowing you to write SQL queries, create reports, and perform analysis while maintaining your existing security controls. This eliminates the need for data synchronization and ensures you work with current ServiceNow data.
 
--   ****
+-   **[Associate a request header with a resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/associate-header-api-resource.md)**
 
     The following procedure describes the process for manually associating a REST API request header with a resource. For details about automatically generating request header definitions in non-production instances, see [Automatically generate API request definitions](https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/autogenerate-api-request-definitions.html).
 
     The request headers that you added are included in the exportable OpenAPI specification in the REST API Explorer with a "type: string" schema definition. For more information about exporting OpenAPI specifications, see [Export to OpenAPI specification](https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/export-openapi-specification.html)
 
--   ****
+-   **[Associate query parameters with a resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/AssocQueryParmResource.md)**
 
     The following procedure describes the process for manually associating a query parameter with a resource. For details about automatically generating query parameters for requests in non-production instances, see [Automatically generate API request definitions](https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/autogenerate-api-request-definitions.html).
 
--   ****
+-   **[Automatically generate API request definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/autogenerate-api-request-definitions.md)**
 
     Use sample requests made to an API resource to generate request header associations, query parameter associations, and a request schema for that resource.
 
--   ****
--   ****
--   ****
+-   **[Use cases for Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/common-use-cases-for-sql-api.md)**
+-   **[Configure ServiceNow Live Connect JDBC driver on a client machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/configure-jdbc-driver.md)**
+-   **[Configure ServiceNow Live Connect ODBC driver on a client machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/configure-odbc-driver.md)**
 -   **[Configuring ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configuring-servicenow-vault.md)**
 
     Learn how to install and configure ServiceNow Vault.
 
--   ****
+-   **[Configuring Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/configuring-sql-api.md)**
 
     Configure your ServiceNow instance to enable Live Connect access, set up the necessary security controls, and install the appropriate drivers on your client machine.
 
--   ****
+-   **[Live Connect configuration on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/configure-sql-api-overview.md)**
 
     Configure your ServiceNow instance to enable Live Connect access, set up the necessary security controls, and install the appropriate drivers on your client machine.
 
--   ****
+-   **[Connect DB Visualizer to JDBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/connect-dbvisualizer-jdbc.md)**
 
     Overview of the three-step configuration process required to enable Live Connect access including prerequisites and expected outcomes.
 
--   ****
--   ****
--   ****
--   ****
--   ****
--   ****
+-   **[Connect Power BI Desktop to ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/connect-power-bi-odbc.md)**
+-   **[Create Access Control Lists \(ACLs\) for Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/create-acls-sql-api.md)**
+-   **[Create IP filter criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/create-ip-filter-criteria.md)**
+-   **[Assign roles and create service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/create-service-account.md)**
+-   **[Download the Live Connect drivers on a client machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/download-sql-api-drivers.md)**
+-   **[Define a REST API response header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/define-scripted-api-response-header.md)**
 
     Define one or more REST API response headers in a REST API.
 
--   ****
+-   **[Define a REST API schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/define-scripted-rest-api-schema.md)**
 
     Specify the expected data structure for requests or responses within a REST API by defining a schema.
 
     The following procedure describes the process for manual schema definition. For details about automatically generating request schema definitions in non-production instances, see .
 
--   ****
+-   **[Define an API resource request structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/add-schema-rest-api-request.md)**
 
     Add a schema to a REST request record to define the request's expected data structure.
 
     The following procedure describes the process for manually adding a request schema to a resource. For details about automatically generating request schema definitions in non-production instances, see [Automatically generate API request definitions](https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/autogenerate-api-request-definitions.html)
 
--   ****
+-   **[Define an API resource response structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/add-schema-rest-api-response.md)**
 
     Add a schema and relevant response headers to a REST response to define the response's expected data structure.
 
--   ****
+-   **[Define available query parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/t_DefineAvailableQueryParameters.md)**
 
     The following procedure describes the process for manually defining query parameters for a scripted REST API service. For details about automatically generating query parameters for requests in non-production instances, see [Automatically generate API request definitions](https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/autogenerate-api-request-definitions.html).
 
--   ****
+-   **[Define a scripted REST API request header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/t_DefineRESTServiceHeaders.md)**
 
     a scripted REST API request header
 
@@ -114,13 +114,13 @@ Australia Patch 1 includes fixes for security-related problems that affected cer
 
 
 
--   ****
--   ****
--   ****
+-   **[Getting started with ServiceNow Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/getting-started-with-servicenow-sql-api.md)**
+-   **[Integrate Live Connect Drivers with third-party BI tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/configure-drivers-bi-tools.md)**
+-   **[Install the ServiceNow Live Connect ODBC driver on a client machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/install-odbc-driver.md)**
 
     Install the ServiceNow ODBC driver on your Windows client machine to enable connectivity between your Business Intelligence \(BI\) tools and ServiceNow data through the Live Connect.
 
--   ****
+-   **[Install Live Connect on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/install-sql-api-plugin.md)**
 
     Installing the Live Connect on your instance enables secure, read-only access to your instance data from external applications. You can integrate your data with external tools and analytics platforms to enhance your reporting and data analysis capabilities.
 
@@ -132,16 +132,16 @@ Australia Patch 1 includes fixes for security-related problems that affected cer
 
     Link your desired categories to the topics and track the additions and removals to have easier management of unconnected content.
 
--   ****
+-   **[Minimum requirements and supported software for Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/minimum-requirements-and-supported-softwares.md)**
 -   **[ServiceNow Otto and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-assist-rn-landing.md)**
 
     For Now Assist new features and changes, see [ServiceNow Otto and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-assist-rn-landing.md).
 
--   ****
+-   **[Route Live Connect calls to Read Replica](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/routing-sql-api-calls-to-read-replica.md)**
 
     You can route Live Connect calls to Read Replica to optimize the performance of your ServiceNow instance.
 
--   ****
+-   **[Scripted REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_CustomWebServices.md)**
 
     Schemas define a structure that can be used for API requests and responses, including data type, expected fields, and formats. You can define multiple schemas within a scripted REST API, which can be used to specify request and response contents of the resources within that API.
 
@@ -149,11 +149,11 @@ Australia Patch 1 includes fixes for security-related problems that affected cer
 
     Learn and set up the roles necessary to use ServiceNow Vault.
 
--   ****
--   ****
--   ****
--   ****
--   ****
+-   **[Live Connect architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/sql-api-architecture.md)**
+-   **[Live Connect reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/troubleshooting.md)**
+-   **[Supported SQL functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/supported-sql-functions.md)**
+-   **[Test Live Connect ODBC driver connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/test-sql-api-odbc-driver-connection-using-interactive-sql.md)**
+-   **[Usage limitations for Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/usage-limitations.md)**
 -   **[Use ServiceNow Otto to search the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/na-cmdb-awf-search.md)**
 
     Starting with ServiceNow Otto for CMDB v3.0, searches can include parent-child nodes spanning multiple tables and can traverse relationship graphs \(searches that traverse the cmdb\_rel\_ci\), for example, "Search for servers that depend on databases".

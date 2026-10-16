@@ -43,9 +43,9 @@ Activate the following Solutions when you have the Performance Analytics for APM
 Activate the following Solutions when you have the Performance Analytics for Customer Service entitlement.
 
 -   [Change Management \(com.snc.pa.change\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-content-pack.md)
--   [Communities \(com.snc.pa.communities\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities-content-pack.md)
--   [Customer Service \(com.snc.pa.customer\_service\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-content-pack.md)
--   [Customer Service Management - Advanced \(com.snc.pa.customer\_service\_advanced\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-content-pack.md) Preconfigured Performance Analytics indicators and breakdowns for Customer Service Management. Has the contents of the older OOTB Customer Service Performance Analytics Solution, and also supports the following features:
+-   Communities \(com.snc.pa.communities\)
+-   Customer Service \(com.snc.pa.customer\_service\)
+-   Customer Service Management - Advanced \(com.snc.pa.customer\_service\_advanced\) Preconfigured Performance Analytics indicators and breakdowns for Customer Service Management. Has the contents of the older OOTB Customer Service Performance Analytics Solution, and also supports the following features:
     -   Case Management
     -   Major Issue Management
     -   Customer Service Case Action Status
@@ -63,31 +63,31 @@ Activate the following Solutions when you have the Performance Analytics for Cus
 -   [ITSM Dashboards \(com.snc.pa.itsm\_dashboards\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-dashboards-content-pack.md)
 -   [Major Incident Management \(com.snc.pa.incident.mim\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/major-incident-overview.md)
 -   [Problem Management \(com.snc.pa.problem\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-content-pack.md)
--   [Self-Service Analytics for Customer Service \(com.snc.pa.self\_service\_analytics\_csm\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ssa-cs-content-pack.md)
+-   Self-Service Analytics for Customer Service \(com.snc.pa.self\_service\_analytics\_csm\)
 
     **Note:** To use Performance Analytics with Self-Service Analytics for applications other than Customer Service Management, see [Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/self-service-analytics.md).
 
--   Virtual Agent content pack: This Platform Analytics Solution has been deprecated starting in the Quebec release. Use the [Conversational Analytics Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/VA-dashboard-landing-page-pae.md) instead.
+-   Virtual Agent content pack: This Platform Analytics Solution has been deprecated starting in the Quebec release. Use the Conversational Analytics Dashboard instead.
 
 ## Performance Analytics for Governance, Risk, and Compliance Solutions
 
 When you have the Performance Analytics for GRC entitlement, first activate the GRC: Performance Analytics Premium Integration plugin. Then activate the following Solutions:
 
--   [GRC: Audit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-audit-mgmt-content-pack.md)
--   [GRC: Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-policy-compliance-content-pack.md)
--   [GRC: Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-mgmt-content-pack.md)
+-   GRC: Audit Management
+-   GRC: Policy and Compliance Management
+-   GRC: Risk Management
 
 ## Performance Analytics for Human Resource Management Solutions
 
 Activate the following Solutions when you have the Performance Analytics for Human Resource Management entitlement:
 
--   [Content Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/ecpro-content-automation-analytics.md)
--   [Human Resources Employee Document Management Scoped App \(com.sn\_hr\_employee\_files\_pa\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/edm-dashboard.md)
--   [Human Resources Scoped App \(com.sn\_hr\_pa\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/human-resources-content-pack.md)
+-   
+-   Human Resources Employee Document Management Scoped App \(com.sn\_hr\_employee\_files\_pa\)
+-   Human Resources Scoped App \(com.sn\_hr\_pa\)
 
     **Note:** The solution for the unscoped version of Human Resources, com.snc.pa.hr\_core, is deprecated. If you are using the unscoped version of Human Resources and want to activate its solution plugin, contact Customer Service and Support.
 
--   [Human Resources Lifecycles Events Scoped App \(com.sn\_hr\_lifecycle\_pa\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/human-resources-content-pack.md)
+-   Human Resources Lifecycles Events Scoped App \(com.sn\_hr\_lifecycle\_pa\)
 
 ## Performance Analytics for Business Management, Financial Management, and Service Strategy Solutions
 
@@ -137,13 +137,13 @@ Activate the following Solutions when you have the Performance Analytics for Ser
 
 ## Performance Analytics for Software Asset Management Solutions
 
-Activate the following Solutions when you have the Performance Analytics for Service Management entitlement, [Software Asset Management Professional \(com.snc.pa.samp\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-mgmt-content-pack.md).
+Activate the following Solutions when you have the Performance Analytics for Service Management entitlement, Software Asset Management Professional \(com.snc.pa.samp\).
 
 ## Adding Self-Service Analytics widgets to a dashboard or Service Portal
 
 If you have Self-Service Analytics activated on an instance, you can add Self-Service analytics widgets to your Performance Analytics dashboards or a Service Portal. To obtain a ready-made set of indicators and breakdowns, activate the Self-Service Analytics PA \(**com.snc.pa.self\_service\_analytics**\) plugin. Find the Self-Service indicators through the Performance Analytics Admin Console, then create widgets and add them to your dashboard or portal. Also activate the \[SSA\] Self-Service Analytics data collection job.
 
-**Note:** Customer Service Management customers can install the Platform Analytics Solution for Self-Service Analytics for Customer Service. This Solution contains additional Customer Service-specific indicators and breakdowns as well as widgets and a dashboard. For more information, see [Self-Service Analytics for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ssa-cs-content-pack.md).
+**Note:** Customer Service Management customers can install the Platform Analytics Solution for Self-Service Analytics for Customer Service. This Solution contains additional Customer Service-specific indicators and breakdowns as well as widgets and a dashboard. For more information, see Self-Service Analytics for Customer Service.
 
 ## ITSM Dashboard solutions
 

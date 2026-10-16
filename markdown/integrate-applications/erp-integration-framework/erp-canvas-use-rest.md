@@ -20,7 +20,7 @@ Extract data securely from an ERP with REST for use in remote tables and extract
 
 Access business data from an ERP using REST APIs. For more information, see [REST API connector for Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-rest-api-connector.md) and [Add a REST service manually in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-add-a-rest-service-manually.md).
 
-For API details, see [sn\_erp\_integration API - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/sn_erp_integrationBothAPI.md).
+For API details, see .
 
 ## Oracle ERP systems
 

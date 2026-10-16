@@ -36,5 +36,5 @@ Role required: admin
 **Related topics**  
 
 
-[Add a property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)
+[bundle-platadm.t_AddAPropertyUsingSysPropsList]
 

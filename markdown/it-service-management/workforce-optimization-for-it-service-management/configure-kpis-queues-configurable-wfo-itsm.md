@@ -26,15 +26,15 @@ Role required: sn\_channel\_mgmt.admin
 
 1.  Add KPIs to a queue.
 
-<table id="choicetable_tmd_vh5_tlb"><thead><tr><th align="left" id="d123817e73">
+<table id="choicetable_tmd_vh5_tlb"><thead><tr><th align="left" id="d124149e73">
 
 To
 
-</th><th align="left" id="d123817e76">
+</th><th align="left" id="d124149e76">
 
 Do This
 
-</th></tr></thead><tbody><tr><td id="d123817e82">
+</th></tr></thead><tbody><tr><td id="d124149e82">
 
 **Add from a service channel**
 
@@ -46,7 +46,7 @@ Do This
 4.  Select a queue.
 
 
-</td></tr><tr><td id="d123817e120">
+</td></tr><tr><td id="d124149e120">
 
 **Add from a queue**
 

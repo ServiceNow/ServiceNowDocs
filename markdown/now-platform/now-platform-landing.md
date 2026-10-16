@@ -37,11 +37,11 @@ Analyze and optimize business processes \[Omitted image "bus-improve-it-costs.sv
 
 </td><td>
 
-[Enable AI experiences \[Omitted image "bus-artificial-intelligence.svg"\] Alt text: Increase productivity with AI-based applications. Use Natural Language Understanding \(NLU\) to enable the ServiceNow AI Platform to learn and respond to human-expressed intent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-products.md)
+Enable AI experiences \[Omitted image "bus-artificial-intelligence.svg"\] Alt text: Increase productivity with AI-based applications. Use Natural Language Understanding \(NLU\) to enable the ServiceNow AI Platform to learn and respond to human-expressed intent.
 
 </td></tr><tr><td>
 
-Conversational Interfaces\[Omitted image "bus-community.svg"\] Alt text:Learn how users can engage with live agents and virtual agents and how generative AI can enhance these interactions.
+[Conversational Interfaces\[Omitted image "bus-community.svg"\] Alt text:Learn how users can engage with live agents and virtual agents and how generative AI can enhance these interactions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/convint-landing-page.md)
 
 </td><td>
 

@@ -20,7 +20,7 @@ Learn more about the Enable voice input for the ServiceNow Otto® panel accessib
 
 The purpose of this preference is to provide an alternative input method.
 
-**Note:** This preference appears only if your system administrator has enabled ServiceNow Otto® voice input for your instance. For more information, see [Enable voice input for ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-voice-input-for-now-assist-panel.md).
+**Note:** This preference appears only if your system administrator has enabled ServiceNow Otto® voice input for your instance. For more information, see .
 
 Learn more about this preference from the following tutorial:
 

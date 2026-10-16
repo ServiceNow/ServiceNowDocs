@@ -165,5 +165,5 @@ Determines whether an ACH dispute requires a Written Statement of Unauthorized D
 **Related topics**  
 
 
-[Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/decision-table.md)
+[bundle-cadev.decision-table]
 

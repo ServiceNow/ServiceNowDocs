@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 5
 breadcrumb: [Configure Arista VeloCloud SGC, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---

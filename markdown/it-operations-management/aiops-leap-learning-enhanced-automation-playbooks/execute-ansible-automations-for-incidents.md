@@ -43,15 +43,15 @@ When an incident arrives in SOW, LEAP predicts the automation opportunity group 
 
 3.  Select the required method to complete the resolution
 
-<table id="choicetable_xyd_2f4_skc"><thead><tr><th align="left" id="d226671e139">
+<table id="choicetable_xyd_2f4_skc"><thead><tr><th align="left" id="d227231e139">
 
 Method
 
-</th><th align="left" id="d226671e142">
+</th><th align="left" id="d227231e142">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d226671e148">
+</th></tr></thead><tbody><tr><td id="d227231e148">
 
 **Manual**
 
@@ -62,7 +62,7 @@ Steps
 3.  Select **Step Completed** to confirm that the manual step is finished.
 
 
-</td></tr><tr><td id="d226671e175">
+</td></tr><tr><td id="d227231e175">
 
 **Automated**
 

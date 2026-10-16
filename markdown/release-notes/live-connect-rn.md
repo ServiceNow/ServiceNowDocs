@@ -33,11 +33,11 @@ For more information, see [Access your ServiceNow data using Live Connect](https
 
     Live Connect is a ServiceNow feature that is available with the activation of Live Connect plugin \(com.glide.rest.sqlapiserver\). The ServiceNow instance requires RaptorDB Professional entitlement to activate the Live Connect server-side plugin.
 
-    The Live Connect client drivers are freely available for download by anyone with a valid account to the ServiceNow Store. However, the Live Connect client would not be able to connect to the ServiceNow instance until the server-side plugin is enabled. For more information, see .
+    The Live Connect client drivers are freely available for download by anyone with a valid account to the ServiceNow Store. However, the Live Connect client would not be able to connect to the ServiceNow instance until the server-side plugin is enabled. For more information, see [Install Live Connect on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/install-sql-api-plugin.md).
 
 -   **Upgrade information**
 
-    ServiceNow provided customers with a free SOAP-based ODBC client. If you have an active RaptorDB Professional entitlement, you can migrate to the REST-based Live Connect client by completing the required configuration on both the server and client sides. For more information, see .
+    ServiceNow provided customers with a free SOAP-based ODBC client. If you have an active RaptorDB Professional entitlement, you can migrate to the REST-based Live Connect client by completing the required configuration on both the server and client sides. For more information, see [Configuring Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/configuring-sql-api.md).
 
 -   **Browser requirements**
 
@@ -66,11 +66,11 @@ Live Connect enables RaptorDB Professional users to bring their Business Intelli
 
 ### What's new
 
--   ****
+-   **[Access your ServiceNow data using Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/accessing-your-servicenow-data-using-sql-api.md)**
 
     The ServiceNow Store Live Connect enables you to access your ServiceNow instance data through ODBC and JDBC drivers. Using Live Connect, you can directly access your instance data from third-party BI tools and other data analysis applications without exporting or replicating your data. The ServiceNow Live Connect plugin uses ServiceNow web services support for a query-only interface.
 
--   ****
+-   **[Enable OAuth for Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/enable-oauth-for-live-connect.md)**
 
     Connect third-party ODBC and JDBC clients to ServiceNow using OAuth credentials to meet FedRamp compliance requirements and enable secure multi-factor authentication workflows. OAuth provides modern, encrypted authentication aligned with security standards and reduces credential exposure in transit.
 

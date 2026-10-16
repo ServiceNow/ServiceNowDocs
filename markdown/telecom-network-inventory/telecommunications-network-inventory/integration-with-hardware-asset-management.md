@@ -22,7 +22,7 @@ With this integration, you can enable the Telecommunications Network Inventory a
 
 Before creating the service request, you must publish the asset to the hardware catalog by adding it to the Catalog Definition table. To learn more, see [Publish an asset to the hardware catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/publish-asset-harware-calaog.md).
 
-The Hardware Asset Management fulfills the service request and executes the workflow to procure the assets in the Hardware Asset Management Workspace. To learn more about the Hardware Asset Management workflow, see .
+The Hardware Asset Management fulfills the service request and executes the workflow to procure the assets in the Hardware Asset Management Workspace. To learn more about the Hardware Asset Management workflow, see [Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/c_Procurement.md).
 
 After the assets are acquired or available in a stockroom, the procurement managers can use the ServiceNow® Procurement application to create the configuration items \(CIs\) for these assets. You can use these CIs for equipment instantiation by tagging them.
 

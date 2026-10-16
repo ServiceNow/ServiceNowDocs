@@ -42,7 +42,7 @@ The ServiceNow Otto for Creator application includes generative AI skills and AI
 -   Generate application modules in UI Builder workspaces using natural-language prompts.
 -   Learn about agentic development using an AI-first approach in the new agentic development documentation.
 
-See  for more information.
+See [ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator-landing.md) for more information.
 
 ## Activation and other requirements
 
@@ -99,7 +99,7 @@ The ServiceNow Otto for Creator application includes generative AI skills and AI
 
 ### What's new
 
--   ****
+-   **[Exploring release lifecycle documentation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/exploring-release-lifecycle-documentation-agent.md)**
 
     Improve transparency across your app development environment using the release lifecycle documentation AI agent to generate update set descriptions and release notes.
 
@@ -138,22 +138,22 @@ The ServiceNow Otto for Creator application includes generative AI skills and AI
 
 ### What's new
 
--   ****
+-   **[Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-in-servicenow-studio.md)**
 
     Use Build Agent in ServiceNow Studio to create and edit full-stack applications conversationally.
 
--   ****
+-   **[Generate modules using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/generate-ai-modules.md)**
 
     Use Now Assist to generate application modules in UI Builder workspaces using natural-language prompts. The Now Assist agent processes your prompts and generates various modules, including lists, records, URLs, scripts, dashboards, and folders.
 
--   **New agentic development documentation**
+-   **[New agentic development documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-coding-landing.md)**
 
     Read new documentation that introduces agentic development, which is a natural language approach to application development on the ServiceNow AI Platform. The documentation includes how to get started, when to use it, and how it fits within the broader suite of AI-powered development tools.
 
 
 ### What's changed
 
--   ****
+-   **[Use the app generation skill to generate apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/sns-app-gen-use-app-gen-skill.md)**
 
     Build Agent is the default setting for app generation in ServiceNow Studio. To continue using the app generation skill, change the setting in ServiceNow Studio.
 

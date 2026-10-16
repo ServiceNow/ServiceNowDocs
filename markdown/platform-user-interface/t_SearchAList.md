@@ -54,7 +54,7 @@ Each option in a choice list is defined with a column label and a value. For exa
 **Related topics**  
 
 
-[Enable text searches](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TextSearchesInRecordLists.md)
+[bundle-platadm.c_TextSearchesInRecordLists]
 
 [Personal lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_PersonalLists.md)
 
@@ -129,14 +129,14 @@ Search for values that start end with search-term.
 Search for values that don't equal search-term.
 
 </td></tr></tbody>
-</table>**Note:** Reference fields support a different set of wildcard operators. For details on using wildcards to search reference field auto-complete values, see [Auto-complete for reference fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_AutoCompleteForReferenceFields.md).
+</table>**Note:** Reference fields support a different set of wildcard operators. For details on using wildcards to search reference field auto-complete values, see .
 
 **Related topics**  
 
 
 [Search a list]()
 
-[Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md)
+[bundle-platadm.r_FieldTypes]
 
 ## Configure the default search behavior
 
@@ -195,7 +195,7 @@ Changes the default search behavior for a list to a starts with search.-   Type:
 **Related topics**  
 
 
-[Add a property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)
+[bundle-platadm.t_AddAPropertyUsingSysPropsList]
 
 ### Configure default search behavior using a dictionary attribute
 

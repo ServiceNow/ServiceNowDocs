@@ -29,6 +29,6 @@ A second option is to enable a system property and use Workflow Studio. The com.
 
     \[Omitted image "erp-data-explorer-workflow6.png"\] Alt text: Workflow studio operations tab, with two executions highlighted.
 
-    For more information, see [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio.md).
+    For more information, see .
 
 

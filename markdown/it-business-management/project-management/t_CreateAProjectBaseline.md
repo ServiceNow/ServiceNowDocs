@@ -42,15 +42,15 @@ You can create as many financial baselines as necessary and [compare them](https
 
 3.  To create schedule and financial baselines of a project, use any of the following options.
 
-<table id="choicetable_zvg_42n_1cb"><thead><tr><th align="left" id="d162837e121">
+<table id="choicetable_zvg_42n_1cb"><thead><tr><th align="left" id="d162867e121">
 
 Option
 
-</th><th align="left" id="d162837e124">
+</th><th align="left" id="d162867e124">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d162837e130">
+</th></tr></thead><tbody><tr><td id="d162867e130">
 
 **From the Financials tab**
 
@@ -62,7 +62,7 @@ Steps
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d162837e163">
+</td></tr><tr><td id="d162867e163">
 
 **From the Project Workspace**
 
@@ -74,7 +74,7 @@ Steps
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d162837e196">
+</td></tr><tr><td id="d162867e196">
 
 **From a related link**
 
@@ -85,7 +85,7 @@ Steps
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d162837e223">
+</td></tr><tr><td id="d162867e223">
 
 **From a related list**
 

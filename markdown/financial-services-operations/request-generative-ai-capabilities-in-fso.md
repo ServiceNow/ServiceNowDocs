@@ -41,15 +41,15 @@ For more information about the ServiceNow Otto panel, see [ServiceNow Otto panel
 
 3.  If you have enabled the Case summarization skill, you can use ServiceNow Otto panel to summarize a case using generative AI.
 
-<table id="choicetable_zrx_zlr_mbc"><thead><tr><th align="left" id="d28796e239">
+<table id="choicetable_zrx_zlr_mbc"><thead><tr><th align="left" id="d28835e239">
 
 Option
 
-</th><th align="left" id="d28796e242">
+</th><th align="left" id="d28835e242">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d28796e248">
+</th></tr></thead><tbody><tr><td id="d28835e248">
 
 **Summarize a case**
 

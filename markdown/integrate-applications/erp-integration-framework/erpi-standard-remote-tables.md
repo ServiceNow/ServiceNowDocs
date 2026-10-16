@@ -45,8 +45,8 @@ For more details on working with remote tables, see [Remote tables](https://raw.
 You can use any of the standard remote tables as data sources when building apps in ServiceNow products, such as:
 
 -   
--   [Workflow Studio flows, subflows, and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio-flows-subflows-and-actions-landing.md)
--   [Workflow Studio Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio-playbooks-landing.md)
+-   
+-   
 -   
 -   
 -   

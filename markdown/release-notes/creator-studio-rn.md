@@ -19,7 +19,7 @@ The ServiceNow® Creator Studio application guides business process experts thro
 -   Distinguish AI-generated apps and features at a glance using updated icons.
 -   Use improved screen reader support and keyboard navigation when interacting with forms and templates using assistive technologies.
 
-See  for more information.
+See [Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio-landing.md) for more information.
 
 ## Activation and other requirements
 
@@ -53,7 +53,7 @@ The ServiceNow® Creator Studio application guides business process experts thro
 
 ### What's changed
 
--   **ServiceNow Otto rebrand**
+-   **[ServiceNow Otto rebrand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio-text-to-form.md)**
 
     ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including Creator Studio. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 
@@ -64,7 +64,7 @@ The ServiceNow® Creator Studio application guides business process experts thro
 
 ### What's changed
 
--   **Updated identifiers for AI-generated components**
+-   **[Updated identifiers for AI-generated components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio-text-to-form.md)**
 
     AI gradient tokens are applied to specific components on the forms page to indicate when content has been generated or influenced by Now Assist. More easily identify AI-generated content consistently through the consistent and recognizable AI identity within Creator Studio.
 

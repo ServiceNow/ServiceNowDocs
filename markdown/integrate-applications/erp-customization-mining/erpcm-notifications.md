@@ -39,7 +39,7 @@ Notifications appear in the Notifications table, which you can access by navigat
 
 ## Flow that runs notifications
 
-The ECM Statistical Data Extractor flow in Workflow Studio runs automatically to power notifications. You can customize the flow in Workflow Studio. For more information, see [Edit a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-edit.md).
+The ECM Statistical Data Extractor flow in Workflow Studio runs automatically to power notifications. You can customize the flow in Workflow Studio. For more information, see .
 
 **Parent Topic:**[Configuring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-customization-mining/configuring-ecm.md)
 

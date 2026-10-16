@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 2
 breadcrumb: [Use, Telecommunications Network Inventory]
 ---
@@ -40,15 +40,15 @@ This skill available in CSM/FSM Configurable Workspace and in Core UI
 
 4.  After you're finished summarizing a Remote Hands case, manage the results.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d76136e92">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d76111e92">
 
 Option
 
-</th><th align="left" id="d76136e95">
+</th><th align="left" id="d76111e95">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d76136e101">
+</th></tr></thead><tbody><tr><td id="d76111e101">
 
 **View more or less summary details**
 
@@ -58,7 +58,7 @@ Procedure
 -   To see fewer summary details, select the View less icon.
 
 
-</td></tr><tr><td id="d76136e119">
+</td></tr><tr><td id="d76111e119">
 
 **Provide feedback for the summary**
 
@@ -68,7 +68,7 @@ Procedure
 -   If you think that the summary wasn’t helpful, select the not helpful icon.
  This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d76136e142">
+</td></tr><tr><td id="d76111e142">
 
 **Copy the case summary**
 
@@ -76,7 +76,7 @@ Procedure
 
 Select the copy to clipboard icon to use the Remote Hands case summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d76136e151">
+</td></tr><tr><td id="d76111e151">
 
 **View the information about the case summary**
 

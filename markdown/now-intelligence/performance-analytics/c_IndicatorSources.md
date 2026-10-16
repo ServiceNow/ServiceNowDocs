@@ -61,15 +61,15 @@ Role required: pa\_data\_collector or admin
 
 6.  Select a facts table, either directly or by reusing a report source.
 
-<table id="choicetable_bwt_24j_dbb"><thead><tr><th align="left" id="d148730e246">
+<table id="choicetable_bwt_24j_dbb"><thead><tr><th align="left" id="d148753e246">
 
 Field
 
-</th><th align="left" id="d148730e249">
+</th><th align="left" id="d148753e249">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d148730e255">
+</th></tr></thead><tbody><tr><td id="d148753e255">
 
 **Facts table**
 
@@ -77,7 +77,7 @@ Description
 
 Specify the facts table and any conditions for filtering the records of that table. You can specify a [database view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md) as the facts table. Remote tables are not supported, but Workflow Data Fabric tables are supported.
 
-</td></tr><tr><td id="d148730e271">
+</td></tr><tr><td id="d148753e271">
 
 **Report source**
 

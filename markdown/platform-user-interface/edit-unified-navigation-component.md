@@ -18,7 +18,7 @@ Align your experience more closely with your brand by editing the Unified Naviga
 
 Role required: ui\_builder\_admin
 
-For information on granular roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/granular-admin-roles.md).
+For information on granular roles, see .
 
 ## About this task
 

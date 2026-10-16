@@ -30,7 +30,7 @@ Consider creating Platform Analytics data visualizations instead of Core UI dash
 
 1.  Follow one of these paths.
 
-<table id="choicetable_urt_hlc_5w"><tbody><tr><td id="d204174e133">
+<table id="choicetable_urt_hlc_5w"><tbody><tr><td id="d204197e133">
 
 **Create a report**
 
@@ -38,7 +38,7 @@ Consider creating Platform Analytics data visualizations instead of Core UI dash
 
 Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select **Create data visualization**. In the modal, select **Core UI**. For more information, see [Create Core UI reports on an upgraded instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-core-ui-reports-on-migrated-instance.md).
 
-</td></tr><tr><td id="d204174e179">
+</td></tr><tr><td id="d204197e179">
 
 **Edit an existing report**
 
@@ -46,7 +46,7 @@ Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Vis
 
 **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select a report with the UI version **Core**. Edit the report according to its type. For more information, see [Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/report-types-creation-details-rd.md).
 
-</td></tr><tr><td id="d204174e212">
+</td></tr><tr><td id="d204197e212">
 
 **Create a report on a Core UI dashboard**
 
@@ -54,7 +54,7 @@ Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Vis
 
 Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**, select the Core UI dashboard where you want to add the report, and select the Add Widgets icon \(\[Omitted image "AddWidgetButton.png"\] Alt text: Plus sign button\).
 
-</td></tr><tr><td id="d204174e245">
+</td></tr><tr><td id="d204197e245">
 
 **Edit a report on a Core UI dashboard**
 

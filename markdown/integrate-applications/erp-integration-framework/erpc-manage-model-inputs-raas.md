@@ -105,7 +105,7 @@ Before you use the model, the inputs must match the query parameters that the re
 
         Field information is added to **Data type**, **Required**, **Mapping type**, and **Mapped field** automatically.
 
-        The **Data type** field contains a variety of types including string, integer, array, and Boolean. For general information, see [Workflow Studio input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/action-inputs-outputs.md).
+        The **Data type** field contains a variety of types including string, integer, array, and Boolean. For general information, see .
 
 19. Select **Save**.
 

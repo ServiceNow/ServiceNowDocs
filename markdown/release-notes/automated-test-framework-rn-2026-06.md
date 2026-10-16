@@ -16,7 +16,7 @@ The ServiceNow® Automated Test Framework enables you to create and run automate
 
 ## What's new
 
--   **Run UI Test Script step**
+-   **[Run UI Test Script step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-steps-ui-category.md)**
 
     Run client-side test scripts directly in the browser using the new Run UI Test Script ATF step, without requiring server-side processing.
 

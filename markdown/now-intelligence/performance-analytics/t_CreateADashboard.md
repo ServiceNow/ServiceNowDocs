@@ -43,15 +43,15 @@ Consider creating Platform Analytics dashboards instead of Core UI dashboards. F
 
 4.  Fill in the following fields:
 
-<table id="choicetable_bfl_jhv_yw"><thead><tr><th align="left" id="d68302e216">
+<table id="choicetable_bfl_jhv_yw"><thead><tr><th align="left" id="d68325e216">
 
 Field
 
-</th><th align="left" id="d68302e219">
+</th><th align="left" id="d68325e219">
 
 Description
 
-</th></tr></thead><tbody><tr id="chrow_lxl_nrq_dz"><td id="d68302e225">
+</th></tr></thead><tbody><tr id="chrow_lxl_nrq_dz"><td id="d68325e225">
 
 **Name**
 
@@ -59,7 +59,7 @@ Description
 
 Name the dashboard.
 
-</td></tr><tr id="chrow_lkc_4rq_dz"><td id="d68302e234">
+</td></tr><tr id="chrow_lkc_4rq_dz"><td id="d68325e234">
 
 **Order**
 
@@ -67,7 +67,7 @@ Name the dashboard.
 
 Enter an **Order** number to indicate the order the dashboard appears on the dashboard picker. Dashboards with lower numbers are listed first.
 
-</td></tr><tr id="chrow_hd3_4rq_dz"><td id="d68302e246">
+</td></tr><tr id="chrow_hd3_4rq_dz"><td id="d68325e246">
 
 **Active**
 
@@ -77,7 +77,7 @@ Clear this field to mark the dashboard **inactive**. Inactive dashboards are acc
 
  **Note:** When you activate responsive dashboards, the permissions associated with both active and inactive non-responsive dashboard are carried over to the responsive version.
 
-</td></tr><tr id="chrow_gf4_4rq_dz"><td id="d68302e267">
+</td></tr><tr id="chrow_gf4_4rq_dz"><td id="d68325e267">
 
 **Owner**
 

@@ -52,15 +52,15 @@ The acquirer might choose to initiate pre-arbitration. You can review and respon
 
 8.  Respond in one of the following ways.
 
-<table id="choicetable_hxf_hdv_n2c"><thead><tr><th align="left" id="d78764e203">
+<table id="choicetable_hxf_hdv_n2c"><thead><tr><th align="left" id="d78800e203">
 
 Option
 
-</th><th align="left" id="d78764e206">
+</th><th align="left" id="d78800e206">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d78764e212">
+</th></tr></thead><tbody><tr><td id="d78800e212">
 
 **Resolved**
 
@@ -70,7 +70,7 @@ Determine whether to reverse provisional credit using the **Reverse provisional 
 
  As a result, the issuer accepts the pre-arbitration request of the acquirer. It reverses provisional credit or convert provisional credit to final credit.
 
-</td></tr><tr><td id="d78764e239">
+</td></tr><tr><td id="d78800e239">
 
 **Unresolved**
 

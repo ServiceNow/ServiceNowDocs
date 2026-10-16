@@ -22,7 +22,7 @@ Orchestrated solutions aide collaboration among teams by providing reusable data
 
 ## Orchestration tools
 
-Orchestration can make calls outside of a ServiceNow instance, directly to web services or through a MID Server to systems within corporate firewall. Orchestration also enables the creation reusable activities that wrapper Java Script functions for manipulating things inside the platform. Orchestration extends the [Workflow editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-editor.md) by providing these features:
+Orchestration can make calls outside of a ServiceNow instance, directly to web services or through a MID Server to systems within corporate firewall. Orchestration also enables the creation reusable activities that wrapper Java Script functions for manipulating things inside the platform. Orchestration extends the  by providing these features:
 
 -   [Activity packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/c_OrchestrationActivityPacks.md) containing ready-to-use activities.
 -   [Activity Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/orchestration/c_WorkflowActivityDesigner.md), which enables developers to create custom activities without an over dependence to create scripts to orchestrate to third-party systems.

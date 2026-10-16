@@ -64,5 +64,5 @@ const rows = new API()
   .execute();
 ```
 
-For the full method reference, see [sn\_erp\_integration API - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/sn_erp_integrationBothAPI.md).
+For the full method reference, see .
 

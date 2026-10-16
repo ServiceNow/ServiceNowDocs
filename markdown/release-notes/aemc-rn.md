@@ -28,7 +28,7 @@ The ServiceNow® App Engine Management Center \(AEMC\) application enables admin
 -   Use the release lifecycle documentation AI agent to regenerate release notes.
 -   Use the improved filter feature to sort requests based on specific criteria.
 
-See  for more information.
+See [App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center.md) for more information.
 
 ## Activation and other requirements
 
@@ -47,15 +47,15 @@ The ServiceNow® App Engine Management Center \(AEMC\) application enables admin
 
 ### What's new
 
--   **Platform version of AEMC now available**
+-   **[Platform version of AEMC now available](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/exploring-aemc.md)**
 
     Access core AEMC features from a new platform version of AEMC from the ServiceNow Store.
 
--   ****
+-   **[Configure a standalone environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/configure-standalone.md)**
 
     Configure a standalone environment for deployments in the platform version of AEMC.
 
--   **AEMC guided setup now includes ReleaseOps**
+-   **[AEMC guided setup now includes ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/configuring-aemc.md)**
 
     Streamline credential sharing between instances and automates the deployment process in ReleaseOps within the AEMC guided setup.
 
@@ -66,7 +66,7 @@ The ServiceNow® App Engine Management Center \(AEMC\) application enables admin
 
 ### What's new
 
--   ****
+-   **[Exploring release lifecycle documentation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/exploring-release-lifecycle-documentation-agent.md)**
 
     Help improve transparency across your app development environment using the release lifecycle documentation AI agent, to generate update set descriptions and release notes.
 
@@ -77,7 +77,7 @@ The ServiceNow® App Engine Management Center \(AEMC\) application enables admin
 
 ### What's changed
 
--   ****
+-   **[Filter and search for requests in AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/filter-search-aemc.md#section_kvc_43q_dtb)**
 
     Filter by key fields, such as status, owner, type, environment, and date, with the option to apply multiple filters simultaneously for the **Requests** tab. Filtered results update in realtime, and active filters are clearly indicated. Remove individual filters, reset the list to its default state, and save your commonly used filter combinations to reuse later.
 

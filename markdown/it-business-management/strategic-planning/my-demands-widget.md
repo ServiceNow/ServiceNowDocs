@@ -8,7 +8,7 @@ product: Strategic Planning
 classification: strategic-planning
 topic_type: concept
 last_updated: "2026-09-18"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [My Demands widget, Employee Work, demand tracking, Demand Management]
 breadcrumb: [Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -17,7 +17,7 @@ breadcrumb: [Use, Next Experience for Demand Management in Strategic Planning, S
 
 The My Demands widget and conversational experience in Employee Slate brings demand creation and tracking into a single, conversation-first workspace. Requesters can create demands through the conversational experience and track them using widgets.
 
-Employee Slate is a conversation-first employee experience that combines intelligent assistance, employee communication, organizational navigation, task management, and other employee services to boost productivity. With the My Demands widget and conversational experience, the demand experience enables requesters to track demand status, activity, and progress in the same place they do other work. For more information about Employee Slate, see .
+Employee Slate is a conversation-first employee experience that combines intelligent assistance, employee communication, organizational navigation, task management, and other employee services to boost productivity. With the My Demands widget and conversational experience, the demand experience enables requesters to track demand status, activity, and progress in the same place they do other work. For more information about Employee Slate, see [ServiceNow EmployeeWorks Web App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-slate-landing-page.md).
 
 Demands are available in Employee Slate if both Project Workspace and Employee Slate Core apps are installed.
 
@@ -31,7 +31,7 @@ After the demand record is created, you can track the new demand from the My Dem
 
 The My Demands widget is a card on the Employee Slate canvas. It lists your ten most recently updated demands with a total count of your demands next to the **My Demands** heading. Each demand in the list appears as a row with its demand title, assignee avatar and name, and a color-coded status badge. If the demand does not have an assigned demand manager, the icon and label indicates it as unassigned.
 
-The widget is available in the canvas widget library. Add it to your canvas; it is retained for future sessions. For more information about how to add widgets to your canvas, see .
+The widget is available in the canvas widget library. Add it to your canvas; it is retained for future sessions. For more information about how to add widgets to your canvas, see [Customize canvas widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/eslate-customize-canvas-widgets.md).
 
 \[Omitted image "demand-my-demand-widget.png"\] Alt text: My demands widget in the canvas of Employee Slate.
 
@@ -66,5 +66,9 @@ You can also view and edit demands by selecting a demand from the list.
 **Related topics**  
 
 
-[bundle-emplsm.employee-slate-landing-page]
+[ServiceNow EmployeeWorks Web App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-slate-landing-page.md)
+
+[EmployeeWorks capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/eslate-capabilities-common.md)
+
+[Conversation-first catalog and knowledge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/eslate-conversational-catalog.md)
 

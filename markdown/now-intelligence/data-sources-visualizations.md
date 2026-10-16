@@ -93,7 +93,7 @@ Base system
 
 Zero Copy Connector Hub provides a view where you can browse data sources, establish connections, and create data fabric tables that provide access to data from external sources. Workflow Data Fabric tables are found in the same list as other tables when you create a visualization. Data from Workflow Data Fabric tables does not load automatically when you select it as a data source. Select **Run** to load the data in the preview. Select **Apply** to add the table as the data source.
 
-For more information, see [Workflow Data Fabric Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/wdf.md).
+For more information, see .
 
 </td></tr><tr><td>
 

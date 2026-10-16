@@ -107,7 +107,7 @@ ServiceNow
 
 </td></tr><tr><td>
 
-[Define a REST message HTTP method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_DefineAnHTTPMethod.md)
+
 
 </td><td>
 

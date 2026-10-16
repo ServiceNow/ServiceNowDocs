@@ -19,7 +19,7 @@ Create a theme record for your web or mobile experiences by using the Home view 
 
 Role required: ui\_builder\_admin
 
-For information on granular roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/granular-admin-roles.md).
+For information on granular roles, see .
 
 ## Procedure
 

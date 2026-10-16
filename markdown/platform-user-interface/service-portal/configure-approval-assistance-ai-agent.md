@@ -26,7 +26,7 @@ The Approval Configuration record controls two aspects of the approval experienc
 
 -   **Display experience**
 
-    Defines which fields appear and in what order, both in the Approval Assistance AI agent and the Approval Info Record widget. For more information, see [Using the approval assistance AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/plat-approval-assistance-ai-agent.md) and [Approval Info Record widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/approval-info-record-widget.md).
+    Defines which fields appear and in what order, both in the Approval Assistance AI agent and the Approval Info Record widget. For more information, see  and [Approval Info Record widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/approval-info-record-widget.md).
 
 -   **AI behavior**
 
@@ -141,7 +141,7 @@ KB search fields define which fields from the configured table are used to build
 
 ## Configuring search sources for checklist generation
 
-In addition to KB articles, the approval checklist can draw from third-party sources such as Microsoft SharePoint, Google Drive, or a custom internal table. To enable third-party sources, configure the third-party application as a search source linked to your portal search profile. For more information, see [Defining search sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-sources-ais.md).
+In addition to KB articles, the approval checklist can draw from third-party sources such as Microsoft SharePoint, Google Drive, or a custom internal table. To enable third-party sources, configure the third-party application as a search source linked to your portal search profile. For more information, see Defining search sources.
 
 After the search source is configured, add the search profile and search source to the following system property: sn\_na\_req\_agent.approval\_checklist.search\_profile\_sources.
 

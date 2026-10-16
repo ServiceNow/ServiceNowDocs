@@ -47,15 +47,15 @@ The demand summarization skill generates a summary of a demand record from a set
 
 7.  Add or remove an input field.
 
-<table id="choicetable_zn4_5qk_fkc"><thead><tr><th align="left" id="d199351e157">
+<table id="choicetable_zn4_5qk_fkc"><thead><tr><th align="left" id="d199385e157">
 
 Goal
 
-</th><th align="left" id="d199351e160">
+</th><th align="left" id="d199385e160">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d199351e166">
+</th></tr></thead><tbody><tr><td id="d199385e166">
 
 **Add a field**
 
@@ -66,7 +66,7 @@ Action
 3.  Provide a description for the field.
 
 
-</td></tr><tr><td id="d199351e190">
+</td></tr><tr><td id="d199385e190">
 
 **Remove a field**
 
@@ -81,15 +81,15 @@ Select the cross icon next to an input field.
 
 9.  Add or remove a field from a related table, add or remove a related table, or add rule conditions for each related table.
 
-<table id="choicetable_wzc_j5k_fkc"><thead><tr><th align="left" id="d199351e227">
+<table id="choicetable_wzc_j5k_fkc"><thead><tr><th align="left" id="d199385e227">
 
 Goal
 
-</th><th align="left" id="d199351e230">
+</th><th align="left" id="d199385e230">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d199351e236">
+</th></tr></thead><tbody><tr><td id="d199385e236">
 
 **Add a field from a related table**
 
@@ -100,7 +100,7 @@ Action
 3.  Provide a description for the field.
 
 
-</td></tr><tr><td id="d199351e260">
+</td></tr><tr><td id="d199385e260">
 
 **Remove a field from a related table**
 
@@ -108,7 +108,7 @@ Action
 
 Select the cross icon next to a related table field.
 
-</td></tr><tr><td id="d199351e269">
+</td></tr><tr><td id="d199385e269">
 
 **Add a related table**
 
@@ -120,7 +120,7 @@ Select the cross icon next to a related table field.
 4.  Provide a description for the field.
 
 
-</td></tr><tr><td id="d199351e296">
+</td></tr><tr><td id="d199385e296">
 
 **Remove a related table**
 
@@ -128,7 +128,7 @@ Select the cross icon next to a related table field.
 
 Select the cross icon next to a related table.
 
-</td></tr><tr><td id="d199351e306">
+</td></tr><tr><td id="d199385e306">
 
 **Add rule conditions for a related table**
 

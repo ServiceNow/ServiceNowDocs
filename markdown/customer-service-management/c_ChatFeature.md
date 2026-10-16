@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/c\_ChatFeature.html
 release: australia
 topic_type: concept
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 4
 keywords: [chat, omnichannel, configure]
 breadcrumb: [Configure omnichannel, Configure, Customer Service Management]

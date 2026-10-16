@@ -36,7 +36,7 @@ To use this feature, install the following plugins:
 
 ​
 
-See [List of plugins \(Rome\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md) for a complete list of ServiceNow plugins.
+See List of plugins \(Rome\) for a complete list of ServiceNow plugins.
 
 After installation, you can use the base system subflows or customize them.​ Configure the subflows in the Document actions table.​ Once configured, they can be invoked as UI actions from List views or can be invoked through Script Include APIs.​
 

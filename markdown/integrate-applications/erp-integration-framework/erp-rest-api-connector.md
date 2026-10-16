@@ -21,7 +21,7 @@ Use the REST API connector to connect to any RESTful API with standardized API s
 
 You can use REST APIs to access business data from ERP \(Enterprise Resource Planning\) systems. Integrating these APIs requires manual processes. The REST API connector solves this by providing a reusable, low-code integration layer.
 
-For API details, see [sn\_erp\_integration API - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/sn_erp_integrationBothAPI.md).
+For API details, see .
 
 ## REST service connection configuration
 

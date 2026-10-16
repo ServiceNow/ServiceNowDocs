@@ -42,15 +42,15 @@ Playbooks are built and configured in Workflow Studio, where you define activiti
 
 3.  Provide details on the **Set objectives** tab.
 
-<table id="choicetable_akh_rrs_33c"><thead><tr><th align="left" id="d60557e136">
+<table id="choicetable_akh_rrs_33c"><thead><tr><th align="left" id="d60580e136">
 
 Field
 
-</th><th align="left" id="d60557e139">
+</th><th align="left" id="d60580e139">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d60557e145">
+</th></tr></thead><tbody><tr><td id="d60580e145">
 
 **Select type**
 
@@ -58,7 +58,7 @@ Description
 
 Select `Project`.
 
-</td></tr><tr><td id="d60557e157">
+</td></tr><tr><td id="d60580e157">
 
 **Name**
 
@@ -66,7 +66,7 @@ Select `Project`.
 
 Provide an intuitive name for the project that you’re creating.
 
-</td></tr><tr><td id="d60557e166">
+</td></tr><tr><td id="d60580e166">
 
 **Short description**
 
@@ -74,7 +74,7 @@ Provide an intuitive name for the project that you’re creating.
 
 Provide a short description for the project you’re creating.
 
-</td></tr><tr><td id="d60557e175">
+</td></tr><tr><td id="d60580e175">
 
 **Source Type**
 
@@ -82,7 +82,7 @@ Provide a short description for the project you’re creating.
 
 Select `Playbook` from the list.
 
-</td></tr><tr><td id="d60557e188">
+</td></tr><tr><td id="d60580e188">
 
 **Playbook**
 
@@ -90,7 +90,7 @@ Select `Playbook` from the list.
 
 Select a table with playbook data from the list.
 
-</td></tr><tr><td id="d60557e197">
+</td></tr><tr><td id="d60580e197">
 
 **Mark as restricted**
 
@@ -100,7 +100,7 @@ Select the check box if you want to limit project access to the owner and the us
 
 When you’re dealing with sensitive data and must restrict access, you can use this option.
 
-</td></tr><tr><td id="d60557e210">
+</td></tr><tr><td id="d60580e210">
 
 **Auto retire**
 
