@@ -1155,5 +1155,5 @@ For example:
 now-sdk query incident --query 'active=true^priority<=2' --limit 50 --fields 'number,short_description,priority' --auth devuser1 --output json
 ```
 
-For more information, see [Table API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/c_TableAPI.md).
+For more information, see .
 

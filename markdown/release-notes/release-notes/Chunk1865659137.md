@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/nahr-rn.
 release: yokohama
 topic_type: topic
 last_updated: "2025-01-30"
-reading_time_minutes: 8
+reading_time_minutes: 7
 breadcrumb: [HR Service Delivery release notes, Employee Service Management release notes, Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
 ---
 
@@ -45,7 +45,7 @@ Yokohama Early Availability
 -   Use Knowledge Graph to create personalized knowledge models in the form of Knowledge Graph schemas.
 -   Create Journey Accelerator plans by using ServiceNow Otto for HRSD in Journey designer.
 
-See [ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-hrsd.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -85,12 +85,12 @@ The ServiceNow® ServiceNow Otto for HR Service Delivery \(HRSD\) application en
 
 ### What's new
 
--   **[Resolve HR cases agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/employee-issue-resolver-na.md)**
+-   **Resolve HR cases agentic workflow**
 
     Generate a step-wise fulfillment plan for an HR case by selecting the **Generate Plan** button on the HR Case. HR agents can add prompts to further refine the AI generated fulfillment plan before the plan is published to the work notes of the case.
 
 
--   **[Growth Conversations agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/agentic-wf-conversations-na-td.md)**
+-   **Growth Conversations agentic workflow**
 
     Use the new growth conversations workflow to streamline your employee growth discussions in Career Conversations.
 
@@ -113,16 +113,16 @@ The ServiceNow® ServiceNow Otto for HR Service Delivery \(HRSD\) application en
     Google Gemini and AWS Claude are available for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
 
 
--   **[Generate a knowledge article from HR Agent Workspace with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/gen-kb-now-assisthr.md)**
+-   ****
 
     Create a copy of the KB generation skill to create custom templates that are based on your organization's requirements. When a skill copy is activated, the main skill is automatically deactivated.
 
 
--   **[Generate an email reply recommendation by using ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/email-recommendation-nahr.md)**
+-   ****
 
     View the list of KB articles, related records, and current records that are used to generate email reply recommendations.
 
--   **[Generate onboarding ramp-up plan agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/onboarding-ramp-up-plan-agentic-wf.md)**
+-   ****
 
     Simplify employee onboarding with AI agents that gather inputs, structure tasks, enable manager review, and deliver personalized onboarding plans.
 
@@ -133,7 +133,7 @@ The ServiceNow® ServiceNow Otto for HR Service Delivery \(HRSD\) application en
 
 ### What's new
 
--   **[Resolve HR cases agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/employee-issue-resolver-na.md)**
+-   ****
 
     Use the Resolve noncritical HR cases agentic workflow for faster mean time to repair \(MTTR\) cases, automate the resolution of routine employee inquiries, and reduce the costs for HR operations organizers.
 
@@ -141,15 +141,15 @@ The ServiceNow® ServiceNow Otto for HR Service Delivery \(HRSD\) application en
     |----------------|-----------|
     |Resolve noncritical HR cases|AI agents detect criticality and retrieve relevant knowledge-based responses to automate the resolution of employee queries.|
 
--   **[Access knowledge from internal and external content sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/explore-now-assist-hr.md)**
+-   **Access knowledge from internal and external content sources**
 
     Find reliable answers to HR management queries from multiple data sources, including the research and articles from The Josh Bersin Company, with attribution to each source.
 
--   **[Override sensitivity detection false positives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/explore-now-assist-hr.md)**
+-   **Override sensitivity detection false positives**
 
     Proceed with the interaction when the virtual agent incorrectly identifies a phrase as containing sensitive information.
 
--   **[Create a growth conversation with the help of an agent in Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/agentic-wf-conversations-na-td.md)**
+-   **Create a growth conversation with the help of an agent in Now Assist**
 
     As a manager, use the growth conversations preparation AI agent to schedule and prepare for employee growth discussions. The agent provides a clear summary of employee activity and career journey, with data-driven talking points to make conversations more focused and impactful.
 
@@ -162,7 +162,7 @@ The ServiceNow® ServiceNow Otto for HR Service Delivery \(HRSD\) application en
 
 ### What's new
 
--   **[Help resolve tuition requests agentic workflow for ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-hrsd-ai-agents-policy-resolving-tr-usecase.md)**
+-   ****
 
     Use the Resolve policy use case for faster mean time to repair \(MTTR\) cases that require validation that is based on the policies that are built for tuition reimbursement.
 
@@ -178,15 +178,15 @@ The ServiceNow® ServiceNow Otto for HR Service Delivery \(HRSD\) application en
 
 ### What's new
 
--   **[ServiceNow Otto for HRSD Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-ohcm.md)**
+-   ****
 
-    Use the [ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-hrsd.md) Virtual Agent topics to place employee requests in the HCM system. Examples of requests are when an employee requests time off or updates their personal details.
+    Use the  Virtual Agent topics to place employee requests in the HCM system. Examples of requests are when an employee requests time off or updates their personal details.
 
--   **[Use Knowledge Graph in ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/na-kb-graph.md)**
+-   ****
 
     Create and manage personalized knowledge models as Knowledge Graph schemas that are represented as nodes, edges, and their properties. Virtual Agent uses the assigned Knowledge Graph schema to resolve employee requests and queries.
 
--   **[Create a journey using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/create-journey-na.md)**
+-   ****
 
     Create Journey Accelerator plans by entering prompts to Virtual Agent without having to manually create lists and forms.
 

@@ -26,8 +26,8 @@ While some tools have the word "Builder" attached to their name and others don't
 
 |Builder|Description|
 |-------|-----------|
-|[Decision tables in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/decision-designer-overview.md)|Decision tables in Workflow Studio embed business logic into a series of if-then decision rules. Decision tables read data from inputs and evaluate the data according to specified conditions. When all the conditions for a decision rule are met, the decision table returns one or more results.|
-|[Flows, subflows, and actions in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/exploring-flows.md)|Flows, subflows, and actions enable process owners to automate work. Build multi-step flows from reusable components without having to code.|
+|Decision tables in Workflow Studio|Decision tables in Workflow Studio embed business logic into a series of if-then decision rules. Decision tables read data from inputs and evaluate the data according to specified conditions. When all the conditions for a decision rule are met, the decision table returns one or more results.|
+|Flows, subflows, and actions in Workflow Studio|Flows, subflows, and actions enable process owners to automate work. Build multi-step flows from reusable components without having to code.|
 |[Playbooks in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/process-automation-designer.md)|Playbooks enable process owners to author cross-enterprise workflows and create a single, unified process. You can also use playbooks to provide end users with a simplified, task-oriented view of your process.|
 
 ## Data
@@ -49,7 +49,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Integration Hub Imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/importing-streaming-data-ih.md)
+Integration Hub Imports
 
 </td><td>
 
@@ -79,5 +79,5 @@ Integration Hub - Import enables you to configure, run, and schedule your data i
 
 |Builder|Description|
 |-------|-----------|
-|[Script Debugger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/script-debugger.md)|The Script Debugger enables users with the script\_debugger role to debug server-side JavaScript.|
+|Script Debugger|The Script Debugger enables users with the script\_debugger role to debug server-side JavaScript.|
 

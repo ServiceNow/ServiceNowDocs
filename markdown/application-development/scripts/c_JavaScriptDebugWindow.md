@@ -85,7 +85,5 @@ Click the debug icon \(\[Omitted image "Debug.png"\] Alt text: The debug icon\) 
 **Related topics**  
 
 
-[Writing to the debug log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_WritingToTheDebugLog.md)
-
-[Field watcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_FieldWatcher.md)
+[bundle-crapiref.c_WritingToTheDebugLog]
 

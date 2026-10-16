@@ -50,7 +50,7 @@ Administrators and application developers can use this information to conduct mo
 **Related topics**  
 
 
-[Script Debugger and Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/script-debugger.md)
+[bundle-crapiref.script-debugger]
 
 ## Activate JS Code Coverage Debug
 

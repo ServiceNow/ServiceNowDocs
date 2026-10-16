@@ -30,7 +30,7 @@ The ServiceNow® Advanced Risk application enables you to identify, analyze, eva
 -   Remove risks from a risk assessment project during the assessment to streamline focus on relevant risks.
 -   Enable and manage the risk response task workflow from the Risk Assessment Methodology \(RAM\) form.
 
-See [Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/advanced-risk-assessment.md) for more information.
+See Advanced Risk Assessment for more information.
 
 ## Activation and other requirements
 
@@ -66,7 +66,7 @@ The ServiceNow® Advanced Risk application enables you to identify, analyze, eva
 
 ### What's new
 
--   **[Generative AI risk assessment summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/generate-risk-assessment-summary-genai.md)**
+-   **Generative AI risk assessment summarization**
 
     Generate a risk assessment summary from your inherent, residual, target risks, and control effectiveness data using the ServiceNow Otto for IRM application. The summary highlights key insights to help your approvers quickly understand the context before approving the risk assessments. You can also analyze details such as open issues, risk response tasks, action items, and calculated risk scores to support your approval decision. Check your entitlements to confirm whether you have access to risk assessment summarization.
 
@@ -77,27 +77,27 @@ The ServiceNow® Advanced Risk application enables you to identify, analyze, eva
 
 ### What's new
 
--   **[Reassess a risk assessment project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/reassess-risk-assessment-project.md)**
+-   ****
 
     Review completed risk assessment projects to reflect new insights or changing conditions. All previously assessed risks in this project are automatically carried over and reassigned to the designated assessor. Confirm continuity, minimize manual effort, and enhance efficiency in your risk management process.
 
--   **[Copy risk responses from the previous assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/perform-assessment-on-risk-assessment-project.md)**
+-   **Copy risk responses from the previous assessment**
 
     Copy responses from a previous risk assessment during the reassessment of a risk assessment project to streamline the assessment process. All prior responses are automatically copied, saving time and maintaining consistency.
 
--   **[Remove risks from assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/perform-assessment-on-risk-assessment-project.md)**
+-   **Remove risks from assessment**
 
     As a risk assessor, you can remove risks from the risk assessment project while performing the assessment, which also removes all responses associated with that risk. Removed scoped risks remain part of the project but are marked as not applicable for reporting purposes. However, removed ad hoc risks are completely deleted.
 
--   **[Manage risk response task workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/configure-ram.md)**
+-   **Manage risk response task workflow**
 
     Manage and enable the risk response task workflow from the RAM form to enable users to create, delete, remove, edit, and link risk response tasks within an assessment.
 
--   **[Reassign assessor for a risk assessment project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/reassign-assessor-for-risk-assessment-project.md)**
+-   ****
 
     Reassign assessors for multiple in-progress risk assessment projects simultaneously to minimize disruptions during stakeholder transitions.
 
--   **[Configure risk color styles for the Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/create-risk-color-style.md)**
+-   **Configure risk color styles for the Next Experience**
 
     Define and preview colors for the risk and advanced risk components in the Next Experience through a configurable system rather than having to use hex codes. The transition has been made from a hex code color management system to a configurable system that supports the highlighted value component colors. This feature addresses theming and accessibility issues. You can define the color and variant, and preview them using the Next Experience color styles tab on the Risk color style form.
 

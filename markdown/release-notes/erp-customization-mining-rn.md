@@ -25,7 +25,7 @@ The ServiceNow®ERP Customization Mining \(ERP-CM\) product enables ERP \(Enterp
 -   View charts and graphs on the new ERP Customization Mining home page dashboard.
 -   Take guided tours with interactive steps to learn about features and interactively complete tasks in ERP Customization Mining.
 
-See [ERP Customization Mining \(ERP-CM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/erp-customization-mining-overview.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -44,7 +44,7 @@ The ServiceNow®ERP Customization Mining \(ERP-CM\) product enables ERP \(Enterp
 
 ### What's new
 
--   **[Reset AI/ML analysis to control the ML training](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/erpcm-check-data-connection.md)**
+-   **Reset AI/ML analysis to control the ML training**
 
     Use **Reset AI/ML analysis** option to clear the AI/ML analysis so the flow can run again.
 
@@ -55,22 +55,22 @@ The ServiceNow®ERP Customization Mining \(ERP-CM\) product enables ERP \(Enterp
 
 ### What's new
 
--   **[ERP Customization Mining dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/erpcm-obtaining-statistics-and-mining-analysis.md)**
+-   **ERP Customization Mining dashboard**
 
     View statistics about mining results and candidates on the home page dashboard.
 
--   **[Guided tours in ERP Customization Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/guided-tours-in-erp-customization-mining.md)**
+-   ****
 
     Learn about features and complete tasks through interactive steps by taking guided tours within ERP Customization Mining.
 
--   **[Updated home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/erpcm-obtaining-statistics-and-mining-analysis.md)**
+-   **Updated home page**
 
     The new home page provides a dashboard showing metrics through charts and graphs related to ERP Customization Mining.
 
 
 ### What's changed
 
--   **[Faster initialization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/how-erp-clean-core-inputs-data.md)**
+-   **Faster initialization**
 
     In addition to daily total application statistics, the SQLM and APPSTATS initial scan now also retrieves all monthly total application statistics up to the current date.
 

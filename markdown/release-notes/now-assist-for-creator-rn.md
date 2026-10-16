@@ -64,7 +64,7 @@ The ServiceNow® ServiceNow Otto for Creator application includes generative AI 
 -   ServiceNow Otto for Code now supports both Now LLM Service and Azure OpenAI model providers. When you select the Azure OpenAI model provider, all requests for the ServiceNow Otto for Code model are redirected to Azure OpenAI for evaluation and response. Additionally, you get access to the Code Explain and Code Summarize features.
 -   Use the auto-complete feature of ServiceNow Otto for Code to get contextually relevant code suggestions while typing.
 
-See [Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/now-assist-for-creator-landing.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -91,7 +91,7 @@ The ServiceNow® ServiceNow Otto for Creator application includes generative AI 
 
 ### What's new
 
--   **[Build Agent, an autonomous AI agent for ServiceNow application development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/build-agent.md)**
+-   **Build Agent, an autonomous AI agent for ServiceNow application development**
 
     Build Agent, located in a chat panel within the ServiceNow IDE, functions as an autonomous AI agent capable of independently generating a complete ServiceNow application. It can handle various code-related tasks, such as rewriting tables, explaining code, validating and improving existing applications, fixing application errors, and more.
 
@@ -147,35 +147,35 @@ The ServiceNow® ServiceNow Otto for Creator application includes generative AI 
 
 ### What's new
 
--   **[Add columns to existing tables with Now Assist for app generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/sns-app-gen-review-apps.md)**
+-   **Add columns to existing tables with Now Assist for app generation**
 
     Add columns to existing tables in Now Assist for app generation.
 
--   **[Add flows in Now Assist for app generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/sns-app-gen-add-flow.md)**
+-   **Add flows in Now Assist for app generation**
 
     Create a flow when creating an application in Now Assist for app generation. Enhance an existing application by adding a flow.
 
--   **[Add workspaces in Now Assist for app generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/sns-app-gen-add-workspace.md)**
+-   **Add workspaces in Now Assist for app generation**
 
     Create a workspace when creating an application in Now Assist for app generation. Enhance an existing application by adding a workspace.
 
--   **[Configure an event handler with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/configure-an-event-handler-with-now-assist.md)**
+-   ****
 
     Use Now Assist in UI Builder to configure event handlers. At present, you can configure links to a destination, open or close modals, and view load requested event handlers using Now Assist in UI Builder.
 
--   **[Create a flow or subflow from an image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/exploring-flow-generation-with-images.md)**
+-   **Create a flow or subflow from an image**
 
     Create a flow or a subflow from an image by using Now Assist. Capture the detailed process in an image and attach the image to Workflow Studio. Now Assist generates a preview of the flow that you can modify and regenerate.
 
--   **[Enable Code Explain and Summarize](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/scripts/enable-code-explain-and-summarize.md)**
+-   ****
 
     Support Code Explain and Code Summarize features with the Now LLM Service. Ensure compliance with any regional restrictions and help APAC users who may face limitations with US-based models.
 
--   **[Summarize client scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/client-script-summarization-generation.md)**
+-   **Summarize client scripts**
 
     Use client script summary generation to get both a high-level summary and a detailed explanation of the client scripts.
 
--   **[Summarize a flow or subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/flow-summarization.md)**
+-   **Summarize a flow or subflow**
 
     Summarize what a flow or subflow does by using generative AI.
 
@@ -183,15 +183,15 @@ The ServiceNow® ServiceNow Otto for Creator application includes generative AI 
 
     Support 97 additional components with ServiceNow Otto for RPA Hub.
 
--   **[Support Retrieval Augmented Generation \(RAG\) with playbook generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/playbook-assist.md)**
+-   **Support Retrieval Augmented Generation \(RAG\) with playbook generation**
 
     Generate playbooks from inputs that refer to custom actions, flows, subflows, content from installed spokes, or activity definitions. Include the names of commonly used and recently published actions, subflows, flows, and activity definitions that are available on your instance in your playbook generation requests.
 
--   **[Time out long running app summaries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/sns-now-assist-app-summarize-landing.md)**
+-   **Time out long running app summaries**
 
     Time out app summary generation after two minutes.
 
--   **[Use the Now LLM Service with Now Assist for app generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/sns-exploring-now-assist-gen.md)**
+-   **Use the Now LLM Service with Now Assist for app generation**
 
     Choose Now LLM Service or OpenAI GPT-4o to ensure compliance with any regional restrictions. This feature is helpful for APAC users who may face limitations with US-based models, such as GPT-4.0.
 
@@ -202,15 +202,15 @@ The ServiceNow® ServiceNow Otto for Creator application includes generative AI 
 
 ### What's new
 
--   **[Create applications in ServiceNow Studio by using Now Assist with the guided app creator role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/sns-app-gen-using-landing.md)**
+-   **Create applications in ServiceNow Studio by using Now Assist with the guided app creator role**
 
     Enable your users with the guided app creator role \(in addition to users with the admin role\) to create applications with the Now Assist for app generation skill.
 
--   **[Summarize an app in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/sns-now-assist-app-summarize-landing.md)**
+-   **Summarize an app in ServiceNow Studio**
 
     Use the new Now Assist for app summary generation skill to quickly generate a summary of an app. You can then copy the summary to the app description, and then use the summaries to find duplicate or redundant apps.
 
--   **[Generate and edit automated tests faster by using the Test generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/test-generation-intro.md)**
+-   **Generate and edit automated tests faster by using the Test generation skill**
 
     Use the new Test generation skill to generate automated tests faster by simply describing your test requirements. Review the generated test, make edits directly, or refine your original prompt to generate a revised version of the test.
 
@@ -222,11 +222,11 @@ The ServiceNow® ServiceNow Otto for Creator application includes generative AI 
     Starting in Yokohama Patch 1, analytics generation supports GPT-4o for generating queries, to provide better accuracy in responses. These improvements include support for up to two levels of dot-walking based on user utterances.
 
 
--   **[Find files faster when previewing an application in the Now Assist for app generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/sns-app-gen-using-landing.md)**
+-   **Find files faster when previewing an application in the Now Assist for app generation skill**
 
     Filter the app files list and narrow the search when previewing an application that is created with the Now Assist for app generation skill.
 
--   **[Enhanced visibility of apps created by the Now Assist for app generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/sns-app-gen-review-apps.md)**
+-   **Enhanced visibility of apps created by the Now Assist for app generation skill**
 
     On the ServiceNow Studio home page, apps that are generated by AI display the AI indicator.
 
@@ -250,11 +250,11 @@ The ServiceNow® ServiceNow Otto for Creator application includes generative AI 
 
 ### What's changed
 
--   **[More easily identify changes when previewing and updating applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/sns-app-gen-using-landing.md)**
+-   **More easily identify changes when previewing and updating applications**
 
     When previewing an application, any requested changes made by the Now Assist for app generation skill are listed when the preview pane loads.
 
--   **[Edit applications without having to change the scope manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/sns-app-gen-review-apps.md)**
+-   **Edit applications without having to change the scope manually**
 
     When editing applications, the Now Assist for app generation skill now changes the scope that you’re working in to the scope of the application automatically.
 

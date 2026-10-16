@@ -61,7 +61,7 @@ To debug client-side scripts, you can use browser-based developers tools.
 
 A debugger transaction remains open as long as the user session is valid. If a user logs out or their session times out, the system closes the debugger transaction.
 
-To view debug logs, see [Display debugging logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_SessionDebug.md).
+To view debug logs, see Display debugging logs.
 
 **Note:** When the Script Debugger is enabled, code is executed in interpreted mode. If parts of the script are set to run in strict mode, the debugger is not able to find the correct objects and the debugger fails. The Script Debugger must run on scripts outside of strict mode.
 

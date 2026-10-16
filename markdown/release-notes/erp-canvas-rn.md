@@ -29,11 +29,11 @@ The ServiceNow® ERP Canvas application \(formerly known as ERP Data Hub\) enabl
 -   Enhance communication security between SAP systems and your ServiceNow instance by using the SAP Secure Network Communication \(SNC\) connection option.
 -   Manually name, edit, and maintain model manager fields.
 
-See [ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/erp-integration-overview.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
-**Important:** [ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/erp-integration-overview.md) is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Important:**  is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 -   **Activation information**
 
@@ -52,30 +52,30 @@ The ServiceNow® ERP Canvas application \(formerly known as ERP Data Hub\) enabl
 
 ### What's new
 
--   **[ERP Canvas dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/erpc-obtaining-erp-canvas-metrics-and-statistics.md)**
+-   **ERP Canvas dashboard**
 
     View charts and graphs about transactions on the home page dashboard.
 
--   **[Implement and deploy faster with ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/erp-canvas-content-packs.md)**
+-   **Implement and deploy faster with ERP content packs**
 
     Use prebuilt content packs containing models to get ERP Canvas running on your instance faster.
 
--   **[Preview entities in the Model Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/erpc-add-entity-to-model-op.md)**
+-   **Preview entities in the Model Manager**
 
     Preview operations, fields, values, inputs, and outputs in the ERP Canvas Model Manager instead of having to open App Engine Studio.
 
--   **[View detailed software information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/view-erp-system-information.md)**
+-   **View detailed software information**
 
     View software information including machine type, node name, supported database, and more.
 
 
 ### What's changed
 
--   **[View ERP Canvas software information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/view-erp-system-information.md)**
+-   ****
 
     From the ERP Canvas system form, view detailed system information including machine type, node name, supported database, and Unicode status.
 
--   **[Preview model entities before adding to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/erp-canvas-preview-entity.md)**
+-   **Preview model entities before adding to a model**
 
     In the Model Manager, confirm you are adding the correct entity by examining and verifying read table entities before adding the entity to a model.
 
@@ -86,34 +86,34 @@ The ServiceNow® ERP Canvas application \(formerly known as ERP Data Hub\) enabl
 
 ### What's new
 
--   **[Export and import ERP Canvas custom models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/erpc-export-and-import-custom-models.md)**
+-   **Export and import ERP Canvas custom models**
 
     Share custom models between instances using export and import instead of re-creating the custom models.
 
--   **[Use an SAP Secure Network Communication \(SNS\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/set-up-erp-integration-connection.md)**
+-   **Use an SAP Secure Network Communication \(SNS\) connection**
 
     Configure an SAP Secure Network Communication \(SNC\) connection to have a certificate-based authentication to access SAP production data based on X.509.
 
--   **[Control model manager field names](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/erpc-edit-mapped-value-name-in-model-manager.md)**
+-   **Control model manager field names**
 
     Manually edit and maintain model manager fields for a more customizable model management experience.
 
--   **[More easily create a new table transform map from an extraction table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/erpc-create-table-transform-map-from-extraction-table.md)**
+-   **More easily create a new table transform map from an extraction table**
 
     Select and map source fields with target fields when creating a table transform map from an extraction table.
 
--   **[Enhanced $orderby OData query capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/erp-data-hub-odata-query-capabilities.md)**
+-   **Enhanced $orderby OData query capability**
 
     Specify the order, ascending or descending, in which data should be returned from an output variable.
 
--   **[Use guided tours in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/guided-tours-in-erp-canvas.md)**
+-   **Use guided tours in ERP Canvas**
 
     Learn about features and complete tasks through interactive steps by taking guided tours within ERP Canvas.
 
 
 ### What's changed
 
--   **[ERP Integration application name change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/erp-integration-overview.md)**
+-   **ERP Integration application name change**
 
     The name of the application has been changed from ERP Data Hub to ERP Canvas.
 

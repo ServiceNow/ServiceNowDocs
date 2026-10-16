@@ -20,15 +20,15 @@ Verify the application meets your business requirements. Your testing should cov
 
     Create and run automated tests to confirm that your instance works after making a change. Review failed test results to identify the changes that caused the failure and the changes that you should review.
 
--   **[Debugging scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/script-debug-overview.md)**
+-   ****
 
     Debug scripts using session logs and ServiceNow AI Platform debugging tools, such as a walk-through script debugger and error messages that display in the UI.
 
--   **[Script Debugger and Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/script-debugger.md)**
+-   ****
 
     The Script Debugger enables users with the script\_debugger role to debug server-side JavaScript, while the Session Log enables you to view and download required logs.
 
--   **[Script Tracer and debugging scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/script-tracer.md)**
+-   ****
 
     Use the Script Tracer to filter your debugging search and quickly narrow down script problems. Finding specific lines of scripts, rather than doing a wide search, helps save time and improves productivity.
 

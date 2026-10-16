@@ -18,7 +18,7 @@ The ServiceNow® Now Mobile® application enables your users and employees to su
 
 Get personalized search results with the Now Assist genius results search functionality in Now Mobile®.
 
-See [Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/mobile-employee-experience.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -37,7 +37,7 @@ The ServiceNow® Now Mobile® application enables your users and employees to su
 
 ### What's new
 
--   **[Now Assist genius results in Now Mobile®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/na-qa-mobile.md)**
+-   ****
 
     Now Assist genius results in Now Mobile® provides a personalized way of using the search functionality as opposed to the traditional AI Search experience.
 

@@ -33,7 +33,7 @@ When a script is run, the instance displays results, information, and error mess
 
 To stop a transaction, see [View and kill active transaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_ViewAndKillAnActiveTransaction.md).
 
-For examples of scripts you could run, see [Useful scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/usefulScripts.md).
+For examples of scripts you could run, see .
 
 **Parent Topic:**[Server-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/scripts/c_ServerScripting.md)
 

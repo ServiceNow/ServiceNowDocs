@@ -24,7 +24,7 @@ Available as part of ERP Canvas.
 
 -   **Role requirements**
 
-    This action requires roles granted by delegated development or assigned to the user. For more information, see [User access to Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/user-access-flow-designer.md).
+    This action requires roles granted by delegated development or assigned to the user. For more information, see .
 
 
 ## Inputs

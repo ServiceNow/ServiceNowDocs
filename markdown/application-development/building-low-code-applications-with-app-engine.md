@@ -63,7 +63,7 @@ The ServiceNow IDE is an implementation of Visual Studio Code for the Web on the
 
 ## Related applications and features
 
--   **[Exploring Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/decision-designer-overview.md)**
+-   ****
 
     Use Decision Builder to create and manage decision tables. Embed business logic into a series of if-then decision rules.
 
@@ -71,7 +71,7 @@ The ServiceNow IDE is an implementation of Visual Studio Code for the Web on the
 
     ServiceNow Studio gives developers access to app development builders and tools, all in one place.
 
--   **[Flows in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/exploring-flows.md)**
+-   **Flows in Workflow Studio**
 
     Workflow Studio automates processes and repetitive work to improve efficiency and experience.
 

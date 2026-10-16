@@ -461,7 +461,7 @@ In a business rule or other server script, the gs.getUser\(\) method returns a u
 
 ### About this task
 
-For a list and description of the available scoped methods for the user object, see [GlideUser](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/GUserAPI.md).
+For a list and description of the available scoped methods for the user object, see GlideUser.
 
 ### Procedure
 
@@ -496,9 +496,9 @@ Logs can be at the level of debug, info, notice, warning, err, or crit \(after B
 
 Use for any server-side script where you want to implement event logging.
 
-For the API reference, see [GSLog\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/GSLogBoth.md).
+For the API reference, see GSLog\(\).
 
-For more information, see [Debugging scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/script-debug-overview.md)
+For more information, see Debugging scripts
 
 ## Modify a GlideDateTime field value
 

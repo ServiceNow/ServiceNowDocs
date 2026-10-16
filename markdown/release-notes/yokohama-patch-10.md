@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/yokohama-patch-10.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 52
 breadcrumb: [Available patches and hotfixes, Learn about the Yokohama release, Yokohama release notes]
 ---

@@ -21,7 +21,7 @@ The ServiceNow® Operational Resilience application supports organizations to he
 -   All CSDM objects, dependencies, and their red flags can be rolled up based on the entity hierarchy.
 -   Use Smart Assessment for evaluating an Operational vulnerability.
 
-See [Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/grc-opres-landing-page.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -48,32 +48,32 @@ The ServiceNow® Operational Resilience application supports organizations to he
 
 ### What's new
 
--   **[Measure resilience metrics using the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/using-csdm-v5.md)**
+-   **Measure resilience metrics using the CSDM model**
 
     Define the entity types and pillars in Operational Resilience and generate the entities. Establish relationships between CSDM objects, including business services, service offerings, business processes, and application services. Specify the type of main node configuration that you want to use by setting the **sn\_oper\_res.opres\_csdm\_main\_node\_config** property.
 
     After generating the entities and setting up the main node configurations, you can import CMDB data into Operational Resilience for reporting. CSDM and their dependencies are updated weekly while the red flags data is calculated daily. The outcome is displayed on the Homepage or in the related list of the CSDM objects.
 
--   **[Specify the primary origin of an operational vulnerability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/add-impacted-area-to-vul.md)**
+-   **Specify the primary origin of an operational vulnerability**
 
     Identify the primary origin of an operational vulnerability in its record. Once the primary origin is specified, its upstream dependencies are automatically included in the impacted areas, enabling you to view the operational vulnerability from all affected perspectives.
 
 
 ### What's changed
 
--   **[Business services dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/opres-ws-homepage-overview.md)**
+-   **Business services dashboard**
 
     The Business services dashboard has been added to display business services data.
 
--   **[New modules for services and processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/using-csdm-v5.md)**
+-   **New modules for services and processes**
 
     The Services, Business Services, Service Offerings, and Business Processes modules have been added to the Operational Resilience Workspace. Operational Resilience managers use these modules to manage the services, business services, service offerings, and business processes used in Operational Resilience reporting.
 
--   **[Entity Types and Pillars modules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/manage-entity-types-pillars-from-ws.md)**
+-   **Entity Types and Pillars modules**
 
     The Entity Types and Pillars modules have been added to the Operational Resilience Workspace. These modules enable Operational Resilience managers to update the entity types and pillars directly from the Workspace.
 
--   **[Primary origin tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/add-impacted-area-to-vul.md)**
+-   **Primary origin tab**
 
     The **Primary origin** tab has been added to the Operational vulnerability record to identify the main source and report the upstream entities of the vulnerability.
 
@@ -84,7 +84,7 @@ The ServiceNow® Operational Resilience application supports organizations to he
 
 ### What's new
 
--   **[Using Digital resilience incident reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/drir-module.md)**
+-   ****
 
     Assess whether any critical services are affected and classify the reported incident as a major incident if necessary. Notify regulators of major incidents, categorized by their severity and security ratings.
 
@@ -95,19 +95,19 @@ The ServiceNow® Operational Resilience application supports organizations to he
 
 ### What's changed
 
--   **[Addition of classes to the assessment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/submit-an-assessment-in-ws.md)**
+-   **Addition of classes to the assessment form**
 
     The Business Service and Offering classes have been added to the **Scope** tab of the assessment form, enabling you to assess the business services and service offerings alongside services. Once the assessment is complete, the importance and impact tolerance of these items are displayed in the Importance and Impact Tolerance columns on the **Scope** tab.
 
--   **[Addition of classes to the scenario analysis form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/scenario-analysis-in-ws.md)**
+-   **Addition of classes to the scenario analysis form**
 
     The Business Service and Offering classes have been added to the **Scope** tab of the scenario analysis form, enabling you to analyze the business services and service offerings alongside services.
 
--   **[Addition of classes to the self-attestation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/self-attestation-in-ws.md)**
+-   **Addition of classes to the self-attestation form**
 
     The Business Service and Offering classes have been added to the **Scope** tab of the self-attestation form, enabling you to self-attest the business services and service offerings alongside services.
 
--   **[Digital resilience incident reporting module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/drir-module.md)**
+-   **Digital resilience incident reporting module**
 
     The Digital resilience incident reporting module is used to report the Information and Communication Technology \(ICT\) related incidents to the regulators.
 

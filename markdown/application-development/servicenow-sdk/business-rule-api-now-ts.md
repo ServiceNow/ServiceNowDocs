@@ -18,7 +18,7 @@ The Business Rule API defines server-sides scripts \[sys\_script\] that run when
 
 **Note:** For the latest ServiceNow Fluent API documentation and examples, see the [ServiceNow Fluent API reference](https://servicenow.github.io/sdk/category/api-reference) and [ServiceNow SDK examples repository](https://github.com/ServiceNow/sdk-examples) on GitHub.
 
-For general information about business rules, see [Classic Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/c_BusinessRules.md).
+For general information about business rules, see .
 
 **Parent Topic:**[ServiceNow Fluent API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-sdk/servicenow-fluent-api-reference.md)
 
@@ -134,7 +134,7 @@ String
 
 </td><td>
 
-The time that the business rule should execute. For more information about when business rules run, see [How business rules work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/c_BusinessRules.md).Valid values:
+The time that the business rule should execute. For more information about when business rules run, see .Valid values:
 
 -   before
 -   after
@@ -153,7 +153,7 @@ Array
 
 </td><td>
 
-The record options that the business rule applies to. For more information about business rule actions, see [How business rules work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/c_BusinessRules.md).Valid values:
+The record options that the business rule applies to. For more information about business rule actions, see .Valid values:
 
 -   insert
 -   update

@@ -21,7 +21,7 @@ The ServiceNow Add-in for Microsoft 365 provides an extensible framework to invo
 -   Map message or appointment fields in Microsoft Outlook to be auto-populated in ServiceNow catalogs or forms.
 -   Configure extension points to support messages and appointments in read and compose modes.
 
-See [ServiceNow Add-in for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/sn-addin-for-ms365.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -44,19 +44,19 @@ The ServiceNow Add-in for Microsoft 365 provides an extensible framework to invo
 
 ### What's new
 
--   **[Create a manifest file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/create-ms365-addin-manifest.md)**
+-   ****
 
     Create a manifest file with the configurations that you want to enable for the ServiceNow Add-in for Microsoft 365.
 
--   **[Map email fields to a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/map-email-catalog.md)**
+-   ****
 
     Map fields from an email or meeting invite to copy and auto-populate a catalog form.
 
--   **[Map email fields to a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/map-email-form.md)**
+-   ****
 
     Map fields from an email or meeting invite to copy and auto-populate a ServiceNow form.
 
--   **[Configure single sign-on for ServiceNow Add-in for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/configure-sso-sn-addin-ms365.md)**
+-   ****
 
     Enable employees to access the add-in from any Microsoft 365 app without having to sign in to Employee Center.
 

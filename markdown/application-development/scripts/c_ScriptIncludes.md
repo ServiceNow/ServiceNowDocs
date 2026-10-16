@@ -18,9 +18,9 @@ Script includes are used to store JavaScript that runs on the server.
 
 Create script includes to store JavaScript functions and classes for use by server scripts. Each script include defines either an object class or a function.
 
-Consider using script includes instead of global business rules because script includes are only loaded on request. See [Privacy settings on Glide AJAX enabled script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_ScriptIncludes.md) and [Discovery script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_ScriptIncludes.md) for more information.
+Consider using script includes instead of global business rules because script includes are only loaded on request. See  and  for more information.
 
-For additional examples of scripts, see [Useful scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/usefulScripts.md).
+For additional examples of scripts, see .
 
 **Parent Topic:**[Server-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/scripts/c_ServerScripting.md)
 
@@ -328,7 +328,7 @@ Discovery script includes define JavaScript classes that you can use to accompli
 
 ### Using GlideRecordUtil to Work with GlideRecords
 
-GlideRecordUtil is a utility class that provides methods that are useful for working with GlideRecords during Discovery. Refer to [GlideRecordUtil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideRecordUtilAPI.md) for descriptions of available methods.
+GlideRecordUtil is a utility class that provides methods that are useful for working with GlideRecords during Discovery. Refer to GlideRecordUtil for descriptions of available methods.
 
 ### Getting a GlideRecord Instance
 

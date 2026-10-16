@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/som\_request\_tracker.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 3
 breadcrumb: [Lead to Cash, Product data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
 ---

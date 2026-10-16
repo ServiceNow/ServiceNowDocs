@@ -45,7 +45,7 @@ ACLs manage role-based access control for the application:-   Rules that define 
 
 </td></tr><tr><td>
 
-[Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/exploring-flows.md) \(available in the Yokohama Patch 3 release - May 2025\)
+Flows \(available in the Yokohama Patch 3 release - May 2025\)
 
 </td><td>
 

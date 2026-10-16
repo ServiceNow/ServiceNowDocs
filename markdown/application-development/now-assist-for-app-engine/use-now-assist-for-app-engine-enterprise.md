@@ -39,7 +39,7 @@ Now Assist for App Engine contains many tools and skills, including the followin
 
     Develop custom skills to be used within your custom apps.
 
--   **[Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/now-assist-in-va-landing.md)**
+-   **Now Assist in Virtual Agent**
 
     Use Virtual Agent Designer with LLM enabled components to create chatbots.
 

@@ -20,7 +20,7 @@ The ServiceNow® Table Builder application is a centralized way to build tables,
 -   Launch the Table Builder App from the App Navigator.
 -   Consistency in role assignment during the table creation process to avoid access issues for the developers.
 
-See [Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/tb-landing-page.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -46,12 +46,12 @@ The ServiceNow® Table Builder application is a centralized way to build tables,
     Shift from the previous custom table builder icons to the NOW Design System \(NDS\) icons in the user interface.
 
 
--   **[Launching App from the App Navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/accessing-form-builder.md)**
+-   **Launching App from the App Navigator**
 
     You can directly access Table Builder by searching it. You can find Table Builder in the search results of the app navigator.
 
 
--   **[Accessing Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/accessing-form-builder.md)**
+-   ****
 
     At least one role with Read permissions should be assigned to each table during creation to ensure proper Access Control List \(ACL\) setup and help prevent access issues for developers.
 

@@ -24,7 +24,7 @@ Yokohama Patch 3
 -   As an administrator, use Achievements and Credentials, to view various forms of digital credentials such as badges, awards, certifications.
 -   As an employee that meets the Talent Development user criteria, you can add custom opportunities with help from ServiceNow® Now Assist. Provide an AI prompt so that Now Assist can help you build a growth plan that matches your career goals and aspirations.
 
-See [Talent Development Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/egd-landing-page.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -43,7 +43,7 @@ The ServiceNow® Talent Development Core application supports an end-to-end proc
 
 ### What's new
 
--   **[Create a growth conversation with the help of an agent in Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/agentic-wf-conversations-na-td.md)**
+-   **Create a growth conversation with the help of an agent in Now Assist**
 
     As a manager, use the growth conversations preparation AI agent to schedule and prepare for employee growth discussions. The agent provides a clear summary of employee activity and career journey, with data-driven talking points to make conversations more focused and impactful.
 
@@ -68,7 +68,7 @@ The ServiceNow® Talent Development Core application supports an end-to-end proc
     **Note:** Credential Core has a soft dependency on Skills Foundation \(8.0\).
 
 
--   **[Create a growth plan with the help of Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/egd-create-growth-plan.md)**
+-   **Create a growth plan with the help of Now Assist**
 
     As a Talent Development user, manage your career growth by creating a growth plan with the help of Now Assist. With Now Assist, you can provide details to craft a prompt that describes your career goals.
 
@@ -81,16 +81,16 @@ The ServiceNow® Talent Development Core application supports an end-to-end proc
 
 ### What's changed
 
--   **[Credly Badges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/achievements-lxp.md)**
+-   **Credly Badges**
 
     As an employee, view your achievement badges on your employee profile. \(Available across multiple applications within Talent Development Core\).
 
--   **[Create a growth plan with the help of Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/egd-create-growth-plan-with-nowassist.md)**
+-   **Create a growth plan with the help of Now Assist**
 
     You can create growth plans with the help of Now Assist. Employees can select the **Build with Now Assist** button to access help from Now Assist.
 
 
--   **[Review skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/egd-activities-landing-page.md)**
+-   **Review skills**
 
     A new **Review skills** button has been added in Career Conversations that employees can use to rate their proficiency for each skill they've added.
 

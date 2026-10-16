@@ -49,7 +49,7 @@ Automatically apply cascading discounts to different products based on the incre
 </td><td>
 
 -   [Add a decision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/add-decision.md)
--   [Modify decision table structure in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/format-decision-table-in-decision-designer.md)
+-   
 
 </td></tr><tr><td>
 

@@ -48,15 +48,15 @@ In this UI Builder tutorial, you perform the following tasks to build a [page](h
 
 3.  Create a page.
 
-<table id="choicetable_n3q_gmd_jjb"><thead><tr><th align="left" id="d74399e252">
+<table id="choicetable_n3q_gmd_jjb"><thead><tr><th align="left" id="d74198e252">
 
 To do this task
 
-</th><th align="left" id="d74399e255">
+</th><th align="left" id="d74198e255">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d74399e261">
+</th></tr></thead><tbody><tr><td id="d74198e261">
 
 **Create a page**
 
@@ -97,15 +97,15 @@ Do the following
 
     For more information about layouts, see [Organize components in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/work-layouts.md).
 
-<table id="choicetable_hgv_b1x_d4b"><thead><tr><th align="left" id="d74399e448">
+<table id="choicetable_hgv_b1x_d4b"><thead><tr><th align="left" id="d74198e448">
 
 To do this task
 
-</th><th align="left" id="d74399e451">
+</th><th align="left" id="d74198e451">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d74399e457">
+</th></tr></thead><tbody><tr><td id="d74198e457">
 
 **Change the layout of the page to two columns**
 
@@ -128,15 +128,15 @@ Do the following
 </td></tr></tbody>
 </table>5.  Add a **Heading** component, and a **Button** component to the left column.
 
-<table id="choicetable_q1g_4fl_vnb"><thead><tr><th align="left" id="d74399e532">
+<table id="choicetable_q1g_4fl_vnb"><thead><tr><th align="left" id="d74198e532">
 
 To do this task
 
-</th><th align="left" id="d74399e535">
+</th><th align="left" id="d74198e535">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d74399e541">
+</th></tr></thead><tbody><tr><td id="d74198e541">
 
 **Add a heading component to your left-column container**
 
@@ -158,7 +158,7 @@ You can add components to the page in different ways. For more information on th
 
 \[Omitted image "tutorial-heading-label-changed.png"\] Alt text: Heading label field in the component configure tab with My tutorial added.
 
-</td></tr><tr><td id="d74399e641">
+</td></tr><tr><td id="d74198e641">
 
 **Add and configure a button component to your left-column container**
 
@@ -214,15 +214,15 @@ For more information about event handlers, see [Manage actions in UI Builder pag
 
     A data visualization component contains data that you display in a visual manner. Configure the data visualization component parameters. Then, add a data resource to it.
 
-<table id="choicetable_j31_whl_vnb"><thead><tr><th align="left" id="d74399e874">
+<table id="choicetable_j31_whl_vnb"><thead><tr><th align="left" id="d74198e874">
 
 To do this task
 
-</th><th align="left" id="d74399e877">
+</th><th align="left" id="d74198e877">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d74399e883">
+</th></tr></thead><tbody><tr><td id="d74198e883">
 
 **Add and configure a data visualization component to your right-column container**
 
@@ -250,15 +250,15 @@ You can add components to the page in different ways. For more information on th
 
 7.  Save the new page one last time.
 
-<table id="choicetable_md1_c5m_vnb"><thead><tr><th align="left" id="d74399e1012">
+<table id="choicetable_md1_c5m_vnb"><thead><tr><th align="left" id="d74198e1012">
 
 To do this task
 
-</th><th align="left" id="d74399e1015">
+</th><th align="left" id="d74198e1015">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d74399e1021">
+</th></tr></thead><tbody><tr><td id="d74198e1021">
 
 **Save your page**
 
@@ -271,15 +271,15 @@ Do the following
 </td></tr></tbody>
 </table>8.  Now preview your page to see what it looks like in a browser.
 
-<table id="choicetable_cyg_qg2_24b"><thead><tr><th align="left" id="d74399e1054">
+<table id="choicetable_cyg_qg2_24b"><thead><tr><th align="left" id="d74198e1054">
 
 To do this task
 
-</th><th align="left" id="d74399e1057">
+</th><th align="left" id="d74198e1057">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d74399e1063">
+</th></tr></thead><tbody><tr><td id="d74198e1063">
 
 **Preview your page**
 

@@ -26,7 +26,7 @@ The ServiceNow® Regulatory Change Management application enables you to check u
 -   Some Now Assist skills are now turned on by default.
 -   Review changes to Now Assist usage measurements.
 
-See [Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/reg-change-mgmt-landing-page.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -62,47 +62,47 @@ The ServiceNow® Regulatory Change Management application enables you to check u
 
 ### What's new
 
--   **[Generating a summary of a regulatory alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/create-a-summary-of-a-reg-alert.md)**
+-   **Generating a summary of a regulatory alert**
 
     Transform your detailed regulatory information into concise, business-focused summaries that emphasize the most critical changes and impending deadlines. You can significantly cut down the time that is required to interpret complex updates, ensuring that no vital details are overlooked. By streamlining compliance processes, your organization becomes more efficient and minimizes the risks.
 
--   **[Regulatory mapping with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/recommendations-for-a-regulatory-alert.md)**
+-   **Regulatory mapping with AI**
 
     Leverage artificial intelligence to help your organizations identify, track, and manage regulatory requirements that are specific to their industry. AI automates the mapping of incoming regulatory changes to internal business operations, such as citations and control objectives, making it easier to ensure compliance. By analyzing the incoming regulatory changes and vast amounts of internal regulatory data, AI highlights the relevant policies for association and mapping, which helps your organization to streamline the compliance process and reduce manual effort.
 
--   **[Recommendation contexts and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/recommendation-contexts.md)**
+-   ****
 
     Enable your administrators to use a framework engine to create decision templates for primary records. This framework simplifies the enterprise decision-making processes and includes the configurable user interface elements that provide contextual insights and improve the display of these elements. By integrating this framework, your organization can help to ensure that every recommendation is both relevant and informed.
 
--   **[Impact radius extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/add-impacted-area-reg-alert.md)**
+-   **Impact radius extension**
 
     Identify the impacted areas of your business operations, such as the citations, control objectives, policies, risks, controls, and authority documents, that you can add to a regulatory alert. You can then conduct a review for implementation acceptance that triggers a change management program by assigning ownership and accountability through a Change Task. Additionally, an existing dashboard was improved so that you can get a clear overview of the impacted business operations.
 
--   **[Regulatory assessment for a regulatory alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/regulatory-assessment-in-rcm.md)**
+-   **Regulatory assessment for a regulatory alert**
 
     View the new Regulatory assessments related list for a regulatory alert. This list displays the uniquely generated regulatory assessments that are powered by the Smart Assessment Engine application so that you can analyze and track the completion status for compliance users. Your users with the sn\_grc.business\_user role can work on these assessments.
 
 
 ### What's changed
 
--   **[Changes on the action task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/create-action-task-using-ws.md)**
+-   **Changes on the action task form**
 
     The Category: Compliance section and the Category: Risk section on an action task form have been removed. They're replaced by the **Impacted area table** field and the **Impacted area** field.
 
--   **[Assess impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/assess-impact-of-reg-change-using-ws.md)**
+-   **Assess impact**
 
     The **Initiate Impact Assessment** button is now called the **Assess impact** button.
 
 
--   **[Overview page of regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/list-view-of-reg-alerts.md)**
+-   **Overview page of regulatory alerts**
 
     The Overview page for regulatory alerts includes a drop-down menu that enables you to track the progress of a regulatory assessment. Additionally, you can view the counts of completed, open, and overdue regulatory assessments.
 
--   **[Home page updates for Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/rcm-workspace-for-managers.md)**
+-   **Home page updates for Regulatory Change Management**
 
     On the Regulatory Change Management home page, within the Tracking section, a new drop-down menu has the Regulatory Assessments or Risk Assessments options. With these options, regulatory change managers can see the number of open and overdue assessments to help them efficiently monitor the status of their assessments.
 
--   **[Regulatory assessments in the Tasks pane](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/regulatory-assessment-in-rcm.md)**
+-   **Regulatory assessments in the Tasks pane**
 
     The Tasks pane in the Compliance Workspace now displays all the Regulatory assessments.
 

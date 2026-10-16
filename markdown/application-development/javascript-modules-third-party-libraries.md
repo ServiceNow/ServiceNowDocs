@@ -26,7 +26,7 @@ In a module, you identify code for reuse with export statements. Then, use impor
 
 -   Global applications and application customizations aren't supported with instances on the Yokohama release.
 -   Modules can be used only within the application scope in which they're added. They can't be used across application scopes.
--   A subset of ECMAScript features are supported in modules in accordance with the [JavaScript engine feature support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/javascript-engine-feature-support.md).
+-   A subset of ECMAScript features are supported in modules in accordance with the .
 -   Node.js APIs aren’t supported in modules. The ServiceNow SDK build process polyfills any Node.js built-in modules while packaging modules, otherwise modules are resolved from the `node_modules` directory.
 -   Global variables related to web APIs aren’t supported.
 -   CommonJS modules from third-party libraries aren't supported unless they define exports. Subpath imports aren't supported with CommonJS modules. ECMAScript modules from third-party libraries are supported.
@@ -128,7 +128,7 @@ import { RESTAPIRequest, RESTAPIResponse } from '@servicenow/glide/sn_ws_int';
 
 To access server APIs in a third-party library module, you must add the module as a trusted module with the trustedModules parameter in your application's `now.config.json` file. For more information, see [Custom application configuration in source code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-config-source-code.md).
 
-For more information about available server APIs, see [Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/api-server.md).
+For more information about available server APIs, see .
 
 ## Importing script includes
 

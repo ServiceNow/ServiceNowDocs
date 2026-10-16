@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/testpub-updat-a
 release: yokohama
 topic_type: task
 last_updated: "2026-08-20"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Update a branded app, Request, test, and publish a branded mobile app, Publish mobile apps with custom branding, Configuring the Mobile Platform, Mobile Platform]
 ---
 
@@ -28,7 +28,7 @@ Role required: admin
 
 2.  Check the following items on your app if they've changed from the original request:
 
-    -   App has the correct name, icon, splash screen, branding, and theming. For more information, see .
+    -   App has the correct name, icon, splash screen, branding, and theming. For more information, see [Create a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/tb-create-theme.md).
     -   App uses the default instance you specified for login if you selected the instance pre-fill option when you requested the branded app.
     -   EULA and privacy policy listed in the mobile app **Settings** tab under **Legal** link to the policies you specified.
 3.  Set up your Android app:

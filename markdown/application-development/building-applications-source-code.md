@@ -139,7 +139,7 @@ ServiceNow Otto for Code
 
 </td><td>
 
-Code auto-complete support for scripts.For information about activation, see [Now Assist for code generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/now-assist-code-landing.md).
+Code auto-complete support for scripts.For information about activation, see .
 
 </td><td>
 
@@ -278,7 +278,7 @@ File containing information about your application and custom or third-party mod
 </td></tr></tbody>
 </table>## Related applications and features
 
--   **[JavaScript APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/api-reference.md)**
+-   **JavaScript APIs**
 
     Use JavaScript APIs in scripts that you write to change the functionality of applications or when you create applications.
 

@@ -54,11 +54,11 @@ Use these applications right away, or customize them to suit your business needs
 
 -   **Mobile experience for Customer Service Management**
 
-    Manage customer service cases from a mobile device with the Customer Service Management mobile application. Stay connected and access information in real time to complete tasks quickly. For more detail, see Mobile experience for Customer Service Management.
+    Manage customer service cases from a mobile device with the Customer Service Management mobile application. Stay connected and access information in real time to complete tasks quickly. For more detail, see [Mobile experience for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/customer-service-mobile-interface.md).
 
 -   **Mobile experience for Employee Experience Suite**
 
-    Approve catalog requests, requested items, or change requests from anywhere using the ServiceNow Now Mobile app. For more detail, see .
+    Approve catalog requests, requested items, or change requests from anywhere using the ServiceNow Now Mobile app. For more detail, see [ITSM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/itsm-mobile-agent.md).
 
 -   **Mobile experience for Field Service Management**
 

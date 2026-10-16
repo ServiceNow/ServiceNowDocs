@@ -138,5 +138,5 @@ Identification: Name \(100\). Name is discovered from SNMP. If not available, us
 **Related topics**  
 
 
-[050fc5155699cbc109ee8faad362b47d0db60252.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/define-tni-equipment-holders.md)
+[2caa2ce394bb5b862e115716272080423ea5d70b.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/define-tni-equipment-holders.md)
 

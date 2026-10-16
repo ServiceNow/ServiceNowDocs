@@ -35,7 +35,7 @@ The following table lists the input fields in the TNI Design Assign Set Attribut
 |Change Task|The change task that is associated with Set attributes activity.|Reference.Change Task|
 |Ignore Validation Error|Ignores any validation errors.|True/False|
 
-To learn more about the variable data types, see Flow Designer input and output data variables.
+To learn more about the variable data types, see [Flow Designer input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/action-inputs-outputs.md).
 
 ## Output
 

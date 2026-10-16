@@ -68,5 +68,5 @@ Breakpoints belong to the developer who sets them. Developers must set and remov
 **Related topics**  
 
 
-[Script Debugger step-through and console controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/step-through-controls.md)
+[bundle-crapiref.step-through-controls]
 

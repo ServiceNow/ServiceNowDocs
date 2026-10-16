@@ -23,7 +23,7 @@ Create a flow using the Flow object. For more information, see [Flow object](htt
 
 Create a subflow using the Subflow object. For more information, see [Subflow object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-sdk/fluent-flow-api.md).
 
-For general information about flows, see [Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/exploring-flows.md). For general information about subflows, see [Exploring subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/exploring-subflows.md).
+For general information about flows, see . For general information about subflows, see .
 
 **Parent Topic:**[ServiceNow Fluent API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-sdk/servicenow-fluent-api-reference.md)
 
@@ -132,7 +132,7 @@ String
 
 </td><td>
 
-Specify the roles that the flow uses while running. For more information about running a flow with roles, see [Flow roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/flow-roles.md).
+Specify the roles that the flow uses while running. For more information about running a flow with roles, see .
 
 </td></tr><tr><td>
 
@@ -911,7 +911,7 @@ The following types of action instances are supported:
 
 .
 
-For more information about available actions, see [Workflow Studio flow trigger types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/flow-triggers.md).
+For more information about available actions, see .
 
 <table id="table_tjy_23k_xhc" class="parameters"><thead><tr><th>
 
@@ -1120,7 +1120,7 @@ The following types of action instances are supported:
 
 .
 
-For more information about available actions, see [Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/flow-actions.md).
+For more information about available actions, see .
 
 <table id="table_zyb_kqj_xhc" class="parameters"><thead><tr><th>
 
@@ -1336,7 +1336,7 @@ The following types of flow logic instances are supported:
 
 .
 
-For more information about available flow logic, see [Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/flow-logic.md).
+For more information about available flow logic, see .
 
 <table id="table_nbq_m5j_xhc" class="parameters"><thead><tr><th>
 

@@ -20,7 +20,7 @@ The ServiceNow® Manager Hub application increases managers self-service and pro
 -   Track skill proficiency and assign targeted learning for effective development by using the Kill score analysis panel.
 -   Enable managers to view all direct and indirect reports by using multi-manager reporting to improve team productivity and engagement.
 
-See [Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/manager-hub-overview.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -39,15 +39,15 @@ The ServiceNow® Manager Hub application increases managers self-service and pro
 
 ### What's new
 
--   **[Know your team members](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/use-mr-mh.md)**
+-   ****
 
     View employee availability and schedule conversations with employees using the **Create a conversation** panel if you do not have Microsoft Outlook integration enabled or the **Schedule a conversation** panel if you do.
 
--   **[View employee cards in Skills Expectations section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/emp-card-mh.md)**
+-   ****
 
     Track skill proficiency, assign targeted learning, and view in-depth skill progress bars to monitor employee development by using the **Skill score analysis** panel.
 
--   **[Know your team members](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/use-mr-mh.md)**
+-   ****
 
     Enable managers to view all direct and indirect reporting details, daily team stats, and other employee details such as tasks submitted for approval, upcoming time off, and employee profiles.
 

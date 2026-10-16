@@ -82,7 +82,7 @@ Select the check box to include a limited number of data records from each table
 
 Using this feature to migrate large quantities of data records between instances can cause performance issues, as it is not intended for this purpose. To migrate data, use an instance-to-instance import. You can adjust the maximum number of data records to include with an application.
 
-See [Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/c_ImportSetsKeyConcepts.md).
+See Import sets.
 
  -   If your sample data includes tables with record numbering, the current counter value is also transferred. When the update set is applied on another instance, the counter is set to the larger of the sample data or the target instance counter.
 -   For translated fields, only records in English are transferred.

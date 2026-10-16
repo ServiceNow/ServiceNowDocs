@@ -28,7 +28,7 @@ Customize your ServiceNow apps.
 
 </td><td>
 
-[Scripts \[Omitted image "icon-now-cli.png"\] Alt text: Scripts. Use custom scripts with the ServiceNow platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_Script.md)
+Scripts \[Omitted image "icon-now-cli.png"\] Alt text: Scripts. Use custom scripts with the ServiceNow platform.
 
 </td></tr></tbody>
 </table>

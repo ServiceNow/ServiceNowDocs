@@ -18,7 +18,7 @@ The ServiceNow® App Engine Studio \(AES\) application enables creators of varyi
 
 Use the App Readiness and Compliance report in App Engine Management Center \(AEMC\) to check if apps are ready to go live.
 
-See [App Readiness and Compliance Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/app-readiness-report.md) for more information.
+See App Readiness and Compliance Report for more information.
 
 ## Activation and other requirements
 
@@ -32,7 +32,7 @@ See [App Readiness and Compliance Report](https://raw.githubusercontent.com/Serv
 
     Due to a new process for assigning groups in AEMC, the same version of the Application Intake plugin must be activated on each of your instances.
 
-    For more information, see [App Readiness and Compliance Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/app-readiness-report.md).
+    For more information, see .
 
 
 **Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/build-automate-rn-landing.md)
@@ -43,7 +43,7 @@ The ServiceNow® App Engine Studio \(AES\) application enables creators of varyi
 
 ### What's new
 
--   **[App Readiness and Compliance Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/app-readiness-report.md)**
+-   ****
 
     As an App Engine Admin, use the App Readiness and Compliance report in AEMC to check if the apps you’re making are ready to go live. You can run an instance scan suite that looks for any issues that can impact app deployments. This feature helps determine if the app is prepared for use in the real world.
 

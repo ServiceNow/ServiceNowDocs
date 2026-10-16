@@ -172,7 +172,7 @@ Roles that the flow runs with. This option is only available when **Run as** is 
 
 7.  Choose the event that your flow will be triggered by.
 
-<table id="choicetable_nl2_cmz_ztb"><tbody><tr><td id="d81658e753">
+<table id="choicetable_nl2_cmz_ztb"><tbody><tr><td id="d81533e753">
 
 **When the record is created**
 
@@ -180,7 +180,7 @@ Roles that the flow runs with. This option is only available when **Run as** is 
 
 Create a flow that is triggered when a record in the selected table is created.
 
-</td></tr><tr><td id="d81658e762">
+</td></tr><tr><td id="d81533e762">
 
 **When the record is updated**
 
@@ -188,7 +188,7 @@ Create a flow that is triggered when a record in the selected table is created.
 
 Create a flow that is triggered when a record in the selected table is updated.
 
-</td></tr><tr><td id="d81658e771">
+</td></tr><tr><td id="d81533e771">
 
 **When the record is created or updated**
 
@@ -197,7 +197,7 @@ Create a flow that is triggered when a record in the selected table is updated.
 Create a flow that is triggered when a record in the selected table is created or updated.
 
 </td></tr></tbody>
-</table>    The flow that you just created is displayed in the flow diagramming view. See [Flow diagramming view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/flow-diagramming-view.md).
+</table>    The flow that you just created is displayed in the flow diagramming view. See Flow diagramming view.
 
 8.  Select **Add node**, and then select one of the following options to modify your flow:
 
@@ -215,7 +215,7 @@ Action
 
 </td><td>
 
-Select the desired action. Workflow Studio includes [Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/flow-actions.md) that are available to flows and subflows. Alternatively, a user with the action\_designer role can create additional actions to add to flows. The [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integrationhub.md) and [Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/spokes.md) plugins install additional actions.
+Select the desired action. Workflow Studio includes  that are available to flows and subflows. Alternatively, a user with the action\_designer role can create additional actions to add to flows. The [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integrationhub.md) and  plugins install additional actions.
 
  To add draft actions from the More Actions menu, set **Show draft actions** to **true**.
 
@@ -240,7 +240,7 @@ Subflow
 Select a published subflow and define the input values. In addition to adding a subflow as a flow action, you can enable the **Show triggered flows** option from the More Actions menu to select an activated flow and define the required inputs. Running a triggered flow ignores its trigger conditions and runs all actions.
 
 </td></tr></tbody>
-</table>    **Note:** Alternately, you may toggle the Workflow Studio default view from the view selector, and then select **Add an Action, Flow Logic, or Subflow** in that view of Workflow Studio. For more information, see [Flow diagramming view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/flow-diagramming-view.md).
+</table>    **Note:** Alternately, you may toggle the Workflow Studio default view from the view selector, and then select **Add an Action, Flow Logic, or Subflow** in that view of Workflow Studio. For more information, see Flow diagramming view.
 
 9.  Continue modifying your flow in Workflow Studio.
 
@@ -253,9 +253,9 @@ Select a published subflow and define the input values. In addition to adding a 
 
 ### What to do next
 
-Test your flow until you're ready to activate it. For more information on testing and editing flows, see [Activate a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/flow-activate.md).
+Test your flow until you're ready to activate it. For more information on testing and editing flows, see Activate a flow.
 
-**Note:** Your application can trigger only activated flows. For detailed information on how to design, test, and activate flows for your application, see [Flows in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/exploring-flows.md).
+**Note:** Your application can trigger only activated flows. For detailed information on how to design, test, and activate flows for your application, see Flows in Workflow Studio.
 
 To return to the comprehensive list of flows related to the selected table after editing a flow, select the Additional actions \( \[Omitted image "ellipsisIcon.png"\] Alt text: Additional actions menu.\) menu to the right of the **Flows** tab, and then select **All flows** as shown in the following example.
 
@@ -302,9 +302,9 @@ The **Flows** tab in Table Builder provides a list of flows that are triggered b
 
 ### What to do next
 
-Test your flow until you're ready to activate it. For more information on testing and editing flows, see [Activate a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/flow-activate.md).
+Test your flow until you're ready to activate it. For more information on testing and editing flows, see Activate a flow.
 
-**Note:** Your application can trigger only activated flows. For detailed information on how to design, test, and activate flows for your application, see [Flows in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/exploring-flows.md).
+**Note:** Your application can trigger only activated flows. For detailed information on how to design, test, and activate flows for your application, see Flows in Workflow Studio.
 
 To return to the list of flows related to the table that you selected after you edited a flow, select the Additional actions \( \[Omitted image "ellipsisIcon.png"\] Alt text: Additional actions menu.\) menu to the right of the **Flows** tab, and then select **All flows** as shown in the following example.
 

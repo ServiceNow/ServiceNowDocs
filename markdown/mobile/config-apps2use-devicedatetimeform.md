@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/config-apps2use
 release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Mobile properties, Considerations before implementation, ServiceNow Mobile Platform configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
@@ -104,7 +104,7 @@ Is Public
 
 Determines whether the **pre\_auth** property is included in the API response.
 
- By default, this option is not selected. If you want this property included in the **/pre\_auth** API response, select this checkbox. For more information, see .
+ By default, this option is not selected. If you want this property included in the **/pre\_auth** API response, select this checkbox. For more information, see [Adaptive Authentication Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/adaptive-authentication-events.md).
 
  Mobile properties with this checkbox enabled are excluded from the **/user\_client** API response.
 

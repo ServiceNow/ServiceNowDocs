@@ -50,5 +50,5 @@ Grant the now.assist.creator role to each user you want to use UI generation.
 **Related topics**  
 
 
-[Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/install-now-assist-for-creator.md)
+[bundle-crworkflow.install-now-assist-for-creator]
 

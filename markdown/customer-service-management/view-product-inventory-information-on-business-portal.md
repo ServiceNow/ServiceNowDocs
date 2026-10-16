@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/view-product-inventory-information-on-business-portal.html
 release: yokohama
 topic_type: task
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 4
 breadcrumb: [Business Portal, Customer communication, Using Customer Service Management, Customer Service Management]
 ---

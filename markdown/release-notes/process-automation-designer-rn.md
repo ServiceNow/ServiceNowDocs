@@ -22,7 +22,7 @@ The ServiceNow® Playbooks builder within the ServiceNow® Workflow Studio appli
 -   Generate a playbook via API in other ServiceNow applications such as IT Operations Management \(ITOM\).
 -   Generate playbooks from inputs that refer to active actions, flows, subflows, content from installed spokes, or activity definitions.
 
-See [Exploring playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/process-automation-designer.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -57,7 +57,7 @@ The ServiceNow® Playbooks builder within the ServiceNow® Workflow Studio appli
 
 ### What's new
 
--   **[Support for Retrieval Augmented Generation \(RAG\) with playbook generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/playbook-assist.md)**
+-   **Support for Retrieval Augmented Generation \(RAG\) with playbook generation**
 
     Generate playbooks from inputs that refer to custom actions, flows, subflows, content from installed spokes, or activity definitions. Include the names of commonly used and recently published actions, subflows, flows, and activity definitions available on your instance in your playbook generation requests.
 
@@ -79,19 +79,19 @@ The ServiceNow® Playbooks builder within the ServiceNow® Workflow Studio appli
 
 ### What's new
 
--   **[Translate playbooks content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/add-translations-playbooks.md)**
+-   **Translate playbooks content**
 
     Add custom translations for labels, descriptions, and UI Layout properties in your playbooks.
 
--   **[Restart playbook activities that end in error](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/restart.md)**
+-   **Restart playbook activities that end in error**
 
     Configure activities so that end users can restart any activity that ends in an error and variant conditions are automatically re-evaluated when playbooks are restarted.
 
--   **[Add more fields in Create Task activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/create-task-activity.md)**
+-   **Add more fields in Create Task activities**
 
     Add more fields in a more configurable Create Task activity.
 
--   **[Create a checklist directly in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/checklist-task-activity.md)**
+-   **Create a checklist directly in Workflow Studio**
 
     Create a checklist directly in the side panel without needing a checklist template.
 

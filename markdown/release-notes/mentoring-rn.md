@@ -21,7 +21,7 @@ The ServiceNow® Mentoring application offers improved networking opportunities 
 -   As a mentee, view Match Insights with a particular Mentor to understand how well they are matched before choosing the Mentor.
 -   As a mentee, share mentoring preferences and timeline information with your manager that help in the validation of your skills.
 
-See [Mentoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/mentoring-egd-overview.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -29,7 +29,7 @@ See [Mentoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yoko
 
 -   **Activation information**
 
-    Mentoring can be installed with the activation of the Employee Connections plugin, which is part of Talent Development Core. For more information, see [Talent Development Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/egd-landing-page.md).
+    Mentoring can be installed with the activation of the Employee Connections plugin, which is part of Talent Development Core. For more information, see .
 
 
 **Parent Topic:**[Talent Development release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/employee-growth-development-landing.md)
@@ -40,18 +40,18 @@ The ServiceNow® Mentoring application offers improved networking opportunities 
 
 ### What's new
 
--   **[Snapshot of preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/edit-mentee-preferences.md)**
+-   **Snapshot of preferences**
 
     Store a Mentoring snapshot of all overlapping preferences at the time of relationship acceptance by the mentor.
 
--   **[Mentor match insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/view-match-insights.md)**
+-   **Mentor match insights**
 
     Mentees and Mentors can view suggested matches based on their enrolled preferences or skills.
 
 
 ### What's changed
 
--   **[Share mentor names and key dates with my manager check box](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/edit-mentee-preferences.md)**
+-   **Share mentor names and key dates with my manager check box**
 
     A new **Share mentor names and key dates with my manager** check box is introduced in the mentee preferences form. Selecting this check box shares information with your manager and helps them validate your skill levels.
 

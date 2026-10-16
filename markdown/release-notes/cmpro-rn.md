@@ -23,7 +23,7 @@ The ServiceNow® Contract Management Pro is a contract lifecycle management solu
 -   Use Logout icon \(\[Omitted image "cmpro-addin-logout.png"\] Alt text: Logout icon\) to log out from Microsoft Word add-in for ServiceNow Contracts.
 -   Change the application scope to edit a contract template in the Microsoft Word add-in for ServiceNow Contracts. This option is only visible to the administrators.
 
-See [Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/cncore-cmpro-landing-page.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -31,7 +31,7 @@ See [Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/Servi
 
 -   **Activation information**
 
-    Contract Management Pro is a ServiceNow AI Platform feature that is available with activation of the Contract Management Pro \(sn\_cm\_pro\). For details, see [Install Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/cncore-install-cmpro.md).
+    Contract Management Pro is a ServiceNow AI Platform feature that is available with activation of the Contract Management Pro \(sn\_cm\_pro\). For details, see .
 
 
 -   **[Now Assist in Contract Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/cmpro-na-rn.md)**  

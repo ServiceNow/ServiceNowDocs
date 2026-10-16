@@ -60,7 +60,7 @@ Role required: none
 
 3.  View the field watcher log by clicking the debug icon.
 
-    A new pane opens at the bottom of the screen, showing a field watcher tab. It may also show tabs for [JavaScript Logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_WritingToTheDebugLog.md) and JavaScript Debugger.
+    A new pane opens at the bottom of the screen, showing a field watcher tab. It may also show tabs for JavaScript Logging and JavaScript Debugger.
 
 4.  Click the **Field Watcher** tab, if needed.
 

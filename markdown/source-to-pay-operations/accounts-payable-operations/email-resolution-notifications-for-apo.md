@@ -7,7 +7,7 @@ release: yokohama
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: concept
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 2
 breadcrumb: [Using Supplier Collaboration Portal in APO, Using Accounts Payable Operations, Accounts Payable Operations, Finance and Supply Chain]
 ---

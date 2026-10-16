@@ -20,7 +20,7 @@ The ServiceNow® integrated development environment \(IDE\) application enables 
 -   Use TypeScript in JavaScript modules.
 -   Install and use npm packages from private registries.
 
-See [ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/servicenow-ide-landing.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -43,19 +43,19 @@ The ServiceNow® integrated development environment \(IDE\) application enables 
 
 ### What's new
 
--   **[Convert scoped applications for use in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/convert-application-servicenow-ide.md)**
+-   **Convert scoped applications for use in the ServiceNow IDE**
 
     Convert existing scoped applications to support development in source code in the ServiceNow IDE.
 
--   **[Use TypeScript in JavaScript modules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/create-application-servicenow-ide.md)**
+-   **Use TypeScript in JavaScript modules**
 
     Create an application that uses the TypeScript template to use TypeScript in modules and compile them to JavaScript when building your application.
 
--   **[Use npm packages from private registries as third-party libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/use-library-private-npm-registry.md)**
+-   **Use npm packages from private registries as third-party libraries**
 
     Install npm packages from a private registry to use as third-party libraries in your application.
 
--   **[Switch between development experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/servicenow-ide-user-interface.md)**
+-   **Switch between development experiences**
 
     Work in the right environment for your task by using the experience switcher to switch between developing in ServiceNow IDE, ServiceNow Studio, and Creator Studio.
 

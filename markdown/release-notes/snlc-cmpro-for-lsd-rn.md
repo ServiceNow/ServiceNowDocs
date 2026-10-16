@@ -19,7 +19,7 @@ The ServiceNow Store Contract Management Pro for Legal Service Delivery applicat
 -   Initiate and manage amendment requests for existing contracts.
 -   Record producer to initiate an amendment request from the Employee Center.
 
-See [Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/snlc-mgmt-pro-landing-page.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -29,7 +29,7 @@ See [Contract Management Pro for Legal Service Delivery](https://raw.githubuserc
 
     Install Contract Management Pro for Legal Service Delivery \(sn\_lg\_cnt\) by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-    For details, see [Install Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/snlc-install-legal-contracts.md).
+    For details, see .
 
 
 **Parent Topic:**[Legal Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/lsd-rn-landing-page.md)
@@ -40,7 +40,7 @@ The ServiceNow Store Contract Management Pro for Legal Service Delivery applicat
 
 ### What's new
 
--   **[Contract amendments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/snlc-amend-req-landing.md)**
+-   ****
 
     Contract amendments enable you to formally change, add, or remove terms in an existing contract without replacing the entire agreement. The Amendment feature enhances contract lifecycle management by enabling you to initiate, track, and finalize amendments to existing contracts with audit trail.
 
