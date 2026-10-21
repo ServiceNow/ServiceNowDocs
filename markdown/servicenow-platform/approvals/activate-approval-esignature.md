@@ -7,7 +7,7 @@ release: brazil
 product: Approvals
 classification: approvals
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-10-21"
 reading_time_minutes: 1
 breadcrumb: [Approval with e-signature, Classic approvals, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
