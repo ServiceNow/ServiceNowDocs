@@ -7,7 +7,7 @@ release: brazil
 product: Password Reset
 classification: password-reset
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-10-21"
 reading_time_minutes: 1
 breadcrumb: [Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
