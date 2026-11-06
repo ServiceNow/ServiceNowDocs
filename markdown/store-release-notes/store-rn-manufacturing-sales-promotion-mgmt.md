@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-manufacturing-sales-promotion-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-05"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Operational Technology version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,18 @@ Version history for the Manufacturing Sales Promotion Management application on 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 6.5.0 - November 2026 \(Brazil\)**
+
+    No release notes.
+
+-   **Version 6.4.0 - November 2026 \(Australia\)**
+
+    No release notes.
+
+-   **Version 6.3.0 - November 2026 \(Zurich\)**
+
+    No release notes.
 
 -   **Version 6.2.1 - September 2026 \(Brazil\)**
 

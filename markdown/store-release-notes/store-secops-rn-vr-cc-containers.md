@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-cc-containers.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 19
+last_updated: "2026-11-05"
+reading_time_minutes: 20
 breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -17,6 +17,22 @@ Version history for the Vulnerability Response and Configuration Compliance for 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 30.10.0 - November 2026 \(USEM\)**
+    -   New: Added a Fix Intel section to the Details card on the container vulnerable item and container vulnerability overview tabs, so remediation guidance appears alongside the other finding details.
+    -   Changed:
+        -   Enhanced accessibility for keyboard and screen reader users in the Create Change Request and Bulk Edit dialogs. Changes include correct headings and titles, a logical focus order, labeled fields, button order, and screen reader announcements.
+        -   Performance enhancements for the scheduled jobs that refresh vulnerability counts. They no longer update records whose counts haven't changed, and you might see reduced run times on instances with large vulnerability tables.
+    -   Fixed:
+        -   An issue where container vulnerable items did not reopen correctly when a vulnerability group's exception rule expired.
+        -   Granularity can no longer be edited for any container integration, including Wiz, once container vulnerable items or findings exist. Previously, only the Prisma Cloud Compute integration had this restriction.
+        -   Reduced excessive warning messages in the system log during container image imports.
+        -   An issue where exception expiring and expired notifications for vulnerable items and remediation tasks were not sent.
+        -   An issue where the Ransomware and CISA KEV values on vulnerability groups were swapped after rollup.
+        -   An issue where state changes on a remediation task did not roll down to its vulnerable items if the task had more than 200 associated items. A fix script is provided to correct this issue on vulnerable items affected prior to the fix.
+-   **Version 2.21.2 - November 2026**
+
+    Changed: Performance enhancements for the scheduled jobs that refresh vulnerability counts. They no longer update records whose counts haven't changed, and you might see reduced run times on instances with large vulnerability tables.
 
 -   **Version 30.9.1 - October 2026 \(USEM\)**
     -   New:

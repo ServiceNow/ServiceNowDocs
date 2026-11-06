@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-gantt-ui-builder-component.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-05"
 reading_time_minutes: 8
 breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 26.1.6 - November 2026**
+    -   Fixed: Resolved an issue where date filters applied through recordsFilterreturned incomplete results for users with the dd-mm-yyyy date format.
+    -   Changed: Updated the data grid component to version 26.0.15.
 -   **Version 26.1.4 - September 2026**
     -   Fixed:
         -   Resolved an issue where focus moved unexpectedly to the first table's column headers when using the resizable panes divider handle.

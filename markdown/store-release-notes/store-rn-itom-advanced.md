@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-it
 release: store
 topic_type: reference
 last_updated: "2026-10-08"
-reading_time_minutes: 7
+reading_time_minutes: 10
 breadcrumb: [ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -19,8 +19,40 @@ Version history for the ServiceNow® ITOM - Advanced application on the ServiceN
 ## Version history
 
 -   **Version 1.1.7 - October 2026**
+    -   New
+        -   AI Agents for Observability: Added source-vendor tenant validation to the SRE investigate AI agent before processing alerts. Work notes are updated when a tenant mismatch prevents investigation.
+        -   AI Agent Topology Mapping
+            -   Discover AI resources deployed on Microsoft Foundry \(new\) and Microsoft Foundry Hub:
+                -   Microsoft Foundry \(new\)
+                    -   Discovers AI Agents, Models, Prompts, and Tags
+                    -   Creates Product and Asset Models for each discovered item, with AICT populated
+                    -   Establishes relationships between Agent and Mode
+                -   Microsoft Foundry Hub
+                    -   Discovers AI Assistants, Prompts, Models, Hub Projects, and Tags
+                    -   Creates Product and Asset Models for each discovered item, with AICT populated
+                    -   Establishes relationships between Assistant and Model, and between Assistant and Hub Project
+        -   LEAP \(Learning Enhanced Automation Platform\): October 3P model support added across all LEAP skills. Gemma 4 26B A4B IT introduced as the new default NowLLM model across all seven skills. Admins can enable/configure 3P Model support.
     -   Changed
         -   Cryptographic Asset Compliance: Models have been updated to support AI insights generation for cryptographic assets.
+        -   AI Agents for Observability
+            -   Updated manual investigations from the AI Insights card to run regardless of alert filter conditions. Automatic investigations continue to respect configured filters.
+            -   Improved the performance and error handling of alert metadata retrieval and alert impact summaries.
+        -   AI Agent Topology Mapping
+            -   Amazon Bedrock
+                -   Version is now populated in the object ID and product instance ID fields
+                -   Vendor is populated in AI System Digital Asset \[alm\_ai\_system\_digital\_asset\] and AI Prompt Digital Asset \[alm\_ai\_prompt\_digital\_asset\]
+                -   Manufacturer now populates from the glide.appcreator.company.friendly\_name system property instead of a hardcoded value in the AI System Component Product Model \[cmdb\_ai\_system\_component\_product\_model\] and AI Prompt Product Model \[cmdb\_ai\_prompt\_product\_model\] tables
+            -   Microsoft Foundry \(classic\)
+                -   Vendor is populated in AI System Digital Asset \[alm\_ai\_system\_digital\_asset\] and AI Prompt Digital Asset \[alm\_ai\_prompt\_digital\_asset\]
+                -   Manufacturer now populates from the glide.appcreator.company.friendly\_name system property instead of a hardcoded value in the AI System Component Product Model \[cmdb\_ai\_system\_component\_product\_model\] and AI Prompt Product Model \[cmdb\_ai\_prompt\_product\_model\] tables
+    -   Fixed
+        -   AI Agents for Service Level Objective \(SLO\)
+            -   Improved the reliability of the SLO creator agent.
+            -   Fixed a formatting issue with AI-generated SLO work notes.
+    -   Removed
+        -   LEAP \(Learning Enhanced Automation Platform\)
+            -   NowLLM v2 model tier retired \(llm\_generic\_large\_v2, llm\_generic\_large\_v2-lts, llm\_generic\_small\_v2-lts\).
+            -   Gemini large, Gemini small, and Claude Sonnet 4.5 retiredGemini-3.5-flash and Claude Sonnet 4.6 remain as replacements. Default assignments updated accordingly.
 -   **Version 1.1.5 - September 2026**
     -   New:
         -   LEAP
@@ -69,13 +101,30 @@ Version history for the ServiceNow® ITOM - Advanced application on the ServiceN
         -   LEAP
             -   Now Assist is renamed to ServiceNow Otto.All references to Now Assist are renamed and relevant images updated.
 -   **Version 1.1.0 - July 2026**
-    -   AI agent for Agent Client Collector \(ACC\) – Autonomously monitors ACC deployments across endpoints, ensuring agent health, version compliance, and seamless data collection without manual intervention, and provides guided troubleshooting experience.
-    -   AI agent for Discovery – Proactively tracks and renews digital certificates enterprise-wide, eliminating outages by auto-detecting expirations and creating firewall rules.
-    -   MID Guardian agent – Continuously monitors MID Server health and connectivity, providing guided troubleshooting of MID Server issues to resolve them seamlessly.
-    -   ITOM AI agent for Service Mapping – Intelligently discovers application dependencies and maps services to infrastructure, autonomously resolving gaps to keep service maps accurate and business-ready.
-    -   AI agent Topology Mapping – Discovery, classifies, and syncs AI agents deployed in cloud including the AI model metadata the agent deployed.
-    -   AIOps Learning Enhanced Automation Playbooks - Amplifies efficiency by mining historical incident data to generate dynamic resolution playbooks, automate workflows, and reduce MTTR.
-    -   ITOM URL Discovery - Discover URLs and SaaS applications from ITOM Browser Plugin .
+    -   New
+        -   AI Agents for Discovery: Multi-Rule Firewall Tasks. You can now add multiple rule configurations to a single firewall task, removing the need for separate tasks per rule. Available through both the AI agent and the service catalog. Rules are verified and created together in the same task.
+        -   ITOM AI Agents for Service Mapping: Tag-Based Service Mapping AI Agent turns cloud tags into validated, business-ready application services, with guardrails that catch noisy, inconsistent, or overly broad tagging schemes.
+        -   AI Agents for AIOps: Secure-by-default configurations for the 5 new agentic ACLs.
+        -   LEAP
+            -   Autonomous AI agent scans incident clusters and drafts KB articles and problem records against configurable incident-count and severity thresholds.
+            -   Agent-generated artifacts show an AI icon on the LEAP home page with hover cards linking to related records, and the Action Insights panel uses gradient styling.
+            -   Ansible Connector integration on the LEAP home page with a dedicated help section.
+            -   Three new gen-AI models supported — Gemini 3.5 Flash, GPT 5.4 mini, GPT 5.1.
+        -   ITOM URL Discovery: Application Service and SAM Product are now optional when monitoring URLs. Add URLs individually or via bulk upload for URL Discovery and Broad URL Discovery without associating a service or product; unmapped URLs are tracked as standalone domains. Per-domain usage metrics still collect via the browser extension even with no service or product mapped.
+    -   Changed
+        -   AI Agents for Observability: Improved system performance.
+        -   LEAP
+            -   Now LLM Service is no longer the default model provider for new or inactive AI assets.
+            -   A third-party LLM is now the default. Existing Now LLM configurations are unchanged, and it remains available for manual selection.
+    -   Fixed
+        -   AI Agents for AIOps: Autonomous workflow updated to support AWS Claude as an AI agent provider, resolving compatibility issues.
+        -   AI Agents for Synthetic Monitoring
+            -   Batch monitor creation now rolls back failed items automatically on error.
+            -   Input validation catches issues upfront.
+            -   Recommendation state updates complete even on error, and orphaned records are cleaned up on bulk delete.
+            -   Monitor location query performance improved for large CMDBs.
+            -   Synthetic Creator agent access controls tightened to least-privilege.
+    -   ITOM AI Agents for Service Mapping: MCP Server Service Mapping tools moved out of Service Mapping into the Now Assist CMDB MCP Server store app \(Service Mapping is still required to use the capability\).
 -   **Version 1.0.10 - June 2026**
     -   New in ITOM - Advanced:
         -   Added AI agents to automate monitoring and remediation for Discovery, MID Servers, Certificate Management, Service Mapping, and LEAP.

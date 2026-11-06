@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-pattern-designer-enhancements.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-11-05"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - ITOM Visibility version history release notes, ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the ITOM Pattern Designer Enhancements application on the Se
 
 ## Version history
 
+-   **Version 3.12.2 - November 2026**
+    -   New: Command Validation Tool support for commands built inside MID Server script includes called from a pattern eval block.
+    -   Fixed: The Command Validation Tool job runs into an infinite loop that causes out-of-memory errors. \(PRB2088807\)
 -   **Version 3.12.1 - October 2026**
     -   Fixed:
         -   Commands stored in the Command Validation Tool don't match what patterns execute due to incorrect command escaping. \(PRB2071225\)

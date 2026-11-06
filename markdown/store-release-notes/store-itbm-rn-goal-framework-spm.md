@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-goal-framework-spm.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-11-05"
 reading_time_minutes: 5
 breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the Goal Framework for SPM on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 2.13.0 - November 2026**
+    -   New:
+        -   Align goals and targets to fiscal periods to match your organization’s goal and OKR processes.
+        -   Select a fiscal or Gregorian calendar for goals using a global system property.
+        -   Check-in frequencies follow the selected fiscal or Gregorian calendar.
 -   **Version 2.12.0 - October 2026**
     -   New:
         -   Progress and status are now calculated automatically for Maintain-type targets based on the number of breakdown periods achieved, reflecting partial attainment and tolerance bands.

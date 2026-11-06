@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-conversational-integration-slack.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-11-05"
 reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - Conversational Interfaces version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the Conversational Integration with Slack integration on the
 
 ## Version history
 
+-   **Version 6.1.6 - November 2026 \(Brazil\)**
+    -   Fixed:
+        -   Removed the legacy sidebar from the iframe workspace and the related discuss UI action.
+        -   Added the granular feedback for positive feedback in the VA Slack integration
+        -   Few Defect around citation links, a missing warning message, and a non-functional catalog picker in Slack.
 -   **Version 6.1.4 - October 2026 \(Brazil\)**
     -   Fixed:
         -   Feedback ingestion and persistence issues on the user analysis table

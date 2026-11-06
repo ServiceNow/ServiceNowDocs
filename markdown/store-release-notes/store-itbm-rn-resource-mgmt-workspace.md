@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-resource-mgmt-workspace.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-11-05"
 reading_time_minutes: 10
 breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the Resource Management Workspace application on the Service
 
 ## Version history
 
+-   **Version 5.11.3 - November 2026**
+    -   Fixed:
+        -   The allocation summary modal displayed for child user assignments is showing doubled value for parent assignment.
+        -   Tooltip transaltions for "Primary action", "More actions".
 -   **Version 5.11.1 - October 2026**
     -   New:
         -   End a resource assignment early that the planned end date. This action is available for assignments with resource data and works across Project Workspace, Resource Management Workspace, and Demand workspace.

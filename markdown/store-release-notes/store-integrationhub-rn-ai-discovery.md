@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-ai-discovery.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 1
+last_updated: "2026-11-05"
+reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,11 @@ Version history for the ServiceNow® AI Discovery application on the ServiceNow 
 
 ## Version history
 
+-   **Version 2.11.2 - November 2026**
+    1.  Trace Collector can now discover Tools from incoming traces
+    2.  Bugs fixed in this release:
+        1.  Agentic Client is now supported by AiDiscoveryAssetManager
+        2.  Staging domain resolution will now correctly fall back to the session domain when no source group is set, instead of failing when the session domain is global or null
 -   **Version 2.10.3 - October 2026**
     1.  Trace Collector can now discover Tools from incoming traces
     2.  Bugs fixed in this release:

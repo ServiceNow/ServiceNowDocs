@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-service-ops-ws-metric-explorer.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-11-05"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - ITOM AIOps version history release notes, ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the ITOM Service Operations Workspace Metric Explorer applic
 
 ## Version history
 
+-   **Version 27.1.13 - November 2026**
+    -   Fixed:
+        -   Metric Explorer
+            -   Improved memory consumption when pulling metric data on hosts with many CIs.
+            -   The “Show alerts on CI” icon didn’t appear on the chart. Alert icons now display, so you can see where alerts occurred along the metric timeline.
 -   **Version 27.1.1 - June 2026**
     -   Fixed:
         -   Metric Explorer layout now displays correctly across all screen sizes.

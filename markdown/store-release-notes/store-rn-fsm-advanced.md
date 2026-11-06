@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fsm-advanced.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-11-05"
+reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Field Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,16 @@ Version history for the ServiceNow® FSM - Advanced application on the ServiceNo
 
 ## Version history
 
+-   **Version 2.2.1 - November 2026**
+    -   New:
+        -   FSM AI Native features now support GEMA model as ServiceNow-hosted option. All FSM AI skills and agents have been updated to support the GEMA model, replacing deprecated April and GPT OSS models. Guardian moderation integrations have been validated for compatibility.
+        -   FSM AI feature gating now supports mixed-SKU customer entitlements. Customers with Pro Plus or Enterprise Plus for FSM retain access to Prime-level AI features even if they hold lower-tier SKUs for other products. Subscription records have been updated to reflect correct product family mappings.
+    -   Changed:
+        -   FSM AI subscription records updated for Pro Plus / Foundation mixed-SKU mapping. Product Family fields have been populated on all relevant subscription records, ensuring accurate entitlement resolution for mixed-SKU customers.
+        -   FSM AI Native skills migrated from deprecated April and GPT OSS models to GEMA. All skills previously targeting April or GPT OSS now default to GEMA or other supported models, ensuring continued functionality.
+    -   Removed:
+        -   Sidebar Summarization \(FSM\) asset subscription record has been removed. The asset subscription record for Sidebar Summarization is no longer available, and associated variable sets are not gated behind FSM Advanced.
+        -   Now LLM LTS Generic provider configs for Work Order Task Summarization have been deprecated. All dormant configurations referencing deprecated LTS models have been deactivated, with no functional gap introduced.
 -   **Version 2.1.2 - September 2026**
 
     Fixed Fluent conversion issues

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-customer-lifecycle-mgmt-workflows.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 5
+last_updated: "2026-11-05"
+reading_time_minutes: 6
 breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,15 @@ Version history for the Customer Life Cycle Management Workflows application on 
 
 ## Version history
 
+-   **Version 5.8.0 - November 2026**
+    -   New:
+        -   Modify, Disconnect, Suspend, and Resume actions are now available on a single selected product inventory record on Consumer records.
+        -   When a quote or order is created from a consumer's product inventory, the consumer is now carried over to the quote and order.
+        -   Currency and price list are now resolved from the consumer for consumer-owned sold products and product inventory when creating quotes and orders.
+    -   Fixed:
+        -   Price attributes are now mapped from product inventory to the quote line when a quote is created from product inventory.
+        -   Fixed a regression when reconfiguring a sold product into a quote: quote lines that were not edited were marked with the Change action instead of staying unchanged.
+        -   The Disconnect dialog no longer loads indefinitely for users in buyer organization roles.
 -   **Version 5.6.2 - October 2026**
     -   New:
         -   Customer lifecycle workflows can be initiated for the Products owned by Business organizations .

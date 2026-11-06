@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-acc-framework.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 21
+last_updated: "2026-11-05"
+reading_time_minutes: 22
 breadcrumb: [ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,12 @@ Version history for the IT Operations Management Agent Client Collector Framewor
 
 ## Version history
 
+-   **Version 7.1.2 - November 2026**
+    -   Fix:
+        -   1. Fixed an issue where some Windows hosts were registered as generic Computer CIs instead of Windows Server, because ACC was not collecting the OS fields.
+        -   2. Fixed ACC Linux managed upgrades failed during GPG package verification when the service account’s home directory was missing, which caused the upgrade to abort.
+        -   3. Upgraded the bundled rubyzip gem in acc-f-commons to address security vulnerability.
+        -   4. Fixed an issue where AI Proxy installations trusted the same bundled root CA. The agent now generates a unique CA for each host and rotates it on installation or upgrade, eliminating the shared trust that could allow compromise of a single CA private key to enable TLS impersonation across affected customer hosts.
 -   **Version 7.1.1 - October 2026**
     -   New:
         -   AI Proxy Integration with ACC

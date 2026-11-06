@@ -41,7 +41,7 @@ Now Assist Center
 </td><td>
 
 -   New
-    -   Conversational Administration Full Settings Coverage
+    -   Conversational Administration - Full Settings Coverage
         -   Administrators can now manage all global Now Assist Center settings directly through the conversational interface, eliminating the need to navigate separate admin consoles for configuration tasks.
         -   Now Assist Guardian controls are fully accessible via the conversational experience, with confirmation prompts before any changes are applied.
     -   Platform and ITSM Out-of-the-Box Skill Activation
@@ -528,7 +528,7 @@ Now Assist Center
 </td><td>
 
 -   New
-    -   Conversational Administration Full Settings Coverage
+    -   Conversational Administration - Full Settings Coverage
         -   Administrators can now manage all global Now Assist Center settings directly through the conversational interface, eliminating the need to navigate separate admin consoles for configuration tasks.
         -   Now Assist Guardian controls are fully accessible via the conversational experience, with confirmation prompts before any changes are applied.
     -   Platform and ITSM Out-of-the-Box Skill Activation

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-now-assist-itom.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-11-05"
 reading_time_minutes: 9
 breadcrumb: [ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the ServiceNow Otto for ITOM application on the ServiceNow S
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.10.0 - November 2026**
+
+    New: Added the AIOps AI Specialist, now generally available. The specialist triages alerts, investigates probable cause using your CMDB, topology, and operational context, and closes noisy alerts so operators can focus on issues requiring human attention.
 
 -   **Version 2.9.7 - October 2026**
     -   New

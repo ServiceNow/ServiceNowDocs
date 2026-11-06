@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/sn-store-now-assist-suite-release-notes.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 11
+last_updated: "2026-11-05"
+reading_time_minutes: 12
 ---
 
 # Now Assist Suite release notes
@@ -33,6 +33,66 @@ Suite version and compatible patch
 
 </th></tr></thead><tbody><tr><td>
 
+[November 05 2026 Now Assist Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/na-suite-rn-2026-11-05.md)
+
+</td><td>
+
+-   28.11.20261105 - Zurich Patch 11
+-   28.12.20261105 - Zurich Patch 12
+-   28.13.20261105 - Zurich Patch 13
+-   29.4.20261105 - Australia Patch 4
+-   29.5.20261105 - Australia Patch 5
+-   29.6.20261105 - Australia Patch 6
+-   29.7.20261105 - Australia Patch 7
+-   29.8.20261105 - Australia Patch 8
+-   30.0.20261105 - Brazil Patch 0 \(Early Availability\)
+-   30.1.20261105 - Brazil Patch 1
+-   30.2.20261105 - Brazil Patch 2
+
+</td></tr><tr><td>
+
+[October 29 2026 Now Assist Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/na-suite-rn-2026-10-29.md)
+
+</td><td>
+
+-   28.12.20261029 - Zurich Patch 12
+-   28.13.20261029 - Zurich Patch 13
+-   29.5.20261029 - Australia Patch 5
+-   29.6.20261029 - Australia Patch 6
+-   29.7.20261029 - Australia Patch 7
+-   30.0.20261029 - Brazil Patch 0 \(Early Availability\)
+-   30.1.20261029 - Brazil Patch 1
+
+</td></tr><tr><td>
+
+[October 22 2026 Now Assist Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/na-suite-rn-2026-10-22.md)
+
+</td><td>
+
+-   28.13.20261022 - Zurich Patch 13
+-   29.0.20261022 - Australia Patch 0 \(Early Availability\)
+-   29.6.20261022 - Australia Patch 6
+-   29.7.20261022 - Australia Patch 7
+-   29.8.20261022 - Australia Patch 8
+-   30.0.20261022 - Brazil Patch 0 \(Early Availability\)
+-   30.1.20261022 - Brazil Patch 1
+-   30.2.20261022 - Brazil Patch 2
+
+</td></tr><tr><td>
+
+[October 15 2026 Now Assist Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/na-suite-rn-2026-10-15.md)
+
+</td><td>
+
+-   28.12.20261015 - Zurich Patch 12
+-   28.13.20261015 - Zurich Patch 13
+-   29.5.20261015 - Australia Patch 5
+-   29.6.20261015 - Australia Patch 6
+-   29.7.20261015 - Australia Patch 7
+-   30.0.20261015 - Brazil Patch 0 \(Early Availability\)
+
+</td></tr><tr><td>
+
 [October 08 2026 Now Assist Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/na-suite-rn-2026-10-08.md)
 
 </td><td>
@@ -56,6 +116,15 @@ Suite version and compatible patch
 -   29.7.20261008 - Australia Patch 7
 -   30.0.20261008 - Brazil Patch 0 \(Early Availability\)
 -   30.1.20261008 - Brazil Patch 1
+
+</td></tr><tr><td>
+
+[October 01 2026 Now Assist Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/na-suite-rn-2026-10-01.md)
+
+</td><td>
+
+-   29.6.20261001 - Australia Patch 6
+-   30.0.20261001 - Brazil Patch 0 \(Early Availability\)
 
 </td></tr><tr><td>
 

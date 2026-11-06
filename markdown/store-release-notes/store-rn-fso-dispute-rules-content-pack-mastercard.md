@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fso-dispute-rules-content-pack-mastercard.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 5
+last_updated: "2026-11-05"
+reading_time_minutes: 6
 breadcrumb: [ServiceNow Store - Financial Services version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,14 @@ Version history for the Dispute Rules Content Pack for Mastercard application on
 
 ## Version history
 
+-   **Version 5.3.2 - November 2026**
+    -   Changed:
+        -   The Mastercard chargeback eligibility checks now follow Mastercard's Q4 2026 rules for reason codes 4837 \(No Cardholder Authorization\), 4849 \(Questionable Merchant Activity\), 4853 \(Credit Posted as a Purchase\), 4870 \(Chip Liability Shift\), and 4871 \(Chip/PIN Liability Shift\). The reasons shown to agents when a dispute isn't eligible have been reworded to match.
+        -   For Colombian disputes under reason codes 4870 and 4871, eligibility now depends on the agent's answer to the new intake question about a payment reversion claim filed under Colombian law. It no longer relies on country and currency codes.
+        -   Under reason code 4837, the rules for emergency cash, Maestro chip, PIN or device verification, and the 120-day filing window have been updated. Two of its fraud type checks now read the fraud type the agent enters at dispute intake.
+        -   Under reason code 4853, a dispute is now flagged when the disputed amount is more than twice the transaction amount. Before, it was flagged whenever the amount wasn't exactly twice.
+    -   Fixed: Under reason codes 4837 and 4849, the fraud report check was backwards: it acted on disputes that had a fraud report instead of those missing one. The check is now correct.
+    -   Removed: Three eligibility checks no longer apply under Mastercard's Q4 2026 rules and have been removed: the "coercion claim not substantiated" check \(4849\), one check under 4837, and the chip liability shift check under 4871.
 -   **Version 5.2.2 - October 2026**
     -   New: Added a fraud chargeback count \(before authorization date\) as a new ineligibility condition for Mastercard Chip Liability Shift rules RC 4870 and RC 4871, so disputes with two or more prior fraud chargebacks on the same sold product are automatically declined.
     -   Changed

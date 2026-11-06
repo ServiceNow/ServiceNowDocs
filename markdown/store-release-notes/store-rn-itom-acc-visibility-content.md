@@ -20,7 +20,7 @@ Version history for the Agent Client Collector for Visibility Content on the Ser
 
 -   **Version 2.1.1 - October 2026**
 
-    New: ACC-VC supports discovery and metering on Non-Persistent VDI environments \[excluding the URL monitoring metrics\].
+    New: Agent Client Collector for Visibility Content \(ACC-VC\) supports discovery and software metering on Windows non-persistent virtual desktop infrastructure \(NPVDI\) endpoints. To reduce collection time in short-lived sessions, ACC-VC skips selected Enhanced Discovery modules, can reuse cached installed software results, and sends software installation data when the session ends.
 
 -   **Version 2.0.4 - September 2026**
     -   New:

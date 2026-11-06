@@ -1,6 +1,6 @@
 ---
-title: License and Permit Playbook release notes
-description: Version history for the License and Permit Playbook application on the ServiceNow Store.
+title: License and Permit Administration release notes
+description: Version history for the License and Permit Administration application on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-license-permit-playbook.html
 release: store
@@ -10,9 +10,9 @@ reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Public Sector Industry version history release notes, ServiceNow Store version history release notes]
 ---
 
-# License and Permit Playbook release notes
+# License and Permit Administration release notes
 
-Version history for the License and Permit Playbook application on the ServiceNow Store.
+Version history for the License and Permit Administration application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 

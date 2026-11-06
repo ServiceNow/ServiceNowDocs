@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-esm-critical-event-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-11-05"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Health and Safety version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,13 @@ Version history for the Critical Event Management application on the ServiceNow 
 
 ## Version history
 
+-   **Version 1.2.6 - November 2026**
+    -   Fixed:
+        -   The Total Impacted list and loading bar no longer stop responding during impact calculations.
+        -   Child critical events can no longer be added to closed Critical Event Management \(CEM\) records. The workflow enforces proper event closure.
+        -   TheCompose button on the CEM Playbook tab now shows its label instead of “undefined.”
+        -   TheView all button now opens the correct tab.
+        -   Resolved accessibility issues.
 -   **Version 1.2.5 - July 2026**
     -   Fixed:
         -   Hardcoded strings in the Critical Event Management dashboard within the Health and Safety Workspace were not displaying correctly in non-English locales.

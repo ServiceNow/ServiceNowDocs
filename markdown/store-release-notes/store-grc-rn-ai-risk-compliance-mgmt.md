@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-ai-risk-compliance-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-11-05"
 reading_time_minutes: 8
 breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the AI Risk and Compliance Management application on the Ser
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 23.2.1 - November 2026 \(Brazil\)**
+
+    Fixed: Playbook and lifecycle experiences, including query conditions on the lifecycle tab and decision-table lists were not working as expected.
 
 -   **Version 23.1.1 - October 2026 \(Brazil\)**
     -   New: Implemented EA integration with AI Asset intake process. Business application can be mapped to Asset record.

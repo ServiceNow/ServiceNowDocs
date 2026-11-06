@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-process-automation-designer.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 14
+last_updated: "2026-11-05"
+reading_time_minutes: 15
 breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -17,6 +17,18 @@ Version history for the Process Automation Designer application on the ServiceNo
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 30.2.11 - November 2026 \(Brazil\)**
+    -   Fixed:
+        -   Defect fixes to Decision activities in Playbooks now deliver clearer branch labels, consistent golden-path highlighting, and smoother condition editing, so designers can build and review branching logic with confidence.
+        -   Copying a playbook also copies its AI skill, and several skill-activation and designer UI glitches have been resolved for a more reliable authoring experience.
+-   **Version 29.7.11 - November 2026 \(Australia\)**
+    -   Fixed:
+        -   Defect fixes to Decision activities in Playbooks now deliver clearer branch labels, consistent golden-path highlighting, and smoother condition editing, so designers can build and review branching logic with confidence.
+        -   Copying a playbook also copies its AI skill, configurable fields under an activity's Automation tab now show proper autocomplete and dropdown options, and a security gap that let a lower-privileged role enable autonomous AI agent execution without review has been closed.
+-   **Version 28.8.4 - November 2026 \(Zurich\)**
+
+    Fixed: Fixed issues related to deactivation of Playbooksummarization and Playbook generation skills.
 
 -   **Version 30.2.10 - October 2026 \(Brazil\)**
     -   New: See the ideal path at a glance — Playbook stage and activity pickers now show conditional steps, so playbook users know which steps will run next.

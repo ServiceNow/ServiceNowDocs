@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-gr
 release: store
 topic_type: reference
 last_updated: "2025-06-05"
-reading_time_minutes: 13
+reading_time_minutes: 14
 breadcrumb: [ServiceNow Store version history release notes]
 ---
 
@@ -266,6 +266,8 @@ Version history for the ServiceNow® smart-assessment-designer application on th
 Version history for the Smart Assessment Migration tools application on the ServiceNow Store.
 -   **[Third-party Risk Management Advanced release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-grc-rn-third-party-risk-mgmt-advanced.md)**  
 Version history for the ServiceNow® Third-party Risk Management Advanced application on the ServiceNow Store.
+-   **[Third-party Risk Management Prime release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-grc-rn-third-party-risk-mgmt-prime.md)**  
+Version history for the ServiceNow® Third-party Risk Management Prime application on the ServiceNow Store.
 -   **[Third-party Risk Management Professional Plus release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-grc-rn-third-party-risk-management-professional-plus.md)**  
 Version history for the ServiceNow® Third-party Risk Management Professional Plus application on the ServiceNow Store.
 -   **[Unified Content Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-grc-rn-unified-content-mgmt.md)**  

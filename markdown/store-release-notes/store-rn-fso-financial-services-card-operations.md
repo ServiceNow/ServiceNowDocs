@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fso-financial-services-card-operations.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 16
+last_updated: "2026-11-05"
+reading_time_minutes: 17
 breadcrumb: [ServiceNow Store - Financial Services version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,16 @@ Version history for the Financial Services Operations Financial Services Card Op
 
 ## Version history
 
+-   **Version 15.4.1 - November 2026**
+    -   New:
+        -   Card dispute intake now offers three more Mastercard fraud type options, so agents can pick the fraud type that matches the case.
+        -   A Colombia-specific claim question about payment reversion has been added for Mastercard fraud disputes, so the case captures the information Colombian regulations require.
+    -   Fixed: The review intake step no longer runs more than once for the same dispute, and transactions already sent to the payment network are no longer resubmitted.
+-   **Version 14.4.1 - November 2026 \(Australia\)**
+    -   New:
+        -   Mastercard dispute intake now offers three more fraud type options: Testing by issuer, Undetermined, and First-party misuse. Agents can pick the fraud type that matches the case.
+        -   A required Yes/No question now appears on Mastercard fraud disputes for Colombian transactions: has a payment reversion claim been filed under Colombian law? The case captures the information Colombian regulations require.
+    -   Fixed: The review intake step no longer runs more than once for the same dispute, and transactions already sent to the payment network are no longer resubmitted.
 -   **Version 14.3.0 - October 2026 \(Australia\)**
     -   New: Added functions to count fraud chargebacks for a sold product by chargeback code and before the authorization date, enabling more granular fraud chargeback reporting.
     -   Changed

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-cmdb-rn-cmdb-mcp-server.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-11-05"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the ServiceNow® CMDB MCP Server application on the ServiceN
 
 ## Version history
 
+-   **Version 2.1.0 - November 2026**
+    -   New: The Get CI Topology and Get Impacted Items tools use the V2 Impact Analysis agent.
+    -   Changed: Get CI Topology takes a change request or incident number in the task\_number parameter instead of a CI sys\_id in ci\_sys\_id. Update MCP clients to pass task\_number. Get Impacted Items continues to take change\_request\_number.
 -   **Version 2.0.1 - October 2026**
 
     Fixed: Added missing tooltip descriptions to tools.

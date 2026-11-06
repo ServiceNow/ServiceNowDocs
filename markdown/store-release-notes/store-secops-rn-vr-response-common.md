@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-response-common.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 7
+last_updated: "2026-11-05"
+reading_time_minutes: 8
 breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,9 @@ Version history for the Vulnerability Response Common application on the Service
 
 ## Version history
 
+-   **Version 30.6.6 - November 2026 \(USEM\)**
+    -   New: Admins can now define approval workflows for risk adjustment requests. The newModify Risk approval rule type enables administrators to configure approval processes for risk changes and prevents duplicate processing of findings.
+    -   Changed: The field label for risk modifications has been updated. The "Until date for Risk reduction" field is now labeledUntil date for Risk change, reflecting that risk modifications include both reductions and adjustments.
 -   **Version 30.6.4 - October 2026 \(USEM\)**
     -   New: Added a new Modify Risk approval rule type, enabling administrators to define approval workflows for risk adjustment requests and prevent duplicate processing of findings.
     -   Changed: Updated the "Until date for Risk reduction" field label to "Until date for Risk change" to reflect that risk modifications now include both reductions and adjustments.

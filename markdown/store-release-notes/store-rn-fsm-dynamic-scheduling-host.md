@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fsm-dynamic-scheduling-host.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-11-05"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Field Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the ServiceNow® Dynamic Scheduling Host application on the 
 
 ## Version history
 
+-   **Version 30.2.0 - November 2026**
+    -   New Features and Enhancements
+        -   Pre- and post-shift maximum travel time: Dynamic Scheduling now enforces the maximum travel time before and after a shift defined in an agent's schedule attribute plan, so assignments no longer require travel beyond the configured limits outside working hours.
+        -   Task bundles with sub tasks lacking an Assignment Group: Bundles that include sub tasks with no Assignment Group are now handled safely, so these tasks can be part of a bundle without causing assignment issues.
+    -   Fixes: Auto Assign: Fixed an issue where Auto Assign returned an incorrect scheduled start time when travel was set to be ignored. Recommended time spans now align to the resource's timezone.
 -   **Version 30.1.1 - October 2026**
     -   Migrating this plugin com.snc.dynamic\_scheduling from Glide Family to Store
     -   This version modernizes the application's underlying technical framework of fluent SDK and dependency versions to keep the app aligned with current platform standards.

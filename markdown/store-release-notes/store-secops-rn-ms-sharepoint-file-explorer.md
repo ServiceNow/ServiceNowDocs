@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-ms-sharepoint-file-explorer.html
 release: store
 topic_type: reference
-last_updated: "2026-08-06"
+last_updated: "2026-11-05"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the Microsoft SharePoint File Explorer Connector for Securit
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.3.5 - November 2026**
+
+    Fixed: Fixed failures in SharePoint subscription creation that were caused by Microsoft Graph's updated security model. The existing subscriptions are unaffected.
 
 -   **Version 1.3.3 - August 2026**
 

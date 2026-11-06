@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-it
 release: store
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 103
+reading_time_minutes: 104
 breadcrumb: [ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -22,7 +22,7 @@ The ServiceNow Store documentation for IT Operations Management patterns is now 
 
 ## Version history
 
--   **Version 1.35.0 - September 2026**
+-   **Version 1.35.1 - September 2026**
     -   New:
         -   Discover the following resources:
             -   IBM FlashSystem storage servers, pools, volumes, network adapters, Fibre Channel ports, and controllers
@@ -59,6 +59,7 @@ The ServiceNow Store documentation for IT Operations Management patterns is now 
         -   The "Oracle OCI - Virtual Machine \(LP\)" pattern now discovers the Windows license type for OCI virtual machines \(VMs\), including Bring Your Own License \(BYOL\) and License Included.
         -   The Populate SA and LDC IN CMDB job supports a full resync to reprocess all configuration item \(CI\) records. Configure the sn\_itom\_pattern.populate\_saldc\_full\_resync system property when service accounts or logical datacenters have incorrect or corrupted values for a CI.
     -   Fixed:
+        -   Kubernetes Pattern Discovery consumed excessive memory on application nodes while retiring stale containers after a restart. Discovery now processes container data page by page, so cleanup completes in large Kubernetes environments. \(PRB2094528\)
         -   Cloud Discovery — Some cloud resource types are missing from the cloud resource type table, so some cloud resources aren't classified during discovery. \(PRB1899462\)
         -   Clustered Fortinet firewalls return incorrect individual IP addresses during discovery. \(PRB1967887\)
         -   The "VMware NSX-T Load Balancer" pattern misses load balancer services when the environment exceeds the API limit of 1,000 items. \(PRB2003075\)

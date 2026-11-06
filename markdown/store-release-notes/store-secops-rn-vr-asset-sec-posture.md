@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-asset-sec-posture.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-05"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,12 @@ Version history for the Vulnerability Response Asset Security Posture Management
 
 ## Version history
 
+-   **Version 5.5.6 - November 2026**
+    -   Fixed:
+        -   Accessibility issues:
+            -   Issues on the Insight Dashboard filter have been resolved.
+            -   Keyboard users, screen reader users, and users with low vision can now interact with filter buttons, panels, and dashboard elements with improved focus order, correct aria-labels, and proper heading markup.
+            -   UI elements now display consistently, and screen reader notifications are provided when filter panels open or close.
 -   **Version 5.5.4 - September 2026**
 
     Changed: Internal packaging optimization to improve application upgrade performance. You might see improved performance during upgrade, but there are no functional or behavioral changes or requirements for end users.

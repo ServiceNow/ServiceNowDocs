@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-ai-data-explorer.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-11-05"
+reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -16,6 +16,18 @@ Version history for the ServiceNow® AI Data Explorer application on the Service
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 5.2.14 - November 2026**
+    -   Fixed:
+        -   Edit Sources modal improvements:
+            -   Fixed an issue where the formula indicators breakdown selector did not show the “is one of” operator.
+            -   Fixed an issue where View source showed the metric as Count when the chart was calculating an Average.
+            -   Fixed an issue where the Edit Sources filter showed a relative date window that was recalculated each time it was opened. The filter now matches the window used to generate the answer.
+        -   Add to exploration flow:
+            -   Fixed an issue where Add to exploration did not add items when started from a classic list.
+            -   Fixed an issue where Add to exploration did not add items to an exploration that was open in a different browser tab.
+        -   Fixed an issue where AI Data Explorer skills appeared disabled in a child domain after the skill was edited there.
+        -   Fixed an issue where the chart resize handle was unresponsive on a newly rendered chart until the page was refreshed.
+        -   Fixed an issue where the Additional insights section displayed “undefined” when insights could not be generated. The section is now hidden in that case.
 -   **Version 5.2.7 - September 2026**
 
     Fixed: Action recommendations in AI Data Explorer no longer get incorrectly blocked when triggered.

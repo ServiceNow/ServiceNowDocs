@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fso-financial-services-treasury-ops.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-05"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Financial Services version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the Financial Services Treasury Operations application on th
 
 ## Version history
 
+-   **Version 4.2.0 - November 2026**
+    -   Fixed:
+        -   Treasury contributors can access treasury tables and actions again. Access rules and UI actions pointed at a renamed role, which had locked contributors out.
+        -   Administrators inherit the app admin role again. Six role-inheritance links that were empty after installation are now restored.
 -   **Version 4.1.1 - September 2026**
 
     Changed: Updated internal application components to support ongoing platform enhancements

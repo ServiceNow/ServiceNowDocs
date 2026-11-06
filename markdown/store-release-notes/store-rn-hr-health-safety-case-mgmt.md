@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-health-safety-case-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-05"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Health and Safety version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the Health and Safety Case Management application on the Ser
 
 ## Version history
 
+-   **Version 6.4.3 - November 2026**
+    -   Changed: Converted the application to ServiceNow Fluent.
+    -   Fixed: Resolved an issue where Health and Safety cases submitted through the Employee Center record producers did not appear under My Requests because the “Requested for” field was not set.
 -   **Version 6.4.1 - September 2026**
 
     Fixed: Resolved an access issue affecting Root Cause Analysis.

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-cmdb-rn-success-advisor.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 5
+last_updated: "2026-11-05"
+reading_time_minutes: 6
 breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -16,6 +16,11 @@ Version history for the ServiceNow® CMDB success advisor application on the Ser
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 3.2.1 - November 2026**
+    -   Fixed:
+        -   The Virtual CIs on hosts without cluster relationships chart on the SAM advisor dashboard didn't drill down when only one virtualization technology was in scope.
+        -   The CI install status vs. asset state KPI trend chart on the HAM advisor dashboard didn't display after you drilled down from the KPI.
+        -   The ServiceNow Otto panel took 10 to 15 seconds to open after you selected Ask Otto on the Data Foundations advisor dashboard.
 -   **Version 3.2.0 - October 2026**
     -   New:
         -   Deduplication and Stale CI remediation agents are now available in Data Foundations advisor, enabling remediation directly from advisor-generated remediation plans.

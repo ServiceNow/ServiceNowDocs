@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itam-cloud-cost-mgmt-advanced.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-11-05"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - IT Asset Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the ServiceNow® Cloud Cost Management Advanced application 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.1.1 - November 2026**
+
+    This patch release contains fixes to replace generic model aliases with concrete model identifiers, Genai platform plugin version refresh to 13.2.0, SN AI platform advanced version to 3.2.0 and Otto for CCM version to 1.1.1
 
 -   **Version 1.1.0 - October 2026**
 

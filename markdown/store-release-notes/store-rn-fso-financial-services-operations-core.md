@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fso-financial-services-operations-core.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 15
+last_updated: "2026-11-05"
+reading_time_minutes: 16
 breadcrumb: [ServiceNow Store - Financial Services version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,16 @@ Version history for the Financial Services Operations Financial Services Operati
 
 ## Version history
 
+-   **Version 13.3.1 - November 2026**
+    -   New: A new FSO 24/7 schedule is available for SLAs. Now SLA timers can count every hour of every day instead of only business hours.
+    -   Changed: The Visa issuer region field now ships in the core banking app instead of the Visa content pack, so it's available without that pack installed.
+    -   Fixed:
+        -   The breached-SLA case list on the contributor landing page now correctly shows the active cases with a breached SLA that the user is allowed to see.
+        -   The Share button in the case workspace works again, and AI-generated summaries shared to work notes no longer contain stray asterisk or bold formatting marks.
+        -   Only admins and account viewers can now run reports on card transaction and authorization data. Before this fix, any signed-in consumer or user could run bulk reports on this sensitive data.
+-   **Version 12.7.1 - November 2026 \(Australia\)**
+    -   New: A new FSO 24/7 schedule is available for SLAs, so SLA timers can count every hour of every day instead of only business hours.
+    -   Fixed: The breached-SLA case list on the contributor landing page now correctly shows the active cases with a breached SLA that the user is allowed to see.
 -   **Version 12.6.0 - October 2026 \(Australia\)**
     -   Changed
         -   Updated the processing\_code choice values for Visa transactional data to reflect the correct set of options, with fixed sequence ordering for values 29, 30, and 39.

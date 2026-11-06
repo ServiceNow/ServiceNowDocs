@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-playbook-experience.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-11-05"
 reading_time_minutes: 16
 breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,14 @@ Version history for the Playbook Experience application on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 29.7.8 - November 2026 \(Australia\)**
+    -   Fixed:
+        -   Fixed an issue where the playbook context loaded incorrectly.
+        -   Fixed an issue where an activity that was In Progress remained in the Canceled state after a restart.
+-   **Version 28.8.6 - November 2026 \(Zurich\)**
+
+    Fixed: Fixed an issue where an activity that was In Progress remained in the Canceled state after a restart.
 
 -   **Version 30.2.8 - October 2026 \(Brazil\)**
     -   New: See the ideal path. The stage picker and activity picker now show stages and activities that run only when their conditions are met, so playbook users can see what might come next.

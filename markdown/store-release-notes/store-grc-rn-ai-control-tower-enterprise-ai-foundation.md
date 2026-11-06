@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-ai-control-tower-enterprise-ai-foundation.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 7
+last_updated: "2026-11-05"
+reading_time_minutes: 9
 breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,61 @@ Version history for the ServiceNow® AI Control Tower for Enterprise AI Foundati
 
 ## Version history
 
+-   **Version 1.9.7 - November 2026**
+    -   Inventory and Discovery
+        -   New:
+            -   Shadow AI: Details on detected AI services, guidance for unknown users and devices, end-user input, an option to hide the UI, and a department block.
+            -   Connectors: Trace Collector discovers Tools. Hyperscaler connectors install automatically. Anthropic discovers Agents via Beta APIs and supports MID servers. GCP imports Gemini Enterprise App Agents with clearer errors. Microsoft adds attributes and tag-based discovery. Databricks adds Domain Separation. GitHub discovers organizations, repositories, and Copilot agents, with scheduled imports and Cloud and Enterprise support.
+        -   Changed:
+            -   Shadow AI lifetime aggregations limited to 3 years.
+            -   GCP Beta API usage UX updated.
+        -   Fixed:
+            -   Shadow AI UI performance and registry filtering.
+            -   AI Discovery Agentic Client support and staging domain fallback.
+            -   Anthropic false success on Test Connection; LangGraph duplicates and standalone run usage; several GCP issues.
+    -   Govern
+        -   New:
+            -   AI &amp; Data Marketplace: Business users choose from approved use cases and models.
+            -   AI Policy Framework v1.2: MVP release with kill switch.
+        -   Fixed:
+            -   Playbook and lifecycle fixes in AI Risk and Compliance, and AI Risk and Asset Management.
+            -   Rejection comments display; rejected requests set to "Cancelled."
+    -   Secure:
+        -   New:
+            -   AI Security Operator role: Deactivate and reinstate agents without full AI Steward access.
+            -   AWH for AI Control Tower: Client-Based Access Control \(CBAC\).
+        -   Changed:
+            -   Top recommendations ranks agents by critical security events.
+            -   Action required on upgrade: Base Traceloop Warehouse connection removed. Recreate it and its credential if you use Traceloop-based metrics. Sampling and max-skill-call defaults reset.
+            -   Security tab split into Overview, Runtime, Post-runtime, and Security insights.
+            -   Renames: "Correctness detection" and "Agent containment list."
+            -   Consent required for Post-runtime and Security insights settings.
+        -   Fixed:
+            -   Four customer-reported bugs, including silent AWS Bedrock block/unblock failures.
+            -   Multiple fixes across anonymization, heatmaps, agent maps, Overview load time, and CBAC policy names.
+    -   Monitor
+        -   New:
+            -   Direct trace access for usage mismatches.
+            -   Severity-based grouping of score drops.
+            -   Agent activity chart filters by top or bottom five metrics.
+            -   Metric scores and LLM judge reasoning on session details.
+            -   Input and output toggle in trace details.
+        -   Changed:
+            -   Arc traces evaluated at asset level for Agentic Client assets; Tools discovery and evaluation added.
+            -   Reduced insight noise; widget customization across AICT pages.
+        -   Fixed:
+            -   Redundant session scores removed; Privileged Access Detector shows 0% in red.
+            -   Custom date selection and duplicate insights.
+    -   Measure
+        -   Fixed:
+            -   Functional and non-functional IT defects.
+            -   Creator metrics for managed and unmanaged AI systems.
+    -   Foundations
+        -   Changed: AINPX UI: AI Gateway access management, runtime security configuration, a Security Insights tab, connector upgrades, and LLM-based deduplication.
+        -   Fixed:
+            -   EA for AICT domain separation on AI Portfolio widgets.
+            -   AWH: correct Tool Groups count, MCP sync job errors, and catalog population on new instances.
+            -   Otto: manufacturer, vendor, and owned\_by details resolve correctly.
 -   **Version 1.9.5 - October 2026**
 
     AI Control Tower adds new capabilities across discovery, governance, security, monitoring, and measurement of AI usage.

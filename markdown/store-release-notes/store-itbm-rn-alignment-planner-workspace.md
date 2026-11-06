@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-alignment-planner-workspace.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-11-05"
 reading_time_minutes: 11
 breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,13 @@ Version history for the Alignment Planner Workspace application on the ServiceNo
 
 ## Version history
 
+-   **Version 8.20.0 - November 2026**
+    -   Changed:
+        -   The Record History tab is now hidden on the substate and WIP limits table forms.
+        -   Users with the sn\_align\_core.apw\_adminrole can now edit and manage demand experiences.
+    -   Fixed:
+        -   Resolved an issue where resources in demands were not displayed based on the user’s resource role.
+        -   Resolved an issue where the demand record page failed to load when users without the demand user role opened a demand with a playbook.
 -   **Version 8.19.0 - October 2026**
     -   New:
         -   View and manage smart assessments in Demands, including an assessments list page, assessment form, database view, role-based access, automated business rules for triggering and scoring, and declarative stakeholder actions. Users can view the assessments relevant to them directly in Demands in Portfolio Planning Workspace.

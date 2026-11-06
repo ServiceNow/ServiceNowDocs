@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-ms-exchange-online.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-11-05"
 reading_time_minutes: 5
 breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,14 @@ Version history for the Integration Hub Microsoft Exchange Online Spoke on the S
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 4.1.3 - November 2026**
+
+    Fixed: frequency of scheduled jobs, all day event timezone, and run flow as user
+
+-   **Version 3.15.3 - November 2026**
+
+    Fixed: frequency of scheduled jobs, all day event timezone, and run flow as user
 
 -   **Version 4.1.2 - October 2026**
     -   Fixed:

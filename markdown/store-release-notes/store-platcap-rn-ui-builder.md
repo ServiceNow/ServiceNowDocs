@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-ui-builder.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 16
+last_updated: "2026-11-05"
+reading_time_minutes: 17
 breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,15 @@ Version history for the UI Builder application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 30.1.12 - November 2026 \(Brazil\)**
+    -   This patch release contains fixes for the issues listed below
+        -   Updated prompt text in list visualization
+        -   Route loading pulls full page records for every screen, causing out-of-memory errors
+        -   Security and access control updates
+-   **Version 29.6.13 - November 2026 \(Australia\)**
+    -   This patch release contains fixes for the issues listed below
+        -   UIB caching query too broad, causing loading issues
+        -   Security and access control updates
 -   **Version 30.0.37 - September 2026 \(Brazil\)**
 
     This patch release contains fixes for the issues listed below: Selecting Create &gt; UI Interaction from the UI Builder Homepage did not work

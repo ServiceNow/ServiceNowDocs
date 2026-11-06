@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-rec-actions.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-11-05"
 reading_time_minutes: 5
 breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the Recommended Actions application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 45.0.1 - November 2026**
+    -   Fixed:
+        -   Improved support for multiple contexts in Customer Relationship Management \(CRM\) use cases by fixing issues with the fallback logic for context selection.
+        -   Enhanced the UX to prevent multiple duplicate clicks on guidances in the Suggested actions panel or under Guided Decision trees.
 -   **Version 45.0.0 - October 2026**
 
     New: Introduced the actionObject, which is a single parameter expected by the createAndExecuteAction of the sn-contextual-search-results widgets.

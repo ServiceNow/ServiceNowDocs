@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-email-interaction-core.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-05"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the Email Interaction Core application on the ServiceNow Sto
 
 ## Version history
 
+-   **Version 1.4.1 - November 2026**
+    -   Defect fix: Email interactions routed by CCaaS
+        -   Adding a new field to capture related email interactions routed by CCaaS
+        -   Linking email interactions based on the related email identifier field
 -   **Version 1.4.0 - September 2026**
 
     Defect fixes

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itsm-employee-slate-moveworks.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 1
+last_updated: "2026-11-05"
+reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,16 @@ Version history for the ServiceNow® ITSM Employee Slate for Moveworks applicati
 
 ## Version history
 
+-   **Version 2.1.4 - November 2026**
+    -   Fixed:
+        -   Service Health -
+            -   Fixed rendering of the Service Health banner and Service Health canvas widget.
+            -   Fixed translation and localization issues on the Service Health page.
+            -   Fixed collapsible arrow icons on the Service Health page that pointed the wrong way in right-to-left languages.
+        -   Walk-up/Visit Tech Lounge -
+            -   Fixed functional issues with walk-in check-in in the Walk-up widget.
+            -   Fixed an issue where scheduling an appointment in the Walk-up widget did not show available time slots.
+            -   Fixed an issue where the tech lounge page stayed on a loading screen and showed no details after a platform upgrade.
 -   **Version 2.1.1 - October 2026**
     -   New
         -   Walk-up notifications: Employees now receive walk-up notifications on email for the following events:

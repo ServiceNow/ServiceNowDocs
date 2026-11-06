@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fso-int-mastercard.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-05"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Financial Services version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,14 @@ Version history for the Financial Services Operations Integration with Mastercar
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 3.2.2 - November 2026**
+
+    Changed: The Mastercard contract SLAs now run on the FSO 24/7 schedule, so SLA deadlines count every hour of every day instead of only business hours.
+
+-   **Version 3.2.3 - November 2026 \(Australia\)**
+
+    Changed: Service level agreements \(SLAs\) for Mastercard contracts now follow the FSO 24/7 schedule, so response and resolution timers run around the clock.
 
 -   **Version 3.1.1 - September 2026**
 

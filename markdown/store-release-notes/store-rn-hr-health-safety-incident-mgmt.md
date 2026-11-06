@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-health-safety-incident-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 9
+last_updated: "2026-11-05"
+reading_time_minutes: 10
 breadcrumb: [ServiceNow Store - Health and Safety version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,12 @@ Version history for the Health and Safety Core on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 13.5.2 - November 2026**
+    -   Changed: Converted the application to ServiceNow Fluent.
+    -   Fixed:
+        -   Corrected an issue where a security ACL for Health and Safety Risk Management was installed with the Health and Safety Core application.
+        -   Prevented crashes in the body picker on Employee Center pages.
+        -   Resolved an issue where learning tasks were not created or updated when a learning-type action was assigned in Health and Safety.
 -   **Version 13.5.0 - October 2026**
     -   New: Health and Safety profiles include Environmental Management and Critical Event Management roles.
     -   Fixed

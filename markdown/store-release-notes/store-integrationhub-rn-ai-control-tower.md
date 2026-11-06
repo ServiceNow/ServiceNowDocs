@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-ai-control-tower.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 7
+last_updated: "2026-11-05"
+reading_time_minutes: 9
 breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,58 @@ Version history for the AI Control Tower application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 7.1.9 - November 2026**
+    -   Inventory and Discovery
+        -   New:
+            -   Connectors: Trace Collector discovers Tools. Hyperscaler connectors install automatically. Anthropic discovers Agents via Beta APIs and supports MID servers. GCP imports Gemini Enterprise App Agents with clearer errors. Microsoft adds attributes and tag-based discovery. Databricks adds Domain Separation. GitHub discovers organizations, repositories, and Copilot agents, with scheduled imports and Cloud and Enterprise support.
+            -   AI Gateway: Client based access policies in AI Gateway to limit each MCP client to specific tools on an MCP server
+        -   Changed: GCP Beta API usage UX updated.
+        -   Fixed:
+            -   AI Discovery Agentic Client support and staging domain fallback.
+            -   Anthropic false success on Test Connection; LangGraph duplicates and standalone run usage; several GCP issues.
+    -   Govern
+        -   New: AI Policy Framework v1.2:AI agent containment \(kill switch\) using policy-based automation.
+        -   Fixed:
+            -   Playbook and lifecycle fixes in AI Risk and Compliance, and AI Risk and Asset Management.
+            -   Rejection comments display; rejected requests set to "Cancelled."
+    -   Secure
+        -   Changed:
+            -   In Settings, the Security tab has been restructured into these sub-tabs: Overview, Runtime, Post-runtime, and Security insights. These sub-tabs correspond to metrics they configure, except Security insights. Security insights shows the status of the AICT Security Analyzer agent.
+            -   In Settings, in the Runtime sub-tab, the link to configure data patterns changed to go to Anonymization policies in Data Privacy.
+            -   In Settings, in the Post-runtime and Security insights sub-tabs, the user is asked to consent to consumption of assists when enabling settings.
+            -   In the Post-runtime tab, when you select Configure, you are now redirected to Settings to update your configuration instead of to a side panel.
+            -   AICT correctness detection is renamed to Correctness detection.
+            -   The Contained agents list is renamed Agent containment list and you can now filter the list by agent.
+        -   Fixed:
+            -   In Settings, the Data privacy tab shows anonymization disabled for a data pattern. \(PRB2104868\)
+            -   Post-runtime tab heatmap is missing hover details and has an empty Provider column. \(PRB2097211\)
+            -   In the Post-runtime tab, correctness detection events show JSON in the Description column instead of readable justification text. \(PRB2098772\)
+            -   Agent map shows risk and owner data from the wrong instance's agent. \(PRB2094174\)
+            -   Overview page load time regressed. \(PRB2093094\)
+            -   Managed-asset filtering disabled when an instance doesn’t have governed assets, causing all assets to be analyzed. \(PRB2100466\)
+    -   Monitor
+        -   New:
+            -   Direct trace access for usage mismatches.
+            -   Severity-based grouping of score drops.
+            -   Agent activity chart filters by top or bottom five metrics.
+            -   Metric scores and LLM judge reasoning on Session details.
+            -   Input and output toggle in trace details.
+        -   Changed:
+            -   Arc traces evaluated at asset level for Agentic Client assets; Tools discovery and evaluation added.
+            -   Reduced insight noise; widget customization across AICT pages.
+        -   Fixed:
+            -   Redundant session scores removed; Privileged Access Detector shows 0% in red.
+            -   Custom date selection and duplicate insights.
+    -   Measure
+        -   Fixed:
+            -   Functional and non-functional IT defects.
+            -   Creator metrics for managed and unmanaged AI systems.
+    -   Foundations
+        -   Changed: AINPX UI: AI Gateway access management, runtime security configuration, a Security Insights tab, connector upgrades, and LLM-based deduplication.
+        -   Fixed:
+            -   EA for AICT domain separation on AI Portfolio widgets.
+            -   AWH: correct Tool Groups count, MCP sync job errors, and catalog population on new instances.
+            -   Otto: manufacturer, vendor, and owned\_by details resolve correctly.
 -   **Version 7.1.5 - October 2026**
     -   AI Control Tower adds new capabilities across discovery, governance, security, monitoring, and measurement of AI usage.
         -   Inventory and Discovery

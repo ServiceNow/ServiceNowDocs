@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-som-lead-mgmt-app.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2026-11-05"
+reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - Sales Customer Relationship Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,16 @@ Version history for the Lead Management Application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 6.7.0 - November 2026 \(Australia\)**
+    -   New:
+        -   Lead Line card now available in Lead Line record pages - Users can view the same lead line carousal card within individual lead line records, providing consistent information display across lead management screens in the Sales CRM Mobile.
+        -   Sales CRM mobile users can now view Lead's CRM Touchpoint details directly in the mobile app - The Touchpoint record view displays the details, including title, associated records \(Account, Contact, Lead, Opportunity\) with navigation, owner, due date, description, priority, primary channel, state, category, and type. Activities are shown with default behavior, and the record view is available in offline mode.
+    -   Removed: Unused lead line cards removed from Lead Line record pages. Only relevant carousal cards are now displayed, streamlining the user interface.
+-   **Version 6.6.0 - November 2026 \(Zurich\)**
+    -   New:
+        -   Lead Line card now available in Lead Line record pages - Users can view the same lead line carousal card within individual lead line records, providing consistent information display across lead management screens in the Sales CRM Mobile.
+        -   Sales CRM mobile users can now view Lead's CRM Touchpoint details directly in the mobile app - The Touchpoint record view displays the details, including title, associated records \(Account, Contact, Lead, Opportunity\) with navigation, owner, due date, description, priority, primary channel, state, category, and type. Activities are shown with default behavior, and the record view is available in offline mode.
+    -   Removed: Unused lead line cards removed from Lead Line record pages. Only relevant carousal cards are now displayed, streamlining the user interface.
 -   **Version 6.5.0 - September 2026 \(Australia\)**
     -   New:
         -   Lead management is now available in the Sales CRM Mobile app, with dedicated list and record views for leads, lead lines, lead tasks, and lead meetings, plus quick access to lead tasks from the home page.

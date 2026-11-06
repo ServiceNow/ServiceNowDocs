@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-health-safety-risk-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 9
+last_updated: "2026-11-05"
+reading_time_minutes: 10
 breadcrumb: [ServiceNow Store - Health and Safety version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,13 @@ Version history for the Health and Safety Risk Management application on the Ser
 
 ## Version history
 
+-   **Version 9.5.3 - November 2026**
+    -   Changed: Converted the application to ServiceNow Fluent.
+    -   Fixed:
+        -   Resolved an issue where sections with dependent questions in Audit and Inspection survey results in the Health and Safety Workspace could not be expanded again after being collapsed.
+        -   Removed the New button from the JSA list in the Health and Safety Workspace.
+        -   Resolved an issue where submitting an Inspection Smart Assessment in Now Mobile failed.
+        -   Corrected the permit start and end date and time displayed on the Details tab of the Health and Safety Permit portal.
 -   **Version 9.5.1 - October 2026**
     -   Fixed:
         -   Resolved internationalization issues, ensuring correct translations and display values across the application.

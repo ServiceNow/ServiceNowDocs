@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-common-ws.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 6
+last_updated: "2026-11-05"
+reading_time_minutes: 7
 breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,10 @@ Version history for the Vulnerability Response Common Workspace application on t
 
 ## Version history
 
+-   **Version 30.9.5 - November 2026**
+    -   Fixed:
+        -   CI lookup rule creation in SecOps VR has been resolved. Users can now successfully create CI lookup rules for sources supporting both VR and AVR scanning. The form now displays and requires theApplies to field when needed, surfaces error messages accurately, and prevents form resets on failed saves.
+        -   Accessibility issues in the SEM unassign window have been addressed. TheUnassign dialog now includes a title and heading markup, and focus is properly managed to meet accessibility standards.
 -   **Version 30.9.2 - October 2026**
     -   New: Added preview functionality for admin rules to display the number of applicable findings before applying them.
     -   Fixed: Fixed incorrect risk score calculations in admin rule evaluation.

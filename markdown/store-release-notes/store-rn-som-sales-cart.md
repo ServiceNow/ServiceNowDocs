@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-som-sales-cart.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 2
+last_updated: "2026-11-05"
+reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - Sales Customer Relationship Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,26 @@ Version history for the Sales Cart application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 2.9.2 - November 2026 \(Australia+\)**
+    -   New: REST API endpoint \(getCartLinesByEncodedQuery\) to retrieve a cart’s line items that match an encoded query.
+    -   Changed:
+        -   The submit order API processes carts with a large number of line items asynchronously and returns an accepted response with an inbound queue record ID. The cart moves to Processing, then to Complete or Cancelled.
+        -   Responses from the get cart, get cart line item, and query carts APIs include a display value for every field.
+    -   Fixed:
+        -   The submit order API has a high response time \(PRB2080458\).
+        -   Orders created with the submit order API have an empty channel \(PRB2089913\).
+        -   The submit order API creates orders in the Draft state instead of New \(PRB2109260\).
+        -   The update sales cart API performs slowly \(PRB2093316\).
+-   **Version 2.8.4 - November 2026 \(Zurich\)**
+    -   New: REST API endpoint \(getCartLinesByEncodedQuery\) to retrieve a cart’s line items that match an encoded query
+    -   Changed:
+        -   The submit order API processes carts with a large number of line items asynchronously and returns an accepted response with an inbound queue record ID. The cart moves to Processing, then to Complete or Cancelled.
+        -   Responses from the get cart, get cart line item, and query carts APIs include a display value for every field
+    -   Fixed:
+        -   The submit order API has a high response time \(PRB2080458\)
+        -   Orders created with the submit order API have an empty channel \(PRB2089913\)
+        -   The submit order API creates orders in the Draft state instead of New \(PRB2109260\)
+        -   The update sales cart API performs slowly \(PRB2093316\)
 -   **Version 2.9.1 - October 2026 \(Australia+\)**
     -   New: The createCart API now checks product offering eligibility during cart creation. If any offering in the cart is not eligible, the cart isn't created.
     -   Changed: The submitOrder API response now includes the order number.

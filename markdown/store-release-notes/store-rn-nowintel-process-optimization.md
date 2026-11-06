@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-nowintel-process-optimization.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 18
+last_updated: "2026-11-05"
+reading_time_minutes: 20
 breadcrumb: [ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -17,6 +17,19 @@ Version history for the Process Mining application on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 30.7.6 - November 2026 \(Brazil\)**
+    -   Changed: “Launch Process Mining” button in workspaces: The “Launch Process Mining” button no longer appears on tables that are not task-related. It now shows only where process mining can be used, which reduces clutter and avoids confusion.
+    -   Fixed:
+        -   Root cause analysis on child entities: We fixed an issue that caused root cause analysis \(RCA\) to fail on child entities in multi-dimensional mining \(MDM\) projects. RCA now completes successfully for child entities.
+        -   Breakdown percentages on filtered models: We fixed an issue that caused breakdown percentages to display incorrectly when a filter was applied to a model. Percentages now reflect the filtered data accurately.
+        -   Breakdown filter values after page refresh: We fixed an issue where breakdown filter values showed the grouped activity label after you refreshed the page. Filter values now display correctly after a refresh.
+        -   Time constraints in rule-based findings: We fixed an issue where time constraints in rule-based findings were not carried over correctly when an instance was upgraded. Your existing findings now keep their time constraints after an upgrade.
+        -   Mining projects with filtered reference fields: We fixed an issue that caused mining to fail when a project was created with a filter condition on a reference field breakdown. These projects now mine successfully.
+        -   Access control enforcement in APIs: We now enforce access control lists \(ACLs\) in the Stats API and the GraphQL API. Users can only retrieve data they are permitted to see, which aligns API access with the permissions you have already configured. If any of your integrations rely on these APIs, check that the accounts they use have the required access.
+-   **Version 29.7.17 - November 2026 \(Australia\)**
+
+    Fixed: Access control enforcement in APIs: We now enforce access control lists \(ACLs\) in the Stats API and the GraphQL API. Users can only retrieve data they are permitted to see, which aligns API access with the permissions you have already configured. If any of your integrations rely on these APIs, check that the accounts they use have the required access.
 
 -   **Version 29.7.15 - October 2026 \(Australia\)**
 

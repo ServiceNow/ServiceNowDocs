@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-som-quote-mgmt-data-model.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 7
+last_updated: "2026-11-05"
+reading_time_minutes: 8
 breadcrumb: [ServiceNow Store - Sales Customer Relationship Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -17,6 +17,24 @@ Version history for the Quote Management Data Model on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 12.0.4 - November 2026 \(Brazil\)**
+    -   Integration Guided Setup
+    -   Quote AI Agent
+    -   Configuration AI Agent A2A
+    -   Renewal pricing for ramped quote lines
+    -   Context rules: rules engine enhancements
+    -   Dynamic BOM rules authoring enhancements
+    -   Translations for CPQ Admin
+    -   AI context upload for CPQ Admin
+    -   AI context upload for sales persona
+-   **Version 13.2.2 - November 2026 \(Australia\)**
+
+    Platform Stability &amp; Performance – Addressed reported defects and implemented performance improvements to enhance system reliability and responsiveness.
+
+-   **Version 11.7.2 - November 2026 \(Zurich\)**
+
+    Platform Stability &amp; Performance – Addressed reported defects and implemented performance improvements to enhance system reliability and responsiveness.
 
 -   **Version 13.2.1 - October 2026 \(Australia\)**
     -   New

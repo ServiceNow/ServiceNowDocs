@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fsm-config-dispatcher-workspace.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 35
+last_updated: "2026-11-05"
+reading_time_minutes: 39
 breadcrumb: [ServiceNow Store - Field Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,79 @@ Version history for the FSM Configurable Dispatcher Workspace application on the
 
 ## Version history
 
+-   **Version 31.1.2 - November 2026**
+    -   New Features and Enhancements
+        -   Operational Notes
+            -   Dispatchers can create, edit and delete operational notes on resources, tasks, crews and equipment, with confirmation messages on save and delete.
+            -   Notes can be opened in a dialog or in the task and resource information panels, and are also available on workspace list and record pages.
+            -   Note icons appear on task panel cards and calendar task events, and the latest note shows in the hover popover for task cards and events.
+            -   Notes stay current after soft refresh, date changes and viewport scrolling, and resource cards refresh automatically when a resource note changes.
+            -   Calendar notes are now supported on the Gantt view.
+            -   Calendar events with no type are dimmed when they don't match the active filter.
+        -   Performance
+            -   Adding resources to the calendar is faster.
+            -   Viewport scrolling renders more quickly, and KPI calculations run faster.
+        -   Filters and Configuration
+            -   The advanced resource filter typeahead shows sublabels so users with the same name can be told apart.
+            -   The minimum drag distance for click-and-drag task recommendations is now configurable.
+            -   Time format entry in HH:MM is validated.
+        -   Map: Ferry routes are excluded from routes shown on the Dispatcher Workspace map.
+    -   Fixes:
+        -   Security
+            -   Strengthens access controls and input handling for dispatcher queries, work order task details and assignment pop-ups.
+        -   Viewport Scrolling
+            -   The timezone indicator now appears when hiding off-shift agents.
+            -   Auto refresh and soft refresh work correctly in edge cases, including fetching ad hoc resource events.
+            -   The route icon is correctly hidden in week view.
+            -   An unnecessary data call when moving to the next day was removed.
+        -   Translations and Accessibility
+            -   Settings labels, the system timezone label, the "Temporary filter" label and the OR/AND search operators now display in the user's language.
+            -   Toolbar buttons now meet the WCAG 2.2 minimum target size.
+        -   Filtering
+            -   Advanced task filtering works on duplicated pages.
+            -   The task panel quick filter no longer loads indefinitely when Parts are used.
+            -   The advanced resource filter and the resource filter in the information panel no longer show a blank calendar or extra groups, including for agents in multiple assignment groups.
+            -   The quick filter for Task SLA is faster, and its loading icon, tooltip and add-resource behavior were corrected.
+            -   The Match Calendar Dates setting is retained after a browser refresh.
+        -   Task Assignment
+            -   Assigning a work order task requires a single drag and drop instead of two.
+            -   The Assigned To field is now populated in the assignment confirmation window.
+            -   Calendar events no longer appear twice when Task Recommendation plugins are active.
+        -   Scheduling and KPIs
+            -   Break embedding works for existing work order tasks and no longer appears with fixed windows and agent efficiency.
+            -   Override schedule breaks are no longer shown on the dispatcher workspace.
+            -   KPI calculations now include agents who belong through group membership.
+-   **Version 28.8.0 - November 2026**
+
+    Fixed an issue where, if an agent belonged to multiple assignment groups and only one group was selected, the resource filter could drop resources and show a blank calendar. Resources are now filtered to the selected assignment groups correctly, so the expected agents appear.
+
+-   **Version 30.3.1 - November 2026**
+    -   New Features and Enhancements
+        -   Operational Notes
+            -   Dispatchers can create, edit and delete operational notes on resources, tasks, crews and equipment, with confirmation messages on save and delete. Notes are also available on workspace list and record pages.
+            -   Notes open in a dialog or in the task and resource information panels. The dialog now reopens correctly and closes after Save &amp; close.
+            -   Note icons appear on task panel cards and calendar task events, and the latest note shows in the hover popover for task cards, events and the map.
+            -   Notes stay current after soft refresh, date changes and viewport scrolling, and resource cards refresh automatically when a resource note changes.
+            -   Calendar notes are supported on the Gantt view.
+        -   Filters, Time and Performance
+            -   The advanced resource filter typeahead shows sublabels so users with the same name can be told apart.
+            -   HH:MM time format entry is validated, and the calendar falls back to the session time format when no display format is set.
+            -   Adding resources to the calendar is faster because it uses the agent group cache.
+            -   Quick filters no longer scan entire tables, which makes them faster.
+    -   Fixes
+        -   Viewport Scrolling
+            -   The timezone indicator appears for agents when off-shift agents are hidden.
+            -   Auto refresh works after collapsing or expanding a group header.
+            -   Soft refresh fetches ad-hoc resource events, and ad-hoc events load on the first date change.
+            -   The route icon is hidden in week view.
+        -   Filtering
+            -   The advanced resource filter and the resource filter in the information panel no longer show a blank calendar or extra groups, including for agents in multiple assignment groups.
+            -   The task panel quick filter no longer loads indefinitely when Parts are used.
+        -   Translations: Settings labels now load consistently in French, and the system timezone label is translated in the timezone dropdown.
+        -   Break Scheduling
+            -   Break embedding works for existing work order tasks.
+            -   Fixed windows with agent efficiency no longer show embedded breaks.
+            -   Override schedule breaks are no longer duplicated or shown on the dispatcher workspace.
 -   **Version 28.7.2 - October 2026**
     -   Extended work order task tables now open to the correct URL in Dispatcher Workspace. Previously, clicking into a task based on an extended Work Order Task table would navigate to the base table URL rather than the specific extended table, preventing users from accessing the correct form. This has been resolved.
     -   Event edit forms in Dispatcher Workspace now display dates correctly when using non-standard system date formats. When the system was configured with a date format where the day appears before the month \(e.g., DD/MM/YYYY\), editing a Work Force Optimization event could show the day and month swapped on the edit form. Dates now reflect the correct values regardless of the system date format configured.

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-sn-app-analytics-workspace.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 18
+last_updated: "2026-11-05"
+reading_time_minutes: 19
 breadcrumb: [ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,18 @@ Version history for the Platform Analytics Workspace on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 9.1.2 - November 2026**
+    -   Fixed:
+        -   Additional filter condition in 'Group by' filter broken in bar chart visuals
+        -   Technical dashboard state \(filters and other preferences\) lost due to refresh-on-return behavior
+-   **Version 8.4.12 - November 2026**
+    -   Fixed:
+        -   Saving "Apply to Hierarchy" writes a large JSON object to sys\_user\_preference, which causes OOM errors
+        -   Technical dashboard state \(filters and other preferences\) lost due to refresh-on-return behavior
+        -   Dashboard layout becomes inconsistent after discarding changes in edit mode, causing widget gaps and overlaps until the page is refreshed
+        -   Data Visualization creation flow: Chart Type selection page no longer shown
+        -   The Save button is greyed out in Platform Analytics dashboards
+        -   Additional filter conditions in 'Group by' filter are broken in bar chart visuals after applying the Platform Analytics 8.4.6 upgrade
 -   **Version 9.1.1 - October 2026**
     -   Fixed:
         -   In UI16, for bookmarked CoreUI reports and dashboards, when clicking on them on the Quick Access section of Platform Analytics Overview, page ends in "nav\_to.do?uri=%2Fblank"

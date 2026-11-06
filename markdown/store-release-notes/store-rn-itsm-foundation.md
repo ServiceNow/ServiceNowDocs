@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itsm-foundation.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 10
+last_updated: "2026-11-05"
+reading_time_minutes: 13
 breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -16,6 +16,41 @@ Version history for the ServiceNow® ITSM - Foundation application on the Servic
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 2.4.3 - November 2026**
+    -   Changed:
+        -   Gemini 3.5 Flash and Claude Sonnet 4.6 model updates
+        -   Incident summarization \(New, In progress, Resolved, and Closed\) now uses Gemini 3.5 Flash and Claude Sonnet 4.6 by default. The previous alias-based configurations are kept at lower priority.
+        -   Record resolution \(resolution notes generation\) now uses Gemini 3.5 Flash and Claude Sonnet 4.6 by default. The previous alias-based configurations are kept at lower priority.
+        -   Request, requested item, and catalog task summarization now use Gemini 3.5 Flash and Claude Sonnet 4.6 instead of the previous small-model aliases.
+        -   Change summarization and change risk explanation now use Gemini 3.5 Flash and Claude Sonnet 4.6 instead of the previous small-model aliases.
+        -   The Change risk assessment Assessment Answers Generator Gemini configuration now uses Gemini 3.5 Flash instead of Gemini 2.5 Flash Lite.
+        -   Release notes generation now uses Gemini 3.5 Flash and Claude Sonnet 4.6 by default. The previous configurations are kept but are no longer the default.
+        -   The Classify consent and Simplify description skills now use Gemini 3.5 Flash and Claude Sonnet 4.6 by default. The previous Gemini and Claude configurations for these skills are kept but are now inactive and no longer the default.
+        -   The Engagement Message Composer skill now uses Gemini 3.5 Flash and Claude Sonnet 4.6 instead of its previous Gemini and Claude models.
+    -   Fixed:
+        -   Create incident AI agent in Virtual Agent
+        -   The agent now shows a closing message after the user confirms that the issue is resolved.\* Investigate and resolve incidents
+        -   The Get relevant knowledge articles tool now returns knowledge article results on instances where the knowledge semantic index configuration differs from the default names. Previously it returned "No information found."
+        -   Investigate and recommend incident agents no longer fail with "Error while finding catalog items" when other plugins, such as Intelligent Approval, add more records.
+        -   Find catalog item AI agent
+        -   The agent now generates a response in AI Agent Studio.
+        -   Incident classification and triage
+        -   The Categorize ITSM incident AI agent no longer displays the caller's CI. It now covers category and subcategory only.
+        -   The Get Incident and relevant major incidents and problems tool now uses the single \[RA-ITSM\] AI Search Profile when it retrieves similar incidents.
+        -   Post incident report
+        -   Line breaks in the Post Incident Report sections are now preserved when they are written to the incident Overview field.
+        -   Change outage assistant AI agent
+        -   The agent now converts dates entered in the user's date format to ISO 8601 before passing them to its tools. Previously the Validate planned start and end date and Create outage tools returned errors for users with a date format such as MM-dd-yyyy.
+        -   When a date is ambiguous, the agent now asks the user to confirm the day and month.
+        -   Suggest configuration items for a change request workflow
+        -   The Configuration Item Suggestion no longer shows tags.
+        -   Flow Designer
+        -   The application no longer deletes a global Flow Designer complex object. Previously flows could start failing after the application was installed.\* Resolve modal in Service Operations Workspace
+        -   Hyperlinks pasted into Additional comments when resolving an incident are now kept as clickable links.
+        -   AI Search Assist for incident record producers
+        -   AI Search Assist now returns a no-response result when it produces no answer, so the AI Search fallback results are used.
+        -   It now uses the search profile configured for the record producer when one is set.
+        -   Translation fixes added
 -   **Version 2.4.2 - October 2026**
     -   New
         -   Incident Analyzer

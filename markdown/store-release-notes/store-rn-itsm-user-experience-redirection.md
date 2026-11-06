@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itsm-user-experience-redirection.html
 release: store
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-11-05"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [ServiceNow Store - IT Service Management version history release no
 Version history for the ServiceNow® User Experience Redirection application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 1.0.2 - November 2026**
+
+    Fixed an issue that prevented the application from being installed on its own. You can now install the application individually.
 
 -   **Version 1.0.1 - March 2026**
     -   To support the overall workspace adoption

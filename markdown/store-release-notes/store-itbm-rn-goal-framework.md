@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-goal-framework.html
 release: store
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-11-05"
 reading_time_minutes: 7
 breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the ITBM Goal Framework application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 4.17.0 - November 2026**
+    -   New:
+        -   Align goals and targets to fiscal periods to match your organization’s goal and OKR processes.
+        -   Select a fiscal or Gregorian calendar for goals using a global system property.
+        -   Check-in frequencies follow the selected fiscal or Gregorian calendar.
 -   **Version 4.16.0 - October 2026**
     -   New:
         -   Select Maintain above, Maintain below, or Maintain constant as the target type when defining a target to track progress based on keeping a value above, below, or within a specified range.
