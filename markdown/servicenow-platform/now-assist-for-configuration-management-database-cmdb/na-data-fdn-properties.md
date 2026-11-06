@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, ServiceNow Otto for Configuration Management Database \(CMDB\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ List of system properties for the agents used by ServiceNow Otto for CMDB agents
 
 ## Property settings
 
-**Note:** To open the System Properties \[sys\_properties\] table, enter `sys_properties.list` in the navigation filter.
+**Tip:** To access the System Properties \[sys\_properties\] table, enter `sys_properties.list` in the navigation filter.
 
 <table id="table_m2p_xvj_q2c"><thead><tr><th>
 
@@ -76,7 +76,7 @@ sn\_nowassist\_sgc.ai\_search\_kb\_score\_threshold
 
 </td><td>
 
-Enter the relevancy score threshold for AI Search, used when retrieving knowledge articles with Now Assist for SGC.-   Type: integer
+Enter the relevancy score threshold for AI Search, used when retrieving knowledge articles.-   Type: integer
 -   Default value: `5`
 -   Location: System Property \[sys\_properties\] table
 
@@ -86,7 +86,7 @@ sn\_nowassist\_sgc.kb\_filtering\_strategy
 
 </td><td>
 
-Set the knowledge article filtering strategy for retrieving articles with Now Assist for SGC. -   Type: list
+Set the knowledge article filtering strategy for retrieving articles. -   Type: list
 -   Default value: `strict`
 -   Location: System Property \[sys\_properties\] table
 
@@ -98,7 +98,7 @@ Retrieves knowledge articles from the selected connector category only.
 
 -   **non-strict**
 
-Retrieves knowledge articles from other connector categories, in addition to the selected connector category.
+Retrieves knowledge articles from the selected connector category and other connector categories.
 
 
 </td></tr></tbody>

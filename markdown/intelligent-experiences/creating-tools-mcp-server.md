@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/creating-tools-mcp-server.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [Create tool for MCP server]
-breadcrumb: [Configure, MCP Server Console, Enable AI experiences]
+breadcrumb: [Configure, MCP Server Console, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
 # Creating tools for a Model Context Protocol server
@@ -85,10 +85,10 @@ Knowledge Graph tools
 ACL enforcement happens at the node level during every graph traversal. Two users or agents with different permissions issuing the identical query can receive different results, based on what each caller is permitted to see.For more information, see [Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/knowledge-graph/knowledge-graph-landing.md) and [Create a tool from a Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-a-tool-from-knowledge-graphs.md).
 
 </td></tr></tbody>
-</table>-   **[Create a tool from a Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-a-tool-from-a-search.md)**  
-Create a tool from a Search to expose it to Model Context Protocol \(MCP\) clients from an MCP Server Console.
--   **[Create a tool from a Subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-subflow-tool.md)**  
+</table>-   **[Create a tool from a Subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-subflow-tool.md)**  
 Create a tool from a Subflow to expose it to Model Context Protocol \(MCP\) clients from an MCP Server Console.
+-   **[Create a tool from a Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-a-tool-from-a-playbook.md)**  
+Create a tool from a Playbook to expose it to Model Context Protocol \(MCP\) clients from an MCP Server Console.
 -   **[Create a tool from an Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-action-tool.md)**  
 Create a tool from an Action to expose it to Model Context Protocol \(MCP\) clients from an MCP Server.
 -   **[Create a tool from a Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-a-tool-from-knowledge-graphs.md)**  

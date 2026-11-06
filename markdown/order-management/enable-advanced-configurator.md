@@ -1,18 +1,18 @@
 ---
-title: Enable the CPQ Configurator
-description: Use the sn\_prd\_pm.enable\_advanced\_configuration system property to turn on the CPQ Configurator, an interface for adding customizable products to Sales Customer Relationship Management transactions.
+title: Enable the ServiceNow CPQ Configurator
+description: Use the sn\_prd\_pm.enable\_advanced\_configuration system property to turn on the ServiceNow CPQ Configurator, an interface for adding customizable products to Sales Customer Relationship Management transactions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/enable-advanced-configurator.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Without guided setup, Set up CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Without guided setup, Setting up ServiceNow CPQ, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
-# Enable the CPQ Configurator
+# Enable the ServiceNow CPQ Configurator
 
-Use the **sn\_prd\_pm.enable\_advanced\_configuration** system property to turn on the CPQ Configurator, an interface for adding customizable products to Sales Customer Relationship Management transactions.
+Use the **sn\_prd\_pm.enable\_advanced\_configuration** system property to turn on the ServiceNow CPQ Configurator, an interface for adding customizable products to Sales Customer Relationship Management transactions.
 
 ## Before you begin
 
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-If you have been using the configurator for Sales Customer Relationship Management, but you want to use the CPQ Configurator instead, set the **sn\_prd\_pm.enable\_advanced\_configuration** property to true. The CPQ Configurator is installed with the CPQ Integration application.
+If you have been using the configurator for Sales Customer Relationship Management, but you want to use the ServiceNow CPQ Configurator instead, set the **sn\_prd\_pm.enable\_advanced\_configuration** property to true. The ServiceNow CPQ Configurator is installed with the ServiceNow CPQ Integration application.
 
 ## Procedure
 
@@ -41,7 +41,7 @@ If you have been using the configurator for Sales Customer Relationship Manageme
 **Related topics**  
 
 
-[Configuring CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-configuring.md)
+[Configuring ServiceNow CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-configuring.md)
 
-[Using the CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-servicenowcpq.md)
+[Using the ServiceNow CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-servicenowcpq.md)
 

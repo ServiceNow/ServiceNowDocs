@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/understanding-fix-records.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Fix record, sn\_vul\_fix\_intel, remediation category, risk rating]
 breadcrumb: [Reference, Fix Intelligence for Security Exposure Management, Integrate, Unified Security Exposure Management, Security Operations]
@@ -66,5 +66,5 @@ From a Fix record you can reach the records it connects to:
 
 [View fixes in USEM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/view-fixes-in-workspace.md)
 
-[Fix links on findings and vulnerabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/fix-links-on-findings.md)
+[fix-links-on-findings]
 

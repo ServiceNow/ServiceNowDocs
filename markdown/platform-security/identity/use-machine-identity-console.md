@@ -7,7 +7,7 @@ release: australia
 product: Identity
 classification: identity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Machine Identity Console, Identity]
 ---
@@ -18,7 +18,7 @@ Manage your service accounts which are used for integrations with ServiceNow usi
 
 ## Before you begin
 
-Role required: admin
+Role required: mi\_admin
 
 Activate the **Machine Identity Management** `com.glide.identity.machine_identity_management` plugin. For more information, see [Activating Machine Identity Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/identity/activate-machine-identity-console.md).
 

@@ -7,9 +7,9 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Explore, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software Asset Workspace
@@ -29,5 +29,5 @@ The Software Asset Workspace contains the following views:
 -   [Success portal view in Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/success-portal-view.md): Assess the performance of the Software Asset Management application in your environment.
 -   [Renewals calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/renewal-calendar-view.md): View the entitlements nearing their expiry date and contracts nearing their expiry date or are already expired.
 -   [Overlapping usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/app-ration.md): View the feature level usage of your SaaS and SSO applications.
--   [Content lookup portal for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/content-search-portal.md): View the data stored in the Software Asset Management Content Service.
+-   [Content Library portal for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/content-search-portal.md): View the data stored in the Software Asset Management Content Service.
 

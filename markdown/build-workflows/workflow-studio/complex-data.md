@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Build actions, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -68,7 +68,7 @@ REST API Trigger Body field
 
 </td><td>
 
-Parse an inbound REST API request into a complex data object and use the values in a flow. See [REST API trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rest-trigger.md).
+Parse an inbound REST API request into a complex data object and use the values in a flow. See REST API trigger.
 
 </td></tr></tbody>
 </table>## Benefits

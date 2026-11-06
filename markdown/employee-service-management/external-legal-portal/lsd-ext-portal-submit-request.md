@@ -7,7 +7,7 @@ release: australia
 product: External Legal Portal
 classification: external-legal-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using External Legal Service Center, External Legal Service Center, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -49,15 +49,15 @@ Verify you have registered with External Legal Service Center before submitting 
     -   From your local computer, copy the files that you want to attach. Click inside the Documents box and paste the files.
 7.  Submit the request or save it as a draft.
 
-<table id="choicetable_ohy_5yk_sdc"><thead><tr><th align="left" id="d550828e158">
+<table id="choicetable_ohy_5yk_sdc"><thead><tr><th align="left" id="d549982e158">
 
 Action
 
-</th><th align="left" id="d550828e161">
+</th><th align="left" id="d549982e161">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d550828e167">
+</th></tr></thead><tbody><tr><td id="d549982e167">
 
 **Save as draft**
 
@@ -65,7 +65,7 @@ Steps
 
 Select **Save as Draft**.
 
-</td></tr><tr><td id="d550828e179">
+</td></tr><tr><td id="d549982e179">
 
 **Submit the request**
 

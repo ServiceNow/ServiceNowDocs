@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ra-csm-configure.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -16,7 +16,7 @@ Use Recommended Actions for Service to display relevant actions to agents based 
 
 **Important:** Starting with v31.0, the Recommended Actions for Customer Service \(sn\_cs\_nb\_action\) plugin has been renamed to Recommended Actions for Service \(sn\_cs\_nb\_action\).
 
-The Recommended Actions for Service application displays recommendations for case records in CSM Configurable Workspace. Agents can take the actions provided by the recommendations to help customers and resolve their issues. Agents can also use this application to perform an AI search to find relevant resources.
+The Recommended Actions for Service application displays recommendations for case records in CRM Workspace. Agents can take the actions provided by the recommendations to help customers and resolve their issues. Agents can also use this application to perform an AI search to find relevant resources.
 
 The Recommended Actions for Service application provides predefined guidances and recommendation context records tailored for Customer Service Management. It also provides workspace configurations that automatically display recommended actions and search results in the contextual side panel.
 

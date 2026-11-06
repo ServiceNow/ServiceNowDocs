@@ -7,9 +7,9 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Configure, Manager Hub, HR Service Delivery, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Configure Manager Hub, Manager Hub, HR Service Delivery, Employee Service Management]
 ---
 
 # RCA approvals for Manager Hub
@@ -47,8 +47,6 @@ After you install Manager Hub, you might encounter Restricted Caller Access \(RC
 [Activate a scheduled job]()
 
 [Configure important dates]()
-
-[Configure manager insights for ServiceNow Otto for HRSD]()
 
 [Configure team requests]()
 

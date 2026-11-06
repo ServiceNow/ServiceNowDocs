@@ -1,0 +1,34 @@
+---
+title: Configuring ServiceNow Otto for Automation Center
+description: Configure ServiceNow Otto for Automation Center to use all the features.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/automation-center/config-na-ac.html
+release: australia
+product: Automation Center
+classification: automation-center
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [ServiceNow Otto for Automation Center, Use, Automation Center, Discover, AI Workflow Factory Prime, Agentic app development, Building applications]
+---
+
+# Configuring ServiceNow Otto for Automation Center
+
+Configure ServiceNow Otto for Automation Center to use all the features.
+
+## ServiceNow Otto for Automation Center plugin
+
+To work with generative AI capabilities, you need ServiceNow Otto for Automation Center plugin. You can install this plugin from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+The ServiceNow Otto for Automation Center plugin helps you to:
+
+-   Create an agent for your automation requests
+-   Explore all automations in your instance
+-   Automatically create automation requests from Task Mining Workspace
+-   Automate Task Mining recording to desktop actions
+
+-   **[Activate skills for ServiceNow Otto for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automation-center/activate-skill.md)**  
+Activate the skills available for ServiceNow Otto for Automation Center to work with ease and reduce manual effort in creating automation requests and exploring automations.
+
+**Parent Topic:**[ServiceNow Otto for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automation-center/nowassist-ac.md)
+

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-retail-manage-store-plans.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Retail]
 ---
@@ -14,6 +14,8 @@ breadcrumb: [Retail]
 
 Manage store plans to plan and schedule generation of cases and tasks to simplify manual efforts.
 
+-   **[Fulfill In-store operations cases and tasks on the Retail Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-fulfill-in-store-ops-portal.md)**  
+Use the Retail Portal to review and complete In-store operations cases and tasks generated from store plans, including embedded questionnaires.
 -   **[Manage store plans to generate cases and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-manage-store-plan-authoring.md)**  
 Manage store plans to plan and schedule generation of cases and tasks to simplify manual efforts.
 -   **[Monitor a published store plan across multiple stores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-monitor-published-store-plan.md)**  
@@ -26,6 +28,4 @@ A store plan can be deleted when it is active and in the Draft state or deactiva
 Monitor progress, completion rates, or delays across all stores for a single plan by tracking and monitoring in-store operations case and task progress.
 -   **[Fulfill In-store operations cases and tasks in Retail Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-fulfill-in-store-ops-mobile.md)**  
 Use Retail Mobile to review, track, and complete In-store operations cases and tasks generated from store plans.
--   **[Fulfill In-store operations cases and tasks on the Retail Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-fulfill-in-store-ops-portal.md)**  
-Use the Retail Portal to review and complete In-store operations cases and tasks generated from store plans, including embedded questionnaires.
 

@@ -1,0 +1,91 @@
+---
+title: Cluster analysis configurations for ITSM work items
+description: The Process Mining application provides solution definitions for incidents, problems, change requests, and requested items. You can use these definitions to configure cluster analysis for those work items.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/process-mining/itsm-cluster-analysis-po.html
+release: australia
+product: Process Mining
+classification: process-mining
+topic_type: reference
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [ITSM, Automatic content pack delivery, Activate content packs, Activate, Process Mining, Discover, AI Workflow Factory Prime, Agentic app development, Building applications]
+---
+
+# Cluster analysis configurations for ITSM work items
+
+The Process Mining application provides solution definitions for incidents, problems, change requests, and requested items. You can use these definitions to configure cluster analysis for those work items.
+
+**Important:** This feature is included with the Process Mining ITSM content pack, which is delivered automatically when ITSM is installed on your instance. For more information, see [Automatic delivery of content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/process-mining/process-mining-content-pack-delivery.md).
+
+## Clustering solution definition configurations
+
+A Process Mining administrator \(sn\_process\_mining\_admin\) can access the ITSM work item solution definition configurations by navigating to **Predictive Intelligence** &gt; **Clustering** &gt; **Solution Definitions**.
+
+**Note:** By default, these solution definitions are configured as follows:
+
+-   The **Fields** field is configured to Short description.
+-   The **Minimum number of records per cluster** field is set to a value of 150.
+-   The **Word Corpus** field is configured to the corresponding word corpus record, for example, the Incident clustering definition is configured to the incident word corpus record. Each of the word corpus record gathers all description and short description data for the last 12 months.
+
+The clustering solution definitions also contain the purity fields listed in the following table .
+
+<table id="table_ax4_nzk_2qb"><thead><tr><th>
+
+Clustering Solution Definition
+
+</th><th>
+
+Purity Fields
+
+</th></tr></thead><tbody><tr><td>
+
+Incident
+
+</td><td>
+
+-   Assignment Group
+-   Category
+-   Configuration item
+-   Service
+
+</td></tr><tr><td>
+
+Problem
+
+</td><td>
+
+-   Assignment Group
+-   Category
+-   Configuration item
+-   CMDB CI
+-   Business service
+
+</td></tr><tr><td>
+
+Change request
+
+</td><td>
+
+-   Assignment Group
+-   Category
+-   Model
+-   Risk
+-   Type
+
+</td></tr><tr><td>
+
+Requested item
+
+</td><td>
+
+-   Assignment Group
+-   Category item
+-   Requested for
+-   Assigned to
+
+</td></tr></tbody>
+</table>For information on how to perform a cluster analysis from the Process Mining application, see [Perform a cluster analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/cluster-analysis.md).
+
+**Parent Topic:**[Content pack for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/process-mining/itsm-proc-opti-content-pack.md)
+

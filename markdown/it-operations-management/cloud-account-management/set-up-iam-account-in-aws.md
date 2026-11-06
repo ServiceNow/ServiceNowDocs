@@ -7,7 +7,7 @@ release: australia
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Setting up AWS cloud, Configuring cloud providers, Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -144,13 +144,10 @@ AWSCreate an AWS CloudFormation Identity Access Manager \(IAM\) user in the mana
 
 5.  Select **Next** to continue and to validate the template.
 
-6.  On the **Specify stack details** page, enter a name for the template in the **Stack name** field.
+6.  On the **Specify stack details** page, enter a `CloudFormation stack name` in the **Stack name** field.
 
-    Note the following format requirements for a stack name:
+    The stack name is an identifier that helps you find a particular stack from a list of stacks. A stack name can contain only alphanumeric characters \(case-sensitive\) and hyphens. It must start with an alphabetic character and can't be longer than 128 characters.
 
-    -   Can contain only case-sensitive alphanumeric characters and hyphens
-    -   Must start with an alphabetic character
-    -   Can't be longer than 128 characters
 7.  In the **User Name** field, enter a Cloud Account Management service account user name.
 
 8.  Select **Next** to continue.
@@ -161,7 +158,7 @@ AWSCreate an AWS CloudFormation Identity Access Manager \(IAM\) user in the mana
 
     The IAM account gets created.
 
-11. Add security credentials.
+11. To add security credentials:
 
     1.  Select **Resources**.
 
@@ -171,13 +168,13 @@ AWSCreate an AWS CloudFormation Identity Access Manager \(IAM\) user in the mana
 
     4.  On the **Access key best practices &amp; alternatives** page, choose the **Third-party service** option.
 
-        This access key provides access for a third-party application or service that monitors or manages your AWS resources.
+        You plan to use this access key to enable access for a third-party application or service that monitors or manages your AWS resources.
 
     5.  Select the **I understand the above recommendation and want to proceed to create an access key** check box and select **Next**.
 
     6.  Select **Create access key**.
 
-    7.  On the **Review access keys** page, download the access key file and select **Done**.
+    7.  In the **Review access keys** page, download the access key file and select **Done**.
 
         **Note:** Share the access key and secret key with the Terraform admin and ServiceNow AI Platform admin.
 

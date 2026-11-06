@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Discovery probe management, Discovery probes and sensors, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -91,7 +91,7 @@ Classic Mode
 
 </td><td>
 
-Select this option to cache this probe's results in the Starting in Fuji, select this option to debug the post-processing script on the ServiceNow instance instead of the MID Server. This mode is only valid if a post-processor script exists. Use the Classic mode to debug post-processing scripts in the test environment. ServiceNow does not recommend use of the Classic mode in the production environment.
+Starting with the Fuji release, debug the post-processing script on the instance instead of the MID Server. Valid only when a post-processor script exists. Use Classic mode in test environments only, not in production.
 
 </td></tr><tr><td>
 

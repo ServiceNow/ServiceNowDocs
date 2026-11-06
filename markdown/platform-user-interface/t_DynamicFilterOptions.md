@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_DynamicFilterOptions.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Filter admin functions, Filters and breadcrumbs, Lists in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -20,9 +20,9 @@ Role required: admin
 
 ## About this task
 
-This task describes how to create a new dynamic filter option and an associated script include.
+This task describes how to create a new dynamic filter option and an associated [script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md).
 
-Dynamic filter options "objectize" script includes/JavaScript, enabling them to be reused in multiple [condition builders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_ConditionBuilder.md) and dynamic Reference qualifiers. This type of filter enables you to modify a script once and have the changes automatically take effect everywhere the dynamic filter option is used.
+Dynamic filter options "objectize" script includes/JavaScript, enabling them to be reused in multiple [condition builders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_ConditionBuilder.md) and dynamic [Reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ReferenceQualifiers.md). This type of filter enables you to modify a script once and have the changes automatically take effect everywhere the dynamic filter option is used.
 
 When defining a dynamic filter, you can:
 
@@ -38,7 +38,7 @@ All condition builder dynamic filters use the **is \(dynamic\)** operator and ca
 
 ## Procedure
 
-1.  Create a scripted filter as a client-callable script include or business rule.
+1.  [Create a scripted filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md) as a client-callable script include or business rule.
 
 2.  Navigate to **System Definition** &gt; **Dynamic Filter Options**.
 

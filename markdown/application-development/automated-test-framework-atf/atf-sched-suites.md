@@ -7,9 +7,9 @@ release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Administering the Automated Test Framework \(ATF\), Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
+breadcrumb: [Administering the Automated Test Framework \(ATF\), Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
 ---
 
 # Working with scheduled test suites
@@ -28,7 +28,7 @@ With this model, you can associate a schedule with many different test suites an
 
 The watchlist on the test suite run record also allows you to specify users to receive an email when the system finishes executing the test suite run.
 
-If the test suite contains one or more form steps \(steps involving a user interface\), you must ensure that a scheduled client test runner is actively running in a browser when the schedule triggers the suite run.
+If the test suite contains one or more form steps \(steps involving a user interface\), you must confirm that a scheduled client test runner is actively running in a browser when the schedule triggers the suite run.
 
 **Note:** See [Browser recommendations and requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-test-runners.md) for recommendations and requirements for running the client test runner.
 

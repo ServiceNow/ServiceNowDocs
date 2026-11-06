@@ -7,7 +7,7 @@ release: australia
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-04-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Developing custom widgets, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -39,7 +39,7 @@ To use other field types not supported in the option schema, create an extension
 
 ## Using options in a widget
 
-Access options in the widget from both the client script and the server script using the **options** global variable. You can access any option value in your widget client script or server script using `options.optionName`.
+Access options in the widget from both the client script and the server script using the **options** global variable. You can access to any option value in your widget client script or server script using `options.optionName`.
 
 **Client script**
 

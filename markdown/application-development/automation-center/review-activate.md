@@ -1,0 +1,37 @@
+---
+title: Review and activate automation source
+description: Review all configurations for the automation source, and then activate the automation source.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/automation-center/review-activate.html
+release: australia
+product: Automation Center
+classification: automation-center
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Create an automation source, Working with Connection Manager, Use, Automation Center, Discover, AI Workflow Factory Prime, Agentic app development, Building applications]
+---
+
+# Review and activate automation source
+
+Review all configurations for the automation source, and then activate the automation source.
+
+## Before you begin
+
+Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin
+
+Proceed from the **Map source values** section. For information on aligning source and destination values, see [Map source values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automation-center/map-values.md).
+
+## Procedure
+
+1.  Review all details and make any edits required.
+
+    If you change the spoke or action, you will need to redo all the subsequent tasks.
+
+2.  Select **Activate**.
+
+    The **Automation sources** list is displayed with the newly created automation source.
+
+
+**Parent Topic:**[Create an automation source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automation-center/create-auto-source.md)
+

@@ -7,7 +7,7 @@ release: australia
 product: Orchestration
 classification: orchestration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Active Directory activity pack, Orchestration activity packs, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Active Directory activity pack, Orchestration activity packs, Class
 
 The Is AD Account Locked activity determines whether an Active Directory user account is locked.
 
-An account may be locked automatically if a user enters an incorrect password more times than allowed by the Active Directory security policy. You can unlock an account using the [Unlock AD User Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/c_OrchActiveDirectoryActivities.md) activity.
+An account may be locked automatically if a user enters an incorrect password more times than allowed by the Active Directory security policy. You can unlock an account using the [Unlock AD User Account]() activity.
 
 To access this activity in the Workflow Editor, select the **Custom** tab, and then navigate to **Custom Activities** &gt; **Active Directory**.
 
@@ -45,5 +45,5 @@ To access this activity in the Workflow Editor, select the **Custom** tab, and t
 |Unlocked|The AD account is unlocked.|
 |Failure|An error occurred while processing the query. Additional details may be available in the workflow log.|
 
-**Parent Topic:**[Active Directory activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/c_OrchActiveDirectoryActivities.md)
+**Parent Topic:**[Active Directory activity pack]()
 

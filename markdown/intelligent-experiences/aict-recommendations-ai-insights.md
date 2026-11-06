@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-recommendations-ai-insights.html
 release: australia
 topic_type: concept
-last_updated: "2026-04-23"
-reading_time_minutes: 8
+last_updated: "2026-09-10"
+reading_time_minutes: 9
 keywords: [recommendation, AI insight, Top action items, Activity Center]
-breadcrumb: [Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [Explore, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Recommendations and AI insights
@@ -30,9 +30,13 @@ A recommendation is an action item that AI Control Tower has identified as worth
 
 Recommendations appear throughout AI Control Tower.
 
--   **Your top recommendations in Home**
+-   **Your top recommendations on the Home page**
 
     **Your top recommendations** on the Home page provides recommendations across your portfolio. Select **See all Recommendations in Activity Center** to open the full list.
+
+-   **Your top recommendations on the Risk &amp; Compliance tab**
+
+    **Your top recommendations** on the **Risk &amp; Compliance** tab under **Govern** also lists stalled lifecycle tasks and significant issues. For more information, see [Detecting governance insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-airc-insight-detection.md) and [Act on AI asset governance insight recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-airc-resolve-ai-asset-insight-recommendations.md).
 
 -   **Recommendations view in Activity Center**
 
@@ -59,7 +63,7 @@ For details on AI Agent Advisor, see [AI Agent Advisor](https://raw.githubuserco
 
 ## AI insights
 
-An AI insight is a contextual fact that AI Control Tower adds to a dashboard to give you a richer reading of the data. Unlike a recommendation, an AI insight does not ask you to take action. It appears as a short line of text near the data it explains, such as "Total productivity gains in last 30 days" or "Three AI systems delivered 82% of total value." AI insights appear inside widgets on the Home page, the Value page, the Govern page, and other AI Control Tower dashboards.
+An AI insight is a contextual fact that AI Control Tower adds to a dashboard to give you a richer reading of the data. Unlike a recommendation, an AI insight does not ask you to take action. It appears as a short line of text near the data it explains, such as "Total productivity gains in last 30 days" or "Three AI systems delivered 82% of total value." AI insights appear inside widgets on the Home page, the Value page, the Risk and Compliance page, Security page, and other AI Control Tower dashboards.
 
 When an AI insight is associated with a supervised agent, you can select **Manage with AI** to start a conversation that expands on the insight with deeper analysis.
 
@@ -142,4 +146,15 @@ Each recommendation moves through a lifecycle as you or an agent works on it. Th
 |**Cancelled**|The recommendation was stopped before it completed, either by the user or by the system.|
 
 You can manually mark a recommendation as **Complete** or delete it from the action menu on the recommendation card, regardless of its current status.
+
+**Related topics**  
+
+
+[Activity Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-activity-center.md)
+
+[ServiceNow Otto in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-convrstn-support.md)
+
+[Detecting governance insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-airc-insight-detection.md)
+
+[Act on AI asset governance insight recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-airc-resolve-ai-asset-insight-recommendations.md)
 

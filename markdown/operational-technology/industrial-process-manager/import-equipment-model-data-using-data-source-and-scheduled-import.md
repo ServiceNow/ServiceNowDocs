@@ -1,20 +1,20 @@
 ---
-title: Import your equipment model data using the data source and scheduled import
-description: After you complete your Microsoft Excel spreadsheet with your equipment model data, import it into the ServiceNow AI Platform by using the data source and scheduled import.
+title: Import equipment model data from an Excel spreadsheet
+description: After you enter the equipment model data into your Microsoft Excel spreadsheet, import it into the ServiceNow AI Platform by using the data source and scheduled import.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/industrial-process-manager/import-equipment-model-data-using-data-source-and-scheduled-import.html
 release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Importing equipment model data, Configure, Industrial Process Manager, Operational Technology]
+breadcrumb: [Importing equipment model data, Configure the Industrial Process Manager, Industrial Process Manager, Operational Technology]
 ---
 
-# Import your equipment model data using the data source and scheduled import
+# Import equipment model data from an Excel spreadsheet
 
-After you complete your Microsoft Excel spreadsheet with your equipment model data, import it into the ServiceNow AI Platform by using the data source and scheduled import.
+After you enter the equipment model data into your Microsoft Excel spreadsheet, import it into the ServiceNow AI Platform by using the data source and scheduled import.
 
 ## Before you begin
 
@@ -35,7 +35,7 @@ By running this process, you create unique Equipment Model Entity CI class recor
     1.  Select **Manage Attachments**.
     2.  In the Attachments dialog box, select **Choose File**.
     3.  Select the Microsoft Excel spreadsheet that you created, and then close the Attachments dialog box.
-    4.  After attaching the spreadsheet, select the **Load All Records** related link to load all records from the spreadsheet to the import table. Once the operation is complete, you should see the following confirmation message with the **Success** completion code if the data is loaded without any errors.\[Omitted image "load-records-success.png"\] Alt text: Confirmation message that says State Complete and Completion Code Success if the record loading completed without any errors.
+    4.  After attaching the spreadsheet, select the **Load All Records** related link to load all records from the spreadsheet to the import table. When the operation is complete, you should see the following confirmation message with the **Success** completion code if the data is loaded without any errors.\[Omitted image "load-records-success.png"\] Alt text: Confirmation message that says State Complete and Completion Code Success if the record loading completed without any errors.
     5.  In the confirmation message, select the **Run Robust Transform** related link.
     6.  Select **Transform**. If the import is successful, you should see the following confirmation message with the **Success** completion code.\[Omitted image "run-rte-success.png"\] Alt text: Confirmation message that says State Complete and Completion Code Success if the import is completed without any errors.
 

@@ -1,20 +1,20 @@
 ---
 title: Alert table clean up
-description: The Scheduled Jobs feature runs a script to automatically close alerts in the Alerts \[em\_alert\] table that meet specific conditions, helping reduce alert noise and keep the system clean and efficient.
+description: Scheduled jobs automatically close alerts in the Alerts \[em\_alert\] table that meet specific conditions, reducing alert noise.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/auto-close-alerts.html
 release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Rotate event and alert table for cleanup, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Alert table clean up
 
-The Scheduled Jobs feature runs a script to automatically close alerts in the Alerts \[em\_alert\] table that meet specific conditions, helping reduce alert noise and keep the system clean and efficient.
+Scheduled jobs automatically close alerts in the Alerts \[em\_alert\] table that meet specific conditions, reducing alert noise.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-When the Event Management plugin is activated, by default a job is scheduled to run the `Event Management - auto close alerts` script to automatically close alerts in the alerts table that meet the specified conditions. The default retention policy for closed alerts is that the system deletes closed alerts if it is not updated for 90 days. For more information on the scheduled job, see [Table cleaner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-cleaner.md).
+When the Event Management plugin is activated, a scheduled job runs the `Event Management - auto close alerts` script to close alerts in the alerts table that meet the specified conditions. The default retention policy for closed alerts is that the system deletes closed alerts if it is not updated for 90 days. For more information on the scheduled job, see [Table cleaner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-cleaner.md).
 
 Due to the high level of traffic to the table, you cannot audit the Alert table \[em\_alert\] as a whole. Instead, audit selected fields of interest on the table.
 

@@ -7,7 +7,7 @@ release: australia
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Optimize planning with scenario planning, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -55,4 +55,8 @@ When you approve a scenario:
     -   Enter a reason for approving the scenario in the Notes field.
 5.  Select **Approve**.
 
+
+## Result
+
+The scenario is approved, and a notification is sent to the scenario approver and portfolio owner.
 

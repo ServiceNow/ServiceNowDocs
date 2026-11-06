@@ -7,7 +7,7 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -20,7 +20,7 @@ Learn about what you can do with a Core UI/responsive dashboard.
 
 Core UI dashboard backgrounds are not themeable with custom colors.
 
-Use dashboards to share reports and other data visualizations, filters, and other content with people across your organization. See [Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/reporting-landing-page.md), [Interactive Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/core-ui-interactive-filters/c_HomepagePublishers.md), and [Performance Analytics widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_Widgets.md) for more information.
+Use dashboards to share reports and other data visualizations, filters, and other content with people across your organization. See [Core UI Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/reporting-landing-page.md), [Interactive Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/core-ui-interactive-filters/c_HomepagePublishers.md), and [Performance Analytics widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_Widgets.md) for more information.
 
 ## Dashboards overview
 
@@ -34,7 +34,7 @@ Responsive dashboards enable you to share widgets such as reports and Performanc
 You can add breakdown sources to a responsive Core UI dashboard. Dashboard users then can select a breakdown source and one or more breakdown elements to filter scores in the visualizations on the dashboard.
 -   **[Set responsive dashboards as your home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_SetDashboardsAsHome.md)**  
 You can set dashboards as your **Home**. With this setting, the last dashboard you selected appears when you select the logo on the upper left corner of the platform.
--   **[Request an analytics service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/request-bi-service.md)**  
+-   **[Request an analytics service \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/request-bi-service.md)**  
 Request services associated with dashboards, such as to request a new dashboard or access to an existing dashboard.
 
 **Parent Topic:**[Responsive dashboards in the Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/dashboards-landing-page.md)

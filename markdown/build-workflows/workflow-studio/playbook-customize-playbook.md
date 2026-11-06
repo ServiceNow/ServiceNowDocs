@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Design Playbook Experience, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -62,7 +62,7 @@ Determine how to display these modular components in your Playbook Experience:
 
     \[Omitted image "playbook-activity-picker-horizon.png"\] Alt text: Activity picker when you're viewing stages horizontally.
 
-    You can toggle the **Show Stages flag** on or off.
+    To toggle the **Show Stages flag** flag on or off, .
 
 -   **Playbook activity viewer**
 
@@ -94,11 +94,11 @@ To start setting up components for your customized Playbook Experience, see [Cus
 If adding each component individually isn't ideal, you can also add an entire layout to a new or existing UI Builder template.
 
 -   Focused Vertical
--   Stacked Vertical
--   Stacked Horizontal
--   Guided Layout
--   Horizontal Wizard
 -   Focused Horizontal
+-   Stacked Vertical
+-   Stacked Vertical
+-   Guided Decision
+-   Wizard
 
 Each layout contains the following components:
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-workspace-list-page.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Security Exposure Management Workspace, Explore, Unified Security Exposure Management, Security Operations]
 ---
@@ -331,7 +331,7 @@ Contains the following lists:-   **Active**: List of active Penetration Test Ass
 -   **Assigned to me**: List of Penetration Test Assessment Requests raised by you.
 -   **Assigned to my group**: List of Penetration Test Assessment Requests raised by the users in your assignment groups.
 
-For information on how to create a penetration test assessment request, see [Create a new penetration testing assessment request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/application-vulnerability-response/create-new-pen-test-assesment-req.md).
+For information on how to create a penetration test assessment request, see [Create a penetration testing assessment request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/application-vulnerability-response/create-new-pen-test-assesment-req.md).
 
 </td><td>
 

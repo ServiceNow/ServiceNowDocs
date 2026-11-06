@@ -16,8 +16,6 @@ On upgraded instances, including ones fully migrated to Platform Analytics, you 
 
 ## Before you begin
 
-**Important:** Australia Patch 2 or later is required.
-
 Role required: If the **com.snc.par.coreui.report\_create.enabled** system property is `true`, any user with an internal role can create Core UI reports. For more information, see [Platform Analytics experience properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/pae-properties.md).
 
 ## About this task
@@ -36,7 +34,7 @@ Role required: If the **com.snc.par.coreui.report\_create.enabled** system prope
 
     The Report Designer opens.
 
-4.  Follow the instructions in the topic [Create a report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/t_CreateYourOwnReport.md) to create your report.
+4.  Follow the instructions in the topic [Create a Core UI report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/t_CreateYourOwnReport.md) to create your report.
 
 
 **Parent Topic:**[Creating data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/creating-data-visualizations.md)

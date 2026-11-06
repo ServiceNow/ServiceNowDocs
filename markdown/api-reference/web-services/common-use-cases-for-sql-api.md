@@ -7,7 +7,7 @@ release: australia
 product: Web Services
 classification: web-services
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [use]
 breadcrumb: [Explore, Access your ServiceNow data using Live Connect, Additional integration resources, Web services, API implementation, API implementation and reference]
@@ -17,13 +17,13 @@ breadcrumb: [Explore, Access your ServiceNow data using Live Connect, Additional
 
 Live Connect supports business intelligence \(BI\) reporting, ad-hoc data analysis, and custom report development.
 
-The Live Connect is particularly useful for scenarios that require direct access to ServiceNow data from external tools and platforms. These use cases demonstrate how organizations use Live Connect to enhance their data analysis and reporting capabilities.
+Live Connect is particularly useful for scenarios that require direct access to ServiceNow data from external tools and platforms. These use cases demonstrate how organizations use Live Connect to enhance their data analysis and reporting capabilities.
 
 ## Business intelligence and reporting
 
 Connect your preferred BI tools to create dashboards and reports that combine ServiceNow data with information from your other business systems. You can build comprehensive views that span multiple data sources without copying ServiceNow data to external systems.
 
-This use case enables you to integrate standard BI platforms such as Pyramid Analytics, Tableau, Power BI, and other ODBC/JDBC-compatible tools directly with your ServiceNow data, eliminating the need for data export or replication.
+Supported platforms include Pyramid Analytics, Tableau, Power BI, and other ODBC/JDBC-compatible tools. These connect directly to your ServiceNow data without requiring data export or replication.
 
 ## Ad-hoc data analysis
 
@@ -39,7 +39,7 @@ Live Connect supports read-only operations that avoid unintended modifications t
 
 ## External data source integration
 
-Live Connect is designed with built-in limits to keep your ServiceNow instance running smoothly. You can use it to query specific data. Your client applications can combine this data and integrate it with other data sources, as long as you stay within these the Live Connect query limits. For information on query limits, see [Usage limitations for Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/usage-limitations.md).
+Live Connect is designed with built-in limits to keep your ServiceNow instance running smoothly. You can use it to query specific data. Your client applications can combine this data and integrate it with other data sources, as long as you stay within the Live Connect query limits. For information on query limits, see [Usage limitations for Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/usage-limitations.md).
 
 **Parent Topic:**[Getting started with ServiceNow Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/getting-started-with-servicenow-sql-api.md)
 

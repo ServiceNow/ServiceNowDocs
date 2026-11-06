@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Playbook variants, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -20,8 +20,6 @@ Create variations of a playbook for different use cases.
 
 Role required: admin or playbook.admin
 
-**Tip:** To learn about generating a playbok using AI, see [Generate a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/generate-a-playbook-outline.md)
-
 ## Procedure
 
 1.  Navigate to **All** &gt; **Workflow Studio**.
@@ -32,9 +30,9 @@ Role required: admin or playbook.admin
 
 4.  Select **Add a variant**.
 
-5.  On the **Build on your own** tab, fill in the following fields.
+5.  Fill in the following fields.
 
-<table id="choicetable_oqd_gxb_hdc"><tbody><tr><td id="d162574e104">
+<table id="choicetable_oqd_gxb_hdc"><tbody><tr><td id="d162969e92">
 
 **Variant name**
 
@@ -42,13 +40,13 @@ Role required: admin or playbook.admin
 
 Enter a unique, user-facing name for your playbook variant. This name appears to agents and fulfillers when this variant runs.
 
-</td></tr><tr><td id="d162574e116">
+</td></tr><tr><td id="d162969e104">
 
 **Conditions**
 
 </td><td>
 
-In the condition builder, select or enter a field, operator, and value.**Note:** To learn more about condition builders, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
+In the condition builder, select or enter a field, operator, and value.**Note:** To learn more about condition builders, see .
 
 Add more conditions for this variant to run, as needed.
 
@@ -111,7 +109,7 @@ Enter a unique, user-facing name for your playbook variant. This name appears to
 
 </td><td>
 
-In the condition builder, select or enter a field, operator, and value. To learn more about condition builders, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
+In the condition builder, select or enter a field, operator, and value. To learn more about condition builders, see .
 
 Add more conditions for this variant to run, as needed.**Note:** Child variants automatically inherit the conditions of the parent variant.
 

@@ -1,16 +1,16 @@
 ---
-title: Synchronize assets between loss scenarios and strategies
+title: Sync assets between loss scenarios and recovery strategies
 description: Use the asset syncing fields in the plan template to configure whether assets synchronize to loss scenarios, to recovery strategies, or both. Syncing is a two-step process: assets flow from the plan to loss scenarios first, and then from loss scenarios to recovery strategies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/syn-ast-be-lo-sce-and-rec-stgy.html
 release: australia
 topic_type: task
-last_updated: "2026-04-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Structured workflows for BCPs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
-# Synchronize assets between loss scenarios and strategies
+# Sync assets between loss scenarios and recovery strategies
 
 Use the asset syncing fields in the plan template to configure whether assets synchronize to loss scenarios, to recovery strategies, or both. Syncing is a two-step process: assets flow from the plan to loss scenarios first, and then from loss scenarios to recovery strategies.
 

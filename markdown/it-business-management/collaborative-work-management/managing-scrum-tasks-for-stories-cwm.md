@@ -7,7 +7,7 @@ release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [scrum tasks, stories, agile, CWM, sprint, Kanban, Now Assist, ServiceNow Otto, AI generation]
 breadcrumb: [Agile in CWM, Use, Collaborative Work Management, Strategic Portfolio Management]

@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [CAB in Service Operations Workspace, CAB Workbench in Service Operations Workspace]
 breadcrumb: [Change Management in Service Operations Workspace, Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
@@ -25,9 +25,9 @@ Role required: sn\_change\_cab.cab\_manager
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Select the list icon \(\[Omitted image "sow-list.png"\] Alt text: List icon.\).
+2.  Select the list icon \(\[Omitted image "sow-list.png"\] Alt text:\).
 
-3.  In the **Change Advisory Board**, select All CAB meetings.
+3.  In the **Change Advisory Board**, select **All CAB meetings**.
 
 4.  Select **New**.
 
@@ -120,7 +120,7 @@ One or more locations for your CAB meetings. For example, meeting rooms in diffe
 </td></tr></tbody>
 </table>    |Field|Description|
     |-----|-----------|
-    |Meeting Notes|Enter notes for the meeting, if any.|
+    |Meeting Notes|Notes for the meeting.|
 
 <table id="table_jyt_klf_cfc"><thead><tr><th>
 
@@ -138,7 +138,7 @@ Use filter criteria to drive Change Request date range
 
 Option to choose a time range for the planned start and end date from **Change Request additional condition** instead of selecting specific dates based on meeting schedule.
 
-**Note:** If you select **the Use filter criteria to drive Change Request date range** field in a cab meeting, the **Change Requests starting after** and the **Change Requests starting on or before** fields are turned off for the meeting, and therefore ignored. The change request additional conditions drive the date range.
+**Note:** If you select the **Use filter criteria to drive Change Request date range** field in a CAB meeting, the **Change Requests starting after** and the **Change Requests starting on or before** fields are turned off for the meeting, and therefore ignored. The change request additional conditions drive the date range.
 
 </td></tr><tr><td>
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configuring-advanced-approval-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [configure]
 breadcrumb: [Configure, price, quote apps, Configure, Sales Customer Relationship Management]

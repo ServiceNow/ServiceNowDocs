@@ -7,9 +7,9 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Self-register to ServiceNow instance, Authentication, Access Management]
+breadcrumb: [Self-registration to ServiceNow instance, Authentication, Access Management]
 ---
 
 # Enable external user self-registration for Service Portal

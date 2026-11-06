@@ -7,7 +7,7 @@ release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Patterns, Azure, Cloud, Discovery, Visibility, CMDB, Service Graph Connector, Configuration item]
 breadcrumb: [Reference, Microsoft Azure, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
@@ -866,22 +866,6 @@ Yes
 </td><td>
 
 cmdb\_ci\_linux\_server
-
-</td></tr><tr><td>
-
-microsoft.containerservice/managedclusters
-
-</td><td>
-
-Yes
-
-</td><td>
-
-Yes
-
-</td><td>
-
-cmdb\_ci\_kubernetes\_cluster
 
 </td></tr><tr><td>
 

@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Event rules, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -63,7 +63,7 @@ Edit text in the left-hand workarea by selecting it, as required. After you have
 </td></tr></tbody>
 </table>## Event additional info
 
-The Event additional info section displays default event form fields. It also displays fields that were created to display in alerts and that are added to the **Additional information** section of the alert.
+The Event additional info section displays default event form fields. It also displays fields that were created to display in alerts and added to the **Additional information** section of the alert.
 
 When configuring text in the fields in the left-hand workarea, you can drag field names and/or their value from this section into the fields.
 

@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-06-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Playbook generation from a KB article, Creating and managing Playbooks, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
@@ -23,7 +23,7 @@ Verify that the ServiceNow Otto for Creator plugin is installed and the **Playbo
 
 **Note:** AI skills are available in **Admin** &gt; **AI Admin Hub** &gt; **AI Skills** &gt; **Creator**.
 
-For information about installing ServiceNow Otto for Creator, see [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-now-assist-for-creator.md)
+For information about installing ServiceNow Otto for Creator, see 
 
 Verify that the knowledge base article describes a process with steps. Articles that contain only definitions or reference information can't be used to generate a playbook.
 
@@ -69,7 +69,7 @@ Unique, user-facing name for your playbook. This name also appears to agents and
 
 </td><td>
 
-Application scope that you want your playbook to run in. Selecting **Global** lets your playbook run in any application scope. For more information, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md).**Important:** You can't change the application scope of a playbook after you've generated a preview for it.
+Application scope that you want your playbook to run in. Selecting **Global** lets your playbook run in any application scope. For more information, see Application scope.**Important:** You can't change the application scope of a playbook after you've generated a preview for it.
 
 </td></tr><tr><td>
 
@@ -123,7 +123,7 @@ In case of a record driven playbook, the table where the record resides. This op
 
 </td><td>
 
-Option to allow the playbook to be publicly accessible. Once embedded it is set to available to unauthenticated users, as long as there aren’t additional restrictions preventing the user from accessing the playbook. **Note:** Playbooks must be tied to a public parent table for unauthenticated users to see it in runtime.
+Option to allow the playbook to be publicly accessible. Once embedded it is set to available to unauthenticated users, as long as there aren't additional restrictions preventing the user from accessing the playbook. **Note:** Playbooks must be tied to a public parent table for unauthenticated users to see it in runtime.
 
 </td></tr></tbody>
 </table>    **Tip:**

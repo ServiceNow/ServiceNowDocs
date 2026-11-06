@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/extension-points-som-pricing.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-11-05"
+reading_time_minutes: 3
 breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
@@ -14,7 +14,7 @@ breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Cus
 
 Use extension points to call custom scripts from external sources that control pricing logic used in the Pricing Management feature of the Sales Customer Relationship Management \(Sales CRM\) applications.
 
-To access the available extension points, navigate to **All** &gt; **Scripted Extension Points** and in the Extension Points list, select the desired extension point to view it.
+To access the available extension points, navigate to **All** &gt; **Pricing** &gt; **Administration** &gt; **Pricing Extension Points** and in the Extension Points list, select the desired extension point to view it.
 
 <table id="table_kyr_lyr_c1c"><thead><tr><th>
 
@@ -25,6 +25,38 @@ Extension point
 Description
 
 </th></tr></thead><tbody><tr><td>
+
+sn\_csm\_pricing.AttributeAdjustmentExtensionPoint
+
+</td><td>
+
+Customize the logic that determines the attribute adjustments for a product offering. You can extend the pricing engine logic without using the Attribute Adjustment \[sn\_csm\_pricing\_attribute\_adjustment\] table to fetch the adjustment values. This extension point is available only when the Product and Pricing Rules \(sn\_csm\_price\_mtrx\) application is installed.
+
+</td></tr><tr><td>
+
+sn\_csm\_pricing.AttributeBasedCostAdjustmentExtensionPoint
+
+</td><td>
+
+Customize the logic that determines attribute-based cost adjustments for a product offering. You can extend the pricing engine logic without using the Attribute Adjustment \[sn\_csm\_pricing\_attribute\_adjustment\] table to fetch the cost adjustment values. This extension point returns an adjustment type and an adjustment value for each characteristic set. The pricing engine rounds the result according to your currency settings, so your implementation can return raw values.
+
+</td></tr><tr><td>
+
+sn\_csm\_pricing.ContractAndEntitlementRenewalAdjustmentsExtensionPoint
+
+</td><td>
+
+Customize the logic that determines renewal adjustments on the pricing lines of contracts and entitlements.
+
+</td></tr><tr><td>
+
+sn\_csm\_pricing.CostExtensionPoint
+
+</td><td>
+
+Customize the logic for determining a base cost. Enables you to extend the pricing engine logic and not rely on a cost book and cost book line to fetch the base cost. This extension point returns a value and a status of Success or Failure for each line. The pricing engine rounds the result according to your currency settings.
+
+</td></tr><tr><td>
 
 sn\_csm\_pricing.DefaultCostBookExtensionPoint
 
@@ -42,6 +74,54 @@ Customize the default price list logic used by the calling Sales CRM application
 
 </td></tr><tr><td>
 
+sn\_csm\_pricing.DeltaPriceCalculationExtensionPoint
+
+</td><td>
+
+Customize the logic that calculates delta prices, the price differences the pricing engine computes when quote lines or order lines change.
+
+</td></tr><tr><td>
+
+sn\_csm\_pricing.DerivedProductPriceExtensionPoint
+
+</td><td>
+
+Customize how the pricing engine finds the source lines that drive derived pricing. This extension point returns the encoded queries the pricing engine uses to look up account-level derived-priced products, such as sold products, and the lines that belong to the current header, such as a quote. This extension point is available only when the Product and Pricing Rules \(sn\_csm\_price\_mtrx\) application is installed.
+
+</td></tr><tr><td>
+
+sn\_csm\_pricing.FloorCeilingExtensionPoint
+
+</td><td>
+
+Customize the logic that determines the floor price and the ceiling price for a line instead of taking both values from the price list line.
+
+</td></tr><tr><td>
+
+sn\_csm\_pricing.HeaderRollupExtensionPoint
+
+</td><td>
+
+Customize the logic that rolls up line values to the totals on the transaction header.
+
+</td></tr><tr><td>
+
+sn\_csm\_pricing.LineChangeAnalysisExtensionPoint
+
+</td><td>
+
+Customize the logic that determines the delta price treatment applied to each line when the pricing engine analyzes line changes. This extension point returns a delta price treatment value for each pricing line.
+
+</td></tr><tr><td>
+
+sn\_csm\_pricing.LineRollupExtensionPoint
+
+</td><td>
+
+Customize the logic that rolls up values from child lines to their parent line, such as within a bundle.
+
+</td></tr><tr><td>
+
 sn\_csm\_pricing.ListPriceExtensionPoint
 
 </td><td>
@@ -50,11 +130,11 @@ Customize the logic for determining a base list price. Enables you to extend the
 
 </td></tr><tr><td>
 
-sn\_csm\_pricing.AttributeAdjustmentExtensionPoint
+sn\_csm\_pricing.NetPriceExtensionPoint
 
 </td><td>
 
-Customize the logic that determines the attribute adjustments for a product offering. You can extend the pricing engine logic without using the Attribute Adjustment table to fetch the adjustment values.
+Customize the logic that calculates net price, including how manual adjustments cascade to the lines.**Note:** Unlike the list price, cost, and attribute adjustment extension points, a net price implementation must return rounded values, because its output feeds the later price point calculations.
 
 </td></tr><tr><td>
 
@@ -62,11 +142,11 @@ sn\_csm\_pricing.PricingAdjustmentsExtensionPoint
 
 </td><td>
 
-Customize the logic that determines price adjustments for a product offering. Enables administrators \(partner implementers\) to extend the pricing engine logic by not relying on the Standard and Component Configuration Rule matrix to fetch the adjustment values.
+Customize the logic that determines price adjustments for a product offering. Enables administrators to extend the pricing engine logic by not relying on the Standard and Component Configuration Rule matrix to fetch the adjustment values. This extension point is available only when the Product and Pricing Rules \(sn\_csm\_price\_mtrx\) application is installed.
 
 </td></tr><tr><td>
 
-`sn_csm_pricing.RampRenewalUpliftCalculationExtensionPoint`
+sn\_csm\_pricing.RampRenewalUpliftCalculationExtensionPoint
 
 </td><td>
 

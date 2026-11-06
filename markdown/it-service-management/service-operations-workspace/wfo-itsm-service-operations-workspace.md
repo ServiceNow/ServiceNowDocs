@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Optimizing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -18,12 +18,12 @@ Manage your schedule using Workforce Optimization for ITSM Scheduling in Service
 
 **Important:** You must activate the Workforce Optimization for ITSM Configurable Workspace \(sn\_wfo\_cfg\_itsm\) plugin to use Workforce Optimization for ITSM for Service Operations Workspace. For more information, see [Activate Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/activate-configurable-workforce-optimization-itsm.md).
 
-The image below displays the agent work flow between the different modules in Workforce Optimization for ITSM. \[Omitted image "agent-wfo-itsm-overview.png"\] Alt text: Agent workflow for Workforce Optimization for ITSM
+The following image shows the agent workflow between the different modules in Workforce Optimization for ITSM. \[Omitted image "agent-wfo-itsm-overview.png"\] Alt text: Agent workflow for Workforce Optimization for ITSM
 
 Monitor targets set by your manager, view learning tasks that you need to complete, and keep track of upcoming items in the Service Operations Workspace landing page. For more information, see [Service Operations Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/sow-ui-landing-page.md).
 
 -   **[Access your profile in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/access-agent-profile-sow-wfo-itsm.md)**  
-Track and monitor the real-time status of your work by accessing your profile in Service Operations Workspace. You can track how many incidents and interactions you have closed and how many you are actively working on. You can also view the roles and groups to which you belong and see information about your manager and teammates.
+Track the real-time status of your work by accessing your profile in Service Operations Workspace. View the number of incidents and interactions that you have closed or are working on, your roles and groups, and information about your manager and teammates.
 -   **[Service Operations Workspace - Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/itsm-sow-workspace-scheduling.md)**  
 Use Service Operations Workspace to manage your schedule.
 -   **[Service Operations Workspace - Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/itsm-sow-coaching.md)**  

@@ -7,7 +7,7 @@ release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -18,7 +18,8 @@ Create a workload provider type for each new configuration management provider. 
 
 ## Before you begin
 
-Role required: cloud\_admin
+-   For information on Ansible naming conventions, refer to [KB3136715](https://support.servicenow.com/kb?sys_kb_id=7b5db29697bd8f5c0ed83bbe2153afc5&id=kb_article_view)
+-   Role required: cloud\_admin
 
 ## Procedure
 

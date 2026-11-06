@@ -7,7 +7,7 @@ release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [OpenTelemetry, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -39,7 +39,7 @@ Role required: admin
 
 1.  Ensure that the application scope is set to Service Graph Connector for OpenTelemetry by using the application picker.
 
-    For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
+    For more information, see Application picker.
 
 2.  Navigate to **All** &gt; **Service Graph Connectors** &gt; **OpenTelemetry** &gt; **Setup**.
 
@@ -131,7 +131,7 @@ Role required: admin
         1.  For the Configure the scheduled job for full import task, select **Configure**.
         2.  On the Scheduled Data Import form for the **OpenTelemetry Resources** scheduled job, verify the field values for the scheduled job and select the **Active** check box.
 
-            For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_ScheduleADataImport.md#table_r53_5hm_xp).
+            For more information, see .
 
         3.  Select **Update**.
         4.  Set the Configure the scheduled job for full import task to complete by selecting **Mark as Complete** in the guided setup.
@@ -147,7 +147,7 @@ Role required: admin
         1.  For the Configure the scheduled job for delta import task, select **Configure**.
         2.  On the Scheduled Data Import form for the **OpenTelemetry Delta Resources** scheduled job, verify the field values for the scheduled job and select the **Active** check box.
 
-            For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_ScheduleADataImport.md#table_r53_5hm_xp).
+            For more information, see .
 
         3.  Select **Update**.
         4.  Set the Configure the scheduled job for delta import task to complete by selecting **Mark as Complete** in the guided setup.

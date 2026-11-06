@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/fso-int\_guide-work\_rest\_apis.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Developer resources, Financial Services Operations \(FSO\)]
 ---
@@ -27,5 +27,5 @@ For a list of all of the FSO roles and descriptions, see [User roles and FSO Bus
 
 ## Test driving ServiceNow® REST APIs
 
-The ServiceNow platform provides the REST API Explorer, which allows you to access the available REST APIs within your instance. Use this tool to interact with the various FSO tables within your instance before trying to implement the endpoint calls within your application.
+The ServiceNow platform provides the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/use-REST-API-Explorer.md), which allows you to access the available REST APIs within your instance. Use this tool to interact with the various FSO tables within your instance before trying to implement the endpoint calls within your application.
 

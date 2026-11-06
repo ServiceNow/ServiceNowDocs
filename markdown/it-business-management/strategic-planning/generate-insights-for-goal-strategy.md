@@ -7,8 +7,8 @@ release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Manage enterprise goals, Strategy and Goals, Strategic Planning, Strategic Portfolio Management]
 ---
 
@@ -31,6 +31,14 @@ The Goal insights skill analyzes the goal, its targets, subgoals, and aligned wo
 The skill analyzes the real-time data — including check-in patterns, comments, and planned versus actual progress — to forecast goal status and surface proactive recommendations.
 
 **Tip:** For better reviews and recommendations, use the Goal insights skill with the AWS Claude model.
+
+The skill supports all target types, including **Maintain above**, **Maintain below**, and **Maintain constant**. For example, the insights can point out a Maintain above target whose latest actual value is below its threshold. For a description of each target type, see [Target types and achievement strategies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/target-types-overview.md).
+
+Insights are based on the latest check-ins at each target's check-in frequency, up to five periods. Periods are referred to by their labels, for example FY27: P03 for a fiscal period.
+
+For Maintain targets, the insights judge whether the target is within its threshold now, not progress toward a finish line. A breached Maintain target is flagged at risk, and a target that is holding within its threshold is not treated as finished.
+
+A goal's forecasted status is the worst status among its targets and sub-goals. Aligned work doesn't change the goal's status.
 
 **Note:** Only the owner or contributors of the goal can generate insights for the goal.
 

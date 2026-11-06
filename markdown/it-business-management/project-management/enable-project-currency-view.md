@@ -7,7 +7,7 @@ release: australia
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -22,7 +22,7 @@ Role required: it\_project\_manager
 
 ## About this task
 
-To manage your projects in local currency and to create a project from a demand, the project currency fields are added in the following tables that have cost details and financials tab:
+Manage your projects in local currency and to create a project from a demand. The project currency fields are added in the following tables that have cost details and financials tab:
 
 <table id="table_umn_p3v_jjb"><thead><tr><th>
 
@@ -105,7 +105,7 @@ Stores the project target and budget expense values for both capital and operati
 
 2.  Right-click the context menu of the form.
 
-3.  Click **View**.
+3.  Select **View**.
 
 4.  Select **Project Currency** from the list.
 

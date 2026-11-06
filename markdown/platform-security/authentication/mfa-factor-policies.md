@@ -1,5 +1,5 @@
 ---
-title: Multi-Factor Authentication factor policies
+title: Multi-factor Authentication factor policies
 description: Use the MFA factor policies to specify the types of authentication factors that you would like to permit for your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/mfa-factor-policies.html
@@ -7,22 +7,22 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [MFA verification methods, Configuring MFA, Multi-factor authentication, Authentication, Access Management]
 ---
 
-# Multi-Factor Authentication factor policies
+# Multi-factor Authentication factor policies
 
 Use the MFA factor policies to specify the types of authentication factors that you would like to permit for your instance.
 
-MFA factor policies are a critical component of an organization's security posture, enabling you to enforce additional verification steps beyond passwords. These policies define the authentication methods that users must employ to access your organization's resources, providing a flexible and customizable approach to authentication.
+MFA factor policies are a critical component of an organization's security posture, enabling you to enforce additional verification steps beyond passwords. These policies define the authentication methods that users must employ to access your organization's resources, providing a configurable approach to authentication.
 
-Implementing MFA factor policies is essential for enhancing the security of your organization's systems and data. These policies provide an additional layer of protection against cyberthreats, making it more difficult for attackers to gain unauthorized access.
+Implementing MFA factor policies helps improve the security of your organization's systems and data. These policies provide an additional layer of protection against cyberthreats, making it more difficult for attackers to gain unauthorized access.
 
 \[Omitted image "mfa-factor-policy.png"\] Alt text: MFA context - Factor Policy homepage
 
-To use the MFA factor policies you have to configure the policy inputs and policy conditions along with an MFA Context. To know more, see [Multi-factor Authentication context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/mfa-auth-context.md).
+To use the MFA factor policies you have to configure the policy inputs and policy conditions along with an MFA Context. To learn more, see [Multi-factor Authentication context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/mfa-auth-context.md).
 
 Following are the MFA factor policies available in ServiceNow that enables you to specify the types of authentication factors that are permitted or required:
 
@@ -30,7 +30,7 @@ Following are the MFA factor policies available in ServiceNow that enables you t
 -   SMS
 -   Email
 
-To get the most out of MFA factor policies, you need to understand how to configure and manage them effectively. This includes defining the authentication methods, specifying policy inputs and conditions, and configuring policy enforcement \(MFA Context\). By understanding and implementing MFA factor policies, you can significantly improve the security and integrity of your organization's systems and data.
+To get the most out of MFA factor policies, you need to understand how to configure and manage them effectively. This includes defining the authentication methods, specifying policy inputs and conditions, and configuring policy enforcement \(MFA Context\). By understanding and implementing MFA factor policies, you can improve the security and integrity of your organization's systems and data.
 
 **Related topics**  
 

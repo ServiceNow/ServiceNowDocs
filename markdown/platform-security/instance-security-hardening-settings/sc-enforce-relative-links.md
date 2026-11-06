@@ -7,7 +7,7 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platform Security]
 ---
@@ -70,7 +70,7 @@ Default value
 
 </td><td>
 
-&lt;none&gt;
+true
 
 </td></tr><tr><td>
 
@@ -104,7 +104,7 @@ Functional impact
 
 </td><td>
 
-This remediation enforces validation on Catalog page such that only Relative URLs are permitted. Existing links to external web applications become broken.
+This remediation enforces validation on the catalog page such that only relative URLs are permitted. Existing links to external web applications will be broken.
 
 </td></tr><tr><td>
 

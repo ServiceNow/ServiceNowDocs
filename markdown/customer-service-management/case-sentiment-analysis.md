@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/case-sentiment-analysis.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Task Intelligence for Customer Service, Machine learning solutions, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -25,7 +25,7 @@ Agents can use current case sentiment to prioritize their work and ongoing senti
 
 Managers can use sentiment to route cases to agents with the right empathy skills, monitor cases and reassign as needed, and avoid escalations. Manager can also identify coaching opportunities by looking at cases that ended on a negative sentiment.
 
-**Note:** In the Australia release, the sentiment analysis feature can predict sentiment for cases created in English.
+**Note:** In the Brazil release, the sentiment analysis feature can predict sentiment for cases created in English.
 
 ## Sentiment analysis machine learning models
 

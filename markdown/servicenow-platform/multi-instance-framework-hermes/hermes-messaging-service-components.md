@@ -7,7 +7,7 @@ release: australia
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -30,8 +30,6 @@ The Hermes Messaging Service architecture is built on the following components.
 [Hermes Messaging Service security model]()
 
 [Hermes Messaging Service system properties]()
-
-[Hermes background jobs]()
 
 [Hermes Messaging Service roles]()
 

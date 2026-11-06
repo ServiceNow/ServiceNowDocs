@@ -7,7 +7,7 @@ release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [SolarWinds, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,7 +24,7 @@ Air gap connections are available from version 2.5.0 of the Service Graph Connec
 
 The air gap solution for the Service Graph Connector for SolarWinds is presented in the architecture diagram.
 
-\[Omitted image "sgc-solarwinds-airgap-arch.png"\]
+\[Omitted image "image.sgc-solarwinds-airgap-arch"\]
 
 Perform the following sequence of tasks to configure the air gap solution before you add air gap data sources during the guided setup:
 

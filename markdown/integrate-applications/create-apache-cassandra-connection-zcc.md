@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/create-apache-cassandra-connection-zcc.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Apache Cassandra, Community connectors, Zero Copy Connectors, Workflow Data Fabric]
+breadcrumb: [Apache Cassandra, Community connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
 
 # Create an Apache Cassandra connection
@@ -49,15 +49,15 @@ Work with your data source admin to create a connection to Apache Cassandra. For
 
 4.  Configure secure authentication by uploading a keystore file or by entering the keystore details manually.
 
-<table id="choicetable_rf1_cdk_qfc"><thead><tr><th align="left" id="d228330e240">
+<table id="choicetable_rf1_cdk_qfc"><thead><tr><th align="left" id="d224251e240">
 
 Option
 
-</th><th align="left" id="d228330e243">
+</th><th align="left" id="d224251e243">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d228330e249">
+</th></tr></thead><tbody><tr><td id="d224251e249">
 
 **Upload keystore file**
 
@@ -67,7 +67,7 @@ Description
 2.  Browse and select the keystore file.
 
 
-</td></tr><tr><td id="d228330e270">
+</td></tr><tr><td id="d224251e270">
 
 **Enter keystore contents manually**
 

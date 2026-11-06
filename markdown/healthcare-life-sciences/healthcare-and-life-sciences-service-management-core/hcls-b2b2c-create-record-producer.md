@@ -7,7 +7,7 @@ release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up B2B2C, Configure, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -30,7 +30,7 @@ Role required: admin
 
 3.  On the form, fill in the fields.
 
-    **Note:** For details on the fields, refer to [Create a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_DefRecProdInSCat.md).
+    **Note:** For details on the fields, refer to .
 
 4.  Click **Save**, then re-open the record.
 
@@ -38,7 +38,7 @@ Role required: admin
 
     1.  Navigate to **Variables** and click **New**.
 
-        **Note:** For details on variables, refer to [Variables to collect data for record producer fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_CreatingVariablesForFieldTypes.md).
+        **Note:** For details on variables, refer to .
 
     2.  Add the following variables in **Type Specifications**:
 

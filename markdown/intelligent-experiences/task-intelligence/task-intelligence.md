@@ -7,9 +7,9 @@ release: australia
 product: Task Intelligence
 classification: task-intelligence
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Enable AI experiences]
+breadcrumb: [Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Task Intelligence
@@ -44,7 +44,7 @@ Task Intelligence enables you to set up machine learning models to automate task
 
 </td><td>
 
-[References\[Omitted image "icon-docintel-references.png"\] Alt text:References for components installed with Task Intelligence and language support.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/task-intelligence/reference-for-task-intelligence.md)
+[References\[Omitted image "image.icon-docintel-references"\] Alt text:References for components installed with Task Intelligence and language support.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/task-intelligence/reference-for-task-intelligence.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

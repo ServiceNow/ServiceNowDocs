@@ -7,7 +7,7 @@ release: australia
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Prioritizing on ServiceNow Agent, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
@@ -66,6 +66,9 @@ The task list displays the following information for each work order task:
 
     1.  Tap the overflow icon and select **Edit**.
     2.  Do the following: To edit the task short description, tap the **Short Description** field, to make the necessary edits and select the back icon to go back to the **Edit** screen.
+
+        **Note:** The **Short Description** field must contain a value. You can't save your edits to a work order task in the Now Mobile Agent application if this field is empty.
+
     3.  To edit the task description, tap the **Description** field, enter a description for the task and, select the back icon to go back to the **Edit** screen.
     4.  Perform one of the following actions:
         -   On an iOS device, tap **Submit**.

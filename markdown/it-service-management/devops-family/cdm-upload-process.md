@@ -7,8 +7,8 @@ release: australia
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Configuring DevOps Config, DevOps Config, IT Service Management]
 ---
 
@@ -16,7 +16,7 @@ breadcrumb: [Configuring DevOps Config, DevOps Config, IT Service Management]
 
 You first create a new CDM application structure and then upload the existing config data into the structure.
 
-**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
+**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
 
 ## How it works: Performing the initial upload of your existing config data into CDM data tables
 

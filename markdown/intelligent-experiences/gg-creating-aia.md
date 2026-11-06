@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/gg-creating-aia.html
 release: australia
 topic_type: concept
-last_updated: "2025-09-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [AI agents best practices, Explore, AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [AI agents best practices, Explore, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # General guidelines for writing prompts for agentic AI

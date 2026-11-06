@@ -7,9 +7,9 @@ release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2026-05-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Applications in ServiceNow Studio, Use, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Applications in ServiceNow Studio, Use, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Preview an app file in ServiceNow Studio
@@ -32,15 +32,15 @@ Begin or continue a conversation with Build Agent to edit previewed files throug
 
 2.  Preview files from the App details page or from within an open file.
 
-<table id="choicetable_e2q_c5z_tfc"><thead><tr><th align="left" id="d353190e136">
+<table id="choicetable_e2q_c5z_tfc"><thead><tr><th align="left" id="d250926e136">
 
 Option
 
-</th><th align="left" id="d353190e139">
+</th><th align="left" id="d250926e139">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d353190e145">
+</th></tr></thead><tbody><tr><td id="d250926e145">
 
 **Preview from App details**
 
@@ -51,7 +51,7 @@ Description
 
 \[Omitted image "sn-studio-preview-app-details.png"\] Alt text: Select the Preview button.
 
-</td></tr><tr><td id="d353190e177">
+</td></tr><tr><td id="d250926e177">
 
 **Preview from an open file**
 

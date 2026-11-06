@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-required-plugins.html
 release: australia
 topic_type: reference
-last_updated: "2026-06-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Getting started, Configure, Customer Success Management]
 ---
@@ -157,6 +157,8 @@ New pro plus plugin for customer success. Used for product adoption roadmap.
 |---------|-----------|
 |Technology Account Management Experiences \[sn\_tech\_exp\]|Proactive Service Experience Workflows. Contains Technology Account 360, Executive Portfolio, and the recommendation framework. Install this plugin to enable all three capabilities.|
 |AI Agents for Meetings \[sn\_meeting\_ai\_ag\]|Automates meeting preparation by reading relevant records, proposing agendas, and coordinating logistics for review and confirmation.|
+|AI Agents for Customer Success Management \[sn\_cust\_succ\_ai\_ag\]|Enables the AI agents behind Customer Success Management agentic workflows, such as product release email communication.|
+|Meeting Scheduler Plus \[com.sn\_sch\_plus\]|Adds meeting agenda items and meeting next steps to touchpoint meetings.|
 
 **Parent Topic:**[Getting started with Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-get-started.md)
 

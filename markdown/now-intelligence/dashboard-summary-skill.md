@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/dashboard-summary-skill.html
 release: australia
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [AI Admin Hub, Now Assist Admin Console]
 breadcrumb: [Configure, Dashboard Summary, ServiceNow Otto for Platform Analytics, Platform Analytics]
@@ -38,7 +38,7 @@ The ServiceNow Otto context menu has two forms and each form uses AI skills diff
 
 1.  If you want to limit the roles that can use this skill, change application scopes to AI Dashboard Insights.
 
-2.  Navigate to **All** &gt; **ServiceNow Otto Admin** &gt; **Skills**.
+2.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills**.
 
 3.  In the product area pane, select **Data and Analytics** &gt; **Analytics**.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-manage-business-applications.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Exploring the application portfolio, Exploring Portfolio list view, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -26,7 +26,7 @@ Use the Business Application form to create a record and capture the details of 
 
 The architecture type values help in the following business cases:
 
--   Assess the performance of the platform as a whole and assess the performance of individual applications running on it.
+-   Assess the performance of the platform as a whole as well as assess the performance of individual applications running on it.
 -   Platform may be owned by a business owner who may not be the owner of the applications running on that platform. In such a scenario, the platform owner can assess the performance of the platform independent of the application owners, who assess the applications associated with the platform.
 
 For example, you can create a business application record for the ServiceNow® platform. Then, create individual business application records such as Enterprise Architecture, Financial Management, and Project Portfolio Management and associate these applications to the ServiceNow® platform. The **Architecture type** field distinguishes between records. Use platform application for applications running on a host and platform host for platforms hosting applications.

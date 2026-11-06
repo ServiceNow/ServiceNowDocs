@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-04-26"
 reading_time_minutes: 1
 keywords: [catalog request, conversational catalog, split view, order checkout]
-breadcrumb: [Chat assistance for catalog and knowledge, Tasks and requests, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Chat assistance for catalog and knowledge, Tasks and requests, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # Create a catalog request from chat

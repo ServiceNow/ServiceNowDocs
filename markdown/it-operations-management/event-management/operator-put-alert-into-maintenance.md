@@ -1,20 +1,20 @@
 ---
 title: Put an alert into maintenance
-description: As an Event Management operator, you can put an alert into maintenance if the alert does not require further action but you want to keep it active. Putting the alert into maintenance hides it from the Service Operations Workspace dashboard so that other operators do not need to access it, but it does not close the alert.
+description: As an Event Management operator, you can put an alert into maintenance if the alert does not require further action but you still want to keep it active. Putting the alert into maintenance hides it from the Service Operations Workspace dashboard so that other operators do not need to access it, but it does not close the alert.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/operator-put-alert-into-maintenance.html
 release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Operator phase 2: Triage an alert, Operator responsibilities, Event Management Operator Tutorial, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Put an alert into maintenance
 
-As an Event Management operator, you can put an alert into maintenance if the alert does not require further action but you want to keep it active. Putting the alert into maintenance hides it from the Service Operations Workspace dashboard so that other operators do not need to access it, but it does not close the alert.
+As an Event Management operator, you can put an alert into maintenance if the alert does not require further action but you still want to keep it active. Putting the alert into maintenance hides it from the Service Operations Workspace dashboard so that other operators do not need to access it, but it does not close the alert.
 
 ## Before you begin
 

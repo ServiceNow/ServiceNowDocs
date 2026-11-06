@@ -7,7 +7,7 @@ release: australia
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -45,42 +45,42 @@ A monday application enables you to build workflows, user experiences, and produ
 
     The My Apps page opens.
 
-4.  Select **Create App**.
+4.  Select **+ Create app**.
 
-    The Basic Information page for the new application opens.
-
-5.  In the Display Information section, fill in the fields.
+5.  In the Create new app window, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
-    |Name|Name of the monday application.|
-    |Short Description|Description of the application.|
+    |App name|A unique and meaningful name for the monday application.|
+    |App slug|A descriptive unique identifier that enables you to manage and reference your app.|
 
-6.  In the same section, add your own application icon by selecting the auto-generated icon and then selecting an icon image.
+6.  Select **Create app**.
+
+7.  On the General settings page, under the Display information section, enter a description for your application in the **Short description** field.
+
+8.  In the same section, add your own application icon by selecting the auto-generated icon and then selecting an icon image.
 
     You can also change the icon color by selecting **App Color** and then selecting either a preset or custom color. If you don’t add your own application icon or select an icon color, the application uses the auto-generated icon and default icon color.
 
-7.  In the App Credentials section, copy the values in the **Client ID** and **Client Secret** fields.
+9.  In the App Credentials section, copy the values in the **Client ID** and **Client Secret** fields.
 
     Save them in a secure location for later use.
 
-8.  Select **Save App**.
-
-9.  From the left navigation menu of the new application, navigate to **General** &gt; **OAuth**.
+10. From the side navigation panel of the new application, navigate to **Build** &gt; **OAuth &amp; permissions**.
 
     The **Scopes** tab of the OAuth &amp; Permissions page opens.
 
-10. In the Scopes section, specify how the application can access or use different types of user data by selecting the check box for the **users:read** OAuth scope.
+11. In the Scopes section, specify how the application can access or use different types of user data by selecting the check box for the **users:read** OAuth scope.
 
-11. Select **Save Feature**.
+12. Select **Save Scopes**.
 
-12. Select the **Redirect URLs** tab of the OAuth &amp; Permissions page.
+13. Select the **Redirect URLs** tab of the OAuth &amp; Permissions page.
 
-13. In the Redirect URLs section, enter the URL of the OAuth provider that users are redirected to after authentication.
+14. In the Redirect URLs section, enter the URL of the OAuth provider that users are redirected to after authentication.
 
     Enter `https://*instance*.service-now.com/oauth_redirect.do`, where &lt;*instance*&gt; is the name of your ServiceNow instance.
 
-14. Select **Save Feature**.
+15. Select **Save Scopes**.
 
 
 ## Create a monday.com integration profile
@@ -103,15 +103,15 @@ If you’re using Software Asset Workspace, the option to create the monday.com 
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d173049e523">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d175608e532">
 
 Interface
 
-</th><th align="left" id="d173049e526">
+</th><th align="left" id="d175608e535">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d173049e532">
+</th></tr></thead><tbody><tr><td id="d175608e541">
 
 **Core UI**
 
@@ -122,7 +122,7 @@ Action
 3.  Select **monday.com Integration Profile**.
 
 
-</td></tr><tr><td id="d173049e574">
+</td></tr><tr><td id="d175608e583">
 
 **Software Asset Workspace**
 
@@ -274,7 +274,7 @@ After creating an integration profile, view information about the profile in the
 -   Subscription Identifier Exclusion Rule
 -   Subscription User Exclusion Rule
 
-After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/subscription-exclusions.md).
+After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/subscription-exclusions.md).
 
 If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/create-child-alias-saas.md).
 
@@ -282,7 +282,7 @@ Review all automatically generated reclamation rules to reclaim user subscriptio
 
 Create software entitlements for the automatically generated software models to track used software against owned software.
 
--   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/track-software-rights.md).
+-   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/track-software-rights.md).
 -   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-entitlements-workspace.md).
 -   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/guidedwalk-workspace.md).
 

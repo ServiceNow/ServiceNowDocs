@@ -7,7 +7,7 @@ release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [HR Service Delivery Playbook, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
@@ -28,7 +28,7 @@ Set up HR Service Delivery Playbook so that your agents can easily manage, track
 
     -   Playbook Experience \[sn\_playbook\_exp\]
     -   Playbook Experience Components \[now\_playbook\_exp\]
-    For more information, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md).
+    For more information, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/installing-applications-in-application-manager.md).
 
 -   **HR cards**
 

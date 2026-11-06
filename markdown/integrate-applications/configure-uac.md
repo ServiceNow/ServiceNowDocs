@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/configure-uac.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Universal app connector, Connectors, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -92,15 +92,15 @@ Role required: None
 
 4.  Do any of the following options for a desired action.
 
-<table id="choicetable_zm4_lwz_vrb"><thead><tr><th align="left" id="d186033e431">
+<table id="choicetable_zm4_lwz_vrb"><thead><tr><th align="left" id="d183722e431">
 
 Option
 
-</th><th align="left" id="d186033e434">
+</th><th align="left" id="d183722e434">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d186033e440">
+</th></tr></thead><tbody><tr><td id="d183722e440">
 
 **To rename __UniversalApplication__**
 
@@ -108,7 +108,7 @@ Action
 
 Navigate to **Global Objects** in the Project Explorer pane, right-click the **UniversalApplication** and select **Rename**.\[Omitted image "uac-rename-right-click.png"\] Alt text: From Global objects, right-click the UniversalApplication and select Rename.
 
-</td></tr><tr><td id="d186033e480">
+</td></tr><tr><td id="d183722e480">
 
 **To change the name of the screen while configuring the screens and elements**
 
@@ -124,7 +124,7 @@ The name of the application is updated in the Screens and elements pane.
 
  \[Omitted image "uac-update-screen-name.png"\] Alt text: Update the application screen name in the Properties section.
 
-</td></tr><tr><td id="d186033e523">
+</td></tr><tr><td id="d183722e523">
 
 **To identify the screen uniquely**
 
@@ -138,7 +138,7 @@ The image below shows an example of multiple elements that match the same criter
 
 \[Omitted image "uac-connector-multiple-instances.png"\] Alt text: Multiple instances of captured element.
 
-</td></tr><tr><td id="d186033e554">
+</td></tr><tr><td id="d183722e554">
 
 **To identify an element uniquely**
 
@@ -150,7 +150,7 @@ The image shows the match rules of an element captured.
 
 \[Omitted image "uac-connector-child-element-match-rules.png"\] Alt text: Element and its match rules.
 
-</td></tr><tr><td id="d186033e586">
+</td></tr><tr><td id="d183722e586">
 
 **To find the elements on the application screen**
 
@@ -158,7 +158,7 @@ The image shows the match rules of an element captured.
 
 Use the locators of the captured elements.For more information, see [Find the elements on the application screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/find-elements-screen-uac.md).
 
-</td></tr><tr><td id="d186033e607">
+</td></tr><tr><td id="d183722e607">
 
 **To view the path to an iframe, if any, in a captured element**
 

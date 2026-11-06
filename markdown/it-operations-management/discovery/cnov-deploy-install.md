@@ -1,13 +1,13 @@
 ---
 title: Install Kubernetes Visibility Agent \(KVA\) Informer
-description: You can install Kubernetes Visibility Agent Informer using either a Helm chart or the Kubernetes YAML file.
+description: You can install Kubernetes Visibility Agent Informer using either a Helm chart or the Kubernetes YAML file provided by ServiceNow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/cnov-deploy-install.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-08-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [Agent Client Collector, Kubernetes Visibility Agent Informer, Informer, Kubernetes, Visibility, installation, deployment, Cloud Native Operations for Visibility, CNO for Visibility]
 breadcrumb: [Configure, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
@@ -15,7 +15,7 @@ breadcrumb: [Configure, Kubernetes discovery using Kubernetes Visibility Agent, 
 
 # Install Kubernetes Visibility Agent \(KVA\) Informer
 
-You can install Kubernetes Visibility Agent Informer using either a Helm chart or the Kubernetes YAML file.
+You can install Kubernetes Visibility Agent Informer using either a Helm chart or the Kubernetes YAML file provided by ServiceNow.
 
 ## Before you begin
 
@@ -23,13 +23,11 @@ Role required: none
 
 ## About this task
 
-This procedure describes the standard Kubernetes Visibility Agent Informer installation process. Typically, you would use a Helm chart to perform the installation, but you can also configure and run the Kubernetes YAML file provided by ServiceNow.
-
 Kubernetes Visibility Agent supports Helm 4. Existing releases created with Helm 3 can be upgraded to Helm 4.
 
 ## Procedure
 
-1.  Install Kubernetes Visibility Agent Informer using either a Helm chart or the Kubernetes YAML file provided by ServiceNow.
+1.  Install Kubernetes Visibility Agent Informer using one of the following options.
 
     -   Install Kubernetes Visibility Agent Informer using a Helm chart.
 
@@ -73,7 +71,20 @@ Kubernetes Visibility Agent supports Helm 4. Existing releases created with Helm
                 -   Suppress frequent changes in the Kubernetes cluster to reduce the load on your instance. When this feature is active, the Informer does not report changes before the configured threshold rate back to the instance. For more information, see the [Suppressing frequent changes in Kubernetes clusters reported by Kubernetes Visibility Agent \(formerly CNO for visibility\) \[KB1580745\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1580745) article in the Now Support Knowledge Base.
                 -   Control the maximum number of full discoveries that informers can run on multiple clusters at the same time. For more information, see the [Scheduling Full Discoveries in Kubernetes Visibility Agent \(formerly CNO for Visibility\) \[KB1580250\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1580250) article in the Now Support Knowledge Base.
                 -   [Enabling application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/enabling-application-service-maps.md)
-                -   [Enabling container image scanning with Syft scanner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/enabling-software-decomposition-tool.md).
+                -   Enable container image scanning with Syft scanner by adding the **runSyftScanner** parameter and setting it to `true`:
+
+                    ```
+                    --set runSyftScanner=true
+                    ```
+
+                    **Note:** Container image scanning with Syft scanner is only supported when installing the Informer using the Helm chart method. For more information, see [Enabling container image scanning with Syft scanner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/enabling-software-decomposition-tool.md).
+
+                -   If nodes in your cluster have taints, add tolerations so that the Informer pod can be scheduled on those nodes. Create a YAML file that contains the tolerations and pass it to the Helm install command with the **tolerations** parameter:
+
+                    ```
+                    --set-file tolerations=FILE_NAME
+                    ```
+
         2.  Run the command.
     -   Install Kubernetes Visibility Agent Informer using the Kubernetes YAML file.
         1.  Download the Kubernetes YAML ZIP file provided in the [Kubernetes Visibility Agent \(formerly CNO for Visibility\) Helm Chart and Kubernetes YAML file releases \[KB1564347\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1564347) article in the Now Support Knowledge Base.
@@ -122,8 +133,8 @@ Customize how often you want the Kubernetes Visibility Agent Informer to run a f
 Switch off continuous discovery by Kubernetes Visibility Agent if all you need is periodic snapshots of your cluster resources. If you have multiple clusters with frequent changes, deactivating continuous discovery reduces the load on your instance.
 -   **[Display the Kubernetes cluster version in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cnov-config-see-cluster-version.md)**  
 Make the Kubernetes Visibility Agent Informer populate the relevant field in the cmdb\_ci\_kubernetes\_cluster CI to display the Kubernetes cluster version.
--   **[Create a cmdb\_ci\_linux\_server CI for each Kubernetes node](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cnov-config-linux-server-ci.md)**  
-Configure if you want the Kubernetes Visibility Agent Informer to create a cmdb\_ci\_linux\_server CI for each Kubernetes node.
+-   **[Configure server CI creation for Kubernetes nodes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cnov-config-linux-server-ci.md)**  
+Configure whether the Kubernetes Visibility Agent Informer creates a server CI for each Kubernetes node.
 -   **[Enable automatic retirement for inactive Kubernetes cluster CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/remove-inactive-cis.md)**  
 Enable automatic retirement to update the status of inactive Kubernetes cluster configuration items \(CIs\) and all associated resources during full discovery cycles, so your CMDB reflects only active infrastructure.
 -   **[Define include and exclude lists of Labels and Annotations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cnov-config-annotations-allowed.md)**  

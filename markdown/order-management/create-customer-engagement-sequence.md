@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-customer-engagement-sequence.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Customer Engagement Sequences, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
@@ -32,12 +32,12 @@ Role required: sn\_crm\_sequence.admin, sn\_crm\_sequence.writer
 
 **Important:**
 
--   Create sequences from the Sequences module in the CSM/FSM Configurable Workspace, not from Workflow Studio. If you create a playbook of the type Sequence directly in Workflow Studio, the required Setup, Configure sequence activities, and Tear Down stages are not added automatically.
+-   Create sequences from the Sequences module in the CRM Workspace, not from Workflow Studio. If you create a playbook of the type Sequence directly in Workflow Studio, the required Setup, Configure sequence activities, and Tear Down stages are not added automatically.
 -   Setup and Tear Down are predefined stages in the Customer Engagement Sequences playbook. Do not remove these stages or add more activities in these stages. Avoid making any other changes to the Start Sequence and End Sequence activities.
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -104,7 +104,7 @@ Role required: sn\_crm\_sequence.admin, sn\_crm\_sequence.writer
 
 16. Publish the sequence by selecting **Activate**.
 
-17. View the sequence in the CSM/FSM Workspace by selecting the List icon \[Omitted image "list-outline-24.svg"\] Alt text: and navigating to **Sequences** &gt; **All Sequences**.
+17. View the sequence in the CRM Workspace by selecting the List icon \[Omitted image "list-outline-24.svg"\] Alt text: and navigating to **Sequences** &gt; **All Sequences**.
 
 
 ## What to do next

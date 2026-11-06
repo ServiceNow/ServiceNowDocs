@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-email-interaction-record-page.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Record pages, Record pages and page templates, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -16,7 +16,7 @@ The Email interaction record page enables agents to manage email conversations w
 
 ## Email interaction record page variant
 
-The Email interaction record page variant is included with the CSM Configurable Workspace application \(com.snc.uib.csm\_agent\_workspace\). This page variant includes the following settings.
+The Email interaction record page variant is included with the CRM Workspace plugin \(com.snc.uib.csm\_agent\_workspace\). This page variant includes the following settings.
 
 \[Omitted image "email-interaction-record-page.png"\] Alt text: email-interaction-record-page
 
@@ -67,7 +67,7 @@ The audience determines who can see the page variant. The Email Interaction reco
 </table>To access the settings for this page variant:
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
-2.  Select the **CSM/FSM Configurable Workspace** experience.
+2.  Select the **CRM Workspace** experience.
 3.  In the Record section of the Pages and variants list, select **Email Interaction page**.
 4.  Select **Settings** at the top of the page.
 
@@ -234,10 +234,10 @@ The [workspace dock](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs
 
 The Email Interaction record page supports actions from the following Customer Service Management and CRM Workspace plugins:
 
--   Customer Service \(com.sn\_customerservice\)
--   CSM/FSM Configurable WS Foundation \(com.snc.uib.cwf\_workspace\)
+-   Case Management Core \(com.sn\_customerservice\)
+-   CRM Workspace Core \(com.snc.agent\_workspace.csm\)
 -   CRM Workspace \(com.snc.uib.csm\_agent\_workspace\)
--   CSM Workspace \(com.snc.agent\_workspace.csm\)
+-   CRM Workspace Foundation \(com.snc.uib.cwf\_workspace\)
 -   Major Issue Management \(com.sn\_majorissue\_mgt\)
 -   Customer Service with Service Management \(com.sn\_cs\_sm\)
 -   Customer Service with Request Management \(com.sn\_cs\_sm\_request\)
@@ -284,14 +284,10 @@ Depending on the source type, agents can do the following:
 -   Flag an article.
 -   Mark an article as helpful.
 -   Order a catalog item.
--   Attach and add a link in email.
-
-The workspace switches to the relevant tab. The inserted link displays the knowledge article title and article number as a hyperlink, in the format `Article Title: KB0012345`.
-
 
 For more information, see [Use AI search in Recommended Actions to resolve cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/nba-use-ai-search.md).
 
-**Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/nba.md) application \(sn\_cs\_nb\_action\) which is included with the CSM Configurable Workspace application.
+**Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/nba.md) application \(sn\_cs\_nb\_action\) which is included with the CRM Workspace application.
 
 </td></tr><tr><td>
 

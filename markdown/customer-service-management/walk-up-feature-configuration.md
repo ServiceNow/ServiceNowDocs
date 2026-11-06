@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/walk-up-feature-configuration.html
 release: australia
 topic_type: reference
-last_updated: "2026-06-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Engagement Messenger reference, Reference, Customer Service Management]
 ---

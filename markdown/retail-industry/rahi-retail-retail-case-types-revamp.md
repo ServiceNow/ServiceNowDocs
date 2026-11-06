@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-
 release: australia
 topic_type: concept
 last_updated: "2026-06-28"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [retail case types, case type, retail implementation]
 breadcrumb: [Explore, Retail]
 ---
@@ -42,8 +42,12 @@ Each example use case requires distinct processes, automation, fulfillers, form 
 
 For more information on extending retail case types, see [Extending the Retail base case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-extending-retail-base-case.md).
 
--   **[Retail case overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-case.md)**  
-The Retail case table stores information about your retail case types and provides the base for retail case creation. This table extends the Customer Service Management case table. All fields utilized through Customer Service Management case remain intact.
+-   **[Prebuilt Retail case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-ootb-case-types.md)**  
+Retail includes four prebuilt case types that extend the retail framework. Each is dependent on its own plugin and is tuned to a common retail scenario, so you can deploy quickly and stay consistent across locations.
+-   **[Extending the Retail base case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-extending-retail-base-case.md)**  
+Extend the Retail Case \(`sn_retail_case`\) base case to create custom case types that take advantage of prebuilt roles, business rules, workflows, and the Retail data model rather than creating them manually.
+-   **[Service definitions in Retail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-service-definitions.md)**  
+A service definition describes a service that a retail organization offers to support its stores or customers. Service definitions build on case types to encapsulate different types of request and fulfillment processes within a single case type, without creating a new table for every variation.
 
 **Parent Topic:**[Exploring Retail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-operations-explore.md)
 

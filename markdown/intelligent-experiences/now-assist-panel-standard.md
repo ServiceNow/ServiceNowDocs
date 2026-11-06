@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-panel-standard.html
 release: australia
 topic_type: concept
-last_updated: "2025-07-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [ServiceNow Otto panel, ServiceNow Otto Experiences, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
+breadcrumb: [ServiceNow Otto panel, ServiceNow Otto Experiences, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Standard chat
@@ -52,7 +52,7 @@ Expands the chat into a 90% screen-size window.
 
 </td></tr><tr><td>
 
-2 - \[Omitted image "now-assist-panel-pushpin.png"\] Alt text:
+2 - \[Omitted image "now-assist-panel-pushpin.png"\] Alt text: Pushpin icon
 
 </td><td>
 
@@ -94,11 +94,11 @@ Enter actions.
 
 Voice Input
 
- \[Omitted image "now-assist-panel-voice-input.png"\] Alt text: Voice input microphone on ServiceNow Otto panel.
+ \[Omitted image "now-assist-panel-voice-input.png"\] Alt text: Voice dictation microphone on ServiceNow Otto panel.
 
 </td><td>
 
-If Voice Input is activated, select the microphone icon or the keyboard shortcut to use your voice to interact with the ServiceNow Otto panel. After you speak, there’s a pause while the system transcribes the text and then displays it on the screen. See [Enable voice input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/enable-voice-input-for-now-assist-panel.md) for information on enabling Voice Input. See [Next Experience keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-keyboard-shortcuts.md) for the ServiceNow Otto menu \(Voice Input mode\) shortcuts for Microsoft and macOS.
+If Voice Input is activated, select the microphone icon or the keyboard shortcut to use your voice to interact with the ServiceNow Otto panel. After you speak, there’s a pause while the system transcribes the text and then displays it on the screen. See [Enable voice input for ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/enable-voice-input-for-now-assist-panel.md) for information on enabling Voice Input. See [Next Experience keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-keyboard-shortcuts.md) for the ServiceNow Otto menu \(Voice Input mode\) shortcuts for Microsoft and macOS.
 
 </td></tr><tr><td>
 
@@ -163,14 +163,14 @@ Quickly learn the details of a case or incident by reading a case summarization.
 You can generate a case or incident summarization from the ServiceNow Otto panel for ServiceNow Otto for CSM, ServiceNow Otto for HRSD, or ServiceNow Otto for ITSM:
 
 -   For ServiceNow Otto for CSM, select **Summarize record** or enter `summarize a record` in the **Ask ServiceNow Otto to** field.
--   For ServiceNow Otto for HRSD, select **Summarize record** or enter `summarize a record` in the **Ask ServiceNow Otto to** field.
+-   For ServiceNow Otto for HRSD, select **Summarize record** or enter `summarize a record` in the **Ask Service Now Otto to** field.
 -   For ServiceNow Otto for ITSM, select **Summarize incident** or enter `summarize an incident` in the **Ask ServiceNow Otto to** field.
 
 ## Conversation Help
 
 Get specific and accurate answers to your queries by using the Get Help skill option on the ServiceNow Otto panel. This skill is available to everyone entitled to ServiceNow Otto capabilities.
 
-For more information about the ServiceNow Otto Conversational Help skill which represents as Get Help on the ServiceNow Otto panel, see [Conversational Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skills/conversational-help-skills.md).
+For more information about the ServiceNow Otto Conversational Help skill which represents as Get Help on the ServiceNow Otto panel, see [Now Assist Conversational Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skills/conversational-help-skills.md).
 
 ## Resolution notes generation
 

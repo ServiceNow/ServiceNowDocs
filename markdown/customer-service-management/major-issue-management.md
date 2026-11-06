@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/major-issue-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage cases, Use, Customer Service Management]
 ---
@@ -18,7 +18,7 @@ This application enables you to efficiently manage the communication and resolut
 
 Major issue management introduces the concept of a major case which contains the details about a particular issue. Child cases can easily be created for a major case, with one child case created for each customer affected by the issue. These child cases contain the customer-specific information.
 
-Identify affected customers by creating a recipients list of accounts or consumers and attaching it to the major case. Create this list using the Targeted Communications application. Build a recipients list by identifying dynamic conditions, running a script, or importing customer information into a template. Once attached to a major case, use the recipients list to create a child case for each customer included in the list.
+Identify affected customers by creating a recipients list of accounts, consumers, or business organizationsand attaching it to the major case. Create this list using the Targeted Communications application. Build a recipients list by identifying dynamic conditions, running a script, or importing customer information into a template. Once attached to a major case, use the recipients list to create a child case for each customer included in the list.
 
 Install the [Major issue management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/major-issue-management-application.md) application from the ServiceNow® Store.
 

@@ -52,7 +52,7 @@ Docusign requirements:
 
 4.  Record the values of integrator key and secret key to register the app as a third-party OAuth provider on your ServiceNow instance.
 
-    You need these values when you [Configure the connection for Docusign eSignature spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-docusign-authorization-code.md).
+    You need these values when you [Configure a connection for the Docusign eSignature spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-docusign-authorization-code.md).
 
 5.  Add the ServiceNow OAuth Redirect URL in your Docusign account.
 
@@ -77,7 +77,7 @@ Docusign requirements:
     3.  Copy and record this value for later use.
 
 
-## Configure the connection for Docusign eSignature spoke
+## Configure a connection for the Docusign eSignature spoke
 
 Integrate the ServiceNow instance and Docusign account instance using authorization code grant to authenticate ServiceNow requests.
 
@@ -95,15 +95,16 @@ Role required: admin
 
 4.  Locate the alias for Docusign and click **View Details**.
 
-    **Note:** Don't click Add Connection.
+    -   To configure the default connection and credential alias record that is shipped along with the Docusign eSignature spoke, click **View Details**.
 
-    \[Omitted image "docusign-conn-template.png"\] Alt text: Connection template for Docusign eSignature spoke
+        \[Omitted image "docusign-conn-template.png"\] Alt text: Connection template for Docusign eSignature spoke
 
-5.  If you are configuring the spoke for the first time, click **Configure**.
+    -   To manage more than one Docusign eSignature spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/support-multiple-connections.md).
+    If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
-    \[Omitted image "docusign-conn-tempte-config.png"\] Alt text: Configure a connection for the first time for Docusign eSignature spoke
+    \[Omitted image "docusign-conn-tempte-config.png"\] Alt text: Configure a connection for the Docusign eSignature spoke
 
-6.  On the Configure Connection form, fill in the fields.
+5.  On the Configure Connection form, fill in the fields.
 
 <table id="table_jlz_mjr_d1c"><thead><tr><th>
 
@@ -113,7 +114,11 @@ Field
 
 Description
 
-</th></tr></thead><tbody><tr><td>
+</th></tr></thead><tbody><tr><td colspan="2">
+
+Connection Information
+
+</td></tr><tr><td>
 
 Connection Name
 
@@ -136,6 +141,10 @@ API Version
 </td><td>
 
 Docusign API version. The default value is v2.1.
+
+</td></tr><tr><td colspan="2">
+
+Credential Information
 
 </td></tr><tr><td>
 
@@ -184,6 +193,10 @@ OAuth callback endpoint in this format: `https://<instance>.service-now.com/oaut
 </td></tr></tbody>
 </table>    \[Omitted image "docusign-conf-temp.png"\] Alt text: Docusign connection.
 
-7.  Click **Configure and Get OAuth Token**.
+6.  Click **Save and Get OAuth Token**.
 
+
+### Result
+
+The spoke connection is configured and ready to be used.
 

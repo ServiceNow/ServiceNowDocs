@@ -7,7 +7,7 @@ release: australia
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-05-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Verifi, Card Data Security, Connection and Credential Alias, Integration Hub, OAuth, JWT provider, tokenizer, card dispute resolution, VerifiCardDataSecurity]
 audience: administrator

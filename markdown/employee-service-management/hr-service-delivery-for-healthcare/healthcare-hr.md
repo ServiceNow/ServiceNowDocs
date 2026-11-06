@@ -1,20 +1,20 @@
 ---
 title: HR Service Delivery for Healthcare
-description: The ServiceNow HR Service Delivery for Healthcare application creates a standardized, digitized, and automated physician onboarding workflow using the Healthcare Professional data model. The application enables you to see the full picture for all the required onboarding information during and after physician onboarding. HR Service Delivery for Healthcare is a new application in the Australia release.
+description: The ServiceNow HR Service Delivery for Healthcare application creates a standardized, digitized, and automated physician onboarding workflow using the Healthcare Professional data model. The application enables you to see the full picture for all the required onboarding information during and after physician onboarding. HR Service Delivery for Healthcare is a new application in the Brazil release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery-for-healthcare/healthcare-hr.html
 release: australia
 product: HR Service Delivery for Healthcare
 classification: hr-service-delivery-for-healthcare
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [HR Service Delivery, Employee Service Management]
 ---
 
 # HR Service Delivery for Healthcare
 
-The ServiceNow® HR Service Delivery for Healthcare application creates a standardized, digitized, and automated physician onboarding workflow using the Healthcare Professional data model. The application enables you to see the full picture for all the required onboarding information during and after physician onboarding. HR Service Delivery for Healthcare is a new application in the Australia release.
+The ServiceNow® HR Service Delivery for Healthcare application creates a standardized, digitized, and automated physician onboarding workflow using the Healthcare Professional data model. The application enables you to see the full picture for all the required onboarding information during and after physician onboarding. HR Service Delivery for Healthcare is a new application in the Brazil release.
 
 ## Get started
 

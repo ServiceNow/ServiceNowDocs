@@ -7,8 +7,8 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Use, Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -17,6 +17,8 @@ breadcrumb: [Use, Risk Management, Governance, Risk, and Compliance]
 Use the ServiceNow® Governance, Risk, and Compliance \(GRC\) Advanced Risk Assessment feature to create an integrated risk platform.
 
 To see the roles required for performing and approving the assessment, refer to [Roles for performing advanced risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/roles-for-ara.md).
+
+As a risk administrator, you can make comments mandatory at the risk response, assessment type, or factor and group factor level. When a mandatory comment option is enabled, assessors must provide the required comment before saving the risk response. They must also provide it before completing the corresponding assessment type. For more information, see [Risk Assessment Methodology form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/risk-assessment-methodology-form.md), [Create a manual factor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/define-manual-factors.md), and [Create a group factor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/define-group-factor.md).
 
 -   **[Create a manual factor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/define-manual-factors.md)**  
 Create manual factors to evaluate and assess risks on a risk assessment instance.
@@ -52,6 +54,8 @@ Create a risk assessment scope to define and identify risks for an entity. Ident
 Simulate a risk assessment to verify the associated risk assessment methodology \(RAM\) configuration when it is in the draft state.
 -   **[Assess risks and objects on an assessment instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/assessing-risks.md)**  
 Assess the risks that you have configured and reassign the risks to relevant approvers.
+-   **[Reassign an individual risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/reassign-individual-risk-assessment.md)**  
+Reassign one or more risk assessments that are new or already in progress to a different assessor from the In Progress Assessments list.
 
 **Parent Topic:**[Using Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/using-risk-mgmt.md)
 

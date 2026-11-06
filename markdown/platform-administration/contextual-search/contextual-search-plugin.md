@@ -7,7 +7,7 @@ release: australia
 product: Contextual Search
 classification: contextual-search
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Contextual search plugin, Contextual search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -80,5 +80,5 @@ Several types of components are installed with the activation of the Contextual 
 **Related topics**  
 
 
-[List of plugins \( Australia \)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/list-of-plugins.md)
+[List of plugins \( Brazil \)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/list-of-plugins.md)
 

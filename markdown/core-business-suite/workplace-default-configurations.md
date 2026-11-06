@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/workplace-default-configurations.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Install Workplace Services, Install Core Business Suite applications, Configure, Core Business Suite]
 ---
@@ -19,7 +19,7 @@ These default configurations are applied automatically when Apply default config
 |configuration|Description|
 |-------------|-----------|
 |Notifications|Configures standard notifications to support Workplace Services workflows and communication.|
-|Intake forms|Activates required intake forms for submitting Workplace Services requests and capturing case details.|
+|Record producers|Activates required record producers for submitting Workplace Services requests and capturing case details.|
 |Workplace services|Configures required Workplace Services that support request handling and fulfillment.|
 
 **Parent Topic:**[Install Workplace Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/install-workplace-services.md)

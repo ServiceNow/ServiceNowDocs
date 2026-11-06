@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/catalog-visibility-business-portal.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Business Portal, Configure, Sales Customer Relationship Management]
 ---
@@ -22,6 +22,8 @@ To grant product catalog visibility to other users, use the CustomerPortalCatalo
 2.  In the **Name** column, search for CustomerPortalCatalogAccessUtil.
 
 You must also set up your product catalog and configure pricing to help ensure that the correct products and prices are available to customers on the portal. For more information, see [Configuring product offerings and catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-managing-product-catalogs.md) and [Configuring product pricing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-managing-product-pricing.md).
+
+The Business Portal shows catalogs and categories in the display order that the catalog admin configures. Catalogs and categories without a configured order continue to display alphabetically.
 
 **Related topics**  
 

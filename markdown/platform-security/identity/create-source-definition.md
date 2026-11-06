@@ -1,5 +1,5 @@
 ---
-title: Creating a source definition
+title: Create a source definition
 description: Create a source definition to capture information about which identity source a resource is provisioned from.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/identity/create-source-definition.html
@@ -7,12 +7,12 @@ release: australia
 product: Identity
 classification: identity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SCIM Provider, System for Cross-domain Identity Management \(SCIM\), Identity]
 ---
 
-# Creating a source definition
+# Create a source definition
 
 Create a source definition to capture information about which identity source a resource is provisioned from.
 
@@ -24,24 +24,24 @@ Role required: scim\_config\_admin
 
 ## About this task
 
-Using a source definition, the provisioning identity source can be mapped to an OAuth entity using which it authenticates while provisioning.
+Using a source definition, the provisioning identity source can be mapped to an OAuth entity that it uses to authenticate while provisioning.
 
-After a source definition is created, all resources getting provisioned from that identity source is mapped to its corresponding source definition ID.
+After a source definition is created, all resources getting provisioned from that identity source are mapped to its corresponding source definition ID.
 
 The source definition captures the required source information, such as by doing the following:
 
 -   Identifies the SCIM Client from which the resource is provisioned.
 -   Resolves duplicate information provided by the external ID:
-    -   If multiple identity sources are provisioning resources, there can be two or more resources have the same external ID value because the external Id is only unique to the identity source.
+    -   If multiple identity sources are provisioning resources, two or more resources can have the same external ID value because the external ID is only unique to the identity source.
     -   If multiple resources are returned with an external ID SCIM filter then the resources can be resolved based on the source definition of the requesting identity source.
 
-**Note:** A source definition can be created only for the identity source, which, uses an OAuth authentication method.
+**Note:** A source definition can be created only for the identity source that uses an OAuth authentication method.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **SCIM** &gt; **Source Definition**.
 
-2.  On the SCIM Source Definitions page, click **New**.
+2.  On the SCIM Source Definitions page, select **New**.
 
 3.  On the form, fill in the fields.
 
@@ -56,7 +56,7 @@ The source definition captures the required source information, such as by doing
 
     \[Omitted image "create-source-definition.png"\] Alt text: SCIM Source Definition
 
-4.  Click **Submit**.
+4.  Select **Submit**.
 
 
 ## Result

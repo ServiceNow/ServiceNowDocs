@@ -1,14 +1,14 @@
 ---
 title: WSD Unified Search API
-description: The WSD Unified Search API provides an endpoint to search across workplace users and locations.Searches for users and workplace locations \(case-insensitive\) matching the provided search term. Returns a combined list of matching results with pagination support.Retrieve the current location of a specific user based on their active reservations, workplace profile, or neighborhood assignment. Returns the most relevant public location first, falling back to private locations if no public location is found.
+description: The WSD Unified Search API provides an endpoint to search across workplace users and locations.Searches for users and workplace locations matching the provided search term. Returns a combined list of matching results with pagination support.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/rest-apis/wsd\_unified-search-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2026-04-28"
-reading_time_minutes: 12
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 keywords: [Workplace Service Delivery Core, WSD]
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
@@ -31,7 +31,7 @@ The WSD Unified Search API requires:
 
 ## WSD Unified Search - POST /api/sn\_wsd\_core/wsd\_unified\_search/users\_and\_locations
 
-Searches for users and workplace locations \(case-insensitive\) matching the provided search term. Returns a combined list of matching results with pagination support.
+Searches for users and workplace locations matching the provided search term. Returns a combined list of matching results with pagination support.
 
 ### URL format
 
@@ -61,8 +61,6 @@ Optional. Version of the endpoint to access. For example, `v1` or `v2`. Only spe
 </table>|Name|Description|
 |----|-----------|
 |None| |
-
-**Note:** All searches are case-insensitive.
 
 <table class="rest_api_request_body"><thead><tr><th>
 
@@ -103,9 +101,7 @@ show\_loggedin\_user
 
 </td><td>
 
-Flag that indicates whether to display the authenticated user as the first result when no search term is provided. Only applies to desktop clients at offset 0. When a `search_term` is provided, this flag has no effect. The authenticated user is returned only if they match the search criteria.
-
-Possible values:
+Flag that indicates whether to display the authenticated user as the first result when no search term is provided. Only applies to desktop clients at offset 0. Possible values:
 
 -   `true`: Show the authenticated user as the first result.
 -   `false`: Don't show the authenticated user as the first result.
@@ -135,9 +131,7 @@ filterConfig
 
 </td><td>
 
-Table-specific encoded queries. Keys are table names. Values are encoded query strings.**Note:** **filterConfig** filters by entity type only. It doesn't support filtering results to a specific record or location hierarchy. To narrow results by location, use **search\_term** in combination with **options.rsvModule**.
-
-Valid fields \(table names\):
+Object containing one or more table names as keys to restrict results to specific entity types. When empty, both users and locations are returned.Valid fields \(table names\):
 
 -   sys\_user
 -   sn\_wsd\_core\_workplace\_location
@@ -159,7 +153,7 @@ Data type: Object
 }
 ```
 
-Default: \{\} \(no filter applied, searches all tables\)
+Default: \{\} \(no filter applied\)
 
 </td></tr><tr><td>
 
@@ -167,7 +161,7 @@ filterConfig.&lt;table\_name&gt;
 
 </td><td>
 
-Flag that indicates whether to include results from the specified table. Set to `true` to include results from that entity type.Valid values:
+Flag that indicates whether to include results from the specified table. Set to true to include results from that entity type.Valid values:
 
 -   `true`: Include results from that entity type.
 -   `false`: Don't include results from that entity type.
@@ -226,8 +220,7 @@ Object containing reservation module configuration for filtering results by rese
 
 ```
 "rsvModule": { 
-  "value": "String",
-  "enable_restricted_neighborhood_rules": Boolean
+  "value": "String"
 }
 ```
 
@@ -301,8 +294,6 @@ The following status codes apply to this HTTP action. For a list of possible sta
 |-----------|-----------|
 |200|Successful. The request was successfully processed.|
 |400|Bad Request. Invalid request body format.|
-|401|Authentication failed.|
-|403|User lacks required ACL permissions.|
 |500|Internal server error. An unexpected error occurred while processing the request.|
 
 ### Response body parameters \(JSON or XML\)
@@ -337,7 +328,7 @@ result.isMobile
 
 </td><td>
 
-Flag that indicates whether the request was detected as originating from a mobile client. This value can be used to mirror the same client-type logic in your own UI, for example to replicate the `show_loggedin_user` behavior.Possible values:
+Flag that indicates whether the request was detected as originating from a mobile client.Possible values:
 
 -   `true`: Request originated from a mobile client.
 -   `false`: Request originated from a desktop client.
@@ -516,7 +507,7 @@ result.result.userDetails.initials
 
 </td><td>
 
-Initials derived from the user's display name, used as a fallback when no avatar is available. For example, `JD` for `Jane Doe`.Data type: String
+Initials derived from the user's display name, used as a fallback when no avatar is available. For example, `JD` for Jane Doe.Data type: String
 
 </td></tr><tr><td>
 
@@ -568,9 +559,7 @@ curl "https://<instance>.service-now.com/api/sn_wsd_core/wsd_unified_search/user
   "show_location": true,
   "show_loggedin_user": true,
   "include_user_email": false,
-  "filterConfig": {
-  "sn_wsd_core_building": true
-                  },
+  "filterConfig": {},
   "options": {
        "search_in_parent": false,
        "cache": true
@@ -620,360 +609,6 @@ Response body.
     "more": true,
     "isMobile": false
   }
-}
-```
-
-### cURL request
-
-The following are examples of different search criteria.
-
-Search all locations and users:
-
-```
-{ 
-  "search_term": "engineering", 
-  "filterConfig": {}, 
-  "sysparm_offset": 0, 
-  "sysparm_limit": 20
-}
-```
-
-Search only reservable spaces:
-
-```
-{
-  "search_term": "workspace",
-  "filterConfig": {
-    "sn_wsd_core_workplace_location": "is_reservable=true^sys_class_name=sn_wsd_core_space"
-  },
-  "sysparm_offset": 0,
-  "sysparm_limit": 10
-}
-```
-
-Search only active users in IT department:
-
-```
-{
-  "search_term": "smith",
-  "include_user_email": true,
-  "filterConfig": {
-    "sys_user": "department.name=IT Department"
-  },
-  "sysparm_offset": 0,
-  "sysparm_limit": 10
-}
-```
-
-Search neighborhoods with restricted access validation:
-
-```
-{
-  "search_term": "team",
-  "filterConfig": {
-    "sn_wsd_core_neighborhood": ""
-  },
-  "options": {
-    "sn_wsd_core_neighborhood": {
-      "validateAccess": true
-    },
-    "rsvModule": {
-      "value": "module_sys_id_here"
-    }
-  },
-  "sysparm_offset": 0,
-  "sysparm_limit": 10
-}
-```
-
-## WSD Unified Search - GET /api/sn\_wsd\_core/wsd\_unified\_search/current\_location
-
-Retrieve the current location of a specific user based on their active reservations, workplace profile, or neighborhood assignment. Returns the most relevant public location first, falling back to private locations if no public location is found.
-
-### URL format
-
-Versioned URL: `/api/sn_wsd_core/{api_version}/wsd_unified_search/current_location`
-
-Default URL: `/api/sn_wsd_core/wsd_unified_search/current_location`
-
-### Supported request parameters
-
-<table class="rest_api_path_parameters"><thead><tr><th>
-
-Name
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-api\_version
-
-</td><td id="version-entry-RESTAPI">
-
-Optional. Version of the endpoint to access. For example, `v1` or `v2`. Only specify this value to use an endpoint version other than the latest. Data type: String
-
-</td></tr></tbody>
-</table><table class="rest_api_query_parameters"><thead><tr><th>
-
-Name
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-userSysId
-
-</td><td>
-
-Required. Sys\_id of the user whose current location to retrieve.Table: User \[sys\_user\]
-
-Data type: String
-
-</td></tr><tr><td>
-
-useNeighborhoods
-
-</td><td>
-
-Flag that indicates whether to include a neighborhood-based location from the user's workplace profile record when no reservation or direct profile location is found.Table: Workplace Profile \[sn\_wsd\_core\_workplace\_profile\]
-
-Valid values:
-
--   `true`: Include neighborhood-based location as a fallback.
--   `false`: Don't include neighborhood-based location.
-
-Data type: Boolean
-
-Default: false
-
-</td></tr></tbody>
-</table>|Name|Description|
-|----|-----------|
-|None| |
-
-### Headers
-
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
-
-<table class="rest_api_request_headers"><thead><tr><th>
-
-Header
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Accept
-
-</td><td id="accept-entry-RESTAPI">
-
-Data format of the response body. Supported types: **application/json** or **application/xml**. Default: **application/json**
-
-</td></tr><tr><td>
-
-Authorization
-
-</td><td>
-
-Authentication credentials. Supports Basic authentication or session-based authentication.
-
-</td></tr></tbody>
-</table>|Header|Description|
-|------|-----------|
-|Content-Type|Data format of the response body: application/json.|
-
-### Status codes
-
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
-
-|Status code|Description|
-|-----------|-----------|
-|200|Successful. The request was successfully processed.|
-|400|Bad Request. The userSysId parameter is missing or invalid.|
-|500|Internal server error. An unexpected error occurred while processing the request.|
-
-### Response body parameters \(JSON or XML\)
-
-Returns a single location object when a current location is found, or an empty object \{\} when no location is found.
-
-<table><thead><tr><th>
-
-Name
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-isPrivate
-
-</td><td>
-
-Flag that indicates whether the returned location is private. A location is considered private when it's marked as private in the workplace profile or when it's associated with a reservation that has a private or sensitive status.Valid values:
-
--   `true`: Location is private or the reservation has private/sensitive status.
--   `false`: Location is public.
-
-Data type: Boolean
-
-</td></tr><tr><td>
-
-displayValue
-
-</td><td>
-
-Display name of the result location. For example, `Building A - Floor 2 - Workspace 201`.Data type: String
-
-</td></tr><tr><td>
-
-value
-
-</td><td>
-
-Sys\_id of the result location record.Data type: String.
-
-</td></tr><tr><td>
-
-table
-
-</td><td>
-
-Name of the ServiceNow table from which the location originates For example, `sn_wsd_core_space`.Data type: String
-
-</td></tr><tr><td>
-
-label
-
-</td><td>
-
-Secondary display string providing location hierarchy context. For example, `Floor 2, Building A`.Data type: String
-
-</td></tr><tr><td>
-
-selectedTreeBranch
-
-</td><td>
-
-Sys\_id of the parent location record in the workplace hierarchy. Used to pre-select the location tree in the UI.Data type: String
-
-</td></tr><tr><td>
-
-timezone
-
-</td><td>
-
-Time zone associated with the result location.Data type: Object
-
-```
-"timezone": {
-  "value": "String",
-  "displayValue": "String"
-}
-```
-
-</td></tr><tr><td>
-
-timezone.value
-
-</td><td>
-
-IANA time zone identifier for the result location. For example, `America/New_York`.Data type: String
-
-</td></tr><tr><td>
-
-timezone.displayValue
-
-</td><td>
-
-Human-readable timezone name. For example, `Eastern Standard Time`.Data type: String
-
-</td></tr><tr><td>
-
-wsdSource
-
-</td><td>
-
-Source system identifier for the location. Used when the location originates from an external integration.Data type: String
-
-</td></tr><tr><td>
-
-externalId
-
-</td><td>
-
-Identifier of the location record in an external source system, when applicable.Data type: String
-
-</td></tr><tr><td>
-
-floorId
-
-</td><td>
-
-Sys\_id of the floor on which the location resides. Table: Workplace Floor \[sn\_wsd\_core\_floor\] table
-
-Data type: String
-
-</td></tr><tr><td>
-
-isReservable
-
-</td><td>
-
-Flag that indicates whether the location can be reserved.Possible values:
-
--   `true`: The location is reservable.
--   `false`: The location isn't reservable.
-
-Data type: Boolean
-
-</td></tr></tbody>
-</table>### cURL request
-
-The following example retrieves the current location of a specific user, including neighborhood-based location as a fallback.
-
-```
-curl "https://<instance>.service-now.com/api/sn_wsd_core/wsd_unified_search/current_location
-  ?userSysId=abc123def456&useNeighborhoods=true" \
-  --request GET \
-  --header "Accept: application/json" \
-  --user "username:password"
-```
-
-Reponse body when location is found.
-
-```
-{
-  "result": {
-    "displayValue": "Building A - Floor 2 - Workspace 201",
-    "value": "abc123def456",
-    "table": "sn_wsd_core_space",
-    "label": "Floor 2, Building A",
-    "selectedTreeBranch": "building789xyz",
-    "timezone": {
-      "value": "America/New_York",
-      "displayValue": "Eastern Standard Time"
-    },
-    "wsdSource": "manual",
-    "externalId": "EXT-WS-201",
-    "floorId": "floor123",
-    "isReservable": true,
-    "isPrivate": false
-  }
-}
-```
-
-Response body when location isn't found \(empty object \{\}\).
-
-```
-{
-  "result": {}
 }
 ```
 

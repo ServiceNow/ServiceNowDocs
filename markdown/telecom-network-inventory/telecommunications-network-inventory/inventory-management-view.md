@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Network Inventory Workspace, Explore, Telecommunications Network Inventory]
 ---
@@ -20,7 +20,7 @@ The Inventory management view displays the network inventory details such as equ
 
 -   **Overview**
 
-    View various inventory data, such as total number of equipment grouped by the model, manufacturer, and life-cycle state, and availability of racks, ports, and slots within a site that you’re selected.
+    View various inventory data, such as total number of equipment grouped by the model, manufacturer, and life-cycle state. You can also view the availability of racks, ports, and slots within a site that you’ve selected.
 
 -   **Inventory List**
 

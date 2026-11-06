@@ -1,5 +1,5 @@
 ---
-title: Configuring the Industrial Process Manager
+title: Configure the Industrial Process Manager
 description: Configure the Industrial Process Manager application so that you can create the Equipment Model data foundation that is required for the ServiceNow Operational Technology solution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/industrial-process-manager/configuring-manufacturing-process-mgr.html
@@ -7,12 +7,12 @@ release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Industrial Process Manager, Operational Technology]
 ---
 
-# Configuring the Industrial Process Manager
+# Configure the Industrial Process Manager
 
 Configure the Industrial Process Manager application so that you can create the Equipment Model data foundation that is required for the ServiceNow® Operational Technology solution.
 
@@ -102,8 +102,10 @@ View and edit all of the Operational Technology \(OT\) related system properties
 Create templates that you can assign to the equipment model entities that you created in the ServiceNow AI Platform. You can use these templates to characterize an equipment model or structure the data that describes your physical industrial facility by grouping similar types of equipment model entities.
 -   **[Importing equipment model data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/importing-isa95-equipment-model-etl.md)**  
 The scheduled import function enables you to import your existing equipment model data from a populated Microsoft Excel flat-file spreadsheet. You can use it to import your ISA-95 Equipment Model data to the Configuration Management Database \(CMDB\).
--   **[Assign or remove equipment model site access for non-administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/create-user-criteria-for-equipment-model-entity-site-users.md)**  
-Assign or remove equipment model site access for non-administrators. You can create the user criteria to determine whether certain users can access the equipment model entities for specific sites.
+-   **[Manage equipment model site access for non-administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/create-user-criteria-for-equipment-model-entity-site-users.md)**  
+Assign or remove non-administrator access to equipment model sites. You can create the user criteria to determine whether certain users can access the equipment model entities for specific sites.
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/granular-access-control-isa-equipment.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/granular-access-control-isa-equipment.md)**  
+
 -   **[Managing an equipment model entity schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/managing-equipment-entity-schedules.md)**  
 You can manage an equipment model entity schedule with the Industrial Process Manager application. By using a schedule, you can track several maintenance tasks for one equipment model entity.
 

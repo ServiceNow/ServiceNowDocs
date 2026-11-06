@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/rma-case-end-to-end-flow.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Return Merchandise Authorization, Order operations, Explore, Sales Customer Relationship Management]
 ---
@@ -22,7 +22,7 @@ The following are the different phase involved in RMA case end-to-end workflow.
 -   System action:
     -   The playbook record generator renders the RMA Case form.
     -   And once the RMA Case form is rendered, Agent fills the customer details and **Request Source** fields, and select **Save**.
-    -   The system creates the RMA Case in the Draft State.
+    -   The system creates the RMA Case in the **Draft** state.
 -   Agent action: Add defective install base items as RMA Case Lines.
 -   System action: Create RMA Case Lines for each selected item.
 -   Agent action: Update each line with request reason code and customer-expected resolution, then submit.

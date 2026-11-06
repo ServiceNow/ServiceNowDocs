@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/configure-bia-template-uib-ws.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Setup for a BIA, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -30,7 +30,7 @@ You can use the preconfigured BIA templates that are provided with the base syst
 -   Service Offering Impact Assessment
 -   Workplace Impact Assessment
 
-You can configure the BIA template with the legacy or Smart assessment. The Legacy Assessment shows only drop-down questions. The Smart Assessment enables multiple question types and configures RTO, RPO, and recovery tier calculations based on the responses to the questionnaire.
+Beginning with the Yokohama release, you can configure the BIA template with the legacy or Smart assessment. The Legacy Assessment shows only drop-down questions. The Smart Assessment enables multiple question types and configures RTO, RPO, and recovery tier calculations based on the responses to the questionnaire.
 
 ## Procedure
 
@@ -74,6 +74,10 @@ You can configure the BIA template with the legacy or Smart assessment. The Lega
 
     The BIA template with the legacy assessment is configured in the instance.
 
+
+## Primary element assessed behavior
+
+When **Primary element assessed** is set to **Database servers**, the **Include CIA** field is visible and **Impact categories** offers all categories. When **Primary element assessed** is set to **Web servers**, the **Include CIA** field is hidden and **Impact categories** offers only categories that contribute to the recovery time objective.
 
 -   **[BIA template form for the legacy assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bia-template-new-record-form.md)**  
 Use the BIA template form to configure the business impact analysis with the legacy template. You can add details such as name, description, elements, impact categories, and so on in the form.

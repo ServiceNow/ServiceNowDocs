@@ -1,17 +1,17 @@
 ---
-title: Edit an existing application using Build Agent
+title: Edit an existing application using Build Agent default mode
 description: Use natural language prompts to modify an existing application in Build Agent. You can describe changes in plain language and review, refine, and approve updates before the application is built and installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/edit-an-existing-application-using-build-agent.html
 release: australia
 topic_type: task
-last_updated: "2026-08-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Use, Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
-# Edit an existing application using Build Agent
+# Edit an existing application using Build Agent default mode
 
 Use natural language prompts to modify an existing application in Build Agent. You can describe changes in plain language and review, refine, and approve updates before the application is built and installed.
 

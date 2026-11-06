@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/glossary/now-platform-glossary.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 101
-keywords: [glossary terms, ACL, glossary terms, glossary terms, glossary terms, glossary terms, dashboard, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms]
+keywords: [glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, dashboard, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms]
 ---
 
 # ServiceNow AI Platform glossary
@@ -344,7 +344,7 @@ Automated breakdowns are based on a breakdown source, which is a set of records 
 
 ### automated indicator
 
-An automated indicator uses an indicator source as its data set. The indicator source specifies a table or database view, conditions for filtering records from that source, and the frequency at which you expect to display the data. The indicator applies an aggregator and optional conditions to this data. The indicator also specifies a data collection job and any breakdowns to apply.
+An automated indicator uses an indicator source as its data set. The indicator source specifies a table or database view, conditions for filtering records from that source, and the frequency at which you expect to display the data. The indicator applies an aggregator and optional conditions to this data. In classic Performance Analytics, the indicator also specifies a data collection job and any breakdowns to apply.
 
 **Related topics**  
 
@@ -752,7 +752,7 @@ A column of content that relates to the main content of the page. For example, y
 
 ### contract analysis
 
-A AI skill used to analyze contract documents for clause deviations, ensuring compliance with standard clauses and identifying potential risks
+A Now Assist skill used to analyze contract documents for clause deviations, ensuring compliance with standard clauses and identifying potential risks
 
 ### contract dashboard
 
@@ -828,6 +828,10 @@ An update set that has been selected using the Update Set Picker. User customiza
 ### custom application
 
 Any scoped application a developer creates on the ServiceNow AI Platform.
+
+### custom fields
+
+
 
 ### custom skill
 
@@ -1127,11 +1131,6 @@ Rights a customer has to receive services based on their contract.
 
 A configuration mechanism in Service Exchange that determines which remote content, such as catalog items, record producers, remote tasks definitions, a consumer instance is allowed to access.
 
-**Related topics**  
-
-
-[service-bridge-v2-entitlements]
-
 ### entity
 
 
@@ -1269,6 +1268,8 @@ A registered instance of a scripted extension point that links a script include 
 Designates where custom script logic can be incorporated into your code so you can integrate customizations and new features without altering the existing code for your application. The returned data or objects must conform to the requirements specified by the application creator.
 
 ### External Content Connectors
+
+External
 
 External Content Connectors is a ServiceNow® Store application that enables AI Search to index and search content from external repositories like Atlassian Confluence Cloud and Microsoft SharePoint Online. It expands search capabilities to include external content while maintaining original access permissions.
 
@@ -1591,6 +1592,10 @@ The process of receiving and entering invoices into the system.
 
 The end-to-end handling of invoices from receipt to payment.
 
+### Invoice processing
+
+The end-to-end handling of invoices from receipt to payment.
+
 ### item
 
 Something a requestor can ask for, such as new computer equipment or time off work. Each item requires its own form in Creator Studio.
@@ -1903,7 +1908,7 @@ A generative AI feature that assists agents in creating and editing emails and c
 
 A feature that monitors and evaluates content created with generative AI to protect users from harmful, offensive, or inappropriate content. It can log incidents and prevent such content from being displayed.
 
-### ServiceNow Otto for Contract Management Pro
+### Now Assist in Contract Management Pro
 
 A generative AI-powered feature that enhances productivity by suggesting contract clauses, and extracting metadata from a signed contract.
 
@@ -1919,9 +1924,9 @@ A predefined capability on the ServiceNow AI Platform that uses generative AI to
 
 An application that uses generative AI to summarize procurement-related records and facilitate conversational procurement tasks.
 
-### ServiceNow Otto
+### Now Assist
 
-ServiceNow Otto refers to generative AI experiences on the ServiceNow AI Platform. With ServiceNow Otto, you can improve productivity and efficiency in your organization with better self-service, faster answers and recommended actions, and empower users to search more effectively.
+Now Assist refers to generative AI experiences on the ServiceNow AI Platform. With Now Assist, you can improve productivity and efficiency in your organization with better self-service, faster answers and recommended actions, and empower users to search more effectively.
 
 ### now code editor
 
@@ -2457,11 +2462,6 @@ A software agent that runs a bot process \(automation\). Robots are designed to 
 
 A category assigned to a group or user to grant access to specific privileges in Service Exchange.
 
-**Related topics**  
-
-
-[service-bridge-v2-personas]
-
 ### RPA Desktop Design Studio
 
 Windows native application that is used by RPA developers to design or configure automation workflows.
@@ -2680,7 +2680,7 @@ A record that stores details on how to interact with an external web service thr
 
 ### sold product
 
-A record representing a product that has been sold to a customer and is actively being delivered or has been delivered. Sold products are created from product orders after order approval and track the lifecycle of the product from activation through billing and eventual decommissioning. Sold products link to the customer account and associated service and resource instances.
+A product or service that is sold to an account or a consumer that can have child and parent sold products in a hierarchical structure.
 
 ### source control
 
@@ -2824,7 +2824,7 @@ A unique 32-character Globally Unique Identifier \(GUID\) that identifies each r
 
 ### system of record
 
-
+The ERP system of record is where the data lives and is distributed from, for example, SAP or Oracle EBS.
 
 ### system property category
 

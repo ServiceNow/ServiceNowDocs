@@ -7,7 +7,7 @@ release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Connect work, Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -38,7 +38,9 @@ Role required: sn\_cwm.cwm\_user
 
 6.  Select the Update count icon \(\[Omitted image "cwm-icon-update-count.png"\] Alt text: Update count icon.\) to check the number of records that exist which match the filter criteria that you updated.
 
-    **Note:** Ensure that the number of records available for your filter criteria are not more than 100.
+    **Note:**
+
+    The matching record count includes every item that meets your import conditions, but the board might display fewer items. Items can be hidden by ACLs or by board preferences. By default, a board shows only items that were updated in the last 90 days, and it can also hide completed items. To see items that match your conditions but aren't displayed, update the board preferences.
 
     \[Omitted image "cwm-connected-work-define.png"\] Alt text: Define conditions to connect records from other ServiceNow applications.
 
@@ -52,6 +54,8 @@ Role required: sn\_cwm.cwm\_user
 ## Result
 
 The Board is refreshed to load the work items based on your changes.
+
+Items that no longer meet the conditions aren't removed from the Board automatically. You can remove them manually or remove the item type from connected work and re-add it with the updated condition.
 
 **Parent Topic:**[Connected work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/unified-boards-for-connected-work-in-cwm.md)
 

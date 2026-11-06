@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2025-07-14"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # EmployeeWorks Web App setup flow
@@ -29,6 +29,8 @@ Follow the guidance to get started with EmployeeWorks Web App.
 -   Review the complete setup flow as explained in [Get started with EmployeeWorks Web App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-getting-started-employee-slate.md).
 -   Go to the **Product Hub** page from an existing ServiceNow instance or a provisioned Moveworks instance and [Configure branding and theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-config-admin-console.md).
 -   Access and install the associated plugins and review the links to documentation and other resources.
+
+**Note:** EmployeeWorks Web App performance enhancements include simple instructions to resolve minor issues on portal and instructions to contact support with required details for persisting errors.
 
 **Related topics**  
 

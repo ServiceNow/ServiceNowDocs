@@ -7,7 +7,7 @@ release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -60,7 +60,7 @@ The following workflows have been deprecated:
 
 Explore
 
- -   Australia
+ -   Brazil
 -   [Domain separation and Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/domain-separation-cloud-management.md)
 
 </td><td>

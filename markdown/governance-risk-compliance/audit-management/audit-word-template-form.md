@@ -7,9 +7,9 @@ release: australia
 product: Audit Management
 classification: audit-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create a Microsoft Word template record for an audit report, Generate an audit report for an engagement using Microsoft Word template, Audit Workspace Overview, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Create a Microsoft Word template record for an audit report, Generate an audit report for an engagement using Microsoft Word template, Audit Workspace overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Word template form
@@ -68,7 +68,7 @@ State of the Word template record defaults to Draft.-   Draft: Defaults to Draft
 -   Published: When the Word template record is published. You can't update the record in the published state.
 -   Edit: State in which the record details can be updated.
 
-**Note:** The Word template record in Edit state can’t be used for report generation. The record isn't available to select in the Generate report pop-up. See [Generate a report for an engagement in a classic report template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/generate-report-engagement-audit-ws.md).
+**Note:** The Word template record in Edit state can’t be used for report generation. The record isn't available to select in the Generate report pop-up. See [Generate a report for an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/generate-report-engagement-audit-ws.md).
 
 
 </td></tr><tr><td>

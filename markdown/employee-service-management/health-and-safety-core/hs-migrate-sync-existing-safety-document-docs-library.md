@@ -7,7 +7,7 @@ release: australia
 product: Health and Safety Core
 classification: health-and-safety-core
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Health and Safety Core, Health and Safety, Employee Service Management]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_ohs\_im.admin
 
 To securely maintain version control of safety documents across multiple languages and locations, Health and Safety applications now use the ServiceNow® Document Management \(com.snc.platform\_document\_management\) plugin. The previous **Standards and Documents** list and its associated table \[sn\_ohs\_im\_document\] have been deprecated.
 
-Use the Document Migration tool to seamlessly move your existing safety documents from the deprecated table to the new **Health and Safety document library** list. This new list is based on the Health and Safety document \[sn\_ohs\_im\_document\_v2\] table. The tool supports batch migration of up to 200 records at a time. After migration, all documents can be efficiently managed within the new list.\[Omitted image "image.hs-document-migration-tool"\] Alt text: Health and Safety Document migration tool showing migration records, their migration status, and count of migrated, pending, and failed records.
+Use the Document Migration tool to seamlessly move your existing safety documents from the deprecated table to the new **Health and Safety document library** list. This new list is based on the Health and Safety document \[sn\_ohs\_im\_document\_v2\] table. The tool supports batch migration of up to 200 records at a time. After migration, all documents can be efficiently managed within the new list.\[Omitted image "hs-document-migration-tool.png"\] Alt text: Health and Safety Document migration tool showing migration records, their migration status, and count of migrated, pending, and failed records.
 
 ## Procedure
 

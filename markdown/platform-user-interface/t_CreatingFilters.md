@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_CreatingFilters.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Filters, Filters and breadcrumbs, Lists in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -34,7 +34,7 @@ Role required: none
 
 5.  Add or remove conditions to construct the desired filter by completing one or more of the following steps.
 
-<table id="choicetable_ll5_44w_tt"><tbody><tr><td id="d138676e135">
+<table id="choicetable_ll5_44w_tt"><tbody><tr><td id="d139949e135">
 
 **To add a top-level condition**
 
@@ -42,7 +42,7 @@ Role required: none
 
 Click **AND** or **OR** on the condition builder toolbar, above the conditions.
 
-</td></tr><tr><td id="d138676e150">
+</td></tr><tr><td id="d139949e150">
 
 **To add a dependent condition**
 
@@ -50,7 +50,7 @@ Click **AND** or **OR** on the condition builder toolbar, above the conditions.
 
 Click **AND** or **OR** beside the condition.
 
-</td></tr><tr><td id="d138676e165">
+</td></tr><tr><td id="d139949e165">
 
 **To remove a condition**
 
@@ -85,7 +85,7 @@ Click **x** beside the condition.
 
 [Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_DotWalking.md)
 
-[bundle-platadm.r_FieldTypes]
+[Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md)
 
 [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/r_OpAvailableFiltersQueries.md)
 

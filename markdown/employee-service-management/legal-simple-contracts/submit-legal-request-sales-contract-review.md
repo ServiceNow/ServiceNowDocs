@@ -7,7 +7,7 @@ release: australia
 product: Legal Simple Contracts
 classification: legal-simple-contracts
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Sales contract review requests, Requests, Legal Simple Contracts, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -28,15 +28,15 @@ You can submit a request for review of a sales contract to engage legal counsel,
 
 1.  Access the sales contract review intake form.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d493384e54">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d492653e54">
 
 Option
 
-</th><th align="left" id="d493384e57">
+</th><th align="left" id="d492653e57">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d493384e63">
+</th></tr></thead><tbody><tr><td id="d492653e63">
 
 **Using __Employee Center__**
 
@@ -47,7 +47,7 @@ Description
 3.  Search for and open the **Sales Contract Review** request item.
 
 
-</td></tr><tr><td id="d493384e106">
+</td></tr><tr><td id="d492653e106">
 
 **Using __Legal Service Portal__**
 

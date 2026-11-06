@@ -7,9 +7,9 @@ release: australia
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Visual Task Boards reference, Visual Task Boards, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Visual Task Boards reference, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
 
 # Domain separation and Visual Task Boards
@@ -39,5 +39,5 @@ Condition-based criteria is used to filter that data. Free-form VTBs' use Privat
 **Related topics**  
 
 
-[bundle-psec.domain-sep-landing-page]
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 

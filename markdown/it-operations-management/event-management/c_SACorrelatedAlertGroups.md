@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Alert grouping types and creation methods, Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -26,7 +26,7 @@ If the Domain Support - Domain Extensions Installer is activated, alert aggregat
 
 ## How does it work
 
-Automated alert grouping uses machine learning \(ML\) and historical data to identify patterns among alerts. It looks at specific characteristics, called pattern identifiers—such as the type of issue, the affected system, CI or metric that happened multiple times within a similar time period—to determine if alerts are related. The Alert Aggregation Learner uses algorithms to group alerts based on patterns. Specifically, it uses pattern-based algorithms and probabilistic methods to analyze incoming alerts and identify related ones.
+Automated alert grouping uses machine learning \(ML\) and historical data to identify patterns among alerts. It examines pattern identifiers—such as issue type, affected system, CI, or metric—that recur within a similar time period to determine whether alerts are related. The Alert Aggregation Learner uses algorithms to group alerts based on patterns. Specifically, it uses pattern-based algorithms and probabilistic methods to analyze incoming alerts and identify related ones.
 
 Think of it like noticing that accidents often happen at a particular intersection at rush hour. The system groups similar alerts \(like recurring traffic jams at the same spot\) together based on certain identifiers \(like location or type of problem\). The system follows these key steps to group alerts effectively:
 

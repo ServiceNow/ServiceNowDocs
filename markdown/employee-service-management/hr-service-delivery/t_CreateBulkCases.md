@@ -7,9 +7,9 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Creating bulk cases, Use HR Case Management, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Creating bulk cases, Use, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Create a bulk case request
@@ -17,8 +17,6 @@ breadcrumb: [Creating bulk cases, Use HR Case Management, Case and Knowledge Man
 Use bulk case request to create the same type of HR case, for multiple employees, without having to create the same case multiple times.
 
 ## Before you begin
-
-\[Omitted video\] Description: Create a bulk case request
 
 Role required: sn\_hr\_core.admin
 

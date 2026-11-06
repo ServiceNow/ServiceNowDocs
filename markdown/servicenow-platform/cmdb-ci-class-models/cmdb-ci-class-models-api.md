@@ -7,9 +7,9 @@ release: australia
 product: CMDB CI Class Models
 classification: cmdb-ci-class-models
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
-breadcrumb: [CMDB CI class models, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB CI class models, CMDB hierarchy, Explore, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # API extension classes
@@ -85,7 +85,7 @@ API Component\[cmdb\_ci\_api\_component\]
 
 </td><td>
 
-The part of an API from which a client or user interacts or makes requests. Example: GET https://\[apiID\].execute-api.us-east-2.amazonaws.com/\{proxy+\}.
+The part of an API from that a client or user interacts or makes requests. Example: GET https://\[apiID\].execute-api.us-east-2.amazonaws.com/\{proxy+\}.
 
 </td></tr><tr><td>
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_RequestPasswordReset.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Self-register, Use Customer Service Portal, Customer communication, Use, Customer Service Management]
 ---
@@ -22,11 +22,11 @@ Role required: none
 
 1.  Navigate to the customer portal login page.
 
-2.  Click the **reset your password here** link.
+2.  Select the **reset your password here** link.
 
 3.  Enter your **User name** and **Email address**.
 
-4.  Click **Reset Password**.
+4.  Select **Reset Password**.
 
 5.  Create a new password before continuing.
 
@@ -34,7 +34,7 @@ Role required: none
 
 7.  Enter the new password again in the **Validate Password** field.
 
-8.  Click **Submit**.
+8.  Select **Submit**.
 
 
 **Related topics**  

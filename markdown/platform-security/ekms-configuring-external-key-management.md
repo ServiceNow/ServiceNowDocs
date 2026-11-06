@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/ekms-configuring-external-key-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [External Key Management Service, Field Encryption, Encryption]
 ---
@@ -35,7 +35,7 @@ Before configuring EKMS, verify that you have:
 -   Created or identified an AWS KMS key
 -   Identity and Access Management \(IAM\) user credentials with KMS permissions
 -   IAM user configured with at least these permissions: kms:DescribeKey, kms:Encrypt, and kms:Decrypt
--   admin, security\_admin, and sn\_kmf.cryptographic\_manager roles in ServiceNow
+-   Admin, Security Admin, and Crypto Manager roles in ServiceNow
 
 -   **[Activate External Key Management Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ekms-activate-external-key-management.md)**  
 Install the External Key Management Service \(EKMS\) plugin and configure user permissions to enable external key management functionality.

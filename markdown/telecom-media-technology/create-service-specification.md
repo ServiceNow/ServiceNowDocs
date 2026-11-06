@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/create-service-specification.html
 release: australia
 topic_type: task
-last_updated: "2026-04-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -308,15 +308,15 @@ Create another version of the specification.
 </td></tr></tbody>
 </table>5.  When you are finished creating the specification version, do one of the following actions.
 
-<table id="choicetable_zw3_3sc_dtb"><thead><tr><th align="left" id="d22058e587">
+<table id="choicetable_zw3_3sc_dtb"><thead><tr><th align="left" id="d22332e587">
 
 Action
 
-</th><th align="left" id="d22058e590">
+</th><th align="left" id="d22332e590">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d22058e596">
+</th></tr></thead><tbody><tr><td id="d22332e596">
 
 **Publish**
 
@@ -326,7 +326,7 @@ Publish the draft specification so that you can use it in a product offering. - 
 -   After you publish a specification, you can't change or delete it, unless you create a version for it.
 
 
-</td></tr><tr><td id="d22058e614">
+</td></tr><tr><td id="d22332e614">
 
 **Update**
 
@@ -334,7 +334,7 @@ Publish the draft specification so that you can use it in a product offering. - 
 
 Update the specification with the new data that you added, but do not publish it for use in a product offering.
 
-</td></tr><tr><td id="d22058e623">
+</td></tr><tr><td id="d22332e623">
 
 **Copy**
 

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-preventive-action.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [preventive action, product quality issue, quality issue management, product non-conformance, Manufacturing Commercial Operations]
-breadcrumb: [Product quality investigation, MCO workspace, Use, Manufacturing Commercial Operations]
+breadcrumb: [Create a product quality investigation, Product quality investigation, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create a preventive action
@@ -21,7 +21,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **List** &gt; **Product Quality Investigation** &gt; **Preventive Action**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **List** &gt; **Product Quality Investigation** &gt; **Preventive Action**.
 
 2.  Select **New**.
 
@@ -31,6 +31,8 @@ Role required: admin
 
 4.  Select **Save**.
 
+
+**Parent Topic:**[Create a product quality investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-create-product-quality-investigation.md)
 
 **Related topics**  
 

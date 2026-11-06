@@ -7,9 +7,9 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 3
-breadcrumb: [Assistant Designer bot responses, Assistant Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Assistant Designer bot responses, Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Image bot response control
@@ -84,18 +84,11 @@ No-code condition statement or low-code script that specifies a condition for pr
 
 |Channel|Support|Constraints|
 |-------|-------|-----------|
-|Web UI|Supported|The maximum image size is determined by the **com.glide.attachment.max\_size** system property. The default value is 1024 MB.|
-|Mobile UI|Supported|The maximum image size is determined by the **com.glide.attachment.max\_size** system property. The default value is 1024 MB.|
-|ServiceNow Otto panel|Not supported|Not applicable|
 |Microsoft Teams|Supported|None|
 |Slack|Supported|For details about the maximum image size allowed, check the Slack documentation.|
-|Workplace|Supported|For details about the maximum image size allowed, check the Workplace documentation.|
-|Facebook Messenger|Supported|For details about the maximum image size allowed, check the Facebook Messenger documentation.|
 |SMS Twilio|Supported|File size limits may vary. For Twilio limitations, check their [Accepted Content Types for Media](https://www.twilio.com/docs/sms/accepted-mime-types).|
-|LINE|Supported|File size limits may vary. For details, see the LINE documentation.|
 |WhatsApp|Supported|File size limits may vary. For details, see the WhatsApp documentation.|
-|Apple Messages for Business|Supported|None|
-|Alexa \(Voice\)|Partial support|Supported on devices with screens. For nonscreen devices, the user receives a message: `We found an image`. For details, see [Fine-tune Virtual Agent settings and topics for the best Alexa voice chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-settings-for-alexa.md).|
+|Google Chat|Supported|None|
 
 ## Example Image bot response control
 

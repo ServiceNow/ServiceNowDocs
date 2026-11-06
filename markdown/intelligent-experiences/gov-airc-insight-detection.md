@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-10-01"
 reading_time_minutes: 3
 keywords: [actionable intelligence, stalled lifecycle tasks, significant issues, AI insight, Your top recommendations]
-breadcrumb: [Reviewing AI governance posture and compliance status, Managing risk and compliance, Govern AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Reviewing AI governance posture and compliance status, Managing risk and compliance, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Detecting governance insights
@@ -43,6 +43,8 @@ AI-generated summaries and prioritization can be inaccurate or incomplete. Revie
 ## Automating a response
 
 Stalled Lifecycle Tasks recommendations include an **Automate with Otto** action. Selecting it opens a confirmation dialog box with the message `Automate this action item? This will initiate a workflow run by an unsupervised agent.` Review the recommendation before you proceed. Select **Automate** to proceed, or select **Cancel**. Significant Issues recommendations don't have this option. Resolve them directly from the issue list.
+
+When you confirm, the agent sends an email reminder to the assignee of each overdue or dormant lifecycle task on the AI systems in the recommendation. Each person receives one email per AI system that lists their tasks. The agent doesn't complete, reassign, or update the tasks. The recommendation shows the outcome of the run, including who was notified about which tasks.
 
 ## Viewing recommendation details
 

@@ -7,7 +7,7 @@ release: australia
 product: Project Management
 classification: project-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -44,7 +44,7 @@ There are several paths available to manage a project. The best path usually dep
 |[Manage status of your projects using Project Status application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/mobile-project-status.md)|Track the status of your projects, collaborate with stakeholders to resolve exceptions, and take timely actions regardless of your location using project status application.|portfolio\_manager or project\_manager or program\_manager|
 |[Using Project workbench - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_ProjectWorkbench.md)|The Project Workbench supports hybrid project models by combining waterfall, agile, and test phases in a single project framework.|it\_project\_manager|
 |[Using Teamspaces in Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_Teamspaces.md)|Use teamspaces to centralize key PPM modules in one location and to improve accessibility and team productivity.|it\_pps\_admin, admin|
-|[PPM Collaboration for project teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/ppm-collab-overview.md)|Enhance team collaboration on Slack or Microsoft Teams with the PPM Collaboration application.|it\_project\_manager|
+|[Collaborate with your project teams using PPM Collaboration application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/ppm-collab-overview.md)|Enhance team collaboration on Slack or Microsoft Teams with the PPM Collaboration application.|it\_project\_manager|
 |[Virtual Agent for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/ppm-va-overview.md)|Obtain business-related information by interacting with a virtual agent via messaging platforms using Virtual Agent for PPM.|admin, virtual\_agent\_admin|
 
 ## Integration with Project Portfolio Management

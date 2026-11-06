@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_AssignTeamMemberToAccount.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Creating an account team, Create customer relationships, Configure accounts and contacts, Customer data, Set up your environment, Configure, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Creating an account team member, Create customer relationships, Configure accounts and contacts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Assign a team member to an account
@@ -88,6 +88,32 @@ Order
 </td><td>
 
 Specifies the sequence in which records are displayed, organized according to business preferences.
+
+</td></tr><tr><td>
+
+Active
+
+</td><td>
+
+Indicates whether this team membership is currently in effect. **Note:** The default value is set to **True**.
+
+If the active flag is **True**, access is granted through the relationship. However, if the active flag is **False**, no access is granted through the relationship.
+
+</td></tr><tr><td>
+
+Start date
+
+</td><td>
+
+Date when the relationship is set to active.
+
+</td></tr><tr><td>
+
+End date
+
+</td><td>
+
+Date when the relationship ends or is closed.**Note:** If both dates are set, the end date must be later than the start date.
 
 </td></tr></tbody>
 </table>5.  Select **Submit**.

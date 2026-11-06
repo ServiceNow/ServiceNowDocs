@@ -7,7 +7,7 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Mute an unimportant alert, Assign higher or lower significance to an alert, Managing alert generation, prioritization, anomaly detection, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -32,8 +32,6 @@ Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
     |Metric|Log text or key that represents a meter or gauge value in the data. For example, patterns, raw metrics, keyword, severity, all events metrics.|
     |Created|Date and time when the metric was added to the list.|
 
-
-**Parent Topic:**[Mute an unimportant alert in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-op-alert-mute-sow.md)
 
 **Related topics**  
 

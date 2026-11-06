@@ -7,10 +7,10 @@ release: australia
 product: Data Discovery
 classification: data-discovery
 topic_type: reference
-last_updated: "2026-06-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [error, error message, troubleshooting, LLM unreachable]
-breadcrumb: [Using Text to RegEx, Create new data pattern, Data Discovery sources, Data Discovery Store, Data Discovery, Platform Privacy]
+breadcrumb: [Using Text to RegEx with the classic UI, Create new data pattern, Data Discovery sources, Data Discovery Store, Data Discovery, Platform Privacy]
 ---
 
 # Text to RegEx error handling

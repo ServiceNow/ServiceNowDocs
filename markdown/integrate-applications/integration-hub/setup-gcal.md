@@ -1,6 +1,6 @@
 ---
 title: Set up the Google Calendar spoke
-description: Set up an outbound integration between your ServiceNow instance and the Google Calendar Application Programming Interfaces \(API\) by setting up a connection and credential record.Create an OAuth application on the Google Calendar that authenticates requests to access the Google Calendar APIs from your ServiceNow instance. After successful authentication, you can generate an OAuth token that your ServiceNow can use to access the Google Calendar APIs.Create a connection and credential record that enables your ServiceNow instance to integrate with the Google Calendar Application Programming Interface \(API\).
+description: Set up an outbound integration between your ServiceNow instance and the Google Calendar Application Programming Interfaces \(API\) by setting up a connection and credential record.Create an OAuth application on the Google Calendar that authenticates requests to access the Google Calendar APIs from your ServiceNow instance. After successful authentication, you can generate an OAuth token that your ServiceNow can use to access the Google Calendar APIs.Configure a connection to your Google Calendar account. The Google Calendar spoke connection and credential aliases use these connections to perform actions in Google Calendar.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-gcal.html
 release: australia
@@ -165,9 +165,9 @@ Type of data that your ServiceNow instance accesses from the Google Calendar app
 7.  Select **DONE**.
 
 
-## Create Connection and Credential record for the Google Calendar spoke
+## Configure a connection for the Google Calendar spoke
 
-Create a connection and credential record that enables your ServiceNow instance to integrate with the Google Calendar Application Programming Interface \(API\).
+Configure a connection to your Google Calendar account. The Google Calendar spoke connection and credential aliases use these connections to perform actions in Google Calendar.
 
 ### Before you begin
 
@@ -201,18 +201,22 @@ The connection and credential record includes the details that you had set up wh
     |Field|Value required|
     |-----|--------------|
     |Connection Information|
-    |Name|Auto-generated name to identify the connection record.|
-    |URL|Auto-generated URL for the Google APIs website.|
+    |Connection Name|Auto-generated name to identify the connection record.|
+    |Connection URL|Auto-generated URL for the Google APIs website.|
     |API Version|Auto-generated input of the current API version.|
     |Credential Information|
     |OAuth Client ID|Client ID you created during the Google Calendar application registration.|
     |OAuth Client Secret|Key value you created during the Google Calendar application registration.|
     |OAuth Redirect URL|Redirect URL of your ServiceNow instance in this format: `https://<instance-name>.service-now.com/oauth_redirect.do`.|
-    |Auth URL|Authorization URL for your Google Calendar configuration.|
-    |Token URL|Token URL for your Google Calendar configuration.|
+    |OAuth Authorization URL|Authorization URL for your Google Calendar configuration.|
+    |OAuth Token URL|Token URL for your Google Calendar configuration.|
 
     \[Omitted image "gcalendar-config-temp.png"\] Alt text: Configure a connection for the Google Calendar spoke.
 
 6.  Click **Save and Get OAuth Token**.
 
+
+### Result
+
+The Google Calendar spoke is set up and integrated with the ServiceNow instance.
 

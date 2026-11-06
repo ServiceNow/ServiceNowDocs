@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 breadcrumb: [Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -39,7 +39,7 @@ The following examples highlight the primary advantages of using code signing:
 
 Code signing for Discovery requires the following dependencies:
 
--   You must be using the Australia version of the ServiceNow AI Platform.
+-   You must be using the Brazil version of the ServiceNow AI Platform.
 -   You must have the following ServiceNow Store applications and versions installed:
     -   Discovery Admin Workspace v1.13.0
     -   Visibility Content v6.13.10

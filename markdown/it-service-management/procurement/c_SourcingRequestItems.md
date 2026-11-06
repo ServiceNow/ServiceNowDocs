@@ -7,7 +7,7 @@ release: australia
 product: Procurement
 classification: procurement
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Procurement, Asset Management common applications, IT Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Procurement, Asset Management common applications, IT Service Manag
 
 A service catalog request can contain multiple items that must be sourced.
 
-\[Omitted image "image.mmassert0021870-source-request-type-source-request-type"\] Alt text: methods of sourcing requested items
+\[Omitted image "source\_request\_type.png"\] Alt text: Methods of sourcing requested items
 
 **Note:** Only items with an assigned model can be sourced. You can’t source bundles.
 

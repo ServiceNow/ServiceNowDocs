@@ -7,7 +7,7 @@ release: australia
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [IT Operations Management]
 ---
@@ -26,7 +26,7 @@ These automated processes empower businesses to quicken their journey towards cl
 
 -   **[Cloud Account Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/cam-landing.md)**
 
-    Use the ServiceNow® [Cloud Account Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/cam-landing.md) app for efficiently managing and provisioning of cloud accounts. The app allows you to either obtain manual approvals for account creation—ensuring that the process is closely monitored and verified by relevant stakeholders—or to automate the approval process based on predefined rules and conditions, saving time and reducing manual intervention.
+    Use the ServiceNow® [Cloud Account Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/cam-landing.md) app for efficiently managing and provisioning of cloud accounts. The app allows you to either obtain manual approvals for account creation, ensuring the process is monitored and verified by relevant stakeholders, or automate the approval process based on predefined rules and conditions. Automation saves time and reduces manual intervention.
 
 -   **[Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-services-catalog/csc-home.md)**
 

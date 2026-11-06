@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Use, Content Understanding, Enable AI experiences]
+breadcrumb: [Use, Content Understanding, Generative AI skills, Enable AI Experiences]
 ---
 
 # Use Information Extraction skill

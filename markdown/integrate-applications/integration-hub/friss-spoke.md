@@ -52,7 +52,7 @@ If you’re having trouble installing the app, ensure that these dependent plugi
 **Note:**
 
 -   Some of these plugins may require the appropriate licensing if used outside the spoke implementation.
--   The flow actions input parameter is provided for you to use. For more information on the sample input data structure and data types used in an array and object, see Complex data.
+-   The flow actions input parameter is provided for you to use. For more information on the sample input data structure and data types used in an array and object, see [Complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/complex-data.md).
 
 ## Spoke actions
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/kc-create-article-with-Box.html
 release: australia
 topic_type: task
-last_updated: "2026-05-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using Knowledge Center, Knowledge Center, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -33,7 +33,7 @@ Role required: agent
 
     **Note:** If **Box** doesn't appear in the **Source** drop-down, contact your administrator.
 
-3.  In the ServiceNow Otto context menu, enter a prompt that describes the article you want to create.
+3.  In the AI context menu, enter a prompt that describes the article you want to create.
 
     For example, enter `Create an article about password reset`.
 
@@ -46,8 +46,6 @@ Role required: agent
     -   **User not authorized**: An error message states `Unable to retrieve Box identity for this account`. This occurs when you do not have a Box account. Contact your administrator to set up a Box account for you.
 5.  Review the article for accuracy and completeness, and make any necessary edits before publishing.
 
-
-**Parent Topic:**[Using ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-in-knowledge-management/using-now-assist-in-km.md)
 
 **Related topics**  
 

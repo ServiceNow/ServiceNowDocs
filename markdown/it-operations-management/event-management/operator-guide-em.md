@@ -7,8 +7,8 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
@@ -58,7 +58,7 @@ Lesson 4
 
 </td></tr></tbody>
 </table>-   **[An overview of alerts for Event Management operators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/operator-events-alerts.md)**  
-Understand how alerts are generated from events, what to look for in an alert, and how alerts can be grouped together.
+As an Event Management operator, understand how alerts are generated from events, what to look for in alerts, and how alerts are grouped.
 -   **[Application services for Event Management operators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/operator-application-services.md)**  
 As an Event Management operator, you need to understand what application services are.
 -   **[Event Management operator environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/operator-user-interfaces.md)**  

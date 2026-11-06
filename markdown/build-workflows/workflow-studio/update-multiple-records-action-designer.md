@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Steps, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -88,7 +88,7 @@ Update System Fields
 
 </td><td>
 
-Select if you want to automatically update [system fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_GlobalDefaultFields.md) such as **Updated by**.
+Select if you want to automatically update system fields such as **Updated by**.
 
 </td></tr><tr><td>
 

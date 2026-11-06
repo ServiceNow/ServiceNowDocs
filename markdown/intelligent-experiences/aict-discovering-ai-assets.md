@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-discovering-ai-assets.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-25"
-reading_time_minutes: 2
+last_updated: "2026-10-28"
+reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, use]
-breadcrumb: [AI Control Tower, Enable AI experiences]
+breadcrumb: [AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Discovering and managing AI assets
@@ -36,4 +36,8 @@ AI Gateway manages MCP \(Model Context Protocol\) server connections, providing 
 When an MCP server is added through AI Agent Studio, AI Gateway tracks the connection, monitors transaction volumes and success rates, and enforces approval workflows if MCP server approval controls are active. AI stewards can review MCP server records, pause and resume transactions, and manage global MCP clients from the AI Gateway settings page.
 
 AI Gateway provides a comprehensive view of all connected MCP servers, showing name, total transactions, and success rate. Total transactions represent all tool calls \(MCP method equal to "tools/call"\), and the success rate reflects the proportion of those calls returning a successful HTTP status.
+
+## ServiceNow Arc agent records
+
+ServiceNow Arc appears in the inventory as a single agent record, and each installation on a user's device is tracked as an instance of that record. On the **Fleet** tab, you can see who has Arc installed, when each installation last reported, and whether it can run. AI stewards can block Arc on specific devices from this tab and unblock it later, without affecting other installations. See [Working with ServiceNow Arc agent records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/disc-working-with-arc-agent-records.md).
 

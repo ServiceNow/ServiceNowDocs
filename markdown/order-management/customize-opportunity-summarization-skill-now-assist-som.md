@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/customize-opportunity-summarization-skill-now-assist-som.html
 release: australia
 topic_type: task
-last_updated: "2026-05-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [opportunity summarization, generative AI skill, customize skill]
 breadcrumb: [Opportunity Management, Sales automation apps, Configure, Sales Customer Relationship Management]

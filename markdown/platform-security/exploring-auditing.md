@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/exploring-auditing.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Auditing]
 ---
@@ -97,7 +97,7 @@ Audits have been set to create a record immediately in the same transaction with
 
 **Note:** The enhanced audit process is enabled by default. If the `glide.db.audit.lazy`property is set to `True`, the enhanced audit process is disabled.
 
-Prior to Australia release, if a transaction is cancelled, certain auditable operations were missed being recorded. This is because the platform executes some operations between the record change and is cancelled before audit creation. But, now audits are created immediately after the record is changed, reducing the chances of a cancelled transaction aborting the operation before the audit is recorded.
+Prior to Brazil release, if a transaction is cancelled, certain auditable operations were missed being recorded. This is because the platform executes some operations between the record change and is cancelled before audit creation. But, now audits are created immediately after the record is changed, reducing the chances of a cancelled transaction aborting the operation before the audit is recorded.
 
 Audits are now recorded in the same thread as the transaction. Earlier audits were created in a background thread. This change redefines the default value of the `glide.db.audit.lazy` property from True to False. This property is not usually defined in the Properties table because the majority of instances start using the new default value and behavior. On some instances, this property might be already present and set as True, which means that these instances won’t be able to use this change to audit behavior.
 

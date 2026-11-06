@@ -8,7 +8,7 @@ product: Integration Hub
 classification: integration-hub
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Oracle Peoplesoft Financial Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
@@ -166,93 +166,8 @@ Integrate the Oracle Peoplesoft Financial and ServiceNow instances, and authenti
     
     ```
 
-5.  Configure a connection record for the Oracle Peoplesoft Financial spoke.
 
-    1.  Log in to the ServiceNow instance as an admin.
+## Result
 
-    2.  Navigate to **All** &gt; **Process Automation** &gt; **Flow Designer**
-
-    3.  Select the **Connections** tab.
-
-    4.  Locate the **Oracle\_PeopleSoft** alias and click **View Details**.
-
-        **Note:** Don't click **Add Connection**.
-
-        \[Omitted image "orc-peoplesft-conn-template.png"\] Alt text: Oracle Peoplesoft spoke connection template alias
-
-    5.  Click **Configure**.
-
-        \[Omitted image "orc-pplesft-con-tempt-confg.png"\] Alt text: Oracle Peoplesoft spoke connection template configuration
-
-    6.  On the **Configure Connection**, fill in the fields.
-
-<table id="table_bb4_lrl_q1c"><thead><tr><th>
-
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Connection Name
-
-</td><td>
-
-Name to uniquely identify the connection.
-
-</td></tr><tr><td>
-
-Connection URL
-
-</td><td>
-
-Base URL obtained from the generated WSDL URL. **Note:** Remove the `<webservice-endpoint>.wsdl` part of the WSDL URL while specifying the Connection URL.
-
-</td></tr><tr><td>
-
-User name
-
-</td><td>
-
-User name of your Oracle Peoplesoft Financial account.
-
-</td></tr><tr><td>
-
-Password
-
-</td><td>
-
-Password of your Oracle Peoplesoft Financial account.
-
-</td></tr></tbody>
-</table>    7.  Click **Configure Connection**.
-
-6.  Provide Oracle Peoplesoft Financial credentials to use the Process Trigger action.
-
-    1.  Log in to the ServiceNow instance as an admin.
-
-    2.  Navigate to **Oracle Peoplesoft Credentials** &gt; **Oracle Peoplesoft Credentials**.
-
-    3.  Click **New**.
-
-    4.  On the form, enter the username and password of user with the required permissions.
-
-    5.  Click **Submit**.
-
-7.  Retrieve details of the daily suppliers up to the required date.
-
-    1.  Log in to the ServiceNow instance as an admin.
-
-    2.  Navigate to **PSFT Flow Execution** &gt; **PSFT Flow Executions**.
-
-    3.  Click **New**.
-
-    4.  Select the date up to which you want to retrieve the daily suppliers data in **Last Successfull Execution**.
-
-    5.  Click **Submit**.
-
-    Based on the trigger you have configured in the Polling Suppliers subflow, data is retrieved periodically. To view the data, navigate to **PSFT** &gt; **PSFT Data**.
-
+The project, web services, permissions, and the SN\_ACCT\_ENTRY journal entry are set up on your Oracle Peoplesoft Financial account.
 

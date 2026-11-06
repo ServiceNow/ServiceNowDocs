@@ -7,7 +7,7 @@ release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Connect Workplace Reservation Management with Microsoft Teams, Configure, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -30,7 +30,7 @@ In order for Workplace Reservation Management to be able to generate Microsoft T
 
 2.  Navigate to **Azure Services** &gt; **Azure Active Directory** &gt; **Manage** &gt; **App registrations**.
 
-3.  If you do not have an app registration, select **New registration**.
+3.  If you do not have an app registration, click **New registration**.
 
     1.  On the form, enter the **Name** of the registration.
 
@@ -55,13 +55,13 @@ In order for Workplace Reservation Management to be able to generate Microsoft T
         |Redirect URL|Enter a URL in the format: https://\[instance\].service-now.com/oauth\_redirect.do|
         |Implicit grant|Check **Access tokens**, and **ID tokens**|
 
-    4.  Select **Configure**.
+    4.  Click **Configure**.
 
 5.  Add a client secret.
 
     1.  Navigate to **Manage** &gt; **Certificates and secrets**.
 
-    2.  Select **New client secret**
+    2.  Click **New client secret**
 
     3.  In the **Description** field, enter a short description about the secret.
 
@@ -119,6 +119,18 @@ Create virtual meeting link
 
 </td></tr><tr><td>
 
+Directory.Read.All
+
+</td><td>
+
+Read directory data
+
+</td><td>
+
+Create virtual meeting link
+
+</td></tr><tr><td>
+
 Chat.Read.All
 
 </td><td>
@@ -132,13 +144,13 @@ This is optional and is required only to retrieve meeting recordings.
 Retrieve meeting recording
 
 </td></tr></tbody>
-</table>    5.  Select **Chat.Read.All**, **OnlineMeetings.ReadWrite.All** and **User.Read.All**.
+</table>    5.  Select **Chat.Read.All**, **Directory.Read.All**, **OnlineMeetings.ReadWrite.All** and **User.Read.All**.
 
         **Note:** Select **Chat.Read.All** to retrieve the meeting recordings.
 
     6.  Select **Add permissions**.
 
-    7.  On the Configured permissions screen, select **Grant admin consent for ServiceNow**.
+    7.  On the Configured permissions screen, click **Grant admin consent for ServiceNow**.
 
     8.  Select **Yes**.
 

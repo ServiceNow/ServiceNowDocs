@@ -7,7 +7,7 @@ release: australia
 product: Workplace Central
 classification: workplace-central
 topic_type: task
-last_updated: "2026-03-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with Kiosk Indoor Mapping, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---

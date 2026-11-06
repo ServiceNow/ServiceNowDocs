@@ -7,7 +7,7 @@ release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
@@ -28,15 +28,15 @@ Role required: wm\_dispatcher
 
 3.  Edit or delete the event.
 
-<table id="choicetable_knz_ztn_11c"><thead><tr><th align="left" id="d72972e91">
+<table id="choicetable_knz_ztn_11c"><thead><tr><th align="left" id="d75122e91">
 
 Option
 
-</th><th align="left" id="d72972e94">
+</th><th align="left" id="d75122e94">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d72972e100">
+</th></tr></thead><tbody><tr><td id="d75122e100">
 
 **Edit the event**
 
@@ -48,7 +48,7 @@ Actions
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d72972e130">
+</td></tr><tr><td id="d75122e130">
 
 **Delete the event**
 

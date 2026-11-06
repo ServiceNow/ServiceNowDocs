@@ -7,7 +7,7 @@ release: australia
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-08-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AI skill, ServiceNow Otto, Gen AI, Generative AI, SPM, Strategic Portfolio Management, Refine records]
 breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
@@ -29,7 +29,7 @@ Role required: it\_demand\_manager, it\_demand\_user
 
 The refine records skill uses other fields in the form to generate content for rich or long text fields. You can select existing text or enter new text, then shorten or elaborate it without losing key information.
 
-To shorten or elaborate text fields using Playbook activities, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/use-playbooks-in-ppw.md).
+To shorten or elaborate text fields using Playbook activities, see [Use playbook for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/use-playbooks-in-ppw.md).
 
 **Note:** AI-generated content may be inaccurate or incomplete. Review all AI-generated text before saving the record.
 

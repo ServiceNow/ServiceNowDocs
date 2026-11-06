@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/response-templates-templated-snippets.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -72,7 +72,7 @@ Response template administrator \[sn\_templated\_snip.template\_snippet\_admin\]
 </td></tr></tbody>
 </table>Before you begin using response templates, you must assign these roles to the appropriate roles, groups, or users in your application.
 
--   To assign a role to another role, see [Add a role to an existing role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddARoleToAnExistingRole.md).
+-   To assign a role to another role, see Add a role to an existing role.
 -   To assign a role to a group, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignRoleToGroup.md).
 -   To assign a role to a user, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignARoleToAUser.md).
 
@@ -90,7 +90,7 @@ Users with the response template writer \[sn\_templated\_snip.template\_snippet\
 
 For more information, see [Create or modify a response template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/create-modify-templated-snippet.md).
 
-Users with the response template reader \[sn\_templated\_snip.template\_snippet\_reader\] role can then copy response template content and use it in their responses to users when working on case or task forms that meet the specified conditions. For example, a response template for payroll discrepancy cases enables HR agents to use a standardized message when responding to that case type. See [Copy a response template to an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-templated-snippets.md) for an HR-specific example.
+Users with the response template reader \[sn\_templated\_snip.template\_snippet\_reader\] role can then copy response template content and use it in their responses to users when working on case or task forms that meet the specified conditions. For example, a response template for payroll discrepancy cases enables HR agents to use a standardized message when responding to that case type. See Copy a response template to an HR case for an HR-specific example.
 
 ## Response template to escalate payroll discrepancy cases
 

@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-09-28"
 reading_time_minutes: 2
-breadcrumb: [Financial Services Operations AI Agents, Financial Services Operations, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [Financial Services Operations AI Agents, Financial Services Operations, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Banking CSR customer insights AI agent

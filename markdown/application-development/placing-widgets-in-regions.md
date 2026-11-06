@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-29"
 reading_time_minutes: 6
 keywords: [Placing widgets in regions, Seams and widget placement, Adding a widget from the toolbox, Configuring a widget inside a region, One surface per element, Related]
-breadcrumb: [Layout configuration, Configure experiences, Lux Development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Layout configuration, Configure experiences, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Placing Lux widgets in regions

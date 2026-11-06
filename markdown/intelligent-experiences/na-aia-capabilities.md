@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/na-aia-capabilities.html
 release: australia
 topic_type: reference
-last_updated: "2026-02-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [AI agents best practices, Explore, AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [AI agents best practices, Explore, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # AI agents capabilities

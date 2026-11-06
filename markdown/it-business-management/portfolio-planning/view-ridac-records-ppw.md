@@ -7,7 +7,7 @@ release: australia
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-08-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [view RIDAC, RIDAC home page, filter RIDAC, RIDAC records]
 breadcrumb: [Using RIDAC in Portfolio Planning Workspace, Portfolio Planning, Strategic Portfolio Management]

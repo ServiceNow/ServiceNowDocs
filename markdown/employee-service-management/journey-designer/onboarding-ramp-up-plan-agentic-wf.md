@@ -7,14 +7,20 @@ release: australia
 product: Journey Designer
 classification: journey-designer
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
-breadcrumb: [AI in Journey designer, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [AI in Journey designer, Use, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Generate onboarding ramp-up plan agentic workflow
 
 The Generate onboarding ramp-up plan agentic workflow is an AI-powered solution that helps managers at your organization onboard new employees more efficiently. This workflow uses a team of AI agents to generate team specific and personalized plans for every new hire.
+
+The Generate onboarding ramp-up plan agentic workflow supports the employee journey from preboarding to onboarding.
+
+Managers typically create onboarding plans to help new employees develop the knowledge and skills they need. Creating personalized, team-specific plans is time-consuming. If the plans don't effectively prepare new employees, managers must spend additional time on training.
+
+This agentic workflow automates the process of generating onboarding ramp-up plans, reducing the workload for managers.
 
 The Generate onboarding ramp-up plan agentic workflow facilitates the employee journey that transpires from the preboarding phase to the onboarding phase. As newly hired employees transition from preboarding to onboarding, managers are responsible for producing onboarding plans that ramp up the knowledge and skill of new employees joining their team. Creating onboarding plans, especially personalized, team-specific plans, is a time-consuming process for managers that quickly devolves into an increased burden. This agentic workflow for generating onboarding ramp-up plans significantly reduces the workload for managers by converting a cumbersome process into an automated workflow.
 
@@ -23,7 +29,7 @@ The Generate onboarding ramp-up plan agentic workflow provides the following ben
 -   Automates onboarding plan creation by eliminating the need for managers to design individualized plans manually.
 -   Generates team-specific and role-specific onboarding plans tailored to new hires.
 -   Minimizes the administrative efforts required from managers during onboarding.
--   Ensures that onboarding plans are standardized while still accommodating team differences.
+-   Verifies that onboarding plans are standardized while still accommodating team differences.
 -   Speeds up the process of preparing new hires for their roles.
 -   Focuses on structured knowledge and skill acquisition for new hires from the start.
 
@@ -101,4 +107,17 @@ To achieve optimum output of the Generate Onboarding ramp-up plan agent, the fol
 -   Learning \(sn\_lep\)
 -   Hiring Core \(sn\_ta\_hiring\_core\)
 -   Journey Designer \(sn\_jny\)
+
+-   **[Set Onboarding ramp up trigger to use Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/set-trigger-emp-center.md)**  
+Set Onboarding ramp-up trigger to use Employee Center portal in the trigger configuration so the onboarding ramp-up plan workflow is accessible through the portal. Without setting the portal, the trigger will not be visible or usable in the Employee Center portal.
+-   **[Activate Onboarding ramp-up trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/activate-trigger-rampup.md)**  
+Activate the Onboarding ramp-up trigger to automatically generate onboarding plans at the appropriate time during employee onboarding, reducing manual setup for managers.
+-   **[Activate the associated AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/turn-on-nowassist-skills.md)**  
+Activate the AI skills to analyze interview notes and job descriptions, extract keywords, and identify relevant skills for improved skill gap analysis and personalized ramp-up plans. Enable the AI skills to allow the system to analyze interview notes and job descriptions, extract keywords, and identify relevant skills. This improves skill gap analysis and ensures accurate, personalized ramp-up plans for new employees.
+-   **[Add Employee Center to Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/enable-na-va-ec.md)**  
+Add Now Assist in Virtual Agent to the Employee Center display experience to enable AI agent conversations during agentic workflow processes.
+-   **[Review and edit onboarding ramp-up plans using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/review-edit-ramp-up-plan-na.md)**  
+Review and edit AI-generated onboarding ramp-up plans using Now Assist in Virtual Agent. After approval, the plan is added to the new employee's onboarding journey.Managers working for organizations using the Generate onboarding ramp-up plan agentic workflow can use ServiceNow Otto to review and edit personalized onboarding plans generated by a team of AI agents. Once the manager approves a plan that they reviewed, the corresponding plan is added to the new employee's onboarding journey.
+
+**Parent Topic:**[AI in Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/agentic-wf-jny-dsgnr-na-hrsd.md)
 

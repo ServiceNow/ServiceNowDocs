@@ -7,7 +7,7 @@ release: australia
 product: Time Card Management
 classification: time-card-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Time Sheet Portal, Time Card management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -38,15 +38,15 @@ During out-of-office time, the user manager can [delegate another user](https://
 
 4.  Click **Approve** or **Reject**.
 
-<table id="choicetable_z2p_nk2_zfb"><thead><tr><th align="left" id="d340123e116">
+<table id="choicetable_z2p_nk2_zfb"><thead><tr><th align="left" id="d352738e116">
 
 Action
 
-</th><th align="left" id="d340123e119">
+</th><th align="left" id="d352738e119">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d340123e125">
+</th></tr></thead><tbody><tr><td id="d352738e125">
 
 **Approve**
 
@@ -57,7 +57,7 @@ Result
 -   A Time Card Daily record is created for each time card to record the time logged.
 
 
-</td></tr><tr><td id="d340123e162">
+</td></tr><tr><td id="d352738e162">
 
 **Reject**
 

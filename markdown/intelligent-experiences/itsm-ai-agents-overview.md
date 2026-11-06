@@ -6,13 +6,15 @@ canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experienc
 release: australia
 topic_type: concept
 last_updated: "2026-08-04"
-reading_time_minutes: 11
-breadcrumb: [IT Service Management, AI agents library, AI assets, Enable AI experiences]
+reading_time_minutes: 5
+breadcrumb: [IT Service Management, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # IT Service Management AI agents
 
 The following AI agents are available for IT Service Management.
+
+**Important:** For a list of agentic workflows for ServiceNow Otto for IT Service Management \(ITSM\), see [Use agentic AI in ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-ai-agents-use-cases.md).
 
 -   **[Additional incident context AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/itsm-additional-incident-context-agent-ai-agent.md)**  
 This AI agent retrieves information beyond the incident itself and presents the output in a readable format. This agent is strictly read-only; it can only retrieve and present information. It cannot update, modify, or perform any write operations on any records \(such as adding comments, changing fields, reassigning, resolving, or closing incidents\).
@@ -41,7 +43,7 @@ This AI agent identifies the most relevant change template and model for new cha
 -   **[Classify service and CI AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/itsm-classify-service-and-ci-ai-agent.md)**  
 This AI agent assigns the appropriate service and offering to an incident. It can also assign the appropriate configuration item.
 -   **[Create incident AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/itsm-create-incident-ai-agent.md)**  
-This AI agent manages the end-to-end process of formally logging IT support requests, specifically for user requests like "create an incident," "raise an incident," "open a new incident," "open an IT ticket," or "raise an IT support ticket."
+Use this AI agent to log IT support requests. It responds to requests such as "create an incident," "raise an incident," "open an IT ticket," or "raise an IT support ticket."
 -   **[Create incident AI voice agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/itsm-create-incident-with-voice-ai-voice-agent.md)**  
 This AI agent creates new incidents when the user explicitly mentions they want to create a new incident or report a new issue.
 -   **[DEX diagnosis AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/itsm-dex-dex-diagnosis-ai-agent.md)**  

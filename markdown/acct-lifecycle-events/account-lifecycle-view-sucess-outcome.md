@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-view-sucess-outcome.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage engagements, Customer success, Use, Customer Success Management]
 ---
@@ -17,7 +17,7 @@ A primary success outcome refers to the result or goal that is used to measure t
 When you create a success blueprint for an engagement, you can define success objectives and outcomes for each objective. See [Create a success blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-create-success-blueprint.md) for details. You can view this page either by navigating from the Engagement record page or by following these steps:
 
 1.  Login as a user with the sn\_acct\_lc.customer\_success\_agent role.
-2.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** and select the **List** icon.
+2.  Navigate to **Workspaces** &gt; **CRM Workspace** and select the **List** icon.
 3.  Navigate to **Customer Success** &gt; **All Outcomes** and select **Number** column to open the Primary success outcome record.
 
 This page contains the following tabs:

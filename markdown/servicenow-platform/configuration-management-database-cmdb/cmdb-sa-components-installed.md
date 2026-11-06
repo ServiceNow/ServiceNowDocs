@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2026-07-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [CMDB success advisor scheduled jobs, CMDB success advisor tables installed, components installed with CMDB success advisor, CMDB advisor daily data collection jobs, sn\_cmdb\_advisor tables]
 breadcrumb: [Reference, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]

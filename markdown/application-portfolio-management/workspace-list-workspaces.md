@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/workspace-list-workspaces.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
@@ -40,17 +40,13 @@ A workspace is a suite of tools that provides agents, case managers, help desk p
 
     Continuous Authorization and Monitoring employs the seven steps defined by the Risk Management Framework \(RMF\) to allow you to make better-informed decisions about your security posture.
 
--   **[CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md)**
+-   **[CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md)**
 
-    CSM Configurable Workspace is a user interface that provides agents with the tools they need to answer customer questions and resolve customer issues.
+    CRM Workspace is a user interface that provides agents with the tools they need to answer customer questions and resolve customer issues.
 
 -   **[Digital Portfolio Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/dpm-landing.md)**
 
     Manage and maintain all your solutions \(services, service offerings, business applications, and application services\) from a single location using the ServiceNow Digital Portfolio Management \(DPM\) Workspace. DPM pulls in data from across the ServiceNow platform so you see impacts in the context of solutions that you own or care about.
-
--   **[DEX Application &amp; Device Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/use-dex-console.md)**
-
-    DEX Application &amp; Device Health is a centralized workspace, dedicated to monitoring the performance, security, and compliance of the digital workplace.
 
 -   **[Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/explore-eaw.md)**
 

@@ -7,7 +7,7 @@ release: australia
 product: Service Exchange
 classification: service-exchange
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure for consumers, Service Exchange for Consumers, Service Exchange]
 ---
@@ -58,7 +58,7 @@ Is a certified ServiceNow system administrator
 
 </td></tr><tr><td>
 
-Service Exchange Requester
+ITIL fulfiller
 
 </td><td>
 
@@ -76,7 +76,7 @@ Is an IT administrator
 
 </td></tr><tr><td>
 
-Consumer requestor
+Consumer Requestor
 
 </td><td>
 
@@ -91,5 +91,4 @@ Makes requests from the Remote Catalog.
 sn\_sb.requestor
 
 </td></tr></tbody>
-</table>**Note:** Beginning with Service Exchange version 2.3. 18, some of the granular roles have changed. For more information, see the [Now Support KB article \(KB3065259\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3065259).
-
+</table>

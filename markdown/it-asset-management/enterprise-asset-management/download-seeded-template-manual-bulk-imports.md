@@ -86,5 +86,3 @@ Enter all enterprise model or asset details in the spreadsheet.
 
 **Note:** The optional **Location full name** field helps verify that assets are linked to the correct location. If you provide values for both the **Location full name** and **Location** fields, and the two values don't match, an error message appears and the import for that specific asset is not processed. Similarly, if the specified location can't be found or if multiple locations are found with the same name, an error message appears and the import for that specific asset is also not processed.
 
-**Parent Topic:**[Manually import enterprise models and assets in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/bulk-import-eam.md)
-

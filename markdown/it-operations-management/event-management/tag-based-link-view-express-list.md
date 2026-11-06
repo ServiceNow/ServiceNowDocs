@@ -7,16 +7,16 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Viewing links between alerts in alert groups, Work with alert groups, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Viewing links between alerts in alert groups, Working with alert groups in Express List, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Viewing links between alerts in tag-based alert groups
 
 View the connections between alerts in a tag-based alert group in Express List by using Link View. Link View shows how the attributes of the alerts in the group are linked with each other.
 
-When you set alert tags and Event Management generates an alert group based on tag-based rules, Link View displays the relationships between the alerts in the group. The colored tags represent Configuration Items \(CIs\) and other environment items in relation to the alerts.
+When you've set alert tags and Event Management has generated an alert group based on tag-based rules, Link View offers a visual representation of the relationships between the alerts. The colored tags represent Configuration Items \(CIs\) and other environment items in relation to the alerts.
 
 \[Omitted image "el-link-view-tag-based.png"\] Alt text: Sample tag-based alert group in Link View.
 

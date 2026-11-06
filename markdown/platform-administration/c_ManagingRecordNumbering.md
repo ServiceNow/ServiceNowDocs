@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_ManagingRecordNumbering.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customize, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -16,7 +16,7 @@ In the base system, several tables are numbered, including Incident, Problem, Ch
 
 Administrators can manage record numbering by navigating to **System Definition** &gt; **Number Maintenance**. The current number format for a table, including the prefix \(such as **INC** for incidents or **CHG** for changes\), is stored in a record on the Number \[sys\_number\] table.
 
-\[Omitted image "Number1.png"\] Alt text: A sample of number records, organized alphabetically by prefix.
+\[Omitted image "Number1.png"\] Alt text:
 
 You can renumber auto-incremented tables that extend the task table or manage numbering with a database field named **Number this field**.
 

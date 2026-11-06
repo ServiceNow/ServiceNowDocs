@@ -7,7 +7,7 @@ release: australia
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Otto for Process Mining, Use, Process Mining, Platform Analytics]
 ---
@@ -18,8 +18,8 @@ Use ServiceNow Otto for Process Mining to run work notes analysis on a transitio
 
 This section covers the following topics:
 
--   **[Run work notes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/run-worknotes-analysis.md)**  
-Generate a work notes analysis on a transition.
+-   **[Run transition work notes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/run-worknotes-analysis.md)**  
+Generate a transition work notes analysis on a transition.
 -   **[Generate highlights for improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/generate-highlights.md)**  
 Generate highlights for the improvement opportunities to optimize your processes.
 -   **[Run intent and activity analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/run-intent-and-activity-analysis.md)**  

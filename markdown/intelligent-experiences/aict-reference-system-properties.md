@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-reference-system-properties.html
 release: australia
 topic_type: reference
-last_updated: "2026-06-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Reference, AI Control Tower, Enable AI experiences]
+breadcrumb: [Reference, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # System properties for AI Control Tower
@@ -43,7 +43,7 @@ glide.oauth.tool.scan.guardian.enabled
 
 </td><td>
 
-Controls whether MCP server tool scanning is performed by AI Guardian. For more information, see .-   Type: Boolean
+Controls whether MCP server tool scanning is performed by AI Guardian. For more information, see [AI Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-guardian.md).-   Type: Boolean
 -   Default value: false
 -   Location: The System Properties \[sys\_properties\] table
 

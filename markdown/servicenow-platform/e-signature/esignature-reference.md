@@ -7,7 +7,7 @@ release: australia
 product: e-Signature
 classification: e-signature
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [E-signature, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---

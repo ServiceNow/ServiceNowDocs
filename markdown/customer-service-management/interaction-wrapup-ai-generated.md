@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/interaction-wrapup-ai-generated.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -18,7 +18,7 @@ The AI interaction wrap-up feature uses AI to generate wrap-up content for inter
 
 Agents can review and modify the AI-generated wrap-up content before submitting it. If there's insufficient context to determine a wrap-up code, the system uses the default wrap-up code.
 
-**Note:** The AI interaction wrap-up feature uses the Wrap Up Completion skill to generate the wrap-up content. For more information, see [Enable Now Assist to generate wrap up code and notes summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/enable-ai-wrap-up-code-and-notes-summary-generation.md).
+**Note:** The AI interaction wrap-up feature uses the Wrap Up Completion skill to generate the wrap-up content. For more information, see [Enable ServiceNow Otto to generate wrap up code and notes summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/enable-ai-wrap-up-code-and-notes-summary-generation.md).
 
 The AI interaction wrap-up feature is available for the following interaction record pages in CRM Workspace:
 
@@ -30,7 +30,7 @@ The AI interaction wrap-up feature is available for the following interaction re
 
 The wrap-up period begins when either the agent or the customer ends a conversation on an interaction record. This moves the record to the Wrap Up state, starts the wrap-up period, and displays the Wrap up modeless dialog.
 
-\[Omitted image "wrap-up-modeless-dialog-with-ai.png"\] Alt text: Wrap up modeless dialog with AI interaction wrap-up enabled includes auto populated fields and a message to check these fields for accuracy.
+\[Omitted image "wrap-up-with-modeless-dialog-with-otto.png"\] Alt text: Wrap up modeless dialog with AI interaction wrap-up enabled includes auto populated fields and a message to check these fields for accuracy.
 
 The system auto-populates the **Wrap up code** and **Notes** fields with AI-generated content. After the fields are populated, the modal displays a message in a banner to check the AI-generated content for accuracy.
 
@@ -42,7 +42,7 @@ If content for the **Wrap up code** or **Notes** fields fail to update, the foll
 
 The AI interaction wrap-up feature is enabled by default by the **com.glide.interaction.auto\_generate\_ai\_wrap\_up** system property. When an agent ends a conversation, the system displays the Wrap up modeless dialog, selects a wrap-up code, and generates the wrap-up notes.
 
-If the feature is inactive, the Wrap up modeless dialog includes the **Run Now Assist** button that agents can use to create AI-generated notes.
+If the feature is inactive, the Wrap up modeless dialog includes the **Run ServiceNow Otto** button that agents can use to create AI-generated notes.
 
 ## AI sparkle icon
 
@@ -72,7 +72,7 @@ If an agent edits the **Notes** field, the **Insert AI notes** button replaces t
 
 ## Configuring AI interaction wrap-up
 
-1.  Enable the Wrap Up Completion skill. For more information, see [Enable Now Assist to generate wrap up code and notes summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/enable-ai-wrap-up-code-and-notes-summary-generation.md).
+1.  Enable the Wrap Up Completion skill. For more information, see [Enable ServiceNow Otto to generate wrap up code and notes summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/enable-ai-wrap-up-code-and-notes-summary-generation.md).
 2.  Enable the AI interaction fields in the AI form section on the desired interaction wrap-up configuration record:
 
     -   **Enable AI code**
@@ -89,7 +89,7 @@ If an agent edits the **Notes** field, the **Insert AI notes** button replaces t
 The **com.glide.interaction.auto\_generate\_ai\_wrap\_up** system property determines whether AI interaction wrap-up content is generated automatically or requires manual execution.
 
 -   If set to true: The system automatically generates content for the **Wrap up code** and **Wrap up notes** fields. The default setting for this system property is true \(default setting\).
--   If set to false: The system displays the **Run Now Assist** button on the Wrap up modeless dialog. Agents can select this button to generate content for the **Wrap up code** and **Wrap up notes** fields.
+-   If set to false: The system displays the **Run ServiceNow Otto** button on the Wrap up modeless dialog. Agents can select this button to generate content for the **Wrap up code** and **Wrap up notes** fields.
 
 To locate this property, navigate to **All** &gt; **System Properties** &gt; **All Properties** and search for the property name.
 

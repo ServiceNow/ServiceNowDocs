@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/proactive-code-check-scan-suite.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 15
-breadcrumb: [Proactive Code Check, Impact reference, Impact]
+breadcrumb: [Proactive Code Check, General reference, Impact reference, Impact]
 ---
 
 # Proactive Code Check scan suite matrix for the Impact Store Application

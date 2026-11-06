@@ -7,7 +7,7 @@ release: australia
 product: Security Center
 classification: security-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Security Tasks, Security Center, Platform Security]
 ---
@@ -38,7 +38,7 @@ Security Tasks can be automatically generated. Automatic Security Task generatio
 
 -   **Banner announcement**
 
-    A Security Task is generated for each new banner announcement. For details on banner announcements, see [ServiceNow Security Center announcements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/scc-banner.md).
+    A Security Task is generated for each new banner announcement. For details on banner announcements, see [Security banner announcements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/scc-banner.md).
 
 
 ## Automatically generated security settings

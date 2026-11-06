@@ -1,5 +1,5 @@
 ---
-title: Require authorization for csv requests \[Updated in Security Center 1.3\]
+title: Require authorization for csv requests
 description: Use the glide.basicauth.required.csv property to designate if incoming CSV \(Comma-Separated Values\) requests should require basic authentication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/instance-security-hardening-settings/sc-require-authorization-for-csv-requests.html
@@ -7,14 +7,16 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [API and web service, Hardening settings, Platform Security]
 ---
 
-# Require authorization for csv requests \[Updated in Security Center 1.3\]
+# Require authorization for csv requests
 
 Use the **glide.basicauth.required.csv** property to designate if incoming CSV \(Comma-Separated Values\) requests should require basic authentication.
+
+## More information
 
 If the **glide.basicauth.required.csv** system property isn't set to the recommended value of **true**, then Basic Authentication for CSV format export processor is disabled. This also happens when combined with a wrong role within the guest\_user related property \(Ex: high privileged role\). This will lead to unauthenticated access to instance data.
 
@@ -70,7 +72,7 @@ Default value
 
 </td><td>
 
-&lt;none&gt;
+true
 
 </td></tr><tr><td>
 

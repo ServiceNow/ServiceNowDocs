@@ -7,7 +7,7 @@ release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Prioritize portfolio plan work, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
@@ -36,15 +36,15 @@ Review and prioritize the items in the Prioritization, Kanban, or Hierarchy tab 
 
 3.  From the Prioritization tab or any other tab, mark a planning item as In Review or Prioritized.
 
-<table id="choicetable_knp_gs5_dwb"><thead><tr><th align="left" id="d83607e134">
+<table id="choicetable_knp_gs5_dwb"><thead><tr><th align="left" id="d84757e134">
 
 Tab
 
-</th><th align="left" id="d83607e137">
+</th><th align="left" id="d84757e137">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d83607e143">
+</th></tr></thead><tbody><tr><td id="d84757e143">
 
 **Prioritization**
 
@@ -54,7 +54,7 @@ Update the **Planning state** field of the item.
 
  \[Omitted image "backlog-planning-state.png"\] Alt text: Planning state update in Prioritization page.
 
-</td></tr><tr><td id="d83607e165">
+</td></tr><tr><td id="d84757e165">
 
 **Kanban**
 
@@ -64,7 +64,7 @@ Move the item card into the **Prioritized** lane.
 
  \[Omitted image "kanban-prioritize-item.png"\] Alt text: Prioritize item in kanban view
 
-</td></tr><tr><td id="d83607e187">
+</td></tr><tr><td id="d84757e187">
 
 **Hierarchy**
 

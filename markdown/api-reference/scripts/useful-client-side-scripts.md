@@ -1,22 +1,22 @@
 ---
 title: Client-side script use cases
-description: Use cases for client-side scripts include displaying field messages, changing form colors, adding fields, and creating UI routing actions.This is an example of adding a Company field to the checkout below the Requested for field using non-cart layout macros, that is, glide.sc.use\_cart\_layouts is false.Add autofill functionality is also called incident template, auto assignments, quick calls, call script, or auto populate.Changes color of a form field of the form on state change. The script can easily be changed to adjust any property of any object on the page accessible via the HTML DOM.This solution enables you to create a record with the service desk without knowing whether it is an incident or request item; the service desk can then route the record to the appropriate table.Rather than use JavaScript alert\(\), for a cleaner look, you can display an error on the form itself. The methods showFieldMsg\(\) and hideFieldMsg\(\) can be used to display a message just below the field itself.You can use a script to validate input upon a UI Action click on the client side before updating the record on the server side. The user will not have to click the button twice to validate the required fields and update the record.
+description: Use cases for client-side scripts include displaying field messages, changing form colors, adding fields, and creating UI routing actions.This is an example of adding a Company field to the checkout below the Requested for field using non-cart layout macros, that is, glide.sc.use\_cart\_layouts is false.Add autofill functionality is also called incident template, auto assignments, quick calls, call script, or auto populate.Changes color of a form field of the form on state change. The script can easily be changed to adjust any property of any object on the page accessible via the HTML DOM.This solution enables you to create a record with the service desk without knowing whether it is an incident or request item; the service desk can then route the record to the appropriate table.You can use a script to validate input upon a UI Action click on the client side before updating the record on the server side. The user will not have to click the button twice to validate the required fields and update the record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/useful-client-side-scripts.html
 release: australia
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 10
-breadcrumb: [Useful scripts, Scripting, API implementation, API implementation and reference]
+last_updated: "2026-09-10"
+reading_time_minutes: 8
+breadcrumb: [Example scripts, Scripting, API implementation, API implementation and reference]
 ---
 
 # Client-side script use cases
 
 Use cases for client-side scripts include displaying field messages, changing form colors, adding fields, and creating UI routing actions.
 
-**Parent Topic:**[Useful scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/usefulScripts.md)
+**Parent Topic:**[Example scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/usefulScripts.md)
 
 ## Add a field to the service catalog checkout
 
@@ -41,13 +41,13 @@ This example makes the following assumptions:
 
 2.  Find where there are hidden variables declared and add the following line:
 
-    ```
+    ```xml
     <input type="HIDDEN" name="cart_id" id="cart_id" value="$[sc_cart.sys_id]" />
     ```
 
 3.  Find the following code, which generates the **Requested For** code:
 
-    ```
+    ```xml
     <tr class="header">
     <td width = "30%">
       ${gs.getMessage('Requested for')}:
@@ -80,7 +80,7 @@ This example makes the following assumptions:
 
 4.  Add the following code afterward:
 
-    ```
+    ```xml
     <tr class="header">
       <td colspan="2">Company</td>
     </tr>
@@ -103,7 +103,7 @@ This example makes the following assumptions:
 
 6.  Add the followings script to the **Client script** field.
 
-    ```
+    ```javascript
     function setCartValue() { 
       var newField = gel('core_company'); 
       var myCart = gel('cart_id'); 
@@ -134,7 +134,7 @@ To auto-fill a **Short Description** field based on the **Subcategory** selected
 2.  Populate the key field, **Subcategory**.
 3.  Populate the auto-filled field, **Short Description**.
 
-```
+```javascript
 function onChange(control, oldValue, newValue, isLoading) { 
   if (isLoading) { return; } 
   var newrec = gel('sys_row');
@@ -187,7 +187,7 @@ Description: Changes color of a form field of the form on state change. The scri
 
 Script:
 
-```
+```javascript
 function onChange(control, oldValue, newValue, isLoading) { 
   var elementID = gel("incident.priority");
     switch(newValue) { 
@@ -229,7 +229,7 @@ Role required: **Admin**
 
     This button redirects the user to either an incident or a request. It also creates the incident record and copies values to the incident and the Request Item form.
 
-    ```
+    ```javascript
     var reqItem = current.u_item;
     var requestedFor = current.u_requested_for;
     var location = current.location;
@@ -263,7 +263,7 @@ Role required: **Admin**
 
     Ensure that you have variables called *requested\_for* and *location* on your item, record producer, or order guide that map these values using the following client script. There is a limit as to how much information you can pass, as the URL has a restricted length. Avoid sending information from long text fields using this method.
 
-    ```
+    ```javascript
     function onLoad() {
       var url = document.location.toString();
       var userKey = 'sysparm_user=';
@@ -282,87 +282,13 @@ Role required: **Admin**
     ```
 
 
-## Display field messages
-
-Rather than use JavaScript alert\(\), for a cleaner look, you can display an error on the form itself. The methods showFieldMsg\(\) and hideFieldMsg\(\) can be used to display a message just below the field itself.
-
-showFieldMsg and hideFieldMsg are methods that can be used with the *g\_form* object.
-
-These methods are used to change the form view of records \(Incident, Problem, and Change forms\). These methods may also be available in other client scripts, but must be tested to determine whether they work as expected.
-
-When a field message is displayed on a form on load, the form scrolls to ensure that the field message is visible. Ensuring that users do not miss a field message because it was off the screen.
-
-The global property *glide.ui.scroll\_to\_message\_field* controls automatic message scrolling when the form field is offscreen \(scrolls the form to the control or field\).
-
-<table id="table_bgp_bwq_bp"><thead><tr><th>
-
-Method Detail
-
-</th><th>
-
-Parameters
-
-</th><th>
-
-Example
-
-</th></tr></thead><tbody><tr><td>
-
-showFieldMsg\(input, message, type, \[scrollform\]\)
-
-</td><td>
-
--   input — name of the field or control
--   message — message you would like to appear
--   type — 'info', 'error', or 'warning'; defaults to info if not supplied
--   scroll form — \(optional\) Set scrollForm to false to prevent scrolling to the field message offscreen
-
-</td><td>
-
-Error message```
-g_form.showFieldMsg('impact','Low impact not allowed with High priority','error');
-```
-
-\[Omitted image "ShowFieldMsgError.png"\] Alt text: Low impact not allowed with high priority message.
-
-Informational message
-
-```
-g_form.showFieldMsg('impact', 'Low impact response time can be one week','info');
-//or this defaults to info type
-//g_form.showFieldMsg('impact', 'Low impact response time can be one week');
-```
-
-\[Omitted image "ShowFieldMsgInfo.png"\] Alt text: Low impact response time can be one week message.
-
-</td></tr><tr><td>
-
-hideFieldMsg\(input\)
-
-</td><td>
-
--   input — name of the field or control
--   clearAll — \(optional\) boolean parameter indicating whether to clear all messages. If true, all messages for the field are cleared. If false or empty, only the first message is removed
-
-</td><td>
-
-Removing a message```
-//this will clear the first message printed to the field
-g_form.hideFieldMsg('impact');
-```
-
-</td></tr></tbody>
-</table>### Legacy support
-
-The showErrorBox\(\) and hideErrorBox\(\) methods are not recommended.
-
 ## Using client and server code in a UI action
 
 You can use a script to validate input upon a UI Action click on the client side before updating the record on the server side. The user will not have to click the button twice to validate the required fields and update the record.
 
 The script calls the client function for client-side validation, and the UI action completes the task if it passes. The `code that runs without onclick` statement ensures that the server-side function does not run until the client function is no longer running. If successful, the server-side function runs and updates the record.
 
-```
+```javascript
 // Client-side onclick function
 function resolveIncident() {
   // Set the 'Incident state' and 'State' values to 'Resolved', and display mandatory fields

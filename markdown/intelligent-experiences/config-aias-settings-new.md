@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/config-aias-settings-new.html
 release: australia
 topic_type: task
-last_updated: "2026-08-31"
+last_updated: "2026-10-23"
 reading_time_minutes: 2
 keywords: [old ai agent studio, legacy ai agent studio, old aias, legacy aias]
-breadcrumb: [Configure AI Agent Studio, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Configure AI Agent Studio, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Configure AI Agent Studio settings

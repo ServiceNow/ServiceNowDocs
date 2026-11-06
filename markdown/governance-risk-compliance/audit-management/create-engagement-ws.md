@@ -7,9 +7,9 @@ release: australia
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Audit Supervisor Workspace, Audit Workspace Overview, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Audit Supervisor Workspace, Audit Workspace overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Create an audit engagement in Audit Workspace
@@ -296,7 +296,7 @@ Template type
 
 Type of template used to generate the audit report for the engagement record.-   Classic report template: Generates the report using the classic report templates such as HTML, script, or XML, provided the engagement record is in Follow up or Closed states.
 
-For more information, see [Create an audit report template in classic formats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/create-audit-report-temp.md) and [Generate a report for an engagement in a classic report template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/generate-report-engagement-audit-ws.md).
+For more information, see [Create an audit report template in classic formats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/create-audit-report-temp.md) and [Generate a report for an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/generate-report-engagement-audit-ws.md).
 
 -   Word report template: Generates the report using the Microsoft Word template, provided the engagement record is in Validate, Fieldwork, or Follow up states.
 
@@ -381,7 +381,7 @@ Option to enable confidentiality of the record. Only the assigned confidential u
 
     3.  Select **Add**.
 
-        The selected issues are added to the engagement as related issues and an m2m relationship is created between the engagement and the issues in the Issue to Engagement \[sn\_grc\_m2m\_issue\_engagement\] table. You can also create an issue for the engagement by selecting the **New** button, which takes you to the Create New Issue form.
+        The selected issues are added to the engagement as related issues. An m2m relationship is created between the engagement and the issues in the Issue to Engagement \[sn\_grc\_m2m\_issue\_engagement\] table. You can also create an issue for the engagement by selecting the **New** button, which takes you to the Create Issue form.
 
     4.  To remove an issue that is mapped to the engagement, select the issue and click **Remove**.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/now-platform-encryption.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Exploring Field Encryption, Field Encryption, Encryption]
 ---
@@ -113,13 +113,34 @@ Field Encryption Enterprise supports on-premise customers. It doesn’t support 
 
 The standard version of Field Encryption is limited to five encrypted columns. Field Encryption Enterprise supports an unlimited number of encrypted columns.
 
+## Supported field information
+
+The following field types can be encrypted with Field Encryption Enterprise:
+
+-   Date
+-   Date/Time
+-   Email
+-   HTML
+-   Journal
+-   Journal Input
+-   Phone Number \(E164\)
+-   String
+-   String \(Full UTF-8\)
+-   Translated
+-   Translated Field
+-   Translated HTML
+-   Translated Text
+-   URL
+
+**Note:** Attachments aren't considered a field type but can be encrypted separately and are only visible to users who are granted access, or is visible to all users that aren't restricted from viewing the data. See [Attachment encryption walkthrough](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/attachment-encryption-walkthrough.md) for more information.
+
 ## Attachment Encryption
 
 -   **Attachment encryption by default**
 
     Customers using Field Encryption have attachments encrypted by default in tables that have an active Encrypted Field Configuration \(EFC\) type of **Attachment**.
 
-    This default encryption defined by the EFC configuration means that it's not necessary for admins to manually declare that an attachment should be encrypted on upload for these tables.
+    The EFC configuration defines this default encryption. Admins aren't required to manually declare that an attachment should be encrypted on upload for these tables.
 
 -   **Administrators can disallow users from attaching unencrypted files**
 
@@ -162,7 +183,7 @@ Return type
 
 </td><td>
 
-Updates an active Encryption Context \(EC\) used to encrypt an attachment. When CLE is enabled with the CLE Starter plugin using KMF Crypto Module \(CM\), the API locates the CM for the EC and uses it to encrypt the attachment.
+Updates an active Encryption Context \(EC\) used to encrypt an attachment. When CLE is enabled with the CLE Starter plugin using KMF Crypto Module \(CM\), the API locates the CM for the EC. The API then uses the CM to encrypt the attachment.
 
 **Note:** This API is only available in the Global scope.
 

@@ -1,6 +1,6 @@
 ---
 title: Set up the UiPath spoke
-description: Integrate the ServiceNow instance with your UiPath account to authenticate ServiceNow requests.Integrate the ServiceNow instance with your UiPath account using OAuth to authenticate ServiceNow requests.Integrate the ServiceNow instance with your UiPath account using API key to authenticate ServiceNow requests.
+description: Integrate the ServiceNow instance with your UiPath account to authenticate ServiceNow requests.Integrate the ServiceNow instance with your UiPath account using OAuth to authenticate ServiceNow requests.Integrate the ServiceNow instance with your UiPath account using API key to authenticate ServiceNow requests.Configure a connection to your UiPath account. The UiPath spoke connection and credential aliases use these connections to perform actions in UiPath.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/conf-alias-uipath.html
 release: australia
@@ -8,7 +8,7 @@ product: Integration Hub
 classification: integration-hub
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [UiPath Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
@@ -240,4 +240,54 @@ Role required: admin
 ### Result
 
 The Connection and Credential alias is configured and the UiPath spoke is set up using API key.
+
+## Configure a connection for the UiPath spoke
+
+Configure a connection to your UiPath account. The UiPath spoke connection and credential aliases use these connections to perform actions in UiPath.
+
+### Before you begin
+
+Role required: admin.
+
+### Procedure
+
+1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
+
+2.  Click the **Integrations** tab.
+
+3.  Under **Connections**, toggle and enable the **Outbound** connections.
+
+4.  Locate the alias for **UiPath** and click **View Details**.
+
+    -   To configure the default connection and credential alias record that is shipped along with the UiPath spoke, click **View Details**.
+
+        \[Omitted image "uipath-connection.png"\] Alt text: Connection for the UiPath spoke with View Details highlighted.
+
+    -   To manage more than one UiPath spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/support-multiple-connections.md).
+    If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
+
+    \[Omitted image "uipath-connection-conf.png"\] Alt text: Initial connection configuration with Configure highlighted.
+
+5.  On the form, fill in these fields:
+
+    |Field|Value required|
+    |-----|--------------|
+    |Connection Information|
+    |Connection Name|Name to identify the UiPath connection record. Default value: `UiPath`.|
+    |Connection URL|URL of your UiPath instance in this format: `https://<instance-url>`. Replace `<instance-url>` with the URL of your UiPath instance.|
+    |Credential Information|
+    |Credential Name|Name to identify the UiPath credential record. Default value: `UiPath Credential`.|
+    |Token URL|URL to fetch the authentication token from, in this format: `http://<instance-url>/api/account/authenticate`. Replace `<instance-url>` with the URL of your UiPath instance.|
+    |Tenant Name|Name of the UiPath tenant. Default value: `Default`.|
+    |Username or email|Username or email address of the UiPath account used for outbound authentication.|
+    |Password|Password of the UiPath account used for outbound authentication.|
+
+    \[Omitted image "uipath-conf-temp.png"\] Alt text: Configure a connection for the UiPath spoke.
+
+6.  Click **Save**.
+
+
+### Result
+
+The UiPath spoke connection is configured and ready to be used.
 

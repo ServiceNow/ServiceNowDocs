@@ -7,7 +7,7 @@ release: australia
 product: Asset Management
 classification: asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customize transfer order line tasks, Manage transfer order, Use, Base Asset Management, Common applications, Asset Management]
 ---
@@ -30,7 +30,7 @@ Template tasks help you progress through the various stages of the transfer orde
 
 1.  Navigate to **All** &gt; **Inventory** &gt; **Transfer Order Lines** &gt; **Template Tasks**.
 
-    All the default template tasks that are available with the Base Asset Management application are listed.
+    All the default template tasks that are available with the Asset Management application are listed.
 
 2.  Select **New**.
 

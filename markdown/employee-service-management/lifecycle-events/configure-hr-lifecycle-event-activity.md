@@ -7,9 +7,9 @@ release: australia
 product: Lifecycle Events
 classification: lifecycle-events
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 33
-breadcrumb: [Configure a lifecycle event, Building a lifecycle event, Using Lifecycle Events, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure a lifecycle event, Building a lifecycle event, Use, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Configure a lifecycle event activity
@@ -20,7 +20,7 @@ Create or modify a lifecycle event activity. Lifecycle Events activities can be 
 
 Role required: sn\_hr\_le.activity\_writer and membership in the owning group that owns the activity.
 
-Each activity must be associated with an owning group. If the activity has a targeted audience, you can use audience records to define the conditions or criteria that the subject person of a lifecycle event case must meet for the activity to trigger on their behalf. Each activity is associated with a single activity set.
+Each activity must be associated with an owning group. If the activity has a targeted audience, use audience records to define the conditions the subject person of a lifecycle event case must meet. Those conditions determine whether the activity triggers on their behalf. Each activity is associated with a single activity set.
 
 ## Procedure
 
@@ -1409,7 +1409,7 @@ Role required: admin
 
 3.  Select the **Activity Sets** tab.
 
-4.  Drag and drop an activity to move it within the same activity set or to another activity set.
+4.  Use the drag-and-drop method to select an activity with your mouse and hold it and drag it to a different location within the same activity set or into another activity set.
 
     **Note:** The ordering numbers change automatically.
 
@@ -1427,7 +1427,7 @@ Role required: admin
 
 8.  Another way to edit an activity is to select the Edit Activity icon \(\[Omitted image "le-edit-activity-icon.png"\] Alt text: Lifecycle event - Edit Activity icon\) on an activity.
 
-    The activity appears in a separate window.\[Omitted image "le-edit-activity-brand2.png"\] Alt text: ServiceNow Journey Designer editing Manage Lifecycle Event - Onboarding demo, showing Account Setup and Notification activity configuration with title, description, owning group, and flow details.
+    The activity appears in a separate window.\[Omitted image "le-edit-activity-brand2.png"\] Alt text:
 
 9.  Edit the **Activity set** and **Display order** fields to change the activity set the activity belongs to and the order it appears.
 
@@ -1440,7 +1440,7 @@ Role required: admin
 
 For a lifecycle event case, you can trigger or create an activity from an activity that is in another activity set.
 
-Activities in later activity sets can be created based on survey responses in earlier activity sets and for users other than the person the case was created for \(subject person\).
+Activities in later activity sets can be created based on survey responses in earlier activity sets. They can also be created for users other than the subject person of the case.
 
 You can create an activity that has a task type of Collect Employee Input and based on the results, another activity is created. In this example, the activity that has a task type of Collect Employee Input is the upstream activity. The activity that is created from this is the downstream activity.
 

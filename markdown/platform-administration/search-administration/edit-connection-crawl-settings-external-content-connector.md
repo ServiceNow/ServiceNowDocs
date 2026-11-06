@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -35,7 +35,7 @@ Modify a connector's crawl settings to alter the set of source system locations 
 
 2.  In the Connectors list, select the record for the external content connector whose settings you want to modify.
 
-3.  In the connector editor's Settings tab, choose which settings you want to modify:
+3.  In the connector editor's **Settings** tab, choose which settings you want to modify:
 
     -   To modify connection settings for the external content connector, select **Connection settings**.
     -   To modify crawl settings for the external content connector, select **Crawl settings**.

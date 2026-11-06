@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/bcm-lite-operators.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [BCM and ServiceNow Store, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -130,6 +130,7 @@ Business continuity planning \(BCP\)
 </td><td>
 
 -   View and download the published continuity and disaster recovery plans.
+-   Participate in the plan workflow.
 -   Review and approve or reject the assigned record.
 
 </td><td>
@@ -142,7 +143,7 @@ Yes
 
 </td><td>
 
- 
+A BCM lite operator can update the assigned record.
 
 </td><td align="center">
 

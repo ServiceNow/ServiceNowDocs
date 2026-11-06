@@ -7,7 +7,7 @@ release: australia
 product: Service Level Objective Management
 classification: service-level-objective-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Using SLO Management, Service Level Objective Management, ITOM AIOps, IT Operations Management]
 ---
@@ -46,15 +46,15 @@ Each SLI can be associated with only one SLO, helping prevent conflicting perfor
 
 4.  In the Service Level Indicators \(SLI\) form, select the data source for your SLI.
 
-<table id="choicetable_bsn_r5m_dhc"><thead><tr><th align="left" id="d414365e178">
+<table id="choicetable_bsn_r5m_dhc"><thead><tr><th align="left" id="d443625e178">
 
 Data source
 
-</th><th align="left" id="d414365e181">
+</th><th align="left" id="d443625e181">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d414365e187">
+</th></tr></thead><tbody><tr><td id="d443625e187">
 
 **Alerts**
 
@@ -62,7 +62,7 @@ Description
 
 Base the SLI on alerts from integrated monitoring tools.Use alerts when you want your SLI to include early warning signs and a broader view of reliability.
 
-</td></tr><tr><td id="d414365e198">
+</td></tr><tr><td id="d443625e198">
 
 **Outages**
 

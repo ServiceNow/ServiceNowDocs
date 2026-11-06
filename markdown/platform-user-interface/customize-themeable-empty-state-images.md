@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/customize-themeable-empty-state-images.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Theme-able empty state images, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-**Important:** You can customize empty state images for Workspaces, but customization is not supported in the Core UI.
+**Important:** This procedure applies only to Next Experience themes that use the now-illustration component. You can customize empty state images for Workspaces, but customization is not supported in the Core UI.
 
 ## Procedure
 

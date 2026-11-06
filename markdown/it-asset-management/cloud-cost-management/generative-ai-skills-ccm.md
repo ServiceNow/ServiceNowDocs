@@ -7,7 +7,7 @@ release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: concept
-last_updated: "2026-08-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [AI in Cloud Cost Management, Explore, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -18,5 +18,5 @@ Streamline cloud spend management tasks in the Cloud Cost Management Workspace b
 
 |Generative AI skill name|Description|Version information|
 |------------------------|-----------|-------------------|
-|[Cloud cost summarizer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/spend-summary-otto-ccm.md)|Generates a comprehensive summary of spend trends for all the cloud service providers, top cost drivers, budget comparisons, and optimization recommendations.|Introduced in ServiceNow Otto for Cloud Cost Management \(CCM\) version 11.0.|
+|[Cloud cost summarizer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/spend-summary-otto-ccm.md)|Generates a comprehensive summary of spend trends for all the cloud service providers, top cost drivers, budget comparisons, and optimization recommendations.|Introduced in ServiceNow Otto for Cloud Cost Management \(CCM\) version 1.0.0.|
 

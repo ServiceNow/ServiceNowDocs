@@ -1,16 +1,16 @@
 ---
-title: Configuring Continuous Authentication
+title: Configure Continuous Authentication
 description: Configure continuous authentication \(CA\) policies to re-authenticate the users if there's an attempt to access resources that are protected by you.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/configure-ca.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Continuous Authentication \(CA\), Zero Trust Access, Access Management]
 ---
 
-# Configuring Continuous Authentication
+# Configure Continuous Authentication
 
 Configure continuous authentication \(CA\) policies to re-authenticate the users if there's an attempt to access resources that are protected by you.
 
@@ -21,7 +21,7 @@ Configure continuous authentication \(CA\) policies to re-authenticate the users
     **Note:** You must elevate your role to **ca\_admin**.
 
 -   You must install the **Zero Trust - Continuous Authentication** \(`com.snc.zero_trust_continuous_authentication`\) for opting CA which requires a license.
--   Enable the Continuous Authentication \(**glide.zta.continuous\_authentication.enabled**\) system property. For more information, see [System properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ca-system-properties.md).
+-   Enable the Continuous Authentication \(**glide.zta.continuous\_authentication.enabled**\) system property. For more information, see [Continuous authentication system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ca-system-properties.md).
 -   Activate the Integration - Multiple Provider Single Sign-On Installer \(**com.snc.integration.sso.multi.installer**\) plugin.
 -   Understand the pre-work that is required before configuring CA for the instance. For more information, see [Pre-work for Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/pre-work-ca.md).
 -   CA policies can be configured for Data Class or Table.
@@ -34,7 +34,7 @@ Configure continuous authentication \(CA\) policies to re-authenticate the users
 
 3.  Select **New**.
 
-4.  On the form, fill the fields:
+4.  On the form, fill in the fields:
 
 <table id="table_cvy_xnw_ycc"><thead><tr><th>
 
@@ -83,11 +83,11 @@ Options: -   **Data Class**. You can create data class and use it for CA policy 
 
     **Note:** You can use either of the login methods for the CA policy:
 
-    -   **SSO based login**: Specify the fields in the **Continuous Authentication** tab within the Identity Provider record and the set the Identity Provider record as **Active**. \[Omitted image "ca-tab.png"\] Alt text: Continuous Authentication - tab information
+    -   **SSO based login**: Specify the fields in the **Continuous Authentication** tab within the Identity Provider record and set the Identity Provider record as **Active**. \[Omitted image "ca-tab.png"\] Alt text: Continuous Authentication - tab information
 
         To know more about Identity Providers configuration, see [OIDC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/create-OIDC-configuration-SSO.md) and [SAML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/t_CreateASAML2Upd1SSOConfigMultiSSO.md).
 
-    -   **Non-SSO based login**: By default, if there are no Identity Provider with Continuous Authentication configuration, Multi-factor Authentication \(MFA\) is used as a login method. Make sure the MFA properties are Active and configured based on your requirement. To know more about MFA properties, see [Multi-factor Authentication system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/mfa-properties.md).
+    -   **Non-SSO based login**: By default, if there are no Identity Providers with Continuous Authentication configuration, Multi-factor Authentication \(MFA\) is used as a login method. Make sure the MFA properties are Active and configured based on your requirement. To know more about MFA properties, see [Multi-factor Authentication system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/mfa-properties.md).
 5.  Select **Save &amp; Activate**.
 
 
@@ -97,7 +97,7 @@ Based on the details provided for the configuration, CA policy is created with A
 
 \[Omitted image "ca-acl-details.png"\] Alt text: CA ACL details
 
-The CA policy created, prompts the user for authentication to access table or data class that you've protected using the policy, based on the following scenarios.
+The created CA policy prompts the user for authentication to access table or data class that you've protected using the policy, based on the following scenarios.
 
 -   User who had performed local login to log in to the instance, is displayed with platform MFA for step-up authentication.
 
@@ -110,9 +110,9 @@ The CA policy created, prompts the user for authentication to access table or da
     \[Omitted image "ca-sso-screen.png"\] Alt text: SSO - Screen
 
 
-An high assurance session is now established for the user. High assurance session is limited to the High Assurance session length \(**glide.zta.high\_assurance.session.timeout**\) system property. If the high assurance session time exceeds the property length, the user is prompted for re-authentication or step up authentication.
+A high assurance session is now established for the user. High assurance session is limited to the High Assurance session length \(**glide.zta.high\_assurance.session.timeout**\) system property. If the high assurance session time exceeds the property length, the user is prompted for re-authentication or step-up authentication.
 
-To know more about the end to end configuration of continuous authentication for table or data, see:
+To know more about the end-to-end configuration of continuous authentication for table or data, see:
 
 -   [Tutorial: Configure Continuous Authentication for a Table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/configure-ca-tutorial-table.md).
 -   [Tutorial: Configure Continuous Authentication for a Data Class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/configure-ca-tutorial.md).
@@ -124,5 +124,5 @@ To know more about the end to end configuration of continuous authentication for
 
 [Pre-work for Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/pre-work-ca.md)
 
-[Activating Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/activate-continuous-authentication.md)
+[Activate Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/activate-continuous-authentication.md)
 

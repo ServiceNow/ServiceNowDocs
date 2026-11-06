@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/create-a-threshold-for-a-metric.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -18,9 +18,7 @@ Create thresholds for metrics and metric definitions to monitor performance. Thr
 
 Role required: sn\_esg.admin, sn\_esg.program\_manager, or sn\_esg.metrics\_manager
 
-**Note:**
-
-Thresholds can be applied to quantitative metric definitions and composite metric definitions \(CMDs\).
+**Note:** Thresholds can be applied to quantitative metric definitions and composite metric definitions \(CMDs\). For both types, the Thresholds related list is only visible when the direction is set to Minimize or Maximize. If the direction is set to None or Milestone, the Thresholds related list is hidden.
 
 ## About this task
 
@@ -50,10 +48,10 @@ Threshold evaluation does not apply to ad hoc metric data tasks. For more inform
     -   If validation errors occur, the system displays error messages indicating the specific field and recommended actions. Review these messages and correct the issues before resubmitting.
     The configured threshold is now active for the metric. When the Enable threshold breach monitoring option is selected, the system monitors metric values and immediately triggers the specified actions when threshold levels are exceeded. Metric values are displayed with the appropriate color indicators in dashboards and reports. Clearing the Enable threshold breach monitoring option hides the threshold justification field on affected metric data tasks.
 
+    **Note:** The threshold applies only to metric data tasks whose interval date falls within the **Valid from** and **Valid until** range.
+
 
 ## What to do next
-
-To add custom actions that trigger on threshold breach, see the [How to Add Custom Actions on Threshold Breach in GRC Metrics \[KB3072359\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB3072359) article in the Now Support Knowledge Base.
 
 You can edit or remove a threshold to keep the threshold ratings accurate. Editing a threshold recalculates the rating and breach status for associated metric data and metric definition data. Deleting or deactivating a threshold recalculates them against any other applicable threshold, and clears them if none applies. In either case, metric data that is already closed or completed keeps its existing rating.
 

@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-04-28"
 reading_time_minutes: 3
 keywords: [EmployeeWorks Web App, Product Configuration console, Conversational Assistant, Canvas configuration, update set package]
-breadcrumb: [EmployeeWorks Web App, Configuration flow, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [EmployeeWorks Web App, Configuration flow, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure EmployeeWorks Web App

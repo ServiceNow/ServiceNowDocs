@@ -7,7 +7,7 @@ release: australia
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ Monitor aggregated catalog item data like fulfillment automation coverage, trans
 
 You can access the aggregated catalog item data graphs in the Service Catalog Overview dashboard by navigating to **All &gt; Service Catalog &gt; Service Catalog Overview** if you have the catalog\_admin role.
 
-The Catalog item translation coverage graph is displayed only if you have enabled the Localization framework. For more information, see [Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework-landing.md).
+The Catalog item translation coverage graph is displayed only if you have enabled the Localization framework. For more information, see .
 
 |Graph|Description|
 |-----|-----------|

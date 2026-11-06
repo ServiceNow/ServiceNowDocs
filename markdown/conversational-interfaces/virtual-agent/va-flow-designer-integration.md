@@ -7,16 +7,16 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Exploring other Virtual Agent features, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Other Virtual Agent features, Build conversations, Virtual Agent, Conversational Interfaces]
 ---
 
 # Integrating Virtual Agent with Workflow Studio workflows
 
 The workflows of ServiceNow® Workflow Studio can be integrated within ServiceNow Virtual Agent topics. You can then use these workflows in Virtual Agent conversations.
 
-**Note:** If you have turned on and set up ServiceNow Otto in Virtual Agent, you can use the base system conversational actions and subflows from the Assistant Designer Asset library. You currently can't create conversational subflows in Assistant Designer; you can only view and edit them. Conversational subflows can be created, tested, and deleted only in Workflow Studio. For more information on conversational actions and subflows, see [Conversational actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/conversational-actions.md) and [Conversational subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/conversational-subflows.md). You can still integrate actions and subflows that are not conversational from Workflow Studio into Virtual Agent topics through Virtual Agent Designer. The following content is only relevant to actions or subflows that cannot be made conversational in Workflow Studio.
+**Note:** If you have turned on and set up ServiceNow Otto for Virtual Agent, you can use the base system conversational actions and subflows from the Assistant Designer Asset library. You currently can't create conversational subflows in Assistant Designer; you can only view and edit them. Conversational subflows can be created, tested, and deleted only in Workflow Studio. For more information on conversational actions and subflows, see [Conversational actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/conversational-actions.md) and [Conversational subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/conversational-subflows.md). You can still integrate actions and subflows that are not conversational from Workflow Studio into Virtual Agent topics through Assistant Designer Asset library. The following content is only relevant to actions or subflows that cannot be made conversational in Workflow Studio.
 
 You can integrate Workflow Studio actions and subflows as follows:
 
@@ -24,7 +24,7 @@ You can integrate Workflow Studio actions and subflows as follows:
 -   Use actions created for another product in Virtual Agent conversations.
 -   Create conversations that call workflows directly in the conversation. For example, users can place catalog requests, create incidents, or input information securely.
 
-In Virtual Agent conversations, you can use actions to trigger workflows custom built in an application \(such as Workflow Studio\) or workflows of the third-party applications and products available in the Integration Hub. Integrations built using Workflow Studio and Integration Hub help to ensure a high level of resiliency and performance.
+In Virtual Agent conversations, you can use actions to trigger workflows that are custom built in an application \(such as Workflow Studio\) or workflows of the third-party applications and products available in the Integration Hub. Integrations built using Workflow Studio and Integration Hub help to ensure a high level of resiliency and performance.
 
 If an action in the workflow is slow to respond or appears to be waiting, topic authors see a relevant error message.
 
@@ -51,5 +51,5 @@ Test the Action utility to make sure that the integrated action works as intende
 -   **[Specify the action workflow timeout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-fdih-action-timeout.md)**  
 Set the length of time before the Workflow Studio Integration Hub action workflow times out.
 
-**Parent Topic:**[Exploring other Virtual Agent features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/exploring-other-vad-features.md)
+**Parent Topic:**[Other Virtual Agent features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/exploring-other-vad-features.md)
 

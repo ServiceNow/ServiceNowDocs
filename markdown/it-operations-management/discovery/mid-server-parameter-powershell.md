@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [PowerShell for Discovery and Service Mapping, Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -123,6 +123,28 @@ Enable this property to utilize Kerberos authentication when employing the WMI p
 
 -   Default value: False
 
+
+</td></tr><tr><td>
+
+mid.powershell.prefer\_7\_plus
+
+</td><td>
+
+Sets the MID Server to prefer PowerShell 7 or later, if available, when running File-based Discovery and Windows ADME scripts locally on the MID Server host.-   Type: true \| false
+-   Default value: false
+
+For more information, see [Configure MID Server parameters for PowerShell 7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/config-mid-params-ps7.md).
+
+</td></tr><tr><td>
+
+mid.powershell.prefer\_7\_plus\_remote
+
+</td><td>
+
+Sets the MID Server to prefer PowerShell 7 or later, if available, on remote target hosts when running File-based Discovery and Windows ADME.-   Type: true \| false
+-   Default value: false
+
+For more information, see [Configure MID Server parameters for PowerShell 7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/config-mid-params-ps7.md).
 
 </td></tr><tr id="MIDServerPowershell_useCredentials"><td>
 

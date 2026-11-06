@@ -7,7 +7,7 @@ release: australia
 product: Service Catalog
 classification: service-catalog
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Catalog Reference, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -68,5 +68,5 @@ Specifies a processing hint.Format is **sysparm\_processing\_hint**=setfield:req
 **Related topics**  
 
 
-[Create a request from an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/create-request-from-incident.md)
+[bundle-itsm.create-request-from-incident]
 

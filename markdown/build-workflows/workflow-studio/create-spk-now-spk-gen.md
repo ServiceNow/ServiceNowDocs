@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-08-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use ServiceNow Otto to create spokes and build actions, Building spokes using Spoke Generator, Workflow Studio, Build workflows]
 ---
@@ -65,7 +65,7 @@ Automate an integration and generate reusable actions by providing the required 
 
 6.  Select **With AI** and click **Continue** to generate reusable actions by providing the required third-party API documentation snippet.
 
-    \[Omitted image "now-assist-spk-gen2.png"\] Alt text: Create spoke using Now Assist.
+    \[Omitted image "now-assist-spk-gen2.png"\] Alt text: Create spoke using AI.
 
 7.  On the Generate action screen, paste the required content from the API documentation in **AI Context**.
 

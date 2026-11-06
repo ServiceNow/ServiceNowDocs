@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-09-16"
 reading_time_minutes: 3
-breadcrumb: [Manage AI models, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Manage AI models, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Manage version

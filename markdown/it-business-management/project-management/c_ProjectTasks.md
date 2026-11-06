@@ -138,8 +138,10 @@ Actual project costs come after you create expense lines for cost plans or after
 The Project management application supports two types of external dependencies - hard and soft.
 -   **[Project and portfolio funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_ProjectAndPortfolioFunding.md)**  
 Specify the amount of money that projects and portfolios are allowed to have.
--   **[Project scheduling in Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/project-schedules-tasks.md)**  
-Define how tasks are sequenced, timed, and connected to determine when a project starts and finishes with Project scheduling. Project scheduling calculates task start and finish dates based on the project start date, task dependencies, constraints, and task duration in forward scheduling mode.
+-   **[Project scheduling in Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/project-scheduling.md)**  
+Define how tasks are sequenced, timed, and connected to determine when a project starts and finishes with Project scheduling.
+-   **[Task constraints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/task-constraints-project-management.md)**  
+Task constraints define the earliest or latest dates a task can start or finish in an automatically scheduled project. Apply constraints to align the schedule with resource availability, contract milestones, and external deadlines.
 
 **Parent Topic:**[Exploring Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/exploring-project-management.md)
 

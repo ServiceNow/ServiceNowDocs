@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hcl-cto-it-case.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Care Team Operations for Healthcare IT, Healthcare Operations, Healthcare and Life Sciences]
 ---
@@ -51,4 +51,6 @@ In cases where an incident is set to **On hold** by the support agent with a rea
 \[Omitted image "cto-it-on-hold.png"\] Alt text: On hold message occurring when a case needs more information in Care Team Operations for Healthcare IT.
 
 This triggers an alert on the case in the Care Team Portal, where the state is changed to **Awaiting info**.
+
+**Note:** Care team members can also create these cases conversationally, by chat in Care Team Portal or Care Team Mobile, or by phone, using ServiceNow Otto. For more information, see [AI in Care Team Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-operations-core/hco-otto-landing.md).
 

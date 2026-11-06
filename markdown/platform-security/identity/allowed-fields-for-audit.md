@@ -1,5 +1,5 @@
 ---
-title: Supported and unsupported fields in Identity Access and Audit
+title: Supported and unsupported fields in Identity and Access Audit
 description: A list of fields that support auditing and those that do not.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/identity/allowed-fields-for-audit.html
@@ -7,16 +7,16 @@ release: australia
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Identity and Access Audit, Identity]
 ---
 
-# Supported and unsupported fields in Identity Access and Audit
+# Supported and unsupported fields in Identity and Access Audit
 
 A list of fields that support auditing and those that do not.
 
-Audit Fields Validation prevents some fields from being selected in the field\_list in the Security Field Audit Config \(sys\_sec\_field\_audit\_config\) table.
+Audit Fields Validation helps prevent some fields from being selected in the field\_list in the Security Field Audit Config \(sys\_sec\_field\_audit\_config\) table.
 
 <table id="table_zcw_t4b_nzb"><thead><tr><th>
 
@@ -28,7 +28,7 @@ Fields supported or not supported
 
 </th></tr></thead><tbody><tr><td>
 
-**All tables**
+All tables
 
 </td><td>
 
@@ -41,7 +41,7 @@ Fields that aren’t supported:
 
 </td></tr><tr><td>
 
-**User has role \(sys\_user\_has\_role\)**
+User has role \(sys\_user\_has\_role\)
 
 </td><td>
 
@@ -52,7 +52,7 @@ Fields that are supported:-   User
 
 </td></tr><tr><td>
 
-**User \(sys\_user\)**
+User \(sys\_user\)
 
 </td><td>
 

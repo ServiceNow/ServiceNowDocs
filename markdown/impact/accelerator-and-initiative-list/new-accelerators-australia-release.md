@@ -1,23 +1,63 @@
 ---
-title: Latest Accelerators by Release
-description: A list of new Impact Accelerators introduced in each Impact store releases.List of new Accelerators in the v8.0.0 Impact release.List of new Impact Accelerators in the v7.0.0 release.
+title: Latest Accelerators by release
+description: A list of new Impact Accelerators introduced in each Impact store releases.List of new Accelerators in the v12.0.0 Impact release.List of new Accelerators in the v11.0.0 Impact release.List of new Accelerators in the v8.0.0 Impact release.List of new Impact Accelerators in the v7.0.0 release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/accelerator-and-initiative-list/new-accelerators-australia-release.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 11
 breadcrumb: [Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
-# Latest Accelerators by Release
+# Latest Accelerators by release
 
 A list of new Impact Accelerators introduced in each Impact store releases.
 
+-   [Accelerators introduced in v12.0.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/new-accelerators-australia-release.md)
+-   [Accelerators introduced in v11.0.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/new-accelerators-australia-release.md)
 -   [Accelerators introduced in v8.0.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/new-accelerators-australia-release.md)
 -   [Accelerators introduced in v7.0.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/new-accelerators-australia-release.md)
+
+## Accelerators introduced in v12.0.0
+
+List of new Accelerators in the v12.0.0 Impact release.
+
+### Strategy Accelerators
+
+The following Impact Strategy Accelerators were introduced in v12.0.0:
+
+-   [ITSM Maturity Assessment – On Demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/itsm-maturity-assessment-on-demand.md): Helps ServiceNow Impact customers assess their IT Service Management maturity across various domains and create a prioritized action plan with domain-specific tasks, owners, and success criteria.
+-   [Portfolio Governance Maturity Assessment – On Demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/portfolio_governance_maturity_assessment_on_demand.md): Helps ServiceNow Impact customers evaluate their Portfolio Governance maturity across Foundations, Demand Process, and Roadmap domains. It also generates a prioritized action plan with specific tasks, owners, and completion criteria to address identified gaps.
+-   [Strategy Governance Maturity Assessment – On Demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/strategy-governance-maturity-assessment-on-demand.md): Helps ServiceNow Impact customers evaluate their Strategy Governance maturity across governance domains. It also generates a comprehensive action plan with maturity assessment results, prioritized focus areas, domain-specific weekly tasks, assigned owners, and completion criteria aligned to business priorities.
+
+## Accelerators introduced in v11.0.0
+
+List of new Accelerators in the v11.0.0 Impact release.
+
+### Technical Accelerators
+
+The following Impact Technical Accelerators were introduced in v11.0.0:
+
+-   [Health Findings Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/health-findings-review.md): Helps customers interpret Scan Engine platform health findings with expert guidance so they can confidently prioritize and act on key issues. Translates technical findings into business-relevant language to support stakeholder communication and focused remediation.
+-   [Jumpstart Your AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-ai-agent-advisor.md): Shows customers how to use AI Agent Advisor to surface base system AI tools and identify gaps where custom tooling may be a better fit.
+-   [Jumpstart Your AI Control Tower: Observe Your AI Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-ai-control-tower-observe-your-ai-value.md): Supports customers in measuring and communicating the business impact of their AI investments using AI Control Tower with value templates, mapping outcomes to strategic priorities, and building reports.
+-   [Jumpstart Your Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-your-build-agent.md): Introduces customers to Build Agent by demonstrating its ability to generate complete applications — including tables, flows, catalog items, and roles. In addition, it coaches on effective prompting techniques so customers leave with a clear plan to begin using it in their own environment.
+-   [Jumpstart Your CSDM for Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-csdm-for-enterprise-architecture.md): Coaches customers on how to structure their CSDM data model within the Enterprise Architecture application. It covers how Business Capabilities, Business Applications, and Information Objects connect to deployed Application Services and Service Instances.
+-   [Jumpstart Your Data Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-your-data-encryption.md): Empowers customers to activate Field Encryption Enterprise \(FEE\) as a core capability for protecting sensitive data at the application level. It also covers encryption candidate identification, operational impacts, and the path from entitlement to production-ready use as part of their Vault security strategy.
+-   [Jumpstart Your IRM: Entity Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-your-irm-entity-framework.md): Grounds customers in a sound IRM foundation by providing an overview of the Entity Framework covering entity types, classes, tiers, and hierarchy. It also coaches on design decisions, data sourcing approaches, and common pitfalls to avoid before implementation.
+-   [Jumpstart Your Migration to ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-migration-to-otto-for-virtual-agent.md): Prepares customers to migrate an existing NLU-based Virtual Agent to ServiceNow Otto for Virtual Agent by mapping existing topic coverage to equivalents in a copy of their instance. It produces an executable structured migration plan.
+-   [Introduction to ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/introduction-to-servicenow-studio.md): Orients customers to the ServiceNow Studio interface and how it fits within the broader ServiceNow Studios ecosystem. It accelerates onboarding and time-to-value for scoped application development on the Now Platform.
+-   [Jumpstart Your Strategic Portfolio Management – Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-spm-demand-management.md): Equips customers to get started with Demand Management within SPM by providing an overview of how it connects strategy with capacity and manages the demand pipeline. It helps organizations meet customer and operational demands without disruption.
+-   [Jumpstart Your Zero Copy Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-zero-copy-connectors.md): Enables customers to design, configure, and govern Zero Copy Connectors for secure, native-like access to external data sources such as Databricks, Snowflake, and remote ServiceNow instances. It eliminates data duplication and custom integrations.
+
+### Strategy Accelerators
+
+The following Impact Strategy Accelerators were introduced in v11.0.0:
+
+[Knowledge Management Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/knowledge-management-maturity-assessment.md): Guides customers through assessing their Knowledge Management process maturity within ServiceNow by conducting a structured stakeholder questionnaire and analyzing results. It delivers a scored report with tailored recommendations and a plan for continuous improvement.
 
 ## Accelerators introduced in v8.0.0
 
@@ -29,7 +69,7 @@ The following Impact Technical Accelerators were introduced in v8.0.0:
 
 -   [Jumpstart Your AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-your-ai-data-explorer.md): Helps you get started with ServiceNow’s AI Data Explorer through coaching, applied demonstrations, and leading practices, for faster, confident data-driven decisions.
 -   [Jumpstart your AI Control Tower: Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-your-ai-control-tower.md): AI Life cycle: Provides guided coaching and an applied demonstration to help you better understand your organization’s AI governance.
--   [TuneUp Your Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/tuneup-now-assist-virtual-agent.md): Provides prescriptive guidance on fine-tuning your Now Assist in Virtual Agent.
+-   [TuneUp Your ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/tuneup-now-assist-virtual-agent.md): Provides prescriptive guidance on fine-tuning your Now Assist in Virtual Agent.
 -   [Introduction to ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/introduction-to-servicenow-vault.md): Provides an overview of the possibilities and capabilities of ServiceNow Vault.
 -   [Jumpstart Your HR Case and Knowledge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-hr-case-knowledge.md): Provides a demonstration of the possibilities and capabilities of HR Case and Knowledge.
 -   [Jumpstart Your Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-enterprise-architecture-workspace.md) Provides a demonstration of the possibilities and capabilities of Enterprise Architecture Workspace.

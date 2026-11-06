@@ -7,7 +7,7 @@ release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-29"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, model, create, new, build]
 breadcrumb: [ERP models, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
@@ -27,17 +27,17 @@ This video was recorded in the Zurich release.
 
 ## About this task
 
-A model functions as a staging area that contains all potential fields you can add to remote and extraction tables, as well as, create, read, and update operations. You can then use the tables and queried data as a data source on the ServiceNow AI Platform.
+A model functions as a staging area that contains all potential fields you can add to remote and extraction tables, as well as create, read, and update operations. You can then use the tables and queried data as a data source on the ServiceNow AI Platform.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the ERP models page by selecting the models icon \[Omitted image "erpc-data-model-icon.png"\] Alt text: in the side panel.
+2.  Open the ERP Models page by selecting the models icon \[Omitted image "erpc-data-model-icon.png"\] Alt text: in the side panel.
 
 3.  Select **New**.
 
-4.  On the new model tab, fill in the fields.
+4.  On the **Create New Model** form, fill in the fields.
 
     For a description of the field values, see [Zero Copy Connector for ERP new model field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-new-model-descriptions.md).
 

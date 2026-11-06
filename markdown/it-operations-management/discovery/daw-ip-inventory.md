@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Schedules, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
@@ -32,6 +32,8 @@ Each tab displays a list of IP data with the following controls:
 -   **Refresh** icon: Update the data
 -   **Export**: Download the list as Excel, CSV, JSON, or PDF, or send it by email.
 -   **More Actions** icon: Add or remove columns or copy the URL.
+
+Starting with v1.22.0, users with the discovery\_operator role can view and export IP data. The **New** and **Add to Range Set** controls aren't available to these users. For more information, see Discovery Operator role access.
 
 The following sections describe the IP data on each tab.
 

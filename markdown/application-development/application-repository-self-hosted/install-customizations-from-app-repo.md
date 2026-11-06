@@ -9,7 +9,7 @@ classification: application-repository-self-hosted
 topic_type: task
 last_updated: "2026-09-22"
 reading_time_minutes: 1
-breadcrumb: [Manage customizations to applications, ServiceNow application repository, Application sharing, Administer your apps, Deploying applications, Building applications]
+breadcrumb: [Manage customizations to applications, ServiceNow application repository, Application sharing, Administer your apps, Deploying applications, Classic app development, Building applications]
 ---
 
 # Install customizations from an application repository
@@ -32,7 +32,7 @@ Role required: admin
 
 4.  Select a customization version to install.
 
-    **Note:** For scoped applications installed via plugins, the base system version is the ServiceNow release version that you're currently using \(for example, Australia\).
+    **Note:** For scoped applications installed via plugins, the base system version is the ServiceNow release version that you're currently using \(for example, Brazil\).
 
 5.  Select **Install**.
 

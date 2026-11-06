@@ -7,7 +7,7 @@ release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -49,8 +49,6 @@ Install the ServiceNow Document designer add-in to your Microsoft Word document 
 Create a business domain to define the context in which data is imported into a Microsoft Word document using Document designer.
 -   **[Configure business domain roles for Document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/configure-business-domain-roles-for-document-designer.md)**  
 Configure role mappings on a business domain to control which users can select the domain when importing data into a Microsoft Word document.
--   **[AI for document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/ai-reporting-assistant.md)**  
-The AI for document designer uses prompts to generate reports from ServiceNow instance data directly in a Microsoft Word document.
 
 **Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/common-grc-features.md)
 

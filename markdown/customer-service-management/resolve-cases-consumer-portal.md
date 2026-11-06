@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/resolve-cases-consumer-portal.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the Consumer Service Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Consumer Service Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Accept or reject a case solution from the Consumer Service Portal
@@ -34,7 +34,7 @@ When an agent proposes a solution to a consumer's case, buttons for accepting or
 
 5.  Select one of the following from **Actions**.
 
-<table id="choicetable_ntm_ly1_1w"><tbody><tr><td id="d117305e118">
+<table id="choicetable_ntm_ly1_1w"><tbody><tr><td id="d119494e118">
 
 **Accept Solution**
 
@@ -42,7 +42,7 @@ When an agent proposes a solution to a consumer's case, buttons for accepting or
 
 Accepts the solution proposed by the agent and changes the case state to **Closed**.
 
-</td></tr><tr><td id="d117305e130">
+</td></tr><tr><td id="d119494e130">
 
 **Reject Solution**
 

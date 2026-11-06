@@ -7,7 +7,7 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, HR Service Delivery Advanced Integration with Workday, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
@@ -25,6 +25,8 @@ View the subflow-agent mapping for HR Service Delivery Advanced Integration with
 |Employee total rewards information AI agent|Benefits Management|Total Rewards|Workday HR - Get Total Rewards|
 |Employee details updater AI agent|Human Capital Management|Update Personal Details|Workday HR - Update Personal Details|
 |Worker Management|Get Worker|Workday HR - Look up Worker Profile|
+|View compensation details AI agent|Payroll Management|Get Compensation|Workday HR - Get User Compensation Details|
+|Get Paychecks|Workday HR - Get Employee Payslip|
 
 **Parent Topic:**[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/reference-hr-service-delivery-advanced-integration-with-workday.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
@@ -187,27 +187,38 @@ The following code example shows the switch case statements used by this method 
 
 ```
 fetchEventHandlerAndCreateTMFEvent: function(eventSnapshot, eventType, eventId) {
-var eventPayload;
-switch (eventType) {
-  case Constants.EVENT_TYPES.TROUBLE_TICKET_STATUS_CHANGE:
-    eventPayload = new sn_ind_tsm_sdwan.TroubleTicketNotificationUtil().generateTroubleTicketStatusChangePayload(eventSnapshot, eventType, eventId);
-    break;
+  var eventPayload;
+  switch (eventType) {
+    case Constants.EVENT_TYPES.TROUBLE_TICKET_STATUS_CHANGE:
+      // For installations through July 2026, uses sn_ind_tsm_sdwan scope:
+      eventPayload = new sn_ind_tsm_sdwan.TroubleTicketNotificationUtil()
+        .generateTroubleTicketStatusChangePayload(eventSnapshot, eventType, eventId);
+      // For installations after July 2026, uses sn_ind_tsm_core scope:
+      // eventPayload = new sn_ind_tsm_core.TroubleTicketNotificationUtil()
+      //   .generateTroubleTicketStatusChangePayload(eventSnapshot, eventType, eventId);
+      break;
 
-  // New event type in trouble ticket
-  case ‘troubleTicketPriorityChange’
-    eventPayload = new sn_ind_tsm_sdwan.TroubleTicketNotificationUtil().generateTroubleTicketAttributeChangePayload(eventSnapshot, eventType, eventId);
-    break;
+    case 'troubleTicketPriorityChange':
+      // New event type in trouble ticket
+      // For installations through July 2026, uses sn_ind_tsm_sdwan scope:
+      eventPayload = new sn_ind_tsm_sdwan.TroubleTicketNotificationUtil()
+        .generateTroubleTicketAttributeChangePayload(eventSnapshot, eventType, eventId);
+      // For installations after July 2026, uses sn_ind_tsm_core scope:
+      // eventPayload = new sn_ind_tsm_core.TroubleTicketNotificationUtil()
+      //   .generateTroubleTicketAttributeChangePayload(eventSnapshot, eventType, eventId);
+      break;
 
-  // New event type of object other than trouble ticket
-  case ‘domainOrderStatusChange’
-    eventPayload = new sn_ind_tmt_orm().domainOrderNotification().generatedomainOrderStatusChangePayoad(eventSnapshot, eventType, eventId);
-    break;
+    case 'domainOrderStatusChange':
+      // New event type of object other than trouble ticket
+      eventPayload = new sn_ind_tmt_orm().domainOrderNotification()
+        .generatedomainOrderStatusChangePayoad(eventSnapshot, eventType, eventId);
+      break;
 
-  default:
-    this._logger.debug("Event with id " + eventId + " could not find the matching payload generator");
-    eventPayload = null;
+    default:
+      this._logger.debug("Event with id " + eventId + " could not find the matching payload generator");
+      eventPayload = null;
   }
-return eventPayload;
+  return eventPayload;
 },
 ```
 

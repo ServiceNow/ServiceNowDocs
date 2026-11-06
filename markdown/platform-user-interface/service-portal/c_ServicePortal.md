@@ -7,7 +7,7 @@ release: australia
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure UIs and portals, Configure user experiences]
 ---
@@ -18,7 +18,7 @@ Service Portal allows you to build a mobile-friendly self-service portal experie
 
 \[Omitted video\] Description: Using widgets with Service Portal
 
-Both beginner and expert developers can configure portals using Service Portal. Less technical users can make basic configuration changes to the UI using Branding Editor and other components of Service Portal. More advanced users can edit and extend portals, pages, and widgets. Expert users can use the Widget Editor tool to write scripts to power a portal, and even create rich web applications on the ServiceNow AI Platform.
+Both beginner and expert developers and can configure portals using Service Portal. Less technical users can make basic configuration changes to the UI using Branding Editor and other components of Service Portal. More advanced users can edit and extend portals, pages, and widgets. Expert users can use the Widget Editor tool to write scripts to power a portal, and even create rich web applications on the ServiceNow AI Platform.
 
 ## Get started
 
@@ -49,7 +49,7 @@ Both beginner and expert developers can configure portals using Service Portal. 
 </td></tr></tbody>
 </table>## Troubleshoot and get help
 
--   To learn more about what's new and what's changed in Australia, see the .
+-   To learn more about what's new and what's changed in Brazil, see the [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/service-portal-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/service-portal-rn.md).
 -   [Ask or answer questions in the ServiceNow AI Platform community forum](https://www.servicenow.com/community/now-platform/ct-p/now-platform)
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)

@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-10-20"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Reference, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -43,16 +43,13 @@ Documents indexed
 
 </td></tr><tr><td>
 
-Quota usage
+Connector limit
 
 </td><td>
 
-**Single score with progress bar:**-   First value shows the number of items the connector retrieved that are currently included in the AI Search index.
-
-**Note:** Deleted items aren't deducted from this quota usage figure.
-
--   Second value shows the indexing limit for the connector.
--   Progress bar shows how close the connector is to its indexing limit.
+**Single score with progress bar:**-   First value shows the number of content items the connector retrieved that are currently included in the AI Search index and available for search.
+-   Second value shows the content indexing limit for the connector. This is the maximum number of content items the connector can include in the AI Search index.
+-   Progress bar shows how close the connector is to its content indexing limit.
 
 </td></tr><tr><td>
 

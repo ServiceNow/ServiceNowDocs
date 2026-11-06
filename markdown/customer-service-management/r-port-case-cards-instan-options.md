@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/r-port-case-cards-instan-options.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configurable Portal widgets instance options, Configurable Portal Widgets reference, Reference, Customer Service Management]
 ---
@@ -165,6 +165,8 @@ The text displayed in the widget when **Hide Empty Case Widget** isn’t selecte
 </td></tr></tbody>
 </table>**Related topics**  
 
+
+[Portal Case Cards widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-case-card-widget.md)
 
 [Add and configure the Portal Case Cards widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-case-card-widget-inst-optns.md)
 

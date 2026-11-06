@@ -1,0 +1,39 @@
+---
+title: Associate an initiative with a project
+description: Associate an existing improvement initiative with a project.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/process-mining/associate-initiative.html
+release: australia
+product: Process Mining
+classification: process-mining
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Creating and tracking improvement initiatives, Use, Process Mining, Discover, AI Workflow Factory Prime, Agentic app development, Building applications]
+---
+
+# Associate an initiative with a project
+
+Associate an existing improvement initiative with a project.
+
+## Before you begin
+
+Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, or sn\_process\_mining\_admin
+
+## Procedure
+
+1.  Open the project view.
+
+2.  Select the Initiatives icon \(\[Omitted image "improve-initiative-icon.png"\] Alt text: Initiatives icon\) from the Notes and initiatives panel.
+
+3.  Search for and check one or more initiatives to associate with the project.
+
+4.  Select **Link**.
+
+
+## Result
+
+The associated improvement initiative displays in the refreshed initiatives list.
+
+**Parent Topic:**[Creating and tracking improvement initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/process-mining/initiatives-from-process-optimization.md)
+

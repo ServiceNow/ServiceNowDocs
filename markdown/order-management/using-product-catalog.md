@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/using-product-catalog.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Lead-to-cash foundation apps, Use, Sales Customer Relationship Management]
 ---
@@ -17,6 +17,8 @@ The product catalog provides a visual display of the available product offerings
 Agents use the Catalog tab \(related list\) for a transaction in the CRM Workspace to open the product catalog. Customers engaged in self-service transactions such as placing orders, use the product catalog in the Business Portal.
 
 **Note:** When you start a lead, the Catalog tab displays only simple products that can be added and do not require further customization.
+
+In test or pre-production environments, you can view and configure product offerings that are in the In Test and Staged states, if your admin has enabled the extended life cycle states. For more information, see [Validating product offerings before publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/extended-product-lifecycle-states.md).
 
 Starting with the Product Catalog Management Core v17.0.0 release, the product catalog interface supports semantic search queries powered by AI Search, in addition to keyword searches.
 
@@ -34,6 +36,7 @@ The catalog view has the following features for selecting products:
 
     When a product offering is a derived product, the product tile displays a message indicating that the product is derived.
 
+-   **Sort by**: Organize how search results are returned. Select Display Order to sort by the display order that's configured for catalogs, categories, or product offerings, or select an option such as name to sort alphabetically.
 
 ## Product catalog interface with AI Search
 
@@ -46,7 +49,7 @@ AI Search provides other features to enhance the search process:
 -   **Search query language options**: Use Boolean operators, wildcards, and multi-term and quoted phrases in queries to broaden or narrow search results.
 -   **Auto-complete suggestions:** When you start entering text in the search bar, AI Search displays auto-complete suggestions to help you get directly to the results you need. Suggestions may include recent search queries, recently viewed search results, or search queries or results that match the terms that you're typing into the search bar.
 -   **Auto-corrections of misspelled or incomplete words**: If your queries contain misspelled words or are incomplete, AI Search automatically replaces those search query terms with correct spellings, based on the search sources \(product offerings and service specifications\). Typo corrections are shown before search results.
--   Sort by filter: Organize how search results are returned, for example, by relevancy or product description. Control the order, descending or ascending, in which the results are displayed.
+-   Relevancy sort option: Sort search results by relevancy. This option appears only when AI Search is turned on.
 
 \[Omitted image "ai-search-bar-catalog.png"\] Alt text: AI Search features in product catalog interface: Sort by filter options, sort order, and search bar. Another example shows search bar with auto-complete suggestions.
 

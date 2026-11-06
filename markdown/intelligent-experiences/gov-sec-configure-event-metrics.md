@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/gov-sec-configure-event-metrics.html
 release: australia
 topic_type: task
-last_updated: "2026-05-02"
+last_updated: "2026-10-29"
 reading_time_minutes: 8
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, Managing AI asset security, Govern AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Configure, Managing AI asset security, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Configure post-runtime security metrics
@@ -21,17 +21,17 @@ Role required: AI steward \[sn\_ai\_governance\_ai\_steward\]
 
 Security and content moderation policies are grouped into LLM guardrail categories that reflect industry practices that align with [OWASP Top 10 Risk &amp; Mitigations for LLMs and Gen AI Apps](https://genai.owasp.org/llm-top-10/) and the [OpenAI model specification](https://model-spec.openai.com/2025-12-18.html). These categories are reflected in the Top AI asset security events metric.
 
+All Post-runtime settings, with the exception of Sensitive data disclosure and Input and output handling metrics, require that the AICT Security Analyzer agent be turned on. If you turn off a setting that requires the AICT Security Analyzer agent, the agent is also turned off. For more information, see [Turn on the AICT Security Analyzer agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-configure-security-analyzer-agent.md).
+
 ## Procedure
 
 1.  In AI Control Tower, navigate to **Settings** &gt; **Rules and templates** &gt; **Security**.
 
-    **Note:** Alternatively, you can configure these metrics directly in the Post-runtime tab. Navigate to the tab and select **Configure**. The inline metric settings are organized by OWASP threat category, which is slightly different from how they're organized in Settings by LLM guardrail category.
-
-2.  Select the ServiceNow AI systems tab.
+2.  Select the **ServiceNow AI systems** tab.
 
 3.  Under Data Model Integrity, configure the metrics and select **Save and Close**.
 
-<table><thead><tr><th>
+<table id="table_s14_ly5_1lc"><thead><tr><th>
 
 Metric
 
@@ -45,9 +45,9 @@ Data integrity incident detection
 
 </td><td>
 
-Designed to help show potential violations of certain LLM guardrail policies in LLM responses. To show data for this metric in Top AI asset security events, select **Configure**, and then select **Detection enabled**. **Note:** If you disable the metric, past data shows on the chart for 90 days. AI judge model classifications are probabilistic in nature and may be incomplete or incorrect. They don't constitute professional advice and shouldn't be relied on as the sole basis for assessing risk.
+Designed to help show potential violations of certain LLM guardrail policies in LLM responses. To show data for this metric in Top AI asset security events, select **Configure**, and then select **Detection enabled**. If you disable the metric, past data shows on the chart for 90 days. **Warning:** AI judge model classifications are probabilistic in nature and may be incomplete or incorrect. They don't constitute professional advice and shouldn't be relied on as the sole basis for assessing risk.
 
-You can configure these settings:-   Categories:
+You can configure these settings in the **ServiceNow AI** tab:-   Categories:
     -   Physical, Chemical, Biological Harmful Content Detection
     -   Guardrail Circumvention Attempt
     -   Untrusted Links Or Downloads
@@ -81,7 +81,7 @@ Correctness detection
 
 </td><td>
 
-Correctness measures whether the information provided in the model’s response is factually accurate and logically valid given the prompt and context. To show data for this metric in Top AI asset security events, select **Configure**, and then select **Detection enabled**. **Note:** If you disable the metric, past data shows on the chart for 90 days.
+Correctness measures whether the information provided in the model's response is factually accurate and logically valid given the prompt and context. To show data for this metric in Top AI asset security events, select **Configure**, and then select **Detection enabled**. **Note:** If you disable the metric, past data shows on the chart for 90 days.
 
 You can configure these settings:-   **Sampling rate** – The percentage of transactions that are evaluated. A lower sample rate will result in fewer LLM calls but may also result in fewer detected security events.
 -   **Max skill calls per execution** – The amount of AI usage per call, with a minimum of 10 calls and a maximum of 100 calls. The default is 10 calls. Entering a lower number results in fewer AI calls, but potentially less accurate data.
@@ -105,11 +105,10 @@ Prompt injection
 
 </td><td>
 
-Prompt injection attacks occur when malicious input is crafted to override or deviate from the model’s instructions, causing unintended behavior. To show data for this metric in Top AI asset security events, select **Configure**, and then select **Detection enabled**. **Note:** If you disable the metric, past data shows on the chart for 90 days.
+Prompt injection attacks occur when malicious input is crafted to override or deviate from the model's instructions, causing unintended behavior. To show data for this metric in Top AI asset security events, select **Configure**, and then select **Detection enabled**. **Note:** If you disable the metric, past data shows on the chart for 90 days.
 
 You can configure these settings:-   **Sampling rate** – The percentage of transactions that are evaluated. A lower sample rate will result in fewer LLM calls but may also result in fewer detected security events.
 -   **Max skill calls per execution** – The amount of AI usage per call, with a minimum of 10 calls and a maximum of 100 calls. The default is 10 calls. Entering a lower number results in fewer AI calls, but potentially less accurate data.
--   **Single or multiple analysis** – Single analysis uses the default LLM to determine whether the model's output or behavior violates predefined security policies. Multiple analysis uses the results from three or more LLMs that ServiceNow supports to make a determination, using the majority result from the LLMs. Multiple analysis requires an odd number of LLMs.
 For external AI systems, configure the Sampling rate. Configure additional settings in Prompt injection in AI Evaluation.
 
 </td></tr><tr><td>
@@ -137,10 +136,18 @@ You can configure these settings:-   **Sampling rate** – The percentage of tra
 -   **Single or multiple analysis** – Single analysis uses the default LLM to determine whether the model's output or behavior violates predefined security policies. Multiple analysis uses the results from three or more LLMs that ServiceNow supports to make a determination, using the majority result from the LLMs. Multiple analysis requires an odd number of LLMs.
 For external AI systems, configure the Sampling rate. Configure additional settings in Agent goal deviation in AI Evaluation.
 
+</td></tr><tr><td>
+
+Excessive agency
+
+</td><td>
+
+Detects when LLMs are provided too much access, leading to potential unauthorized or excessive actions by the LLM. Controls data for Access issues and Privileged AI agents metrics, as well as Post-runtime metrics. The setting is off by default.
+
 </td></tr></tbody>
 </table>5.  Under Sensitive data disclosure, configure the metrics and select **Save and Close**.
 
-<table><thead><tr><th>
+<table id="table_z14_ly5_1lc"><thead><tr><th>
 
 Metric
 
@@ -173,9 +180,9 @@ You can configure these settings:-   **Input extended PII** – Collect more pot
 
 
 </td></tr></tbody>
-</table>6.  Select the External AI systems tab and repeat steps 3-5.
+</table>6.  Select the **External AI systems** tab and repeat steps 3-5.
 
-    Some settings aren't available to be configured in security for external AI systems. Instead, you're directed to the Evaluation tab in Settings to configure the settings.
+    Some settings aren't available to be configured in security for external AI systems, such as **Max Skill Calls** and **Single or Multiple Analysis**.
 
 
 **Parent Topic:**[Configuring security metrics in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-configuring.md)

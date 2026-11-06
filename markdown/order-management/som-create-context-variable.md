@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/som-create-context-variable.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
@@ -19,6 +19,8 @@ Create custom context variables to represent product or non-product characterist
 Before creating a custom variable, review the context variables available in the Context Variables \[sn\_csm\_ctxrul\_mgt\_context\_variable\] table to verify whether you need a new one. This table identifies the system-defined variables provided with Product Catalog Management and Pricing Management and also any custom variables that have been created.
 
 For example, the system-defined context variables provided for non-product attributes include: Account, Shipping Country, Shipping City, Shipping State, Shipping Zip, Billing Country, Billing City, Billing State, Billing Zip, and Transaction Date.
+
+System-defined context variables for transaction lines include buyer organization and channel partner. Buyer Organization and Channel Partner context variables reference the Customer Service Organization \[sn\_customer\_service\_organization\] table. The Consumer context variable references the Consumer \[csm\_consumer\] table. In pricing requests, the consumer is identified by its External ID \[sn\_tmt\_core\_external\_id\] value.
 
 Role required: admin
 
@@ -149,11 +151,15 @@ Option that indicates the context variable is available for use in rule matrices
 
     For more information on external IDs and custom context variables, see [External ID support in Sales CRM Pricing API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/external-ids-pricingapi.md).
 
-6.  Select **Save**.
+6.  If you're no longer testing product offerings in extended life cycle states, update the value in the **Reference qual condition** field to remove the in\_test and staged conditions.
+
+    The in\_test and staged conditions are present in the **Reference qual condition** field by default. For more information about extended life cycle states, see [Validating product offerings before publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/extended-product-lifecycle-states.md).
+
+7.  Select **Save**.
 
     The tab \(related list\) for the **Type** that you selected in Step 4 and the **Variable Mapping** tab are displayed.
 
-7.  Depending on the **Type** you selected, create the values for the type, then select **Save**.
+8.  Depending on the **Type** you selected, create the values for the type, then select **Save**.
 
     For example, in Step 4, if you selected the Choice type, select **New** in the **Choices** tab and define the choices.
 

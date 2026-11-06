@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/adapt-auth-mob-apps-sys-props.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure access, IP-restricted networks, Mobile authentication, Configuring the Mobile Platform, Mobile Platform]
 ---

@@ -1,18 +1,18 @@
 ---
 title: Interaction Controls Component \(ICC\) for voice calls
-description: The ServiceNow Configurable Workspace offers voice interaction and call control capabilities to agents within a single pane view, equipping them with the tools needed to enhance agent productivity and customer experience.
+description: The ServiceNow Configurable Workspace offers voice interaction and call control capabilities to agents within a single pane view. This enhances agent productivity and customer experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/contact-center-integration-with-icc.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrating with Computer Telephony Integration \(CTI\), Integrate, Customer Service Management]
 ---
 
 # Interaction Controls Component \(ICC\) for voice calls
 
-The ServiceNow® Configurable Workspace offers voice interaction and call control capabilities to agents within a single pane view, equipping them with the tools needed to enhance agent productivity and customer experience.
+The ServiceNow® Configurable Workspace offers voice interaction and call control capabilities to agents within a single pane view. This enhances agent productivity and customer experience.
 
 ## Overview of CRM Workspace with ICC integration
 

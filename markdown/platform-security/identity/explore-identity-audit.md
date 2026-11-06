@@ -7,7 +7,7 @@ release: australia
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Identity and Access Audit, Identity]
 ---
@@ -18,7 +18,7 @@ Use Identity and Access Audit to understand changes made to users, groups, roles
 
 Identity and Access Audit helps to understand the critical information about who has modified what, where and when in user accounts, groups and roles.
 
-This feature helps identify malicious users, monitor unusual activity within your ServiceNow instance, and maintain compliance by tracking changes to access permissions.
+This feature helps identify malicious users, monitor unusual activity within your ServiceNow instance, and support compliance efforts by tracking changes to access permissions.
 
 Identity and Access Audit \(Identity Security Audit\) is a plugin \(`com.glide.security.audit`\), which is auto-installed.
 
@@ -29,15 +29,15 @@ Identity and Access Audit enables you to:
 -   View the changes made in the last 30 days to users, groups, role ACL attributes, role memberships, group memberships, and ACL roles.​
 -   Track the changes in your ServiceNow instance.
 -   Help mitigate potential security and regulatory risks.
--   Demonstrate compliance to auditors across different organizational groups.
--   Demonstrate that the organization is protected against threats caused by limited visibility into user group and role changes.
+-   Support compliance reviews by auditors across different organizational groups.
+-   Help reduce threats caused by limited visibility into user group and role changes.
 
-## User personas in Identity Access and Audit
+## User personas in Identity and Access Audit
 
 There are two different user personas in Identity and Access Audit \(identity\_access\_audit\_viewer\):
 
--   **role\_viewer** and **group\_viewer​**: View audit records and configuration.​
--   **Security Admin**: View the audit trails. Enable or disable auditing for specific tables or fields.
+-   role\_viewer and group\_viewer​: View audit records and configuration.​
+-   Security Admin: View the audit trails. Enable or turn off auditing for specific tables or fields.
 
 ## Audit Tables
 

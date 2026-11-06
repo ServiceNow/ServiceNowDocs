@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_TargetCommCreateNewPub.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Targeted communications, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -152,7 +152,7 @@ This field appears when you select **Wiki** as the **Content Type**. Click the W
 </td></tr></tbody>
 </table>3.  Click one of the following options.
 
-<table id="choicetable_wk1_4th_t5"><tbody><tr><td id="d91701e332">
+<table id="choicetable_wk1_4th_t5"><tbody><tr><td id="d93811e332">
 
 **Submit**
 
@@ -160,7 +160,7 @@ This field appears when you select **Wiki** as the **Content Type**. Click the W
 
 The stage is set to **Author** and the publication record is saved.
 
-</td></tr><tr><td id="d91701e344">
+</td></tr><tr><td id="d93811e344">
 
 **Send for Review**
 

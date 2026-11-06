@@ -7,9 +7,8 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Talent Acquisition roles, user roles, Hiring Core roles, recruiter role, hiring experiences role]
 breadcrumb: [Reference, Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
 
@@ -30,7 +29,6 @@ An overview of the different roles and user criteria in Hiring Experiences.
 |approver\_user|This role is required for approver users.|
 |Talent Profile admin \[sn\_ta\_tp.talent\_profile\_admin\]|This role is required to set up Talent Profile.|
 |Talent Profile user \[sn\_ta\_tp.talent\_profile\_user\]|This role is required to use the Talent Profile functionalities.|
-|Talent Profile read-only user \[sn\_ta\_tp.talent\_profile\_read\]|This role is required to have read-only access to talent profiles.|
 |admin|This is the administrator role. This role has access to all the system features, functions, and data, regardless of the security constraints.|
 
 **Parent Topic:**[Hiring Experiences reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/reference-frmwrk-ta.md)

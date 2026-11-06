@@ -7,9 +7,9 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Script Debugger, Debugging scripts, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Use Script Debugger, Debug scripts, Scripting, API implementation, API implementation and reference]
 ---
 
 # Script Debugger user interface
@@ -55,7 +55,7 @@ The Script Debugger user interface \(UI\) displays information about breakpoints
 |Settings|Session debug options. For information about the debug options, see [Session debug](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_SessionDebug.md).|
 
 -   **[Script Tracer and debugging scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/script-tracer.md)**  
-The Script Tracer can help you filter your debugging search to quickly narrow down script problems. You can identify lines of scripts in the Glide record that have undergone change during execution. Finding those specific lines of scripts rather than doing a wide search helps save time and improves productivity.
+The Script Tracer can help you filter your debugging search to quickly narrow down script problems. You can identify lines of code in a script and other changes to its record during execution. Finding those specific lines of scripts rather than doing a wide search helps save time and improves productivity.
 -   **[Script Debugger status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/script-debugger-status.md)**  
 The Script Debugger status determines what debugging actions are available and what information it can display.
 -   **[Transaction details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/transaction-details.md)**  

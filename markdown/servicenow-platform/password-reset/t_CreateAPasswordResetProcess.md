@@ -7,8 +7,8 @@ release: australia
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -30,20 +30,6 @@ Role required: password\_reset\_admin
     -   The Password Reset Windows App \(com.glideapp.password\_reset\_desktop\) plugin supports changing the AD password.
 3.  Define the verifications that the process can use.
 4.  Configure Password Reset to auto-enroll users or to enable users to enroll for the program. See [Configure your Password Reset process to auto-enroll users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/configure-auto-enroll-for-pwd-reset.md) and [Enable users to enroll for Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/configure-user-enroll-for-pwd-reset.md).
-
-Configuring password reset for external users: External users \(users with the snc\_external role\) cannot manually enroll their devices in the password reset system. Security restrictions prevent external users from writing data to the password reset enrollment tables, and the enrollment form is not accessible to external users by default.
-
-To enable password reset for external users, configure an automatic verification that does need manual enrollment such as Personal data verification or Email Code or SMS Code verification. Make sure that their email address or phone number is already stored in their user record.
-
-To configure automatic verification for external users:
-
-1.  Navigate to **Password Reset** &gt; **Processes**.
-2.  Select any of the automatic verifications from the related list of a process record ie Personal data/SMS/Email.
-3.  Ensure that the SMS/Email are of type Automatic and for that navigate to **Password Reset** &gt; **Extensions** &gt; **Verification types**.
-4.  Select the **Automatic enrollment** option.
-5.  Ensure that external users have a valid email address or phone number in their user profile.
-
-Once configured, external users can receive a one-time verification code to their registered email address or phone number to complete the password reset process.
 
 ## About this task
 

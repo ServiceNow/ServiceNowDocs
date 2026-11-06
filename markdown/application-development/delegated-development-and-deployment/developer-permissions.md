@@ -7,9 +7,9 @@ release: australia
 product: Delegated Development and Deployment
 classification: delegated-development-and-deployment
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Delegate permissions, Administer, Delegated Development, Planning your application, Building applications]
+breadcrumb: [Delegate permissions, Administer, Delegated Development, Planning your application, Classic app development, Building applications]
 ---
 
 # Developer and deployment permissions
@@ -188,7 +188,7 @@ Delegated Admin
 
 </td><td>
 
-Grants access to all Delegated Development permissions so that permissions do not need to be granted individually.**Note:** The SNC scripting role is also added.
+Grants access to all Delegated Development permissions for a specific scoped application so that permissions do not need to be granted individually.**Note:** The SNC scripting role is also added.
 
 </td></tr></tbody>
 </table>## Deployment permissions

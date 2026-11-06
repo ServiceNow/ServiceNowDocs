@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -37,17 +37,17 @@ For information about how to activate the ServiceNow Otto panel, see [Activate t
 
 2.  Request generative AI capabilities to summarize a chat for an interaction, summarize a chat for an incident that was created from an interaction, summarize an incident, or generate incident resolution notes.
 
-    \[Omitted image "itsm-now-assist-panel.png"\] Alt text: Now Assist panel for ITSM skills.
+    \[Omitted image "itsm-now-assist-panel.png"\] Alt text: ServiceNow Otto panel for ITSM skills.
 
-<table id="choicetable_tvj_cqn_xyb"><thead><tr><th align="left" id="d298875e207">
+<table id="choicetable_tvj_cqn_xyb"><thead><tr><th align="left" id="d105805e207">
 
 Option
 
-</th><th align="left" id="d298875e210">
+</th><th align="left" id="d105805e210">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d298875e216">
+</th></tr></thead><tbody><tr><td id="d105805e216">
 
 **Summarize the chat for an interaction**
 
@@ -58,7 +58,7 @@ Description
 3.  In the ServiceNow Otto panel, select **Chat Summarization**. A summary of the chat conversation with the live agent is displayed.
 
 
-</td></tr><tr><td id="d298875e252">
+</td></tr><tr><td id="d105805e252">
 
 **Summarize the chat for an incident that is created from an interaction**
 
@@ -69,7 +69,7 @@ Description
 3.  In the ServiceNow Otto panel, select **Chat Summarization**. A summary of the chat conversation with the live agent before the incident was created is displayed.
 
 
-</td></tr><tr><td id="d298875e288">
+</td></tr><tr><td id="d105805e288">
 
 **Summarize a Sidebar discussion**
 
@@ -80,7 +80,7 @@ Description
 3.  In the ServiceNow Otto panel, select **Sidebar Discussion Summarization**. A summary of the discussion with the live agent is displayed.
 
 
-</td></tr><tr><td id="d298875e327">
+</td></tr><tr><td id="d105805e327">
 
 **Summarize an incident**
 
@@ -91,7 +91,7 @@ Description
 3.  In the ServiceNow Otto panel, select **Summarize a record**. An incident summary that helps you quickly understand the incident context is generated.
 
 
-</td></tr><tr><td id="d298875e364">
+</td></tr><tr><td id="d105805e364">
 
 **Summarize a change request**
 
@@ -102,18 +102,18 @@ Description
 3.  In the ServiceNow Otto panel, select **Summarize a change request**. A change request summary that helps you quickly understand the change request context is generated.
 
 
-</td></tr><tr><td id="d298875e400">
+</td></tr><tr><td id="d105805e400">
 
 **Change risk explanation**
 
 </td><td>
 
 1.  Open the change request.
-2.  From the header menu, select the Now Assist icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: Now assist icon.\).
+2.  From the header menu, select the ServiceNow Otto icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: Now assist icon.\).
 3.  In the ServiceNow Otto panel, select **Explain change risk**. An explanation of the change request risk that helps you quickly understand the change request risk rating is generated.
 
 
-</td></tr><tr><td id="d298875e436">
+</td></tr><tr><td id="d105805e436">
 
 **Generate incident resolution notes**
 
@@ -124,7 +124,7 @@ Description
 3.  In the ServiceNow Otto panel, select **Generate resolution notes**. The incident resolution notes that provide a summary of the steps taken to resolve the issue are generated.
 
 
-</td></tr><tr><td id="d298875e472">
+</td></tr><tr><td id="d105805e472">
 
 **Generate a knowledge article**
 
@@ -135,7 +135,7 @@ Description
 3.  In the ServiceNow Otto panel, select **Generate Article**. A Knowledge article is drafted for the incident using task data, comments, and work notes from the activity stream.
 
 
-</td></tr><tr><td id="d298875e511">
+</td></tr><tr><td id="d105805e511">
 
 **Generate chat reply recommendation**
 
@@ -146,7 +146,7 @@ Description
 3.  In the ServiceNow Otto panel, select **Generate Chat Reply Recommendation**. The reply that provides a recommendation for the issue in the chat is generated.
 
 
-</td></tr><tr><td id="d298875e547">
+</td></tr><tr><td id="d105805e547">
 
 **Ask questions about an incident**
 
@@ -157,7 +157,7 @@ Description
 3.  In the ServiceNow Otto panel, either type in an incident assist topic question, or select **Answer questions about an incident**, and select an incident assist topic. Information requested about the incident is shown.
 
 
-</td></tr><tr><td id="d298875e584">
+</td></tr><tr><td id="d105805e584">
 
 **Use AI agents to complete tasks**
 
@@ -167,7 +167,7 @@ Description
 2.  Follow the on-screen instructions to complete the task.
 
 
-</td></tr><tr><td id="d298875e602">
+</td></tr><tr><td id="d105805e602">
 
 **Add comments or work notes to a task record**
 

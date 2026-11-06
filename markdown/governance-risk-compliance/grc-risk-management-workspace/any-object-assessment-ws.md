@@ -7,7 +7,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use Risk Workspace, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -28,7 +28,7 @@ To perform an object risk assessment, a prior knowledge of risk is not necessary
 
 1.  Navigate to my **All** &gt; **Risk** &gt; **Risk Workspace**.
 
-2.  Select the task \[Omitted image "tasks-icon-new.png"\] Alt text: Task icon. icon.
+2.  Click the Work queue \(\[Omitted image "work-queue.jpg"\] Alt text: Work queue.\)
 
 3.  Under **My pending tasks**, under Advanced risk assessments, open the object risk assessment assigned to you.
 
@@ -41,11 +41,11 @@ To perform an object risk assessment, a prior knowledge of risk is not necessary
 
     For more information, see [Perform advanced risk assessment in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/perform-ara-workspace.md).
 
-5.  Select **Save**.
+5.  Click **Save**.
 
 6.  If you have configured risk response in your risk assessment methodology, select the appropriate risk response strategy and click **Define risk response**.
 
-7.  To send the assessment for review, select **Review and submit**.
+7.  To send the assessment for review, click **Review and submit**.
 
     The assessment home page is displayed. You can review the summary of your assessment.
 

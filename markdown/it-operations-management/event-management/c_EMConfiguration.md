@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -33,7 +33,7 @@ Set up Event Management by completing these tasks in the following order:
 
 **Note:** Event Management does not support creating incidents on remote instances.
 
-## Event Management configuration using ServiceNow Otto for Setup
+## Event Management configuration using Setup Hub
 
 ITOM configuration console provides a sequence of tasks to help you configure Event Management. For more information, see [Configure Event Management using ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/aiops-conf-console.md).
 

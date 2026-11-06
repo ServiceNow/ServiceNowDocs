@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/cs-jdbc.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using Code Signing, Code Signing, Platform Security]
 ---
@@ -21,6 +21,8 @@ Use update sets to sign and validate the JDBC data sources by enabling the code 
 
 -   MID Server doesn't handle the file data sources and hence, these data sources are not code signed.
 -   LDAP data sources can't be code signed.
+
+**Parent Topic:**[Using Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/using-code-signing.md)
 
 ## Sign existing data sources of the JDBC type
 

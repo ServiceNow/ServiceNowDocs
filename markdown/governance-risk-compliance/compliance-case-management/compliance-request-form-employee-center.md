@@ -7,7 +7,7 @@ release: australia
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Employee Center, Raise compliance request, Use, Compliance Case Management, Governance, Risk, and Compliance]
 ---

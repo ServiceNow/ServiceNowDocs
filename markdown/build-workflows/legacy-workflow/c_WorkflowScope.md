@@ -7,7 +7,7 @@ release: australia
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Workflow concepts, Classic Workflow, Build workflows]
 ---
@@ -44,7 +44,7 @@ During runtime, publicly scoped workflows can access other application resources
 
 As you design workflows, validate the visibility and accessibility of all resources prior to deployment.
 
-See [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md).
+See Application scope.
 
 For information on how to configure the scope for a workflow, see [Workflow properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/legacy-workflow/r_WorkflowProperties.md).
 

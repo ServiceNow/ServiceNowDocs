@@ -7,7 +7,7 @@ release: australia
 product: Web Services
 classification: web-services
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Query record data using the GraphQL API framework, Additional integration resources, Web services, API implementation, API implementation and reference]
 ---

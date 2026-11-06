@@ -7,8 +7,8 @@ release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2026-08-04"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Explore, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
@@ -34,7 +34,7 @@ Use ServiceNow Otto skills to generate portfolio insights, generate goals insigh
 
 -   **[Target generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/generate-targets-for-goal.md)**
 
-    Generate measurable targets from goal's information and optional context with the Target generation skill in Strategic Planning Workspace. The skill automatically populates key fields in the target creation form, ensuring precision and alignment to the goal. This enables teams to define clear and measurable outcomes and accelerate the target creation process.
+    Generate measurable targets from goal's information and optional context with the Target generation skill in Strategic Planning Workspace. The skill automatically populates key fields in the target creation form, ensuring precision and alignment to the goal. This enables teams to define clear and measurable outcomes and accelerate the target creation process.The skill also sets the check-in frequency from the context that you provide, using only the frequencies that the active goal calendar supports. If the context asks for a frequency that the calendar doesn't support, the skill sets a supported frequency instead. For example, on a 4-4-5 fiscal calendar, a monthly request sets Period.
 
 
 **Parent Topic:**[Exploring Portfolio Planning in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/alignment-planner-workspace.md)

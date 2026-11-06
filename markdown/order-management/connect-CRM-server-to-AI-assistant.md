@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/connect-CRM-server-to-AI-assistant.html
 release: australia
 topic_type: task
-last_updated: "2026-07-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Advanced Approval Management AI, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---

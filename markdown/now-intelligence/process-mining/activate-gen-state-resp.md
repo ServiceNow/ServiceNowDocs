@@ -7,7 +7,7 @@ release: australia
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-08-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, ServiceNow Otto for Process Mining, Use, Process Mining, Platform Analytics]
 ---
@@ -43,14 +43,14 @@ AI recommends the mapping of states to stakeholder responsibilities in the Proce
 
 ## What to do next
 
-To generate state responsibility mapping using AI, see [Generate process configuration using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/gen_process_config_ai.md).
+To generate state responsibility mapping using AI, see [Generate process configuration with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/gen_process_config_ai.md).
 
 **Parent Topic:**[Configuring ServiceNow Otto for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/config-na-proc-min.md)
 
 **Related topics**  
 
 
-[Generate process configuration using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/gen_process_config_ai.md)
+[Generate process configuration with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/gen_process_config_ai.md)
 
 [Generate process configuration using AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/activate-pro-config-skill.md)
 

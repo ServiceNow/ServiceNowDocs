@@ -7,9 +7,9 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Know your team's skills, Use, Manager Hub, HR Service Delivery, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Know your team's skills, Use Manager Hub, Manager Hub, HR Service Delivery, Employee Service Management]
 ---
 
 # View the skill distribution of your team

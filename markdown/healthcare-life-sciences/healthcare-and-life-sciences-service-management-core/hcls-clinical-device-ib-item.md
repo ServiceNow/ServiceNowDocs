@@ -7,7 +7,7 @@ release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data model tables, Reference, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -75,7 +75,7 @@ Alpha-numeric profile identifier of the medical device.
 
  The value is auto-generated and is incremented every time you add a new medical device to your ServiceNow instance. The initial value for the **Number** field is IBITM0001001.
 
-**Note:** To customize the number, define the auto-numbering format for the Medical device install base item \[sn\_hcls\_medical\_device\_install\_base\_item\] table. For more information, see [Add auto-numbering records in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AutoNumberingRecordsInATable.md).
+**Note:** To customize the number, define the auto-numbering format for the Medical device install base item \[sn\_hcls\_medical\_device\_install\_base\_item\] table. For more information, see Add auto-numbering records in a table.
 
 </td></tr><tr><td>
 

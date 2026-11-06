@@ -1,20 +1,20 @@
 ---
 title: Incident templates and record producers
-description: Templates simplify the process of submitting new records by populating fields automatically. A template ensures consistency in the way information about the incident is captured. A record producer is a specific type of catalog item that allows end users to create task-based records, such as incident records, from the service catalog.
+description: Templates simplify the process of submitting new records by populating fields automatically. A template helps you capture incident information consistently. A record producer is a specific type of catalog item that allows end users to create task-based records, such as incident records, from the service catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/incident-templates-record-producers.html
 release: australia
 product: Incident Management
 classification: incident-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Incident Management, Incident Management, IT Service Management]
 ---
 
 # Incident templates and record producers
 
-Templates simplify the process of submitting new records by populating fields automatically. A template ensures consistency in the way information about the incident is captured. A record producer is a specific type of catalog item that allows end users to create task-based records, such as incident records, from the service catalog.
+Templates simplify the process of submitting new records by populating fields automatically. A template helps you capture incident information consistently. A record producer is a specific type of catalog item that allows end users to create task-based records, such as incident records, from the service catalog.
 
 You can use incident templates to quickly create incidents for similar issues.
 
@@ -22,18 +22,18 @@ You can use incident templates to quickly create incidents for similar issues.
 -   An administrator can enable the global option for any personal template that a user creates so that all other users can access the template.
 -   A user with the itil role can create their own templates for incidents they log frequently.
 
-ESS users typically log incidents using a record producer in the service catalog. A template can be used to create an incident record producer. The template automatically populates fields in the incident form.
+Employee self-service \(ESS\) users typically log incidents using a record producer in the service catalog. You can use a template to create an incident record producer. The template automatically populates fields in the Incident form.
 
-For example, an incident record producer can be created to request account access to a network server. The user who submits the incident enters variable values, such as the server name, level of access needed, and due date. The incident template assigned to the record producer populates the incident **Category**, **Subcategory**, and **Assignment Group**. These fields and values applied from the template do not appear in the record producer form.
+For example, you can create an incident record producer to request account access to a network server. The user who submits the incident enters variable values, such as the server name, level of access needed, and due date. The incident template assigned to the record producer populates the incident **Category**, **Subcategory**, and **Assignment group**. These fields and values applied from the template do not appear in the record producer form.
 
--   **[Create incident template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/t_CreateAnIncidentTemplate.md)**  
-Create an incident template to confirm consistency in the way information about the incident request is captured. A template also helps you to create incident easily and accurately.
--   **[Create a module that uses incident template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/t_UseATemplateFromAModule.md)**  
+-   **[Create an incident template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/t_CreateAnIncidentTemplate.md)**  
+Create an incident template to capture incident information consistently. A template fills in standard field values so that you don't have to enter them for each new incident.
+-   **[Create a module that uses an incident template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/t_UseATemplateFromAModule.md)**  
 Create a module to log an incident with pre-filled field values from an existing template.
 -   **[Create a record producer to log incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/t_CreateARecordProducer.md)**  
 Create record producers to log incidents directly from Service Catalog.
 -   **[Create a record producer using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/t_CreateRecProducWithTempl.md)**  
-If a predefined incident template exists, it can be used with the record producer to fill in standard information for the incident.
+Use a predefined incident template with a record producer to fill in standard information for the incidents that the record producer creates.
 
 **Parent Topic:**[Configuring Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/incident-configuration.md)
 

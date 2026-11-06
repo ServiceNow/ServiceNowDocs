@@ -7,7 +7,7 @@ release: australia
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Self-Service Analytics, Exploring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -147,7 +147,7 @@ Self-service analytics is based on the activity pattern associated with a deflec
     Associates deflection configuration with an activity pattern. A deflection pattern is implemented as a table.
 
 
-**Parent Topic:**[Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/self-service-analytics.md)
+**Parent Topic:**[Self-Service Analytics]()
 
 **Related topics**  
 

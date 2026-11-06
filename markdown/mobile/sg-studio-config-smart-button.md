@@ -1,18 +1,18 @@
 ---
 title: Configure a smart button
-description: Smart buttons are actions that allow you to perform another action, such as sending an email, making a phone call, pulling up a location, or navigating directly to a URL.
+description: Smart buttons enable actions such as sending an email, calling a phone number, opening a location, or navigating to a URL.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/sg-studio-config-smart-button.html
 release: australia
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Smart button functions, Mobile functions, Mobile app components, Building mobile apps, Mobile Platform]
 ---
 
 # Configure a smart button
 
-Smart buttons are actions that allow you to perform another action, such as sending an email, making a phone call, pulling up a location, or navigating directly to a URL.
+Smart buttons enable actions such as sending an email, calling a phone number, opening a location, or navigating to a URL.
 
 ## Before you begin
 

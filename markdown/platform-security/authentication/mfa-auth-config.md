@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Web Authentication, MFA verification methods, Configuring MFA, Multi-factor authentication, Authentication, Access Management]
 ---
@@ -32,7 +32,7 @@ Allowed authenticator type
 
 </td><td>
 
-Type of authenticators allowed to be registered. Select from: -   **Platform** authenticators are attached or integrated into a device. Fingerprint readers or facial recognition available on mobile devices\(such as Apple FaceID or TouchID\) fall under this category.
+Type of authenticators allowed to be registered. Options are: -   **Platform** authenticators are attached or integrated into a device. Fingerprint readers or facial recognition available on mobile devices \(such as Apple FaceID or TouchID\) fall under this category.
 -   **Roaming** authenticators can be removed from a computer or other client device and used elsewhere. Hardware keys fall under this category.
 
 </td></tr><tr><td>
@@ -67,7 +67,7 @@ User verification
 
 </td><td>
 
-Select from **Preferred** or **Required**. If required, web authentication flow prompts users for verification using PIN or Biometrics.
+Options are **Preferred** or **Required**. If required, web authentication flow prompts users for verification using PIN or Biometrics.
 
 </td></tr><tr><td>
 
@@ -83,7 +83,7 @@ Resident key
 
 </td><td>
 
-Select from **Preferred** or **Required**. If required, the authenticator persists the public key credentials within the authenticator storage.
+Options are **Preferred** or **Required**. If required, the authenticator persists the public key credentials within the authenticator storage.
 
 </td></tr><tr><td>
 

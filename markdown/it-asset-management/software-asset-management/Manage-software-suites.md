@@ -7,9 +7,9 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 4
-breadcrumb: [Software Asset Management software suites, Explore, Software Asset Management, IT Asset Management, Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Software Asset Management software suites, Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Managing software suites
@@ -28,6 +28,8 @@ Whenever a software model is automatically created as part of a scheduled job, i
 
 Use the **Inference percent** or **Inference number** and **Mandatory** fields when the suite parent isn’t defined in the install table.
 
+**Note:** If the system property **com.snc.sam.auto\_suite\_inference** is set to true, the Inference number and percent is automatically determined. Additionally, the parent software model suite is automatically inferred for a software model based on its child software models.
+
 -   **Inference percent**: Specifies the percentage of the components that must be installed for the suite.
 -   **Inference Number**: Specifies the number of components installed for the suite.
 -   **Mandatory**: Enforces whether a specific component must be installed to infer that the suite is installed. Choices are Optional, Always Mandatory, Mandatory Group.
@@ -35,19 +37,9 @@ Use the **Inference percent** or **Inference number** and **Mandatory** fields w
     **Note:** If two or more software components are part of a Mandatory Group, then at least one of them must be present so that all the software components are considered a suite. This assumes that the inference percent, inference number, and other requirements are also fulfilled.
 
 
-For example, let's say you specify the **Inference percent** as 75% and set the **Mandatory** field to **Always Mandatory** on Microsoft Access. These settings specify that Microsoft Access must be installed, along with three out of four other products \(Microsoft Word, Microsoft Excel, Microsoft PowerPoint, and Microsoft Outlook\), to infer that Microsoft Office Professional is installed on a device.
-
 When a suite parent is detected during reconciliation, the child components don’t count for the individual license.
 
 **Note:** Users with the model\_manager role can navigate to **Product Catalog** &gt; **Product Model** &gt; **Software Models**, but can’t administer all aspects of software models.
-
-The rules of inference suite ranking are as follows:
-
--   If one of the software installations belongs to the suite software model, the suite is inferred directly without the need to meet the Inference percentage or the Inference number.
--   If the preceding rule isn’t met, then any suite that meets the Inference percentage or the Inference number on that device can be considered an Inferred suite candidate.
--   The candidate with the highest number of installed components is chosen.
--   If there’s still a tie, the suite with the lower downgrade is chosen. For example, Office 2016 and Office 2013 are both candidates and have the same number of installed components. However, because Office 2013 is the downgraded version of Office 2016, Office 2013 is chosen.
--   If there’s still a tie, the one with the highest percentage of installed components is chosen.
 
 Software Asset Management supports hybrid and subscription-based software suites. In a hybrid software suite, either the suite parent or child component is subscription-based. In a subscription-based software suite, both the suite parent and child component are subscription-based. The license that you use to determine compliance is dependent on whether the suite parent and child component are subscription-based:
 

@@ -7,7 +7,7 @@ release: australia
 product: Unified Map
 classification: unified-map
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Unified Map, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -65,6 +65,8 @@ Each class has a unique set of extended attributes that appear in the bottom sec
 Configure how to display connections to a referenced class and from a referencing class on Unified Map. A reference connects two CIs from differing classes that aren't connected by a relationship. These are general settings that only sn\_cmdb\_admin can configure.
 -   **[Create a class profile of visible layers for classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/unified-map/unified-map-config-class-profile.md)**  
 Configure a class profile that specifies which layers should appear for a particular class: application, service instance, business, or infrastructure. For example, you can configure that the mapped application service \(service instance\) \[cmdb\_ci\_service\_discovered\] class should display only Service Mapping data and not infrastructure elements.
+-   **[Configure browsers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/unified-map/unified-map-config-browsers.md)**  
+Configure which browser you use Unified Map in to avoid severe performance issues.
 -   **[How configuration settings for Unified Map are stored](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/unified-map/unified-map-config-settings-viewing.md)**  
 General configuration settings that control Unified Map are collected in a configuration identifier. A configuration identifier is a set of properties and table-driven configurations that specify the appearance and content of an instance of a UX application. The **CMDB Workspace** UX application contains Unified Map.
 

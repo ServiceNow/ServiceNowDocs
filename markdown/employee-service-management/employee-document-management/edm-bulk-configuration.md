@@ -1,5 +1,5 @@
 ---
-title: Configuring employee document management bulk import with source document repository
+title: Configure employee document bulk import
 description: Use Employee Document Import Configuration to identify and communicate with the source document repository. The source document repository is where you currently store your employee documents.To import employee documents, map the source employee documents from your local document repository or third-party cloud-based repository to Employee Document Management.Use Employee Document Import Jobs to create a Verify source step. Verify is required to validate the connection between your local directory or your third-party, cloud-based document repository and Employee Document Management. The Verify source step also validates that source employee files are there to be processed.Use Employee Document Import Jobs to create or edit the Stage Directory source step.Use Employee Document Import Jobs to create or edit the stage file source step. Stage file is required to stage your source employee documents from your third-party, cloud-based document repository.Use Employee Document Import Jobs to create or edit the capture source step. Capture is required to import your source employee documents from your local or third-party, cloud-based document repository.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-document-management/edm-bulk-configuration.html
@@ -7,12 +7,12 @@ release: australia
 product: Employee Document Management
 classification: employee-document-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 15
-breadcrumb: [Bulk imports, Use, Employee Document Management, HR Documents, HR Service Delivery, Employee Service Management]
+breadcrumb: [Employee Document Management bulk imports, Using Employee Document Management, Employee Document Management, HR Documents, HR Service Delivery, Employee Service Management]
 ---
 
-# Configuring employee document management bulk import with source document repository
+# Configure employee document bulk import
 
 Use Employee Document Import Configuration to identify and communicate with the source document repository. The source document repository is where you currently store your employee documents.
 
@@ -140,7 +140,7 @@ Indicates that you want to write debug statements to the system log during the s
     The Employee Document Import Sources and Employee Document Import Map tabs appear.
 
 
-**Parent Topic:**[Employee document management bulk imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/edm-bulk-uploads.md)
+**Parent Topic:**[Employee Document Management bulk imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/edm-bulk-uploads.md)
 
 ## Create or edit import configuration
 
@@ -156,9 +156,9 @@ For a local document repository, name mapping acquires file meta data from the f
 
 ### Procedure
 
-1.  From **Employee Document Import Configuration** form, click the **Employee Document Import Map** tab.
+1.  From **Employee Document Import Configuration** form, select the **Employee Document Import Map** tab.
 
-2.  Click **New** or on an existing import configuration.
+2.  Select **New** or on an existing import configuration.
 
 3.  Fill in the form.
 
@@ -176,7 +176,7 @@ Configuration
 
 </td><td>
 
-The name of the employee document bulk import configuration. See [Configuring employee document management bulk import with source document repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/edm-bulk-configuration.md).
+The name of the employee document bulk import configuration. See [Configure employee document bulk import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/edm-bulk-configuration.md).
 
 </td></tr><tr><td>
 
@@ -303,7 +303,7 @@ Locates specific text found in the array of information returned from the source
 
         It creates a docType of tuition \($3\).
 
-4.  Click **Submit** or **Update**.
+4.  Select **Submit** or **Update**.
 
 
 ## Create or edit the verify source step
@@ -322,9 +322,9 @@ The base system provides a sample Verify source step you can use as a model.
 
 1.  Navigate to **All** &gt; **HR Administration** &gt; **Import Configuration**.
 
-2.  Click an existing Import Configuration record.
+2.  Select an existing Import Configuration record.
 
-3.  From the Employee Document Import Source tab, click an existing Verify source step or **New**.
+3.  From the Employee Document Import Source tab, select an existing Verify source step or **New**.
 
 4.  Fill in or edit the form.
 
@@ -393,9 +393,9 @@ Sub FlowAction
 The subflow, flow action, workflow, or script that launches the source step based on the import type. For example, if you are using Flow Action as your Import type, the Action drop-down appears to select the action you previously created.
 
 </td></tr></tbody>
-</table>5.  Click **Submit** or **Update**.
+</table>5.  Select **Submit** or **Update**.
 
-6.  Click the **Start verify configuration** related link to start the verify job.
+6.  Select the **Start verify configuration** related link to start the verify job.
 
     The **Employee Document Import Jobs** tab appears with the Verify job in the **Queued** state.
 
@@ -422,9 +422,9 @@ The base system provides a sample Stage - Directory source step you can use as a
 
 1.  Navigate to **All** &gt; **HR Administration** &gt; **Import Configuration**.
 
-2.  Click an existing Import Configuration record.
+2.  Select an existing Import Configuration record.
 
-3.  From the Employee Document Import Source tab, click an existing Stage - Directory source step or **New**.
+3.  From the Employee Document Import Source tab, select an existing Stage - Directory source step or **New**.
 
 4.  Fill in or edit the form.
 
@@ -442,7 +442,7 @@ Configuration
 
 </td><td>
 
-A descriptive name that identifies your employee document bulk upload configuration. The name comes from the Employee Document Import Configuration. See [Configuring employee document management bulk import with source document repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/edm-bulk-configuration.md).
+A descriptive name that identifies your employee document bulk upload configuration. The name comes from the Employee Document Import Configuration. See [Configure employee document bulk import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/edm-bulk-configuration.md).
 
 </td></tr><tr><td>
 
@@ -493,7 +493,7 @@ Sub FlowAction
 The subflow, flow action, workflow, or script that launches the source step based on the import type. For example, if you are using Flow Action as your Import type, the Action drop-down appears to select the action you previously created.
 
 </td></tr></tbody>
-</table>5.  Click **Submit** or **Update**.
+</table>5.  Select **Submit** or **Update**.
 
 
 ## Create or edit the stage file source step
@@ -512,9 +512,9 @@ The base system provides a sample Stage - File source step you can use as a mode
 
 1.  Navigate to **All** &gt; **HR Administration** &gt; **Import Configuration**.
 
-2.  Click an existing Import Configuration record.
+2.  Select an existing Import Configuration record.
 
-3.  From the Employee Document Import Source tab, click an existing Stage - File source step or **New**.
+3.  From the Employee Document Import Source tab, select an existing Stage - File source step or **New**.
 
 4.  Fill in or edit the form.
 
@@ -532,7 +532,7 @@ Configuration
 
 </td><td>
 
-A descriptive name that identifies your employee document bulk upload configuration. The name comes from the Employee Document Import Configuration. See [Configuring employee document management bulk import with source document repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/edm-bulk-configuration.md).
+A descriptive name that identifies your employee document bulk upload configuration. The name comes from the Employee Document Import Configuration. See [Configure employee document bulk import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/edm-bulk-configuration.md).
 
 </td></tr><tr><td>
 
@@ -583,9 +583,9 @@ Sub FlowAction
 The subflow, flow action, workflow, or script that launches the source step based on the import type. For example, if you are using Flow Action as your Import type, the Action drop-down appears to select the action you previously created.
 
 </td></tr></tbody>
-</table>5.  Click **Submit** or **Update**.
+</table>5.  Select **Submit** or **Update**.
 
-6.  Click the **Start staging job** related link.
+6.  Select the **Start staging job** related link.
 
     The staging job verifies that the source document directory and source files can be staged. The **Employee Document Import Jobs** tab appears with the Stage import step in the **Queued** state.
 
@@ -614,9 +614,9 @@ The base system provides a sample Capture source step you can use as a model. Th
 
 1.  Navigate to **All** &gt; **HR Administration** &gt; **Import Configuration**.
 
-2.  Click an existing Import Configuration record.
+2.  Select an existing Import Configuration record.
 
-3.  From the Employee Document Import Source tab, click an existing Capture source step or **New**.
+3.  From the Employee Document Import Source tab, select an existing Capture source step or **New**.
 
 4.  Fill in or edit the form.
 
@@ -634,7 +634,7 @@ Configuration
 
 </td><td>
 
-A descriptive name that identifies your employee document bulk upload configuration. The name comes from the Employee Document Import Configuration. See [Configuring employee document management bulk import with source document repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/edm-bulk-configuration.md).
+A descriptive name that identifies your employee document bulk upload configuration. The name comes from the Employee Document Import Configuration. See [Configure employee document bulk import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/edm-bulk-configuration.md).
 
 </td></tr><tr><td>
 
@@ -687,11 +687,11 @@ Sub FlowAction
 The subflow, flow action, workflow, or script that launches the source step based on the import type. For example, if you are using Flow Action as your Import type, the Action drop-down appears to select the action you previously created.
 
 </td></tr></tbody>
-</table>5.  Click **Submit** or **Update**.
+</table>5.  Select **Submit** or **Update**.
 
     Run the Capture job after the Verify configuration and Staging jobs have run successfully.
 
-6.  Click the **Start capture job** related link.
+6.  Select the **Start capture job** related link.
 
     The capture job imports the source documents into Employee Document Management. The **Employee Document Import Jobs** tab appears with the Stage import step in the **Queued** state.
 

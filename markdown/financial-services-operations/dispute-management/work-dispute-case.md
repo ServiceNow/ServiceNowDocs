@@ -7,7 +7,7 @@ release: australia
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -84,7 +84,7 @@ Work through the activities and tasks required to research and complete the requ
 The tasks update to Closed Complete.
 
 -   **[Investigating a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/investigate-a-dispute.md)**  
-Complete tasks such as determining a recovery option, writing off a disputed transaction amount, providing immediate final credit, notifying the merchant, initiating provisional credit, and investigating the transaction.
+Complete tasks such as determining a recovery option, writing off a disputed transaction amount, and provide immediate final credit, notify the merchant, initiate provisional credit, determine reversal of provisional credit, and investigate the transaction.
 -   **[Initiating a chargeback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/initiate-a-chargeback.md)**  
 Complete tasks such as initiating a chargeback, providing credit to a customer, and refunding a merchant.
 

@@ -1,6 +1,6 @@
 ---
 title: Quote transaction integrations
-description: Integrations connect ServiceNow Quote Experience to external data sources, enabling the exchange of data between quotes and third-party systems such as Salesforce in CPQ.
+description: Integrations connect ServiceNow Quote Experience to external data sources, enabling the exchange of data between quotes and third-party systems such as Salesforce in ServiceNow CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quote-tm-integrations.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [ServiceNow Quote Experience, Configure, price, quote apps, Configur
 
 # Quote transaction integrations
 
-Integrations connect ServiceNow Quote Experience to external data sources, enabling the exchange of data between quotes and third-party systems such as Salesforce in CPQ.
+Integrations connect ServiceNow Quote Experience to external data sources, enabling the exchange of data between quotes and third-party systems such as Salesforce in ServiceNow CPQ.
 
 ServiceNow Quote Experience integrations define the information needed to connect to an external data source, extract data from it, and map that data into ServiceNow Quote Experience fields. Integrations can also extract data from ServiceNow Quote Experience and send it to a third-party environment. Before an integration can be defined, the administrator must first create a connection to the target environment.
 
@@ -22,7 +22,7 @@ ServiceNow Quote Experience supports two connection types.
 
 -   **Salesforce**
 
-    Connects to a Salesforce environment. No additional authentication details are required — CPQ handles authentication and knows the required endpoints automatically.
+    Connects to a Salesforce environment. No additional authentication details are required — ServiceNow CPQ handles authentication and knows the required endpoints automatically.
 
 -   **External**
 
@@ -60,7 +60,7 @@ When creating an integration, the following settings are available in the Integr
 
 ## Transformation template
 
-The transformation template defines the mapping between third-party data and CPQ fields. It uses JSON with Mustache \(handlebar\) syntax for dynamic field extraction. The following example maps Salesforce fields to ServiceNow Quote Experience fields.
+The transformation template defines the mapping between third-party data and ServiceNow CPQ fields. It uses JSON with Mustache \(handlebar\) syntax for dynamic field extraction. The following example maps Salesforce fields to ServiceNow Quote Experience fields.
 
 ```
 {
@@ -82,11 +82,4 @@ The transformation template defines the mapping between third-party data and CPQ
 ```
 
 Use the **Sample Return Data** and **Transformation Result** areas to test and troubleshoot an integration. Paste the query response from a tool such as Postman into the Sample Return Data area and select **Run Transformation** to verify that the mapping produces the expected output.
-
--   **[Create a connection for ServiceNow Quote Experience calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-a-connection.md)**  
-Add a connection in CPQ to define the host, path, and authentication credentials used when ServiceNow Quote Experience calls an external system during a transaction.
--   **[Create a ServiceNow Quote Experience integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-create-integration.md)**  
-Create an integration in ServiceNow Quote Experience to define the connection, settings, and field mapping that exchanges data between a quote and an external system in CPQ.
-
-**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sales-crm-tm-quoting-configure.md)
 

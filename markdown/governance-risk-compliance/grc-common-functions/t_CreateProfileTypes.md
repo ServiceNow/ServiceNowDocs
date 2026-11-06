@@ -7,7 +7,7 @@ release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Entity scoping, Explore entities, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -37,7 +37,7 @@ An entity type provides you a method to group Entities together. An entity type 
     -   **Audit** &gt; **Scoping** &gt; **Entity Types**.
 2.  Do one of the following actions.
 
-<table id="choicetable_wn5_ds3_4w"><tbody><tr><td id="d357072e139">
+<table id="choicetable_wn5_ds3_4w"><tbody><tr><td id="d359425e139">
 
 **To create a new entity type**
 
@@ -45,7 +45,7 @@ An entity type provides you a method to group Entities together. An entity type 
 
 Click **New**.
 
-</td></tr><tr><td id="d357072e151">
+</td></tr><tr><td id="d359425e151">
 
 **To edit an entity type**
 
@@ -53,7 +53,7 @@ Click **New**.
 
 Open the entity type from the list.
 
-</td></tr><tr><td id="d357072e160">
+</td></tr><tr><td id="d359425e160">
 
 **To delete an entity type**
 

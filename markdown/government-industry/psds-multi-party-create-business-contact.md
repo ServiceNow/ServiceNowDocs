@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-multi-party-create-business-contact.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Create a business contact account from license or permit application data, Create a business contact account]
-breadcrumb: [Using License and Permit Playbook, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Using License and Permit Administration, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Create a business contact account from license or permit application data
@@ -21,7 +21,7 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.relationship\_agent, sn\_gsm.
 
 ## Procedure
 
-1.  Navigate to the CRM Workspace and select **lnteractions** &gt; **All**.
+1.  Navigate to the Public Sector Workspace and select **lnteractions** &gt; **All**.
 
 2.  Select the interaction number to open an existing interaction record, or select the new icon \[Omitted image "new-icon.png"\] Alt text: New icon. to create an interaction.
 

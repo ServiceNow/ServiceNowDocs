@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-config-workspace-ai-search.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -16,19 +16,19 @@ Use the ServiceNow® AI Search application with CRM Workspace.
 
 Starting with the Utah release, the [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/overview-ais.md) application replaces the Zing search application for CRM Workspace. To support this feature, the Zing search configurations have been migrated to AI Search.
 
-Use the Unified Navigation search field in CRM Workspace to search for information. You can switch between global search results and results from the **CSM/FSM Configurable Workspace** workspace application. The different search configurations are based on different tables.
+Use the Unified Navigation search field in CRM Workspace to search for information. You can switch between global search results and results from the CRM Workspace application. The different search configurations are based on different tables.
 
 For more information about using AI Search with CRM Workspace, see [AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ais-next-experience-app.md).
 
 ## Search application configurations
 
-A search application configuration specifies the search engine and the settings to use for search in a ServiceNow AI Platform application. The **\[CSM AIS\] Configurable Workspace Search Config** search application configuration is provided with the CSM Configurable Workspace store app.
+A search application configuration specifies the search engine and the settings to use for search in a ServiceNow AI Platform application. The **\[CSM AIS\] Configurable Workspace Search Config** search application configuration is provided with the CRM Workspace store app.
 
 To access this configuration, navigate to **AI Search** &gt; **Search Experience** &gt; **Search Applications**.
 
 ## AI Search indexed sources
 
-Indexed sources reflect what content users are able to search on. The CSM Configurable Workspace store app adds AI Search indexed sources for the following tables:
+Indexed sources reflect what content users are able to search on. The CRM Workspace store app adds AI Search indexed sources for the following tables:
 
 -   Account \[customer\_account\]
 -   Case \[sn\_customerservice\_case\]
@@ -90,7 +90,7 @@ If you have added, modified, or deleted any search configurations provided out o
 
 Fuzzy matching enables agents to search for records using partial record IDs or incomplete record details and retrieve relevant results. Fuzzy matching identifies similar but not identical elements in data table sets.
 
-AI search in CRM Workspace supports fuzzy matching with a script. Activating the Customer Service plugin \(com.sn\_customerservice\) automatically runs the script and enables fuzzy match search in both the CRM Workspace global search and the Recommended Actions AI search component.
+AI search in CRM Workspace supports fuzzy matching with a script. Activating the Case Management Core plugin \(com.sn\_customerservice\) automatically runs the script and enables fuzzy match search in both the CRM Workspace global search and the Recommended Actions AI search component.
 
 When fuzzy matching is enabled:
 

@@ -7,7 +7,7 @@ release: australia
 product: Integration Hub Remote Process Sync
 classification: integration-hub-remote-process-sync
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 20
 breadcrumb: [Integration Hub Remote Process Sync, Workflow Data Fabric]
 ---
@@ -24,8 +24,6 @@ Before deciding to move forward with Remote Process Sync as your integration fra
 
 **Note:** Remote Process Sync replaces the eBonding spoke for integrating instances.
 
-\[Omitted image "idr-remotespoke-rps-comparison.png"\] Alt text: Instance Data Replication and the Remote Instance spoke support simple integrations for an entire table or using ServiceNow AI Platform APIs. Remote Process Sync supports more complex multi-instance integrations.
-
 If you choose to use Remote Process Sync as your multi-instance integration framework, the next step is to learn about the difference between:
 
 1.  Building your integration, and
@@ -35,7 +33,7 @@ Building your integration involves creating and configuring a process sync defin
 
 \[Omitted image "remote-process-sync-design-time.png"\] Alt text: Building your Remote Process Sync integration.
 
-Managing your integration involves monitoring the outbound and inbound queues and checking for errors related to any triggered process sync definitions. For more information on how to monitor and check for errors with your Remote Process Sync integration, see [Outbound queues and inbound queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub-remote-process-sync/getting-started-with-remote-process-sync.md) and [Monitoring and troubleshooting your integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub-remote-process-sync/getting-started-with-remote-process-sync.md). You may also want to periodically evaluate the outbound and inbound flows that run automatically for your integration and determine whether to make any changes to these flows in .
+Managing your integration involves monitoring the outbound and inbound queues and checking for errors related to any triggered process sync definitions. For more information on how to monitor and check for errors with your Remote Process Sync integration, see [Outbound queues and inbound queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub-remote-process-sync/getting-started-with-remote-process-sync.md) and [Monitoring and troubleshooting your integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub-remote-process-sync/getting-started-with-remote-process-sync.md). You may also want to periodically evaluate the outbound and inbound flows that run automatically for your integration and determine whether to make any changes to these flows in [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio.md).
 
 **Note:** Both building and managing a Remote Process Sync integration on your instance also requires that you collaborate effectively with users of the remote instance, or remote instances. Be sure to meet with the stakeholders involved in your integration regularly to plan, manage, and continually improve the automated business processes that your multi-instance integration handles.
 

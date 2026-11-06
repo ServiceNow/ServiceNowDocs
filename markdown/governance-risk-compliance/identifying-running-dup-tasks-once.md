@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/identifying-running-dup-tasks-once.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Structured workflows for Exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Creating similar tasks groups
@@ -55,14 +55,10 @@ You can unlink tasks from a similar task group or remove tasks from the event ta
 
 By eliminating redundant task execution and enhancing task management, this feature significantly improves operational efficiency during complex exercises or events.
 
-## Save similar task group as reusable group
-
-To save a set of selected tasks as a reusable group for future exercises, select the tasks and then select **Save as group**. The selected tasks are saved as a named group that can be referenced when setting up future event exercises.
-
 -   **[Create a similar tasks group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-similar-tasks-group.md)**  
 Identify similar or duplicate event tasks associated with an event and add them to a similar tasks group by grouping them in the **Similar tasks groups** tab. It helps you to streamline event task management and reduce duplication of efforts.
 -   **[State changes for event tasks in groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/transition-states-of-event-task.md)**  
 The original and duplicate event tasks in the Similar tasks group move through different states until the original task is closed.
 
-**Parent Topic:**[Structured workflows for Exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
+**Parent Topic:**[Structured workflows for exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
 

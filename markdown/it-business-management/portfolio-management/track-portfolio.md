@@ -7,7 +7,7 @@ release: australia
 product: Portfolio Management
 classification: portfolio-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Scenario Planning for PPM, Portfolio Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -24,15 +24,15 @@ Role required: it\_portfolio\_manager
 
 1.  Navigate to Portfolio Planning Workbench from either of two starting points.
 
-<table id="choicetable_xfs_1fh_jlb"><thead><tr><th align="left" id="d297934e71">
+<table id="choicetable_xfs_1fh_jlb"><thead><tr><th align="left" id="d309333e71">
 
 Location
 
-</th><th align="left" id="d297934e74">
+</th><th align="left" id="d309333e74">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d297934e80">
+</th></tr></thead><tbody><tr><td id="d309333e80">
 
 **From application navigator**
 
@@ -42,7 +42,7 @@ Steps
 2.  From the **Portfolio** choice list, select the portfolio that you want to perform the planning for.
 
 
-</td></tr><tr><td id="d297934e116">
+</td></tr><tr><td id="d309333e116">
 
 **From the portfolio list**
 

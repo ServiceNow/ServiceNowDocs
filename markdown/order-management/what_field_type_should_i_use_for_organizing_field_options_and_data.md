@@ -7,14 +7,14 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Configure fields, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configure fields, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Grid-style fields and field collections
 
 Learn about the various types of grid-style fields: the picklist extension, the field grid, the indexed set, the associated picklist set, and the product picker. Learn how best to choose a field type for your data.
 
-In CPQ, although many grid-style fields and field collections look similar to an end user, they have different behaviors and uses for admins. This article explains the basic capabilities of each and their intended use cases. It also provides the necessary resources for those who want to explore each option’s setup at a deeper level.
+In ServiceNow CPQ, although many grid-style fields and field collections look similar to an end user, they have different behaviors and uses for admins. This article explains the basic capabilities of each and their intended use cases. It also provides the necessary resources for those who want to explore each option’s setup at a deeper level.
 
 ## Picklist extension
 
@@ -40,7 +40,7 @@ A field grid is a grid of independent fields in a format of rows and columns. It
 
 Each field can be referenced and manipulated by any rule and must be independently defined. For example, a 3 x 3 row requires 9 fields.
 
-For information about how to set up a field grid using the Matrix Loader, see [Layouts: Field grid setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+For information about how to set up a field grid using the Matrix Loader, see [Layouts: Field grid setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/layouts-field-grid-setup.md).
 
 ## Indexed set
 
@@ -94,7 +94,7 @@ For more information, see:
 **Related topics**  
 
 
-[CPQ fields, system fields, and partner fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/system_fields_vs_partner_fields.md)
+[ServiceNow CPQ fields, system fields, and partner fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/system_fields_vs_partner_fields.md)
 
 [Configure fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/fields_101.md)
 

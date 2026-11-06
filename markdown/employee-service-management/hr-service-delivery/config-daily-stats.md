@@ -7,9 +7,9 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Reference, Manager Hub, HR Service Delivery, Employee Service Management]
+breadcrumb: [Reference for Manager Hub, Manager Hub, HR Service Delivery, Employee Service Management]
 ---
 
 # Default configurations for daily stats
@@ -18,10 +18,10 @@ Predefined set of daily stat configurations are available to use once you have a
 
 |Name|Description|
 |----|-----------|
-|On journeys|Configuration to display the total number of active employee journeys.|
-|Onboarding|Configuration to display the total number of employees who are onboarding.|
-|On PTO|Configuration to display the total number of employees who are on PTO .|
-|On leave|Configuration to display the total number of employees who are on long leaves, such as parental leaves.|
+|On journeys|Configuration to display the total number of active employee journeys in Manager Hub.|
+|Onboarding|Configuration to display the total number of employees who are onboarding in Manager Hub.|
+|On PTO|Configuration to display the total number of employees who are on PTO in Manager Hub.|
+|On leave|Configuration to display the total number of employees who are on long leaves, such as parental leaves in Manager Hub.|
 
 For more details, navigate to **All** &gt; **Manager Hub** &gt; **Administration** &gt; **Team Daily Stats**.
 

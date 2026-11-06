@@ -1,20 +1,20 @@
 ---
 title: Add participants to an existing Microsoft Teams call in Service Operations Workspace
-description: Add a participant to a conference call to participate in the discussion to resolve the incident.
+description: Add a participant to a conference call so that they can join the discussion to resolve the incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/add-participants-teams-conference-call.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage Microsoft Teams conference calls in Service Operations Workspace, Use Microsoft Teams to make conference calls in Service Operations Workspace, Notify in Service Operations Workspace, Collaboration in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Managing Microsoft Teams conference calls in Service Operations Workspace, Using Microsoft Teams to make conference calls in Service Operations Workspace, Notify in Service Operations Workspace, Collaboration in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Add participants to an existing Microsoft Teams call in Service Operations Workspace
 
-Add a participant to a conference call to participate in the discussion to resolve the incident.
+Add a participant to a conference call so that they can join the discussion to resolve the incident.
 
 ## Before you begin
 
@@ -24,13 +24,13 @@ Role required: itil
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Select the **List** \(\[Omitted image "list-icon-new.png"\] Alt text: List icon\) icon.
+2.  Select the **List** \(\[Omitted image "list-icon-new.png"\] Alt text:\) icon.
 
 3.  Select **Incidents** &gt; **Open**.
 
 4.  Select an incident that has an active conference call.
 
-5.  Select the **Collaborate** icon \(\[Omitted image "collab-icon-02.png"\] Alt text: Collaborate icon\) from the contextual side panel.
+5.  Select the **Collaborate** icon \(\[Omitted image "collab-icon-02.png"\] Alt text:\) from the contextual side panel.
 
 6.  Select the **Calls** tab.
 
@@ -64,11 +64,11 @@ Include a brief message for participants
 
 </td><td>
 
-Provide a brief summary about the issue to be discussed in the conference call.
+Brief summary of the issue to be discussed in the conference call.
 
 </td></tr></tbody>
 </table>11. Select **Add participants**.
 
 
-**Parent Topic:**[Manage Microsoft Teams conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/manage-conference-calls-teams.md)
+**Parent Topic:**[Managing Microsoft Teams conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/manage-conference-calls-teams.md)
 

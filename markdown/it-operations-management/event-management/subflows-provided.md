@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Alert management rules for resolving alerts, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -76,7 +76,7 @@ Subflow to create an incident. Fields from the alert are used to populate the ma
 
 -   If there is an existing incident that is attached to the alert, this subflow is not activated.
 -   If the alert is in Maintenance, an incident is not created.
--   The alert management job runs even if the alert grouping job is not complete, if a specified time frame has passed. When this occurs, an incident already exists for the primary alert. You can enable the **Avoid INTs on secondary alerts** rule to prevent incidents from being created for secondary alerts when the **evt\_mgmt.avoid\_int\_enabled** property is enabled.
+-   The alert management job runs even if the alert grouping job is not complete, if a specified time frame has passed. When this occurs, you can enable the **Avoid INTs on secondary alerts** rule to prevent incidents from being created for secondary alerts. This prevents duplicate incidents because an incident already exists for the primary alert when the **evt\_mgmt.avoid\_int\_enabled** property is enabled.
 
 </td></tr><tr><td>
 
@@ -153,8 +153,6 @@ This subflow applies the alert template.This subflow is provided for instances t
 
     .
 
-
-To automate alert responses with an easier interface, you can also create a respond automation in Service Operations Workspace. For more information, see [Create Respond automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/respond-alert-sow-itom.md).
 
 **Parent Topic:**[Alert management rules for resolving alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/alert-management-rule.md)
 

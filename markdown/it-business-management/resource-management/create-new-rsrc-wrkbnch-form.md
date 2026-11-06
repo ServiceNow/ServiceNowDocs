@@ -7,7 +7,7 @@ release: australia
 product: Resource Management
 classification: resource-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Resource Management reference, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -43,7 +43,7 @@ Level from which you want to filter resources.-   **Demands/Projects**: When sel
 -   **Group manager**: When selected, all resources with pps\_resource role are filtered.
 -   **Portfolio**: When selected, resources are filtered from a portfolio.
 -   **Program**: When selected, resources are filtered from a program.
--   **Resource Plan**: When selected, resources are filtered through the filter criteria and aren't bound to any particular group, role, manager, portfolio, or program.
+-   **Resource Plan**: When selected, resources are filtered through the filter criteria and are not bound to any particular group, role, manager, portfolio, or program.
 -   **Role**: When selected, resources are filtered from a role.
 -   **User manager**: When selected, all resources with pps\_resource role are filtered.
 

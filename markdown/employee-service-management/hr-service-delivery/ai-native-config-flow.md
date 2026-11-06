@@ -22,18 +22,25 @@ Role required: admin
 
 Install the HR Service Delivery applications: [Install HR Service Delivery apps in the AI-Native workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/install-native-ai-hrsd.md)
 
+Complete the ServiceNow Otto for Setup Platform configuration flow: [Platform module configuration in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-platform-il.md)
+
 ## Procedure
 
 1.  If you selected **Configure** in the **Now you're ready to configure** window, you're redirected to the **Configure Human Resources Service Delivery** page.
 
-    Otherwise, open the Configuration Console via these steps:
+    Otherwise, open the Configuration Console from the Admin tab or via the Admin Center:
 
-    1.  Navigate to **Admin Center** &gt; **Admin Home**.
-    2.  From the **Manage your products** section, select the **Human Resources Service Delivery** tile.
-    3.  From the Product Hub page for HR Service Delivery, select **Configure**.
+    -   Admin tab:
+
+        From the **Admin** tab, select **Human Resources Service Delivery**.\[Omitted image "admin-tab-hrsd.png"\] Alt text: The Admin tab has the Human Resources Service Delivery option
+
+    -   Admin Center:
+        1.  Navigate to **Admin Center** &gt; **Admin Home**.
+        2.  From the **Manage your products** section, select the **Human Resources Service Delivery** tile.
+        3.  From the Product Hub page for HR Service Delivery, select **Configure**.
 2.  From the HR Service Delivery Configuration Console, perform any of the following tasks.
 
-    \[Omitted image "image.hrsd-config-console"\] Alt text: Configure Human Resources Service Delivery Configuration Console showing configuration summary and setup status.
+    \[Omitted image "hrsd-config-console.png"\] Alt text: Configure Human Resources Service Delivery Configuration Console showing configuration summary and setup status.
 
     |Choice|Description|
     |------|-----------|

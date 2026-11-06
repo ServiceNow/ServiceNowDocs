@@ -7,7 +7,7 @@ release: australia
 product: MetricBase
 classification: metricbase
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Working with demo data, Configure, MetricBase, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,13 +22,13 @@ Role required: clotho\_admin
 
 ## About this task
 
-Data Explorer is a playground where you can see and edit example scripts that visualize data included with the MetricBase Demo application. The example scripts use the MetricBase JavaScript APIs. For information on the MetricBase JavaScript APIs, see [Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClientScopedAPI.md), [Data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DataScopedAPI.md), [DataBuilder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DataBuilderScopedAPI.md), [Transformer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/TransformerScopedAPI.md), [TransformPart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/TransformPartScopedAPI.md), [TransformResult](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/TransformResultScopedAPI.md).
+Data Explorer is a playground where you can see and edit example scripts that visualize data included with the MetricBase Demo application. The example scripts use the MetricBase JavaScript APIs. For information on the MetricBase JavaScript APIs, see Client, Data, DataBuilder, Transformer, TransformPart, TransformResult.
 
 Note that the now/v1/clotho/transform/topic API endpoint is reserved for internal use only.
 
 Example scripts use either:
 
--   Transforms, which use the [Transformer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/TransformerScopedAPI.md) method.
+-   Transforms, which use the Transformer method.
 -   Machine Language, trained models that predict expected behavior. All the scripts without "Transform" in their title use Machine Language.
 
 ## Procedure

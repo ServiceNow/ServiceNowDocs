@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-06-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Using AI Search Admin console, AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -34,7 +34,7 @@ Role required: admin
 
 2.  Select **Application** &gt; **Service Portal** &gt; **Search Sources**.
 
-3.  Select the Include in AI responses toggle next to the source you want to activate.
+3.  Select the **Include in AI responses** toggle next to the source you want to activate.
 
     Sources that aren't configured as hybrid sources with semantic indexing can't be activated for synthesis and won't display the toggle.
 

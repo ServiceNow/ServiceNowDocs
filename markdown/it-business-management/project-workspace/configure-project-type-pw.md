@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-28"
 reading_time_minutes: 2
 keywords: [project type, dynamic category, custom form view, enterprise-wide deployment, EWD]
-breadcrumb: [Configure, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Configuring project types in Project Workspace, Configuring Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Configure project type fields and layouts
@@ -26,7 +26,7 @@ Define custom fields, a unique form layout, and the visible modules to support c
 
 -   Identify the form view that defines form layout for project records associated with project type.
 
-    **Note:** If the form view doesn't exist or you want to create a dedicated form view for a project type use the **Default SPM Dynamic Namespace** only when defining a dynamic category. For more details, see .
+    **Note:** If the form view doesn't exist or you want to create a dedicated form view for a project type use the **Default SPM Dynamic Namespace** only when defining a dynamic category. For more details, see [Create a dynamic category for a project type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/create-dynamic-category-pw.md).
 
 
 Role required: pps\_admin
@@ -56,5 +56,5 @@ Each project type configuration consists of a dynamic category, a custom form vi
 
 The project type configuration is saved and activated. Project records assigned to a project type display the custom form view, associated fields, and selected modules. Records assigned to other project types aren't affected.
 
-**Parent Topic:**[Configuring Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/configure-pw.md)
+**Parent Topic:**[Configuring project types in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/configuring-project-types-pw.md)
 

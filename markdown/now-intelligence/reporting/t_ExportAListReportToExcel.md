@@ -7,9 +7,9 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [List reports, Report types, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [List reports, Core UI Report types, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Export a list report
@@ -22,9 +22,13 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 **Note:** Administrator-created restrictions may prevent users with these roles from seeing the **Schedule** option.
 
-This topic refers to Reporting in the Core UI. If your instance is migrated to Platform Analytics experience, see [Export a data visualization from the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/export-visualization-vd.md).
+This topic refers to Reporting in the Core UI. If your instance is migrated to Platform Analytics experience, see [Export a Platform Analytics data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/export-visualization-vd.md).
 
 \[Omitted video\] Description: Illustration of the steps in this procedure for exporting a Core UI list report to Excel
+
+## About this task
+
+**Important:** This topic is about Core UI List reports. For information about exporting a Platform Analytics list, see [Export a Platform Analytics data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/export-visualization-vd.md).
 
 ## Procedure
 

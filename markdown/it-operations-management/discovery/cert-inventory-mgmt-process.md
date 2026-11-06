@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
@@ -20,7 +20,7 @@ Certificate Inventory and Management allows Discovery to automatically scan for 
 
 In Version 1.1.7 Certificate Inventory and Management, you can also scan for certificate authorities \(CA\) and import certificates from files.
 
-With the Australia release, you can download Version 1.2.0 Certificate Inventory and Management. You can discover certificates used in the HTTP\(s\) Endpoint \[cmdb\_ci\_endpoint\_http\] table and bulk import a list of SSL Certificates. You can create events and alerts for expiring and expired certificates and be notified in Slack of expiring and expired certificates.
+With the Brazil release, you can download Version 1.2.0 Certificate Inventory and Management. You can discover certificates used in the HTTP\(s\) Endpoint \[cmdb\_ci\_endpoint\_http\] table and bulk import a list of SSL Certificates. You can create events and alerts for expiring and expired certificates and be notified in Slack of expiring and expired certificates.
 
 ## Process flow diagram
 

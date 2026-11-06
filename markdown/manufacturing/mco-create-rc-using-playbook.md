@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-create-rc-using-playbook.html
 release: australia
 topic_type: task
-last_updated: "2026-05-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Repair claim, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
@@ -54,4 +54,6 @@ Role required: Manufacturing operations admin
 
 6.  Select **Submit**.
 
+
+**Parent Topic:**[Repair claim](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-use-repair-claim.md)
 

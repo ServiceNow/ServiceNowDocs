@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/create-dv-box-plot.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 keywords: [create boxplot visualization, create box report]
 breadcrumb: [Create, Data visualizations, Platform Analytics experience, Platform Analytics]
@@ -19,23 +19,37 @@ Use a boxplot to show the median and lower and upper quartiles of numeric data a
 
 **Important:** The Boxplot visualization is included in the latest data visualizations application from the ServiceNow® Store.
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
 The Boxplot visualization only supports table data. Indicator, MetricBase, and Usage Insights data is not supported.
 
-For information about the use of a Boxplot visualization in a dashboard, see [the Developer Site.](https://developer.servicenow.com/dev.do#!/reference/now-experience/xanadu/shared-components/now-vis-boxplot/usage) This site gives information about Box plot components in the UI Builder, and some configuration options may differ from the Visualization Designer.
+For information about the use of a Boxplot visualization in a dashboard, see [the Developer Site.](https://developer.servicenow.com/dev.do#!/reference/now-experience/xanadu/shared-components/now-vis-boxplot/usage)
+
+This site gives information about Box plot components in the UI Builder, and some configuration options may differ from the Visualization Designer.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**, or open an in-line dashboard and select **Edit**.
+1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**.
 
 2.  Select **Create data visualization**.
 
-3.  Select the Boxplot \(\[Omitted image "inline-data-vis-box.png"\] Alt text: vertical box icon\) visualization type.
+3.  Provide a name and useful description for the visualization and select **Create data visualization**.
 
-4.  Configure the **Header and border**. Header and border options are the same for all data sources.
+    The description enables users to find the visualization more easily in the library.
+
+4.  Select the Boxplot \(\[Omitted image "inline-data-vis-box.png"\] Alt text: vertical box icon\) visualization type.
+
+5.  Select **Add a data source**.
+
+    For general descriptions of the data sources, see [Data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/data-sources-visualizations.md).
+
+    The **Suggested** data sources are the indicators and tables you have recently selected.
+
+    When you select a data source, you see a preview of the information in the source. Add conditions to the data source and then select **Add this source**.
+
+6.  Configure the **Header and border**. Header and border options are the same for all data sources.
 
     None of the **Header and border** fields is required.
 
@@ -141,7 +155,7 @@ Show refresh option
 
 </td><td>
 
-Option to show or hide the refresh option from data visualizations. If cache is enabled on a dashboard, the Refresh option is always hidden.
+Option to show or hide the refresh option from data visualizations. If cache is enabled on a dashboard, the Refresh option is hidden.
 
 </td></tr><tr id="ac-dv-show-export-option"><td>
 
@@ -168,11 +182,11 @@ Title color
 Specify the text color of the title. The default title color is black, but you can choose a color that contrasts better with the header background. Only available when **Header background color** is selected.
 
 </td></tr></tbody>
-</table>5.  Open the Data Source selector and select a table.
+</table>7.  Configure the metric, data update, and no data message options for your data source.
 
-6.  Configure the data settings as described in [Table data options for boxplot visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/config-dv-box-table-data.md).
+    If your visualization represents table data, go to [Table data options for boxplot visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/config-dv-box-table-data.md).
 
-7.  Under **Presentation**, provide display and color information..
+8.  Under **Presentation**, provide display and color information..
 
 <table id="table_jkm_pcm_t5b"><thead><tr><th>
 
@@ -298,7 +312,7 @@ Set color type
 
 
 </td></tr></tbody>
-</table>8.  Under **Chart interaction**, set what if anything happens when a viewer selects a chart or a chart segment on the visualization.
+</table>9.  Under **Chart interaction**, set what if anything happens when a viewer selects a chart or a chart segment on the visualization.
 
 <table id="table_qnp_d2d_b1c"><thead><tr><th>
 
@@ -314,7 +328,7 @@ Allow chart interaction
 
 </td><td>
 
-Enable an event to occur when a user clicks in a visualization or one of its segments.
+Enable an event to occur when a user selects a visualization or one of its segments.
 
 </td></tr><tr><td>
 
@@ -333,7 +347,7 @@ Choose the event that occurs when a user selects in a visualization or one of it
 **Drill down to chart** supports only table data sources.
 
 </td></tr></tbody>
-</table>9.  Select **Save** to continue editing the visualization, or **Save and close** to return to the Analytics Overview main screen.
+</table>10. Select **Save** to continue editing the visualization, or **Save and close** to return to the Analytics Overview main screen.
 
 
 ## What to do next

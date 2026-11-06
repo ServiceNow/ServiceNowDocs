@@ -25,13 +25,13 @@ To access the Discovery Admin Workspace Schedules page, navigate to **Workspaces
 
 -   **Quick Discovery option**
 
-    Enables you to perform an IP-based discovery in just a few steps. You can select an IP range, choose the MID selection method, pick the MID Server, and run the discovery all within one interface. This option is available from any tab on the **Schedules** page.
+    Enables you to perform an IP-based discovery in just a few steps. You can select an IP range, choose the MID selection method, pick the MID Server, and run the discovery all within one interface. The **Quick Discovery** option is available from any tab on the **Schedules** page.
 
 -   **New Discovery option**
 
-    Enables you to choose how you want to discover your resources, either through IP-based or Cloud-based discovery. This option is available from any tab on the **Schedules** page.
+    Enables you to choose how you want to discover your resources, either through IP-based or Cloud-based discovery. The **New Discovery** option is available from any tab on the **Schedules** page.
 
-    Enables you to choose how you want to discover your resources, through IP-based, Cloud, or Certificate discovery. This option is available from any tab on the **Schedules** page.
+    Enables you to choose how you want to discover your resources, through IP-based, Cloud, or Certificate discovery. The **New Discovery** option is available from any tab on the **Schedules** page.
 
     **Note:** Certificate discovery is available in Discovery Admin Workspace starting with v1.20.0 and requires the Brazil, Australia, or Zurich release starting with patch 8.
 

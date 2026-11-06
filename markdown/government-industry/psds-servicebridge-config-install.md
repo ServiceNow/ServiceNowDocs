@@ -76,7 +76,7 @@ Assign Service Exchange roles for providers.
 
 </td><td>
 
-See [User roles for providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-personas.md).
+See [Personas for providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-personas.md).
 
 </td></tr><tr><td>
 

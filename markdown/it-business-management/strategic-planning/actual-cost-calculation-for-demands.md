@@ -7,7 +7,7 @@ release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: concept
-last_updated: "2026-06-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Demand tasks, Explore, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---

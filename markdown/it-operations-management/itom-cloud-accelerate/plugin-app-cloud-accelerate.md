@@ -7,7 +7,7 @@ release: australia
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [ITOM Cloud Accelerate reference, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -95,6 +95,8 @@ The CCG Content Pack plugin \(sn\_itom\_ccg\_cp\) provides optional predefined c
 |Flow Designer Action Step - Payload Builder \(com.glide.hub.action\_step.payload\)|Enable action designers to easily create name-value pairs in JSON and XML payloads using dynamic data.|
 |ServiceNow IntegrationHub Action Step - REST \(com.glide.hub.action\_step.rest\)|Enables the REST action step in Workflow Studio.|
 |ServiceNow IntegrationHub Action Step - JSON Parser \(com.glide.hub.action\_step.jsonparser\)|Identify structured data from a JSON payload without having to write a script. Map incoming JSON content to a complex object output that you can use in other steps or actions. At runtime, values from a JSON payload populate the complex object output.|
+
+**Parent Topic:**[ITOM Cloud Accelerate reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-cloud-accelerate/itom-cloud-accelerate-reference.md)
 
 **Related topics**  
 

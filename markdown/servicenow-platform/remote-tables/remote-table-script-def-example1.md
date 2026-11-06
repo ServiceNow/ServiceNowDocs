@@ -7,7 +7,7 @@ release: australia
 product: Remote Tables
 classification: remote-tables
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Create script definitions, Remote tables, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,9 +18,9 @@ These are examples of script definitions you might create for retrieval and cach
 
 For Remote Table API information, refer to:
 
--   [v\_query – Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/v_queryAPI.md)
--   [v\_record - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/v_recordAPI.md)
--   [v\_table – Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/v_tableAPI.md)
+-   
+-   
+-   
 
 ```javascript
 /**
@@ -121,7 +121,7 @@ function fetchAllIncidents(v_table, v_query) {
 
 You can create a RestMessage and directly use it in the script. In this example, it uses a RESTMessageV2 API with the name of `Remote Instance Incidents`, and the function `All Incidents`, which gets all incident data. Once a response is returned from the server, an error message appears if problems are encountered in the data retrieval.
 
-**Note:** To learn more about use of RESTMessageV2 and how to define a direct message, see [RESTMessageV2 - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_RESTMessageV2API.md) and [Direct RESTMessageV2 example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/r_DirectRESTMessageV2Example.md).
+**Note:** To learn more about use of RESTMessageV2 and how to define a direct message, see RESTMessageV2 - Scoped, Global and Direct RESTMessageV2 example.
 
 If no problems are encountered in the data retrieval, it gets the data body for the records.
 
@@ -177,9 +177,9 @@ It then uses the Transformer API to perform any required data transformations, e
 
 [Debugging remote table script definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/remote-tables/debugging-remote-table-scripts.md)
 
-[TransformerDefinition API - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/TransformerDefinitionAPI.md)
+[bundle-crapiref.TransformerDefinitionAPI]
 
-[TransformerRuleList API - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/TransformerRuleListAPI.md)
+[bundle-crapiref.TransformerRuleListAPI]
 
-[TransformerScripted API - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/TransformerScriptedAPI.md)
+[bundle-crapiref.TransformerScriptedAPI]
 

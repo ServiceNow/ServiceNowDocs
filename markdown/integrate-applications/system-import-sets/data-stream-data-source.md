@@ -7,7 +7,7 @@ release: australia
 product: System Import Sets
 classification: system-import-sets
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data sources, Import sets, Imports, Workflow Data Fabric]
 ---
@@ -24,5 +24,5 @@ Complex data includes parent and child objects and nested objects, as shown in t
 
 \[Omitted image "complex-object.png"\] Alt text: Complex object
 
-For more information, see Complex data.
+For more information, see [Complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/complex-data.md).
 

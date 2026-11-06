@@ -7,7 +7,7 @@ release: australia
 product: Tag Governance
 classification: tag-governance
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Tag Governance, ITOM Visibility, IT Operations Management]
 ---
@@ -22,11 +22,11 @@ Use the ServiceNow® Tag Governance app to identify and remediate on-premises or
 
     Configure tag policies that define the criteria for tag audits on discovered cloud resources or CIs. View audit results on tag quality and compliance on the Tag Health dashboard. You establish tag policies that support the scale and needs of the various groups in your organization so all users can benefit.
 
--   [Configure a tag policy for Tag Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/tag-governance/configure-tag-governance-policy.md)
+-   [Configure tag policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/tag-governance/configure-tag-governance-policy.md)
 
     Configure tag policies that define the criteria for tag audits on discovered cloud resources or CIs. View audit results on tag quality and compliance on the Tag Health dashboard.
 
--   [Configure remediation policies on tag audit findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/tag-governance/configure-remediation-tag-governance-.md)
+-   [Configure remediation policies for tag audit findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/tag-governance/configure-remediation-tag-governance-.md)
 
     Configure and preview remediation options, generate keys, and perform actions to remediate non-compliance or failures that are based on tag audit reports.
 
@@ -36,6 +36,6 @@ Use the ServiceNow® Tag Governance app to identify and remediate on-premises or
 
 -   [Performing real-time updates to tags for cloud resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/tag-governance/tag-governance-real-time-updates.md)
 
-    You can set up cloud events processing and map a tag policy to update tags for cloud resources in real time.
+    You can set up cloud events processing and map a tag policy to update tags for cloud resources in real-time.
 
 

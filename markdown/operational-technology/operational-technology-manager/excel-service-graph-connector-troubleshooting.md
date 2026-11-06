@@ -1,20 +1,20 @@
 ---
-title: Test the Service Graph Connector for Microsoft Excel
-description: The troubleshooting actions can help resolve common issues when importing your Operational Technology devices or data. Access the System Log to troubleshoot for these errors.
+title: Testing the Service Graph Connector for Microsoft Excel
+description: These troubleshooting actions can help resolve common issues when importing your Operational Technology devices or data. Access the System Log to troubleshoot for these errors.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-manager/excel-service-graph-connector-troubleshooting.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring the Service Graph Connector for Microsoft Excel, Service Graph Connector for Microsoft Excel, Use, Operational Technology Manager, Operational Technology]
 ---
 
-# Test the Service Graph Connector for Microsoft Excel
+# Testing the Service Graph Connector for Microsoft Excel
 
-The troubleshooting actions can help resolve common issues when importing your Operational Technology devices or data. Access the System Log to troubleshoot for these errors.
+These troubleshooting actions can help resolve common issues when importing your Operational Technology devices or data. Access the System Log to troubleshoot for these errors.
 
 These logs can be used to debug any issues or to find the Service Graph Connector steps are executed properly.
 

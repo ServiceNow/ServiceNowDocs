@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd
 topic_type: concept
-last_updated: "2026-07-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore ServiceNow Otto for WSD, ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
@@ -18,7 +18,7 @@ Get a quick overview for supported patch versions and application information.
 
 ## Supported Versions
 
-ServiceNow Otto for WSD \(sn\_wsd\_gen\_ai\) is supported on Australia v1.0.0
+ServiceNow Otto for WSD \(sn\_wsd\_gen\_ai\) is supported on Brazil v1.0.0
 
 ## Application Information
 

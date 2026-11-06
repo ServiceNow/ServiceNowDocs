@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/t\_GenAssessmentOnDemandAPI.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [On-demand assessments, Assessment administrator tasks, Using assessments, Assessments, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,7 +22,7 @@ Role required: assessment\_admin or admin
 
 ## Procedure
 
-1.  To generate an assessment, call the [AssessmentCreation API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_AssessmentCreation.md) from any script in the system, such as a business rule or client script.
+1.  To generate an assessment, call the AssessmentCreation API from any script in the system, such as a business rule or client script.
 
 2.  Use the sys\_ids of these items:
 

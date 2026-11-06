@@ -1,20 +1,20 @@
 ---
 title: In-product help
-description: There are two kinds of in-product help to assist users understand the UI that they are using: Embedded Help and Help Center.
+description: There are two kinds of in-product help to assist users in understanding the UI that they are using: Embedded Help and Help Center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/adoption-services/inproduct-help.html
 release: australia
 product: Adoption Services
 classification: adoption-services
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Adoption services, Configure user experiences]
 ---
 
 # In-product help
 
-There are two kinds of in-product help to assist users understand the UI that they are using: Embedded Help and Help Center.
+There are two kinds of in-product help to assist users in understanding the UI that they are using: Embedded Help and Help Center.
 
 ## In-product help overview
 
@@ -24,9 +24,9 @@ Embedded Help provides targeted help content to a user in a page in the classic 
 
 \[Omitted image "embedded-help.png"\] Alt text: Catalog task page with embedded help.
 
-The Help Center is the next-generation Embedded Help product for configurable workspace. The Help Center provides targeted help content to users based on their role and specific to their location in a configurable workspace or page built with the Next Experience UI Framework.
+The Help Center is the next-generation Embedded Help product for configurable workspaces. The Help Center provides targeted help content to users based on their role and specific to their location in a configurable workspace or page built with the Next Experience UI Framework.
 
-Help Center will display Embedded Help content, so you don't have to rewrite any content you previously created for Embedded Help. For more information, see [Help Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/adoption-services/help-center.md).
+Help Center will display Embedded Help content, so you do not need to rewrite any content you previously created for Embedded Help. For more information, see [Help Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/adoption-services/help-center.md).
 
 \[Omitted image "help-center-icon-view.png"\] Alt text: Workspace dashboard with help view.
 

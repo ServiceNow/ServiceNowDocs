@@ -7,8 +7,8 @@ release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Enterprise Asset Management, Asset Management]
 ---
 
@@ -31,8 +31,8 @@ The Enterprise Asset Management application automates the full life cycle of you
 |Medical technicians|Similar to the tasks carried out by an enterprise asset technician, though specifically within the healthcare sector.|
 |Facility asset manager|Similar to the tasks carried out by an enterprise asset manager, though specifically within the facility management sector.|
 |Facility technician|Similar to the tasks carried out by an enterprise asset technician, though specifically within the facility management sector.|
-|Operational technology asset manager|Similar to the tasks carried out by an enterprise asset manager, though specifically within the operation technology sector.|
-|Operational technology asset technician|Similar to the tasks carried out by an enterprise asset technician, though specifically within the facility management sector.|
+|Operational technology asset manager|Similar to the tasks carried out by an enterprise asset manager, though specifically within the operational technology sector.|
+|Operational technology asset technician|Similar to the tasks carried out by an enterprise asset technician, though specifically within the operational technology sector.|
 
 ## Enterprise Asset Management workflow
 
@@ -288,4 +288,8 @@ To learn more about configuring and using the Enterprise Asset Management applic
 -   [Managing enterprise asset inventory and contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/managing-eam-inv-contracts.md)
 -   [Managing work orders for your enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/create-manage-wo-enterprise-assets.md)
 -   [Using Service Catalog for Enterprise Asset Management requests and flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/using-service-catalog-eam-requests-flows.md)
+-   [Managing enterprise assets and tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/manage-enterprise-assets-tasks-mobile-app.md)
+-   [Procuring enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/procuring-assets.md)
+-   [Enterprise Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/reference-enterprise-asset-management.md)
+-   [Industry-specific Enterprise Asset Management solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/eam-related-apps.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/bcm-event-task-template-progress.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Structured workflows for Exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Event task creation progress in exercise and crisis events
@@ -28,9 +28,9 @@ About ten seconds after the last event task is created, the **Event tasks** list
 
 Opening **Add groups** or **Add tasks** from the **Event tasks** tab of an activated plan skips the **Select activated plan** step in the dialog, because the activated plan context is already known. Refresh behavior is identical to the exercise or crisis event **Event tasks** list.
 
-\[Omitted image "activated-plan-event-tasks-grouped.png"\] Alt text: Event tasks tab grouped by activated plan.
+\[Omitted image "activated-plan-event-tasks-grouped.png"\] Alt text: Exercise event Event tasks tab grouped by activated plan.
 
 \[Omitted image "activated-plan-event-task-list.png"\] Alt text: Activated plan event task list showing tasks created from a task template group.
 
-**Parent Topic:**[Structured workflows for Exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
+**Parent Topic:**[Structured workflows for exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
 

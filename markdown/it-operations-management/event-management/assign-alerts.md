@@ -7,9 +7,9 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Assign and manage alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Assigning and managing alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Assign alerts in Express List
@@ -38,15 +38,15 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
 5.  Perform one of the following actions.
 
-<table id="choicetable_qy3_vpd_qbc"><thead><tr><th align="left" id="d586701e133">
+<table id="choicetable_qy3_vpd_qbc"><thead><tr><th align="left" id="d629441e133">
 
 Assignment
 
-</th><th align="left" id="d586701e136">
+</th><th align="left" id="d629441e136">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d586701e142">
+</th></tr></thead><tbody><tr><td id="d629441e142">
 
 **Yourself**
 
@@ -54,7 +54,7 @@ Actions
 
 Select **Assign to you** and then select **OK**.
 
-</td></tr><tr><td id="d586701e157">
+</td></tr><tr><td id="d629441e157">
 
 **Someone else**
 
@@ -66,7 +66,7 @@ Select **Assign to you** and then select **OK**.
 4.  Select the **Assign &lt;number&gt; alerts** button.
 
 
-</td></tr><tr><td id="d586701e193">
+</td></tr><tr><td id="d629441e193">
 
 **Assignment group**
 

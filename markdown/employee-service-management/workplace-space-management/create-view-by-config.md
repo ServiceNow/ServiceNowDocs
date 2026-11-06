@@ -7,8 +7,8 @@ release: australia
 product: Workplace Space Management
 classification: workplace-space-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Manage, Workplace Space Management, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -66,7 +66,7 @@ Role required: sn\_wsd\_spcmgmt.admin
 
 [Raise a space assistance request]()
 
-[Create a KPI Configuration]()
+[]()
 
 [Reviewing allocation changes]()
 

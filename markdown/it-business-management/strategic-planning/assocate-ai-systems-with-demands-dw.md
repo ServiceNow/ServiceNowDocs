@@ -7,7 +7,7 @@ release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -20,7 +20,7 @@ Create AI systems from directly within the demand workflow and associate them wi
 
 -   The AI Control Tower plugin must be installed. For more information, see [Activation and installation of AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activation-and-installation-of-ai-control-tower.md).
 -   The investment type of the demand is set to artificial intelligence.
--   Role required: sn\_ai\_steward
+-   Role required: sn\_ai\_governance\_ai\_steward
 
 ## Procedure
 
@@ -34,13 +34,13 @@ Create AI systems from directly within the demand workflow and associate them wi
 
 5.  Select the **Create AI System** button to create an AI system in the AI Control Tower workspace.
 
-    For more information on creating AI systems, see [Create AI system assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ai-system-assets.md).
+    For more information on creating AI systems, see [Create AI system assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ai-system-assets.md). \[Omitted image "create-ai-system-button.png"\] Alt text: Create AI System option is available on the Details page.
 
 
 ## What to do next
 
 Associate your demands with the created AI systems:
 
--   Using the AI checkpoint stage in your demand playbook. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/use-playbooks-in-dw.md).
+-   Using the AI checkpoint stage in your demand playbook. For more information, see [Use playbook for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/use-playbooks-in-dw.md).
 -   Using the **AI Associations** section in the **Details** tab.
 

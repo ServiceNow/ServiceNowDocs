@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/data-products-use-cases.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Data Products, Workflow Data Fabric]
 ---

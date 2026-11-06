@@ -7,7 +7,7 @@ release: australia
 product: Contact Tracing
 classification: contact-tracing
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Collecting risk scores in Contact Tracing, Contact Tracing, Safe Workplace, Health and Safety, Employee Service Management]
 ---

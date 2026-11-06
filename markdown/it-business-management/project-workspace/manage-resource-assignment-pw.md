@@ -7,9 +7,9 @@ release: australia
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Resource assignments in Project Workspace, Manage resources, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Resource assignments in Project Workspace, Resource planning with Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Manage resources from resource page in Project Workspace
@@ -34,7 +34,7 @@ For example, Simon is a resource who is allocated to two project tasks. When you
 
 3.  Edit the resource status, task effort, start date, end date, or other attributes of the resource assignment as required.
 
-    You can edit the row, reassign, extend, or open a resource assignment. You can create resource assignment directly from the resource page in the Project Workspace. You can select the unassigned tasks toggle to view all the unassigned resources that aren’t currently assigned to any task in that project. For sub-projects, you can select a subproject and then select **Resources** to view the resources allocated to that subproject.
+    You can edit the row, reassign, extend, or open a resource assignment. You can create a new resource assignment directly from the resource page in the Project Workspace. You can select the unassigned tasks toggle to view all the unassigned resources that aren’t currently assigned to any task in that project. For sub-projects, you can select a sub-project and then select **Resources** to view the resources allocated to that sub-project.
 
 
 **Parent Topic:**[Resource assignments in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/resource-assignments-pw.md)

@@ -7,7 +7,7 @@ release: australia
 product: Adoption Services
 classification: adoption-services
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Guided Tours, Guided Tours, Adoption services, Configure user experiences]
 ---
@@ -41,7 +41,7 @@ You can create, update, and play guided tours within the ServiceNow® user inter
 
 **Note:**
 
--   The Guided Tour Designer is only available in Core UI. The designer isn’t compatible with UI15. For information about how to activate the Core UI plugin, see [Activate Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/t_ActivateUI16.md).
+-   The Guided Tour Designer is only available in Core UI. The designer isn’t compatible with UI15. For information about how to activate the Core UI plugin, see Activate Core UI.
 
 -   Guided Tours are supported in Next Experience pages, such as Workspace or pages configured in UI Builder using the Next Experience UI Framework.
 

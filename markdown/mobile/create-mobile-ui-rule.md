@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/create-mobile-ui-rule.html
 release: australia
 topic_type: task
-last_updated: "2026-07-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Mobile UI Rules, Mobile styles, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -58,7 +58,7 @@ Condition
 
 Condition under which the mobile UI rule is used. The rule executes if the condition evaluates as true. Mobile UI rules with no condition always evaluate as true.
 
-To use a field in a condition, the field must be displayed on the mobile card, or it must be added to the **Card fields** tab on the card \[sys\_sg\_view\_config\] record for that card. If the field is a reference field, you can also access information in the related record using dot-walking. See [Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_DotWalking.md).
+To use a field in a condition, the field must be displayed on the mobile card. Alternatively, it must be added to the **Card fields** tab on the card \[sys\_sg\_view\_config\] record for that card. If the field is a reference field, you can also access information in the related record using dot-walking. See [Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_DotWalking.md).
 
 Conditions can also use variables defined in the mobile scratchpad. These variables are created and evaluated using the script in the **Mobile Scratchpad Script** field in the card \[sys\_sg\_view\_config\] record.
 

@@ -7,7 +7,7 @@ release: australia
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Operating systems discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -23,7 +23,7 @@ Discovery identifies and classifies information about Solaris computers.
 -   Oracle Solaris 10
 -   Oracle Solaris 11
 
-## Prerequisites
+## Requirements for discovery
 
 -   **Handle truncated command line parameters**
 
@@ -177,7 +177,7 @@ Case 4: The relationship path between physical local and global zone machines is
 
 Subsequent discoveries of the global zone refresh the TCP connection and process information for the contained local zones.
 
-When the system discovers a global zone, the Solaris - Zones &amp; ADM Launcher probe triggers the Solaris - ADM probe to explore the global zone and each local zone found. Because the Solaris - ADM probe must run on the global zone to detect TCP connection and process information from its local zones, you might see multiple ECC queue records that appear identical.
+When the system discovers a global zone, the Solaris - Zones &amp; ADM Launcher probe triggers the Solaris - ADM probe to explore the global zone and each local zone found. The Solaris ADM probe must run on the global zone to detect TCP connection and process information from its local zones. As a result, you might see multiple ECC queue records that appear identical.
 
 \[Omitted image "ZoneECCQueue.png"\] Alt text: ECC queue entries for a zone Discovery
 

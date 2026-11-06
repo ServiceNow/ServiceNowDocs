@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/reviewing-formula-tree.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Using GRC: Metrics to provide data, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
@@ -26,11 +26,11 @@ As shown in the following examples, you can navigate to the calculated metric da
 
 **Note:** A formula tree displays the values of operands by applying the level of precision provided in the CMD.
 
-For example, if the CMD specifies a precision of 2 decimal places, the formula tree displays all operand values with two decimal places, even if the actual values have more or fewer decimal places.
+For example, if the CMD specifies a precision of 2 decimal places, the formula tree displays all operand values with two decimal places. This applies even if the actual values have more or fewer decimal places.
 
-As shown in the following examples, if you’re seeing an empty page, it's because the formula tree or formula operands are currently empty and are being updated asynchronously. If you’re seeing an error page, it's due to errors in the formula operands that must be corrected.
+As shown in the following examples, if you’re seeing an empty page, it's because the formula tree or formula operands are currently empty and are being updated asynchronously. If you’re seeing an error page, it's due to errors in the formula operands that need to be corrected.
 
-**Note:** If a value is missing for any operand in a CMD formula, you can use the Calculated Metric Definition Settings table to define a default value for that operand. The system will automatically retrieve and apply the specified default value, ensuring the formula executes without interruption. Users can customize these default values or add new records as needed to suit their calculation requirements. For more information, see [Configure a metric definition setting record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/activate-default-values-for-cmd-calculations.md).
+**Note:** If a value is missing for any operand in a CMD formula, you can use the Calculated Metric Definition Settings table to define a default value for that operand. The system will automatically retrieve and apply the specified default value, ensuring the formula executes without interruption. Users can customize these default values or add new records as needed to suit their calculation requirements. For more information, see [Activate default values for CMD calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/activate-default-values-for-cmd-calculations.md).
 
 \[Omitted image "formula-tree-empty.png"\] Alt text: Viewing an empty page. For the text description, refer to the text that preceded this example.
 
@@ -40,6 +40,8 @@ To learn more about formula trees, see:
 
 -   **[View the calculation breakdown in a formula tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/view-formula-tree.md)**  
 View a structured and visual representation of the entire calculation chain.
+-   **[Activate default values for CMD calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/activate-default-values-for-cmd-calculations.md)**  
+Activate default values for missing operands in CMD formulas using the Calculated Metric Definition Settings table, or configure new records as needed. This ensures uninterrupted calculations and allows customization for specific operand requirements.
 
 **Parent Topic:**[Using GRC: Metrics to provide data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/using-grc-metrics.md)
 

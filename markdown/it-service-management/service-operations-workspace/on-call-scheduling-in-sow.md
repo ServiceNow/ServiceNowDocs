@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -22,7 +22,7 @@ Use On-Call Scheduling in Service Operations Workspace to view and manage your s
 
 As an agent, view your schedule and your peer's schedules, request an absence, propose coverage, and set your notification preferences.
 
-As a Shift Manager, view, and manage shifts, approve or reject absence requests, and resolve gaps and conflicts. You can also manage notification preferences, delivery channels, escalation trigger rules, and policies for your group.
+As a Shift Manager, view and manage shifts, approve or reject absence requests, and resolve gaps and conflicts. You can also manage notification preferences, delivery channels, escalation trigger rules, and policies for your group.
 
 As an On-call Admin, view, and manage shifts, approve or reject absence requests, and resolve gaps and conflicts. You can also manage notification preferences, delivery channels, escalation trigger rules, and policies for any group.
 
@@ -34,7 +34,7 @@ Use the Schedules menu on the home page to access On-Call Scheduling in Service 
 
 ## On-call Schedules tab
 
-This tab displays all the user's schedules and shifts in a calendar or time-line view. You can customize the view as a day, week, or month view, and filter the calendar based on your groups or time zones.
+This tab displays all the user's schedules and shifts in a calendar or timeline view. You can customize the view as a day, week, or month view, and filter the calendar based on your groups or time zones.
 
 You can manage your work, shifts, and time-off requests on this tab.
 
@@ -54,8 +54,6 @@ Use the **Escalation triggers and policies** tab to set an escalation policy and
 
 Use the **On-call Team preferences** tab to edit shift preferences for a group. You can add a Shift Manager and the start day of the week, set preferences for absence requests and shift overlap, and escalation rules for shift overlap.
 
-The Teams page provides an on-call onboarding wizard to configure on-call schedules for multiple teams simultaneously. Users with the rota\_admin role can access this wizard. For more information, see [Create on-call schedules for multiple groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/oc-create-bulk-schedule-onboarding.md).
-
 ## Contextual side panel
 
 Use On-Call Scheduling from the Contextual side panel, when you open an incident. You can also configure experts on call and escalation tracking for any other record, if necessary.
@@ -65,9 +63,9 @@ Select the Experts On-call icon \(\[Omitted image "experts-on-call.png"\] Alt te
 To view the escalation details and dynamic tracking of an on-call escalation, select the on-call escalations icon \(\[Omitted image "on-call-escalation.png"\] Alt text: On-call escalations icon.\) from the Contextual side panel.
 
 -   **[Configuring On-Call Scheduling in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/configuring-oncall-scheduling-sow.md)**  
-Configure On-Call Scheduling in Service Operations Workspace \(SOW\) for their organizational needs, utilizing a suite of features to fulfill the various requirements.
--   **[Scheduling in service operation workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/scheduling-in-service-operation-workspace.md)**  
-View and manage schedules, shifts and time-off request.
+Configure On-Call Scheduling in Service Operations Workspace \(SOW\) for your organizational needs by using a suite of features to fulfill the requirements.
+-   **[Scheduling in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/scheduling-in-service-operation-workspace.md)**  
+View and manage schedules, shifts and time-off requests.
 -   **[On-call support for an incident in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/on-call-sow.md)**  
 You can identify available on-call members of a support group and contact them to resolve an issue.
 

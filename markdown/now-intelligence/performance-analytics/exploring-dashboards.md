@@ -7,7 +7,7 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -17,10 +17,6 @@ breadcrumb: [Responsive dashboards in the Core UI, Reporting, dashboards, and Pe
 Learn more about dashboards with a sample workflow and reviewing the benefits it can provide for different users.
 
 ## Dashboards overview
-
-**Note:** On net new Australia instances and instances migrated to Platform Analytics experience, Core UI Responsive Dashboards functionality is replaced with Platform Analytics dashboards. For more information, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/analytics-center-dashboards.md).
-
-The dashboard\_admin role is required to create or edit Core UI Responsive Dashboards, which may still be necessary in Service Portal, for example.
 
 Core UI Responsive Dashboards show reports, Performance Analytics indicator widgets, interactive filters, and other Core UI components of the story of the data on your instance.
 

@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Service instances \(Application services\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -147,7 +147,7 @@ Select this check box to convert the business service into an application servic
     4.  Click the **Affected CIs** tab and then click **Add** to add an affected CI to the change request.
     5.  Open the form context menu and select **Refresh Impacted Services**.
     6.  Click the **Impacted Services/CIs** tab to see any dynamic services that are associated with the affected CI and that are impacted by the change request.
-    For more information about affected CIs on a change request, see [Associated CIs on a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_AffectedCIsAndImpactedServices.md).
+    For more information about affected CIs on a change request, see Associated CIs on a change request.
 
 
 ## Convert an individual business service to an application service

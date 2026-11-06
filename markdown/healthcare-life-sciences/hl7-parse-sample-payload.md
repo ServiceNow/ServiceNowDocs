@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hl7-parse-sample-payload.html
 release: australia
 topic_type: task
-last_updated: "2026-06-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [parse sample payload, parser configuration, field map, test parser, HL7 v2.x]
 breadcrumb: [Connect your integration engine to ServiceNow, HL7 v2.x Integration, Healthcare Integrations, Healthcare and Life Sciences]

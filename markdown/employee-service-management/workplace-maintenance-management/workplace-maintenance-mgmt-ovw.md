@@ -7,7 +7,7 @@ release: australia
 product: Workplace Maintenance Management
 classification: workplace-maintenance-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workplace Service Delivery, Employee Service Management]
 ---
@@ -20,19 +20,19 @@ Workplace Maintenance Management provides preventive maintenance plans for enter
 
 <table id="table_sdw_cwc_qtb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about Workplace Maintenance Management concepts and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-maintenance-management/explore-wmm.md)
+[Explore \[Omitted image "icon-explore.png"\] Alt text: Explore Learn about Workplace Maintenance Management concepts and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-maintenance-management/explore-wmm.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Install and Configure Workplace Maintenance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-maintenance-management/configure-maintenance-mgmt.md)
+[Configure \[Omitted image "icon-configure.png"\] Alt text: Configure. Install and Configure Workplace Maintenance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-maintenance-management/configure-maintenance-mgmt.md)
 
 </td></tr><tr><td>
 
-[Manage \[Omitted image "bus-headset.svg"\] Alt text: Manage Workplace Maintenance Management location records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-maintenance-management/manage-maintenance-plans.md)
+[Manage \[Omitted image "icon-managing.png"\] Alt text: Manage Manage Workplace Maintenance Management location records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-maintenance-management/manage-maintenance-plans.md)
 
 </td><td>
 
-[References \[Omitted image "bus-learn.svg"\] Alt text: Learn about Workplace Maintenance Management roles, properties, and components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-maintenance-management/workplace-maintenance-mgmt-references.md) 
+[References \[Omitted image "icon-reference.png"\] Alt text: References Learn about Workplace Maintenance Management roles, properties, and components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-maintenance-management/workplace-maintenance-mgmt-references.md) 
 
 </td></tr></tbody>
 </table>## Additional resources

@@ -1,5 +1,5 @@
 ---
-title: Submit a renewal request
+title: Submit a standalone renewal request
 description: Submit a renewal request from Employee Center to renew an existing contract.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-sa-renewal.html
@@ -13,7 +13,7 @@ keywords: [standalone renewal request, record producer, contract renewal]
 breadcrumb: [Standalone contract requests, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Submit a renewal request
+# Submit a standalone renewal request
 
 Submit a renewal request from Employee Center to renew an existing contract.
 
@@ -25,15 +25,15 @@ Role required: sn\_cm\_core.contract\_user or sn\_cm\_core.contract\_fulfiller
 
 1.  Navigate to the contract request form.
 
-<table><thead><tr><th align="left" id="d95706e75">
+<table><thead><tr><th align="left" id="d95863e75">
 
 Entry point
 
-</th><th align="left" id="d95706e78">
+</th><th align="left" id="d95863e78">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d95706e84">
+</th></tr></thead><tbody><tr><td id="d95863e84">
 
 **Employee Center \(sn\_cm\_core.contract\_user\)**
 
@@ -44,7 +44,7 @@ Navigation
 3.  Select **Contract Amendment and Renewal request**.
 
 
-</td></tr><tr><td id="d95706e126">
+</td></tr><tr><td id="d95863e126">
 
 **Contract Workspace \(sn\_cm\_core.contract\_fulfiller\)**
 
@@ -59,15 +59,15 @@ Navigation
 
 3.  Enter the contract details.
 
-<table><thead><tr><th align="left" id="d95706e168">
+<table><thead><tr><th align="left" id="d95863e168">
 
 Option
 
-</th><th align="left" id="d95706e171">
+</th><th align="left" id="d95863e171">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d95706e177">
+</th></tr></thead><tbody><tr><td id="d95863e177">
 
 **Select an existing contract**
 
@@ -85,7 +85,7 @@ Steps
 3.  Select **Select** to choose the contract.
 
 
-</td></tr><tr><td id="d95706e221">
+</td></tr><tr><td id="d95863e221">
 
 **Enter contract details manually**
 
@@ -107,15 +107,15 @@ Steps
 
     -   For own paper renewals: Adding documents is optional. Attached documents are classified as supporting documents.
     -   For third-party paper renewals: Attaching at least one contract document is required. Attaching a supporting document is optional. You must classify each attached document.
-<table id="choicetable_eks_mwq_qkc"><thead><tr><th align="left" id="d95706e301">
+<table id="choicetable_eks_mwq_qkc"><thead><tr><th align="left" id="d95863e301">
 
 Method
 
-</th><th align="left" id="d95706e304">
+</th><th align="left" id="d95863e304">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d95706e310">
+</th></tr></thead><tbody><tr><td id="d95863e310">
 
 **Choose a file**
 
@@ -125,7 +125,7 @@ Actions
 2.  Select the files to attach and select **Open**.
 
 
-</td></tr><tr><td id="d95706e334">
+</td></tr><tr><td id="d95863e334">
 
 **Drag and drop**
 

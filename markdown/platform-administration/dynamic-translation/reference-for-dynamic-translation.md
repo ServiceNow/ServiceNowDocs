@@ -7,7 +7,7 @@ release: australia
 product: Dynamic Translation
 classification: dynamic-translation
 topic_type: concept
-last_updated: "2026-04-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Dynamic Translation, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -23,7 +23,7 @@ Use the Dynamic Translation properties to customize, configure, and control the 
 -   **[Actions in Dynamic Translation spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/dynamic-translation/actions-dt-spoke.md)**  
 Actions in the Dynamic Translation spoke are built to access the Dynamic Translation APIs from Workflow Studio.
 -   **[Limitations in Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/dynamic-translation/limitations-dynamic-translation.md)**  
-You must be aware of a few limitations when you integrate with a translation service provider to enable the Dynamic Translation experience.
+Learn about length and language support limitations when integrating with a machine translation service provider in Dynamic Translation.
 -   **[Error messages in Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/dynamic-translation/error-messages-field-translation.md)**  
 You must be aware of a few error scenarios while using Dynamic Translation.
 

@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure evaluation scoring for ServiceNow AI systems, Configure, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Configure evaluation scoring for ServiceNow AI systems, Configure, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Configure asset-specific metrics for ServiceNow AI systems
@@ -35,15 +35,15 @@ You can optionally override which metrics are evaluated for specific ServiceNow 
 
     **Important:** Adding more metrics increases the visibility you gain into each session, but also increases assist usage to evaluate it. Select the metrics that give you the insight you need.
 
-<table id="choicetable_asset_metric_actions"><thead><tr><th align="left" id="d322669e147">
+<table id="choicetable_asset_metric_actions"><thead><tr><th align="left" id="d306030e147">
 
 Option
 
-</th><th align="left" id="d322669e150">
+</th><th align="left" id="d306030e150">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d322669e156">
+</th></tr></thead><tbody><tr><td id="d306030e156">
 
 **Add one or more AI systems and selected metrics**
 
@@ -56,7 +56,7 @@ Steps
 5.  Select **Add metrics**.
 
 
-</td></tr><tr><td id="d322669e192">
+</td></tr><tr><td id="d306030e192">
 
 **Remove one or more metrics**
 

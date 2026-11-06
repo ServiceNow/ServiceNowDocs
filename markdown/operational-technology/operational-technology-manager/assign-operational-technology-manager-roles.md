@@ -7,7 +7,7 @@ release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Operational Technology Manager, Operational Technology]
 ---
@@ -24,7 +24,7 @@ Role required: admin
 
 Users with the roles that are listed in the following table can use the Operational Technology Manager application.
 
-If you want to configure site users, you can create and assign user criteria for equipment model entity site users. For more information, see [Assign or remove equipment model site access for non-administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/create-user-criteria-for-equipment-model-entity-site-users.md).
+If you want to configure site users, you can create and assign user criteria for equipment model entity site users. For more information, see [Manage equipment model site access for non-administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/create-user-criteria-for-equipment-model-entity-site-users.md).
 
 <table id="table_q55_vpq_4nb"><thead><tr><th>
 
@@ -40,7 +40,7 @@ Operational Technology Discovery Administrator \[ot\_discovery\_admin\]
 
 </td><td>
 
-Can run the Discovery for Operational Technology process, but cannot access the Configuration Management Database \(CMDB\) to view the configuration items \(CIs\) and related Operational Technology \(OT\) entities that are created from discovered items. To learn more, see [Create an OT Discovery schedule and run the Discovery process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/run-discovery-for-operational-technology.md).
+Can run the Discovery for Operational Technology process. Can't access the Configuration Management Database \(CMDB\) to view CIs and related Operational Technology \(OT\) entities created from discovered items. See [Create and run the OT Discovery schedule and the Discovery process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/run-discovery-for-operational-technology.md).
 
 </td></tr><tr><td>
 
@@ -56,7 +56,7 @@ Operational Technology Manager Editor \[cmdb\_ot\_editor\]
 
 </td><td>
 
-Create, read, update, and delete access for [Operation Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models-operation-technology.md).**Note:** Users assigned the **cmdb\_ot\_editor** role can edit and delete only OT configuration items \(CIs\), and don't have the ability to edit IT CIs.
+Create, read, update, and delete access for [Operation Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models-operation-technology.md).**Note:** Users assigned the **cmdb\_ot\_editor** role can edit and delete only OT configuration items \(CIs\), but they aren’t permitted to edit IT CIs.
 
 </td></tr><tr><td>
 
@@ -64,7 +64,7 @@ Operational Technology Manager Admin \[cmdb\_ot\_admin\]
 
 </td><td>
 
-Create, read, update, and delete access for Operational Technology \(OT\) device records. Can also edit and manage specific configurations in the OT entity type. To learn more, see [Operation Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models-operation-technology.md).**Note:** Users assigned the **cmdb\_ot\_admin** role can edit and delete only OT configuration items \(CIs\), and don't have the ability to edit IT CIs.
+Create, read, update, and delete access for Operational Technology \(OT\) device records. Can also edit and manage specific configurations in the OT entity type. To learn more, see [Operation Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models-operation-technology.md).**Note:** Users assigned the **cmdb\_ot\_admin** role can edit and delete only OT configuration items \(CIs\), but they aren’t permitted to edit IT CIs.
 
 </td></tr></tbody>
 </table>## Procedure

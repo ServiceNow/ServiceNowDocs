@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Discovery for IBM Cloud Platform, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
@@ -23,7 +23,7 @@ Verify the following:
 
 -   You have at least one validated MID Server with a status of **Up**. The MID Server must reach the IP ranges that you intend to discover. You can install the MID Server by using [Use MID Server guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/use-mid-server-guidedsetup.md) or by manually downloading and running the installer. For details, see the MID Server installation instructions for [Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_InstallAMIDServerOnLinux.md) and [Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-install-prereqs.md).
 -   The MID Server used for Cloud Discovery is configured with the Cloud Management capability.
--   You have configured a Service ID in the IBM Cloud Console and created an associated API key that has the required Identity and Access Management \(IAM\) roles, so that the MID Server can access the cloud resources you plan to discover.
+-   A Service ID in the IBM Cloud Console is configured with an associated API key that has the required Identity and Access Management \(IAM\) roles. The MID Server can access the cloud resources to discover.
 -   You have created suitable IBM Cloud credentials in the ServiceNow AI Platform to connect with the IBM Cloud Service ID you created. For more information, see [Discovery for IBM Cloud Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/ibm-cloud-discovery.md).
 -   You're using Discovery Admin Workspace v1.13.0.
 

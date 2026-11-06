@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/cbs-notif.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Core Business Suite]
 ---
@@ -35,7 +35,7 @@ For more information on workspace notifications, see .
 
 ## Email notifications
 
-The requester and the agent both receive email notifications. It's sent when a request is raised, there's an update on the request from either personas, or the request is closed.
+The requester and the agent both receive email notifications when a request is raised, there's any new development on the request from either personas, or the request is closed.
 
 You can view the request details along with a **View request** or **View case** button that opens either in the portal or the workspace depending on the persona.
 

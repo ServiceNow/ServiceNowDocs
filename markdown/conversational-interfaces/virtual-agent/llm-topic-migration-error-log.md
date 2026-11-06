@@ -7,9 +7,9 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Migrating NLU/keyword Virtual Agent topics to LLM topics, Getting started with the Asset library in Assistant Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Migrating NLU topics to LLM, Build conversations, Virtual Agent, Conversational Interfaces]
 ---
 
 # NLU to LLM migration log

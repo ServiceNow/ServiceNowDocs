@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/case-categorization-components.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Install Task Intelligence, Task Intelligence for Customer Service, Machine learning solutions, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -91,7 +91,7 @@ Case\[sn\_customerservice\_case\]
 
 The Case table stores customer service case records. This table is the recipient for case categorization predictions.The **Language** field has been added to the Case table. This field is a reference to the Language \[sys\_language\] table. This field is populated with the prediction made by the language detection spoke and stores the language that was used to create the email or case.
 
- The Case table is added with the Customer Service \(com.sn\_customerservice\) plugin.
+ The Case table is added with the Case Management Core \(com.sn\_customerservice\) plugin.
 
 </td></tr><tr><td>
 

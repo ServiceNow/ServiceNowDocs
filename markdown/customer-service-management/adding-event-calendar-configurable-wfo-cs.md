@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/adding-event-calendar-configurable-wfo-cs.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Schedule, Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
@@ -34,15 +34,15 @@ You can create custom event types and add or remove the desired fields. For more
 
 5.  Create an event.
 
-<table id="choicetable_yff_2rw_1nb"><thead><tr><th align="left" id="d115215e118">
+<table id="choicetable_yff_2rw_1nb"><thead><tr><th align="left" id="d117320e118">
 
 To
 
-</th><th align="left" id="d115215e121">
+</th><th align="left" id="d117320e121">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d115215e127">
+</th></tr></thead><tbody><tr><td id="d117320e127">
 
 **Create a meeting, training, or time-off request.**
 
@@ -67,7 +67,7 @@ In the **Attendees** field, start typing the name of each of the attendees for t
     6.  In the **Description** field, enter a description for the meeting.
 
 
-</td></tr><tr><td id="d115215e233">
+</td></tr><tr><td id="d117320e233">
 
 **Create a work shift**
 

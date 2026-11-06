@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/define-sec-aw-new.html
 release: australia
 topic_type: task
-last_updated: "2026-07-21"
+last_updated: "2026-10-16"
 reading_time_minutes: 3
-breadcrumb: [Create an agentic workflow, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Create an agentic workflow, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Define access rules for an agentic workflow
@@ -16,7 +16,7 @@ Define security controls for an agentic workflow to determine which users can ac
 
 ## Before you begin
 
-Role required: sn\_aia\_admin
+Role required: sn\_aia.admin
 
 ## About this task
 
@@ -35,7 +35,7 @@ See [Security for AI agents](https://raw.githubusercontent.com/ServiceNow/Servic
     -   Public
     If you select **Users with specified roles**, you can select exactly which roles can access the agentic workflow.
 
-    Agentic workflows installed with AI applications each require specific roles. To learn which roles needed for agentic workflows associated with ServiceNow Otto applications, consult the documentation for the agentic workflow.
+    Agentic workflows installed with AI applications each require specific roles. To learn which roles are needed for agentic workflows associated with ServiceNow Otto applications, consult the documentation for the agentic workflow.
 
     Selecting **Public** means anyone who can reach the instance can invoke the agent. Use it only for agents that expose no record data. **Public** should be used sparingly.
 
@@ -49,7 +49,7 @@ See [Security for AI agents](https://raw.githubusercontent.com/ServiceNow/Servic
 
     If you do not have an AI user but want to use the **AI user** identity, you need to create a new record on the User table. See [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAUser.md). Select **AI user** as the identity type.
 
-    If you select **Dynamic user**, you can select the **Roles** that the agentic workflow runs with. By default, an agentic workflow runs as a dynamic user and has the roles of the invoking user. Select the approved roles to limit the data access that an agentic workflow could have. Role filtering must be applied for all agentic workflows and agentic workflows to run as dynamic users. If you don't select any roles, the agent inherits whatever roles the invoking user holds.
+    If you select **Dynamic user**, you can select the **Approved roles** that the agentic workflow runs with. By default, an agentic workflow runs as a dynamic user and has the roles of the invoking user. Select the approved roles to limit the data access that an agentic workflow could have. Role filtering must be applied for all AI agents and agentic workflows to run as dynamic users. If you don't select any roles, the agent inherits whatever roles the invoking user holds.
 
     To override the role filtering requirement for a specific agentic workflow or AI agent, admins with the correct elevated access can create an approved list of roles for a given agentic workflow. Then, they can access that role filtering record in the Agent Access Role Configurations table \[sys\_agent\_access\_role\_configuration\], and select the **allow all roles** check box. Taking these steps deactivates the requirement for a role filtering approved roles list in AI Agent Studio, so the AI admin can return to AI Agent Studio and continue to configure the agentic workflow or AI agent without role filtering applied.
 

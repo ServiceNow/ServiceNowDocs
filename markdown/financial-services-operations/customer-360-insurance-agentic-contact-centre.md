@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/customer-360-insurance-agentic-contact-centre.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [customer 360, customer profile, insurance summary, policy details, insurance transaction history, insurance policies, ai-generated customer summary, total policies, total cover, view all insurance, view customer cases]
 breadcrumb: [Exploring Agentic Contact Center for Insurance, Agentic Contact Center for Insurance, Insurance applications, Financial Services Operations \(FSO\)]
@@ -33,7 +33,7 @@ The list shows details like customer name, case number, lodgement date and time,
 
 **Note:** The policy servicing CSR can view only policy-related cases and the claims servicing CSR can view only claims cases.
 
-The Household members section is visible only if the CSM Household plugin is installed and is applicable only to B2C customers. See  for more information about the Household plugin.
+The Household members section is visible only if the CSM Household plugin is installed and is applicable only to B2C customers. See [Configuring households](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-households.md) for more information about the Household plugin.
 
 **Warning:** AI-generated summaries may not always be accurate. CSRs must review the underlying policy and case data before acting on any AI-generated content.
 
@@ -59,5 +59,5 @@ The following table shows the available actions in the Customer 360 page.
 **Related topics**  
 
 
-[bundle-csm.csm-workspaces-configure]
+[](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md)
 

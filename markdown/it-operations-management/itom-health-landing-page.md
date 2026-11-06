@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-health-landing-page.html
 release: australia
 topic_type: reference
-last_updated: "2026-04-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [IT Operations Management]
 ---
@@ -33,32 +33,4 @@ ITOM AIOps enables IT operations teams, site reliability engineers, and DevOps p
 
 
 </td></tr></tbody>
-</table>## Helpful resources
-
-Some ServiceNow resources that can provide you with helpful information are:
-
--   **\[Omitted image "dcx-icon-community.svg"\]ServiceNow Community**
--   **\[Omitted image "dcx-icon-dev-portal.svg"\] Developer**
--   **\[Omitted image "dcx-icon-impact.svg"\] Impact**
-
-    [http://impact.servicenow.com](http://impact.servicenow.com)
-
--   **\[Omitted image "dcx-icon-learning.svg"\] ServiceNow University**
--   **\[Omitted image "dcx-icon.svg"\] Best Practices**
--   **\[Omitted image "dcx-icon-partner.svg"\] Partner**
-
-    [https://www.servicenow.com/partners.html](https://www.servicenow.com/partners.html)
-
--   **\[Omitted image "dcx-icon.svg"\] ServiceNow**
-
-    [http://servicenow.com](http://servicenow.com)
-
--   **\[Omitted image "dcx-icon-store.svg"\] ServiceNow Store**
-
-    [http://servicenow.com](http://servicenow.com)
-
--   **\[Omitted image "dcx-icon-support.svg"\] Support**
-
-    [https://support.servicenow.com/now](https://support.servicenow.com/now)
-
-
+</table>

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/main-node-configuration-form.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a main node configuration record, Data Relationships Framework, Reference, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -67,6 +67,22 @@ Condition
 </td><td>
 
 Filter condition used to set up the relationship for the configuration record. For example, you can set the condition as **"Status in source" "is" "Valid"**.
+
+</td></tr><tr><td>
+
+Maximum number of nodes
+
+</td><td>
+
+Maximum number of nodes to be processed for the configuration record. The value must be 2 or greater. If you leave this field empty, the value of the Maximum number of nodes to be processed system property is used. The default value is 10,000.
+
+</td></tr><tr><td>
+
+Maximum number of levels
+
+</td><td>
+
+Maximum number of relationship levels to be processed for the configuration record. The value must be 2 or greater. If you leave this field empty, the value of the Maximum number of levels to be processed system property is used. The default value is 5.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Create a main node configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-a-main-node-config-record.md)

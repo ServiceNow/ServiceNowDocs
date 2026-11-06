@@ -7,10 +7,10 @@ release: australia
 product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: task
-last_updated: "2026-04-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AI Lens, instance URL, auto-login, app-config.json, lens\_enable\_auto\_login]
-breadcrumb: [Configure, ServiceNow AI Lens, Enable AI experiences]
+breadcrumb: [Configure, ServiceNow AI Lens, Generative AI skills, Enable AI Experiences]
 ---
 
 # Set up auto-login for ServiceNow AI Lens

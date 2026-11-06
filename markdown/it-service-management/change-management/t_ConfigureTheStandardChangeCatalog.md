@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Standard change catalog, Configure, Change Management, IT Service Management]
 ---
@@ -18,7 +18,7 @@ Configure the standard change catalog through the standard change properties.
 
 ## Before you begin
 
-The Change Management - Standard Change Catalog \[com.snc.change\_management.standard\_change\_catalog\] plugin must be activated. The **Administration** menu and the **Standard Change Properties** module appear only after the plugin is active. To activate the plugin, see [Activate Change Management - Standard Change Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_ActivateStandardChangeCatalog.md).
+The Change Management - Standard Change Catalog plugin \(com.snc.change\_management.standard\_change\_catalog\) must be active. The **Administration** menu and the **Standard Change Properties** module appear only after the plugin is active. To activate the plugin, see [Activate Change Management - Standard Change Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_ActivateStandardChangeCatalog.md).
 
 Role required: admin
 
@@ -42,7 +42,7 @@ Catalog
 
 </td><td>
 
-Select the service catalog to add the generated standard change template to.
+Service catalog that the generated standard change template is added to.
 
 </td></tr><tr><td>
 
@@ -50,7 +50,7 @@ Category
 
 </td><td>
 
-Select the service catalog category to add the generated standard change template to. You can also choose the category or any child categories of the selected catalog.**Note:** This value is not set automatically on the Proposal form, but must be specified before it is approved.
+Service catalog category that the generated standard change template is added to. You can choose the category or any child categories of the selected catalog.**Note:** This value is not set automatically on the Proposal form, but must be specified before it is approved.
 
 </td></tr><tr><td>
 
@@ -58,7 +58,7 @@ Two step
 
 </td><td>
 
-Check box to make the request of a standard change a two-step process. The process redirects the requester from a standard change template to a change request that can be reviewed before submitting.This option is enabled by default on instances provisioned on Jakarta. Customers upgrading from prior releases must enable the **Two step** property.
+Check box that, when selected, makes requesting a standard change a two-step process. The process redirects the requester from a standard change template to a change request that can be reviewed before submitting.This option is selected by default on instances provisioned in Jakarta. On instances upgraded from earlier releases, select the **Two step** check box.
 
 </td></tr><tr><td>
 
@@ -66,7 +66,7 @@ Mandatory Change Request values
 
 </td><td>
 
-Specify a list of mandatory fields that require values when you propose a new standard change template or a modification to a standard change template.This configuration ensures that when a standard change request is created from a standard change template, one or more fields on the Change Request form contain preset values.
+Mandatory fields that require values when you propose a new standard change template or a modification to a standard change template.With this configuration, when a standard change request is created from a standard change template, one or more fields on the Change Request form contain preset values.
 
 </td></tr><tr><td>
 
@@ -74,7 +74,7 @@ Default Change Request values
 
 </td><td>
 
-Specify default values for common fields on the Change Request form.
+Default values for common fields on the Change Request form.
 
 </td></tr><tr><td>
 
@@ -82,7 +82,7 @@ Restricted Change Request values
 
 </td><td>
 
-Specify the list of fields that end users are not allowed to provide any value for when making a proposal.**Note:** Ensure that internal columns, such as **Updates**, **Updated**, **Updated by**, **Domain**, **Created**, **Created by** are restricted.
+Fields that end users can't provide values for when making a proposal.**Note:** Restrict internal columns, such as **Updates**, **Updated**, **Updated by**, **Domain**, **Created**, and **Created by**.
 
 </td></tr><tr><td>
 
@@ -90,7 +90,7 @@ Read-only fields
 
 </td><td>
 
-Specify the fields that end users are not allowed to provide any value for in the created standard change request.**Note:** This configuration ensures that for the specified fields, the values approved in the standard change template do not change when the standard change request is submitted.
+Fields that end users can't change in the created standard change request.**Note:** With this configuration, for the specified fields, the values approved in the standard change template do not change when the standard change request is submitted.
 
 </td></tr><tr><td>
 
@@ -98,7 +98,7 @@ Fields to copy
 
 </td><td>
 
-Specify the fields whose values are copied to the **Propose a New Standard Change Template** record producer from a non-standard change request. **Note:** If any fields not specified in this list have default values specified, the default values are copied to the record producer.
+Fields whose values are copied to the **Propose a New Standard Change Template** record producer from a non-standard change request. **Note:** If any fields not specified in this list have default values specified, the default values are copied to the record producer.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -110,7 +110,7 @@ Mandatory Change Task fields
 
 </td><td>
 
-Specify a list of mandatory fields. Enter values for these fields when proposing a new change task template or modifying a change task template.
+Mandatory fields that require values when you propose a new change task template or modify a change task template.
 
 </td></tr><tr><td>
 
@@ -118,7 +118,7 @@ Default Change Task values
 
 </td><td>
 
-Specify default values for fields on the Change Task form when creating a change task template.
+Default values for fields on the Change Task form when creating a change task template.
 
 </td></tr><tr><td>
 
@@ -126,7 +126,7 @@ Restricted Change Task fields
 
 </td><td>
 
-Specify the list of change request fields that end users are not allowed to provide any value for when creating a change task template.
+Change request fields that end users can't provide values for when creating a change task template.
 
 </td></tr><tr><td>
 
@@ -134,7 +134,7 @@ Read-only Change Task fields
 
 </td><td>
 
-Specify the fields that end users are not allowed to alter any value for in the change task.**Note:** This configuration ensures that for the specified fields, the values approved in the change task template do not change when the change task is created.
+Fields that end users can't change in the change task.**Note:** With this configuration, for the specified fields, the values approved in the change task template do not change when the change task is created.
 
 </td></tr><tr><td>
 
@@ -142,7 +142,7 @@ Change Task Fields to copy
 
 </td><td>
 
-Specify the fields whose values are copied to one or more change task templates when proposing a new standard change template from an existing change request.
+Fields whose values are copied to one or more change task templates when proposing a new standard change template from an existing change request.
 
 </td></tr></tbody>
 </table>3.  Select **Update**.
@@ -150,7 +150,7 @@ Specify the fields whose values are copied to one or more change task templates 
 
 ## What to do next
 
-You can create a standard change catalog. By default, the basic Standard Change Proposal workflow sends approval records to members of the Change Management group and the members should verify and modify the records, as appropriate.
+You can create a standard change catalog. By default, the basic Standard Change Proposal workflow sends approval records to members of the Change Management group and the members verify and modify the records, as appropriate.
 
 **Parent Topic:**[Standard change catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_StandardChangeCatalogPlugin.md)
 

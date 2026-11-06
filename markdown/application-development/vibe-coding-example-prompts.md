@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/vibe-coding-example-prompts.html
 release: australia
 topic_type: reference
-last_updated: "2026-06-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [reference, prompts, vibe coding, AI-assisted development, Build Agent, app development, business rules, security, user interface, governance, ATF, testing]
-breadcrumb: [Reference, Agentic development, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Reference, Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Example prompts for agentic development

@@ -7,7 +7,7 @@ release: australia
 product: Web Services
 classification: web-services
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Feed generator, RSS web service, Inbound, Web services, API implementation, API implementation and reference]
 ---
@@ -27,7 +27,9 @@ By default, when the URL parameter is present, the description element will be f
 -   \{1\} - field label
 -   \{2\} - field value
 
-This default format string can be overridden using the property **glide.rss.description\_format**.
+This default format string can be overridden using the property **glide.rss.description\_format**. An example of the formatted RSS feed can be seen in the following screen capture from Firefox:
+
+\[Omitted image "RssFormat.png"\] Alt text:
 
 **Parent Topic:**[RSS feed generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/c_RSSFeedGenerator.md)
 

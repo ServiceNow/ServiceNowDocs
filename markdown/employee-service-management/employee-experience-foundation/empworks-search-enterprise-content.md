@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-04-24"
 reading_time_minutes: 1
 keywords: [Enterprise Search, Dive Deeper, AI summary, source filters]
-breadcrumb: [Working with Moveworks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Working with Moveworks capabilities, Moveworks, EmployeeWorks, Employee Service Management]
 ---
 
 # Search enterprise content with Enterprise Search

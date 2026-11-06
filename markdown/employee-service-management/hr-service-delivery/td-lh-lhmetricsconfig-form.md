@@ -7,7 +7,7 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Leader Hub, HR Service Delivery, Employee Service Management]
 ---
@@ -48,7 +48,7 @@ The URL for the user interface builder \(UIB\) page that contains the graphs for
 
 </td><td>
 
-The base for the metric calculation for the application you select in the **Metric** field. Options are as follows:-   Select **Employees Count** to have metrics calculated based on the number of employees using the application you specify in the **Metric** field.
+The base for the metric calculation for the application you select in the **Metric** field. Options are as follows:-   Select **Employee Count** to have metrics calculated based on the number of employees using the application you specify in the **Metric** field.
 -   Select **Managers Count** to have metrics calculated based on the number of managers using the application you specify in the **Metric** field.
 -   Select **ICs Count** to have metrics calculated based on the number of individual contributors using the application you specify in the **Metric** field.
 
@@ -102,7 +102,7 @@ Option to indicate whether the employee engagement metric is available to leader
 
 </td></tr><tr><td>
 
-**Display on Talent Visibility card**
+**Enable on Talent Visibility**
 
 </td><td>
 

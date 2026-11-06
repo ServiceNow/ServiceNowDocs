@@ -7,7 +7,7 @@ release: australia
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Process Mining, Platform Analytics]
 ---
@@ -56,7 +56,7 @@ After you’ve configured the data you want to visualize, you can begin mining t
 -   **[Schedule a Process Mining job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/schedule-mining-job.md)**  
 Schedule a Process Mining job to mine one or more projects later.
 -   **[Manage a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/edit-project.md)**  
-Edit or delete a project from the Project Definition form. Delete a project if you are not using it and want to clean up data. Deleting a project deletes the project's configurations and versions or projects it has generated.
+Edit or delete a project. Delete a project if you aren't using it and want to clean up data. Deleting a project deletes the project's configurations and versions or projects it has generated.
 
 **Parent Topic:**[Using Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/use-process-mining.md)
 

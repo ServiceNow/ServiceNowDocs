@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/setup-event-monitoring-dashboard.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Monitor System Events and Scheduled Jobs dashboard, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -16,7 +16,7 @@ Use the System Event Processing dashboard to set the filters to display informat
 
 ## Before you begin
 
-Role required: events\_scheduler\_dashboard\_viewer and scheduler\_dasboard\_viewer
+Role required: admin
 
 ## Procedure
 
@@ -174,7 +174,7 @@ Review the details of an alert set every 15 minutes mostly on an instance level.
 
 ### Before you begin
 
-Role required: events\_scheduler\_dashboard\_viewer and scheduler\_dasboard\_viewer
+Role required: admin
 
 ### Procedure
 

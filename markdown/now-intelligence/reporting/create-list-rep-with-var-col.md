@@ -7,9 +7,9 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 6
-breadcrumb: [List reports, Report types, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+breadcrumb: [List reports, Core UI Report types, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Create a list report with variable columns
@@ -20,9 +20,15 @@ You can create a list report with variables columns based on a data source or ta
 
 Roles required: itil, report\_user, report\_group, report\_global, report\_admin, or admin. To create a meaningful report, you must have the right to access the data you want to report on.
 
+## About this task
+
+**Important:** This topic is about Core UI List reports. For information about variable columns in the newer Platform Analytics lists, see [Add variable or question columns to a Platform Analytics list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-list-dv-with-var-col.md).
+
 ## Procedure
 
-1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select **New**.
+1.  Open the Platform Analytics Data visualization library and select **Create data visualization**, then select **Core UI** in the modal that opens.
+
+    The **com.snc.par.coreui.report\_create.enabled** system property must be `true`.
 
 2.  On the **Data** tab, give the report a name that reflects the information being grouped.
 
@@ -163,5 +169,5 @@ Configure fields based on calculation of multiple inputs including arithmetic fu
     **Note:**
 
     -   The default number of rows in a list report exported to PDF is 1000. To configure this value, enter `sys_properties.list` in the Filter Navigator, and edit the property glide.pdf.max\_rows. For more information, see: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
-    -   Despite list filtering, pdf-format exported rows will count all record rows sequentially up to the export limit and show as blank for roles prevented by ACLs from viewing restricted data.
+    -   Despite list filtering, pdf-format exported rows will count all record rows sequentially up to the export limit. They show as blank for roles prevented by ACLs from viewing restricted data.
 

@@ -7,7 +7,7 @@ release: australia
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Escalations in On-Call Scheduling, Defining On-Call Scheduling escalation process, On-Call Scheduling, IT Service Management]
 ---
@@ -47,4 +47,6 @@ You can enable or disable logging using the **com.snc.on\_call\_rotation.log\_es
 [Designing an escalation process]()
 
 [Track the progress of an escalation]()
+
+[Delivery status tracking for On-Call Scheduling notifications]()
 

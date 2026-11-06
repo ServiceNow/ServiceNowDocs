@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/add-loss-scenario-recovery-task-bcp-uib-ws.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Structured workflows for BCPs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -30,21 +30,23 @@ If the plan was created from a plan template, loss scenarios may already be pre-
 
 3.  Select the **Loss scenarios** tab and select **Add**.
 
-    You can add a loss scenario to the business continuity plan. For example, you can add the "Loss of Datacenters" loss scenario to a business continuity plan.
+    You can add a loss scenario to the business continuity plan. In the example, you can select the Loss of Datacenters loss scenario and add it to the business continuity plan.
 
-    The loss scenario record is displayed as shown in the example.
+    \[Omitted image "loss-scenarios-list.png"\] Alt text: Add a loss scenario.
 
-    \[Omitted image "loss-scenarios-details-tab.png"\] Alt text: Loss scenario record with the tabs.
+    The loss of scenario record is displayed as shown in the example.
+
+    \[Omitted image "loss-scenarios-details-tab.png"\] Alt text: Loss of scenario record with the tabs.
 
 4.  Navigate to **Related asset dependencies** tab and select **Add**.
 
-    You can add the related asset dependencies to the loss scenario as shown in the example.
+    You can add the related asset dependencies to the loss of scenario as shown in the example.
 
-    \[Omitted image "loss-scenarios-add-rel-asset-dep.png"\] Alt text: Add the related asset dependencies to the loss scenario.
+    \[Omitted image "loss-scenarios-add-rel-asset-dep.png"\] Alt text: Add the related asset dependencies to the loss of scenario.
 
 5.  Select the dependencies from the list and select **Add**.
 
-    You can add the dependencies to the loss scenario as shown in the example.
+    You can add the dependencies to the loss of scenario as shown in the example.
 
     \[Omitted image "loss-scenarios-add-dep.png"\] Alt text: Add the dependencies that are related to the assets.
 
@@ -52,7 +54,7 @@ If the plan was created from a plan template, loss scenarios may already be pre-
 
     The related asset dependencies are listed on the **Related asset dependencies** tab.
 
-    Starting with the Australia release of the application, the Loss scenario record has the following related lists:
+    Starting with the Brazil release of the application, the Loss scenario record has the following related lists:
 
     -   Task template groups
     -   Task templates

@@ -7,7 +7,7 @@ release: australia
 product: Web Services
 classification: web-services
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Creating and adding a client extension point, Using client extension points in client-side UI scripting, Using extension points to extend application functionality, Additional integration resources, Web services, API implementation, API implementation and reference]
 ---
@@ -82,7 +82,7 @@ Allow access over AJAX/REST
 
 </td><td>
 
-Option for enabling access to the client extension point over AJAX or REST. To learn more about these development architectures and techniques, see [AJAX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/p_AJAX.md) and [REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
+Option for enabling access to the client extension point over AJAX or REST. To learn more about these development architectures and techniques, see [AJAX scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/p_AJAX.md) and [REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 </td></tr><tr><td>
 

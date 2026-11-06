@@ -7,7 +7,7 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Hardening settings, Platform Security]
 ---
@@ -18,6 +18,8 @@ The API and Web Service category ensures that applications have appropriate auth
 
 Specific controls in this category address input validation by service type such as XDS schema validation for SOAP web services or Denial of Service protection for graphQL APIs.
 
+-   **[Normalise REST API access policy key generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-normalise-rest-api-access-policy-key-generation.md)**  
+The **glide.rest.policy.normalize\_apply\_all\_fields** property controls how the platform builds lookup keys for REST API access policies when wildcard flags are set.
 -   **[Validate SOAP content type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-soap-content-type-checking.md)**  
 Use the **glide.soap.require\_content\_type\_xml** property to enable validation of a content type as text/xml and protect against invalid SOAP requests.
 -   **[Prevent OAuth Clients from Using Implicit Grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-prevent-oauth-clients-from-using-implicit-grant.md)**  
@@ -30,7 +32,7 @@ Learn how to establish secure basic authentication for inbound Amazon Simple Not
 Use the **glide.basicauth.required.soap** property to designate if incoming SOAP requests should require basic authorization.
 -   **[Require authorization for unload requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-require-authorization-for-unload-requests.md)**  
 Use the **glide.basicauth.required.unl** \(useUnloadFormat\) property to designate if incoming unload requests should require basic authentication.
--   **[Require authorization for csv requests \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-require-authorization-for-csv-requests.md)**  
+-   **[Require authorization for csv requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-require-authorization-for-csv-requests.md)**  
 Use the **glide.basicauth.required.csv** property to designate if incoming CSV \(Comma-Separated Values\) requests should require basic authentication.
 -   **[Require authorization for excel requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-excel-request-authorization.md)**  
 Use the **glide.basicauth.required.excel** property to designate if incoming Excel requests should require basic authentication.

@@ -7,7 +7,7 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Data input configuration fields, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -48,7 +48,7 @@ Execute on
 
 </td><td>
 
-Option to select whether to use a specific MID Server or a MID Server cluster. This field is required.
+Option to select whether to use a specific MID Server or a specific MID Server cluster. This field is required.
 
 </td></tr><tr><td>
 
@@ -168,7 +168,7 @@ Splunk Poll Credential Alias
 
 </td><td>
 
-The credential alias to be used. Specify a Splunk Poll credential alias by selecting the magnifying glass icon. Then either select an existing credential alias from the **Connection &amp; Credential Aliases** list, or select **New** to create a new record. The selected credential alias can hold one Basic Auth credential and one Token Auth credential.
+The credential alias to be used. Select the magnifying glass icon to specify a Splunk Poll credential alias. Select an existing credential alias from the **Connection &amp; Credential Aliases** list, or select **New** to create a new record. The selected credential alias can hold one Basic Auth credential and one Token Auth credential.
 
 For information about creating a credential alias, see [Credential aliases for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/discovery-credential-alias.md).
 

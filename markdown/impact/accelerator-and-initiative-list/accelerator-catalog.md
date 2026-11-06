@@ -7,8 +7,8 @@ release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 20
+last_updated: "2026-09-10"
+reading_time_minutes: 22
 breadcrumb: [Accelerators and Initiatives, Using Impact, Impact]
 ---
 
@@ -52,8 +52,7 @@ Accelerators that offer USPS specific versions are indicated as such in the sub-
 |Accelerator|Guided package|Guided +Platform Governance|Advanced package|Total package|Integrated Success|On-Demand|
 |:----------|:------------:|:-------------------------:|:--------------:|:-----------:|:----------------:|:-------:|
 |[Architecture Blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/architecture-blueprint.md)| |✓|✓|\[Omitted image "dark-green-checks.png"\] Alt text: Green check mark icon|\[Omitted image "dark-green-checks.png"\] Alt text: Green check mark icon| |
-|[Artificial Intelligence Readiness Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/artificial-intelligence-readiness-assessment.md)| |✓|✓|✓|✓| |
-|[CSDM Data Modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/csdm-data-modeling.md)| |✓|✓|✓|✓| |
+|[CSDM Data Modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/csdm-data-modeling.md)| | | |✓|✓| |
 |[CSDM Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/csdm-maturity-assessment.md)| |✓|✓|✓|✓| |
 |[Data Management and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/data-mgt-governance.md)| |✓|✓|✓|✓| |
 |[Design Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/design-review.md)​| |✓|✓|\[Omitted image "dark-green-checks.png"\] Alt text: Green check mark icon|\[Omitted image "dark-green-checks.png"\] Alt text: Green check mark icon| |
@@ -62,20 +61,13 @@ Accelerators that offer USPS specific versions are indicated as such in the sub-
 |[Multi-instance Topologies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/multi-instance-topologies.md)| |✓|✓|✓|✓| |
 |[Release and Deployment Advisory for Pro-code Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/release-deployment-advisory-pro-code-development.md)| |✓|✓|✓|✓| |
 |[Technical Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/technical-governance.md)| |✓|✓|✓|✓| |
-|[UX: Build a Foundation for Better Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/ux-why-it-matters-how-to-apply-it.md)|✓|✓|✓|✓|✓| |
-|[UX: Catalog Request Experience Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/ux-accelerator-service-request-experience-review.md)| |✓|✓|✓|✓| |
-|[UX: Design for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/ux-design-employee-center.md)| |✓|✓|✓|✓| |
-|[UX: Optimize Your Portal with Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/ux-optimize-your-portal-with-usage-insights.md)| |✓|✓|✓|✓| |
-|[UX: Portal Experience Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/ux-review-employee-center.md)| |✓|✓|✓|✓| |
-|[UX: Taxonomy Design or Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/ux_review_unified_taxonomy.md)| |✓|✓|✓|✓| |
-|[UX: Virtual Agent Experience Design or Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/ux-virtual-agent-experience-design-or-review.md)|✓|✓|✓|✓|✓| |
 
 **Note:** The [UX: Virtual Agent Experience Design or Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/ux-virtual-agent-experience-design-or-review.md) accelerator is available for Impact  Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages
 
 ## Optimization Accelerators
 
 |Accelerator|Guided package|Guided + Platform Optimization|Advanced package|Total package|Integrated Success|On-Demand|
-|:---------:|:------------:|:----------------------------:|:--------------:|:-----------:|:----------------:|:-------:|
+|:----------|:------------:|:----------------------------:|:--------------:|:-----------:|:----------------:|:-------:|
 |[Optimization Capability Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/optimization-capability-configuration.md)| |✓| |✓|✓| |
 |[Optimization Capability Design](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/optimization-capability-design.md)| |✓| |✓|✓| |
 
@@ -95,23 +87,24 @@ Accelerators that offer USPS specific versions are indicated as such in the sub-
 |[CoEI Influencing Funding Strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/coei-influencing-factor-assessment-part-2.md)| |✓|✓|✓|✓| |
 |[CSM - Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/csm-product-maturity-assessment.md)| |✓|✓|✓|✓| |
 |[Develop Partner Strategy​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/develop-partner-strategy.md)| |✓|✓|\[Omitted image "dark-green-checks.png"\] Alt text: Green check mark icon|\[Omitted image "dark-green-checks.png"\] Alt text: Green check mark icon| |
-|[Foundations of AI Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/foundations-of-ai-governance.md)| |✓|✓|✓|✓| |
+|[Foundations of AI Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/foundations-of-ai-governance1.md)| |✓|✓|✓|✓| |
 |[HRSD Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/hrsd-maturity-assessment.md)| |✓|✓|✓|✓| |
 |[IRM Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/IRM-maturity-assessment.md)| |✓|✓|✓|✓| |
 |[ITOM Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/ITOM-maturity-assessment.md)| |✓|✓|✓|✓| |
-|[ITSM Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/itsm-maturity-assessment.md)| |✓|✓|✓|✓| |
+|[ITSM Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/itsm-maturity-assessment.md)| |✓|✓|✓|✓|✓|
+|[Knowledge Management Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/knowledge-management-maturity-assessment.md)| |✓|✓|✓|✓| |
 |[LSD Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/lsd-maturity-assessment.md)| |✓|✓|✓|✓| |
 |[OCM: Preparing for Change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/ocm-preparing-for-change.md)| |✓|✓|✓|✓| |
 |[OCM: Managing Change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/ocm-managing-change.md)| |✓|✓|✓|✓| |
 |[OCM: Reinforcing and Sustaining Change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/ocm-reinforcing-sustaining-change.md)| |✓|✓|✓|✓| |
-|[Portfolio Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/portfolio-governance.md)​| |✓|✓|✓|✓| |
+|[Portfolio Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/portfolio-governance.md)​| |✓|✓|✓|✓|✓|
 |[PPM Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/ppm-maturity-assessment.md)| |✓|✓|✓|✓| |
-|[ServiceNow Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/servicenow-governance.md)| |✓| |✓| |\[Omitted image "bus-strategic.svg"\] Alt text:|
+|[ServiceNow Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/servicenow-governance.md)| |✓| |✓| |✓|
 |[SAM Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/sw-asset-mgmt-maturity-assessment.md)| |✓|✓|✓|✓| |
-|[Staffing and Roles Review​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/staffing-and-roles-review.md)| |✓|✓|✓|✓|\[Omitted image "bus-strategic.svg"\] Alt text:|
+|[Staffing and Roles Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/staffing-and-roles-review-brazil.md)| |✓|✓|✓|✓|✓|
 |[Stakeholder Path to Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/stakeholder-path-to-value.md)| |✓|✓|✓|✓| |
-|[Strategy Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/strategy-governance.md)​| |✓|✓|✓|✓| |
-|[Success Readiness Assessment \(SRA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/success-readiness-assessment.md)| |✓|✓|✓|✓| |
+|[Strategy Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/strategy-governance.md)​| |✓|✓|✓|✓|✓|
+|[Success Foundation Review \(SFR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/success-foundation-review.md)| |✓|✓|✓|✓| |
 |[Vision and Strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/vision-and-strategy.md)| |✓|✓|✓|✓| |
 
 **Note:** The [Stakeholder Path to Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/stakeholder-path-to-value.md) accelerator is also available for Guided+Platform Governance customers.
@@ -125,26 +118,34 @@ Accelerators that offer USPS or SPP-AU specific versions are indicated as such i
 |Accelerator|Guided package|Guided+Strategic Value|Guided+Platform Governance|Advanced package|Total package|Integrated Success|On-Demand|
 |:---------:|:------------:|:--------------------:|:------------------------:|:--------------:|:-----------:|:----------------:|:-------:|
 |[Access to Experts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/access-experts-acc.md)| |✓|✓|✓|✓|✓| |
+|[Artificial Intelligence Readiness Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/artificial-intelligence-readiness-assessment-brazil.md)|✓|✓|✓|✓|✓| | |
 |[Extend Your AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/extend-your-ai-search.md)|✓|✓|✓|✓|✓|✓| |
 |[Extend Your Employee Center to Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/extend-employee-center-pro.md)|✓|✓|✓|✓|✓|✓| |
 |[Health Assessment – Guided](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/health-assessment-guided.md)|✓|✓|✓| | | | |
+|[Health Findings Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/health-findings-review.md)|✓|✓|✓|✓|✓| | |
 |[Introduction to CMDB: Ingestion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/introduction-to-cmdb-ingestion.md)|✓|✓|✓|✓|✓|✓| |
 |[Introduction to Instance Observer-Guided](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/intro-instance-observer.md)|✓|✓|✓| | | | |
 |[Introduction to Instance Readiness Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/introduction-instance-readiness-assessment.md)|✓|✓|✓| | | | |
+|[Introduction to ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/introduction-to-servicenow-studio.md)|✓|✓|✓|✓|✓|✓| |
 |[Introduction to ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/introduction-to-servicenow-vault.md)|✓|✓|✓|✓|✓|✓| |
+|[Jumpstart Your AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-ai-agent-advisor.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart your AI Control Tower: Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-your-ai-control-tower.md)|✓|✓|✓|✓|✓|✓| |
+|[Jumpstart Your AI Control Tower: Observe Your AI Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-ai-control-tower-observe-your-ai-value.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your AI Control Tower: AI Lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-ai-control-tower-ai-lifecycle.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-your-ai-data-explorer.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-your-ai-search.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-ai-agent-studio.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your AI Agents for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-ai-agents-csm.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your AI Agents for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-your-ai-agents-for-itsm.md)|✓|✓|✓|✓|✓|✓| |
-|[Jumpstart Your App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-your-app-engine.md)|✓|✓|✓|✓|✓|✓| |
+|[Jumpstart Your App Deployment Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-your-app-deployment-governance.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Automated Testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-your-automated-testing.md)|✓|✓|✓|✓|✓|✓| |
+|[Jumpstart Your Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-your-build-agent.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-cmdb.md)|✓|✓|✓|✓|✓|✓| |
+|[Jumpstart Your CSDM for Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-csdm-for-enterprise-architecture.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your CSDM: Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-csdm.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your CSDM for Service Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-your-csdm-for-service-operations.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/csm-configurable-workspace.md)|✓|✓|✓|✓|✓|✓| |
+|[Jumpstart Your Data Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-your-data-encryption.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Database Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/data-management.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Data Privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-your-data-privacy.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-your-digital-product-release.md)|✓|✓|✓|✓|✓|✓| |
@@ -157,52 +158,62 @@ Accelerators that offer USPS or SPP-AU specific versions are indicated as such i
 |[Jumpstart Your HR Case and Knowledge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-hr-case-knowledge.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Impact Platform Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-your-impact-platform-health.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-your-integration-hub.md)|✓|✓|✓|✓|✓|✓| |
+|[Jumpstart Your IRM: Entity Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-your-irm-entity-framework.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your ITOM Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-your-itom-discovery.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-knowledge-management.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Workflow Automation: Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-legacy-workflow-migration.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-your-major-incident-management.md)|✓|✓|✓|✓|✓|✓| |
-|[Jumpstart Your Migration of Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-migration-platform-analytics.md)|✓|✓|✓|✓|✓|✓| |
+|[Jumpstart Your Migration of Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-migration-platform-analytics1.md)|✓|✓|✓|✓|✓|✓| |
+|[Jumpstart Your Migration to ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-migration-to-otto-for-virtual-agent.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Modern Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-your-modern-change-management.md)|✓|✓|✓|✓|✓|✓| |
-|[Jumpstart Your Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-now-assist-creator.md)|✓|✓|✓|✓|✓|✓| |
-|[Jumpstart Your Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-your-now-assist-document-intelligence.md)|✓|✓|✓|✓|✓|✓| |
-|[Jumpstart Your Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-now-assist-skill-kit.md)|✓|✓|✓|✓|✓|✓| |
+|[Jumpstart Your ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-now-assist-creator.md)|✓|✓|✓|✓|✓|✓| |
+|[Jumpstart Your ServiceNow Otto for Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-your-now-assist-document-intelligence.md)|✓|✓|✓|✓|✓|✓| |
+|[Jumpstart Your ServiceNow AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-now-assist-skill-kit.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Now Mobile for Employees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-your-now-mobile-for-employees.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-platform-analytics.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-predictive-intelligence.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-process-mining.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-service-mapping.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-software-asset-management.md)|✓|✓|✓|✓|✓|✓| |
-|[Jumpstart Your Strategic Portfolio Management - Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-your-SPM-project-workspace.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart your Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-your-service-operations-workspace.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your ServiceNow AI Journey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-snow-ai-journey.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Strategic Portfolio Management - Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-your-spm-collaborative-work-management.md)|✓|✓|✓|✓|✓|✓| |
+|[Jumpstart Your Strategic Portfolio Management – Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-spm-demand-management.md)|✓|✓|✓|✓|✓|✓| |
+|[Jumpstart Your Strategic Portfolio Management - Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-your-SPM-project-workspace.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Strategic Portfolio Management – Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-spm-planning-workspace.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Strategic Portfolio Management – Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-strategic-portfolio-management-resource-management-workspace.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/Jumpstart-your-subscription-management.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Success Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-your-success-dashboard.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Task Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-task-intelligence.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-your-upgrade.md)​|✓|✓|✓|✓|✓|✓| |
-|Jumpstart Your Virtual Agent​|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-your-walkup-experience.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Workflow Automation: Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-your-workflow-automation-playbooks.md)|✓|✓|✓|✓|✓|✓| |
+|[Jumpstart Your Zero Copy Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-zero-copy-connectors.md)|✓|✓|✓|✓|✓|✓| |
 |[TuneUp Your AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/tuneup-ai-search.md)|✓|✓|✓|✓|✓|✓| |
 |[TuneUp Your CMDB​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/tuneup-your-cmdb.md)|✓|✓|✓|✓|✓|✓| |
 |[TuneUp Your Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/tuneup-employee-center.md)| |✓|✓|✓|✓|✓| |
 |[TuneUp Your Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/tuneup-hw-asset-management.md)|✓|✓|✓|✓|✓|✓| |
-|[TuneUp Your IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/tuneup-your-it-asset-management.md)|✓|✓|✓|✓|✓|✓| |
+|[TuneUp Your ITSM Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/tuneup-itsm-asset-management.md)|✓|✓|✓|✓|✓|✓| |
 |[TuneUp Your ITOM Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/tuneup-itom-discovery.md)|✓|✓|✓|✓|✓|✓| |
-|[TuneUp Your Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/tuneup-now-assist-virtual-agent.md)|✓|✓|✓|✓|✓|✓| |
+|[TuneUp Your ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/tuneup-now-assist-virtual-agent.md)|✓|✓|✓|✓|✓|✓| |
 |[TuneUp Your Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/tuneup-platform-analytics.md)|✓|✓|✓|✓|✓|✓| |
 |[TuneUp Your Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/tuneup-sw-asset-mgmt.md)|✓|✓|✓|✓|✓|✓| |
-|[TuneUp Your Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/tuneup-your-security.md)​|✓|✓|✓|✓|✓|✓| |
+|​[TuneUp Your Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/tuneup-your-security1.md)|✓|✓|✓|✓|✓|✓| |
 |[TuneUp Your Virtual Agent - Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/tuneup-virtual-agent-assessment.md)|✓|✓|✓|✓|✓|✓| |
 |[TuneUp Your Virtual Agent – NLU \(Natural Language Understanding\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/tuneup-virtual-agent-nlu.md)|✓|✓|✓|✓|✓|✓| |
 |[TuneUp Your Virtual Agent – Performance Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/tuneup-virtual-agent-performance-monitoring.md)|✓|✓|✓|✓|✓|✓| |
+|[UX: Build a Foundation for Better Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/ux-why-it-matters-how-to-apply-it.md)|✓| |✓|✓|✓|✓| |
+|[UX: Catalog Request Experience Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/ux-accelerator-service-request-experience-review.md)| | |✓|✓|✓|✓| |
+|[UX: Design for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/ux-design-employee-center.md)| | |✓|✓|✓|✓| |
+|[UX: Optimize Your Portal with Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/ux-optimize-your-portal-with-usage-insights.md)| | |✓|✓|✓|✓| |
+|[UX: Portal Experience Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/ux-review-employee-center.md)| | |✓|✓|✓|✓| |
+|[UX: Taxonomy Design or Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/ux_review_unified_taxonomy.md)| | |✓|✓|✓|✓| |
+|[UX: Virtual Agent Experience Design or Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/ux-virtual-agent-experience-design-or-review.md)|✓| |✓|✓|✓|✓| |
 
 **Related topics**  
 
 
-[Latest Accelerators by Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/new-accelerators-australia-release.md)
+[Latest Accelerators by release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/new-accelerators-australia-release.md)
 
 [Architecture Accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/architecture-accelerators.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Service instances \(Application services\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,7 +22,7 @@ A service instance is a set of interconnected applications and hosts that are co
 
 ## Create an application service
 
-Using the [createOrUpdateService - POST](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/application-service-api.md) REST API to create an service instance suits your organization if the ServiceNow CMDB already contains the CIs making up the service. Typically, it is the case when you have manually added CIs directly into the CMDB, or used the Discovery application to discover CIs and store information about them in the CMDB. You can also use this API to create an service instance containing CIs discovered using non-ServiceNow applications.
+Using the createOrUpdateService - POST REST API to create an service instance suits your organization if the ServiceNow CMDB already contains the CIs making up the service. Typically, it is the case when you have manually added CIs directly into the CMDB, or used the Discovery application to discover CIs and store information about them in the CMDB. You can also use this API to create an service instance containing CIs discovered using non-ServiceNow applications.
 
 By default, when an service instance is created, all CI connections are of the **Depends on::Used by** relationship type. You can modify this default type by changing the value of the [sa.it\_service.manual\_ci\_rel\_type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/components-installed-app-services.md) property.
 
@@ -38,7 +38,7 @@ You can also manually create an service instance using the user interface as des
 
 ## Retrieve content from an application service
 
-Use the [getContent - GET](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/application-service-api.md) REST API to retrieve a list of CIs and the relationships between them, for an application service that was created manually.
+Use the getContent - GET REST API to retrieve a list of CIs and the relationships between them, for an application service that was created manually.
 
 ## Additional APIs
 
@@ -62,5 +62,5 @@ The following JavaScript APIs are also available:
 **Related topics**  
 
 
-[Application Service API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/application-service-api.md)
+[bundle-crapiref.application-service-api]
 

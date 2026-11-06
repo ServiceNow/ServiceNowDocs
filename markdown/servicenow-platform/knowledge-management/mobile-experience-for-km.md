@@ -7,7 +7,7 @@ release: australia
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Access knowledge articles from anywhere using the Information applet on the Now 
 
 To access articles from the Information applet on the Now Mobile app, you must first download the ServiceNow mobile application on an iOS platform from the Apple App Store or on an Android platform from the Google Play Store.
 
-Make sure your administrator has activated the Now Mobile app. For more information, see [Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/mobile-employee-experience.md).
+Make sure your administrator has activated the Now Mobile app. For more information, see Now Mobile app.
 
 After you access an article, you can view the author, published date, number of views, and the overall rating details of the article. In addition, you can respond to and evaluate articles and view related items, related articles, and attachments.
 
@@ -30,7 +30,7 @@ The Information applet is available on the Now Mobile app. The ServiceNow Mobile
 
 -   **[View the most popular or recently viewed articles in the Now Mobile Information applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/access-articles-now-mobile.md)**  
 The Information applet on the Now Mobile app enables you to access knowledge articles from a mobile device.
--   **[Browse articles in the Now Mobile Information applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/browse-articles-now-mobile.md)**  
+-   **[Browse articles in the Now Mobile Information applet]()**  
 You can browse articles within a category in the Now Mobile Information applet to see articles related to a particular subject or grouping.
 -   **[Search for an article in the Now Mobile Information applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/search-article-now-mobile.md)**  
 You can search for an article in the Now Mobile Information applet.
@@ -44,9 +44,9 @@ You can contribute to feedback on knowledge articles by rating an article, marki
 **Related topics**  
 
 
-[Configure knowledge bases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/configure-kbs.md)
+[bundle-emplsm.configure-kbs]
 
-[Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/mobile-employee-experience.md)
+[bundle-emplsm.mobile-employee-experience]
 
 [View the most popular or recently viewed articles in the Now Mobile Information applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/access-articles-now-mobile.md)
 

@@ -1,20 +1,20 @@
 ---
 title: Configure team filters
-description: Configure team filters that you want to display on the Team members tab in Your team menu. For example, a team filter can be Employee Type, which in turn contains other filters such as position and location type.
+description: Configure team filters that you want to display on the Team members tab in Your team menu in Employee Center. For example, a team filter can be Employee Type, which in turn contains other filters such as position and location type.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/configure-team-filter.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Configure, Manager Hub, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure Manager Hub, Manager Hub, HR Service Delivery, Employee Service Management]
 ---
 
 # Configure team filters
 
-Configure team filters that you want to display on the Team members tab in Your team menu. For example, a team filter can be Employee Type, which in turn contains other filters such as position and location type.
+Configure team filters that you want to display on the Team members tab in Your team menu in Employee Center. For example, a team filter can be Employee Type, which in turn contains other filters such as position and location type.
 
 ## Before you begin
 
@@ -31,7 +31,7 @@ Role required: sn\_mh.admin
     |Field|Description|
     |-----|-----------|
     |Filter title|Unique title for the filter group record. For example, Employee type.|
-    |Order|Order in which you want the group filter to appear on the Team members tab in Your team menu.|
+    |Order|Order in which you want the group filter to appear on the Team members tab in Your team menu in Employee Center.|
     |Group all filters|Option to group filter. For example, you can group filters such as position and location type under one filter called Employee type.|
     |Active|Option to activate or deactivate the filter group record. When you deactivate a filter group record, the record does not appear on the user interface.|
 
@@ -100,7 +100,7 @@ Order
 
 </td><td>
 
-Order in which you want the filter to show up on the Team members tab in Your team menu.
+Order in which you want the filter to show up on the Team members tab in Your team menu in Employee Center.
 
 </td></tr><tr><td>
 
@@ -108,7 +108,7 @@ Show select all option
 
 </td><td>
 
-Option to display **Select all in \{\}** in the filter on the Team members tab in Your team menu.Assume that there are 10 cities in a filter and if you want to provide an option to the user to select all the cities with a single link, then enable **Show select all option**.
+Option to display **Select all in \{\}** in the filter on the Team members tab in Your team menu in Employee Center.Assume that there are 10 cities in a filter and if you want to provide an option to the user to select all the cities with a single link, then enable **Show select all option**.
 
 </td></tr><tr><td>
 
@@ -116,9 +116,9 @@ Hide if all have same value
 
 </td><td>
 
-Option to hide the same filter values on the Team members tab in Your team menu.Assume that the **Hide if all have same value** option is selected and the **Show empty filter option** option is deselected; all the employees are residing in the same city, for example, London.
+Option to hide the same filter values on the Team members tab in Your team menu in Employee Center.Assume that the **Hide if all have same value** option is selected and the **Show empty filter option** option is deselected; all the employees are residing in the same city, for example, London.
 
- In this case, the London filter will not appear on the Team members tab in Your team menu.
+ In this case, the London filter will not appear on the Team members tab in Your team menu in Employee Center.
 
 </td></tr><tr><td>
 
@@ -128,7 +128,7 @@ Show empty filter option
 
 Option to display **No data** as a filter value so that managers can filter their employee list by users who do not have any data available. Assume that the **Hide if all have same value** and **Show empty filter option** options are selected; all the employees are residing in the same city, for example, London.
 
- In this case, both London and No data values appear on the Location filter on the Team members tab in Your team menu.
+ In this case, both London and No data values appear on the Location filter on the Team members tab in Your team menu in Employee Center.
 
  **Note:** **Show empty filter option** should not be selected if you only want managers to filter by data values that are available for their employees. For example, if this option is not selected and most employees are residing in London, but some do not have a location set in their user record then the manager will only have the option London to select from.
 
@@ -145,8 +145,6 @@ Option to display **No data** as a filter value so that managers can filter thei
 [Activate a scheduled job]()
 
 [Configure important dates]()
-
-[Configure manager insights for ServiceNow Otto for HRSD]()
 
 [Configure team requests]()
 

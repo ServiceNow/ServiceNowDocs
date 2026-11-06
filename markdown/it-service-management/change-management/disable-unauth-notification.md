@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Unauthorized change request, Create a change request, Use, Change Management, IT Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: admin or change\_manager
 
 ## About this task
 
-If the updated CI is not part of an open change request, then the system triggers a change request, and sends a notification. The Change Management application uses this event to create an unauthorized change. If there are many CI changes with no open change request created to include the CIs, then the system creates unauthorized change requests on these CIs. When this event occurs, numerous unauthorized change requests are triggered, and notifications are sent to the members of the group. To avoid this situation, you can disable the **Enable event processing** property before you perform the updates. For more information on additional unauthorized change properties, see [Unauthorized change properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/unauth-change-properties.md).
+If the updated CI is not part of an open change request, then the system triggers a change request, and sends a notification. The Change Management application uses this event to create an unauthorized change. If there are many CI changes with no open change request created to include the CIs, then the system creates unauthorized change requests on these CIs. When this event occurs, numerous unauthorized change requests are triggered, and notifications are sent to the members of the group. To avoid this situation, you can disable the**** property before you perform the updates. For more information on additional unauthorized change properties, see [Unauthorized change properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/unauth-change-properties.md).
 
 **Note:** Enable the property when you finish your updates. If this property is disabled, unauthorized change requests are not created.
 
@@ -32,7 +32,7 @@ If the updated CI is not part of an open change request, then the system trigger
 
 2.  Clear the **Enable event processing** property check box.
 
-3.  Click **Update**.
+3.  Select **Update**.
 
 
 ## Result

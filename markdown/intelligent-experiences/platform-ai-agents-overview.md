@@ -6,14 +6,18 @@ canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experienc
 release: australia
 topic_type: concept
 last_updated: "2026-08-04"
-reading_time_minutes: 9
-breadcrumb: [ServiceNow AI Platform, AI agents library, AI assets, Enable AI experiences]
+reading_time_minutes: 5
+breadcrumb: [ServiceNow AI Platform, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # ServiceNow AI Platform AI agents
 
 The following AI agents are available for ServiceNow AI Platform.
 
+-   **[Access Analysis AI Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/access-analysis-agent.md)**  
+The Access Analysis Agent lets you ask whether a user, group, or role can access something on your ServiceNow instance. It uses guided, conversational workflows in the ServiceNow Otto® panel.
+-   **[ACL Explainer AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/access-acl-explainer-ai-agent.md)**  
+The agent explains how access control lists \(ACLs\) are configured. It reads one or more ACLs that govern a table or field for an operation, and describes their roles, conditions, scripts, and admin overrides. The agent is read-only: it doesn't evaluate access, recommend changes, or modify ACLs.
 -   **[AI Analytics Q and A AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/plat-ai-ai-analytics-q-and-a-ai-agent.md)**  
 This AI agent answers natural language questions about AI Analytics. It covers KPI definitions, dashboard widgets, source tables, data flows, deflection log states and scenarios, the deflection and metric frameworks, and ServiceNow platform scripts.
 -   **[AICT security analyzer AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/plat-ai-aict-security-analyzer-agent-ai-agent.md)**  
@@ -30,8 +34,8 @@ This AI agent ranks AI insight outcomes by relevance to each user persona based 
 This AI agent handles all queries related to approval records for the current user.
 -   **[Decomposition AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/plat-ai-decomposition-agent-ai-agent.md)**  
 This AI agent takes resolution steps as input, and then analyzes and breaks down each resolution step into a clear, structured set of smaller, actionable substeps. It then creates records based on user preference. This enables precise execution, improves task clarity, and supports automation and auditability of resolution workflows.
--   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/plat-ai-edit-model-provider-agent-ai-agent.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/plat-ai-edit-model-provider-agent-ai-agent.md)**  
-
+-   **[Domain Separation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/domain-sep-aia.md)**  
+The Domain Visibility AI agent enables Domain Admins to manage user domain visibility using guided, conversational workflows in the ServiceNow Otto® panel.
 -   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/plat-ai-email-action-and-information-ai-agent.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/plat-ai-email-action-and-information-ai-agent.md)**  
 
 -   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/plat-ai-email-on-existing-parent-lead-ai-agent.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/plat-ai-email-on-existing-parent-lead-ai-agent.md)**  
@@ -62,8 +66,8 @@ This AI agent can predict fields for an incoming record.
 This AI agent can fetch, update, create a record, link a knowledge base \(KB\) article, and copy an attachment to a record with details provided by the user.
 -   **[Request status AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/plat-request-status-agent-ai-agent.md)**  
 This AI agent answers inquiries about existing tickets that were created by or are currently opened by the logged-in user. It should be triggered only when the user explicitly references an existing ticket \(for example, by asking for ticket status, updates, comments, or history\).
--   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/plat-va-search-qa-agent-ai-agent.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/plat-va-search-qa-agent-ai-agent.md)**  
-
+-   **[Search Q&amp;A AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/plat-va-search-qa-agent-ai-agent.md)**  
+This agent searches available resources to answer user queries, serving as the fallback agent when other agents cannot handle a request.
 -   **[ServiceNow record navigator AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/plat-ai-servicenow-record-navigator-ai-agent.md)**  
 This AI agent surfaces ServiceNow records as clickable navigation views. It handles retrieval-style queries \("show me open P1 incidents"\) and navigation-style commands \("take me to changes assigned to David"\).
 -   **[Smart documents AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/plat-docmgmt-smart-documents-agent-ai-agent.md)**  
@@ -82,7 +86,7 @@ This AI agent receives structured plan data from the orchestrator, constructs a 
 This AI agent executes automated actions across any web page, enabling form filling, clicking, data extraction, and navigation tasks.
 -   **[Web research and recommendation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/plat-ai-web-research-and-recommendation-ai-agent.md)**  
 This AI agent resolves issues by analyzing the problem and generating resolution steps using web search tools.
--   **[Work allocator AI Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/plat-ai-work-allocator-ai-agent.md)**  
+-   **[Work allocator AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/plat-ai-work-allocator-ai-agent.md)**  
 This AI agent automatically fetches backlog tickets, evaluates agent workloads and performance metrics, and assigns tickets to agents in a way that optimizes distribution and operational efficiency.
 -   **[Content Understanding AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/platform-content-understanding-ai-agents-overview.md)**  
 The following AI agents are available for Content Understanding.

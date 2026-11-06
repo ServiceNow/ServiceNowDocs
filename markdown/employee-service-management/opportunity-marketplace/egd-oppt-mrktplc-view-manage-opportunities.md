@@ -7,7 +7,7 @@ release: australia
 product: Opportunity Marketplace
 classification: opportunity-marketplace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Opportunity Marketplace, Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
@@ -57,7 +57,7 @@ The title of the opportunity that applicants and opportunity owners see when loo
 There are 3 opportunity types that come with the base system.-   **Gig**
 -   **Project**
 -   **Volunteer**
- As an admin, you can add custom opportunity types, see[Creating custom opportunity types in Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-custom-oppt-type.md).
+ As an admin, you can add custom opportunity types, see .
 
 </td></tr><tr><td>
 

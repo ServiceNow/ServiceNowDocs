@@ -7,7 +7,7 @@ release: australia
 product: Communities
 classification: communities
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Gamification user interface components, Gamification, Using communities, Communities, Customer Service Management]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [Gamification user interface components, Gamification, Using communi
 # Leaderboard page
 
 The leaderboard page displays the top contributors in the community, in a forum, or in a topic.
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Users appear on the leaderboard based on the number of earned points and are ranked in descending order. You can filter the leaderboard to display information for the current month or all-time and by a specific forum or topic.
 

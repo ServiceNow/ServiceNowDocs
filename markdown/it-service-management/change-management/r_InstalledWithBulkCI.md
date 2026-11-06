@@ -1,13 +1,13 @@
 ---
 title: Installed with Change Management - Mass Update CI
-description: Several types of components are installed with the Change Management - Mass update CI.Change Management - Mass Update CI updates the following table.
+description: Several types of components are installed with the Change Management - Mass update CI.The Change Management - Mass Update CI plugin updates the following table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/r\_InstalledWithBulkCI.html
 release: australia
 product: Change Management
 classification: change-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Activate Change Management - Mass Update CI, Change Management plugins, Configure, Change Management, IT Service Management]
 ---
@@ -20,7 +20,7 @@ Several types of components are installed with the Change Management - Mass upda
 
 ## Table modified with Change Management - Mass Update CI
 
-Change Management - Mass Update CI updates the following table.
+The Change Management - Mass Update CI plugin updates the following table.
 
 <table id="table_sns_5cp_w5"><thead><tr><th>
 

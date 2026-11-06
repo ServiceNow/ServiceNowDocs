@@ -7,9 +7,9 @@ release: australia
 product: ReleaseOps
 classification: releaseops
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-17"
 reading_time_minutes: 1
-breadcrumb: [Reference, ReleaseOps, Deploying applications, Building applications]
+breadcrumb: [Reference, ReleaseOps, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Release form
@@ -94,7 +94,7 @@ Pipeline
 
 </td><td>
 
-Indicates the pipeline that this release will run on.
+Indicates the pipeline that the release will run on. This field is editable only while the release is in the Draft state. Once the release leaves Draft, the Pipeline field becomes read-only.
 
 </td></tr><tr><td>
 

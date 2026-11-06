@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/cmdb-cmdb-ci-creator-ai-agent.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-14"
-reading_time_minutes: 2
-breadcrumb: [CMDB AI agents, CMDB, AI agents library, AI assets, Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [CMDB AI agents, CMDB, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # CMDB CI creator AI agent
@@ -73,7 +73,7 @@ Allowed user roles The specific user roles that can access this AI agent.
 
 </td><td>
 
-sn\_cmdb\_editor, snc\_internal
+sn\_cmdb\_editor
 
 </td></tr><tr><td>
 

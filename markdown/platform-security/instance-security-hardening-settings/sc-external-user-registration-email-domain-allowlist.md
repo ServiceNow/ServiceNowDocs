@@ -1,5 +1,5 @@
 ---
-title: Restrict email domains for external user registration \[Updated in Security Center 1.3, 1.5, and 2.0\]
+title: Restrict email domains for external user registration
 description: Use the sn\_ext\_usr\_reg.allowed\_email\_domains property to list acceptable external email domains.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/instance-security-hardening-settings/sc-external-user-registration-email-domain-allowlist.html
@@ -7,12 +7,12 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
 
-# Restrict email domains for external user registration \[Updated in Security Center 1.3, 1.5, and 2.0\]
+# Restrict email domains for external user registration
 
 Use the **sn\_ext\_usr\_reg.allowed\_email\_domains** property to list acceptable external email domains.
 
@@ -90,7 +90,7 @@ Functional impact
 
 </td><td>
 
-Email addresses from domains that are not included in the comma separated list defined in the property aren't allowed to self-register to a ServiceNow instance.
+Email addresses from domains that aren't included in the comma separated list defined in the property aren't allowed to self-register to a ServiceNow instance.
 
 </td></tr><tr><td>
 

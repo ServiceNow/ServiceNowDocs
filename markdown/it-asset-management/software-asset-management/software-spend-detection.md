@@ -1,6 +1,6 @@
 ---
 title: Software Spend Detection
-description: Use the ServiceNow Software Spend Detection feature to track, analyze, and optimize software spending from imported financial data.
+description: Use the Software Spend Detection feature to track, analyze, and optimize software spending from imported financial data.
 locale: en-us
 canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/software-spend-detection.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Software Asset Management, IT Asset Management, Asset Management]
 
 # Software Spend Detection
 
-Use the ServiceNow Software Spend Detection feature to track, analyze, and optimize software spending from imported financial data.
+Use the Software Spend Detection feature to track, analyze, and optimize software spending from imported financial data.
 
 With Software Spend Detection, you can:
 
@@ -23,7 +23,7 @@ With Software Spend Detection, you can:
 -   Reinforce company software purchasing policies by viewing all software purchased in each department.
 -   Start managing any unmanaged software by creating software models and entitlements with Software Asset Management.
 
-**Important:** Starting with Australia Patch 6, the Software Spend Detection feature is no longer available in the Core UI. Existing imports and spend transactions that were created using the Core UI are preserved and available in the Software Asset Workspace. The Software Spend Detection Overview dashboard is also deprecated.
+**Important:** Starting with Brazil release, the Software Spend Detection feature is no longer available in the Core UI. Existing imports and spend transactions that were created using the Core UI are preserved and available in the Software Asset Workspace. The Software Spend Detection Overview dashboard is also deprecated.
 
 The Software Spend Detection feature is available in the Software Asset Workspace under **License operations**.
 
@@ -43,4 +43,9 @@ Create spend transactions for one-off software purchases or spend records that a
 User roles and tables are installed with Software Spend Detection. Demo data is available for Software Spend Detection.
 
 **Parent Topic:**[Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/c_SoftwareAssetMgmt.md)
+
+**Related topics**  
+
+
+[License operations view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/operations-workspace.md)
 

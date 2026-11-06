@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Testing support, Running Playbook Experience, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -42,7 +42,7 @@ If you get the error "The test timed out because the max execution time \(600 se
 
 6.  When the tests have finished running, select **Go to Result** to view the test results.
 
-    For more information, see [Run an automated test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/atf-run-test.md).
+    For more information, see .
 
 
 **Parent Topic:**[Testing support for playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/testing-support-playbooks.md)

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/create-date-filter-workspace.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Filters, Platform Analytics experience, Platform Analytics]
 ---
 
@@ -57,9 +57,13 @@ For time series data visualizations showing table or indicator data, the data ag
 
 6.  In **Default values**, specify a relative range to filter on automatically when the dashboard is opened.
 
-7.  To let users clear the values they selected for the filter, enable **Allow filter clearance**.
+7.  To let users clear the values they selected for the filter, enable **Allow user to clear filter**.
 
-8.  Select **Save**.
+8.  Specify a **Filter Custom ID**, a name for the filter that replaces its sys\_id in URL filter parameters.
+
+    For more information, see [URL filter parameters for dashboard filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/url-filter-parameters.md).
+
+9.  Select **Save**.
 
 
 ## Result

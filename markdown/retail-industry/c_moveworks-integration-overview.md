@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2025-07-01"
 reading_time_minutes: 1
-breadcrumb: [Configure, Retail]
+breadcrumb: [ServiceNow Otto for Break-Fix and Store Audit overview, ServiceNow Otto for Retail Service Management \(RSM\), Retail]
 ---
 
 # ServiceNow Otto integration overview
@@ -38,4 +38,6 @@ Install these plugins from the [ServiceNow Otto plugin marketplace](https://mark
 |`Retail_Get_Breakfix_Case_Details`|Case detail retrieval|
 |`Retail_Update_Breakfix_Case_Details`|Case field updates|
 |`Retail_Notify_Breakfix_Case_Lifecycle`|Handles assigned/resolved/awaiting-info events|
+
+**Parent Topic:**[ServiceNow Otto for Break-Fix and Store Audit overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/moveworks-breakfix-storeaudit-overview.md)
 

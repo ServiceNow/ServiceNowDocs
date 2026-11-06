@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Configure alert collection from SCOM, Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -37,7 +37,10 @@ The MID Server that retrieves metrics is configured with the Metric Intelligence
 
 If "Database login with Windows authentication" is selected, the MID Server service must run with a user having read access to the SCOM database \(OperationsManagerDW\).
 
-To configure this: In the local services, right-click the MID Server service and select Properties. In the Log On tab, ensure that "This account" is selected with the details of the Windows domain user that has read access to the SCOM database.
+To configure this:
+
+1.  In the local services, right-click the MID Server service and select Properties.
+2.  In the Log On tab, verify that "This account" is selected with the details of the Windows domain user that has read access to the SCOM database.
 
 If "Database login with Windows authentication" is NOT selected, you need a Windows credential in the credential store that has read access to the OperationsManagerDW database.
 
@@ -184,7 +187,7 @@ SCOM 2025
 
             If you receive an event whose date is in a different format, modify this value to match the format of the incoming event. If you do not, the event does not process correctly.
 
-            For example, an event might arrive on June 27, 2019 at 11:25 AM with a listed date of **2019/06/27/ 11:25:00 a**. Modify the **scom\_date\_format** value to **yyyy/M/d/ h:mm:ss a** to match the format of the received event.
+            For example, an event arrives on June 27, 2019 at 11:25 AM with a listed date of **2019/06/27/ 11:25:00 a**. Modify the **scom\_date\_format** value to **yyyy/M/d/ h:mm:ss a** to match the format of the received event.
 
             In **scom\_date\_format**, `a` represents AM, and `p` represents PM.
 

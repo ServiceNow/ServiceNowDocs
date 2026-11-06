@@ -1,23 +1,23 @@
 ---
 title: Enabling container image scanning with Syft scanner
-description: Container image scanning with Syft scanner provides visibility into software packages within container images, helping you identify installed software for compliance, licensing, and security purposes without requiring a MID Server.
+description: Use container image scanning with the Syft scanner to identify the software packages installed in your container images for compliance, licensing, and security purposes without requiring a MID Server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/enabling-software-decomposition-tool.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-08-13"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 keywords: [Syft, container image scanning, software decomposition, Kubernetes Visibility Agent, SBOM, software packages]
 breadcrumb: [Configure, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Enabling container image scanning with Syft scanner
 
-Container image scanning with Syft scanner provides visibility into software packages within container images, helping you identify installed software for compliance, licensing, and security purposes without requiring a MID Server.
+Use container image scanning with the Syft scanner to identify the software packages installed in your container images for compliance, licensing, and security purposes without requiring a MID Server.
 
-KVA integrates with the Syft open-source tool to scan container images and discover software packages. This feature provides an alternative to the existing Aqua Trivy integration that requires a MID Server. For customers already using KVA, Syft scanner offers a simpler deployment without additional infrastructure or manual tool installation.
+This feature provides an alternative to the existing Aqua Trivy integration that requires a MID Server. For customers already using KVA, Syft scanner offers a simpler deployment without additional infrastructure or manual tool installation.
 
 **Note:** For more information about this feature, see the [Software decomposition of container images using Kubernetes Visibility Agent and Syft \[KB3149735\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3149735) article in the Now Support Knowledge Base.
 
@@ -33,13 +33,15 @@ The Syft scanner integration provides the following advantages:
 
 ## Installation method
 
-The Syft scanner is only supported when installing KVA Informer using the Helm chart method. YAML-based installation does not support the Syft scanner feature.
+The Syft scanner is only supported when installing KVA Informer using the Helm chart. YAML-based installation does not support the Syft scanner feature.
 
 To enable Syft scanner during Helm installation, add the following parameter to the Helm install command:
 
 ```
 --set runSyftScanner=true
 ```
+
+**Warning:** The Syft scanner image is not FIPS-140 compliant. Setting **runSyftScanner** to `true` adds a non-compliant image to the Informer pod, which may affect deployments in regulated environments. For more information, see [Kubernetes Visibility Agent support matrix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cnov-support-matrix.md).
 
 For complete installation instructions, see [Install Kubernetes Visibility Agent \(KVA\) Informer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cnov-deploy-install.md).
 
@@ -59,6 +61,8 @@ When an Informer is configured with Syft scanner support, the following fields a
 -   **Image Scanner Enabled** - Indicates whether the Informer supports container image scanning \(true or false\)
 -   **Image Scan Registries** - Comma-separated list of image registries the Informer can access through credential-less trust relationships \(ecr, acr, google\)
 
+**Note:** To scan images in protected registries that require credentials, grant the Informer's service account read access to the secrets that hold the credentials for those registries.
+
 A new UI action **Get Syft Scanner Logs** is available on Informer records that have image scanning enabled. Selecting this action retrieves the Syft scanner logs and attaches them to the Informer record as `k8s_informer_syft.log`.
 
 ## Data collected by container image scans
@@ -77,7 +81,7 @@ When the Syft scanner successfully scans a container image, the system populates
 
 **Note:** Not all fields are populated for every image. Field availability depends on the image metadata and scan results.
 
-## Software packages
+## Software packages identified
 
 The Syft scanner identifies software packages contained in the container image and creates records in the Container Image OS Packages \[sn\_itom\_pattern\_container\_image\_os\_packages\] table. This table appears as a related list on the Docker Image CI form.
 

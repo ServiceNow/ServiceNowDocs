@@ -7,7 +7,7 @@ release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Set up workforce, Configure, Field Service Management]
 ---
@@ -41,15 +41,11 @@ The steps for configuring Field Service Capacity and Reservations Management are
 
     Demand channels help organize and manage work by efficiently distributing resources. When creating a reservation rule, you can allocate a specific percentage of capacity to a particular demand channel. By tagging work orders or tasks with demand channels, you ensure they’re routed correctly, improving resource allocation and scheduling accuracy.
 
-7.  [Associate technicians with demand channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/map-resource-demand-channel.md)
-
-    Associate a technician with the required demand channel to accurately assign the tasks to the technician.
-
-8.  [Create a capacity assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/assign-work-based-on-the-defined-capacity-.md)
+7.  [Create a capacity assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/assign-work-based-on-the-defined-capacity-.md)
 
     Create the assignment of work based on the selected source, such as agent schedules, tasks, or hours.
 
-9.  [Create a capacity assignment override](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/override-capacity-assignment.md)
+8.  [Create a capacity assignment override](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/override-capacity-assignment.md)
 
     Change the default capacity assignment rules for any change in plan within a capacity definition. You can update the capacity assignments for the existing capacity definition rule at different time intervals and for different capacity buckets rather than creating a new capacity definition.
 

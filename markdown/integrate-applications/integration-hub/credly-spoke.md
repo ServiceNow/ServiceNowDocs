@@ -30,7 +30,7 @@ Credly spoke v1.0.0 is the latest version. For version history of the spoke, see
 
 ## Supported versions
 
-This spoke was built for australia, and is compatible with later Washington DC and Xanadu versions.
+This spoke was built for brazil, and is compatible with later Washington DC and Xanadu versions.
 
 ## Key features
 

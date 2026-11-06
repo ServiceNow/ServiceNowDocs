@@ -7,9 +7,9 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Software discovery and normalization, Explore, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Software discovery and normalization, Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Normalization of discovery models using machine learning
@@ -18,7 +18,7 @@ Use machine learning to improve your normalization rates in real time by normali
 
 The Software Asset Management application uses machine learning to improve normalization of discovery models. The prediction values currently supported by machine learning are version, full version, and edition.
 
-Opt in for machine learning normalization by activating the Software Asset Management – Machine Learning Normalization \(com.sn\_sam\_ml\_normalization\) plugin. Starting with the Australia release, machine learning normalization capabilities are available to regulated markets for ServiceNow Protected Platform \(SPP\) in Singapore \(SG\) and Australia \(AU\).
+Opt in for machine learning normalization by activating the Software Asset Management – Machine Learning Normalization \(com.sn\_sam\_ml\_normalization\) plugin. Starting with the Brazil release, machine learning normalization capabilities are available to regulated markets for ServiceNow Protected Platform \(SPP\) in Singapore \(SG\) and Australia \(AU\).
 
 Once the plugin is activated, ensure that the **Enable ML Normalization for discovered software** \(com.snc.samp.enable.ml\_normalization\) property is selected. For more details on this property, see [Software Asset Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sam-properties.md). You can opt out of machine learning normalization by disabling this property. If you opt out, normalization of discovery models only takes place against the content service rules.
 

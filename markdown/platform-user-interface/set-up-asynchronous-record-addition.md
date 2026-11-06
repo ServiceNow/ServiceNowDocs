@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/set-up-asynchronous-record-addition.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Lists, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -32,7 +32,7 @@ If background loading isn’t required for all modals, configure individual moda
 
 2.  Add the **glide.ui.mra.async** system property.
 
-    For more information on adding system property, see Add a system property.
+    For more information on adding system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
     1.  Set the Value to **true**.
 
@@ -40,7 +40,7 @@ If background loading isn’t required for all modals, configure individual moda
 
 3.  Add the **glide.ui.mra.threshold** system property.
 
-    For more information on adding system property, see Add a system property.
+    For more information on adding system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
     1.  Specify how many records can be added before asynchronous record addition occurs.
 

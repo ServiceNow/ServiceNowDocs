@@ -1,26 +1,26 @@
 ---
 title: Components related to CMDB Data Manager
-description: The following scheduled jobs, tables, roles, and properties, are related to CMDB Data Manager. Some of those, are installed with CMDB Workspace.
+description: The following scheduled jobs, tables, roles, and properties, are related to CMDB Data Manager. Some of those, are installed with CMDB Workspace and Service Graph Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/components-cmdb-data-manager.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Components related to CMDB Data Manager
 
-The following scheduled jobs, tables, roles, and properties, are related to CMDB Data Manager. Some of those, are installed with CMDB Workspace.
+The following scheduled jobs, tables, roles, and properties, are related to CMDB Data Manager. Some of those, are installed with CMDB Workspaceand Service Graph Workspace.
 
 ## System properties
 
-As a Data Manager Administrator \(data\_manager\_admin\) you can view CMDB Data Manager properties in CMDB Workspace or in Service Graph Workspace.
+As a Data Manager Administrator \(data\_manager\_admin\) you can view CMDB Data Manager properties in CMDB Workspace .
 
-1.  Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Governance** In the Governance view, select the **Data Manager** management tool.
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Governance**. Then select the **Data Manager** quick link in Management tools, in the Manage section.
 2.  Select **Settings** in the left navigation panel.
 
 <table id="table_w2w_tdx_npb"><thead><tr><th>
@@ -225,7 +225,9 @@ CMDB Data Management Policy Executions\[cmdb\_data\_management\_policy\_executio
 
 </td><td>
 
-Execution records that correspond to each policy run. As policies run according to their recurring schedule, for each run the system generates a record with a unique policy execution number for that run. A policy execution number has a prefix of 'PLCEXEC'.
+Execution records that correspond to each policy run. For each policy run, the system generates a record with a unique policy execution number for that run. A policy execution number has a prefix of 'PLCEXEC'.
+
+ The **Work Notes** and **Activities** fields in a policy record contain details about the outcome of the run. Information such as the number of CIs that weren't processed because they exist in other tasks, and access issues preventing processing of CIs. You can use this information to mitigate issues by for example, updating policy configurations or updating user permissions.
 
  Execution records associated with certification policy runs, are used for populating the Data Certification Dashboard.
 

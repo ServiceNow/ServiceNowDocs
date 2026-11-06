@@ -7,9 +7,9 @@ release: australia
 product: Form Builder \(Glide Family Release\)
 classification: form-builder-glide-family-release
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Data in Table Builder, Using Table Builder, Table Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Working with data, Use, Table Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Edit table properties in Table Builder
@@ -41,6 +41,8 @@ Application access settings determine whether script objects from other applicat
 3.  In the dialog box that appears, update the table properties as shown in the following example.
 
     For more information on these properties, see [Table properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/table-parameters.md).
+
+    \[Omitted image "tb-edit-table-props.png"\] Alt text: Editing table properties.
 
 4.  To close the dialog box, select **Save**.
 

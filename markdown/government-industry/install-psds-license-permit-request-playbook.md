@@ -1,23 +1,23 @@
 ---
-title: Install License and Permit Playbook for Public Sector Digital Services
-description: You can install the License and Permit Playbook application \(sn\_gsm\_lic\_prmt\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plug-ins if they aren’t already installed.
+title: Install License and Permit Administration for Public Sector Digital Services
+description: You can install the License and Permit Administration application \(sn\_gsm\_lic\_prmt\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plug-ins if they aren’t already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/install-psds-license-permit-request-playbook.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [License and Permit Playbook, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Install License and Permit Playbook for Public Sector Digital Services
+# Install License and Permit Administration for Public Sector Digital Services
 
-You can install the License and Permit Playbook application \(sn\_gsm\_lic\_prmt\) if you have the admin role.The application includes demo data and installs related ServiceNow® Store applications and plug-ins if they aren’t already installed.
+You can install the License and Permit Administration application \(sn\_gsm\_lic\_prmt\) if you have the admin role.The application includes demo data and installs related ServiceNow® Store applications and plug-ins if they aren’t already installed.
 
 ## Before you begin
 
 -   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
--   Certain features in the License and Permit Playbook application are available based on your ServiceNow entitlements and may require installation of other ServiceNow applications and activation of specific plug-ins.
+-   Certain features in the License and Permit Administration application are available based on your ServiceNow entitlements and may require installation of other ServiceNow applications and activation of specific plug-ins.
 
     **Note:** Install the [Playbooks for Customer Service Management](https://store.servicenow.com/sn_appstore_store.do#!/store/application/7be17355874010108ef7a7da0acb0bb5/2.1.0?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%26q%3DPlaybooks%2520for%2520Customer%2520Service%2520Management&sl=sh) application to enable the playbook experience.
 
@@ -27,13 +27,13 @@ Role required: admin
 
 ## About this task
 
-The License and Permit Request \[sn\_gsm\_license\_permit\_case\] table is installed with License and Permit Playbook.
+The License and Permit Request \[sn\_gsm\_license\_permit\_case\] table is installed with License and Permit Administration.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
-2.  Find the License and Permit Playbook application \(sn\_gsm\_lic\_prmt\) using the filter criteria and search bar.
+2.  Find the License and Permit Administration application \(sn\_gsm\_lic\_prmt\) using the filter criteria and search bar.
 
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 

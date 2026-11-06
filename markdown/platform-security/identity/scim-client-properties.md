@@ -7,7 +7,7 @@ release: australia
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [SCIM Client, System for Cross-domain Identity Management \(SCIM\), Identity]
 ---
@@ -60,7 +60,7 @@ The SCIM Client adds the following tables.
 
 ## Scriptable API
 
-The SCIM2Client API calls the System for Cross-domain Identity Management \(SCIM\) Provider \(server role\) to create, update, or delete data in a service provider \(SP\). The scriptable API of the SCIM Client should be used in the scripts that are running in the system context or by a system admin user.
+The SCIM2Client API calls the System for Cross-domain Identity Management \(SCIM\) Provider \(server role\) to create, update, or delete data in a service provider \(SP\). The scriptable API of the SCIM Client should be used in the scripts that are running in the system context or by a user who has the admin role.
 
 For example, you can use the script while running the integration hub workflow as a system user, while running the scheduled jobs, and so on.
 
@@ -69,11 +69,11 @@ The following are some of the use cases for using the scriptable APIs:
 -   As an admin, provision identity information from background scripts, business rules, script include calls, workflows, and so on.
 -   As an admin, run a scheduled job or an on-demand job for identity provisioning.
 -   Run a workflow or sub-workflow with the Script step using the provision scriptable API call.
--   Add the provision script directly in a business rule or script include. The script can be triggered by non-admin users. This use-case works in the following situations:
+-   Add the provision script directly in a business rule or script include. The script can be triggered by non-admin users. This use case works in the following situations:
     -   The user has access to the token, meaning that the user has the role to generate the token from the REST template.
     -   The user has access to retrieve the SCIM attribute values from the mapped tables.
 
-To know more about the scriptable API, see [SCIM2Client API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SCIM2ClientAPI.md).
+To learn more about the scriptable API, see [SCIM2Client API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SCIM2ClientAPI.md).
 
 ## SCIM Client Logs
 

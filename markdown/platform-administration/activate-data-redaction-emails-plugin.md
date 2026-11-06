@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/activate-data-redaction-emails-plugin.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Sensitive data redaction, Use, Inbound email, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -37,13 +37,9 @@ Role required: admin
 
 ## What to do next
 
-[Activating Data Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/activate-data-discovery.md)
+The inbound email channel enables organizations to discover and mask sensitive data in inbound emails through the Data Privacy framework. This replaces the previous approach which used Active Data Patterns with a centralized, streamlined policy-based experience for managing sensitive data in emails.
 
 **Note:** Data Discovery application does not require a paid subscription when used along with sensitive data redaction for inbound emails plugin.
-
-**Data Discovery patterns**
-
-[Default regular expression data patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/default-data-patterns.md) are used to filter table entries for further classification. The Data Discovery pattern defines the regular expression used to match data against a target table. For more information, see [Configure Data Discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-data-discovery-patterns.md).
 
 **Parent Topic:**[Sensitive data redaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/sensitive-data-redaction.md)
 

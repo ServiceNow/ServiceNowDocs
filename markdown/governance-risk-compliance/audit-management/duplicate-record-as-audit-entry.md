@@ -7,10 +7,10 @@ release: australia
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2026-05-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [duplicate, audit entry, audit entry source]
-breadcrumb: [Audit entry for GRC objects, Exploring Audit Management, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Audit entry for GRC objects, Explore, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Duplicate a second-line record as an audit entry

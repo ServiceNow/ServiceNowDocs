@@ -7,7 +7,7 @@ release: australia
 product: Platform Encryption
 classification: platform-encryption
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Key Management Framework Resource Exchange, Key Management Framework, Encryption]
 ---
@@ -24,7 +24,7 @@ Roles required: sn\_kmf.cryptographic\_manager
 
 This example shows you how a target instance requests keys from a host instance.
 
--   Before you can perform this procedure, you must clone an instance. See [Instance Clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-clone-landing.md) for more information.
+-   Before you can perform this procedure, you must clone an instance. See System clone for more information.
 -   **Automatic Key Exchange**: The base system property **glide\_encryption.auto\_key\_exchange.enabled** is **true** by default, meaning that automatic is activated when cloning an instance. The property is cloned over to the target instance.
 -   Turn off automatic by setting the property to **false**.
 

@@ -1,18 +1,18 @@
 ---
-title: Viewing the ribbon information in License and Permit Playbook
-description: You can view the information about the ribbon in the contextual side panel in CRM Workspace. The ribbon displays the important information about the case, such as the information request record information, constituent contact details, and the case timeline.
+title: Viewing the ribbon information in License and Permit Administration
+description: You can view the information about the ribbon in the contextual side panel in Public Sector Workspace. The ribbon displays the important information about the case, such as the information request record information, constituent contact details, and the case timeline.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-lpr-playbook-viewing-ribbon.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the contextual side panel, Using License and Permit Playbook, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Using the contextual side panel, Using License and Permit Administration, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Viewing the ribbon information in License and Permit Playbook
+# Viewing the ribbon information in License and Permit Administration
 
-You can view the information about the ribbon in the contextual side panel in CRM Workspace. The ribbon displays the important information about the case, such as the information request record information, constituent contact details, and the case timeline.
+You can view the information about the ribbon in the contextual side panel in Public Sector Workspace. The ribbon displays the important information about the case, such as the information request record information, constituent contact details, and the case timeline.
 
 Select the record information icon \(\[Omitted image "contextual-side-panel-record-info.png"\] Alt text: Record information icon.\) in the contextual side panel to view the information about the ribbon.
 

@@ -7,9 +7,9 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
-breadcrumb: [Reference, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Reclamation rules for SaaS and SSO applications
@@ -361,7 +361,7 @@ Yes
 
 </td><td>
 
-Removes the user's access to the application, associated plans, and services. If a user has access to an application through a group membership, reclaiming the subscription removes the user from the group and revokes access to the subscription and its associated plans.
+Removes the user's access to the application, associated plans, and services. If a user has access to an application through a group membership, reclaiming the subscription removes the user from the group. Also, it revokes access to the subscription and its associated plans.
 
 </td></tr><tr><td>
 

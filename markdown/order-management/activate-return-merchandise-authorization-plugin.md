@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/activate-return-merchandise-authorization-plugin.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Order operations apps, Configure, Sales Customer Relationship Management]
 ---
@@ -21,7 +21,7 @@ Install the following plugins or confirm that they exist before activating the R
 |Plugin|Description|
 |------|-----------|
 |Lead to Cash Core \[com.snc.l2c\_core\]|Enables you to compose Lead to Cash flow.|
-|Customer Service Install Base Management \[com.snc.install\_base\]|Enables you to capture the current state of the install base and establish the relationship to any downstream entities that may impact their functioning.|
+|Customer Install Base Management \[com.snc.install\_base\]|Enables you to capture the current state of the install base and establish the relationship to any downstream entities that may impact their functioning.|
 |Case lines and workflows \[com.sn\_case\_line\]|Enables a case to hold many line items. The line items are product instances and can be extended for various order to case operations entities.|
 |Entitlements Verification \[com.sn\_ent\_verify\]|Provides API to verify entitlement and characteristics.|
 

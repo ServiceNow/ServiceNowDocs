@@ -1,20 +1,20 @@
 ---
 title: Create a single CAB meeting occurrence
-description: Depending on your requirements, you can create an individual Change Advisory Board \(CAB\) meeting occurrence.
+description: Create an individual Change Advisory Board \(CAB\) meeting occurrence.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/create-a-cab-meeting.html
 release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Working with the CAB Workbench, Use, Change Management, IT Service Management]
 ---
 
 # Create a single CAB meeting occurrence
 
-Depending on your requirements, you can create an individual Change Advisory Board \(CAB\) meeting occurrence.
+Create an individual Change Advisory Board \(CAB\) meeting occurrence.
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ Role required: sn\_change\_cab.cab\_manager
 
     **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  On the CAB Meeting form, fill in the fields.
 
@@ -52,7 +52,7 @@ CAB manager
 
 </td><td>
 
-Name of the user who manages the CAB meeting. The default is the user that is currently logged in.
+Name of the user who manages the CAB meeting. The default is the user who is currently logged in.
 
 </td></tr><tr><td>
 
@@ -88,7 +88,7 @@ State
 -   **In progress**: Indicates that the meeting has begun and is in progress.
 -   **Complete**: Indicates that the meeting has occurred and is finished.
 -   **Canceled**: Indicates that the meeting has been canceled.
- **Note:** The system automatically updates the **State** field when the meeting starts and ends from within the CAB workbench. There is no need to manually change this field, unless, for example, the CAB manager wants to cancel a future meeting. If the CAB workbench closes unexpectedly, the CAB manager must manually update the **State** field.
+ **Note:** The system automatically updates the **State** field when the meeting starts and ends from within the CAB Workbench. There is no need to manually change this field, unless, for example, the CAB manager wants to cancel a future meeting. If the CAB Workbench closes unexpectedly, the CAB manager must manually update the **State** field.
 
 </td></tr><tr><td>
 
@@ -112,7 +112,7 @@ Meeting Notes
 
 </td><td>
 
-Enter notes for the meeting, if any.
+Notes for the meeting.
 
 </td></tr><tr><td>
 
@@ -144,9 +144,9 @@ Use filter criteria to drive Change Request date range
 
 </td><td>
 
-If selected, helps to choose a time range for the planned start and end date from **Change Request additional condition** instead of selecting specific dates based on meeting schedule.
+Option that, when selected, lets you choose a time range for the planned start and end dates from **Change Request additional condition** instead of selecting specific dates based on the meeting schedule.
 
-**Note:** If you select **the Use filter criteria to drive Change Request date range** field in a cab meeting, the **Change Requests starting after** field and the **Change Requests starting on or before** field is disabled for the meeting, and therefore ignored. The change request additional conditions drive the date range.
+**Note:** If you select the **Use filter criteria to drive Change Request date range** check box in a CAB meeting, the **Change Requests starting after** and **Change Requests starting on or before** fields are unavailable for the meeting and are ignored. The change request additional conditions drive the date range.
 
 </td></tr><tr><td>
 
@@ -154,7 +154,7 @@ Change Requests starting after
 
 </td><td>
 
-Change requests that starts after this date and time should be added to the CAB meeting.
+Change requests that start after this date and time are added to the CAB meeting.
 
 </td></tr><tr><td>
 
@@ -162,7 +162,7 @@ Change Requests starting on or before
 
 </td><td>
 
-Change requests that starts on or before this date and time should be added to the CAB meeting.
+Change requests that start on or before this date and time are added to the CAB meeting.
 
 </td></tr><tr><td>
 
@@ -204,14 +204,14 @@ Check box to capture agenda decisions automatically on the meeting widget. The a
 
 ## What to do next
 
-You can now add agenda items and attendees to the cab meeting.
+You can now add agenda items and attendees to the CAB meeting.
 
 -   **[View CAB meeting details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/view-cab-meeting-details.md)**  
 You can view the details of any past, scheduled, or in-progress CAB meeting.
 -   **[Modify CAB meeting details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/refresh-cab-meeting-agenda-items.md)**  
-You can modify the agenda items for a specific CAB meeting.
+Modify the agenda items for a specific Change Advisory Board \(CAB\) meeting.
 -   **[Send CAB meeting request to attendees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/send-cab-meeting-request-attendees.md)**  
-You can send CAB meeting invitations to attendees for each CAB meeting.
+Send Change Advisory Board \(CAB\) meeting invitations to the attendees of each CAB meeting.
 
 **Parent Topic:**[Working with the CAB Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/using-cab-workbench-cf.md)
 

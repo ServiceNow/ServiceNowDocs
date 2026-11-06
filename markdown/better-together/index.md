@@ -1,18 +1,18 @@
 ---
-title: Australia Better Together
+title: Brazil Better Together
 locale: en-US
 release: australia
 bundle: btss
 doc_type: toc
 ---
 
-# Australia Better Together
+# Brazil Better Together
 
 - [Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/solutions-gallery.md) -- With Solutions, enhance the functionality of ServiceNow applications by using them in combination with each other.
   - [Improve visibility into organizational risk exposure with advanced project risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/adding-advanced-risk-assessment-to-your-projects.md) -- With advanced risk assessment for your projects, you can easily identify if any projects pose potential organizational risks and quickly decide on mitigating actions. Combine project risk management with enterprise risk management and get better visibility into your organization's overall risk exposure.
   - [Automating and optimizing your services and operations using Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/service-operations.md) -- You can expand services while reducing costs, delivering high-quality customer and employee experiences, and driving operational resilience. Use a single cloud platform that integrates IT processes such as incident, problem, and change with IT operations such as discovery, business service definitions, service mapping, and event management.
     - [Case Study: Enhancing Risk, Compliance, and Audit Management with ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/use-case-itom-risk-compliance-audit-mgmt.md) -- The use case demonstrates how ITOM integration streamlined risk, compliance, and audit management for a financial institution by providing real-time operational visibility, automation, and enhanced risk assessments.
-  - [Enterprise Service Management Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/esm-foundation.md) -- Enterprise Service Management Foundation combines the Core Business Suite and the Simplified IT Service Management to deliver unified service experiences across IT, HR, finance, legal, workplace services, and procurement. The integrated solution streamlines service delivery and reduces administrative overhead for growing organizations.
+  - [Employee Service Management Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/esm-foundation.md) -- Employee Service Management Foundation unifies IT, HR, finance, legal, and workplace services on a single platform. This integrated approach streamlines service delivery and reduces administrative overhead for growing organizations.
   - [Building desktop automations from Task Mining data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/creating-desktop-actions-tm-ac.md) -- Automatically convert desktop processes into executable AI agents: capture the task (desktop processes) in Task Mining, create desktop actions (automation blocks) and AI agent in Automation Center, and test and deploy the AI agent in AI Agent Studio.
     - [Requirements and limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/tm-ac-req-limitations.md) -- Learn about requirements and limitations for this unified journey.
     - [Create an automation request in Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/create-automation-request-tm.md) -- As a business analyst, review the task timeline for identifying task optimization opportunities and automation candidates. Then, submit an automation request from Task Mining to create an automation in Automation Center.

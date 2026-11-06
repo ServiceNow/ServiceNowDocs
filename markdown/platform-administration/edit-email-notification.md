@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/edit-email-notification.html
 release: australia
 topic_type: task
-last_updated: "2026-04-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Notification agent, Notification agent and agentic workflows in Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Notification agent, Notification agent and agentic workflows in Notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Edit an email notification using the Notification agent
@@ -36,7 +36,7 @@ Role required: admin
 
 5.  Select **Configure with Now Assist**.
 
-    Now Assist opens the conversational panel, detects the current page context, and invokes the Notification Agent.
+    The conversational panel opens, detects the current page context, and invokes the Notification Agent.
 
 6.  Select **Edit an existing notification**.
 

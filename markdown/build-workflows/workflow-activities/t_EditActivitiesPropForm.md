@@ -7,7 +7,7 @@ release: australia
 product: Workflow Activities
 classification: workflow-activities
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workflow activities, Classic Workflow, Build workflows]
 ---
@@ -32,6 +32,6 @@ Role required: admin
 
     The activity variables appear as separate items that you can rearrange on the form.
 
-    For more details on using the form design interface, see [Using the form designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_FormDesign.md).
+    For more details on using the form design interface, see Using the form designer.
 
 

@@ -7,9 +7,9 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Inbound Integrations, OAuth Inbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [Inbound integrations, OAuth inbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # Authorization code grant
@@ -20,19 +20,19 @@ In this flow, ServiceNow functions as both the authorization server \(handling u
 
 -   **Ideal for:**
 
-    Applications that needs access to user's data on behalf of user with their consent.
+    Applications that need access to user's data on behalf of user with their consent.
 
 -   **How it works:**
 
-    The user initiates the login process from the client application, which redirects them to a ServiceNow login page. After the user logs in and grants consent, the client application receives an authorization code, which it exchanges with the ServiceNow instance for an access token. This is the most secure and widely used flow for user-facing integrations. It supports both confidential clients \(with a client secret\) and public clients \(using PKCE\).
+    The user initiates the login process from the client application, which redirects them to a ServiceNow login page. After the user logs in and grants consent, the client application receives an authorization code, which it exchanges with the ServiceNow instance for an access token. This is the highly secure and widely used flow for user-facing integrations. It supports both confidential clients \(with a client secret\) and public clients \(using PKCE\).
 
 
-**Note:** If you want to use your own identity provider \(such as Azure AD or Okta\) as the authorization server, consider using the  flow.
+**Note:** To use your own identity provider \(such as Azure AD or Okta\) as the authorization server, consider using the  flow.
 
 **Related topics**  
 
 
-[Authorization code grant workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/authorization-workflow.md)
+[Complete the authorization code grant workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/authorization-workflow.md)
 
 [Configure an OAuth authorization code grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/configure-an-oauth-authorization-code-grant.md)
 

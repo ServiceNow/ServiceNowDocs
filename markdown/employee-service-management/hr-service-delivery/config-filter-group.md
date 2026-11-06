@@ -7,9 +7,9 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Reference, Manager Hub, HR Service Delivery, Employee Service Management]
+breadcrumb: [Reference for Manager Hub, Manager Hub, HR Service Delivery, Employee Service Management]
 ---
 
 # Default configurations for filter groups
@@ -18,10 +18,10 @@ Predefined set of filter group configurations are available to use after you hav
 
 |Name|Description|
 |----|-----------|
-|Journey|Configuration to group career growth and onboarding employee journeys under Journey filter in the Team members tab in Your team menu.|
-|Employee type|Configuration to group employee type, position, and location type under the Employee type filter group in the Team members tab in Your team menu.|
-|Location|Configuration to group cities under the Location filter group in the Team members tab in Your team menu.|
-|Status|Configuration to display employee PTO, leave, or new hire under the status filter group.|
+|Journey|Configuration to group career growth and onboarding employee journeys under Journey filter in the Team members tab in Your team menu in Employee Center.|
+|Employee type|Configuration to group employee type, position, and location type under the Employee type filter group in the Team members tab in Your team menu in Employee Center.|
+|Location|Configuration to group cities under the Location filter group in the Team members tab in Your team menu in Employee Center.|
+|Status|Configuration to display employee PTO, leave, or new hire under the status filter group in Manager Hub.|
 
 For more details, navigate to **All** &gt; **Manager Hub** &gt; **Administration** &gt; **Team Filter Configuration**.
 

@@ -7,9 +7,8 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [plan installation, installation requirements, hiring suite setup, install hiring experiences, Talent Acquisition dependencies, required components, suite dependencies, hiring applications, application dependencies]
 breadcrumb: [Configure, Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
 

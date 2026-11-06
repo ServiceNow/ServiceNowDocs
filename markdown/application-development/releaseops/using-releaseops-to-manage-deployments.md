@@ -7,10 +7,10 @@ release: australia
 product: ReleaseOps
 classification: releaseops
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ReleaseOps, deploy changes, update sets, pipeline, ATF, schedule a release, deployment request, deployment analyzer]
-breadcrumb: [ReleaseOps, Deploying applications, Building applications]
+breadcrumb: [ReleaseOps, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Using ReleaseOps to manage deployments
@@ -25,7 +25,7 @@ The following list outlines the tasks that ReleaseOps can help you to accomplish
 
 -   Release managers can create a release, enabling them to schedule the release date and select which developers and applications the release applies to.
 -   Developers can promote changes for deployment.
--   Developers can create deployment requests for scheduled and on-demand releases, which they attach their update set to.
+-   Developers can create deployment requests for scheduled and on-demand releases, which they attach their update sets to.
 -   Developers can reconcile deployment tasks, enabling deployment requests to proceed through the pipeline.
 
 -   **[Promote an update set for deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/promote-update-set-for-deployment.md)**  
@@ -38,6 +38,8 @@ Create a deployment request for changes that will deployed with an on-demand rel
 If you want to attach multiple update sets to a deployment request, you can attach an update set to an existing deployment request on the **Deploy an update set** form.
 -   **[Create a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/create-a-release.md)**  
 Specify the details for your release, including the target instance that the changes will be deployed to and when the release should occur.
+-   **[Add a release to a deployment request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/add-release-to-deployment-request.md)**  
+If you created a deployment request and associated it with only a pipeline, you must add a release to enable the deployment request to move to production.
 -   **[Create a runbook task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/create-runbook-task.md)**  
 Create a runbook task to pause deployment and define the steps required to proceed.
 -   **[Reconcile a deployment task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/reconcile-deployment-task.md)**  

@@ -51,7 +51,7 @@ Metric type IDs identify each time-series metric that a connector writes to the 
 |`fortinet.performance.cpu.usage`|Percent|FortiGate CPU usage.|
 |`fortinet.performance.memory.usage`|Percent|FortiGate memory usage.|
 
-VERIFY: Confirm the metric type IDs written by the Fortinet SD-WAN Interface Log integration. This integration is listed in the installed integrations reference but its metric type IDs are not yet documented here.
+VERIFY: Confirm the metric type IDs written by the Fortinet SD-WAN Interface Log integration. This integration is listed in the installed integrations reference but its metric type IDs aren't yet documented here.
 
 **Parent Topic:**[Telecommunications Service Operations Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/components-installed-with-tsom.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -64,6 +64,4 @@ An SSO integration is created using a directory integration. When you delete an 
 [Disconnect SSO apps]()
 
 [Subscription identifiers for SaaS and SSO applications]()
-
-[Subscription exclusions for SaaS and SSO applications]()
 

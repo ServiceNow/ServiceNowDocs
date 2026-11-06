@@ -7,7 +7,7 @@ release: australia
 product: Core UI Interactive Filters
 classification: core-ui-interactive-filters
 topic_type: task
-last_updated: "2026-08-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Creating Interactive Filters, Interactive Filters, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -22,7 +22,7 @@ You can create a cascading filter that allows users to select from a list of man
 
 Ensure that the structure of the data that you use to create the filter is consistent. For example, in a cascading filter based on location, ensure that the top-level choices are all regions, and the second-level choices are all countries. You can define filter conditions to ensure that only appropriate choices for each level are available.
 
-Role required: hp\_publisher\_admin and report\_admin. The hp\_publisher\_admin role exists only for managing interactive filters in Core UI. By default, it contains the role analytics\_filter\_admin for managing Core UI filters that are migrated to Platform Analytics experience.
+Role required: hp\_publisher\_admin and report\_admin. The hp\_publisher\_admin role exists only for managing interactive filters in Core UI. By default, it contains the role analytics\_filter\_admin for managing Core UI filters that are migrated to Platform Analytics experience. It isn't possible to create Core UI interactive filters in net new instances from Yokohama forward.
 
 ## About this task
 
@@ -48,7 +48,7 @@ This procedure includes examples based on a cascading interactive filter using m
 
     1.  In the **Cascading Filter** related list, select **New**.
 
-    2.  Select the **Table** and the **Display field** from the table that contains the values you want to use as the top-level filter choices. The **Display Field** is limited to the types boolean, choice, reference, and string.
+    2.  Select the **Table** and the **Display field** from the table that contains the values you want to use as the top-level filter choices. The **Display Field** is limited to the types Boolean, choice, reference, and string.
 
         To define the top level of a hierarchy based on managers and the groups they manage, select **Group \[sys\_user\_group\]** as the **Table** and **Manager** as the **Display field.**
 
@@ -64,7 +64,7 @@ This procedure includes examples based on a cascading interactive filter using m
 
     1.  From the manager filter, in the **Cascading Filter** related list, select **New**.
 
-    2.  Select the **Table** and the **Display field** from the table that contains the values you want to use as the second-level filter choices. The **Display Field** is limited to the types boolean, choice, reference, and string.
+    2.  Select the **Table** and the **Display field** from the table that contains the values you want to use as the second-level filter choices. The **Display Field** is limited to the types Boolean, choice, reference, and string.
 
         In the managers and groups example, select **Group \[sys\_user\_group\]** as the **Table** and **Name** as the **Display field.**
 
@@ -118,6 +118,6 @@ Duplicate filters are removed according to the following criteria:
 
 -   If the configuration is the same, the last edited filter is retained.
 -   If the configuration is the same, except that some filters have only one target and others have multiple targets, then only the last updated filter is retained.
--   If the configuration is the same, but some filters have multiple target columns in the same target table, then all the filters are considered as separate filters and retained. An example of multiple target columns in the same target table is the **Date opened** and **Date escalated** columns in the incident table.
+-   Filters with the same configuration where some filters have multiple target columns in the same target table are all considered as separate filters and retained. An example of multiple target columns in the same target table is the **Date opened** and **Date escalated** columns in the incident table.
 -   If the configuration and the UI control are the same, but the base condition is different for any two filters, then they are considered separate filters and retained.
 

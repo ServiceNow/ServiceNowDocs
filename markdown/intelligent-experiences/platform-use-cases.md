@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2025-09-17"
 reading_time_minutes: 2
-breadcrumb: [Agentic workflows, AI assets, Enable AI experiences]
+breadcrumb: [Agentic workflows, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Platform agentic workflows

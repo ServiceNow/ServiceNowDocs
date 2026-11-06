@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-manage-business-capabilities.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -30,7 +30,7 @@ You can add a sub-capability to a capability.
 -   **[Create a Lucidchart diagram for a business capability in the Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-lucid-diagram-cap.md)**  
 Create a diagram in Lucidchart for your business capability maps and associate it with an architectural artifact.
 -   **[Manage architectural artifacts of a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-assoicate-artifact-bc.md)**  
-You can create, add, or remove the artifacts that are associated with a business capability.
+You can create new, add, or remove the artifacts that are associated with a business capability.
 -   **[View value stream stages for a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-vs-stages-assoc-with-bc.md)**  
 You can view the value stream stages associated with a business capability to understand which steps in your value stream the business capability supports.
 -   **[Add a business unit to a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-add-business-unit-to-business-capability.md)**  

@@ -1,20 +1,20 @@
 ---
 title: Employee Relations matching rules
-description: Because ER cases do not use a subject person, matching rules try to find an agent with the required skills and in the same country where the case was opened to determine case assignment.
+description: ER cases do not use a subject person. Matching rules look for an agent with the required skills in the same country where the case was opened. That agent is assigned the case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/hr-er-matching-rules.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Employee Relations, Employee Relations, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Employee Relations, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Employee Relations matching rules
 
-Because ER cases do not use a subject person, matching rules try to find an agent with the required skills and in the same country where the case was opened to determine case assignment.
+ER cases do not use a subject person. Matching rules look for an agent with the required skills in the same country where the case was opened. That agent is assigned the case.
 
 Matching rules look for:
 

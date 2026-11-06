@@ -7,7 +7,7 @@ release: australia
 product: Cloud Encryption
 classification: cloud-encryption
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage Quorum Control, Quorum Control Policy, Cloud Encryption with Key Management, Encryption]
 ---

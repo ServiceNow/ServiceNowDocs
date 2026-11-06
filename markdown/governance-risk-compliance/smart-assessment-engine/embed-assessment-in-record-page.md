@@ -1,21 +1,21 @@
 ---
 title: Embed an assessment in a record page
-description: Configure SAE to let an upstream application \(an application that hosts or triggers the assessment\) surface the Smart Assessment Engine responder experience inside its own UI rather than as a separate page.
+description: Embedded assessments lets an upstream application surface the Smart Assessment Engine responder experience inside its own UI rather than as a separate page. This task describes the configuration that must be done on the SAE and UI Builder page where the assessment is embedded
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/smart-assessment-engine/embed-assessment-in-record-page.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: task
-last_updated: "2026-06-01"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 keywords: [embedded assessments, UI Builder, compact mode]
 breadcrumb: [Embedded assessments, Use template designer, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
 
 # Embed an assessment in a record page
 
-Configure SAE to let an upstream application \(an application that hosts or triggers the assessment\) surface the Smart Assessment Engine responder experience inside its own UI rather than as a separate page.
+Embedded assessments lets an upstream application surface the Smart Assessment Engine responder experience inside its own UI rather than as a separate page. This task describes the configuration that must be done on the SAE and UI Builder page where the assessment is embedded
 
 ## Before you begin
 
@@ -27,9 +27,9 @@ Role required: sn\_smart\_asmt.template\_manager. To configure the template cate
 
 1.  Navigate to **Workspaces** &gt; **Assessment Workspace** to access the Assessment Workspace landing page.
 
-2.  Select **New template**, and then fill in the template details form.
+2.  Create a template by selecting **New template**, and then fill in the template details form.
 
-    **Note:** You can also copy an existing template including all questions, sections, instructions, and existing configurations. For more information on how to copy an existing template see [Copy an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-duplicate.md).
+    **Note:** You can also copy an existing template including all questions, sections, instructions, and existing configurations. For more information on how to copy an existing template refer to [Copy an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-duplicate.md).
 
 3.  Access the assessment template that has the embedded assessment fields configured.
 
@@ -75,7 +75,7 @@ If the embedded view hides assessment-level actions, the upstream application mu
 
 -   **Reassign**
 
-    Build a Reassign UI in the upstream application. The custom UI must use the Reassign Filter extension point that the built-in Reassign dialog uses, so that the same allowed-user list is applied. After the user confirms the reassignment, call the corresponding flow action or public API to apply the change.
+    Build a Reassign UI in the upstream application. The custom UI must use the Reassign Filter extension point that the built-in Reassign dialog consumes, so that the same allowed-user list is applied. After the user confirms the reassignment, call the corresponding flow action or public API to apply the change.
 
 
 If the embedded view also hides the right reference pane, the upstream application must build its own contributor management UI. Call the Smart Assessment responder public API to persist contributor changes.

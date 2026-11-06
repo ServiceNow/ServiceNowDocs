@@ -1,20 +1,20 @@
 ---
 title: Configure team column data
-description: Configure column titles that you want to display on the Team members tab in Your team menu. For example, configure a column title to denote the current status of an employee such as new hire, or on leave.
+description: Configure column titles that you want to display on the Team members tab in Your team menu in Employee Center. For example, configure a column title to denote the current status of an employee such as new hire, or on leave.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/configure-team-columndata.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure, Manager Hub, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure Manager Hub, Manager Hub, HR Service Delivery, Employee Service Management]
 ---
 
 # Configure team column data
 
-Configure column titles that you want to display on the Team members tab in Your team menu. For example, configure a column title to denote the current status of an employee such as new hire, or on leave.
+Configure column titles that you want to display on the Team members tab in Your team menu in Employee Center. For example, configure a column title to denote the current status of an employee such as new hire, or on leave.
 
 ## Before you begin
 
@@ -31,7 +31,7 @@ Role required: sn\_mh.admin
     |Field|Description|
     |-----|-----------|
     |Column title|Name of the team column configuration record. For example, Location.|
-    |Order|Order in which the column must appear on the Team members tab in Your team menu.|
+    |Order|Order in which the column must appear on the Team members tab in Your team menu in Employee Center.|
     |Active|Option to activate or deactivate the team column configuration.|
 
 4.  Click **Submit**.
@@ -106,8 +106,6 @@ Order in which you want to display the column display fields on the Team members
 [Activate a scheduled job]()
 
 [Configure important dates]()
-
-[Configure manager insights for ServiceNow Otto for HRSD]()
 
 [Configure team requests]()
 

@@ -1,39 +1,35 @@
 ---
-title: Configure templates and pages
+title: Playbook pages
 description: Use playbook pages in CRM Workspace so that your agents can view the stages and activities in a playbook, work on activities, and have quick access to in-context information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-playbook-pages.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Workspace, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# Configure templates and pages
+# Playbook pages
 
 Use playbook pages in CRM Workspace so that your agents can view the stages and activities in a playbook, work on activities, and have quick access to in-context information.
 
-## Pages, page templates, and page variants
+## Overview of templates, pages, and page variants
 
-Pages provide the base structure for how record information is displayed in CRM Workspace. Pages are created and customized in [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md), a web user interface builder. Pages and page variants can also include playbooks, which are created in Workflow Studio and provide step-by-step guidance for resolving a specific type of case.
+Pages provide the base structure for how the system displays record information in CRM Workspace. You can create and customize pages with [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md), a web user interface builder.
 
-A page template is a pre-defined page configuration. When a page is created in UI Builder, a page template can be selected as a starting point. A page can also be created from scratch or by copying and then customizing an existing page.
+A page template is a pre-defined page configuration. When you create a page in UI Builder, you can select a page template as a starting point. You can also create a page from scratch or by copying another page and then customizing the page to meet your needs.
 
 A page variant is a version of a page that includes unique settings such as the audience, conditions, and page order. For more information about templates, pages, and page variants, see [Creating pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-csm-ws-create-page-variant.md).
 
-## CSM page templates
+Pages and page variants can also include playbooks, which are created in Workflow Studio. A playbook provides step-by-step guidance for resolving a specific type of case. The workflows that are associated with a specific type of case and the activities that need to be completed to resolve cases of this type are detailed in the playbook.
 
-The following page templates are available with the Playbooks for Customer Service Management application \[com.sn\_csm\_playbook\]. For more information, see [Playbook plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setting-up-csm-playbooks.md).
+## Playbook pages
 
-|Page template|Description|
-|-------------|-----------|
-|[Case playbook: horizontal stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-horizontal-stages.md)|Includes a horizontal stage picker that displays across the top of the UI and shows persistent information in the left panel.|
-|[Case playbook: vertical stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-vertical-stages.md)|Includes a vertical stage picker that displays in the left panel. This stage picker can track overall progress on the UI in a vertical view.|
+The Playbooks for Customer Service Management plugin provides the following playbook pages:
 
-Considerations for using these page templates include the number of stages that appear in the picker and the length of the stage names. For example, longer stage names in the horizontal playbook can be truncated.
-
-**Note:** By default, the playbook page templates aren’t active. To activate a page template, see [Activate a playbook page or page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/activate-process-based-page.md).
+-   [Case playbook: horizontal stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-horizontal-stages.md) page
+-   [Case playbook: vertical stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-vertical-stages.md) page
 
 Additional CSM playbook applications provide playbook pages that you can activate and use with case types in CRM Workspace.
 
@@ -47,9 +43,17 @@ For more information, see [Playbook plugins](https://raw.githubusercontent.com/S
 
 **Note:** By default, playbook pages are read-only. To use a playbook page, [activate the page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/activate-process-based-page.md) and set the page order.
 
+## Benefits of using playbook pages
+
+Resolving customer issues or requests often involves the execution of tasks across multiple users, departments, and systems. Different users are responsible for different tasks within the overall resolution process. Using playbooks provides the following benefits:
+
+-   An experience that is tailored to customer service agents and other users.
+-   Visibility into the overall resolution process, the current stage in the process, and the activities that need to be completed within that stage.
+-   Access to in-context information.
+
 ## Configuring playbook pages
 
-The following table includes task information for activating and customizing a playbook page. Most customization is done in UI Builder and can happen during setup or after the page is in use.
+The following table includes configuration tasks for playbook pages.
 
 <table id="table_sth_yrb_dxb"><thead><tr><th>
 
@@ -162,14 +166,14 @@ If a playbook is configured to use the playbook record generator feature, an age
 
 </td></tr><tr><td>
 
-[Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-workspace.md)
+[Resolve a case using a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbooks-using.md)
 
 </td><td>
 
 Opening a case takes the agent to the first open assigned activity. An agent can do the following actions while working on the activities in a playbook:
 
--   View the entire playbook process in the Horizontal stage picker. [Case playbook: horizontal stages record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-horizontal-stages.md)
--   View the activities for each stage in the stacked [Select a playbook activity view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/playbook-select-activity-view.md).
+-   View the entire playbook process in the [horizontal stage picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-templates.md).
+-   View the activities for each stage in the stacked [playbook activity view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-layout.md).
 -   [Use the activity stream in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbooks-using-activity-stream.md)
 -   [Filter activity cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-filter-activities.md).
 -   Select an activity and perform the work required in the main work area.

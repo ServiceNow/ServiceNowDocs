@@ -7,7 +7,7 @@ release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Third-party contract review requests, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -48,15 +48,15 @@ As a collaborator added to a request, you can access and work on the request jus
 
 3.  In the **Lists** tab, navigate to **Legal Requests** or **Contract Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d729225e165">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d726466e165">
 
 Option
 
-</th><th align="left" id="d729225e168">
+</th><th align="left" id="d726466e168">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d729225e174">
+</th></tr></thead><tbody><tr><td id="d726466e174">
 
 **As an assignee**
 
@@ -66,7 +66,7 @@ Steps
 2.  Select a contract request to work on.
 
 
-</td></tr><tr><td id="d729225e195">
+</td></tr><tr><td id="d726466e195">
 
 **As a collaborator**
 
@@ -157,15 +157,15 @@ Steps
         -   To indicate that the email should be sent later, select **Save as draft**.
 12. In the **Signatories** tab, add signatories to whom the contract will be sent for signature by selecting **Add**.
 
-<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d729225e582">
+<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d726466e582">
 
 Option
 
-</th><th align="left" id="d729225e585">
+</th><th align="left" id="d726466e585">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d729225e591">
+</th></tr></thead><tbody><tr><td id="d726466e591">
 
 **Internal**
 
@@ -184,7 +184,7 @@ The **Signatory Role** field is visible only when the **sn\_cm\_core.enable\_doc
 
 To enable this property, see [Enable signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-enable-signatory-roles.md). For more information about signatory roles, see [Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-signatory-roles.md).
 
-</td></tr><tr><td id="d729225e673">
+</td></tr><tr><td id="d726466e673">
 
 **External**
 

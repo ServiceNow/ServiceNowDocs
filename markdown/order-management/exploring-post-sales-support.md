@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/exploring-post-sales-support.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Configure, price, quote apps, Explore, Sales Customer Relationship Management]
+breadcrumb: [Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # Customer Contracts and Entitlements
@@ -16,7 +16,7 @@ The Customer Contracts and Entitlements application for Customer Service Managem
 
 ## Customer Contracts and Entitlements overview
 
-You can use the Customer Contracts and Entitlements application to manage contracts from the initial offer to contract finalization, directly within the CSM Configurable Workspace. You can also manage customer contracts and entitlements life cycle changes, scope modifications, and cancellations. The application enables tracking of entitlements and improves contract compliance.
+You can use the Customer Contracts and Entitlements application to manage contracts from the initial offer to contract finalization, directly within the CRM Workspace. You can also manage customer contracts and entitlements life cycle changes, scope modifications, and cancellations. The application enables tracking of entitlements and improves contract compliance.
 
 A customer contract acts as an agreement between the customer and the organization. A contract includes the consumer or account details, the products covered, and the contract term. Contract lines store information related to the product or services purchased as a part of the contract.
 

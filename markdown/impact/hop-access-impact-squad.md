@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/hop-access-impact-squad.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring Impact, Impact]
 ---
@@ -16,7 +16,7 @@ Familiarize yourself with your ServiceNow Impact Squad, a dedicated team of expe
 
 ## Before you begin
 
-Impact squad members can easily log in and access customer instances to facilitate effective support and rapid issue resolution. During the Guided Setup onboarding process, you’ll be able to provide consent on the Know your Squad and Grant SNC Access page. Select your Squad members then select **Approve** and the selected members will have read-only access to your Impact Store Application.
+Impact squad members can easily log in and access customer instances to facilitate effective support and rapid issue resolution. As part of initial setup, you’ll be able to provide consent on the Know your Squad and Manage Instance Access page. Select your Squad members then select **Approve** and the selected members will have read-only access to your Impact Store Application.
 
 When approved,  the selected members  gain read-only access  to your Impact Store Application for 30 days. 
 
@@ -28,7 +28,7 @@ Role required: impact\_platform\_owner or admin
 
 1.  Navigate to **All** &gt; **Impact** &gt; **Overview**.
 
-    Squad access can also be added from the **Know your Squad and Manage Instance Access** step in the Impact Guided Setup.
+    Squad access can also be added as part of initial setup.
 
 2.  In the Your Impact Squad widget, select **View Squad access to your instance**.
 
@@ -102,7 +102,7 @@ Refer to [Using Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowD
 
 **Parent Topic:**[Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configuring-impact-platform.md)
 
-**Previous topic:**[Configure other integration options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-other-integration-options.md)
+**Previous topic:**[Initiate data migration from IDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/initiate-migration-idi.md)
 
-**Next topic:**[Activate Now Assist Skills for Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/activate-now-assist-skills-in-now-assist-for-impact.md)
+**Next topic:**[Impact Guided Setup \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/guided-setup-impact-in-app.md)
 

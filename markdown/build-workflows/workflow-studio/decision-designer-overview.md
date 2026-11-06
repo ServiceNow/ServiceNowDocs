@@ -1,5 +1,5 @@
 ---
-title: Exploring decision tables
+title: Exploring Decision Tables
 description: Decision tables in Workflow Studio enable developers to decouple decision logic from their code by creating and maintaining decision rules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/decision-designer-overview.html
@@ -7,12 +7,12 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-07-22"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Decision tables, Workflow Studio, Build workflows]
 ---
 
-# Exploring decision tables
+# Exploring Decision Tables
 
 Decision tables in Workflow Studio enable developers to decouple decision logic from their code by creating and maintaining decision rules.
 
@@ -24,28 +24,8 @@ For an in-depth review and demo of decision table features and benefits, see [De
 
 -   As of the Washington DC release, Decision Builder is now part of Workflow Studio. Workflow Studio gives you a streamlined way to author, configure, and monitor processes, flows, subflows, playbooks, actions, and decision tables in one place.
 -   The core Decision Builder feature is still available with the ServiceNow AI Platform® by default, but the latest updates are available for download through the Workflow Studio application in the ServiceNow® Store.
--   For more information about this update, see the Washington DC Decision Builder release notes.
 
-## Get started
-
-<table id="table_p4v_mvz_nyb" class="nav-card"><tbody><tr><td>
-
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about decision table concepts and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/exploring-decision-builder.md)
-
-</td><td>
-
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure environments, tools, and user access for decision tables in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/configuring-decision-builder.md)
-
-</td></tr><tr><td>
-
-[Use\[Omitted image "bus-service-aware-cmdb.svg"\] Alt text:Build decision tables in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/using-decision-builder.md)
-
-</td><td>
-
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about decision table properties and Domain Separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/decision-builder-reference.md)
-
-</td></tr></tbody>
-</table>## Features
+## Features
 
 **Note:** After you install Workflow Studio decision tables, you can only access decision tables previously created in the classic environment through Workflow Studio. You can no longer create or modify decision tables in the classic environment.
 
@@ -53,7 +33,7 @@ Workflow Studio provides an intuitive interface to create and manage decision ta
 
 Decision tables embed business logic into a series of if-then decision rules. Decision tables read data from inputs and evaluate the data according to specified conditions. When all the conditions for a decision rule are met, the decision table returns one or more results.
 
-Administrators can use the delegated development capability to manage workload efficiently by assigning the delegated development role to developers or non-admin users. A delegated developer has more permissions than a user, but less than an admin. Non-admin designated users can create and manage decision tables at the application level. For more information, see [Delegated development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_DelegatedDevelopment.md).
+Administrators can use the delegated development capability to manage workload efficiently by assigning the delegated development role to developers or non-admin users. A delegated developer has more permissions than a user, but less than an admin. Non-admin designated users can create and manage decision tables at the application level. For more information, see Delegated development.
 
 Decision tables in Workflow Studio enable you to do the following:
 
@@ -65,7 +45,7 @@ Decision tables in Workflow Studio enable you to do the following:
 
 Decision tables in Workflow Studio provide the following benefits:
 
--   Build complex decisions with decision tables.
+-   Build complex decisions easily with decision tables.
 -   Meet changing business requirements and quickly update decisions by modifying only the decision logic and not the application code.
 -   Increase efficiency by reusing decision logic across multiple applications.
 -   Evaluate data at runtime from multiple sources, including existing ServiceNow records and data from external sources.
@@ -88,16 +68,16 @@ Reference
 
 </th></tr></thead><tbody><tr><td>
 
-[App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-overview.md)
+App Engine Studio
 
 </td><td>
 
--   App Engine Studio \(AES\) provides an IDE application-like interface for app developers to build custom applications in one centralized location. It maintains your organization's brand and application development standards.
+-   App Engine Studio \(AES\) provides an Integrated Development Environment \(IDE\) application-like interface for app developers to build custom applications in one centralized location while maintaining your organization's brand and application development standards.
 -   AES users can create decision tables using an AES wizard and access existing decision tables for their applications without leaving AES.
 
 </td><td>
 
-See [Add a decision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/add-automation.md) in App Engine Studio.
+See Add a decision in App Engine Studio.
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

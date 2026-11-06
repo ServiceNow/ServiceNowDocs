@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/imp-considerations.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -30,8 +30,6 @@ Use the camera on your mobile device to scan barcodes into your instance using m
 Learn about upgrading to ServiceNow mobile, and how to install plugins to get your users started with the ServiceNow mobile platform.
 -   **[AppConfig for Mobile Apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/appconfig.md)**  
 Use AppConfig to define a default instance and browser for your managed mobile apps.
--   **[Mobile experience switcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-experience-switcher.md)**  
-Enable users to switch between multiple mobile app experiences, also known as mobile app config, in the Settings page. The mobile experience switcher allows users to select multiple app experiences that match the users roles and permissions.
 -   **[Supported mobile device management vendors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-vendors.md)**  
 Learn how to configure mobile device management software from supported vendors to distribute ServiceNow mobile apps.
 -   **[Mobile system property configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/additional-mobile-configuration.md)**  

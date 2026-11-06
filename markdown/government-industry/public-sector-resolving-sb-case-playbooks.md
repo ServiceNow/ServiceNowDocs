@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/public-sector-resolving-sb-case-playbooks.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Using Social Benefits Playbook, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 ---
@@ -16,7 +16,7 @@ You can use playbooks to create cases and to complete the tasks and activities t
 
 **Note:** Verify that the Social Benefits Playbook application, which is separate from the Public Sector Digital Services Core application, has been installed and configured. For instructions, see [Install and configure the Social Benefits Playbook application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/configuring-social-benefit-playbook.md).
 
-By default, the following stages are available to you as a government service agent in the Social Benefits Playbook in the CRM Workspace.
+By default, the following stages are available to you as a government service agent in the Social Benefits Playbook in the Public Sector Workspace.
 
 -   Intake
 -   Review
@@ -47,7 +47,7 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.relationship\_agent, sn\_gsm.
 
 ### Procedure
 
-1.  In the CRM Workspace, navigate to **Lists** &gt; **Social Benefits** &gt; **All**.
+1.  In the Public Sector Workspace, navigate to **Lists** &gt; **Social Benefits** &gt; **All**.
 
 2.  Select **New** to create a case.
 

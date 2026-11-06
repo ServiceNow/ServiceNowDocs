@@ -1,16 +1,16 @@
 ---
-title: Domain Separation AI agent
+title: Domain Visibility AI agent
 description: The Domain Visibility AI agent enables Domain Admins to manage user domain visibility using guided, conversational workflows in the ServiceNow Otto panel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/domain-sep-aia-new.html
 release: australia
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-10-16"
 reading_time_minutes: 3
-breadcrumb: [Reference, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Reference, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
-# Domain Separation AI agent
+# Domain Visibility AI agent
 
 The Domain Visibility AI agent enables Domain Admins to manage user domain visibility using guided, conversational workflows in the ServiceNow Otto® panel.
 
@@ -34,15 +34,15 @@ Ensure the following requirements are met before using the AI agent:
 -   AI capabilities are enabled on the instance.
 -   You are signed in with a Domain Admin role.
 
-## Role masking
+## Role filtering
 
 Required role: Domain Admin.
 
-AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/implement-aias-security-new.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/define-sec-controls-aia.md).
+AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/define-sec-controls-aia.md).
 
 In the data access settings, you must also add the necessary roles to enable reading of the tables for the records you want to evaluate for readiness. For example, you can add the itil role to the AI agent's list of approved roles so that it can access Incident records.
 
-## Accessing the Issue Readiness AI agent
+## Accessing the Domain Visibility AI agent
 
 To access the AI agent:
 
@@ -50,7 +50,7 @@ To access the AI agent:
 2.  Go to the **AI Agents** tab.
 3.  Select **Domain Visibility**.
 
-## Access the AI agent
+## Start a conversation with an AI agent
 
 1.  Open the ServiceNow Otto panel.
 2.  Start a new interaction.
@@ -62,7 +62,7 @@ The agent displays the available domain visibility operations and guides you thr
 
 Use this operation to view all domains a user can access.
 
-1.  Select **List domain visibility** from the agent’s options.
+1.  Select **List domain visibility** from the agent's options.
 2.  Provide the name of the user whose domain visibility you want to view.
 
 The agent retrieves all domain visibility entries associated with the user.
@@ -71,12 +71,12 @@ The agent retrieves all domain visibility entries associated with the user.
 
 Use this operation to grant a user visibility to a specific domain.
 
-1.  Select **Add domain visibility** from the agent’s available options.
+1.  Select **Add domain visibility** from the agent's available options.
 2.  Provide the requested inputs:
     -   **User name**
     -   **Domain name**
 3.  The agent validates that the specified user and domain exist.
-4.  Confirm the user name and domain name and that you want to add the visibility for the user.
+4.  Confirm the user name and the domain name, and confirm that you want to add visibility for the user.
 
 The agent adds visibility for the specified domain to the specified user.
 
@@ -84,9 +84,9 @@ The agent adds visibility for the specified domain to the specified user.
 
 ## Remove domain visibility from a user
 
-Use this operation to revoke a user’s visibility to a specific domain.
+Use this operation to revoke a user's visibility to a specific domain.
 
-1.  Select **Remove domain visibility** from the agent’s available options.
+1.  Select **Remove domain visibility** from the agent's available options.
 2.  Provide the requested inputs:
     -   **User name**
     -   **Domain name**

@@ -7,7 +7,7 @@ release: australia
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Migrating automations from third-party applications, Use, Automation Center, Workflow Data Fabric]
 ---
@@ -41,7 +41,7 @@ When a technical user tries to either upload a ZIP file or provide a URL when ge
     You have two options:
 
     -   Current Instance \(shows by default\): The logged-in user must have the rpa\_developer role, and the current instance must have app-rpa-foundation version 15.0.0 or later.
-    -   Remote Instance \(Configured via Connection and Credentials alias\) - The user with whom the credentials are associated must have the rpa\_developer role and the remote instance must have app-rpa-foundation version 15.0.0 or later.
+    -   Remote Instance \(Configured via Connection and Credentials alias\): The user with whom the credentials are associated must have the rpa\_developer role and the remote instance must have app-rpa-foundation version 15.0.0 or later.
     For information on how to configure an instance, see [Configure an instance for migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/config-instance.md).
 
 7.  Select **Continue**.

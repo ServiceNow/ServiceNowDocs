@@ -5,13 +5,18 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/test-agent-references.html
 release: australia
 topic_type: concept
-last_updated: "2026-04-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Test Agent, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Test Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Test Agent references
 
 The reference topics provide additional information about Test Agent.
+
+-   **[Test Agent guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/test-agent-exceptions.md)**  
+Leverage the full potential of Test Agent by following these guidelines.
+
+**Parent Topic:**[Test Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/test-agent-landing-page.md)
 

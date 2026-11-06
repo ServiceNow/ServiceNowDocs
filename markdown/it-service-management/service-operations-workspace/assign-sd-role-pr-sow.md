@@ -1,5 +1,5 @@
 ---
-title: Assign the Password Reset Service Desk role to the user
+title: Assign the password reset service desk role to the user
 description: Assign the password reset service desk agent \(password\_reset\_service\_desk\) role to the users to work on the incidents or interactions related to the password reset issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/assign-sd-role-pr-sow.html
@@ -7,12 +7,12 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up Service Desk assisted Password Reset in Service Operations Workspace, Setting up integrations in Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
-# Assign the Password Reset Service Desk role to the user
+# Assign the password reset service desk role to the user
 
 Assign the password reset service desk agent \(password\_reset\_service\_desk\) role to the users to work on the incidents or interactions related to the password reset issues.
 
@@ -24,13 +24,13 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Service Operations Workspace** &gt; **Overview**.
 
-2.  On the **Admin Center** page, do one of the following:
+2.  On the Admin Center page, do one of the following:
 
     -   In the **Overview** tab, select the **Configure** button in the **Service Desk Assisted Password Reset** card.
-    -   In the **Configurations** tab, select **Service Desk Assisted Password Reset** card.
+    -   In the **Configurations** tab, select the **Service Desk Assisted Password Reset** card.
 3.  On the **Password reset agents** card, select **Configure**.
 
-    A new tab containing the list of users who have the service desk assisted password reset role\(password\_reset\_service\_desk\) is displayed.
+    A new tab containing the list of users who have the service desk assisted password reset role \(password\_reset\_service\_desk\) is displayed.
 
 4.  Select **New**.
 
@@ -38,7 +38,7 @@ Role required: admin
 
     |Field|Description|
     |-----|-----------|
-    |User|Users whom the password reset role \(password\_reset\_service\_desk\) must be assigned.|
+    |User|Users to whom the password reset role \(password\_reset\_service\_desk\) must be assigned.|
     |Role|Password reset service desk role to be assigned.|
 
 6.  Select **Submit**.

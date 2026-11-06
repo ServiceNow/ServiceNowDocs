@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/bcp-admin-plan-templates.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Setup for a BCP, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -45,16 +45,6 @@ See the table for more information on different types of demo data plan template
 ## Creating a plan template for your business requirement
 
 Instead of using the demo data templates, you can create a template for your specific requirement. For more information on creating a plan template for your business requirement, see [Configure the business continuity plan template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/configure-a-bcp-template-uib-ws.md).
-
-## Pre-populating tasks and strategies with templates
-
-Plan templates can reference recovery strategy templates, task template groups, and task templates. When a planner creates a plan from such a template, the system creates the corresponding records automatically:
-
--   Plan-level task template groups and task templates produce tasks on the plan **Recovery tasks** tab.
--   Loss-scenario-level templates produce tasks on the loss scenario **Recovery tasks** tab.
--   Recovery-strategy-level templates produce tasks on the recovery strategy **Recovery tasks** tab.
-
-Task dependencies that are defined inside a task template group are preserved on the created tasks.
 
 -   **[Configure the business continuity plan template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/configure-a-bcp-template-uib-ws.md)**  
 Configure the business continuity plan template in the Business Continuity Management application for your business. You can use the plan template to recover a specific primary element such as Employees or Web Servers. Similarly, you can create a plan template for different plan authoring types such as documentation, loss scenarios, and recovery tasks.

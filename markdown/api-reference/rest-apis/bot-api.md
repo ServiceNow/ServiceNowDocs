@@ -7,8 +7,8 @@ release: australia
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 35
+last_updated: "2026-09-10"
+reading_time_minutes: 38
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
 
@@ -63,13 +63,13 @@ action
 Action that the VA should take.Valid values:
 
 -   [AGENT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/bot-api.md): Switches the conversation from VA to Live Agent.
--   [CREATE\_CONVERSATION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/bot-api.md): Creates a chat interaction. Set **syncResponse** to `true` to return the conversation and interaction details back in the response.
+-   [CREATE\_CONVERSATION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/bot-api.md): Creates a chat interaction. Set **syncResponse** to `true` to process the request synchronously and eliminate timing issues.
 -   [END\_CONVERSATION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/bot-api.md): Ends the chat conversation. The **message.text** parameter should be empty when using this action.
 -   [FAULT\_CONVERSATION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/bot-api.md): Faults a conversation. When setting a FAULT\_CONVERSATION action, provide a description for the **cause** parameter.
 -   [SEND\_HISTORY](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/bot-api.md): Updates only the chat history. The chat history can also be sent using standard message processing with the **history** parameter.
 -   SET\_USER\_TIMEZONE: Sets the user’s time zone to the time zone specified in the **timezone** parameter. This time zone remains in effect until you reset it using this same parameter.
 -   [START\_CONVERSATION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/bot-api.md): Starts a chat conversation.
--   [START\_CREATED\_CONVERSATION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/bot-api.md): Starts a chat conversation initiated using `CREATE_CONVERSATION`. Set **syncResponse** to `true` to process the request synchronously and avoid race conditions that cause timing issues.
+-   [START\_CREATED\_CONVERSATION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/bot-api.md): Starts a chat conversation initiated using `CREATE_CONVERSATION`. Set **syncResponse** to `true` to process the request synchronously and eliminate timing issues.
 -   [SWITCH](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/bot-api.md): Switch the conversation to a topic that matches what is specified in the **intent.id** or **topic.name** parameters.
 
 **Note:** Only use the `SWITCH` action for topic switching when the intent discovery happens in the primary bot. If the intent discovery happens in the ServiceNow® VA, use the **message.text** parameter.
@@ -182,6 +182,7 @@ History of the primary bot’s conversation with the user, starting with the ini
 
 ```
 "history": {
+  "attachment": {Object},
   "displayName": "String",
   "isBotMessage": Boolean,
   "timestamp": "String",
@@ -189,6 +190,93 @@ History of the primary bot’s conversation with the user, starting with the ini
   "value": "String"
 }
 ```
+
+</td></tr><tr><td>
+
+history.attachment
+
+</td><td>
+
+Required when **history.type** is `attachment` \(ignored if **history.type** is `text`\). Details of each attachment sent in the historical message.Only a single attachment is allowed per **attachment** object.
+
+Data type: Object
+
+```
+"attachment": {
+    "clientAttachmentId": "String",
+    "contentType": "String",
+    "fileName": "String",
+    "headers":{Object},
+    "url": "String"
+  }
+```
+
+</td></tr><tr><td>
+
+history.attachment.clientAttachmentId
+
+</td><td>
+
+Unique identifier of the attachment. The format of this identifier is determined by the implementer. Data type: String
+
+Default: Null
+
+</td></tr><tr><td>
+
+history.attachment.contentType
+
+</td><td>
+
+Required if **history.attachment** is specified. Standard mime type of the attachment. Valid values \(not case-sensitive\):
+
+-   `application/pdf`
+-   `application/msword`
+-   `image/png`
+-   `image/jpeg`
+-   `text/plain`
+-   `video/mpeg`
+
+Data type: String
+
+</td></tr><tr><td>
+
+history.attachment.fileName
+
+</td><td>
+
+Required if **history.attachment** is specified. File name of the attachment.Data type: String
+
+</td></tr><tr><td>
+
+history.attachment.headers
+
+</td><td>
+
+Additional information needed if the attachment file is private and protected. Data type: Object
+
+```
+"headers": {
+ "Authorization": "String"
+}
+```
+
+</td></tr><tr><td>
+
+history.attachment.headers.Authorization
+
+</td><td>
+
+Optional. Information needed to obtain authorization to access the attachment if it is private and protected, such as a user name and password.Data type: String
+
+</td></tr><tr><td>
+
+history.attachment.url
+
+</td><td>
+
+Required if **history.attachment** is specified. URL where the attachment is located.If the attachment isn't a public file, you must pass a **history.attachment.headers** object that contains the authorization information so that the attachment can be accessed. You must also ensure that the URL domain is present in the trusted domains field in the sys\_cs\_provider table.
+
+Data type: String
 
 </td></tr><tr><td>
 
@@ -227,7 +315,10 @@ history.type
 
 </td><td>
 
-Type of message sent.Valid values: text
+Type of message sent.Valid values:
+
+-   text
+-   attachment
 
 Data type: String
 
@@ -237,7 +328,7 @@ history.value
 
 </td><td>
 
-Content of the information. For example, the message text.Data type: String
+Content of the information. For example, the message text. Ignored when **history.type** is `attachment`.Data type: String
 
 </td></tr><tr><td>
 
@@ -396,7 +487,7 @@ message.status
 Message status.Valid values \(not case-sensitive\):
 
 -   external\_error - Used when message delivery is failed from third-party chat integration to end user. The agent chat panel will be reflected as a "Failed" tag.
--   sent\_to\_user - Initially a single tick mark displays for messages delivered from live agent to third- party chat integration. This status must be used when the message is successfully delivered from third-party chat integration to the end user. Upon success, the double tick mark displays on the agent chat panel.
+-   sent\_to\_user - Initially a single tick mark displays for messages delivered from Live Agent to third- party chat integration. This status must be used when the message is successfully delivered from third-party chat integration to the end user. Upon success, the double tick mark displays on the agent chat panel.
 
 Data type: String
 
@@ -1472,81 +1563,7 @@ Identifier of the end user who is interacting with the bot.Data type: String
 </td></tr></tbody>
 </table>### Start a conversation using the START\_CONVERSATION action
 
-The following example shows how to use the [START\_CONVERSATION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/bot-api.md) action to start a conversation with Virtual Agent. This call directs the user to the greeting topic.
-
-```
-curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
---request POST \
---header "Accept:application/json" \
---header "Content-Type:application/json" \
---data "{ 
-  "requestId": "asd2423-sda23-qwe23-we23", 
-  "action": "START_CONVERSATION", 
-  "enterpriseId": "ServiceNow", 
-  "nowBotId": "A85PWLERF", 
-  "clientSessionId": "", 
-  "nowSessionId": "",
-  "message":{ 
-    "text": "", 
-    "typed": true, 
-    "clientMessageId": "ABC-123" 
-  }, 
-  "userId": "beth.anglin", 
-  "emailId": "beth.anglin@example.com", 
-  "timestamp": 1588824102, 
-  "timezone": "America/New_York" 
-}"
---user "username":"password"
-
-```
-
-The following is the response body sent from the VA to the configured response endpoint.
-
-```
-{ 
-  "requestId":"asd2423-sda23-qwe23-we23", 
-  "clientSessionId":"", 
-  "nowSessionId":"", 
-  "message":{ 
-    "text":"", 
-    "typed":true, 
-    "clientMessageId":"ABC-123" 
-  },
-  "userId":"beth.anglin", 
-  "body":[ 
-    { 
-      "uiType":"OutputText", 
-      "group":"DefaultText", 
-      "value":"Hi, I'm your Virtual Agent. Let me know how I can help you today.", 
-      "maskType":"NONE" 
-    },
-    { 
-      "uiType":"TopicPickerControl", 
-      "group":"DefaultPicker", 
-      "nluTextEnabled":false, 
-      "promptMsg":"Hi guest, please enter your request or make a selection of what I can help with. You can type help any time when you need help.", 
-      "label":"Show me everything", 
-      "options":[ 
-        { 
-          "label":"b2b topic", 
-          "value":"2bb7bd7670de6010f877c7f188266fc7", 
-          "enabled":true 
-        }, 
-        { 
-           "label":"Live Agent Support.", 
-           "value":"ce2ee85053130010cf8cddeeff7b12bf", 
-           "enabled":true 
-        } 
-      ] 
-    }
-  ],
-  "score":1 
-} 
-```
-
-### Create a chat interaction
-
-The following example shows how to use the [CREATE\_CONVERSATION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/bot-api.md) action to create a chat interaction.
+This example starts a new conversation for the user jane.doe by using the [START\_CONVERSATION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/bot-api.md) action. Because the message text is empty, Virtual Agent responds with its greeting and a list of topics the user can choose from.
 
 ```
 curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
@@ -1554,39 +1571,111 @@ curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
 --header "Accept:application/json" \
 --header "Content-Type:application/json" \
 --data "{
-  "requestId": "f42f3550-5b44-4cde-aa52-9b6756b3131c",
+  "requestId": "example-request-001",
+  "action": "START_CONVERSATION",
+  "enterpriseId": "ExampleCompany",
+  "nowBotId": "EXAMPLE_BOT_ID",
+  "clientSessionId": "",
+  "nowSessionId": "",
+  "message":{
+    "text": "",
+    "typed": true,
+    "clientMessageId": "msg-001"
+  },
+  "userId": "jane.doe",
+  "emailId": "jane.doe@example.com",
+  "timestamp": 1588824102,
+  "timezone": "America/New_York"
+}"
+--user "username":"password"
+```
+
+Virtual Agent sends the following response to the configured response endpoint. It contains a greeting message and a topic picker with two available topics.
+
+```
+{
+  "requestId":"example-request-001",
+  "clientSessionId":"",
+  "nowSessionId":"",
+  "message":{
+    "text":"",
+    "typed":true,
+    "clientMessageId":"msg-001"
+  },
+  "userId":"jane.doe",
+  "body":[
+    {
+      "uiType":"OutputText",
+      "group":"DefaultText",
+      "value":"Hi, I'm your Virtual Agent. Let me know how I can help you today.",
+      "maskType":"NONE"
+    },
+    {
+      "uiType":"TopicPickerControl",
+      "group":"DefaultPicker",
+      "nluTextEnabled":false,
+      "promptMsg":"Hi guest, please enter your request or make a selection of what I can help with. You can type help any time when you need help.",
+      "label":"Show me everything",
+      "options":[
+        {
+          "label":"Order Status",
+          "value":"1111aaaa1111aaaa1111aaaa1111aaaa",
+          "enabled":true
+        },
+        {
+          "label":"Live Agent Support.",
+          "value":"2222bbbb2222bbbb2222bbbb2222bbbb",
+          "enabled":true
+        }
+      ]
+    }
+  ],
+  "score":1
+}
+```
+
+### Create a chat interaction
+
+This example uses the [CREATE\_CONVERSATION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/bot-api.md) action to create a chat interaction for the user john.smith. The response returns the IDs of the new conversation, interaction, and message, which you can use in later requests.
+
+```
+curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
+--request POST \
+--header "Accept:application/json" \
+--header "Content-Type:application/json" \
+--data "{
+  "requestId": "example-request-002",
   "clientSessionId": "",
   "action": "CREATE_CONVERSATION",
   "message": {
     "text": "hi",
     "typed": false
   },
-  "userId": "abel.tuter",
-  "emailId": "abel.tuter@example.com"
+  "userId": "john.smith",
+  "emailId": "john.smith@example.com"
 }"
 --user "username":"password"
-
 ```
 
-The following is the response body sent from the VA to the configured response endpoint.
+Virtual Agent sends the following response to the configured response endpoint. It confirms that the conversation was created and includes the generated IDs.
 
 ```
 {
-  "requestId": "f42f3550-5b44-4cde-aa52-9b6756b3131c",
+  "requestId": "example-request-002",
   "clientSessionId": "",
   "message": {
     "text": "hi",
     "typed": false
   },
-  "userId": "abel.tuter",
-  "interactionId": "240c91c8fd9f2e50f877c29ac5fbe8ed",
+  "userId": "john.smith",
+  "interactionId": "abcd1234abcd1234abcd1234abcd1234",
   "body": [
     {
       "uiType": "ActionMsg",
       "actionType": "CreateConversation",
-      "conversationId": "a40c91c8fd9f2e50f877c29ac5fbe8eb",
-      "interactionId": "240c91c8fd9f2e50f877c29ac5fbe8ed",
-      "messageId": "b80c91c8fd9f2e50f877c29ac5fbe8f8"
+      "conversationId": "bcde2345bcde2345bcde2345bcde2345",
+      "interactionId": "abcd1234abcd1234abcd1234abcd1234",
+      "messageId": "cdef3456cdef3456cdef3456cdef3456"
     }
   ],
   "score": 1
@@ -1595,7 +1684,7 @@ The following is the response body sent from the VA to the configured response e
 
 ### Start a synchronous CREATE\_CONVERSATION conversation
 
-The following example initiates a new Virtual Agent conversation with the [CREATE\_CONVERSATION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/bot-api.md) action and waits for a synchronous response before returning. The **syncResponse** parameter is set to `true`, indicating that the API should respond synchronously.
+This example creates a conversation for jane.doe by using the [CREATE\_CONVERSATION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/bot-api.md) action with **syncResponse** set to `true`. Virtual Agent finishes processing the request before it responds, which avoids timing issues with follow-up requests. The context variables route the conversation to a live agent and pass an external session identifier.
 
 ```
 curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
@@ -1603,36 +1692,36 @@ curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
   --header "Accept:application/json" \
   --header "Content-Type:application/json" \
   --data '{
-    "requestId": "f42f3550-5b44-4cde-aa52-9b6756b31eee",
-    "userId": "first.last",
-    "emailId": "first.last@example.com",
+    "requestId": "example-request-003",
+    "userId": "jane.doe",
+    "emailId": "jane.doe@example.com",
     "action": "CREATE_CONVERSATION",
     "syncResponse": true,
     "message": {},
     "contextVariables": {
       "live_agent_only": "true",
-      "interaction_client_session_id": "externalId123456575"
+      "interaction_client_session_id": "external-session-001"
     },
-    "appInboundId": "NT"
+    "appInboundId": "EXAMPLE_APP"
   }' \
   --user "username":"password"
 ```
 
-Response body:
+Because the request is synchronous, the response is returned directly with the IDs of the new conversation, interaction, and message.
 
 ```
 {
-  "requestId": "f42f3550-5b44-4cde-aa52-9b6756b31eee",
+  "requestId": "example-request-003",
   "message": {},
-  "userId": "first.last", 
-  "appInboundId": "NT",
+  "userId": "jane.doe",
+  "appInboundId": "EXAMPLE_APP",
   "body": [
     {
       "uiType": "ActionMsg",
       "actionType": "CreateConversation",
-      "conversationId": "113927672fe7be10b252672bcfa4e353",
-      "interactionId": "9d3923a72fe7be10b252672bcfa4e3c4",
-      "messageId": "553923a72fe7be10b252672bcfa4e3e0"
+      "conversationId": "def04567def04567def04567def04567",
+      "interactionId": "ef015678ef015678ef015678ef015678",
+      "messageId": "f0126789f0126789f0126789f0126789"
     }
   ],
   "score": 1
@@ -1641,7 +1730,7 @@ Response body:
 
 ### Start a conversation initiated using the START\_CREATED\_CONVERSATION action
 
-The following example shows how to start a chat conversation that has been initiated using the [START\_CREATED\_CONVERSATION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/bot-api.md) action.
+This example starts a conversation that was previously created with the CREATE\_CONVERSATION action. The request identifies the user, and Virtual Agent responds with a greeting and a list of available topics.
 
 ```
 curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
@@ -1649,96 +1738,92 @@ curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
 --header "Accept:application/json" \
 --header "Content-Type:application/json" \
 --data "{
-  "requestId": "f42f3550-5b44-4cde-aa52-9b6756b3131c",
+  "requestId": "example-request-004",
   "clientSessionId": "",
   "action": "START_CREATED_CONVERSATION",
-  "userId": "abel.tuter",
-  "emailId": "abel.tuter@example.com"
+  "userId": "john.smith",
+  "emailId": "john.smith@example.com"
 }"
 --user "username":"password"
-
 ```
 
-The following is the response body sent from the VA to the configured response endpoint.
+Virtual Agent sends the following response to the configured response endpoint. It contains a greeting message and a topic picker listing nine example topics.
 
 ```
-{ 
-  "requestId":"302bas2be70-sadsa-we32-3eq2-1231ra9", 
+{
+  "requestId":"example-request-004",
   "clientSessionId":"",
-  "message":{ 
-    "text":"hola", 
-    "typed":true
-  }, 
-  "userId”:”abel.tuter", 
+  "message":{},
+  "userId":"john.smith",
   "body":[
-    { 
-      "uiType":"OutputText", 
+    {
+      "uiType":"OutputText",
       "group":"DefaultText",
       "value":"Hi, I'm your Virtual Agent. Let me know how I can help you today.",
       "maskType":"NONE"
     },
-    { 
-      "uiType":"TopicPickerControl", 
+    {
+      "uiType":"TopicPickerControl",
       "group":"DefaultPicker",
       "nluTextEnabled":false,
-      "promptMsg":"Hi guest, please enter your request or make a selection of what I can help with. You can type hellllp! any time when you need help.", 
+      "promptMsg":"Hi guest, please enter your request or make a selection of what I can help with. You can type help any time when you need help.",
       "label":"Show me everything",
       "options":[
         {
-          "label":"boolean check",
-          "value":"1b5257a1db712010d3d6d9595e9619f3",
-          "enabled":true
-        },
-        { 
-          "label":"Test_table_datepicker",
-          "value":"6515f0cadb4220108249f7541d961980",
-          "enabled":true
-        }, 
-        { 
-          "label":"Test File upload",
-          "value":"76c1f4b2db7520108249f7541d9619a7",
-          "enabled":true
-        },
-        { 
-          "label":"Test B2B 2",
-          "value":"8373e55cdb8120108249f7541d96196d",
+          "label":"Order Status",
+          "value":"1111aaaa1111aaaa1111aaaa1111aaaa",
           "enabled":true
         },
         {
-          "label":"FAQ Conversation Builder_Global",
-          "value":"9f3114a3dbc520108249f7541d961981",
+          "label":"Reset Password",
+          "value":"3333cccc3333cccc3333cccc3333cccc",
           "enabled":true
         },
         {
-          "label":"Get to know you",
-          "value":"a443dd6adb812010d3d6d9595e961954", 
+          "label":"Request Time Off",
+          "value":"4444dddd4444dddd4444dddd4444dddd",
           "enabled":true
-        }, 
-        { 
-          "label":"Get to know you_Global", 
-          "value":"b1a56b87db8120108249f7541d9619b2", 
-          "enabled":true 
+        },
+        {
+          "label":"Submit an IT Request",
+          "value":"5555eeee5555eeee5555eeee5555eeee",
+          "enabled":true
+        },
+        {
+          "label":"Report an Issue",
+          "value":"6666ffff6666ffff6666ffff6666ffff",
+          "enabled":true
+        },
+        {
+          "label":"Frequently Asked Questions",
+          "value":"7777aaaa7777aaaa7777aaaa7777aaaa",
+          "enabled":true
+        },
+        {
+          "label":"Update Profile",
+          "value":"8888bbbb8888bbbb8888bbbb8888bbbb",
+          "enabled":true
         },
         {
           "label":"Live Agent Support.",
-          "value":"ce2ee85053130010cf8cddeeff7b12bf",
+          "value":"2222bbbb2222bbbb2222bbbb2222bbbb",
           "enabled":true
         },
         {
-          "label":"Apply for PTO_B2B NLU",
-          "value":"d948c94cdb052010d3d6d9595e961969",
-          "enabled":true 
+          "label":"Track a Request",
+          "value":"9999cccc9999cccc9999cccc9999cccc",
+          "enabled":true
         }
       ]
-    } 
-   ], 
-   "score":1 
-} 
+    }
+  ],
+  "score":1
+}
 ```
 
 ### Start a synchronous START\_CREATED\_CONVERSATION conversation
 
-This example initiates the [START\_CREATED\_CONVERSATION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/bot-api.md) action and waits for a synchronous response before returning. The **syncResponse** parameter is set to `true`, indicating that the API should respond synchronously with the conversation details.
+This example starts a previously created conversation for jane.doe with **syncResponse** set to `true`. Virtual Agent processes the request before it responds, and the response includes the conversation details and the messages needed to connect the user to a live agent.
 
 ```
 curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
@@ -1746,37 +1831,37 @@ curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
   --header "Accept:application/json" \
   --header "Content-Type:application/json" \
   --data '{
-  "requestId": "f42f3550-5b44-4cde-aa52-9b6756b31eee",
-  "userId": "first.last",
-  "emailId": "first.last@example.com",
+  "requestId": "example-request-005",
+  "userId": "jane.doe",
+  "emailId": "jane.doe@example.com",
   "action": "START_CREATED_CONVERSATION",
   "syncResponse": true,
   "message": {},
-  "appInboundId": "NT"
+  "appInboundId": "EXAMPLE_APP"
   }' \
   --user "username":"password"
 ```
 
-Response body:
+The response returns the conversation ID, the support queue subscription, a wait-time message, and the chat presence details for the user.
 
 ```
 {
-  "requestId": "f42f3550-5b44-4cde-aa52-9b6756b31eee",
+  "requestId": "example-request-005",
   "message": {},
-  "userId": "first.last",
-  "appInboundId": "NT",
+  "userId": "jane.doe",
+  "appInboundId": "EXAMPLE_APP",
   "body": [
     {
       "uiType": "ActionMsg",
       "actionType": "StartConversation",
-      "conversationId": "113927672fe7be10b252672bcfa4e353",
-      "messageId": "6989aba72fe7be10b252672bcfa4e3b2"
+      "conversationId": "def04567def04567def04567def04567",
+      "messageId": "0123789a0123789a0123789a0123789a"
     },
     {
-      "uiType": "ActionMsg", 
+      "uiType": "ActionMsg",
       "actionType": "SubscribeToSupportQueue",
       "supportQueue": "{@type=InteractionQueue, external=false, type=interaction, queueAmbChannel=/cs/support_queue/c3lzX2lkPW51bGw=}",
-      "messageId": "a989aba72fe7be10b252672bcfa4e3d6"
+      "messageId": "1234890b1234890b1234890b1234890b"
     },
     {
       "uiType": "ActionMsg",
@@ -1784,15 +1869,15 @@ Response body:
       "spinnerType": "none",
       "message": "Routing you to a live agent...",
       "waitTime": "13 Seconds",
-      "messageId": "b189aba72fe7be10b252672bcfa4e3da"
+      "messageId": "2345901c2345901c2345901c2345901c"
     },
     {
       "uiType": "ActionMsg",
       "actionType": "SubscribeToChatPresence",
-      "channel": "/sn/rp/sys_cs_conversation/113927672fe7be10b252672bcfa4e353",
-      "userDetails": "{name=Guest, sysId=5136503cc611227c0183e96598c4f706, avatarPath=null, displayName=Guest, initials=G, showNameInHeader=false, userName=guest, email=guest@example.com, channel=null}",
-      "chatSessionId": "113927672fe7be10b252672bcfa4e353",
-      "messageId": "7189aba72fe7be10b252672bcfa4e3f0"
+      "channel": "/sn/rp/sys_cs_conversation/def04567def04567def04567def04567",
+      "userDetails": "{name=Guest, sysId=7890456b7890456b7890456b7890456b, avatarPath=null, displayName=Guest, initials=G, showNameInHeader=false, userName=guest, email=guest@example.com, channel=null}",
+      "chatSessionId": "def04567def04567def04567def04567",
+      "messageId": "3456012d3456012d3456012d3456012d"
     }
   ],
   "agentChat": true,
@@ -1802,7 +1887,7 @@ Response body:
 
 ### Fault a conversation using
 
-The following example shows how to using the [FAULT\_CONVERSATION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/bot-api.md) action and setting the value of the **cause** parameter.
+This example uses the [FAULT\_CONVERSATION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/bot-api.md) action to mark a conversation as failed for john.smith. The **cause** parameter describes the reason for the fault, and the response returns control to the primary bot.
 
 ```
 curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
@@ -1810,24 +1895,23 @@ curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
 --header "Accept:application/json" \
 --header "Content-Type:application/json" \
 --data "{
-  "requestId": "f42f3550-5b44-4cde-aa52-9b6756b3131c",
+  "requestId": "example-request-006",
   "clientSessionId": "",
   "action": "FAULT_CONVERSATION",
   "cause": "EXTERNAL_FAILURE",
-  "userId": "abel.tuter",
-  "emailId": "abel.tuter@example.com"
+  "userId": "john.smith",
+  "emailId": "john.smith@example.com"
 }"
 --user "username":"password"
-
 ```
 
-The following is the response body sent from the VA to the configured response endpoint.
+Virtual Agent sends the following response to the configured response endpoint. The empty body and **takeControl** value of `true` indicate that the primary bot now has control of the conversation.
 
 ```
 {
-  "requestId": "f42f3550-5b44-4cde-aa52-9b6756b3131c",
+  "requestId": "example-request-006",
   "clientSessionId": "",
-  "userId": "abel.tuter",
+  "userId": "john.smith",
   "body": [],
   "takeControl": true,
   "score": 0
@@ -1836,7 +1920,7 @@ The following is the response body sent from the VA to the configured response e
 
 ### Update the message on the agent chat panel
 
-The [UPDATE\_MESSAGES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/bot-api.md) action is used during live agent conversations and is used to reflect message updates on agent chat panel from third party chat integrations. This action can accept a list of messages and updates for all the messages can be done in a single run.
+This example uses the [UPDATE\_MESSAGES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/bot-api.md) action during a live agent conversation to report that delivery of a message to the end user failed. The agent chat panel then shows a `Failed` tag on that message. The action accepts a list of messages, so you can update several messages in one request.
 
 ```
 curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
@@ -1844,22 +1928,22 @@ curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
 --header "Accept:application/json" \
 --header "Content-Type:application/json" \
 --data "{
-  "requestId": "f42f3550-5b44-4cde-aa52-9b6756b3131c",
+  "requestId": "example-request-007",
   "clientSessionId": "",
   "message": [
     {
       "status": "external_error",
-      "id": "54623afeff762210efa1ffffffffff77"
+      "id": "4567123e4567123e4567123e4567123e"
     }
   ],
-  "userId": "abel.tuter",
-  "emailId": "abel.tuter@example.com",
+  "userId": "john.smith",
+  "emailId": "john.smith@example.com",
   "action": "UPDATE_MESSAGES"
 }"
 --user "username":"password"
 ```
 
-The following is the response message sent from the VA to the configured response endpoint.
+Virtual Agent sends the following confirmation message to the configured response endpoint.
 
 ```
 Message Processed Successfully
@@ -1867,7 +1951,7 @@ Message Processed Successfully
 
 ### Update only chat history
 
-The following example shows how to use the [SEND\_HISTORY](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/bot-api.md) action to update only chat history.
+This example uses the [SEND\_HISTORY](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/bot-api.md) action to send the earlier part of a conversation, including one attachment, from the primary bot to Virtual Agent. The history gives a live agent context for the conversation without starting a new message exchange.
 
 ```
 curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
@@ -1875,46 +1959,58 @@ curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
 --header "Accept:application/json" \
 --header "Content-Type:application/json" \
 --data "{
-  "requestId": "f42f3550-5b44-4cde-aa52-9b6756b3131c",
-"clientSessionId": "",
-  "userId": "abel.tuter",
-  "emailId": abel.tuter@example.com,
+  "requestId": "example-request-008",
+  "clientSessionId": "",
+  "userId": "jane.doe",
+  "emailId": "jane.doe@example.com",
   "action": "SEND_HISTORY",
   "history": [
     {
       "isBotMessage": true,
       "value": "How can I help you?",
-      "displayName": "Genesys Bot",
+      "displayName": "Bot",
       "type": "text",
-      "timestamp": "1739866290393"
+      "timestamp": "1760000000000"
     },
     {
       "isBotMessage": false,
       "value": "I am facing an issue while creating an incident.",
       "displayName": "User",
       "type": "text",
-      "timestamp": "1739877357223"
+      "timestamp": "1760000030000"
+    },
+    {
+      "isBotMessage": false,
+      "displayName": "User",
+      "type": "attachment",
+      "timestamp": "1760000060000",
+      "attachment": {
+        "clientAttachmentId": "attachment-001",
+        "contentType": "application/pdf",
+        "fileName": "sample.pdf",
+        "url": "https://example.com/files/sample.pdf"
+      }
     },
     {
       "isBotMessage": true,
-      "value": "Okay. i am routing you to an agent",
-      "displayName": "Genesys Bot",
+      "value": "Okay. I am routing you to an agent.",
+      "displayName": "Bot",
       "type": "text",
-      "timestamp": "1739877409746"
+      "timestamp": "1760000090000"
     },
     {
       "isBotMessage": false,
       "value": "Thanks.",
       "displayName": "User",
       "type": "text",
-      "timestamp": "1739877453201"
+      "timestamp": "1760000120000"
     }
   ]
 }"
 --user "username":"password"
 ```
 
-The following is the success response sent from the VA to the configured response endpoint.
+Virtual Agent sends the following success response to the configured response endpoint.
 
 ```
 {"status": "success"}
@@ -1922,16 +2018,18 @@ The following is the success response sent from the VA to the configured respons
 
 ### Transfer a conversation to Live Agent using utterance
 
-The following example illustrates how to transfer a conversation to Live Agent, bypassing the greeting topic, by passing `agent` as an utterance in the **message.text** parameter. Possible utterance values are defined in the sys\_cs\_contextual\_action table. For additional information on contextual actions, see [Contextual actions for custom chat integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/contextual-actions.md).
+This example transfers a conversation to Live Agent without going through the greeting topic. The request passes `agent` as the utterance in **message.text** and includes a bot token in the request header. Possible utterance values are defined in the sys\_cs\_contextual\_action table. Virtual Agent responds with a list of options so the user can confirm what they want to do.
+
+For additional information on contextual actions, see [Contextual actions for custom chat integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/contextual-actions.md).
 
 ```
 curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
 --request POST \
 --header "Accept:application/json" \
 --header "Content-Type:application/json" \
---header "token: ORANGE" \
+--header "token: BOT_TOKEN" \
 --data " {
-  "requestId": "322bas2be70-sadsa-we32-3eq2-1231ra9",
+  "requestId": "example-request-009",
   "botToBot": true,
   "clientSessionId": "",
   "silentMessage": false,
@@ -1939,24 +2037,24 @@ curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
     "text": "agent",
     "typed": true
   },
-  "userId": "abel.tuter",
-  "emailId": "abel.tuter@servicenow.com",
+  "userId": "jane.doe",
+  "emailId": "jane.doe@example.com",
   "timestamp": 1588824102,
   "timezone": "America/New_York"
 }"
 ```
 
-The following is the response body sent from the VA to the configured response endpoint.
+Virtual Agent sends the following response to the configured response endpoint. It asks the user to confirm the intended action from a list of options.
 
 ```
 {
-  "requestId":"322bas2be70-sadsa-we32-3eq2-1231ra9",
+  "requestId":"example-request-009",
   "clientSessionId":"",
   "message":{
     "text":"agent",
     "typed":true
   },
-  "userId":"abel.tuter",
+  "userId":"jane.doe",
   "body":[
     {
       "uiType":"Picker",
@@ -1996,16 +2094,16 @@ The following is the response body sent from the VA to the configured response e
 
 ### Transfer a conversation to Live Agent Support based on the user's selection
 
-The following example shows transferring the conversation to Live Agent Support based on the user's selection from the prior interaction.
+This example continues the previous one. The user selected Live Agent Support from the list, and the request sends that selection as the message text. Virtual Agent then connects the user to a live agent.
 
 ```
 curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
 --request POST \
 --header "Accept:application/json" \
 --header "Content-Type:application/json" \
---header "token: ORANGE" \
+--header "token: BOT_TOKEN" \
 --data "{
-  "requestId": "322bas2be70-sadsa-we32-3eq2-1231ra9",
+  "requestId": "example-request-010",
   "botToBot": true,
   "clientSessionId": "",
   "silentMessage": false,
@@ -2013,24 +2111,24 @@ curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
     "text": "Live Agent Support.",
     "typed": true
   },
-  "userId": "abel.tuter",
-  "emailId": "abel.tuter@servicenow.com",
+  "userId": "jane.doe",
+  "emailId": "jane.doe@example.com",
   "timestamp": 1588824102,
   "timezone": "America/New_York"
 } "
 ```
 
-The following is the response body sent from the VA to the configured response endpoint.
+Virtual Agent sends the following response to the configured response endpoint. The **agentChat** value of true indicates that the conversation is now connected to Live Agent.
 
 ```
 {
-  "requestId":"322bas2be70-sadsa-we32-3eq2-1231ra9",
+  "requestId":"example-request-010",
   "clientSessionId":"",
   "message":{
     "text":"Live Agent Support.",
     "typed":true
   },
-  "userId":"abel.tuter",
+  "userId":"jane.doe",
   "body":[
     {
       "uiType":"OutputText",
@@ -2045,7 +2143,7 @@ The following is the response body sent from the VA to the configured response e
 
 ### End a Virtual Agent conversation by setting the action parameter
 
-The following example shows how to end a Virtual Agent conversation by setting the **action** parameter to [END\_CONVERSATION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/bot-api.md).
+This example ends a conversation with Virtual Agent by setting the **action** parameter to [END\_CONVERSATION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/bot-api.md). The message text is empty, as this action requires.
 
 ```
 curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
@@ -2053,39 +2151,38 @@ curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
 --header "Accept:application/json" \
 --header "Content-Type:application/json" \
 --data "{
-  "requestId": "s345ew-sjg554-qwe23-we23",
+  "requestId": "example-request-011",
   "action": "END_CONVERSATION",
-  "enterpriseId": "ServiceNow",
-  "nowBotId": "A85PWLERF",
+  "enterpriseId": "ExampleCompany",
+  "nowBotId": "EXAMPLE_BOT_ID",
   "clientSessionId": "",
   "nowSessionId": "",
   "message":{
-    "text": "b2b topic",
+    "text": "",
     "typed": true,
-    "clientMessageId": "ABC-123"
+    "clientMessageId": "msg-002"
   },
-  "userId": "beth.anglin",
-  "emailId": beth.anglin@example.com,
+  "userId": "jane.doe",
+  "emailId": "jane.doe@example.com",
   "timestamp": 1588824102,
   "timezone": "America/New_York"
 }"
 --user "username":"password"
-
 ```
 
-The following is the response body sent from the VA to the configured response endpoint showing the conversation ended.
+Virtual Agent sends the following response to the configured response endpoint. It shows a message confirming that the conversation has ended.
 
 ```
 {
-  "requestId":"s345ew-sjg554-qwe23-we23",
+  "requestId":"example-request-011",
   "clientSessionId":"",
   "nowSessionId":"",
   "message":{
     "text":"",
     "typed":true,
-    "clientMessageId":"ABC-123"
+    "clientMessageId":"msg-002"
   },
-  "userId":"beth.anglin",
+  "userId":"jane.doe",
   "body":[
     {
       "uiType":"OutputText",
@@ -2100,7 +2197,7 @@ The following is the response body sent from the VA to the configured response e
 
 ### End a Live Agent conversation by setting the action parameter
 
-The following example shows how to end a Live Agent conversation by setting the **action** parameter to [END\_CONVERSATION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/bot-api.md).
+This example ends a conversation that is connected to a live agent by setting the **action** parameter to [END\_CONVERSATION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/bot-api.md). The request is the same as for a Virtual Agent conversation, but the response also includes the completed flag.
 
 ```
 curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
@@ -2108,39 +2205,38 @@ curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
 --header "Accept:application/json" \
 --header "Content-Type:application/json" \
 --data "{
-  "requestId": "sad-sjg554-qwe23-we23",
+  "requestId": "example-request-012",
   "action": "END_CONVERSATION",
-  "enterpriseId": "ServiceNow",
-  "nowBotId": "A85PWLERF",
+  "enterpriseId": "ExampleCompany",
+  "nowBotId": "EXAMPLE_BOT_ID",
   "clientSessionId": "",
   "nowSessionId": "",
   "message":{
     "text": "",
     "typed": true,
-    "clientMessageId": "ABC-123"
+    "clientMessageId": "msg-003"
   },
-  "userId": "beth.anglin",
-  "emailId": "beth.anglin@example.com",
+  "userId": "jane.doe",
+  "emailId": "jane.doe@example.com",
   "timestamp": 1588824102,
   "timezone": "America/New_York"
 }"
 --user "username":"password"
-
 ```
 
-The following is the response body sent from the VA to the configured response endpoint showing the conversation ended.
+Virtual Agent sends the following response to the configured response endpoint. The completed value of true indicates that the conversation finished successfully.
 
 ```
 {
-  "requestId":"sad-sjg554-qwe23-we23",
+  "requestId":"example-request-012",
   "clientSessionId":"",
   "nowSessionId":"",
   "message":{
     "text":"",
     "typed":true,
-    "clientMessageId":"ABC-123"
+    "clientMessageId":"msg-003"
   },
-  "userId":"beth.anglin",
+  "userId":"jane.doe",
   "body":[
     {
       "uiType":"OutputText",
@@ -2156,16 +2252,16 @@ The following is the response body sent from the VA to the configured response e
 
 ### Use commands defined in the sys\_cs\_contextual\_action table as an utterance to start a conversation with Virtual Agent
 
-The following example shows how to use the **Hi** command defined in the sys\_cs\_contextual\_action table as an utterance to start a conversation with Virtual Agent instead of setting the **action** parameter to `START_CONVERSATION` as shown in prior examples. This example shows using one of the language variants of the **Hi** command, "hola".
+This example starts a conversation by sending the Spanish greeting “hola” as the message text instead of setting the action parameter to `START_CONVERSATION`. Virtual Agent recognizes “hola” as a language variant of the **Hi** command \(defined in the sys\_cs\_contextual\_action table as an utterance\) and responds with its greeting and a list of topics.
 
 ```
 curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
 --request POST \
 --header "Accept:application/json" \
 --header "Content-Type:application/json" \
---header "token: ORANGE" \
+--header "token: BOT_TOKEN" \
 --data "{
-  "requestId": "302bas2be70-sadsa-we32-3eq2-1231ra9",
+  "requestId": "example-request-013",
   "botToBot": true,
   "clientSessionId": "",
   "silentMessage": false,
@@ -2173,128 +2269,128 @@ curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
     "text": "hola",
     "typed": true
   },
-  "userId": "fred.ludy",
-  "emailId": "abel.tuter@servicenow.com",
+  "userId": "john.smith",
+  "emailId": "john.smith@example.com",
   "timestamp": 1588824102,
   "timezone": "America/New_York"
 }"
 ```
 
-The following is the response body sent from the VA to the configured response endpoint.
+Virtual Agent sends the following response to the configured response endpoint. It contains a greeting message and a topic picker listing nine example topics.
 
 ```
-{ 
-  "requestId":"302bas2be70-sadsa-we32-3eq2-1231ra9", 
+{
+  "requestId":"example-request-013",
   "clientSessionId":"",
-  "message":{ 
-    "text":"hola", 
+  "message":{
+    "text":"hola",
     "typed":true
-  }, 
-  "userId":"fred.ludy", 
+  },
+  "userId":"john.smith",
   "body":[
-    { 
-      "uiType":"OutputText", 
+    {
+      "uiType":"OutputText",
       "group":"DefaultText",
       "value":"Hi, I'm your Virtual Agent. Let me know how I can help you today.",
       "maskType":"NONE"
     },
-    { 
-      "uiType":"TopicPickerControl", 
+    {
+      "uiType":"TopicPickerControl",
       "group":"DefaultPicker",
       "nluTextEnabled":false,
-      "promptMsg":"Hi guest, please enter your request or make a selection of what I can help with. You can type hellllp! any time when you need help.", 
+      "promptMsg":"Hi guest, please enter your request or make a selection of what I can help with. You can type help any time when you need help.",
       "label":"Show me everything",
       "options":[
         {
-          "label":"boolean check",
-          "value":"1b5257a1db712010d3d6d9595e9619f3",
-          "enabled":true
-        },
-        { 
-          "label":"Test_table_datepicker",
-          "value":"6515f0cadb4220108249f7541d961980",
-          "enabled":true
-        }, 
-        { 
-          "label":"Test File upload",
-          "value":"76c1f4b2db7520108249f7541d9619a7",
-          "enabled":true
-        },
-        { 
-          "label":"Test B2B 2",
-          "value":"8373e55cdb8120108249f7541d96196d",
+          "label":"Order Status",
+          "value":"1111aaaa1111aaaa1111aaaa1111aaaa",
           "enabled":true
         },
         {
-          "label":"FAQ Conversation Builder_Global",
-          "value":"9f3114a3dbc520108249f7541d961981",
+          "label":"Reset Password",
+          "value":"3333cccc3333cccc3333cccc3333cccc",
           "enabled":true
         },
         {
-          "label":"Get to know you",
-          "value":"a443dd6adb812010d3d6d9595e961954", 
+          "label":"Request Time Off",
+          "value":"4444dddd4444dddd4444dddd4444dddd",
           "enabled":true
-        }, 
-        { 
-          "label":"Get to know you_Global", 
-          "value":"b1a56b87db8120108249f7541d9619b2", 
-          "enabled":true 
+        },
+        {
+          "label":"Submit an IT Request",
+          "value":"5555eeee5555eeee5555eeee5555eeee",
+          "enabled":true
+        },
+        {
+          "label":"Report an Issue",
+          "value":"6666ffff6666ffff6666ffff6666ffff",
+          "enabled":true
+        },
+        {
+          "label":"Frequently Asked Questions",
+          "value":"7777aaaa7777aaaa7777aaaa7777aaaa",
+          "enabled":true
+        },
+        {
+          "label":"Update Profile",
+          "value":"8888bbbb8888bbbb8888bbbb8888bbbb",
+          "enabled":true
         },
         {
           "label":"Live Agent Support.",
-          "value":"ce2ee85053130010cf8cddeeff7b12bf",
+          "value":"2222bbbb2222bbbb2222bbbb2222bbbb",
           "enabled":true
         },
         {
-          "label":"Apply for PTO_B2B NLU",
-          "value":"d948c94cdb052010d3d6d9595e961969",
-          "enabled":true 
+          "label":"Track a Request",
+          "value":"9999cccc9999cccc9999cccc9999cccc",
+          "enabled":true
         }
       ]
-    } 
-   ], 
-   "score":1 
-} 
+    }
+  ],
+  "score":1
+}
 ```
 
 ### Use commands defined in the sys\_cs\_contextual\_action table as an utterance to end a conversation
 
-The following example shows how to use the **Bye** command defined in the sys\_cs\_contextual\_action table as an utterance to end a conversation with Virtual Agent instead of setting **action** to `END_CONVERSATION` as shown in prior examples. This example shows using one of the language variants of the **Bye** command, "choa".
+This example ends a conversation by sending the Spanish farewell “chao” as the message text instead of setting the action parameter to `END_CONVERSATION`. Virtual Agent recognizes “chao” as a language variant of the **Bye** command and asks the user to confirm before it ends the conversation.
 
 ```
 curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
 --request POST \
 --header "Accept:application/json" \
 --header "Content-Type:application/json" \
---header "token: ORANGE" \
+--header "token: BOT_TOKEN" \
 --data "{
-  "requestId": "302bas2be70-sadsa-we32-3eq2-1231ra9",
+  "requestId": "example-request-014",
   "botToBot": true,
   "clientSessionId": "",
   "silentMessage": false,
   "message":{
-    "text": "choa",
+    "text": "chao",
     "typed": true
   },
-  "userId": "fred.ludy",
-  "emailId": "abel.tuter@servicenow.com",
+  "userId": "john.smith",
+  "emailId": "john.smith@example.com",
   "timestamp": 1588824102,
   "timezone": "America/New_York"
 }"
 ```
 
-The following is the response body sent from the VA to the configured response endpoint.
+Virtual Agent sends the following response to the configured response endpoint. It asks the user to choose between ending the conversation and canceling.
 
 ```
 {
-  "requestId":"302bas2be70-sadsa-we32-3eq2-1231ra9",
+  "requestId":"example-request-014",
   "clientSessionId":"",
-  "message":{ 
+  "message":{
     "text":"chao",
     "typed":true
-  }, 
-  "userId":"fred.ludy",
-  "body":[ 
+  },
+  "userId":"john.smith",
+  "body":[
     {
       "uiType":"Picker",
       "group":"DefaultPicker",
@@ -2310,24 +2406,24 @@ The following is the response body sent from the VA to the configured response e
           "value":"1",
           "renderStyle":"data",
           "enabled":false
-        }, 
+        },
         {
           "label":"Cancel",
           "value":"0",
           "renderStyle":"data",
           "enabled":false
-        } 
+        }
       ],
-      "scriptedData":null 
+      "scriptedData":null
     }
   ],
-  "score":1 
+  "score":1
 }
 ```
 
 ### Change an ongoing conversation using the SWITCH action parameter
 
-The following example shows how to use the [SWITCH](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/bot-api.md) **action** parameter to change an ongoing conversation to the topic that matches what is specified in the **intent.id** parameter.
+This example uses the [SWITCH](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/bot-api.md) action to move an ongoing conversation to a different topic. The **intent.id** parameter identifies the topic to switch to, in this case a topic for checking order status. Virtual Agent responds with the first prompt of that topic.
 
 ```
 curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
@@ -2335,37 +2431,36 @@ curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
 --header "Accept:application/json" \
 --header "Content-Type:application/json" \
 --data "{
-  "requestId": "sdfsfs-hgfhg-34fssd-zxcz-sd43",
-  "enterpriseId": "ServiceNow",
-  "nowBotId": "A85PWLERF",
+  "requestId": "example-request-015",
+  "enterpriseId": "ExampleCompany",
+  "nowBotId": "EXAMPLE_BOT_ID",
   "clientSessionId": "",
   "nowSessionId": "",
   "action": "SWITCH",
   "intent" : {
-    "id": "Saloon Vehicle"
+    "id": "Check Order Status"
   },
   "message":{
     "typed": true,
-    "clientMessageId": "ABC-123"
+    "clientMessageId": "msg-004"
   },
   "userId": "Guest",
   "timestamp": 1588824102,
   "timezone": "America/New_York"
 }"
 --user "username":"password"
-
 ```
 
-The following is the response body sent from the VA to the configured response endpoint showing the VA switched to the new topic.
+Virtual Agent sends the following response to the configured response endpoint. It shows that the conversation switched to the new topic and is now asking for an order number.
 
 ```
 {
-   "requestId":"sdfsfs-hgfhg-34fssd-zxcz-sd43",
+   "requestId":"example-request-015",
    "clientSessionId":"",
    "nowSessionId":"",
    "message":{
       "typed":true,
-      "clientMessageId":"ABC-123"
+      "clientMessageId":"msg-004"
    },
    "userId":"Guest",
    "body":[
@@ -2374,7 +2469,7 @@ The following is the response body sent from the VA to the configured response e
          "group":"DefaultText",
          "required":true,
          "nluTextEnabled":false,
-         "label":"limo input:",
+         "label":"Enter your order number:",
          "maskType":"NONE"
       }
    ],
@@ -2382,9 +2477,9 @@ The following is the response body sent from the VA to the configured response e
 }
 ```
 
-### Obtain a Natural Language Understanding \(NLU\) confidence score for an utterance
+### Obtain a \(NLU\) confidence score for an utterance
 
-The following example shows how to obtain a NLU confidence score for an utterance if NLU is enabled in VA.
+This example sends a free-text utterance to Virtual Agent when Natural Language Understanding \(NLU\) is enabled. Virtual Agent matches the utterance to a topic and returns an NLU confidence score along with the first prompt of that topic. The primary bot can use the score to decide whether to surface the matched intent.
 
 ```
 curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
@@ -2392,54 +2487,53 @@ curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
 --header "Accept:application/json" \
 --header "Content-Type:application/json" \
 --data "{
-  "requestId": "sdfsfs-hgfhg-34fssd-zxcz-sd43", 
-  "enterpriseId": "ServiceNow", 
-  "nowBotId": "A85PWLERF", 
-  "clientSessionId": "", 
-  "nowSessionId": "", 
-  "message":{ 
-    "text": "most popular choice", 
-    "typed": true, 
-    "clientMessageId": "ABC-123" 
-  }, 
-  "userId": "Guest", 
-  "timestamp": 1588824102, 
-  "timezone": "America/New_York" 
+  "requestId": "example-request-016",
+  "enterpriseId": "ExampleCompany",
+  "nowBotId": "EXAMPLE_BOT_ID",
+  "clientSessionId": "",
+  "nowSessionId": "",
+  "message":{
+    "text": "I want to check my order status",
+    "typed": true,
+    "clientMessageId": "msg-005"
+  },
+  "userId": "Guest",
+  "timestamp": 1588824102,
+  "timezone": "America/New_York"
 }"
 --user "username":"password"
-
 ```
 
-The following is the response body sent from the VA to the configured response endpoint showing the NLU confidence score.
+Virtual Agent sends the following response to the configured response endpoint. The score value is the NLU confidence score for the matched topic.
 
 ```
-{ 
-  "requestId":"sdfsfs-hgfhg-34fssd-zxcz-sd43", 
-  "clientSessionId":"", 
-  "nowSessionId":"", 
-  "message":{ 
-    "text":"most popular choice", 
-    "typed":true, 
-    "clientMessageId":"ABC-123" 
-  }, 
-  "userId":"Guest", 
-  "body":[ 
-    { 
-      "uiType":"InputText", 
-      "group":"DefaultText", 
-      "required":true, 
-      "nluTextEnabled":false, 
-      "label":"model input:", 
-      "maskType":"NONE" 
-    }
-  ], 
-  "score":"0.92" 
+{
+  "requestId":"example-request-016",
+  "clientSessionId":"",
+  "nowSessionId":"",
+  "message":{
+    "text":"I want to check my order status",
+    "typed":true,
+    "clientMessageId":"msg-005"
+  },
+  "userId":"Guest",
+  "body":[
+    {
+      "uiType":"InputText",
+      "group":"DefaultText",
+      "required":true,
+      "nluTextEnabled":false,
+      "label":"Enter your order number:",
+      "maskType":"NONE"
+    }
+  ],
+  "score":"0.92"
 }
 ```
 
 ### Transfer a conversation to Live Agent in a specific queue
 
-The following example shows how to transfer a conversation to Live Agent in a specific queue. You must first set up your queues with specific conditions. You then pass those conditions as **contextVariables** in the request body. This example uses the [AGENT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/bot-api.md) action parameter. For additional information on creating a work item queue, see [Create a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-create-queue.md).
+This example uses the [AGENT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/bot-api.md) action to transfer a conversation to a live agent in a specific queue. The queue is selected by the condition passed in **contextVariables**, here a category value of `humanresource`. You must set up the queue with a matching condition before you send this request. For additional information on creating a work item queue, see [Create a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-create-queue.md).
 
 ```
 curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
@@ -2447,42 +2541,41 @@ curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
 --header "Accept:application/json" \
 --header "Content-Type:application/json" \
 --data "{
-  "requestId": "34re-dasd-qwe23-dsds", // Unique value for a message (hash)
-  "enterpriseId": "ServiceNow", // ServiceNow (Optional
-  "nowBotId": "A85PWLERF", // In case of multiple ServiceNow secondary bots (one for HR, one for ITSM)
+  "requestId": "example-request-017", // Unique value for a message (hash)
+  "enterpriseId": "ExampleCompany", // Enterprise name (optional)
+  "nowBotId": "EXAMPLE_BOT_ID", // In case of multiple ServiceNow secondary bots (one for HR, one for ITSM)
   "action":"AGENT", // Actions to close conversation. Other possible value is END_CONVERSATION
   "clientSessionId": "", // Client conversation id
   "nowSessionId": "", // ServiceNow conversation id
   "message":{
     "text": "How are you?", // User passed message
     "typed": true, // typed or clicked
-    "clientMessageId": "ABC-123"
+    "clientMessageId": "msg-006"
   },
-  "userId": "abraham.lincoln", // User’s id in their system
-  "emailId": "abraham.lincoln@example.com",
+  "userId": "jane.doe", // User's id in their system
+  "emailId": "jane.doe@example.com",
   "timestamp": 1588824102,
   "timezone": "America/New_York",
   "contextVariables":{
     "b2b_category":"humanresource"
-  } 
+  }
 }"
 --user "username":"password"
-
 ```
 
-The following is the response body sent from the VA to the configured response endpoint.
+Virtual Agent sends the following response to the configured response endpoint. In this example, the message wasn’t understood, so Virtual Agent asks the user to rephrase and offers the Live Agent Support topic.
 
 ```
 {
-  "requestId":"34re-dasd-qwe23-dsds",
+  "requestId":"example-request-017",
   "clientSessionId":"",
   "nowSessionId":"",
   "message":{
     "text":"How are you?",
     "typed":true,
-    "clientMessageId":"ABC-123"
+    "clientMessageId":"msg-006"
    },
-   "userId":"abraham.lincoln",
+   "userId":"jane.doe",
    "body":[
      {
        "uiType":"OutputText",
@@ -2505,7 +2598,7 @@ The following is the response body sent from the VA to the configured response e
       "options":[
         {
           "label":"Live Agent Support.",
-          "value":"ce2ee85053130010cf8cddeeff7b12bf",
+          "value":"2222bbbb2222bbbb2222bbbb2222bbbb",
           "enabled":true
         }
       ]
@@ -2517,46 +2610,45 @@ The following is the response body sent from the VA to the configured response e
 
 ### Transfer a public application/pdf attachment file
 
-This example shows how to transfer a public application/pdf attachment.
+This example sends a publicly accessible PDF file to Virtual Agent as an attachment. Virtual Agent retrieves the file from the URL, scans it for viruses, and processes it. The file is public, so no authorization information is needed.
 
 ```
 curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
 --request POST \
 --header "Accept:application/json" \
 --header "Content-Type:application/json" \
---header "token: BOT_Token" \
+--header "token: BOT_TOKEN" \
 --data "{
-  "requestId": "f42f3550-5b44-4cde-aa52-9b6756b3131c",
-  "clientSessionId": "U94CSJLEN",
+  "requestId": "example-request-018",
+  "clientSessionId": "example-session-001",
   "message": {
     "attachment": {
-    "clientAttachmentId": "my-unique-identifier",
+    "clientAttachmentId": "attachment-001",
     "contentType": "application/pdf",
-    "fileName": "MY PDF TEST",
-    "url": "http://www.africau.edu/images/default/sample.pdf"
+    "fileName": "sample.pdf",
+    "url": "https://example.com/files/sample.pdf"
     }
   },
-  "userId": "U94CSJLEN",
-  "emailId": "admin@example.com"
+  "userId": "example.user",
+  "emailId": "jane.doe@example.com"
 }"
 --user "username":"password"
-
 ```
 
-The following is the response body sent from the VA to the configured response endpoint.
+Virtual Agent sends the following response to the configured response endpoint. It confirms that the file was received and that the conversation is complete.
 
 ```
 {
-  "requestId":"f42f3550-5b44-4cde-aa52-9b6756b3131c",
-  "clientSessionId":"U94CSJLEN",
+  "requestId":"example-request-018",
+  "clientSessionId":"example-session-001",
   "message":{
     "attachment":{
-      "clientAttachmentId":"my-unique-identifier",
+      "clientAttachmentId":"attachment-001",
       "contentType":"application/pdf",
-      "fileName":"MY PDF TEST",
-      "url":"http://www.africau.edu/images/default/sample.pdf"}
+      "fileName":"sample.pdf",
+      "url":"https://example.com/files/sample.pdf"}
     },
-    "userId":"U94CSJLEN",
+    "userId":"example.user",
     "body":[
       {
         "uiType":"OutputText",
@@ -2584,7 +2676,7 @@ The following is the response body sent from the VA to the configured response e
 
 ### Transfer a video/mpeg attachment
 
-This example shows the request/response for uploading a video/mpeg attachment.
+This example sends a video file to Virtual Agent as an attachment by specifying its MIME type and URL. The response echoes the attachment details, including an Authorization header that Virtual Agent uses to retrieve a protected file.
 
 ```
 curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
@@ -2593,41 +2685,40 @@ curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
 --header "Content-Type:application/json" \
 --header "token: BOT_TOKEN" \
 --data "{
-  "requestId": "f42f3550-5b44-4cde-aa52-9b6756b3131c",
-  "clientSessionId": "U94CSJLEN",
+  "requestId": "example-request-019",
+  "clientSessionId": "example-session-001",
   "message": {
     "attachment": {
-    "clientAttachmentId": "my-unique-identifier10",
+    "clientAttachmentId": "attachment-002",
     "contentType": "video/mpeg",
-    "fileName": "MY TEST10.mp4",
-    "url": "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4"
+    "fileName": "sample-video.mp4",
+    "url": "https://example.com/media/sample-video.mp4"
     }
   },
-  "userId": "U94CSJLEN",
-  "emailId": "admin@example.com"
+  "userId": "example.user",
+  "emailId": "jane.doe@example.com"
 }"
 --user "username":"password"
-
 ```
 
-The following is the response body sent from the VA to the configured response endpoint.
+Virtual Agent sends the following response to the configured response endpoint. It confirms that the file was received and that the conversation is complete.
 
 ```
 {
-  "requestId":"f42f3550-5b44-4cde-aa52-9b6756b3131c",
-  "clientSessionId":"U94CSJLEN",
+  "requestId":"example-request-019",
+  "clientSessionId":"example-session-001",
   "message":{
     "attachment":{
       "headers":{
-        "Authorization":"Basic amFzbWluZS53YWRod2FuaWE6VGVzdGluZ0AxMjM="
+        "Authorization":"Basic <base64-encoded-credentials>"
       },
-      "clientAttachmentId":"my-unique-identifier10",
+      "clientAttachmentId":"attachment-002",
       "contentType":"video/mpeg",
-      "fileName":"MY TEST10.mp4",
-      "url":"https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4"
+      "fileName":"sample-video.mp4",
+      "url":"https://example.com/media/sample-video.mp4"
     }
   },
-  "userId":"U94CSJLEN",
+  "userId":"example.user",
   "body":[
     {
       "uiType":"OutputText",
@@ -2654,7 +2745,7 @@ The following is the response body sent from the VA to the configured response e
 
 ### Transfer a image/jpeg attachment
 
-This example shows the request/response for uploading a image/jpeg attachment.
+This example sends an image file to Virtual Agent as an attachment by specifying its MIME type and URL. Virtual Agent retrieves the image, scans it for viruses, and processes it.
 
 ```
 curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
@@ -2663,41 +2754,40 @@ curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
 --header "Content-Type:application/json" \
 --header "token: BOT_TOKEN" \
 --data "{
-  "requestId": "f42f3550-5b44-4cde-aa52-9b6756b3131c",
-  "clientSessionId": "U94CSJLEN",
+  "requestId": "example-request-020",
+  "clientSessionId": "example-session-001",
   "message": {
     "attachment": {
-      "clientAttachmentId": "my-unique-identifier10",
+      "clientAttachmentId": "attachment-003",
       "contentType": "image/jpeg",
-      "fileName": "MY TEST10.jpg",
-      "url": "https://image.imagestock.com/image-photo/pink-butterfly-isolated-on-white-260nw-1218104047.jpg"
+      "fileName": "sample-image.jpg",
+      "url": "https://example.com/images/sample-image.jpg"
     }
   },
-  "userId": "U94CSJLEN",
-  "emailId": "admin@example.com"
+  "userId": "example.user",
+  "emailId": "jane.doe@example.com"
 }"
 --user "username":"password"
-
 ```
 
-The following is the response body sent from the VA to the configured response endpoint.
+Virtual Agent sends the following response to the configured response endpoint. It confirms that the file was received and that the conversation is complete.
 
 ```
 {
-  "requestId":"f42f3550-5b44-4cde-aa52-9b6756b3131c",
-  "clientSessionId":"U94CSJLEN",
+  "requestId":"example-request-020",
+  "clientSessionId":"example-session-001",
   "message":{
     "attachment":{
       "headers":{
-        "Authorization":"Basic amFzbWluZS53YWRod2FuaWE6VGVzdGluZ0AxMjM="
+        "Authorization":"Basic <base64-encoded-credentials>"
       },
-      "clientAttachmentId":"my-unique-identifier10",
+      "clientAttachmentId":"attachment-003",
       "contentType":"image/jpeg",
-      "fileName":"MY TEST10.jpg",
-      "url":"https://image.imagestock.com/image-photo/pink-butterfly-isolated-on-white-260nw-1218104047.jpg"
+      "fileName":"sample-image.jpg",
+      "url":"https://example.com/images/sample-image.jpg"
     }
   },
-  "userId":"U94CSJLEN",
+  "userId":"example.user",
   "body":[
     {
       "uiType":"OutputText",

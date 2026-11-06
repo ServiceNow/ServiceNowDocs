@@ -7,9 +7,9 @@ release: australia
 product: Workplace Core
 classification: workplace-core
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Workplace Safety Management, Workplace Core, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Workplace Core, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Workplace Service Portal
@@ -26,7 +26,7 @@ From the Workplace Service Portal, you can do the following:
 -   Make a reservation for a time slot directly using the Reservation widget on the home page.
 -   Register visitors in advance and customize their visit. Register a guest or an off-site colleague for either a short duration or a complete day.
 -   View and search through top-rated knowledge base articles to find information. As you enter search terms, the search field displays suggestions based on keywords.
--   View your requests and approvals \(if you're an approver\).
+-   View your requests and approvals \(if you are an approver\).
 -   View the location directory of your organization. Search for a co-worker, a space or any workplace location on the world map.
 
     **Note:** To view the maps in the Location directory and within Workplace Reservation Management, use Mappedin and Indoor Mapping. For more information on how to use floor maps, see [Workplace Space Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/wsm-mappedin-admin.md).

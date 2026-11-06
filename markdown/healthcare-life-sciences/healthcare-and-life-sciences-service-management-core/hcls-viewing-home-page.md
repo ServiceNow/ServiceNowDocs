@@ -7,7 +7,7 @@ release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage healthcare requests in Workspace, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -55,5 +55,5 @@ By default, the Workspace displays data in the following sections:
 
 **Note:**
 
-The Workspace landing page for healthcare-related cases is same as the CRM Workspace landing page. Therefore, you might see additional information based on the configuration set up by your administrator. For more information, see CRM Workspace landing page.
+The Workspace landing page for healthcare-related cases is same as the CRM Workspace landing page. Therefore, you might see additional information based on the configuration set up by your administrator. For more information, see [CRM Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspace-landing-pages.md).
 

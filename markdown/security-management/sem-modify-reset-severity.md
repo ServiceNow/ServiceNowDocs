@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-modify-reset-severity.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -44,6 +44,4 @@ Role required:
     -   You can revert to the original source severity using the **Reset Severity** option from the **More Actions** menu. This option appears only after you modify the severity.
     -   The **Modified severity** field appears only when you change the source severity. If you reset it to the original value, the field is removed.
     -   The system will use the **Modified severity** for risk calculations starting from the next scheduled job onwards. If the severity is reset, the original source severity will be applied instead.
-
-**Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/using-unified-security-exposure-management.md)
 

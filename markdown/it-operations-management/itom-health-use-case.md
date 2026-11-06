@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-health-use-case.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [CMDB tables, CSDM v5, service mapping, CI, configuration items, service instance, Mapped Service Instance table, Configuration Item table, Dynamic CI Group table, alert routing, incident routing]
 breadcrumb: [Applying the CSDM guidelines to ITOM AIOps, Explore, ITOM AIOps, IT Operations Management]

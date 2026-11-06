@@ -1,20 +1,20 @@
 ---
 title: Configure an authentication policy
-description: Configure an authentication policy to define inputs and conditions to used to grant access to an instance or enforce multi-factor authentication.
+description: Configure an authentication policy to define inputs and conditions to use to grant access to an instance or enforce multi-factor authentication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/configure-allow-access-policy.html
 release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Authentication policies, Adaptive authentication, Authentication, Access Management]
 ---
 
 # Configure an authentication policy
 
-Configure an authentication policy to define inputs and conditions to used to grant access to an instance or enforce multi-factor authentication.
+Configure an authentication policy to define inputs and conditions to use to grant access to an instance or enforce multi-factor authentication.
 
 ## Before you begin
 
@@ -29,7 +29,7 @@ Role required: adaptive\_auth\_admin
     -   DEMO POLICY - Allow Local Login for Admins from the Trusted IP Range only
     -   DEMO POLICY - Allow Local Login for Admins only
     -   DEMO POLICY - Restrict Username and Password based Authentication for specific users
-2.  Click the **New** button to create a new policy record.
+2.  Select the **New** button to create a new policy record.
 
 3.  In the **Policy** form, fill in the fields.
 
@@ -40,7 +40,7 @@ Role required: adaptive\_auth\_admin
     |Description|Description of the policy|
     |Active|Whether the policy is active.|
 
-4.  From the **Policy Inputs** tab, click **Edit**.
+4.  From the **Policy Inputs** tab, select **Edit**.
 
 5.  Select one or more filter criteria from the **Collection** list and move them to **Policy Inputs List** of **Allow Access Policy** list.
 
@@ -48,7 +48,7 @@ Role required: adaptive\_auth\_admin
 
     **Note:** For information on creating your own filter criteria to use in this section, see [Filter criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/adaptive-auth-filter-criteria.md).
 
-6.  From the **Policy Conditions** tab, click **New**.
+6.  From the **Policy Conditions** tab, select **New**.
 
 7.  On the form, fill in the fields:
 
@@ -62,6 +62,6 @@ Role required: adaptive\_auth\_admin
 
     **Note:** If you create multiple policy conditions, the final output of the access policy depends on the logical OR output of the all policy conditions. This means the policy will evaluate to true if any one of your policy conditions is met.
 
-9.  Click **Save**.
+9.  Select **Save**.
 
 

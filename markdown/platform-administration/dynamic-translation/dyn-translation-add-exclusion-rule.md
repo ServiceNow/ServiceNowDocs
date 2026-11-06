@@ -7,7 +7,7 @@ release: australia
 product: Dynamic Translation
 classification: dynamic-translation
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Exclusion Framework in Dynamic Translation, Configuring Dynamic Translation, Dynamic Translation, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -52,15 +52,15 @@ Exclusion rules must be unique within a domain. An attempted duplicate submissio
 
 3.  On the **Add Row** form, configure the fields according to the following guidance.
 
-<table id="choicetable_kb3_lpm_ddc"><thead><tr><th align="left" id="d348244e188">
+<table id="choicetable_kb3_lpm_ddc"><thead><tr><th align="left" id="d349742e188">
 
 Rule type
 
-</th><th align="left" id="d348244e191">
+</th><th align="left" id="d349742e191">
 
 Fields
 
-</th></tr></thead><tbody><tr><td id="d348244e197">
+</th></tr></thead><tbody><tr><td id="d349742e197">
 
 **Exact Match**
 
@@ -71,7 +71,7 @@ Fields
 -   **Order**: Optional. See the previous explanation.
 
 
-</td></tr><tr><td id="d348244e223">
+</td></tr><tr><td id="d349742e223">
 
 **Pattern Match**
 

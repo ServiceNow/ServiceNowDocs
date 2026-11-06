@@ -7,7 +7,7 @@ release: australia
 product: Cost Management
 classification: cost-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use business services with expenses, Cost Management, Strategic Portfolio Management]
 ---
@@ -27,7 +27,7 @@ For a given business service expense line, it is typical that less than 100% of 
 |all\_units|Service supports 100 units but only has 50 units allocated, and cost center ABC is allocated 25 units. This method will result in an allocation cost of 25/100, or 25% of the total cost of the service. 50% of the expenses \(from the 50 unallocated units\) will not be allocated.|
 |allocated\_units|Service supports 100 units but only has 50 units allocated, and cost center ABC is allocated 25 units. This method will result in an allocation cost of 25/50, or 50% of the total cost of the service. 100% of the expenses will be allocated, showing full cost recovery.|
 
-This is a system wide setting that can be configured by navigating to **Financial Management** &gt; **Properties** module and selecting an option from the choice list.
+This is a system wide setting that can be configured by navigating to **All** &gt; **Financial Management** &gt; **Properties** module and selecting an option from the list.
 
 **Parent Topic:**[Use business services with expenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/cost-management/c_UseBusinessServicesWithExpenses.md)
 

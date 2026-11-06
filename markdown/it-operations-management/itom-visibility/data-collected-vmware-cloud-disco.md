@@ -7,7 +7,7 @@ release: australia
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2026-03-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 32
 breadcrumb: [Cloud resource discovery references, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -733,7 +733,7 @@ Disk \[cmdb\_ci\_disk\]
 </td></tr></tbody>
 </table>\* These relationships are part of Software Asset Management \(ServiceNow Otto for SAM\) use case.
 
-† The relationships between the listed server CIs and the ESX Server and VM Instance are created by the business rule Virtual Computer Check. The server CI must be discovered after the vCenter is discovered to trigger the business rule and create the relationships.
+† The business rule "Virtual Computer Check" creates the relationships between the listed server CIs and the ESX Server and VM Instance. The server CI must be discovered after the vCenter is discovered. This triggers the business rule and creates the relationships.
 
 **Note:** Software installation records appear as a related list on Server \[cmdb\_ci\_server\], Windows Server \[cmdb\_ci\_win\_server\], and Linux Server \[cmdb\_ci\_linux\_server\] CI records.
 
@@ -1184,9 +1184,9 @@ If you use a domain account to access the ESXi host, specify the domain with the
 
 ## Requirements
 
--   Make sure the Discovery \(com.snc.discovery\) plugin is installed and activated and that you have upgraded to Australia or later.
+-   Make sure the Discovery \(com.snc.discovery\) plugin is installed and activated and that you have upgraded to Brazil or later.
 -   Activate the ESXi trigger probe. Navigate to the Trigger Probe \[trigger\_probe\_m2m\] table. The esxi record is inactive by default. Mark Active as true to enable Standalone ESXi discovery.
--   Create a new Discovery schedule for the host with the appropriate IP address of the ESXi host.
+-   Create a Discovery schedule for the host with the appropriate IP address of the ESXi host.
 
 **Note:** If both SSH and ESXi are triggered, SSH is launched first and may cause Discovery to complete with the message "ESX Discovery is only supported through the vCenter." In this case, open the UNIX - Classify probe and set ESX - OS inactive.
 

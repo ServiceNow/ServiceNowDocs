@@ -7,8 +7,8 @@ release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: reference
-last_updated: "2026-05-12"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Reference, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -30,7 +30,15 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-sn\_wsd\_rooms.default\_page\_size
+Minimal attendee availability for suggestions \[**sn\_wsd\_rsv.minimal\_attendee\_availability\_for\_suggestions**\].
+
+</td><td>
+
+This property allows for the configuration of minimum attendee threshold. The application enforces the configured minimum attendee threshold percentage value where applicable. Default value is 60. Beyond this range, employees cannot add colleagues as collaborators to a meeting. If the selected colleagues are not available for a selected building, date and time, the Add Invitees dialog box shows the "Unable to load Availability" message. For example, if only two invitees are available for a meeting or reservation, the application will not load availability for colleagues. The application will not add them as attendees because the default threshold percentile value of 60 is not met. For more information about adding colleagues to a meeting, see [Add invitees as collaborators and create a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/add-colleagues-rsv-search.md).
+
+</td></tr><tr><td>
+
+Default page size \[**sn\_wsd\_rooms.default\_page\_size**\].
 
 </td><td>
 
@@ -45,7 +53,7 @@ This property enables you to specify the number of reservable entries displayed 
 
 </td></tr><tr><td>
 
-sn\_wsd\_rsv.enable\_auto\_search
+Enable auto-search when changing criteria in the advanced search experience \[**sn\_wsd\_rsv.enable\_auto\_search**\]
 
 </td><td>
 
@@ -62,7 +70,9 @@ This property controls auto-search capability on the reservation portal while cr
 
 </td></tr><tr><td>
 
-auto\_refresh\_search\_rsv\_data
+The amount of time \(in mins\) after the latest search to inform the employee of possible outdated search results. \(The message is only available when auto-search is enabled\) \[**auto\_refresh\_search\_rsv\_data**
+
+\].
 
 </td><td>
 
@@ -70,7 +80,7 @@ Auto Refresh time interval\(in mins\) for showing reservables information while 
 
 </td></tr><tr><td>
 
-\[sn\_wsd\_rsv.search\_limit\]
+The maximum number of records to process on a search execution\[**sn\_wsd\_rsv.search\_limit**\]
 
 </td><td>
 
@@ -79,7 +89,9 @@ This property enables you to specify the number of workplace items to be display
 
 </td></tr><tr><td>
 
-sn\_wsd\_rsv.time\_before\_check\_in\_out\_reminder
+The amount of time in minutes until a reminder should be sent out to the reservation host \[sn\_wsd\_rsv.time\_before\_check\_in\_out\_reminder
+
+\].
 
 </td><td>
 
@@ -88,7 +100,9 @@ This property enables you to configure when to send a notification email as a re
 
 </td></tr><tr><td>
 
-sn\_wsd\_rsv.day\_start
+Start time of the working day \[**sn\_wsd\_rsv.day\_start**
+
+\]
 
 </td><td>
 
@@ -97,7 +111,9 @@ This property enables you to specify the start time of an all day reservation. T
 
 </td></tr><tr><td>
 
-sn\_wsd\_rsv.day\_end
+End time of the working day \[**sn\_wsd\_rsv.day\_end**
+
+\]
 
 </td><td>
 
@@ -106,7 +122,7 @@ This property enables you to specify the end time of an all-day reservation. The
 
 </td></tr><tr><td>
 
-sn\_wsd\_rsv.is\_blocker\_mandatory
+Only allows extra service when the required preparation and/or cleanup activities can be planned \[**sn\_wsd\_rsv.is\_blocker\_mandatory**\].
 
 </td><td>
 
@@ -117,7 +133,7 @@ This property enables you to specify if the blocker reservations are mandatory. 
 
 </td></tr><tr><td>
 
-sn\_wsd\_rsv.blocker\_user
+Service blocker user sys\_id \[**sn\_wsd\_rsv.blocker\_user**\].
 
 </td><td>
 
@@ -126,7 +142,7 @@ This property enables you to specify the user who is used to create the blocker 
 
 </td></tr><tr><td>
 
-sn\_wsd\_rsv.cancel\_unconfirmed\_reservations
+Number of minutes that which a reservation gets cancelled in case it it not confirmed by the calendar provider \[ **sn\_wsd\_rsv.cancel\_unconfirmed\_reservations**\].
 
 </td><td>
 
@@ -135,7 +151,7 @@ This property enables you to specify after how many minutes should a reservation
 
 </td></tr><tr><td>
 
-sn\_wsd\_rsv.time\_when\_reservation\_cancelled\_without\_check\_in
+The amount of time in minutes until a reservation is cancelled without a check-in \[**sn\_wsd\_rsv.time\_when\_reservation\_cancelled\_without\_check\_in**\]
 
 </td><td>
 
@@ -162,7 +178,7 @@ This property enables you to set the virtual meeting providers to generate a mee
 
 </td></tr><tr><td>
 
-sn\_wsd\_rsv.recording\_buffer\_time
+Buffer time\(in minutes\) by with the recording must be retrieved \[**sn\_wsd\_rsv.recording\_buffer\_time**\]
 
 </td><td>
 
@@ -171,7 +187,7 @@ This property enables you to set the time in minutes by when ta meeting recordin
 
 </td></tr><tr><td>
 
-sn\_wsd\_core.ENABLE\_LOCATION\_PRIVACY
+Enable employee location privacy and preference \[**sn\_wsd\_core.ENABLE\_LOCATION\_PRIVACY**\]
 
 </td><td>
 
@@ -180,11 +196,11 @@ This property enables you to set privacy on location and also specify what type 
 
 </td></tr><tr><td>
 
-sn\_wsd\_rsv.enable\_recurring\_score
+Calculate and display the availability of a space within a recurring series \[**sn\_wsd\_rsv.enable\_recurring\_score**\]
 
 </td><td>
 
-This property enables you to display recurring availability within the series of a workplace location when an employee searches for workplace to make a recurring reservation.-   Type: true/false
+This property enables you to display recurring availability within the series of a workplace location when an employee searches for workplace to make a recurring reservation.This propety also shows the non-available spaces. Select a space to -   Type: true/false
 -   Default value: false
 
 </td></tr><tr><td>
@@ -194,14 +210,6 @@ sn\_wsd\_rsv.lead\_time\_info\_message\_for\_limited\_services
 </td><td>
 
 This property enabled displays a message ''Only items that can be prepared on time are available''.This message is displayed only for the special user sn\_wsd\_case.bypass\_services\_limitation and not for regular employees.
-
-</td></tr><tr><td>
-
-sn\_wsd\_rsv.display\_invitees\_on\_outlook
-
-</td><td>
-
-If the **Allow invitees** check box is selected on the Reservation module configuration page and the **sn\_wsd\_rsv.display\_invitees\_on\_outlook**is set to true,employees can see the option to select invitees when making a reservation using Microsoft Outlook Add-in.**Note:** If **Allow invitees** check box is selected in Reservable Module configuration, and sn\_wsd\_rsv.display\_invitees\_on\_outlook property is set to true, then, this property value is given priority and employees are allowed to add invitees to a reservation. If **Allow invitees** is selected, and**sn\_wsd\_rsv.display\_invitees\_on\_outlook**is set to false, employees can’t add invitees to a reservation. For more information, see [Configure Reservable Module for Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/config-rsv-module-outlook.md).
 
 </td></tr><tr><td>
 

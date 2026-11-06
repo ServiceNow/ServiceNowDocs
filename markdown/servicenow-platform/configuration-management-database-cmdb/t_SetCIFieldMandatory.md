@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, CMDB Health, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -47,5 +47,5 @@ When a field is configured as mandatory, then if the **required** metric is enab
 
 [CMDB Health Dashboard for Helsinki \| Overview](https://youtu.be/CvMRT3NExIo)
 
-[Make a field mandatory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_MakingAFieldMandatory.md)
+[bundle-platadm.t_MakingAFieldMandatory]
 

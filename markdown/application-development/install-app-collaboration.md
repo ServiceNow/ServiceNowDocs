@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/install-app-collaboration.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Application collaboration, Learning about developing on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Application collaboration, Learning about developing on the ServiceNow AI Platform, Classic app development, Building applications]
 ---
 
 # Install the app collaboration application

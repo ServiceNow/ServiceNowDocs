@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/working-policies-scan-engine.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-28"
 reading_time_minutes: 1
-breadcrumb: [Customize Scan Engine definitions, Activate Scan Engine and review settings, Run Impact Guided Setup, Configuring Impact, Impact]
+breadcrumb: [Customize Scan Engine definitions, Activate Scan Engine and review settings, Configuring Impact, Impact]
 ---
 
 # Create policies for Scan Engine
@@ -21,9 +21,7 @@ Role required: admin
 You can choose to create policies that label these definition findings as:
 
 -   **Acceptable as is**: Findings remain in the **Open Findings** table but are excluded from dashboard metrics, health score calculations, and prioritization views. They aren't automatically closed.
--   **Prioritize**: Findings will appear in the **Prioritized findings** module on analytics dashboards.
-
-**Note:** Policies match findings based on the **Definition** field. When creating a policy from a finding, the policy automatically references that definition and will apply to all future findings from the same definition.
+-   **Prioritize**: Findings appear in the **Prioritized findings** module on analytics dashboards.
 
 ## Procedure
 
@@ -57,7 +55,7 @@ Active
 
 </td><td>
 
-Enable the policy to display in the **Finding Policies** page \(**ALL &gt; Impact &gt; Platform Health &gt; Finding Policies**\).
+Enable the policy to display in the **Finding Policies** page \(**All** &gt; **Impact** &gt; **Platform Health** &gt; **Finding Policies**\).
 
 </td></tr><tr><td>
 
@@ -89,7 +87,7 @@ Description of why the policy was created.
 </td></tr></tbody>
 </table>5.  Select **Submit**.
 
-    When a policy is active, findings matching its criteria display its name in their **Policy** field. View all findings affected by a policy through the policy record's **Findings** related list, or navigate to **ALL &gt; Impact &gt; Platform Health &gt; Finding Policies** to manage all policies.
+    When a policy is active, findings matching its criteria display its name in their **Policy** field. View all findings affected by a policy through the policy record's **Findings** related list, or navigate to **All** &gt; **Impact** &gt; **Platform Health** &gt; **Finding Policies** to manage all policies.
 
 
 **Parent Topic:**[Customize Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/view-modify-scan-engine-properties.md)

@@ -7,9 +7,9 @@ release: australia
 product: System Update Sets
 classification: system-update-sets
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-27"
 reading_time_minutes: 2
-breadcrumb: [Working with update sets, System update sets, Deploying applications, Building applications]
+breadcrumb: [Working with update sets, System update sets, Deploying applications, Classic app development, Building applications]
 ---
 
 # Retrieve an update set
@@ -18,9 +18,9 @@ Retrieve completed update sets from another instance.
 
 ## Before you begin
 
-Role required: admin or teamdev\_user
-
 **Warning:** Update sets let you transfer changes across instances with different family releases and features. You can load update sets from older releases into newer ones, but loading updates from newer releases into older instances may cause errors or data loss and should be avoided if possible. The same cautions apply when moving updates between different versions of store apps.
+
+Role required: teamdev\_user or admin
 
 ## Procedure
 
@@ -78,7 +78,7 @@ Username
 
 </td><td>
 
-Enter the user on the remote instance who authorizes transferring update sets to the instance. This user account must have the admin user role on the remote instance.
+Enter the user on the remote instance who authorizes transferring update sets to the instance. This user account must have the teamdev\_user or admin role on the remote instance.
 
 </td></tr><tr><td>
 

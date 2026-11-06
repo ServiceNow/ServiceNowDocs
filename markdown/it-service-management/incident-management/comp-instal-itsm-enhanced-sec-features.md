@@ -1,28 +1,29 @@
 ---
-title: Features of enhanced security model adoption for incident tables
-description: Help prevent unauthorized access to incident-related tables using Deny-Unless ACLs. A Deny-Unless authentication ACL restricts access for a non-authenticated user.
+title: Enhanced security model features for incident tables
+description: Help prevent unauthorized access to incident-related tables using Deny-Unless access control lists \(ACLs\). A Deny-Unless authentication ACL restricts access for a non-authenticated user.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/comp-instal-itsm-enhanced-sec-features.html
 release: australia
 product: Incident Management
 classification: incident-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
+keywords: [Enhanced security model features for incident tables]
 breadcrumb: [Reference, Incident Management, IT Service Management]
 ---
 
-# Features of enhanced security model adoption for incident tables
+# Enhanced security model features for incident tables
 
-Help prevent unauthorized access to incident-related tables using Deny-Unless ACLs. A Deny-Unless authentication ACL restricts access for a non-authenticated user.
+Help prevent unauthorized access to incident-related tables using Deny-Unless access control lists \(ACLs\). A Deny-Unless authentication ACL restricts access for a non-authenticated user.
 
-The enhanced security model implements Deny-Unless ACLs to restrict access for a non-authenticated user, such as a public role user. Without access, the user can't perform any actions on incident-related tables, including reading, writing, deleting, creating, or accessing the report view. This ensures that only authorized or approved user roles can access the incident tables. For more information on Deny-Unless ACLs, see [Deny-Unless ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/acl-denial-behavior.md).
+The enhanced security model implements Deny-Unless ACLs to restrict access for a non-authenticated user, such as a public role user. Without access, the user can't perform any actions on incident-related tables, including reading, writing, deleting, creating, or accessing the report view. This model helps restrict access to the incident tables to authorized or approved user roles. For more information on Deny-Unless ACLs, see [Deny-Unless ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/acl-denial-behavior.md).
 
-This model is activated by default and applicable on the following incident-related tables:
+This model is activated by default and applies to the following incident-related tables.
 
 <table id="table_uzx_dfs_ydc"><thead><tr><th>
 
-Tables
+Table
 
 </th><th>
 
@@ -34,7 +35,7 @@ Incident KCS Article\[kb\_template\_incident\_kcs\_article\]
 
 </td><td>
 
-The table is used to store knowledge articles created from the Incident KCS template.
+Stores knowledge articles created from the Incident KCS template.
 
 </td></tr><tr><td>
 
@@ -42,7 +43,7 @@ Incident KCS Template\[kb\_template\_incident\_kcs\_template\]
 
 </td><td>
 
-The table is used to store knowledge templates created from the Incident KCS template.
+Stores knowledge templates created from the Incident KCS template.
 
 </td></tr></tbody>
 </table>This model is applicable on the following incident-related tables after installing the ITSM Enhanced Security Features \(com.snc.itsm.enhanced\_security\) plugin:
@@ -69,7 +70,7 @@ Incident task\[incident\_task\]
 
 </td><td>
 
-The incident task \[incident\_task\] table is a child of the task \[task\] table and inherits all the incident task details.
+The Incident task \[incident\_task\] table is a child of the Task \[task\] table and inherits all the incident task details.
 
 </td></tr><tr><td>
 
@@ -85,15 +86,15 @@ Task outage\[task\_outage\]
 
 </td><td>
 
-The Task-Outage table \[task\_outage\] maintains the mapping between the Task \[task\] table and the Outage \[cmdb\_ci\_outage\] table.
+The Task outage \[task\_outage\] table maintains the mapping between the Task \[task\] table and the Outage \[cmdb\_ci\_outage\] table.
 
 </td></tr></tbody>
-</table>**Note:** For new or zboot instances, the ITSM Enhanced Security Features \(com.snc.itsm.enhanced\_security\) plugin is auto installed.
+</table>**Note:** For new or zBoot instances, the ITSM Enhanced Security Features \(com.snc.itsm.enhanced\_security\) plugin is installed automatically.
 
-The ITSM Enhanced Security Features \(com.snc.itsm.enhanced\_security\) plugin can be installed and activated by an admin via a support request. Existing or upgrade users must test and evaluate the results in their non-production instance and then install the plugin and implement the security change in their production instance. For more information, see [Activate ITSM Enhanced Security Features for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/activate-itsm-enhanced-security-inci-mangmnt.md).
+The ITSM Enhanced Security Features \(com.snc.itsm.enhanced\_security\) plugin can be installed and activated by an administrator through a support request. Existing or upgrade users must test and evaluate the results in their non-production instance and then install the plugin and implement the security change in their production instance. For more information, see [Activate ITSM Enhanced Security Features for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/activate-itsm-enhanced-security-inci-mangmnt.md).
 
 -   **[Activate ITSM Enhanced Security Features for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/activate-itsm-enhanced-security-inci-mangmnt.md)**  
-Prevent unauthorized access to incident-related tables using deny unless authenticated ACLs by activating the ITSM Enhanced Security Features \(com.snc.itsm.enhanced\_security\) plugin.
+Help prevent unauthorized access to incident-related tables by activating the ITSM Enhanced Security Features plugin \(com.snc.itsm.enhanced\_security\), which uses deny unless authenticated access control lists \(ACLs\).
 
-**Parent Topic:**[Reference section for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/reference-section-for-incident-management.md)
+**Parent Topic:**[Incident Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/reference-section-for-incident-management.md)
 

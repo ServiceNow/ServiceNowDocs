@@ -7,7 +7,7 @@ release: australia
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -48,7 +48,7 @@ External dependencies help you understand the impact on project schedules when t
 ## Result
 
 -   Dependency is created for the tasks of the two projects.
--   The short description of your project is greyed out and is renamed to indicate the external dependency in the format of **External project name: External task name**
+-   The short description of your project is made read-only and is renamed to indicate the external dependency in the format of **External project name: External task name**
 -   A link icon \(\[Omitted image "icon-dependency.png"\] Alt text: External dependency icon\) is added to the short description cell of the task, to indicate the dependency.
 
 ## What to do next

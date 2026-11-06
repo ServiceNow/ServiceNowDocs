@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/vault-tools.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [ServiceNow Vault console dashboard, ServiceNow Vault]
 ---
@@ -125,7 +125,7 @@ Anonymization run times
 
 How long scheduled user- or data-based jobs ran in hours for existing data.
 
-</td></tr><tr><td>
+</td></tr><tr><td rowspan="2">
 
 [Cloud Encryption with Key Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/cloud-encryption/dare-overview.md)Securely protect sensitive data in encrypted storage for your data using block encryption, along with enhanced key management.
 
@@ -138,10 +138,6 @@ Active cloud key
 Total rotations of the active cloud key.**Note:** To view this data, you need the [Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/encryption.md) admin role \(sn\_kmf.admin or sn\_kmf.cryptographic\_manager\).
 
 </td></tr><tr><td>
-
- 
-
-</td><td>
 
 Key rotation
 
@@ -177,17 +173,33 @@ Active encryption keys
 
 Number of active Field Encryption keys in your instance. Ideally, the number of active keys matches the number of classifications.**Note:** To view this data, you need the [Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/encryption.md) admin role \(sn\_kmf.admin or sn\_kmf.cryptographic\_manager\) and the security\_admin role.
 
-</td></tr><tr><td>
+</td></tr><tr><td rowspan="3">
 
 [Exploring Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/les-landing-page.md)Forward your instance's logs to external analytics tools to monitor data patterns. New users can activate default configurations from this card. For more information, see [Default policies and configurations in ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/vault-default-policies-configs.md).
 
 </td><td>
 
- 
+Data exported in the past 6 months
 
 </td><td>
 
- 
+Total volume of data, in MB, exported to external analytics tools each month over the past 6 months, excluding the current month. This trend shows how your monthly export volume changes over time.
+
+</td></tr><tr><td>
+
+Most exported topics in the past 6 months
+
+</td><td>
+
+The topics with the most exported data, in MB, over the past 6 months, excluding the current month. Topics are ranked from highest to lowest export volume.
+
+</td></tr><tr><td>
+
+Data exported this month by topic \(MB\)
+
+</td><td>
+
+Total volume of data, in MB, exported so far during the current month, categorized by topic. This metric covers the current month, which the 6-month metrics exclude.
 
 </td></tr><tr><td rowspan="2">
 
@@ -195,7 +207,7 @@ Number of active Field Encryption keys in your instance. Ideally, the number of 
 
 </td><td>
 
-Continuous authentication classification status
+Continuous Authentication classification status
 
 </td><td>
 
@@ -203,7 +215,7 @@ Number of classifications that are protected due to the Continuous Authenticatio
 
 </td></tr><tr><td>
 
-Classes protected with continuous authentication
+Classes protected with Continuous authentication
 
 </td><td>
 
@@ -212,12 +224,12 @@ Number of classes protected with continuous authentication, categorized by class
 </td></tr></tbody>
 </table>## Monitor your data
 
-The AI Insights section within ServiceNow Vault helps you keep track of activities that may indicate potential threats or data leaks.These activities are generated from channels such as ServiceNow Otto and Virtual Agent, as well as database tables configured with real-time discovery. This insight can help you prioritize your data protection strategies more effectively. Select **View tool metrics** to see the underlying metrics.
+The AI Insights section within ServiceNow Vault helps you keep track of activities that may indicate potential threats or data leaks. These activities are generated from channels such as ServiceNow Otto and Virtual Agent, as well as database tables configured with real-time discovery. This insight can help you prioritize your data protection strategies more effectively. Select **View tool metrics** to see the underlying metrics.
 
 |Metric|Chart Component|Description|
 |------|---------------|-----------|
 |User entering sensitive data|In tables with real-time discovery|The number of users whose sensitive data entries were detected in database tables configured with real-time discovery.|
-|In channels|The number of users whose sensitive data entries were detected within channels such as Now Assist or Virtual Agent.|
+|In channels|The number of users whose sensitive data entries were detected within channels such as ServiceNow Otto or Virtual Agent.|
 |Channels with sensitive data|Channel bars \(x-axis\)|Stacked bars representing each channel where sensitive data was detected, broken down by data patterns. The data pattern legend displays the color code for each pattern. They may include driver license numbers, financial information, and personal identifiers.|
 |Occurrences of sensitive data \(y-axis\)|The count of sensitive data instances detected per channel.|
 |Tables with sensitive data found through real-time discovery|Table bars \(x-axis\)|Stacked bars representing each database table where sensitive data was detected, broken down by data patterns.|
@@ -233,9 +245,9 @@ The AI Insights section within ServiceNow Vault helps you keep track of activiti
 
 </td><td>
 
-[Code Signing\[Omitted image "bus-contract.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/code-signing-landing.md)
+[Zero Trust Access\[Omitted image "bus-block.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/session-access.md)
 
- [Help improve security by validating sensitive application configuration data and scripts before they are used.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/code-signing-landing.md)
+ [ServiceNow Session Access enables organizations to dynamically reduce user privilege in a web session](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/session-access.md)
 
 </td></tr><tr><td>
 
@@ -257,9 +269,7 @@ The AI Insights section within ServiceNow Vault helps you keep track of activiti
 
 </td><td>
 
-[Zero Trust Access\[Omitted image "bus-block.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/session-access.md)
-
- [ServiceNow Session Access enables organizations to dynamically reduce user privilege in a web session](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/session-access.md)
+ 
 
 </td></tr></tbody>
 </table>**Parent Topic:**[ServiceNow Vault console dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/vault-dashboard.md)

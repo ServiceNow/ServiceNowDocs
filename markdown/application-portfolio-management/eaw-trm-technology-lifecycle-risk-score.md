@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-trm-technology-lifecycle-risk-score.html
 release: australia
 topic_type: reference
-last_updated: "2026-05-20"
-reading_time_minutes: 6
-breadcrumb: [Rationalization of business applications, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Technology lifecycle risk score in Enterprise Architecture Workspace
@@ -47,7 +47,7 @@ The risk calculation uses the following date fields from the TLM Technology Life
 
 ## Data collection
 
-The **Populate TLM Discovered Technologies and Lifecycles** scheduled job traverses CMDB and Service Mapping relationships to create records in the TLM Discovered Technologies \[sn\_apm\_tpm\_discovered\_technology\] table. Each record links a discovered technology to:
+The **Populate TPM Discovered Technologies and Lifecycles** scheduled job traverses CMDB and Service Mapping relationships to create records in the TPM Discovered Technologies \[sn\_apm\_tpm\_discovered\_technology\] table. Each record links a discovered technology to:
 
 -   A business application \(cmdb\_ci\_business\_app\)
 -   An application service \(cmdb\_ci\_service\)
@@ -92,7 +92,7 @@ The maximum possible score from the formula is 80 \(base score 20 × multiplier 
 
 Scores are stored per fiscal period in the TLM Technology Risk \[sn\_apm\_tpm\_technology\_risk\] table.
 
-**Note:** **Populate Technology Lifecycle Risks** scheduled job runs monthly by default. You can also run it on demand. For instructions, see [Update TRM technical debt data using scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-run-job-trm-tech-debts.md).
+**Note:** **Populate Technology Lifecycle Risks** scheduled job runs monthly by default. You can also run it on demand. For instructions, see [Schedule a job to generate TLM technology risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-schedule-job-generate-tpm-risk.md).
 
 ## Technology lifecycle risk score example
 
@@ -158,10 +158,10 @@ Application 360 Dashboard
 
 </td><td>
 
-The lifecycle risk score for the selected application appears alongside other indicator scores. **Note:** The Application 360 dashboard requires the Load Application Indicators and compute Application Scores scheduled job to have run for the current fiscal period. If the job has not run, lifecycle risk scores don't appear.
+The lifecycle risk score for the selected application appears alongside other indicator scores.**Note:** The Application 360 dashboard requires the Load Application Indicators and compute Application Scores scheduled job to have run for the current fiscal period. If the job has not run, lifecycle risk scores don't appear.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Rationalization of business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-rationalize-business-applications.md)
+</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 
@@ -175,4 +175,6 @@ The lifecycle risk score for the selected application appears alongside other in
 [Run a scheduled job to generate TLM lifecycle data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-run-scheduled-job-update-tpm-data.md)
 
 [Manage scoring profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-configure-scoring-profiles.md)
+
+[Rationalization of business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-rationalize-business-applications.md)
 

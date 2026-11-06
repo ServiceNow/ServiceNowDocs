@@ -94,5 +94,3 @@ Scheduled execution:
 
 You're now ready to view your Cisco AI Defense data in your instance.
 
-**Parent Topic:**[Cisco AI Defense integration for AI security exposure management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/exploring-cisco-ai-defense-integration.md)
-

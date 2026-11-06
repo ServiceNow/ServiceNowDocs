@@ -1,5 +1,5 @@
 ---
-title: Customize the incident record page
+title: Incident record page customization
 description: You can customize the Overview tab and the contextual side panel for an incident.Modify the Overview tab of an incident record page to display the summary and other information of the incident for an agent.Modify the Investigation tab of an incident record page.Customize the Remedial action playbook displayed on the contextual side panel of an incident record page.Modify the incident record information displayed on the contextual side panel of an incident record page.Configure the display of service level agreement \(SLA\) information in the incident record page.Enable quick updates for field values in a list in Service Operations Workspace.Customize on how the CI related metrics information is displayed on the Investigate tab of the Incident record.Configure the collection rules and map the rules to the metric definitions in the Investigate Framework module. This configuration enables you to define when the CI related metrics information is automatically retrieved on the Investigate tab of the Incident record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/customize-the-incident-record-page.html
@@ -7,12 +7,12 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 17
 breadcrumb: [Customizing Service Operations Workspace for ITSM to align with your requirements, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
-# Customize the incident record page
+# Incident record page customization
 
 You can customize the **Overview** tab and the contextual side panel for an incident.
 
@@ -460,7 +460,7 @@ If the Hardware Asset Management Professional plugin \(com.sn\_hamp\) is install
 
 2.  For the **glide.lists.inline\_editing\_enabled** property, set the **Value** field to `true`.
 
-3.  Click **Update**.
+3.  Select **Update**.
 
 
 ## Customize the Investigate tab
@@ -500,7 +500,7 @@ Use this task to customize and configure the **Investigate** tab of the Incident
 
     The `sn_sow.SOWInvestigateConfigSNC` script include record contains the configuration that is required to render the Investigate tab UI. Use this script include record as a reference to override the configuration as required, using the `sn_sow.SOWInvestigateConfig` script include record.
 
-6.  Click **Save**.
+6.  Select **Save**.
 
 7.  From the Script Includes list, select the provider specific script include SNC record.
 
@@ -520,7 +520,7 @@ Use this task to customize and configure the **Investigate** tab of the Incident
 
     The `sn_acc_adapter.AccTransformUtilsSNC` script include record contains the configuration such as which data to store and how much data must be displayed on the Investigate tab UI. Use this script include record as a reference to override the configuration as required, using the `sn_acc_adapter.AccTransformUtils` script include record.
 
-11. Click **Save**.
+11. Select **Save**.
 
 
 ### What to do next
@@ -535,7 +535,7 @@ Configure the collection rules and map the rules to the metric definitions in th
 
 Agent Client Collector for Investigation \(sn\_acc\_adapter\) and Investigation Framework \(sn\_invest\_fwk\) must be installed on the instance to view the Investigate Framework module. For more information, see [Install Agent Client Collector for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/install-acc-adapter.md).
 
-The Agent Client Collector framework \(sn\_agent\) plugin must be installed on the instance, and Agent Client Collector must be installed to the affected CI. These installations are required to view the **Investigate** tab on the Incident record and the CI related metrics information displayed on the **Investigate** tab of the Incident record. For more information on the Agent Client Collector framework plugin and the installation, see [Exploring Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/exploring-agent-client-collector.md) and [Agent Client Collector installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/acc-installation.md).
+The Agent Client Collector framework \(sn\_agent\) plugin must be installed on the instance, and Agent Client Collector must be installed to the affected CI. These installations are required to view the **Investigate** tab on the Incident record and the CI related metrics information displayed on the **Investigate** tab of the Incident record. For more information on the Agent Client Collector framework plugin and the installation, see [Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/acc-landing-page.md) and [Agent Client Collector installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/acc-installation.md).
 
 Role required: sn\_cimaf.sn\_cimaf\_admin or sn\_invest\_fwk.sn\_investigate\_admin
 
@@ -543,7 +543,7 @@ Role required: sn\_cimaf.sn\_cimaf\_admin or sn\_invest\_fwk.sn\_investigate\_ad
 
 1.  Navigate to **All** &gt; **Metrics and CI Actions Framework** &gt; **Administration** &gt; **Collection Rules**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  On the form, fill in the fields.
 
@@ -561,13 +561,13 @@ Role required: sn\_cimaf.sn\_cimaf\_admin or sn\_invest\_fwk.sn\_investigate\_ad
     |CI conditions|Condition builder to define the criteria for the fields related to the CI under which the collection rule is triggered.|
     |Allow matching CI extensions|Option to enable the selection of the child CI classes associated with the selected CI class. For example, if the **CI class** is set as **cmbi\_ci\_computer**, and if the **Allow matching CI extensions** option is selected, then you can select CI classes such as the cmbi\_ci\_computer server that is a child CI of cmbi\_ci\_computer.|
 
-4.  Click **Submit**.
+4.  Select **Submit**.
 
     The collection rule is created.
 
-5.  Click the collection rule record.
+5.  Select the collection rule record.
 
-6.  On the Collection Rule Metric Associations related list, click **New**.
+6.  On the Collection Rule Metric Associations related list, select **New**.
 
     Use the Collection Rule Metric Associations related list to associate and map the collection rule with the metric definition \(information\).
 
@@ -580,7 +580,7 @@ Role required: sn\_cimaf.sn\_cimaf\_admin or sn\_invest\_fwk.sn\_investigate\_ad
 
     **Note:** You can configure multiple collection rules with multiple metric definitions.
 
-8.  Click **Submit**.
+8.  Select **Submit**.
 
 
 ### Result

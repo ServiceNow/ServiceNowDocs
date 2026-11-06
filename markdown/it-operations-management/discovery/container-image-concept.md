@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [container, image, Aqua Trivy, security, pattern, scanning, CMDB, Visibility, ACC for Kubernetes - Visibility, Agent Client Collector]
 breadcrumb: [Kubernetes discovery using patterns, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
@@ -34,7 +34,7 @@ You can use two ITOM Visibility apps to scan container images, Discovery and Ser
 
 -   **Use case \# 1**
 
-    After an application is packaged in container images, a security professional can scan the base and final images for vulnerabilities. They can identify OS packages, software dependencies, and application records. This is specifically for Containerized MSSQL Server.
+    Once an application has been packaged up in container images, a security professional can scan the base image and the final image for vulnerabilities. The scan identifies OS packages, software dependencies, and application records. This is specifically for Containerized MSSQL Server.
 
 
 <table id="table_m1k_b4g_vdc"><thead><tr><th>

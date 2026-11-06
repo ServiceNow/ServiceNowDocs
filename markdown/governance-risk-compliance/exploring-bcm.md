@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/exploring-bcm.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -48,7 +48,7 @@ The Business Continuity Management application provides these benefits:
 |Benefit|Feature|Users|
 |-------|-------|-----|
 |Manage continuity activities in an interactive dashboard.|[Home page view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/home-page-uib-ws.md)|BCM program manager|
-|Monitor individual and team tasks from a single dashboard in the **My tasks** view.|[My tasks page view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/my-tasks-page-uib-ws.md)|BCM program manager|
+|Monitor individual and team tasks from a single dashboard in the **My tasks** view.|[My tasks page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/my-tasks-page-uib-ws.md)|BCM program manager|
 |Assess the criticality of services and applications.|[Create a business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-bia-in-uib-ws.md)|BCM program manager or BIA administrator|
 |Prepare a business continuity plan with a response strategy and request approvals from BCM leads and program managers.|[Create a business continuity plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-bcp-plan-in-uib-ws.md)|BCM program manager or BCP administrator|
 |Test and improve business continuity plan continuously.|[Create an exercise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/start-exercise-event-in-uib-ws.md)|BCM program manager or BCM planner|

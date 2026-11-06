@@ -7,7 +7,7 @@ release: australia
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Post and respond to content in the community, Using communities, Communities, Customer Service Management]
 ---
@@ -21,6 +21,10 @@ Ask a question in a forum to get an answer from other community users.
 Role required: sn\_communities.community\_user
 
 You can only ask a question in a forum if you have been assigned the correct permissions.
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## About this task
 

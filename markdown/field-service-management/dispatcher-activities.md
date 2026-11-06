@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/dispatcher-activities.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Field Service Management]
 ---
@@ -19,6 +19,31 @@ Dispatchers can efficiently manage field teams and customer experience to achiev
 Watch this short video to see how dispatchers use Dispatcher Workspace.
 
 Dispatcher Workspace is the main working space for dispatchers, bringing speed and efficiency to field service scheduling. It provides dispatchers and managers with a complete view of tasks, teams, locations, and status. Dispatcher Workspace has a configurable layout so dispatchers can create a personalized display with custom filters, advanced search, and sort options. Task and agent cards can be customized to display relevant information.
+
+## Example: Assign HVAC Technician
+
+A customer reports that their AC unit is not cooling. The system automatically assigns a qualified HVAC technician matched to the customer's location and service agreement, and the technician receives the job assignment with real-time status updates.
+
+|Step|Actor|Action|
+|----|-----|------|
+|1|Dispatcher|Reviews the queue|
+|2|System|Evaluates technician fit|
+|3|Dispatcher|Assigns the job|
+|4|System|Notifies technician|
+|5|System|Updates work order status to Dispatched|
+
+## Example: Optimize Technician Daily Route
+
+A dispatcher assigns multiple work orders across different locations and needs to minimize technician travel time without manually reordering the schedule. Route Optimization evaluates all job locations, calculates the most efficient route, and reorders tasks automatically, reducing travel time and improving the number of jobs a technician can complete in a single shift.
+
+|Step|Actor|Action|
+|----|-----|------|
+|1|Dispatcher|Assigns multiple jobs|
+|2|System|Evaluates job locations|
+|3|System|Calculates optimal route|
+|4|System|Reorders task schedule|
+|5|Technician|Follows optimized route|
+|6|System|Minimizes travel time|
 
 ## Key features
 

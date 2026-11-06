@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/removing\_demo\_data\_from\_your\_pdi.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Personal developer instance guide, Learning about developing on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Personal developer instance guide, Learning about developing on the ServiceNow AI Platform, Classic app development, Building applications]
 ---
 
 # Removing demo data from your PDI

@@ -7,7 +7,7 @@ release: australia
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2026-07-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [VMware vCenter, Discovery VMware vCenter]
 breadcrumb: [Operating systems discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
@@ -25,7 +25,7 @@ When a vCenter application is running on a dedicated vCenter appliance, a "Runs 
 
 ## Tested vCenter versions
 
-The ServiceNow® platform supports vCenter API versions 4.0 and higher. The following versions were tested with the Australia release:
+The ServiceNow® platform supports vCenter API versions 4.0 and higher. The following versions were tested with the Brazil release:
 
 -   vCenter versions 9.0 and earlier
 -   vCenter appliance version 6.7 and earlier
@@ -70,7 +70,7 @@ If the VM is deleted from vCenter, the cmdb\_ci\_vm\_instance state changes to t
 When a vCenter CI, such as a virtual machine, is removed, the ServiceNow instance marks it as "stale" in the CMDB, using either of these procedures:
 
 -   When Discovery runs, it creates an audit record in the [Components installed with CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_TablesInstalledCMDBHealth.md) table for the missing CI and marks the CI "stale".
--   If the instance is configured to collect vCenter events, the system can also create a "stale" audit record for the CI in the CMDB Health Result \[cmdb\_health\_result\] table from the VmRemovedEvent event, without having to run Discovery.
+-   If the instance is configured to collect vCenter events, the system can also create a "stale" audit record for the CI in the CMDB Health Result \[cmdb\_health\_result\] table. This record is created from the VmRemovedEvent event, without having to run Discovery.
 
 **Note:** When the **Staleness** setting is configured, the dependency view \(BSM map\) grays out stale CIs in its relationship diagram to indicate that they were removed from vCenter.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/or-ws-tasks-page.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Landing page and dashboard views, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -74,7 +74,7 @@ For more information on setting up a business service in Operational Resilience 
 
 For more information on analyzing the importance and impact tolerance of a business service in Operational Resilience Workspace, see [Performing Importance and impact tolerance assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/analyze-impact-tolerance-importance-of-service-in-ws.md).
 
-For more information on performing a scenario analysis in Operational Resilience Workspace, see [Scenario analysis using simulation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/scenario-analysis-in-ws.md).
+For more information on performing a scenario analysis in Operational Resilience Workspace, see [Conducting a scenario analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/scenario-analysis-in-ws.md).
 
 For more information on self-attesting your business services in Operational Resilience Workspace, see [Certifying services using self-attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/self-attestation-in-ws.md).
 

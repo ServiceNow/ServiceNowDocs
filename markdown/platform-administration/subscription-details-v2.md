@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/subscription-details-v2.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Explore, Subscription Management, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -48,7 +48,7 @@ View subscription details on the details page by navigating to **Admin** &gt; **
 
     Only active users count toward the subscription allocation totals that appear throughout Subscription Management.
 
--   View eachactive user who belongs to the subscribed groups in the **Subscribed users** tab. Only active users with allocated subscriptions appear in this list.
+-   View each active user who belongs to the subscribed groups in the **Subscribed users** tab. Only active users with allocated subscriptions appear in this list.
 -   Stay in compliance by monitoring your product subscription add-on usage on the **Bundled Items** tab. Product subscription add-ons can include bundled custom tables, portal visits, and transaction entitlements.
 -   Plan for future purchases and keep your subscriptions current by monitoring the start and end dates for each of your product subscriptions in the **Purchase History** tab.
 
@@ -60,7 +60,7 @@ View subscription details on the details page by navigating to **Admin** &gt; **
     -   Determine whether an application is available to install from the current product subscription by checking the **Installation status** column.
 -   Maximize subscription usage and grant entitlement to the right users by allocating per-user subscriptions. You allocate per-user subscriptions by adding one or more groups to a product subscription. Subscription Management helps you with the allocation process by recommending groups based on their assigned roles. For more information, see [Allocate subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/allocate-subscriptions-v2.md).
 
-    **Note:** To simplify the Subscription Management experience, the manual allocation workflow for user-based subscriptions is unavailable if you have never used it. Automatic allocation of user-based subscriptions is based on user and group roles.
+    **Note:** To simplify the Subscription Management experience, the manual allocation workflow for user-based subscriptions is unavailable if you have never used it. Automatic allocation of user-based subscriptions is based on user and group roles. For more information, see .
 
 
 ## Consolidated subscriptions

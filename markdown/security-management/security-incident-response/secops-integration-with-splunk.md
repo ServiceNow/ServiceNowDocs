@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -19,9 +19,6 @@ The ServiceNow Security Operations add-on for Splunk allows a Splunk software ad
 The add-on is installed from [Splunkbase.](https://splunkbase.splunk.com/)
 
 **Important:** Splunk is also supported for Managed Service Provider \(MSP\) environment.
-
-**Related topics**  
-
 
 [Setup Splunk environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/setup-chg-instance.md)
 

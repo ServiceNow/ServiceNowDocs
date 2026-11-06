@@ -7,9 +7,9 @@ release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2026-05-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing access to ServiceNow Studio, Configure, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Managing access to ServiceNow Studio, Configure, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Elevate your role in ServiceNow Studio
@@ -24,7 +24,7 @@ Role required: admin, or another role that can be elevated.
 
 1.  Navigate to **All** &gt; **App Engine** &gt; **ServiceNow Studio**.
 
-2.  From the home page, select your user preferences.
+2.  Select the **User Profile** icon \[Omitted image "sn-studio-settings-icon.png"\] Alt text: in the activity bar.
 
 3.  Select **Elevate role**.
 

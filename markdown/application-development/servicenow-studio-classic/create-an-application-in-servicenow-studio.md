@@ -7,9 +7,9 @@ release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2026-05-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Applications in ServiceNow Studio, Use, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Applications in ServiceNow Studio, Use, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Create an application in ServiceNow Studio
@@ -30,9 +30,9 @@ Use the following steps to create an app manually, or use Build Agent to create 
 
 1.  Navigate to **All** &gt; **App Engine** &gt; **ServiceNow Studio**.
 
-2.  Select either the create icon \[Omitted image "sn-studio-add-icon.png"\] Alt text: next to the Navigator panel or the **Create** button.
+2.  Select either the create icon \[Omitted image "sn-studio-create-icon.png"\] Alt text: next to the Navigator panel or select **Create an app** under the Build Agent chat panel.
 
-    \[Omitted image "sn-studio-create-button-as2.png"\] Alt text: There are two create buttons, one on either side of the screen. Select either Create button to start developing an app.
+    \[Omitted image "sn-studio-create-button-bs1.png"\] Alt text: Select Create in the activity bar to create an app manually, or start a conversation with Build Agent to create it using AI.
 
 3.  Select **App** from the options that appear.
 
@@ -42,15 +42,15 @@ Use the following steps to create an app manually, or use Build Agent to create 
 
     **Note:** To browse completed apps for reference, select **Explore the App Gallery**. After signing in with your ServiceNow credentials, you can access a library of apps and app files.
 
-<table id="choicetable_tgq_ryl_m3c"><thead><tr><th align="left" id="d322205e192">
+<table id="choicetable_tgq_ryl_m3c"><thead><tr><th align="left" id="d414079e195">
 
 How to create
 
-</th><th align="left" id="d322205e195">
+</th><th align="left" id="d414079e198">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d322205e201">
+</th></tr></thead><tbody><tr><td id="d414079e204">
 
 **On your own**
 
@@ -58,7 +58,7 @@ Description
 
 Create the application independently, adding content and files of your choosing.Select **On your own** &gt; **Continue** and continue with step 5 in this procedure.
 
-</td></tr><tr><td id="d322205e221">
+</td></tr><tr><td id="d414079e224">
 
 **With ServiceNow Otto, which opens Build Agent**
 
@@ -66,9 +66,9 @@ Create the application independently, adding content and files of your choosing.
 
 Begin a conversation with Build Agent to create your application.Select **With ServiceNow Otto** &gt; **Start a chat**. The Build Agent chat panel opens. Select **Create an application** or describe what you want to build.
 
-For more information, see [Create an application using Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/create-a-new-application-using-build-agent.md).
+For more information, see [Create an application using Build Agent default mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/create-a-new-application-using-build-agent.md).
 
-</td></tr><tr><td id="d322205e270">
+</td></tr><tr><td id="d414079e273">
 
 **With Creator Studio**
 

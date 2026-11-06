@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/r\_ITBusinessManagement.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 ---
 
@@ -70,7 +70,7 @@ Organization Extension \(com.snc.organization\_extension\) plugin activates Goal
 
 Business Units, Goals, Enterprise Strategy, and Business Unit Strategy modules are available in the Organization application menu.
 
-Business Applications and Business Capabilities modules are also available within the Organization application menu, however, their related tables are moved to Configuration Management \(CMDB\) \(com.snc.cmdb\) plugin, which is available on zBoot but without demo data.
+Business Applications and Business Capabilities modules are also available within the Organization application menu. Their related tables are moved to the Configuration Management \(CMDB\) \(com.snc.cmdb\) plugin, which is available on zBoot but without demo data.
 
 ## Learn
 

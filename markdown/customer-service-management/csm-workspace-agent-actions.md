@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-workspace-agent-actions.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -43,14 +43,14 @@ Users with the administrator role can enable the background colors along with a 
 To set this property:
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Experience**.
-2.  Select **CSM/FSM Configurable Workspace**.
+2.  Select **CRM Workspace**.
 3.  In the UX Page Properties related list, select **enableBgColorForUnsavedFieldIndicator**.
 4.  Update the value in the **Value** field.
 5.  Select **Update**.
 
 ## Editable record headers
 
-Customer service agents can edit the short description \(primary field\) of a record directly from the record header field. To edit the text, simply click in the record header field and make the changes.
+Customer service agents can edit the short description \(primary field\) of a record directly from the record header field. To edit the text, simply select the record header field and make the changes.
 
 This feature is available on the following CRM Workspace record pages:
 
@@ -141,7 +141,7 @@ For more information on how to enable Recommended Actions - AI search and disabl
 
 ## Account hierarchy
 
-From the Account form, customer service agents can click the open hierarchy icon \(\[Omitted image "workspace-account-hierarchy-icon.jpg"\] Alt text: Open hierarchy icon\) in the **Name** field to see the parent-child account relationships in the Account Hierarchy pop-up window. The account hierarchy is available for accounts that have a parent or child account.
+From the Account form, customer service agents can select the open hierarchy icon \(\[Omitted image "workspace-account-hierarchy-icon.jpg"\] Alt text: Open hierarchy icon\) in the **Name** field to see the parent-child account relationships in the Account Hierarchy pop-up window. The account hierarchy is available for accounts that have a parent or child account.
 
 \[Omitted image "csm-config-workspace-account-hierarchy.png"\] Alt text: Window displaying the parent-child relationship for an account. For the text description, refer to the text that follows in the Account Hierarchy section.
 
@@ -151,7 +151,7 @@ Customer service agents can:
 
 -   Expand and collapse the tree structure.
 -   Switch between the parent view and the full view of the account hierarchy.
--   Click an account to open the Account form in a sub tab.
+-   Select an account to open the Account form in a sub tab.
 
 For information about creating an account hierarchy, see [Account hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/c_AccountHierarchy.md).
 

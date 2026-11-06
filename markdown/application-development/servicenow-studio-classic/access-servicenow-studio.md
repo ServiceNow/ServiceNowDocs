@@ -7,9 +7,9 @@ release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Explore, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Access ServiceNow Studio
@@ -21,6 +21,19 @@ Open ServiceNow Studio from the ServiceNow AI Platform All menu or directly from
 Navigate to **All** &gt; **App Engine** &gt; **ServiceNow Studio**, or search for `ServiceNow Studio` in the filter navigator and open it from the search results. To access ServiceNow Studio faster, add it to your **Favorites** tab.
 
 \[Omitted image "sn-studio-all-menu.png"\] Alt text: Search for and select ServiceNow Studio from the All menu.
+
+## How do I open ServiceNow Studio from a record on the ServiceNow AI Platform
+
+Platform records that extend \[sys\_metadata\] can be opened and edited directly in ServiceNow Studio through one of the following methods:
+
+-   On the metadata record, select the **Open Studio** button, or the open in Studio icon \[Omitted image "sn-studio-open-in-studio-icon.png"\] Alt text:.
+
+    \[Omitted image "sn-studio-open-in-studio.png"\] Alt text: Open Studio using either option on the metadata record.
+
+-   On the metadata record, select and hold \(or right-click\) in the top form header bar, and select **Configure**. Select any option below All, and ServiceNow Studio opens.
+
+    \[Omitted image "sn-studio-right-click-config.png"\] Alt text: Select a configuration option for the record to open it in ServiceNow Studio.
+
 
 ## How do I open ServiceNow Studio from App Engine Studio?
 

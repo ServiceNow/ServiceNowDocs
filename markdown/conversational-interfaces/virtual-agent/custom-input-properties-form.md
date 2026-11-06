@@ -1,21 +1,21 @@
 ---
 title: Custom input properties sheet
-description: Use this sheet to define a custom input control in Virtual Agent.
+description: Custom input properties define a custom input control in Virtual Agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/custom-input-properties-form.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-10-24"
 reading_time_minutes: 1
 keywords: [Virtual Agent, custom, input, properties]
-breadcrumb: [Customizing Virtual Agent with custom controls, Exploring other Virtual Agent features, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Use custom controls, Other Virtual Agent features, Build conversations, Virtual Agent, Conversational Interfaces]
 ---
 
 # Custom input properties sheet
 
-Use this sheet to define a custom input control in Virtual Agent.
+Custom input properties define a custom input control in Virtual Agent.
 
 ## Custom input properties sheet
 
@@ -33,7 +33,7 @@ Custom Control Definition
 
 </td><td>
 
-List of custom control definitions for the controls.Select the definition that defines how the control is rendered for the channel in which it runs. If you need to add a custom control definition, click the **Custom control definitions** link.
+List of custom control definitions for the controls.Select the definition that defines how the control is rendered for the channel in which it runs. If you have to add a custom control definition, select the **Custom control definitions** link.
 
 </td></tr><tr><td>
 
@@ -41,7 +41,7 @@ Generate Control Data Function
 
 </td><td>
 
-Script function that provides the data used to render the custom control. For example, if you're creating a slider input control, you would define the values for the slider. These values include the slider minimum and maximum values, slide default values, icon used in the slider, and so on.
+Script function that provides the data used to render the custom control. For example, if you're creating a slider input control, you would define the values for the slider. These values include the slider minimum and maximum values, slider default values, icon used in the slider, and so on.
 
 </td></tr><tr><td>
 

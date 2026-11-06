@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/exploring-ai-workforce.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-11"
-reading_time_minutes: 4
+last_updated: "2026-10-13"
+reading_time_minutes: 5
 keywords: [explore, autonomous workforce, AI specialist, AI agents, service desk]
-breadcrumb: [Autonomous Workforce, Enable AI experiences]
+breadcrumb: [Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Exploring Autonomous Workforce
@@ -37,15 +37,15 @@ Different users interact with Autonomous Workforce in various ways depending on 
 
 |User|Role|Description|
 |----|----|-----------|
-|AI administrator|sn\_aia.admin|The AI administrator can configure and activate AI specialists using AI Agent Studio. After AI specialists are activated, they can monitor their performance and activity to track their effectiveness, efficiency, and customer satisfaction.|
+|AI administrator|sn\_aia.admin|The AI administrator can configure and activate AI specialists using AI Agent Studio. After AI specialists are activated, AI administrators can monitor AI specialist performance and activity to track their effectiveness, efficiency, and customer satisfaction.|
 |Service Desk manager|sn\_sow\_itsm\_common.sn\_service\_desk\_manager|Service Desk managers have the capabilities of a standard Service Desk Agent \(sn\_service\_desk\_agent\) and team level oversight and task resolution. They can view and manage team performance reports, analytics, and tasks and onboard an AI specialist to the team in Service Operations Workspace.|
-|Service Desk agent|sn\_itsm\_common.sn\_service\_desk\_agent|Service Desk agents resolve tasks, such as incidents and cases, using their knowledge, research, and experience. They have access to the Service Operations Workspace, where they can view the work of an AI specialist on a record.|
+|Service Desk agent|sn\_sow\_itsm\_common.sn\_service\_desk\_agent|Service Desk agents resolve tasks, such as incidents and cases, using their knowledge, research, and experience. They have access to the Service Operations Workspace, where they can view the work of an AI specialist on a record.|
 
 ## Autonomous Workforce workflow
 
 Follow this workflow to implement and manage AI specialists in your organization.
 
-For more information about considerations to make before deployment, see [General guidelines for deploying AI specialists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gg-ai-workforce.md).
+For more information about considerations to make before deployment, see [General guidelines for deploying an autonomous workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gg-ai-workforce.md).
 
 1.  Onboard an AI specialist.
 
@@ -57,13 +57,13 @@ For more information about considerations to make before deployment, see [Genera
     -   Profile, including the roles and assignment groups
     -   Tasks, things the AI specialist can do
     -   Triggers, for running the AI specialist after specified events occur
-2.  Manually assign tickets to your AI specialist to see how it works. Once you have built trust, create assignment rules or configure [Advanced Work Assignment](https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-application-landing-page.html) to route work to your AI specialist automatically.
+2.  Manually assign tickets to your AI specialist to see how it works. Once you have built trust, [create assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/work-assign-aiw.md) or configure [Advanced Work Assignment](https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-application-landing-page.html) to route work to your AI specialist automatically.
 3.  Monitor AI specialist activity. You can review the records that the AI specialist has worked on individually to check how it's doing.
 4.  Track AI specialist performance. Analytics for AI specialists that track their effectiveness, efficiency, and value can be found in AI Agent Studio and Service Operations Workspace. Use the analytics routinely to confirm that the AI specialist keeps up if things change. If performance isn't where you want it to be, you can configure it again at any time.
 
 ## Autonomous Workforce benefits
 
-Autonomous Workforce provides specific benefits for different types of users in your organization.
+Autonomous Workforce provides specific benefits in your organization.
 
 |Benefit|Feature|
 |-------|-------|
@@ -73,18 +73,18 @@ Autonomous Workforce provides specific benefits for different types of users in 
 |Communicate with requesters throughout the lifecycle of a request to keep them informed|AI specialist tasks|
 |Monitor team and AI specialist performance to track efficiency and identify areas for improvement|Performance metrics|
 |Test AI specialist behavior before activation to validate outcomes and reduce risk|AI specialist guided setup in AI Agent Studio|
-|Simplified agentic AI setup reduces configuration complexity and helps accelerate time to value|AI specialist guided setup in AI Agent Studio|
+|Reduce agentic AI setup and accelerate time to value with less configuration complexity|AI specialist guided setup in AI Agent Studio|
 |Enforce data security for agentic AI by assigning roles to control what each AI specialist can access and act on|AI specialist assigned roles|
 
 ## What to explore next
 
 To learn more about configuring and using Autonomous Workforce, see:
 
--   [Configure AI specialist profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/modify-aiw-profile.md)
--   [Edit AI specialist tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/modify-aiw-tasks.md)
--   [Test AI specialists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/test-aiw-ais.md)
--   [Monitor AI specialist activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/view-aiw-activity.md)
--   [Track AI specialist performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/view-aiw-performance.md)
+-   [Edit the profile of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/modify-aiw-profile-new.md)
+-   [Edit the tasks of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/modify-aiw-tasks-new.md)
+-   [Preview an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/test-aiw-ais-new.md)
+-   [View the activity of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/view-aiw-activity-new.md)
+-   [Review the performance of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/view-aiw-performance-new.md)
 
 ## Related products
 

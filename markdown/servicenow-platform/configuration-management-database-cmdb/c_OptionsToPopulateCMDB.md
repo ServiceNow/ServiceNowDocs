@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -52,7 +52,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 ## Import data from another source using Import Sets
 
-You can import data to the CMDB using Import Sets. [Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/import-sets-landing-page.md) find files of information \(in formats such as XML, Excel, or CSV\), import them, and transform them onto the required table. This process can be scheduled or performed on demand.
+You can import data to the CMDB using Import Sets. Import sets find files of information \(in formats such as XML, Excel, or CSV\), import them, and transform them onto the required table. This process can be scheduled or performed on demand.
 
 To import relationships between CIs, use import sets to populate the table \[cmdb\_rel\_ci\] with information on the parent, the child, and the nature of the relationship. The \[cmdb\_rel\_ci\] table displays a list of all CI relationships and is useful when importing CI data.
 
@@ -60,7 +60,7 @@ To import relationships between CIs, use import sets to populate the table \[cmd
 
 ## CMDB instance API
 
-Use the [CMDB instance API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cmdb-instance-api.md) to populate the CMDB by creating or updating CMDB tables.
+Use the CMDB instance API to populate the CMDB by creating or updating CMDB tables.
 
 ## Manually create a CI
 

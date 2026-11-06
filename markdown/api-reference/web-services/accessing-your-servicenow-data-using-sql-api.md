@@ -7,7 +7,7 @@ release: australia
 product: Web Services
 classification: web-services
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Additional integration resources, Web services, API implementation, API implementation and reference]
 ---
@@ -15,6 +15,12 @@ breadcrumb: [Additional integration resources, Web services, API implementation,
 # Access your ServiceNow data using Live Connect
 
 Live Connect provides read-only access to your ServiceNow tables, allowing you to write SQL queries, create reports, and perform analysis while maintaining your existing security controls. This eliminates the need for data synchronization and ensures you work with current ServiceNow data.
+
+\[Omitted video\] Description: Live Connect overview video.
+
+This video covers Live Connect, including installation and key capabilities.
+
+**Note:** In versions prior to Zurich Patch 13 and Australia Patch 6, Live Connect may appear as SQL API in the product UI, including in policy names and plugin references.
 
 ## Get started
 

@@ -7,7 +7,7 @@ release: australia
 product: Cost Management
 classification: cost-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [CI rate cards, Cost Management, Strategic Portfolio Management]
 ---
@@ -244,7 +244,7 @@ Role required: financial\_mgmt\_admin
 
 ### About this task
 
-Expense lines are the snapshot of a given interval's costs, so changing the cost does not affect already generated expense lines. When costs change, either modify the cost amount or disable the current cost and create a new cost to represent the cost going forward. The changes are processed in the next generated expense line. To keep historical records of costs, create new costs rather than modifying existing ones and set the end date of the disabled cost to show that the cost agreement expired.
+Expense lines are the snapshot of a given interval's costs. Changing the cost does not affect the already generated expense lines. When costs change, either modify the cost amount or disable the current cost and create a cost new expense. The changes are processed in the next generated expense line. To keep historical records of costs, create costs rather than modifying existing ones. Set the end date of the inactive cost to indicate that the cost agreement expired.
 
 ### Procedure
 
@@ -252,7 +252,7 @@ Expense lines are the snapshot of a given interval's costs, so changing the cost
 
 2.  Select a rate card.
 
-3.  Click a rate card cost **Number**.
+3.  Select a rate card cost **Number**.
 
 4.  Modify the fields, as necessary.
 

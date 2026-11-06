@@ -1,32 +1,32 @@
 ---
 title: Multi-factor authentication verification methods
-description: ServiceNow's MFA supports verification methods such as Authenticator App, Fast IDentity Online 2 \(FIDO2\) and Time-based One-Time Password \(TOTP\).
+description: ServiceNow MFA supports verification methods such as authenticator app, Fast IDentity Online 2 \(FIDO2\) and time-based one-time password \(TOTP\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/mfa-methods.html
 release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring MFA, Multi-factor authentication, Authentication, Access Management]
 ---
 
 # Multi-factor authentication verification methods
 
-ServiceNow's MFA supports verification methods such as Authenticator App, Fast IDentity Online 2 \(FIDO2\) and Time-based One-Time Password \(TOTP\).
+ServiceNow MFA supports verification methods such as authenticator app, Fast IDentity Online 2 \(FIDO2\) and time-based one-time password \(TOTP\).
 
-The users can use the following options in addition to their user name and password to fulfill multi-factor authentication requirements. The users can setup MFA factors such as Authenticator applications, Biometric scanners, Hardware Keys, and SMS independently.
+The users can use the following options with their user name and password to fulfill multi-factor authentication requirements. The users can set up MFA factors such as authenticator applications, biometric scanners, hardware Keys, and SMS independently.
 
 ## Authenticator applications
 
-An authenticator application is third-party software that generates temporary passcodes. Users can use these passcodes along with their password to log in into an instance that requires multi-factor authentication \(MFA\). For more detail on these applications, see [Authenticator applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/mfa-auth-app.md).
+An authenticator application is third-party software that generates temporary passcodes. Users can use these passcodes along with their password to log in to an instance that requires multi-factor authentication \(MFA\). For more detail on these applications, see [Authenticator applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/mfa-auth-app.md).
 
 \[Omitted image "auth-app.png"\] Alt text: Authenticator
 
 **Note:** Install an authenticator app such as Google Authenticator or Microsoft Authenticator on your mobile device before scanning the QR code. The QR code configures your authenticator app for this account; it does not install the app.
 
-## Hardware Keys and Biometric scanners \(Web Authentication\)
+## Hardware keys and biometric scanners \(Web Authentication\)
 
 The **Integration - Web Authentication** \(com.snc.integration.webauthn\) plugin allows hardware key or biometric reader authentication on your instance.
 
@@ -40,11 +40,11 @@ Hardware keys are physical hardware that you can use to authenticate. Hardware k
 
 ## Passkey
 
-Passkey authentication is a secure, password less method of log in, where the users use a passkey by unlocking their device with a biometric sensor, PIN, or pattern.
+Passkey authentication is a secure, passwordless method of log in, where the users use a passkey by unlocking their device with a biometric sensor, PIN, or pattern.
 
 ## SMS
 
-Admin can configure ServiceNow instance to require users who attempt to log in to the instance using SMS based OTP.
+Admin can configure ServiceNow instance to require users who attempt to log in to the instance using SMS-based one-time password \(OTP\).
 
 When users attempt to log in to ServiceNow, SMS OTP is sent to the mobile number associated with the sys\_user record. Users can enter the six-digit verification code that it sent to the mobile device and verify their identity. For more information, see [SMS as an MFA factor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/mfa-with-sms.md).
 
@@ -52,7 +52,7 @@ When users attempt to log in to ServiceNow, SMS OTP is sent to the mobile number
 
 ## Email
 
-Admin can configure ServiceNow instance to require users who attempt to log in to the instance using Email based OTP.
+Admin can configure ServiceNow instance to require users who attempt to log in to the instance using email-based OTP.
 
 When users attempt to log in to ServiceNow, Email OTP is sent to the email address of the user. Users can enter the six-digit verification code that it sent to the email address and verify their identity. For more information, see [Email as an MFA factor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/mfa-with-email.md).
 

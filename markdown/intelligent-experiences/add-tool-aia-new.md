@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experienc
 release: australia
 topic_type: concept
 last_updated: "2025-11-23"
-reading_time_minutes: 2
-breadcrumb: [Create an AI agent, AI Agent Studio, Enable AI experiences]
+reading_time_minutes: 3
+breadcrumb: [Create an AI agent, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Add tools and information to an AI agent
@@ -32,7 +32,7 @@ After you add the tools to your AI agent, scroll down to the next step in the gu
 
 You can also add Knowledge graphs in this step. Knowledge graphs provide the AI agent with information about relationships between real-world entities, which improves its outputs. For example, you could add a Knowledge Graph to an approval AI agent that maps users to their location, company, and department, helping the AI agent apply the correct approval process.
 
-\[Omitted image "add-tools-2.png"\] Alt text: Knowledge Graph options
+\[Omitted image "add-tools-2.png"\] Alt text: Example Knowledge Graph, Approval User Knowledge Graph, with execution mode set to autonomous, display output set to false, its description, date added, and removal option
 
 ## Supervised vs. autonomous execution mode for AI agents
 
@@ -45,7 +45,7 @@ You can also add Knowledge graphs in this step. Knowledge graphs provide the AI 
     The agent pauses and asks a person to approve the action before the tool runs. Nothing happens until someone responds, so a supervised tool in a background or unattended execution stalls rather than proceeds. Use it for anything that writes, deletes, contacts a customer, or spends budget.
 
 
-Execution mode is set per tool and can be changed at any time in the guided setup. A mode set during a build conversation can be set after the initial draft. See [Modify an AI agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/modify-ai-agent-new.md)
+Execution mode is set per tool and can be changed at any time in the guided setup. A mode set during a build conversation can be set after the initial draft. See [Modify an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/modify-ai-agent-new.md).
 
 You can reduce the risk of an AI agent executing unexpectedly by configuring its tools to run in supervised mode. Supervised mode means that tools use human oversight during execution. Use supervised mode to enhance security for agents that perform sensitive or critical actions.
 

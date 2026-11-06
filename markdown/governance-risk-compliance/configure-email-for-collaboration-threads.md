@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/configure-email-for-collaboration-threads.html
 release: australia
 topic_type: task
-last_updated: "2026-08-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [email account, email properties, collaboration, business continuity management, BCM]
 breadcrumb: [Setup by system administrators, Configure, Business Continuity Management, Governance, Risk, and Compliance]
@@ -21,7 +21,7 @@ Role required: admin
 
 ## About this task
 
-Sending and receiving email from a collaboration thread requires at least one active email account and the system properties that enable outbound and inbound email processing. Configure these before crisis managers compose or receive email from a collaboration thread.
+To send and receive email from a collaboration thread, you need at least one active email account and the system properties that enable outbound and inbound email processing. Configure these before crisis managers can compose or receive email from a collaboration thread.
 
 ## Procedure
 

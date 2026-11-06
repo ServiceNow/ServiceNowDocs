@@ -7,8 +7,8 @@ release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: concept
-last_updated: "2026-08-25"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
@@ -50,11 +50,13 @@ When you change the start date or the end date of an iteration in EAP, the linke
 
 \[Omitted image "eap-cwm-sprints.png"\] Alt text: Sprint planning view for EAP teams in CWM.
 
-## Backlog and Hierarchy tabs for connected teams
+## Tabs and links for connected teams
 
-The Backlog and Hierarchy tabs in EAP remain available for teams connected to CWM, so you can continue to view and manage the team's work items in EAP.
+The Home, Backlog, Hierarchy, Planning board, and Docs tabs in EAP remain available for teams connected to CWM. You can continue to view and manage the team's work items in EAP.
 
 Because sprints are started and completed from the CWM Board, the **Start Sprint** and **Complete Sprint** options are hidden in the EAP Backlog for these teams. For more information, see [Start or complete iterations in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/start-or-complete-iteration-in-eap.md).
+
+In the Agile structure of your team in EAP, a connected team shows the label **Connected to CWM**. On the team page, select **Go to CWM** to open the team's board in CWM. In CWM, the Sprint planning view shows a message that sprints for the board are managed in the EAP team.
 
 **Related topics**  
 

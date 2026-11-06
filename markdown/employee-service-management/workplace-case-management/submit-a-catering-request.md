@@ -7,7 +7,7 @@ release: australia
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Requesting a workplace service, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -30,9 +30,11 @@ Use the **Catering** workplace service to request for food service for meetings 
 
 2.  On the Employee Center portal, select **Help Center** &gt; **Workplace Services**.
 
-3.  From the Workplace Services, select **Catering**.
+3.  From the list of workplace services, select **Catering**.
 
-4.  On the Submit a **Catering** request form, fill in the fields.
+    Alternatively, you can search for the workplace service and select it from the search results.
+
+4.  On the form, fill in the fields.
 
 <table id="table_ld1_pnj_ybc"><thead><tr><th>
 

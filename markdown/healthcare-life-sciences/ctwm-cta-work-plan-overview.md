@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/ctwm-cta-work-plan-overview.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Care Team Work Management, Healthcare Operations, Healthcare and Life Sciences]
 ---

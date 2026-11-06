@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/manage-objectives-and-outcomes\_0.html
 release: australia
 topic_type: task
-last_updated: "2026-08-03"
-reading_time_minutes: 1
-breadcrumb: [Objectives and Outcomes in Impact Delivery Instance, Impact Delivery Instance reference, Impact reference, Impact]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Objectives and outcomes in Impact Delivery Instance, Impact Delivery Instance reference, Impact reference, Impact]
 ---
 
 # Manage Objectives and Outcomes in Impact Delivery Instance
@@ -36,13 +36,15 @@ Role required: Impact admin, Platform Owner, Impact Portfolio Owner, and Impact 
 
     **Note:**
 
-    For IT Service Management, **Enhanced** outcomes are now available for tracking alongside Standard outcomes. Performance insights and trend analysis for Enhanced outcomes are only available in the Impact Store Application. Download Impact from the ServiceNow store to take advantage of the latest features directly in your instance. See [Install Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/install-impact-innovation-lab.md) for more information.
+    For IT Service Management, Customer Service Management, and HR Service Delivery. **Enhanced** outcomes are now available for tracking alongside Standard outcomes. Performance insights and trend analysis for Enhanced outcomes are only available in the Impact Store Application. Download Impact from the ServiceNow store to take advantage of the latest features directly in your instance. See [Install Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/install-impact-innovation-lab.md) for more information.
 
 5.  Select **Save and Continue**.
 
 6.  Review your selections and select **Confirm updates**.
 
     A summary of every selected objective and outcome is displayed, organized by objective, with its outcome, success metric, outcome model, product, and any updates made in this session. Use the **View by product** filter to narrow the summary to a specific product.
+
+    You can also use the **Refine by** filter to filter products according to a specific outcome model, progress state or the product line.
 
 
 ## Result
@@ -55,5 +57,5 @@ This feature is in the Impact Delivery Instance. Download Impact from the Servic
 
 **Note:** The Impact Delivery Instance, \[impact.servicenow.com\], won't include new features.
 
-**Parent Topic:**[Objectives and Outcomes in Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/objectives-and-outcomes-in-impact-delivery-instance.md)
+**Parent Topic:**[Objectives and outcomes in Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/objectives-and-outcomes-in-impact-delivery-instance.md)
 

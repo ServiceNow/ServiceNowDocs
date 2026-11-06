@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-work-with-bp-map.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Working with Enterprise Modeling and Visualization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -28,12 +28,14 @@ When you drag a shape from the **Shapes** palette to the canvas, the shape icon 
 You can perform the following actions when working with a business process map:
 
 -   Create business process map and associate it with a new or existing business process record.
--   Add BPMN shapes to the canvas and connect them with relationship lines. Change the line type using the list that appears directly on the connector.
+-   Add BPMN shapes to the canvas and connect them with relationship lines. Change the line type using the drop-down that appears directly on the connector.
 -   Replace a shape on the canvas with a different shape while retaining the original shape's label and connections.
 -   Update the properties of a shape by opening the side panel for the associated record.
 -   Modify diagram-level details such as the name and description of the business process.
 -   Save versions, share, duplicate, and submit diagrams for approval.
 -   Commit approved diagrams to synchronize changes to the database.
+
+**Note:** Canvas controls, including shape context menus and the modify business process details icon, are accessible via keyboard. Use the **Tab** key to navigate to shapes and their controls without a mouse.
 
 **Note:**
 
@@ -48,7 +50,7 @@ Create business process diagrams and model the future state of the business proc
 -   **[Update a business process map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-modeling-update-bp-map.md)**  
 Modify an existing business process map by adding new events, activities, or gateways.
 -   **[Modify BPMN diagram details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-modeling-modify-bpmn.md)**  
-Business Process Model and Notation \(BPMN\) diagram element directly from the diagram page. You can make quick updates without leaving the modeling interface.
+Edit the properties of a BPMN \(Business Process Model and Notation\) diagram element directly from the diagram page. It enables quick updates without leaving the modeling interface.
 
 **Parent Topic:**[Working with Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)
 

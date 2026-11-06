@@ -7,7 +7,7 @@ release: australia
 product: Platform Performance
 classification: platform-performance
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Maintain and monitor, Administer the ServiceNow AI Platform]
 ---

@@ -7,8 +7,9 @@ release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2026-08-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [SIR workspace integration, Security Incident Response integration, TISC SIR]
 breadcrumb: [Use, Threat Intelligence Security Center, Security Operations]
 ---
 

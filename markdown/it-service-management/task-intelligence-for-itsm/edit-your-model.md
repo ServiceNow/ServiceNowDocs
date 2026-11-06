@@ -7,7 +7,7 @@ release: australia
 product: Task Intelligence for ITSM
 classification: task-intelligence-for-itsm
 topic_type: task
-last_updated: "2026-08-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [incident prediction model, Similar Incidents, Incident Categorization, Task Intelligence for ITSM, retrain model, redeploy model, prediction preferences, training results, machine learning, model configuration, edit prediction model, compare model results]
 audience: administrator

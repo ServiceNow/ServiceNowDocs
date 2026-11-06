@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/r\_NavigatingByURLExamples.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Navigate to a record or module using a URL, Forms in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -21,7 +21,7 @@ Schema: `https://<baseURL>/nav_to.do?uri=<table name>.do?sys_id=-1&sysparm_query
 |Description|Example|
 |-----------|-------|
 |Opens a new Incident form in the standard interface with a priority of **1** and an incident state of **Awaiting Problem**.|`https://<instance name>.service-now.com/nav_to.do?uri=incident.do?sys_id=-1&sysparm_query=priority=1^incident_state=3`|
-|You can also use JavaScript to access GlideSystem methods. The following example creates the same type of incident as above, and also populates the caller ID with the current user ID.|`https://<instance name>.service-now.com/nav_to.do?uri=incident.do?sys_id=-1&sysparm_query=priority=1^incident_state=3^caller_id=javascript:gs.getUserID()`|
+|You can also use JavaScript to access [GlideSystem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/p_GlideServerAPIs.md) methods. The following example creates the same type of incident as above, and also populates the caller ID with the current user ID.|`https://<instance name>.service-now.com/nav_to.do?uri=incident.do?sys_id=-1&sysparm_query=priority=1^incident_state=3^caller_id=javascript:gs.getUserID()`|
 
 ## Open an existing record with preset values
 

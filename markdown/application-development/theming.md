@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-29"
 reading_time_minutes: 1
 keywords: [Theming]
-breadcrumb: [Configure experiences, Lux Development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Configure experiences, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Theming with Lux

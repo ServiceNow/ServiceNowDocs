@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/fulfilling-cto-it.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Care Team Operations for Healthcare IT, Healthcare Operations, Healthcare and Life Sciences]
 ---
@@ -19,4 +19,6 @@ For more information, see [Incident Management](https://raw.githubusercontent.co
 **Note:** Fulfillers should modify the Incident view Service Operations Workspace and add the related list **Case-&gt;Incident**.
 
 This enables you to see the case associated with see the incident on the Service Operations Workspace under the Related Records section.
+
+**Note:** Some cases are created by the ServiceNow Otto case creation AI agent instead of being submitted through a form. Fulfill these cases the same way. When a case comes from a chat conversation, an interaction record of the conversation is also created.
 

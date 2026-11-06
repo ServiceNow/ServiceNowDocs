@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/metrics-landing-page.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -38,7 +38,7 @@ The Overview section shows the data for the manual metrics in the following tile
 
 When you select a tile, the data on the page is filtered. You can also filter the data that is visible using the reporting classification filters that are provided. The options displayed for the reporting classification filter can be configured by the users. For more information on how to configure the options, refer to [Create a grouping for metric definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-a-classification-choice.md).
 
-The data displayed on this page is the latest data.
+The data displayed on this page is always the latest data.
 
 ## Aggregated metric data
 

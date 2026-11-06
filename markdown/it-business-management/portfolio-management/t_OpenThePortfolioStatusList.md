@@ -7,7 +7,7 @@ release: australia
 product: Portfolio Management
 classification: portfolio-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Portfolio Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -39,6 +39,8 @@ Role required: it\_portfolio\_manager
 
 
 [Create a portfolio]()
+
+[Legacy portfolio workbench]()
 
 [Scenario Planning for PPM]()
 

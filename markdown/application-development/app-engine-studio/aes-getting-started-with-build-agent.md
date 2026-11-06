@@ -7,10 +7,10 @@ release: australia
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2026-08-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [App Engine Studio, Get started with Build Agent, Switch to Build Agent, Migrate to Build Agent]
-breadcrumb: [Migrating to Build Agent, Explore, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Migrating to Build Agent, Explore, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Getting started with Build Agent

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/working-with-publishing-center.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -51,7 +51,7 @@ Access the published TRM catalog to view approved technology standards and lifec
 -   **[Understanding the publishing results and knowledge base output](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/understand-publishing-output.md)**  
 Understand what happens after you publish or republish a TRM catalog and how to interpret the results in the Publishing Center and the knowledge base.
 -   **[AI Search on the TRM catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/ai-search-trm-cat.md)**  
-Use the ServiceNow Otto panel to search published Technology Reference Model \(TRM\) catalog records using natural language queries.
+Use the Now Assist panel to search published Technology Reference Model \(TRM\) catalog records using natural language queries.
 -   **[Retire or archive a published TRM catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/retire-archive-pub-trm-cat.md)**  
 Use the Knowledge Base management controls to retire or archive the content generated from a published Technology Reference Model \(TRM\) catalog.
 

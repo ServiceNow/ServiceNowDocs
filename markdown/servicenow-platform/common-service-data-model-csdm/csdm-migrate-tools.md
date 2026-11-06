@@ -1,20 +1,20 @@
 ---
 title: Assistance with the CSDM life-cycle synchronization process
-description: Several features help you to promote accuracy and completeness for the process of syncing legacy data with life-cycle data in the CSDM framework.
+description: Several features help you to promote accuracy and completeness for the process of synchronizing legacy data with life-cycle data in the CSDM framework.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/common-service-data-model-csdm/csdm-migrate-tools.html
 release: australia
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Synchronize existing data, Configure, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Assistance with the CSDM life-cycle synchronization process
 
-Several features help you to promote accuracy and completeness for the process of syncing legacy data with life-cycle data in the CSDM framework.
+Several features help you to promote accuracy and completeness for the process of synchronizing legacy data with life-cycle data in the CSDM framework.
 
 ## Before you perform the life-cycle synchronization process
 

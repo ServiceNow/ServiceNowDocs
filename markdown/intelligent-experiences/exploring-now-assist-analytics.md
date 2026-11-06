@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/exploring-now-assist-analytics.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Exploring, Now Assist Analytics, Admin, GenAI, Generative AI]
-breadcrumb: [Analyzing AI performance, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Analyzing AI performance, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Exploring AI Analytics
@@ -17,7 +17,7 @@ Learn how AI Analytics enables users with the AI Analytics Viewer or AI Analytic
 
 ## AI Analytics overview
 
-The AI Analytics dashboard is built on the Platform Analytics experience. The dashboard contains indicators and breakdowns that provide actionable insights into the usage, adoption, and performance of your AI assets, including AI Guardian, ServiceNow Otto context menu, and AI search.
+The AI Analytics dashboard is built on the Platform Analytics experience. The dashboard contains indicators and breakdowns that provide actionable insights into the usage, adoption, and performance of your AI assets, including AI Guardian, ServiceNow Otto context menu, and AI search. AI skills and features are activated and managed in AI Admin Hub.
 
 **Note:** The Value Insights dashboard page is no longer available in AI Analytics. For AI value insights, use the Value tab in AI Control Tower. See [Value tab in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/aict-value-tab.md).
 

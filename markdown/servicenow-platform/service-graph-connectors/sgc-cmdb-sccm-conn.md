@@ -7,7 +7,7 @@ release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [SGC-SCCM, SGC-Microsoft SCCM, SGC SCCM, SGC Microsoft SCCM, SGC for SCCM, SGC for Microsoft SCCM, SCCM SGC, Microsoft SCCM SGC, Service Graph Connector for SCCM, Service Graph Connector for Microsoft SCCM, SCCM connection details, SCCM connection, common connection framework, CCF, SGC-SCCM, SGC-Microsoft SCCM, SGC SCCM, SGC Microsoft SCCM, SGC for SCCM, SGC for Microsoft SCCM, SCCM SGC, Microsoft SCCM SGC, Service Graph Connector for SCCM, Service Graph Connector for Microsoft SCCM, SCCM connection details, SCCM connection, common connection framework, CCF]
 breadcrumb: [Microsoft SCCM, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/imports-overview-page.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workflow Data Fabric]
 ---
@@ -43,7 +43,7 @@ Import data from external systems and transform it into ServiceNow AI Platform r
 
     Automate data import tasks through a consolidated interface that provides a guided, step-by-step experience. Define external data sources, specify target tables, map how source data becomes target data, and schedule regular imports.
 
--   **Import Set API**
+-   **[Import Set API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_ImportSetAPI.md)**
 
     The Import Set API provides endpoints that enable you to interact with import set tables. The API transforms incoming data based on associated transform maps. The Import Set API supports synchronous transforms and mirrors the existing SOAP interface.
 

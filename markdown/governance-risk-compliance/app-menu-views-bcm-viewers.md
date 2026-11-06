@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/app-menu-views-bcm-viewers.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setup by system administrators, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -20,7 +20,7 @@ For detailed information on user roles, see [Roles installed](https://raw.github
 
 <table id="table_tnn_nvs_kmb"><tbody><tr><td>
 
-
+\[Omitted image "BCMSysAdmin.png"\] Alt text: BCM administrator
 
 </td><td>
 
@@ -38,7 +38,7 @@ As a BCM administrator, you can access all menu options from the Business Contin
 
 </td></tr><tr><td>
 
- 
+\[Omitted image "ProgramManager.png"\] Alt text: BCM program manager
 
 </td><td>
 
@@ -53,7 +53,7 @@ As a BCM program manager you can view and access the menu options:-   Business C
 
 </td></tr><tr><td>
 
- 
+\[Omitted image "BCMPlanner.png"\] Alt text: BCM planner
 
 </td><td>
 
@@ -68,7 +68,7 @@ As a BCM planner you can view and access the menu options:-   Business Continuit
 
 </td></tr><tr><td>
 
- 
+\[Omitted image "Viewer.png"\] Alt text: BCM viewer
 
 </td><td>
 

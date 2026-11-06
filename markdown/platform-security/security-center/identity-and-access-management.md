@@ -1,34 +1,34 @@
 ---
-title: Access Management
-description: Use the tools in the Access Management section verify that your data is only accessible to the users and processes that need it.
+title: Identity and Access Management
+description: Use the tools in the Identity and Access Management \(IAM\) section verify that your data is only accessible to the users and processes that need it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/security-center/identity-and-access-management.html
 release: australia
 product: Security Center
 classification: security-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Center, Platform Security]
 ---
 
-# Access Management
+# Identity and Access Management
 
-Use the tools in the Access Management section verify that your data is only accessible to the users and processes that need it.
+Use the tools in the Identity and Access Management \(IAM\) section verify that your data is only accessible to the users and processes that need it.
 
 \[Omitted image "iam1.png"\] Alt text: Identity and Access Management in Security Center
 
-IAM consists of three tools you can use to manage access to the data on your instance. You can also select **Go to Console** to view these and other tools within the [Access management console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/access-management-console.md).
+IAM consists of three tools you can use to manage access to the data on your instance.
 
--   **[Access findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/access-findings.md)**
+-   **[Machine Identity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/identity/machine-identity-console.md)**
 
-    Access findings feature displays the potential vulnerabilities that are discovered the last time access checks were ran on your ServiceNow AI Platform.
+    Machine identities are digital credentials such as certificates, keys, and tokens. Servers, applications, containers, and cloud services use these identities authenticate with each other. Use the **Machine Identity Console** to manage the machine identities used for integrations with ServiceNow.
 
--   **[Access Analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/access-analyzer.md)**
+-   **[Access Analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-analyzer.md)**
 
     Use the **Analyze Access and Permissions** console to view permissions for a selected user, role, group, or compare access between two users.
 
--   **[Scripting Governance for default group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/scripting-governance.md)**
+-   **Scripting Governance for default group**
 
     Use the Scripting Governance Tool to configure preferences for the Conditional Script Writer group. Users in this group are assigned the **snc\_required\_script\_writer\_permission** role, which allows users to access scripts and script-like fields across the platform.
 

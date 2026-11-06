@@ -1,0 +1,33 @@
+---
+title: Integration with Task Mining
+description: Use the Task Mining integration to create Task Mining projects and run analyses directly from the Process Mining Workspace.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/process-mining/integration-taskmining.html
+release: australia
+product: Process Mining
+classification: process-mining
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Integration, Activate, Process Mining, Discover, AI Workflow Factory Prime, Agentic app development, Building applications]
+---
+
+# Integration with Task Mining
+
+Use the Task Mining integration to create Task Mining projects and run analyses directly from the Process Mining Workspace.
+
+Task Mining projects created from Process Mining projects enable you to get task level insights across workstation apps, including third parties.
+
+While working in the Analyst Workbench, a Process Mining analyst can select a process node or improvement opportunity to create a pre-filled Task Mining project. A confirmation page displays relevant context — such as the users whose tasks will be collected — for the analyst to review and submit. Task Mining then reports project status updates back to the Process Mining Workspace.
+
+The integration preserves traceability between process-level insights and task-level findings, avoiding fragmented analysis and reducing navigation between tools.
+
+\[Omitted image "task-mining-task-activity.png"\] Alt text: A task activity analysis in Task Mining.
+
+-   **[Create Task Mining project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/process-mining/create-task-mining-project.md)**  
+Generate a Task Mining project analysis from the Process Mining Workspace by selecting a process flow node.
+-   **[Task Mining project naming](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/process-mining/task-mining-naming.md)**  
+Every time a Task Mining project is created from Process Mining, the project is named automatically.
+
+**Parent Topic:**[Integrating Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/process-mining/integrating-process-mining.md)
+

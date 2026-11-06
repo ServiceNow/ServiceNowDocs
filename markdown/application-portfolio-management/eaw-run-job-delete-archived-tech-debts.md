@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-run-job-delete-archived-tech-debts.html
 release: australia
 topic_type: task
-last_updated: "2026-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with Technology Reference Model \(TRM\) in EA Workspace, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -30,7 +30,7 @@ The job runs monthly by default on day 1 at 00:00:00 in the instance time zone. 
 
 3.  To modify the schedule, update the **Run**, **Day**, **Time zone**, or **Time** fields.
 
-4.  Select **Update** to save your changes
+4.  Select **Update** to save your changes.
 
 5.  To run the job immediately instead of waiting for its next scheduled run, select **Execute Now**.
 

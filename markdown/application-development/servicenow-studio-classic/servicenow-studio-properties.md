@@ -7,9 +7,9 @@ release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: reference
-last_updated: "2026-05-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Reference, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Reference, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # ServiceNow Studio properties
@@ -40,7 +40,7 @@ sn\_sns.is\_app\_summarization\_disabled
 
 </td><td>
 
-This property is not included by default in the ServiceNow AI Platform. To disable Now Assist app summary generation in ServiceNow Studio, create a new property on the System Properties \[sys\_properties\] table named `sn_sns.is_app_summarization_disabled` and set the value to **true**.
+This property is not included by default in the ServiceNow AI Platform. To disable ServiceNow Otto app summary generation in ServiceNow Studio, create a new property on the System Properties \[sys\_properties\] table named `sn_sns.is_app_summarization_disabled` and set the value to **true**.
 
 </td></tr><tr><td>
 
@@ -191,5 +191,9 @@ Specifies the version of the ServiceNow SDK to use when creating or converting a
 -   Location: Add the property to the System Property \[sys\_properties\] table
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ServiceNow Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/servicenow-studio-reference.md)
+</table>| | |
+|---|---|
+|glide.ui.open\_in\_studio\_button.enabled|This property is not included by default in the ServiceNow AI Platform. To disable the right-click Configure redirect to ServiceNow Studio, create a property on the System Properties \[sys\_properties\] table named `glide.ui.open_in_studio_button.enabled` and set the value to **false**.|
+
+**Parent Topic:**[ServiceNow Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/servicenow-studio-reference.md)
 

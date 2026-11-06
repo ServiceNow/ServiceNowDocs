@@ -7,9 +7,9 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Receive asset warranty details from Lenovo, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Receive asset warranty details from Lenovo, Repair and maintenance, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Track the warranty details of your Lenovo assets
@@ -32,9 +32,4 @@ Role required: asset
 
 
 **Parent Topic:**[Receive asset warranty details from Lenovo](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/receive-warranty-details-lenovo.md)
-
-**Related topics**  
-
-
-[Connect to the Lenovo Warranty API]()
 

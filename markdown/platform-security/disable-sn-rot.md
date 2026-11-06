@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/disable-sn-rot.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Root of Trust Settings, Configure, Code Signing, Platform Security]
 ---
@@ -64,4 +64,6 @@ This procedure is part of a series of procedures to change to a customer Root of
 ## Result
 
 Executing the scheduled job sets the ROT property to true. Your instance is configured to use the customer root of trust.
+
+**Parent Topic:**[Change your Root of Trust configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/change-rot-overview.md)
 

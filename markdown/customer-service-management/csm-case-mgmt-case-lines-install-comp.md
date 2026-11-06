@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-case-mgmt-case-lines-install-comp.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Customer Service Management]
 ---
@@ -75,23 +75,6 @@ Includes roles
 
 </th></tr></thead><tbody><tr><td>
 
-sn\_case\_line.admin
-
-</td><td>
-
-This user can create and update case line characteristic records.
-
-</td><td>
-
--   sn\_case\_line.characteristic\_creator
--   sn\_case\_line.characteristic\_writer
--   sn\_case\_line.characteristic\_delete
--   sn\_case\_line.characteristic\_viewer
--   sn\_case\_line.characteristic\_report\_viewer
--   sn\_case\_line.viewer
-
-</td></tr><tr><td>
-
 sn\_case\_line.characteristic\_creator
 
 </td><td>
@@ -133,18 +116,6 @@ sn\_case\_line.characteristic\_viewer
 </td><td>
 
 This user can view case line characteristic records if they have access to the parent case line item record.
-
-</td><td>
-
- 
-
-</td></tr><tr><td>
-
-sn\_case\_line.viewer
-
-</td><td>
-
-This user can view case lines and workflows entities.
 
 </td><td>
 

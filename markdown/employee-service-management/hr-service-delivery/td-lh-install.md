@@ -7,9 +7,9 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Install and configure, Leader Hub, HR Service Delivery, Employee Service Management]
+breadcrumb: [Installing and configuring Leader Hub, Leader Hub, HR Service Delivery, Employee Service Management]
 ---
 
 # Install the Leader Hub application
@@ -20,7 +20,7 @@ Install the Leader Hub application to equip your organizational and HR leaders w
 
 The Leader Hub app has a dependency on UI share library\[sn\_ui\_lib\].
 
-Role required: sn\_egd\_lh.admin
+Role required: admin
 
 ## Procedure
 

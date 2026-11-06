@@ -7,7 +7,7 @@ release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage regulatory tasks, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -179,7 +179,7 @@ Additional comments
 Additional comments related to the alert.
 
 </td></tr></tbody>
-</table>    **Note:** Beginning with the Australia release, the taxonomy section in the form is not available for the new installations.
+</table>    **Note:** Beginning with the Brazil release, the taxonomy section in the form is not available for the new installations.
 
 4.  In the **Coordinator** field, assign the regulatory event alert to a coordinator with the sn\_grc\_reg\_change.user role and select **Save**.
 

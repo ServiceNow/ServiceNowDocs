@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/access-agent-profile-wfo-csm.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workforce Optimization for CSM Agent Workspace, Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
@@ -36,15 +36,15 @@ Access your profile to analyze information such as:
 
 2.  Click the Lists icon.
 
-<table id="choicetable_sy3_vzm_vnb"><thead><tr><th align="left" id="d284240e134">
+<table id="choicetable_sy3_vzm_vnb"><thead><tr><th align="left" id="d290932e134">
 
 To
 
-</th><th align="left" id="d284240e137">
+</th><th align="left" id="d290932e137">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d284240e143">
+</th></tr></thead><tbody><tr><td id="d290932e143">
 
 **Access your profile from a case record**
 
@@ -54,7 +54,7 @@ Do this
 2.  In the **Assigned** column, select your name.
 The profile page appears. In that page, you can access all the information related to your profile.
 
-</td></tr><tr><td id="d284240e170">
+</td></tr><tr><td id="d290932e170">
 
 **Create your profile for centralized access**
 

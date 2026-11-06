@@ -7,7 +7,7 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [alert generation, alert prioritization, anomaly detection, alert rules, alert significance, alert filters, log anomalies, keyword management, noise reduction, alert management, log alert filtering, advanced filtering]
 breadcrumb: [Health Log Analytics, ITOM AIOps, IT Operations Management]

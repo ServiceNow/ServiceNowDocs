@@ -7,7 +7,7 @@ release: australia
 product: Asset Management
 classification: asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Transfer order tasks, Manage transfer order, Use, Base Asset Management, Common applications, Asset Management]
 ---
@@ -32,9 +32,9 @@ Items in a transfer order must be received before they can be returned.
 
 2.  Select a transfer order that is in the **Received** stage.
 
-3.  Select the transfer order line **Number** of the item to return.
+3.  Click the transfer order line **Number** of the item to return.
 
-4.  Select **Return**.
+4.  Click **Return**.
 
 5.  Enter a quantity to return.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-gantt-view-of-tpm-and-trm-lifecycle-timelines.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Exploring Enterprise Architecture Workspace, Enterprise Architectur
 
 A Gantt chart in the Enterprise Architecture Workspace displays TLM and TRM timelines for business applications and their associated application services.
 
-The TLM and TRM application timelines can be viewed in the following timeline views, in the Gantt chart.
+The TPM and TRM application timelines can be viewed in the following timeline views, in the Gantt chart.
 
 -   **Day**
 -   **Week**

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/c\_Checklists.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Forms in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -22,7 +22,7 @@ Checklists are added to records after they are submitted. You cannot add a check
 
 ## Enabling checklists in forms
 
-To enable checklists, navigate to the form and add the **Checklist** formatter. For instructions, see Add a formatter.
+To enable checklists, navigate to the form and add the **Checklist** formatter. For instructions, see [Add a formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_FormDesign.md).
 
 ## Using checklists
 

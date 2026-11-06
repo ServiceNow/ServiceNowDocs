@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Firewall Audits and Reporting, ITOM Visibility, IT Operations Management]
 ---
@@ -17,7 +17,7 @@ breadcrumb: [Firewall Audits and Reporting, ITOM Visibility, IT Operations Manag
 Reference topics provide additional information about Firewall Audits and Reporting components, including dashboards and report calibration.
 
 -   **[Firewall Admin Workspace dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/firewall-admin-workspace-dashboard.md)**  
-The unified dashboard enables security and risk teams to oversee tasks, change requests, and the entire firewall inventory life cycle. Daily or manual updates provide accurate and current information.
+The unified dashboard enables security and risk teams to oversee tasks, change requests, and the entire firewall inventory life cycle.
 -   **[Firewall Audits and Reporting calibration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/firewall-audit-report-references.md)**  
 Explore further details on Firewall Audits and Reporting calibration by reviewing the provided material.
 -   **[Fortinet FortiManager discovery requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/fortinet-fortimanager-discovery-requirements.md)**  

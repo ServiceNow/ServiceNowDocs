@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/getting-started-with-building-applications.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Building applications]
+breadcrumb: [Classic app development, Building applications]
 ---
 
 # Learning about developing on the ServiceNow AI Platform

@@ -1,5 +1,5 @@
 ---
-title: New Inbound Integrations experience
+title: New inbound integrations experience
 description: The new inbound integration workflow in the ServiceNow Machine Identity Console provides enhanced experience for managing inbound integrations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/new-inbound-integrations.html
@@ -7,19 +7,19 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [New inbound integration experience, Machine Identity Console]
-breadcrumb: [OAuth Inbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [OAuth inbound, OAuth authentication, Authentication, Access Management]
 ---
 
-# New Inbound Integrations experience
+# New inbound integrations experience
 
 The new inbound integration workflow in the ServiceNow Machine Identity Console provides enhanced experience for managing inbound integrations.
 
 ## Inbound integrations methods
 
-Inbound Integrations allow you to configure and manage external applications to access ServiceNow APIs. To view detailed usage statistics for each OAuth client, see [View Inbound API Integration Usage dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/view-inbound-api-integration-usage-dashboard.md).
+Inbound integrations enable you to configure and manage external applications to access ServiceNow APIs. To view detailed usage statistics for each OAuth client, see [View Inbound API Integration Usage dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/view-inbound-api-integration-usage-dashboard.md).
 
 On the instance, navigate to **All** &gt; **Machine Identity Console** &gt; **Inbound integrations** &gt; **New integration**. Choose the application connection type \(grant type\).
 

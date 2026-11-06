@@ -7,7 +7,7 @@ release: australia
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Compliance case task workflow, Use, Compliance Case Management, Governance, Risk, and Compliance]
 ---
@@ -38,15 +38,15 @@ If an action task is the Assessment type, the Action task owner must take an ass
 
 6.  Depending on your Action task type, select one of the following options.
 
-<table id="choicetable_ehd_gyn_pvb"><thead><tr><th align="left" id="d137601e117">
+<table id="choicetable_ehd_gyn_pvb"><thead><tr><th align="left" id="d138798e117">
 
 Choice
 
-</th><th align="left" id="d137601e120">
+</th><th align="left" id="d138798e120">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d137601e126">
+</th></tr></thead><tbody><tr><td id="d138798e126">
 
 **If the task is of type Assessment**
 
@@ -58,7 +58,7 @@ Steps
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d137601e159">
+</td></tr><tr><td id="d138798e159">
 
 **If the task is of type Investigation or Others**
 

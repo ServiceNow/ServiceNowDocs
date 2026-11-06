@@ -7,8 +7,8 @@ release: australia
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 38
+last_updated: "2026-09-10"
+reading_time_minutes: 39
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
 
@@ -32,15 +32,24 @@ For more information about the Omnichannel Callback application as an ServiceNow
 
 Provides actions for integrating third-party Contact Center as a Service \(CCaaS\) platforms with ServiceNow®'s Omnichannel Callback system. This API acts as a bridge, routing callback operations \(create, update, cancel, close\) to external CCaaS providers via configurable Workflow Studio subflows.
 
-**Note:** This endpoint works similarly to [Omnichannel Callback - POST /api/sn\_omni\_callback/callback/create](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/omichannel-callback-api.md) and [Omnichannel Callback - PATCH /api/sn\_omni\_callback/callback/update](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/omichannel-callback-api.md), but is used to update or create callbacks in a third-party integration with routing context.
+**Note:** This endpoint works similarly to [Omnichannel Callback - POST /api/sn\_omni\_callback/callback/create](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/omichannel-callback-api.md) and [Omnichannel Callback - PATCH /api/sn\_omni\_callback/callback/update](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/omichannel-callback-api.md), but is used to update or create callbacks in a third party integration with routing context.
 
 ### Intelligent routing
 
-The /actions endpoint intelligently routes callback requests based on the **routingContext** parameter. When a routing rule is configured, the API uses a single, unified payload structure for all actions and routes the request to a CCaaS subflow using `routingContext`. When routing is configured, the content of the request never changes. Only the top‑level **action** value differs.
+The /actions endpoint intelligently routes callback requests based on the **routingContext** parameter. When a routing rule is configured, the API uses a single, unified payload structure for all actions and routes the request to a CCaaS subflow using `routingContext`. When routing is configured, the shape of the request never changes. Only the top‑level **action** value differs.
 
 **Note:** The API checks for routing rules in the Callback Routing Configuration \[sys\_cs\_callback\_routing\_config\] table based on the **routingContext** parameter. If a matching rule is found, the request is forwarded to the configured custom subflow. The subflow can integrate with external CCaaS platforms or implement custom business logic. The subflow processes the request and returns the response.
 
 If **routingContext** is omitted or no routing rule matches, the API falls back to default ServiceNow behavior and expects the standard payload format of the corresponding POST /create, PATCH /update, or PATCH /cancel endpoints.
+
+### Supported actions
+
+The POST actions method supports various actions to perform on a callback record:
+
+-   `create`: Creates a new callback record.
+-   `update`: Updates an existing callback record based on the callback number.
+-   `close`: Closes a callback record because the callback request has been fulfilled. Doesn't initiate the callback. Updates the reason field in the Callback \[sys\_cs\_callback\] table.
+-   `cancel`: Cancels a callback record because the customer cancelled the request and doesn't need to connect with an agent. Updates the reason field in the Callback \[sys\_cs\_callback\] table.
 
 ### URL format
 
@@ -120,7 +129,7 @@ Required. Object containing specific data required for the given action when **r
 
 Data type: Object
 
-**payload** structure for create and update actions.
+**payload** structure for create and update actions
 
 ```
 {
@@ -132,7 +141,7 @@ Data type: Object
 }
 ```
 
-**payload** structure for close and cancel actions.
+**payload** structure for close and cancel actions
 
 ```
 "payload": {
@@ -164,9 +173,9 @@ payload.callbackContext.customer\_timezone
 
 </td><td>
 
-Time zone of customer who requested the callback. Time zones can be provided in the following formats. -   `Country/City`: For example, `America/Los_Angeles`.
--   `Country/Time zone`: For example, `US/Pacific`.
--   `Time zone abbreviation`: For example, `PST`.
+Time zone of customer who requested the callback. Time zones can be provided in the following formats. -   `Country/City`. For example, `America/Los_Angeles`.
+-   `Country/Time zone`. For example, `US/Pacific`.
+-   `Time zone abbreviation`. For example, `PST`.
 
 For a complete list of valid timezones, see the Time zone field in the User \[sys\_user\] table. For more information about time zones, see [Time zones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_TimeZones.md).
 
@@ -888,7 +897,7 @@ Description
 
 Accept
 
-</td><td id="d2936e85">
+</td><td id="d2733e85">
 
 Data format of the response body. Supported types: **application/json** or **application/xml**. Default: **application/json**
 
@@ -1467,7 +1476,7 @@ Description
 
 Accept
 
-</td><td id="d2936e85">
+</td><td id="d2733e85">
 
 Data format of the response body. Supported types: **application/json** or **application/xml**. Default: **application/json**
 
@@ -2736,7 +2745,7 @@ Description
 
 Accept
 
-</td><td id="d2936e85">
+</td><td id="d2733e85">
 
 Data format of the response body. Supported types: **application/json** or **application/xml**. Default: **application/json**
 

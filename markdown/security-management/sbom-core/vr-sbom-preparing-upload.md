@@ -7,7 +7,7 @@ release: australia
 product: SBOM Core
 classification: sbom-core
 topic_type: concept
-last_updated: "2026-06-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Uploading and viewing your SBOM files in the SBOM Workspace, Software Bill of Materials, Unified Security Exposure Management, Security Operations]
 ---
@@ -26,7 +26,7 @@ This API is used for uploading and ingesting an SBOM file \(CycloneDX/SPDX\) int
 
 Version 4.0 of SBOM Core supports:
 
--   XML and JSON in CycloneDx \(versions 1.0 - 1.6\).
+-   XML and JSON in CycloneDx \(versions 1.5 - 1.6\).
 -   JSON in SPDX \(versions 2.2-2.3\)
 -   **Note:** Files over 32 MB might not load properly.
 
@@ -195,19 +195,19 @@ After an SBOM is successfully processed, where you view the uploaded records dep
 
 Version 4.0 of SBOM Core supports:
 
--   XML and JSON in CycloneDx \(versions 1.0 - 1.6\).
+-   XML and JSON in CycloneDx \(versions 1.5 - 1.6\).
 -   JSON in SPDX \(versions 2.2-2.3\)
 -   **Note:** Files over 32 MB might not load properly.
 
 
-Starting with v4.0 of SBOM Core, the following enhancements were made to support CycloneDx standards for versions 1.0 - 1.6:
+Starting with v4.0 of SBOM Core, the following enhancements were made to support CycloneDx standards for versions 1.5 - 1.6:
 
 -   Import additional information in CycloneDX SBOM files with the \(sn\_sbom\_core.collect\_properties\) property. This property is deactivated by default. Activate the property to import information that is generally not supported. Any information imported from these properties is uploaded to the SBOM Component Property \[sn\_sbom\_comp\_property\] table for the following:
     -   Uploaded SBOM files
     -   Metadata
     -   Individual vulnerabilities
     -   Components
--   View imported component data for declared and concluded licenses for SBOM files in versions 1.4 and later of CycloneDX in two new license fields:
+-   View imported component data for declared and concluded licenses for SBOM files in versions 1.5 and later of CycloneDX in two new license fields:
     -   **Declared**
     -   **Concluded**
 -   SBOM parsing support is extended for the following CycloneDX component types:
@@ -216,7 +216,7 @@ Starting with v4.0 of SBOM Core, the following enhancements were made to support
 
 Version 3.0 of SBOM Core supports:
 
--   XML and JSON in CycloneDx \(up to and including version 1.4\).
+-   XML and JSON in CycloneDx \(version 1.5 and later\).
 -   JSON in SPDX \(up to and including v2.3\).
 
 If the calling user is successfully authenticated and has the sn\_sbom\_core.sbom\_ingest role in your ServiceNow instance, you can access the API from outside of your instance to upload the SBOM data.

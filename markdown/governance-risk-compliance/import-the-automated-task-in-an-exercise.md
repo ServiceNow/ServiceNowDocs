@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/import-the-automated-task-in-an-exercise.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Structured workflows for Exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Import plans and recovery tasks
@@ -52,5 +52,5 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
     Plan activation and task copying: When a plan is activated during an event, its associated recovery tasks are copied into event tasks. This includes the asset recovery level details. If the recovery progress is already complete, the **View progress** button may not be visible. The recovery tasks from the original plan are accurately replicated in the event tasks, maintaining the same step sequence. For instance, if steps 2, 3, and 4 were defined in the plan, they are copied over to the event tasks in the same order.
 
 
-**Parent Topic:**[Structured workflows for Exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
+**Parent Topic:**[Structured workflows for exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
 

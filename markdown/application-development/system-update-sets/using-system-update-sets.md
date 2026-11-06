@@ -7,9 +7,9 @@ release: australia
 product: System Update Sets
 classification: system-update-sets
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [System update sets, Deploying applications, Building applications]
+breadcrumb: [System update sets, Deploying applications, Classic app development, Building applications]
 ---
 
 # Working with update sets

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-managing-the-technology-portfolio.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Exploring Technology Portfolio view, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
@@ -33,11 +33,13 @@ You can use the TRM module in the Enterprise Architecture Workspace to perform t
 -   Create a TRM product lifecycle
 -   Approve or reject TRM product and product lifecycle requests
 
+When you request or create a TRM product, you can optionally add one or more lifecycle records as part of the same action. This eliminates the need to submit a separate lifecycle request afterward. Similarly, approving or rejecting a standalone TRM product lifecycle request applies to all child lifecycle records included in that request.
+
 Using the TRM module, you can manage the standards of the technology and set the right guardrail for technology usage. Setting the standards can improve the technical debt, security posture and save costs for the organization.
 
 You can also assign an owner to a TRM category, to facilitate clear accountability and improved governance standards. The owner is responsible for maintaining consistent technology compliance standards for that TRM category.
 
-## TRM Product Lifecycle
+## TRM product lifecycle
 
 Each product in the TRM library is associated with a set of lifecycle phases with a start and end date. The lifecycle phases could be approved, unapproved, approved with constraints, divest, and evaluation.
 
@@ -45,15 +47,21 @@ The TLM home page fetches all the business applications that are used in your or
 
 The TRM module uses a similar module to TLM to search in the TRM library. You can view the software that is part of the TRM library, and initiate a request to add the software or software version to the TRM library.
 
-You can also use the TRM with the Software Asset Management \(SAM\) plugin. This plugin helps you to fetch or select the products and versions for the TRM library. You can also define your own software products when the Software Asset Management integration module isn’t available for your instance.
+You can also use the TRM with the Software Asset Management \(SAM\) plugin. This plugin helps you to fetch or select the products and versions for the TRM library. You can also define your own software products when the Software Asset Management integration module isn't available for your instance.
 
-**Note:** You can zoom on this page to 200% or 400% through your browser settings without the loss of content or functionality. Page layouts are transformed into a vertical, stacked view automatically.
+You can add lifecycle records to a TRM product as part of a product request or a standalone TRM product lifecycle request. The following limits apply to the number of lifecycle groups and phases you can include:
+
+**Note:**
+
+-   For software products: You can add up to 5 version and edition combinations, with a maximum of 10 phases per combination.
+-   For hardware products: You can add up to 5 hardware models, with a maximum of 10 phases per hardware model.
+-   You can zoom on this page to 200% or 400% through your browser settings without the loss of content or functionality. Page layouts are transformed into a vertical, stacked view automatically.
 
 -   **[TRM technical debt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-manage-trm-technical-debt.md)**  
 Manage the TRM technical debts that are created for the products that aren’t approved for the usage.
 -   **[Technical debt calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-trm-technical-debt-calc.md)**  
 Technical debt records identify products used in business applications that aren't approved in the TRM or that use unapproved versions. View technical debt records to understand conformance gaps and plan remediation.
--   **[Technology Reference Model \(TRM\) lifecycle with wildcard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-trm-wildcard-to-create-technical-debts.md)**  
+-   **[Work with TRM lifecycle with wildcard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-trm-wildcard-to-create-technical-debts.md)**  
 Use Technology Reference Model \(TRM\) lifecycles with wildcards to update multiple software product lifecycles simultaneously without specifying exact minor version details.
 
 **Parent Topic:**[Exploring Technology Portfolio view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-technology-portfolio-view.md)
@@ -65,7 +73,7 @@ Use Technology Reference Model \(TRM\) lifecycles with wildcards to update multi
 
 [Working with Technology Reference Model \(TRM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-trm.md)
 
-[View TLM and TRM lifecycle timelines on the Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-tpm-and-trm-lifecycle-timelines-in-gantt-chart.md)
+[View TPM and TRM lifecycle timelines on the Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-tpm-and-trm-lifecycle-timelines-in-gantt-chart.md)
 
 [Gantt view of TLM and TRM lifecycle timelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-gantt-view-of-tpm-and-trm-lifecycle-timelines.md)
 
@@ -74,4 +82,6 @@ Use Technology Reference Model \(TRM\) lifecycles with wildcards to update multi
 [Configure TRM phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-setup-trm-phases.md)
 
 [Configure TRM categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-setup-trm-categories.md)
+
+[TRM technical debt states and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-trm-technical-debt-states.md)
 

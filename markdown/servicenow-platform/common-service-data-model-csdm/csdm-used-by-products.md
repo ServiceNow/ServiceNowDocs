@@ -7,7 +7,7 @@ release: australia
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -109,7 +109,7 @@ DevOps
 </td><td>
 
 -   Automated DevOps change management
--   Link between configuration changes and impacted Cls
+-   Link between configuration changes and impacted CIs
 
 </td><td>
 

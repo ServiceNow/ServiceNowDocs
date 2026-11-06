@@ -7,9 +7,9 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Scripting, API implementation, API implementation and reference]
+breadcrumb: [Explore, Scripting, API implementation, API implementation and reference]
 ---
 
 # JavaScript syntax editor
@@ -42,5 +42,5 @@ The syntax editor provides editing functions to support editing JavaScript scrip
 -   **[Create a script macro for the syntax editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/t_ManageScriptMacros.md)**  
 Administrators can define new script macros or modify existing script macros.
 
-**Parent Topic:**[Scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_Script.md)
+**Parent Topic:**[Exploring scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_Script.md)
 

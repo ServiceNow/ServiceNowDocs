@@ -1,16 +1,16 @@
 ---
-title: Configure Technology Lifecycle Management
+title: Configure Technology Portfolio Management
 description: Configure Technology Lifecycle Management in Enterprise Architecture Workspace. By configuring TLM, you can get application lifecycle risk insights and rationalize applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-config-tech-portfolio-mgmt.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure EA Workspace using the Setup page, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Configure Technology Lifecycle Management
+# Configure Technology Portfolio Management
 
 Configure Technology Lifecycle Management in Enterprise Architecture Workspace. By configuring TLM, you can get application lifecycle risk insights and rationalize applications.
 

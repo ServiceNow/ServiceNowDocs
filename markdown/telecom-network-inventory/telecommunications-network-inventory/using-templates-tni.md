@@ -7,9 +7,9 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Modeling your workflow, Explore, Telecommunications Network Inventory]
+breadcrumb: [Model your workflow, Explore, Telecommunications Network Inventory]
 ---
 
 # Network inventory templates

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/secops-integration-cb-remove-host-isolation-workflow.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Operations Integration- Isolate Host capability, Integration capabilities, Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---
@@ -24,7 +24,7 @@ This flow is not part of a capability and needs a custom orchestration in order 
 
 The flow process activities include:
 
--   [Get IP from CI activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/get-ip-from-ci-activity.md)
+-   [Get IP from CI activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 -   If successful- [Collect Carbon Black Configurations Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/collect-cb-config-activity.md)
 -   [Get Sensor ID Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/get-sensor-id-activity.md)[Get Sensor ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/get-sensor-id-activity.md)
 -   If- Device supports isolation- and device is not isolated to disabled.

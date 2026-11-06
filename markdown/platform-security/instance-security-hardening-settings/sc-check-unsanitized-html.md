@@ -1,5 +1,5 @@
 ---
-title: Enforce HTML Sanitization
+title: Enforce HTML sanitization
 description: Use the com.glide.security.check\_unsanitized\_html property to enforce sanitization behavior of translated\_html fields on a global level for field assignments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/instance-security-hardening-settings/sc-check-unsanitized-html.html
@@ -7,12 +7,12 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platform Security]
 ---
 
-# Enforce HTML Sanitization
+# Enforce HTML sanitization
 
 Use the **com.glide.security.check\_unsanitized\_html** property to enforce sanitization behavior of translated\_html fields on a global level for field assignments.
 
@@ -70,7 +70,7 @@ Default value
 
 </td><td>
 
-&lt;none&gt;
+enforce
 
 </td></tr><tr><td>
 

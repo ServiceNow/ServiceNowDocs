@@ -1,18 +1,18 @@
 ---
 title: Configure the Public Sector landing page with UI Builder
-description: Use the UI Builder to change certain fields in the Public Sector landing page of the CRM Workspace.
+description: Use the UI Builder to change certain fields in the Public Sector landing page of the Public Sector Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/public-sector-configure-landing-page.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [CRM Workspace, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Public Sector Workspace, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Configure the Public Sector landing page with UI Builder
 
-Use the UI Builder to change certain fields in the Public Sector landing page of the CRM Workspace.
+Use the UI Builder to change certain fields in the Public Sector landing page of the Public Sector Workspace.
 
 ## Before you begin
 
@@ -65,5 +65,5 @@ The Customer Service Management \(CSM\) landing page gives agents an overview of
 8.  Select **Save** to save the landing page changes.
 
 
-**Parent Topic:**[Set up the CRM Workspace for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/setting-up-csm-fsm.md)
+**Parent Topic:**[Set up the Public Sector Workspace for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/setting-up-csm-fsm.md)
 

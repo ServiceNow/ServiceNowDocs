@@ -1,20 +1,24 @@
 ---
 title: Creating pages and page variants
-description: You can create new pages or customize existing pages in UI Builder to display table and record information in CSM Configurable Workspace.
+description: You can create new pages or customize existing pages in UI Builder to display table and record information in CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/config-csm-ws-create-page-variant.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Record pages and page templates, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Creating pages and page variants
 
-You can create new pages or customize existing pages in UI Builder to display table and record information in CSM Configurable Workspace.
+You can create new pages or customize existing pages in UI Builder to display table and record information in CRM Workspace.
 
-When you create a page in UI Builder, you have the option to create a page from scratch, create a page from a template, or you can duplicate and modify a page variant.
+When you create a page in UI Builder, you have three options:
+
+-   Create a page from scratch
+-   Create a page from a template
+-   Duplicate and modify a page variant
 
 ## UI Builder terminology
 
@@ -128,7 +132,7 @@ By creating a page variant, you can target an experience for a specific audience
 </td></tr></tbody>
 </table>For more information about customizing record pages, see [Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/work-pages.md).
 
-**Note:** If a page is modified after page variants have been created, the changes to the page do not sync with the variants. These changes must be made manually.
+**Note:** If a page is modified after page variants have been created, the changes to the page don't sync with the variants. These changes must be made manually.
 
 ## Determining which record page is used
 

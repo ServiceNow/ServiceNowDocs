@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_ActivateDatabaseRotation.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Applying database rotation techniques, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -28,7 +28,7 @@ There are two database rotation plugins.
     **Note:** Deployment of this plugin should be executed in partnership with a ServiceNow representative.
 
 
-For new instances, database rotation is active by default. If you're upgrading from a previous version, users with the admin role can activate the Database Rotations \(com.snc.db.rotation\) plugin if it isn't already active.
+For new instances, database rotation is active by default. If you are upgrading from a previous version, users with the admin role can activate the Database Rotations \(com.snc.db.rotation\) plugin if it isn't already active.
 
 ## Procedure
 

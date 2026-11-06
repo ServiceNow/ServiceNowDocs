@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Contextual side panel configurations in Service Operations Workspace for ITSM, Getting started with Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -28,7 +28,7 @@ Role required: admin
 
 3.  To configure the support group recommendations, modify the **Script** field.
 
-    For information about how these groups are available for an incident, see [Experts on-call in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/on-call-sow.md).
+    For information about how these groups are available for an incident, see [Work with on-call experts in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/on-call-sow.md).
 
     ```
     getRecommendedGroups: function(table, sysId, fieldWatchList) {
@@ -68,7 +68,7 @@ Role required: admin
     	}
     ```
 
-4.  Click **Update**.
+4.  Select **Update**.
 
 
 **Parent Topic:**[Contextual side panel configurations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/contextual-side-panel-configurations-sow-itsm.md)

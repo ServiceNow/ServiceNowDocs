@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/order-decomposition-examples.html
 release: australia
 topic_type: concept
-last_updated: "2025-10-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Order decomposition, Order Management, Use, Sales Customer Relationship Management]
 ---

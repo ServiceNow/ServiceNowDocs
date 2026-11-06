@@ -7,7 +7,7 @@ release: australia
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Commercial Lines Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -28,15 +28,15 @@ Role required: sn\_ins\_claim\_cml.fnol\_representative or sn\_ins\_claim\_cml.a
 
 3.  Create a case from the commercial auto claim cases list or an interaction record.
 
-<table><thead><tr><th align="left" id="d109041e85">
+<table><thead><tr><th align="left" id="d111000e85">
 
 Option
 
-</th><th align="left" id="d109041e88">
+</th><th align="left" id="d111000e88">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d109041e94">
+</th></tr></thead><tbody><tr><td id="d111000e94">
 
 **Commercial auto claim case from the commercial auto claim case list**
 
@@ -46,7 +46,7 @@ Steps
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d109041e124">
+</td></tr><tr><td id="d111000e124">
 
 **Commercial auto claim case from an interaction record**
 

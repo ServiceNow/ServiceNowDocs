@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/ad-hoc-metric-data-task-limitations.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ad hoc, metric data task, limitations]
 breadcrumb: [Create ad hoc metric data tasks, Using GRC: Metrics to provide data, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]

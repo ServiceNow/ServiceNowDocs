@@ -7,7 +7,7 @@ release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Crew Operations, Set up workforce, Configure, Field Service Management]
 ---
@@ -18,7 +18,7 @@ Create an ad hoc task-specific crew for a task if existing crews are not availab
 
 ## Before you begin
 
-Role required: wm\_manager
+Role required: wm\_crew\_moderator
 
 ## About this task
 

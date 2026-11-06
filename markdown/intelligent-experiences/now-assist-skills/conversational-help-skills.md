@@ -1,44 +1,44 @@
 ---
-title: Conversational Help
-description: This skill uses Generative AI application capabilities to provide answers to the questions on the ServiceNow Otto panel.
+title: Now Assist Conversational Help
+description: This skill uses Generative AI application capabilities to provide answers to the questions on the Now Assist panel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-skills/conversational-help-skills.html
 release: australia
 product: Now Assist Skills
 classification: now-assist-skills
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Skills in the Platform workflow, Skills, AI assets, Enable AI experiences]
+breadcrumb: [Skills in the Platform workflow, Skills, Generative AI skills, Enable AI Experiences]
 ---
 
-# Conversational Help
+# Now Assist Conversational Help
 
-This skill uses Generative AI application capabilities to provide answers to the questions on the ServiceNow Otto panel.
+This skill uses Generative AI application capabilities to provide answers to the questions on the Now Assist panel.
 
 \[Omitted video\] Description: Now Assist Conversational Help overview
 
+**Important:** Starting with the Australia release, Conversational Help Skills is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base.
+
+You can install the External Content Connectors Application Suite from the [ServiceNow store](https://store.servicenow.com/store/app/dd69bc781bd9a650396216db234bcb0b)
+
+and use NAp Synthesized Search with ServiceNow Docs.
+
 **Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
-The Conversational Help skill displays as **Get Help** on the ServiceNow Otto panel.
+The Now Assist Conversational Help skill displays as **Get Help** on the Now Assist panel.
 
-**Note:** The Get Help feature is available as a part of generative AI entitlements and no new subscription is required. The feature is enabled by default and you can turn it off in the AI Admin Hub **Settings**.
-
-You can ask your question in two ways:
-
--   Select **Get Help** skill and submit a query to use the help option in the ServiceNow Otto panel.
--   Submit your query directly in the ServiceNow Otto panel. It will perform discovery and find the most appropriate skill among the listed, based on the keywords you entered. This discovered skill is used to retrieve answers for your queries.
-
-    **Note:** The available skills displayed in the ServiceNow Otto panel can be customized in consultation with the integration teams.
-
+**Note:** The Get Help feature is available as a part of Now Assist entitlements and no new subscription is required. The feature is enabled by default and you can turn it off in the AI Admin Hub **Settings**.
 
 ## How Conversational Help works
 
-Your query goes through the following steps to retrieve the best response.
+You can ask your question by selecting **Get Help** skill and submit a query to use the help option in the Now Assist panel. Your query goes through the following steps to retrieve the best response.
+
+**Note:** Conversational Help Skills is not available as auto-discoverable as a help skill within Now Assist panel.
 
 1.  AI search
 
-    The query is sent to **central ServiceNow instance**, where **AI Search** will search the knowledge table that stores content from product doc content.
+    The query is be sent to a **central ServiceNow instance**, where **AI Search** will search the knowledge table that stores content from product doc content.
 
     We use Instance Data Replication \(IDR\) that synchronizes product documentation content from Now Support instances.
 

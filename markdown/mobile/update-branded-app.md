@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/update-branded-app.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Request, test, &amp; publish, Custom branded apps, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -93,7 +93,7 @@ Mobile Application Management vendor
 
 </td><td>
 
-Select the **Intune** MAM vendor from the list.
+Select **Intune** MAM vendor from the list.
 
  This field is only visible if you select the **Mobile Application Management \(MAM\)** toggle.
 

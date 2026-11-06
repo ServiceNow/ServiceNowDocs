@@ -7,7 +7,7 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platform Security]
 ---
@@ -70,7 +70,7 @@ Default value
 
 </td><td>
 
-&lt;none&gt;
+false
 
 </td></tr><tr><td>
 
@@ -94,8 +94,8 @@ Security risk
 
 </td><td>
 
--   Severity score:
--   CVSS rating:
+-   Severity score: High
+-   CVSS rating:8.8
 -   Security risk details: Uncontrolled JavaScript risks Cross-Site Scripting \(XSS\) attacks, enabling malicious actors to inject and execute harmful scripts in the user's browser. Such attacks can lead to session hijacking, credential theft, and compromise of sensitive data.
 
 </td></tr><tr><td>

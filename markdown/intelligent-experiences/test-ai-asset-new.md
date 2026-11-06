@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/test-ai-asset-new.html
 release: australia
 topic_type: task
-last_updated: "2026-06-06"
+last_updated: "2026-10-16"
 reading_time_minutes: 4
-breadcrumb: [AI Agent Studio, Enable AI experiences]
+breadcrumb: [AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Manually test an agentic AI asset
@@ -24,7 +24,7 @@ Role required: sn\_aia.admin and either admin or at least one role required by t
 
 ## About this task
 
-After you create an AI agent or agentic workflow, test it to verify the agentic AI asset functions as defined. A test shows what the agentic AI asset did, including which tools it called, in what order, and what it returned. There is no additional guidance on individual tests whether the agentic AI asset's behavior is intended and correct. You can run a manual test to evaluate the behavior of your agentic AI asset on a single test record, or you can run an automated evaluation to reveal patterns across multiple executions. See [Evaluate an agentic AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/launch-aia-eval.md) for more details about running an automated evaluation.
+After you create an AI agent or agentic workflow, test it to verify the agentic AI asset functions as defined. A test shows what the agentic AI asset did, including which tools it called, in what order, and what it returned. The test doesn't tell you whether that behavior is correct. You need to judge that yourself.
 
 You can access the test interface from the node map view or from the guided setup. During a test, you can view a chat session, examine node and card expansions that show different agents or tools within an agentic AI asset, review the trace log containing execution information, and analyze test details.
 
@@ -69,7 +69,7 @@ During the test, you can view and analyze the following information:
 -   The node map showing the agents and tools involved in solving the objective. Nodes and cards expand to display different agents within an agentic AI asset or different tools within an agentic AI asset.
 -   The **Trace log** containing execution information about how the agentic AI asset processed the objective.
 
-    The trace log lists each execution task, the messages exchanged, and every tool execution with its inputs and outputs. If there's a failure, read it backwards: find the first tool execution whose inputs or outputs are not what you expected. If you need the full record of an execution, open the run in the Execution Plans \[sn\_aia\_execution\_plan\] table using the sys\_id shown in **Test details**.
+    The trace log lists each execution task, the messages exchanged, and every tool execution with its inputs and outputs. If there's a failure, start at the failure and work back toward the start. Find the first tool execution whose inputs or outputs aren't what you expected. If you need the full record of an execution, open the run in the Execution Plans \[sn\_aia\_execution\_plan\] table using the sys\_id shown in **Test details**.
 
 -   The **Analysis** tab with insights into the execution.
 

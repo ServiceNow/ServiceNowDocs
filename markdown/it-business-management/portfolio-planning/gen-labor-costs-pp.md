@@ -7,7 +7,7 @@ release: australia
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage financials for planning items, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Generate labor costs in the Financials view for attribute-based resource assignm
 
 ## Before you begin
 
-When the distribution of effort for a resource assignment is adjusted without changing the total planned effort, the system automatically recalculates and generates labor costs to align with the updated effort distribution. For example, consider a resource assignment of 100 hours distributed as 60 hours in January and 40 hours in February; now if you swap the efforts to make 40 hours in January and 60 hours in February. Now the system automatically adjusts the labor costs so that January reflects the cost of 40 hours and February reflects the cost of 60 hours, ensuring that costs accurately correspond to the revised effort distribution.
+When effort distribution for a resource assignment changes without altering the total planned effort, the system recalculates and generates labor costs to match the updated distribution. For example, if a 100-hour assignment shifts from 60 hours in January and 40 hours in February to 40 hours in January and 60 hours in February, the system adjusts labor costs accordingly. January reflects the cost of 40 hours and February reflects the cost of 60 hours.
 
 Role required: sn\_align\_ws.spw\_financial\_user
 

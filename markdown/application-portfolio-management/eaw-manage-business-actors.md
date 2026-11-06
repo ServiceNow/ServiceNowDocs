@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-manage-business-actors.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [business actor, enterprise architecture, business role, portfolio management]
 breadcrumb: [Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]

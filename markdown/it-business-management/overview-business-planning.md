@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/overview-business-planning.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Strategic Portfolio Management]
 ---
 
@@ -15,6 +15,10 @@ breadcrumb: [Strategic Portfolio Management]
 A business plan includes a business goal and a plan to achieve that goal. Business planning involves various entities of a business such as goals, business units, business capabilities, capability map, enterprise strategies, and business unit strategies. As a business planner you can manage these entities from the business planning portal.
 
 To access the business planning portal, the Business Planner \(com.snc.apm.business\_planner\) plugin must be activated. This plugin is installed only when any one of the other Strategic Portfolio Management \(SPM\) plugins is already installed.
+
+**Note:**
+
+Starting with the Brazil release, Business Planner plugin is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Access the business planning entities, goals, business units, enterprise strategy, business unit strategy, capabilities, and capability in the **Business Planner** module.
 

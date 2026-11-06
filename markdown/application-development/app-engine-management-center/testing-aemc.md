@@ -7,9 +7,9 @@ release: australia
 product: App Engine Management Center
 classification: app-engine-management-center
 topic_type: concept
-last_updated: "2025-08-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Explore, App Engine Management Center, Governing app development, Building applications]
+breadcrumb: [Explore, App Engine Management Center, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Testing applications in AEMC
@@ -31,7 +31,7 @@ When you deploy or install an application to a test environment, two jobs are au
 -   Application Deployment Test Suite
 -   Scoped App Definitions instance scan
 
-These tests can be useful to the administrator for diagnosing issues before an app is deployed.For more information about what goes on during an application deployment, see [Pipelines and Deployments workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/pipelines-deployments-workflow-vs2.md).
+These tests can be useful to the administrator for diagnosing issues before an app is deployed.For more information about what goes on during an application deployment, see [Pipelines and Deployments workflow version 24.1.2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/pipelines-deployments-workflow-vs2.md).
 
 <table id="table_ojh_znc_5rb"><thead><tr><th>
 
@@ -77,4 +77,6 @@ Simply open the record of the instance. The results are split into three tabs:
     -   Scan URL
     -   Finding count for the scan
 -   **Results \(JSON\)** includes unformatted JSON code of the ATF and instance scan results, as well as any errors identified during the scans. This JSON can also be found in the **Notes** related list.
+
+**Parent Topic:**[Exploring the App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/exploring-aemc.md)
 

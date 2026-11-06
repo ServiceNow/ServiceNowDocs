@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-set-up-repair-claim.html
 release: australia
 topic_type: task
-last_updated: "2026-07-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [MCO core implementation, Configure, Manufacturing Commercial Operations]
 ---
@@ -42,7 +42,7 @@ Use this task to set up the repair claim system in Manufacturing Commercial Oper
 
     6.  Assign repair claim roles: [Assigning roles in Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/assign-mco-roles.md).
 
-3.  Work with repair claims \(OEM\): Use the Agents \(CSM/FSM\) workspace to create and manage repair campaigns, phases, and claims.
+3.  Work with repair claims \(OEM\): Use the Agents \(CRM\) workspace to create and manage repair campaigns, phases, and claims.
 
     1.  Create a repair claim: [Create a repair claim using playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-create-rc-using-playbook.md).
 

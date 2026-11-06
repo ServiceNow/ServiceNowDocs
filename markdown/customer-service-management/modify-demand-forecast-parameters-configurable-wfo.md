@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/modify-demand-forecast-parameters-configurable-wfo.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Setting up Demand Forecast, Optimize workforce operations, Extend capabilities, Configure, Customer Service Management]
 ---
@@ -34,17 +34,17 @@ The published forecast is reflected on the team calendar only when the **Forecas
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Select the Schedule \(\[Omitted image "schedule-new.png"\] Alt text: Schedule icon\) icon.
+2.  Click the Schedule \(\[Omitted image "schedule-new.png"\] Alt text: Schedule icon\) icon.
 
-3.  Select **Forecasts**.
+3.  Click **Forecasts**.
 
 4.  Select the forecast model for which you want to view the time-series data.
 
     You can visualize each of the forecast parameters that were created for the forecast model.
 
-5.  Select the gear \(\[Omitted image "gear-new.png"\] Alt text: Forecast Parameters icon\)icon.
+5.  Click the gear \(\[Omitted image "gear-new.png"\] Alt text: Forecast Parameters icon\)icon.
 
-6.  Select the plus \(+\) sign.
+6.  Click the plus \(+\) sign.
 
 7.  Configure the forecast parameter.
 
@@ -52,10 +52,10 @@ The published forecast is reflected on the team calendar only when the **Forecas
     2.  In the **Period length** field, enter the duration of the period to forecast.
     3.  In the **Periods to forecast** field, enter the number of seasons, which is the period length, for which you want to forecast.
     4.  In the **Interval** field, select 15-, 30-, and 60-minute intervals or Daily interval value of the period to forecast.
-    5.  Select **Update**.
+    5.  Click **Update**.
     The forecast is created in **Draft** state. The forecast is calculated and displays in the forecast model. You can analyze the forecast with the new forecast parameters before you publish it.
 
-8.  To preview a forecast before publishing it, select **Preview**.
+8.  To preview a forecast before publishing it, click **Preview**.
 
     he forecast is calculated using the algorithm and parameters configured in the forecast parameter. When you [create a manual adjustment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-manual-adjustment-forecast-configurable-wfo.md) to predict future resources, Demand Forecast overlays the adjustment in the time-series chart.
 
@@ -67,8 +67,8 @@ The published forecast is reflected on the team calendar only when the **Forecas
 
 9.  Publish the forecast parameters.
 
-    1.  To publish a newly created forecast parameter, select **Save** and then select **Publish**.
-    2.  To publish an active forecast parameter, select **Publish**.
+    1.  To publish a newly created forecast parameter, click **Save** and then click **Publish**.
+    2.  To publish an active forecast parameter, click **Publish**.
     **Note:** You can only have one forecast in **Published** state, which is used to calculate the resources.
 
     When the forecast parameter is published:

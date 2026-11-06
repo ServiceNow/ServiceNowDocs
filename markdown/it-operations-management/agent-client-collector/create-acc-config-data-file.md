@@ -7,7 +7,7 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -36,15 +36,15 @@ Domain separation is supported in the Agent Client Collector configuration data 
 
 3.  Add or remove an attachment.
 
-<table id="choicetable_v1p_3mr_3zb"><thead><tr><th align="left" id="d700414e116">
+<table id="choicetable_v1p_3mr_3zb"><thead><tr><th align="left" id="d746861e116">
 
 Action
 
-</th><th align="left" id="d700414e119">
+</th><th align="left" id="d746861e119">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d700414e125">
+</th></tr></thead><tbody><tr><td id="d746861e125">
 
 **Add a file**
 
@@ -58,7 +58,7 @@ The Attachments dialog box opens.
 3.  Close the Attachments dialog box.
 
 
-</td></tr><tr><td id="d700414e159">
+</td></tr><tr><td id="d746861e159">
 
 **Delete a file**
 

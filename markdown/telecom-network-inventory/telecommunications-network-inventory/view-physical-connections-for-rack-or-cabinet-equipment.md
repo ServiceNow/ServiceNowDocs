@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Viewing rack or cabinet equipment details, Use, Telecommunications Network Inventory]
 ---
@@ -48,4 +48,9 @@ Audit and update physical connection records for equipment in a rack or cabinet 
 You can see all physical connections for the rack or cabinet's equipment in a single list, and identify available ports for new connections without opening each equipment record.
 
 **Parent Topic:**[Viewing rack or cabinet equipment details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/viewing-rack-or-cabinet-equipment-details.md)
+
+**Related topics**  
+
+
+[Data center infrastructure rack allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/data-center-infra-rack-allocation.md)
 

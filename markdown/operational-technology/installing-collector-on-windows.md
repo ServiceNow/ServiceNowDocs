@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/installing-collector-on-windows.html
 release: australia
 topic_type: task
-last_updated: "2026-03-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure the OT Discovery Collector, Operational Technology Discovery Collector, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---

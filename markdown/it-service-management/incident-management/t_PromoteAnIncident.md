@@ -1,5 +1,5 @@
 ---
-title: Create a record from incident
+title: Create a record from an incident
 description: Create a problem, change, or request record from an incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/t\_PromoteAnIncident.html
@@ -7,12 +7,12 @@ release: australia
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Managing incidents, Incident Management, IT Service Management]
 ---
 
-# Create a record from incident
+# Create a record from an incident
 
 Create a problem, change, or request record from an incident.
 
@@ -32,39 +32,39 @@ When the cause of an incident is an error or widespread issue, a problem is gene
 
 2.  Open the incident record.
 
-3.  Right-click on the header form and on the context menu, select the appropriate option.
+3.  Select the **Additional Action** \(\[Omitted image "additional-actions.png"\] Alt text: Additional Action Menu icon\) icon and then select the appropriate option.
 
-<table id="choicetable_s5g_lgw_xy"><thead><tr><th align="left" id="d81288e108">
+<table id="choicetable_s5g_lgw_xy"><thead><tr><th align="left" id="d107415e116">
 
 Task record
 
-</th><th align="left" id="d81288e111">
+</th><th align="left" id="d107415e119">
 
-Option
+Action
 
-</th></tr></thead><tbody><tr><td id="d81288e117">
+</th></tr></thead><tbody><tr><td id="d107415e125">
 
 **Problem**
 
 </td><td>
 
-Create Problem. For more information, refer to [Create a problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/problem-management/create-a-problem-v2.md).**Note:** Use the property **List of attributes \(comma-separated\) that will be copied from the incident to create a new problem** \(**com.snc.problem.create\_from\_incident.attributes**\) to specify fields on the Incident form. The values of these fields are copied to the respective fields on the Problem form. The property is available for customers starting the Madrid release.
+Create Problem. For more information, see [Create a problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/problem-management/create-a-problem-v2.md).**Note:** Use the property **List of attributes \(comma-separated\) that will be copied from the incident to create a new problem** \(**com.snc.problem.create\_from\_incident.attributes**\) to specify fields on the Incident form. The values of these fields are copied to the respective fields on the Problem form. The property is available for customers starting with the Madrid release.
 
-</td></tr><tr><td id="d81288e142">
+</td></tr><tr><td id="d107415e150">
 
 **Request**
 
 </td><td>
 
-Create Request. For more information, refer to [Create a request from an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/create-request-from-incident.md).
+Create Request. For more information, see [Create a request from an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/create-request-from-incident.md).
 
-</td></tr><tr><td id="d81288e158">
+</td></tr><tr><td id="d107415e166">
 
 **Change**
 
 </td><td>
 
-Create Normal, Standard, or Emergency Change. For more information, refer to [Create a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_CreateAChange.md).**Note:**
+Create Normal, Standard, or Emergency Change. For more information, see [Create a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_CreateAChange.md).**Note:**
 
 The **Create Normal Change**, **Create Standard Change**, and **Create Emergency Change** scripts copy these fields from the Incident form:
 
@@ -78,8 +78,8 @@ The syntax for copying a field from the Incident form to the Change form is:
 `changeRequest.setValue("field_name", current.field_name);`. The admin adds this information in the script block of the incident record.
 
 </td></tr></tbody>
-</table>    The form for the new record appears and is already saved. Some specific fields are copied to the newly generated record from the incident. You can find reference of the newly created task record in the Related Records section of the Incident form.
+</table>    The form for the new record appears and is already saved. Specific fields are copied from the incident to the new record. A reference to the new task record appears in the Related Records section of the Incident form.
 
-4.  Complete the Problem, Change, or Request form with additional information and click **Update**.
+4.  Complete the Problem, Change, or Request form with additional information and select **Update**.
 
 

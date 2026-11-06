@@ -7,8 +7,8 @@ release: australia
 product: Service Catalog
 classification: service-catalog
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 20
+last_updated: "2026-09-10"
+reading_time_minutes: 21
 breadcrumb: [Service Catalog Reference, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -871,6 +871,17 @@ The maximum number of orphan sc\_item\_option records to delete when any sc\_req
 </td><td>
 
 Maximum number of orphan sc\_item\_option records to delete when any sc\_req\_item record is deleted.
+
+</td></tr><tr><td>
+
+glide.sc.catalog\_item.subscription\_enforcement
+
+</td><td>
+
+Control whether service subscriptions can bypass "Available for" user criteria on catalog items using the glide.sc.catalog\_item.subscription\_enforcement property. This setting verifies that only users meeting specific criteria can access items, even with a parent service subscription.
+
+-   require\_criteria: Prevents access to users who don't meet the item's criteria, even if they are subscribed to the parent service offering.
+-   allow\_bypass: Preserves existing behavior that means users gain access through the "Available for" user criteria. "allow\_bypass" is a default value.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Service Catalog Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/service-catalog-reference.md)

@@ -7,7 +7,7 @@ release: australia
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [On-Call Scheduling subflows, Reference for on-call scheduling, On-Call Scheduling, IT Service Management]
 ---

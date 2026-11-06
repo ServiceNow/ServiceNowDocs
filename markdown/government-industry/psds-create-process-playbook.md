@@ -1,18 +1,18 @@
 ---
-title: Configure a custom playbook in Service Request Playbook
-description: Custom playbooks and service definitions enable you to customize the default Service Request Playbook user experience to interact with your desired agency workflows. After creating a service definition, you can associate a playbook with the definition.
+title: Configure a custom playbook in Service Request Administration
+description: Custom playbooks and service definitions enable you to customize the default Service Request Administration user experience to interact with your desired agency workflows. After creating a service definition, you can associate a playbook with the definition.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-create-process-playbook.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Request Playbook, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Configure a custom playbook in Service Request Playbook
+# Configure a custom playbook in Service Request Administration
 
-Custom playbooks and service definitions enable you to customize the default Service Request Playbook user experience to interact with your desired agency workflows. After creating a service definition, you can associate a playbook with the definition.
+Custom playbooks and service definitions enable you to customize the default Service Request Administration user experience to interact with your desired agency workflows. After creating a service definition, you can associate a playbook with the definition.
 
 ## Before you begin
 

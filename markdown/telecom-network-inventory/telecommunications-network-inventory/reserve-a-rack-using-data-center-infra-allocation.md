@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 breadcrumb: [Data center infrastructure rack allocation, Using Design &amp; Assign Network, Use, Telecommunications Network Inventory]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_ni\_core.dc\_ops\_agent or sn\_ni\_core.inventory\_agent
 
 ## About this task
 
-Data center infrastructure allocation reserves rack unit space in a data center based on the requirements you provide in a change request and the placement policies you have defined.
+Data center infrastructure allocation reserves rack unit space in a data center. The allocation is based on the requirements you provide in a change request and the placement policies you have defined.
 
 ## Procedure
 

@@ -7,7 +7,7 @@ release: australia
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -61,5 +61,5 @@ Schedule when to run the deflection configuration to generate the activities tha
 **Related topics**  
 
 
-[Self-Service Analytics dashboard for customer service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ssa-cs-dashboard.md)
+[bundle-csm.ssa-cs-dashboard]
 

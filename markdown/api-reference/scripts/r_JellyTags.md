@@ -7,9 +7,9 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Creating UI pages and macros, Scripting, API implementation, API implementation and reference]
+breadcrumb: [UI pages and macros, Write client-side scripts, Scripting, API implementation, API implementation and reference]
 ---
 
 # Jelly tags
@@ -24,12 +24,14 @@ Watch these introductory videos to learn about using Jelly in the ServiceNow AI 
 
 ## Jelly Tags
 
+Use the following Jelly tags in UI macros.
+
 -   **if**
     -   Description: The `if` tag is just what it looks like, an `if` tag. This is like an `if` statement in any programming language, but keep in mind that there is no `elseif` tag and no `else` tag. If you want to create that kind of structure, try the `choose`/`when`/`otherwise` syntax.
     -   Parameters: `test` - The condition to evaluate in order to determine if the block will execute.
     -   Example:
 
-        ```
+        ```xml
         <g:evaluate var="jvar_now_GR" object="true">
            var now_GR = new GlideRecord("incident");
            now_GR.addQuery("active", true);
@@ -51,7 +53,7 @@ Watch these introductory videos to learn about using Jelly in the ServiceNow AI 
     -   Parameters: `test` - The condition to evaluate in order to determine if the statement will loop through. This should be an expression enclosed in `${}` or `$[]`that evaluates to true or false.
     -   Example:
 
-        ```
+        ```xml
         <g:evaluate var="jvar_now_GR" object="true">
            var now_GR = new GlideRecord("incident");
            now_GR.addQuery("active", true);
@@ -72,7 +74,7 @@ Watch these introductory videos to learn about using Jelly in the ServiceNow AI 
         -   `defaultValue` - If the value results to null or empty, this value is put into the `var`.
     -   Example:
 
-        ```
+        ```xml
         <j:set var="jvar_incident_number" value="${jvar_now_GR.getValue('number')}"/>
         ```
 
@@ -88,7 +90,7 @@ Watch these introductory videos to learn about using Jelly in the ServiceNow AI 
     -   Parameters: None
     -   Example:
 
-        ```
+        ```xml
         <j:choose>
            <j:when test="${jvar_now_GR.getRowCount() ${AMP}lt; 1}">We found multiple records!</j:when>
            <j:when test="${jvar_now_GR.next()}">We found record ${jvar_now_GR.getValue('number')}</j:when>
@@ -101,7 +103,7 @@ Watch these introductory videos to learn about using Jelly in the ServiceNow AI 
     -   Parameters: `test` - The condition to evaluate in order to determine if the statement will loop through. This should be an expression enclosed in `${}` or `$[]` that evaluates to true or false.
     -   Example:
 
-        ```
+        ```xml
         <j:choose>
            <j:when test="${jvar_now_GR.getRowCount() ${AMP}lt; 1}">We found multiple records!</j:when>
            <j:when test="${jvar_now_GR.next()}">We found record ${jvar_now_GR.getValue('number')}</j:when>
@@ -114,7 +116,7 @@ Watch these introductory videos to learn about using Jelly in the ServiceNow AI 
     -   Parameters: None
     -   Example:
 
-        ```
+        ```xml
         <j:choose>
            <j:when test="${jvar_now_GR.getRowCount() ${AMP}lt; 1}">We found multiple records!</j:when>
            <j:when test="${jvar_now_GR.next()}">We found record ${jvar_now_GR.getValue('number')}</j:when>
@@ -124,6 +126,8 @@ Watch these introductory videos to learn about using Jelly in the ServiceNow AI 
 
 
 ## Glide Tags
+
+Use the following Glide tags in UI macros.
 
 -   **evaluate**
     -   Description: The `evaluate` tag evaluates JavaScript code \(server side\), and makes variables visible to future code. Unlike other tags, the `evaluate` tag evaluates the content that is inside the tag as server side JavaScript.
@@ -137,7 +141,7 @@ Watch these introductory videos to learn about using Jelly in the ServiceNow AI 
         -   `expression` - This is an expression to be executed for the value to put in `var`. The expression can be either of two places. First, it can be an attribute on the `evaluate` tag itself. Otherwise, the content between the beginning tag and ending tag is the expression. The last line of the expression is the actual value passed into `var`.
     -   Example:
 
-        ```
+        ```xml
         <g:evaluate var="jvar_now_GR" object="true">
           var now_GR = new GlideRecord("incident");
           now_GR.addQuery("active", "true");
@@ -146,7 +150,7 @@ Watch these introductory videos to learn about using Jelly in the ServiceNow AI 
         </g:evaluate>
         ```
 
-        ```
+        ```xml
         <g:evaluate var="jvar_now_GR" object="true" expression="
           var now_GR = new GlideRecord('incident');
           now_GR.addQuery('active', 'true');
@@ -159,7 +163,7 @@ Watch these introductory videos to learn about using Jelly in the ServiceNow AI 
     -   Parameters: None
     -   Example:
 
-        ```
+        ```xml
         <g:messages>
           Yes
           No
@@ -172,11 +176,11 @@ Watch these introductory videos to learn about using Jelly in the ServiceNow AI 
     -   Parameters: `var` - \(Optional\) The variable to log the value for. If `var` is not specified, then all variables are dumped into the log.
     -   Example:
 
-        ```
+        ```xml
         <g:breakpoint />
         ```
 
-        ```
+        ```xml
         <g:breakpoint var="sysparm_view"/>
         ```
 
@@ -185,7 +189,7 @@ Watch these introductory videos to learn about using Jelly in the ServiceNow AI 
     -   Parameters: None
     -   Example \(phase 1\) – Disables automatic output escaping of all contained $\{\} expressions:
 
-        ```
+        ```xml
         <g:no_escape>
          ${jvar_raw_html_data}
         </g:no_escape>
@@ -193,7 +197,7 @@ Watch these introductory videos to learn about using Jelly in the ServiceNow AI 
 
     -   Example \(phase 2\) – Use `NOESC` to disable escaping for the specified string. This implies the expression must evaluate to a string.
 
-        ```
+        ```xml
         <g:no_escape>$[NOESC:jvar_expr]</g:no_escape>
         ```
 
@@ -206,12 +210,12 @@ Watch these introductory videos to learn about using Jelly in the ServiceNow AI 
         -   Other attributes - For each attribute you specify, a variable with that name will be available in the context of the UI macro, prefixed with `jvar_`.
     -   Example:
 
-        ```
+        ```xml
         <!-- Will invoke the contents of the UI macro named "sample_macro", which will have the variable jvar_message available within it-->
         <g:macro_invoke macro="sample_macro" message="This is a sample macro variable." />
         ```
 
-        ```
+        ```xml
         <!-- Will invoke the contents of the UI macro named "sample_macro", which will have the variable jvar_message available within it-->
         <g:sample_macro message="This is a sample macro variable." />
         ```
@@ -221,7 +225,7 @@ Watch these introductory videos to learn about using Jelly in the ServiceNow AI 
     -   Parameters: None
     -   Example:
 
-        ```
+        ```xml
         <g:if_polaris>
             <g:then><g:inline template="polaris_nav"/></g:then>
             <g:else><g:inline template="classic_nav"/></g:else>
@@ -242,7 +246,7 @@ Watch these introductory videos to learn about using Jelly in the ServiceNow AI 
     -   Parameters: None
     -   Example:
 
-        ```
+        ```xml
         <g:if_polaris>
             <g:then><g:inline template="polaris_nav"/></g:then>
             <g:else><g:inline template="classic_nav"/></g:else>
@@ -263,7 +267,7 @@ Watch these introductory videos to learn about using Jelly in the ServiceNow AI 
     -   Parameters: None
     -   Example:
 
-        ```
+        ```xml
         <g:if_polaris>
             <g:then><g:inline template="polaris_nav"/></g:then>
             <g:else><g:inline template="classic_nav"/></g:else>
@@ -285,5 +289,5 @@ You use different methods when escaping characters in JavaScript and HTML. JavaS
 -   **[Extensions to Jelly syntax](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_ExtensionsToJellySyntax.md)**  
 Apache's Jelly syntax is used to render forms, lists, UI pages, and many other things rendered in ServiceNow.
 
-**Parent Topic:**[Creating custom UI Pages and UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/create-custom-ui-pages.md)
+**Parent Topic:**[UI pages and macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/create-custom-ui-pages.md)
 

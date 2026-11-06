@@ -7,9 +7,9 @@ release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Associate a schedule with an equipment model entity, Managing an equipment model entity schedule, Configure, Industrial Process Manager, Operational Technology]
+breadcrumb: [Associate a schedule with an equipment model entity, Managing an equipment model entity schedule, Configure the Industrial Process Manager, Industrial Process Manager, Operational Technology]
 ---
 
 # Attach a schedule to an equipment model entity

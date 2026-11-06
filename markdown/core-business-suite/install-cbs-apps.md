@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/install-cbs-apps.html
 release: australia
 topic_type: concept
-last_updated: "2026-04-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Core Business Suite]
 ---
@@ -27,5 +27,5 @@ Install Workplace Services to configure its settings and requests.
 -   **[Install Source-to-Pay](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/install-source-to-pay.md)**  
 Install Source-to-Pay to configure its settings and requests.
 
-**Parent Topic:**[Configure Core Business Suite Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/configure-cbs.md)
+**Parent Topic:**[Configure Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/configure-cbs.md)
 

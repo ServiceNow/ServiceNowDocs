@@ -7,9 +7,9 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Now Mobile Home page, Configuring Employee Center for mobile, Now Mobile experience for Employee Center, Employee Center Integrations, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configure Now Mobile Home page, Configuring Employee Center for mobile, Now Mobile experience for Employee Center, Employee Center Integrations, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure My items

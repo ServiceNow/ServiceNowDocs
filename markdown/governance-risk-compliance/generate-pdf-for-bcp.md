@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/generate-pdf-for-bcp.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Structured workflows for BCPs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -51,7 +51,7 @@ Beginning with the Xanadu release, the content in PDFs of Business Impact Analys
 
 6.  Save the PDF on your system.
 
-    You can save the PDF for future reference.
+    You can save the PDF for a future reference.
 
 7.  To create the BCP report in Microsoft Word, select **Generate MS Word**.
 

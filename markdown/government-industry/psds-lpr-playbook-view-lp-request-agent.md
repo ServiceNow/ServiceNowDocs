@@ -1,18 +1,18 @@
 ---
-title: Track license and permit requests using License and Permit Playbook
-description: Track all the license and permit requests that are assigned to you or other agents in your government agency by using the License and Permit Playbook.
+title: Track license and permit requests using License and Permit Administration
+description: Track all the license and permit requests that are assigned to you or other agents in your government agency by using the License and Permit Administration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-lpr-playbook-view-lp-request-agent.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using License and Permit Playbook, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Using License and Permit Administration, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Track license and permit requests using License and Permit Playbook
+# Track license and permit requests using License and Permit Administration
 
-Track all the license and permit requests that are assigned to you or other agents in your government agency by using the License and Permit Playbook.
+Track all the license and permit requests that are assigned to you or other agents in your government agency by using the License and Permit Administration.
 
 ## Before you begin
 
@@ -29,7 +29,7 @@ When you select a case, a form opens with the following sections:
 
 ## Procedure
 
-1.  Open the License and Permit Playbook by navigating to Lists in the CRM Workspace.
+1.  Open the License and Permit Administration by navigating to Lists in the Public Sector Workspace.
 
 2.  Navigate to the **License and Permit Requests** list and select **All**.
 

@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -46,8 +46,8 @@ Impact calculation varies depending on the CI relationships for a application se
     The following impact calculation flow operates for alerts where the outage does not affect a network or network storage. Event Management performs the following steps:
 
     1.  Create a service map. Use the Service Configuration Item Associations \[svc\_ci\_assoc\] and CI Relationships \[cmdb\_rel\_ci\] tables to create child-parent relationships in the application service or application services.
-    2.  If there is no CMDB path from the service to the CI but an association appears in the svc\_ci\_assoc table, show a Depends-on relationship between the application service and the CI. Otherwise, show no connection.
-    3.  For an application services, if the CIs assigned to the service are also connected to the service in the CMDB, the map keeps the hierarchy between CIs as they appear in CMDB. The CI service assignments appear in the Service Configuration Item Associations section of the Application service form. If there is no connection to the service in the CMDB, the CIs appear directly under the application services in the map.
+    2.  If no CMDB path exists but the svc\_ci\_assoc table has an association, a Depends-on relationship appears. If no association exists, no connection appears.
+    3.  For application services, if the assigned CIs are also connected to the service in the CMDB, the map preserves the CI hierarchy as it appears in the CMDB. The CI service assignments appear in the Service Configuration Item Associations section of the Application service form. If there is no connection to the service in the CMDB, the CIs appear directly under the application services in the map.
     4.  Create the impact tree. Mark the magnitude of an outage by 100% down, 60% affected, 40% impaired, or 20% impaired. If the items in two or more clusters are affected, the impact is 100% down.
 -   **Change requests and the In Maintenance status**
 
@@ -106,11 +106,11 @@ The Impact Rule \[em\_impact\_rule\] table contains impact rules that show the a
 
     \[Omitted image "manual-cluster.png"\] Alt text: child CI severity is propagated differently to each parent service
 
-    In the above example, there are two entry points. The Osaka cluster on the right-hand side has three CIs. The Tokyo cluster on the left-hand side has two CIs. The Tokyo and Osaka backup server has shared parents - Tokyo cluster and Osaka cluster. On the right-hand panel you can see the Impact Tree where the Tokyo cluster has two Application Cluster Members with 50% influence each and the Osaka cluster has three with 34% influence each.
+    In the above example, there are two entry points. The Osaka cluster on the right-hand side has three CIs. The Tokyo cluster on the left-hand side has two CIs. The Tokyo and Osaka backup server has shared parents - Tokyo cluster and Osaka cluster. The Impact Tree shows the Tokyo cluster with two Application Cluster Members at 50% influence each, and the Osaka cluster with three at 34% each.
 
     For manual cluster configuration there are two rows: Application Impact and Application Cluster Member. The children are displayed since the Impact On field was selected as Parent and not Application Service. In the Application Cluster Member row the Influence field is configured to two. This implies that the minimum amount of children who fail \(and that they propagate the failure upwards to their parents\) are two. The Osaka cluster is configured to three. The percentage is different for the Tokyo and Osaka backup server for each cluster \(50% and 34%\). As you can see, even though the Tokyo and Osaka backup server failure is Red Critical, it influences the parents differently. The Osaka cluster remains green even though the Tokyo cluster failure is Orange Major.
 
-    Click a service or CI to see the alerts that are associated with it. For example, if you click the high-level application service, the alerts that are associated with it are displayed in the alert area under the Map View when you select **Alerts**. The alerts listed are those of the selected service. Alerts of child-services are listed when those services are selected.
+    Click a service or CI to see the alerts that are associated with it. For example, selecting the high-level application service displays its associated alerts in the alert area when you select **Alerts**. The alerts listed are those of the selected service. Alerts of child-services are listed when those services are selected.
 
     The following impact fields are displayed when you select **Impact**.
 

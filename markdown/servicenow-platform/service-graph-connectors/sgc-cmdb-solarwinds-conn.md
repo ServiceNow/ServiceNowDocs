@@ -7,7 +7,7 @@ release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [SGC-SolarWinds, SGC SolarWinds, SGC for SolarWinds, SolarWinds SGC, Service Graph Connector for SolarWinds, SolarWinds connection details, SolarWinds connection, common connection framework, CCF, SGC-SolarWinds, SGC SolarWinds, SGC for SolarWinds, SolarWinds SGC, Service Graph Connector for SolarWinds, SolarWinds connection details, SolarWinds connection, common connection framework, CCF]
 breadcrumb: [SolarWinds, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]

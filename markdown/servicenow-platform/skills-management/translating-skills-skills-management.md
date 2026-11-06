@@ -7,7 +7,7 @@ release: australia
 product: Skills Management
 classification: skills-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Skills Management, Skills Management, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ Translate skills and descriptions when you add new skills in Skills Management.
 
 Role required: skill\_admin
 
-Activate the relevant translation plugins. For more information, see [Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework-landing.md).
+Activate the relevant translation plugins. For more information, see .
 
 ## About this task
 
@@ -44,6 +44,6 @@ Translate skill names and the description using the following fields that suppor
 
     The text in the **Display Skill Name** and **Description** fields are translated.
 
-    For more information on translating custom content, see [Translating custom content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/translating-applications.md).
+    For more information on translating custom content, see .
 
 

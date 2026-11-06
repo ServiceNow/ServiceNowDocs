@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring On-Call Scheduling in Service Operations Workspace, On-Call Scheduling in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -28,12 +28,12 @@ Role required: itil, rota\_manager, rota\_admin
 
 2.  Select the **Schedule** icon.
 
-3.  On **Schedules** page, select **On-call notification preferences** tab.
+3.  On the **Schedules** page, select the **On-call notification preferences** tab.
 
 4.  To define your preferred notification, select **Create new** and provide the following details:
 
     -   Rule name
-    -   Select **Define active days and hours** to customise the rule with the following details:
+    -   Select **Define active days and hours** to customize the rule with the following details:
 
         -   All-day selection box
         -   From and Until
@@ -50,7 +50,7 @@ Role required: itil, rota\_manager, rota\_admin
 5.  Select **Save**.
 
 
--   **[Edit On-call team preference using Teams menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/oncall-team-preference-tab-in-teams.md)**  
+-   **[Edit on-call team preferences using the Teams menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/oncall-team-preference-tab-in-teams.md)**  
 Use the **Teams** menu to edit the on-call preferences for a selected team.
 -   **[Manage delivery channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/work-on-a-notification-preference-rule-in-sow.md)**  
 Add, edit, and delete delivery channels for notification preference rules in Service Operations Workspace.

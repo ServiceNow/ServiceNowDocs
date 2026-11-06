@@ -1,0 +1,50 @@
+---
+title: Define alert criteria
+description: Specify alert metric criteria by choosing alert severity, defining thresholds, and specifying conditions for when the alert must be triggered.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/define-alert-metric-criteria.html
+release: australia
+product: Digital End-User Experience \(DEX\)
+classification: digital-end-user-experience-dex
+topic_type: task
+last_updated: "2026-10-23"
+reading_time_minutes: 1
+keywords: [metric alert criteria, alert severity, alert thresholds, network stability metrics, alert conditions]
+breadcrumb: [DEX metric rule creation, Managing alert rules, Configure, Digital End-User Experience, IT Operations Management]
+---
+
+# Define alert criteria
+
+Specify alert metric criteria by choosing alert severity, defining thresholds, and specifying conditions for when the alert must be triggered.
+
+## Before you begin
+
+Role required: sn\_dex.admin
+
+## Procedure
+
+1.  In the **Alert severity** field, select a severity for the alert.
+
+2.  Define the thresholds for the alert.
+
+    The predetermined metric types are based on the configuration item \(CI\).
+
+3.  Add another alert severity level by selecting **Add another alert severity**.
+
+4.  Select the **Set the threshold for users \(optional\)** check box and define the criteria based on the number of impacted users to trigger the alert.
+
+5.  In the Alert when section, perform one of the following steps.
+
+    -   Select a time period for the **All sampled values must breach the criteria in the following time period** option.
+    -   Select a time period for the **Average of sampled values in the following time period must breach the criteria** option.
+6.  Define the conditions for when to clear the alert, under **Clear the alert when**.
+
+    The condition fields are enabled when you create at least one condition.
+
+7.  Select **Next**.
+
+
+## What to do next
+
+For the next, optional step, see [Add an alert action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/add-alert-action.md).
+

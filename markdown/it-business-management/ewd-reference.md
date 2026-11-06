@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/ewd-reference.html
 release: australia
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [SPM Enterprise-Wide Deployment, Strategic Portfolio Management]
 ---
@@ -18,6 +18,8 @@ Reference information to provide additional details about Enterprise-Wide Deploy
 Several types of components are installed with installation of the Enterprise-Wide Deployment application, such as user roles, tables, and scheduled jobs.
 -   **[Supported tables for partition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/supported-tables-for-partition-ewd.md)**  
 Several tables are supported for partition using Enterprise-Wide Deployment, including direct and indirect related tables for each entity.
+
+**Parent Topic:**[Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/r_ITBusinessManagement.md)
 
 **Parent Topic:**[SPM Enterprise-Wide Deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ewd-landing-page.md)
 

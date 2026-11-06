@@ -7,9 +7,9 @@ release: australia
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Creating insights, Working with automations, Use, Automation Center, Workflow Data Fabric]
+breadcrumb: [Working with automations, Use, Automation Center, Workflow Data Fabric]
 ---
 
 # Create an insight rule
@@ -37,7 +37,12 @@ When an insight rule is processed, it generates an insight. Insights appear on t
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Creating insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/creating-insights.md)
+-   **[Create an insight trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/create-insight-trigger.md)**  
+Create an active insight trigger so that you can run the related insight rule.
+-   **[Write a script for an automation message variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/create-message-variable-auto-center.md)**  
+Write JavaScript code input for variables that are added in the message of an insight rule.
+
+**Parent Topic:**[Working with automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/automation-center/automations.md)
 
 **Related topics**  
 

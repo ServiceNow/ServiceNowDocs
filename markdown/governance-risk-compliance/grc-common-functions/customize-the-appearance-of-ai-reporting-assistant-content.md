@@ -7,9 +7,9 @@ release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [AI for document designer, Microsoft Word based audit report templates using Document designer, Common GRC features, Governance, Risk, and Compliance]
+breadcrumb: [AI for document designer, Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Customize the appearance of AI for document designer

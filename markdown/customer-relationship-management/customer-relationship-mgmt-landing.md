@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-relationship-management/customer-relationship-mgmt-landing.html
 release: australia
 topic_type: concept
-last_updated: "2026-04-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 ---
 
@@ -44,4 +44,7 @@ Use the ServiceNow® Customer Relationship Management \(CRM\) products to manage
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
 -   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).
 -   Connect with other Customer Service Management users at [Now Community](https://www.servicenow.com/community/).
+
+-   **[CRM products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-relationship-management/crm-product-portfolio.md)**  
+Use the ServiceNow CRM products to manage customer interactions, service requests, field operations, and order fulfillment across the full customer lifecycle. Whether you are starting or expanding a CRM implementation, learn more about the available products, features, and workflows that can help your organization deliver consistent, connected customer experiences.
 

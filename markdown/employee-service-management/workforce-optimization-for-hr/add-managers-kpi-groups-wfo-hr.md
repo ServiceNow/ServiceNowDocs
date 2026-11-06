@@ -7,9 +7,9 @@ release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure teams, Configure, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
+breadcrumb: [Setting up Teams in Workforce Optimization for HR, Configuring Workforce Optimization for HR, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
 ---
 
 # Add managers to a KPI assignment group
@@ -37,5 +37,5 @@ You can associate a user with a primary assignment group by selecting the group 
 5.  Click **Submit**.
 
 
-**Parent Topic:**[Configure Teams in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/setup-team-workforce-wfo-hr.md)
+**Parent Topic:**[Setting up Teams in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workforce-optimization-for-hr/setup-team-workforce-wfo-hr.md)
 

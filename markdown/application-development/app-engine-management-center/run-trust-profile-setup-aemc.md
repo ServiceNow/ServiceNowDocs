@@ -7,9 +7,9 @@ release: australia
 product: App Engine Management Center
 classification: app-engine-management-center
 topic_type: task
-last_updated: "2026-06-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure ReleaseOps, Configure, App Engine Management Center, Governing app development, Building applications]
+breadcrumb: [Configure ReleaseOps, Configure, App Engine Management Center, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Run trust profile setup in AEMC
@@ -40,4 +40,6 @@ After
 
         \[Omitted image "multi-instance-management-trust-profiles.png"\] Alt text: Application Trust Profiles form showing two active trust profile items for the App Engine Management Center \(AEMC\) application.
 
+
+**Parent Topic:**[Configure ReleaseOps in AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/configure-releaseops-in-aemc.md)
 

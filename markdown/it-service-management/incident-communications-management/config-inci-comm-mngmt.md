@@ -7,7 +7,7 @@ release: australia
 product: Incident Communications Management
 classification: incident-communications-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Incident Communications Management, IT Service Management]
 ---
@@ -18,5 +18,5 @@ Configure Incident Communications Management to create and manage communications
 
 ## Configuration overview
 
-Configure Incident Communications Management by installing and activating the Incident Communications Management \(com.snc.iam\) plugin.
+Configure Incident Communications Management by activating the Incident Communications Management plugin \(com.snc.iam\).
 

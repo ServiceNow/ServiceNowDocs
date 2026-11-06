@@ -7,7 +7,7 @@ release: australia
 product: Learning Core
 classification: learning-core
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a content collection, Managing course and catalog content, Learning Core, HR Service Delivery, Employee Service Management]
 ---
@@ -28,7 +28,7 @@ Create a content collection. For more information, see [Create a content collect
 
 2.  Select the collection that you want to add course items to.
 
-3.  On the Course Collection Items tab, select **Add**.
+3.  On the Course Collection Items tab, click **Add**.
 
 4.  On the form, fill in the fields:
 

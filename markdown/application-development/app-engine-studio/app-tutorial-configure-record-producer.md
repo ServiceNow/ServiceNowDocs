@@ -7,9 +7,9 @@ release: australia
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Creating user experiences, App creation tutorial, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Creating user experiences, App creation tutorial, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Configure a record producer
@@ -122,7 +122,7 @@ Follow along to configure the record producer for the employee travel request ap
 
     In our tutorial, we create several questions to collect details about employees' travel requests.
 
-    1.  In the correct question container, hover over the plus icon \(\[Omitted image "plus-icon.png"\] Alt text:\), then select **+ Insert**.
+    1.  In the correct question container, hover over the plus icon \[Omitted image "plus-icon.png"\] Alt text: Add icon, then select **+ Insert**.
 
         In our tutorial, we insert this question in the General Information container.
 
@@ -136,7 +136,7 @@ Follow along to configure the record producer for the employee travel request ap
 
     4.  Select **Continue to Choices** to complete additional configurations for the question.
 
-    5.  In the **Available choices** section, hover over the plus icon \(\[Omitted image "plus-icon.png"\] Alt text:\), then select **+ Insert**.
+    5.  In the **Available choices** section, hover over the plus icon \[Omitted image "plus-icon.png"\] Alt text: Add icon, then select **+ Insert**.
 
     6.  In the **Display name** field, enter `Customer meeting`.
 
@@ -201,8 +201,8 @@ Follow along to configure the record producer for the employee travel request ap
 
     In our tutorial, we don’t grant or deny access to any users or groups.
 
-    -   To make the form available to specific users or groups, select **Browse** in the **Available for** card, then search for the users or groups that you want to grant access to. Move the users or groups from the **Available options** list to the **User criteria granted access** list using the move icon \(\[Omitted image "app-tutorial-move-right-icon.png"\] Alt text: Move icon\).
-    -   To make the form unavailable for certain users or groups, select **Browse** in the **Unavailable for** card, then search for the users or groups that you want to deny access to. Move the users or groups from the **Available options** list to the **User criteria denied access** list using the move icon \(\[Omitted image "app-tutorial-move-right-icon.png"\] Alt text: Move icon\).
+    -   To make the form available to specific users or groups, select **Browse** in the **Available for** card, then search for the users or groups that you want to grant access to. Move the users or groups from the **Available options** list to the **User criteria granted access** list using the move icon \[Omitted image "app-tutorial-move-right-icon.png"\] Alt text:\).
+    -   To make the form unavailable for certain users or groups, select **Browse** in the **Unavailable for** card, then search for the users or groups that you want to deny access to. Move the users or groups from the **Available options** list to the **User criteria denied access** list using the move icon \[Omitted image "app-tutorial-move-right-icon.png"\] Alt text:.
 18. Select **Continue to review and submit** to review and finalize your form.
 
 19. Select **Submit**.

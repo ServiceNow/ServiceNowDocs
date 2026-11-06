@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/attachment-source-define.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Working with images and attachments, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -42,15 +42,15 @@ This feature is supported for all attachment locations including: activity strea
 
 3.  Select the attachment location for where you want to control the origin of the attachment source.
 
-<table id="choicetable_odj_n5y_zdc"><thead><tr><th align="left" id="d92696e122">
+<table id="choicetable_odj_n5y_zdc"><thead><tr><th align="left" id="d93191e122">
 
 Attachment location
 
-</th><th align="left" id="d92696e125">
+</th><th align="left" id="d93191e125">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d92696e131">
+</th></tr></thead><tbody><tr><td id="d93191e131">
 
 **Function**
 
@@ -68,7 +68,7 @@ Values can be `camera`, `files`, or `gallery`, or any combination separated by c
 7.  Select **Save**.
 
 
-</td></tr><tr><td id="d92696e209">
+</td></tr><tr><td id="d93191e209">
 
 **Activity stream**
 
@@ -83,7 +83,7 @@ Values can be `camera`, `files`, or `gallery`, or any combination separated by c
 7.  Select **Save**.
 
 
-</td></tr><tr><td id="d92696e261">
+</td></tr><tr><td id="d93191e261">
 
 **Input form screen**
 

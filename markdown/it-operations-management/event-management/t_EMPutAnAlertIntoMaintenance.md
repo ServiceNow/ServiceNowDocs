@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [View alert information, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -30,7 +30,7 @@ Placing the alert in maintenance does not place the CI into maintenance. The **S
 
 2.  Perform one of the following actions.
 
-<table id="choicetable_d3p_bch_1v"><tbody><tr><td id="d291370e89">
+<table id="choicetable_d3p_bch_1v"><tbody><tr><td id="d309801e89">
 
 **To put multiple alerts into maintenance**
 
@@ -38,7 +38,7 @@ Placing the alert in maintenance does not place the CI into maintenance. The **S
 
 Select the check boxes next to each alert, and then click the **Maintenance** UI action at the top of the list.
 
-</td></tr><tr><td id="d291370e101">
+</td></tr><tr><td id="d309801e101">
 
 **To put one alert into maintenance**
 

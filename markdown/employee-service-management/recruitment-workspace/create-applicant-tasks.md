@@ -7,7 +7,7 @@ release: australia
 product: Recruitment Workspace
 classification: recruitment-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Hiring tasks, Use, Recruitment Workspace, Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/set-up-opty-score-insights.html
 release: australia
 topic_type: task
-last_updated: "2026-08-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [win probability, opportunity scoring, score and insights, predictive intelligence]
 breadcrumb: [Opportunity Management, Sales automation apps, Configure, Sales Customer Relationship Management]

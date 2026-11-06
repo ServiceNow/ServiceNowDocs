@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/vr-cloud-exposure-view-db.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Security Exposure Management Workspace, Explore, Unified Security Exposure Management, Security Operations]
 ---
@@ -93,7 +93,7 @@ Select a card and then select the filters on the new tabs that are displayed to 
     -   Red
     -   Orange
     -   Yellow
--   View toxic combinations and assets with the least compliant scores that have the most security exposures due to failed configurations. Both misconfigurations and issues are populated on test results in Configuration Compliance. This data is imported by the [Understanding the Wiz Vulnerability Response Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/vr-wiz-exploring-host-cf.md), and this data is not displayed unless Configuration Compliance and the Wiz Vulnerability Response Integration are installed.
+-   View toxic combinations and assets with the least compliant scores that have the most security exposures due to failed configurations. Both misconfigurations and issues are populated on test results in Configuration Compliance. This data is imported by the [Understanding the Vulnerability Response Integration with Wiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/vr-wiz-exploring-host-cf.md), and this data is not displayed unless Configuration Compliance and the Wiz Vulnerability Response Integration are installed.
 
     Findings with failed test results are color-coded. You can select the date range for the last 7 days or the last 30 days.
 

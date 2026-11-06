@@ -7,10 +7,10 @@ release: australia
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [install creator studio, creator studio installation]
-breadcrumb: [Configure, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Configure, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Installing Creator Studio from the ServiceNow Store
@@ -19,7 +19,7 @@ Installing Creator Studio from the ServiceNow Store makes it available for peopl
 
 Your company must have an App Engine Enterprise license to install and configure Creator Studio.
 
-For instructions on installing Creator Studio and other products from the ServiceNow Store, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md).
+For instructions on installing Creator Studio and other products from the ServiceNow Store, see [Install an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/installing-applications-in-application-manager.md).
 
 **Note:** If you want forms to appear in the Virtual Agent chatbot, you must install the necessary plugins. For more information, see [Activate Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/activate-virtual-agent.md).
 

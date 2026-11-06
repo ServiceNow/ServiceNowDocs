@@ -7,9 +7,9 @@ release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure web components, Web Embeddables, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Configure web components, Configure Web Embeddables, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Case view component
@@ -25,4 +25,10 @@ The Case view component includes essential case details such as case number, sta
 \[Omitted image "we-case-view-comp.png"\] Alt text: Case view component instance displaying case-related activities in the Preview tab.
 
 \[Omitted image "we-case-view-playbook-comp.png"\] Alt text: Case view component instance displaying playbook case-related information in the Preview tab.
+
+## Related components
+
+Use the Case view component with other components on your website:
+
+-   [Case list component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/case-list-component.md): Lets customers select the case to show.
 

@@ -7,8 +7,8 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Discovery probes and sensors, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
@@ -33,7 +33,7 @@ The PowerShell Probe executes PowerShell V2 scripts on the MID Server host.
 -   **[SCPRelay probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r_SCPRelayProbe.md)**  
 The SCP Relay Probe copies a single file or the contents of a directory from one host to another, using the MID Server as a relay.
 -   **[SNMP probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_SNMPProbe.md)**  
-The SNMP probes use the SNMP protocol to query a particular device for a list of OIDs, which are then traversed and the results passed back to the sensors. MID Servers support all SNMP protocol versions by default. You can set a MID Server to only support specific versions of SNMP.
+SNMP probes query a device for a list of OIDs using the SNMP protocol. The results are traversed and passed back to the sensors. MID Servers support all SNMP protocol versions by default. You can set a MID Server to support only specific SNMP versions.
 -   **[SSHCommand probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_SSHCommandProbe.md)**  
 A probe using the ECC queue topic name SSHCommand executes a shell command on the target host, and returns the resulting output to the sensor.
 -   **[vCenter probes and probe parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/vcenter-probes.md)**  

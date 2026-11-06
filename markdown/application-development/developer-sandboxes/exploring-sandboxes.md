@@ -7,10 +7,10 @@ release: australia
 product: Developer Sandboxes
 classification: developer-sandboxes
 topic_type: concept
-last_updated: "2026-08-17"
-reading_time_minutes: 5
+last_updated: "2026-10-26"
+reading_time_minutes: 7
 keywords: [developer sandbox, sandbox developer, servicenow sandbox enabled, development sandbox, dev sandbox, sandbox management, sandbox enabled servicenow, sandbox crm]
-breadcrumb: [Developer Sandboxes, Developing your application, Building applications]
+breadcrumb: [Developer Sandboxes, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Exploring Developer Sandboxes
@@ -37,8 +37,6 @@ Developer Sandboxes enables better development in the following ways:
 -   Safe testing: Developers can test configurations, workflows, and integrations within their sandbox without risking system stability.
 -   On-demand provisioning: Admins and developers can quickly provision sandboxes for specific tasks or experiments without waiting for shared resources.
 
-**Note:** Personal Development Instances \(PDIs\) are still available, but they don't have a controlled baseline configuration like Developer Sandboxes do.
-
 \[Omitted image "sandboxes-management-home.png"\] Alt text: Sandbox Management home dashboard.
 
 The Sandbox Management home dashboard displays the total, available, and allocated sandboxes in your instance. The dashboard also displays information relevant to each sandbox, including, the status, data utilization, owner, last accessed date, and when the sandbox was allocated.
@@ -63,18 +61,19 @@ Developer Sandboxes provide an isolated environment that integrates with source 
 
 |User|Description|
 |----|-----------|
+|Sandbox license admins|Sandbox license admins can assign purchased sandbox packs to non-production instances from App Engine Management Center \(AEMC\).|
 |Delegated developers|Delegated developers can request sandboxes from an admin or sandbox manager.|
 |Admins|Admins can allocate or retire sandboxes.|
 |Sandbox managers|Sandbox managers can administer the lifecycle of all sandboxes without full admin privileges.|
 |Sandbox users|Sandbox users can request and view Developer Sandboxes.|
 
-Sandbox users use the same login credentials for their sandbox as the base instance. If you use Single Sign-On \(SSO\) for login, when you enable it to connect to your account on the base instance, Developer Sandboxes authenticates using the same mechanism and credentials as the base instance. For information on enabling SSO, see [Installing Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/dev-sbx-installing.md).
+Sandbox users use the same login credentials for their sandbox as the base instance. If you use Single Sign-On \(SSO\), enabling it on the base instance also authenticates Developer Sandboxes using the same credentials. For information on enabling SSO, see [Single sign-on for Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/dev-sbx-sso.md).
 
 **Note:** Instances with vanity URLs support SSO.
 
 ## Developer Sandboxes workflow
 
-The delegated developer or admin of a sandbox would procure a sandbox, make changes or experiment with development, test their changes, push their changes, and wait for an admin to clone the instance.
+The delegated developer or admin of a sandbox procures a sandbox, makes changes or experiments with development, tests their changes, pushes their changes, and waits for an admin to clone the instance.
 
 1.  A sandbox manager or admin allocates a sandbox to start story work.
 2.  The developer makes development changes and tests them out in their fully isolated sandbox.
@@ -83,7 +82,7 @@ The delegated developer or admin of a sandbox would procure a sandbox, make chan
 
 3.  Once the developer is content with their work and ready to promote their changes to a shared, integrated environment, they push their changes to the desired upstream shared instance. For example, a `test`/`QA` instance. There are two ways to promote changes:
     1.  Using source control \(preferable\) or exports through Git
-    2.  Using update sets and imports \(supported, but not as easy to merge changes\)
+    2.  Using update sets and imports. Update set sources between the sandbox and the base instance are automatically created when the sandbox is ready. For more information, see [Update sets transfer between sandboxes and base instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/dsb-update-sets.md).
 4.  Further testing can be done on the shared instance.
 5.  The admin of a sandbox instance clones changes from the `test`/`QA` instance to make those changes the default for all future allocated sandboxes.
 
@@ -107,12 +106,13 @@ Enable parallel development
 
 </td><td>
 
-Enable multiple developers the ability to work on different stories or features at the same time using the same starting source code, all while keeping the non-production baseline instance clean.
+Enable multiple developers to work on different stories or features at the same time using the same starting source code, all while keeping the non-production baseline instance clean.
 
 </td><td>
 
 -   Admins
 -   Delegated developers
+-   Sandbox managers
 
 </td></tr><tr><td>
 
@@ -124,20 +124,33 @@ Enables integration with source control for more successful co-development. For 
 
 </td><td>
 
-Delegated developers
+Delegated developers, sandbox managers
 
 </td></tr><tr><td>
 
-Reuse sandbox templates
+Self-serve license assignment
 
 </td><td>
 
-Enables the optional setup of a repository configuration. You can create a template once, and reuse any existing templates when creating sandboxes. For more information, see [Using sandbox templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/create-sandbox-template.md).
+Assign purchased sandbox packs to non-production instances directly from App Engine Management Center \(AEMC\), without opening a support case. For more information, see [License assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/dsb-license-allocation-about.md).
+
+</td><td>
+
+Sandbox license admins
+
+</td></tr><tr><td>
+
+Pooling for faster allocation
+
+</td><td>
+
+When allocating a sandbox, a sandbox is claimed from a pre-created pool rather than waiting for a new instance to be provisioned. The pre-created pool helps users start working in sandboxes faster.
 
 </td><td>
 
 -   Admins
 -   Delegated developers
+-   Sandbox managers
 
 </td></tr><tr><td>
 
@@ -145,12 +158,13 @@ Sandbox alias
 
 </td><td>
 
-Enables you to easily reference the sandbox you want to allocate.
+Reference name for the sandbox you want to allocate.
 
 </td><td>
 
 -   Admins
 -   Delegated developers
+-   Sandbox managers
 
 </td></tr><tr><td>
 
@@ -164,9 +178,25 @@ Enables you to allocate a sandbox to yourself, or for an admin to allocate a san
 
 -   Admins
 -   Delegated developers
+-   Sandbox managers
 
 </td></tr></tbody>
 </table>## What to explore next
 
-To learn more about installing and configuring Developer Sandboxes, refer to [Installing Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/dev-sbx-installing.md).
+To learn more about installing and configuring Developer Sandboxes, refer to [Developer Sandboxes installation and configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/dsb-configuring-landing.md).
+
+-   **[Supported ServiceNow AI Platform features in Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/dev-sbx-supported-features.md)**  
+Developer Sandboxes supports almost all development-related ServiceNow AI Platform features.
+-   **[Source control and Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/dev-sandboxes-source-control.md)**  
+Use source control with Developer Sandboxes to enable parallel development and help avoid merge conflicts.
+-   **[Update sets transfer between sandboxes and base instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/dsb-update-sets.md)**  
+When a sandbox is ready, update set sources are automatically created on both the sandbox and the base instance, enabling transfers in either direction without manual configuration.
+-   **[Developer Sandboxes and metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/dev-sbx-metadata.md)**  
+Each sandbox provisioned with Developer Sandboxes is an isolated environment within an instance. Developers can build and test in parallel without affecting other work.
+-   **[General guidelines and use cases for Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/dev-sbx-general-guidelines.md)**  
+Follow some general guidelines to ensure you're optimizing your use of sandboxes.
+-   **[Get help with Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/dev-sbx-get-help.md)**  
+To get help with Developer Sandboxes, your ServiceNow instance, plugins, permissions, and more, watch a short video to contact the ServiceNow admin who works in your company. You can also check some helpful resources.
+
+**Parent Topic:**[Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/sandboxes-landing.md)
 

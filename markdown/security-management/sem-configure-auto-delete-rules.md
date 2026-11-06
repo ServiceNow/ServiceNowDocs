@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-configure-auto-delete-rules.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure rules to manage findings, Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -17,8 +17,6 @@ By configuring auto-delete rules, you can automate the process of deleting older
 The base system provides two preconfigured auto-delete rules that automatically remove closed records and any related records. One rule targets findings, and the other targets remediation tasks. These rules are inactive by default, so you must activate them manually before they can delete any records. You can use the two preconfigured rules or create your own to suit your specific needs.
 
 Configuration of auto-delete rules includes the following steps.
-
-**Parent Topic:**[Configure rules to manage findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-rules-manage-findings.md)
 
 **Related topics**  
 

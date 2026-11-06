@@ -7,7 +7,7 @@ release: australia
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -28,7 +28,7 @@ One consumer process uses ports in the 410x range and the other uses ports in th
 
 ## Required port ranges
 
-Work with your network administrator to confirm that the following port ranges are open before you begin exchanging messages using Hermes:
+Work with your network administrator to ensure that the following port ranges are open before you begin exchanging messages using Hermes:
 
 -   Producer: 4000-4050
 -   Consumer1: 4100-4150

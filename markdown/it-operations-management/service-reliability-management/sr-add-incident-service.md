@@ -7,7 +7,7 @@ release: australia
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with incidents in SRM, Working with SRM reliability tasks, Using Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
@@ -32,15 +32,15 @@ Role required: srm\_manager, srm\_responder, or srm\_admin
 
 3.  You have two options.
 
-<table id="choicetable_llb_1fq_vyb"><thead><tr><th align="left" id="d287993e97">
+<table id="choicetable_llb_1fq_vyb"><thead><tr><th align="left" id="d306135e97">
 
 Option
 
-</th><th align="left" id="d287993e100">
+</th><th align="left" id="d306135e100">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d287993e106">
+</th></tr></thead><tbody><tr><td id="d306135e106">
 
 **In the incident list view**
 
@@ -48,7 +48,7 @@ Description
 
 Double-click the **Service** field for the incident and replace the team member using search.Select **OK**.
 
-</td></tr><tr><td id="d287993e123">
+</td></tr><tr><td id="d306135e123">
 
 **In the incident form**
 

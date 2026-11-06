@@ -1,13 +1,13 @@
 ---
 title: AI Search activity reports
-description: Reports summarize your AI Search configurations and trends.
+description: Reports summarize your AI Search configurations and trends.topic will need removed once new AI Search Admin available. Use legacy otherprops once date known
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/ais-admin-console-activity-reports.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Track your AI Search activity, Using AI Search Admin console, AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]

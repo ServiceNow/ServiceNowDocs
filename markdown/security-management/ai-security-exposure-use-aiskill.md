@@ -53,5 +53,3 @@ Roles required: sn\_vul.vulnerability\_admin or sn\_vul.vulnerability\_analyst a
     You can now use the Guardrail Detector agentic workflow to create exception rules to automatically defer findings that match your criteria.
 
 
-**Parent Topic:**[Using the AI guardrails helper skill and agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/ai-security-exposure-skill-agent.md)
-

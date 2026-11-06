@@ -7,7 +7,7 @@ release: australia
 product: Platform Performance
 classification: platform-performance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Transaction call chains, Monitor, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -24,15 +24,15 @@ Role required: admin
 
 1.  Navigate to the Transaction Log or Slow Transactions list, select the problematic transaction, and enable recording of the call chain.
 
-<table id="choicetable_nc2_kmn_f4b"><thead><tr><th align="left" id="d132131e54">
+<table id="choicetable_nc2_kmn_f4b"><thead><tr><th align="left" id="d132494e54">
 
 Type of Log
 
-</th><th align="left" id="d132131e57">
+</th><th align="left" id="d132494e57">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d132131e63">
+</th></tr></thead><tbody><tr><td id="d132494e63">
 
 **Transaction Log**
 
@@ -44,7 +44,7 @@ Steps
 4.  In the Transaction Log Entry form, select **Open Record**, then select **Record call chain of next occurrence**.
 
 
-</td></tr><tr><td id="d132131e101">
+</td></tr><tr><td id="d132494e101">
 
 **Slow Transactions**
 

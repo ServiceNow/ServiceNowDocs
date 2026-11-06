@@ -7,7 +7,7 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Session management, Hardening settings, Platform Security]
 ---
@@ -36,7 +36,7 @@ Configuration name
 
 </td><td>
 
-****
+**glide.ui.user\_cookie.life\_span\_in\_days**
 
 </td></tr><tr><td>
 
@@ -68,7 +68,7 @@ Default value
 
 </td><td>
 
-&lt;none&gt;
+15
 
 </td></tr><tr><td>
 

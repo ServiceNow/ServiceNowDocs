@@ -7,7 +7,7 @@ release: australia
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [ITOM Visibility, IT Operations Management]
 ---
@@ -23,7 +23,7 @@ ITOM Visibility consists of two ServiceNow products: Discovery and Service Mappi
 -   **[Run options for discovery schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/discovery-schedule-run-options.md)**  
 Both horizontal and top-down discovery use these run options.
 -   **[Plugins or applications installed with ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/plugin-app-itom-visibility.md)**  
-Tables that list the plugins or applications that are installed with ITOM Visibility applications. When you update your application, any newly required application dependencies are installed.
+Plugins and applications are installed with ITOM Visibility, and application dependencies are installed when you update.
 -   **[Agent Client Collector \(ACC\) admin workspace agent actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/acc-admin-workspace-agent-actions.md)**  
 When working in the Agent Client Collector \(ACC\) admin workspace, you can select actions to perform on the agent by selecting the **Agent actions** button.
 -   **[Agent Client Collector \(ACC\) admin workspace information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/acc-admin-workspace-information.md)**  

@@ -1,20 +1,20 @@
 ---
 title: View job tracker details
-description: View details of the source job and service job, such as when did the job begin and end, when did the records start loading into staging tables, or did the job run completely or fail in between.
+description: View details of the source job and service job. These include when the job began and ended. They also show when records started loading into staging tables and whether the job ran completely or failed partway through.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/hr-integration-job-tracker.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, Enterprise Service Management Integrations Framework, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
+breadcrumb: [Using Enterprise Service Management Integrations Framework, Enterprise Service Management Integrations Framework, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
 
 # View job tracker details
 
-View details of the source job and service job, such as when did the job begin and end, when did the records start loading into staging tables, or did the job run completely or fail in between.
+View details of the source job and service job. These include when the job began and ended. They also show when records started loading into staging tables and whether the job ran completely or failed partway through.
 
 ## Before you begin
 

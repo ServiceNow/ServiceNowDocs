@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/actions-font-icons.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Mobile icon reference, Mobile icons, Mobile styles, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -1532,6 +1532,70 @@ Australia
 </td><td>
 
 \[Omitted image "mab-icon-action-mic-ai-sparkle-solid.png"\] Alt text: Microphone-AI-Spark-Solid example
+
+</td><td>
+
+ 
+
+</td></tr><tr><td class="sub-head" colspan="5">
+
+Icon added in the Brazil release
+
+</td></tr><tr><td>
+
+Microphone-AI-Spark-Outline
+
+</td><td>
+
+e949
+
+</td><td>
+
+Brazil
+
+</td><td>
+
+\[Omitted image "mab-icon-action-mic-ai-sparkle-out.png"\] Alt text: Microphone AI Sparkle outline example
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+SN-Sparkmoji-Logo
+
+</td><td>
+
+e948
+
+</td><td>
+
+Brazil
+
+</td><td>
+
+\[Omitted image "mab-icon-image-sparkmoji.png"\] Alt text: Otto logo example
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Chat-AI-Sparkle-Solid-New
+
+</td><td>
+
+e94a
+
+</td><td>
+
+Brazil
+
+</td><td>
+
+\[Omitted image "mab-icon-action-chat-ai-sparkle-sol.png"\] Alt text: Chat AI sparkle example
 
 </td><td>
 

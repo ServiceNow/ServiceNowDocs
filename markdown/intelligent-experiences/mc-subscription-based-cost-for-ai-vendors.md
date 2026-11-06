@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-24"
 reading_time_minutes: 3
 keywords: [subscription, seat-based pricing, AI cost, AI Control Tower, amortization]
-breadcrumb: [Cost, Explore, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
+breadcrumb: [Cost, Explore, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Subscription-based costs for AI vendors

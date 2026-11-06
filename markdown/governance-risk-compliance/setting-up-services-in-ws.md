@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/setting-up-services-in-ws.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Gathering data aligned with the CSDM setup, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -54,7 +54,7 @@ You can add a service to Operational Resilience reporting by selecting the **Add
 
 **Note:** Instead of adding services directly to Operational Resilience reporting, set up the entity filters for the desired services. For instructions on setting up the entity filters, see [Setting up pillars, entity types, and entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/setting-up-hierarchy.md).
 
-\[Omitted image "opres-reporting.png"\] Alt text: Add a\\ service to OpRes reporting.
+\[Omitted image "opres-reporting.png"\] Alt text: Add a service to OpRes reporting.
 
 **Note:** After adding a service to Operational Resilience reporting in the Operational Resilience Workspace, the **Add to OpRes reporting** option is no longer displayed in the UI for that service.
 
@@ -82,7 +82,7 @@ When you add a service to Operational Resilience reporting, you can view and con
 
 ## Reporting data for an object without a business service as the parent entity
 
-When you have a business service or service as the parent entity, any red flags or dependencies roll up to that business service or service. Objects like a service offering \(SO\) or business process \(BP\) can exist without a business service or service as the parent entity. Running the scheduled job still fetches their dependencies and integrates them with the red flags.
+When you have a business service or service as the parent entity, any red flags or dependencies roll up to that business service or service. Objects like a service offering \(SO\) or business process \(BP\) may not have a business service or service as the parent entity. Running the scheduled job still fetches their dependencies and integrates them with the red flags.
 
 ## Other related lists in the Service form
 

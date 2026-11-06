@@ -7,7 +7,7 @@ release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -48,7 +48,7 @@ The Connected work feature in CWM enables bringing in all types of work items fr
 -   **[Connect work from other ServiceNow apps to CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/connect-work-to-cwm-boards.md)**  
 Enable a consolidated view of all relevant work by connecting work items from different ServiceNow applications to a Board in Collaborative Work Management.
 -   **[Manage connected work item types in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/manage-connected-work-item-types-in-cwm.md)**  
-Enable, disable, refresh data, or delete the connected work item types on your CWM Board to keep the work items up to date based on changing requirements.
+Enable, disable, refresh data, or remove the connected work item types on your CWM Board to keep the work items up to date based on changing requirements.
 -   **[Update filter conditions for connected work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/update-conditions-for-connected-work-in-cwm.md)**  
 Update the filter conditions for connected work item types in Collaborative Work Management Boards so that the work items displayed in the Board reflect your team's current workload.
 -   **[Update details of connected work items in CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/update-details-of-connected-work-items-in-cwm-boards.md)**  

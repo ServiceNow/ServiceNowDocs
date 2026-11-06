@@ -1,28 +1,30 @@
 ---
 title: App Engine Studio release notes
-description: The ServiceNow App Engine Studio application enables creators of varying skill levels to build applications that meet the immediate needs of your organization. App Engine Studio was enhanced and updated in the Australia release.The ServiceNow App Engine Studio application enables creators of varying skill levels to build applications that meet the immediate needs of your organization. App Engine Studio was enhanced and updated in the Australia release.
+description: The ServiceNow App Engine Studio application enables creators of varying skill levels to build applications that meet the immediate needs of your organization. See the following sections for release notes by version.App Engine Studio was updated in the October 2026 release for the deprecation of the PDF Extractor tool \(table creation from PDFs\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/app-engine-studio-rn.html
 release: australia
 topic_type: topic
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [App development and low-code release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
+keywords: [App Engine Studio, App Engine Studio release notes]
+breadcrumb: [App development and low-code release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # App Engine Studio release notes
 
-The ServiceNow® App Engine Studio application enables creators of varying skill levels to build applications that meet the immediate needs of your organization. App Engine Studio was enhanced and updated in the Australia release.
+The ServiceNow® App Engine Studio application enables creators of varying skill levels to build applications that meet the immediate needs of your organization. See the following sections for release notes by version.
 
 ## About App Engine Studio
 
-Several Integration Hub flow templates are being deprecated.
+-   Build applications to store information, automate business processes, and solve business problems using a low-code, wizard interface.
+-   Leverage a suite of powerful development tools, including guided workflows and templates.
+-   Use app templates, such as the Time Off template, to build applications, or create your own templates.
+-   Publish apps using the App Engine Management Center.
 
-See [Build apps using App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-overview.md) for more information.
+See App Engine Studio for more information.
 
 ## Activation and other requirements
-
-**Important:** App Engine Studio is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 -   **Activation information**
 
@@ -31,25 +33,21 @@ See [Build apps using App Engine Studio](https://raw.githubusercontent.com/Servi
 
 **Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/build-automate-rn-landing.md)
 
-## Australia
+## Version 30.1.2
 
-The ServiceNow® App Engine Studio application enables creators of varying skill levels to build applications that meet the immediate needs of your organization. App Engine Studio was enhanced and updated in the Australia release.
+App Engine Studio was updated in the October 2026 release for the deprecation of the PDF Extractor tool \(table creation from PDFs\).
+
+### What's deprecated or removed
+
+-   **PDF Extractor tool \(table creation from PDFs\)**
+
+    The PDF Extractor tool that enables table creation from PDFs in App Engine Studio is deprecated starting in the Brazil release. To create tables from PDFs, you can migrate your application to Build Agent. For more information, see .
+
 
 ### Plugin information
 
--   **Plugins planned for deprecation**
+-   **Deprecated plugins**
 
-    The following plugins are planned for deprecation in a future release:
+    PDF Extractor tool \(sn\_pdf\_table\_bldr\): To create tables from PDFs, migrate to Build Agent.
 
-    The following Integration Hub flow templates are planned for deprecation in September 2034. There is no replacement for these plugins.
-
-    -   Flow Templates for Access Management \(com.sn.ft.app.access\)
-    -   Flow Templates for CRM \(com.sn.crm.flow.temp\)
-    -   Flow Templates for Cloud Services \(com.sn.ft.cloud.mgmt\)
-    -   Flow Templates for DevOps \(com.sn.ft.devops\)
-    -   Flow Templates for Document Management \(com.sn.ft.doc.mgmt\)
-    -   Flow Templates for HR Management \(com.sn.ft.for.hr\)
-    -   Flow Templates for Integration Hub Enterprise \(com.sn.ft.enterprise\)
-    -   Flow Templates for Notifications \(com.sn.ft.inc.ws.notif\)
-    -   Flow Templates for Service Desk \(com.sn.servicedesk.flow.temp\)
 

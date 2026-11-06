@@ -7,7 +7,7 @@ release: australia
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Use, Service Portfolio Management, IT Service Management]
 ---
@@ -24,7 +24,7 @@ For information on adding availability commitments, see [Add a commitment to a s
 
 ## Availability calculator
 
-Starting with the Australia release, you can use an availability calculator **\[com.snc.availability.v2\]** for improved performance, calculations, and maintenance.
+Starting with the Brazil release, you can use an availability calculator **\[com.snc.availability.v2\]** for improved performance, calculations, and maintenance.
 
 The availability calculator is redesigned from its predecessor to ensure that you see the most updated and accurate availability data in the period that you want.
 

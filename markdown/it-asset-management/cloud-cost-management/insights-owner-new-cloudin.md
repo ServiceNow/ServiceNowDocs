@@ -7,7 +7,7 @@ release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -73,7 +73,7 @@ Change template to use to create the change request for this task.The system use
 </td></tr></tbody>
 </table>4.  Specify how to populate the **Owner** field for CIs in service accounts.
 
-<table id="choicetable_ihs_dpm_rkb"><tbody><tr><td id="d365110e202">
+<table id="choicetable_ihs_dpm_rkb"><tbody><tr><td id="d371481e197">
 
 **Assign insights\_owners only to CIs with no owner**
 
@@ -83,7 +83,7 @@ For newly created CIs and for CIs in the service accounts that have no value for
 
  **Note:** A daily scheduled job sets the **Owner** field of each newly discovered CI to the Owner setting for the associated service account.
 
-</td></tr><tr><td id="d365110e223">
+</td></tr><tr><td id="d371481e218">
 
 **Assign insights\_owners to all CIs**
 
@@ -91,7 +91,7 @@ For newly created CIs and for CIs in the service accounts that have no value for
 
 For the **Owner** property of every CI in the specified service accounts, assign the new insights\_owner.**Note:** A daily scheduled job sets the **Owner** field of each newly discovered CI to the Owner setting for the associated service account.
 
-</td></tr><tr><td id="d365110e241">
+</td></tr><tr><td id="d371481e236">
 
 **Do not update any CIs**
 

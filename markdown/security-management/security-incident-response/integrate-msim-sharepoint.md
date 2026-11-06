@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrate, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -32,7 +32,7 @@ Use one of the following three methods to grant your registered Azure applicatio
 
 [Integrate Major Security Incident Management with Microsoft Teams]()
 
-[Establish MS Teams Graph connection on ServiceNow AI Platform]()
+[Establish Microsoft Teams Graph connection on ServiceNow AI Platform]()
 
 [Major Security Incident Management Conference Call Integration]()
 

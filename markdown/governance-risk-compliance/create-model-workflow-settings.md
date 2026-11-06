@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-model-workflow-settings.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [model workflow settings, assessments, validations, model risk management]
 breadcrumb: [Configure, Model Risk Management, Governance, Risk, and Compliance]
@@ -33,7 +33,7 @@ To manually schedule assessment and validation tasks from the model risk record,
 
 2.  Users with sn\_model\_risk\_mgmt.model\_governance role, navigate to **All** &gt; **Model Risk Workspace** and do the following:
 
-    1.  Select the list \[Omitted image "list-icon-mrm.png"\] Alt text: icon.
+    1.  Select the list \[Omitted image "list-icon.png"\] Alt text: icon.
 
     2.  From the list, navigate to **Model risk configurations** &gt; **Model workflow settings**.
 

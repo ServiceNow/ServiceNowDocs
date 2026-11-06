@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/spc-sgc-template-stepper-3.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Creating your own API connector, Use the workspace, Security Posture Control, Security Operations]
 ---
@@ -26,15 +26,15 @@ Role required: sn\_sec\_spc\_core.developer
 
 1.  Select one to continue.
 
-<table id="choicetable_pbd_cny_2hc"><thead><tr><th align="left" id="d140996e89">
+<table id="choicetable_pbd_cny_2hc"><thead><tr><th align="left" id="d141922e89">
 
 Option
 
-</th><th align="left" id="d140996e92">
+</th><th align="left" id="d141922e92">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d140996e98">
+</th></tr></thead><tbody><tr><td id="d141922e98">
 
 **Select Use ServiceNow Otto®**
 
@@ -42,7 +42,7 @@ Description
 
 See [Create an API connector with generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/select-api-template.md) for the steps for using ServiceNow Otto®.
 
-</td></tr><tr><td id="d140996e124">
+</td></tr><tr><td id="d141922e124">
 
 **Select one option from a list and __Apply__ to view the template cards that match your selections.**
 

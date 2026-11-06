@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/task-template-group-form.html
 release: australia
 topic_type: reference
-last_updated: "2026-05-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Task templates and Task template groups, Configuring plan template, Setup for a BCP, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---

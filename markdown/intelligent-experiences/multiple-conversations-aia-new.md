@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/multiple-conversations-aia-new.html
 release: australia
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Configure AI Agent Studio, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Configure AI Agent Studio, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Multiple conversations in Now Assist AI agents
@@ -22,7 +22,7 @@ Once configured, live agents can interact with multiple AI agent conversations t
 
 ## Enabling multiple conversations
 
-You can enable multiple conversations on a ServiceNow instance in the Messaging Channels \[sys\_cs\_channel.list\] table by setting the value of the **Supports Multiple Conversations** field on the ServiceNow Otto panel record to **true**. If you don’t see this field, make sure you're in the Global scope and are using the **Default view**. If you still don't see the filed, you may have to add the filed to the table. By saving the record and refreshing the instance, you can see the multiple active conversations features in the ServiceNow Otto panel.
+You can enable multiple conversations on a ServiceNow instance in the Messaging Channels \[sys\_cs\_channel.list\] table by setting the value of the **Supports Multiple Conversations** field on the ServiceNow Otto panel record to **true**. If you don't see this field, make sure you're in the Global scope and are using the **Default view**. If you still don't see the field, you may have to add it to the table. By saving the record and refreshing the instance, you can see the multiple active conversations features in the ServiceNow Otto panel.
 
 ## Title for the conversation
 

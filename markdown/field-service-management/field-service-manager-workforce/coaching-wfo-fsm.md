@@ -7,7 +7,7 @@ release: australia
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workforce Optimization, Managing workforce, Use, Field Service Management]
 ---
@@ -21,7 +21,7 @@ By using Coaching in Workforce Optimization for Field Service, you can assess yo
 With Coaching, you can do the following:
 
 -   Recommend training for your agents to address skill gaps.
--   Use the coaching opportunities that are available by default to coach your agents. You can also create a coaching opportunity using the Coaching application specific to your agent's needs. For more information, see [Workforce Optimization for Field Service components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/components-wfo-fsm.md) and [Define trigger conditions for a coaching opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/cf-create-coaching-opportunity.md)
+-   Use the coaching opportunities that are available by default to coach your agents. You can also create a coaching opportunity using the Coaching application specific to your agent's needs.
 -   Use assessments and surveys to apply consistent, measurable scores across teams.
 -   Use Predictive Intelligence to recommend skills for your agents and provide training to address those skill gaps.
 

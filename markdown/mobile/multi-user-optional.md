@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/multi-user-optional.html
 release: australia
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Multiple users on a shared device, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [App-level configuration, Multiple users on a shared device, Mobile instances, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Optional settings for multi-user configuration

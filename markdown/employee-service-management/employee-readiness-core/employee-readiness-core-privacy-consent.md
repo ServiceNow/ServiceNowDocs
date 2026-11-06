@@ -7,7 +7,7 @@ release: australia
 product: Employee Readiness Core
 classification: employee-readiness-core
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Employee Readiness Core, Safe Workplace, Health and Safety, Employee Service Management]
 ---

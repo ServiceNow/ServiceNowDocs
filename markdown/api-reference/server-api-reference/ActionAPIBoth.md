@@ -7,7 +7,7 @@ release: australia
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
@@ -175,7 +175,7 @@ For use cases:
 |----|-----------|
 |void| |
 
-The following example shows how to redirect a user to a URL from a UI action using the [current](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_ScriptableServiceCatalogVariables.md) variable.
+The following example shows how to redirect a user to a URL from a UI action using the [current](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ScriptableServiceCatalogVariables.md) variable.
 
 ```
 var fixchg = new GlideRecord("change_request");
@@ -242,7 +242,7 @@ Sets the return URI for this transaction after a UI action is complete. You can 
 |----|-----------|
 |void| |
 
-The following example enables the user to select the UI action to create a change record using information from the problem record and the change template. After the change, the user returns to [current](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_ScriptableServiceCatalogVariables.md) view. For more information, see [Scripted templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_ScriptedTemplates.md). For more use cases, see [Task relationships with UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_UIActions.md).
+The following example enables the user to select the UI action to create a change record using information from the problem record and the change template. After the change, the user returns to [current](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ScriptableServiceCatalogVariables.md) view. For more information, see [Scripted templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_ScriptedTemplates.md). For more use cases, see [Task relationships with UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_UIActions.md).
 
 ```
 var change = new GlideRecord("change_request");

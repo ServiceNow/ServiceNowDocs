@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/servicenow-store.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [get to the app store, store, app store, application store, app store user documentation, access the ServiceNow Store, servicenow app store, spoke store, integration store]
 breadcrumb: [Administering applications, Get started, Administer the ServiceNow AI Platform]

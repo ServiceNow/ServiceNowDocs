@@ -1,28 +1,26 @@
 ---
 title: User roles and personas in ITSM Mobile Agent
-description: Learn about the various user roles and persona used to log in to ITSM Mobile Agent.
+description: User roles determine which ITSM Mobile Agent features IT agents can access, such as major incidents, hardware asset management, on-call scheduling, and shift planning.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-mobile-agent/user-roles-and-persona.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring ITSM Mobile Agent, ITSM Mobile Agent, IT Service Management]
 ---
 
 # User roles and personas in ITSM Mobile Agent
 
-Learn about the various user roles and persona used to log in to ITSM Mobile Agent.
+User roles determine which ITSM Mobile Agent features IT agents can access, such as major incidents, hardware asset management, on-call scheduling, and shift planning.
 
-ITSM Mobile Agent supports the following user persona.
+ITSM Mobile Agent primarily supports the IT agent persona \(itil role\)
 
-## itil role
+The IT agent is the primary user of the ITSM Mobile Agent application. IT agents or technicians responsible for handling and resolving IT incidents and service requests have the itil role assigned. They have access to features such as incident management, asset management, knowledge base, ticket management, and on-call schedules. They can create, update, and resolve tickets, view their schedules and shift details, and create time-off requests.
 
-The IT agent is the primary user of the ITSM Mobile Agent application. IT agents or technicians responsible for handling and resolving IT incidents and service requests have the itil role assigned. They have access to features such as incident management, asset management, knowledge base, ticket management, and On-call schedules. They can create, update, and resolve tickets, view their schedules and shift details, and create time off requests.
-
-An itil user might also have more than one role assigned to them. For example:
+An itil user might also have more than one role assigned to them, for example:
 
 -   sn\_incident\_write
 -   sn\_change\_write
@@ -33,7 +31,7 @@ Apart from the itil role, users might have the following additional roles, based
 |Feature|User role|
 |-------|---------|
 |Major incidents|major\_incident\_manager|
-|Hardware asset management|approver\_user:|
+|Hardware asset management|approver\_user|
 |On-call Scheduling|rota\_manager|
 |Shift Planning|sn\_shift\_planning.admin|
 

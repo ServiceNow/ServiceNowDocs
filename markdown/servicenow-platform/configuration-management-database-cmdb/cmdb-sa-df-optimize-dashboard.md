@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-06-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [manage Data Foundations advisor scope, Set principal classes dialog box, add or remove principal classes, out-of-sync principal classes]
 breadcrumb: [Advisor setup, Use Data Foundations advisor, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
@@ -21,7 +21,7 @@ The Data Foundations advisor scope defines which principal classes CMDB success 
 
 For guidance on choosing the right classes, see the [Guidance on designating principal classes in the CMDB \[KB2707240\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB2707240) article in the Now Support Knowledge Base.
 
-**Note:** Principal classes that are currently in use by CMDB success advisor for HAM can't be edited here. To edit those classes in Data Foundations, remove them from the HAM advisor first. See [Manage HAM advisor scope in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cmdb-sa-ham-optimize-dashboard.md).
+**Note:** Principal classes that are currently in use by CMDB success advisor for HAM can't be edited here. To edit those classes in Data Foundations, remove them from the HAM advisor first. See .
 
 ## Roles required
 

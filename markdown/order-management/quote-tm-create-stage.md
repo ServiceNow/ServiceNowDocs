@@ -90,5 +90,3 @@ When creating a stage, you assign it a variable name that serves as a unique ide
     The stage is saved with its rule groupings, entry criteria, and configured stage behaviors. The stage is available in the Stages list and can be associated with a blueprint layout.
 
 
-**Parent Topic:**[Quote transaction stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-stages.md)
-

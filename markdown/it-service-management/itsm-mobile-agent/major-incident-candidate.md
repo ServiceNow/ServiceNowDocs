@@ -7,9 +7,9 @@ release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Major incident candidates, Managing major incidents using Major Incident applet, ITSM Mobile Agent, IT Service Management]
+breadcrumb: [Major incident candidates, Managing major incidents using the Major Incident applet, ITSM Mobile Agent, IT Service Management]
 ---
 
 # Review and work on a major incident candidate
@@ -18,7 +18,7 @@ View a list of major incident candidates and add comments to the incidents propo
 
 ## Before you begin
 
-Role required: major incident manager
+Role required: major\_incident manager
 
 ## Procedure
 
@@ -26,15 +26,15 @@ Role required: major incident manager
 
     The **Major incident candidates** screen opens with a list of major incident candidates.
 
-2.  If you want to reduce the number of records on the screen, see [Filter records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-mobile-agent/filter-records-agent-mobile.md) to search for records that match specific search criteria.
+2.  To reduce the number of records on the screen, see [Filter records in ITSM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-mobile-agent/filter-records-agent-mobile.md) to search for records that match specific search criteria.
 
 3.  On the **Major incident candidates** screen, swipe left on an incident to view the set of quick actions.
 
     1.  Add any additional comments or work notes about the incident in this field.
 
-    2.  Tap **Reject** to mention the reasons for rejection in the work notes and tap the send icon \[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send icon.\) to process the rejection.
+    2.  Tap **Reject**, enter the reasons for rejection in the work notes, and tap **Submit**.
 
-    3.  Tap **Promote** to mention a reason to promote the incident to a major incident, describe the business impact, and tap the send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: send icon.\).
+    3.  Tap **Promote**, enter a reason for promoting the incident to a major incident, describe the business impact, and tap **Submit**.
 
 4.  On the **Major incident candidates** screen, tap a record in the list to open it.
 
@@ -46,7 +46,7 @@ Role required: major incident manager
     -   Assign to someone: Assign the major incident to someone in an appropriate assignment group.
     -   Resolve: Add a resolution code and resolution notes and tap **Submit** to resolve the incident.
     -   Add comments: Add any additional comments or work notes for the major incident and tap **Submit** to add these comments to the record.
-6.  On the **Major incident candidates** screen, as shown in the following figure, choose one of the actions in the table as appropriate.
+6.  On the **Major incident candidates** screen, choose one of the actions in the table as appropriate.
 
 <table id="table_tlj_dk5_gmb"><thead><tr><th align="left">
 
@@ -70,13 +70,13 @@ ACTIVITY tab
 
 </td><td>
 
-View the activity on the incident like field changes or assignment changes. Tap the add icon \(\[Omitted image "add\_icon.png"\] Alt text: Add icon.\) to perform any of the following activities on the incident. 1.  **Record Video**: Record a video to be attached to the incident.
+View the activity on the incident, such as field changes or assignment changes. Tap the add icon \(\[Omitted image "add\_icon.png"\] Alt text: Add icon.\) to perform any of the following activities on the incident. 1.  **Record Video**: Record a video to be attached to the incident.
 2.  **Open Gallery**: Open your photo gallery to attach an existing image or a video to the incident.
-3.  **Take Photo**: Take a picture and attach it to the incident
+3.  **Take Photo**: Take a picture and attach it to the incident.
 4.  **Attach File**: Attach a file from another application to the incident.
 5.  **Add Additional Comments**: Add any additional comments to the incident.
 
-**Note:** The comments can be made visible to the customer if you enable them using the toggle bar on the **Additional Comments** field.
+**Note:** The comments can be made visible to the customer if you enable them using the toggle switch on the **Additional Comments** field.
 
 6.  **Add Work Notes**: Add your work notes on the incident.
 
@@ -87,7 +87,7 @@ RELATED LIST tab
 
 </td><td>
 
-View the related lists of the major incident, such as, child incidents, impacted services, outages, and affected CIs. Tap on the arrow to view more details of these related items.
+View the related lists of the major incident, such as child incidents, impacted services, outages, and affected CIs. Tap the arrow to view more details of these related items.
 
 </td></tr></tbody>
 </table>

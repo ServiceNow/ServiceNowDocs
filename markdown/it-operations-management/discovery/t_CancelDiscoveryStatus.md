@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Discovery status, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ You can manually cancel a discovery while it is in progress from the Discovery S
 
 ## Before you begin
 
-Role required: discovery\_admin
+Role required: discovery\_admin or discovery\_operator
 
 ## About this task
 

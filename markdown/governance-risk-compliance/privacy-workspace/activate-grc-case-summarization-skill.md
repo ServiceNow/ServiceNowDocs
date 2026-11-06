@@ -7,7 +7,7 @@ release: australia
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Case summarization for privacy cases, ServiceNow Otto for Privacy Management, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -47,7 +47,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin and sn\_nowassist\_admin.user
 
 ## What to do next
 
-You can edit the skill configurations from the AI Admin Hub console after activation. For instructions, refer to .
+You can edit the skill configurations from the AI Admin Hub console after activation. For instructions, refer to [Customize a ServiceNow Otto for Integrated Risk Management \(IRM\) skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/customize-a-skill.md).
 
 **Related topics**  
 

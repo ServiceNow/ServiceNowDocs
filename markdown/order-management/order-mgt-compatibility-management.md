@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/order-mgt-compatibility-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-10-07"
+reading_time_minutes: 2
 breadcrumb: [Order management, Configure, Sales Customer Relationship Management]
 ---
 
@@ -23,7 +23,18 @@ The ServiceNow AI Platform provides two types of relationships that you can use 
 
 While you're creating a compatibility rule, you can establish the horizontal relationship either by defining the specifications or by defining the details for the specification characteristics. You can also define the maximum and minimum quantity of the specifications to support and fulfill your customer orders as per the defined decomposition rules.
 
-Before you can capture a new customer order that has a horizontal relationship, you must configure the compatibility rules by defining the source and target specifications.
+Before you can capture a new customer order that has a horizontal relationship, you must configure the compatibility rules by defining the source and target specifications. To learn more, see:
+
+-   [Create a compatibility rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-compatibility-rules.md)
+-   [Define the source specifications in the compatibility rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-define-source-specifications.md)
+-   [Create compatible records in compatibility rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-create-compatibles.md)
+
+-   **[Create a compatibility rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-compatibility-rules.md)**  
+Create a compatibility rule in the product catalog to define the horizontal relationships between your product, service, and resource specifications.
+-   **[Define the source specifications in the compatibility rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-define-source-specifications.md)**  
+Define a source specification in a compatibility rule so that you can create a horizontal relationship in your product catalog.
+-   **[Create compatible records in compatibility rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-create-compatibles.md)**  
+Create a compatible record in a compatibility rule so that you can define a target specification to establish the horizontal relationship with.
 
 **Parent Topic:**[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-configuring.md)
 

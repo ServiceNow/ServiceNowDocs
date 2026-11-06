@@ -7,9 +7,9 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configuring Employee Relations, Employee Relations, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Employee Relations, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Activate Employee Relations
@@ -196,8 +196,6 @@ Allegation Subtype\[sn\_hr\_er\_allegation\_subtype\]
 
 Metadata table that provides 59 records to the base system. Allegation subtypes further define an allegation. For example:-   Allegation type = Discrimination
 -   Allegation subtypes: Age, disability, Race, and so on.
-
-**Note:** This table is installed only with the ER plugin.
 
 </td></tr><tr><td>
 

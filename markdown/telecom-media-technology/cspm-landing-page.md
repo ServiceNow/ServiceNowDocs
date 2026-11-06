@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/cspm-landing-page.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -31,6 +31,14 @@ Efficiently identify and resolve service problems experienced by the customers w
 </td><td>
 
 [Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about domain separation and components installed with CSPM.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/cspm-reference.md)
+
+</td></tr><tr><td>
+
+[Automate\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Use generative AI skills and agentic workflows to automate service problem cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/ai-cspm-landing.md)
+
+</td><td>
+
+ 
 
 </td></tr></tbody>
 </table>## Additional resources

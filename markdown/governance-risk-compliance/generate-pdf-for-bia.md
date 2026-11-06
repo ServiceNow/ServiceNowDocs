@@ -1,18 +1,18 @@
 ---
 title: Generate BIA reports in PDF or Microsoft Word formats
-description: Generate a PDF or Microsoft Word copy of a business impact analysis in the BCM Configurable Workspace and save it for future reference.
+description: Generate a PDF or Microsoft Word copy of a business impact analysis in the BCM Configurable Workspace and save it for a future reference.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/generate-pdf-for-bia.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Structured workflows for BIAs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Generate BIA reports in PDF or Microsoft Word formats
 
-Generate a PDF or Microsoft Word copy of a business impact analysis in the BCM Configurable Workspace and save it for future reference.
+Generate a PDF or Microsoft Word copy of a business impact analysis in the BCM Configurable Workspace and save it for a future reference.
 
 ## Before you begin
 
@@ -33,7 +33,7 @@ Beginning with the Xanadu release, the content in PDFs of Business Impact Analys
 
 1.  Navigate to **Workspaces** &gt; **Business Continuity Workspace**.
 
-2.  In the List view, navigate to **Business Impact Analysis** and select any business impact analysis record that is in the **Review** or next state.
+2.  In the List view, navigate to **Business Impact Analysis** and select a business impact analysis record.
 
 3.  Select **Generate PDF** in the form.
 

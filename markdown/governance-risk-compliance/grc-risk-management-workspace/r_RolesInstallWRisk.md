@@ -7,7 +7,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Components installed with Risk Management, Reference, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -34,7 +34,7 @@ Risk Reader\[sn\_risk.reader\]
 
 </td><td>
 
-In addition to the inherited permissions, the risk reader has read-only access rights to the Risk application and modules. The risk reader can do the following in the GRC scope:-   Act on issues assigned to him.
+Along with the inherited permissions, the risk reader has read-only access rights to the Risk application and modules. The risk reader can do the following in the GRC scope:-   Act on issues assigned to them.
 -   Have read access to all Indicator templates.
 -   Can act on indicator tasks assigned to them.
 -   Have read-access to indicators.
@@ -44,7 +44,7 @@ The risk reader can do the following in the Risk Management application:
 
 -   Act on the Remediation tasks assigned to them.
 -   Have read-access to risks.
--   Take old risk assessment.
+-   Take classic risk assessment.
 -   Have read-access to risk statement and risk framework.
 -   Perform advanced risk assessment.
 -   Create risk events.
@@ -57,6 +57,8 @@ The risk reader can do the following in the Risk Management application:
 -   sn\_grc.reader
 -   survey\_reader
 -   sn\_rvw\_feedback.reader
+-   sn\_risk\_advanced.risk\_asmt\_project\_reader
+-   sn\_risk\_advanced.ara\_reader
 
 </td></tr><tr><td>
 
@@ -64,7 +66,7 @@ Risk User\[sn\_risk.user\]
 
 </td><td>
 
-Contains the reader and business user roles in sn\_grc scope, and the reader role in the Risk Management application and business user role in the sn\_grc scope. In addition to the inherited permissions, the risk user can view:-   entity types
+Contains the reader and business user roles in sn\_grc scope, and the reader role in the Risk Management application and business user role in the sn\_grc scope. Along with the inherited permissions, the risk user can view:-   entity types
 -   entities
 -   risks
 -   remediation tasks
@@ -72,7 +74,7 @@ Contains the reader and business user roles in sn\_grc scope, and the reader rol
 -   control objectives
 -   policy exceptions
 
-The risk user can also create risks. The risk user can be assigned risks and has read-only access to the Policy and Compliance Management application and modules. Risk user can do everything that the risk reader can do. The risk reader can do the following in the Risk Management application:
+The risk user can also create risks. The risk user can be assigned risks and has read-only access to the Policy and Compliance Management application and modules. Risk user can do everything that the risk reader can do. The risk user can do the following in the Risk Management application:
 
 -   Work on risk acceptance tasks and remediation tasks.
 -   Create risks.
@@ -88,6 +90,10 @@ The risk user can also create risks. The risk user can be assigned risks and has
 -   survey\_reader
 -   sn\_grc.business\_user
 -   sn\_risk\_advanced.ara\_creator
+-   sn\_risk\_advanced.risk\_asmt\_project\_user
+-   sn\_risk\_advanced.ara\_approver
+-   sn\_risk\_advanced.ara\_assessor
+-   sn\_risk\_advanced.quantitative\_risk\_appetite\_reader
 
 </td></tr><tr><td>
 
@@ -95,7 +101,7 @@ Risk Manager\[sn\_risk.manager\]
 
 </td><td>
 
-Contains the reader, user, and manager roles in sn\_grc scope, and the reader and user roles in the Risk Management application. In addition to the inherited permissions, the risk manager can do the following in the GRC scope-   Create issues and issue ratings.
+Contains the reader, user, and manager roles in sn\_grc scope, and the reader and user roles in the Risk Management application. Along with the inherited permissions, the risk manager can do the following in the GRC scope-   Create issues and issue ratings.
 -   Create entity, entity types, and entity classes and class rules.
 -   Create content references.
 -   Create indicators and indicator templates.
@@ -123,7 +129,7 @@ Risk Admin\[sn\_risk.admin\]
 
 </td><td>
 
-Contains the reader, user, manager, and admin roles in sn\_grc scopes, and the reader, user, and manager roles in the Risk Management application. In addition to the inherited permissions, in the GRC scope, the risk admin can create an entity tier. In the Risk Management application, the risk administrator can:-   Delete risk frameworks.
+Contains the reader, user, manager, and admin roles in sn\_grc scopes, and the reader, user, and manager roles in the Risk Management application. Along with the inherited permissions, in the GRC scope, the risk admin can create an entity tier. In the Risk Management application, the risk administrator can:-   Delete risk frameworks.
 -   Delete entity, tables, indicator, risks, issues, tasks.
 -   Create risk statements and risks.
 -   Modify admin properties.
@@ -181,9 +187,16 @@ Users with this role can perform the following tasks:-   Take risk assessment.
     -   Elevate enterprise risks.
     -   Initiate any object assessment.
 
+Permissions for advanced risk assessment, such as taking and approving assessments, come from the sn\_risk\_advanced.ara\_assessor and sn\_risk\_advanced.ara\_approver roles. These roles aren't contained by this role, so assign them separately.
+
 </td><td>
 
-None
+-   canvas\_user
+-   sn\_grc.user\_hierarchy\_reader
+-   sn\_grc\_workspace.task\_reader
+-   sn\_grc\_workspace.user
+-   sn\_smart\_asmt.actor
+-   workspace\_user
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Components installed with Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/r_InstallWRisk.md)

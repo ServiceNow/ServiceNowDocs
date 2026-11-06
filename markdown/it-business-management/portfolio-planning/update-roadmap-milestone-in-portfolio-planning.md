@@ -7,7 +7,7 @@ release: australia
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace, roadmap]
 breadcrumb: [Add milestones for roadmap, Plan roadmaps, Portfolio Planning, Strategic Portfolio Management]
@@ -27,15 +27,15 @@ Role required: sn\_align\_core.apw\_user
 
 1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d69477e99">
+<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d69880e99">
 
 Roadmap type
 
-</th><th align="left" id="d69477e102">
+</th><th align="left" id="d69880e102">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d69477e108">
+</th></tr></thead><tbody><tr><td id="d69880e108">
 
 **Portfolio plan roadmap**
 
@@ -45,7 +45,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d69477e129">
+</td></tr><tr><td id="d69880e129">
 
 **Free-form roadmap**
 

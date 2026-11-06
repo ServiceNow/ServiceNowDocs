@@ -1,6 +1,6 @@
 ---
 title: Dashboards
-description: Access Event Management dashboards to monitor system performance, alert trends, and operational metrics for your IT operations.
+description: Access AIOps dashboards in Service Operations Workspace to monitor the health, performance, and availability of your IT resources in real-time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/otto-aiops-dashboards.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Configure Event Management using ServiceNow Otto for Setup, Configu
 
 # Dashboards
 
-Access Event Management dashboards to monitor system performance, alert trends, and operational metrics for your IT operations.
+Access AIOps dashboards in Service Operations Workspace to monitor the health, performance, and availability of your IT resources in real-time.
 
 To get to the AIOps dashboards in Service Operation Workspace page, navigate to **Configuration Summary** &gt; **Event Management** &gt; **Report on outcomes** &gt; **Dashboards**.
 

@@ -1,18 +1,18 @@
 ---
 title: Set up the phases
-description: Set up phases in the Business Continuity Management application to map them to recovery and event tasks. Once phases are set up, BCM users tag recovery and event tasks with these phases and execute them in order.
+description: Set up the phases in the Business Continuity Management application to map them to recovery and event tasks effectively. Users can then tag and execute these phases in the set order.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/set-up-phases.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [General administration setup for BCM, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Set up the phases
 
-Set up phases in the Business Continuity Management application to map them to recovery and event tasks. Once phases are set up, BCM users tag recovery and event tasks with these phases and execute them in order.
+Set up the phases in the Business Continuity Management application to map them to recovery and event tasks effectively. Users can then tag and execute these phases in the set order.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ For information on setting up the phases, see [Set up the phases](https://raw.gi
 
 For information and steps on mapping recovery tasks to phases, see [Mapping recovery tasks to phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/mapping-recovery-tasks-to-phases.md) and [Add recovery tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/add-a-recovery-task.md).
 
-For information on mapping event tasks to phases, see [Mapping event tasks to phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/mapping-event-tasks-to-phases.md).
+For information on mapping event tasks to phases, see [Mapping event tasks to phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/mapping-event-tasks-to-phases.md) and [Mapping event tasks to phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/mapping-event-tasks-to-phases.md).
 
 ## Procedure
 
@@ -68,4 +68,9 @@ For information on mapping event tasks to phases, see [Mapping event tasks to ph
 
     The configured phase is shown in the list view of the Phases module. It can be tagged to the recovery and event tasks, allowing for more effective tracking and management of these tasks.
 
+
+-   **[Phase form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/phase-form.md)**  
+To configure phases as part of recovery activities, use the Phase form to set up phases for recovery and event tasks in the BCM Configurable Workspace. You can then associate these phases with recovery and event tasks, enabling you to track their progression effectively.
+
+**Parent Topic:**[General administration setup for BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/set-up-bcm-bcmadmin-tasks.md)
 

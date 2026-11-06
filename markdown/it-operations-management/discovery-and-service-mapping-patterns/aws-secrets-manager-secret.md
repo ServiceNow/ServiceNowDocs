@@ -7,7 +7,7 @@ release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-04-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [AWS Secrets Manager Secret, AWS Secrets Manager Secret discovery, AWS patterns, Secrets Manager pattern]
 breadcrumb: [AWS discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]

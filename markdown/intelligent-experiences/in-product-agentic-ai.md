@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/in-product-agentic-ai.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-21"
+last_updated: "2026-10-29"
 reading_time_minutes: 4
-breadcrumb: [Agentic workflows, AI assets, Enable AI experiences]
+breadcrumb: [Agentic workflows, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # In-product experience for agentic workflows
@@ -23,7 +23,7 @@ To create UI actions for your agentic workflows, open the agentic workflow in AI
 If the AI Workflows panel is not visible, check the following:
 
 -   Ensure that the property **com.glide.agentic\_processes\_view.enabled** is set to `true`.
--   Check whether the Workspace user preferences have **Show the sidebar** toggled on. If this setting is not enabled, the AI Workflows panel will not display. To access this setting, select the profile icon at the top right of the screen, then select **Preferences**. The setting is located on the Workspace tab.
+-   Check whether the Workspace user preferences have **Show the sidebar** toggled on. If this setting is not enabled, the AI Workflows panel will not display. To access this setting, select the profile icon in the header while on a Workspace page, then select **Preferences**. The setting is located on the Workspace tab.
 
 \[Omitted image "inproduct-ai.png"\] Alt text: Service Operations Workspace with the AI Workflows open
 
@@ -33,7 +33,7 @@ The list of agentic workflow cards can be filtered by execution state, and you c
 
 **Note:** The **Ready for review** state differs from the **Completed** state in that the former indicates the workflow has generated some output. Agentic workflows without an output are marked only as **Completed**.
 
-The **Supervised by** field identifies the user responsible for answering follow-up questions. Only the specified user can provide answers to progress the agentic workflow, though others can view the questions asked.
+The **Owner** identifies the user responsible for answering follow-up questions. Only the specified user can provide answers to progress the agentic workflow, though others can view the questions asked.
 
 \[Omitted image "inproduct-ai-filter.png"\] Alt text: Filter dropdown for agentic workflow executions
 

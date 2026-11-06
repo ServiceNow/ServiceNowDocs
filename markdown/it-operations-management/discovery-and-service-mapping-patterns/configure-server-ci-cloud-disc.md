@@ -7,7 +7,7 @@ release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2026-05-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [cloud discovery, Server CI, Windows Server, Linux Server, system property, pattern extension]
 breadcrumb: [Server CI population during cloud discovery, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]

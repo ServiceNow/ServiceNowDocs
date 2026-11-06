@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Applying CSDM guidelines to Change Management, Configure, Change Management, IT Service Management]
 ---
@@ -26,15 +26,15 @@ Applying the CSDM framework provides value to Change Management in the following
 
 \[Omitted image "csdm-v5-tables-use-case-change-mgmt.png"\] Alt text: Data elements available for use by Change Management.
 
-1.  Subscription: Related lists on service offerings that identify who has access to the offering and thus may be impacted in an outage. An incident or change can identify impact using the subscribed by tables. The related lists are as follows:
+1.  Subscription: Related lists on service offerings that identify who has access to the offering and might be affected by an outage. An incident or change can identify impact using the subscribed by tables. The related lists are as follows:
     -   Service Subscriptions by Company \[service\_subscribe\_company\]
     -   Service Subscriptions by Department \[service\_subscribe\_department\]
     -   Service Subscriptions by Group \[service\_subscribe\_sys\_user\_grp\]
     -   Service Subscriptions by Location \[service\_subscribe\_location\]
     -   Service Subscriptions by User \[service\_subscribe\_sys\_user\]
 2.  Business service offering may be used to provide the business approver based on approval\_group and business\_criticality. A business service may have multiple offerings, each with a different criticality.
-3.  Technical service offering may be used to provide the technical approver approval\_group and technical assignment group on the attribute assignment\_group. May be used by change for routing of change and change tasks. May be synchronized onto the CI’s that the offerings manage thus reducing the manual overhead of maintaining manual data on thousands/millions of CI’s.
-4.  Service instance \(the table was formerly labeled application service\) may be used to provide prod and non-prod \(DEV, QA, UAT, etc.\) environments. Non-prod environments may be filtered out if desired. The legacy **used\_for** attribute maps to the **environment** attribute. You should use the **environment** attribute.
+3.  Technical service offering may be used to provide the technical approver approval\_group and technical assignment group on the attribute assignment\_group. May be used by change for routing of change and change tasks. May be synchronized onto the CIs that the offerings manage, which reduces the manual overhead of maintaining data on thousands or millions of CIs.
+4.  Service instance \(the table was formerly labeled application service\) may be used to provide prod and non-prod \(DEV, QA, UAT, and so on\) environments. Non-prod environments may be filtered out if desired. The legacy **used\_for** attribute maps to the **environment** attribute. You should use the **environment** attribute.
 
     **Note:** Some technology service offerings \(the table was formerly labeled service offering\) may identify the **environment** of the offering as well.
 
@@ -45,7 +45,7 @@ The CSDM framework provides context for the changes. The context includes the CI
 
 Use the Change Request form to see the impact of the change. Complete the following steps:
 
-1.  Populate the Configuration Item attribute \[configuration\_item\] with the target CI for the change activity. You can then use this CI to identify details for change routing. For example, you can use the CI data, such as “Assignment Group” or "Approval Group," and provide information about the service impact by using dependency relationships.
+1.  Populate the Configuration Item attribute \[configuration\_item\] with the target CI for the change activity. You can then use this CI to identify details for change routing. For example, you can use the CI data, such as **Assignment group** or **Approval group**, and provide information about the service impact by using dependency relationships.
 2.  Populate the Impacted Services related list \[task\_cmdb\_ci\_service\] with the services that are related to the populated CI. These may include services and service offerings.
 3.  \(Optional\) Use the Service and Service Offering attributes to identify the provider services responsible for managing the selected CIs.
 4.  \(Optional\) Use the Affected CI related list \[task\_ci\] to identify the CIs that may have caused the change. These CIs are in addition to the CIs previously populated. The \[task\_ci\] table can be populated dynamically or manually.

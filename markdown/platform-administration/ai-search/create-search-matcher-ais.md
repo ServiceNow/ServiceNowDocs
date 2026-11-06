@@ -62,7 +62,7 @@ To learn how AI Search evaluates global search queries for exact matches, see [U
 
     1.  Select **All**.
 
-    2.  In the **Filter** field, enter `m2m_search_context_config_custom_matcher.list`.
+    2.  In the navigation field, enter `m2m_search_context_config_custom_matcher.list`.
 
     3.  Press Enter.
 

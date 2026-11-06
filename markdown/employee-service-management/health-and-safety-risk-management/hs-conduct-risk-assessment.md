@@ -7,7 +7,7 @@ release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-06"
 reading_time_minutes: 2
 breadcrumb: [Safety risk assessment, Use, Health and Safety Risk Management, Health and Safety, Employee Service Management]
 ---
@@ -19,6 +19,10 @@ Conduct a safety risk assessment to identify and manage potential hazards and ri
 ## Before you begin
 
 Role required: sn\_hs\_rm.risk\_assessment\_manager or sn\_hs\_rm.risk\_assessment\_writer
+
+## About this task
+
+If you need to later associate this risk assessment with a record, for example an Audit, confirm the appropriate users are assigned to this record.
 
 ## Procedure
 

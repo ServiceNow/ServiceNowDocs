@@ -7,7 +7,7 @@ release: australia
 product: Localization Workspace
 classification: localization-workspace
 topic_type: concept
-last_updated: "2026-05-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Localization Workspace, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -72,6 +72,7 @@ After the initial setup, admins can make adjustments to configurations by using 
     \[Omitted image "lw-guidedtours-langs-helpcenter-a.png"\] Alt text: Guided Tours for setting up language providers and groups are accessed from the Help Center icon on the Home screen of Localization Workspace. Availability depends on role.
 
 6.  Optionally provide glossaries in [Language Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-workspace/lw-language-asset-management.md).
+7.  Optionally activate the Generate Glossary skill if you intend to generate glossaries using AI. From version 4.0. See [Globalization Terminology Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/localization-workspace/lw-terminology-agent.md).
 
 \[Omitted image "configuring-localization-workspace1.png"\] Alt text: Language setup in Localization Workspace, opened to display the Language Providers list.
 

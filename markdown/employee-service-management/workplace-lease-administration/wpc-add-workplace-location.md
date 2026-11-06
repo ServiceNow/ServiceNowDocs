@@ -7,7 +7,7 @@ release: australia
 product: Workplace Lease Administration
 classification: workplace-lease-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create workplace contracts in Workplace Central, Working with Workplace Lease Administration from the Workplace Central, Use, Workplace Lease Administration, Workplace Service Delivery, Employee Service Management]
 ---
@@ -30,15 +30,15 @@ Role required: sn\_wsd\_la.workplace\_central\_user, sn\_wsd\_la.manager or sn\_
 
 4.  In the **Contract locations** related list, either select an existing location or add a new location.
 
-<table id="choicetable_ctc_x4q_gwb"><thead><tr><th align="left" id="d667421e88">
+<table id="choicetable_ctc_x4q_gwb"><thead><tr><th align="left" id="d664511e88">
 
 Location source
 
-</th><th align="left" id="d667421e91">
+</th><th align="left" id="d664511e91">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d667421e97">
+</th></tr></thead><tbody><tr><td id="d664511e97">
 
 **Existing location**
 
@@ -49,7 +49,7 @@ Action
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d667421e124">
+</td></tr><tr><td id="d664511e124">
 
 **New location**
 

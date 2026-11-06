@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/public-sector-resolving-info-case-playbooks.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Using Information Request Administration, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 ---
@@ -16,7 +16,7 @@ You can use playbooks to create cases and to complete the tasks and activities t
 
 **Note:** Verify that the Information Request Administration application, which is separate from the Public Sector Digital Services Core application, has been installed and configured. For instructions, see [Install and configure the Information Request Administration application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/configuring-information-request-playbook.md).
 
-By default, the following stages are available to you as an information request case agent in the Information Request Administration in the CRM Workspace.
+By default, the following stages are available to you as an information request case agent in the Information Request Administration in the Public Sector Workspace.
 
 -   Intake
 -   Review
@@ -43,7 +43,7 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.relationship\_agent, sn\_gsm.
 
 ### Procedure
 
-1.  In the CRM Workspace, navigate to **Lists** &gt; **Information Requests** &gt; **All**.
+1.  In the Public Sector Workspace, navigate to **Lists** &gt; **Information Requests** &gt; **All**.
 
 2.  Select **New**.
 

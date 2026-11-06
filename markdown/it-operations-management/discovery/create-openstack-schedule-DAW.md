@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-07-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
@@ -53,15 +53,15 @@ Role required: discovery\_admin
 
 8.  Select a cloud account.
 
-<table id="choicetable_bbl_3zw_zgc"><thead><tr><th align="left" id="d405828e319">
+<table id="choicetable_bbl_3zw_zgc"><thead><tr><th align="left" id="d434000e319">
 
 Option
 
-</th><th align="left" id="d405828e322">
+</th><th align="left" id="d434000e322">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d405828e328">
+</th></tr></thead><tbody><tr><td id="d434000e328">
 
 **Existing cloud account**
 
@@ -69,7 +69,7 @@ Description
 
 Select an existing cloud account on your instance. Once an account is selected, the **Account name**, **OpenStack Account ID**, and **Cloud URL** fields auto-populate.
 
-</td></tr><tr><td id="d405828e346">
+</td></tr><tr><td id="d434000e346">
 
 **New cloud account**
 

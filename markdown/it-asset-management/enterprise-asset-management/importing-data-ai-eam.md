@@ -46,5 +46,5 @@ AI-assisted import can help provide the following benefits:
 -   **[Import enterprise models and assets using AI assistance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/import-data-ai-eam.md)**  
 Import enterprise models and assets with minimal human intervention by using AI-assisted import.
 
-**Parent Topic:**[Bulk import of your enterprise models and assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/overview-bulk-import-eam.md)
+**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/asset-management-landing-page.md)
 

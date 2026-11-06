@@ -7,7 +7,7 @@ release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Scheduling and dispatching, Use, Field Service Management]
 ---
@@ -44,15 +44,15 @@ Role required: wm\_dispatcher, wm\_initiator\_qualifier\_dispatcher, or wm\_admi
 
 3.  Assign task to an agent or a crew.
 
-<table id="choicetable_rqt_352_vtb"><thead><tr><th align="left" id="d96536e236">
+<table id="choicetable_rqt_352_vtb"><thead><tr><th align="left" id="d99197e236">
 
 Option
 
-</th><th align="left" id="d96536e239">
+</th><th align="left" id="d99197e239">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d96536e245">
+</th></tr></thead><tbody><tr><td id="d99197e245">
 
 **If Territory Planning is not enabled**
 
@@ -65,7 +65,7 @@ Description
 
 A warning message appears if the assigned task is outside the radius between the task location and the agent's location.
 
-</td></tr><tr><td id="d96536e277">
+</td></tr><tr><td id="d99197e277">
 
 **If Territory Planning is enabled**
 

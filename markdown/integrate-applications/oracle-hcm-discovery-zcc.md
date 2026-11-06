@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/oracle-hcm-discovery-zcc.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Oracle HCM Discovery connector, REST connector, zero-copy connector, human capital management, runtime discovery, data fabric]
-breadcrumb: [Primary connectors, Zero Copy Connectors, Workflow Data Fabric]
+breadcrumb: [Primary connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
 
 # Oracle HCM \(Discovery\)

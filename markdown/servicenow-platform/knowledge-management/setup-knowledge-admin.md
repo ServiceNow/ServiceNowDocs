@@ -7,7 +7,7 @@ release: australia
 product: Knowledge Management
 classification: knowledge-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -50,7 +50,7 @@ Role required: admin.
 
 -   **Create custom Knowledge workflows**
 
-    If the default [knowledge workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/r_KnowledgeWorkflows.md) for publishing and retiring knowledge articles are not appropriate for your knowledge bases, create custom [workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/c_WorkflowOverview.md) for those knowledge bases.
+    If the default [knowledge workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/r_KnowledgeWorkflows.md) for publishing and retiring knowledge articles are not appropriate for your knowledge bases, create custom workflows for those knowledge bases.
 
 -   **Configure Knowledge properties**
 

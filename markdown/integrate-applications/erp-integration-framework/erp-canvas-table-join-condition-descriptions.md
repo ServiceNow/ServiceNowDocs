@@ -17,9 +17,9 @@ breadcrumb: [Field descriptions, Reference, Zero Copy Connector for ERP, Workflo
 
 The Table join condition form in Zero Copy Connector for ERP \(Enterprise Resource Planning\) enables you to create and edit join conditions for tables in an ERP model.
 
-Table joins link different tables through shared fields. Joins enable you to access data from multiple tables based on logical relationships between them. The relationship can be conditional, which you specify using join conditions. Use inner joins or outer joins. An inner join returns records that have matching values in both tables. Outer joins combine left and right join results to return all rows with matches or NULLS.
+Table joins link different tables through shared fields. Joins enable you to access data from multiple tables based on logical relationships between them. The relationship can be conditional, which you specify using join conditions. Use inner joins or outer joins. An inner join returns records that have matching values in both tables. Outer joins combine left and right join results to return all rows with matches or null values.
 
-Join fields defines the common attribute or key used to connect records in a child table with their corresponding parent records.
+Join fields define the common attribute or key used to connect records in a child table with their corresponding parent records.
 
 For process details, see [Add joins between ERP tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-add-join-data-model.md).
 

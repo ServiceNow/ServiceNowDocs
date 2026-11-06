@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/les-intro.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Platform Security]
 ---
@@ -34,7 +34,7 @@ Log Export Service \(LES\) lets you seamlessly export your instance system and a
 
 </td><td>
 
-[Reference \[Omitted image "bus-case-study.svg"\] Alt text:Learn about miscellaneous information about the app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/les-references.md)
+[Reference \[Omitted image "bus-case-study.svg"\] Alt text: Learn about miscellaneous information about the app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/les-references.md)
 
 </td><td>
 
@@ -48,9 +48,9 @@ Log Export Service \(LES\) lets you seamlessly export your instance system and a
 -   For cloning recommendations for LES, including tables to preserve and exclude, see [Tables to be preserved to keep the LES configuration](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2151384).
 
 -   **[Exploring Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/les-landing-page.md)**  
-The LES service provides a highly scalable and near real-time integration with your analytic tools that is easy to set up and maintain. If you're new to LES, read this overview section to learn what the tool can do.
+LES provides scalable, near real-time integration with analytic tools for security threat detection, performance optimization, and user experience monitoring. If you're new to LES, read this overview section to learn what the tool can do
 -   **[Administering Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/les-administer.md)**  
-Use LES to create log source configuration and multi-topics for each source type.
+Use LES to create log source configurations, manage multi-topics per source type, and run on-demand exports of existing logs.
 -   **[Configuring Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/les-configure.md)**  
 Use guided setup to step through the initial configuration of LES. Guided setup assists you with planning the roll-out of the product and performing the basic configuration to go live.
 -   **[Using Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/les-use.md)**  

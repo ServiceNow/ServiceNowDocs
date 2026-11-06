@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/querygen-properties.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Reference, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
@@ -50,26 +50,6 @@ The target number of group-by fields for extended analysis in AI Data Explorer. 
 -   Default value: 5
 -   Location: System Property \[sys\_properties\] table
 -   Learn more: [Extended analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/hidden-insights.md)
-
-</td></tr><tr><td>
-
-sn\_query\_gen.indicator.feature\_enabled
-
-</td><td>
-
-If false, Query Generation does not use indicator data. All calls to Query Generation return only table data.-   Type: Boolean \(true/false\)
--   Default value: true
--   Location: System Property \[sys\_properties\] table
-
-</td></tr><tr><td>
-
-sn\_query\_gen.indicator.search.enabled
-
-</td><td>
-
-Per-execution indicator search gate. If false, the indicator executor returns `INDICATOR_SEARCH_DISABLED`; combined-mode requests can fall back to table.-   Type: Boolean \(true/false\)
--   Default value: true
--   Location: System Property \[sys\_properties\] table
 
 </td></tr><tr><td>
 

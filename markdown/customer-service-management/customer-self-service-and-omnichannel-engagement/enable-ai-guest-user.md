@@ -7,9 +7,9 @@ release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Feature configuration, Engagement Messenger, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Feature configuration, Set up Engagement Messenger, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Enable AI Search in Engagement Messenger for unauthenticated users
@@ -39,5 +39,5 @@ As an admin, you must enable the EC AI Homepage Search, Typeahead Search, and AI
 
 ## What to do next
 
-Enable the Typeahead Search and AI Search Assist widgets. For information, see [Enable AI search in the Customer and Consumer Service Portals for unauthenticated users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/configure_search_csp_guestuser.md).
+Enable the Typeahead Search and AI Search Assist widgets. For information, see [Enable AI search in the Business and Consumer Portals for unauthenticated users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/configure_search_businessportal_guestuser.md).
 

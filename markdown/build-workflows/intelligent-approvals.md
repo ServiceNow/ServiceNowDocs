@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/intelligent-approvals.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Build workflows]
 ---
@@ -101,6 +101,6 @@ Some ServiceNow resources that can provide you with helpful information are:
     -   Learn more about specific known errors, along with workarounds if any, from [Known Error Portal](https://support.servicenow.com/kb?id=known_error_portal)
 -   **\[Omitted image "bus-video-play.svg"\] Alt text: Video**
 
-    Learn more about the value that you can add to your business with intelligent approval automation. Watch the product demonstration videos.
+    Learn more about the value that you can add to your business with intelligent approval automation. Watch the product demonstration video Create an Intelligent Approval.
 
 

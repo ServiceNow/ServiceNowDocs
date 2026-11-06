@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/agent-assistance-for-business-location-staff.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Add staff to business location, Using the Business Location Service Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Add staff to business organization, Use Business Organization Support Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Agent assistance for your business location staff

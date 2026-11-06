@@ -5,9 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/copy-aiw.html
 release: australia
 topic_type: task
-last_updated: "2026-08-11"
+last_updated: "2026-10-13"
 reading_time_minutes: 1
-breadcrumb: [Use in the legacy AI Agent Studio, Use, Autonomous Workforce, Enable AI experiences]
+keywords: [copy ai specialist, team ai specialist, new ai specialist, manage ai specialist, management ai specialist]
+breadcrumb: [Use in the legacy AI Agent Studio, Use, Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Create a copy of an AI specialist inthe legacy AI Agent Studio
@@ -28,7 +29,7 @@ You can't change the kinds of tasks an AI specialist has at the copy level, only
 
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
 
-2.  Select the AI specialist you want to preview.
+2.  Select the AI specialist you want to copy.
 
 3.  Select the **Management** tab in the AI specialist guided setup to configure the different access settings.
 
@@ -38,7 +39,7 @@ You can't change the kinds of tasks an AI specialist has at the copy level, only
 
     For example, you may want to change the name of the AI specialist or its department or description.
 
-    \[Omitted image "aiw-aias-copy-modal.png"\] Alt text: Modal form for adding a new copy of an AI specialist
+    \[Omitted image "aiw-aias-copy-modal.png"\] Alt text: Add a copy of this AI specialist dialog box with fields for name, title, department, user ID, and description
 
 6.  Assign the copy of the AI specialist to an assignment group.
 

@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Creating change approval policies, Use, Change Management, IT Service Management]
 ---
@@ -38,7 +38,7 @@ Role required: admin
 
     For example, when the change request is on-hold.
 
-7.  Click **Update**.
+7.  Select **Update**.
 
 
 **Parent Topic:**[Creating change approval policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/using-change-approval-policies-cf.md)

@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -95,7 +95,7 @@ Generate a playbook using AI from text prompt or image inputs. For example, you 
 -   **[Playbook generation from a knowledge base article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/playbook-generation-from-kb.md)**  
 Generate a playbook directly from an existing knowledge base article to using AI reduce manual effort when creating playbooks for documented processes.
 -   **[Playbook recommendations for placeholder activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/playbook-recommendations.md)**  
-Get AI-generated recommendations for placeholder activities. The system generates recommendations based on an activity’s name and description.
+Get AI-generated recommendations for placeholder activities. The system generates recommendations based on an activity's name and description.
 -   **[Preview an activity's runtime UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/preview-playbook-runtime-ui.md)**  
 See how an activity will appear to end users when the playbook runs. Use the preview to confirm the activity's appearance as you work, and adjust its configuration before you activate the playbook.
 -   **[Test a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/test-process.md)**  

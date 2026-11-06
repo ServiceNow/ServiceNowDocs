@@ -7,9 +7,9 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Advanced Portal Navigation, Setup Employee Center browse experience features, Configuring Employee Center, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Advanced Portal Navigation, Setup Employee Center browse experience features, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure advanced portal navigation
@@ -18,13 +18,13 @@ Advanced Portal Navigation \(APN\) helps you design and configure an intuitive n
 
 ## Before you begin
 
-Before you start, ensure you understand the useful information available in [EC Information architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-information-architecture.md).
+Before you start, verify you understand the useful information available in [EC Information architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-information-architecture.md).
 
-Role required: Admin and SP Admin
+Role required: admin and SP admin
 
 ## About this task
 
-Using the advanced portal navigation, you can enable single-click sync across all APN hierarchy levels, replacing level-by-level sync. You can design the primary navigation menu and configure the navigation setup as per employee needs and content priorities. Here is an overview of the navigation workflow:
+Using the advanced portal navigation, you can enable single-select sync across all APN hierarchy levels, replacing level-by-level sync. You can design the primary navigation menu and configure the navigation setup according to employee needs and content priorities. Here is an overview of the navigation workflow:
 
 \[Omitted image "apn-architecture-workflow.png"\] Alt text: APN sync hierarchy workflows
 
@@ -32,17 +32,17 @@ Using the advanced portal navigation, you can enable single-click sync across al
 
 1.  Navigate to **All** &gt; **Employee Center** &gt; **Advanced Portal Navigation**.
 
-2.  Click **Take a tour** to understand the APN process.
+2.  Select **Take a tour** to understand the APN process.
 
     Understand more about APN process and configuration from the explainer tour.
 
-3.  Click **New** to create a new record or view the list of the available APN record.
+3.  Select **New** to create a record or view the list of the available APN record.
 
 4.  Select **Active** to replace the current Employee Center with the new navigation menu.
 
     **Note:** Only one Advanced portal navigation record \[sn\_ex\_sp\_portal\_extensible\_navigation\] can be active per portal. When you have one active record, you must first deactivate the other one first.
 
-5.  Click **Submit** or **Save**.
+5.  Select **Submit** or **Save**.
 
     A pop-up appears with the following message.
 
@@ -53,21 +53,21 @@ Using the advanced portal navigation, you can enable single-click sync across al
 
 6.  On the **Start with current navigation menu**, select one of the following options.
 
-    -   **Skip**: When you click skip, the existing associated navigation menu items and topics are not fetched and you can start building your hierarchy afresh.
-    -   **Yes**: When you click yes, the existing associated navigation menu items, topics, and associated quick links are fetched instantly and you can refine the hierarchy.
+    -   **Skip**: When you select skip, the existing associated navigation menu items and topics aren't fetched and you can start building your hierarchy fresh.
+    -   **Yes**: When you select yes, the existing associated navigation menu items, topics, and associated quick links are fetched instantly and you can refine the hierarchy.
     The **Menu items** related list appears.
 
-    **Note:** An empty list appears when you click the skip option.
+    **Note:** An empty list appears when you select the skip option.
 
-7.  Use one of the options to create new or fetch the existing hierarchy.
+7.  Use one of the options to create or fetch the existing hierarchy.
 
-    1.  Click **New** to create or add from the available list.
+    1.  Select **New** to create or add from the available list.
 
-    2.  Click **Sync hierarchy** to fetch existing items.
+    2.  Select **Sync hierarchy** to fetch existing items.
 
-        Topics and menu items which are in the **Active** state are synced. Confirm sync popup appears with info on email notification.
+        Topics and menu items which are in the **Active** state are synced. Confirm sync pop-up appears with information on email notification.
 
-        **Note:** Quick links are not fetched. Add quick links manually.
+        **Note:** Quick links aren't fetched to sync for existing hierarchies. Add quick links manually for existing items.
 
     \[Omitted image "apn-menu-items-list.png"\] Alt text: How to activate Advanced Portal Navigation record and menu items
 

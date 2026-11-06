@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Service Operations Workspace - Scheduling, Workforce Optimization for ITSM in the Service Operations Workspace, Optimizing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -43,7 +43,7 @@ You can:
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Click the Schedule icon.
+2.  Select the Schedule icon.
 
     Access the schedule:
 
@@ -55,9 +55,9 @@ You can:
 
     You can create, edit, or delete events of custom event types that your system administrator has enabled for agent access.
 
-    1.  Click **New** and select the name of the custom event type.
+    1.  Select **New** and select the name of the custom event type.
     2.  In the custom event type form, fill in the fields as required.
-    3.  Click **Save**.
+    3.  Select **Save**.
     To edit the event, select the event, and then the edit icon \(\[Omitted image "edit-icon.png"\] Alt text: Edit icon\) to make the necessary changes and save the event. To delete it, select the delete icon.
 
 4.  Make a request.
@@ -80,7 +80,7 @@ Request a shift swap
 
 Create a shift swap or swap by selecting a shift.To create a shift swap:
 
-1.  Click **New** and select **Shift Swap**.
+1.  Select **New** and select **Shift Swap**.
 2.  Fill in the requestor details.
 
 Your name is automatically populated in the **Requestor** field.
@@ -91,14 +91,14 @@ Your name is automatically populated in the **Requestor** field.
     1.  In the **Agent** field, select the name of the agent.
     2.  In the **Date** field, select the date for which you want to swap the shift.
     3.  In the **Shift** field, select the shift to swap. If you have only one shift for the selected date, this field is auto-populated.
-4.  Click **Submit**.
+4.  Select **Submit**.
 To swap by selecting a shift:
 
 1.  Select a shift on the calendar and click the swap shift icon.
 2.  From the Shift menu for your shift, select the shift that you want to swap with another agent. This information is auto-populated when you open the request using the swap shift icon.
 3.  In the **Agent** field for the requested shift, select the agent that you want to swap with.
 4.  From the Shift menu for the requested shift, select the agent's shift that you want to swap with.
-5.  Click **Submit**.
+5.  Select **Submit**.
 
 
 </td></tr><tr><td>
@@ -109,10 +109,10 @@ Request time off for a work shift
 
 Create a new time-off request or select a work shift for which you want to take time off.To create a new time-off request:
 
-1.  Click **New** and select **Time Off**.
+1.  Select **New** and select **Time Off**.
 2.  In the **Start date** field, click the calendar icon and select the date to start taking time off.
 3.  In the **End date** field, click the calendar icon and select the date you want to the end time off.
-4.  Click **Save**.
+4.  Select **Save**.
 To create a request from a work shift:
 
 1.  Select the work shift in the calendar for which you want to take time off and click the Request Time-off icon \( \[Omitted image "time-off-calendar-icon.png"\] Alt text: Request time-off icon\).
@@ -121,7 +121,7 @@ The start date and time and the end date and time are automatically populated.
 
 2.  In the **Title** field, enter a name for the work shift.
 3.  In the Description field, enter a reason for the time-off.
-4.  Click **Save**.
+4.  Select **Save**.
 **Note:**
 
 -   To edit a work shift, select the shift span for which you want to edit the break time, select the edit icon \(\[Omitted image "edit-icon.png"\] Alt text: Edit icon\) in the work shift, edit the desired break times and click **Save**.
@@ -138,22 +138,22 @@ Create a new on-call time-off request or select an on-call shift for which you w
 
  To create a new request:
 
-1.  Click **New** and select **On Call Time Off**.
+1.  Select **New** and select **On Call Time Off**.
 2.  In the **Start date** field, click the calendar icon and select the date to start taking time off.
 3.  In the **End date** field, click the calendar icon and select the date you want to the end time off.
 4.  In the **Group** field, select the group in which the agent that you propose for cover belongs.
 5.  In the **Proposed Cover** field, select the name of the agent.
-6.  Click **Save**.
+6.  Select **Save**.
  To create a request from an on-call shift:
 
  1.  Select an on-call work shift in the calendar for which you want to take time off.
-2.  Click the Request Time-off icon \( \[Omitted image "time-off-calendar-icon.png"\] Alt text: Request time-off icon\).
+2.  Select the Request Time-off icon \( \[Omitted image "time-off-calendar-icon.png"\] Alt text: Request time-off icon\).
 
 The start date and time, the end date and time, and the group are automatically populated.
 
 3.  In the **Proposed Cover** field, select the name of the agent.
 4.  Request time off.
-5.  Click **Save**.
+5.  Select **Save**.
 
 
 </td></tr></tbody>

@@ -7,7 +7,7 @@ release: australia
 product: Health and Safety
 classification: health-and-safety
 topic_type: reference
-last_updated: "2025-12-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Health and Safety, Employee Service Management]
 ---

@@ -1,6 +1,6 @@
 ---
 title: Configure trusted certificate authorities
-description: Configure certificate authorities \(CAs\) that your organization trusts and activate the certificate authority trust policy so that certificates from other authorities are flagged as untrusted.
+description: Configure certificate authorities \(CAs\) that your organization trusts and activate the certificate authority trust policy so that certificates from other authorities are flagged as untrusted. Configure certificate authorities \(CAs\) that your organization trusts and activate the certificate authority trust policy so that certificates from other authorities are flagged as untrusted.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/add-trusted-certificate-authorities.html
 release: australia
@@ -19,7 +19,7 @@ Configure certificate authorities \(CAs\) that your organization trusts and acti
 
 ## Before you begin
 
-Role required: Cryptographic Asset admin \(sn\_itom\_cac.admin\)
+Role required: sn\_itom\_cac.admin
 
 ## Procedure
 
@@ -27,32 +27,42 @@ Role required: Cryptographic Asset admin \(sn\_itom\_cac.admin\)
 
 2.  Select the Settings icon \[Omitted image "settings-display-icon.png"\] Alt text:.
 
-3.  In the **Settings** tab, select **Policies** if it is not already selected.
+3.  If **Policies** is not already selected, select it in the **Settings** tab.
 
-4.  In the Policy page, select **Certificate authority trust**.
+4.  In the Policy form, select **Certificate authority trust**.
 
-5.  Select the **Policy builder** tab.
+5.  Add trusted CAs.
 
-6.  In the Data sources panel, select **Add**.
+    1.  Select the **Policy builder** tab.
 
-7.  In the Add API Variable dialog box, fill in the fields.
+    2.  In the Data sources panel, select **Add**.
 
-    |Field|Description|
-    |-----|-----------|
-    |Label|Display name for the variable, for example`Trusted CA List`.|
-    |Name|Internal name that the policy uses to reference the variable.|
-    |Type|Data type of the variable, which should be Data Array.|
-    |Mandatory|Option that determines whether a value is required for the variable.|
-    |Description|Optional notes about the variable.|
-    |Default value|The CAs that your organization trusts, as a list of quoted names. For example, `["Test CA 1","Test CA 2"]`.|
+        **Note:** If the **Add** button is not visible, select **Create copy** to duplicate the policy version.
 
-8.  Select **Save**.
+    3.  Complete the fields in the Add API Variable dialog box.
 
-9.  Publish the policy version by selecting **Publish**.
+        |Field|Description|
+        |-----|-----------|
+        |Label|Display name for the variable, for example, `Trusted CA List`.|
+        |Name|Internal name that the policy uses to reference the variable.|
+        |Type|Data type of the variable. Select **Data Array**.|
+        |Mandatory|Option that determines whether a value is required for the variable.|
+        |Description|Notes about the variable.|
+        |Default value|The CAs that your organization trusts, as a JSON array of quoted names. For example, `["Test CA 1","Test CA 2"]`.|
 
-10. Activate the policy by selecting **Activate**.
+    4.  Select **Save**.
 
-11. Confirm the activation by selecting **Activate** in the **Activate Policy** dialog box.
+6.  Publish the policy version.
+
+    1.  In the Policy builder tab, select **Publish**.
+
+    2.  Confirm the publication by selecting **Publish without testing** in the Publish without testing dialog box.
+
+7.  Activate the policy.
+
+    1.  In the Certificate authority trust form, select **Activate**.
+
+    2.  Confirm the activation by selecting **Activate** in the Activate Policy dialog box.
 
 
 ## Result

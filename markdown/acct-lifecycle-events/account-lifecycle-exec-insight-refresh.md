@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-exec-insight-refresh.html
 release: australia
 topic_type: task
-last_updated: "2026-08-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [refresh engagement brief, Executive Insight Generator, engagement updates]
 breadcrumb: [Engagement brief, Engagement home page, Manage engagements, Customer success, Use, Customer Success Management]
@@ -25,7 +25,7 @@ The brief is generated when you first open the engagement record page. The same 
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **All** &gt; **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the **List** menu, navigate to **Customer Success** &gt; **All Engagements**, and open an engagement record.
 
@@ -43,5 +43,5 @@ A new brief is generated based on signals from the last 7 days and replaces the 
 
 [Engagement brief](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-exec-insight-gen.md)
 
-[Activate the Executive Insight Generator skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-tmt-exec-insight-gen.md)
+[bundle-psew.now-assist-tmt-exec-insight-gen]
 

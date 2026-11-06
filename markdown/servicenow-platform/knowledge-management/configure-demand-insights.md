@@ -7,7 +7,7 @@ release: australia
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuration tasks for knowledge demand insights, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -28,7 +28,7 @@ This task provides general steps to configure the Knowledge Demand Insights feat
 
 ## Procedure
 
-1.  [Configure similarity and clustering solution definitions to enable comparing knowledge bases with a task type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/configure-km-solution-defintions.md).
+1.  [Configure similarity and clustering solution definitions to enable comparing knowledge bases with a task type]().
 
 2.  [Configure the combination of the task table and similarity and clustering solution definitions that are processed in a scheduled job for a task type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/select-tasks-knowledge-bases.md).
 

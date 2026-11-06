@@ -7,14 +7,16 @@ release: australia
 product: Contact Tracing
 classification: contact-tracing
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 7
+last_updated: "2026-09-09"
+reading_time_minutes: 8
 breadcrumb: [Safe Workplace, Health and Safety, Employee Service Management]
 ---
 
 # Contact Tracing
 
 The ServiceNow® Contact Tracing application helps organizations reduce workplace transmission of infectious diseases, such as COVID-19, by identifying any on-site users who might have been in contact with an affected user. The user receives updates about the number of reported cases or symptoms in the location. A list of potentially exposed users is created from various data inputs, such as badge scans, Wi-Fi access logs, and daily contact logs.
+
+**Note:** Starting with the Brazil release, Contact Tracing is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
 ## Features
 
@@ -30,6 +32,8 @@ In Contact Tracing version 1.29.4. and above, the navigation path is not availab
 -   Assess the status of potentially exposed contacts and their next two levels of potential exposures from within a case using visualization.
 -   Maintain the data privacy of users, in the context of contact tracing by obtaining their consent.
 -   Use data retention settings to determine when the data collected for contact tracing is automatically deleted from the system.
+
+\[Omitted image "contact-tracing-overview.png"\] Alt text: Identify potential exposures from affected users to minimize transmission of infectious diseases at the workplace
 
 -   **Use guided setup to implement Safe Workplace suite apps**
 
@@ -64,6 +68,14 @@ Organizations remain solely responsible for complying with their legal obligatio
 ServiceNow is offering this application to government agencies and their authorized users, not to employees of government agencies in their individual capacities. Use of this application is being offered free of charge for a limited or extended time period and with no expectation of payment from the government agency to ServiceNow for use during that time period, nor does usage create an actual or implied future obligation on behalf of the government. ServiceNow hereby expressly waives any future claims for payment from the agency in connection with usage of the application. Government customers are solely responsible to confirm with the agency’s Ethics Office or its authorized representative that acceptance and usage of the application is permissible.
 
 All decisions in connection with the implementation of this application are at the sole decision of the government agency utilizing this application. Agencies remain solely responsible for complying with their legal obligations under applicable laws and regulations, including \(but not limited to\) data protection and employment laws and regulations, and should modify any language within the templates provided to meet the agency’s specific requirements.
+
+## Additional resources
+
+-   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/hr-service-delivery-landing.md).
+-   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
+-   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
+-   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).
+-   Connect with other Customer Service Management users at [Now Community](https://www.servicenow.com/community/).
 
 -   **[Install Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contact-tracing/install-contact-tracing.md)**  
 You can install Contact Tracing if you have the admin role.

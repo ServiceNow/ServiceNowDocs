@@ -1,32 +1,32 @@
 ---
 title: Components installed with Zoom extension for Omnichannel Callback
-description: Several types of components are installed with the Zoom extension for Omnichannel Callback application.
+description: The Zoom extension for Omnichannel Callback application installs script includes and business rules that manage Zoom callbacks, including transcript processing, recording storage, host assignment, and interaction closure.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/callback-over-zoom/comp-installed-zoom-extension.html
 release: australia
 product: Callback over Zoom
 classification: callback-over-zoom
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Install Zoom extension for Omnichannel Callback, Zoom extension for Omnichannel Callback, Manage people and work, Conversational Interfaces]
 ---
 
 # Components installed with Zoom extension for Omnichannel Callback
 
-Several types of components are installed with the Zoom extension for Omnichannel Callback application.
+The Zoom extension for Omnichannel Callback application installs script includes and business rules that manage Zoom callbacks, including transcript processing, recording storage, host assignment, and interaction closure.
 
 ## Script includes
 
 |Script include|Description|
 |--------------|-----------|
 |ZoomCallDatabase|Contains database-related functions.|
-|ZoomCallDriver|Implements extension point for sn\_omni\_callback.VideoCallDriver.|
-|ZoomCallEventHandler|Overrides the functions of ZoomCallEventHandlerSNC.|
-|ZoomCallEventHandlerSNC|Contains utility functions for handling the transcript completed events.|
+|ZoomCallDriver|Implements the extension point for sn\_omni\_callback.VideoCallDriver.|
+|ZoomCallEventHandler|Overrides the functions of `ZoomCallEventHandlerSNC`.|
+|ZoomCallEventHandlerSNC|Contains utility functions for handling transcript-completed events.|
 |ZoomCallTranscriptProcessor|Contains utility functions to process the Zoom transcript.|
-|ZoomCallUtils|Overrides the functions of ZoomCallUtilsSNC.|
-|ZoomCallUtilsSNC|Contains the utility functions for Zoom callback.|
+|ZoomCallUtils|Overrides the functions of `ZoomCallUtilsSNC`.|
+|ZoomCallUtilsSNC|Contains utility functions for Zoom callbacks.|
 
 ## Business rules
 
@@ -52,7 +52,7 @@ Notify Conference Call\[notify\_conference\_call\]
 
 </td><td>
 
-Closes the interaction after the Zoom meetings ends. Both the agent and the requester must join the call to close the interaction.
+Closes the interaction after the Zoom meeting ends. Both the agent and the requester must join the call to close the interaction.
 
 </td></tr><tr><td>
 
@@ -88,7 +88,7 @@ Interaction\[interaction\]
 
 </td><td>
 
-Makes the agent the host when the interaction is accepted by the agent.
+Makes the agent the meeting host when the agent accepts the interaction.
 
 </td></tr></tbody>
 </table>

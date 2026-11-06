@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/generate-ci-consumption-predictions.html
 release: australia
 topic_type: task
-last_updated: "2026-05-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [CI consumption, prediction, 2026 Packaging, 2026 Packaging SKU migration]
 breadcrumb: [Use, ITOM/OT SU Licensing and subscriptions, IT Operations Management]

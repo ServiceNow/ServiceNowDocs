@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/cbs-assign-requester-manual.html
 release: australia
 topic_type: task
-last_updated: "2026-06-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [CBS requester role, manual role assignment, CBS Client Role Rule, Core Business Suite]
 breadcrumb: [Requester role enhancements, Configure, Core Business Suite]
@@ -17,7 +17,7 @@ Create a role rule to control which employees receive the CBS requester role, so
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_cbs.admin, admin
 
 ## Procedure
 

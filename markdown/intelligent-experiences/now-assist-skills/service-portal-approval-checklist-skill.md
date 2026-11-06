@@ -1,24 +1,24 @@
 ---
-title: Requester Approval Checklist
-description: The Requester Approval Checklist skill in the ServiceNow AI Platform generates a structured checklist by mapping real-time request data against your organization’s knowledge articles.
+title: Requester approval checklist skill
+description: The requester approval checklist skill in the ServiceNow AI Platform generates a structured checklist by mapping real-time request data against your organization’s knowledge articles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-skills/service-portal-approval-checklist-skill.html
 release: australia
 product: Now Assist Skills
 classification: now-assist-skills
 topic_type: concept
-last_updated: "2026-01-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Skills in the Platform workflow, Skills, AI assets, Enable AI experiences]
+breadcrumb: [Skills in the Platform workflow, Skills, Generative AI skills, Enable AI Experiences]
 ---
 
-# Requester Approval Checklist
+# Requester approval checklist skill
 
-The Requester Approval Checklist skill in the ServiceNow AI Platform® generates a structured checklist by mapping real-time request data against your organization’s knowledge articles.
+The requester approval checklist skill in the ServiceNow AI Platform® generates a structured checklist by mapping real-time request data against your organization’s knowledge articles.
 
 **Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
-This skill is available within AI Agents for Requester v3.1 and provides instant, data-backed decision support across in-product, agentic, and workflow experiences.
+This skill is available within Now Assist Agents for Requester v3.1 and is designed to provide instant, data-backed decision support across in-product, agentic, and workflow experiences.
 
 The skill uses information from the following sources to promote accuracy:
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/c\_UsingForms.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -119,5 +119,5 @@ Checklists provide a simple way to track the progress of tasks without creating 
 **Related topics**  
 
 
-[bundle-platadm.c_UIActions]
+[UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UIActions.md)
 

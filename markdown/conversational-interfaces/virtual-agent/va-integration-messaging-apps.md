@@ -7,16 +7,16 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 7
-breadcrumb: [Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Integrating Virtual Agent with messaging apps
 
 Enable users to run Virtual Agent bot conversations in supported third-party messaging apps. Use the Conversational Integration apps for Slack, Microsoft Teams, and Workplace that are available from the ServiceNow Store to configure these messaging apps on your ServiceNow instance.
 
-**Note:** Conversational Integration apps for Slack, Microsoft Teams, and Workplace, other consumer apps and voice apps are not supported for on-prem instances.
+**Note:** Conversational Integration apps for Slack, Microsoft Teams, and other consumer apps and voice apps are not supported for on-prem instances.
 
 ## Admin setup
 
@@ -26,7 +26,7 @@ Use the Virtual Agent Conversational Integration apps to configure the messaging
 
     For details, see [Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md).
 
-2.  Install the Conversational Integration apps for Slack, Microsoft Teams, and Workplace, LINE, Twilio, WhatsApp, Facebook Messenger, Alexa, Google Assistant, Amazon Connect, on your ServiceNow instance once they become available for installation after installing from the ServiceNow Store.
+2.  Install the Conversational Integration apps for Slack, Microsoft Teams, Twilio, WhatsApp, and Google Assistant on your ServiceNow instance once they become available for installation from the ServiceNow Store.
 
     \[Omitted image "channels-and-integrations.png"\] Alt text: Channels and integrations in the Conversational Interfaces general settings portal.
 
@@ -58,11 +58,11 @@ The Virtual Agent interface for the Conversational Integration apps \(Slack, Mic
     6.  Select the command record to be changed and update as needed.
 -   **Configuring Virtual Agent system messaging in the Conversational Integration apps**
 
-    You can modify the default messages displayed to your users in Virtual Agent and Agent Chat conversations. For details on customizing them, see [Change Virtual Agent and Agent Chat system messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/ac-change-system-messages.md).
+    You can modify the default messages displayed to your users in Virtual Agent and Agent Chat conversations. For details about customizing them, see [Change Virtual Agent and Agent Chat system messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/ac-change-system-messages.md).
 
 -   **Rendering of input controls and bot responses in conversations**
 
-    Input controls in Virtual Agent Designer, such as the Carousel render differently in bot conversations in messaging apps than in the web-based interface. For example, the Date Time picker control in Workplace presents buttons for users to select a date and time. Similarly, certain bot response controls, such as the Image response and Multi-response controls, also render differently in third-party messaging apps. For details on these differences, see the descriptions of the Virtual Agent Designer [input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-user-inputs.md), [bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-bot-responses.md), and [utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-utilities.md).
+    Input controls in Assistant Designer, such as the Carousel, render differently in bot conversations in messaging apps than in the web-based interface. Certain bot response controls, such as the Image response and Multi-response controls, also render differently in third-party messaging apps. For details about these differences, see the descriptions of the Assistant Designer [input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-user-inputs.md), [bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-bot-responses.md), and [utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-utilities.md).
 
 -   **Attachments**
 
@@ -77,17 +77,10 @@ The Virtual Agent interface for the Conversational Integration apps \(Slack, Mic
 |Slack|Yes|Yes|
 |WhatsApp|Yes|No|
 |SMS/Twilio|Yes|No|
-|IVR with Amazon Connect|Yes|No|
-|AWS end user messaging|Yes|No|
-|Workplace by Facebook|No|No|
-|Facebook Messenger|No|No|
-|Apple Business Chat|No|No|
-|LINE|No|No|
-|IBM Watson Assistant|No|No|
-|Alexa|No|No|
+|Google Chat|Yes|No|
 
 -   **[Redirect user authentication to a Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/set-user-linkage.md)**  
-After installing a pre-built Conversational Integration \(for messaging apps, Consumer apps or voice apps\), you can specify a Service Portal in which unauthenticated end users complete the user authentication step \(user account linking\), instead of in their ServiceNow instance. Users who do not have linked accounts complete authentication before continuing with the virtual agent in the messaging application.
+After installing a pre-built Conversational Integration, you can specify a Service Portal in which unauthenticated end users complete the user authentication step \(user account linking\), instead of in their ServiceNow instance. Users who do not have linked accounts complete authentication before continuing with Virtual Agent in the messaging application.
 -   **[Account linking in pre-built messaging integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-adapter-autolinking.md)**  
 In Virtual Agent, account linking maps the users of a supported chat or messaging application to their ServiceNow user profile. Account auto-linking authenticates your messaging users, which enables users to automatically access Virtual Agent topics that involve ServiceNow records. If needed, users can also manually unlink from or link to their ServiceNow accounts.
 -   **[Control topic visibility in Virtual Agent messaging channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/control-topic-visibility-channel.md)**  
@@ -104,18 +97,14 @@ Conduct user-initiated, system-initiated, or agent-initiated conversations using
 Enable requesters to chat with Microsoft Teams or live agents using the Microsoft Teams application. Use the Conversational Integration with Microsoft Teams app, available from the ServiceNow Store, to associate your instance with Microsoft Teams.
 -   **[Conversational Integration with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/mssg-slack.md)**  
 Use the Conversational Integration with Slack application to connect your requesters with Virtual Agent or live agents through your company’s Slack workspace.
+-   **[Conversational SMS Integration with AWS End User Messaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/conversational-sms-integration-amazon.md)**  
+Install the Conversational SMS with AWS End User Messaging \(sn\_sms\_aws\_adapter\) plugin from the ServiceNow Store to enable users to connect to customer support agents via SMS using the Amazon End User Messaging as the SMS provider.
 -   **[Conversational SMS Integration with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/sms-twilio-store-app.md)**  
 Use this ServiceNow Store application to host Virtual Agent conversations on Twilio SMS to chat with virtual agent or live agents.
--   **[Conversational Integration with Workplace from Facebook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/mssg-workplace.md)**  
-Use the Conversational Integration with Workplace from Facebook application to connect your requesters with Virtual Agent or live agents through your company’s Workplace from Facebook application.
 -   **[Conversational Integration with WhatsApp \(powered by Twilio\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/messg-whatsapp-twilio.md)**  
 Use this application to enable requesters to interact on WhatsApp chat with a virtual agent or live agent. The application connects a requester with a virtual agent or live agent using your company's WhatsApp-enabled Twilio phone number.
 -   **[Conversational Integration with WhatsApp \(WhatsApp Cloud API\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/messg-direct-whatsapp.md)**  
 Use this application to enable requesters to interact on WhatsApp chat with a Virtual Agent or live agent. The application connects a requester with a Virtual Agent or live agent using your company's WhatsApp business phone number.
--   **[Conversational SMS Integration with AWS End User Messaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/conversational-sms-integration-amazon.md)**  
-Install the Conversational SMS with AWS End User Messaging \(sn\_sms\_aws\_adapter\) plugin from the ServiceNow Store to enable users to connect to customer support agents via SMS using the Amazon End User Messaging as the SMS provider.
--   **[Integrating IBM Watson Assistant conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-ibm-watson-assistant-config.md)**  
-Use the IBM Watson Assistant topic to enable Virtual Agent to exchange information with conversations that were created in IBM Watson Assistant.
 
-**Parent Topic:**[Integrating Virtual Agent with other channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/integrate-virtual-agent.md)
+**Parent Topic:**[Conversational Integration apps for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/integrate-virtual-agent.md)
 

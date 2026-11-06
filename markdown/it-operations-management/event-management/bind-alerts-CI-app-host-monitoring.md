@@ -1,20 +1,20 @@
 ---
 title: Bind alerts to CIs using CI identification
-description: Bind alerts to specific applications on hosts using event rules to ensure accurate tracking and to improve issue resolution speed—leading to efficient remediation and better alignment of alerts with the right resources.
+description: Bind alerts to specific applications on hosts using event rules. This ensures accurate tracking and faster issue resolution by linking alerts to the correct resources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/bind-alerts-CI-app-host-monitoring.html
 release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Overriding default binding, Binding alerts to CIs, Event rules, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Bind alerts to CIs using CI identification
 
-Bind alerts to specific applications on hosts using event rules to ensure accurate tracking and to improve issue resolution speed—leading to efficient remediation and better alignment of alerts with the right resources.
+Bind alerts to specific applications on hosts using event rules. This ensures accurate tracking and faster issue resolution by linking alerts to the correct resources.
 
 ## Before you begin
 
@@ -67,7 +67,7 @@ If a matching Microsoft IIS Web Server CI is found on the identified host, the a
 
 7.  In the **Select an identifier** field, select an identifier for the class.
 
-    An identifier for a class is a set of rules that helps the system recognize and match CIs correctly. Think of it like a fingerprint for each type of CI \(such as a server, router, or application\). The identifier uses key attributes—like a serial number, hostname, or IP address—to make sure that when new data comes in, it gets linked to the right CI instead of creating duplicates. For more information on CI identification rule, see [Create a CI identification rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateCIIdentificationRule.md).
+    An identifier for a class is a set of rules that helps the system recognize and match CIs correctly. It uses key attributes such as a serial number, hostname, or IP address. When new data arrives, the system links it to the correct CI instead of creating duplicates. For more information on CI identification rule, see [Create a CI identification rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateCIIdentificationRule.md).
 
 8.  In the **Add value** field, add the exact value or specify the source field from which the value for the field must be populated.
 

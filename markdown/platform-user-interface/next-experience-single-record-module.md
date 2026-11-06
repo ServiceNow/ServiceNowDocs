@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/next-experience-single-record-module.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Next Experience All Menu Editing, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -53,15 +53,15 @@ Use the Single record module to create a custom record view, enabling users to f
 
 8.  Customize the form layout that displays in the form editor by performing the following actions.
 
-<table id="choicetable_u3j_f4j_wrb"><thead><tr><th align="left" id="d115847e230">
+<table id="choicetable_u3j_f4j_wrb"><thead><tr><th align="left" id="d116550e230">
 
 Option
 
-</th><th align="left" id="d115847e233">
+</th><th align="left" id="d116550e233">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d115847e239">
+</th></tr></thead><tbody><tr><td id="d116550e239">
 
 **Add form sections**
 
@@ -71,7 +71,7 @@ Action
 2.  Select **Section**, and then drag the section to the desired location above or below any existing sections on the form.
 
 
-</td></tr><tr><td id="d115847e266">
+</td></tr><tr><td id="d116550e266">
 
 **Configure section layout \(columns\)**
 
@@ -81,7 +81,7 @@ Change the layout of your section. Sections can consist of one column or be spli
 2.  Change the column layout via the section header menu. Select **One-column** or **Two-column**.
 
 
-</td></tr><tr><td id="d115847e290">
+</td></tr><tr><td id="d116550e290">
 
 **Merge section with the section above**
 
@@ -91,7 +91,7 @@ Merge two sections. Merging a section refers to combining two sections together 
 2.  From the section panel, select **Merge with section above**.
 
 
-</td></tr><tr><td id="d115847e311">
+</td></tr><tr><td id="d116550e311">
 
 **Detach section**
 
@@ -101,7 +101,7 @@ Detach a section. You can split two previously merged sections apart into separa
 2.  In the section header, select the Additional actions \(**\|**\) menu, and then select **Detach from section above**.
 
 
-</td></tr><tr><td id="d115847e336">
+</td></tr><tr><td id="d116550e336">
 
 **Remove section from form**
 
@@ -120,15 +120,15 @@ Detach a section. You can split two previously merged sections apart into separa
 
     **Note:** Certain field types are only supported in Core UI.
 
-<table id="choicetable_u3j_f5j_wrb"><thead><tr><th align="left" id="d115847e392">
+<table id="choicetable_u3j_f5j_wrb"><thead><tr><th align="left" id="d116550e392">
 
 Option
 
-</th><th align="left" id="d115847e395">
+</th><th align="left" id="d116550e395">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d115847e401">
+</th></tr></thead><tbody><tr><td id="d116550e401">
 
 **Add an existing field to a form**
 
@@ -138,7 +138,7 @@ Action
 2.  In the form editor, drag the selected field to the desired location and then move it around as necessary.
 
 
-</td></tr><tr><td id="d115847e419">
+</td></tr><tr><td id="d116550e419">
 
 **Add a new field to a form**
 
@@ -149,7 +149,7 @@ Action
 3.  The field appears in above or below the existing field.
 
 
-</td></tr><tr><td id="d115847e446">
+</td></tr><tr><td id="d116550e446">
 
 **Remove field from form**
 

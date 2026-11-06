@@ -7,9 +7,9 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Audit hardware asset inventory, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Audit hardware asset inventory, Inventory and stockroom operations, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create an audit record in the Hardware Asset Management application
@@ -31,15 +31,15 @@ The asset or inventory\_user role can only access the Asset Audits \[sn\_hamp\_a
 
 1.  Create an audit.
 
-<table id="choicetable_upl_qst_ywb"><thead><tr><th align="left" id="d101109e87">
+<table id="choicetable_upl_qst_ywb"><thead><tr><th align="left" id="d102346e87">
 
 Interface
 
-</th><th align="left" id="d101109e90">
+</th><th align="left" id="d102346e90">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d101109e96">
+</th></tr></thead><tbody><tr><td id="d102346e96">
 
 **Core UI**
 
@@ -49,7 +49,7 @@ Action
 2.  Select **New**.
  **Important:** If you have set the **sn\_hamp.migrate\_hamaudit** system property value to **true**, to enable audit enhancements in your ServiceNow® instance, you can't create an asset audit record from the core UI.
 
-</td></tr><tr><td id="d101109e139">
+</td></tr><tr><td id="d102346e139">
 
 **Hardware Asset Workspace**
 

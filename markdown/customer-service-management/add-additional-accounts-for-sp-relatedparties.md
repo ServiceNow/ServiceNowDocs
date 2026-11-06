@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/add-additional-accounts-for-sp-relatedparties.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Adding related parties to a sold product, Using customer access management, Customer management, Use, Customer Service Management]
 ---

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/order-management-configure-business-portal.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Sales Customer Relationship Management]
 ---
@@ -56,7 +56,7 @@ Enable B2B customers to self-serve key processes such as order creation, order c
 
 -   [Configuring the Manage Invoice Operations application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-manage-invoice-operations.md)
 
-    Enable B2B customers to submit invoice cases using from the Business Portal using chat and voice options. Billing specialists and agents can use the invoice dispute assist agentic workflow from the CSM/FSM Configurable Workspace to resolve invoice cases.
+    Enable B2B customers to submit invoice cases using from the Business Portal using chat and voice options. Billing specialists and agents can use the invoice dispute assist agentic workflow from the CRM Workspace to resolve invoice cases.
 
 
 **Related topics**  

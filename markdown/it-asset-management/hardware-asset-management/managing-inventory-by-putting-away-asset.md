@@ -7,7 +7,7 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [asset put away task, put away asset]
 breadcrumb: [Explore, Hardware Asset Management, IT Asset Management, Asset Management]
@@ -34,4 +34,6 @@ In the Hardware Asset Workspace, the inventory users can perform the following a
 -   Update the **Drop off location** field for the open task in the Put away form and close it. For more information, see [Close an Asset put away task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/close-put-away-task-ham.md).
 
 Using the ServiceNow Agent application, you can scan the in stock assets in the inventory and put them away in the scanned drop-off location. After the asset is placed in the drop-off location within the stockroom, you can close the Asset put away task. For more information about the mobile experience for Asset put away task, see [Manage asset put away using the ServiceNow Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/manage-hardware-asset-put-away-ham-mobile-agent.md).
+
+**Parent Topic:**[Exploring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/exploring-ham.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuration tasks for knowledge demand insights, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -31,7 +31,7 @@ A demand insights dashboard displays tasks as topics for which your knowledge ba
     -   For customer service cases, select **Demand Insights for Cases**.
     -   For incidents, select **Demand Insights for Incidents**.
     -   For HR cases, select **Demand Insights for HR cases**.
-    **Note:** For tasks other than customer service cases, incidents, and HR cases, you can create another dashboard or update an existing dashboard. For more information, see [Create and use dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-and-edit-dashboards.md).
+    **Note:** For tasks other than customer service cases, incidents, and HR cases, you can create another dashboard or update an existing dashboard. For more information, see Create and use dashboards.
 
 2.  To view similar tasks grouped together, click a bar in the Pareto chart.
 
@@ -43,15 +43,15 @@ A demand insights dashboard displays tasks as topics for which your knowledge ba
 
 4.  Analyze the sample to create a knowledge gap feedback task or ignore the tasks within a collection.
 
-<table id="choicetable_vcr_p5r_hlb"><thead><tr><th align="left" id="d310260e130">
+<table id="choicetable_vcr_p5r_hlb"><thead><tr><th align="left" id="d312515e130">
 
 Action
 
-</th><th align="left" id="d310260e133">
+</th><th align="left" id="d312515e133">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d310260e139">
+</th></tr></thead><tbody><tr><td id="d312515e139">
 
 **Report a knowledge gap to create a feedback task**
 
@@ -69,7 +69,7 @@ The **Description** field is automatically populated with frequently appearing w
 4.  Click **Submit**.
 
 
-</td></tr><tr><td id="d310260e179">
+</td></tr><tr><td id="d312515e179">
 
 **Ignore a collection to avoid its tasks from being reported as knowledge gaps**
 

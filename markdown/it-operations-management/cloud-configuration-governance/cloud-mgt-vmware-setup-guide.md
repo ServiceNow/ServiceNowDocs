@@ -7,7 +7,7 @@ release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -78,7 +78,7 @@ Detailed instructions for each procedure follow this overview.
 
 -   **ESXi hosts**
 
-    If the IP address of a virtual machine is set manually using a script or post-init scripts run on the VM, then you must allow HTTPS traffic between the MID Server and the ESXi host for the VM.
+    If the IP address of a virtual machine is set manually using a script or post-init scripts run on the VM, allow HTTPS traffic between the MID Server and the ESXi host for the VM.
 
     Enable NTP time sync. Enable the NTP client for the hypervisor on the vSphere web client. See the [vSphere documentation](https://docs.vmware.com/en/VMware-vSphere/7.0/com.vmware.vsphere.vcenterhost.doc/GUID-8756D419-A878-4AE0-9183-C6D5A91A8FB1.html) for more information.
 

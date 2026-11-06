@@ -7,8 +7,9 @@ release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2026-04-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [TISC integration, integrate TISC, threat intelligence integration]
 breadcrumb: [Threat Intelligence Security Center, Security Operations]
 ---
 

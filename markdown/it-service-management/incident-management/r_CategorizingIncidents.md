@@ -1,24 +1,24 @@
 ---
 title: Incident categories and subcategories
-description: Categorization of incidents helps in routing to the right team and saves a lot of time in troubleshooting and bringing the service to normalcy.
+description: Incident categories and subcategories help route incidents to the right team and reduce troubleshooting time. The base system includes predefined categories and subcategories that administrators can extend.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/r\_CategorizingIncidents.html
 release: australia
 product: Incident Management
 classification: incident-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Incident Management, Incident Management, IT Service Management]
 ---
 
 # Incident categories and subcategories
 
-Categorization of incidents helps in routing to the right team and saves a lot of time in troubleshooting and bringing the service to normalcy.
+Incident categories and subcategories help route incidents to the right team and reduce troubleshooting time. The base system includes predefined categories and subcategories that administrators can extend.
 
-One of the KPIs \(Key Performance Indicators\) of the Incident Management process is to identify how many times the Incident is sent to different teams. It also helps in analyzing incidents based on the classification to do proactive Problem Management which, in turn, helps to reduce Incidents. Proper incident classification is very important to identify and prioritize on which Incidents to work on first.
+One of the key performance indicators \(KPIs\) of the Incident Management process is to identify how many times an incident is sent to different teams. It also helps in analyzing incidents based on the classification to do proactive Problem Management which, in turn, helps reduce incidents. Proper incident classification helps you identify and prioritize which incidents to work on first.
 
-Using categories and subcategories also improves the clarity and granularity of report data. The following categories and associated subcategories are in the base system. An administrator can add additional categories and subcategories, and use them in assignment rules and notifications.
+Using categories and subcategories also improves the clarity and granularity of report data. The following categories and associated subcategories are in the base system. An administrator can add categories and subcategories and use them in assignment rules and notifications.
 
 <table id="table_nxg_t4s_44"><thead><tr><th>
 
@@ -83,10 +83,10 @@ Database
 -   Oracle
 
 </td></tr></tbody>
-</table>-   **[Configure incident category or subcategory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/t_AddRemoveIncCatSubbCat.md)**  
-Configure incident category and subcategory for easy classification of incidents which helps in routing incidents to the right team. You can also generate reports based on category and subcategory of incidents.
+</table>-   **[Configure an incident category or subcategory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/t_AddRemoveIncCatSubbCat.md)**  
+Configure incident categories and subcategories to classify incidents and route them to the right team. You can also generate reports based on incident categories and subcategories.
 -   **[Add a category or a subcategory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/add-new-category.md)**  
-Add category or subcategory to assign incidents to the correct team and save time in troubleshooting and bringing the service to normalcy.
+Add a category or subcategory to help route incidents to the correct team and restore normal service faster.
 -   **[Delete a category or a subcategory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/remove-category-subcategory.md)**  
 Delete a category or subcategory if your organization no longer uses the category or subcategory.
 

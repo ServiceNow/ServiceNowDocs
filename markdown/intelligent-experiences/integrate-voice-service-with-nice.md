@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-07-03"
 reading_time_minutes: 3
 keywords: [NICE CXone, NICE, voice assistant, voice integration, CCaaS, telephony provider, AI voice agent, SIP]
-breadcrumb: [Integrating voice assistant with CCaaS provider, Deploy AI voice agents, AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [Integrating voice assistant with CCaaS provider, Deploy AI voice agents, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Integrate ServiceNow voice assistant with Nice CXone
@@ -18,7 +18,7 @@ Enable users to get support from AI voice agents by integrating a ServiceNow voi
 ## Before you begin
 
 -   Create a voice assistant. See [Create an AI voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-an-ai-voice-service.md) for more information.
--   Access to your CXone account with permissions to configure SIP trunks.
+-   A SIP trunk for your CXone account. Work with Nice to set up the SIP trunk if you don't have one.
 -   Nice API credentials, including the API endpoint, token endpoint, access key ID, access key secret, client ID, and client secret. Work with your Nice account team to obtain the access key ID and secret. See the [CXone developer documentation](https://developer.niceincontact.com/Documentation/GettingStarted) for more information.
 
 Role required: sn\_aia.admin
@@ -56,7 +56,7 @@ Connect your CXone contact center to a ServiceNow voice assistant using the Sess
     |Client ID|The OAuth client ID from your CXone account.|
     |Client Secret|The OAuth client secret from your CXone account.|
 
-    After saving the credentials, copy the generated **x-snc-param** value from the page. This is a token that authenticates requests from CXone to the voice assistant. Paste it in your CXone account when configuring the SIP trunk.
+    After saving the credentials, copy the generated **x-snc-param** value from the page. This is a token that authenticates requests from CXone to the voice assistant. You need this value when setting up the SIP trunk with Nice.
 
 9.  Enable context data persistence for the voice service.
 
@@ -74,9 +74,9 @@ Connect your CXone contact center to a ServiceNow voice assistant using the Sess
 
     When `persist_context_data` is enabled, the voice assistant saves the session context as an `interaction_context` record named `bot_context_data` after each call. For details about the stored fields, see [Bot context data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/voice-agent-reference.md).
 
-10. In your CXone account, configure the SIP trunk using the **ServiceNow SIP FQDN** and pass the **x-snc-param** value copied in the previous step as a SIP header on outbound calls to the voice assistant.
+10. Work with Nice to set up a SIP trunk between your CXone account and the voice assistant, using the **ServiceNow SIP FQDN**. Configure the trunk to pass the **x-snc-param** value copied in the previous step as a SIP header on outbound calls to the voice assistant.
 
-    For SIP trunk configuration details including IP addresses and FQDNs per region, see [KB3023612](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3023612). For CXone-side SIP trunk configuration steps, see the [CXone developer documentation](https://developer.niceincontact.com/Documentation/GettingStarted).
+    SIP trunk setup for CXone might require a request to Nice. For SIP trunk details including IP addresses and FQDNs per region, see [KB3023612](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3023612).
 
 
 ## Result

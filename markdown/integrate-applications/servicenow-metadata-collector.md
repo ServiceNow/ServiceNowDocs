@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/integrate-application
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Configuring metadata collectors, Data Catalog, Workflow Data Fabric]
 ---
 
@@ -42,7 +42,7 @@ System Application
 
 </td><td>
 
-App Name, Vendor, Version, Active status, Short Description, Source Table
+App Name, Vendor, Version, Active status, Short Description, Source Table, Description
 
 </td></tr><tr><td>
 
@@ -134,6 +134,14 @@ Classification Name, Description, Classification Type, Parent Classification \(f
 
 </td></tr><tr><td>
 
+Vault Data Classification Assignment​
+
+</td><td>
+
+Created, Created by
+
+</td></tr><tr><td>
+
 Dashboard
 
 </td><td>
@@ -197,7 +205,9 @@ Data Collection Job
 Name, Description, Active, Run Type, Run Time, Collect Scope \(scores only, text indexes only, or both\), Created By, Modified By, Created At, Last Modified At
 
 </td></tr></tbody>
-</table>## Relationships between objects
+</table>**Note:** ServiceNow Vault data classifications can be generated automatically for ServiceNow assets using the Classifying ServiceNow assets with Vault agents agentic workflow. Classifications produced by the agent are written to Vault's classification tables and are picked up by the metadata collector on its next run. Avoid running the agent and the collector at the same time to prevent a mismatch between source data and the catalog.
+
+## Relationships between objects
 
 Catalog pages show relationships between the following data asset types:
 
@@ -216,6 +226,7 @@ Catalog pages show relationships between the following data asset types:
 |Data Product|Contained within Application Scope, Has Data Content \(contains Tables and Views\)|
 |Data Interface|Contained within Application Scope, Has Fields, May extend another Table \(via extends table\), May be extended by child Tables|
 |Vault Data Classification|May have Parent Classification \(via parent classification\), May have Child Classifications, Classifies Fields and Tables \(via has classification\)|
+|Vault Data Classification Assignment|Applies Vault Data Classification \(the classification type\), Has Vault Data Classification Assignment|
 |Dashboard|Contained within Application Scope, Tabs contained in the Dashboard|
 |Dashboard Tab|Dashboard the Tab is contained within|
 |Data Collection Job|Contained within Application Scope, Indicators the Data Collection Job collects|

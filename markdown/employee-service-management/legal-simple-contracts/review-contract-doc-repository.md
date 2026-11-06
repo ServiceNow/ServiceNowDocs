@@ -7,7 +7,7 @@ release: australia
 product: Legal Simple Contracts
 classification: legal-simple-contracts
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage, Legal Simple Contracts, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -45,15 +45,15 @@ Access to a contract document is based on the following user roles and condition
 
 6.  Download the contract document.
 
-<table id="choicetable_chr_vty_2zb"><thead><tr><th align="left" id="d458259e163">
+<table id="choicetable_chr_vty_2zb"><thead><tr><th align="left" id="d457387e163">
 
 External integration status
 
-</th><th align="left" id="d458259e166">
+</th><th align="left" id="d457387e166">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d458259e172">
+</th></tr></thead><tbody><tr><td id="d457387e172">
 
 **Active and published**
 
@@ -61,7 +61,7 @@ Action
 
 Select the link in the Signed Contract list in the **Details** tab
 
-</td></tr><tr><td id="d458259e184">
+</td></tr><tr><td id="d457387e184">
 
 **Not available**
 

@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Microsoft Azure Sentinel integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -30,15 +30,7 @@ Role required: sn\_si.ingestion\_profile\_admin
 
 ## Procedure
 
-1.  If you aren’t continuing from the previous section of the Scheduling process, access the profile you’re defining.
-
-    1.  Navigate to **All** &gt; **Microsoft Azure Sentinel Integration** &gt; **Azure Sentinel Incident Profile**.
-
-    2.  Select the profile that you’re continuing to define.
-
-    3.  Select **Additional Options** in the progress bar.
-
-2.  On the form, fill in the details.
+1.  On the form, fill in the details.
 
     Follow the instructions to complete the configuration for updating incidents when you create or close a security incident in SIR.
 
@@ -147,7 +139,7 @@ Option that you can select to update your SIR work notes in the Microsoft Azure 
 
     \[Omitted image "sentinel-automating-incidents.png"\] Alt text: Options for automating incidents.
 
-3.  Click **Finish**.
+2.  Click **Finish**.
 
 
 ## What to do next

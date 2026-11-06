@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/view-similar-case-recommendations.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use Task Intelligence, Automate and optimize, Use, Customer Service Management]
 ---
@@ -45,7 +45,7 @@ Actions on cards:
 
 Any changes made to the current case and saved will trigger a refresh of the recommendations, checking for both new and obsolete recommendations.
 
-Plugins: The configuration for the similar case recommendation feature is included with the Customer Service plugin \(com.sn\_customerservice\). The similar case recommendation feature has a dependency on Major Issue Management – activate the Major Issue Management plugin \(com.sn\_majorissue\_mgt\).
+Plugins: The configuration for the similar case recommendation feature is included with the Case Management Core plugin \(com.sn\_customerservice\). The similar case recommendation feature has a dependency on Major Issue Management – activate the Major Issue Management plugin \(com.sn\_majorissue\_mgt\).
 
 For more info, see [Similar case user actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/similar-cases-user-actions.md)
 

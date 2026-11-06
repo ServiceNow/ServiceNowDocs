@@ -7,7 +7,7 @@ release: australia
 product: Asset Management
 classification: asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Common applications, Asset Management]
 ---
@@ -20,11 +20,11 @@ The Base Asset Management application integrates the physical, technological, co
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn the key features and business value that the Asset Management offers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/exploring-asset-management.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn the key features and business value that the Base Asset Management offers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/exploring-asset-management.md)
 
 </td><td>
 
-[Use \[Omitted image "bus-manage.svg"\] Alt text:Use the Asset Management to efficiently manage your assets.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/using-asset-management.md)
+[Use \[Omitted image "bus-manage.svg"\] Alt text:Use the Base Asset Management to efficiently manage your assets.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/using-asset-management.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help
@@ -32,4 +32,13 @@ The Base Asset Management application integrates the physical, technological, co
 -   [Ask or answer questions in the Asset Management ServiceNow Community](https://www.servicenow.com/community/asset-management/ct-p/asset-management)
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)
+
+-   **[Exploring Asset Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/exploring-asset-management.md)**  
+The user interface of the Base Asset Management application is enhanced to make it more user-friendly and intuitive, enabling you to manage your hardware installations better.
+-   **[Using Base Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/using-asset-management.md)**  
+Use the Base Asset Management application to manage your assets efficiently.
+-   **[Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/references-asset-management.md)**  
+Reference topics provide additional information about the lists and forms that you use to configure and administer Asset Management.
+
+**Parent Topic:**[Common applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/asset-management-related-apps-landing-page.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-case-consumer-portal.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the Consumer Service Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Consumer Service Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Create a case from the Consumer Service Portal
@@ -17,10 +17,6 @@ As a user with the consumer role, you can create cases from the Consumer Service
 ## Before you begin
 
 Role required: sn\_customerservice.consumer
-
-## About this task
-
-Creating a case logs your issue with the support team so an agent can track and resolve it. You can create a case for a specific product or order, and attach supporting files to help the agent understand the issue.
 
 ## Procedure
 

@@ -38,15 +38,15 @@ Changing the planned start date of a project to a new date also moves all its ta
 
 1.  Change the planned start date of a project using either of the following options.
 
-<table id="choicetable_bx2_kjj_wfb"><thead><tr><th align="left" id="d345538e114">
+<table id="choicetable_bx2_kjj_wfb"><thead><tr><th align="left" id="d358203e114">
 
 Option
 
-</th><th align="left" id="d345538e117">
+</th><th align="left" id="d358203e117">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d345538e123">
+</th></tr></thead><tbody><tr><td id="d358203e123">
 
 **From the Planning console**
 
@@ -57,7 +57,7 @@ Steps
 3.  In the Planning Console, select the more actions icon \(\[Omitted image "gannt\_chart\_icon.png"\] Alt text: More Actions icon\) and then select the **Move project** option.
 
 
-</td></tr><tr><td id="d345538e168">
+</td></tr><tr><td id="d358203e168">
 
 **From the Project form**
 
@@ -118,6 +118,10 @@ Move the planned start date of a task before the planned start date of a project
 [Create an expense line]()
 
 [Create and manage waterfall projects]()
+
+[Schedule a project from a start date]()
+
+[Apply or change a task constraint]()
 
 [Update a project]()
 

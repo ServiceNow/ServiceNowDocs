@@ -7,10 +7,10 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-06-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [CIMD, Client ID Metadata Document, OAuth inbound, public client, oauth\_entity\_cimd, metadata sync mode]
-breadcrumb: [CIMD client integration, Inbound Integrations, OAuth Inbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [CIMD client integration, Inbound integrations, OAuth inbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # Client ID Metadata Document \(CIMD\) workflow

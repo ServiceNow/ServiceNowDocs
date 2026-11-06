@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/create-dft-matter-task.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Work on a digital forensic legal matter, Manage, Legal Digital Forensics, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -30,15 +30,15 @@ As a collaborator added to a legal matter, you can access and work on the legal 
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d349233e105">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d348495e105">
 
 Option
 
-</th><th align="left" id="d349233e108">
+</th><th align="left" id="d348495e108">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d349233e114">
+</th></tr></thead><tbody><tr><td id="d348495e114">
 
 **As an assignee**
 
@@ -50,7 +50,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d349233e143">
+</td></tr><tr><td id="d348495e143">
 
 **As a collaborator**
 

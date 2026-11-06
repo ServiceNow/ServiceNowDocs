@@ -1,13 +1,13 @@
 ---
 title: Install Recommended Actions for HRSD
-description: You can install the Recommended Actions for HRSD application \(com.sn\_hr\_ra\) if you have the admin role.The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
+description: You can install the Recommended Actions for HRSD application \(com.sn\_hr\_ra\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/agent-workspace-for-hr-case-management/install-recommend-actions-hrsd.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Recommended Actions for HRSD, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---

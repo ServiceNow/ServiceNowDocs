@@ -19,7 +19,7 @@ Create Windows Server or Linux Server configuration items \(CIs\) during AWS clo
 
 ## Before you begin
 
--   Verify that you have at least version 1.35.0 of Discovery and Service Mapping Patterns.
+-   Verify that you have at least version 1.35.1 of Discovery and Service Mapping Patterns.
 -   Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servicenow.com/resource/enus/api/servicenow-discovery-patterns-api-details.xlsx) so you can grant user permissions required for running the Discovery patterns.
 -   Verify that AWS Systems Manager \(AWS SSM\) is enabled on the Amazon Elastic Compute Cloud \(Amazon EC2\) instances.
 -   Verify SSM Agent execution context.
@@ -30,7 +30,7 @@ Role required: admin
 
 ## About this task
 
-Before Discovery and Service Mapping Patterns version 1.35.0, Server CIs weren't created during AWS cloud discovery. Starting with version 1.35.0, the **sn\_itom\_pattern.aws\_cloud\_discovery\_populate\_server\_ci** property controls whether Server CIs are created. The default value is false and Server CIs aren't created. You can set the property to true to create Server CIs for SSM-enabled EC2 instances.
+Before Discovery and Service Mapping Patterns version 1.35.1, Server CIs weren't created during AWS cloud discovery. Starting with version 1.35.1, the **sn\_itom\_pattern.aws\_cloud\_discovery\_populate\_server\_ci** property controls whether Server CIs are created. The default value is false and Server CIs aren't created. You can set the property to true to create Server CIs for SSM-enabled EC2 instances.
 
 ## Procedure
 

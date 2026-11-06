@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/config-dv-pivot-table-data.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-10-07"
 reading_time_minutes: 6
 breadcrumb: [Pivot table visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -78,11 +78,19 @@ Group by
 
 </td></tr><tr><td>
 
-Select columns
+Columns
 
 </td><td>
 
-The field whose values are each represented in a vertical column.
+The field whose values are each represented in a vertical column. All fields in the table, including list fields are available.
+
+</td></tr><tr><td>
+
+Rows
+
+</td><td>
+
+The field whose values are each represented in a horizontal row. All fields in the table, including list fields are available.
 
 </td></tr><tr><td>
 
@@ -90,7 +98,7 @@ Max number of groups
 
 </td><td>
 
-Select the maximum number of groups to display. Groups in excess of this number, determined by sorting, are aggregated into the Others group. You can show that aggregate with the **Show others** option.By default, you cannot show more than 50 groups. If you have the admin role, you can change this limit in the **par\_viz.table\_data.max\_groups** system property.
+Select the maximum number of groups to display. Groups in excess of this number, determined by sorting, are aggregated into the Others group. You can show that aggregate with the **Show others** option.By default, you can't show more than 50 groups. If you have the admin role, you can change this limit in the **par\_viz.table\_data.max\_groups** system property.
 
 Data for the Max number of groups is evaluated across all periods in the time series to ensure consistent group membership across all dates in the visualization.
 
@@ -100,15 +108,7 @@ Show others
 
 </td><td>
 
-If **Max number of groups** is set and this option is turned on, an aggregate of the groups beyond the maximum number is displayed as the Others group.
-
-</td></tr><tr><td>
-
-Rows
-
-</td><td>
-
-Hierarchy of table fields with values displayed horizontally.
+If **Max number of groups** is set and this option is turned on, an aggregate of the groups beyond the maximum number is displayed as the **Other** group.The **Other** element is added automatically when the number of elements exceeds the limit in the **par\_viz.table\_data.max\_groups** system property.
 
 </td></tr><tr><td>
 
@@ -116,10 +116,12 @@ Field for &lt;table&gt;
 
 </td><td>
 
-The field to group by. For example, in a visualization of incident data grouped by **Assignment group**, all incidents that belong to Software, Service Desk, and Network are placed in separate groups. If the table contains variables or question fields, you have the option to group by one of them at the end of the list of fields.**Note:**
+The field to group by. You can group by any field in the table including list fields.For example, in a visualization of incident data grouped by **Assignment group**, all incidents that belong to Software, Service Desk, and Network are placed in separate groups. If the table contains variables or question fields, you have the option to group by one of them at the end of the list of fields.
+
+**Note:**
 
 -   It is not possible to group or stack data by the **Tags** field, or by certain field types, such as MEDIUMTEXT.
--   For fields with continuous values, such as date or integer, values are automatically grouped according to any report ranges defined for the data. For more information, see [Report ranges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_ReportRanges.md).
+-   Fields with continuous values, such as date or integer, are automatically grouped according to any report ranges defined for the data. For more information, see [Report ranges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_ReportRanges.md).
 
 </td></tr><tr><td>
 
@@ -157,13 +159,13 @@ Sort by
 
 Sorting options of the main and alternative groups set in **Group by**. Options include:-   Name: Sorts the values alphabetically by field or element name.
 -   Value: Sorts the values numerically or by count.
--   Element order: When grouping by Choice \[sys\_choice\] table records, sorts groups by the Sequence field value.
+-   Element order: Sorts the groups according to the value of the Sequence field. Available when grouping by records on the Choice \[sys\_choice\] table, either directly or through a breakdown.
 -   Group bucket: Sorts the elements by bucket group, when applicable. Only available for indicator data sources and when the breakdown used for the **Group by** is based on a bucket group.
 -   Report range: Sorts the table field values by range. Only available for table data sources and when the table field used for the **Group by** has a report range associated with it.
 
 **Note:**
 
--   The choices of what to sort by are based on the main, default **Group by**, if one is defined. This sorting applies to any alternative group-bys if possible. If the sorting criterion cannot apply to an alternative group-by, sorting defaults to Value. For example, sorting by Element order when the alternative group-by is not on the Choice table defaults to Value.
+-   The choices of what to sort by are based on the main, default **Group by**, if one is defined. This sorting applies to any alternative group-bys if possible. If the sorting criterion selected for the main group-by can't apply to an alternative group-by, sorting defaults to Value. For example, sorting by Element order when the alternative group-by is not on the Choice table.
 -   If no main **Group by** has been set, but alternative group-bys are defined, you can sort only by Name or Value.
 -   Sorting is not available for Pareto bar visualizations. Pareto charts are always sorted by value in descending order.
 

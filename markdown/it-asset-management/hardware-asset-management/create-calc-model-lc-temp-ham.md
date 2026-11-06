@@ -7,9 +7,9 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Calculated lifecycle templates, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Calculated lifecycle templates, Repair and maintenance, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create Calculated lifecycle templates in the Hardware Asset Workspace

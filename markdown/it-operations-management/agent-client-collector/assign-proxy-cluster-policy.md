@@ -7,7 +7,7 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Using proxy agents in ACC, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -57,7 +57,7 @@ Only one app should be run on a given proxy agent because running multiple apps 
 
     -   To load balance the selected multi-proxy agents that monitor the matching CIs, clear the **Run checks on all proxy agents \(No load balancing\)** option.
 
-        For example, if you have five agents in a cluster or five agents using the filter/script option and 10 matching CIs in the policy, each agent would monitor two CIs.
+        For example, if you have five agents in a cluster or five agents using the filter/script option and 10 matching CIs in the policy, the load is distributed. Each agent monitors two CIs.
 
         You can also enable load balancing at a later time, as described in [Enable load balancing between proxy agents in a cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/view-proxy-ci-distribution.md).
 

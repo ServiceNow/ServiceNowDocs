@@ -7,7 +7,7 @@ release: australia
 product: Test Management
 classification: test-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Testing using Test Management 2.0, Test Management 2.0, Test Management applications, Strategic Portfolio Management]
 ---
@@ -41,15 +41,15 @@ Role required: sn\_test\_management.tester
 
 4.  In the Test Execution pop-up, mark a step as passed, failed, or blocked using the following icons.
 
-<table id="choicetable_p33_dsw_dcb"><thead><tr><th align="left" id="d309033e123">
+<table id="choicetable_p33_dsw_dcb"><thead><tr><th align="left" id="d320652e123">
 
 Icon
 
-</th><th align="left" id="d309033e126">
+</th><th align="left" id="d320652e126">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d309033e132">
+</th></tr></thead><tbody><tr><td id="d320652e132">
 
 **\[Omitted image "passedtest.png"\] Alt text: Icon to indicate a step as passed**
 
@@ -57,7 +57,7 @@ Description
 
 Passed.
 
-</td></tr><tr><td id="d309033e147">
+</td></tr><tr><td id="d320652e147">
 
 **\[Omitted image "failedtest.png"\] Alt text: Icon to indicate a step as failed**
 
@@ -67,7 +67,7 @@ Failed. In this state, options to add comments and attachments are available. **
 
 To log a defect in Test Management 2.0, create a defect record manually and include the test name and step number in the defect description.
 
-</td></tr><tr><td id="d309033e171">
+</td></tr><tr><td id="d320652e171">
 
 **\[Omitted image "blockedtest.png"\] Alt text: Icon to indicate a step as blocked**
 
@@ -89,6 +89,10 @@ Test results are saved to the Test Result form. The overall status of the test i
 -   If at least one step of the test is not run, the status of the test is **Not finished**.
 -   If at least one step of the test fails, the overall status of the test is **Failed**.This rule takes precedence over the previous rule.
 -   If at least one step of the test is blocked, the overall status of the test is **Blocked**. This rule takes precedence over the previous two rules.
+
+When you run a test from **Tests Assigned to me**, the result is linked to your assignment and appears in the **Result** column for that assignment. If you run the test from its Test version form instead, a test result is created but the Result column remains empty.
+
+**Note:** Each test execution suite has its own assignments. A result on one suite assignment doesn't appear on the same test in another suite. To record a result there, run the test again from **Tests Assigned to me**.
 
 ## What to do next
 

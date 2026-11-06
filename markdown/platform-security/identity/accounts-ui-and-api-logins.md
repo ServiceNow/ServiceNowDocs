@@ -7,7 +7,7 @@ release: australia
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security findings, Exploring Machine Identity Console, Machine Identity Console, Identity]
 ---
@@ -19,6 +19,8 @@ Display the findings about the accounts that are performing UI and API login und
 Accounts performing both UI and API login displays the accounts that using UI and API login to authenticate to ServiceNow.
 
 **Note:** The accounts displayed on the page are based on activity over the past 30 days and any changes made today is reflected after 30 days.
+
+This category also receives any remainder of the security score. See [Security findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/identity/security-score.md).
 
 \[Omitted image "mic-ui-login-integration.png"\] Alt text: Accounts performing both UI and API logins
 

@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Docusign eSignature spoke v4.5.1 is the latest version. For version history of the spoke, see [Docusign eSignature Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-docusign.html).
+Docusign eSignature spoke v4.5.2 is the latest version. For version history of the spoke, see [Docusign eSignature Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-docusign.html).
 
 ## Spoke dependencies
 
@@ -604,7 +604,7 @@ Deletes the specified Docusign user.
 </td></tr></tbody>
 </table>## Available AI agents
 
-Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/now-assist-spokes.md).
+Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [Now Assist for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/now-assist-spokes.md).
 
 This spoke provides standalone AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance.
 

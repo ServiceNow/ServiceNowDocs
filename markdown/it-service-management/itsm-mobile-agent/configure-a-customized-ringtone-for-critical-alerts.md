@@ -1,21 +1,21 @@
 ---
 title: Configure a ringtone for critical alerts
-description: Select a preferred ringtone for your critical notifications in ITSM Mobile Agent application.
+description: Select a preferred ringtone for your critical notifications in the ITSM Mobile Agent application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-mobile-agent/configure-a-customized-ringtone-for-critical-alerts.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ringtone]
-breadcrumb: [Enable Override do not disturb to receive critical alerts, Configuring ITSM Mobile Agent, ITSM Mobile Agent, IT Service Management]
+breadcrumb: [Enable critical alerts in Do Not Disturb mode, Configuring ITSM Mobile Agent, ITSM Mobile Agent, IT Service Management]
 ---
 
 # Configure a ringtone for critical alerts
 
-Select a preferred ringtone for your critical notifications in ITSM Mobile Agent application.
+Select a preferred ringtone for your critical notifications in the ITSM Mobile Agent application.
 
 ## Before you begin
 
@@ -25,11 +25,11 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Script Includes**.
 
-2.  Search and select **CriticalPushPayloadBuilder** from the list of scripts.
+2.  Search for and select `CriticalPushPayloadBuilder` from the list of scripts.
 
-    Verify that the selected script **CriticalPushPayloadBuilder** is in **ITSM Mobile Agent** application scope.
+    Verify that the selected `CriticalPushPayloadBuilder` script is in the **ITSM Mobile Agent** application scope.
 
-3.  Open the **CriticalPushPayloadBuilder** record and edit the script with your preferred ringtone name:
+3.  Open the `CriticalPushPayloadBuilder` record and edit the script with your preferred ringtone name:
 
     ```
     var CriticalPushPayloadBuilder = Class.create();
@@ -59,22 +59,22 @@ Role required: admin
     };
     ```
 
-    You can select ringtones from below options:
+    You can select one of the following ringtones:
 
-    -   NotificationAlert-1.caf
-    -   NotificationAlert-2.caf
-    -   NotificationAlert-3.caf
-    -   NotificationAlert-4.caf
-    -   NotificationAlert-5.caf
-    -   NotificationAlert-6.caf
-    -   NotificationAlert-7.caf
-    -   NotificationAlert-8.caf
-    -   NotificationAlert-9.caf
-    -   NotificationAlert-10.caf
-    -   NotificationAlert-11.caf
-    -   NotificationAlert-12.caf
-    -   NotificationAlert-13.caf
-    -   NotificationAlert-14.caf
+    -   `NotificationAlert-1.caf`
+    -   `NotificationAlert-2.caf`
+    -   `NotificationAlert-3.caf`
+    -   `NotificationAlert-4.caf`
+    -   `NotificationAlert-5.caf`
+    -   `NotificationAlert-6.caf`
+    -   `NotificationAlert-7.caf`
+    -   `NotificationAlert-8.caf`
+    -   `NotificationAlert-9.caf`
+    -   `NotificationAlert-10.caf`
+    -   `NotificationAlert-11.caf`
+    -   `NotificationAlert-12.caf`
+    -   `NotificationAlert-13.caf`
+    -   `NotificationAlert-14.caf`
 4.  Select **Update**.
 
 

@@ -7,10 +7,10 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Express List, Event Management, Alert, Otto]
-breadcrumb: [Viewing an alert group analysis by ServiceNow Otto, Work with alert groups, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Viewing an alert group analysis by ServiceNow Otto, Working with alert groups in Express List, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # View an alert group analysis by ServiceNow Otto in Express List
@@ -19,7 +19,8 @@ View an alert group analysis created using generative AI. The analysis offers a 
 
 ## Before you begin
 
-Install the ServiceNow Otto for ITOM. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/install-now-assist-itom.md).
+-   Install ServiceNow Otto for ITOM. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/install-now-assist-itom.md).
+-   View important information about the ServiceNow Otto for IT Operations Management \(ITOM\) application in [AI in IT Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/ai-in-it-operations-management.md).
 
 **Note:** Currently, ServiceNow Otto for ITOM only supports tag-based, CMDB, Log Analytics, Mixed, Automated, and Network Traffic-based alert groups. For all other alert group types, it only analyzes the parent alert.
 
@@ -33,7 +34,7 @@ Role required: evt\_mgmt\_operator
 
 3.  In the Active alerts list, select the information icon \(\[Omitted image "info.png"\] Alt text: Information icon.\) next to an alert group to display the preview panel.
 
-4.  On the preview panel **Info** tab, select **Analyze** in Alert analysis by ServiceNow Otto for ITOM.
+4.  On the preview panel **Info** tab, select **Analyze** in Alert analysis by ServiceNow Otto.
 
 5.  View the information provided in the Alert analysis.
 

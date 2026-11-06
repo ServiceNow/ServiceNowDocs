@@ -7,7 +7,7 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: reference
-last_updated: "2026-07-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [ServiceNow Otto for AI Search reference, ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -19,7 +19,7 @@ System properties that you can use to modify behavior for ServiceNow® Otto for 
 
 These properties are available for ServiceNow Otto for AI Search.
 
-**Note:** To open the System Property \[sys\_properties\] table's list view, select **All**, enter `sys_properties.list` in the **Filter** field, and press **Enter**.
+**Note:** To open the System Property \[sys\_properties\] table's list view, select **All**, enter `sys_properties.list` in the navigation field, and press **Enter**.
 
 <table id="table_s4h_h2x_jdc"><thead><tr><th>
 
@@ -35,7 +35,7 @@ sn\_ais\_assist.semantic\_cache\_mode
 
 </td><td>
 
-Operational mode for the Knowledge base articles Genius Results caches. Use this mode to control how AI Search uses the caches and the Now LLM Service when looking for Knowledge base articles Genius Result answers. For details about how AI Search caches Knowledge base articles Genius Result answers, see [Caching for Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/caching-now-assist-q-a-gr.md).
+Operational mode for the Q&amp;A Genius Results caches. Use this mode to control how AI Search uses the caches and the Now LLM Service when looking for Q&amp;A Genius Result answers. For details about how AI Search caches Q&amp;A Genius Result answers, see [Caching for Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/caching-now-assist-q-a-gr.md).
 
 -   Type: string
 -   Default value: off

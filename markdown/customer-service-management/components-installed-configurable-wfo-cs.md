@@ -1,16 +1,16 @@
 ---
-title: Components installed withWorkforce Optimization for Customer Service
+title: Components installed with Workforce Optimization for Customer Service
 description: Several types of components are installed with activation of the CSM Configurable Workspace \(sn\_csm\_wfo\_workspa\) plugin, including user roles, key performance indicators \(KPIs\), scheduled jobs, properties, and tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/components-installed-configurable-wfo-cs.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 25
 breadcrumb: [Optimize workforce operations, Extend capabilities, Configure, Customer Service Management]
 ---
 
-# Components installed withWorkforce Optimization for Customer Service
+# Components installed with Workforce Optimization for Customer Service
 
 Several types of components are installed with activation of the CSM Configurable Workspace \(sn\_csm\_wfo\_workspa\) plugin, including user roles, key performance indicators \(KPIs\), scheduled jobs, properties, and tables.
 

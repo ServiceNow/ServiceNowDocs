@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-09-23"
 reading_time_minutes: 4
 keywords: [Retail MCP Server, MCP tools, get\_my\_store, get\_store\_devices, store services case]
-breadcrumb: [Retail MCP Server, Configure, Retail]
+breadcrumb: [Retail MCP Server, ServiceNow Otto for Retail Service Management \(RSM\), Retail]
 ---
 
 # Retail MCP Server tools

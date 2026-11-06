@@ -1,13 +1,13 @@
 ---
 title: Create a copy of an EVAM view configuration
-description: Modify the search results of your AI Search application by creating a copy of an existing Entity View Action Mapper \(EVAM\) view and then changing the copy. Copying an EVAM is more efficient than creating an EVAM, especially when the changes are minimal.
+description: Modify the search results of your AI Search application by creating a copy of an existing Entity View Action Mapper \(EVAM\) view and then changing the copy. This process is efficient, especially when the changes are minimal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/copy-evam-viewconfig-ais-admin-console.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Customizing the result-card interface of an AI Search application by using EVAM, Using AI Search Admin console, AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -15,7 +15,7 @@ breadcrumb: [Customizing the result-card interface of an AI Search application b
 
 # Create a copy of an EVAM view configuration
 
-Modify the search results of your AI Search application by creating a copy of an existing Entity View Action Mapper \(EVAM\) view and then changing the copy. Copying an EVAM is more efficient than creating an EVAM, especially when the changes are minimal.
+Modify the search results of your AI Search application by creating a copy of an existing Entity View Action Mapper \(EVAM\) view and then changing the copy. This process is efficient, especially when the changes are minimal.
 
 ## Before you begin
 
@@ -23,7 +23,7 @@ Role required: ais\_admin
 
 ## About this task
 
-If the view configuration is shared and you need to modify the result-card interface without impacting other shared instances, you must create a copy of it. You can verify if the view configuration is shared. For more information, see [Track how your EVAM view configurations are used](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/ais-admin-console-evam-viewusage.md).
+If the view configuration is shared and you need to change the result-card interface without impacting other shared instances, create a copy of the view configuration. You can verify if the view configuration is shared. For more information, see [Track how your EVAM view configurations are used](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/ais-admin-console-evam-viewusage.md).
 
 ## Procedure
 

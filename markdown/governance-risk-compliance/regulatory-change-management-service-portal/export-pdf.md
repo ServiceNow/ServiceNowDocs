@@ -7,7 +7,7 @@ release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage regulatory tasks, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -36,7 +36,7 @@ You can export compliance data to PDF reports for easy sharing with audit teams,
 
 5.  Open the compliance case or compliance request that you want to export as a PDF report.
 
-6.  Select the More actions \[Omitted image "MoreActionsIcon.jpg"\] Alt text: icon.
+6.  Select the More actions \[Omitted image "MoreActionsIcon.jpg"\] Alt text: More actions icon. icon.
 
 7.  Select **Export PDF**.
 

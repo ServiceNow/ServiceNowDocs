@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/use-playbooks-spm-retail.html
 release: australia
 topic_type: task
-last_updated: "2026-05-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [playbooks, SPM retail suite, SPM Retail, retail project playbook, store lifecycle playbook]
 breadcrumb: [Use, Retail Strategic Portfolio Management Suite, Strategic Portfolio Management]

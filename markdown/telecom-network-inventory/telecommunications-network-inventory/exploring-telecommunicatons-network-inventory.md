@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Telecommunications Network Inventory]
 ---
@@ -22,15 +22,13 @@ With the Telecommunications Network Inventory application, you can redefine the 
 
 The ServiceNow Configuration Management Database \(CMDB\) stores the network inventory details. With this information, you can monitor your network infrastructure so that you can help to ensure the integrity, stability, and continuous service operation of your network.
 
-The following example shows the common uses of the Telecommunications Network Inventory application.
-
-\[Omitted image "source-of-truth-tni.png"\] Alt text: Infographic showing the key uses of Telecommunication Network inventory, such as the asset lifecycle management, service assurance, and design and assign.
+The following example shows the common uses of the Telecommunications Network Inventory application.\[Omitted image "mmasset0020447-tni-Infographic-exploring-horizontal.png"\] Alt text: Infographic showing the key uses of Telecommunication Network inventory, such as the asset lifecycle management, service assurance, and design and assign.
 
 Key uses of the Telecommunications Network Inventory application include:
 
 -   **Network asset life-cycle management**
 
-    Help the service providers to understand their spare inventory equipment, currently deployed assets in the network, and free capacity \(for example, the available slots or ports\) for the new network. Capture store, and maintain accurate resource life-cycle data as a single source of truth. Leverage your platform workflows to manage your resource and service life cycles across the organization.
+    Help service providers understand their spare inventory equipment and currently deployed assets in the network. This includes free capacity, such as available slots or ports, for new network additions. Capture store, and maintain accurate resource life-cycle data as a single source of truth. Leverage your platform workflows to manage your resource and service life cycles across the organization.
 
 -   **Telecommunications circuit design and resource assignment**
 
@@ -67,7 +65,7 @@ Quickly model equipment and design complex templates
 
 </td><td>
 
-[Modeling your workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-workflow.md)
+[Model your workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-workflow.md)
 
 </td></tr><tr><td>
 
@@ -163,7 +161,7 @@ Visualize and manage rack and cabinet
 
 </td><td>
 
-[Visualization of a rack or cabinet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/visualization-of-rack.md)
+[Visualizing a rack or cabinet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/visualization-of-rack.md)
 
 </td></tr><tr><td>
 

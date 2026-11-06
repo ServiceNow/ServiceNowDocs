@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/data-mig-unmigrated-content.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-01"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Platform Analytics Migration Center, Platform Analytics experience, Platform Analytics]
 ---
 
@@ -45,6 +45,10 @@ Indicator and Breakdown Scorecard elements that aren't migrated:
 -   Show Bullet chart
 
 The Calendar year view component isn't migrated.
+
+## Dashboards with breakdown source dropdowns
+
+Platform Analytics dashboards do not support a configurable list of Performance Analytics breakdown sources by which to filter the dashboard \(see [Using breakdowns on responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_SpecialDashboards.md)\). Such dashboards are migrated, but the breakdown source filter list is replaced by a Platform Analytics filter for each breakdown. Instead of a dropdown list, you have a pill for each filter. For more information, see [Configure a Single/Multiple select or cascading filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-select-filter-workspace.md).
 
 ## Compatibility mode migrations
 

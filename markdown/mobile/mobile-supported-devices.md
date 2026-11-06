@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/mobile-supported-devices.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -148,6 +148,8 @@ Android ™
 -   Pixel 10 Pro
 -   Pixel 10 Pro XL
 -   Zebra TC51
+-   Zebra TC22
+-   Zebra TC22R
 
  **Important:**
 

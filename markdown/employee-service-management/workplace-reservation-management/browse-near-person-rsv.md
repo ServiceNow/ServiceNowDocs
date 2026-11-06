@@ -7,7 +7,7 @@ release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2026-09-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Reserve workplace items, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -26,15 +26,15 @@ Role required: admin
 
 1.  Select any of the following context menu navigation options to make a workplace reservation and reserve a space near your preferred colleague or a team member.
 
-<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d753344e76">
+<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d750592e76">
 
 Location
 
-</th><th align="left" id="d753344e79">
+</th><th align="left" id="d750592e79">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d753344e85">
+</th></tr></thead><tbody><tr><td id="d750592e85">
 
 **Application navigation filter**
 
@@ -42,7 +42,7 @@ Steps
 
 Navigate to **All** &gt; **Workplace Reservation Management** &gt; **Portal** &gt; **New Reservation**.
 
-</td></tr><tr><td id="d753344e109">
+</td></tr><tr><td id="d750592e109">
 
 **From Employee Center Portal**
 
@@ -134,9 +134,9 @@ Make a reservation portal page opens for you to make workplace reservations.
 
 [Create a reservation]()
 
-[Add invitees as collaborators and create a reservation]()
-
 [Auto-resolve recurring reservations]()
+
+[Add invitees as collaborators and create a reservation]()
 
 [Set a location as favorite using the Space details page]()
 
@@ -163,4 +163,6 @@ Make a reservation portal page opens for you to make workplace reservations.
 [Reserve a workplace using the Quick Reservation widget]()
 
 [Download an iCalendar for a reservation]()
+
+[Manage and configure reservation waitlist]()
 

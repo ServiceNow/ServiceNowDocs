@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/add-invoices-to-case-list.html
 release: australia
 topic_type: reference
-last_updated: "2026-04-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Business Portal reference, Reference, Sales Customer Relationship Management]
 ---

@@ -7,9 +7,9 @@ release: australia
 product: CMDB CI Class Models
 classification: cmdb-ci-class-models
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [CMDB CI class models, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB CI class models, CMDB hierarchy, Explore, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Transport Layer Security \(TLS\) extension classes
@@ -47,7 +47,7 @@ The CMDB CI Class Models: Release 1.4.0 updates the following class:
 The CMDB CI Class Models app changes the Unique Certificate \[cmdb\_ci\_certificate\] class as follows:
 
 -   The **assigned\_to** attribute now depends on the **assignment\_group** attribute so that users in the **assigned\_to** attribute are filtered based on the specified **assignment\_group**.
--   The [Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cert-inventory-mgmt.md) app populates the Unique Certificate \[cmdb\_ci\_certificate\] table. The list view for that class does not have a **New** button and you can no longer add new records to the table. This is because there are certain fields that are extracted from binary encoded parameters in the certificate which users may not be able to provide. Also, certificates have to be discovered rather uploaded.
+-   The [Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cert-inventory-mgmt.md) app populates the Unique Certificate \[cmdb\_ci\_certificate\] table. The list view for that class does not have a **New** button and you can no longer add new records to the table. This is because there are certain fields that are extracted from binary encoded parameters in the certificate that users may not be able to provide. Also, certificates have to be discovered rather uploaded.
 -   You can no longer add or delete attachments in the **Certificate file** attribute.
 
 The CMDB CI Class Models: Release 1.3.0 adds the following classes. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).

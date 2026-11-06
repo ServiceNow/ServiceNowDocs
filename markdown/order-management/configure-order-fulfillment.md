@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configure-order-fulfillment.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Order management, Configure, Sales Customer Relationship Management]
 ---
@@ -26,6 +26,8 @@ You can define the order fulfillment processes that you require and then configu
 
 -   **[Flow actions for fulfillment subflow definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-flow-actions-fulfillment-subflows.md)**  
 If you define your own fulfillment subflows in Workflow Studio, you can use the standard flow actions that are available in the ServiceNow AI Platform. Each action deals with different aspects of the fulfillment or inventory maintenance that provides some consistency in retrieving and updating data.
+-   **[Task plan templates driven order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/somt-flow-action-catalog-task.md)**  
+Use the task plan template to define tasks and their dependencies that are needed to orchestrate the fulfillment journey for a product to standardize fulfillment processes across products.
 -   **[Integrate with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/activate-fsm-csm-integration.md)**  
 Customer Service Management provides an integration with the Field Service Management application. This integration enables you to view work order and work order task information from a case.
 -   **[Configure customer product data management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-customer-product-data-management.md)**  

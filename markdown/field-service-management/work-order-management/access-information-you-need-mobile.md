@@ -7,8 +7,8 @@ release: australia
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 keywords: [conversational search, Now Assist, technician support, SN Agent, knowledge base]
 breadcrumb: [ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
@@ -31,15 +31,15 @@ Role required: wm\_agent or wm\_dispatcher
 
 2.  View or search for the knowledge article.
 
-<table id="choicetable_h4s_zts_4fb"><thead><tr><th align="left" id="d134718e124">
+<table id="choicetable_h4s_zts_4fb"><thead><tr><th align="left" id="d137875e124">
 
 To
 
-</th><th align="left" id="d134718e127">
+</th><th align="left" id="d137875e127">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d134718e133">
+</th></tr></thead><tbody><tr><td id="d137875e133">
 
 **View knowledge articles for a work order task assigned to you**
 
@@ -51,7 +51,7 @@ Do this
 4.  Tap the More actions \(\[Omitted image "OverflowIcon.png"\] Alt text: More actions icon\) icon and then select **View Knowledge**.
  The application uses the task short description to search all knowledge bases and returns articles based on that search.
 
-</td></tr><tr><td id="d134718e179">
+</td></tr><tr><td id="d137875e179">
 
 **Search knowledge articles**
 
@@ -94,15 +94,15 @@ Role required: wm\_agent or wm\_dispatcher
 
 4.  Connect with a team member.
 
-<table id="choicetable_kwh_dyr_4gb"><thead><tr><th align="left" id="d134718e327">
+<table id="choicetable_kwh_dyr_4gb"><thead><tr><th align="left" id="d137875e327">
 
 To
 
-</th><th align="left" id="d134718e330">
+</th><th align="left" id="d137875e330">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d134718e336">
+</th></tr></thead><tbody><tr><td id="d137875e336">
 
 **Place a call**
 
@@ -113,7 +113,7 @@ Do one of the following:-   Tap the **Phone** icon and tap **Dial number**to imm
 -   Open the member profile, tap the mobile number, and select **Dial number**.
 
 
-</td></tr><tr><td id="d134718e369">
+</td></tr><tr><td id="d137875e369">
 
 **Send a text message**
 
@@ -126,7 +126,7 @@ Tap the **Phone** icon and tap **Send SMS** to send a text message to the team m
 3.  Select **Send SMS** and send your message through one of the available messaging options.
 
 
-</td></tr><tr><td id="d134718e402">
+</td></tr><tr><td id="d137875e402">
 
 **View the member's location on the map**
 
@@ -201,15 +201,15 @@ You can provide feedback on a knowledge article in either online or offline mode
 
 3.  Provide feedback for the article by marking it as helpful or not helpful, rating it, or leaving a comment.
 
-<table id="choicetable_zmn_tm2_14b"><thead><tr><th align="left" id="d134718e695">
+<table id="choicetable_zmn_tm2_14b"><thead><tr><th align="left" id="d137875e695">
 
 To
 
-</th><th align="left" id="d134718e698">
+</th><th align="left" id="d137875e698">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d134718e704">
+</th></tr></thead><tbody><tr><td id="d137875e704">
 
 **Mark an article as helpful or unhelpful**
 
@@ -217,7 +217,7 @@ Do this
 
 Tap the helpful icon \(\[Omitted image "KnowledgeHelpful.png"\] Alt text: Helpful icon.\) or the not helpful icon \(\[Omitted image "KnowledgeNotHelpful.png"\] Alt text: Not helpful icon.\).
 
-</td></tr><tr><td id="d134718e725">
+</td></tr><tr><td id="d137875e725">
 
 **Rate the article**
 
@@ -225,7 +225,7 @@ Tap the helpful icon \(\[Omitted image "KnowledgeHelpful.png"\] Alt text: Helpfu
 
 Tap the star icons displayed on the article to indicate its effectiveness on a scale of 1 to 5.
 
-</td></tr><tr><td id="d134718e734">
+</td></tr><tr><td id="d137875e734">
 
 **Enter your comment \[available only in online mode\]**
 
@@ -235,7 +235,7 @@ Tap the star icons displayed on the article to indicate its effectiveness on a s
 2.  Enter the comment and click **Submit**.
 
 
-</td></tr><tr><td id="d134718e758">
+</td></tr><tr><td id="d137875e758">
 
 **View all comments and replies posted for the article \[available only in online mode\]**
 
@@ -245,7 +245,7 @@ Tap the star icons displayed on the article to indicate its effectiveness on a s
 2.  Scroll down to see the comments.
 
 
-</td></tr><tr><td id="d134718e780">
+</td></tr><tr><td id="d137875e780">
 
 **Like a comment on the article \[available only in online mode\]**
 
@@ -255,7 +255,7 @@ Tap the star icons displayed on the article to indicate its effectiveness on a s
 2.  Underneath a comment, tap the like icon \(\[Omitted image "like-comment-now-mobile.png"\] Alt text: Like icon.\).
 
 
-</td></tr><tr><td id="d134718e807">
+</td></tr><tr><td id="d137875e807">
 
 **Reply to a comment on the article \[available only in online mode\]**
 
@@ -358,17 +358,19 @@ Role required: wm\_agent
 
 ### About this task
 
+\[Omitted video\] Description: This video demonstrates how to use conversational search for technician support
+
 You can ask questions in your own words and receive responses from the Knowledge Base, including relevant details and step-by-step guidance to help you diagnose and resolve issues.
 
-**Note:** ServiceNow Otto generates responses using AI. Review answers before acting on them, as generated content may not be accurate.
+**Note:** ServiceNow Otto® generates responses using AI. Review answers before acting on them, as generated content may not always be accurate.
 
 ### Procedure
 
-1.  Tap ServiceNow Otto on the navigation bar.
+1.  Tap ServiceNow Otto® in the navigation bar.
 
 2.  In the **Quick actions** section, tap **Ask ServiceNow Otto**.
 
-3.  In the ServiceNow Otto panel, type a question.
+3.  In the ServiceNow Otto® panel, type a question.
 
     For example: `How do I install a router?`
 

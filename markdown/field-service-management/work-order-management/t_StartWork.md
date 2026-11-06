@@ -7,7 +7,7 @@ release: australia
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Managing tasks, Execute from the agent map, Execute work order tasks, Updating task status, Completing work orders on the web interface, Use, Field Service Management]
 ---
@@ -39,7 +39,7 @@ As a field service agent, to provide a more accurate representation of the work 
 
     -   To perform any task related activities before starting work, click **Check-In**
 
-        **Note:** At this stage, a notification is sent to the customer, informing them that the agent has arrived on-site and is ready to begin the work. For more information, see [Customer notifications for work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/Configuring-cust-exp.md). The substate **Onsite Arrival** is automatically set, indicating that you have reached your travel destination for the work order task.
+        **Note:** At this stage, a notification is sent to the customer, informing them that the agent has arrived on-site and is ready to begin the work. For more information, see [Customer notifications for work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/Customer-notification-work-order-tasks.md). The substate **Onsite Arrival** is automatically set, indicating that you have reached your travel destination for the work order task.
 
     -   To start work directly and check-in automatically, click **Start Work**.
     -   The **Actual work start** field is automatically updated with the current system time, marking the beginning of the task.

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/rest-soap-code-sign.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [REST and SOAP Signing, Using Code Signing, Code Signing, Platform Security]
 ---
 
@@ -79,4 +79,6 @@ Role required: sn\_kmf.cryptographic\_manager
 
     A confirmation message is displayed mentioning that the records are signed.
 
+
+**Parent Topic:**[Sign the REST and SOAP messages in the production instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/cs-rest-soap.md)
 

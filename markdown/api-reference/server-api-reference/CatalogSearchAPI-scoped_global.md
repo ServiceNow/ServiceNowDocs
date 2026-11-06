@@ -7,7 +7,7 @@ release: australia
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2026-06-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 15
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
@@ -18,7 +18,7 @@ CatalogSearchAPI is a script include used to search and retrieve product catalog
 
 The CatalogSearchAPI API is available by default with the Product Catalog Management application and is offered as the script include sn\_prd\_pm.CatalogSearchAPI under the namespace sn\_prd\_pm. No special roles are required to access this API.
 
-The [Product Catalog Search API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/product-catalog-search-api.md) REST API wraps this CatalogSearchAPI JavaScript API.
+This JavaScript API wraps the [Product Catalog Search API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/product-catalog-search-api.md) REST endpoint.
 
 **Note:** There are distinct differences between this API and [CatalogSearch - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_CatalogSearchScoped.md) though they're almost identically named. CatalogSearch API is a native ServiceNow platform API documented in the public API reference under `com.glideapp.servicecatalog.CatalogSearch`. It provides basic catalog item search functionality available in scoped scripts via the standard platform.
 
@@ -105,23 +105,23 @@ Object
 Context object that controls pricing, eligibility, and localization applied to search results. When omitted, the API derives context from the account if one is provided.```
 "headerContext": {
       "account": "String",
-      "pricelist": "String",
-      "currency": "String",
-      "suppressPricing": String,
-      "transaction_date": "String",
-      "shipping_city": "String",
-      "shipping_country": "String",
-      "shipping_location": "String",
-      "shipping_state": "String",
-      "shipping_street": "String",
-      "shipping_zip": "String",
       "billing_city": "String",
       "billing_country": "String",
       "billing_location": "String",
       "billing_state": "String",
       "billing_street": "String",
       "billing_zip": "String",
-      "sales_agreement": "String"
+      "currency": "String",
+      "pricelist": "String",
+      "suppressPricing": String,
+      "sales_agreement": "String",
+      "shipping_city": "String",
+      "shipping_country": "String",
+      "shipping_location": "String",
+      "shipping_state": "String",
+      "shipping_street": "String",
+      "shipping_zip": "String",
+      "transaction_date": "String"
     }
 ```
 
@@ -496,16 +496,17 @@ An array matching the current filter criteria, including search terms, selected 
 ```
 "response": [
  {
-   "productOfferingSysId": {Object},
    "code": {Object},
-   "name": {Object},
    "description": {Object},
-   "offerType": {Object},
-   "pricingMethod": "String",
-   "uom": {Object},
-   "offerTypeVariation": "String",
    "listPrice": "String",
-   "priceList": "String"
+   "name": {Object},
+   "offerType": {Object},
+   "offerTypeVariation": "String",
+   "priceList": "String",
+   "pricingMethod": "String",
+   "productOfferingFamily": {Object},
+   "productOfferingSysId": {Object},
+   "uom": {Object}
  }
 ]
 ```
@@ -587,7 +588,7 @@ Stored \(raw\) value of the description.Data type: String
 
 </td></tr><tr><td>
 
-response.items. listPrice
+response.items.listPrice
 
 </td><td>
 
@@ -626,7 +627,7 @@ Stored \(raw\) value of the field.Data type: String
 
 </td></tr><tr><td>
 
-response.items. offerTypeVariation
+response.items.offerTypeVariation
 
 </td><td>
 
@@ -634,7 +635,7 @@ Variation type of the offering, typically matching offerType.Data type: String
 
 </td></tr><tr><td>
 
-response.items. priceList
+response.items.priceList
 
 </td><td>
 
@@ -655,7 +656,7 @@ Data type: String
 
 </td></tr><tr><td>
 
-response.items. productOfferingSysId
+response.items.productOfferingSysId
 
 </td><td>
 
@@ -670,7 +671,7 @@ List containing the sys\_id\(s\) of the product offering record\(s\).Data type: 
 
 </td></tr><tr><td>
 
-response.items. semanticSimilarity
+response.items.semanticSimilarity
 
 </td><td>
 
@@ -740,7 +741,22 @@ Stored \(raw\) value of the field.Data type: String
 
 </td></tr><tr><td>
 
-response. productOfferingSysId.displayValue
+response.productOfferingFamily
+
+</td><td>
+
+Product offering family to which the offering belongs to.Data type: Object
+
+```
+"productOfferingFamily": {
+    "value": "String",
+    "displayValue": "String"
+}
+```
+
+</td></tr><tr><td>
+
+response.productOfferingFamily.displayValue
 
 </td><td>
 
@@ -748,7 +764,23 @@ Display value of the field.Data type: String
 
 </td></tr><tr><td>
 
-response. productOfferingSysId.value
+response.productOfferingFamily.value
+
+</td><td>
+
+Stored \(raw\) value of the field.Data type: String
+
+</td></tr><tr><td>
+
+response.productOfferingSysId.displayValue
+
+</td><td>
+
+Display value of the field.Data type: String
+
+</td></tr><tr><td>
+
+response.productOfferingSysId.value
 
 </td><td>
 
@@ -915,6 +947,10 @@ Output:
         "value": "simple",
         "displayValue": "simple"
       },
+      "productOfferingFamily": {
+        "value": "<product_offering_family_sys_id>",
+        "displayValue": "Networking Equipment"
+      },
       "pricingMethod": "one_time",
       "uom": {
         "sysId": "<uom_sys_id>",
@@ -1014,6 +1050,10 @@ Output:
         "value": "simple",
         "displayValue": "simple"
       },
+      "productOfferingFamily": {
+        "value": "<product_offering_family_sys_id>",
+        "displayValue": "Business Computing"
+      },
       "pricingMethod": "one_time",
       "uom": {
         "sysId": "<uom_sys_id>",
@@ -1086,7 +1126,7 @@ Output:
       "description": {
         "value": "Managed VPN Service",
         "displayValue": "Managed VPN Service"
-      },sort
+      },
       "offerType": {
         "value": "config",
         "displayValue": "config"
@@ -1123,7 +1163,7 @@ Object
 
 </td><td>
 
-Context object that controls the eligibility used to resolve the catalog-category hierarchy. When omitted, the API derives context from the account if one is provided.```
+Context object that controls pricing, eligibility, and localization applied to search results. When omitted, the API derives context from the account if one is provided.```
 "headerContext": {
     "account": "String",
     "billing_city": "String",

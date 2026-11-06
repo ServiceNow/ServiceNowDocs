@@ -7,10 +7,10 @@ release: australia
 product: ReleaseOps
 classification: releaseops
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [ReleaseOps, deploy changes, update sets, pipeline, ATF, schedule a release, deployment request, deployment analyzer, configure ReleaseOps]
-breadcrumb: [Configure, ReleaseOps, Deploying applications, Building applications]
+breadcrumb: [Configure, ReleaseOps, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Complete ReleaseOps manual setup
@@ -102,4 +102,6 @@ Confirm that multi-instance management has been configured to enable all non-pro
 ## Result
 
 ReleaseOps is ready to deploy changes from your development to test to production instances.
+
+**Parent Topic:**[Configuring ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/configuring-releaseops.md)
 

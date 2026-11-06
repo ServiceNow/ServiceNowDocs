@@ -7,7 +7,7 @@ release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Work on a third-party contract review request, Third-party contract review requests, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -36,15 +36,15 @@ Role required: sn\_lg\_cnt.contract\_fulfiller
 
 6.  Modify the supporting documents.
 
-<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d395814e118">
+<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d394907e118">
 
 Action
 
-</th><th align="left" id="d395814e121">
+</th><th align="left" id="d394907e121">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d395814e127">
+</th></tr></thead><tbody><tr><td id="d394907e127">
 
 **Add supporting documents**
 
@@ -77,7 +77,7 @@ This option is available only when external storage is enabled. The **External s
 3.  \(Optional\) Add more information about the document in the **Work notes** field.
 
 
-</td></tr><tr><td id="d395814e279">
+</td></tr><tr><td id="d394907e279">
 
 **Reclassify supporting documents**
 
@@ -85,7 +85,7 @@ This option is available only when external storage is enabled. The **External s
 
 [Reclassify contract documents in third-party contract review request as a legal fulfiller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-tpc-reclassify-doc.md)
 
-</td></tr><tr><td id="d395814e293">
+</td></tr><tr><td id="d394907e293">
 
 **Remove the supporting document**
 

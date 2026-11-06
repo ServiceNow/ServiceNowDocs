@@ -1,20 +1,20 @@
 ---
 title: Resolving cloning issues in Indoor Mapping instances
-description: After cloning a Indoor Mapping source instance to a target instance, workplace administrators may observe missing attachments and data discrepancies in their target instance.
+description: After cloning an Indoor Mapping source instance to a target instance, workplace administrators may observe missing attachments and data discrepancies in their target instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/indoor-mapping/troubleshooting-clone-issues.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping
 topic_type: topic
-last_updated: "2026-07-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Indoor Mapping, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Resolving cloning issues in Indoor Mapping instances
 
-After cloning a Indoor Mapping source instance to a target instance, workplace administrators may observe missing attachments and data discrepancies in their target instance.
+After cloning an Indoor Mapping source instance to a target instance, workplace administrators may observe missing attachments and data discrepancies in their target instance.
 
 ## Symptom
 
@@ -97,5 +97,5 @@ Enter the following table information as required:-   **\[sn\_map\_core\_font\]*
 
 **Previous topic:**[Bulk upload Excel columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/bulk-template-columns.md)
 
-**Next topic:**[Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/workplace-central-feat.md)
+**Next topic:**[Places display on the wrong floor in Manage Directions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/indoor-mapping/troubleshooting-floors-overlap-manage-directions.md)
 

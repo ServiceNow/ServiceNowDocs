@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/order-mgt-state-values.html
 release: australia
 topic_type: reference
-last_updated: "2025-10-10"
-reading_time_minutes: 8
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Order Management reference, Reference, Sales Customer Relationship Management]
 ---
 
@@ -98,7 +98,7 @@ Revision in progress
 
 </td><td>
 
-Customer order revision that is in process but has not been approved.As part of the Inflight Order Change functions, when you are currently in the process of updating the customer order, it moves to this state.
+Customer order revision that is in process but has not been approved.
 
 </td></tr><tr><td>
 
@@ -130,7 +130,7 @@ Assessing cancellation
 
 </td><td>
 
-As part of the Inflight Order Change functions, when a cancellation request is submitted for the customer order, it moves to this state. A cancellation request has been submitted for the customer order.
+A cancellation request has been submitted for the customer order.
 
 </td></tr><tr><td>
 
@@ -160,12 +160,7 @@ All associated customer order line items are complete.**Note:** After your agent
 -   The **State** field for each of the individual customer order line items is set to Completed.
 
 </td></tr></tbody>
-</table>**Note:** To learn more about Inflight Order Change functions and how they affect the Revision in Process, Assessing Cancellation, Cancellation in Progress, and Canceled customer order states, see the following:
-
--   
--   
-
-## Order line item form states
+</table>## Order line item form states
 
 Use the **State** field on the order line item form to determine the current processing state for an individual customer order line item. You can also use it to perform certain types of customer order actions, such as canceling a line item.
 
@@ -276,15 +271,6 @@ Customer order line item that is on hold. No further fulfillment processing can 
 
 </td></tr><tr><td>
 
-Assessing cancellation
-
-</td><td>
-
-As part of the Inflight Order Change functions, when a cancellation request is submitted for the customer order line item, it moves to this state. To learn more, see the following:-   
--   
-
-</td></tr><tr><td>
-
 Cancellation in progress
 
 </td><td>
@@ -312,12 +298,7 @@ Customer order line item and all associated domain orders and order tasks that a
 -   The **State** field for each of the individual customer order line items is set to Completed.
 
 </td></tr></tbody>
-</table>**Note:** To learn more about Inflight Order Change functions and how they affect the Revision in Process, Assessing Cancellation, Cancellation in Progress, and Canceled customer order line item states, see the following:
-
--   
--   
-
-## Product Order, Service Order, and Resource Order form states
+</table>## Product Order, Service Order, and Resource Order form states
 
 Use the **State** fields on the Product Order, Service Order, and Resource Order forms to determine the current processing state for a product order, service order, or resource order.
 

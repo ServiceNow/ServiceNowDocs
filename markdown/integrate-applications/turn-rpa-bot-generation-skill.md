@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/turn-rpa-bot-generation-skill.html
 release: australia
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
 breadcrumb: [Install ServiceNow Otto for RPA Hub, Configure, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]

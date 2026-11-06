@@ -7,18 +7,18 @@ release: australia
 product: Value Library
 classification: value-library
 topic_type: concept
-last_updated: "2026-05-10"
-reading_time_minutes: 1
-breadcrumb: [Value management, Using Impact, Impact]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Value Management, Impact reference, Impact]
 ---
 
 # Product value
 
 View how your ServiceNow investment is performing against the outcomes you are tracking, with full visibility into how values are calculated and the assumptions that drive them.
 
-The product value overview surfaces operational and monetized performance data directly from your ServiceNow instance. The product value overview is currently available for IT Service Management.
+The product value overview surfaces operational and monetized performance data directly from your ServiceNow instance. The product value overview is currently available for IT Service Management, Customer Service Management, and HR Service Delivery.
 
-**Note:** This experience requires the current version of the Impact Store Application, and is only available to IT Service Management customers using enhanced outcome definitions. The Product Value Overview is available from the Value management navigation menu.
+**Note:** This experience requires the current version of the Impact Store Application, and is only available to IT Service Management, Customer Service Management, and HR Service Delivery customers using enhanced outcome definitions. The Product Value Overview is available from the Value management navigation menu.
 
 \[Omitted image "product\_value.png"\] Alt text: Product Value
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/data-visualization-mobile-fields.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a mobile analytics preview, Mobile dashboard preview, Launcher screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---

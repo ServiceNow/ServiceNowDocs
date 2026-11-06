@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/using-activity-stream-in-an-email-interaction.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Email Interaction for CSM]
 breadcrumb: [Engage via email interactions, Using Email Interaction for CSM, Customer communication, Use, Customer Service Management]
@@ -128,7 +128,7 @@ Expand and collapse posts
 
 </td><td>
 
-Select the Expand all activity post icon \(\[Omitted image "Expand\_icon\_eaai\_new.png"\] Alt text: Expand all activity post icon\) to view additional details in posts or select the Collapse all activity post icon \(\[Omitted image "Collapse\_icon\_eaai\_new.png"\] Alt text: Collapse all activity post icon\) to go back to the previous state.
+Select the Expand all activity post icon \(\[Omitted image "Expand\_icon\_eaai\_new.png"\] Alt text: Expand all activity post icon\) to view additional details in posts. Select the Collapse all activity post icon \(\[Omitted image "Collapse\_icon\_eaai\_new.png"\] Alt text: Collapse all activity post icon\) to go back to the previous state.
 
 </td></tr></tbody>
 </table>

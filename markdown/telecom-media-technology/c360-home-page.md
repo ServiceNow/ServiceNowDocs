@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/c360-home-page.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [customer 360, telecom, customer information, billing, products, interaction history]
 breadcrumb: [Use, Telecommunications Customer 360, Telecommunications, Media, and Technology \(TMT\)]
@@ -15,7 +15,7 @@ breadcrumb: [Use, Telecommunications Customer 360, Telecommunications, Media, an
 
 Telecommunications Customer 360 consolidates customer information, interaction history, products, and billing into a single view. The view displayed is based on the record type which can be account, consumer, or contact.
 
-To view the page, navigate to the **CSM/FSM Configurable Workspace** and select an account, consumer, or a contact from the **List** view.
+To view the page, navigate to the **CRM Workspace** and select an account, consumer, or a contact from the **List** view.
 
 \[Omitted image "home-page.jpg"\] Alt text: Customer 360 home page showing consumer information card for Charles Audrey, customer health metrics, interaction history timeline, billing details, and products section with service specifications
 

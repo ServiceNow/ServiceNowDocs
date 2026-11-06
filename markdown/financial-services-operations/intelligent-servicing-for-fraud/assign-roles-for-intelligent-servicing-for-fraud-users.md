@@ -7,7 +7,7 @@ release: australia
 product: Intelligent Servicing for Fraud
 classification: intelligent-servicing-for-fraud
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [assign roles for fraud users, fraud user roles, sn\_bom\_fraud.admin, sn\_bom\_fraud.agent, sn\_bom\_fraud.manager, sn\_bom\_fraud.viewer, sn\_bom\_fraud.contributor, sn\_bom\_fraud.agent\_connector, fraud access control, fraud role assignment, assign role to user, assign role to group]
 breadcrumb: [Configure, Intelligent Servicing for Fraud, Banking applications, Financial Services Operations \(FSO\)]

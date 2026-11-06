@@ -7,9 +7,9 @@ release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing incidents and tasks using My Work applet, ITSM Mobile Agent, IT Service Management]
+breadcrumb: [Managing incidents and tasks using the My Work applet, ITSM Mobile Agent, IT Service Management]
 ---
 
 # View upcoming shifts with On-Call Scheduling

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/fso-int\_guide-work\_case\_types.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Developer resources, Financial Services Operations \(FSO\)]
 ---
@@ -22,6 +22,14 @@ You can extend from existing case types that are provided in Financial Services 
 If you need a new case type that can't be extended from an existing application, you can create one by extending the FSO Base Case \(sn\_bom\_case\) table.
 -   **[Service Definitions in FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-int_guide-service-definitions-in-fso.md)**  
 A service definition describes a service that a financial institution offers to support a product that they sell. Service definitions work with case types to provide different types of support inquiries and unique request and fulfillment processes. In FSO, a sample list of service definitions is preconfigured for each product and line of business.
+-   **[Banking &amp; wealth service definition and case type relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-int-guide-service-defs-case-types.md)**  
+Diagrams showing the relationships between FSO banking applications, service definitions, and case types.
+-   **[Insurance service definition and case type relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-int-guide-service-defs-ins-case-types.md)**  
+Diagrams showing the relationships between FSO insurance applications, service definitions, and case types.
+-   **[Banking &amp; wealth case and task layers by application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/banking-wealth-app-case-task-layers.md)**  
+Case and task definitions for each FSO Banking &amp; Wealth application scope, organized by the customer requests they fulfill and the service definitions behind them. Use this reference when configuring workflows or understanding the structure of case and task layers.
+-   **[Insurance case and task layers by application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/insurance-application-case-task-layers.md)**  
+Case and task definitions organized by FSO Insurance application scope. Use this reference to identify which service definitions support each case type and task type across personal lines, commercial lines, life insurance, claims, and underwriting applications.
 
 **Parent Topic:**[Developer guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/fso-int_guide-overview.md)
 

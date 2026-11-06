@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [SAP DMS external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -45,7 +45,7 @@ To allow the connector to access your SAP DMS source system via this API, you mu
 
     1.  Log in to the SAP Business Technology Platform \(BTP\) at [https://cockpit.btp.cloud.sap/](https://cockpit.btp.cloud.sap/) using your global account credentials.
 
-    2.  In the Subaccounts tab, select your subaccount.
+    2.  In the **Subaccounts** tab, select your subaccount.
 
     3.  Navigate to **Service Marketplace**.
 
@@ -70,7 +70,7 @@ To allow the connector to access your SAP DMS source system via this API, you mu
 
     1.  From your subaccount, navigate to **Instances and Subscriptions**.
 
-    2.  In the Subscriptions tab, in the row for your new Document Management Service, Application Option service instance, select **…** &gt; **Create Service Key**.
+    2.  In the **Subscriptions** tab, in the row for your new Document Management Service, Application Option service instance, select **…** &gt; **Create Service Key**.
 
     3.  On the New Service Key form, enter a name for your new service key.
 
@@ -84,7 +84,7 @@ To allow the connector to access your SAP DMS source system via this API, you mu
 
     1.  Log in to the SAP Business Technology Platform \(BTP\) at [https://cockpit.btp.cloud.sap/](https://cockpit.btp.cloud.sap/) using your global account credentials.
 
-    2.  In the Subaccounts tab, select your subaccount.
+    2.  In the **Subaccounts** tab, select your subaccount.
 
     3.  Navigate to **Service Marketplace**.
 
@@ -109,7 +109,7 @@ To allow the connector to access your SAP DMS source system via this API, you mu
 
     1.  From your subaccount, navigate to **Instances and Subscriptions**.
 
-    2.  In the Subscriptions tab, in the row for your new Document Management Service, Integration Option service instance, select **…** &gt; **Create Service Key**.
+    2.  In the **Subscriptions** tab, in the row for your new Document Management Service, Integration Option service instance, select **…** &gt; **Create Service Key**.
 
     3.  On the New Service Key form, enter a name for your new service key.
 
@@ -141,7 +141,7 @@ To allow the connector to access your SAP DMS source system via this API, you mu
 
     1.  Log in to the SAP Business Technology Platform \(BTP\) at [https://cockpit.btp.cloud.sap/](https://cockpit.btp.cloud.sap/) using your global account credentials.
 
-    2.  In the Subaccounts tab, select your subaccount.
+    2.  In the **Subaccounts** tab, select your subaccount.
 
     3.  Navigate to **Service Marketplace**.
 
@@ -166,7 +166,7 @@ To allow the connector to access your SAP DMS source system via this API, you mu
 
     1.  From your subaccount, navigate to **Instances and Subscriptions**.
 
-    2.  In the Subscriptions tab, in the row for your new Document Management Service, Repository Option service instance, select **…** &gt; **Create Service Key**.
+    2.  In the **Subscriptions** tab, in the row for your new Document Management Service, Repository Option service instance, select **…** &gt; **Create Service Key**.
 
     3.  On the New Service Key form, enter a name for your new service key.
 
@@ -266,7 +266,7 @@ To allow the connector to access your SAP DMS source system via this API, you mu
 
     1.  From your subaccount, navigate to **Instances and Subscriptions**.
 
-    2.  In the Subscriptions tab, in the row for your new Authorization and Trust Management Service instance, select **…** &gt; **Create Service Key**.
+    2.  In the **Subscriptions** tab, in the row for your new Authorization and Trust Management Service instance, select **…** &gt; **Create Service Key**.
 
     3.  On the New Service Key form, enter a name for your new service key.
 
@@ -417,7 +417,7 @@ Enter a unique name for this service instance.
 
     1.  From your subaccount, navigate to **Instances and Subscriptions**.
 
-    2.  In the Subscriptions tab, in the row for your new Authorization and Trust Management Service instance with the application plan, select **…** &gt; **Create Service Key**.
+    2.  In the **Subscriptions** tab, in the row for your new Authorization and Trust Management Service instance with the application plan, select **…** &gt; **Create Service Key**.
 
     3.  On the New Service Key form, enter a name for your new service key.
 

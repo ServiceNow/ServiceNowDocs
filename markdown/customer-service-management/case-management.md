@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/case-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Organize agent workspaces, Configure, Customer Service Management]
 ---
 
@@ -32,7 +32,7 @@ Configure the case management features that enable agents and customers to creat
 
 -   [Configure a Case form view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-case-form.md) to display the desired fields and related lists.
 -   [Configure SLA definitions for customer service cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/t_DefineSLAForCustServiceCase.md) to specify the time within which service must be provided.
--   [Configure major issue management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-major-issue-management.md) to manage the communication and resolution process for issues that impact multiple customers.
+-   [Major issue management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/major-issue-management.md) to manage the communication and resolution process for issues that impact multiple customers.
 -   [Configure special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-special-handling-notes.md) to bring important case information to an agent’s attention.
 
 </td></tr><tr><td>
@@ -42,38 +42,6 @@ Configure the case management features that enable agents and customers to creat
 </td><td>
 
 Configure case types to handle different types of customer issues. When creating cases, agents can select the case type that corresponds to the customer issue.
-
-</td></tr><tr><td>
-
-[Task Plan Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/task-plan-templates.md)
-
-</td><td>
-
-A task plan template defines the tasks, records, and conditions used to automatically create work when the template is applied.
-
-</td></tr><tr><td>
-
-[Order Operations Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-case-mgmt-order-ops.md)
-
-</td><td>
-
-Order Operations Case Management enables agents to manage issues across multiple orders or order lines within a single case. It uses order‑based case line items so agents can track, resolve, and close each issue independently before closing the overall order case.
-
-</td></tr><tr><td>
-
-[Case Lines and Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-case-mgmt-case-lines.md)
-
-</td><td>
-
-Case Lines and Workflows enables agents and customers to manage multiple related issues within a single case. It uses case line items to track, act on, and resolve each issue independently before closing the overall case.
-
-</td></tr><tr><td>
-
-[Case Management for Invoice Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-invoice-operations.md)
-
-</td><td>
-
-Case Management for Invoice Operations enables agents to manage invoice‑related issues within a single case. It uses invoice‑based case lines to track, resolve, and close multiple invoice or invoice‑line issues independently before closing the overall invoice case.
 
 </td></tr><tr><td>
 

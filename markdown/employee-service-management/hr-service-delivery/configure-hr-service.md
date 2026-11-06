@@ -7,7 +7,7 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [HR service configuration, HR services, HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
@@ -70,7 +70,7 @@ Badge
 
 Badge to use with the HR service. Badges display on the portal to indicate to the employee which department is fulfilling that activity. See  for more information.
 
-</td></tr><tr><td>
+</td></tr><tr><td rowspan="7">
 
 Fulfillment type
 
@@ -80,10 +80,6 @@ Fulfillment type of the HR service. Select one of the following values:
 
 </td></tr><tr><td>
 
-
-
-</td><td>
-
 Manual
 
 </td><td>
@@ -91,10 +87,6 @@ Manual
 A simple fulfillment type with no associated configurations. For example, for a medical benefits inquiry, the HR agent would fulfill the employee's request by answering the employee's question.
 
 </td></tr><tr><td>
-
-
-
-</td><td>
 
 Service Activity
 
@@ -104,10 +96,6 @@ Service activities fulfill the HR service. In the **Service Activities** section
 
 </td></tr><tr><td>
 
-
-
-</td><td>
-
 Workflow
 
 </td><td>
@@ -115,10 +103,6 @@ Workflow
 A workflow fulfills the HR service.
 
 </td></tr><tr><td>
-
-
-
-</td><td>
 
 Lifecycle Event
 
@@ -128,10 +112,6 @@ Lifecycle Event
 
 </td></tr><tr><td>
 
-
-
-</td><td>
-
 Advanced
 
 </td><td>
@@ -139,10 +119,6 @@ Advanced
 An advanced option to fulfill the HR service using a combination of workflows and service activities.
 
 </td></tr><tr><td>
-
-
-
-</td><td>
 
 Flow
 
@@ -180,7 +156,7 @@ HR Center of Excellence \(COE\) that the HR service is categorized under.**Note:
 -   \( Enterprise Onboarding and Transition only\) An HR service for a lifecycle event can be associated with any COE.
 
 
-</td></tr><tr><td>
+</td></tr><tr><td rowspan="3">
 
 Automatically close case
 
@@ -189,10 +165,6 @@ Automatically close case
 Option to automatically close the HR case after all of the to-dos or all of the mandatory to-dos are complete. This field appears when **Service Activity** or **Lifecycle Event** is selected from **Fulfillment type**.
 
 </td></tr><tr><td>
-
-
-
-</td><td>
 
 Close when
 
@@ -203,10 +175,6 @@ Select one of the following:-   All to-dos are complete
 
 
 </td></tr><tr><td>
-
-
-
-</td><td>
 
 Close offset
 

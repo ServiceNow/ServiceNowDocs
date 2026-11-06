@@ -1,20 +1,20 @@
 ---
 title: Create assessment template form
-description: In Smart Assessment Engine, the Create Assessment Template form contains the following fields for creating an assessment template.
+description: Learn about the fields of the Create Assessment Template form. Use this form to create an assessment template.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/smart-assessment-engine/create-assessment-template-form.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create an assessment template, Use template designer, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
 
 # Create assessment template form
 
-In Smart Assessment Engine, the **Create Assessment Template** form contains the following fields for creating an assessment template.
+Learn about the fields of the **Create Assessment Template** form. Use this form to create an assessment template.
 
 <table id="table_krg_p53_2yb"><thead><tr><th>
 

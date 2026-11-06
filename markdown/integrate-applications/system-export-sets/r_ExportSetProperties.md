@@ -7,7 +7,7 @@ release: australia
 product: System Export Sets
 classification: system-export-sets
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Export sets, Exports, Workflow Data Fabric]
 ---
@@ -90,7 +90,7 @@ Minimum number of rows required for parallel export. The default value is 50000.
 
 If an export has fewer rows than this threshold, the system uses standard export processing.
 
-**Note:** To add this property and customize the threshold, navigate to **All** &gt; **System Properties** &gt; **All Properties**.
+**Note:** To add this property and customize the threshold, navigate to **All** &gt; **System Properties** &gt; **System Properties**.
 
 </td></tr></tbody>
 </table>

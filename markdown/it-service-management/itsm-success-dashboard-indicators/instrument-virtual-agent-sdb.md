@@ -1,20 +1,20 @@
 ---
 title: Configure Virtual Agent topics for ITSM Success Dashboard indicators
-description: Configure the Virtual Agent \(VA\) topics for ITSM Success Dashboard indicators so that data is displayed correctly if you have topics other than the base system topics.
+description: Map Virtual Agent topics other than base system topics to deflection patterns so data displays correctly in ITSM Success Dashboard indicators.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-success-dashboard-indicators/instrument-virtual-agent-sdb.html
 release: australia
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Virtual Agent topics for ITSM Success Dashboard, ITSM Success Dashboard Admin console, Configure, ITSM Success Dashboard indicators, IT Service Management]
 ---
 
 # Configure Virtual Agent topics for ITSM Success Dashboard indicators
 
-Configure the Virtual Agent \(VA\) topics for ITSM Success Dashboard indicators so that data is displayed correctly if you have topics other than the base system topics.
+Map Virtual Agent topics other than base system topics to deflection patterns so data displays correctly in ITSM Success Dashboard indicators.
 
 ## Before you begin
 
@@ -22,21 +22,21 @@ Role required: admin
 
 ## About this task
 
-Map the topics with deflection patterns of the **ITSM VA Default** deflection tracker. Deflection trackers helps in analysing the performance of a conversation and how helpful Virtual Agent topics are for users.
+Map the topics with deflection patterns of the **ITSM VA Default** deflection tracker. Deflection trackers help analyze the performance of a conversation and how helpful Virtual Agent topics are for users.
 
-Modify the URL for the **Link Output** in a topic to set the referrer to va so that when a catalog item is submitted, the item is calculated as a submission from Virtual Agent.
+Modify the URL for the **Link Output** in a topic to set the referrer to VA. When a catalog item is submitted, the item is calculated as a submission from Virtual Agent.
 
 ## Procedure
 
-1.  Navigate to **All &gt; Virtual Agent &gt; Designer**.
+1.  Navigate to **All** &gt; **Virtual Agent** &gt; **Designer**.
 
 2.  Select the topic for which you want to add the deflection tracker.
 
-3.  Enable the flow chart view by disabling the **Table View** toggle switch.
+3.  Enable the flow chart view by turning off the **Table View** toggle switch.
 
-4.  Drag and drop the **Deflection** node from the **Utilities** section to the place in the flowchart where you want to add the deflection pattern.
+4.  Move the **Deflection** node from the **Utilities** section to the place in the flowchart where you want to add the deflection pattern.
 
-5.  Enter the following details in the Deflection Properties pane on the right.
+5.  Enter the following details in the Deflection Properties pane.
 
 <table id="table_tbt_4rj_25b"><thead><tr><th>
 
@@ -60,7 +60,7 @@ Deflection Pattern
 
 </td><td>
 
--   **ITSM VA-Self-Resolving:** When the node in the topic indicates that Virtual Agent is able to resolve the user problem completely without creating an IT ticket \(incident or request\) and consequently contributing to the Self-solved KPIs.
+-   **ITSM VA-Self-Resolving:** Select when the topic node indicates that Virtual Agent resolves the user problem without creating an IT ticket \(incident or request\). This pattern contributes to the Self-solved KPIs.
 -   **ITSM VA-Triage &amp; Created:** When the node in the topic indicates that an IT ticket \(incident or request\) was submitted using Virtual Agent and consequently contributing to the call deflection KPIs.
 
 
@@ -85,7 +85,7 @@ List of comma-separated activity system IDs.
 
 7.  Select **Link Output** in the flow chart.
 
-8.  Select the url in the **Link** field in the Link response pane on the right.
+8.  Select the URL in the **Link** field in the Link response pane.
 
 9.  Append the URL with `&referrer=va`.
 

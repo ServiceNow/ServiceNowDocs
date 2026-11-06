@@ -7,7 +7,7 @@ release: australia
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [Contract status, State, Contract Management Pro, Contract lifecycle management workflow]
 breadcrumb: [Reference, Contract Management Pro, Legal and Contract Operations, Employee Service Management]

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/subscription-form-v2.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Subscription Management, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Reference, Subscription Management, Get started, Administer the Ser
 
 The Subscription form contains important information about your subscription.
 
-You can view the subscription form by entering `license_details.list` in the filter navigator to open the Subscriptions \[license\_details\] table. Select a subscription name to open the Subscription form. Some fields do not appear for ServiceNow Store apps.
+You can view the subscription form by entering `license_details.list` in the filter navigator to open the Subscriptions \[license\_details\] table. Select a subscription name to open the Subscription form. Some fields don't appear for ServiceNow Store apps.
 
 <table id="table_dlk_ylv_fs"><thead><tr><th>
 

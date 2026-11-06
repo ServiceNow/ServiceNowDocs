@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-08-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Review, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -39,7 +39,7 @@ Use the index inspector tool to review individual content items retrieved by an 
 
     1.  Perform the appropriate action for your version of the UI:
 
-<table id="table_els_wyl_vpb"><thead><tr><th>
+<table><thead><tr><th>
 
 UI version
 

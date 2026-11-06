@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-lists-customer-central.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure the Customer Information view using CSM Agent Workspace, Configure Customer Central, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-Lists are displayed in the Customer Information view in Agent Workspace.
+Lists are displayed in the Customer Information view in CRM Workspace.
 
 \[Omitted image "customer-lists.jpg"\] Alt text: Recent cases section displaying a list of recent cases and their details.
 

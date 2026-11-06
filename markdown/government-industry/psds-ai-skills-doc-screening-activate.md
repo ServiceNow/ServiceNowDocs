@@ -43,7 +43,7 @@ For more information, see [AI agents, skills, and agentic workflows on by defaul
     -   Document Processor \(sn\_doc\_processor\)
     -   Service Applicant Information \(sn\_svc\_appl\_info\)
     -   ServiceNow Otto for Public Sector Digital Services \(PSDS\)
-    -   Social Benefits Playbook, Grants Management, **or** License and Permit Playbook
+    -   Social Benefits Playbook, Grants Management, **or** License and Permit Administration
     For more information on configuring ServiceNow Otto in Document Intelligence, see [Configuring Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/docintel-configuring-now-assist.md).
 
 -   Perform this task in your ServiceNow instance, ensuring the ServiceNow Otto for Public Sector Digital Services \(PSDS\) Application scope is selected.

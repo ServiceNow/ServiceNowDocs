@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/conf-ent-filter.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up pillars, entity types, entity filters, and entities, Configure, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Setting up pillars, entity types, and entities, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Configure the entity filters
@@ -17,6 +17,8 @@ Configure entity filters to define the records from ServiceNow tables that popul
 ## Before you begin
 
 Role required: sn\_oper\_res.admin, sn\_oper\_res.manager
+
+Only users with the sn\_oper\_res.admin role can delete entity filters.
 
 ## About this task
 

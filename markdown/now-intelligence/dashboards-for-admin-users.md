@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/dashboards-for-admin-users.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Explore, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -16,7 +16,7 @@ Use Platform Analytics dashboards to access, organize, and share data in a visua
 
 ## Dashboard overview for analytics admins
 
-On Australia instances, you can find both Core UI dashboards and Platform Analytics experience dashboards in the Dashboards library.
+On Brazil instances, you can find both Core UI dashboards and Platform Analytics experience dashboards in the Dashboards library.
 
 To find dashboards in Platform Analytics, navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**. For users with admin roles, the dashboards page includes tools that are designed to help administrators efficiently manage the dashboards. Administrators can monitor the usage, perform dashboard-specific tasks, such as deleting or deactivating dashboards, and also identify the key insights with filters.
 
@@ -128,7 +128,7 @@ Launches the condition builder. For more information on using the condition buil
 
  The condition builder for dashboards has the following extra options:
 
--   Saved filters: Options to use a previously saved filter or to save the filter you are currently building. If you save the current filter, you name it and set who can access it.
+-   Saved filters: Options to use a previously saved filter or to save the filter you're currently building. If you save the current filter, you name it and set who can access it.
 -   Show/Hide labels: Option to show or hide labels for the fields **Field** and **Operator** in the condition builder.
 
 </td></tr><tr><td>

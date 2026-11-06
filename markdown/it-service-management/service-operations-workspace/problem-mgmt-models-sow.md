@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Problem Management in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -45,7 +45,7 @@ To begin working with custom models, see the following topics:
 -   [Create a problem model in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/create-problem-model-sow.md)
 -   [Create a problem task model in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/create-problem-task-model-sow.md)
 
-**Note:** Any problems or problem tasks that were created before you enable Problem Management models will continue to use the non-model life cycle.
+**Note:** Any problems or problem tasks that were created before you enable Problem Management models continue to use the non-model life cycle.
 
 ## Disabling Problem Management models
 
@@ -57,7 +57,7 @@ Service Operations Workspace 6.x is based on the Xanadu release and it supports 
 
 Service Operations Workspace 5.x is based on the Washington DC release and it doesn't support Problem Management models.
 
-If you are using Service Operations Workspace 5.x and you enable Problem Management models, you will manage problems and problem tasks in the classic UI16 experience, rather than in Service Operations Workspace.
+If you are using Service Operations Workspace 5.x and you enable Problem Management models, you manage problems and problem tasks in the classic UI16 experience, rather than in Service Operations Workspace.
 
 **Parent Topic:**[Problem Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/problem-sow.md)
 

@@ -1,20 +1,20 @@
 ---
 title: Restrict responsive dashboard sharing by role
-description: You can configure responsive dashboard properties to restrict which users are able to share responsive dashboards.
+description: You can configure responsive dashboard properties to restrict which users can share responsive dashboards.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/restrict-responsive-db-sharing-to-specific-roles.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Restrict responsive dashboard access to specific roles, Dashboard permissions, Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Restrict responsive dashboard access to specific roles, Core UI dashboard permissions, Administering Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Restrict responsive dashboard sharing by role
 
-You can configure responsive dashboard properties to restrict which users are able to share responsive dashboards.
+You can configure responsive dashboard properties to restrict which users can share responsive dashboards.
 
 ## Before you begin
 

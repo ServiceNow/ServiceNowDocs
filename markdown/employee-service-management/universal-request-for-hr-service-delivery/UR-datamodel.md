@@ -7,7 +7,7 @@ release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Exploring Universal Request, Universal Request, Employee Service Management]
 ---
@@ -94,7 +94,6 @@ Current state of the Universal Request. A UR can be in any of the following stat
 -   In Progress
 -   Awaiting Response from user
 -   Closed
--   Cancelled
 
  For more information on the UR states, see [Universal Request states and reasons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/universal-request-for-hr-service-delivery/ur-states.md).
 
@@ -110,7 +109,7 @@ The agent-facing reason for some requester-facing states. The state reason value
 
 A possible state reason when a Universal Request state is **In Progress**, and indicates that the Universal Request is being triaged.
 
--   **Primary ticket: In Progress**
+-   **Primary ticket WIP:**
 
 A possible state reason when a Universal Request state is **In Progress**, and indicates that the work for an active primary ticket is in progress.
 

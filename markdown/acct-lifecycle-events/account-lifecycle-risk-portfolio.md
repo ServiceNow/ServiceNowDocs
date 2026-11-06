@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-risk-portfolio.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Dashboards, Customer success, Use, Customer Success Management]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Dashboards, Customer success, Use, Customer Success Management]
 
 Get an overall view of all active risks, top risk categories, and the risk scope of all engagements with which you’re associated.
 
-Login as a user with the `sn_acct_lc.customer_success_agent` role and navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** and select the **Active risk signals** icon to view the Active risk portfolio overview page.
+Login as a user with the `sn_acct_lc.customer_success_agent` role and navigate to **Workspaces** &gt; **CRM Workspace** and select the **Active risk signals** icon to view the Active risk portfolio overview page.
 
 \[Omitted image "account-lifecycle-risk-port.png"\] Alt text: Risk portfolio page
 

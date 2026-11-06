@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/personas.html
 release: australia
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Reference, Content Understanding, Enable AI experiences]
+breadcrumb: [Reference, Content Understanding, Generative AI skills, Enable AI Experiences]
 ---
 
 # Content Understanding personas

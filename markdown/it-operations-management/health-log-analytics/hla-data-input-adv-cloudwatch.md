@@ -7,7 +7,7 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Advanced manual data input configuration, Set up data inputs manually, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-You can set system parameters for reading log data that determine the actions that the system performs on log data arriving on the MID Server. For example, you can set the time zone to use if a log lacks a timestamp. If no advanced settings are configured, the system uses the default values.
+You can set system parameters for reading log data that determine the actions that the system performs on log data arriving on the MID Server. For example, you can set the time zone to use if a log lacks a timestamp. If no advanced settings are configured, the system uses default values.
 
 ## Procedure
 
@@ -48,7 +48,7 @@ You can set system parameters for reading log data that determine the actions th
 
     Health Log Analytics adds the data input record to the Data Inputs table.
 
-7.  Ensure that the data input is configured correctly by selecting **Test connection**.
+7.  Verify that the data input is configured correctly by selecting **Test connection**.
 
     Health Log Analytics tries to connect the MID Server to the data repository.
 

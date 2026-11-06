@@ -7,7 +7,7 @@ release: australia
 product: Issue Auto Resolution for HR
 classification: issue-auto-resolution-for-hr
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Issue Auto Resolution for HR, HR Service Delivery, Employee Service Management]
 ---
@@ -26,7 +26,7 @@ Let's say that a remote employee recently joined your organization. Your employe
 
 The following example shows how a remote employee can log in to the portal without credentials by using a digest link.
 
-
+\[Omitted image "iar-simplified-login-experience.png"\] Alt text: Remote employee accessing digest link to view recommendations.
 
 The process is as follows:
 

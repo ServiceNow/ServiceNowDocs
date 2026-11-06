@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Configure, ServiceNow Otto for CSM, Customer Service Management]
@@ -19,13 +19,13 @@ Banners display information about generative AI skills and the form fields that 
 
 ## Overview of banners
 
-The generative AI banner displays information about the fields on a form that are generated or predicted by the skills available with ServiceNow Otto for CSM. Messages that appear in the banner:
+The generative AI banner displays information about the fields on a form that are generated or predicted by the skills available with ServiceNow Otto for Customer Service Management \(CSM\). Messages that appear in the banner:
 
 -   Alert agents when fields are being generated or predicted and when the process is complete.
 -   Remind agents to review the information in these fields.
 -   Inform agents if fields can't be generated or predicted.
 
-Messages also include links to the fields that are generated or predicted by ServiceNow Otto for CSM.
+Messages also include links to the fields that are generated or predicted by ServiceNow Otto for Customer Service Management \(CSM\).
 
 
 

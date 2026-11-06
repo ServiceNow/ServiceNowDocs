@@ -7,7 +7,7 @@ release: australia
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Project workspace classic - Legacy, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -31,23 +31,23 @@ Role required: it\_project\_manager
 
 ## About this task
 
-If you have added cost plans to your project, you can refer the total planned cost displayed on the column header of each period to determine the amount to request.
+You can view the rolled up total planned cost of the project cost plans on the column header for each period.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Project** &gt; **Projects** &gt; **Project Workspace**.
 
-2.  Click a project for which you want to review or manage funds.
+2.  Select a project for which you want to review or manage funds.
 
-3.  On the Project Workspace, click the **Financials** tab.
+3.  On the Project Workspace, select the **Financials** tab.
 
-4.  Click the **Funds** tab.
+4.  Select the **Funds** tab.
 
     The Funds list shows funding sources if you have previously requested funds from them for your project.
 
-5.  Click the **Add New Source** link to select the funding source.
+5.  Select the **Add New Source** link to select the funding source.
 
-6.  In the **Select a Source** pane, select one or more source investments from the list, and then click **Add Selected**.
+6.  In the **Select a Source** pane, select one or more source investments from the list, and then select **Add Selected**.
 
     The specified funding source is added in the Request Funds grid.
 
@@ -55,11 +55,11 @@ If you have added cost plans to your project, you can refer the total planned co
 
     The state of all updated funding sources changes to Draft or Planning, which is indicated by highlighted cells.
 
-8.  Click **Request**.
+8.  Select **Request**.
 
 9.  In the Confirm request dialog box, verify your requests and add a comment if required.
 
-10. Click **Request**
+10. Select **Request**
 
 
 **Parent Topic:**[Project workspace classic - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/project-workspace-classic.md)

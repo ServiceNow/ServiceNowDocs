@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/lead-to-cash-foundation-landing.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Sales Customer Relationship Management]
 ---
@@ -22,7 +22,7 @@ Select a link from the following table to explore key capabilities that streamli
 |-----------|-----------|
 |[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/product-catalog-managment.md)|Organize and maintain a unified catalog of products and services.|
 |[Pricing Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/pricing-management.md)|Manage price lists, discounts, and rules to support dynamic and region-specific pricing.|
-|[Lead to Cash Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/lead-to-cash.md)|Enable seamless integration of lead generation, quoting, order management, and fulfillment.|
+|[CRM Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/lead-to-cash.md)|Enable seamless integration of lead generation, quoting, order management, and fulfillment.|
 
 ## What to explore next
 

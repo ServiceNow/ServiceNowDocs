@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/access-fields-ext-table-vis-des.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [extended table]
 breadcrumb: [Dot-walking from reference fields, Configure, Data visualizations, Platform Analytics experience, Platform Analytics]

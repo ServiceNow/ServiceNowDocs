@@ -7,7 +7,7 @@ release: australia
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Individual Life Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -32,7 +32,7 @@ If an assigned reserve or created payment amount by an adjuster is higher than t
 
 3.  On the **Lists** tab, under Individual death claims approvals, select the item that you need to approve.
 
-<table id="choicetable_sbb_pcs_dcc"><tbody><tr><td id="d39660e114">
+<table id="choicetable_sbb_pcs_dcc"><tbody><tr><td id="d39722e114">
 
 **List name**
 
@@ -40,7 +40,7 @@ If an assigned reserve or created payment amount by an adjuster is higher than t
 
 Description
 
-</td></tr><tr><td id="d39660e123">
+</td></tr><tr><td id="d39722e123">
 
 **My approvals - Reserves**
 
@@ -48,7 +48,7 @@ Description
 
 Presents a list of approval tasks for reserve requests.
 
-</td></tr><tr><td id="d39660e132">
+</td></tr><tr><td id="d39722e132">
 
 **My approvals - Payments**
 
@@ -61,15 +61,15 @@ Presents a list of approval tasks for payment requests.
 
 5.  Submit your decision from the Claim reserve or Claim payment task form.
 
-<table id="choicetable_dhz_trz_pbc"><thead><tr><th align="left" id="d39660e156">
+<table id="choicetable_dhz_trz_pbc"><thead><tr><th align="left" id="d39722e156">
 
 Approval task
 
-</th><th align="left" id="d39660e159">
+</th><th align="left" id="d39722e159">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d39660e165">
+</th></tr></thead><tbody><tr><td id="d39722e165">
 
 **To approve an amount**
 
@@ -77,7 +77,7 @@ Action
 
 Approve the reserve or payment amount by selecting **Approve**.
 
-</td></tr><tr><td id="d39660e177">
+</td></tr><tr><td id="d39722e177">
 
 **To reject an amount**
 

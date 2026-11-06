@@ -34,7 +34,7 @@ In general, any role with write access to the record can remove documents.
 
 ## About this task
 
-When you remove a document, you choose whether to unlink it from the current record, or delete it permanently from the ServiceNow instance.
+When you remove a document, you choose whether to unlink it from the current record only, or delete it permanently from ServiceNow.
 
 Unlinking keeps the document available for other records. Deleting removes it from ServiceNow entirely and from all records where it was linked.
 
@@ -44,12 +44,12 @@ Unlinking keeps the document available for other records. Deleting removes it fr
 
 2.  Select **Remove**.
 
-    The remove dialog opens and presents options.
+    The remove dialog opens and presents your options.
 
 3.  Select one of the following options:
 
-    -   **Unlink the document from this record**: Removes the document from the current record only. The document stays in the ServiceNow platform and remains linked to other records.
-    -   **Delete document from ServiceNow**: Permanently removes the document from ServiceNow and from all records it was linked to. This action can't be undone.
+    -   **Unlink the document from this record** — Removes the document from the current record only. The document stays in the ServiceNow platform and remains linked to other records.
+    -   **Delete document from ServiceNow** — Permanently removes the document from ServiceNow and from all records it was linked to. This action cannot be undone.
     If you lack the permission, only **Unlink the document from this record** is available.
 
     When you remove a folder, the same dialog appears. Deleting a folder also removes all documents inside it. Unlinking a folder removes it from the current record only; documents in the folder remain in the Document Management System.

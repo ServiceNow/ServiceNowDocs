@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/data-model-for-deal-registration-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-10-09"
-reading_time_minutes: 2
+last_updated: "2026-11-06"
+reading_time_minutes: 1
 breadcrumb: [Deal Registration, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
 
@@ -18,16 +18,11 @@ Add data in the deal registration tables to maintain and track partner submitted
 
 |Task|Role|Description|
 |----|----|-----------|
-|[Configure Deal Registration table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-deal-registration-table.md)|Experience \(sn\_prm\_dr.deal\_reg\_ui\)|Configure the deal registration \(sn\_prm\_dr\_deal\_registration\) table to track a deal's life cycle through states and workflow stages.|
-|[Configure Deal Registration Line table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-deal-registration-line-table.md)|Experience \(sn\_prm\_dr.deal\_reg\_ui\)|Configure the Deal registration line \(sn\_prm\_dr\_deal\_registration\_line\) table to manage product level details for a single deal.|
-|[Configure Deal Registration Type table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-deal-registration-type-table.md)|Deal registration admin \(sn\_prm\_dr.deal\_reg\_admin\)|Configure the deal registration \(sn\_prm\_dr\_deal\_registration\_type\) type table to specify the role or involvement of a channel partner in a deal.|
-|[Configure Partner Program Deal Type Relationship table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-partner-program-deal-type-relationship-table.md)|Deal registration admin \(sn\_prm\_dr.deal\_reg\_admin\)|Configure the Partner program deal type relationship \(sn\_prm\_dr\_pp\_deal\_type\) table to ensure that deal types are associated to appropriate partner programs.|
-|[Configure Deal Registration Approval Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/deal-registration-approvals-overview.md)|Deal registration admin \(sn\_prm\_dr.deal\_reg\_admin\)|Use the [Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-advanced-approval-for-sales.md) to define approval rules, approval conditions, and approver sequences for deal registrations. For configuration details, see the Advanced Approval Framework documentation.|
-
--   **[Configure Deal Registration table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-deal-registration-table.md)**  
-Configure the deal registration \(sn\_prm\_dr\_deal\_registration\) table to track a deal registration's life cycle through states and workflow stages.
--   **[Configure Deal Registration Type table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-deal-registration-type-table.md)**  
-Configure the deal registration type \(sn\_prm\_dr\_deal\_registration\_type\) table to specify the role or involvement of a channel partner in a deal registration.
+||Experience \(sn\_prm\_dr.deal\_reg\_ui\)|Configure the deal registration \(sn\_prm\_dr\_deal\_registration\) table to track a deal's life cycle through states and workflow stages.|
+||Experience \(sn\_prm\_dr.deal\_reg\_ui\)|Configure the Deal registration line \(sn\_prm\_dr\_deal\_registration\_line\) table to manage product level details for a single deal.|
+||Deal registration admin \(sn\_prm\_dr.deal\_reg\_admin\)|Configure the deal registration \(sn\_prm\_dr\_deal\_registration\_type\) type table to specify the role or involvement of a channel partner in a deal.|
+||Deal registration admin \(sn\_prm\_dr.deal\_reg\_admin\)|Configure the Partner program deal type relationship \(sn\_prm\_dr\_pp\_deal\_type\) table to ensure that deal types are associated to appropriate partner programs.|
+|Configure Deal Registration Approval Rules|Deal registration admin \(sn\_prm\_dr.deal\_reg\_admin\)|Use the [Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-advanced-approval-for-sales.md) to define approval rules, approval conditions, and approver sequences for deal registrations. For configuration details, see the Advanced Approval Framework documentation.|
 
 **Parent Topic:**[Deal Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/deal-registration-management.md)
 

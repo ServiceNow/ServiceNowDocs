@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/pricing-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
-breadcrumb: [Configure, price, quote apps, Explore, Sales Customer Relationship Management]
+breadcrumb: [Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # Pricing Management
@@ -39,7 +39,7 @@ For details on setting up and managing price list features, see [Configuring pro
 
 If you're using the Sales Agreement feature, a published sales agreement price list is generated automatically when a sales agent creates a sales agreement from a completed quote. The sales agreement price list reflects the final unit price for each product that is captured as part of the sales agreement. The sales agreement price list is valid for the start and end dates specified for the agreement. To learn more about sales agreements, see [Sales Agreement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sales-agreement-mgmt.md).
 
-\[Omitted image "sales-agreement-price-list.png"\] Alt text: Sales Agreement Details tab and Price List Lines tab in CSM Configurable Workspace that show a sales agreement price list
+\[Omitted image "sales-agreement-price-list.png"\] Alt text: Sales Agreement Details tab and Price List Lines tab in CRM Workspace that show a sales agreement price list
 
 ## Cost books
 

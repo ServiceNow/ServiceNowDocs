@@ -7,9 +7,9 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a TCO report, Configure the Total Cost of Ownership of assets, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Create a TCO report in Hardware Asset Workspace, Reporting and performance, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create a TCO report source

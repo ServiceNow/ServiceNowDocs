@@ -7,7 +7,7 @@ release: australia
 product: Time Card Management
 classification: time-card-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Mobile Time Sheets, Time Card management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -34,15 +34,15 @@ The **Allow time card reporting on** field on the [project form](https://raw.git
 
 4.  Add task-related or non-task related time cards.
 
-<table id="choicetable_yfs_nxg_qmb"><thead><tr><th align="left" id="d280739e106">
+<table id="choicetable_yfs_nxg_qmb"><thead><tr><th align="left" id="d291419e106">
 
 Time card type
 
-</th><th align="left" id="d280739e109">
+</th><th align="left" id="d291419e109">
 
 Option
 
-</th></tr></thead><tbody><tr><td id="d280739e115">
+</th></tr></thead><tbody><tr><td id="d291419e115">
 
 **All time cards for project and non-project tasks from a selected time sheet**
 
@@ -50,7 +50,7 @@ Option
 
 Tap Copy from previous time sheet
 
-</td></tr><tr><td id="d280739e124">
+</td></tr><tr><td id="d291419e124">
 
 **Time cards for all project tasks assigned to the user for the time sheet week that are in progress or planned in that week**
 
@@ -58,7 +58,7 @@ Tap Copy from previous time sheet
 
 Tap Generate time cards
 
-</td></tr><tr><td id="d280739e133">
+</td></tr><tr><td id="d291419e133">
 
 **Time card for assigned task**
 
@@ -69,7 +69,7 @@ Tap Generate time cards
 -   Tap **Add**.
 
 
-</td></tr><tr><td id="d280739e157">
+</td></tr><tr><td id="d291419e157">
 
 **Time card for unassigned task**
 
@@ -80,7 +80,7 @@ Tap Generate time cards
 -   Tap **Add**.
 
 
-</td></tr><tr><td id="d280739e182">
+</td></tr><tr><td id="d291419e182">
 
 **Time card for operational work, such as administration, meeting, and KTLO**
 

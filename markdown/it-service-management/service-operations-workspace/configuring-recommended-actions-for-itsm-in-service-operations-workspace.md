@@ -7,8 +7,8 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-09-01"
-reading_time_minutes: 8
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 keywords: [recommended actions, ITSM, Service Operations Workspace, AI-powered suggestions, incident management, problem management, change management, contexts, rules, recommendations, resource generators, guidance-based recommendations, field-level recommendations, AI search, Task Intelligence, Predictive Intelligence, major incident, similar incidents, knowledge articles, agent productivity]
 breadcrumb: [Contextual side panel configurations in Service Operations Workspace for ITSM, Getting started with Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -34,7 +34,7 @@ The ITSM base system ships the following contexts:
 
 For more information about the field description of this context, see [Contexts in Recommended Actions for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/contexts-in-recommended-actions-for-itsm.md).
 
-**Note:** Recommended Actions have now introduced a context for the Interaction table.
+**Note:** Recommended Actions include a context for the Interaction table.
 
 To get the correct Recommended Actions context, you must set up the **Context Sys ID** property in the Recommended Actions record page of UI Builder in Service Operations Workspace.
 
@@ -63,7 +63,7 @@ A recommendation is a way to suggest a helpful action to an agent. A recommendat
 
 **Note:** To create a recommendation, see [Create a recommendation in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-recommendations-create.md).
 
-The ITSM base system includes Guidance-based recommendations and Field-level recommendation types.
+The ITSM base system includes guidance-based recommendations and field-level recommendation types.
 
 ## Guidance-based recommendations
 
@@ -108,7 +108,7 @@ To create a guidance and field recommendations, see [Creating guidance and field
 The ITSM base system includes the following resource generators:
 
 -   AI Search Resource Generator
--   Assignment group using Classification.
+-   Assignment group using Classification
 -   Configuration item using Classification
 -   Incident Fields predictions TI
 -   Similar Open Incidents with same CI &amp; Service
@@ -122,7 +122,7 @@ The ITSM base system includes the following resource generators:
 -   Similar incidents using TI similarity
 -   Similar PRBs using similarity
 -   Resolved Incidents with same CI &amp; Service
--   Similar resolved incidents using similarity.
+-   Similar resolved incidents using similarity
 
 For more information about the field descriptions of resource generators, see [Resource generators in Recommended Actions for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/resource-generators-in-recommended-actions-for-itsm.md).
 
@@ -132,29 +132,6 @@ For more information about the types of resource generator, see [Resource genera
 
 ## Guidances
 
-The ITSM base system includes the following guidance:
-
--   Link to major incident
--   Propose Major Incident
--   Review and attach article for incident
--   Show Change request \[No Action\]
--   Show genius result \[No Action\]
--   Show Problem \[No Action\]
--   \[Incident\] Attach KB
--   \[Incident\] Copy resolution
--   \[Incident\] Link open incident
--   \[Incident\] Link open problem
--   \[Interaction\] Review and attach article
--   \[ Non-ML\] Copy resolution
--   \[ Non-ML\] Create Problem
--   \[ Non-ML\] Link open incident
--   \[ Non-ML\] Link open problem
--   \[Task\] Link change request
--   \[Task\] Link incident
--   \[Task\] Link outage
--   \[Task\] Link problem
--   \[Task\] Order item
-
 For more information about the field descriptions of the guidance, see [Guidances in Recommended Actions for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/guidances-in-recommended-actions-for-itsm.md).
 
 **Note:** To create guidance, see [Create a guidance in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-guidances-create.md).
@@ -163,7 +140,7 @@ For more information about the field descriptions of the guidance, see [Guidance
 
 The search result mappings appear in AI search results for various records in the Service Operations Workspace.
 
-The IT Service Management base system includes the following search result mappings based on context type:
+The IT Service Management base system includes the following search result mappings based on context type.
 
 <table id="table_o3z_l2b_gkc"><thead><tr><th>
 
@@ -265,7 +242,7 @@ Request
 -   Catalog item \[sc\_cat\_item\]
 
 </td></tr></tbody>
-</table>## Search Application Configuration
+</table>## Search application configuration
 
 The IT Service Management base system includes the **\[AIS\] Recommended Actions for ITSM Search Config**. This application supports the AI search for various records in the Service Operations Workspace, including Incident, Incident Tasks, Problem, Problem Tasks, Change Request, Change Request Task, Interaction, and Request.
 
@@ -298,7 +275,7 @@ To use recommendations powered by Predictive Intelligence, install the following
 
     -   Propose major incident \(Trend\)
     -   Similar major incident \(Trend\)
-    For information about this plugin installation, see [Request Predictive Intelligence for Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/request-pred-intelli-mim.md).
+    For information about this plugin installation, see [Activate Predictive Intelligence for Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/request-pred-intelli-mim.md).
 
 -   Install the Predictive Intelligence for Incident Management \(com.snc.incident.ml\_solution\) plugin to install the following IT Service Management solution definitions.
 
@@ -315,12 +292,12 @@ To use recommendations powered by Predictive Intelligence, install the following
     For more information, see [Request Predictive Intelligence for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/request-pred-intelli-inc-mgmt.md).
 
 
-Train solution definitions to predict recommendations for an incident. For information about training solution definitions, see [Predictive Intelligence for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/predictive-intelligence-for-incident.md)
+Train solution definitions to predict recommendations for an incident. For information about training solution definitions, see [Predictive Intelligence for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/predictive-intelligence-for-incident.md).
 
 -   **[Recommended Actions for ITSM Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/sow-itsm-ra-workflow.md)**  
 Configure AI-driven recommendations for ITSM records by creating contexts, setting rules, and defining resource generators with action types. Use this workflow to enable guidance-based and field-level recommendations in Service Operations Workspace.
--   **[Access Recommended Actions for ITSM Panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/sow-itsm-access-ra-panel.md)**  
-Agents access recommended actions in Service Operations Workspace to view a list of recommendations that are presented to help to resolve incidents. They can also manually search for AI-powered recommendations to quickly find solutions.
+-   **[Accessing Recommended Actions for ITSM panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/sow-itsm-access-ra-panel.md)**  
+Agents access recommended actions in Service Operations Workspace to view a list of recommendations that help resolve incidents. They can also manually search for AI-powered recommendations to quickly find solutions.
 
 **Parent Topic:**[Contextual side panel configurations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/contextual-side-panel-configurations-sow-itsm.md)
 

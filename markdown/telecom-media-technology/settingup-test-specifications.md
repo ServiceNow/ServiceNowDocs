@@ -1,20 +1,26 @@
 ---
 title: Setting up test definitions
-description: Define tests for a particular service type, product model, or inventory to troubleshoot the service-related problems.
+description: Define test definition to specify the parameters, metrics, and threshold rules for a service test in the Service Test Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/settingup-test-specifications.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Service Test Management, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Setting up test configuration records, Configure, Service Test Management, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Setting up test definitions
 
-Define tests for a particular service type, product model, or inventory to troubleshoot the service-related problems.
+Define test definition to specify the parameters, metrics, and threshold rules for a service test in the Service Test Management application.
 
-Test definition includes characteristics, relationships, test measures definitions, measure consequences, and threshold rules. These entities enable the system to trigger relevant tests for the service problem that help to identify the root-cause of the problem. You can define these entities for each test based on your requirements.
+You can configure a test definition as follows:
 
-A service test definition outlines the parameters to be configured and the metrics to be measured for a given service test. These parameters are defined in the test definition. They can be set during execution to run the tests that measures the service problem effectively. This structured approach confirms that the test is done correctly and collects all the data needed to identify the problem of the service.
+1.  [Create a test definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/create-test-specification.md).
+2.  [Define test measure definitions for a service test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/define-test-measure-spm.md)
+3.  [Define threshold rules for a test measure definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/define-threshold-rules.md).
+4.  [Define measure consequences for the threshold rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/define-threshold-consequences-spm.md).
+5.  [Define a characteristic for the test definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/add-characterisitc-for-test-specification.md)
+6.  [Define the relationship between the test definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/define-test-spec-relationship.md)
+7.  [Publish a test definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/publish-test-specification-spm.md).
 

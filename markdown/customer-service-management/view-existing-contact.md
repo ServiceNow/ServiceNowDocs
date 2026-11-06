@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/view-existing-contact.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Microsoft Outlook with CSM, Schedules and sites, Use, Customer Service Management]
 ---
@@ -16,7 +16,7 @@ Once you have integrated Customer Service Management \(CSM\) with Microsoft Outl
 
 ## Before you begin
 
-Role required: sn\_customerservice.contact\_manager, sn\_customerservice.proxy\_contact
+Role required: sn\_customerservice.contact\_manager, sn\_csm\_proxy\_cont
 
 ## Procedure
 

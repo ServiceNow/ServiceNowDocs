@@ -7,7 +7,7 @@ release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Scheduling your teams' work, Scheduling, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -121,15 +121,15 @@ Do this
         -   The system will automatically close the sign ups after the sign-up due date.
 5.  Add agents to the work shifts.
 
-<table id="choicetable_ejp_3fs_dvb"><thead><tr><th align="left" id="d443471e389">
+<table id="choicetable_ejp_3fs_dvb"><thead><tr><th align="left" id="d366149e389">
 
 To
 
-</th><th align="left" id="d443471e392">
+</th><th align="left" id="d366149e392">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d443471e398">
+</th></tr></thead><tbody><tr><td id="d366149e398">
 
 **Auto-assign agents**
 
@@ -137,7 +137,7 @@ Do this
 
 Enable the **Enabled for auto-assignment for agents** check box. Your agents who have set the shift to be their top preference is auto-assigned. The number of shifts auto-assigned is based on the value set in the **sn\_shift\_planning.max\_shifts\_to\_autoassign** system property.
 
-</td></tr><tr><td id="d443471e413">
+</td></tr><tr><td id="d366149e413">
 
 **Assign agents manually**
 

@@ -9,7 +9,7 @@ last_updated: "2026-09-09"
 reading_time_minutes: 3
 keywords: [Autonomous Engineer, work items, manage, review, retry, roll back, update set, plan dashboard, ATF tests, deploy]
 audience: programmer
-breadcrumb: [Use, Autonomous Engineer, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Use, Autonomous Engineer, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Manage work items during execution
@@ -48,7 +48,7 @@ During execution, background agents build work items in parallel. You can review
     |Edit and retry|If your requirements changed or the output does not match what you intended, edit the work item content directly in the work item record. Then ask Autonomous Engineer to retry. A new background agent runs for the work item.|
     |Roll back|If you must undo the changes for a work item, roll back that work item. The rollback applies only to the selected work item and does not affect other work items in the plan.|
 
-5.  Repeat steps 2 through 4 for each work item as it becomes ready for review.
+5.  Repeat the previous steps for each work item as it is ready for review.
 
 6.  When all work items are complete, export the update set that Autonomous Engineer generated for the plan.
 

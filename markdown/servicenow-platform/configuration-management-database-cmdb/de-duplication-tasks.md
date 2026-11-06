@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
 breadcrumb: [CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -52,7 +52,7 @@ A list of related items that is used globally in the remediation of duplicate CI
 
 ## De-duplication Dashboard and templates
 
-[CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md) and Service Graph Workspace provide a de-duplication remediation solution that lets you process de-duplication tasks, in bulk. The De-duplication Dashboard, and the de-duplication templates and libraries, let you process multiple de-duplication tasks, consistently, in a single operation. The De-duplication Template Library lets you create a preconfigured de-duplication template with the remediation settings for a class. The De-duplication Dashboard in lets you then run the preconfigured template on multiple de-duplication tasks for the class that is set in the template. The remediation settings in the template, are then consistently applied to the duplicate CIs of the de-duplication tasks, to remediate CI duplication.
+[CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md) provide a de-duplication remediation solution that lets you process de-duplication tasks, in bulk. The De-duplication Dashboard, and the de-duplication templates and libraries, let you process multiple de-duplication tasks, consistently, in a single operation. The De-duplication Template Library lets you create a preconfigured de-duplication template with the remediation settings for a class. The De-duplication Dashboard in lets you then run the preconfigured template on multiple de-duplication tasks for the class that is set in the template. The remediation settings in the template, are then consistently applied to the duplicate CIs of the de-duplication tasks, to remediate CI duplication.
 
 For more information about remediating duplicate CIs, see [CI de-duplication experience in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/dedup-ci-exp-cmdb-workspace.md).
 

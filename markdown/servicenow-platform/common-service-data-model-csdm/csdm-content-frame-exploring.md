@@ -7,7 +7,7 @@ release: australia
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -66,17 +66,17 @@ The CMDB holds data for several purposes.
     -   Is informed of outages
     -   Request catalog items to be created for the offerings
 -   **Service Desk, Incident Manager, and Change Manager**
-    -   Use the Cls and related service-related data to support and maintain services and Cls
+    -   Use the CIs and related service-related data to support and maintain services and CIs
     -   Support Service Operations
     -   Review and approve changes
     -   Maintain support processes
--   **App Service Admin and Technical SMEs**
+-   **App Service admin and Technical SMEs**
     -   Support, manage, and operate the underpinning technology that services rely on
     -   Subject matter technical experts that create change requests with data from CMDB
 -   **CMDB Manager and Cl Analysts**
     -   Maintain the accuracy and integrity of the CMDB
     -   Work with various SMEs to certify that the data is accurate and aligned to the data model
-    -   Create Cls and own the SACM processes
+    -   Create CIs and own the SACM processes
 
 ## CSDM Community
 

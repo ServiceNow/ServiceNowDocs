@@ -7,7 +7,7 @@ release: australia
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Moderate a community, Configuring communities, Communities, Customer Service Management]
 ---
@@ -19,6 +19,10 @@ Revoke a user ban to allow a user to create and edit content again.
 ## Before you begin
 
 Role required: sn\_communities.admin, sn\_communities.moderation\_admin, or sn\_communities.community\_moderator
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## Procedure
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_ChangePasswordFromUserForm.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Customer Service Portal, Customer communication, Use, Customer Service Management]
 ---
@@ -78,7 +78,7 @@ The new password, which must meet the following requirements:
 The new password.
 
 </td></tr></tbody>
-</table>6.  Click **Change**.
+</table>6.  Select **Change**.
 
 
 **Related topics**  

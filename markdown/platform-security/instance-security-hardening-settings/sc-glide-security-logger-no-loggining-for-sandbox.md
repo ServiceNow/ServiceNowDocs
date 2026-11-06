@@ -7,7 +7,7 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Error handling and logging, Hardening settings, Platform Security]
 ---
@@ -18,7 +18,7 @@ Manage Glide System's ability to log scripts being executed in the sandbox envir
 
 If the **glide.security.sandbox\_no\_logging** system property is set to **false**, then logging is available for low-privileged users using sandboxed scripts. This property controls your instance's ability to log scripts being executed in the sandbox environment.
 
-Ensure that the **glide.security.sandbox\_no\_logging** property is set to **true** in order to prevent low-privileged users using a sandboxed script to have logging functionality.
+Ensure that the **glide.security.sandbox\_no\_logging** property is set to **true** to prevent low-privileged users using a sandboxed script to have logging functionality.
 
 ## More information
 
@@ -68,7 +68,7 @@ Default value
 
 </td><td>
 
-&lt;none&gt;
+true
 
 </td></tr><tr><td>
 

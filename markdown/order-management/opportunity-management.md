@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/opportunity-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Sales automation, Explore, Sales Customer Relationship Management]
 ---
@@ -182,7 +182,7 @@ To learn more about pricing, see [Pricing Management](https://raw.githubusercont
 
 -   **CRM conversational query**
 
-    Ask questions and issue commands to work on an opportunity in plain language using an MCP client such as Claude Desktop. For more information, see [CRM conversational query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/crm-conversational-query.md) and [Manage opportunity records using an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/manage-opportunity-records.md).
+    Ask questions and issue commands to work on an opportunity in plain language using an MCP client such as Claude Desktop. For more information, see [CRM conversational query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/crm-conversational-query.md) and [Manage opportunity records using an AI interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/manage-opportunity-records.md).
 
 
 ## What to explore next

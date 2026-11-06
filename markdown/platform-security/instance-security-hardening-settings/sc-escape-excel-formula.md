@@ -1,5 +1,5 @@
 ---
-title: Escape Excel formulas \[Updated in Security Center 1.3\]
+title: Escape Excel formulas
 description: Use the glide.export.escape\_formulas property to prevent Excel Injection, also, known as formula injection.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/instance-security-hardening-settings/sc-escape-excel-formula.html
@@ -7,16 +7,16 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-07-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platform Security]
 ---
 
-# Escape Excel formulas \[Updated in Security Center 1.3\]
+# Escape Excel formulas
 
 Use the **glide.export.escape\_formulas** property to prevent Excel Injection, also, known as formula injection.
 
-Prevent malicious formula execution in Excel by escaping formulas in exported files. Excel injection occurs when websites embed untrusted entries inside Excel files. When you open a file in Microsoft Excel or LibreOffice Calc, any cells starting with +, -, =, or @ are treated as formulas. Malicious formulas can compromise your computer through code execution, even if the spreadsheet contains no sensitive data.
+Prevent potentially malicious formulas in programs such as Excel from being executed after exporting and opening the file by escaping formulas in these files. Excel injection occurs when websites embed untrusted entries inside Excel files. When you use a spreadsheet application such as Microsoft Excel, or LibreOffice Call, to open a file, any cells starting with +, -, =, or @ are interpreted as a formula unless properly escaped. Malicious formulas pose a risk even when the spreadsheet doesn't contain any sensitive information, as they can be used to compromise the viewer's computer through code execution.
 
 Set the **glide.export.escape\_formulas** system property to **true** to escape these formulas from executing.
 

@@ -7,10 +7,10 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-06-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto for Software Asset Management, software asset management, generative AI skills, Spend transaction software classification skill, Spend transaction software normalization skill]
-breadcrumb: [AI in Software Asset Management, Explore, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [AI in Software Asset Management, Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Generative AI skills in ServiceNow Otto for Software Asset Management \(SAM\)
@@ -24,7 +24,7 @@ ServiceNow Otto for Software Asset Management \(SAM\) generative AI skills help 
 -   Cut time spent on routine administrative and error-resolution tasks, resulting in faster decision-making without manual work on repetitive activities.
 -   Classify imported spend transactions to identify software purchases and match them to existing publisher and product records in Software Asset Management Content Library for accurate spend reporting.
 
-The following table describes the key generative AI skills available in Now Assist for SAM:
+The following table describes the key generative AI skills available in ServiceNow Otto for SAM:
 
 |Generative AI skill name|Description|
 |------------------------|-----------|

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/convint-landing-page.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 ---
 
 # Conversational Interfaces
@@ -23,11 +23,11 @@ Select a tile to get started with one of Conversational Interfaces products.
 
 </td><td>
 
-[Virtual Agent\[Omitted image "bus-chat.svg"\] Alt text:Empower your employees and customers to serve themselves using a friendly messaging interface, featuring pre-built conversations powered by artificial intelligence.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md)
+[Virtual Agent and ServiceNow Otto for Virtual Agent\[Omitted image "bus-ai-otto.svg"\] Alt text:Use large language models \(LLMs\) to create a natural-language conversational experience that can improve the success of your self-service workflows.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md)
 
 </td><td>
 
-[Now Assist in Virtual Agent\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use large language models \(LLMs\) to create a natural-language conversational experience that can improve the success of your self-service workflows.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md)
+[Conversational integrations\[Omitted image "bus-customer-service-agent.svg"\] Alt text:Bring ServiceNow Otto for Virtual Agent conversations to popular messaging applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/integrate-virtual-agent.md)
 
 </td></tr><tr><td>
 
@@ -39,7 +39,7 @@ Select a tile to get started with one of Conversational Interfaces products.
 
 </td><td>
 
-[Conversational Interfaces Diagnostic Tool\[Omitted image "bus-root-cause-issue-resolution.svg"\] Alt text:Identify, troubleshoot, and find solutions for issues with Conversational Interfaces.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/conversational-interfaces-diagnostics-tool/ci-diagnostics-tool-landing.md)
+[Advanced Work Assignment\[Omitted image "bus-3-person.svg"\] Alt text:Automatically assign work items to your agents, based on their availability, capacity, and optionally, skills.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/advanced-work-assignment/awa-application-landing-page.md)
 
 </td></tr><tr><td>
 

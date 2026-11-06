@@ -7,7 +7,7 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managed lists, HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
@@ -32,13 +32,21 @@ The base system provides various departments. You can create or edit existing de
 
 3.  Click **New** to create a department.
 
-4.  Fill in the fields, and click **Save** to stay on the **Departments** form.
+4.  Use the ID field to enter a company-specific department number.
 
-    The **Users** tabs appear.
+5.  Click **Save** to stay on the **Departments** form.
 
-5.  Click **New** to create a new user associated with the department.
+    The **Expense Allocations** and **Users** tabs appear.
 
-6.  Click **Save** to stay on the **Departments** form or Update to return to the **Departments** list.
+6.  Click **Expense Allocations** to view all expense allocations associated with the department.
+
+7.  Click **New** to create a new expense allocation associated with the department.
+
+8.  Click **Users** to view all users associated with the department.
+
+9.  Click **New** to create a new user associated with the department.
+
+10. Click **Save** to stay on the **Departments** form or Update to return to the **Departments** list.
 
 
 **Parent Topic:**[Managed lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_ManagedLists.md)

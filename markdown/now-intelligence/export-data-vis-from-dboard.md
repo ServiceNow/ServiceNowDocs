@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/export-data-vis-from-dboard.html
 release: australia
 topic_type: task
-last_updated: "2026-03-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [View, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---

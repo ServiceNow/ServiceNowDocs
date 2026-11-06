@@ -7,26 +7,16 @@ release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
-last_updated: "2026-05-28"
-reading_time_minutes: 3
-breadcrumb: [Use, ServiceNow Studio, Developing your application, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Use, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # AI tools and files in ServiceNow Studio
 
 Use AI tools and files in ServiceNow Studio to create and summarize apps using generative AI. You can also add AI files to applications to enhance user productivity through conversation and proactive experiences.
 
-The main AI tools available in ServiceNow Studio are ServiceNow Otto for Creator skills: app generation and app summary generation. Use app generation to create apps through a conversational interface, and use app summary generation to create short descriptions of existing apps.
-
-## App generation
-
-**Note:**
-
-Starting with the Australia release, app generation is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. Build Agent provides the latest experience for this functionality. For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-agent.md).
-
-Use the app generation skill to create or update an app from the main ServiceNow Studio home page. Describe the app in a conversation and ServiceNow Otto generates a version of the app to modify.
-
-For more information, see [App generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-now-assist-app-gen-landing.md).
+The main AI tools available in ServiceNow Studio are the ServiceNow Otto for Creator app summary generation skill and Build Agent. Use app summary generation to create short descriptions of existing apps. For more information about Build Agent, see [Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/build-agent-in-servicenow-studio.md).
 
 ## App summary generation
 
@@ -50,7 +40,7 @@ The following ServiceNow resources cover AI capabilities, agentic workflows, AI 
 
     [Exploring AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-now-assist-platform.md)
 
-    [Agentic development on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/use-ai-capabilities-in-custom-apps.md)
+    [Build](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-ai-workflow-factory-prime.md)
 
     [ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md)
 
@@ -75,8 +65,6 @@ The following ServiceNow resources cover AI capabilities, agentic workflows, AI 
     [Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-new-skill.md)
 
 
--   **[App generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-now-assist-app-gen-landing.md)**  
-Use the app generation skill available with ServiceNow Otto for Creator to create applications through conversation with generative AI. Describe the app you want to build, and generative AI scaffolds the application so that you can review and modify it.
 -   **[App summary generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-now-assist-app-summarize-landing.md)**  
 Use the ServiceNow Otto for Creator application to use generative AI for summarizing an app. With a single button, ServiceNow Otto for Creator generates the app summary that you can then copy to the app description, or use to find duplicate apps.
 

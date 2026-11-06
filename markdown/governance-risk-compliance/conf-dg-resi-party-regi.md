@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/conf-dg-resi-party-regi.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -25,6 +25,10 @@ The following applications are used in the background for the Digital resilience
 
 -   **[Creating and reviewing the records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/order-for-creating-records.md)**  
 The Operational Resilience administrators and managers can access the Digital Resilience Choices records in an instance. Create or update records such as legal entities, branches, functions, and contracts in a specific order into the Digital resilience third-party registers application. Those specifics are outlined in this section.
+-   **[Create records in bulk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/download-records-in-bulk.md)**  
+Create records in bulk from the Digital resilience third-party registers rather than creating one record at a time for single or multiple entities. You can save time and effort by working on multiple records at a time.
+-   **[Update existing records in bulk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/update-existing-records-in-bulk.md)**  
+Update existing records in bulk from the Digital resilience third-party registers.
 -   **[Schedule a CSV download report for historic snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/schedule-csv-report-historic-snapshots.md)**  
 Schedule a recurring job to generate CSV download reports of historic snapshots from the Digital resilience third-party registers. The job reuses the configuration of an existing Excel download/upload request record.
 -   **[Validate the Register of Information packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/opres-drtp-validate-roi.md)**  

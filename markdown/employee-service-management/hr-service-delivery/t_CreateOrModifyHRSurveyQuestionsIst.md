@@ -7,7 +7,7 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [HR surveys, HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
@@ -28,7 +28,7 @@ The following steps describe how to work with survey questions in the Survey Def
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **HR Administration** &gt; **Surveys** &gt; **HR Surveys**, and open the survey to add questions.
+1.  Navigate to **All** &gt; **HR Administration** &gt; **Surveys** &gt; **All HR Surveys**, and open the survey to add questions.
 
 2.  In the **Metrics Categories** related list, complete one of the following actions.
 

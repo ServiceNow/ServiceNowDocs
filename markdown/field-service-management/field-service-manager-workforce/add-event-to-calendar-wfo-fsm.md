@@ -7,7 +7,7 @@ release: australia
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Scheduling, Workforce Optimization, Managing workforce, Use, Field Service Management]
 ---
@@ -36,15 +36,15 @@ You can create custom event types and add or remove fields. For more information
 
 5.  Create an event.
 
-<table id="choicetable_yff_2rw_1nb"><thead><tr><th align="left" id="d59609e122">
+<table id="choicetable_yff_2rw_1nb"><thead><tr><th align="left" id="d61570e122">
 
 To
 
-</th><th align="left" id="d59609e125">
+</th><th align="left" id="d61570e125">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d59609e131">
+</th></tr></thead><tbody><tr><td id="d61570e131">
 
 **Create a meeting, training, or time-off request.**
 
@@ -69,7 +69,7 @@ In the **Attendees** field, start typing the name of each of the attendees for t
     6.  In the **Description** field, enter a description for the meeting.
 
 
-</td></tr><tr><td id="d59609e237">
+</td></tr><tr><td id="d61570e237">
 
 **Create a work shift**
 

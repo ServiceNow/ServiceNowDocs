@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [ServiceNow Otto for CSM, Customer Service Management]
@@ -121,7 +121,7 @@ The ServiceNow Otto for CSM application includes generative AI skills that enabl
 
 -   **ServiceNow Otto in Portal case form**
 
-    Guide requesters through a self-service flow using Genius Results to find solutions and reduce the number of cases created. For more info, see [Using generative AI in portal case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/using-ai-search-with-q-a-within-the-portal-form.md).
+    Guide requesters through a self-service flow using Genius Results to find solutions and reduce the number of cases created. For more info, see [Using Now Assist in portal case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/using-ai-search-with-q-a-within-the-portal-form.md).
 
 -   **Suggested steps generation**
 

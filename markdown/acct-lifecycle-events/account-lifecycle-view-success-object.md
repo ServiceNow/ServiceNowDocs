@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-view-success-object.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage engagements, Customer success, Use, Customer Success Management]
 ---
@@ -17,7 +17,7 @@ This page provides a detailed view of the success objective and its related outc
 To view this page, follow these steps:
 
 1.  Login as a user with the sn\_acct\_lc.customer\_success\_agent role.
-2.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** and select the **List** icon.
+2.  Navigate to **Workspaces** &gt; **CRM Workspace** and select the **List** icon.
 3.  Navigate to **Customer Success** &gt; **All Engagements**, and open an engagement.
 4.  Select the **Success blueprint** tab and select the \[Omitted image "open-link-right-outline-24.svg"\] Alt text: icon to open the page.
 

@@ -7,9 +7,9 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-07-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Control topic visibility in Virtual Agent messaging channels
@@ -33,19 +33,19 @@ In your condition script for the topic, use a context variable to identify the m
 
 2.  Select the **Asset library** tab.
 
-3.  Select the topic for updating or select **+Create** to start a new topic.
+3.  Select the topic for updating or create a new topic.
 
 4.  Navigate to the **Properties** page, and open **Who can access this topic** under Advanced properties.
 
 5.  In the Context section, select **Condition** followed by **Add Condition**.
 
-6.  Enter a condition script that identifies the messaging channel \(Slack, Microsoft Teams, Workplace from Facebook, or Facebook Messenger\) from which the topic will be excluded.
+6.  Enter a condition script that identifies the messaging channel \(Slack or Microsoft Teams\) from which the topic will be excluded.
 
-    You can use the following example script, which contains the **vaContext.deviceType** variable, to identify the messaging channel that excludes the topic: Slack, Microsoft Teams, Workplace, and Facebook Messenger.
+    You can use the following example script, which contains the **vaContext.deviceType** variable, to identify the messaging channel that excludes the topic:
 
     ```
     (function execute()
-    { if(vaContext.deviceType === 'Slack' || vaContext.deviceType === 'Teams' || vaContext.deviceType=='Facebook' || vaContext.deviceType=='Messenger'){
+    { if(vaContext.deviceType === 'Slack' || vaContext.deviceType === 'Teams'){
     return false;
     }
     return true;
@@ -57,7 +57,7 @@ In your condition script for the topic, use a context variable to identify the m
 
 ## Result
 
-Publishing the topic deploys it to the Virtual Agent messaging channels, except for the Virtual Agent channels that you specified in the topic condition script. A keyword or an intent \(if using NLU/Keyword\) does not trigger the topic.
+Publishing the topic deploys it to the Virtual Agent messaging channels, except for the Virtual Agent channels that you specified in the topic condition script.
 
 **Parent Topic:**[Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md)
 

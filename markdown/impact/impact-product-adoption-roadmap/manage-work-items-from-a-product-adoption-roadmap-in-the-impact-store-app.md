@@ -7,9 +7,9 @@ release: australia
 product: Impact Product Adoption Roadmap
 classification: impact-product-adoption-roadmap
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Entitlements and usage, Product adoption, Using Impact, Impact]
+breadcrumb: [Entitlements and usage using capabilities, Product adoption, Using Impact, Impact]
 ---
 
 # Manage work items from a capability linked to a Product Adoption Roadmap in the Impact Store App

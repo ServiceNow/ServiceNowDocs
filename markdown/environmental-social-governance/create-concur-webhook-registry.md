@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/create-concur-webhook-registry.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrating Operational Sustainability Management \(formerly ESG\) with SAP Concur, Integrating Operational Sustainability Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -32,7 +32,7 @@ Role required: sys\_admin
     |Path|This field is automatically set.|
     |Token|Select a token.|
 
-4.  Select and hold \(or right-click\) the form header and select **Save**.
+4.  Right click the form header and select **Save**.
 
 5.  Select **Callback URL**.
 

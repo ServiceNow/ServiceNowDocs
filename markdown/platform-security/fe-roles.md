@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/fe-roles.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Field Encryption, Field Encryption, Encryption]
 ---
@@ -14,14 +14,14 @@ breadcrumb: [Configuring Field Encryption, Field Encryption, Encryption]
 
 Learn about the roles required to configure Field Encryption.
 
-Managing requires the following roles. Since is based on the Key Management Framework, there are roles common to both.
+Managing Field Encryption requires the following roles. Since Field Encryption is based on the Key Management Framework, there are roles common to both.
 
 -   Admin
 -   security\_admin
 -   sn\_kmf.admin
 -   sn\_kmf.cryptographic\_manager
 
-For complete details on details on roles, see [Roles installed with Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platform-encryption/kmf-roles.md).
+For complete details on roles, see [Roles installed with Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platform-encryption/kmf-roles.md).
 
 ## Admin and Security Admin
 
@@ -29,7 +29,7 @@ Users must have the admin role to elevate to the Security Admin role. You need t
 
 Admins can elevate to Security admin using this procedure.
 
-1.  Select on your profile picture at the top right of the screen.
+1.  Select your profile picture at the top right of the screen.
 2.  In the drop-down menu, select **Elevate Role**.
 3.  Select **Security Admin**.
 4.  Select **Save**.

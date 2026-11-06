@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/rpa-explore.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 keywords: [RPA overview, RPA Hub overview, Robotic Process Automation overview, Robotic Process Automation Hub overview, Learn about Robotic Process Automation Hub, Learn about RPA Hub, Robotic Process Automation RPA automation types, Robotic Process Automation RPA benefits]
 breadcrumb: [Explore, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
@@ -95,17 +95,17 @@ Robotic Process Automation \(RPA\) Hub provides an integration with the Workflow
 
 RPA Hub uses the ServiceNow® Key Management Framework for all the sensitive data that is stored on the application. For more information, see [Understanding the Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/understanding-kmf.md).
 
-## Important information for upgrading RPA Hub to Australia
+## Important information for upgrading RPA Hub to Brazil
 
 Ensure that you upgrade the current installed Microsoft Software Installers \(MSIs\) \(RPA Desktop Design Studio, Attended Robot, Unattended Robot, and Unattended Robot Login Agent\), by downloading the RPA applications. For more information, see [Download the RPA applications from RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/download-installer-rpa.md).
 
-**Important:** The following upgrade steps are applicable only when you’re upgrading from San Diego or Tokyo to Australia.
+**Important:** The following upgrade steps are applicable only when you’re upgrading from San Diego or Tokyo to Brazil.
 
-Based on the number of records in the application file table, you could experience a potential delay while upgrading the RPA Hub applications from Tokyo or before to Australia.
+Based on the number of records in the application file table, you could experience a potential delay while upgrading the RPA Hub applications from Tokyo or before to Brazil.
 
-Before upgrading RPA Hub to Australia, you must set the value of the **glide.rollback.blacklist.TableParentChange.change** system property to **false**. If this property doesn't exist in the System Property \[sys\_properties\] table, [add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) and set its value to false.
+Before upgrading RPA Hub to Brazil, you must set the value of the **glide.rollback.blacklist.TableParentChange.change** system property to **false**. If this property doesn't exist in the System Property \[sys\_properties\] table, [add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) and set its value to false.
 
-After you upgrade to the Australia, the bot process definitions change to the new structure, that is, the bot process configuration. Although the bot process configuration doesn't replace the bot process completely. Most fields are moved from bot process to bot process configuration.
+After you upgrade to the Brazil, the bot process definitions change to the new structure, that is, the bot process configuration. Although the bot process configuration doesn't replace the bot process completely. Most fields are moved from bot process to bot process configuration.
 
 If you upgrade to the Utah version without updating the system property value, the tables don’t extend the Application File table. Manually to update the table changes, see the [Restructuring RPA Hub tables to sys\_metadata in Utah](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1223629) article in the Now Support Knowledge Base.
 

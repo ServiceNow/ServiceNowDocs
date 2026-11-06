@@ -7,7 +7,7 @@ release: australia
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Resolving errors, Administer, Instance Data Replication, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,7 +24,7 @@ Role required: idr\_admin or admin
 
 1.  View the producer or consumer metadata logs.
 
-<table id="choicetable_h3s_qkz_pkb"><tbody><tr><td id="d361372e62">
+<table id="choicetable_h3s_qkz_pkb"><tbody><tr><td id="d365153e62">
 
 **Producer**
 
@@ -32,7 +32,7 @@ Role required: idr\_admin or admin
 
 Navigate to **Instance Data Replication** &gt; **Producer Replication Sets**, select a producer replication set and click the **Replication Metadata Logs** related link.
 
-</td></tr><tr><td id="d361372e83">
+</td></tr><tr><td id="d365153e83">
 
 **Consumer**
 

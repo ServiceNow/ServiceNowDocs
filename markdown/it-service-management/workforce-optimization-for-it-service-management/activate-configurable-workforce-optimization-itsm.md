@@ -7,7 +7,7 @@ release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Getting started, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -18,7 +18,14 @@ The Workforce Optimization for ITSM Configurable Workspace plugin \(sn\_wfo\_cfg
 
 ## Before you begin
 
-**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM \(com.snc.wfo\_itsm\) is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+Plugins affected:
+
+-   Workforce Optimization for ITSM Configurable Workspace \(com.snc.sn\_wfo\_cfg\_itsm\).
+-   User Surveys in Workforce Optimization for ITSM \(com.snc.sn\_wfo\_usersurveys\). For more information, see [Surveys in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/surveys-wfo-itsm.md).
+-   Skills Review \(com.snc.sn\_wfo\_skill\_review\). For more information, see [Skills Management in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/skills-management-wfo-itsm.md).
+-   Work Scheduler \(com.snc.sn\_wfo\_work\_sched\). For more information, see [Work scheduler in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/work-scheduling-wfo-itsm.md).
 
 Role required: admin
 

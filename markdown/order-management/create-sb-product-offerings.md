@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-sb-product-offerings.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Configuring Service Exchange Order Management for Providers, Order Management for providers with Service Exchange, Integrate, Sales Customer Relationship Management]
 ---
@@ -275,15 +275,15 @@ Name of the previous version of the product offering, For example:-   When you c
 
 7.  When you finish creating the product offering version, select one of the following actions.
 
-<table id="choicetable_dt3_z1p_ccc"><thead><tr><th align="left" id="d48318e536">
+<table id="choicetable_dt3_z1p_ccc"><thead><tr><th align="left" id="d49443e536">
 
 Action
 
-</th><th align="left" id="d48318e539">
+</th><th align="left" id="d49443e539">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d48318e545">
+</th></tr></thead><tbody><tr><td id="d49443e545">
 
 **Publish**
 
@@ -293,7 +293,7 @@ Publish the draft product offering so that you can use it in a product catalog:-
 -   After you publish a product offering, you can't change or delete it, unless you create a version for it.
 
 
-</td></tr><tr><td id="d48318e563">
+</td></tr><tr><td id="d49443e563">
 
 **Update**
 
@@ -301,7 +301,7 @@ Publish the draft product offering so that you can use it in a product catalog:-
 
 Update the product offering with the new data that you added, but don't publish it for use in a product catalog.
 
-</td></tr><tr><td id="d48318e572">
+</td></tr><tr><td id="d49443e572">
 
 **Copy**
 

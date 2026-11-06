@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Standard change catalog, Configure, Change Management, IT Service Management]
 ---
@@ -24,9 +24,9 @@ Role required: itil, change\_manager, or sn\_change\_write
 
 1.  Navigate to **All** &gt; **Change** &gt; **Standard Change** &gt; **Open Proposals**.
 
-    **Note:** You can add standard change tasks to a standard change proposal only when the proposal is in the **New** state. After you submit standard change task for approval, you cannot add more tasks.
+    **Note:** You can add standard change tasks to a standard change proposal only when the proposal is in the **New** state. After you submit the standard change proposal for approval, you cannot add more tasks.
 
-2.  Open the standard change proposal that is in **New** state.
+2.  Open the standard change proposal that is in the **New** state.
 
 3.  Select the **Change Task Templates** tab, and then select **New**.
 
@@ -46,7 +46,7 @@ Name
 
 </td><td>
 
-Unique name for the change task.
+Unique name for the change task template.
 
 </td></tr><tr><td>
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-create-internal-play-playbook.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Manage playbooks, Customer success, Use, Customer Success Management]
 ---
@@ -24,7 +24,7 @@ An internal play is used to monitor internal activities that the customer does n
 
 ## Procedure
 
-1.  Navigate to **Workspace** &gt; **CSM/FSM Configurable Workspace** and select the **List** icon.
+1.  Navigate to **Workspace** &gt; **CRM Workspace** and select the **List** icon.
 
 2.  Navigate to the **Customer Success Management** &gt; **All Internal Plays** and select **New**.
 
@@ -83,6 +83,8 @@ An internal play is used to monitor internal activities that the customer does n
 Create an internal play task that must be performed when the internal play is launched. An internal play task must have a clear purpose and specifies the activity that must be performed. It is not visible to customers.
 -   **[Close or cancel an internal play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-cancel-internal-play.md)**  
 You can close or cancel an internal play and all the related tasks.
+-   **[Summarize an internal play using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/now-assist-tmt-summarize-plays.md)**  
+Generate a summary from an internal play record and all associated internal play tasks.
 
 **Parent Topic:**[Manage customer success playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-manage-cust-succ-playbooks.md)
 

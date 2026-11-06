@@ -7,7 +7,7 @@ release: australia
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuration tasks for knowledge demand insights, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,7 +22,7 @@ This task describes the process for configuring a scheduled job.
 
 Instead of doing the configuration through this procedure, consider using a guided setup. Navigate to **Knowledge** &gt; **Administration** &gt; **Guided Setup**, click **Get Started**, and then scroll to the Knowledge Demand Insights section.
 
-Ensure that you have configured a similarity type and clustering type solution definitions for a task type. For more information, see [Configure solution definitions to find gaps in a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/configure-km-solution-defintions.md).
+Ensure that you have configured a similarity type and clustering type solution definitions for a task type. For more information, see [Configure solution definitions to find gaps in a knowledge base]().
 
 Role required: admin
 
@@ -33,7 +33,7 @@ A scheduled job for each task type runs business rules and then executes the sim
 **Note:** For task types other than customer service cases and incidents, a user with the admin role must also perform the following tasks:
 
 -   Assign the sn\_km\_ml.knowledge\_curation\_user role and the appropriate roles for the task type to the users performing the knowledge gap analysis. To assign roles, perform the Assign knowledge curator roles guided setup task, which are available in the Knowledge Demand Insights section of the Knowledge Management guided setup.
--   Create a demand insights dashboard for the task type. To create a dashboard, see [Create or configure a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/t_CreateADashboard.md).
+-   Create a demand insights dashboard for the task type. To create a dashboard, see Create or configure a responsive dashboard.
 
 ## Procedure
 
@@ -67,5 +67,5 @@ Set the frequency of the scheduled job for your task. For more information, see 
 **Related topics**  
 
 
-[Configure solution definitions to find gaps in a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/configure-km-solution-defintions.md)
+[Configure solution definitions to find gaps in a knowledge base]()
 

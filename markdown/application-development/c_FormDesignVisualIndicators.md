@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/c\_FormDesignVisualIndicators.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Lists and forms in scoped applications, Contextual development environment, Learning about developing on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Lists and forms in scoped applications, Contextual development environment, Learning about developing on the ServiceNow AI Platform, Classic app development, Building applications]
 ---
 
 # Form design visual indicators
@@ -23,7 +23,7 @@ You can only edit views and sections when you are in the same application scope 
 -   Grip icons beside section headings.
 -   Grip icons beside fields.
 
-\[Omitted image "FormDesignEditable.png"\] Alt text: Some sections are editable on the form.
+\[Omitted image "FormDesignEditable.png"\] Alt text: Editable fields have specific visual indicators around them, including solid borders and grip buttons.
 
 Views and sections in another application scope display as read only. Read-only sections have:
 
@@ -34,5 +34,5 @@ Views and sections in another application scope display as read only. Read-only 
 -   No grip icons beside section headings.
 -   No grip icons beside fields.
 
-\[Omitted image "FormDesignReadonly.png"\] Alt text: Some form sections are not editable.
+\[Omitted image "FormDesignReadonly.png"\] Alt text: Read-only fields display with no gray border lines and no grip buttons.
 

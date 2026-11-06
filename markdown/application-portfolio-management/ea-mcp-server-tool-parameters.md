@@ -432,3 +432,10 @@ Level of detail in the comparison output. Possible values: `executive` \(busines
 </td></tr></tbody>
 </table>**Parent Topic:**[MCP for Enterprise Architecture reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/reference-ea-mcp-server.md)
 
+**Related topics**  
+
+
+[Access Enterprise Architecture data using MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/access-ea-data-using-mcp-tools.md)
+
+[Example prompts for MCP for Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/ea-mcp-server-example-prompts.md)
+

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/configure-ai-indexing-fso-contact-center.html
 release: australia
 topic_type: task
-last_updated: "2026-03-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [configure ai indexing agentic contact center, ai search index agentic contact center, indexed sources agentic contact center, activate indexed sources agentic contact center, financial accounts indexed source, fso contact center search]
 breadcrumb: [Configure, Agentic Contact Center for Banking, Banking applications, Financial Services Operations \(FSO\)]

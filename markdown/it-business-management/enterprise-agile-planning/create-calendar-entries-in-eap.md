@@ -7,8 +7,8 @@ release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Configure, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
@@ -23,6 +23,8 @@ Roles required: sn\_apw\_advanced.eap\_scrum\_master, sn\_apw\_advanced.eap\_adm
 ## About this task
 
 This task is explained using Planning Interval \(PI\) and Sprint as an example. These are the calendars available by default in the workspace and PI is set as the parent for Sprint.
+
+The **Create child entries on Sprint** option appears only when another calendar lists the calendar that you're adding an entry to as its parent. Sprint has no child calendar, so its entries don't show the option.
 
 By the end of this task, you define the timeline for a PI and its child Sprints. The EAP teams can then create their own team-specific PIs and Sprints, within this defined timeline, in a naming convention of their choice.
 
@@ -47,6 +49,8 @@ From EAP version 4.17.0, teams don't need predefined calendar entries. An EAP sc
 6.  Create calendar entries for the Sprint calendar based on the PI start and end dates.
 
     1.  Select **Create child entries on Sprint**.
+
+        If this option doesn't appear, open the Sprint calendar and set its **Parent** field to **Planning Interval**. For more information, see [Create a planning calendar in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/create-planning-calendar-type-in-eap.md).
 
     2.  In the **Number of child entries \(Sprint\)** field, enter the number of sprints you want to create for this PI.
 
@@ -75,6 +79,10 @@ Under the Digital Banking portfolio, the teams create their own ARTs and Sprints
 -   The Agile Teams PAT Team 1 and PAT Team 2 create sprints within these PIs:
     -   PAT Team 1 creates **PAT 1 Sprint 1**, **PAT 1 Sprint 2**, and so on.
     -   PAT Team 2 creates **PAT 2 Sprint 1**, **PAT 2 Sprint 2**, and so on.
+
+If the **Parent** field of the Sprint calendar is empty, no calendar has Planning Interval as its parent. The **New calendar entry** form for PI 1 then shows only the name, start date, and end date.
+
+In that case, create the PI first. Then open the Sprint calendar and create each Sprint entry separately, with dates that fall within the PI.
 
 The teams can use these PIs and Sprints to schedule their work.
 

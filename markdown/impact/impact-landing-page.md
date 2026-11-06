@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/impact-landing-page.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 ---
 
@@ -17,7 +17,7 @@ ServiceNow Impact is built on the ServiceNow AI Platform and combines customized
 
 <table id="table_uqc_flp_fsb" class="nav-card"><tbody><tr><td>
 
-[Exploring Impact\[Omitted image "bus-explore.svg"\] Alt text:Explore Impact features to help you realize the full potential of your instances.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/servicenow-impact-concept.md)
+[Exploring Impact\[Omitted image "bus-explore.svg"\] Alt text:Explore Impact features to help you realize the full potential of your instances.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/exploring-impact.md)
 
 </td><td>
 

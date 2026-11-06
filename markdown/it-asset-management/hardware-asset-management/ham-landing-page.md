@@ -7,8 +7,8 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [IT Asset Management, Asset Management]
 ---
 
@@ -40,11 +40,11 @@ Watch this short video for an introduction to the Hardware Asset Management appl
 
 </td><td>
 
-[Hardware Asset Management Integrations\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Connect Hardware Asset Management with ServiceNow applications and external systems to extend your asset management capabilities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/ham-integrations.md)
+[Hardware Asset Management integrations\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Connect Hardware Asset Management with ServiceNow applications and external systems to extend your asset management capabilities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/ham-integrations.md)
 
 </td><td>
 
-[ServiceNow Otto for Hardware Asset Management \(HAM\)\[Omitted image "bus-ai-otto.svg"\] Alt text:Use the ServiceNow Otto for Hardware Asset Management \(HAM\) application to streamline and automate the hardware asset request process with the agentic workflows.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/now-assist-for-hardware-asset-management/now-assist-ham.md)
+[ServiceNow Otto for Hardware Asset Management\[Omitted image "bus-ai-otto.svg"\] Alt text:Use the ServiceNow Otto for Hardware Asset Management \(HAM\) application to streamline and automate hardware asset requests and repairs using agentic workflows.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/now-assist-for-hardware-asset-management/now-assist-ham.md)
 
 </td></tr><tr><td>
 
@@ -64,4 +64,19 @@ Watch this short video for an introduction to the Hardware Asset Management appl
 ## Learn
 
 [What is Hardware Asset Management?](https://www.servicenow.com/products/it-asset-management/what-is-hardware-asset-management.html)
+
+-   **[Exploring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/exploring-ham.md)**  
+Learn more about Hardware Asset Management by reviewing the benefits that it can provide for different users in your organization.
+-   **[Configuring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/configuring-ham.md)**  
+Configure Hardware Asset Management to have centralized asset data for accurate inventory and insights, automate the IT life cycle with workflows, and reduce the asset costs and risks.
+-   **[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/using-ham-classic.md)**  
+Use the Hardware Asset Management application to manage your hardware and consumable assets.
+-   **[Hardware Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/reference-hardware-asset-management.md)**  
+Reference topics provide additional information about the lists and forms that you use to configure and administer Hardware Asset Management.
+-   **[Hardware Asset Management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/ham-integrations.md)**  
+The Hardware Asset Management \(HAM\) application integrates with external systems and ServiceNow platform capabilities to extend asset data quality, lifecycle visibility, and device management across your organization.
+-   **[Device as a Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/exploring-daas.md)**  
+The Device as a Service \(DaaS\) feature provides assets and asset management services to the customers of DaaS providers via a subscription model.
+
+**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/asset-management-landing-page.md)
 

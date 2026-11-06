@@ -1,20 +1,20 @@
 ---
 title: Logical Connection Creation subflow
-description: The Logical Connection Creation subflow enables you to create a logical connection record in the Telecommunications Network Inventory application based on the input that you receive when you instantiate an inventory.
+description: The Logical Connection Creation subflow enables you to create a logical connection record in the Telecommunications Network Inventory application. The record is based on the input that you receive when you instantiate an inventory.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/logical-connection-creation-subflow.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Subflows, Reference, Telecommunications Network Inventory]
 ---
 
 # Logical Connection Creation subflow
 
-The Logical Connection Creation subflow enables you to create a logical connection record in the Telecommunications Network Inventory application based on the input that you receive when you instantiate an inventory.
+The Logical Connection Creation subflow enables you to create a logical connection record in the Telecommunications Network Inventory application. The record is based on the input that you receive when you instantiate an inventory.
 
 You can use the Logical Connection subflow to create a logical connection on your network interface cards.
 
@@ -57,7 +57,7 @@ The following table lists the information about the subflow's output.
 
 [Create Logical Connection with template subflow]()
 
-[Physical connection creation subflow]()
+[Physical Connection Creation subflow]()
 
 [Design Assign Connection Element Creation subflow]()
 

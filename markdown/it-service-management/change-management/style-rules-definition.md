@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Change schedules, Configure, Change Management, IT Service Management]
 ---
@@ -25,11 +25,11 @@ You can define styles in multiple ways, such as from the Default Style Rules, Ch
 **Note:** All style rule tables extend the Style Rule Core table \[chg\_soc\_style\_rule\_core\].
 
 -   **[Define default style rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/def-stl-rules-from-stl-rules-table.md)**  
-You can define style rules from the Default Style Rules module when you want the style rules to be used by change schedules globally and not for any specific application.
+Define style rules from the Default Style Rules module to apply them to all change schedules rather than to a specific application.
 -   **[Define style rules from Change Schedule Definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/def-stl-rules-from-chng-sch-def.md)**  
-You can define style rules from change schedule definitions when you want the style rules to be applied to the change schedule related to the change schedule definition.
--   **[Define style rules from Change Schedules View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/define-style-rules-from-view.md)**  
-You can create style rules from the change schedules view when you want the style rules to be applied to the specific change schedule where it is defined.
+Define style rules from a change schedule definition to apply them to the change schedule that's related to the definition.
+-   **[Define style rules from the change schedules view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/define-style-rules-from-view.md)**  
+Create style rules from the change schedules view to apply them to the specific change schedule where they're defined.
 
 **Parent Topic:**[Change schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-schedule.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Web Services
 classification: web-services
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Installing the ODBC driver, Create data sources from other apps using ODBC driver, Additional integration resources, Web services, API implementation, API implementation and reference]
 ---
@@ -18,8 +18,10 @@ Download the ODBC driver \(32-bit or 64-bit\) that is compatible with your compu
 
 ## Before you begin
 
+-   Review the [ODBC driver installation requirements and supported software](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/r_ODBCDriverInstallationReqs.md) and make sure your system meets the requirements.
 -   Make sure that you have administrator-level access for the Windows computer that you want to install the ODBC driver on.
--   Role required: admin
+
+Role required: admin
 
 ## About this task
 

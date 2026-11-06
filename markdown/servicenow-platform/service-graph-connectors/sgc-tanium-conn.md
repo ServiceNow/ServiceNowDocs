@@ -7,7 +7,7 @@ release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: concept
-last_updated: "2025-10-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [SGC-Tanium, SGC Tanium, SGC for Tanium, Tanium SGC, Service Graph Connector for Tanium, Tanium connection details, Tanium connection, common connection framework, CCF, SGC-Tanium, SGC Tanium, SGC for Tanium, Tanium SGC, Service Graph Connector for Tanium, Tanium connection details, Tanium connection, common connection framework, CCF]
 breadcrumb: [Tanium, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]

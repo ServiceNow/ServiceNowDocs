@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-action-items-in-events.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 4
-breadcrumb: [Creating action items in events, Structured workflows for Exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Creating action items in events, Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Create task and assessment-type action items in events
@@ -93,7 +93,7 @@ Verify that you have created Smart Assessment templates for integrating crisis e
 
     3.  To continue working on the action item assessment, select **Work in progress**.
 
-    4.  To view responses to the assessment as another user, select **View response**.
+    4.  To view response to the assessment as another user, select **View response**.
 
     5.  To respond to the assessment as the assignee, select **Take assessment**.
 
@@ -115,7 +115,7 @@ Verify that you have created Smart Assessment templates for integrating crisis e
 
 
 -   **[Create Action item form for events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-new-action-item-events.md)**  
-Use the Create New Action item form in the BCM Configurable Workspace to add action items about a crisis event.
+Use the Create Action item form in the BCM Configurable Workspace to add action items about a crisis event.
 
 **Parent Topic:**[Creating action items in events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/creating-action-items-in-events.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [IBM QRadar - Incident Enrichment Integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -30,7 +30,7 @@ Role required: sn\_si\_admin
 
     The available security integrations appear as a series of cards.
 
-4.  In the IBM QRadar - Incident Enrichment card, select **New**.
+4.  In the IBM QRadar - Incident Enrichment card, click **New**.
 
 5.  Fill in the fields, as needed.
 
@@ -48,11 +48,11 @@ Role required: sn\_si\_admin
 
     **Note:** Configuring this integration activates workflows. To manage the workflows, navigate to the **Workflow Editor**.
 
-6.  Select **Submit**.
+6.  Click **Submit**.
 
     The integration configuration card displays.
 
-7.  When viewing the new configuration card, you can select **Configure** or **Delete** to change or delete the configuration, respectively.
+7.  When viewing the new configuration card, you can click **Configure** or **Delete** to change or delete the configuration, respectively.
 
 8.  To return to the original list of integration configuration cards, select **No** from the **Show Configurations** drop-down list.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/set-up-main-node.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -68,13 +68,13 @@ Before creating the Main node configuration record, ensure that you have complet
 
     3.  Select the table from where you want the hierarchy to start, for example, Service.
 
-        Tables are the starting point of the entire tree structure that is received as an output. The Main node configuration starts with a table, such as \[cmdb\_ci\_service\], to generate a tree structure. It scans the table to create a hierarchy for each record. If you do not want to scan the entire table, you can apply filter conditions. Filter conditions ensure that only relevant records are scanned based on your specific business requirements.
+        Tables are the starting point of the entire tree structure that is received as an output. The Main node configuration starts with a table, such as \[cmdb\_ci\_service\], to generate a tree structure. It scans the table to create a hierarchy for each record. If you do not want to scan the entire table, you can apply filter conditions. This ensures that only relevant records are scanned based on your specific business requirements.
 
     4.  Add conditions to filter the records for which this main node definition is created.
 
         The following example shows the filter condition for the "Service to dependency" configuration.
 
-        \[Omitted image "ser-to-dep-main-node.png"\] Alt text: Service to dependency"configuration.
+        \[Omitted image "ser-to-dep-main-node.png"\] Alt text: "Service to dependency" configuration.
 
         The following example shows the Business service downstream records configuration.
 

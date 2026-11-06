@@ -7,7 +7,7 @@ release: australia
 product: Orchestration
 classification: orchestration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Deprecated Orchestration activities, Activate Orchestration, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -41,7 +41,7 @@ The Run Command activity runs a command \(including shell scripts\) on a Linux o
 
 The Run SCP activity uses Secure Copy Protocol \(SCP\) to copy a file from one computer to another, including the directory in which the file resides.
 
-**Note:** This activity is deprecated in the Geneva release and is not available for use in new workflows. If you have a workflow created in a previous version that uses this activity, your workflow will continue to work normally after upgrading. The custom [Secure Copy activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/r_SecureCopyActivity.md) replaces the Run SCP activity in the Geneva release.
+**Note:** This activity is deprecated in the Geneva release and is not available for use in new workflows. If you have a workflow created in a previous version that uses this activity, your workflow will continue to work normally after upgrading. The custom [Secure Copy activity]() replaces the Run SCP activity in the Geneva release.
 
 ### Input variables
 

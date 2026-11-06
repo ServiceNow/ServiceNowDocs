@@ -7,7 +7,7 @@ release: australia
 product: Dynamic Translation
 classification: dynamic-translation
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Translating with Dynamic Translation, Dynamic Translation, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -22,13 +22,13 @@ The Dynamic Translation APIs are accessible across the ServiceNow platform throu
 -   Platform Client
 -   Portal Client
 
-In the Australia release, the Dynamic Translation spoke enables you to access the Dynamic Translation APIs from the Workflow Studio.
+In the Brazil release, the Dynamic Translation spoke enables you to access the Dynamic Translation APIs from the Workflow Studio.
 
 The Dynamic Translation Spoke is a plugin \(com.glide.dynamic\_translation.spoke\) that is available with activation of the Dynamic Translation plugin \(com.glide.dynamic\_translation\).
 
 The Dynamic Translation spoke contains actions that are built corresponding to the Dynamic Translation APIs.
 
-The following actions are built in the Australia release in Dynamic Translation spoke:
+The following actions are built in the Brazil release in Dynamic Translation spoke:
 
 |Action Name|API|
 |-----------|---|

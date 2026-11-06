@@ -7,7 +7,7 @@ release: australia
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create and test your credentials, Get started with credentials, Connections and Credentials, Access Management]
 ---
@@ -64,7 +64,7 @@ Enter the actual user name of the applicative credential.
 
 </td><td>
 
-Enter the actual password of the applicative credential. Don’t use spaces or special characters for the credential name.
+Enter the actual password of the applicative credential. Don’t use spaces or special characters for the credential password.
 
 </td></tr><tr><td>
 

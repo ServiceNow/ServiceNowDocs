@@ -58,7 +58,7 @@ For more information, see [AI agents, skills, and agentic workflows on by defaul
 
 3.  Select **ICM Case Narrative**.
 
-4.  Select the more actions \(\[Omitted image "more-actions-na-psds.png"\]\) icon for that record, and select **Activate** or **Deactivate**.
+4.  Select the more actions \(\[Omitted image "more-actions-na-psds.png"\] Alt text: more options icon\) icon for that record, and select **Activate** or **Deactivate**.
 
     **Note:** This configuration is Activated by Default.
 
@@ -68,7 +68,7 @@ For more information, see [AI agents, skills, and agentic workflows on by defaul
 
 6.  In the workflow side panel, select Configure Experience.
 
-    Here, you can change the default actions for the skill when the AI sparkle icon \(\[Omitted image "icon-ai-sparkle.png"\]\) context menu is selected in the case narrative field. You can also add and configure tones as necessary for the case narrative output. Tones such as Casual, Formal, Shorten and Elaborate are selected by default.
+    Here, you can change the default actions for the skill when the AI sparkle icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: ai sparkle icon\) context menu is selected in the case narrative field. You can also add and configure tones as necessary for the case narrative output. Tones such as Casual, Formal, Shorten and Elaborate are selected by default.
 
 7.  Select **Save and Continue** whenever prompted.
 

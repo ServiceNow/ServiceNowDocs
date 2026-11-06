@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/inventory-intelligence-agent.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Managing your AI asset inventory, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Managing your AI asset inventory, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # AI Inventory Intelligence Agent
@@ -50,11 +50,13 @@ The agent operates as follows:
 
 ## Enabling the AI Inventory Intelligence Agent
 
-The AI Inventory Intelligence Agent is configured from the Settings tab in the AI Control Tower. Use the activation toggle to enable or disable the agent. Agent configuration settings, including model provider and skill activation, are managed in ServiceNow Otto admin.
+To add LLM-generated suggestions for fields such as description, use cases, and documentation, turn on AI-generated enrichment. AI-generated enrichment is off by default, so the agent uses only deterministic enrichment until an AI Steward turns it on. Agent configuration settings, including model provider and skill activation, are managed in ServiceNow Otto admin.
 
-**Note:** To use the AI Inventory Intelligence Agent, install the ServiceNow Otto for AI Control Tower Workspace \(com.sn\_aict\_genai\) plugin.
+**Note:** To use the AI Inventory Intelligence Agent, install the ServiceNow Otto for AI Control Tower \(com.sn\_aict\_genai\) plugin.
 
-The system property sn\_ai\_governance.enrichment.generative\_enabled is set to false by default. When set to true, enrichment runs both deterministic and generative \(LLM-based\) strategies. When set to false, only deterministic strategies run.
+To turn on AI-generated enrichment, navigate to **Settings** &gt; **Rules and templates** &gt; **AI skills** and set the **AI-generated enrichment** toggle to **Active**. The toggle sets the sn\_ai\_governance.enrichment.generative\_enabled system property to true, so enrichment runs both deterministic and generative \(LLM-based\) strategies. To use only deterministic enrichment, set the toggle to **Inactive**.
 
-The LLM-generated enrichments are available when you turn on the AI-generated enrichment toggle. These enrichments are available with selected ServiceNow product tiers. For more information, see [ServiceNow product tiers](https://www.servicenow.com/docs/r/intelligent-experiences/ai-native-sku-overview.html).
+Only users with the AI Steward role can change this setting.
+
+AI-generated enrichments are available with selected ServiceNow product tiers. For more information, see [ServiceNow product tiers](https://www.servicenow.com/docs/r/intelligent-experiences/ai-native-sku-overview.html).
 

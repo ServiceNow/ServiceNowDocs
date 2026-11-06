@@ -7,9 +7,9 @@ release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing an equipment model entity schedule, Configure, Industrial Process Manager, Operational Technology]
+breadcrumb: [Managing an equipment model entity schedule, Configure the Industrial Process Manager, Industrial Process Manager, Operational Technology]
 ---
 
 # Create an equipment model entity schedule
@@ -50,7 +50,7 @@ Time zone
 
 </td><td>
 
-Time zone for the schedule. If you select **Floating**, the time zone is relative to whatever process is accessing the item at. For example, if a resource manager in Amsterdam sets a floating schedule for 8:00 to 17:00, a user in San Jose, California, also sees the schedule as 8:00 to 17:00. When you define a schedule in one time zone, users in different time zones see the schedule in their own time zone.
+Time zone for the schedule. If you select **Floating**, the time zone is relative to whatever process is accessing the item at. Floating schedules don't change across time zones. All users see 8:00-17:00 as 8:00-17:00 regardless of location.
 
 </td></tr><tr><td>
 

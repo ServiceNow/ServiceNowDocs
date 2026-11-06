@@ -7,7 +7,7 @@ release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Mandatory setup, Implement, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -373,7 +373,7 @@ Type
 
 </td><td>
 
-The method used to determine the type of indicator template. The choices are as follows:-   **Manual**: Manual indicators are used for data that cannot be retrieved from a ServiceNow instance because it comes from an external system, such as customer data from a third-party sales system.
+The method used to determine the type of indicator template. The choices are as follows:-   **Manual**: Manual indicators are used for data from external systems. Use this type when data cannot be retrieved from a ServiceNow instance, such as customer data from a third-party sales system.
 -   **Basic**: Basic indicators are automated indicators based on an indicator source. The indicator source specifies a table and a frequency at which the scores from this table are saved.
 -   **Script**: Scripted indicators use a custom script to collect the data.
 

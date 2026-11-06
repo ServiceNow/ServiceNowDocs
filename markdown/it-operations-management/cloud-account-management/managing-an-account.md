@@ -7,7 +7,7 @@ release: australia
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -57,4 +57,16 @@ Suspended accounts can be reactivated.
 You can import cloud accounts to manage them.
 
 </td></tr></tbody>
-</table>
+</table>-   **[Cancel a Cloud account request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/cancel-cam-account.md)**  
+Cancel an account request that you have submitted.
+-   **[Suspend a Cloud account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/suspend-account.md)**  
+Suspend an account when there’s a budget constraint or the account owner isn’t available in the organization. Only admins and account owners can see the suspended accounts.
+-   **[Reactivate a cloud account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/reactivate-account.md)**  
+Reactivate an account that was previously suspended if there is a need retrieve the account. After reactivating an account, the account status changes from suspended to active. Only Cloud Account Management managed accounts can be reactivated.
+-   **[Add an unmanaged cloud account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/add-unmanaged-account-cam.md)**  
+Managing a cloud account involves tracking budgets, checking for configuration violations, and validating certificates. The procedure helps you to onboard an unmanaged cloud account.
+-   **[Update cloud account details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/update-account-ownership.md)**  
+Keep account details up to date so you can identify and resolve policy violations effectively.
+
+**Parent Topic:**[Using Cloud Account Management in Cloud Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/using-cam.md)
+

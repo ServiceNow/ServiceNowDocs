@@ -7,7 +7,7 @@ release: australia
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
@@ -47,15 +47,15 @@ You can view a list of all actions taken when your device was offline and the ti
 
 5.  Do one of the following to download data and go offline.
 
-<table id="choicetable_yld_hym_wfb"><thead><tr><th align="left" id="d49947e209">
+<table id="choicetable_yld_hym_wfb"><thead><tr><th align="left" id="d51650e209">
 
 To
 
-</th><th align="left" id="d49947e212">
+</th><th align="left" id="d51650e212">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d49947e218">
+</th></tr></thead><tbody><tr><td id="d51650e218">
 
 **Take the app offline when the data is downloaded.**
 
@@ -65,7 +65,7 @@ Do this
 2.  Tap **Download cache &amp; go offline**.
  The app takes a few minutes to download the data and then takes the app offline. You can click **cancel** if you do not want to download data and go offline.
 
-</td></tr><tr><td id="d49947e249">
+</td></tr><tr><td id="d51650e249">
 
 **Manually download the data and then choose to take the app offline.**
 
@@ -86,15 +86,15 @@ Do this
     -   To clear the cache, tap **Clear cache**.
 7.  Synchronize updated records.
 
-<table id="choicetable_ufz_wr3_zfb"><thead><tr><th align="left" id="d49947e319">
+<table id="choicetable_ufz_wr3_zfb"><thead><tr><th align="left" id="d51650e319">
 
 To
 
-</th><th align="left" id="d49947e322">
+</th><th align="left" id="d51650e322">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d49947e328">
+</th></tr></thead><tbody><tr><td id="d51650e328">
 
 **Synchronize the data when your mobile device is offline**
 
@@ -105,7 +105,7 @@ Do this
 3.  Tap **Go Online &amp; Sync**.
 
 
-</td></tr><tr><td id="d49947e359">
+</td></tr><tr><td id="d51650e359">
 
 **Synchronize the data after your mobile device is connected online**
 
@@ -167,8 +167,6 @@ With your Field Service instance on your mobile device in offline mode, you can:
 
     Take questionnaires when mobile is offline. For more information, see [Complete questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/complete-questionnaire-mobile-app.md).
 
-
-In the offline mode, the **My Schedule** option in the **My Tasks** page is not available because the FSM Schedule Events \(v\_st\_fsm\_schedule\_event\) remote table is not supported.
 
 You can close work order SLAs in offline mode. The Field Service mobile application records the device timestamp when the SLA was closed. After you connect your device online and synchronize the data, the SLA admin can repair the SLA to display the actual time the SLA was closed.
 

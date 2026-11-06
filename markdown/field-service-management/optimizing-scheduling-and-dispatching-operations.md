@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/optimizing-scheduling-and-dispatching-operations.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Explore, Field Service Management]
 ---
@@ -31,7 +31,7 @@ The goal of scheduling is to verify that the right task is assigned to the right
 
     -   Route Optimization reorders tasks post-assignment to minimize driving time.
 -   Automatic: Dynamic scheduling, Schedule Optimization, and Intraday Optimization.
-    -   Dynamic Scheduling auto-assigns incoming tasks based on predefined conditions like skillset or location. This method utilizes predefined rules to assign tasks and is efficient for medium-scale operations, focusing on immediate, individual task assignments. It’s also ideal for tasks with well-defined requirements, such as routine maintenance tasks for a fleet of rental cars. Automatic scheduling can also be triggered from an event, such as when a tech schedules non-available time, tasks are automatically removed and rescheduled. This may be used during vacations or unexpected sick leaves.
+    -   Dynamic Scheduling auto-assigns incoming tasks based on predefined conditions like skillset or location. This method utilizes predefined rules to assign tasks and is efficient for medium-scale operations, focusing on immediate, individual task assignments. It's also ideal for tasks with well-defined requirements, such as routine maintenance tasks for a fleet of rental cars. Automatic scheduling can also be triggered from an event, such as when a tech schedules non-available time, tasks are automatically removed and rescheduled. This may be used during vacations or unexpected sick leaves.
     -   Schedule Optimization: Schedule Optimization enables you to optimize task scheduling, auto-assign tasks, and adapt to changing conditions. By applying policies, you can create the best possible schedule that maximizes task management and minimizes travel time. For example, a cleaning service plans its week ahead for multiple clients. Intraday Optimization reoptimizes schedules in real-time based on changing conditions. Useful when tasks are canceled, delayed, or new tasks come in. For example: a cable service provider deals with last-minute cancellations and new installations.
     -   Intraday Optimization reorganizes schedules in real-time based on changing conditions. It is useful when tasks are canceled, delayed, or new tasks come in. For example, a cable service provider deals with last-minute cancellations and new installations.
 

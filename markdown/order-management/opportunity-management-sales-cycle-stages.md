@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/opportunity-management-sales-cycle-stages.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a sales cycle, Opportunity Management, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---

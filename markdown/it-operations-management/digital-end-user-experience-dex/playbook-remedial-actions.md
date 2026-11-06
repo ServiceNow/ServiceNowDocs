@@ -1,0 +1,35 @@
+---
+title: Playbook for remedial actions in incident investigation with DEX
+description: The Playbook Experience displays current and past remedial actions executed from different sources. You can manage actions run from the Suggested resolutions or Action library within a DEX incident investigation page.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/playbook-remedial-actions.html
+release: australia
+product: Digital End-User Experience \(DEX\)
+classification: digital-end-user-experience-dex
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Incident diagnostics, suggested resolutions, and remedial actions, Manage employee experience, Digital End-User Experience, IT Operations Management]
+---
+
+# Playbook for remedial actions in incident investigation with DEX
+
+The Playbook Experience displays current and past remedial actions executed from different sources. You can manage actions run from the Suggested resolutions or Action library within a DEX incident investigation page.
+
+Remedial actions executed from the following sources are displayed in the **Playbooks** panel of the incident record:
+
+-   Suggested resolutions from the **Investigation** tab of the incident record.
+-   Action library within the incident record
+-   Action library within a DEX device page
+-   DEX Self-service for employees
+-   Proactive Engagement
+
+Each action card in the **Playbooks** panel displays information like the action name, source, status, start time, and name of user who initiated the action.
+
+You can monitor current and past remedial actions and cancel ongoing actions run from the Suggested resolutions or Action library within the incident record.
+
+-   Current actions: Actions with the status of New or In Progress.
+-   Past actions: Actions with the status of Completed, Canceled, or Failed.
+
+For more information, see [Manage remedial actions in DEX incident investigation Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/manage-incident-remedial-actions-playbook.md).
+

@@ -7,7 +7,7 @@ release: australia
 product: Audit Management
 classification: audit-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Audit Management, Governance, Risk, and Compliance]
 ---
@@ -37,7 +37,7 @@ To use the Time Card management feature integration with GRC Advanced Audit, you
 
 When an audit user logs time using time cards, the time cards are sent for approval based on the approvers defined in the time sheets policy. To learn more about time sheets policy, see [Time sheet policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-sheet-policies.md)
 
-**Note:** If there's no approver identified or **None** is selected in the **Non-project time approver** field on the time sheet policy assigned to the user, then the users in the **Time card approver** field are able to approve the time cards associated to that engagement. If **User Manager** or **Auto** is selected in the **Non-project time approver** field, then the approvers are not overridden and remain as is. For details on the roles required to approve time cards, see [Roles required for Advanced planning capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/roles-for-audit-and-ppm.md)
+**Note:** If there's no approver identified or **None** is selected in the **Non-project time approver** field on the time sheet policy assigned to the user, then the users in the **Time card approver** field are able to approve the time cards associated with that engagement. If **User Manager** or **Auto** is selected in the **Non-project time approver** field, then the approvers are not overridden and remain as is. For details on the roles required to approve time cards, see [Roles required for Advanced planning capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/roles-for-audit-and-ppm.md)
 
 To create a time card, see [Create a time card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/t_CreateATimeCard.md).
 
@@ -45,7 +45,7 @@ A user can submit the time cards through the time sheet portal directly without 
 
 ## Time cards and rollup of expenses and resources
 
-In the version 12.0.1, release of Audit Management, when an engagement has a project associated with it, time card approvals and expense line processing trigger rollups. Both the **Actual resources** and the **Actual expenses** values roll up on the engagement. Although you can create a time card and log hours before you create a project for an engagement, create a time card after a project is created. This ensures accurate reporting of the expenses and resources. The Time Cards related list appears on an engagement only after a project is created.
+In the version 12.0.1 release of Audit Management, when an engagement has a project associated with it, time card approval triggers expense line processing. After processing, both the **Actual resources** and the **Actual expenses** values roll up on the engagement. You can create a time card and log hours before you create a project for an engagement. However, create a time card after a project is created to ensure accurate reporting of the expenses and resources. The Time Cards related list appears on an engagement only after a project is created.
 
 **Related topics**  
 

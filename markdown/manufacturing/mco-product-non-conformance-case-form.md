@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-product-non-conformance-case-form.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Quality issue management form, Reference, Manufacturing Commercial Operations]
 ---
@@ -82,6 +82,7 @@ State
 State of the non-conformance case.-   Draft
 -   New
 -   In progress
+-   On hold
 -   Closed complete
 -   Closed canceled
 -   Closed incomplete
@@ -183,5 +184,5 @@ Complaint details, if any.
 **Related topics**  
 
 
-[Create a product non-conformance case using playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-playbook-create-non-conformance.md)
+[Resolve a product non-conformance case playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-resolve-a-pnc-case-playbook.md)
 

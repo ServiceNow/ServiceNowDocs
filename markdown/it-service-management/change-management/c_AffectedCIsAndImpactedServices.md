@@ -1,42 +1,42 @@
 ---
 title: Associated CIs on a change request
-description: You can associate additional CIs or services to change requests through related lists on the Change Request form. You can also associate CIs with a change request from the dependency views map.You can use dependency views to identify dependent CIs affected by a change request, and then add them to the Affected CIs related list.You can associate multiple impacted or affected CIs with a single change request.From the change request form, you can add an affected CI that is associated with a calculated application service.
+description: You can associate additional CIs or services with change requests through related lists on the Change Request form. You can also associate CIs with a change request from the dependency views map.Use dependency views to identify the dependent configuration items \(CIs\) that a change request affects, and then add them to the Affected CIs related list.Associate multiple impacted or affected CIs with a single change request.From the change request form, you can add an affected configuration item \(CI\) that is associated with a calculated application service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/c\_AffectedCIsAndImpactedServices.html
 release: australia
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Process a change request, Use, Change Management, IT Service Management]
 ---
 
 # Associated CIs on a change request
 
-You can associate additional CIs or services to change requests through related lists on the Change Request form. You can also associate CIs with a change request from the dependency views map.
+You can associate additional CIs or services with change requests through related lists on the Change Request form. You can also associate CIs with a change request from the dependency views map.
 
 The **Affected CIs** and **Impacted Services/CIs** related lists enable you to manage CI changes.
 
 When you first access a change request and work with these related lists, you can identify CIs across CI classes using configuration class. You can change the configuration class manually to filter the list and narrow the selection of CIs. For example, to filter for Linux servers only, select **Linux Servers** as the **Configuration Class**.
 
-You can also create and save filters to provide quick access to common CI searches. The next time you access the change request, the **Configuration Class** field displays the last associated CI class. This automatic filter ensures that relevant CIs are displayed.
+You can also create and save filters to provide quick access to common CI searches. The next time you access the change request, the **Configuration Class** field displays the last associated CI class. This automatic filter displays the CIs that are relevant to the change.
 
-After identifying the CIs affected by a change request, you can add them to the **Affected CIs** related list on the change request. After saving affected CIs, you can open the form context menu and select the **Refresh Impacted Services** option. This option populates the **Impacted Services/CIs** related lists based on the primary CI i.e. the CI that is mentioned on the form.
+After identifying the CIs affected by a change request, you can add them to the **Affected CIs** related list on the change request. After saving affected CIs, you can open the form context menu and select the **Refresh Impacted Services** option. This option populates the **Impacted Services/CIs** related lists based on the primary CI, that is, the CI that is mentioned on the form.
 
 The **Impacted Services/CIs** and **Service Offering** related lists represents a many-to-many relationship between the Task \[task\] and CMDB \[cmdb\_ci\] tables. The related list displays CIs, such as business services or other CI classes, and the offerings that are impacted. You can add this related list to any task form such as an incident or problem form. You can also enter the details of the impacted services and the service offerings manually, as required.
 
 **Note:**
 
 -   The manually added CIs are not deleted each time the impacted services are refreshed. However, business services related to the CIs are displayed on the **Impacted Services/CIs** related list.
--   Refresh Impacted Services was only available for Change Request table. From this release, it is available for tables that extend the Task table. The list of these tables is driven by the **com.snc.task.refresh\_impacted\_services** property. This UI action populates the Impacted Services/CIs related list based on the primary CI i.e. the CI that is mentioned on the form.
+-   The Refresh Impacted Services UI action is available for the Change Request \[change\_request\] table and for tables that extend the Task \[task\] table. The list of these tables is driven by the **com.snc.task.refresh\_impacted\_services** property. This UI action populates the Impacted Services/CIs related list based on the primary CI \(that is, the CI on the form\).
 -   The Impacted Services list includes application services discovered by Service Mapping.
 
 **Parent Topic:**[Process a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_ProcessAChangeRequest.md)
 
 ## Add affected CIs to change requests using dependency views
 
-You can use dependency views to identify dependent CIs affected by a change request, and then add them to the **Affected CIs** related list.
+Use dependency views to identify the dependent configuration items \(CIs\) that a change request affects, and then add them to the Affected CIs related list.
 
 ### Before you begin
 
@@ -50,17 +50,17 @@ If not visible, the administrator can configure the change request form to displ
 
 ### Procedure
 
-1.  In the change request, click the dependency views icon next to the **Configuration item** field.
+1.  In the change request, select the dependency views icon next to the **Configuration item** field.
 
     **Note:** If there are critical change requests attached to a CI for a database, the map includes the business services that rely on that database. The database icon has a blinking glyph on the lower left edge that indicates any issues with the node.
 
     The configuration item is displayed in the map with all dependent CIs.
 
-2.  Click the down arrow next to the CI to display a list of tasks and issues with the CI.
+2.  Select the down arrow next to the CI to display a list of tasks and issues with the CI.
 
-    The list may contain one or more change requests, and follow-on audit tasks. You can open each record from this list.
+    The list might contain one or more change requests and follow-on audit tasks. You can open each record from this list.
 
-3.  Click the task number to display the complete list of tasks attached to this CI.
+3.  Select the task number to display the complete list of tasks attached to this CI.
 
     You can view the user assigned to the change and also open the record for more information.
 
@@ -68,7 +68,7 @@ If not visible, the administrator can configure the change request form to displ
 
     The dependency views map highlights the affected CIs that depend on the database or other CI.
 
-5.  To add an affected CI to the change, click the arrow next to the highlighted node and select **Add Affected CIs**.
+5.  To add an affected CI to the change, select the arrow next to the highlighted node and select **Add Affected CIs**.
 
 6.  Reload the change request form.
 
@@ -77,7 +77,7 @@ If not visible, the administrator can configure the change request form to displ
 
 ## Associate multiple CIs with a change request
 
-You can associate multiple impacted or affected CIs with a single change request.
+Associate multiple impacted or affected CIs with a single change request.
 
 ### Before you begin
 
@@ -99,11 +99,11 @@ When you create a change request, you can add multiple CIs to that change reques
 
     \[Omitted image "Create-Change-select-CIs-0.png"\] Alt text: Add CIs
 
-3.  In the Add Affected CIS dialog box, select one or more configuration items from the list.
+3.  In the Add Affected CIs dialog box, select one or more configuration items from the list.
 
-    The Affected CIs list is filtered for the configuration class of the last added CI. This automatic filter ensures that relevant CIs are displayed. You can change the class in the Configuration Class to list other CIs.
+    The Affected CIs list is filtered for the configuration class of the last added CI. This automatic filter displays relevant CIs. You can change the class in the **Configuration Class** field to list other CIs.
 
-    the Configuration Items list in both Affected CIs and Impacted Services/CIs lists does not load records by default. No default filter condition is applied. Use the filter to define your criteria and retrieve the relevant records. You can also save any filters you create to provide faster access to common CI searches.
+    The Configuration Items list in both Affected CIs and Impacted Services/CIs lists does not load records by default. No default filter condition is applied. Use the filter to define your criteria and retrieve the relevant records. You can also save any filters you create to provide faster access to common CI searches.
 
 4.  Perform one of the following actions.
 
@@ -117,7 +117,7 @@ When you create a change request, you can add multiple CIs to that change reques
 
 ## Add an affected CI with a calculated application service
 
-From the change request form, you can add an affected CI that is associated with a calculated application service.
+From the change request form, you can add an affected configuration item \(CI\) that is associated with a calculated application service.
 
 ### Before you begin
 
@@ -131,12 +131,12 @@ Role required: itil, sn\_change\_write, or admin
 
 3.  On the Change Request form, scroll to the Related Links section.
 
-4.  Click the **Affected CIs** tab and then click **Add** to add an affected CI to the change request.
+4.  Select the **Affected CIs** tab and then select **Add** to add an affected CI to the change request.
 
-    **Note:** You can export the Affected CIs in an excel. Right click on the change request and open in a new window. Right click on **Configuration Item**, and select **Export Excel**.
+    **Note:** You can export the affected CIs to an Excel file. Select and hold \(or right-click\) the change request and open it in a new window. Then select and hold \(or right-click\) **Configuration Item** and select **Export Excel**.
 
-5.  Open the form context menu and click **Refresh Impacted Services**.
+5.  Open the form context menu and select **Refresh Impacted Services**.
 
-6.  Click the **Impacted Services/CIs** tab to see any dynamic services that are associated with the affected CI and that are impacted by the change request.
+6.  Select the **Impacted Services/CIs** tab to see any dynamic services that are associated with the affected CI and that are impacted by the change request.
 
 

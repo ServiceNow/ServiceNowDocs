@@ -7,7 +7,7 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manager Hub, HR Service Delivery, Employee Service Management]
 ---
@@ -19,7 +19,7 @@ Reference topics provide additional information about user roles, tables, and de
 -   **[Components installed with Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/installed-with-managerhub.md)**  
 Several types of components are installed with activation of the Manager Hub \[sn\_mh\] plugin, including tables, user roles, and scheduled jobs.
 -   **[Campaign configurations for Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/manager-hub-campaign.md)**  
-Default campaign configurations are available to use after you have activated Manager Hub Campaigns display predefined content on Manager Hub.
+Default campaign configurations are available to use after you have activated Manager Hub. Campaigns display predefined content on Manager Hub.
 -   **[Default configurations for important dates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/manager-hub-imp-dates.md)**  
 Predefined set of important dates configurations are available to use once you have activated Manager Hub from ServiceNow Store.
 -   **[Default configurations for team requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/manager-hub-team-requests.md)**  

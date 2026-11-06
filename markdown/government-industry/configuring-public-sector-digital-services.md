@@ -20,7 +20,7 @@ Set up Public Sector Digital Services to enable government agents and service ma
 
 </td><td>
 
-[Configure agent workspaces\[Omitted image "bus-customer-service-agent.svg"\] Alt text:Configure your agent workspaces, including the CRM Workspace, Playbooks, Service Bridge, case routing, and advanced case management features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-organize-agent-workspaces.md)
+[Configure agent workspaces\[Omitted image "bus-customer-service-agent.svg"\] Alt text:Configure your agent workspaces, including the Public Sector Workspace, Playbooks, Service Bridge, case routing, and advanced case management features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-organize-agent-workspaces.md)
 
 </td><td>
 
@@ -49,7 +49,7 @@ In addition to installing the public sector application and playbooks, you can c
 
     The Public Sector Digital Services Core application offers several prebuilt public sector components \(topic blocks\) that conversation designers can use to create Virtual Agent conversations.
 
-    The Service Request Playbook application provides a prebuilt Virtual Agent conversation topic, Create a service request, to help constituents submit non-emergency service requests.
+    The Service Request Administration application provides a prebuilt Virtual Agent conversation topic, Create a service request, to help constituents submit non-emergency service requests.
 
     For details on configuring Virtual Agent for public sector use, see [Configure Virtual Agent for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-configuring-va.md).
 
@@ -61,10 +61,10 @@ In addition to installing the public sector application and playbooks, you can c
 
     For more information, see [Service definitions for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-service-definitions.md).
 
--   **Relabel menu items in CRM Workspace after upgrade**
+-   **Relabel menu items in Public Sector Workspace after upgrade**
 
-    After you upgrade your instance to a new release, certain menus and menu items in the CRM Workspace might not be labeled appropriately for public sector use. You can relabel the following items for public sector use by changing them in the UX list categories for Customer and Service Organizations.
+    After you upgrade your instance to a new release, certain menus and menu items in the Public Sector Workspace might not be labeled appropriately for public sector use. You can relabel the following items for public sector use by changing them in the UX list categories for Customer and Service Organizations.
 
-    For details, see [Relabel CRM Workspace items after upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-relabel-after-upgrading.md).
+    For details, see [Relabel Public Sector Workspace items after upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-relabel-after-upgrading.md).
 
 

@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
@@ -28,13 +28,13 @@ After you install ServiceNow Otto for HR Service Delivery \(HRSD\), you might en
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Fix Scripts**.
 
-2.  Right-click the header and choose **Import XML**.
+2.  Open the context menu for the header and choose **Import XML**.
 
-3.  Click **Choose file** and select the XML file that you downloaded.
+3.  Select **Choose file** and select the XML file that you downloaded.
 
 4.  Search and find the **ServiceNow Otto for HRSD Bulk RCA approval** script record.
 
-5.  Click **Run Script** to allow all the requested RCAs.
+5.  Select **Run Script** to run all the requested RCAs.
 
 
 **Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)

@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Collaborate using conference call or chat in Security Incident Response, Working with Security Incident Records, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -38,15 +38,15 @@ Verify that you have activated the Omni-Experience Standard Feature Set plugin. 
 
 5.  On the Start a Sidebar discussion dialog box, fill in the fields.
 
-<table id="choicetable_ps5_3w2_2cc"><thead><tr><th align="left" id="d320125e118">
+<table id="choicetable_ps5_3w2_2cc"><thead><tr><th align="left" id="d322033e118">
 
 Field
 
-</th><th align="left" id="d320125e121">
+</th><th align="left" id="d322033e121">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d320125e127">
+</th></tr></thead><tbody><tr><td id="d322033e127">
 
 **Record number**
 
@@ -54,7 +54,7 @@ Description
 
 The task or incident number associated with the Sidebar discussion.
 
-</td></tr><tr><td id="d320125e136">
+</td></tr><tr><td id="d322033e136">
 
 **Subject**
 
@@ -62,7 +62,7 @@ The task or incident number associated with the Sidebar discussion.
 
 Provide a title for the sidebar discussion.
 
-</td></tr><tr><td id="d320125e145">
+</td></tr><tr><td id="d322033e145">
 
 **Add participants**
 
@@ -75,7 +75,7 @@ Option to add participants for the sidebar discussion. If you have integrated si
 -   By default, all users who have read access to the SIR records will also have access to sidebar chats, but this can be controlled using member query. For more information, see [Configuring Sidebar member query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-sidebar-member-query.md).
 
 
-</td></tr><tr><td id="d320125e175">
+</td></tr><tr><td id="d322033e175">
 
 **Include a brief message**
 

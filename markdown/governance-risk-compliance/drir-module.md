@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/drir-module.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -16,7 +16,7 @@ Beginning with the Yokohama release, users of the Operational Resilience Workspa
 
 Regulatory bodies have established a streamlined framework for reporting ICT related incidents in a compliant format specified by the regulatory authorities. The Digital resilience incident reporting \(DRIR\) application is used to report critical Digital Resilience Incidents \(DRIs\) according to regulatory requirements. When critical incidents are reported through Incident Management and Security Incident Response applications, the corresponding reporting cases are generated in Digital resilience incident reporting.
 
-The Digital Resilience Incident Reporting \(DRIR\) streamlines the case reporting process by creating assessments, assigning action tasks, determining reportability. It then generates the initial, intermediate, and final reports in the format specified by regulators. Using DRIR verifies that critical incidents are properly documented, tracked, and reported to authorities within the required timelines for regulatory conformance.
+The Digital Resilience Incident Reporting \(DRIR\) streamlines the case reporting process by creating assessments for regulatory reporting, assigning action tasks, and determining reportability. It generates initial, intermediate, and final reports in the format specified by regulators. Using DRIR ensures that critical incidents are properly documented, tracked, and reported to authorities within the required timelines for regulatory compliance.
 
 **Note:** The Digital resilience incident reporting application is licensed under the Integrated Risk Management \(IRM\) application family.
 

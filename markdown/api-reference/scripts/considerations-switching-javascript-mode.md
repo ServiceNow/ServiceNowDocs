@@ -7,9 +7,9 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [JavaScript modes, JavaScript engine, Server-side scripting, Scripting, API implementation, API implementation and reference]
+breadcrumb: [JavaScript modes, JavaScript engine, Write server-side scripts, Scripting, API implementation, API implementation and reference]
 ---
 
 # Considerations for switching JavaScript modes

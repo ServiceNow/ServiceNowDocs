@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/cbs-perm-kb-read.html
 release: australia
 topic_type: task
-last_updated: "2025-01-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [CBS Knowledge Readers, permissions, user criteria, Core Business Suite]
 breadcrumb: [Knowledge Base in Core Business Suite, Configure, Core Business Suite]

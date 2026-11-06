@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/initiate-instance-scans.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Run on-demand scans, Run your first scan, Run Impact Guided Setup, Configuring Impact, Impact]
+breadcrumb: [Initiate and monitor scans, Scan your instance, Platform Health, Using Impact, Impact]
 ---
 
 # Initiate instance scans
@@ -32,6 +32,4 @@ Role required: Scan Engine Admin
 
     See [View scan results for Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/viewing-scan-results-scan-engine.md) .
 
-
-**Parent Topic:**[Run on-demand scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/using-impact-scan-engine.md)
 

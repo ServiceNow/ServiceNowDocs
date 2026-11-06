@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-29"
 reading_time_minutes: 5
 keywords: [Regions and the wrapper contract, Region wrapper contract, Region spacing, Which element owns a region, Round-trip to storable text, Related]
-breadcrumb: [Layout configuration, Configure experiences, Lux Development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Layout configuration, Configure experiences, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Regions and the wrapper contract
@@ -80,9 +80,11 @@ The deprecated `<stack>` tag does not reach the editor. Both editor inputs go th
 
 [Placing Lux widgets in regions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/placing-widgets-in-regions.md)
 
-[layouts-and-editable-regions]
+[Layouts and editable regions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/layouts-and-editable-regions.md)
 
 [Configurable properties for Lux experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/configurable-properties.md)
+
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/admin-experience.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/admin-experience.md)
 
 [Configuration model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/configuration-model.md)
 

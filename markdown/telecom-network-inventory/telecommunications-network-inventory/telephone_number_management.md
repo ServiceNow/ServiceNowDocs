@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Inventory number allocation, Explore, Telecommunications Network Inventory]
 ---
@@ -22,6 +22,8 @@ Learn about telephone blocks, telephone numbers, and allocating telephone number
 -   **Telephone number**: A telephone number is a unique numerical identifier that is assigned to a telephone line or device for making and receiving telephone calls. You can add, review, and update the list of telephone numbers.
 -   **Telephone number allocation**: A telephone number allocation consists of all the telephone numbers that are either allocated or available to allocate to the customer.
 
+.
+
 **Note:**
 
 -   To perform any activity on telephone numbers, ensure that you’re assigned to the inventory number manager \(sn\_inv\_num\_mgmt.inventory\_number\_manager\) role.
@@ -31,7 +33,7 @@ Learn about telephone blocks, telephone numbers, and allocating telephone number
 
 Let's say that a network operator has a large series of numbers that include ported in, third party, owned numbers, and other types of numbers. To manage these numbers, an inventory number manager can create a telephone block. To learn more, see [Create a telephone block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create_telephone_block.md).
 
-Now, a customer that has Voice over Internet Protocol \(VoIP\) or Unified Communication as a Service \(UCaas\)-based services submits a request to the operator for a series of numbers. The requested series of numbers belong to three different areas, countries, or a series of numbers.
+Now, a customer that has Voice over Internet Protocol \(VoIP\) or Unified Communication as a Service \(UCaas\)-based services submits a request to the operator. The request is for a series of numbers. The requested series of numbers belong to three different areas, countries, or a series of numbers.
 
 To fulfill the earlier scenario, an inventory agent can create a telephone number allocation or create a telephone number for an area or region in a particular block. To learn more, see [Create a telephone number allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create_telephone_allocation.md) and [Create a telephone number to an area or region](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create_telephone_number.md). This process helps an operator to identify the following issues:
 

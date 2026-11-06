@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-retail-add-store-task-details.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage store plans to generate cases and tasks, Manage store plans, Retail]
 ---
@@ -34,7 +34,11 @@ Role required: sn\_rtl\_hq\_ops.agent, sn\_rtl\_hq\_ops.agent\_manager, sn\_rtl\
 
     Once you create and fulfill the questionnaire, you can view the smart assessment instance through View Questionnaire on mobile app and the list of smart assessment templates through the Retail Questionnaire list on the workspace.
 
-6.  Select **Continue**.
+6.  Select the **Add file** in the Attachments, if any.
+
+7.  Select **Save** to save the details.
+
+8.  Select **Continue**.
 
     A new prompt Continue without saving appears.
 
@@ -42,9 +46,9 @@ Role required: sn\_rtl\_hq\_ops.agent, sn\_rtl\_hq\_ops.agent\_manager, sn\_rtl\
 
     2.  Select **No** to remain in the same form.
 
-7.  Select **Cancel** to discard the details.
+9.  Select **Cancel** to discard the details.
 
-8.  Select **Save** to save the details.
+10. Select **Save** to save the details.
 
     The new store task added appears.
 

@@ -7,8 +7,8 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
@@ -21,8 +21,6 @@ Alert management rules provided with the base system as a store application \(Al
 Users with the evt\_mgmt\_admin role can use the alert management rule designer to create and customize alert management rules to act on specified alerts. Define rules with filters to determine which alerts the rule applies to. You can create rules to launch applications, URLs, subflows, remediation actions, or take other actions, such as to open an incident. For more information, see [Create an alert management rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/create-alert-management-rule.md).
 
 Users with the evt\_mgmt\_operator role can manually run alert management rules.
-
-To automate alert responses with an easier interface, you can also create a respond automation in Service Operations Workspace. For more information, see [Create Respond automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/respond-alert-sow-itom.md).
 
 ## Alert management rule flow
 
@@ -75,7 +73,7 @@ You can perform the following actions:
 
 -   Specify a filter that determines which alerts the rule applies to.
 -   In the Related List Conditions section of the form, configure additional conditions, for example, with an **Alert &gt; Parent** relationship, to filter for any alerts that were received today.
--   Respond to alerts. For example, by using subflows and workflows, create incidents for primary alerts with critical severity, or open a search engine in a browser to search for data according to the description field of the alert.
+-   Respond to alerts. For example, use subflows or workflows to create incidents for critical-severity primary alerts, or open a browser search using the alert description field.
 -   Apply remediation. Remediation is based on Orchestration workflows that can be scripted to perform remediation tasks such as gathering system information or rebooting a server.
 
     **Note:** For enhanced performance of **Event Management - Evaluate Scoped Alert Rules Management** scheduled jobs, use subflows instead of workflows.

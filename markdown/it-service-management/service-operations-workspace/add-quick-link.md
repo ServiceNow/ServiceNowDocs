@@ -1,20 +1,20 @@
 ---
 title: Add a user-specific quick link on the ITSM landing page
-description: Refer to a URL quickly from the Service Operations Workspace landing page.
+description: Quickly open a frequently used URL from the Service Operations Workspace landing page by adding a user-specific quick link.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/add-quick-link.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Add a user-specific quick link on the ITSM landing page
 
-Refer to a URL quickly from the Service Operations Workspace landing page.
+Quickly open a frequently used URL from the Service Operations Workspace landing page by adding a user-specific quick link.
 
 ## Before you begin
 
@@ -24,11 +24,11 @@ Role required: itil
 
 1.  Navigate to the Service Operations Workspace landing page.
 
-2.  Under the **Quick links** section, select add quick link \(\[Omitted image "quick-link.png"\] Alt text: quick link icon\).
+2.  Under the **Quick links** section, select add quick link \(\[Omitted image "quick-link.png"\] Alt text:\).
 
-3.  In the **URL** field, specify the URL that you want to refer to.
+3.  In the **URL** field, enter the URL to link to.
 
-4.  In the **Display text** field, specify the text that you want to display for the URL.
+4.  In the **Display text** field, enter the text to display for the URL.
 
 5.  Select **Add**.
 

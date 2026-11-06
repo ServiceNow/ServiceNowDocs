@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-agents-create-pre-auth-request.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Pre-authorization requests, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_claim\_cmn.warranty\_specialist
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Pre-authorization requests** &gt; **All**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **Lists** &gt; **Pre-authorization requests** &gt; **All**.
 
 2.  Select **New**.
 
@@ -56,4 +56,6 @@ Role required: sn\_claim\_cmn.warranty\_specialist
 
 13. Select **Assign to me** to assign the case to yourself.
 
+
+**Parent Topic:**[Pre-authorization requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-agents-pre-auth-requests.md)
 

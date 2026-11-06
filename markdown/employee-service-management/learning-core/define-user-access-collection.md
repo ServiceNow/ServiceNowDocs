@@ -7,7 +7,7 @@ release: australia
 product: Learning Core
 classification: learning-core
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a content collection, Managing course and catalog content, Learning Core, HR Service Delivery, Employee Service Management]
 ---
@@ -28,11 +28,11 @@ Create a collection. For more information, see [Create a content collection](htt
 
 2.  Open the collection that you want to define user access for.
 
-3.  On the Can Read tab, select **Edit**.
+3.  On the Can Read tab, click **Edit**.
 
 4.  Add users who should have access to the course catalog.
 
-5.  On the Cannot Read tab, select **Edit**.
+5.  On the Cannot Read tab, click **Edit**.
 
 6.  Add users who should not have access to the course catalog.
 

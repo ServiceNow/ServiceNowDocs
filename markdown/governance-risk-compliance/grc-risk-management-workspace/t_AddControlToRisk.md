@@ -7,7 +7,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -30,15 +30,15 @@ Role required: sn\_risk.manager and sn\_compliance.manager
 
 3.  Continue with one of the following options.
 
-<table id="choicetable_y2l_kdz_pv"><thead><tr><th align="left" id="d405382e91">
+<table id="choicetable_y2l_kdz_pv"><thead><tr><th align="left" id="d408344e91">
 
 Option
 
-</th><th align="left" id="d405382e94">
+</th><th align="left" id="d408344e94">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d405382e100">
+</th></tr></thead><tbody><tr><td id="d408344e100">
 
 **Add an existing control**
 
@@ -49,7 +49,7 @@ Description
 3.  Select **Add relationship**.
  **Note:** The controls displayed after selecting the **Add** button are limited to controls where the entity of control matches the risk entity. If there are no eligible controls that can be related to the risk, the **Add** button isn’t displayed on the Controls related list.
 
-</td></tr><tr><td id="d405382e139">
+</td></tr><tr><td id="d408344e139">
 
 **Add a new control**
 
@@ -60,7 +60,7 @@ Description
 3.  Select **Submit**.
 
 
-</td></tr><tr><td id="d405382e176">
+</td></tr><tr><td id="d408344e176">
 
 **Inherit common controls**
 

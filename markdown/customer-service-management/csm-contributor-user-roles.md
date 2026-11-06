@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-contributor-user-roles.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 3
-breadcrumb: [Contributor users, Configure Contributor Users, User management, Set up your environment, Configure, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Contributor users, Configure contributor users, User management, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Contributor user roles
@@ -16,16 +16,16 @@ The contributor user data model includes several roles that control access to ca
 
 These roles are included with several different plugins:
 
--   Customer Service \(com.sn\_customerservice\)
+-   Case Management Core \(com.sn\_customerservice\)
 -   CSM Contributor User \(com.snc.csm\_contributor\_user\)
 -   Business Location \(com.snc.business\_location\)
 -   CSM Base Extension Entities \(com.snc.cs\_base\_extension\)
 
 See the following tables for detailed role descriptions.
 
-## Roles included with the Customer Service plugin
+## Roles included with the Case Management Core plugin
 
-The following table lists the contributor roles that are included with the Customer Service \(com.sn\_customerservice\) plugin along with their descriptions and associated roles.
+The following table lists the contributor roles that are included with the Case Management Core \(com.sn\_customerservice\) plugin along with their descriptions and associated roles.
 
 <table id="table_q3s_wcc_3nb"><thead><tr><th>
 
@@ -40,61 +40,6 @@ Description
 Contains roles
 
 </th></tr></thead><tbody><tr><td>
-
-Case task agent\[sn\_customerservice.case\_task\_agent\]
-
-</td><td>
-
-This role provides access to case tasks and related case information. A user with this role can work on the following case tasks:
-
--   Tasks that are assigned to the user or to the user's assignment groups.
--   Tasks that have been created by the user.
-
- With this role, the user can:
-
--   View and update case tasks.
-    -   Add work notes, comments, and attachments.
-    -   Update the status.
-    -   Perform additional actions from a case task such as sending email.
--   Create case tasks and assign them to other users.
-
- With this role, users have read-only access to customer information for the case:
-
--   Account and contact records \(for B2B cases\)
--   Consumer and household records \(for B2C cases\)
--   Service organization records \(business location cases\)
-
-</td><td>
-
--   sn\_customerservice.csm\_workspace\_user
--   sn\_customerservice.customer\_data\_viewer
--   sn\_customerservice.case\_contributor\_editor
-
-</td></tr><tr><td>
-
-Case task viewer\[sn\_customerservice.case\_task\_viewer\]
-
-</td><td>
-
-This role provides read-only access to all case tasks. **Note:** When combined with the case viewer role \(sn\_customerservice.case\_viewer\), a user can access all customer service cases and all case tasks.
-
-</td><td>
-
- 
-
-</td></tr><tr><td>
-
-Case viewer\[sn\_customerservice.case\_viewer\]
-
-</td><td>
-
-This role provides read-only access to all cases.
-
-</td><td>
-
- 
-
-</td></tr><tr><td>
 
 Case contributor editor\[sn\_customerservice.case\_contributor\_editor\]
 
@@ -216,7 +161,24 @@ Service organization contributor \[sn\_customerservice.service\_organization\_co
 
 </td><td>
 
-This role enables you to create cases for their service organization \(business location\).**Note:** A service organization contributor must be a member of a service organization to create cases on its behalf.
+This role enables you to create cases for your service organization \(business location\).**Note:** A service organization contributor must be a member of a service organization to create cases on its behalf.
+
+This role enables you to also perform the following on the customer-visible case tasks for the cases you have access to at your service organization \(business location\):
+
+-   View and update case tasks and the fields on the case task record.
+-   Close case tasks in Business Location Service Portal \(BLSP\).
+
+</td><td>
+
+sn\_customerservice.case\_contributor\_creator
+
+</td></tr><tr><td>
+
+Business Organization Self Contributor\[sn\_bus\_loc.business\_org\_self\_contributor\]
+
+</td><td>
+
+This role enables you to create and track cases for yourself while associating them with your business location. You can also link any sold products or install base items assigned to you at a business location to the case.
 
 </td><td>
 
@@ -247,10 +209,7 @@ Relationship contributor \[sn\_customerservice.relationship\_contributor\]
 
 This role enables you to create cases for customers with which they have an established relationship. **Note:**
 
--   The CSM Contributor User \(com.snc.csm\_contributor\_user\) plugin must be activated.
-
-**Note:** The CSM Contributor User plugin is moved to the App Store beginning with Australia release.
-
+-   The CSM Contributor User \(com.snc.csm\_contributor\_user\) plugin must be activated. This plugin is moved to the App Store beginning with Australia release.
 -   A relationship contributor must be a member of an account, contact, or household team to create cases on their behalf.
 
 </td><td>
@@ -259,6 +218,8 @@ sn\_customerservice.case\_contributor\_creator
 
 </td></tr></tbody>
 </table>## Additional roles
+
+Using the following roles, you can provide access to customer data and CRM workspace to some contributor users.
 
 <table id="table_hbc_drt_jnb"><thead><tr><th>
 
@@ -290,7 +251,7 @@ Workspace user\[sn\_customerservice.csm\_workspace\_user\]
 
 </td><td>
 
-This role provides access to case tasks from the following modules in the CSM workspaces:-   My Case Tasks
+This role provides access to case tasks from the following modules in the CRM workspaces for internal users only:-   My Case Tasks
 -   My Group's Case Tasks
 
  You can also:
@@ -299,7 +260,7 @@ This role provides access to case tasks from the following modules in the CSM wo
 -   Create email \(if you have the written access to the record and the email\_composer role\).
 -   View response templates \(if response templates have been configured for the record\).
 
-**Note:** By default, this role is added to the case task agent role \(sn\_customerservice.case\_task\_agent\).
+**Note:** An external user who is given contributor roles can't access workspace even if they’re given this role.
 
 </td><td>
 
@@ -309,4 +270,16 @@ This role provides access to case tasks from the following modules in the CSM wo
 -   email\_composer
 
 </td></tr></tbody>
-</table>
+</table>**Related topics**  
+
+
+[Configure contributor users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-contributor-user.md)
+
+[Contributor users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-service-contributor-users.md)
+
+[Cases and case tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-cases-case-tasks-overview.md)
+
+[Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/r_RolesInstalledWithCustomerService.md)
+
+[Business Stakeholder for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/business-stakeholder-for-csm.md)
+

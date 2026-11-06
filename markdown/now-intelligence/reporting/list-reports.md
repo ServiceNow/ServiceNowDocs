@@ -7,9 +7,9 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Report types, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Core UI Report types, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # List reports
@@ -18,7 +18,7 @@ List reports display data in the form of an expandable list. You can configure w
 
 **Note:**
 
--   This topic refers to Reporting in the Core UI. If your instance is migrated to Platform Analytics experience, see [Create a list visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-dv-analytics-list.md).
+-   This topic refers to Reporting in the Core UI. For information about lists in the newer Platform Analytics, see [Create a Platform Analytics list visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-dv-analytics-list.md).
 -   List reports display in List v2, even if List v3 is enabled.
 -   The record count and pagination buttons appear only at the bottom of the list.
 

@@ -7,8 +7,8 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 keywords: [alert significance, alert prioritization, meaningful alerts, insignificant alerts, mute alerts, alert importance, anomaly sensitivity, alert grouping, noise reduction, restore significance, metric significance, alert feedback]
 breadcrumb: [Managing alert generation, prioritization, anomaly detection, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -44,15 +44,4 @@ You can do the following to adjust the importance of an alert or reduce sensitiv
 
 
 For detailed information about alert metrics, see [How Health Log Analytics generates alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-op-anomalies-detecting.md).
-
--   **[Mark an alert as significant in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-op-alert-make-significant-sow.md)**  
-Make an alert more likely to be included in a Log Analytics group when the associated metric behaves anomalously by labeling the alert as meaningful.
--   **[Mute an unimportant alert in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-op-alert-mute-sow.md)**  
-Eliminate distracting new alerts for insignificant issues by muting them.
--   **[Decrease sensitivity to similar anomalies in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-op-alert-raise-feedback-sow.md)**  
-Make anomaly detection less sensitive to anomalies like the one that triggered the current Log Analytics alert.
--   **[Restore normal importance to an alert metric in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-op-alert-restore-user-defined-sow.md)**  
-Return normal significance to the metric involved in generating a Log Analytics alert. Use this option if you no longer want an alert to be treated specially that was muted, marked as significant, or made less sensitive to similar anomalies.
-
-**Parent Topic:**[ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-health-landing-page.md)
 

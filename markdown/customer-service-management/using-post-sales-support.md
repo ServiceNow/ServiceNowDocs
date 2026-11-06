@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/using-post-sales-support.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Customer management, Use, Customer Service Management]
 ---
 
@@ -23,6 +23,8 @@ Customer contracts, customer contract lines, and entitlements can be created in 
 -   Via API integrations:
     -   [Service Contract API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/servicecontract-api.md)
     -   [Entitlement API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/entitlement-api.md)
+
+Customer Contracts and Entitlements is integrated with ServiceNow® Quote Experience that provides a unified Quote Experience for creating, pricing, approving, and completing quotes. It is a single, modern quoting solution that supports both simple and complex quoting needs. It provides a configurable workspace for managing quotes, including products, pricing, approvals, and lifecycle progression. You can create and manage quotes directly from your CRM opportunity workflow. To install ServiceNow® Quote Experience, see [ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quoting-experiences-overview.md).
 
 You can perform the following features using Customer Contracts and Entitlements Workflows:
 

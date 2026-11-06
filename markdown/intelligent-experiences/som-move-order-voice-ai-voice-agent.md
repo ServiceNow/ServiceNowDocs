@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/som-move-order-voice-ai-voice-agent.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Order Management AI agents, Sales CRM AI agents, Sales CRM, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [Order Management AI agents, Sales CRM AI agents, Sales CRM, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Move order voice AI agent

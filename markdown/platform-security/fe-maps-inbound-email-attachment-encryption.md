@@ -1,5 +1,5 @@
 ---
-title: Module access policies for inbound email attachment encryption
+title: Module access policies for inbound email attachments
 description: Encrypting inbound email attachments associated with matched records requires one or more module access policies \(MAPs\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/fe-maps-inbound-email-attachment-encryption.html
@@ -11,7 +11,7 @@ keywords: [encryption, email attachments, module access policies]
 breadcrumb: [Encrypting fields and attachments, Using Field Encryption, Field Encryption, Encryption]
 ---
 
-# Module access policies for inbound email attachment encryption
+# Module access policies for inbound email attachments
 
 Encrypting inbound email attachments associated with matched records requires one or more module access policies \(MAPs\).
 

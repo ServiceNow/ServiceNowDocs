@@ -7,7 +7,7 @@ release: australia
 product: Dependency Views
 classification: dependency-views
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -15,6 +15,8 @@ breadcrumb: [Configuration Management Database \(CMDB\), Configuration Managemen
 # Dependency Views
 
 ServiceNow® Dependency Views graphically displays an infrastructure view for a configuration item \(CI\) and the application or business services that it is part of and that it supports. Dependency Views indicates the status of its configuration items, and allows access to CIs related alerts, incidents, problems, changes, and services.
+
+**Note:** Starting with the Brazil release, Dependency Views is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. [Unified Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/unified-map/unified-map-landing-page.md) provides the latest experience for this functionality. For more information, refer to the [Application/Plugin Deprecation Process \[KB05484748\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 If Service Mapping is activated, Dependency Views maps are enhanced to display dependencies that reflect connections in service maps.
 
@@ -24,7 +26,7 @@ As an alternative to Dependency Views, you can use [Unified Map](https://raw.git
 
 Explore
 
- -   Australia
+ -   Brazil
 -   [Domain separation and Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/dependency-views/domain-separation-dependency-views.md)
 
 </td><td>

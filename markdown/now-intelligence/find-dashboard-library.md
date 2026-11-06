@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/find-dashboard-library.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Explore, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -14,9 +14,9 @@ breadcrumb: [Explore, Dashboards, Platform Analytics experience, Platform Analyt
 
 Use Platform Analytics dashboards to access, organize, and share data in a visual format. Dashboards contain data visualizations, filters, and other visual elements.
 
-## Dashboards overview
+## Dashboard overview
 
-On Australia instances, you can find both Core UI dashboards and Platform Analytics experience dashboards in the Dashboards library.
+On Brazil instances, you can find both Core UI dashboards and Platform Analytics experience dashboards in the Dashboards library.
 
 To find dashboards in Platform Analytics, navigate to the [library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/dashboards-glossary.md) at **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**. You can also navigate to this library from other Platform Analytics library pages.
 
@@ -108,7 +108,7 @@ Launches the condition builder. For more information on using the condition buil
 
  The condition builder for dashboards has the following extra options:
 
--   Saved filters: Options to use a previously saved filter or to save the filter you are currently building. If you save the current filter, you name it and set who can access it.
+-   Saved filters: Options to use a previously saved filter or to save the filter you're currently building. If you save the current filter, you name it and set who can access it.
 -   Show/Hide labels: Option to show or hide labels for the fields **Field** and **Operator** in the condition builder.
 
 </td></tr><tr><td>

@@ -7,7 +7,7 @@ release: australia
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Creating and maintaining articles, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ The HTML editor available in knowledge articles uses the built-in TinyMCE editor
 
 The HTML toolbar within the HTML editor contains an array of icons that enable you to edit and format the body text of your knowledge article. You can also use the HTML Editor to add images, links, audio, and video to the knowledge article.
 
-**Note:** Your administrator can configure the HTML toolbar within the HTML editor. For more information, see [Customize TinyMCE attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/tinymce.md).
+**Note:** Your administrator can configure the HTML toolbar within the HTML editor. For more information, see Customize TinyMCE attributes.
 
 You can perform the following functions using the HTML editor:
 

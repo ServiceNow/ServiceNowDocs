@@ -7,7 +7,7 @@ release: australia
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Industrial Workspace, Operational Technology]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Industrial Workspace, Operational Technology]
 
 Configure Industrial Workspace so that you can manage your Operational Technology \(OT\) data.
 
-If you have the admin role, you can use Guided Setup to lead you through the setup of the Industrial Workspace. Guided Setup is a tool that assists with application or capability configuration. It organizes the configuration activities into categories. These categories contain the information about the setup tasks, the steps to complete each task, and the links to the pages in your instance where you perform the configuration. The links to useful help content are also provided.
+If you have the admin role, you can use Guided Setup to lead you through the setup of the Industrial Workspace. Guided Setup is a tool that assists with application or capability configuration. It organizes the configuration activities into categories. These categories contain the information about the setup tasks, the steps to complete each task, and links to the pages in your instance where you perform the configuration. The links to useful help content are also provided.
 
 To access Guided Setup, navigate to **Industrial Workspace Admin** &gt; **Guided Setup**.
 

@@ -4,15 +4,13 @@ description: The ServiceNow Journey designer application enables employees and m
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 ---
 
 # Journey designer
 
 The ServiceNow® Journey designer application enables employees and managers in your organization to initiate and manage journeys to drive employee engagement and productivity.
-
-\[Omitted video\] Description: Journey designer application overview
 
 Journey designer uses Journey Accelerator and Lifecycle Events to create a unified journey experience for employees and managers in the Employee Center. Journeys offer a unique user experience. In the back-end, records are created using Journey designer, Journey Accelerator, and Lifecycle Events components to pull together a customized journey for employees.
 

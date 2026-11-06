@@ -7,7 +7,7 @@ release: australia
 product: Usage Insights
 classification: usage-insights
 topic_type: task
-last_updated: "2026-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Using page properties]
 breadcrumb: [Page properties analytics, Viewing session analytics, Using Usage Insights, Usage Insights, Platform Analytics]

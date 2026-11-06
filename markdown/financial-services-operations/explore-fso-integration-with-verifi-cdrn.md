@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/explore-fso-integration-with-verifi-cdrn.html
 release: australia
 topic_type: concept
-last_updated: "2026-04-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [explore]
 breadcrumb: [Verifi, Integrate, Financial Services Operations \(FSO\)]
@@ -117,7 +117,7 @@ The retailer or service provider whose transaction is being disputed by the card
 To learn more about configuring and using Financial Services Operations Integration with Verifi, see:
 
 -   [Configuring Financial Services Operations Integration with Verifi](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configure-financial-services-integration-with-verifi-cdrn.md)
--   
+-   [Verifi Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/verifi-spoke.md)
 -   [Financial Services Operations Integration with Visa reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/FSO-integration-with-visa-reference.md)
 
 **Parent Topic:**[Financial Services Operations Integration with Verifi](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/financial-services-operations-verifi-cdrn-integration-app-landing-page.md)

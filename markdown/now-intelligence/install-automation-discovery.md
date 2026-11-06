@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/install-automation-discovery.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Automation Discovery, Platform Analytics]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-**Important:** Starting with the Zurich release, Automation Discovery is deprecated. It will be hidden and no longer installed on new instances but will continue to be supported in Australia. Support will be withdrawn in a future release. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+**Important:** The deprecation of Automation Discovery was announced in the Zurich release. From the Brazil release, Automation Discovery is no longer deployed, enhanced, or supported. You can continue to use existing deployments but can't initiate new ones. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 The following items are installed with Automation Discovery: plugins, roles, and tables.
 

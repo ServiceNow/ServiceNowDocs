@@ -7,7 +7,7 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [ACC-M default checks and policies, ACC-M reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
@@ -110,7 +110,7 @@ pgsql.statsbgwriter.buffers\_backend\_fsync
 
 </td><td>
 
-Provides metrics related to the number of times a backend executed its own fsync call. Normally the background writer handles these calls.
+Provides metrics related to the number of times a backend had to execute its own fsync call. Normally the background writer handles these calls, even when the backend performs its own write.
 
 </td></tr><tr><td>
 

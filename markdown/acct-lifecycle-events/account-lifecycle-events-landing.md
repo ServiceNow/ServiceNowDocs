@@ -5,15 +5,13 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-events-landing.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 ---
 
 # Customer Success Management
 
 The ServiceNow® Customer Success Management application enables service providers to streamline, automate, and measure critical workflows across the entire enterprise customer journey—from onboarding and adoption to renewals.
-
-**Important:** Account Lifecycle Events has been renamed to Customer Success Management in Zurich.
 
 ## Get started
 
@@ -27,18 +25,26 @@ By embedding workflow automation into customer success management, Customer Succ
 
 [Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and customize Customer Success Management to meet your needs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-events-landing-page.md)
 
-</td></tr><tr><td>
+</td><td>
 
 [Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use Customer Success Management to manage the entire customer lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-customer-success-landing-page.md)
 
-</td><td>
+</td></tr><tr><td>
 
 [Reference \[Omitted image "bus-learn.svg"\] Alt text:Get information about the data model and installed components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-reference.md)
+
+</td><td>
+
+[Automate\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Use generative AI skills and agentic workflows to automate customer success tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-otto-cs-landing.md)
+
+</td><td>
+
+ 
 
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/account-lifecycle-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/account-lifecycle-rn.md).
+-   Learn more about what's new and changed, see the [Customer Success Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/account-lifecycle-rn.md).
 -   Review the multiple TM Forum \(TMF\) Open APIs supported for the product, see [TMF APIs for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/tmt-api-reference.md).
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying Customer Success Management features at the [Best Practices Library](https://mynow.servicenow.com/now/best-practices/home).
 -   Access real time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/now-learning-get-certified?id=amap_detail&achievement_id=57c9e41087152e9024e0bb39dabb35cc&s=1&ssa=3).

@@ -7,7 +7,7 @@ release: australia
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2024-12-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [risk indicators, security vulnerabilities, compliance, certificates]
 breadcrumb: [Reference, Cryptographic Asset Compliance, ITOM Visibility, IT Operations Management]

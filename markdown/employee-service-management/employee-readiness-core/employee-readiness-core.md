@@ -7,8 +7,8 @@ release: australia
 product: Employee Readiness Core
 classification: employee-readiness-core
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Safe Workplace, Health and Safety, Employee Service Management]
 ---
 
@@ -17,6 +17,8 @@ breadcrumb: [Safe Workplace, Health and Safety, Employee Service Management]
 Use the ServiceNow® Employee Readiness Core application to track employee data across all Safe Workplace suite and ServiceNow® Emergency Response Management applications.
 
 The Employee Readiness Core app adds the Employee Health and Safety Status feature.
+
+\[Omitted image "covid.EmployeeHealthandSafetyStatus.png"\] Alt text: Return employees to the workplace
 
 The Employee Readiness Core app also provides shared functionality and data structures for Employee Readiness apps, such as ServiceNow® Employee Readiness Surveys, ServiceNow® Employee Health Screening , and ServiceNow® Contact Tracing.
 
@@ -95,6 +97,14 @@ Organizations remain solely responsible for complying with their legal obligatio
 ServiceNow is offering this application to government agencies and their authorized users, not to employees of government agencies in their individual capacities. Use of this application is being offered free of charge for a limited or extended time period and with no expectation of payment from the government agency to ServiceNow for use during that time period, nor does usage create an actual or implied future obligation on behalf of the government. ServiceNow hereby expressly waives any future claims for payment from the agency in connection with usage of the application. Government customers are solely responsible to confirm with the agency’s Ethics Office or its authorized representative that acceptance and usage of the application is permissible.
 
 All decisions in connection with the implementation of this application are at the sole decision of the government agency utilizing this application. Agencies remain solely responsible for complying with their legal obligations under applicable laws and regulations, including \(but not limited to\) data protection and employment laws and regulations, and should modify any language within the templates provided to meet the agency’s specific requirements.
+
+## Additional resources
+
+-   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/hr-service-delivery-landing.md).
+-   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
+-   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
+-   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).
+-   Connect with other Customer Service Management users at [Now Community](https://www.servicenow.com/community/).
 
 -   **[Install Employee Readiness Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-readiness-core/install-employee-readiness-core.md)**  
 You can install Employee Readiness Core if you have the admin role.

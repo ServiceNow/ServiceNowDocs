@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Universal Task in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -24,7 +24,7 @@ Role required: admin
 
 1.  Open the ticket that you want to create a universal task for.
 
-2.  Click the UI action for creating a universal task.
+2.  Select the UI action for creating a universal task.
 
 3.  On the form, fill in the fields.
 

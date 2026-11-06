@@ -1,16 +1,16 @@
 ---
-title: Review IRM artifacts
+title: Review Governance, Risk, and Compliance artifacts
 description: The Data Collection app contains a pre-build data metric structure for the ServiceNow Performance/Platform Analytics application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/dc-irm-install-artifacts.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Impact Value Management Data Collection Content Pack for IRM, Enable data collection for Value Management, Configuring Impact, Impact]
+breadcrumb: [Impact Value Management Data Collection Content Pack for Governance, Risk, and Compliance, Enable data collection for Value Management, Guided Setup \(Legacy\), Configuring Impact, Impact]
 ---
 
-# Review IRM artifacts
+# Review Governance, Risk, and Compliance artifacts
 
 The Data Collection app contains a pre-build data metric structure for the ServiceNow Performance/Platform Analytics application.
 
@@ -68,5 +68,5 @@ The app contains the following artifacts for each of the above-specified artifac
 |Manual|Outsourced risk mgmt. spend as % of avg. risk mgmt. spend|
 |Manual|Legacy IRM and privacy systems annual run-rate|
 
-**Parent Topic:**[Impact Value Management Data Collection Content Pack for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/data-collection-irm.md)
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/data-collection-irm.md)
 

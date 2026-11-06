@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Collaborate with stakeholders during a major incident, Managing a major incident record, Major Incident Management in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -28,7 +28,7 @@ Role required: major\_incident\_manager, itil, ia\_admin, or admin
 
 3.  Select **New** to create an incident communication plan.
 
-    For more information on the form fields of an incident communication plan, see [Create adhoc incident communication plan from incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-communications-management/t_CreateAnAlertFromAnIncident.md).
+    For more information on the form fields of an incident communication plan, see [Create ad hoc incident communication plan from incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-communications-management/t_CreateAnAlertFromAnIncident.md).
 
     The Incident communication plan record opens on a separate tab.
 
@@ -38,7 +38,7 @@ Role required: major\_incident\_manager, itil, ia\_admin, or admin
 
 6.  Select **New** to create an incident communication task.
 
-    For more information on the form fields of an incident communication task, see [Create adhoc incident communication task from Incident Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-communications-management/create-adhoc-inci-commu-task.md).
+    For more information on the form fields of an incident communication task, see [Create an ad hoc incident communication task from Incident Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-communications-management/create-adhoc-inci-commu-task.md).
 
 7.  On the Incident communication task record, add a communication channel.
 

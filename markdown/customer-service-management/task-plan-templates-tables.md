@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/task-plan-templates-tables.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-04"
 reading_time_minutes: 1
 breadcrumb: [Task Plan Templates, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -53,6 +53,22 @@ Template Item Condition\[sn\_task\_plan\_template\_item\_condition\]
 </td><td>
 
 Stores template item condition records.You can add conditions to a template item that determines when a template item is applicable.
+
+</td></tr><tr><td>
+
+Task Plan Template Dependency
+
+</td><td>
+
+Stores the dependency definitions between template items.Each record includes the predecessor, the successor, the dependency type, the minimum and maximum lag times, and the assignment criteria.
+
+</td></tr><tr><td>
+
+Task Plan Template Document\[sn\_task\_plan\_template\_document\]
+
+</td><td>
+
+Stores the document references added to template items.When a task plan template generates records, each generated record receives the document references of its source template item.
 
 </td></tr></tbody>
 </table>**Related topics**  

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/mdso-service-order-orchestration-somt.html
 release: australia
 topic_type: concept
-last_updated: "2025-07-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [multi-domain service order, MDSO, service order orchestration, domain orders, TMF641, TMF716, TMF697, subflow, CFSS, RFSS, CMDB, FSMT]
 breadcrumb: [Explore, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
@@ -18,6 +18,8 @@ Sales CRM for Telecommunications decomposes a customer order into multiple paral
 Multi-domain service order \(MDSO\) orchestration in Sales CRM for Telecommunications decomposes a single customer order into multiple domain orders, each routed to a different fulfillment domain using catalog-defined specification relationships. Each domain order runs an independent subflow a task sequence that triggers an outbound API request, consumes the response, and closes the domain order on completion.
 
 Domain orders run in parallel by default. Where one domain order depends on the output of another, catalog-defined decomposition rules enforce the wait condition automatically. Each domain order routes to its target system using the appropriate TMF Open API standard. The platform manages outbound requests, inbound responses, and error handling within a single orchestration view.
+
+\[Omitted image "MMASSET0022315.png"\] Alt text: Diagram of multi-domain service order orchestration showing a customer order decomposed into parallel domain orders routed to fulfillment systems using TMF Open API standards.
 
 ## Benefits
 

@@ -1,13 +1,13 @@
 ---
 title: External Content Connectors release notes
-description: The ServiceNow External Content Connectors applications make content and metadata from external content repositories such as Atlassian Confluence Cloud and Microsoft SharePoint Online searchable using AI Search. See the following sections for release notes by version.The ServiceNow External Content Connectors application enables AI Search applications to search content and metadata from supported external source systems, such as Atlassian Confluence Cloud and Microsoft SharePoint Online. External Content Connectors was enhanced and updated in the Australia release.The ServiceNow External Content Connectors application enables AI Search applications to search content and metadata from supported external source systems, such as Atlassian Confluence Cloud and Microsoft SharePoint Online. External Content Connectors was enhanced and updated in the Australia release.The ServiceNow External Content Connectors application enables AI Search applications to search content and metadata from supported external source systems, such as Atlassian Confluence Cloud and Microsoft SharePoint Online. External Content Connectors was enhanced and updated in the Australia release.The ServiceNow External Content Connectors application enables AI Search applications to search content and metadata from supported external source systems, such as Atlassian Confluence Cloud and Microsoft SharePoint Online. External Content Connectors was enhanced and updated in the Australia release.
+description: The ServiceNow External Content Connectors applications make content and metadata from external content repositories such as Atlassian Confluence Cloud and Microsoft SharePoint Online searchable using AI Search. See the following sections for release notes by version.Version 9.2 adds the Custom Connector Gateway external content connector, support for additional binary file formats, secure search for the Amazon S3 external content connector, and a more descriptive analytics metric name.Version 9.0 adds a connector health dashboard, an index inspector tool, regulatory market conformance for the Amazon S3 external content connector, and delta content crawl support for the Google Drive external content connector.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/external-content-connectors-rn.html
 release: australia
 topic_type: topic
-last_updated: "2026-09-03"
-reading_time_minutes: 5
-breadcrumb: [ServiceNow AI Platform administration release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [ServiceNow AI Platform administration release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # External Content Connectors release notes
@@ -20,7 +20,7 @@ The ServiceNow® External Content Connectors applications make content and metad
 -   Map your source system users to their ServiceNow AI Platform user accounts to preserve their access permissions for crawled content.
 -   Schedule content and user permission crawls or run them manually as needed.
 
-See [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ext-cont-connectors-landing-page.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -41,120 +41,66 @@ See [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/S
 
 **Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-platform-admin-rn-landing.md)
 
-## Version 9.0
+## Version 9.2
 
-The ServiceNow® External Content Connectors application enables AI Search applications to search content and metadata from supported external source systems, such as Atlassian Confluence Cloud and Microsoft SharePoint Online. External Content Connectors was enhanced and updated in the Australia release.
+Version 9.2 adds the Custom Connector Gateway external content connector, support for additional binary file formats, secure search for the Amazon S3 external content connector, and a more descriptive analytics metric name.
 
 ### What's new
 
--   **[Connector health dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/resolve-health-issues-external-content-connector.md)**
+-   **Custom Connector Gateway external content connector**
+
+    Retrieve content, metadata, and users from any source system using your own custom connector, running in your local or cloud environment. Send your retrieved data to a gateway connector running on your instance by submitting Custom Connector Gateway API requests to an ingest gateway host. The gateway connector indexes your retrieved data and makes it searchable in the ServiceNow AI Platform®.
+
+-   **Support for Markdown and email message binary files and attachments**
+
+    Extract searchable text from Markdown \(.md\) and email message \(.eml, .msg\) files and attachments retrieved by your external content connectors.
+
+
+### What's changed
+
+-   **Secure search for the Amazon S3 external content connector**
+
+    The Amazon S3 external content connector adds support for secure search. The **Settings** tab for this connector includes a new **User mapping settings** screen. On this screen, you can select one of three permission modes for the connector and optionally configure user mappings. You can also configure user permission crawls for the connector if using a permission mode that requires them.
+
+-   **Analytics for external content connectors**
+
+    The **Quota usage** metric has been renamed **Connector limit** for clarity.
+
+
+### Plugin information
+
+-   **New plugins**
+
+    External Content Connectors Custom Connector \(com.sn\_ext\_conn\_ccg\): Plugin for the Custom Connector Gateway external content connector. This plugin is included when you install the External Content Connectors Application Suite plugin.
+
+
+## Version 9.0
+
+Version 9.0 adds a connector health dashboard, an index inspector tool, regulatory market conformance for the Amazon S3 external content connector, and delta content crawl support for the Google Drive external content connector.
+
+### What's new
+
+-   **Connector health dashboard**
 
     View and resolve connector health issues using the connector health dashboard.
 
--   **[Index inspector tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/review-indexing-status-content-items.md)**
+-   **Index inspector tool**
 
     Verify indexing status and error counts for individual content items using the index inspector tool. Optionally review additional item details, see which users and groups can view the item in secure search, and view retrieval and indexing errors for the item.
 
--   **[Advanced connection settings for the Amazon S3 external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-ext-cont-connector-amazon-s3.md)**
+-   **Advanced connection settings for the Amazon S3 external content connector**
 
     Optionally specify advanced connection settings including the AWS region and Amazon S3 endpoint you want the connector to use. You can also specify a list of Amazon S3 buckets to retrieve content from, or leave this list empty to enable auto-discovery of buckets.
 
--   **[Delta content crawls for the Google Drive connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/delta-content-crawls-external-content-connectors.md)**
+-   **Delta content crawls for the Google Drive connector**
 
     Reduce content crawl time with delta content crawls. Unlike full content crawls, delta content crawls ignore unchanged content items in a connector's source system. Delta content crawls are supported for the Google Drive external content connector.
 
 
 ### What's changed
 
--   **[Crawl schedules tab renamed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-content-crawl-external-content-connector.md)**
+-   **Crawl schedules tab renamed**
 
     In the external content connector editor, the **Crawl schedules** tab has been renamed to **Manage crawls**.
-
-
-## Version 8.1
-
-The ServiceNow® External Content Connectors application enables AI Search applications to search content and metadata from supported external source systems, such as Atlassian Confluence Cloud and Microsoft SharePoint Online. External Content Connectors was enhanced and updated in the Australia release.
-
-### What's new
-
--   **[Filter content by label for a Google Drive external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/filter-content-label-google-drive-external-content-connector.md)**
-
-    Configure your Google Drive external content connectors to only retrieve content items that have one or more of a specified set of label values applied.
-
-
-## Version 8.0
-
-The ServiceNow® External Content Connectors application enables AI Search applications to search content and metadata from supported external source systems, such as Atlassian Confluence Cloud and Microsoft SharePoint Online. External Content Connectors was enhanced and updated in the Australia release.
-
-### What's new
-
--   **[SAP SuccessFactors external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/sap-successfactors-external-content-connector.md)**
-
-    Retrieve searchable content and metadata exported from your SAP SuccessFactors Learning source system.
-
--   **[Configuring crawl settings for external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/cfg-crawl-settings-ext-cont-connector.md)**
-
-    Activate multimodal captioning for attachments and files retrieved by your external content connector's content crawls. The multimodal service automatically generates captions for images, tables, charts, and complex layouts in the retrieved attachments and files. Searches can match attachment and file results using keywords from the generated captions.
-
-
-### What's changed
-
--   **[ServiceNow® instance external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/servicenow-instance-external-content-connector.md)**
-
-    You can now create and run multiple ServiceNow instance connectors on a single ServiceNow AI Platform instance.
-
--   **[Webcrawler external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/webcrawler-external-content-connector.md)**
-
-    Connector admins can now schedule crawls on a daily, weekly, or monthly basis for all Webcrawler external content connectors.
-
-
-## Version 6.0
-
-The ServiceNow® External Content Connectors application enables AI Search applications to search content and metadata from supported external source systems, such as Atlassian Confluence Cloud and Microsoft SharePoint Online. External Content Connectors was enhanced and updated in the Australia release.
-
-### What's new
-
--   **[Adobe Acrobat Sign external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/adobe-acrobat-sign-external-content-connector.md)**
-
-    Retrieve searchable content and metadata from your Adobe Acrobat Sign source system.
-
--   **[Aha! Roadmaps external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/aha-roadmaps-external-content-connector.md)**
-
-    Retrieve searchable content and metadata from your Aha! Roadmaps source system.
-
--   **[Cornerstone external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/cornerstone-external-content-connector.md)**
-
-    Retrieve searchable content and metadata from your Cornerstone source system.
-
--   **[Fluid Topics external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/fluid-topics-external-content-connector.md)**
-
-    Retrieve searchable content and metadata from your Fluid Topics source system.
-
--   **[ManageEngine external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/manageengine-external-content-connector.md)**
-
-    Retrieve searchable content and metadata from your ManageEngine source system.
-
--   **[Workvivo external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/workvivo-external-content-connector.md)**
-
-    Retrieve searchable content and metadata from your Workvivo source system.
-
-
-### What's changed
-
--   **[Sitemap support in the Webcrawler external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/webcrawler-external-content-connector.md)**
-
-    Retrieve content and links from URLs found in sitemaps defined for your web source system when running content crawls for the Webcrawler external content connector. A content crawl only retrieves sitemap URLs that include the crawl's starting point URL.
-
--   **[Start point links for scheduled partial content crawls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-content-crawl-external-content-connector.md)**
-
-    View the start point for a scheduled partial content crawl via a link in its entry in the the external content connector's list of crawls.
-
--   **[Start point links in partial content crawl history entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/review-crawl-ext-cont-connector.md)**
-
-    View the start point for a scheduled partial content crawl via a link in its crawl history entries.
-
--   **[Limited Role-Based Access Control \(RBAC\) support in the Atlassian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/atlassian-confluence-cloud-external-content-connector.md) Confluence Cloud external content connector**
-
-    Map source system user and group permissions assigned via RBAC roles to users in your ServiceNow AI Platform instance.
 
 

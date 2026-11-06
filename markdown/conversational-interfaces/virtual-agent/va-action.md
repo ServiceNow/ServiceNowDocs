@@ -7,9 +7,9 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Assistant Designer utilities, Assistant Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer utilities, Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Action utility
@@ -93,7 +93,7 @@ Output mapping
 
 </td><td>
 
-The variables to be output by the selected action. The contents of this area change according to the **Action/subflow** you selected.
+The variables to be output by the selected action. The contents of this area change according to the action you selected.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

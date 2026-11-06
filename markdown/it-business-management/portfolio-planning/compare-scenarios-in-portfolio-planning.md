@@ -7,7 +7,7 @@ release: australia
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Optimize planning with scenario planning, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -61,7 +61,7 @@ Role required:
     -   All planning items providing a focused strategy that supports the organization's objectives effectively.
     -   The trade-off section includes relevant items, demonstrating comprehensive and inclusive planning that addresses various aspects of the project or initiative.
     -   The scenario is realistic and achievable, considering current constraints and capabilities, confirming that planned actions can be executed within the given timeframe and budget.
-    -   Better benefit from financial planning using the widgets, Budget vs Target to validate the allocated budget against the set targets, Benefit to identify scenario with better monetary benefit, and Budget Distribution.
+    -   Better benefit from financial planning using the widgets, Budget vs Target to validate the allocated budget against the set targets. Identify scenarios with better monetary benefit, and Budget Distribution.
 7.  Select the **Approve Scenario** button relevant to a scenario to approve it.
 
     For more information about approving existing scenarios in the Portfolio Planning Workspace, see [Approve a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/approve-a-scenario-in-portfolio-planning.md).

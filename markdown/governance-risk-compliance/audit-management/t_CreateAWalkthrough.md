@@ -1,20 +1,20 @@
 ---
 title: Create a walkthrough
-description: After defining a control, audit managers create walk throughs that will be conducted to observe and provide documented evidence of whether the associated control is operating correctly.
+description: After defining a control, audit managers create walkthroughs that will be conducted to observe and provide documented evidence of whether the associated control is operating correctly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/t\_CreateAWalkthrough.html
 release: australia
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage engagements, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Create a walkthrough
 
-After defining a control, audit managers create walk throughs that will be conducted to observe and provide documented evidence of whether the associated control is operating correctly.
+After defining a control, audit managers create walkthroughs that will be conducted to observe and provide documented evidence of whether the associated control is operating correctly.
 
 ## Before you begin
 
@@ -221,7 +221,7 @@ Work notes
 
 </td><td>
 
-Comments that are viewable by the audit manager and audit manager.
+Comments that are viewable by the audit administrator and audit manager.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

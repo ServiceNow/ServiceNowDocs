@@ -7,7 +7,7 @@ release: australia
 product: Cloud Services Catalog
 classification: cloud-services-catalog
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 breadcrumb: [Out Of Box Catalogs using Cloud Services Catalog, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -48,11 +48,11 @@ This catalog item form allows ordering up to 10 additional disks \(volumes\) att
 
 </td></tr><tr><td>
 
-CSC GCP Linux Cloud Firewall: Order a secure Linux virtual machine with enhanced security. Allow or deny traffic to and from your VM instances based on your specified configuration.
+CSC GCP Linux Cloud Firewall: Order a secure Linux virtual machine with enhanced security. Control traffic to and from your VM instances based on your configuration.
 
 </td><td>
 
-This is a fully functional sample catalog item that can be used to request a Linux instance of any instance type from Google Cloud Provider. You can assign one or more security groups \(firewall-port rules\) to restrict network access to the VM. Security groups are listed for the selected VPC and subnets.
+This is a fully functional sample catalog item that can be used to request a Linux instance of any instance type from Google Cloud Provider. This catalog item form allows you to assign one or more security groups \(firewall-port rules\) to the compute instance. This restricts network access to the VM. Security groups are listed for the selected VPC and subnets.
 
 </td></tr></tbody>
 </table>**Note:**

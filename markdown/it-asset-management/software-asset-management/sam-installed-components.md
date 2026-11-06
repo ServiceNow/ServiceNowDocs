@@ -7,9 +7,9 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Reference, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Components installed with Software Asset Management Professional
@@ -147,7 +147,7 @@ Now Support Service Portal
 
 </td><td>
 
-This plugin is for releases prior to Australia. Loads the following Software Asset Management Professional plugins in one step:
+This plugin is for releases prior to Brazil. Loads the following Software Asset Management Professional plugins in one step:
 
  -   Software Asset Management Professional \(com.snc.samp\) plugin
 -   All publisher pack add-on plugins

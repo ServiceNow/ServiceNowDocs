@@ -7,7 +7,7 @@ release: australia
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure search and navigation, Service catalog home page configuration, Service Catalog customization, Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -25,7 +25,7 @@ Role required: admin
 You can configure AI-based catalog search experience in portals and Now Mobile. Following are the default search application configurations for Service Portal and Now Mobile:
 
 -   Service Portal Default Search Application. For information about AI Search in Service Portal, see [AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/ai-search.md).
--   NowMobile App Search Configurations. For information about AI Search in Now Mobile, see [AI Search in mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/text-search-advanced-now.md).
+-   NowMobile App Search Configurations. For information about AI Search in Now Mobile, see AI Search in mobile.
 
 Each of these search application configurations have an associated search profile based on which the search results are filtered and displayed.
 
@@ -70,5 +70,5 @@ Following are a few limitations for AI-based catalog search experience:
 **Related topics**  
 
 
-[AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/overview-ais.md)
+[bundle-platadm.overview-ais]
 

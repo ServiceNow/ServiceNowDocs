@@ -7,8 +7,8 @@ release: australia
 product: API Reference
 classification: api-reference
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 43
+last_updated: "2026-09-10"
+reading_time_minutes: 46
 breadcrumb: [Client API reference, API reference, API implementation and reference]
 ---
 
@@ -777,7 +777,7 @@ String
 
 </td><td>
 
-Set only if **callAttemptedByAgent** is true. End time for callback in UTC format.
+Applies only when `callAttemptedByAgent=true`. End time for callback in UTC format.
 
 </td></tr><tr><td>
 
@@ -801,7 +801,7 @@ String
 
 </td><td>
 
-Set only if **callAttemptedByAgent** is false and the type of callback is auto-dial. Dial-in end time for callback in UTC format.
+Only applies when `callAttemptedByAgent=false` and the type of callback is auto-dial. Dial-in end time for callback in UTC format.
 
 </td></tr><tr><td>
 
@@ -828,6 +828,7 @@ Required. Details about the current participant's call capabilities and call sta
   "paused": Boolean,
   "recording": "String",
   "state": "String",
+  "supervisor": "Object",
   "wrapUP": {Object}
 }
 ```
@@ -891,9 +892,56 @@ Details about the capabilities that the current \(agent\) participant can perfor
   "pauseRecording": Boolean,
   "startRecording": Boolean,
   "stopRecording": Boolean,
-  "transfer": Boolean
+  "transfer": Boolean,
+  "monitor": Boolean,
+  "coach": Boolean, 
+  "barge": Boolean
 }
 ```
+
+</td></tr><tr><td>
+
+activeCall.currentParticipant.capabilities.monitor
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+Flag that indicates whether the supervisor can monitor a call. Valid values:
+
+-   `true`: Supervisor can monitor. The monitor button is enabled in the UI.
+-   `false`: Supervisor can't monitor. The monitor button is disabled in the UI.
+
+Default: false
+
+</td></tr><tr><td>
+
+activeCall.currentParticipant.capabilities.coach
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+Flag that indicates whether the supervisor can provide coaching on the call. -   `true`: Supervisor can coach. The coaching controls are enabled in the UI.
+-   `false`: Supervisor can't coach. The coaching controls are disabled in the UI.
+
+Default: false
+
+</td></tr><tr><td>
+
+activeCall.currentParticipant.capabilities.barge
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+Flag that indicates whether the supervisor can barge into the call \(join an ongoing conversation\). Valid values: \* true: Supervisor can barge in. The barge button is enabled in the UI. \* false: Supervisor cannot barge in. The barge button is disabled in the UI. Default: false
 
 </td></tr><tr><td>
 
@@ -907,6 +955,7 @@ String
 
 CCaaS \(Contact Center as a Service\) callback transfer status.Possible values:
 
+-   Success
 -   Failed
 -   Empty string \(default\)
 
@@ -1302,6 +1351,57 @@ Current recording state of the call.Valid values:
 
 -   in\_progress
 -   none
+
+</td></tr><tr><td>
+
+activeCall.currentParticipant.supervisor
+
+</td><td>
+
+Object
+
+</td><td>
+
+Container for supervisor-related call control settings. Only applies when `currentParticipant.actor` is "supervisor". ```
+supervisor: {
+    "action": "String",
+    "target": [Array]
+  }
+```
+
+</td></tr><tr><td>
+
+activeCall.currentParticipant.supervisor.action
+
+</td><td>
+
+String
+
+</td><td>
+
+Supervisor action type governing the banner message and available controls. Valid values:
+
+-   coaching: Supervisor is coaching the agent.
+-   monitoring: Supervisor is monitoring the call.
+-   barging: Supervisor has barged into the call.
+
+**Note:** No capability check is performed before showing the banner; the action value alone determines the UI display.
+
+Default: None \(supervisor object is optional\)
+
+</td></tr><tr><td>
+
+activeCall.currentParticipant.supervisor.target
+
+</td><td>
+
+Array of Strings
+
+</td><td>
+
+Array of **participantId** values identifying the target participant\(s\) for the supervisor action. Omit this field for global actions \(like when action is monitoring applied to the entire call without targeting a specific participant\). Example \(targeted\): "target": \["participantId"\]
+
+Example \(global\): Omit target field entirely.
 
 </td></tr><tr><td>
 
@@ -2407,7 +2507,7 @@ Details required for transfer assignments.```
 
 </td></tr><tr><td>
 
-offerContext.transferContent. sourceQueueId
+offerContext.transferContent.sourceQueueId
 
 </td><td>
 
@@ -2419,7 +2519,7 @@ The sys\_id or external ID of the assignment queue.
 
 </td></tr><tr><td>
 
-offerContext.transferContent. targetId
+offerContext.transferContent.targetId
 
 </td><td>
 
@@ -2431,7 +2531,7 @@ The sys\_id or external ID of the queue transfer.
 
 </td></tr><tr><td>
 
-offerContext.transferContent. targetType
+offerContext.transferContent.targetType
 
 </td><td>
 
@@ -2446,7 +2546,7 @@ Type of transfer target.Valid values:
 
 </td></tr><tr><td>
 
-offerContext.transferContent. transferType
+offerContext.transferContent.transferType
 
 </td><td>
 
@@ -3771,7 +3871,12 @@ openFrameAPIEVENT
 
 </td><td>
 
-The event to subscribe to:-   interaction\_control\_action: Receives the interaction lifecycle event or calls control updates from OpenFrame and updates the UI accordingly. Call control update examples include call initiated, muted, held, ended, and transfer requests.
+The event to subscribe to:-   interaction\_control\_action: Receives the interaction lifecycle event or calls control updates from OpenFrame and updates the UI accordingly. Call control update examples include call initiated, muted, held, ended, and transfer requests. Q4 additions include callback-related sub-actions:
+    -   callbackLeaveAndTransfer: Agent initiates callback leave and transfer.
+    -   getSearchTarget: Transfer list search is initiated to find agents, queues, or external targets.
+    -   getMoreInfo: Information icon clicked on a transfer target to display skills or availability details.
+    -   callbackTransferInitiated: Callback transfer begins to an agent, queue, external user, or direct target with consult or blind subtype.
+    -   cancelCallbackTransfer: Callback transfer is cancelled before completion.
 -   openframe\_agent\_off\_interaction: Indicates the presence of an agent on chat as off or available.
 -   openframe\_awa\_agent\_presence: In Advanced Work Assignment \(AWA\), this event occurs when there's any change in the agent presence state. Computer Telephony Integration \(CTI\) developers can subscribe to this event to receive presence state changes.
 -   openframe\_awa\_client\_offer: Occurs when an offer or transfer is made on a resiliency-related offer.
@@ -3791,6 +3896,7 @@ The event to subscribe to:-   interaction\_control\_action: Receives the interac
 -   openframe\_header\_icon\_clicked: Deprecated. Use openframe\_icon\_clicked or openframe\_title\_icon\_clicked instead.
 -   openframe\_hidden: Occurs when the OpenFrame is hidden.
 -   openframe\_icon\_clicked: Occurs when any icon other than the close icon is selected on the OpenFrame footer. The callback receives the icon object as a parameter.
+-   openframe\_icc\_record\_opened: Occurs when an agent with the `awa_manager` role opens an Interaction Management System \(IMS\) record. Returns the interaction record table and record ID.
 -   openframe\_shown: Occurs when the OpenFrame is shown.
 -   openframe\_title\_icon\_clicked: Occurs when the title icon is selected on the OpenFrame. The callback receives the titleIcon object as a parameter.
 -   openframe\_wrap\_up\_submitted: Occurs when the wrap up periods ends on the [wrap-up modeless dialog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/interaction-wrapup-modeless-dialog.md). The event is triggered only when the wrap up is external.
@@ -3823,6 +3929,95 @@ results
 </td><td>
 
 Most event subscriptions have no return values. The event subscriptions that do return values are described in the following table entries.
+
+</td></tr><tr><td>
+
+interaction\_control\_action \(callback sub-actions\)
+
+</td><td>
+
+The following callback-related sub-actions return specific payload objects:**callbackLeaveAndTransfer**:
+
+```
+"action": {
+  "name": "callbackLeaveAndTransfer",
+  "payload": {
+    "nowRecordTable": "String",
+    "nowRecordId": "String",
+    "externalId": "String",
+    "participantId": "String"
+  }
+}
+```
+
+**getSearchTarget**:
+
+```
+"action": {
+  "name": "getSearchTarget",
+  "payload": {
+    "nowRecordId": "String",
+    "externalCallId": "String",
+    "participantId": "String",
+    "searchTerm": "String",
+    "limit": Number,
+    "targetType": [Array]
+  }
+}
+```
+
+-   **targetType** valid values: `["agent"]`, `["queue"]`, `["agent", "queue"]`, `["agent", "queue", "external"]`
+
+**getMoreInfo**:
+
+```
+"action": {
+  "name": "getMoreInfo",
+  "payload": {
+    "nowRecordId": "String",
+    "externalCallId": "String",
+    "participantId": "String",
+    "targetType": "String",
+    "targetId": "String"
+  }
+}
+```
+
+-   **targetType** valid values: `queue`, `agent`, `external`
+
+ **callbackTransferInitiated**:
+
+```
+"action": {
+  "name": "callbackTransferInitiated",
+  "payload": {
+    "nowRecordId": "String",
+    "externalCallId": "String",
+    "participantId": "String",
+    "type": "String",
+    "subType": "String",
+    "targetId": "String"
+  }
+}
+```
+
+-   **type** valid values: `agent`, `queue`, `external`, `directTarget`
+-   **subType** valid values: `consult`, `blind`
+
+ **cancelCallbackTransfer**:
+
+```
+"action": {
+  "name": "cancelCallbackTransfer",
+  "payload": {
+    "nowRecordId": "String",
+    "externalCallId": "String",
+    "participantId": "String"
+  }
+}
+```
+
+Currently supported for chat interactions.
 
 </td></tr><tr><td>
 
@@ -3887,7 +4082,7 @@ In AWA, the **openframe\_awa\_workitem\_accepted** and **openframe\_awa\_workite
     -   **workItem.document.sys\_id**: Sys\_id of the document assigned to the work item task.
     -   **workItem.document.table**: Name of the document table assigned to the task.
 -   **workItem.isAutoAccepted**: Flag that indicates whether the work item was automatically accepted by the system. Set to true if the work item was auto-accepted.
--   **workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't.
+-   **workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't. For more information about queue transfers, see [Using Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ci-agent-chat-using.md).
 -   **workItem.previousWorkItem**: Sys\_id of the previous work item for the same document ID. For the non-transfer work items this value is empty.
 -   **workItem.serviceChannel**: List of service channels associated with the work item task.
     -   **workItem.serviceChannel.name**: Name of the service channel, such as Chat or Phone.
@@ -3927,7 +4122,7 @@ In AWA, the **openframe\_awa\_workitem\_rejected** event returns the `workItem` 
 -   **workItem.document**: List of documents associated with the work item task.
     -   **workItem.document.sys\_id**: Sys\_id of the document assigned to the work item task.
     -   **workItem.document.table**: Name of the document table assigned to the task.
--   **workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't.
+-   **workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't. For more information about queue transfers, see [Using Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ci-agent-chat-using.md).
 -   **workItem.previousWorkItem**: Sys\_id of the previous work item for the same document ID. For the non-transfer work items this value is empty.
 -   **workItem.rejection**: List of reasons for the rejection of the work item.
     -   **workItem.rejection.reason**: Name of the reason for rejecting the work items.
@@ -3961,6 +4156,27 @@ The **openframe\_heart\_beat** event returns the following object:```
 
 </td></tr><tr><td>
 
+openframe\_icc\_record\_opened
+
+</td><td>
+
+The **openframe\_icc\_record\_opened** event returns the following object:```
+{
+  "action": {
+    "name": "iccRecordOpened",
+    "payload": {
+      "nowRecordTable": "String",
+      "nowRecordId": "String"
+    }
+  }
+}
+```
+
+-   **nowRecordTable**: Name of the table containing the interaction record. Valid value: `interaction`
+-   **nowRecordId**: Sys\_id of the interaction record opened by the manager.
+
+</td></tr><tr><td>
+
 openframe\_wrap\_up\_submitted
 
 </td><td>
@@ -3984,7 +4200,7 @@ The **openframe\_wrap\_up\_submitted** event returns the following object:```
     -   false: Wrap up is handled by the ServiceNow instance.
 -   **externalSegmentId**: Unique identifier of the external data object that triggered the external wrap up.
 -   **recordId**: Sys\_id of the interaction record that is undergoing wrap up.
--   **recordTable**: Name of the table containing the record. Always set as “interaction".
+-   **recordTable**: Name of the table containing the record. Always set as "interaction".
 -   **wrapUpCode**: Code selected by the user during the wrap up that indicates how the interaction was resolved.
 -   **wrapUpNotes**: Free-form text entered by the user during wrap up that describes how the interaction was resolved.
 -   **wrapUpSegmentId**: Sys\_id of the interaction wrap up segment record associated with the interaction. Located in the Wrap Up Segment \[interaction\_wrap\_up\_segment\] table. Contains the wrap up data.
@@ -4004,7 +4220,7 @@ Output:
 ```
 // Sample presence object output
 // openframe_awa_agent_presence event only
-
+ 
 {
   "result":{
     "presence":{
@@ -4103,7 +4319,7 @@ Output:
 }
 ```
 
-The following example shows how to subscribe to the **interaction\_control\_action** event.
+The following example shows how to subscribe to the **interaction\_control\_action** event, including the Q4 callback actions.
 
 ```
 openFrameAPI.subscribe("interaction_control_action", function(action) {
@@ -4114,11 +4330,43 @@ openFrameAPI.subscribe("interaction_control_action", function(action) {
     } else if (action.name == "getSearchTarget") {
         action.payload.searchType == "queue" ? fetchQueueTransferList(action.payload.searchTerm) : fetchAgentTransferList(action.payload.searchTerm);
         openFrameAPI.setICContext("searchTargetList", context); // Call context will have the transfer list
+    } else if (action.name == "callbackTransferInitiated") {
+        handleCallbackTransfer(action.payload);
+        openFrameAPI.setICContext("activeCall", context); // Update callback state
+    } else if (action.name == "cancelCallbackTransfer") {
+        handleCallbackCancellation(action.payload);
+        openFrameAPI.setICContext("activeCall", context);
     } else if (action.name == "logout") {
         logout();
         openFrameAPI.showIframe(); // Show iframe api
     }
 });
+```
+
+The following example shows how to subscribe to the **openframe\_icc\_record\_opened** event for manager roles.
+
+```
+openFrameAPI.subscribe(openFrameAPI.events.openframe_icc_record_opened, function(action) {
+    console.log("IMS opened: " + action.payload.nowRecordId);
+    // Handle manager interaction record opening
+    var recordId = action.payload.nowRecordId;
+    var recordTable = action.payload.nowRecordTable;
+    displayManagerContext(recordId, recordTable);
+});
+```
+
+Output:
+
+```
+{
+  "action": {
+    "name": "iccRecordOpened",
+    "payload": {
+      "nowRecordTable": "interaction",
+      "nowRecordId": "7ef5becf4199e210f8771b3e09cfdf55"
+    }
+  }
+}
 ```
 
 ## openFrameAPI - version\(\)

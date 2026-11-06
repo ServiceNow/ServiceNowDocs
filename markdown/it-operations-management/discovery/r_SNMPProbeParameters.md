@@ -1,20 +1,20 @@
 ---
 title: SNMP probe parameters
-description: This list of parameters may be passed to the SNMP probes.
+description: You can pass the following parameters to the SNMP probes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/r\_SNMPProbeParameters.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [SNMP probes, List of Discovery probes, Discovery probes and sensors, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # SNMP probe parameters
 
-This list of parameters may be passed to the SNMP probes.
+You can pass the following parameters to the SNMP probes.
 
 For instructions on configuring probe parameters, see [Set probe parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/t_SetProbeParameters.md).
 
@@ -28,7 +28,7 @@ Description
 
 </th><th>
 
-Default Value
+Default value
 
 </th></tr></thead><tbody><tr><td>
 
@@ -41,7 +41,7 @@ A list of OID specifications, one per line. Each specification must be in one of
  -   walk \{OID\}: Walks the OID and all its children
 -   table \{OID\} \{OID Children\}: Walks all entries in the table, returning only the given children \(for example, "iso.org.dod.internet"\)
 
- \{OID Children\} refers to a comma-delimited list of child nodes within the entries for the given table. For example, "ifEntry.ifIndex,ifEntry.ifDescr,ifEntry.ifType" are OID children of the table "iso.org.dod.internet.mgmt.mib-2.interfaces.ifTable". As a convenience, the table entry prefix may be left off. \(The preceding children could be specified as "ifIndex,ifDescr,ifType".\)
+ \{OID Children\} refers to a comma-delimited list of child nodes within the entries for the given table. For example, "ifEntry.ifIndex,ifEntry.ifDescr,ifEntry.ifType" are OID children of the table "iso.org.dod.internet.mgmt.mib-2.interfaces.ifTable". As a convenience, the table entry prefix can be left off. \(The preceding children could be specified as "ifIndex,ifDescr,ifType".\)
 
  Any child may include a filter qualifier in parentheses. For example, the child "entPhysicalContainedIn\(=0\)" specifies returning table entries only if the value of "entPhysicalContainedIn" equals 0. The operators supported in the expression are:
 
@@ -51,7 +51,7 @@ A list of OID specifications, one per line. Each specification must be in one of
 
  If more than one child has a filter expression, a match on any one of the children causes that entry to be read.
 
- Any content including and after a "//" is ignored \(comments\). Any OID that does not start with "1.3.6.1" or "iso.org.dod.internet" automatically prefaces with "1.3.6.1." as a convenience.
+ Any content including and after a "//" is ignored \(comments\). Any OID that does not start with "1.3.6.1" or "iso.org.dod.internet" is automatically prefixed with "1.3.6.1." as a convenience.
 
 </td><td>
 
@@ -149,7 +149,7 @@ request\_interval
 
 </td><td>
 
-The interval \(in milliseconds\) between successive requests for an OID when a response has not been received, until the timeout \(or established\_session\_timeout\) value is reached. If this value is set to at least as long as the timeout \(or established\_session\_timeout\) value, then only a single request is sent for any particular OID. If you change the timeout \(or established\_session\_timeout\) value, adjust the request\_interval at the same time to avoid sending too many or too few requests for the same OID, as appropriate for a given environment.
+The interval \(in milliseconds\) between successive requests for an OID when a response has not been received, until the **timeout** \(or **established\_session\_timeout**\) value is reached. If this value is set to at least as long as the **timeout** \(or **established\_session\_timeout**\) value, then only a single request is sent for any particular OID. If you change the **timeout** \(or **established\_session\_timeout**\) value, adjust **request\_interval** at the same time. This helps avoid sending too many or too few requests for the same OID in a given environment.
 
 </td><td>
 
@@ -161,7 +161,7 @@ request\_delay
 
 </td><td>
 
-The interval \(in milliseconds\) between the receipt of a response and the transmission of the next request. The default is 0 \(no delay\). This value may be set to slow the overall rate of an SNMP query.
+The interval \(in milliseconds\) between the receipt of a response and the transmission of the next request. The default is 0 \(no delay\). This value can be set to slow the overall rate of an SNMP query.
 
 </td><td>
 
@@ -173,11 +173,11 @@ result\_format
 
 </td><td>
 
-Returns JSON formatted payloads for these probes: -   SNMP - F5 BIG-IP - System
+Returns JSON-formatted payloads for these probes: -   SNMP - F5 BIG-IP - System
 -   SNMP - Netscaler - System
 -   SNMP - Routing
 
-This parameter returns data in a more compact format to prevent sensor failure or memory problems on a node when the payload becomes large. Do not change this value or delete this parameter.**Warning:** Use of this parameter with any other probes causes the sensor to fail.
+This parameter returns data in a more compact format to help prevent sensor failure or memory problems on a node when the payload becomes large. Do not change this value or delete this parameter.**Warning:** Use of this parameter with any other probes causes the sensor to fail.
 
 </td><td>
 
@@ -189,7 +189,7 @@ use\_getbulk
 
 </td><td>
 
-Enables the use of SNMP GETBULK requests to retrieve tabular data from SNMP devices instead of using multiple SNMP GETNEXT requests. For tabular data, GETBULK is more efficient. Regardless of the request type, certain devices may not return any results when they are busy with other tasks. This parameter is used to configure at the probe level. GETBULK can also be set for an individual MID Server or globally for all MID servers. Settings are listed in the order of precedence:
+Enables the use of SNMP GETBULK requests to retrieve tabular data from SNMP devices instead of using multiple SNMP GETNEXT requests. For tabular data, GETBULK is more efficient. Regardless of the request type, certain devices may not return any results when they are busy with other tasks. This parameter is used to configure GETBULK at the probe level. GETBULK can also be set for an individual MID Server or globally for all MID Servers. Settings are listed in the order of precedence:
 
 -   SNMP probe parameter
 -   [MID Server configuration parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-parameters.md)

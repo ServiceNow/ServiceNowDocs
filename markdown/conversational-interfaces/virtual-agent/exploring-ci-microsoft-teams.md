@@ -7,9 +7,9 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Conversational Integration with Microsoft Teams, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Microsoft Teams, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Exploring Conversational Integration with Microsoft Teams
@@ -47,11 +47,11 @@ Ensure that you have a Microsoft 365 account with admin privileges \(admin.micro
 To learn more about configuring and using Conversational Integration with Microsoft Teams, see:
 
 -   [Configure Virtual Agent for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-va-msteams-settings.md).
--   .
--   [Integrate Now Assist in Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/integrating-now-assist-va-msteams.md).
+-   [Enable ServiceNow Otto for Virtual Agent for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/enable-na-llm-teams.md).
+-   [Integrate Now Assist in Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/integrating-now-assist-va-msteams.md).
 -   [Integrate Now Assist in Virtual Agent with Microsoft Copilot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/ms-copilot-na-va.md).
 
-For more information about integrating Microsoft Copilot with ServiceNow Otto, see the following ServiceNow blog and community articles:
+For more information about integrating Microsoft Copilot with Now Assist, see the following ServiceNow blog and community articles:
 
 -   [https://www.servicenow.com/blogs/2024/now-assist-microsoft-copilot](https://www.servicenow.com/blogs/2024/now-assist-microsoft-copilot)
 -   [https://www.servicenow.com/community/virtual-agent-nlu-articles/microsoft-copilot-integration-with-now-assist-faq-zurich-release/ta-p/3048238](https://www.servicenow.com/community/virtual-agent-nlu-articles/microsoft-copilot-integration-with-now-assist-faq-zurich-release/ta-p/3048238)

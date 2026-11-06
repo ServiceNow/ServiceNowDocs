@@ -7,7 +7,7 @@ release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-08-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [threat intelligence, correlation rules, configuration]
 breadcrumb: [Automated correlation, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]

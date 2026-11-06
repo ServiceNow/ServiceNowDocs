@@ -7,7 +7,7 @@ release: australia
 product: Digital Product Release
 classification: digital-product-release
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Digital Product Release and Integrated Release Management, DPR and GRC integration, Release compliance with GRC compliance framework, Policy and compliance management for DPR releases]
 breadcrumb: [Explore, Digital Product Release, IT Service Management]

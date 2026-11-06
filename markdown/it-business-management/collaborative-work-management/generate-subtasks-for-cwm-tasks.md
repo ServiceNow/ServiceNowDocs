@@ -7,7 +7,7 @@ release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [subtasks, child tasks, ServiceNow Otto, AI generation, CWM, task, hierarchy, generate]
 breadcrumb: [Manage work using Boards, Use, Collaborative Work Management, Strategic Portfolio Management]
@@ -21,7 +21,7 @@ Use AI to create child tasks for a large and complex CWM task in the List view. 
 
 **Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
--   Verify that ServiceNow Otto for CWM is active on your instance.
+-   Verify that ServiceNow Otto for Collaborative Work Management \(CWM\), including its prerequisites, is configured on your instance. See [Configure ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/configure-now-assist-for-collaborative-work-management.md).
 -   A task must exist in the CWM board.
 
 Role required: sn\_cwm\_ai.cwm\_ai\_user

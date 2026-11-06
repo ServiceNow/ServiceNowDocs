@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/integrate-ccc-itsm.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integrating Voice with other applications, ServiceNow Voice, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,7 +26,7 @@ Callers can use PIN-based authentication to access the phone channel. Managers c
 
 ## Workforce Optimization for ITSM
 
-Integrate Voice with Workforce Optimization for ITSM to visualize call metrics from Amazon Connect. The Voice uses [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-overview.md) to display the call metrics and active calls along with all other Channel metrics in the Manager Workspace.
+Integrate Voice with Workforce Optimization for ITSM to visualize call metrics from Amazon Connect. The Voice uses Advanced Work Assignment to display the call metrics and active calls along with all other Channel metrics in the Manager Workspace.
 
 \[Omitted image "cloudcallcenter-amazonconnect-wfo-itsm.png"\] Alt text: Amazon Connect Phone Workforce Optimization for ITSM
 

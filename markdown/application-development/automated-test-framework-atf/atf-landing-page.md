@@ -7,9 +7,9 @@ release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Testing and debugging applications, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Testing and debugging applications, Classic app development, Building applications]
 ---
 
 # Automated Test Framework \(ATF\)
@@ -19,8 +19,6 @@ The Automated Test Framework \(ATF\) enables you to create and run automated tes
 **Note:** By default, the system property to run automated tests is disabled to prevent you from accidentally running them on a production system. Run tests only on development, test, and other non-production instances to avoid data corruption and outage.
 
 For developer training, see [Using the Automated Test Framework](https://developer.servicenow.com/app.do#!/trainlist/app_store_learnv2_atf_paris_automated_test_framework?v=paris) on the ServiceNow Developer Site.
-
-**Note:** Use ServiceNow Creator Pro Plus's Test generation skill to easily create automated tests. Refer [Test generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/test-generation/test-generation-intro.md) documentation for further details.
 
 ## Get started
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/request-insurance-ai-agent-interaction-workspace.html
 release: australia
 topic_type: task
-last_updated: "2026-05-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [insurance csr support ai agent, request insurance ai agent interaction page, insurance interaction page now assist, insurance csr live call assistance, get customer request insurance, insurance ai agent transcript, agentic contact center insurance ai support]
 breadcrumb: [Using Agentic Contact Center for Insurance, Agentic Contact Center for Insurance, Insurance applications, Financial Services Operations \(FSO\)]

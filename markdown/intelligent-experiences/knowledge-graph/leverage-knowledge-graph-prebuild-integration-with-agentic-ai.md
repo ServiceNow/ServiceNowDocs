@@ -7,9 +7,11 @@ release: australia
 product: Knowledge Graph
 classification: knowledge-graph
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Exploring Knowledge Graph, Knowledge Graph, Enable AI experiences]
+keywords: [Knowledge Graph, AI agents, prebuilt integration, user context, user profile schema, personalized responses, AI agent tool, agentic AI]
+audience: administrator
+breadcrumb: [Exploring Knowledge Graph, Knowledge Graph, Managing data for AI, Enable AI Experiences]
 ---
 
 # Knowledge Graph integration with AI agents

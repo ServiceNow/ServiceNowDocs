@@ -1,28 +1,28 @@
 ---
-title: Configure Success Dashboard indicators KPIs
-description: Success Dashboard indicators has a prescriptive methodology for measuring performance. But you can reconfigure the source of the Key Performance Indicators \(KPIs\) by replacing the available indicators in the base system or by adding more indicators.
+title: KPI configuration for Success Dashboard indicators
+description: Reconfigure the source of KPIs in Success Dashboard indicators by replacing or adding indicators in the base system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-success-dashboard-indicators/config-kpis-sdb.html
 release: australia
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [ITSM Success Dashboard Admin console, Configure, ITSM Success Dashboard indicators, IT Service Management]
 ---
 
-# Configure Success Dashboard indicators KPIs
+# KPI configuration for Success Dashboard indicators
 
-Success Dashboard indicators has a prescriptive methodology for measuring performance. But you can reconfigure the source of the Key Performance Indicators \(KPIs\) by replacing the available indicators in the base system or by adding more indicators.
+Reconfigure the source of KPIs in Success Dashboard indicators by replacing or adding indicators in the base system.
 
-For example, your organization may have a different method to determine **Self-solved using Knowledge**. You cannot change the definition of **Self-solved percentage** and **Call deflection** that use `Self-solved using Knowledge`, but you can replace or add the KPIs and its constituents.
+For example, your organization may have a different method to determine **Self-solved using Knowledge**. You cannot change the definition of **Self-solved percentage** and **Call deflection** that use `Self-solved using Knowledge`, but you can replace or add the KPIs and their constituents.
 
 There are two major types of indicators:
 
 -   Primary indicators: The indicators prescribed by ServiceNow.
 
-    **Warning:** You must not modify any primary indicators as these are prescribed by ServiceNow®. Modifying these KPIs might impact your scores.
+    **Warning:** You must not modify any primary indicators because these are prescribed by ServiceNow®. Modifying these KPIs might impact your scores.
 
     -   You can view the primary indicators in the Primary Indicator Registry table `(sn_sd_primary_indicator_registry)`.
     -   You can view the corresponding Performance Analytics indicators in the Primary Indicator table `(sn_sd_primary_indicator)`.

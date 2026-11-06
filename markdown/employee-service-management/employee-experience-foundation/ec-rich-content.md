@@ -7,9 +7,9 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Creating employee communications, Authoring and managing employee communications, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Creating employee communications, Authoring and managing employee communications, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Microsites
@@ -18,7 +18,7 @@ Rich Content Editor enables content managers and admins to create HTML-based con
 
 You can create a layout, add components \(such as containers, images, videos, and links\), and adjust the settings of the components with little or no HTML or CSS \(cascading style sheets\) knowledge. The Rich Content Editor allows non-technical users to build sections of pages without the help of IT or technical users.
 
-The Rich Content Editor provides a library of components and a canvas area, where you use drag-and-drop method to create your content. The components can be edited individually and you can preview what you're creating on a desktop, tablet, or mobile device before you make your content available to your audience.
+The Rich Content Editor provides a library of components and a canvas area, where you use drag-and-drop method to create your content. The components can be edited individually and you can preview what you are creating on a desktop, tablet, or mobile device before you make your content available to your audience.
 
 Creating content does not interfere with your portal theme or color. Published content that does not use custom style changes uses the theme of the underlying portal page.
 
@@ -37,7 +37,7 @@ The Rich Content Editor makes it possible to build HTML content with little or n
 
     **Note:** For best results when creating content for all three platforms, first create your content for desktop, then tablet and mobile.
 
-5.  \(Optional\) Select a different language to view your session in or request a language translation for the content you're creating. For more information, see [Multilingual support in the Content Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-switch-language.md).
+5.  \(Optional\) Select a different language to view your session in or request a language translation for the content you are creating. For more information, see [Multilingual support in the Content Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-switch-language.md).
 6.  Make the content available to users via a publish plan: [Create a publish plan for your content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-content-library-publish2.md)
 
     Alternatively, you can build out a more robust publishing configuration using campaigns: [Creating campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ecpro-campaigns.md)
@@ -45,7 +45,7 @@ The Rich Content Editor makes it possible to build HTML content with little or n
 
 ## Rich Content Editor interface
 
-The Rich Content Editor interface is comprised of a canvas where you assemble the content, content components that you drag into the canvas, and menu bar icons to modify the canvas.
+The Rich Content Editor interface is comprised of a canvas where you assemble the content, content components that you drag-and-drop into the canvas, and menu bar icons to modify the canvas.
 
 **Note:** If the Edit Source code icon does not appear, ask an admin to enable the **Edit code** property. See [Properties installed with Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/properties-with-content-delivery.md)
 
@@ -64,10 +64,6 @@ The Rich Content Editor supports many operating system and text formatting short
 |Action|Mac keyboard shortcut|Windows keyboard shortcut|
 |------|---------------------|-------------------------|
 |Paste and match style of selected text box|Shift+Option+Command+V|Shift+Alt+Windows+V|
-
-**Tip:**
-
-With the **Rich Content Editor**, you can easily use your **keyboard** to select individual canvas components. You can add text and columns, create text sections within those columns, and update headings within each section to adjust the styling and fonts to your liking; it helps you customize your content in a simple and convenient way.
 
 See [Next Experience keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-keyboard-shortcuts.md) for additional information.
 

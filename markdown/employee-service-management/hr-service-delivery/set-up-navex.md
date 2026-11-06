@@ -7,7 +7,7 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Employee Relations integration with Navex Ethicspoint, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
@@ -17,8 +17,6 @@ breadcrumb: [Employee Relations integration with Navex Ethicspoint, Integration 
 Understand how to set up the Employee Relations integration with Navex Ethicspoint application for pulling and pushing employee relations case data from the Navex EthicsPoint system into the ServiceNow system.
 
 ## Before you begin
-
-Ensure that a MID server is already configured and running.
 
 Role required: sn\_hr\_navex\_ep.admin
 

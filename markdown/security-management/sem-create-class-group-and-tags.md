@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-create-class-group-and-tags.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -116,9 +116,4 @@ Brief description of this group.
 
     **Note:** You can also create tags by selecting **New** button on the list view. The procedure is the same.
 
-
--   **[Create security tag rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-create-security-tag-rules.md)**  
-Security tag rules provide filtering for security tag access.
--   **[Import security tag rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-import-security-tag-rules.md)**  
-You can import security tag rules from other tables in your deployment.
 

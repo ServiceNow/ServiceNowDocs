@@ -7,7 +7,7 @@ release: australia
 product: Talent Development Core
 classification: talent-development-core
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Exploring Skills Foundation, Skills Foundation, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
@@ -26,7 +26,7 @@ The **Career** tab contains various widgets to manage your work data like, exper
 
 View your business title, role group and your role specialty that accurately reflect your position in the organization and enable you to get personalized skill recommendations.
 
-\[Omitted image "skills-role-details.png"\] Alt text: Role details
+\[Omitted image "image.skills-role-details"\] Alt text: Role details
 
 **Note:**
 

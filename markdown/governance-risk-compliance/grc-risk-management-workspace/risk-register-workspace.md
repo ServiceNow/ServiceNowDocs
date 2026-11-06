@@ -7,7 +7,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Operational Risk Management dashboard, Analytics and reporting solutions for Risk Management, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -24,7 +24,7 @@ A risk register is a crucial risk analysis tool used in enterprise risk manageme
 -   Should some risks be accepted?
 -   What is the mitigation plan?
 
-To view the Risk Register, navigate to **Risk Workspace** &gt; **Risk assessments** &gt; **Risk Register**
+To view the Risk Register, navigate to **Risk Workspace** &gt; **Risk assessments** &gt; **Monitor**A separate **In progress** list under **Risk assessments** shows only the risk assessments that are currently in progress.
 
 The components of the Risk Register are the following:
 

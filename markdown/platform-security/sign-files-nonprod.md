@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/sign-files-nonprod.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Sign Records and Files, Using Code Signing, Code Signing, Platform Security]
 ---
@@ -147,4 +147,6 @@ Summary of the execution of this job. This field is read only.
 
 15. Select **Commit Update Set**.
 
+
+**Parent Topic:**[Sign specific records or attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/sign-specific-records.md)
 

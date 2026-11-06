@@ -7,7 +7,7 @@ release: australia
 product: External Legal Portal
 classification: external-legal-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using External Legal Service Center, External Legal Service Center, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -42,15 +42,15 @@ Role required: sn\_lg\_ext\_portal.ext\_user
 
 8.  Work on the attachments.
 
-<table id="choicetable_ohy_5yk_sdc"><thead><tr><th align="left" id="d489939e114">
+<table id="choicetable_ohy_5yk_sdc"><thead><tr><th align="left" id="d489212e114">
 
 Action
 
-</th><th align="left" id="d489939e117">
+</th><th align="left" id="d489212e117">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d489939e123">
+</th></tr></thead><tbody><tr><td id="d489212e123">
 
 **Add attachments**
 
@@ -60,7 +60,7 @@ Steps
 2.  You can add attachments by selecting, dragging, or pasting a file.
 
 
-</td></tr><tr><td id="d489939e147">
+</td></tr><tr><td id="d489212e147">
 
 **Rename attachments**
 
@@ -70,7 +70,7 @@ Steps
 2.  Edit the file name.
 
 
-</td></tr><tr><td id="d489939e171">
+</td></tr><tr><td id="d489212e171">
 
 **Delete attachments**
 

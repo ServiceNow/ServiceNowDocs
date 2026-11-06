@@ -1,5 +1,5 @@
 ---
-title: Lux Widgets
+title: Lux widgets
 description: A widget in Lux is a custom UI unit authored for a specific application. The platform ships no widgets; every widget on an instance was authored for an app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/widgets.html
@@ -8,14 +8,14 @@ topic_type: concept
 last_updated: "2026-09-29"
 reading_time_minutes: 2
 keywords: [Widgets, Project shape, Choosing a base class, The extends chain may be transitive, Discoverability, Metadata decorators, requiresPageType, Resolving a widget at runtime, See also]
-breadcrumb: [Build with Lux, Lux Development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Build with Lux, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
-# Lux Widgets
+# Lux widgets
 
 A widget in Lux is a custom UI unit authored for a specific application. The platform ships no widgets; every widget on an instance was authored for an app.
 
-This topic covers what a widget is, how it gets registered, and how the runtime resolves one by tag name. To learn how to build a Lux widget, see .
+This topic covers what a widget is, how it gets registered, and how the runtime resolves one by tag name. To learn how to build a Lux widget, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-a-widget-from-scratch.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-a-widget-from-scratch.md).
 
 Everything you render in a Lux app is a Lit widget. A Lux widget is a Lit custom element, registered as a `sys_aix_widget` record, extending one of two platform base classes. Both give it Tailwind/DaisyUI styling, and server-side rendering \(SSR\) safety; the difference is discoverability and how it gets its data.
 

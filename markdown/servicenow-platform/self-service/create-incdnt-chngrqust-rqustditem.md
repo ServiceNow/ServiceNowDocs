@@ -7,9 +7,9 @@ release: australia
 product: Self-service
 classification: self-service
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Service catalog requests, Self-Service, Self-service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Service catalog requests, Exploring Self-service, Self-service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Create incidents and change requests from a requested item
@@ -18,7 +18,7 @@ You can quickly open an incident or a change request from a requested item. It a
 
 ## Before you begin
 
-The administrator must enable the **Create Change** and **Create Incident** UI actions for the Requested Item \[sc\_req\_item\] table. The administrator must set the **Active** field to `true` when [editing these UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_EditingAUIAction.md) .
+The administrator must enable the **Create Change** and **Create Incident** UI actions for the Requested Item \[sc\_req\_item\] table. The administrator must set the **Active** field to `true` when editing these UI actions .
 
 Role required: itil
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/integrating-esg-management-with-urjanet.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Integrating Operational Sustainability Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -23,12 +23,12 @@ Using this integration, you can automatically bring the following types of data 
 
 The workflow of the Operational Sustainability Integration with Urjanet is as follows:
 
-1.  Create entities: Each utility data for all your locations is tracked as an entity in the Operational Sustainability Management application. For example, your electricity consumption in your Atlanta office is considered to be an entity. Therefore, you must create entities for all the utility data that you want to track. If you have already created the entities, then you must map the utility data that is imported from Urjanet with the entities created. Certain fields such as **Entity class** and **Entity owner** in the entity forms must be manually filled in by the users of the integration.
+1.  Create entities: Each utility data for all your locations is tracked as an entity in the Operational Sustainability Management application. For example, your electricity consumption in your Atlanta office is considered to be an entity. Therefore, you must create entities for all the utility data that you want to track. If you've already created the entities, then you must map the utility data that is imported from Urjanet with the entities created. Certain fields such as **Entity class** and **Entity owner** in the entity forms must be manually filled in by the users of the integration.
 2.  Activate the metric definitions: For the Operational Sustainability Integration with Urjanet, ServiceNow® provides a few metric definitions by default. You must activate the ones that you require for your metric collection. Only those metric definitions that are active are considered and their data is loaded into the system. Certain fields such as **Unit**, **Frequency** and **Enterprise owner** in the default metric definitions must be manually filled in by the users of the integration. If you don’t want to use the metric definitions provided by default, you can create your own metric definitions.
 3.  Import the data for the metrics: After the user activates the required metric definitions, the data for those metric definitions and their entities will be imported into the Operational Sustainability Management as metrics and metric data.
 
 -   **[Install Operational Sustainability Integration with Urjanet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/install-urjanet.md)**  
-You can install the Operational Sustainability Integration with Urjanet application \(sn\_esg\_urjanet\) if you have the admin role. The application installs related ServiceNow® Store applications and plugins if they aren't already installed.
+You can install the Operational Sustainability Integration with Urjanet application \(sn\_esg\_urjanet\) if you have the admin role. The application installs related ServiceNow® Store applications and plugins if they are not already installed.
 -   **[Create an Urjanet connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-an-urjanet-connection.md)**  
 Create an Urjanet account connection with valid credentials to establish a connection between Urjanet and ServiceNow®. Only one connection can be active for each domain for the integration. You can separate the imported data into logically defined domains. Data access is restricted among the domains.
 -   **[Create an entity mapping for Urjanet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/configure-entities-for-urjanet.md)**  

@@ -7,7 +7,7 @@ release: australia
 product: Universal Task
 classification: universal-task
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring your service, Setting up and configuring Universal Task, Universal Task, Employee Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_uni\_task.admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Universal Task** &gt; **Administration** &gt; **Employee Input Task Configuration**.
+1.  Navigate to **All** &gt; **Universal Tasks** &gt; **Administration** &gt; **Employee Input Task Configuration**.
 
 2.  Click **New**
 

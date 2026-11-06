@@ -7,9 +7,9 @@ release: australia
 product: Form Builder \(Glide Family Release\)
 classification: form-builder-glide-family-release
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Table Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Table Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Exploring Table Builder
@@ -24,15 +24,11 @@ Learn more about Table Builder
 
 Additional ServiceNow resources
 
-</th></tr></thead><tbody><tr><td rowspan="2">
+</th></tr></thead><tbody><tr><td>
 
 You can use Table Builder to configure form elements such as layouts, fields, field configuration, and UI policies.
 
 </td><td>
-
-\[Omitted image "icon-support-youtube-channel.png"\] Alt text: Table Builder overview
-
-</td></tr><tr><td>
 
 \[Omitted image "icon-support-youtube-channel.png"\] Alt text: Table Builder: Creating a custom order form [Table Builder: Creating a custom order form](https://www.youtube.com/watch?v=LU5Ssi5iDQY)
 

@@ -1,24 +1,24 @@
 ---
 title: Workspace dock
-description: The dock is a bar at the bottom of the workspace where agents can see drafts of current comments, work notes, or emails at a glance.
+description: The dock is a bar at the bottom of the CRM Workspace where agents can see drafts of current comments, work notes, or emails at a glance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-config-ws-bottom-utility-bar.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Workspace dock
 
-The dock is a bar at the bottom of the workspace where agents can see drafts of current comments, work notes, or emails at a glance.
+The dock is a bar at the bottom of the CRM Workspace where agents can see drafts of current comments, work notes, or emails at a glance.
 
-\[Omitted image "csm-config-ws-case-bottom-bar.png"\] Alt text: The dock is a bar at the bottom of the workspace where agents can minimize drafts of comments, work notes, or emails that they have created in modeless dialogs
+\[Omitted image "csm-config-ws-case-bottom-bar.png"\] Alt text: The dock is a bar at the bottom of the CRM Workspace where agents can minimize drafts of comments, work notes, or emails that they have created in modeless dialogs
 
 Agents can create drafts of comments, work notes, or emails in modeless dialogs and then minimize these drafts to the dock at the bottom of the workspace page. This feature centralizes drafts in the dock rather than behind a button.
 
-Items appear in the dock with an action type, such as email, comment, or work note, and an abbreviated title. Select a draft from the dock to reopen the modeless dialog,
+Items appear in the dock with an action type, such as email, comment, or work note, and an abbreviated title. Select a draft from the dock to reopen the modeless dialog.
 
 The dock can also include actions such as **Manage** and **Save**.
 

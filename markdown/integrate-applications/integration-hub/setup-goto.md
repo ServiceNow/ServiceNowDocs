@@ -127,29 +127,31 @@ OAuth scope for initiating phone calls and other telephone services using GoToCo
 11. Click **Done**.
 
 
-## Create a GoTo connection
+## Configure a connection for the GoTo spoke
 
 Create a connection between your GoTo applications and your ServiceNow instance.
 
 ### Before you begin
 
-Role required: admin
+Role required: admin.
 
 ### Procedure
 
-1.  From your ServiceNow instance, navigate to **Process Automation** &gt; **Flow Designer**.
+1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
 
-    The Flow Designer launches in a new tab.
+2.  Click the **Integrations** tab.
 
-2.  Select the **Connections** tab.
+3.  Under **Connections**, toggle and enable the **Outbound** connections.
 
-3.  Click **View Details** for your GoTo connection.
+4.  Locate the alias for **GoTo** and click **View Details**.
 
-4.  From the list of available connections, locate GoTo and then click **Configure**.
+    \[Omitted image "goto-connection.png"\] Alt text: Connection for the GoTo spoke
 
-    The Configure Connection dialog box opens.
+    If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
-5.  In the dialog box, fill in the fields.
+    \[Omitted image "goto-connection-conf.png"\] Alt text: Initial connection configuration for the GoTo spoke
+
+5.  On the form, fill in these fields:
 
     |Field|Description|
     |-----|-----------|
@@ -157,9 +159,11 @@ Role required: admin
     |Name|Name of your GoTo credentials. This field populates automatically.|
     |OAuth Client ID|Client ID that is assigned to your GoTo OAuth client.|
     |OAuth Client Secret|Client secret that is assigned to your GoTo OAuth client.|
-    |OAuth Redirect URL|Redirect URL of the ServiceNow instance on which you are integrating your GoTo applications. This field populates automatically.|
+    |OAuth Redirect URL|Redirect URL of the ServiceNow instance on which you are integrating your GoTo applications. Enter the URL in this format: `https://<instance-name>.service-now.com/oauth_redirect.do`.|
 
-6.  Click **Configure and Get OAuth Token**.
+    \[Omitted image "goto-conf-temp.png"\] Alt text: Configure a connection for the GoTo spoke.
+
+6.  Click **Save and Get OAuth Token**.
 
     The Authorize App dialog box opens.
 

@@ -7,7 +7,7 @@ release: australia
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up the Catalog Builder, Catalog Builder, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -54,7 +54,7 @@ State of the subflow. Possible values are:-   completed: All steps are complete.
 -   failed: At least one step failed because of invalid configurations such as missing subflow or step configurations.
 
 </td></tr></tbody>
-</table>For information about subflow field types, see [Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md).
+</table>For information about subflow field types, see Field types.
 
 If your organization has processes to be run before or after the service fulfillment steps, create a flow and ensure that it is configured as a step-based service fulfillment flow.
 
@@ -64,7 +64,7 @@ If your organization has processes to be run before or after the service fulfill
 
     Ensure that the Service Fulfillment Steps base flow subflow is called from this flow.
 
-    For information about creating a flow with Service Catalog trigger type, see [Create a flow with a Service Catalog trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-sc-flow.md).
+    For information about creating a flow with Service Catalog trigger type, see Create a flow with a Service Catalog trigger.
 
 2.  Register the flow as service fulfillment flow.
 

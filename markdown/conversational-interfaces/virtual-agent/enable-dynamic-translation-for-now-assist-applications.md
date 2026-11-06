@@ -7,10 +7,10 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-06-01"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 keywords: [Now Assist, application, translation, dynamic, language]
-breadcrumb: [Localization options for Virtual Agent, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Translate conversations, Virtual Agent, Conversational Interfaces]
 ---
 
 # Configure multilingual service for ServiceNow Otto applications
@@ -29,29 +29,27 @@ Role required: sn\_generative\_ai.nsa\_admin
 
 There are two translation services available to translate user-generated content in ServiceNow Otto applications. For more information on the differences between the two, see [Multilingual service for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/translation-for-now-assist.md). In that documentation, you can also find the steps for adding another language to your service if it is not preconfigured.
 
-After you have enabled either Dynamic Translation or native translation, translations will be available for in-product experiences, Virtual Agent, and the Now Assist panel.
+After you have enabled either Dynamic Translation or native translation, translations will be available for in-product experiences, Virtual Agent, and the ServiceNow Otto panel.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Settings**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Settings**.
 
 2.  On the left-hand panel, select the **Multilingual service**.
 
 3.  In the native translation or Dynamic Translation tab, toggle the switch to **On**.
 
-    A modal displays, confirming your choice and stating that ServiceNow Otto streaming of LLM \(large language model\) responses will be unavailable when Dynamic Translation is active.
+    A modal displays, confirming your choice and stating that streaming of LLM \(large language model\) responses will be unavailable when Dynamic Translation is active.
 
     **Note:**
 
-    When Dynamic Translation is inactive, ServiceNow Otto streaming is available. The modal message displayed will change according to the status of the Dynamic Translation.
+    When Dynamic Translation is inactive, streaming is available. The modal message displayed will change according to the status of the Dynamic Translation.
 
 4.  You can enable both Dynamic Translation and native translation.
 
     Native translation is applied first. If the language is not supported through native translation, then Dynamic Translation will be applied.
 
-5.  To enable the preferred language from the available languages supported in the model providers selected in AI Control Tower, select **Edit**.
-
-6.  Select the check-box next to the languages you want to use for translation.
+5.  To enable the preferred language from the available languages supported in the model providers selected in AI Control Tower, select **Edit** and then select the check-box next to the languages you want to use for translation.
 
     See [Multilingual service for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/translation-for-now-assist.md) for more information about adding new languages for your preferred model to support.
 
@@ -61,6 +59,4 @@ After you have enabled either Dynamic Translation or native translation, transla
 ## Result
 
 Multilingual service is enabled for ServiceNow Otto applications.
-
-**Parent Topic:**[Localization options for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/multi-language-options-va.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -35,7 +35,6 @@ To access the change request agentic workflows, make sure that you install the f
 |---------------------|-----------|-------------------|
 |Assess conflicts for a change request|Runs conflict detection for change requests and assesses conflicts, identifies affected CIs and impacted services|Change conflict assessor AI agent|
 |Assess quality of a Change Request|Assesses information quality for new change requests by analyzing closed change requests with matching descriptions.|Change quality assessor AI agent|
-|Explain SLA|Provides insight into priority SLAs, task assignment, and frequency of pause and resume events of SLA for an incident, problem, case, or change request.|Explain SLA|
 |Schedule a change|Schedule change requests by identifying the available schedule slots.|Schedule Change Request AI agent|
 |Suggest configuration items for a change request|Recommends configuration items during change creation.|Change CI suggestion AI agent|
 |Create outages for a change request|Associates outages with a change request quickly.|Change outage assistant AI agent|

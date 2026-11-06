@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-mcp-server-remediate-alert.html
 release: australia
 topic_type: task
-last_updated: "2026-08-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [alert remediation, ITOM MCP Server, AI agent]
 breadcrumb: [Alert remediation, Use the ITOM MCP Server Console, AI in ITOM, IT Operations Management]

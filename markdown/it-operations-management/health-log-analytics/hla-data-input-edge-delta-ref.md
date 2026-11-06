@@ -7,7 +7,7 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Data input configuration fields, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -38,7 +38,7 @@ Description
 
 </td><td>
 
-Description of the data input.
+Optional description of the data input.
 
 </td></tr><tr><td>
 
@@ -50,7 +50,7 @@ The Edge Delta destination used for streaming log messages to the ServiceNow ins
 
 If you select TCP, you must provide the MID Server and port.
 
-When choosing the TCP transport option, create a TCP destination in Edge Delta. Use the same MID Server host and port you configured for the Edge Delta data input.
+When choosing the TCP transport option, create a TCP destination inEdge Delta to send log data to the instance from any source. Use the same MID Server host and port you have configured for the Edge Delta data input.
 
 **Note:** For TCP, TLS/SSL is not supported.
 
@@ -73,7 +73,7 @@ MID web server
 
 </td><td>
 
-The MID Web Server to which the log data is streamed.
+The MID Web Server to which the log data is streamed. This field is required.
 
 </td></tr><tr><td>
 
@@ -81,7 +81,7 @@ MID server
 
 </td><td>
 
-The MID Server to which the Edge Delta logs are streamed.This field is required. If you selected HTTP in the **Transport** field, this field is populated automatically based on the selected MID Web Server.
+The MID Server to which the Edge Delta logs are streamed. This field is required.If you selected HTTP in the **Transport** field, this field is populated automatically based on the selected MID Web Server.
 
 </td></tr><tr><td>
 
@@ -89,9 +89,8 @@ Port
 
 </td><td>
 
-The port on the MID Server used for listening to logs.Choose a port within the suggested range from the array. In the case of TCP transport, the port must not be occupied by another process. Make sure that your organization’s security team opens the selected port.
-
-This field is required. If you selected HTTP in the **Transport** field, this field is populated automatically based on the selected MID Web Server.
+The port on the MID Server used for listening to logs.-   If you selected TCP in the **Transport** field, this field is required. Enter a unique port that no other application on the MID Server uses. Ask your security team to allow traffic on this port between the MID Server and the log sources.
+-   If you selected HTTP in the **Transport** field, this field is populated automatically based on the selected MID Web Server.
 
 </td></tr><tr><td>
 
@@ -99,9 +98,9 @@ Service instance
 
 </td><td>
 
-The service instance to which to bind the log data. This field is required.Choosing the service instance enables HLA to correlate CIs and service instances in the CMDB for root cause analysis.
+The service instance to which to bind the log data. This field is required.Selecting the service instance enables HLA to correlate CIs and service instances in the CMDB for root cause analysis.
 
-**Note:** If no relevant service instance exists, [Create an service instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-it-services.md) and add CIs to it. Set the status of the new service instance to Operational.
+**Note:** If no appropriate service instance exists, create one, add CIs to it, and set its status to Operational. For more information, see [Create a Service instance \(application service\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-it-services.md).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)

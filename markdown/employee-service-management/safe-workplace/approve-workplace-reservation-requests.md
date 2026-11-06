@@ -7,7 +7,7 @@ release: australia
 product: Safe Workplace
 classification: safe-workplace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workplace Core, Safe Workplace, Health and Safety, Employee Service Management]
 ---
@@ -26,15 +26,15 @@ Role required: approver\_user
 
 1.  Navigate to a reservation approval task.
 
-<table id="choicetable_dpt_bjp_zlb"><thead><tr><th align="left" id="d720172e71">
+<table id="choicetable_dpt_bjp_zlb"><thead><tr><th align="left" id="d717375e71">
 
 Application
 
-</th><th align="left" id="d720172e74">
+</th><th align="left" id="d717375e74">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d720172e80">
+</th></tr></thead><tbody><tr><td id="d717375e80">
 
 **Now Mobile**
 

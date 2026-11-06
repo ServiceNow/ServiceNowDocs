@@ -7,8 +7,8 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-10-09"
-reading_time_minutes: 4
+last_updated: "2026-11-06"
+reading_time_minutes: 3
 breadcrumb: [Explore, Telecommunications Network Inventory]
 ---
 
@@ -29,7 +29,7 @@ If their request doesn’t fall under the listed options, users can select the *
 
 ## Remote Hands Request Management Case Creation
 
-Remote Hands Request Management is implemented using the Remote Hands Case table \(sn\_remote\_hands\_case\). This case table stores customer service requests related to remote hands activities. When a customer submits a Remote Hands request through the Customer Service Management \(CSM\) portal, the form data is captured and mapped to the corresponding fields in the Remote Hands Case table \(sn\_remote\_hands\_case\). On submission, a Remote Hands Case record is automatically created in the system.
+Remote Hands Request Management is implemented using the Remote Hands Case table \(sn\_remote\_hands\_case\). This case table stores customer service requests related to remote hands activities. When a customer submits a Remote Hands request through the Customer Service Management \(CSM\) portal, the form data is captured. It is then mapped to the corresponding fields in the Remote Hands Case table \(sn\_remote\_hands\_case\). On submission, a Remote Hands Case record is automatically created in the system.
 
 The Remote Hand Case table \(sn\_remote\_hands\_case\) extends from the Customer Service Case table \(sn\_customerservice\_case\) in the Customer Service Management portal \(CSM\). By extending the base table, it inherits the standard fields and functionality of the Case table \(sn\_customerservice\_case\) table.
 
@@ -88,7 +88,7 @@ The DCIM User role is intended for your customers. This role inherits the Remote
 
 DCIM Users submit their Remote Hands in the **Customer Service Management portal \(CSM\)**. To learn more, see [Submit a Remote Hands Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/submit-remote-hands-request.md).\[Omitted image "csm-portal.png"\] Alt text: CSM portal
 
-The Remote Hands Agent can review the submitted remote hands request, by navigating to: **CSM/FSM Configurable Workspace** &gt; **Select list icon \(\[Omitted image "ni-workspace-list-icon.png"\] Alt text: list icon** &gt; **Remote Hands Cases**
+The Remote Hands Agent can review the submitted remote hands request, by navigating to: **CSM/FSM Configurable Workspace** &gt; **Select list icon \(\[Omitted image "ni-workspace-list-icon.png"\] Alt text: Lists icon.** &gt; **Remote Hands Cases**
 
 The following sections are made available:
 
@@ -105,23 +105,6 @@ On opening a Remote Hands Case record, the fields mapped from the Remote Hands r
 Remote Hands cases that were created two years ago are archived, regardless of whether the case is active or closed. This archival policy helps prevent performance degradation by reducing the number of active records in the system. The archive rule is condition-based and can be modified.
 
 Navigate to **CSM/FSM Configurable workspace** &gt; **All** &gt; **Archive Rules** to access Remote Hands Case Archival Policy.
-
-## ServiceNow Otto in Remote Hands Request management application
-
-Remote Hands Request Summarization is an ServiceNow Otto capability that provides a contextual overview of a Remote Hands case. It combines current case data with insights from similar historical cases. Users with the Remote Hands Agent role can generate a summarized view of a Remote Hands case. Select the **Summarize** option from either the Remote Hands Case table or the CSM/FSM Configurable Workspace.
-
-\[Omitted image "remote-hands-summary.png"\] Alt text: Image displays the example for Remote hands case summary
-
-The comprehensive summary includes the following sections:
-
--   Case Overview: The Case Overview section displays the key metadata retrieved from the Remote Hands Case table, including Case Category, Priority, Channel, and State.
--   Case Details: The Case Details section displays the Short Description and Description fields from the Remote Hands case record, providing detailed context about the current request
--   Related Case Summary: The Related Case Summary section is generated based on similar cases existing in the Remote Hands Case table.
--   Case Reference: The Case Reference lists up to five similar cases found by the system
--   Case Issue: The Case Issue displays the Short Description of the related case
--   Case Resolution: The Case Resolution displays the Resolution Notes recorded in the related case
-
-\[Omitted image "remote-hands-summary-details.png"\] Alt text: Image displays the components in the Remote Hands Summary
 
 To learn more about the required plugin for Remote Hands Request Management, see [Remote Hands Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/remote-hands-request.md)
 

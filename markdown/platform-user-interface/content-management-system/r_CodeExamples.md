@@ -7,7 +7,7 @@ release: australia
 product: Content Management System
 classification: content-management-system
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Content Management and the Apache Jelly engine, Content blocks, Configure Content Management sites, Content Management System, Configure UIs and portals, Configure user experiences]
 ---

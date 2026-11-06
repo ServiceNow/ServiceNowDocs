@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/using-enhanced-chat-mobile.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [Now Assist, generative AI, Virtual Agent]
 breadcrumb: [Using Otto, ServiceNow Otto for Mobile, Mobile Platform]
@@ -22,7 +22,7 @@ To begin using standard chat, open your organization's support portal or applica
 -   Tap the Now Assist icon \(\[Omitted image "na-va-icon-home.png"\] Alt text:\) on your mobile home page to open a chat window.
 -   Enter your request into the home page search bar to initiate a conversation, automatically opening the Virtual Agent chat interface.
 
-Depending on your organization’s configuration, the search bar on your mobile support portal can expand into a full-page chat experience. If full-page chat isn’t enabled, the search bar remains in its standard form, providing quick search capabilities without navigating away from your current view. For information on configuring full-page search, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
+Depending on your organization’s configuration, the search bar on your mobile support portal can expand into a full-page chat experience. If full-page chat isn’t enabled, the search bar remains in its standard form, providing quick search capabilities without navigating away from your current view. For information on configuring full-page search, see [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
 
 ## Chatting with the Virtual Agent
 
@@ -113,7 +113,7 @@ You can find information about people in your organization if you have Knowledge
 
 For more detailed information on all of standard chat’s specific skills, see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-enhanced-chat.md).
 
-For information on configuring Virtual Agent, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
+For information on configuring Virtual Agent, see [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
 
 **Parent Topic:**[Using ServiceNow Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/using-now-assist-mobile.md)
 

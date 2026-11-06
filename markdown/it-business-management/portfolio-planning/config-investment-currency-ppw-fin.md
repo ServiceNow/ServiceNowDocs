@@ -7,7 +7,7 @@ release: australia
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage financials for planning items, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -31,15 +31,15 @@ Select investment currency as an additional currency, which can be different fro
 
     In the **Currency** field, the current system currency is displayed. For example, if your Functional currency is in USD, the field is displayed as **USD \(Functional\)**.
 
-<table id="choicetable_d3h_yqx_jhc"><thead><tr><th align="left" id="d280878e110">
+<table id="choicetable_d3h_yqx_jhc"><thead><tr><th align="left" id="d291558e110">
 
 Planning item type
 
-</th><th align="left" id="d280878e113">
+</th><th align="left" id="d291558e113">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d280878e119">
+</th></tr></thead><tbody><tr><td id="d291558e119">
 
 **Demands**
 
@@ -56,7 +56,7 @@ Edit investment currency modal is displayed with options to select investment cu
 3.  Define investment currency for the future artifact using the **Investment currency for converted artefact** list.
 
 
-</td></tr><tr><td id="d280878e165">
+</td></tr><tr><td id="d291558e165">
 
 **Other planning items**
 

@@ -1,18 +1,18 @@
 ---
 title: Telecommunications Customer 360 component
-description: Telecom Customer 360 is a UI Builder component that provides a comprehensive 360 degree view of a customer record in the CSM/FSM Configurable Workspace. You can embed this component as a tab on the record page of any customer record.
+description: Telecom Customer 360 is a UI Builder component that provides a comprehensive 360 degree view of a customer record in the CRM Workspace. You can embed this component as a tab on the record page of any customer record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/c360-component.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Add the Customer 360 tab to a record page, Configure, Telecommunications Customer 360, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Telecommunications Customer 360 component
 
-**Telecom Customer 360** is a UI Builder component that provides a comprehensive 360 degree view of a customer record in the **CSM/FSM Configurable Workspace**. You can embed this component as a tab on the record page of any customer record.
+**Telecom Customer 360** is a UI Builder component that provides a comprehensive 360 degree view of a customer record in the **CRM Workspace**. You can embed this component as a tab on the record page of any customer record.
 
 All cards that appear on the [Telecommunications Customer 360 home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/c360-home-page.md) are displayed on the Telecom Customer 360 component page with a few changes.
 
@@ -22,8 +22,6 @@ All cards that appear on the [Telecommunications Customer 360 home page](https:/
 -   The Related items contextual sidebar is not displayed.
 
 The Customer 360 tab has been added to the complaint case. In this example, the complaint case record page includes a Customer 360 tab that displays a 360-degree view of the account or consumer associated with the case.
-
-\[Omitted image "c360-complaint-tab.png"\] Alt text: Telecom 360 component
 
 -   **[Add the Telecom Customer 360 component to a record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/c360-add-component.md)**  
 Add the Telecom Customer 360 component to a record page in UI Builder so that customer service representatives can see the 360-degree consumer or account view in the context of the record they are working on.

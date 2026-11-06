@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Reference, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -67,7 +67,7 @@ Authentication Type
 </td><td>
 
 The available authentication types are: -   **API Key** \(default\): Any client connecting to the extension must enter an API key into the request's authorization header. For details on viewing existing API keys, see [Configure MID Web Server API key authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/mid-web-server-api-key-authentication.md).
--   **Keybased** \(deprecated and kept only for compatibility with releases prior to the Australia release\): The value in the **Secret Key** field is used to generate an authentication token sent in the **Authorization** header of incoming client requests. For details, see [Configure key-based MID Web Server authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-mid-web-server-extension-metric-data.md).
+-   **Keybased** \(deprecated and kept only for compatibility with releases prior to the Brazil release\): The value in the **Secret Key** field is used to generate an authentication token sent in the **Authorization** header of incoming client requests. For details, see [Configure key-based MID Web Server authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-mid-web-server-extension-metric-data.md).
 -   **Basic**: Define a username and password in the **Basic Auth User** and **Basic Auth User Password** fields, which appear when selecting this option.
 -   **mTLS**: A certificate-based authentication that uses the TLS protocol. For details, see [MID Web Server and agent mTLS Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/mid-web-server-mTLS-authentication.md).
 

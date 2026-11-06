@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Create an external trigger, Build triggers, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -171,7 +171,7 @@ HMAC Util Script
 
 </td><td>
 
-Option to specify the script that generates or validates the hash.To know more about HMAC, see [Configure HMAC - Token-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-hmac.md).
+Option to specify the script that generates or validates the hash.To know more about HMAC, see .
 
 </td></tr><tr><td rowspan="3">
 

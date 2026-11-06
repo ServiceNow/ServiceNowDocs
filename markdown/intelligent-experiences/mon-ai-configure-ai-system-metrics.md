@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Monitoring an AI system, Working with AI asset records, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Monitoring an AI system, Working with AI asset records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Configure metrics evaluated for an AI system
@@ -36,15 +36,15 @@ The metrics evaluated for an AI system come from your organization's global metr
 
     **Important:** Adding more metrics increases the visibility you gain into each session, but also increases assist usage to evaluate it. Select the metrics that give you the insight you need.
 
-<table id="choicetable_configure_metrics"><thead><tr><th align="left" id="d368196e166">
+<table id="choicetable_configure_metrics"><thead><tr><th align="left" id="d348889e166">
 
 Scenario
 
-</th><th align="left" id="d368196e169">
+</th><th align="left" id="d348889e169">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d368196e175">
+</th></tr></thead><tbody><tr><td id="d348889e175">
 
 **Configuring for the first time**
 
@@ -55,7 +55,7 @@ Steps
 3.  Select the check box next to each metric that you want to evaluate for this AI system.
 
 
-</td></tr><tr><td id="d368196e211">
+</td></tr><tr><td id="d348889e211">
 
 **Modifying an existing configuration**
 

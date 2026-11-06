@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure event collection from SolarWinds monitor, Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -20,8 +20,7 @@ Create a Basic Auth credential in ServiceNow to store the SolarWinds user name a
 
 Confirm you have a local SolarWinds Orion account for Basic authentication \(username + password\) with rights to query the SolarWinds Information Service \(SWIS\) REST API. Create this account in the Orion Web Console; it is the account ServiceNow uses to poll alerts.
 
--   Role required: evt\_mgmt\_admin
--   Make sure that you have a SolarWinds account with access to the SolarWinds API.
+Role required: evt\_mgmt\_admin
 
 ## Procedure
 

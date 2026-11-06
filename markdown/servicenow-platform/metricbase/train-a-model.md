@@ -7,7 +7,7 @@ release: australia
 product: MetricBase
 classification: metricbase
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Detecting anomalies, Define and collect data, MetricBase, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---

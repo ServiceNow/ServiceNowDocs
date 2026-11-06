@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/blsp-relabeling-instructions.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [CRM Workspace, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Public Sector Workspace, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Relabel Business Location Services portal \(BLSP\) items after upgrade
@@ -39,5 +39,5 @@ This script will relabel the "Business Location Details" page within the Busines
 5.  Follow the steps to complete the Guided Setup task.
 
 
-**Parent Topic:**[Set up the CRM Workspace for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/setting-up-csm-fsm.md)
+**Parent Topic:**[Set up the Public Sector Workspace for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/setting-up-csm-fsm.md)
 

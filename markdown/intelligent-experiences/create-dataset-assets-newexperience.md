@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/create-dataset-assets-newexperience.html
 release: australia
 topic_type: task
-last_updated: "2026-04-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Creating AI assets manually, Managing your AI asset inventory, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Creating AI assets manually, Managing your AI asset inventory, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Create dataset assets
@@ -26,7 +26,7 @@ A dataset is a collection of data used for training, fine-tuning, or evaluating 
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Al Control Tower** &gt; **Home** &gt; **Inventory****Assets**.
+1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Inventory****Assets**.
 
 2.  On the Inventory page, select **Add AI asset**.
 

@@ -7,7 +7,7 @@ release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [SGC-GCP, SGC GCP, SGC for GCP, GCP SGC, Service Graph Connector for GCP, GCP connection details, GCP connection, common connection framework, CCF, SGC-GCP, SGC GCP, SGC for GCP, GCP SGC, Service Graph Connector for GCP, GCP connection details, GCP connection, common connection framework, CCF]
 breadcrumb: [GCP, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_StandardEmailConfiguration.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -18,7 +18,7 @@ All production instances can send and receive email using ServiceNow - provided 
 
 Below is an example of a basic email network with ServiceNow as the domain.
 
-\[Omitted image "standard-email-configuration.png"\] Alt text: Diagram showing standard ServiceNow email flow, including outbound and inbound messages routed through mail servers and DNS between a user email account and a ServiceNow instance
+\[Omitted image "StandardEmailConfiguration.png"\] Alt text: Network layout of basic email
 
 ## Basic email services and features
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/machine-learning-itsm.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [IT Service Management]
 ---
@@ -18,10 +18,10 @@ Organizations face challenges in deriving meaningful information and business in
 
 -   **[Request Predictive Intelligence for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/request-pred-intelli-inc-mgmt.md)**  
 Activate Predictive Intelligence for Incident Management by requesting the Predictive Intelligence for Incident Management plugin \(com.snc.incident.ml\_solution\) through the Now Support Service Catalog.
--   **[Request Predictive Intelligence for Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/request-pred-intelli-mim.md)**  
+-   **[Activate Predictive Intelligence for Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/request-pred-intelli-mim.md)**  
 Activate Predictive Intelligence for Major Incident Management by requesting the Predictive Intelligence for Major Incident Management plugin \(com.snc.incident.mim.ml\_solution\) through the Now Support Service Catalog.
 -   **[Predictive Intelligence for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/predictive-intelligence-for-incident.md)**  
-Use your instance records to build specific solutions for Incident Management.
+Use your instance records to build classification and similarity solutions for Incident Management.
 -   **[Request Predictive Intelligence for Incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/request-predictive-intelligence-for-im.md)**  
 To activate Predictive Intelligence for Incident, request the Predictive Intelligence for Incident plugin \(com.snc.incident.ml\) through the Now Support Customer Service system. This plugin activates related plugins if they are not already active.
 

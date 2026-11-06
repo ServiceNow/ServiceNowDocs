@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Insights, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
@@ -29,7 +29,7 @@ To access the dashboard, navigate to **Workspaces** &gt; **Discovery Admin Works
 ## Prerequisites
 
 -   **Verify that you have the required setup**
-    -   The ServiceNow AI Platform must be running the Australia, Zurich, or Yokohama release.
+    -   The ServiceNow AI Platform must be running the Brazil, Australia, Zurich, or Yokohama release.
     -   Discovery Admin Workspace, starting with v1.15.0, must be installed.
 
 ## Key features

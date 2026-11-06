@@ -7,7 +7,7 @@ release: australia
 product: Workplace Space Management
 classification: workplace-space-management
 topic_type: concept
-last_updated: "2026-03-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Explore, Workplace Space Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -71,11 +71,11 @@ A schedule plan can be in one of the following states:
 **Related topics**  
 
 
+[]()
+
 [Space Optimization]()
 
 [Scenario Planning]()
-
-[Allocation - types, setting, and impact]()
 
 [Lists module]()
 

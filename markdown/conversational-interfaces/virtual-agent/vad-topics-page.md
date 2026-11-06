@@ -1,25 +1,25 @@
 ---
 title: Assistant Designer Asset library
-description: The Asset library lists all LLM assets and NLU/Keyword topics in Assistant Designer. You can also create more topics, subflows, actions, custom skills, AI agents, and agentic workflows.
+description: The Assistant Designer Asset library page lists all LLM assets and NLU/Keyword topics for Virtual Agent conversations. You can also create more topics, subflows, actions, custom skills, AI agents, and agentic workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/vad-topics-page.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-04-20"
-reading_time_minutes: 9
+last_updated: "2026-09-10"
+reading_time_minutes: 8
 keywords: [Virtual Agent, Designer, home page, topics, AI agents, Agentic workflows, custom skills, topics, conversational assets, subflows, actions, LLM, NLU, Large langauge model, Natural Language Understanding, Asset library, assets]
-breadcrumb: [Assistant Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Assistant Designer Asset library
 
-The Asset library lists all LLM assets and NLU/Keyword topics in Assistant Designer. You can also create more topics, subflows, actions, custom skills, AI agents, and agentic workflows.
+The Assistant Designer Asset library page lists all LLM assets and NLU/Keyword topics for Virtual Agent conversations. You can also create more topics, subflows, actions, custom skills, AI agents, and agentic workflows.
 
-**Note:** An updated Assistant Designer Asset library user interface is available when you install ServiceNow Otto in Virtual Agent. This content assumes that you can see the list view. If ServiceNow Otto in Virtual Agent is not installed, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
+**Note:** An updated Assistant Designer Asset library user interface is available when you install ServiceNow Otto for Virtual Agent. This content assumes that you can see the list view. If ServiceNow Otto for Virtual Agent is not installed, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/vad-prev-topics-page.md).
 
-To open Assistant Designer Asset library, navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**, and select the **Asset library** tab.
+To navigate to Assistant Designer Asset library, select **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**, then select the **Asset library** tab.
 
 \[Omitted image "convo-studio-list-view.png"\] Alt text: Assistant Designer Asset library page with 4 highlighted sections. For more information, see the Options in the Asset library table.
 
@@ -38,7 +38,7 @@ Fields and descriptions
 </td><td>
 
 Header bar for navigation and Assistant Designer settings.-   **Assistants**: Select this tab to view and create LLM assistants.
--   **Asset library**: Select this tab while viewing a topic in the canvas to return to the Assistant Designer Asset library page.
+-   **Asset library**: Select this tab while viewing a topic to return to the Virtual Agent Asset library page.
 -   **Analytics**: Select this tab to view the Virtual Agent Analytics page.
 -   Topic tabs: Shows any open LLM assets and NLU/Keyword topics as navigation tabs. Hover over a tab to show its type and scope. Select the tab to view that asset or topic. Select the close icon \[Omitted image "gray-x-icon.png"\] Alt text: Close icon. on a tab to close it.
 
@@ -46,11 +46,11 @@ Header bar for navigation and Assistant Designer settings.-   **Assistants**: Se
 
 If you open more tabs than your browser window can display, a drop-down tab holding the overflowing items appears on the header bar. Select the drop-down tab followed by the asset or topic that you want to view.
 
--   User preferences: Icon to access preferences and settings. Hover on the icon to see user name and roles. Select the icon to shows settings for the Assistant Designer Asset library view. Toggle **Group tabs by app scope** in the settings window to group or ungroup tabs by their application scope.
+-   User preferences: Icon to access preferences and settings. Hover on the icon to see user name and roles. Select the icon to shows settings for the Virtual Agent Asset library view. Toggle **Group tabs by app scope** in the settings window to group or ungroup tabs by their application scope.
 
 **Note:** Each group of tabs has a random color when you group tabs by app scope.
 
-For more information on changing the scope, see [Change the application scope for Virtual Agent Designer topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/change-application-scope-vad.md).
+For more information on changing the scope, see [\(Legacy\) Change the application scope for Virtual Agent Designer topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/change-application-scope-vad.md).
 
 
 </td></tr><tr><td>
@@ -69,9 +69,9 @@ Controls for filtering, managing, testing, creating, and deleting Virtual Agent 
 
 You can use three testing options: Standard Chat, Enhanced Chat, or Premium chat.  If you configured either Enhanced Chat or Premium Chat for your instance, you can use that test option.  If you configured both Enhanced and Premium chat, you can choose between the two.  If you configured Standard Chat, you can choose from all three options.
 
-You can see which chat experiences an assistant has by checking **Display experiences** under the assistant's **Settings** tab. For more information on assistants and testing options, see [Testing assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/testing-enhanced-chat-conversations.md) and [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
+You can see which chat experiences an assistant has by checking **Display experiences** under the assistant's **Settings** tab. For more information on assistants and testing options, see [Testing assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/testing-enhanced-chat-conversations.md) and [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/display-assistant-portal-channel.md).
 
-**Note:** If you have not filtered topics with **Select assistant**, the option **Test in Now Assist panel** appears in this drop-down menu. For more information on associating an LLM assistant with a topic, see [Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md).
+**Note:** If you have not filtered topics with **Select assistant**, the option **Test in ServiceNow Otto panel** appears in this drop-down menu. For more information on associating an LLM assistant with a topic, see [Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md).
 
         -   **Create Asset**: Button to create a new Virtual Agent topic. For more information, see [Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md).
         -   **All assets**: Button to view all LLM assets.
@@ -140,7 +140,7 @@ Collapsible panel showing recently opened topics and helpful resources. Select t
 -   Latest updates: List of the last 5 users to open a topic, along with the topic name and when it was last updated.
 -   Resources: Links and features available for LLM or NLU topics. You can view localization insights, product documentation, and migrate NLU topics to LLM from here.
 
-**Note:** The **Migrate topics to LLM** option appears in the Resources section only if you have activated ServiceNow Otto in Virtual Agent.
+**Note:** The **Migrate topics to LLM** option appears in the Resources section only if you have activated ServiceNow Otto for Virtual Agent.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Assistant Designer interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/vad-reference.md)

@@ -110,5 +110,3 @@ Each imported AI model also creates a linked digital asset \(ALM\) record for ap
 |compliance\_frameworks.techniques.id|technique\_id|
 |compliance\_frameworks.techniques.description|technique\_description|
 
-**Parent Topic:**[Palo Alto Prisma AIRS AI Service Graph Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/palo-alto-prisma-airs-ai-sgc.md)
-

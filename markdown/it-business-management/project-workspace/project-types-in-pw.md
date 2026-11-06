@@ -7,7 +7,7 @@ release: australia
 product: Project Workspace
 classification: project-workspace
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 3
 breadcrumb: [Explore, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -27,7 +27,7 @@ Each project type configuration consists of three components: dynamic category, 
     -   A dynamic category can have a parent category. A child category inherits the attributes of its parent, so you can define shared fields once and add type-specific fields in each child category.
     -   Custom fields support the String, Boolean, Date, Date/Time, Integer, Decimal, Floating point, Choice, and Reference data types.
     -   Project managers view and update custom fields in Project Workspace and in playbooks for projects of that type.
-    For details, see .
+    For details, see [Create a dynamic category for a project type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/create-dynamic-category-pw.md).
 
 -   **Form view**
 
@@ -59,7 +59,7 @@ When partitions and project types are both configured, a user sees:
 
 [Configure project type fields and layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/configure-project-type-pw.md)
 
-[create-dynamic-category-pw]
+[Create a dynamic category for a project type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/create-dynamic-category-pw.md)
 
 [Install SPM Enterprise-Wide Deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/install-ewd.md)
 

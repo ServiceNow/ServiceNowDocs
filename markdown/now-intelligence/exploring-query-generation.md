@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/exploring-query-generation.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
@@ -51,6 +51,16 @@ Before Query Generation can call the [LLM](https://raw.githubusercontent.com/Ser
 -   It maintains a focused context window, which improves LLM performance and accuracy compared to processing the entire schema.
 
 Query Generation uses a semantic filter to narrow the entities \(facts tables\) to the 12 closest matches to the user's question. Then from those entities, it narrows the dimensions \(columns\) to the 150 most similar to the user's question. Query Generation passes these results to the LLM, which generates a semantic query. A constitutor takes this semantic query and translates it into an [executable query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/now-assist-platform-analytics-glossary.md).
+
+Query Generation resolves entities and dimensions through examining the following information:
+
+-   Platform metadata
+    -   Table names and labels
+    -   Column names and labels
+-   System ID numbers
+-   Prefix-matching
+-   Existing semantic similarity followed by semantic score to rank the matches
+-   Existing reference and dimension resolution
 
 ## Query Generation users
 

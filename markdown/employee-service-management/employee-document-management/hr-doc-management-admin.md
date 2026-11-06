@@ -7,9 +7,9 @@ release: australia
 product: Employee Document Management
 classification: employee-document-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
-breadcrumb: [Use, Employee Document Management, HR Documents, HR Service Delivery, Employee Service Management]
+breadcrumb: [Using Employee Document Management, Employee Document Management, HR Documents, HR Service Delivery, Employee Service Management]
 ---
 
 # Managing employee documents
@@ -31,7 +31,7 @@ Employee Document Management is your virtual file cabinet containing any or all 
 **Related topics**  
 
 
-[Employee document management bulk imports]()
+[Employee Document Management bulk imports]()
 
 ## Searching for employee documents
 
@@ -43,23 +43,23 @@ Role required: sn\_hr\_ef.document\_reader
 
 ### About this task
 
-Employee Documents is the repository for employee documents. No matter how large your repository of employee documents is, you can search on the fly or set up pre-set search filters to find the documents you need quickly.
+Employee Documents is the repository for employee documents. You can search on the fly or set up pre-set search filters to find the documents you need quickly.
 
 ### Procedure
 
 1.  Navigate to **All** &gt; **HR Profile** &gt; **Employee Documents** &gt; **Search Documents**.
 
-2.  Use the column filters to identify documents you are looking for.
+2.  Use the column filters to identify documents that you are looking for.
 
     For example, sorting on the Employee column shows all documents by employee.
 
-3.  To download documents, select the check the box next to the documents and then select **Download** from the Actions choice list.
+3.  To download documents, select the check the box next to the documents and then select **Download** from the Actions list.
 
     Downloading multiple documents with the same name appends each document with the employee name. A number is added when documents are still duplicated.
 
-4.  To view more information about a document, click the document name.
+4.  To view more information about a document, select the document name.
 
-    If **Yes** is checked in the**sn\_hr\_ef.enable\_document\_viewer** Employee Document Property, the employee document appears.
+    If **Yes** is selected in the**sn\_hr\_ef.enable\_document\_viewer** employee document property, the employee document appears.
 
 
 ## Create or modify an employee document
@@ -96,7 +96,7 @@ Document
 
 </td><td>
 
-Employee document to upload.Click **Choose File** to upload an employee document.
+Employee document to upload.Select **Choose File** to upload an employee document.
 
 **Note:** By default, the maximum size of a document allowed is 30 MB. The default can be changed from the **Maximum file upload size in megabytes** field in Employee Document Properties. For more information, see [Properties for Employee Document Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/employee-doc-properties.md).
 
@@ -104,11 +104,11 @@ Employee document to upload.Click **Choose File** to upload an employee document
 
  The viewer within the UI only supports viewing .pdf documents. Other types of documents can be downloaded and then viewed.
 
- For optimal search results, do not use dashes \(-\) in the name of the document. Using full words separated by spaces or underbars provides better search results.
+ For optimal search results, don't use dashes \(-\) in the name of the document. Using full words separated by spaces or underbars provides better search results.
 
  The **Enable "Document Viewer" to preview pdf documents** in the Employee Documents property must be checked **Yes** to view .pdf documents.
 
-**Note:** Viewing documents is not supported for mobile devices, customers using edge encryption, or encryption support.
+**Note:** Viewing documents is not supported for mobile devices using edge encryption, or encryption support.
 
 </td></tr><tr><td>
 
@@ -146,7 +146,7 @@ Document type associated with the employee document.Document types provide categ
 
 -   You can read and write a document only if you fulfill the read or write configuration requirement of at least one security policy associated with the document type.
 -   You can purge a document only if you fulfill the purge authorization configuration requirement of at least one security policy associated with the document type.
--   You can receive a purge notification only if you fulfill the purge authorization or notification configuration requirement of at least one security policy that is associated with the document type.
+-   You can receive a purge notification only if you fulfill the purge authorization or notification configuration requirement of at least one associated security policy.
 
 
 </td></tr><tr><td>
@@ -187,10 +187,10 @@ Expiration date
 
 </td><td>
 
-Option to set an expiration date for a document. Email notifications will be sent to document owners, managers, or HR representatives \(as per expiration policies\) when the document expires or is nearing its expiration.**Note:** This option is enabled only when an administrator enables the **Expiration date** check box.
+Option to set an expiration date for a document. Email notifications will be sent to document owners, managers, or HR representatives \(according to the expiration policies\) when the document expires or is nearing its expiration.**Note:** This option is enabled only when an administrator enables the **Expiration date** check box.
 
 </td></tr></tbody>
-</table>3.  Click **Submit** to create the employee document record.
+</table>3.  Select **Submit** to create the employee document record.
 
     The Employee Document Audit Trail related list tab appears.
 
@@ -229,7 +229,7 @@ Employee documents can also be added directly to the employee document repositor
 
     From the list view, there is no way to identify HR cases with employee documents attached. The HR case number or the Opened for person are required to locate an HR case.
 
-3.  From the form header, click **Move Attachments**.
+3.  From the form header, select **Move Attachments**.
 
     The **Move Attachments to Employee File** menu appears.
 
@@ -239,7 +239,7 @@ Employee documents can also be added directly to the employee document repositor
 
 5.  Select the **Document Type** for each document.
 
-    The document type determines categorization, who can access it, and the retention policy. If no document type appears for the associated topic detail, one should be created to ensure correct categorization. See [Define policies for a document type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/hr-doc-management-config.md).
+    The document type determines categorization, access permissions, and the retention policy. If no document type appears for the associated topic detail, create one to ensure correct categorization. See [Define policies for a document type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/hr-doc-management-config.md).
 
 6.  Click **Move Selected**.
 
@@ -266,7 +266,7 @@ Role required: sn\_hr\_ef.admin, sn\_hr\_ef.manager, sn\_hr\_core.profile\_write
 
 A legal hold suspends all retention policies for associated employee documentation.
 
-**Note:** If you are logged in as System Admin \[admin\], ensure that you are viewing in the Employee Document Management scope. If you change your scope, you also have to refresh the page.
+**Note:** If you are logged in as System Admin \[admin\], verify that you are in the Employee Document Management scope. After changing your scope, refresh the page.
 
 A legal hold prevents the purging of documents only by out-of-box document clean-up mechanism. It is not applicable to custom clean-up mechanisms, such as custom table cleaners or table archival rules.
 
@@ -276,31 +276,31 @@ A legal hold prevents the purging of documents only by out-of-box document clean
 
 2.  Select an HR profile you want to place on legal hold.
 
-3.  Click **Add Legal Hold** in the form header.
+3.  Select **Add Legal Hold** in the form header.
 
 4.  From **Add legal hold on this profile**, select a reason and add comments.
 
-5.  Click **OK**.
+5.  Select **OK**.
 
 6.  Add comments.
 
-7.  Click **OK**.
+7.  Select **OK**.
 
 8.  To place a document type on legal hold, navigate to **HR Administration** &gt; **Employee Documents** &gt; **Document Types**.
 
 9.  Select a document type.
 
-10. Click **Add Legal Hold**.
+10. Select **Add Legal Hold**.
 
     The **Add Legal Hold** button is in the form header.
 
 11. Add comments.
 
-12. Click **Ok**.
+12. Select **Ok**.
 
-13. Click **Update**.
+13. Select **Update**.
 
-    All documents associated with the document type are placed on legal hold and are not purged based on the retention policy.
+    All documents associated with the document type are placed on legal hold and aren't purged based on the retention policy.
 
 
 ## Add legal hold to multiple HR profiles
@@ -323,8 +323,8 @@ Role required: sn\_hr\_ef.admin, sn\_hr\_ef.manager, sn\_hr\_core.profile\_write
 
     1.  In the **Reason** field, select a value.
     2.  In the **Comments** field, add more details.
-    3.  Click **OK**.
-    Employee documents of selected HR profiles are placed on legal hold and are not purged based on retention policy.
+    3.  Select **OK**.
+    Employee documents of selected HR profiles are placed on legal hold and aren't purged based on retention policy.
 
 
 ## Add legal hold to multiple document types
@@ -347,8 +347,8 @@ Role required: sn\_hr\_ef.admin, sn\_hr\_ef.manager, sn\_hr\_core.profile\_write
 
     1.  In the **Reason** field, select a value.
     2.  In the **Comments** field, add more details.
-    3.  Click **OK**.
-    Documents associated with selected Document Types are placed on legal hold and are not purged based on the retention policy.
+    3.  Select **OK**.
+    Documents associated with selected Document Types are placed on legal hold and aren't purged based on the retention policy.
 
 
 ## Manage documents on legal hold
@@ -373,7 +373,7 @@ Legal holds are placed on employee documents by HR profile or by document type. 
 
 4.  Enter **Comments**.
 
-5.  Click **Update**.
+5.  Select **Update**.
 
 
 ## View employee document purge logs

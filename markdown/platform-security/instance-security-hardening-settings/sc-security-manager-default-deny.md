@@ -1,5 +1,5 @@
 ---
-title: Deny by default with empty ACLs \[Updated in Security Center 1.3\]
+title: Deny by default with empty ACLs
 description: Use the glide.sm.default\_mode property to control the default behavior of security manager when it finds that existing Access Control List \(ACL\) rules are a part of wildcard table ACL rules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/instance-security-hardening-settings/sc-security-manager-default-deny.html
@@ -7,12 +7,12 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Architecture, design, and threat modeling, Hardening settings, Platform Security]
 ---
 
-# Deny by default with empty ACLs \[Updated in Security Center 1.3\]
+# Deny by default with empty ACLs
 
 Use the **glide.sm.default\_mode** property to control the default behavior of security manager when it finds that existing Access Control List \(ACL\) rules are a part of wildcard table ACL rules.
 
@@ -68,6 +68,14 @@ Best security practice would be to restrict an Access to the tables by an unauth
 </td></tr><tr><td>
 
 Recommended value
+
+</td><td>
+
+deny
+
+</td></tr><tr><td>
+
+Default value
 
 </td><td>
 

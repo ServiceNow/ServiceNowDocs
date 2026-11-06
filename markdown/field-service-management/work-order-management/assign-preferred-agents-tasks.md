@@ -7,7 +7,7 @@ release: australia
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage work order tasks, Prepare work orders, Use, Field Service Management]
 ---
@@ -56,7 +56,7 @@ Preferred
 
 </td><td>
 
-Specify technician as preferred for task assignment. Optimization prioritizes these technicians when scheduling tasks.
+Specify technician as preferred for task assignment. Optimization prioritizes these technicians when scheduling tasks, but other technicians may still be considered if necessary.
 
 </td></tr><tr><td>
 
@@ -86,8 +86,6 @@ Required is only used by Schedule Optimization.
 
 </td></tr></tbody>
 </table>6.  Select **Submit**.
-
-    For Schedule Optimization, use the [Run Summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/viewing-task-assignments-from-so-runs.md) to view assignment outcomes for tasks with required, preferred, or secondary technician preferences, including tasks that could not be assigned to a required technician.
 
 
 **Related topics**  

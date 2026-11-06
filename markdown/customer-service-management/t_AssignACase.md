@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_AssignACase.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage cases, Use, Customer Service Management]
 ---
@@ -28,7 +28,7 @@ The **Assign to me** button is only visible if the current user has the customer
 
 2.  Assign the case.
 
-<table id="choicetable_cbh_14n_qv"><tbody><tr><td id="d314521e73">
+<table id="choicetable_cbh_14n_qv"><tbody><tr><td id="d321326e73">
 
 **Assign the case to yourself**
 
@@ -36,7 +36,7 @@ The **Assign to me** button is only visible if the current user has the customer
 
 Click **Assign to me**.
 
-</td></tr><tr><td id="d314521e85">
+</td></tr><tr><td id="d321326e85">
 
 **Assign the case to another agent**
 

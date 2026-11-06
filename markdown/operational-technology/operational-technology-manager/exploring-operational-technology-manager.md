@@ -7,7 +7,7 @@ release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Operational Technology Manager, Operational Technology]
 ---
@@ -29,7 +29,7 @@ There are differences in how the Configuration Management Database \(CMDB\) hand
 -   **[Operational Technology \(OT\) Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/exploring-now-assist-for-otm.md)**  
 The Operational Technology \(OT\) Manager Foundation plugin uses generative AI to help streamline processes in the Industrial Workspace related to your OT device data. You can search for OT devices with the OT Configuration Management Database \(CMDB\) search feature and use an agentic workflow to automate the OT device import process.
 -   **[Enhanced Access Control for Operational Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/ot-enhanced-access-control.md)**  
-Enhanced Access Control for Operational Technology \(OT\) implements data filters, deny unless access control rules \(ACLs\), and ACL query rules to help promote system security.
+Enhanced Access Control for OT implements data filters, deny unless access control rules \(ACLs\), and ACL query rules to help promote system security. Granular access control extends these protections to the Equipment Model Entity \(EME\) level, so you can restrict access from the site level to individual plants, lines, areas, and other ISA 95 hierarchy nodes.
 -   **[Viewing your installed Operational Technology applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/view-installed-ot-applications.md)**  
 You can view the Operational Technology \(OT\) applications that you have installed on your instance for better visibility of how you can use the Operational Technology Management solution.
 

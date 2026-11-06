@@ -7,8 +7,8 @@ release: australia
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2026-04-28"
-reading_time_minutes: 10
+last_updated: "2026-09-10"
+reading_time_minutes: 8
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
 
@@ -17,8 +17,6 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 The WSD User API is a Scripted REST API which returns the authenticated user's workplace context, including their assigned workspace location, in-office presence schedule, collaborators, and past and future reservations.
 
 This WSD User is featured with the Workplace Service Delivery \(WSD\) Reservation product and provides a single-call entry point for initializing the reservation booking experience with all relevant user data. This API sits within the Workplace Service Delivery Reservation \(com.sn\_wsd\_rsv\) plugin and serves as the entry point for surfacing a user's complete workplace identity and history.
-
-An authenticated user is someone who is logged in or whose credentials are included in the API request.
 
 Common use cases:
 
@@ -88,9 +86,9 @@ include
 
 </td><td>
 
-Value to include related data in the response. Uses strict equality matching \(not comma-separated parsing\).**Note:** **include** is only effective when the Workplace Service Delivery Concierge \(com.sn\_wsd\_concierge\) plugin is active. If the plugin is inactive, the parameter is ignored and `collaborators` is omitted from the response.
+Value to include related data in the response. Uses strict equality matching \(not comma-separated parsing\).**Note:** **include** is only effective when the Workplace Service Delivery Concierge \(com.sn\_wsd\_concierge\) plugin is active.
 
-Only valid value: `collaborators`
+Valid value: collaborators
 
 Data type: String
 
@@ -104,7 +102,7 @@ past\_reservations\_months
 
 Number of months of past reservations to return.Data type: Number
 
-Minimum value: `0`- A value of 0 returns an empty array for that direction.
+Minimum value: `0`
 
 Maximum value: `12`
 
@@ -188,12 +186,12 @@ List of the user's collaborators with their presence data.Data type: Array of Ob
 
 ```
 "collaborators": [
- {
-  "exceptions": "Array",
-  "name": "String",
-  "routine": "Object",
-  "sys_id": "String", 
- }
+  {
+    "sys_id": "String",
+    "name": "String",
+    "routine": "Object",
+    "exceptions": "Array"
+  }
 ]
 ```
 
@@ -206,71 +204,8 @@ collaborators.exceptions
 List of dates on which the collaborator's in-office schedule deviates from their routine.Data type: Array of Objects
 
 ```
-"exceptions": [
- {
-  "date": "String",
-  "in_office": Boolean,
-  "location": "String",
-  "origin": "String",
-  "sys_id": "String"
- }
-]
+
 ```
-
-</td></tr><tr><td>
-
-collaborators.exceptions.sys\_id
-
-</td><td>
-
-Sys\_id of the exception record.Table: Employee presence exceptions \(sn\_wsd\_concierge\_employee\_presence\_exception\)
-
-Data type: String
-
-</td></tr><tr><td>
-
-collaborators.exceptions.date
-
-</td><td>
-
-Date this exception applies to. This is the date the user's routine is being overridden.Format: yyyy-MM-dd
-
-Data type: String
-
-</td></tr><tr><td>
-
-collaborators.exceptions.in\_office
-
-</td><td>
-
-Flag that indicates whether the user will be in the office on this date. This overrides whatever the weekly routine specifies for that day of the week.Valid values:
-
--   `true`: User will be in the office.
--   `false`: User won't be in the office
-
-Data type: Boolean
-
-</td></tr><tr><td>
-
-collaborators.exceptions.origin
-
-</td><td>
-
-Source that created the exception.Valid values:
-
--   `user`: Created manually by the employee.
--   `system`: Created automatically by the platform.
--   `manual`: Created by an admin or on behalf of the user.
-
-Data type: String
-
-</td></tr><tr><td>
-
-collaborators.exceptions.location
-
-</td><td>
-
-Name or identifier of the office location the user will be at on this date. Only relevant when `in_office` is `true`. May be an empty string when the user is remote.Data type: String
 
 </td></tr><tr><td>
 
@@ -485,7 +420,9 @@ reservations.past
 
 </td><td>
 
-List of the user's past reservations within the requested month range. Ordered by start date/time, most recent first.Data type: Array of Objects
+List of the user's past reservations within the requested month range. Ordered by start datetime, most recent first.Follows the same array structure as **reservation.future**.
+
+Data type: Array of Objects
 
 ```
 "past": [
@@ -501,116 +438,6 @@ List of the user's past reservations within the requested month range. Ordered b
  }
 ]
 ```
-
-</td></tr><tr><td>
-
-reservations.past.building.name
-
-</td><td>
-
-Display name of the building. For example, `HQ Building A`.Data type: String
-
-</td></tr><tr><td>
-
-reservations.past.building.sys\_id
-
-</td><td>
-
-Sys\_id of the building record.Table: Workplace Building \[sn\_wsd\_core\_building\]
-
-Data type: String
-
-</td></tr><tr><td>
-
-reservations.past.end
-
-</td><td>
-
-End date time of the reservation in UTC. Format: yyyy-MM-dd HH:mm:ss
-
-Data type: String
-
-</td></tr><tr><td>
-
-reservations.past.location
-
-</td><td>
-
-The reserved space.Data type: Object
-
-```
-"location": {
-  "sys_id": "String",
-  "name": "String"
-}
-```
-
-</td></tr><tr><td>
-
-reservations.past.location.name
-
-</td><td>
-
-Display name of the reserved location. For example, `Desk 42`. Data type: String
-
-</td></tr><tr><td>
-
-reservations.past.location.sys\_id
-
-</td><td>
-
-Sys\_id of the reserved location.Table: Workplace Location \[sn\_wsd\_core\_workplace\_location\]
-
-Data type: String
-
-</td></tr><tr><td>
-
-reservations.past.number
-
-</td><td>
-
-Human-readable reservation number. For example, `RSV0001234`.Data type: String
-
-</td></tr><tr><td>
-
-reservations.past.start
-
-</td><td>
-
-Start date time of the reservation in UTC.Format: yyyy-MM-dd HH:mm:ss
-
-Data type: String
-
-</td></tr><tr><td>
-
-reservations.past.state
-
-</td><td>
-
-Current state of the reservation. Valid values:
-
--   `confirmed`
--   `completed`
-
-Data type: String
-
-</td></tr><tr><td>
-
-reservations.past.subject
-
-</td><td>
-
-Subject or title of the reservation. For example, `Team standup desk`.Data type: String
-
-</td></tr><tr><td>
-
-reservations.past.sys\_id
-
-</td><td>
-
-Sys\_id of the reservation record. Table: Workplace Reservation \[sn\_wsd\_rsv\_reservation\]
-
-Data type: String
 
 </td></tr><tr><td>
 
@@ -642,7 +469,7 @@ List of dates on which the user's in-office schedule deviates from their routine
 {
   "sys_id": "sys_id", 
   "date": "String", 
-  "in_office": Boolean, 
+  "in_office": String, 
   "origin": "String", 
   "location": "String" 
  }
@@ -665,10 +492,10 @@ schedule.exceptions.in\_office
 
 Flag that indicates whether the user will be in the office on this date. This overrides whatever the schedule specifies for that day of the week.Valid values:
 
--   `true`: User will be in the office.
--   `false`: User won't be in the office
+-   true: User will be in the office.
+-   false: User won't be in the office
 
-Data type: Boolean
+Data type: String
 
 </td></tr><tr><td>
 
@@ -698,9 +525,7 @@ schedule.exceptions.sys\_id
 
 </td><td>
 
-Sys\_id of the exception record.Table: Employee presence exceptions \(sn\_wsd\_concierge\_employee\_presence\_exception\)
-
-Data type: String
+Sys\_id of the exception record.Data type: String
 
 </td></tr><tr><td>
 
@@ -796,7 +621,9 @@ workplace\_location.campus.name
 
 </td><td>
 
-Display name of the campus. For example, `Main Campus`.Data type: String
+Sys\_id of the campus record.Table: Workplace Campus \[sn\_wsd\_core\_campus\]
+
+Data type: String
 
 </td></tr><tr><td>
 
@@ -804,9 +631,7 @@ workplace\_location.campus.sys\_id
 
 </td><td>
 
-Sys\_id of the campus record.Table: Workplace Campus \[sn\_wsd\_core\_campus\]
-
-Data type: String
+Display name of the campus. For example, `Main Campus`. Data type: String
 
 </td></tr><tr><td>
 
@@ -829,7 +654,9 @@ workplace\_location.floor.name
 
 </td><td>
 
-Display name of the floor. For example, `Floor 3`. Data type: String
+Sys\_id of the floor record. Table: Workplace Floor \[sn\_wsd\_core\_floor\]
+
+Data type: String
 
 </td></tr><tr><td>
 
@@ -837,9 +664,7 @@ workplace\_location.floor.sys\_id
 
 </td><td>
 
-Sys\_id of the floor record. Table: Workplace Floor \[sn\_wsd\_core\_floor\]
-
-Data type: String
+Display name of the floor. For example, `Floor 3`. Data type: String
 
 </td></tr><tr><td>
 
@@ -863,8 +688,6 @@ Data type: String
 </table>### cURL request
 
 The following example retrieves the authenticated user's full workplace context, including collaborators, 1 month of past reservations, and 6 months of future reservations.
-
-This example uses Basic authentication. If your instance uses SSO, use a bearer token or session cookie instead. See the 'Headers' table for details.
 
 ```
 curl "https://<instance>.service-now.com/api/sn_wsd_rsv/v1/user/context?include=collaborators&past_reservations_months=1&future_reservations_months=6" \

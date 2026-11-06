@@ -7,7 +7,7 @@ release: australia
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Inventory, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
@@ -33,15 +33,15 @@ Transfer orders move necessary parts between stockrooms or to a location where a
 
 2.  View the transfer orders.
 
-<table id="choicetable_sb2_zt1_5fb"><thead><tr><th align="left" id="d122008e89">
+<table id="choicetable_sb2_zt1_5fb"><thead><tr><th align="left" id="d124909e89">
 
 To
 
-</th><th align="left" id="d122008e92">
+</th><th align="left" id="d124909e92">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d122008e98">
+</th></tr></thead><tbody><tr><td id="d124909e98">
 
 **View transfer order lines for a part requirement**
 
@@ -54,7 +54,7 @@ Do this
 5.  In the **Transfer order lines** section, tap **See all**.
 
 
-</td></tr><tr><td id="d122008e143">
+</td></tr><tr><td id="d124909e143">
 
 **View transfer order lines related to a work order task**
 
@@ -68,7 +68,7 @@ Do this
 6.  In the **Transfer order lines** section, tap **See all**.
 
 
-</td></tr><tr><td id="d122008e198">
+</td></tr><tr><td id="d124909e198">
 
 **View transfer order lines for a part request**
 

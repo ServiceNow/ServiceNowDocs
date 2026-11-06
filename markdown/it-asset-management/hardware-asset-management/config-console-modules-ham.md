@@ -7,7 +7,7 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: reference
-last_updated: "2026-08-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Reference, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
@@ -295,7 +295,7 @@ Stockroom types
 
 </td><td>
 
-Create and manage stockroom types that classify the stockrooms in your ServiceNow instance. Select an existing type to edit it or select**New** to create a stockroom type. For more information, see [Create a new stockroom type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/t_CreateANewStockroomType.md).
+Create and manage stockroom types that classify the stockrooms in your ServiceNow instance. Select an existing type to edit it or select**New** to create a stockroom type. For more information, see [Create a stockroom type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/t_CreateANewStockroomType.md).
 
 </td><td>
 
@@ -358,7 +358,7 @@ Shipping integration profiles
 
 </td><td>
 
-View and manage carrier integration profiles that define the connection between your ServiceNow instance and a shipping carrier API. For more information, see [Create a carrier integration profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/create-carrier-integration-profile.md).**Note:** Creating a profile requires completing the carrier API integration separately before the profile can be used. For more information, see [Creating an integration script include for third-party carrier applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/creating-integration-script-include-ham.md).
+View and manage carrier integration profiles that define the connection between your ServiceNow instance and a shipping carrier API. For more information, see [Create a carrier integration profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/create-carrier-integration-profile.md).**Note:** Creating a profile requires completing the carrier API integration separately before the profile can be used. For more information, see [Integration framework configuration for shipment tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/configure-int-frame-shipment.md).
 
 </td><td>
 

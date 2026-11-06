@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/reference-intelligent-approvals.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [reference, intelligent approvals, Approver Agent, user roles, AI approval policies]
 breadcrumb: [Intelligent approvals, Build workflows]

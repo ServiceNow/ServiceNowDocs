@@ -7,9 +7,9 @@ release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure web components, Web Embeddables, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Configure web components, Configure Web Embeddables, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Object list component
@@ -19,4 +19,10 @@ Enables you to display records from different tables with their related actions 
 Users can sort, filter, and take actions directly on the list. It also supports nested rows to show hierarchical relationships.
 
 \[Omitted image "we-object-list-comp-homepage.png"\] Alt text: Object list component displaying different cases with their details in list format.
+
+## Related components
+
+Use the Object list component with other components on your website:
+
+[Case view component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/case-view-web-component.md): Shows the details of a case when a user selects a case in the list.
 

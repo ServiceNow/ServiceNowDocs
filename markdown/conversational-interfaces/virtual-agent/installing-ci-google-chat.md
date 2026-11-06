@@ -1,5 +1,5 @@
 ---
-title: Integrate Virtual Agent with Google Chat using the self-configured bot
+title: Installing Conversational Integration with Google chat
 description: Install the Google Chat \(sn\_va\_google-chat\) application so that Now Virtual Agent and Google Chat users can interact with each other.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/installing-ci-google-chat.html
@@ -7,13 +7,12 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-04-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-keywords: [Integrate, Now, Virtual, Agent, Google, Chat, Self-configured bot]
-breadcrumb: [Configuring your Conversational Integration with Google Chat, Conversational Integration with Google Chat, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Configuring your Conversational Integration with Google Chat, Google Chat, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
-# Integrate Virtual Agent with Google Chat using the self-configured bot
+# Installing Conversational Integration with Google chat
 
 Install the Google Chat \(sn\_va\_google-chat\) application so that Now Virtual Agent and Google Chat users can interact with each other.
 
@@ -77,7 +76,7 @@ Install the Google Chat \(sn\_va\_google-chat\) application so that Now Virtual 
 
 22. Select **+ Create service account**.
 
-23. On the Create service account screen, fill out the fields:
+23. On the Create service account form, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
@@ -89,7 +88,7 @@ Install the Google Chat \(sn\_va\_google-chat\) application so that Now Virtual 
 
 25. Select **Done**.
 
-26. On the Service Accounts screen, navigate to the Manage Keys page and select your new outbound service account.
+26. On the Service Accounts page, navigate to the Manage Keys page and select your new outbound service account.
 
 27. Select the Keys tab.
 
@@ -97,14 +96,14 @@ Install the Google Chat \(sn\_va\_google-chat\) application so that Now Virtual 
 
 29. On the Create private key for 'Outbound Service Account' window, select **P12**.
 
-30. Select **Create** - this automatically downloads a file to your machine.
+30. Select **Create**; this automatically downloads a file to your machine.
 
 31. On the Private key saved to your computer window, enter a private key password.
 
 
 ## What to do next
 
-[Integrate Virtual Agent with Google Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/integrating-va-google-chat.md)
+[Integrating Virtual Agent with Google Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/integrating-va-google-chat.md)
 
 **Parent Topic:**[Configuring your Conversational Integration with Google Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-va-google-chat.md)
 

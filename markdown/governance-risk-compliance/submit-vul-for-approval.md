@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/submit-vul-for-approval.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing Operational vulnerability, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -28,7 +28,7 @@ Role required: sn\_oper\_res.manager
 
 3.  In the vulnerability record, select **Update state**.
 
-    If any of the action tasks for the vulnerability aren't closed yet, a message is displayed. The message states that all action tasks must be closed before an analyst or assignment group member can update the vulnerability state.
+    If any action tasks for the vulnerability are not closed, a message is displayed. The message states that all action tasks must be closed before updating the vulnerability state.
 
     The following example shows that the action task for the vulnerability is in the **Review** state.
 

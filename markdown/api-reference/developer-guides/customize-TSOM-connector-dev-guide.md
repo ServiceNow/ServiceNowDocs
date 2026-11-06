@@ -1,13 +1,13 @@
 ---
 title: Customizing TSOM connector behavior with extension points
-description: Learn how to use extension points to extend ServiceNow Telecommunications Service Operations Management \(TSOM\) connector behavior without modifying any default code.The resolution chain, the order field, the three dispatch patterns, and the scope restrictions determine whether a registered implementation runs and which implementation's result is applied at runtime. Review these mechanisms before implementing an extension point.Four extension points—one each for the Meraki, Fortinet, VeloCloud, and Catalyst connectors—control the lifecycle stage status assigned to discovered CIs. All four share the same contract.Assign a lifecycle stage status that varies by CI class for CIs discovered by a TSOM vendor connector. This procedure uses the Meraki connector; the steps are identical for Fortinet, VeloCloud, and Catalyst.Apply one set of lifecycle stage status rules across the Meraki, Fortinet, VeloCloud, and Catalyst connectors by centralizing the logic in a helper Script Include and delegating to it from thin per-connector wrappers.The EventFieldMapping extension point binds an incoming event to a configuration item. Use it to change how an existing vendor's events resolve to CIs, or to add CI mapping for a new vendor.Contract methods and shipped implementations for the EventFieldMapping extension point.Provide CI binding for a vendor that TSOM does not ship an event-to-CI mapper for.Replace how TSOM binds a supported vendor's events to configuration items.WebhookFieldMapping maps a vendor webhook payload to TMF688 event fields. This extension point is same-scope only, so you can't implement it from a custom scope.Two extension points control metric behavior: MetricsAggrSEP customizes aggregation, and UplinkThroughputPercentage customizes uplink throughput calculation.Replace the OOB metric aggregation logic with your own using the MetricsAggrSEP extension point.Five extension points customize narrow, vendor-specific behaviors: firmware version formatting, contract parsing, tag transformation, Nokia MPN formula handling, and recovery handling.Format the Fortinet firmware version string differently from the OOB default.Three extension points let you add API endpoints to Fortinet discovery, register new entity types, and reshape discovered data, without editing default code.Add a FortiManager API endpoint to Fortinet discovery so the connector collects data it doesn't collect by default and stores it on configuration items.Map extra fields from a FortiManager response onto Fortinet configuration items, and register transform functions to reshape the values.Properties that define a step in a Fortinet collection plan: how the endpoint is called, which entity it iterates over, and when its data is written.The five handlers a FortinetParserHooks implementation must provide, the arguments each receives, and what each returns.Avoid the mistakes that most often break a TSOM extension point implementation, and understand what an upgrade does and doesn't touch.Confirm that your custom implementation is registered, active, and resolving at the priority you expect before you rely on it in production.Once an implementation is confirmed active, use this table to confirm it produces the expected result for its category.Run this script in Scripts - Background to audit every order-based TSOM extension point on your instance in one pass.Disable a misbehaving custom implementation and fall back to the default without waiting for a fix.API name, scope, restrict\_scope, and dispatch pattern for every TSOM extension point, in one table.
+description: Learn how to use extension points to extend ServiceNow Telecommunications Service Operations Management \(TSOM\) connector behavior without modifying any default code.The resolution chain, the order field, the three dispatch patterns, and the scope restrictions determine whether a registered implementation runs and which implementation's result is applied at runtime. Review these mechanisms before implementing an extension point.Four extension points—one each for the Meraki, Fortinet, VeloCloud, and Catalyst connectors—control the lifecycle stage status assigned to discovered CIs. All four share the same contract.Assign a lifecycle stage status that varies by CI class for CIs discovered by a TSOM vendor connector. This procedure uses the Meraki connector; the steps are identical for Fortinet, VeloCloud, and Catalyst.Apply one set of lifecycle stage status rules across the Meraki, Fortinet, VeloCloud, and Catalyst connectors by centralizing the logic in a helper Script Include and delegating to it from thin per-connector wrappers.The EventFieldMapping extension point binds an incoming event to a configuration item. Use it to change how an existing vendor's events resolve to CIs, or to add CI mapping for a new vendor.Contract methods and shipped implementations for the EventFieldMapping extension point.Provide CI binding for a vendor that TSOM does not ship an event-to-CI mapper for.Replace how TSOM binds a supported vendor's events to configuration items.WebhookFieldMapping maps a vendor webhook payload to TMF688 event fields. This extension point is same-scope only, so you can't implement it from a custom scope.Two extension points control metric behavior: MetricsAggrSEP customizes aggregation, and UplinkThroughputPercentage customizes uplink throughput calculation.Replace the OOB metric aggregation logic with your own using the MetricsAggrSEP extension point.Five extension points customize narrow, vendor-specific behaviors: firmware version formatting, contract parsing, tag transformation, Nokia MPN formula handling, and recovery handling.Format the Fortinet firmware version string differently from the OOB default.Three extension points let you add API endpoints to Fortinet discovery, register new entity types, and reshape discovered data, without editing default code.Add a FortiManager API endpoint to Fortinet discovery so the connector collects data it doesn't collect by default and stores it on configuration items.Map extra fields from a FortiManager response onto Fortinet configuration items, and register transform functions to reshape the values.Properties that define a step in a Fortinet collection plan: how the endpoint is called, which entity it iterates over, and when its data is written.The five handlers a FortinetParserHooks implementation must provide, the arguments each receives, and what each returns.Avoid the mistakes that most often break a TSOM extension point implementation, and understand what an upgrade does and doesn't touch.Confirm that your custom implementation is registered, active, and resolving at the priority you expect before you rely on it in production.Once an implementation is confirmed active, use this table to confirm it produces the expected result for its category.Run this script in Scripts - Background to audit every order-based TSOM extension point on your instance in one pass.Disable a misbehaving custom implementation and fall back to the out-of-the-box default without waiting for a fix.API name, scope, restrict\_scope, and dispatch pattern for every TSOM extension point, in one table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/developer-guides/customize-TSOM-connector-dev-guide.html
 release: australia
 product: Developer Guides
 classification: developer-guides
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 36
 breadcrumb: [Developer guides, API implementation and reference]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Developer guides, API implementation and reference]
 
 Learn how to use extension points to extend ServiceNow Telecommunications Service Operations Management \(TSOM\) connector behavior without modifying any default code.
 
-TSOM ships 16 extension points across 5 connector scopes.
+TSOM ships 19 extension points across 5 connector scopes.
 
 Each TSOM extension point controls one aspect of connector behavior, from life cycle status assignment, to event-to-CI mapping, to metric aggregation. Implement an extension point when the default behavior doesn't match how your organization models or processes discovered data.
 
@@ -27,7 +27,8 @@ For the full attribute matrix, see [TSOM extension point quick reference](https:
 -   Webhook field mapping \(1\)
 -   Metrics customization \(2\)
 -   Vendor-specific customizations \(5\)
--   Fortinet discovery extensibility \(3\)—see [Fortinet discovery extensibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/developer-guides/customize-TSOM-connector-dev-guide.md).
+-   Fortinet discovery extensibility \(3\)
+-   Meraki discovery extensibility \(3\)
 
 ## Requirements
 
@@ -82,7 +83,7 @@ The dispatch pattern of an extension point determines how the framework selects 
 1.  Handler pattern \(all implementations invoked\): The framework iterates over all active implementations and invokes the handler method on each. A custom implementation's result takes precedence when it is registered at an `order` value below 100. Used by the four lifecycle status extension points and by the firmware-version and contract-parsing extension points.
 2.  Vendor-dispatch pattern \(matched by vendor or rule name\): A resolver iterates over all implementations, calls `getVendor()` \(and, where applicable, `getRuleName()`\), and returns the first match. When more than one implementation matches, the implementation with the lowest `order` value is selected. Used by the event field mapping, webhook field mapping, and recovery handler extension points.
 3.  Single-override pattern \(lowest order selected\): The framework uses only the implementation with the lowest `order` value; exactly one implementation runs. Used by the metrics aggregation, uplink throughput, Nokia MPN formula, and tag transformation extension points.
-4.  Validated-contract pattern \(first complete implementation selected\): The framework uses the first implementation it finds that satisfies the entire contract, and exactly one implementation runs. An implementation that omits any required method is rejected in full rather than partially merged; an error names the missing method or key and the OOB implementation is used instead. Used by the three Fortinet discovery extension points: `sn_sgc_fortinet.FortinetCollectionPlan`, `sn_sgc_fortinet.FortinetParserHooks`, and `sn_sgc_fortinet.FortinetFieldMappings`. See [Fortinet discovery extensibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/developer-guides/customize-TSOM-connector-dev-guide.md).
+4.  Validated-contract pattern \(first complete implementation selected\): The framework uses the first implementation it finds that satisfies the entire contract, and exactly one implementation runs. An implementation that omits any required method is rejected in full rather than partially merged; an error names the missing method or key and the OOB implementation is used instead. Used by the three Fortinet discovery extension points — `sn_sgc_fortinet.FortinetCollectionPlan`, `sn_sgc_fortinet.FortinetParserHooks`, and `sn_sgc_fortinet.FortinetFieldMappings` — and the three Meraki discovery extension points — `sn_sgc_meraki.MerakiCollectionPlan`, `sn_sgc_meraki.MerakiParserHooks`, and `sn_sgc_meraki.MerakiFieldMappings`.
 
 **Note:**
 
@@ -94,8 +95,8 @@ The `restrict_scope` field on the extension point controls who can register an i
 
 |restrict\_scope|Meaning|Impact|
 |---------------|-------|------|
-|`false` \(14 of 16\)|Implementations from any scoped app are accepted.|Create a custom scoped app with your Script Include; it works cross-scope.|
-|`true` \(2 of 16\)|Same scope only.|You can't override from your own scope. Contact ServiceNow support.|
+|`false` \(17 of 19\)|Implementations from any scoped app are accepted.|Create a custom scoped app with your Script Include; it works cross-scope.|
+|`true` \(2 of 19\)|Same scope only.|You can't override from your own scope. Contact ServiceNow support.|
 
 **Important:**
 
@@ -539,7 +540,7 @@ Role required: xxcxcx
 
 #### About this task
 
-Return a formatted string from the handler. The handler's return value is used exactly as returned, including an empty or `null` result — the built-in default format \(`[device.os_ver, device.mr, device.patch].join('.')`, for example `7.4.11`\) is used only when no custom handler is active. This extension point uses the handler pattern.
+Return a formatted string, or return `null` to fall back to the default format, which is `[device.os_ver, device.mr, device.patch].join('.')` \(for example `7.4.11`\). This extension point uses the handler pattern.
 
 #### Procedure
 
@@ -555,7 +556,7 @@ Return a formatted string from the handler. The handler's return value is used e
                     return 'FortiOS v' + device.os_ver + '.'
                         + device.mr + ' Patch ' + device.patch;
                 }
-                return null; // results in an empty firmware value (no fallback)
+                return null; // fall back to default
             }
         },
         type: 'MyFirmwareVersion'
@@ -582,8 +583,12 @@ Each extension point covers one stage of the discovery pipeline. All three are i
 |Extension point|Controls|Required methods|
 |---------------|--------|----------------|
 |`sn_sgc_fortinet.FortinetCollectionPlan`|Which API calls the connector makes, in what order, and how each response is routed.|`getCollectionPlan(parser)`. `getConstants()` is optional.|
-|`sn_sgc_fortinet.FortinetParserHooks`|How a raw response is unwrapped, enriched, filtered, and stored. Registers additional entity types.|All five of `unwrapResponse`, `beforeExtract`, `afterExtract`, `postProcess`, and `shouldStore`. `getEntityTypes(constants)` is optional.|
+|`sn_sgc_fortinet.FortinetParserHooks`|How a raw response is unwrapped, enriched, filtered, and stored. Registers additional entity types.|All five of `unwrapResponse`, `beforeMapping`, `afterMapping`, `postProcess`, and `shouldStore`. `getEntityTypes(constants)` is optional.|
 |`sn_sgc_fortinet.FortinetFieldMappings`|The declarative field mappings that shape an API response into a configuration item payload.|`getFieldMappings()`. `getTransforms()` is optional.|
+
+**Note:**
+
+The `FortinetParserHooks` handlers `beforeMapping` and `afterMapping` were previously named `beforeExtract` and `afterExtract`. A custom implementation that still uses the old names continues to work, but the connector logs a deprecation warning. Rename the handlers in your implementation to remove the warning.
 
 ### How a discovery run uses the extension points
 
@@ -656,7 +661,7 @@ Role required:
 
 #### About this task
 
-Adding an endpoint touches four things: the collection plan declares the call, a request-body template defines the payload, a parser hook shapes the response, and a field mapping turns each item into a configuration item payload. You must configure all four components. Skipping any component means the endpoint either isn't called or its data isn't stored.
+Adding an endpoint touches four things: the collection plan declares the call, a request-body template defines the payload, a parser hook shapes the response, and a field mapping turns each item into a configuration item payload. Skipping any one of them means the endpoint either isn't called or its data isn't stored.
 
 **Important:**
 
@@ -731,7 +736,7 @@ For background on how the three extension points work together, see [Fortinet di
 
 7.  Create a script include that implements `sn_sgc_fortinet.FortinetFieldMappings`, copy the default mappings into `getFieldMappings()`, and add an entry for your entity type.
 
-    Return mappings for all five default resource types and your own: `port`, `network_site`, `network_service_instance`, `organization`, and `devices`. Add your custom fields inside an `additional_attributes` block and leave core configuration item attributes as they are.
+    Return mappings for all five default resource types as well as your own: `port`, `network_site`, `network_service_instance`, `organization`, and `devices`. Add your custom fields inside an `additional_attributes` block and leave core configuration item attributes as they are.
 
     For field mapping syntax and transform registration, see [Extend Fortinet field mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/developer-guides/customize-TSOM-connector-dev-guide.md).
 
@@ -862,7 +867,7 @@ The `immediate` value for `write` is supported by the underlying orchestrator bu
 
 #### Default steps
 
-The default collection plan contains three steps. A custom plan must return all three and any steps you add.
+The default collection plan contains three steps. A custom plan must return all three in addition to any steps you add.
 
 |Step|Behavior|
 |----|--------|
@@ -880,11 +885,15 @@ The five handlers a FortinetParserHooks implementation must provide, the argumen
 
 An implementation of `sn_sgc_fortinet.FortinetParserHooks` must provide all five handlers. An implementation missing any handler is rejected in full and the default implementation is used instead. In every handler, `type` is the step name from the active collection plan.
 
+**Note:**
+
+`beforeMapping` and `afterMapping` were previously named `beforeExtract` and `afterExtract`. An implementation that still uses the old names continues to work, but the connector logs a deprecation warning. Rename the handlers to remove the warning.
+
 |Handler|Arguments|Called and returns|
 |-------|---------|------------------|
 |`unwrapResponse`|`responseJson`, `type`, `parser`|Once per fetched response, before any item is mapped. Returns the value to iterate over, usually an array.|
-|`beforeExtract`|`rawItem`, `type`, `store`, `parser`|Once per raw item, before field mapping. Mutates `rawItem` in place so a mapping can reference the added data as a normal source path. Returns nothing.|
-|`afterExtract`|`mappedItem`, `type`, `store`, `rawItem`, `parser`|Once per item, after field mapping. Mutates `mappedItem` in place to add attributes or relationships that depend on the mapped shape. Returns nothing.|
+|`beforeMapping`|`rawItem`, `type`, `store`, `parser`|Once per raw item, before field mapping. Mutates `rawItem` in place so a mapping can reference the added data as a normal source path. Returns nothing.|
+|`afterMapping`|`mappedItem`, `type`, `store`, `rawItem`, `parser`|Once per item, after field mapping. Mutates `mappedItem` in place to add attributes or relationships that depend on the mapped shape. Returns nothing.|
 |`postProcess`|`results`, `type`, `parser`|Once per response, with every item already mapped for that type. Returns the items to store or write, optionally filtered or transformed.|
 |`shouldStore`|`mappedItem`, `type`, `parser`|Per item. Returns `false` to exclude the item from the shared store.|
 
@@ -892,8 +901,8 @@ An implementation of `sn_sgc_fortinet.FortinetParserHooks` must provide all five
 
 In the default collection plan, only the `devices` step reaches these handlers. Keep the following default behavior in any copy you customize.
 
--   `beforeExtract` fetches the device's ports and stamps them onto the raw item, and stamps the device's license attributes from the map built by the `contracts` step.
--   `afterExtract` stores the port relationships, merges the response's own metadata fields into `additional_attributes`, and creates the network site and network service instance for the device.
+-   `beforeMapping` fetches the device's ports and stamps them onto the raw item, and stamps the device's license attributes from the map built by the `contracts` step.
+-   `afterMapping` stores the port relationships, merges the response's own metadata fields into `additional_attributes`, and creates the network site and network service instance for the device.
 -   `shouldStore` excludes any mapped item without a `key`.
 
 **Warning:**
@@ -939,10 +948,6 @@ Your custom extension instances aren't touched during upgrades. OOB instances re
 ## Verify that an extension point implementation is active
 
 Confirm that your custom implementation is registered, active, and resolving at the priority you expect before you rely on it in production.
-
-### Before you begin
-
-Role required: admin
 
 ### About this task
 
@@ -1056,17 +1061,13 @@ Run this script in Scripts - Background to audit every order-based TSOM extensio
 })();
 ```
 
-## Recover from a failing custom extension point
+## Recover from a custom extension point causing production issues
 
-Disable a misbehaving custom implementation and fall back to the default without waiting for a fix.
-
-### Before you begin
-
-Role required: TSOM admin
+Disable a misbehaving custom implementation and fall back to the out-of-the-box default without waiting for a fix.
 
 ### About this task
 
-Because the default implementation for every order-based extension point is registered at `order = 100`, deactivating your lower-order override immediately restores default behavior. No other configuration change is required.
+Because the OOB default implementation for every order-based extension point is registered at `order = 100`, deactivating your lower-order override immediately restores default behavior. No other configuration change is required.
 
 ### Procedure
 
@@ -1078,7 +1079,7 @@ Because the default implementation for every order-based extension point is regi
 
 3.  Check the system log for exceptions thrown by your Script Include to diagnose the failure.
 
-4.  Fix the implementation and test it in a non-production instance before you set `active` back to `true` in production.
+4.  Fix the implementation and test it in a sub-production instance before you set `active` back to `true` in production.
 
 
 ## TSOM extension point quick reference
@@ -1103,6 +1104,9 @@ API name, scope, restrict\_scope, and dispatch pattern for every TSOM extension 
 |Fortinet collection plan|`sn_sgc_fortinet.FortinetCollectionPlan`|`sn_sgc_fortinet`|`false`|Contract validation \(single implementation\)|
 |Fortinet parser hooks|`sn_sgc_fortinet.FortinetParserHooks`|`sn_sgc_fortinet`|`false`|Contract validation \(single implementation\)|
 |Fortinet field mappings|`sn_sgc_fortinet.FortinetFieldMappings`|`sn_sgc_fortinet`|`false`|Contract validation \(single implementation\)|
+|Meraki collection plan|`sn_sgc_meraki.MerakiCollectionPlan`|`sn_sgc_meraki`|`false`|Contract validation \(single implementation\)|
+|Meraki parser hooks|`sn_sgc_meraki.MerakiParserHooks`|`sn_sgc_meraki`|`false`|Contract validation \(single implementation\)|
+|Meraki field mappings|`sn_sgc_meraki.MerakiFieldMappings`|`sn_sgc_meraki`|`false`|Contract validation \(single implementation\)|
 
-The three Fortinet discovery extensibility rows don't resolve by `order`; see [Fortinet discovery extensibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/developer-guides/customize-TSOM-connector-dev-guide.md) for how they're validated and how they fall back to the default implementation.
+The three Fortinet and three Meraki discovery extensibility rows don't resolve by `order`; see [Fortinet discovery extensibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/developer-guides/customize-TSOM-connector-dev-guide.md) and Meraki discovery extensibility for how they're validated and how they fall back to the default implementation.
 

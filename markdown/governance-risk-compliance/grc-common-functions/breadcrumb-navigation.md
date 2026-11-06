@@ -1,20 +1,20 @@
 ---
 title: Breadcrumb navigation
-description: The ServiceNow Australia release supports breadcrumb navigation for all GRC modules including workspaces. Breadcrumbs provide a browser path to navigate a hierarchy of linked pages with related content.
+description: The ServiceNow Brazil release supports breadcrumb navigation for all GRC modules including workspaces. Breadcrumbs provide a browser path to navigate a hierarchy of linked pages with related content.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-common-functions/breadcrumb-navigation.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Breadcrumb navigation
 
-The ServiceNow® Australia release supports breadcrumb navigation for all GRC modules including workspaces. Breadcrumbs provide a browser path to navigate a hierarchy of linked pages with related content.
+The ServiceNow® Brazil release supports breadcrumb navigation for all GRC modules including workspaces. Breadcrumbs provide a browser path to navigate a hierarchy of linked pages with related content.
 
 Breadcrumbs provide context, consistency, and familiarity for the users. The breadcrumb style navigation provides a digital trail from the user's starting hover over the current content, with the ability to navigate to each link.
 

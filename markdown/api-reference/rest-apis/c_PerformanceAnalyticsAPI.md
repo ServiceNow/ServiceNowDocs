@@ -7,7 +7,7 @@ release: australia
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 23
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
@@ -420,7 +420,7 @@ sysparm\_tags
 
 </td><td id="entry_c3k_rv3_pw">
 
-Indicator group sys\_id in which to return the indicators of that group. Do not use **sysparm\_uuid** with this parameter.You cannot obtain the sys\_id of an indicator group through this API. Instead, get the sys\_id from the indicator group record. For more information about obtaining sys\_ids from records, see [Unique record identifier \(sys\_id\)](https://www.servicenow.com/docs?context=platform_unique-record-id&version=sandiego).
+Indicator group sys\_id in which to return the indicators of that group. Do not use **sysparm\_uuid** with this parameter.You cannot obtain the sys\_id of an indicator group through this API. Instead, get the sys\_id from the indicator group record. For more information about obtaining sys\_ids from records, see [Unique record identifier \(sys\_id\)](https://www.servicenow.com/docs/access?context=platform_unique-record-id&version=sandiego).
 
  Data type: String
 

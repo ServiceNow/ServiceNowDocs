@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Collaborate using Docs, Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -26,15 +26,15 @@ Role required: sn\_apw\_advanced.eap\_user
 
 2.  Navigate to your Doc.
 
-<table id="choicetable_wz1_jq3_bcc"><thead><tr><th align="left" id="d152254e79">
+<table id="choicetable_wz1_jq3_bcc"><thead><tr><th align="left" id="d156156e79">
 
 Type
 
-</th><th align="left" id="d152254e82">
+</th><th align="left" id="d156156e82">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d152254e88">
+</th></tr></thead><tbody><tr><td id="d156156e88">
 
 **Team Doc**
 
@@ -44,7 +44,7 @@ Actions
 2.  Select the Docs tab and open your Doc.
 
 
-</td></tr><tr><td id="d152254e106">
+</td></tr><tr><td id="d156156e106">
 
 **Planning item Doc**
 

@@ -7,8 +7,9 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
+keywords: [mitre attack and defend graph in SIR Workspace, mitre attack technique, mitre defend technique]
 breadcrumb: [Working with Security Incident Records, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -32,8 +33,6 @@ The graph consists of the following node types arranged in a hierarchical struct
 -   Artifact nodes: Second or third level nodes representing specific artifacts related to defend techniques.
 
 Nodes at the same hierarchical level can have cross-references, creating connecting edges when the same node relates to multiple parent nodes.
-
-Attack technique nodes are labeled and iconized according to their source framework. The source framework is either MITRE-ATT&amp;CK or MITRE ATLAS. You can visually distinguish which framework a technique belongs to at a glance.
 
 ## Available actions
 

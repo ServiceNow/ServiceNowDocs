@@ -1,18 +1,19 @@
 ---
 title: Create a copy of an AI specialist in AI Agent Studio
-description: Create a new copy of an AI specialist to configure different settings for different assignment groups
+description: Create a new copy of an AI specialist to configure different settings for different assignment groups.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/copy-aiw-new.html
 release: australia
 topic_type: task
-last_updated: "2026-05-26"
+last_updated: "2026-10-13"
 reading_time_minutes: 1
-breadcrumb: [Use in AI Agent Studio, Use, Autonomous Workforce, Enable AI experiences]
+keywords: [copy ai specialist, team ai specialist, new ai specialist, manage ai specialist, management ai specialist]
+breadcrumb: [Use in AI Agent Studio, Use, Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Create a copy of an AI specialist in AI Agent Studio
 
-Create a new copy of an AI specialist to configure different settings for different assignment groups
+Create a new copy of an AI specialist to configure different settings for different assignment groups.
 
 ## Before you begin
 
@@ -34,7 +35,7 @@ You can't change the tasks of an AI specialist at the copy level. Tasks must be 
 
     The first node contains the main configuration settings for the AI specialist. The other nodes represent the individual agents that comprise the underlying architecture and do not require access or modification to create a copy of an AI specialist.
 
-4.  Scroll down to the **Management** section in the AI specialist guided setup to configure the different access settings.
+4.  Select the **Management** section in the AI specialist guided setup to configure the different access settings.
 
 5.  In the Copies section, select **Add copy**.
 

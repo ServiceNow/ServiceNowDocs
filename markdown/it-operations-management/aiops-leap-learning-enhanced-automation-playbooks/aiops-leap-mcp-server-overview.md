@@ -7,7 +7,7 @@ release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: concept
-last_updated: "2026-08-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [MCP, Model Context Protocol, external AI client, LEAP MCP tools, AIOps MCP Server]
 breadcrumb: [Explore, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
@@ -45,8 +45,8 @@ LEAP MCP tools are registered as **Action** tools on the ITOM MCP Server and are
 |Tools|Description|
 |-----|-----------|
 |LEAP - Get App setup status|Reports LEAP setup and grouping pipeline readiness. Use this tool to check whether LEAP is configured before invoking automation opportunity tools. For example, if an AO query returns no data, `get_app_setup_status` can confirm whether setup is incomplete and return the URL of the setup page.|
-|LEAP - Get property or setting|Retrieves specific LEAP configuration properties by key. Only properties on an explicit allow-list are accessible. For example, retrieve `missed_opportunity_threshold` \(the number of missed opportunities above which an AO is flagged as high priority\) or `default_resolution_steps_filter` \(the encoded query that controls which AOs receive AI-generated resolution steps\).|
-|LEAP - Get automation opportunities|Provides read-only access to automation opportunity data. External clients can query for lists of AOs, retrieve full details for a specific AO, and filter results by keyword, status, or linked artifacts. For example, an AI client can ask for all AOs related to Discovery issues that have a KB article generated, or retrieve details for a specific AO number such as AOPP0000173.|
+|LEAP - Get property or setting|Retrieves specific LEAP configuration properties by key. Only properties on an explicit allow-list are accessible. For example, retrieve `missed_opportunity_threshold` \(the number of missed opportunities above which an AO is flagged as high priority\). Or retrieve `default_resolution_steps_filter` \(the encoded query that controls which AOs receive AI-generated resolution steps\).|
+|LEAP - Get automation opportunities|Provides read-only access to automation opportunity data. External clients can query for lists of AOs, retrieve full details for a specific AO, and filter results by keyword, status, or linked artifacts. For example, an AI client can ask for all AOs related to Discovery issues that have a KB article generated. The client can also retrieve details for a specific AO number such as AOPP0000173.|
 
 ## Set up the MCP connection
 

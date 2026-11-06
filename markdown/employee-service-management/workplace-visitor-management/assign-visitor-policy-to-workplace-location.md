@@ -7,7 +7,7 @@ release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a visitor policy, Configure, Workplace Visitor Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -26,7 +26,7 @@ Role required: sn\_wsd\_visitor.admin
 
 ## About this task
 
-You can also assign visitor policy by selecting the workplace location in **Building**. Select the building and ensure that the **Visitor policy view** option is enabled. Select **Edit** and assign the policy.
+You can also assign visitor policy by selecting the workplace location in **Building**. Select the building and make sure that the **Visitor policy view** option is enabled. Select **Edit** and assign the policy.
 
 ## Procedure
 
@@ -36,13 +36,13 @@ You can also assign visitor policy by selecting the workplace location in **Buil
 
 3.  In the Locations related list, select **Edit**.
 
-4.  On the Edit Members form, select the workplace location from the **Collection** column, then move it to the **Locations List** column by using the add-remove icon \(\[Omitted image "add-remove-icon.png"\] Alt text: add-remove icon.\).
+4.  On the Edit Members form, select the workplace location from the **Collection** column, then move it to the **Locations List** column by using the add-remove icon \(\[Omitted image "add-remove-icon.png"\] Alt text: Add-remove arrows.\).
 
 5.  Select **Save**.
 
 6.  In the Locations related list, apply the policy to internal or external visitors and configure whether the policies require signatures.
 
-    1.  Select the preview icon \(\) for the record that you want to edit.
+    1.  Select the preview option for the record that you want to edit.
 
     2.  On the preview window for the location policy, select **Open Record**.
 

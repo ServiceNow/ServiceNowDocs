@@ -7,7 +7,7 @@ release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -124,7 +124,7 @@ Provide a description for this pattern.
 
     2.  Alternatively, navigate to **Service Mapping** &gt; **MID Servers**.
 
-    3.  Click **Pattern Sync to Mid**.
+    3.  Select **Pattern Sync to Mid**.
 
 
 ## What to do next

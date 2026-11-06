@@ -7,7 +7,7 @@ release: australia
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create monetary benefit plans for your projects in Project Workspace, Manage financials, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -27,15 +27,15 @@ Capture the actual benefit from the planned benefits to measure revenue and calc
 
 2.  Capture actual monetary benefits using one of the options.
 
-<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d256730e86">
+<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d266472e86">
 
 Option
 
-</th><th align="left" id="d256730e89">
+</th><th align="left" id="d266472e89">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d256730e95">
+</th></tr></thead><tbody><tr><td id="d266472e95">
 
 **Using Monetary benefit plan related list**
 
@@ -46,7 +46,7 @@ Procedure
 3.  Select the value from the **Entered benefit** field.
 
 
-</td></tr><tr><td id="d256730e125">
+</td></tr><tr><td id="d266472e125">
 
 **Using finanicals record page**
 

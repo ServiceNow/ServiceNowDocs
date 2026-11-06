@@ -7,7 +7,7 @@ release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
@@ -17,6 +17,8 @@ breadcrumb: [Explore, Advanced Work Assignment, Manage people and work, Conversa
 Control certain elements of the agent experience in Agent Workspace. Define the agent presence \(availability\) states and the work item rejection reasons used by agents to decline work assignments in their Agent Workspace inbox.
 
 ## Agent presence states
+
+
 
 \[Omitted image "agent-availability.png"\] Alt text: Agent Workspace inbox availability states.
 

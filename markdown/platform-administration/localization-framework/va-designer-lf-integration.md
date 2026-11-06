@@ -1,22 +1,24 @@
 ---
 title: Virtual Agent Designer integration with Localization Framework
-description: The integration of Virtual Agent Designer with Localization Framework enables you to translate Virtual Agent topics using the translation modes supported by Localization Framework with or without a localization task.
+description: The integration of Virtual Agent Designer with Localization Framework enables you to translate Virtual Agent NLU topics using the translation modes supported by Localization Framework with or without a localization task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/localization-framework/va-designer-lf-integration.html
 release: australia
 product: Localization Framework
 classification: localization-framework
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore Localization Framework, Localization Framework, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Virtual Agent Designer integration with Localization Framework
 
-The integration of Virtual Agent Designer with Localization Framework enables you to translate Virtual Agent topics using the translation modes supported by Localization Framework with or without a localization task.
+The integration of Virtual Agent Designer with Localization Framework enables you to translate Virtual Agent NLU topics using the translation modes supported by Localization Framework with or without a localization task.
 
-## Localizing Virtual Agent topics
+Starting with the Brazil release, Virtual Agent for NLU is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+## Localizing Virtual Agent NLU topics
 
 The integration of Virtual Agent Designer with Localization Framework enables you to do the following tasks.
 

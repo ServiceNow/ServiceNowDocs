@@ -7,7 +7,7 @@ release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Automate response, Use template designer, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
@@ -41,7 +41,7 @@ Role required:
 
 5.  In the **Default response is** field of the **Automated response** pop-up window, select a default response for the question based on the question type or create a script.
 
-    1.  Create a script for a dynamic response by selecting the script icon.
+    1.  Create a script for a dynamic response by selecting the script icon \[Omitted image "script-icon.png"\] Alt text:.
 
     2.  Update the `result.value = <null>` with the required input.
 

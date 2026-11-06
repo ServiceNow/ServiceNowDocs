@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/setup-work-scheduler-wfo-cs.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Setting up Work scheduler, Optimize workforce operations, Extend capabilities, Configure, Customer Service Management]
 ---
@@ -16,13 +16,17 @@ Create a work configuration for a work item. Add filters that display key inform
 
 ## Before you begin
 
+**Important:**
+
+Starting with the Brazil release, Work scheduler is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 Role required: sn\_wfo\_work\_sched.admin
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Work Scheduler** &gt; **Work Configurations**.
 
-2.  Select **New**.
+2.  Click **New**.
 
 3.  On the form, fill in the fields.
 
@@ -136,11 +140,11 @@ Matching rule
 Select a matching rule for the work configuration.
 
 </td></tr></tbody>
-</table>4.  Right-click the form header and select **Submit**.
+</table>4.  Right-click the form header and click **Submit**.
 
 5.  Create a work configuration filter.
 
-    1.  In the **Work Configuration filters** related list, select **New**.
+    1.  In the **Work Configuration filters** related list, click **New**.
 
     2.  In the **Name** field, enter a unique name for the filter.
 

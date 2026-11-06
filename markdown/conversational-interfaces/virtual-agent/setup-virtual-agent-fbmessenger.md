@@ -1,5 +1,5 @@
 ---
-title: Set up the Virtual Agent integration with Facebook Messenger \(Legacy\)
+title: \(Legacy\) Set up the Virtual Agent integration with Facebook Messenger
 description: Configure the Virtual Agent integration for Facebook Messenger and associate the app with your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/setup-virtual-agent-fbmessenger.html
@@ -7,12 +7,12 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Legacy setup and configuration, Configure, Conversational Integration with Facebook Messenger, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Legacy setup and configuration, Configure, Facebook Messenger, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
-# Set up the Virtual Agent integration with Facebook Messenger \(Legacy\)
+# \(Legacy\) Set up the Virtual Agent integration with Facebook Messenger
 
 Configure the Virtual Agent integration for Facebook Messenger and associate the app with your instance.
 

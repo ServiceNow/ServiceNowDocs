@@ -7,7 +7,7 @@ release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-10-22"
 reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, install, require, prerequisite, mid-server, midserver, rfc]
 breadcrumb: [Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
@@ -19,7 +19,7 @@ Before you install Zero Copy Connector for ERP \(Enterprise Resource Planning\),
 
 ## Licensing
 
-Check your entitlements to determine whether you have access to Zero Copy Connector for ERP. For more information, see .
+Check your entitlements to determine whether you have access to Zero Copy Connector for ERP. For more information, see [Licensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/licensing.md).
 
 ## ServiceNow AI Platform plugins
 
@@ -36,7 +36,7 @@ Communicating with the ERP system through a MID Server requires a valid connecti
 
 **Note:** The credentials you specify for the Zero Copy Connector for ERP connection must match the service user credentials in the ERP system.
 
-Zero Copy Connector for ERP and ERP Semantic Mining currently support ECC \(minimum SAP Netweaver 7.31\) and SAP S/4HANA systems.
+Zero Copy Connector for ERP and ERP Semantic Mining support ECC \(minimum SAP Netweaver 7.31\) and SAP S/4HANA systems.
 
 Navigate to **All** &gt; **MID Server** &gt; **Servers**, select a MID Server, and add the following:
 
@@ -60,7 +60,7 @@ Assign the sn\_erp\_integration.erp\_mid\_server role to the mid\_user account. 
 
 For the credentials, use an SAP service-type user account in your ERP system that has the following SAP authorization objects:
 
--   S\_RFC with Activity 16 \(Execute\) for the following Function Modules:
+-   S\_RFC with Activity = 16 \(Execute\) for the following Function Modules:
     -   RFCPING
     -   BAPI\_MONITOR\_GETLIST
     -   RFC\_METADATA\_GET
@@ -83,7 +83,7 @@ For the credentials, use an SAP service-type user account in your ERP system tha
 
 For the credentials, use an SAP service-type user account in your ERP system that has the following SAP authorization objects:
 
--   S\_RFC with Activity 16 \(Execute\) for the following Function Modules:
+-   S\_RFC with Activity = 16 \(Execute\) for the following Function Modules:
     -   RFCPING
     -   BAPI\_TRANSACTION\_COMMIT
     -   BAPI\_TRANSACTION\_ROLLBACK
@@ -98,7 +98,7 @@ Contact the administrator of your SAP ECC RFC account to obtain the following SA
 
 -   Create a record called "SAP Jco Dll" and attach `sapjco3.dll`. Use this file if your MID Server is installed on a Windows server.
 -   Create a record called "SAP Jco so" and attach `libsapjco3.so`. Use this file if your MID Server is installed on a Linux server.
--   Create a record called "SAP Jco Jar" and attach `sapjco3.jar`. Use this file for both Windows and Linux.
+-   Create a record called "SAP JCO Jar" and attach `sapjco3.jar`. Use this file for both Windows and Linux.
 
 **Note:** Create the records at **All** &gt; **MID Server** &gt; **JAR Files**. For more information about creating JAR files and adding attachments, see [Synchronize a JAR file to MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_SynchronizeAJARFiletoMIDServers.md).
 
@@ -108,13 +108,13 @@ For details about these files, see [SAP ECC RFC Spoke](https://raw.githubusercon
 
 ## SAP configuration
 
-You must configure the JCo connector before you install Zero Copy Connector for ERP. For more information, see [Installing the SAP Java Connection \(JCo\)](https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/00f68c2e08b941f081002fd3691d86a7/ffe3b941e82641bc97b76ce522423d83.html) on the SAP Help Portal.
+You must configure the JCO connector before you install Zero Copy Connector for ERP. For more information, see [Installing the SAP Java Connection \(JCo\)](https://help.sap.com/docs/SAP_ANALYTICS_CLOUD/00f68c2e08b941f081002fd3691d86a7/ffe3b941e82641bc97b76ce522423d83.html) on the SAP Help Portal.
 
-You must add the DuckDB JDBC JAR file as a MID Server JAR file. For more information and to download, see [DuckDB JDBC Driver 1.1.1](https://mvnrepository.com/artifact/org.duckdb/duckdb_jdbc/1.1.1) on the Maven website.
+You must add the DuckDB JDBC jar as a MID Server JAR file. For more information and to download, see [DuckDB JDBC Driver 1.1.1](https://mvnrepository.com/artifact/org.duckdb/duckdb_jdbc/1.1.1) on the Maven website.
 
 You need the following on your ERP system:
 
--   SAP ECC \(minimum SAP NetWeaver 7.31\)
+-   SAP ECC \(minimum SAP Netweaver 7.31\)
 -   SAP S/4HANA \(all versions supported\)
 -   SAP Java Connector
 

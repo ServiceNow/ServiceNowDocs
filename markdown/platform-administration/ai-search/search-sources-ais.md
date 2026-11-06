@@ -1,20 +1,20 @@
 ---
 title: Search sources in AI Search
-description: Define search sources to make your searchable content available in search experiences. Choose an indexed source and configure optional filter conditions to limit the content that users can search.
+description: Define search sources to make your indexed content searchable in AI Search search applications. Choose an indexed source and configure optional filter conditions to limit the content that users can search.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ai-search/search-sources-ais.html
 release: australia
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-08-11"
+last_updated: "2026-09-30"
 reading_time_minutes: 4
 breadcrumb: [Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Search sources in AI Search
 
-Define search sources to make your searchable content available in search experiences. Choose an indexed source and configure optional filter conditions to limit the content that users can search.
+Define search sources to make your indexed content searchable in AI Search search applications. Choose an indexed source and configure optional filter conditions to limit the content that users can search.
 
 ## Search source structure
 
@@ -25,13 +25,18 @@ A search source includes two elements:
 
 You can define multiple search sources that reference the same indexed source, specifying distinct filter conditions for each.
 
-## Filter conditions
+## Search source filter conditions
 
 To limit the set of indexed source table records that AI Search returns as search results, you can apply filter conditions to your search source.
 
-**Note:** Search source filter conditions can only operate on source record fields that are indexed. Fields on referenced records aren't indexed by default. To use a referenced record field in a search source filter condition, you must first configure indexing for the field in the indexed source. For details on this procedure, see [Enable indexing of referenced table fields for an AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/enable-ref-table-field-index-ais.md).
-
 You can use static and dynamic filter conditions to filter search source records. As an example, you could apply a dynamic **\[Assigned to\] \[is \(dynamic\)\] \[Me\]** user filter to your search source. With this filter applied, the search source only returns search results for indexed source table records that are assigned to the search user.
+
+Search source filter conditions only operate on source record fields that are indexed. Fields in the following table aren't indexed by default.
+
+|Field|Description|
+|-----|-----------|
+|Tags|The Tags field on source records isn't indexed by default. To use tags in a search source filter condition, you must first configure indexing for tags in the indexed source. For details on this procedure, see [Enable indexing of tags for an AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/enable-tag-indexing-ais.md).|
+|Fields on referenced records|Fields on referenced records aren't indexed by default. To use a referenced record field in a search source filter condition, you must first configure indexing for the field in the indexed source. For details on this procedure, see [Enable indexing of referenced table fields for an AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/enable-ref-table-field-index-ais.md).|
 
 Search sources don't support any of the following filter options:
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-type-fields-form.html
 release: australia
 topic_type: reference
-last_updated: "2026-04-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [project type fields, retail project dates, store go-live date, IT installation date, SPM Retail]
 breadcrumb: [Reference, Retail Strategic Portfolio Management Suite, Strategic Portfolio Management]

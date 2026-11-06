@@ -7,7 +7,7 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Hardening settings, Platform Security]
 ---
@@ -24,7 +24,7 @@ Configure the **sn\_kb\_social\_qa.max\_comments\_per\_user\_daily** property to
 Configure the **sn\_kb\_social\_qa.max\_subscriptions\_per\_user\_daily** property to limit the max number subscriptions a user can subscribe to in a day.
 -   **[Minimize SMTP Recipient Quantity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-max-smtp-recipients.md)**  
 The **glide.email.smtp.max\_recipients** specifies the maximum number of recipients the instance can list in the **To:** line for a single email notification.
--   **[Timeout Guest Sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-timeout-guest-sessions.md)**  
+-   **[Timeout guest sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-timeout-guest-sessions.md)**  
 Use a system property to control the inactive session timeout for unauthenticated users.
 -   **[Validate remote host](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-validate-remote-host.md)**  
 Set the property to true to prevent bad actors from using internal port scanning in your network.

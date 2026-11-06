@@ -7,7 +7,7 @@ release: australia
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [card data security overview, pci dss compliance, payment card industry data security standard, tokenization, detokenization, dispute workflow security, passthrough integration, cardholder data protection, pci compliant vault, card data security features, secure payment card data]
 breadcrumb: [Card Data Security, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
@@ -25,7 +25,7 @@ Using tokens prevents sensitive data from being stored on a ServiceNow instance,
 
 You can configure data to be tokenized as it enters your ServiceNow instance, and have it restored to its original value when it is sent to Third-Party Systems.
 
-\(Disclaimer: This application enables data tokenization capabilities for Dispute Cases and Dispute Transactions.\)
+\(Disclaimer: This application enables data tokenization capabilities for Dispute Cases and Dispute Transactions. Card Data Security is hosted in the United States only. For other regional support, contact your ServiceNow representative for more information.\)
 
 ## Value of Card Data Security
 

@@ -7,7 +7,7 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use generative AI skills, Using AI in Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -48,15 +48,15 @@ ServiceNow Otto for SAM generates the publisher summaries by using reconciliatio
 
 5.  You can perform the following actions on the generated summary.
 
-<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d299960e185">
+<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d305047e185">
 
 Action
 
-</th><th align="left" id="d299960e188">
+</th><th align="left" id="d305047e188">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d299960e194">
+</th></tr></thead><tbody><tr><td id="d305047e194">
 
 **Copy to clipboard icon**
 
@@ -64,7 +64,7 @@ Description
 
 Copies the summary to a clipboard.
 
-</td></tr><tr><td id="d299960e203">
+</td></tr><tr><td id="d305047e203">
 
 **Refresh icon**
 
@@ -72,7 +72,7 @@ Copies the summary to a clipboard.
 
 Regenerates the publisher summary.
 
-</td></tr><tr><td id="d299960e212">
+</td></tr><tr><td id="d305047e212">
 
 **Feedback**
 

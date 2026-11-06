@@ -7,7 +7,7 @@ release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [IBM Flash System, Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -19,7 +19,7 @@ Create an alias for a basic authentication credential to run IBM Flash System di
 ## Before you begin
 
 -   Verify you have a basic authentication account with read-only access configured on the IBM Flash System array.
--   Verify that you have at least version 1.35.0 of Discovery and Service Mapping Patterns.
+-   Verify that you have at least version 1.35.1 of Discovery and Service Mapping Patterns.
 -   Select the Application scope icon \[Omitted image "application-scope-icon.png"\] and verify that the scope is set to **Discovery and Service Mapping Patterns**. The pattern launcher only resolves credentials created in the **Discovery and Service Mapping Patterns** scope.
 
 Role required: discovery\_admin

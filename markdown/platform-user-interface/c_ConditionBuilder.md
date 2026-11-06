@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/c\_ConditionBuilder.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a condition statement using the condition builder, Common UI elements, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -22,20 +22,20 @@ A condition consists of three parts:
 -   Operator: a choice list based on the field type. For example, in the Incident \[incident\] table, the greater than operator does not apply to the **Active** field but it does apply to the **Priority** field.
 -   Value: a text entry field or a choice list, depending on field type. For example, in the Incident \[incident\] table, the **Active** field offers a choice list with the values **true**, **false**, and **empty**, while the **Short Description** field offers a text entry field.
 
-The conditions display lists in Core UI as a breadcrumb, summarizing what you have selected.
+The conditions display above lists in Core UI as a breadcrumb, summarizing what you have selected.
 
-\[Omitted image "condition-builder-breadcrumb.png"\] Alt text: Condition builder breadcrumb list in Core UI.
+\[Omitted image "condition-builder-breadcrumb.png"\] Alt text: An image of the condition builder breadcrumb above a list in Core UI.
 
 **Note:** The condition builder breadcrumb in Core UI list view can be truncated depending on the values of two system properties:
 
 -   **glide.ui.breadcrumb\_max\_entries**: specifies the maximum number of items displayed in the breadcrumb, with a default of 10.
--   **glide.ui.export.choice\_list\_max\_characters**: specifies the maximum number of characters displayed for a list within the breadcrumb, with a default of 80.
+-   **glide.ui.export.choice\_list\_max\_characters**: specifies the maximum number of characters displayed for a choice list within the breadcrumb, with a default of 80.
 
 For more information, see [KB1962280](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1962280).
 
 ## Condition builder actions
 
-You can add a dependent condition by clicking **AND** or **OR** next to the condition. You can add a top-level condition by clicking **AND** or **OR** on the condition builder toolbar in addition to the conditions. You can remove a condition by clicking the delete icon \(X\) next to the condition.
+You can add a dependent condition by clicking **AND** or **OR** next to the condition. You can add a top-level condition by clicking **AND** or **OR** on the condition builder toolbar above the conditions. You can remove a condition by clicking the delete icon \(X\) next to the condition.
 
 \[Omitted image "ExampleConditionActiveIsTrueAndCallerIsNotEmpty.png"\] Alt text: Example AND condition.
 

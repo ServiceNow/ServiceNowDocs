@@ -7,7 +7,7 @@ release: australia
 product: Usage Insights
 classification: usage-insights
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Types of tracking consent policies, User privacy, tracking, and consent, Configuring Usage Insights, Usage Insights, Platform Analytics]
 ---
@@ -34,15 +34,15 @@ This task details how to set the various tracking consent policy options you hav
 
 2.  Perform one of the following actions.
 
-<table id="choicetable_dgs_bbb_gyb"><thead><tr><th align="left" id="d70623e99">
+<table id="choicetable_dgs_bbb_gyb"><thead><tr><th align="left" id="d71860e99">
 
 User consent policy options
 
-</th><th align="left" id="d70623e102">
+</th><th align="left" id="d71860e102">
 
  
 
-</th></tr></thead><tbody><tr><td id="d70623e107">
+</th></tr></thead><tbody><tr><td id="d71860e107">
 
 **Action**
 
@@ -50,7 +50,7 @@ User consent policy options
 
 Procedure
 
-</td></tr><tr><td id="d70623e116">
+</td></tr><tr><td id="d71860e116">
 
 **Apply the same tracking consent policy to all countries.
 
@@ -63,7 +63,7 @@ Procedure
 3.  Select the confirmation check box and then select **Apply**.
 
 
-</td></tr><tr><td id="d70623e143">
+</td></tr><tr><td id="d71860e143">
 
 **Return to the default settings.
 

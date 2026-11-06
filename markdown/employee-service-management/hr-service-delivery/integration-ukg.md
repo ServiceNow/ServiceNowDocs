@@ -7,7 +7,7 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
@@ -28,8 +28,6 @@ First, you must activate the HR Service Delivery Integration with the Ultimate K
 ## Overview of HR Service Delivery with Ultimate Kronos Group
 
 After the activation and setup of HR Service Delivery Integration with Ultimate Kronos Group is complete, the HR Service Delivery with Ultimate Kronos Group responds to what employees or managers are saying during a conversation, and allows employees to view the following details from the Ultimate Kronos Group application in the Employee Center.
-
-**Note:** This integration syncs workforce management data such as time, attendance, scheduling, and accurals from Ultimate Kronos Group Kronos WFM. It does not synu employee profiles, organisation data, or HR records.
 
 ## Topics accessible to employees
 
@@ -93,11 +91,11 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/set-up-ukg.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your implementationPlan and configure your integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/set-up-ukg.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-learn.svg"\] Alt text:Get details about components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/ref-hrsd-ukg.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components like fields, tables, and propertiesGet details about components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/ref-hrsd-ukg.md)
 
 </td></tr><tr><td>
 

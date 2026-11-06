@@ -7,8 +7,8 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 10
+last_updated: "2026-09-10"
+reading_time_minutes: 11
 breadcrumb: [Telecommunications Network Inventory]
 ---
 
@@ -49,13 +49,15 @@ The Company form enables you to review, create, and modify the company details f
 -   **[Connection Element form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/connection-element-form.md)**  
 The Connection Element form enables you to define the connection elements for the physical connections and logical connections in the Telecommunications Network Inventory application. You can create, review, update, and delete the elements in this form.
 -   **[Create equipment from rack view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create-equipment-from-rack-view.md)**  
-The Create new equipment form enables you to create an equipment from the selected rack using the Telecommunications Network Inventory application.
+The Create equipment form enables you to create an equipment from the selected rack using the Telecommunications Network Inventory application.
 -   **[Create Logical Connection form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create-logical-connection-form.md)**  
 The Create Logical Connection form enables you to review, create, and modify the connection details for a logical connection change request.
 -   **[Create Physical Connection form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create-physical-connection-form.md)**  
 The Create Physical Connection form enables you to review, create, and modify the connection details for a physical connection change request.
 -   **[Data center place types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/place-types-floor-map.md)**  
 Place types are used to categorize the different places on your map. You can use place type to categorize your network assets and facilities on your map in the Telecommunications Network Inventory application.
+-   **[Data center infra allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/data-center-rack-allocation.md)**  
+Data center infra allocation change request reserves rack units using the rack allocation agentic workflow. The rack allocation agentic workflow handles change requests and finds racks that can accommodate the capacity requirement based on specific physical and logical constraints.
 -   **[Data center infrastructure allocation placement policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/data-center-infra-allocation-placement-policies.md)**  
 Data center policies and rack policies are stored in the Knowledge Base and are applied to racks during the data center infrastructure allocation process.
 -   **[Data center infrastructure allocation failure cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/data-center-infra-allocation-failure-cases.md)**  
@@ -81,7 +83,7 @@ The GPON Broadband Change model forms enables you to create, review, and modify 
 -   **[Hierarchy rules for IP Subnetworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/hierarchy-rules-for-ip-subnetworks.md)**  
 These rules apply only when creating or updating an IP Subnetwork \(which always has a parent — either an IP Address Block or another IP Subnetwork\).
 -   **[Inventory Model forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/tni-model-forms.md)**  
-The Inventory Model forms enable you to create, review, and modify the model details for equipment holders, equipment, interface cards, logical connections, physical connections, network interfaces, and network model relationships.
+The Inventory Model forms enable you to create, review, and modify model details. This includes equipment holders, equipment, interface cards, logical connections, physical connections, network interfaces, and network model relationships.
 -   **[Inventory models additional tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/additional-tabs-of-inventory-models.md)**  
 The additional tabs of the inventory models appear after a model is created. These tabs display all the related information of a model. You can always view, update, save, and delete the information as required.
 -   **[Inventory number allocation fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/inventory-number-allocation-fields.md)**  
@@ -107,7 +109,7 @@ The Logical connection modification request form enables you to modify endpoints
 -   **[Managed Network form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/managed_network_form.md)**  
 The Managed network form enables you to manage a network in the Telecommunications Network Inventory application.
 -   **[Naming convention for associated templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/name-convention-templates.md)**  
-The naming convention for associated templates defines how names are generated automatically when you create an equipment or interface card template.
+Learn about the details of the naming convention for the associated templates that are automatically generated when you create an equipment or interface card template.
 -   **[Inventory template naming patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/naming-patterns-in-inventory-templates.md)**  
 A naming pattern is a JavaScript expression that defines how a configuration item \(CI\) is named when it is created from an inventory template.
 -   **[Network inventory change request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/tni-change-request-field.md)**  
@@ -141,7 +143,7 @@ The Related templates form enables you to understand all fields of the related t
 -   **[Remote Hands Request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/remote-hands-request-form.md)**  
 Describes the field information in the Remote Hands Request form.
 -   **[Router, Switch, Firewall, Virtual Machine, Load Balancer, and Server forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/router-form.md)**  
-The equipment form enables you to create, review, and modify the network asset details in the Telecommunications Network Inventory application for the router, switch, firewall, virtual machine, load balancer, or server.
+The equipment form enables you to create, review, and modify network asset details in the Telecommunications Network Inventory application. This applies to the router, switch, firewall, virtual machine, load balancer, or server.
 -   **[Service Instance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/application-service-instance-form.md)**  
 The Service Instance form enables you to create, review, and modify the details of an application service.
 -   **[Strand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/strand-form.md)**  

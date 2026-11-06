@@ -7,7 +7,7 @@ release: australia
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Resolving ACH disputes, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -142,11 +142,11 @@ The following AI agents can assist with ACH dispute processing:
 If an AI agent isn't enabled for a task, the dispute agent completes that task manually, as described in the corresponding task topic.
 
 -   **[Evaluate merchant analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/fso-ach-evaluate-merchant.md)**  
-Evaluate a merchant's credibility to determine whether the transaction is legitimate or potentially fraudulent before deciding on a resolution. When the ACH disputes AI agent workflow is enabled, an AI agent can perform this analysis automatically based on merchant reviews and past dispute history.
+Evaluate a merchant's credibility to determine whether the transaction is legitimate or potentially fraudulent before deciding on a resolution. When the ACH disputes AI agent workflow is enabled, an AI agent can perform this analysis automatically based on merchant reviews found through a web search and the merchant's past dispute history.
 -   **[Issue provisional credit to customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/fso-ach-provide-credit.md)**  
 Provide a temporary provisional credit to the account holder while the ACH dispute is investigated.
 -   **[Evaluate Nacha operating guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/fso-ach-evaluate-nacha.md)**  
-Evaluate the Nacha operating guidelines to ensure that the ACH dispute qualifies for potential reimbursement. When enabled, the Nacha operating guidelines check AI agent can verify eligibility automatically based on documents such as a valid Written Statement of Unauthorized Debit \(WSUD\).
+Evaluate the Nacha operating guidelines to ensure that the ACH dispute qualifies for potential reimbursement. When the Nacha operating guidelines check AI agent is enabled, it can verify eligibility automatically by checking required documentation, such as a valid Written Statement of Unauthorized Debit \(WSUD\), and confirming actions occur within the allowed time frames.
 -   **[Review ACH dispute return recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/fso-ach-review-recommendation.md)**  
 Review the ACH dispute information based on merchant analysis and Nacha eligibility recommendations and determine the final action. When the ACH dispute return recommendation AI agent is enabled, it can analyze past disputes with similar transaction values and recommend an action for you.
 -   **[Dispute communication initiation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/fso-ach-dispute-communication.md)**  

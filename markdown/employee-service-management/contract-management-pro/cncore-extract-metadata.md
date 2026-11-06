@@ -7,7 +7,7 @@ release: australia
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Extract contract metadata, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
@@ -32,15 +32,15 @@ You can also configure the system properties to automatically initiate the metad
 
 1.  Open a contract repository record where you want to extract information from a contract.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d209788e86">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d209827e86">
 
 Method
 
-</th><th align="left" id="d209788e89">
+</th><th align="left" id="d209827e89">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d209788e95">
+</th></tr></thead><tbody><tr><td id="d209827e95">
 
 **Contract Workspace**
 
@@ -53,7 +53,7 @@ Steps
 5.  Select the contract repository record.
 
 
-</td></tr><tr><td id="d209788e143">
+</td></tr><tr><td id="d209827e143">
 
 **Workspace used by your application**
 

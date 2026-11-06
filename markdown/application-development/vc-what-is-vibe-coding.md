@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/vc-what-is-vibe-coding.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [vibe coding, AI-assisted development, artificial intelligence, application development, natural language, prompts, autonomous app development, code generation, development tools]
-breadcrumb: [Explore, Agentic development, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Explore, Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # What is agentic development
@@ -32,4 +32,6 @@ Though testing and deployment are not always part of an agentic development work
 Some agentic development workflows do not include reviewing or adjusting generated code, for example in ServiceNow Studio or the ServiceNow IDE. However, this document includes information on those processes for developers who want to refine generated output further.
 
 Agentic development enables users across skill levels to build apps by prompting, accelerating the app creation cycle.
+
+**Parent Topic:**[Exploring agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/exploring-vibe-coding.md)
 

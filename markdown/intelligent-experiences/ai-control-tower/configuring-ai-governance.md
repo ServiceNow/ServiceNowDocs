@@ -7,10 +7,10 @@ release: australia
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, Gen AI, Generative AI, AI Governance, Now LLM, large language model]
-breadcrumb: [Configure, AI Control Tower \(legacy\), Enable AI experiences]
+breadcrumb: [Configuring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Configure AI Control Tower
@@ -23,7 +23,7 @@ Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
 
 ## Procedure
 
-1.  Navigate to the **Workspaces &gt;** **AI Control Tower &gt;** **Configuration** view in the AI Control Tower.
+1.  Navigate to the **Configurations** view in the AI Control Tower.
 
 2.  Expand **Data** and select **Opt in** under **Data sharing**.
 

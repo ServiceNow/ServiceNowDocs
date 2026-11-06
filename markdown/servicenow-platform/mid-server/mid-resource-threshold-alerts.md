@@ -7,7 +7,7 @@ release: australia
 product: MID Server
 classification: mid-server
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Resolving MID Server issues, MID Server reference, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -43,7 +43,7 @@ This processing occurs whether or not alerting is enabled:
 
 When alerting for CPU or memory thresholds is enabled, this processing occurs:
 
-1.  If the aggregated average metric value equals or exceeds the configured percent threshold, the instance triggers the **mid.threshold.resource.breach** event. Administrators can use this event to create [email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md) for threshold breach alerts or to create a custom script.
+1.  If the aggregated average metric value equals or exceeds the configured percent threshold, the instance triggers the **mid.threshold.resource.breach** event. Administrators can use this event to create email notifications for threshold breach alerts or to create a custom script.
 2.  The instance inserts a record of the breach into the MID Server Issue \[ecc\_agent\_issue\] table with a **State** value of **New** and a **Count** of 1, and then publishes a message containing all the pertinent details of the breach. An example of this message is `Mean CPU used % has exceeded threshold (96>=91) for a 40 minute interval span, occurring after start date 2017-01-11 14:25:19`. This message appears in the **Short description** field of the MID Server Issue form and in the event. You can copy any part of the message into your email notifications.
 
 ## MID Server issue states
@@ -174,7 +174,7 @@ Usage percentage of the total memory resources that initiates a threshold breach
 </td></tr></tbody>
 </table>## MID Server resource reporting
 
-The [MID Server dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/c_MIDServerDashboard.md) contains two reports that give you views into the consumption of CPU and JVM memory resources. These reports show usage over the previous 30 days.
+The [MID Server dashboard]() contains two reports that give you views into the consumption of CPU and JVM memory resources. These reports show usage over the previous 30 days.
 
 -   **Avg Percentage of CPU Used**: Trending the daily average on CPU usage helps illustrate the amount of CPU processing that the MID Server host consumes. MID Servers deployed on the same host will report the same CPU usage.
 -   **Avg Percentage of Max Memory Used**: The maximum used percentage \(**max\_used\_pct**\) is a useful metric for determining if the MID Server has enough memory resources. This metric is a percentage of the max used memory over the total available memory. Trending this over time provides a visualization of how much memory is needed by the MID Server.

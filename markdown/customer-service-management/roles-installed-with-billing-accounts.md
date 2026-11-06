@@ -58,7 +58,7 @@ Customer access management granular roles grant related parties access to billin
 **Related topics**  
 
 
-[Granular roles and supported entities for responsibility framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/granular-roles-and-supported-entities-CAM.md)
+[Granular roles and entities for responsibility framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/granular-roles-and-supported-entities-CAM.md)
 
 [Billing accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configuring-billing-accounts.md)
 

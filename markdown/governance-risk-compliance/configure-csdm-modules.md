@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/configure-csdm-modules.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Gathering data aligned with the CSDM setup, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -52,7 +52,7 @@ When the **Compute Operational Resilience Compliance** scheduled job runs in the
 
     A sample **Details** tab is shown in the following example.
 
-    \[Omitted image "create-new-service-form-ws.png"\] Alt text: Details tab in the Create Service form.
+    \[Omitted image "create-new-service-form-ws.png"\] Alt text: Details tab in the Create New Service form.
 
 4.  To save details of the service, select **Save**.
 

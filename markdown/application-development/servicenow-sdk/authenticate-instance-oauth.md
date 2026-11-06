@@ -7,9 +7,9 @@ release: australia
 product: ServiceNow SDK
 classification: servicenow-sdk
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Authenticate, ServiceNow SDK, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Authenticate, ServiceNow SDK, Building applications in source code, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Authenticate to a ServiceNow instance using OAuth 2.0 with the ServiceNow SDK
@@ -18,7 +18,7 @@ Use OAuth 2.0 authentication to connect to a ServiceNow instance with the Servic
 
 ## Before you begin
 
-To use OAuth 2.0 authentication, your instance must have ServiceNow IDE \(version 1.1 or later\) installed or have the required XML configuration imported. By default, instances on the Australia release include ServiceNow IDE version 1.1.4 and support using OAuth 2.0 authentication with the ServiceNow SDK.
+To use OAuth 2.0 authentication, your instance must have ServiceNow IDE \(version 1.1 or later\) installed or have the required XML configuration imported. By default, instances on the Brazil release include ServiceNow IDE version 1.1.4 and support using OAuth 2.0 authentication with the ServiceNow SDK.
 
 Role required: admin
 

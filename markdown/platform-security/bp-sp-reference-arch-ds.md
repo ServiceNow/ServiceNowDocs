@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/bp-sp-reference-arch-ds.html
 release: australia
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Recommended practices for service providers, Domain separation for service providers, Access Management]
 ---
@@ -20,7 +20,7 @@ Your customers can access service provider \(SP\) services by using a portal tha
 -   You can share and leverage domain administration. This means that there is no overhead and you can optimize licenses.
 -   The number of users on the instance can change when you get a new customer. A new customer can result in tens or even hundreds of thousands of new users on the system. The number of total users is virtually unlimited in one shared environment.
 
-\[Omitted image "bp-sp-reference-architecture-ds.png"\] Alt text: SP reference architecture
+\[Omitted image "bp-sp-reference-architecture-ds.png"\] Alt text: Reference architecture
 
 The portal for SP services is dedicated or shared to the SP shared instance. Service providers use ServiceNow shared instances to manage their service delivery.
 
@@ -28,7 +28,7 @@ The portal for SP services is dedicated or shared to the SP shared instance. Ser
 
 \[Omitted image "bp-ds-hierarchy-3.png"\] Alt text: Reference hierarchy
 
-\[Omitted image "bp-dedicated-ds-hybrid-siam.png"\] Alt text: SP dedicated DS hybrid SIam
+\[Omitted image "bp-dedicated-ds-hybrid-siam.png"\] Alt text: Reference hierarchy comparison
 
 -   **[Service provider reference architecture decision trees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/bp-ded-instance-decision-tree.md)**  
 You can use decision trees and a comparison chart to determine if a new customer should be added to a shared instance or to their own dedicated instance.

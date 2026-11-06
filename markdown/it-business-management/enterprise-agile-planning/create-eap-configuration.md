@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2026-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -105,7 +105,7 @@ For more information, see [Creating iterations for teams in EAP](https://raw.git
 
     -   **Kanban teams**
 
-        If all teams in your configuration operate in a Kanban style, which is a continuous workflow structure without any regular planning interval schedule, you can set the **Planning calendar** fields to **None**. The Kanban Configuration is set up this way.
+        If all teams in your configuration operate in a Kanban style, you can set the **Planning calendar** fields to **None**. Kanban is a continuous workflow structure without any regular planning interval schedule.
 
         In other configurations, an individual Agile Team can follow Kanban. Set its **Planning methodology** to Kanban when you add the team. Such a team doesn't use the planning calendar of its ART. For more information, see [Scrum and Kanban teams in an ART in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/scrum-and-kanban-teams-in-eap.md).
 

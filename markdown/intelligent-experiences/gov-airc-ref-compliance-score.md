@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-10-05"
 reading_time_minutes: 2
 keywords: [compliance score, AI system compliance, scheduled jobs, AI Risk and Compliance]
-breadcrumb: [Reference, Managing risk and compliance, Govern AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Reference, Managing risk and compliance, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # AI system compliance score calculation reference

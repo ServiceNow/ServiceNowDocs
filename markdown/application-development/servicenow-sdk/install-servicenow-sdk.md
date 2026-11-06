@@ -7,9 +7,9 @@ release: australia
 product: ServiceNow SDK
 classification: servicenow-sdk
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, ServiceNow SDK, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Configure, ServiceNow SDK, Building applications in source code, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Install the ServiceNow SDK in an application
@@ -55,15 +55,15 @@ In the following procedure, you install the ServiceNow SDK within a new applicat
 
 5.  Create an application with the ServiceNow SDK.
 
-<table id="choicetable_bpj_k5p_s2c"><thead><tr><th align="left" id="d264415e200">
+<table id="choicetable_bpj_k5p_s2c"><thead><tr><th align="left" id="d379127e200">
 
 State
 
-</th><th align="left" id="d264415e203">
+</th><th align="left" id="d379127e203">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d264415e209">
+</th></tr></thead><tbody><tr><td id="d379127e209">
 
 **Authentication hasn't been configured**
 
@@ -77,7 +77,7 @@ npx @servicenow/sdk auth --add <instance>
 
  For more information, see [Authenticating to a ServiceNow instance with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-sdk/authenticate-instance-now-sdk.md).
 
-</td></tr><tr><td id="d264415e248">
+</td></tr><tr><td id="d379127e248">
 
 **Authentication has been configured**
 

@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-09-11"
 reading_time_minutes: 2
-breadcrumb: [Data models, Set up your environment, Configure, Customer Service Management]
+breadcrumb: [Customer Data Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Billing account data model
@@ -43,11 +43,13 @@ A billing account is a centralized record that manages payment and invoicing for
 **Related topics**  
 
 
+[Customer Data Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-data-foundation.md)
+
 [Billing accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configuring-billing-accounts.md)
 
 [Billing Account form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/billing-account-form.md)
 
-[Granular roles and supported entities for responsibility framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/granular-roles-and-supported-entities-CAM.md)
+[Granular roles and entities for responsibility framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/granular-roles-and-supported-entities-CAM.md)
 
 [Data management for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-data-management.md)
 

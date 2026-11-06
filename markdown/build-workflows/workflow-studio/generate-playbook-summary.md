@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-05-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Playbook summarization, Creating and managing Playbooks, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
@@ -23,7 +23,7 @@ Verify that the ServiceNow Otto for Creator plugin is installed and the **Playbo
 
 **Note:** AI skills are available in **Admin** &gt; **AI Admin Hub** &gt; **AI Skills** &gt; **Creator**.
 
-For information about installing ServiceNow Otto for Creator, see [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-now-assist-for-creator.md)
+For information about installing ServiceNow Otto for Creator, see 
 
 The playbook must have at least one stage and activity before a summary can be generated.
 

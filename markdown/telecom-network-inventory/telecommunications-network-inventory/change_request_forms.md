@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 16
 breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
@@ -408,7 +408,7 @@ This type of request definition enables you to select a network site and an inve
 
 These types of request definitions have similar sets of site and equipment selection fields for the physical or logical connections between your start \(A\) and end \(Z\) locations. You can only select those interfaces that are associated with the designated equipment model for the A-start and Z-end interfaces.
 
-For the instantiation of physical or logical connections, you must select a physical connection model or a logical connection model, depending on the type of connection that you want to create between the two sites. For a logical connection, this internal code creates a CI record, and additional path elements.
+For the instantiation of physical or logical connections, you must select a connection model. Choose a physical or logical connection model depending on the type of connection that you want to create between the two sites. For a logical connection, this internal code creates a CI record, and additional path elements.
 
 -   **Logical connection - Path compute**
 

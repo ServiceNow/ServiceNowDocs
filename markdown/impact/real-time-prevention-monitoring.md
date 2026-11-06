@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/real-time-prevention-monitoring.html
 release: australia
 topic_type: task
-last_updated: "2026-10-09"
-reading_time_minutes: 3
+last_updated: "2026-11-06"
+reading_time_minutes: 4
 keywords: [real-time prevention, AI code fix, Otto, Scan Engine, technical debt prevention]
-breadcrumb: [Prevent and resolve technical debt with AI, Platform Health, Using Impact, Impact]
+breadcrumb: [Platform Health, Using Impact, Impact]
 ---
 
 # Use Real-time prevention monitoring while coding
@@ -19,7 +19,7 @@ As you write and save code, the Scan Engine detects violations in real-time and 
 
 Real-time prevention monitoring must be enabled on the Scan Engine properties page.
 
-**Note:** See  for the tables that are supported.
+**Note:** See [Supported record types for Real-time prevention monitoring with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/real-time-prevention-monitoring-supported-record-types.md) for the tables that are supported.
 
 Role required:
 

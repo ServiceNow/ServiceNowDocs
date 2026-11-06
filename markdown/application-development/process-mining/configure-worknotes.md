@@ -1,0 +1,26 @@
+---
+title: Configuring transition work notes analysis in Process Mining
+description: Configure transition work notes analysis for a process table so that any project that is based on the process table has transition work notes analysis configured.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/process-mining/configure-worknotes.html
+release: australia
+product: Process Mining
+classification: process-mining
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Working with transition work notes using AI, Configure, ServiceNow Otto for Process Mining, Use, Process Mining, Discover, AI Workflow Factory Prime, Agentic app development, Building applications]
+---
+
+# Configuring transition work notes analysis in Process Mining
+
+Configure transition work notes analysis for a process table so that any project that is based on the process table has transition work notes analysis configured.
+
+For the detailed procedure of configuring transition work notes analysis, see [Configure investigative features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/process-mining/investigative-features.md).
+
+There are system properties that determine how transition work notes analysis work. For information about the system properties, see [Work notes analysis properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/process-mining/data-cleanup.md).
+
+**Note:** Transition work notes analysis charges 250 assist credits per request when clustering is applied, regardless of the number of work notes. Loading additional results in a clustered request incurs no extra charges. If clustering is skipped due to fewer work notes, 100 assist credits are charged. No assist credits are charged if no results are available.
+
+**Parent Topic:**[Working with transition work notes using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/process-mining/worknotes.md)
+

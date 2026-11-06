@@ -7,7 +7,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Risk Management, Governance, Risk, and Compliance]
 ---
@@ -75,7 +75,7 @@ Define the risk appetite on the risk records in the Risk Management application 
 -   **[Define the risk appetite for a risk statement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/define-risk-appetite-on-risk-statement.md)**  
 Define the risk appetite on the risk statement records in the Risk Management application to evaluate all the possible risks and set the boundaries for the acceptable and unacceptable risks.
 -   **[Parallel Review and Feedback in Advanced Risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/integrate-advanced-risk-with-parallel-review-feedback.md)**  
-The Parallel Review and Feedback workflow enables second-level and third-level line managers to review records and provide feedback at any stage, facilitating collaboration across management lines and ensuring feedback is tracked through closure.
+Learn how to use the Review and feedback workflow to enable the 2nd and 3rd line managers to review records, capture feedback, and track the closure of feedback.The Parallel Review and Feedback workflow enables second and third line managers to review records and capture feedback at any stage. This facilitates collaboration across management lines and ensures feedback is tracked through closure.
 -   **[Risk assessment project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/risk-assessment-project.md)**  
 You can perform assessments on multiple risks and controls simultaneously by creating a risk assessment project. Risk assessment project enables assessors to review multiple risks and controls to understand their potential impact, likelihood, and associated mitigation strategies.
 -   **[Matrix report in Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/matrix-report-in-risk-workspace.md)**  

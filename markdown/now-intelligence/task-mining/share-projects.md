@@ -7,7 +7,7 @@ release: australia
 product: Task Mining
 classification: task-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Generating project analysis, Use, Task Mining, Platform Analytics]
 ---
@@ -28,11 +28,11 @@ Role required: sn\_tm\_core.analyst, sn\_tm\_core.power\_user, sn\_tm\_core.admi
 
 3.  Select **Share**.
 
-    \[Omitted image "tm-share-1.png"\] Alt text: Screenshot showing the Share project panel with no access granted.
+    \[Omitted image "tm-share-1.png"\] Alt text: The Share project panel with no access granted.
 
 4.  If the project has already been shared with some users, determine whether you still want to grant those users permissions for the project's analysis.
 
-    \[Omitted image "tm-share-2.png"\] Alt text: Screenshot showing the Share project panel with access granted and Actions menu.
+    \[Omitted image "tm-share-2.png"\] Alt text: The Share project panel with access granted and Actions menu.
 
     -   To retain a user and the user's current permissions, don’t modify the user's card.
     -   To change a user's current permissions, select the **Actions** menu on a user's card and modify the permissions.

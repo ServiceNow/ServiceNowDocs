@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Change Management plugins, Configure, Change Management, IT Service Management]
 ---
@@ -53,7 +53,7 @@ You can activate one or more of the following [plugins](https://raw.githubuserco
 
 -   State model \(com.snc.change\_management.state\_model\)
 -   Change Management - Collision Detector \(com.snc.change.collision\)
--   Change Management - change risk calculator \(com.snc.bestpractice.change\_risk\)
+-   Best practice - change risk calculator \(com.snc.bestpractice.change\_risk\)
 -   Change risk assessment \(com.snc.change\_management.risk\_assessment\)
 -   Standard change catalog \(com.snc.change\_management.standard\_change\_catalog\)
 -   Best practice - bulk CI changes \(com.snc.bestpractice.bulkchange\)
@@ -70,7 +70,7 @@ Several types of components are installed with the Change Management - Core.
 **Related topics**  
 
 
-[Request ITSM Roles- Change Management]()
+[Request ITSM Roles - Change Management]()
 
 [Activate Business Stakeholder]()
 
@@ -90,17 +90,17 @@ Several types of components are installed with the Change Management - Core.
 
 [Activate Change Management - Mass Update CI]()
 
-[Activate Change Management -Approval policy]()
+[Activate Change Management - Approval policy]()
 
 [Activate Change Management - CAB Workbench]()
 
-[Activate Change Management ATF Tests]()
+[Activate Change Management - ATF Tests]()
 
 [Request Change Management - Risk Assessment]()
 
 [Request Change Management - Standard Change Template Intelligence]()
 
-[Change Management - Predictive Intelligence Core]()
+[Request Change Management - Predictive Intelligence Core]()
 
 [Activate Change Management - Change Flows]()
 
@@ -108,9 +108,9 @@ Several types of components are installed with the Change Management - Core.
 
 [Activate Change Management - Change Models]()
 
-[Activate Change Management Success Probability]()
+[Activate Change Management - Success Probability]()
 
 [Activate Change Management - Data Archiving]()
 
-[List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[List of plugins \(Brazil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

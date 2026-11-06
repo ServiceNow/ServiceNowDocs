@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-native-sku-overview.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [AI native, Foundation, Advanced, Prime, AI tiers, ITSM, CSM, HRSD, Industry]
-breadcrumb: [Enable AI experiences]
+breadcrumb: [Implementing AI, Getting started with AI, Enable AI Experiences]
 ---
 
 # ServiceNow product tiers

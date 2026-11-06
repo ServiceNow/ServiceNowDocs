@@ -7,7 +7,7 @@ release: australia
 product: Digital Product Release
 classification: digital-product-release
 topic_type: concept
-last_updated: "2026-08-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Explore, Digital Product Release, IT Service Management]
 ---
@@ -79,7 +79,7 @@ The following system properties control the initiation of automated actions duri
 -   sn\_dpr.auto\_transition\_release\_to\_review
 -   sn\_dpr.auto\_transition\_release\_to\_completed
 
-For more information about these properties, see [Digital Product Release properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-product-release/digital-product-release-properties.md).
+For more information about these properties, see [Digital Product Release system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-product-release/digital-product-release-properties.md).
 
 ## Single product or service release
 

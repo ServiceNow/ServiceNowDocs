@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/javascript-modules-third-party-libraries.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Building applications in source code, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Building applications in source code, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # JavaScript modules and third-party libraries
@@ -33,7 +33,7 @@ In a module, you identify code for reuse with export statements. Then, use impor
 -   import and export statements are only supported in modules. To import module code in scripts, such as business rules or script includes, use require statements.​
 -   JavaScript modules \[sys\_module\] can be modified only in the ServiceNow IDE or in Visual Studio Code with the ServiceNow SDK.
 
-**Important:** You can't use third-party libraries that rely on unsupported functionality, such as unsupported APIs or ECMAScript features. For more information, see [Third-party library support in Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/third-party-library-support.md).
+**Important:** You can't use third-party libraries that rely on unsupported functionality, such as unsupported APIs or ECMAScript features. For more information, see [Third-party library support in Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/third-party-library-support.md).
 
 ## Exporting modules
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/set-notification-preferences.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Preferences in Next Experience, Notification Preferences, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -28,15 +28,15 @@ Role required: none
 
 3.  Set global notification preferences.
 
-<table id="choicetable_rgl_1dh_vvb"><thead><tr><th align="left" id="d133555e91">
+<table id="choicetable_rgl_1dh_vvb"><thead><tr><th align="left" id="d134146e91">
 
 Option
 
-</th><th align="left" id="d133555e94">
+</th><th align="left" id="d134146e94">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d133555e100">
+</th></tr></thead><tbody><tr><td id="d134146e100">
 
 **Allow Notifications**
 
@@ -44,7 +44,7 @@ Description
 
 Enable or disable all notifications.
 
-</td></tr><tr><td id="d133555e109">
+</td></tr><tr><td id="d134146e109">
 
 **Advanced Preferences**
 
@@ -52,7 +52,7 @@ Enable or disable all notifications.
 
 Customize notification preferences for system notifications, custom notifications, and delivery channels.
 
-</td></tr><tr><td id="d133555e118">
+</td></tr><tr><td id="d134146e118">
 
 **System notifications**
 
@@ -60,7 +60,7 @@ Customize notification preferences for system notifications, custom notification
 
 Enable or disable system notification categories, for example, Approval or Connect notifications.
 
-</td></tr><tr><td id="d133555e130">
+</td></tr><tr><td id="d134146e130">
 
 **Custom notifications**
 
@@ -68,7 +68,7 @@ Enable or disable system notification categories, for example, Approval or Conne
 
 Enable or disable custom notifications.
 
-</td></tr><tr><td id="d133555e140">
+</td></tr><tr><td id="d134146e140">
 
 **Delivery Channels**
 

@@ -7,7 +7,7 @@ release: australia
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
 breadcrumb: [Software discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -366,7 +366,7 @@ The pattern fails at the EVAL function for identifying the web service, because 
 
 ### Cause 3
 
-The pattern fails at the EVAL function for identifying the web service. This occurs when the URL configured in the entry point is incorrect or the MID Server cannot access this URL.
+The pattern fails at the EVAL function for identifying the web service. This occurs because the URL configured in the entry point is not correct or because the MID Server cannot access this URL.
 
 ### Solution 3
 

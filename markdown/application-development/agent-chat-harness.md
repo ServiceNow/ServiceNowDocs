@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-30"
 reading_time_minutes: 5
 keywords: [Agent chat harness, Chat panel context, Agent Communication Protocol, Opening the chat panel, Chat input toolbar, Switching agents, Custom providers \(beta\), Attaching context with @, Quick-start actions, Agent responses, Conversation history and sessions, MCP manager, General guidelines for working with agents]
-breadcrumb: [Exploring Lux Lab, Lux Lab, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Exploring Lux Lab, Lux Lab, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Agent chat harness

@@ -7,8 +7,9 @@ release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-06-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [Configure report styling, Report appearance, Case report formatting, AI-generated report styling, Report colors and fonts, TISC report configuration, Report branding]
 breadcrumb: [Administer, Threat Intelligence Security Center, Security Operations]
 ---
 

@@ -7,7 +7,7 @@ release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SOX content pack, GRC content packs, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -18,7 +18,7 @@ After importing the SOX Content Pack, verify and edit the entity types, entities
 
 ## Before you begin
 
-Role required: Audit admin \(sn\_audit.admin\)
+Role required: Audit Admin \(sn\_audit.admin\)
 
 ## Procedure
 
@@ -46,7 +46,9 @@ Role required: Audit admin \(sn\_audit.admin\)
     -   Tax
     -   Travel and Expense
     -   Treasury
-2.  Under the Profile filters related list, a filter is added to query the SOX processes table for the generation of SOX profiles.
+    \[Omitted image "SOX-profile-type.png"\] Alt text: Profiles
+
+2.  Under the Profile filters related list, a filter is added to query the SOX processes table for the generation of SOX profiles.\[Omitted image "SOX-profile-filter.png"\] Alt text: Profile Types
 
 3.  Navigate to **Audit** &gt; **All Engagements**.
 
@@ -55,6 +57,8 @@ Role required: Audit admin \(sn\_audit.admin\)
     -   **Assigned to**
     -   **Auditor**
     -   **Approver**
+    \[Omitted image "SOX-audit-engagement.png"\] Alt text: Engagement
+
 4.  Navigate to **Audit** &gt; **All Audit Tasks**.
 
 5.  In the search bar, enter `SOX` in the **Name** field.
@@ -66,13 +70,19 @@ Role required: Audit admin \(sn\_audit.admin\)
     -   **Type** is interview or walkthrough
     -   **Assigned to** is empty
     -   **Assigned parent \(engagement\)** is SOX Audit
+    \[Omitted image "SOX-audit-tasks.png"\] Alt text: Audit Tasks
+
 6.  Navigate to **Audit** &gt; **Audit Testing** &gt; **Test Templates**.
 
     The SOX test templates have been added and assigned to policy statements.
 
+    \[Omitted image "SOX-test-templates.png"\] Alt text: Test Templates
+
 7.  Navigate to **Audit** &gt; **Audit Testing** &gt; **Test Plans**.
 
     The SOX test plans have been generated for controls based on the test templates.
+
+    \[Omitted image "SOX-test-plans.png"\] Alt text: Test Plans
 
 
 ## Result

@@ -7,7 +7,7 @@ release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
@@ -23,6 +23,11 @@ Role required: wm\_dispatcher
 ## About this task
 
 You must have **Enable single select groups / territories** off in settings to select multiple territories. For more information, see [Enable Dispatcher Workspace settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/dispatcher-wrkspc-settings.md).
+
+When you select an assignment group, its KPIs display in the contextual side panel: Utilization, Productivity, Total tasks, Work time, and Travel time.
+
+-   Utilization is calculated as \(travel time + work time\) / shift time
+-   Productivity is calculated as work time / shift time.
 
 ## Procedure
 

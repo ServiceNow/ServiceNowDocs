@@ -7,8 +7,8 @@ release: australia
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 9
+last_updated: "2026-09-10"
+reading_time_minutes: 10
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
 
@@ -572,118 +572,118 @@ result.status
 Status of the API request. This parameter is only returned if the request failed so the only possible value is **failure**.Data type: String
 
 </td></tr></tbody>
-</table>### cURL request
+</table>### Export blocked domains in RPZ format \(cURL request\)
 
-This example exports selected domains in RPZ format and sets the policy as NXDOMAIN.
+This example exports domains from active observables that have a threat score of 70 or higher, or a confidence score of 50 or higher. The request uses the NXDOMAIN policy, so the exported zone returns a non-existent domain response for each listed domain. The request returns up to 100 observables per page.
 
 ```
-curl --location 'https://instance.service-now.com/api/sn_sec_tisc/v1/rpz_export' \ 
---header 'Authorization: Basic YWJlbC50dXRlcjpTbm93QDEyMw==' \
+curl --location 'https://instance.service-now.com/api/sn_sec_tisc/v1/rpz_export' \
+--header 'Authorization: Basic <base64_encoded_username:password>' \
 --data '{
-    "policy": "nxdomain", 
-    "feed_type": "DOMAIN", 
-    "soa_retry": 85, 
-    "soa_expiry": 1, 
-    "soa_minimum_ttl": 7, 
-    "soa_refresh": 3600, 
-    "soa_ttl": 7678, 
-    "soa_named_server": "localhost.", 
-    "soa_email": "root.localhost.",
-    "page_size": 100, 
-    "page_token": "", 
-    "observable_filters": { 
-        "boolean_operator": "AND", 
-        "filters": [ 
-            { 
-                "field_name": "status", 
-                "operator": "=", 
-                "field_value": "active" 
-            }, 
-            { 
-                "boolean_operator": "OR", 
-                "filters": [ 
-                    { 
-                        "field_name": "threat_score", 
-                        "operator": ">=", 
-                        "field_value": "70" 
-                    }, 
-                    { 
-                        "field_name": "confidence", 
-                        "operator": ">=", 
-                        "field_value": "50" 
-                    } 
-                ] 
-            } 
-        ] 
-    } 
+    "policy": "NXDOMAIN",
+    "feed_type": "DOMAIN",
+    "soa_retry": 85,
+    "soa_expiry": 1,
+    "soa_minimum_ttl": 7,
+    "soa_refresh": 3600,
+    "soa_ttl": 7678,
+    "soa_named_server": "ns1.example.com.",
+    "soa_email": "admin.example.com.",
+    "page_size": 100,
+    "page_token": "",
+    "observable_filters": {
+        "boolean_operator": "AND",
+        "filters": [
+            {
+                "field_name": "status",
+                "operator": "=",
+                "field_value": "active"
+            },
+            {
+                "boolean_operator": "OR",
+                "filters": [
+                    {
+                        "field_name": "threat_score",
+                        "operator": ">=",
+                        "field_value": "70"
+                    },
+                    {
+                        "field_name": "confidence",
+                        "operator": ">=",
+                        "field_value": "50"
+                    }
+                ]
+            }
+        ]
+    }
 }'
 ```
 
-Response body containing the domains that match the filter criteria.
+The response is returned as plain text in RPZ format. It contains the zone header and SOA record, followed by one record for each matching domain. Because the NXDOMAIN policy is set, each domain record resolves to a CNAME of a single dot \(.\), which blocks the domain. The final entry is a wildcard record, which blocks all subdomains of malware.example.net. This record appears only for domains that have the Add Wildcard Entry taxonomy value set.
 
 ```
-$TTL 7678;  
-@ SOA localhost. root.localhost. (1759835257654 3600 85 1 7)
- IN NS localhost.  
+$TTL 7678;
+@ SOA ns1.example.com. admin.example.com. (1759835257654 3600 85 1 7)
+ IN NS ns1.example.com.
 
 ; The following Domain records will be blocked (NXDOMAIN):
-domain autuo.xicp.net CNAME .
-microsofta.byinter.net CNAME .
-www.webserver.freetcp.com CNAME .
-mongoles.3322.org CNAME .
-imddos.my03.com CNAME .
-weile3322b.3322.org CNAME .
-*.weile3322b.3322.org CNAME .
+malware.example.com CNAME .
+phishing.example.org CNAME .
+www.badsite.example.com CNAME .
+tracker.example.net CNAME .
+downloads.example.org CNAME .
+malware.example.net CNAME .
+*.malware.example.net CNAME .
 ```
 
-### cURL request
+### Request with an invalid policy value \(cURL request\)
 
-This example shows a request that uses an invalid policy value.
+This example shows a request that fails because the policy parameter contains a value that isn’t supported. The value LocalData isn’t valid. The correct value is LOCAL-DATA.
 
 ```
-curl --location 'https://instance.service-now.com/api/sn_sec_tisc/v1/rpz_export' \ 
---header 'Authorization: Basic YWJlbC50dXRlcjpTbm93QDEyMw==' \
+curl --location 'https://instance.service-now.com/api/sn_sec_tisc/v1/rpz_export' \
+--header 'Authorization: Basic <base64_encoded_username:password>' \
 --data '{
-    "policy": "LocalData", 
-    "feed_type": "DOMAIN", 
-    "soa_retry": 85, 
-    "soa_expiry": 1, 
-    "soa_minimum_ttl": 7, 
-    "soa_refresh": 3600, 
-    "soa_ttl": 7678, 
-    "soa_named_server": "localhost.", 
-    "soa_email": "root.localhost.",
-    "page_size": 100, 
-    "page_token": "", 
-    "observable_filters": { 
-        "boolean_operator": "AND", 
-        "filters": [ 
-            { 
-                "field_name": "status", 
-                "operator": "=", 
-                "field_value": "active" 
-            }, 
-            { 
-                "boolean_operator": "OR", 
-                "filters": [ 
-                    { 
-                        "field_name": "threat_score", 
-                        "operator": ">=", 
-                        "field_value": "70" 
-                    }, 
-                    { 
-                        "field_name": "confidence", 
-                        "operator": ">=", 
-                        "field_value": "50" 
-                    } 
-                ] 
-            } 
-        ] 
-    } 
+    "policy": "LocalData",
+    "feed_type": "DOMAIN",
+    "soa_retry": 85,
+    "soa_expiry": 1,
+    "soa_minimum_ttl": 7,
+    "soa_refresh": 3600,
+    "soa_ttl": 7678,
+    "soa_named_server": "ns1.example.com.",
+    "soa_email": "admin.example.com.",
+    "page_size": 100,
+    "page_token": "",
+    "observable_filters": {
+        "boolean_operator": "AND",
+        "filters": [
+            {
+                "field_name": "status",
+                "operator": "=",
+                "field_value": "active"
+            },
+            {
+                "boolean_operator": "OR",
+                "filters": [
+                    {
+                        "field_name": "threat_score",
+                        "operator": ">=",
+                        "field_value": "70"
+                    },
+                    {
+                        "field_name": "confidence",
+                        "operator": ">=",
+                        "field_value": "50"
+                    }
+                ]
+            }
+        ]
+    }
 }'
 ```
 
-Response body containing error information for a failed request.
+Error responses are returned as JSON, not plain text. The response has a 400 error code and a failure status. The detail field names the invalid value and lists the supported policy values.
 
 ```
 {

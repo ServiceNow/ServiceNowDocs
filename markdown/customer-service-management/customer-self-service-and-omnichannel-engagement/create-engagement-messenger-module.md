@@ -7,9 +7,9 @@ release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Engagement Messenger, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Set up Engagement Messenger, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure Engagement Messenger
@@ -255,7 +255,7 @@ Option for enabling the collection of Usage Insights from users of your Engageme
 
 </td></tr><tr><td colspan="2">
 
-As an administrator, you can configure the Proactive Recommendations feature for Engagement Messenger. For more information, see [Proactive Recommendations configuration for Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/em-behav-recom.md).
+As an administrator, you can configure the Proactive Recommendations feature for Engagement Messenger. For more information, see [Proactive and Recommendations configuration for Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/em-behav-recom.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

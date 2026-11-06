@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-assignment-wkbench-criteria.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure assignment workbench, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -32,7 +32,7 @@ The assignment workbench uses configurable matching criteria, such as skills and
 
 4.  Select the **Type** of matching criterion.
 
-<table id="choicetable_at3_1ch_cw"><tbody><tr><td id="d236101e115">
+<table id="choicetable_at3_1ch_cw"><tbody><tr><td id="d242216e115">
 
 **Simple Match**
 
@@ -40,7 +40,7 @@ The assignment workbench uses configurable matching criteria, such as skills and
 
 Creates a one-to-one match. For example, match the time zone of an agent with the time zone of a task location.
 
-</td></tr><tr><td id="d236101e124">
+</td></tr><tr><td id="d242216e124">
 
 **Aggregate**
 
@@ -48,7 +48,7 @@ Creates a one-to-one match. For example, match the time zone of an agent with th
 
 Takes a simple query as an input and provides aggregate results. The query returns a set of users.
 
-</td></tr><tr><td id="d236101e133">
+</td></tr><tr><td id="d242216e133">
 
 **Scripted**
 

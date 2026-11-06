@@ -1,26 +1,24 @@
 ---
 title: KMFCryptoOperation - Scoped, Global
-description: The KMFCryptoOperation class provides methods for performing cryptographic operations, including JSON Web Token \(JWT\) signing and verification, using the Key Management Framework \(KMF\) cryptographic module or a Field Encryption encryption module.Creates a KMFCryptoOperation object for the specified module and operation.Performs the cryptographic operation defined by the current KMFCryptoOperation object on the supplied data and returns the result.Sets the additional input needed to perform the cryptographic operation.Sets the algorithm associated with the key material to wrap.Sets the data format for the input data on which the cryptographic operation will be performed. Uses the specified format when decoding the data.Sets the data format of the output data that is returned by the cryptographic operation. Uses the specified format when encoding the data.Sets the data type for the output data returned after the cryptographic operation is performed.Sets the sys\_id of the key to wrap on the KMFCryptoOperation object. Applicable to symmetric and asymmetric wrapping of keys.
+description: The KMFCryptoOperation class provides methods for performing cryptographic operations using a Key Management Framework \(KMF\) cryptographic module or a Field Encryption encryption module.Creates a KMFCryptoOperation object for the specified module and operation.Performs the cryptographic operation defined by the current KMFCryptoOperation object on the supplied data and returns the result.Sets the additional input needed to perform the cryptographic operation.Sets the algorithm associated with the key material to wrap.Sets the data format for the input data on which the cryptographic operation will be performed. Uses the specified format when decoding the data.Sets the data format of the output data that is returned by the cryptographic operation. Uses the specified format when encoding the data.Sets the data type for the output data returned after the cryptographic operation is performed.Sets the sys\_id of the key to wrap on the KMFCryptoOperation object. Applicable to symmetric and asymmetric wrapping of keys.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/KMFCryptoOperationBothAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2026-05-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
 
 # KMFCryptoOperation - Scoped, Global
 
-The KMFCryptoOperation class provides methods for performing cryptographic operations, including JSON Web Token \(JWT\) signing and verification, using the Key Management Framework \(KMF\) cryptographic module or a Field Encryption encryption module.
+The KMFCryptoOperation class provides methods for performing cryptographic operations using a Key Management Framework \(KMF\) cryptographic module or a Field Encryption encryption module.
 
-To use this API, you must have already created and configured a KMF cryptographic module or a Field Encryption module. This module must have one or more cryptographic specifications and you must create or import its associated key. For JWT signing and verification operations, the cryptographic module must be configured with an asymmetric key specification. For details, see [Cryptographic modules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/crypto-module-overview.md).
+To use this API, you must have already created and configured a KMF cryptographic module or a CLE encryption module. The module must have one or more cryptographic specifications and you must create or import its associated key. For details, see [Cryptographic modules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/crypto-module-overview.md).
 
-The KMFCryptoOperation object generated using this API represents a cryptographic operation, such as Symmetric Encryption, `JWT_SIGN`, or `JWT_VERIFY`. Use the KMFCryptoOperations\(\) method to create this object, the builder methods to set properties on the object, and the doOperation\(\) method to execute the operation.
-
-For JWT Sign operations, the KMF cryptographic module manages the private key used to sign the token. The corresponding public key is used for JWT Verify operations. Because the private key is held on the instance by the cryptographic module, customers do not need to upload or manage their own keystore.
+The KMFCryptoOperation object generated using this API represents a cryptographic operation, such as a Symmetric Encryption. Use the KMFCryptoOperations\(\) method to create this object, the builder methods to set properties on the object, and the doOperation\(\) method to execute the operation.
 
 You can use this API in both scoped and global applications. You must always specify the `sn_kmf_ns` namespace when calling this API.
 

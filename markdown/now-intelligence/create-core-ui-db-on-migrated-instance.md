@@ -16,8 +16,6 @@ On upgraded instances, including ones fully migrated to Platform Analytics, you 
 
 ## Before you begin
 
-**Important:** Australia Patch 2 or later is required.
-
 Role required: If the **com.snc.par.coreui.dashboard\_create.enabled** system property is `true`, any user with an internal role can create Core UI dashboards. For more information, see [Platform Analytics experience properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/pae-properties.md).
 
 ## About this task

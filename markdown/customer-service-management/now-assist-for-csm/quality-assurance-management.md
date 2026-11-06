@@ -77,7 +77,7 @@ Add, configure, review, and activate the Automated quality assurance skill, incl
 
     -   Enabling or Disabling Parameters
 
-        1.  Locate the  **Active**  toggle or check box for the parameter you want to enable or disable.
+        1.  Locate the **Active** toggle or check box for the parameter you want to enable or disable.
         2.  Toggle the parameter status: Enable the toggle to activate the parameter in quality scoring and disable the toggle to exclude the parameter from quality scoring. When you disable a parameter, the system prompts you to redistribute its weight among remaining active parameters. Adjust the weights of other parameters to verify that the total equals 100%. Weight redistribution is required because all active parameter weights must sum to 100% for accurate scoring.
     -   Adjusting Parameter Weights
 
@@ -103,7 +103,7 @@ Add, configure, review, and activate the Automated quality assurance skill, incl
 
 11. Select **Display** to activate the skill and make it visible in the In-product desktop for specific roles.
 
-    **Note:** The skill appears on forms and workspaces. By default, the skill is available to customer service managers and customer service agents’ roles. Admins can deactivate the skill to hide it from managers and agents while you test the configuration.
+    **Note:** The skill appears on forms and workspaces. By default, the skill is available to customer service managers and customer service agents' roles. Admins can deactivate the skill to hide it from managers and agents while you test the configuration.
 
 12. Select **Review and Activate** to check the default setup and a summary of your selections.
 

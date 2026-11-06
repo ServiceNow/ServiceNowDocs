@@ -7,8 +7,8 @@ release: australia
 product: MID Server
 classification: mid-server
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 41
+last_updated: "2026-09-10"
+reading_time_minutes: 40
 breadcrumb: [MID Server reference, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -18,7 +18,7 @@ Parameters control the behavior of a particular MID Server and have lower preced
 
 <table id="table_ibb_fsf_khb"><tbody><tr><td>
 
-![Links to each of the MID Server sections](../image/MIDRefIconBar.png)
+![MID Server reference navigation](../image/MIDRefIconBar.png)
 
 </td></tr></tbody>
 </table>To add a parameter to a MID Server, see [Add a MID Server parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-parameters.md).
@@ -316,7 +316,7 @@ Parameters control the behavior of a particular MID Server and have lower preced
     -   Default value: false
 -   **mid.probe.use\_legacy\_forward\_dns**
 
-    Enables the legacy DNSNameResolver probe and disables the default DNSNameResolver probe. See [Probes used by Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/r_OrchestrationProbes.md) for more information.
+    Enables the legacy DNSNameResolver probe and disables the default DNSNameResolver probe. See  for more information.
 
     -   Type: true \| false
     -   Default value: false
@@ -957,12 +957,6 @@ By default, the MID Server is configured to search for SSH commands in the follo
 
     -   Type: true \| false
     -   Default value: false
--   **mid.powershell\_api.wmi.cimsession\_operation\_timeoutsec**
-
-    Sets the duration in seconds that the CIM session waits for a CIM operation to complete. The default value is 0, which means that the default timeout for the server is used.
-
-    -   Type: integer
-    -   Default value: 0
 -   **mid.powershell\_api.winrm.use\_ssl**
 
     Requires the use of SSL certificates for HTTPS connections using WinRM.
@@ -1013,24 +1007,6 @@ By default, the MID Server is configured to search for SSH commands in the follo
 
     -   Type: string \(path\)
     -   Default value: none
--   **mid.powershell.prefer\_7\_plus**
-
-    Set this parameter to true enables auto-detection of local PowerShell installations. To be detected a PowerShell executable must be resolvable from the host's PATH environment variable. The first executable found meeting the version requirement is used.
-
-    -   Type: true \| false
-    -   Default value: false
--   **mid.powershell.prefer\_7\_plus\_remote**
-
-    Discoveries using WMI can attempt to use PowerShell 7 by setting this parameter to true. Setting this parameter to true to enables auto-detection of remote PowerShell installations. To be detected a PowerShell executable must be resolvable from the target's PATH environment variable. The first executable found meeting the version requirement is used.
-
-    If your scripts require access to this executable's path, it can be retrieved from the local PowerShell session global variable: `$global:powershellExecutableRemote`. Test to verify it is present. If present, this path is a plain String and has not been escaped for the presence of spaces or special characters. Callers are expected to handle this for their specific use cases. This variable is only set for WMI discoveries.
-
-    Discoveries using the WinRM protocol can attempt to use PowerShell 7 setting this parameter to true.
-
-    None of the preceding configuration parameters will be heeded if JEA Discovery has been enabled for the MID Server via the `mid.powershell.jea.endpoint`. This parameter supersedes all other sources of ConfigurationName for use in WinRM discoveries.
-
-    -   Type: true \| false
-    -   Default value: false
 -   **mid.powershell.enforce\_utf8**
 
     Enable this parameter to force commands on a target Windows system to return UTF-8 encoded output. Disabling it allows the target system to use its default encoding. This parameter is only valid when PowerShell is enabled.

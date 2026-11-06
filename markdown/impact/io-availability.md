@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/io-availability.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
@@ -39,7 +39,7 @@ The Availability section shows instance-level availability on a geographic map a
 A problem or defect of an instance that requires proactive mitigation is listed in the **Known Issues** tab of the **Availability** section.
 
 -   **[Cloud availability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/cloud-availability.md)**  
-Check specific ServiceNow datacenter availability, service degradation, or for interruption.
+Check specific ServiceNow data center availability, service degradation, or for interruption.
 
 **Parent Topic:**[Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/io-overview.md)
 

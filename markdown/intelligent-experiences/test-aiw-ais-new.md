@@ -1,16 +1,17 @@
 ---
-title: Preview an AI specialist in the new AI Agent Studio
+title: Preview an AI specialist in AI Agent Studio
 description: Run a preview of your AI specialist in the new AI Agent Studio on a single record to preview how it works and verify it matches your intentions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/test-aiw-ais-new.html
 release: australia
 topic_type: task
-last_updated: "2026-05-26"
+last_updated: "2026-10-13"
 reading_time_minutes: 1
-breadcrumb: [Configure in AI Agent Studio, Configure, Autonomous Workforce, Enable AI experiences]
+keywords: [preview ai specialist, test ai specialist, sample ai specialist]
+breadcrumb: [Configure in AI Agent Studio, Configure, Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
-# Preview an AI specialist in the new AI Agent Studio
+# Preview an AI specialist in AI Agent Studio
 
 Run a preview of your AI specialist in the new AI Agent Studio on a single record to preview how it works and verify it matches your intentions.
 
@@ -34,7 +35,7 @@ You can test an execution of the AI specialist on a single record to preview its
 
     The first node contains the main configuration settings for the AI specialist. The other nodes represent the individual agents that comprise the underlying architecture and do not require modification to preview an AI specialist.
 
-4.  Scroll down to the **Test** section in the AI specialist guided setup.
+4.  Select the **Test** section in the AI specialist guided setup.
 
 5.  In the dropdown menu, select a record you want to preview the AI specialist on.
 
@@ -50,7 +51,7 @@ You can test an execution of the AI specialist on a single record to preview its
 
 7.  Verify that the AI specialist's performance meets your expectations.
 
-    See the Testing section in [General guidelines for AI specialists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gg-ai-workforce.md) for more information about how to test your AI specialist.
+    See the Previewing your AI specialist section in [General guidelines for deploying an autonomous workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gg-ai-workforce.md) for more information about how to test your AI specialist.
 
 
 ## Result
@@ -59,7 +60,7 @@ Your AI specialist has worked on a specific record or records of your choice.
 
 ## What to do next
 
-You can return to the **Profile** or **Tasks** sections by scrolling up in the guided setup to make changes if necessary. Once the changes are made, you can preview the AI specialist again.
+You can return to the **Profile** or **Tasks** sections by selecting the section in the guided setup to make changes if necessary. Once the changes are made, you can preview the AI specialist again.
 
 If you're satisfied with the AI specialist's performance after making changes, you can select **Save** to save changes or **Activate** to let the AI begin work.
 

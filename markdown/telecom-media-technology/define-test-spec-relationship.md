@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/define-test-spec-relationship.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up test definitions, Service Test Management, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Setting up test definitions, Setting up test configuration records, Configure, Service Test Management, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Define the relationship between the test definitions
@@ -58,7 +58,7 @@ Related test definition
 
 </td><td>
 
-Name of the other test definition that you want to connect this test with. **Note:** Ensure that the selected test definition is different from the one for which the relationship is being established. The association between the test definitions should be unique and either in a published or draft state.
+Name of the other test definition that you want to connect this test with. **Note:** verify that the selected test definition is different from the one for which the relationship is being established. The association between the test definitions should be unique and either in a published or draft state.
 
 </td></tr><tr><td>
 

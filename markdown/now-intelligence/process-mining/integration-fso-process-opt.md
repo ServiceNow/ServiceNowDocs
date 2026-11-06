@@ -7,7 +7,7 @@ release: australia
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Activate content packs, Activate, Process Mining, Platform Analytics]
 ---
@@ -15,8 +15,6 @@ breadcrumb: [Activate content packs, Activate, Process Mining, Platform Analytic
 # Content pack for Financial Services Operations
 
 Using the Process Mining content pack with Financial Services Operations \(FSO\) enables you to analyze processes relevant to your KPIs, and identify bottlenecks associated with FSO cases.
-
-**Important:** Starting with the Vancouver release, the Process Optimization application has been renamed to Process Mining.
 
 For information about enabling the FSO Process Mining Content Pack, see [Content pack for Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/integration-fso-process-opt.md).
 

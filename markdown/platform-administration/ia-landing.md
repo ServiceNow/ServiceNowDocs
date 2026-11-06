@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ia-landing.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Get started, Administer the ServiceNow AI Platform]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Get started, Administer the ServiceNow AI Platform]
 
 The ServiceNow Otto for Setup provides a unified, guided experience to set up, configure, and adopt ServiceNow products. It connects Admin Home, product hubs, and the Configuration Console into a single path from product activation to full configuration.
 
-Administrators can manage entitlements, install required components, apply recommended configurations, complete guided setup steps, track progress, and package changes for promotion. The experience reduces manual effort and complexity by streamlining installation and configuration tasks. The Setup Hub is available with or without AI. All setup capabilities—including installation, default configurations, guided steps, and update set packaging are supported without AI, while AI-assisted features, such as agents and conversational experiences, are available when included in the subscription.
+Administrators can manage entitlements, install required components, apply recommended configurations, complete guided setup steps, track progress, and package changes for promotion. The experience reduces manual effort and complexity by streamlining installation and configuration tasks. The ServiceNow Otto for Setup is available with or without AI. All setup capabilities—including installation, default configurations, guided steps, and update set packaging are supported without AI, while AI-assisted features, such as agents and conversational experiences, are available when included in the subscription.
 
 ## Get started
 
@@ -32,7 +32,7 @@ Administrators can manage entitlements, install required components, apply recom
 
 </td><td>
 
-[Reference\[Omitted image "uc-reference-icon.png"\] Alt text: Learn miscellaneous information about ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/upgrade-management/um-references.md)
+[Reference\[Omitted image "uc-reference-icon.png"\] Alt text: Learn miscellaneous information about ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-reference.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

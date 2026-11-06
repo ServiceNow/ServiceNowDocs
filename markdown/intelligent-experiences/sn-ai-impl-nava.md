@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Now Assist, agentic AI, AI readiness]
-breadcrumb: [Application readiness, ServiceNow AI implementation, Enable AI experiences]
+breadcrumb: [Application readiness, Assessing your AI readiness, Getting started with AI, Enable AI Experiences]
 ---
 
 # ServiceNow Otto for Virtual Agent readiness on the ServiceNow AI Platform
@@ -50,7 +50,7 @@ Setting up Now Assist in Virtual Agent requires customizing or creating a new LL
 
     To set up ServiceNow Otto for Virtual Agent, you configure an assistant.
 
-    See: [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md)
+    See: [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md)
 
 -   **2. Review your Virtual Agent topic inventory**
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/work-scheduler-wfo-cs.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
@@ -13,6 +13,10 @@ breadcrumb: [Workforce Optimization for Customer Service, Agent management, Use,
 # Assigning work using Work Scheduler in Workforce Optimization for Customer Service
 
 Manage your teams' work assignments easily by customizing your work queue to display the most relevant work items.
+
+**Important:**
+
+Starting with the Brazil release, Work scheduler is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Gain insights into which agents have been recommended to work on a task based on the mandatory and optional skills they have.
 

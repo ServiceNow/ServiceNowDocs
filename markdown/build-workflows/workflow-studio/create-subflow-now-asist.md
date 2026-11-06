@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Build subflows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -167,7 +167,7 @@ Priority level at which you want the system to run this subflow by default. Opti
 
 6.  If the generated subflow preview does not meet your needs, you can update the Now Assist directions, and select **Regenerate preview**.
 
-    Each time you generate or regenerate a subflow, the operation counts as an assist tracked by your Now Assist subscription. To track your Now Assist usage, see [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/monitoring-now-assist-usage.md).
+    Each time you generate or regenerate a subflow, the operation counts as an assist tracked by your Now Assist subscription. To track your Now Assist usage, see .
 
 7.  If you want to stop generating the subflow and return to the Workflow Studio homepage, you can select **Discard subflow**.
 

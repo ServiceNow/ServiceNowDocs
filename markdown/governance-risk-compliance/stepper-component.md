@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/stepper-component.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [GRC record page template for BCM records, Reference, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -18,7 +18,7 @@ The numerical value of the current state of the record is highlighted in the ste
 
 \[Omitted image "bcm-record-with-record-template.png"\] Alt text: Highlighted state in the stepper component.
 
-A typical record moves through a progression of these states:
+A typical record moves through progression of these states:
 
 -   **Draft**
 -   **In review**

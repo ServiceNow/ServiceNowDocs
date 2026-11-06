@@ -7,7 +7,7 @@ release: australia
 product: Health and Safety Core
 classification: health-and-safety-core
 topic_type: reference
-last_updated: "2026-05-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Reference, Health and Safety Core, Health and Safety, Employee Service Management]
 ---
@@ -172,6 +172,8 @@ Can submit Health and Safety incidents, observations, and questions from Employe
 -   sn\_ohs\_im.observation\_reporter
 -   sn\_ohs\_im.meeting\_minute\_reader
 -   sn\_ohs\_im.meeting\_reader
+
+ **Note:** For more information on upgraded instances, see .
 
 </td></tr><tr><td>
 
@@ -442,10 +444,11 @@ Can view Health and Safety incidents
 
 </td><td>
 
--   cmdb\_read
 -   sn\_hs\_rm.risk\_category\_reader
 -   sn\_hs\_rm.hazard\_reader
 -   sn\_hs\_rm.template\_reader
+
+ **Note:** For more information on upgraded instances, see .
 
 </td></tr><tr><td>
 
@@ -801,16 +804,6 @@ Health and Safety action
 </td><td>
 
 Stores all actionable outputs from all safety incidents, observations, and root cause analyses.​ This table extends the Health and Safety task \[sn\_ohs\_im\_task\] table.
-
-</td></tr><tr><td>
-
-AI action suggestion
-
- \[sn\_ohs\_im\_ai\_action\_suggestion\]
-
-</td><td>
-
-Staging table that stores all AI-suggested actions that are generated in the Action Planner.This table is installed only when the ServiceNow Otto for Health and Safety \(sn\_hs\_gen\_ai\) application is installed on your instance. For more information, see [Generate and manage AI‑suggested safety actions in Action planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-generate-ai-suggested-actions-in-action-planner.md).
 
 </td></tr><tr><td>
 

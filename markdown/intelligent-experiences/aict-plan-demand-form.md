@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-plan-demand-form.html
 release: australia
 topic_type: reference
-last_updated: "2026-04-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
-breadcrumb: [Reference, Plan AI strategy, prioritize, and execute, Plan your AI strategy, AI Control Tower, Enable AI experiences]
+breadcrumb: [Reference, Plan AI strategy, prioritize, and execute, Plan your AI strategy, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Demand form
@@ -142,7 +142,7 @@ The preliminary or estimated date when the work is initially planned to begin. T
 This date is changed to **Planned start date** when the demand is converted to a project.**Note:**
 
 -   When you change the planned start date of a demand or project, the associated cost plans and resource assignments also change. The **Change Resource Plan and Cost Plan Start Date with Demand or Project Start Date Change** property controls the behavior for a demand date change. This property isn't enabled by default.
--   The **Start date** column label is changed to **Planned start date**. This change is applicable only for new customers who begin using the Australia version. If you're upgrading to the Australia release from an earlier release, you will continue to see the prior labels.
+-   The **Start date** column label is changed to **Planned start date**. This change is applicable only for new customers who begin using the Brazil version. If you're upgrading to the Brazil release from an earlier release, you will continue to see the prior labels.
 
 </td></tr><tr><td>
 
@@ -154,7 +154,7 @@ The preliminary or estimated date when the planned work is expected to be comple
 
 **Note:**
 
--   The **Due date** column label is changed to **Planned end date**. This change is applicable only for new customers who begin using the Australia version. If you're upgrading to the Australia release from an earlier release, you will continue to see the prior labels.
+-   The **Due date** column label is changed to **Planned end date**. This change is applicable only for new customers who begin using the Brazil version. If you're upgrading to the Brazil release from an earlier release, you will continue to see the prior labels.
 -   This date is changed to **Planned end date** when the demand is converted to a project.
 
 </td></tr><tr><td>
@@ -500,7 +500,7 @@ Demand Actual Cost
 Total cost incurred while working on a demand and demand tasks. Demand actual cost is calculated after the assignee of the demand task creates and submits a time card. When the time card is approved, the resource rate, which is derived from the rate card, labor rate, or system properties, is used to populate this field.
 
 </td></tr></tbody>
-</table>**Note:** If you're creating a demand with the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin activated and the **Demand Currency** view enabled, the fields in the **Financials** tab differ from the **Default** view. For more information about the fields that are available only in the Demand Currency view, see .
+</table>**Note:** If you're creating a demand with the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin activated and the **Demand Currency** view enabled, the fields in the **Financials** tab differ from the **Default** view. For more information about the fields that are available only in the Demand Currency view, see [Multicurrency fields in demand forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-tables-with-demand-currency-fields.md).
 
 <table id="table_yqw_vj3_fdc"><thead><tr><th>
 

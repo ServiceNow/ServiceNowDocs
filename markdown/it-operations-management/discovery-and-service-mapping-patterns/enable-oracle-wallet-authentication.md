@@ -7,7 +7,7 @@ release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2026-05-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Oracle Wallet, Oracle discovery, system property, wallet authentication]
 audience: administrator
@@ -35,7 +35,7 @@ For Oracle database discovery on Windows systems, verify the following requireme
 -   Oracle Wallet is configured on the target server for the Discovery user. For more information, see [Oracle Wallet Authentication for Discovery \(Windows\) \[KB3150013\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3150013).
 -   The following applications are up to date:
     -   Visibility Content starting with version 6.35.0
-    -   Discovery and Service Mapping Patterns starting with version 1.35.0
+    -   Discovery and Service Mapping Patterns starting with version 1.35.1
     -   For Oracle GLAS discovery: Data Collection for Oracle Global Licensing and Advisory Services starting with version 1.13.0
 
 Role required: discovery\_admin

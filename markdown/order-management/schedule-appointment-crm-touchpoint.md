@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/schedule-appointment-crm-touchpoint.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Activity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
@@ -16,13 +16,13 @@ Schedule appointments with customers and stakeholders directly from a touchpoint
 
 ## Before you begin
 
-You can create appointments only after creating a lead or opportunity task. For information on how to create an opportunity task from the Touchpoints module, see [Create a related task from a touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-touchpoint-related-tasks.md). Alternatively, you can create an opportunity task from the Opportunity module in the CSM/FSM Configurable Workspace. For details, see [Add opportunity tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/opportunity-management-tasks-tab.md) and [Add lead tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/lead-management-use-tasks-tab.md).
+You can create appointments only after creating a lead or opportunity task. For information on how to create an opportunity task from the Touchpoints module, see [Create a related task from a touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-touchpoint-related-tasks.md). Alternatively, you can create an opportunity task from the Opportunity module in the CRM Workspace. For details, see [Add opportunity tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/opportunity-management-tasks-tab.md) and [Add lead tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/lead-management-use-tasks-tab.md).
 
 Role required: sn\_crm\_touchpoint.touchpoint\_writer
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 

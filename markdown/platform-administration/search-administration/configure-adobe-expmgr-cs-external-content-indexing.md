@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Adobe Experience Manager as a Cloud Service external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -47,7 +47,7 @@ To allow the connector to access your Adobe Experience Manager as a Cloud Servic
 
 2.  Download the Service Credentials for your new Technical Account as a JSON-format file.
 
-    1.  On the Technical Accounts tab, select the arrow icon to expand the private key entry for your new Technical Account.
+    1.  On the **Technical Accounts** tab, select the arrow icon to expand the private key entry for your new Technical Account.
 
         The private key name varies. As an example, the private key entry name for your new Technical Account might be `PRIVATE-KEY-1873000081275`.
 

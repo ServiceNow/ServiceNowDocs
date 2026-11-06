@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/r\_CustomerServiceEmailProperties.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure email addresses and properties for email to case, Email to case, Configure Email, Configure omnichannel, Configure, Customer Service Management]
 ---
@@ -32,12 +32,7 @@ Case email address\[glide.cs.email.case\_queue\_address\]
 
 </td><td>
 
-One of the incoming email addresses that automatically creates a customer service case.For incoming email, the system checks the address to see if it matches the address in the **Case email address** property.
-
--   If it matches, the system creates a case
--   If it doesn't match, or the property isn't set, the system checks the Email subject prefix format for new case property instead.
--   
-If yes, the system creates a customer service case. If it does not match, or if this property is not set, the system then checks the **Email subject prefix format for new case** property.
+One of the incoming email addresses that automatically creates a customer service case.For incoming email, the system checks the address to see if it matches the address in the **Case email address** property. If yes, the system creates a customer service case. If it does not match, or if this property is not set, the system then checks the **Email subject prefix format for new case** property.
 
 </td></tr><tr><td>
 

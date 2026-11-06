@@ -7,7 +7,7 @@ release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, API Notification Management, Product Support for Technology]
 ---
@@ -21,7 +21,7 @@ In this use case, the notifications are produced to the Hermes cluster from your
 -   To learn more about Hermes Messaging Service, see [Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/hermes-messaging-service.md).
 -   To learn more about Apache Kafka Stream Connect, see [Using Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/stream-connect-apache-kafka.md).
 
-In the Australia release, the following events are supported for trouble ticket notification.
+In the Brazil release, the following events are supported for trouble ticket notification.
 
 -   Create Trouble Ticket Event
 -   Trouble Ticket State Change Event

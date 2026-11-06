@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/servicenow-configuration-for-idp.html
 release: australia
 topic_type: task
-last_updated: "2026-06-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Glide configuration for IDP]
-breadcrumb: [Integrating MCP server with third-party identity providers, Connect, MCP Server Console, Enable AI experiences]
+breadcrumb: [Integrating MCP server with third-party identity providers, Connect, MCP Server Console, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
 # ServiceNow\(Glide\) configuration for IDP

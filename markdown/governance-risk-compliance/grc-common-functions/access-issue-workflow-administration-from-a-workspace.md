@@ -7,7 +7,7 @@ release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-09-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Issue workflows, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -30,7 +30,7 @@ Any workspace with GRC Issue Administration enabled shows the same issue workflo
 
     You can open the workspace that you want.
 
-2.  Select the Lists icon.
+2.  Select the **Lists** icon.
 
 3.  Expand **Issue Administration** and select **Issue workflows**.
 

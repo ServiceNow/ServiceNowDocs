@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/grc-control-objective-change-agent-ai-agent.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Governance, Risk, and Compliance AI agents, Governance, Risk, and Compliance, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [Governance, Risk, and Compliance AI agents, Governance, Risk, and Compliance, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Control objective change AI agent

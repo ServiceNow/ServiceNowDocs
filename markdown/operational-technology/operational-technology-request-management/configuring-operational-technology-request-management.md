@@ -7,7 +7,7 @@ release: australia
 product: Operational Technology Request Management
 classification: operational-technology-request-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Operational Technology Request Management, Operational Technology]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Operational Technology Request Management, Operational Technology]
 
 Configure Operational Technology Request Management so that you can create the data foundation for the Operational Technology \(OT\) solution.
 
-If you have the admin role, you can use Guided Setup to lead you through the setup of Operational Technology Request Management. Guided Setup is a tool that assists with application or capability configuration. It organizes the configuration activities into categories. These categories contain the information about the setup tasks, the steps to complete each task, and the links to the pages in your instance where you perform the configuration. The links to useful help content are also provided.
+If you have the admin role, you can use Guided Setup to lead you through the setup of Operational Technology Request Management. Guided Setup is a tool that assists with application or capability configuration. It organizes the configuration activities into categories. These categories contain the information about the setup tasks, steps to complete each task, and links to the pages in your instance where you perform the configuration. The links to useful help content are also provided.
 
 To access Guided Setup, navigate to **Industrial Workspace Admin** &gt; **Guided Setup**.
 
@@ -61,7 +61,7 @@ Create catalog items for your OT service catalog using the catalog builder.
 
 </td><td>
 
-Create catalog items for the OT Service Catalog using the catalog builder so other users can submit their OT requests and choose the catalog item that best fits their needs.
+Create catalog items for the OT Service Catalog using the catalog builder. Other users can also submit their OT requests and choose the catalog item that best fits their needs.
 
 </td></tr><tr><td>
 

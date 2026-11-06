@@ -7,7 +7,7 @@ release: australia
 product: Interaction Management
 classification: interaction-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -41,7 +41,7 @@ The ServiceNow AI Platform offers several forms of queuing and communication man
 </td></tr></tbody>
 </table>## Troubleshoot and get help
 
--   [Virtual Agent interaction records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/va-interactions.md)
+-   
 -   [ServiceNow Community forums](https://www.servicenow.com/community/)
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)

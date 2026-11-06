@@ -7,7 +7,7 @@ release: australia
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Requesting a workplace service, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -28,15 +28,15 @@ Use the **Cleaning** workplace service to request for cleaning service at your w
 
 1.  Navigate to the portal from one of the following locations.
 
-<table id="choicetable_presence_dashboard"><thead><tr><th align="left" id="d187214e70">
+<table id="choicetable_presence_dashboard"><thead><tr><th align="left" id="d186876e70">
 
 Location
 
-</th><th align="left" id="d187214e73">
+</th><th align="left" id="d186876e73">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d187214e79">
+</th></tr></thead><tbody><tr><td id="d186876e79">
 
 **Workplace Service Portal**
 
@@ -56,7 +56,7 @@ The portal homepage opens.
 3.  Select **Submit a maintenance request**.
 
 
-</td></tr><tr><td id="d187214e149">
+</td></tr><tr><td id="d186876e149">
 
 **Employee Center**
 

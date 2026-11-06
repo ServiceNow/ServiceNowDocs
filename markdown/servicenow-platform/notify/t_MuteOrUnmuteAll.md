@@ -7,7 +7,7 @@ release: australia
 product: Notify
 classification: notify
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Notify for making conference calls, Using Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -32,7 +32,7 @@ Before starting this procedure, ensure there is an active conference call with o
 
 4.  In the **Conferences** tab, select a conference
 
-<table id="choicetable_hbr_r4f_xfb"><tbody><tr><td id="d402630e92">
+<table id="choicetable_hbr_r4f_xfb"><tbody><tr><td id="d407872e92">
 
 **__Mute All__**
 
@@ -40,7 +40,7 @@ Before starting this procedure, ensure there is an active conference call with o
 
 Click this button to mute all the participants in the conference
 
-</td></tr><tr><td id="d402630e104">
+</td></tr><tr><td id="d407872e104">
 
 **__Unmute All__**
 

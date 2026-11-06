@@ -1,5 +1,5 @@
 ---
-title: Configuring your compliance needs and integration with regulatory content providers
+title: Compliance configuration and regulatory content integration
 description: Configure the Regulatory Change Management application to manage your compliance needs and integration with regulatory intelligence content providers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/regulatory-change-management-service-portal/configuring-rcm.html
@@ -7,13 +7,13 @@ release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
-last_updated: "2026-03-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [regulatory change management, RCM, GRC, configuration, compliance setup, regulatory content providers, regulatory intelligence integration]
 breadcrumb: [Regulatory Change Management, Governance, Risk, and Compliance]
 ---
 
-# Configuring your compliance needs and integration with regulatory content providers
+# Compliance configuration and regulatory content integration
 
 Configure the Regulatory Change Management application to manage your compliance needs and integration with regulatory intelligence content providers.
 

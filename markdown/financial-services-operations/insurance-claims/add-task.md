@@ -7,7 +7,7 @@ release: australia
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Commercial Lines Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -28,15 +28,15 @@ Role required: sn\_ins\_claim\_cml.auto\_processor, sn\_ins\_claim\_cml.auto\_ad
 
 2.  Open the claim one of the following ways.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d137673e82">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d140872e82">
 
 Option
 
-</th><th align="left" id="d137673e85">
+</th><th align="left" id="d140872e85">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d137673e91">
+</th></tr></thead><tbody><tr><td id="d140872e91">
 
 **From the landing page**
 
@@ -44,7 +44,7 @@ Steps
 
 From a claims list, select the claim case you want to create a new task for.
 
-</td></tr><tr><td id="d137673e100">
+</td></tr><tr><td id="d140872e100">
 
 **From the applicable case/tasks list**
 

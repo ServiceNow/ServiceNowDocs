@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/cmdb-cmdb-health-metrics-manager-ai-agent.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [CMDB AI agents, CMDB, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [CMDB AI agents, CMDB, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # CMDB health metrics manager AI agent
@@ -18,12 +18,11 @@ Performs actions related to the CMDB health metrics
 
 The agent helps users complete tasks related to CMDB health metrics manager.
 
-1.  If you have done it before, skip to step 2.
-2.  Check the CMDB health dashboard jobs and health metrics.
-3.  If there are no health metrics calculated, skip to step 5.
-4.  If there are metric scores retrieved, ask the user if they want to retrieve the health scores for all principal classes, and if not, which specific class or classes instead.
-5.  Retrieve the health scores for the selected CI classes.
-6.  Inform the user that they have completed the step of going through the CMDB health metrics.
+1.  Check the CMDB health dashboard jobs and health metrics.
+2.  If there are no health metrics calculated, skip to step 5.
+3.  If there are metric scores retrieved, ask the user if they want to retrieve the health scores for all principal classes, and if not, which specific class or classes instead.
+4.  Retrieve the health scores for the selected CI classes.
+5.  Inform the user that they have completed the step of going through the CMDB health metrics.
 
 <table><thead><tr><th>
 
@@ -78,7 +77,7 @@ Allowed user roles The specific user roles that can access this AI agent.
 
 </td><td>
 
-snc\_internal, sn\_cmdb\_admin
+sn\_cmdb\_admin
 
 </td></tr><tr><td>
 

@@ -7,9 +7,9 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Field script use cases, Useful scripts, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Field script use cases, Example scripts, Scripting, API implementation, API implementation and reference]
 ---
 
 # Approval assignment scripts
@@ -24,7 +24,7 @@ For see [Viewing my approvals](https://raw.githubusercontent.com/ServiceNow/Serv
 
     The following Assignment Rulescript automatically assigns a group for all ESS Requests.
 
-    ```
+    ```javascript
     if(current.opened_by.roles==""){
         current.assignment_group.setDisplayValue('Network');
         current.update();}
@@ -34,7 +34,7 @@ For see [Viewing my approvals](https://raw.githubusercontent.com/ServiceNow/Serv
 
     This assignment rule assigns a service catalog item to the database group if it uses a delivery plan that has a catalog task assigned to the desktop group.
 
-    ```
+    ```javascript
     //Return catalog items that have no group but do have a delivery plan assigned
     var ri =new GlideRecord("sc_cat_item");
     ri.addQuery("group","=",null);
@@ -58,7 +58,7 @@ For see [Viewing my approvals](https://raw.githubusercontent.com/ServiceNow/Serv
 
     This assignment rule automatically assigns any catalog items with only one task associated to a particular group.
 
-    ```
+    ```javascript
     //Get the catalog item for the current requested item
     var scCatItem =new GlideRecord("sc_cat_item");
     if(scCatItem.get('sys_id', current.cat_item)){
@@ -83,7 +83,7 @@ For see [Viewing my approvals](https://raw.githubusercontent.com/ServiceNow/Serv
     -   order: &gt;1000 if you want to execute after assignment rules
     -   condition: current.assigned\_to == '' &amp;&amp; current.assignment\_group != ''
     -   when: before, insert/update
-    ```
+    ```javascript
     var assignTo = getLowestUser();
     gs.addInfoMessage("assigning to is "+ assignTo);
     current.assigned_to= assignTo;
@@ -125,7 +125,7 @@ For see [Viewing my approvals](https://raw.githubusercontent.com/ServiceNow/Serv
 
     Description: This example is an onChange client script on the category field within Incident. Note: this script used to use synchronous AJAX \(asynchronous behavior is specified by the third parameter of the ajaxRequest call\). The implementation below uses asynchronous AJAX. The drawback of using the synchronous version is that a network response problem could cause the browser to hang.
 
-    ```
+    ```javascript
     // Make an AJAX request to the server to get who this incident would be
     // assigned to given the current values in the record. This runs the assignment 
     // rules thathave been defined in System Policy and returns the assigned_to and 

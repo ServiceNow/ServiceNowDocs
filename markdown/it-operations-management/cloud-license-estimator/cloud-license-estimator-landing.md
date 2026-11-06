@@ -1,20 +1,20 @@
 ---
 title: Cloud License Estimator
-description: Cloud License Estimator enables you to get the estimated resource count for all the cloud resources that are eligible for licensing.
+description: Cloud License Estimator estimates the resource count for all cloud resources eligible for licensing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-license-estimator/cloud-license-estimator-landing.html
 release: australia
 product: Cloud License Estimator
 classification: cloud-license-estimator
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ITOM Visibility, IT Operations Management]
 ---
 
 # Cloud License Estimator
 
-Cloud License Estimator enables you to get the estimated resource count for all the cloud resources that are eligible for licensing.
+Cloud License Estimator estimates the resource count for all cloud resources eligible for licensing.
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 

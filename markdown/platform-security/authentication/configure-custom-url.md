@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Custom instance URLs, Authentication, Access Management]
 ---
@@ -28,7 +28,7 @@ You must activate the custom URL plugin and have purchased or registered a URL b
 
 2.  You should either:
 
-    -   Click **New** to associate a new domain name that is new to your instance.
+    -   Select **New** to associate a new domain name that is new to your instance.
     -   Select a custom URL already set up to set as your instance URL.
 3.  Fill in the appropriate fields:
 
@@ -46,7 +46,7 @@ Domain Name
 
 </td><td>
 
-Fully qualified domain name \(FQDN\) of the custom URL. The FQDN is a CNAME redirect created in the name server record for the custom domain.**Note:** For example, in the name server for acme.com, you might create an entry:
+Fully qualified domain name \(FQDN\) of the custom URL. The FQDN is a CNAME redirect created in the name server record for the custom domain.**Note:** For example, in the name server for example.com, you might create an entry:
 
 ```
 support.acme.com 300 IN CNAME acme.servicenow.com 
@@ -58,7 +58,7 @@ Is Instance URL
 
 </td><td>
 
-Check box to enable this custom URL for all outbound URLs. Only one active custom URL can be the instance URL. To enable this setting for a custom URL, click **Set as Instance URL** on the URL record. Any previous custom URLs are then removed.
+Check box to enable this custom URL for all outbound URLs. Only one active custom URL can be the instance URL. To enable this setting for a custom URL, select **Set as Instance URL** on the URL record. Any previous custom URLs are then removed.
 
 </td></tr><tr><td>
 
@@ -90,5 +90,5 @@ Identity Provider for the custom URL enables you to allow users to auto-redirect
     **Note:**
 
     -   You must delete custom URL record from ServiceNow instance first and then delete any Domain Name Server \(DNS\) entries from the DNS server.
-    -   Any deletion of DNS entry from DNS server prior to deletion of custom URL record from ServiceNow instance would result in blocking the deletion of other corresponding custom URL records from ServiceNow.
+    -   Any deletion of DNS entry from DNS server before deletion of custom URL record from ServiceNow instance would result in blocking the deletion of other corresponding custom URL records from ServiceNow.
 

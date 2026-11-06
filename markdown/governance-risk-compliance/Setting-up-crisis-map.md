@@ -1,18 +1,18 @@
 ---
-title: Setting up the Crisis Map
-description: Before integrating the Crisis Map with asset locations, configure settings to display active alerts.
+title: Setting up the crisis map
+description: Before you integrate the crisis management map with the geographical locations of your assets, complete certain configurations to display active alerts in the crisis map.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/Setting-up-crisis-map.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Crisis Management map, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
-# Setting up the Crisis Map
+# Setting up the crisis map
 
-Before integrating the Crisis Map with asset locations, configure settings to display active alerts.
+Before you integrate the crisis management map with the geographical locations of your assets, complete certain configurations to display active alerts in the crisis map.
 
 ## Understanding feed, alert, and event
 
@@ -22,7 +22,7 @@ Before integrating the Crisis Map with asset locations, configure settings to di
 
 -   **Alert**
 
-    An alert is a notification that reports that an incident happened at a particular place and time. First, an incident or an event reportedly happens. Then, the alert triggers a notification that reports or notifies the incident to the concerned people to take an action.
+    An alert is a notification that reports an incident happened at a particular place and time. First, an incident or an event reportedly happens. Then, the alert triggers a notification that reports or notifies the incident to the concerned people to take an action.
 
 -   **Event**
 

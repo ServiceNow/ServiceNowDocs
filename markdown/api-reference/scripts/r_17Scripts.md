@@ -7,9 +7,9 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Scripting, API implementation, API implementation and reference]
+breadcrumb: [Explore, Scripting, API implementation, API implementation and reference]
 ---
 
 # Available script types
@@ -30,17 +30,15 @@ Runs on
 
 </th></tr></thead><tbody><tr><td>
 
-Access Control
+Access control
 
 </td><td>
 
-Determines whether access will be granted for a specified operation to a specific entity.
-
--   type of entity being secured
+Determines whether access will be granted for a specified operation to a specific entity.-   type of entity being secured
 -   operation being secured
 -   unique identifier describing the object
 
- Can be defined by roles, conditional expressions or scripts.
+Can be defined by roles, conditional expressions, or scripts.
 
 </td><td>
 
@@ -62,7 +60,7 @@ Enables the client to get data from the server to dynamically incorporate into a
 
 </td></tr><tr><td>
 
-[Business Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/business-rules-classic/c_BusinessRules.md)
+[Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/business-rules-classic/c_BusinessRules.md)
 
 </td><td>
 
@@ -91,7 +89,7 @@ Defines the display of a variable set or a catalog item \(from the service catal
 
 </td></tr><tr><td>
 
-[Client Scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/client-scripts.md)
+[Client scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/client-scripts.md)
 
 </td><td>
 
@@ -127,7 +125,7 @@ server - script and any condition run on the server
 
 </td></tr><tr><td>
 
-Script Includes
+Script includes
 
 </td><td>
 
@@ -180,7 +178,7 @@ Creates the ability to choose a specific action such as clicking a button or a l
 
 </td></tr><tr><td>
 
-UI Context Menus
+UI context menus
 
 </td><td>
 
@@ -239,7 +237,7 @@ Used to create and display pages, forms, dialogs, lists and other UI components.
 
 </td></tr><tr><td>
 
-UI Policies
+UI policies
 
 </td><td>
 
@@ -261,7 +259,7 @@ Defines the behavior and visibility of fields on a form.
 
 </td></tr><tr><td>
 
-UI Properties
+UI properties
 
 </td><td>
 
@@ -276,7 +274,7 @@ Designates what the instance will look like.
 
 </td></tr><tr><td>
 
-UI Scripts
+UI scripts
 
 </td><td>
 
@@ -290,7 +288,7 @@ client
 
 </td></tr><tr><td>
 
-[Validation Scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_ValidateDateAndTime.md)
+[Validation scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_ValidateDateAndTime.md)
 
 </td><td>
 
@@ -317,5 +315,5 @@ Used to create or change a workflow. Scripts can be run at any point in a workfl
 server - script and any conditions run on the server
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_Script.md)
+</table>**Parent Topic:**[Exploring scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_Script.md)
 

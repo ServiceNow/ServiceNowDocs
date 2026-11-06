@@ -1,5 +1,5 @@
 ---
-title: Configure Teams in Workforce Optimization for HR
+title: Setting up Teams in Workforce Optimization for HR
 description: Organize your teams into assignment groups and create reports for those groups to can gain visibility into the team's performance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workforce-optimization-for-hr/setup-team-workforce-wfo-hr.html
@@ -7,12 +7,12 @@ release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configuring Workforce Optimization for HR, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
 ---
 
-# Configure Teams in Workforce Optimization for HR
+# Setting up Teams in Workforce Optimization for HR
 
 Organize your teams into assignment groups and create reports for those groups to can gain visibility into the team's performance.
 
@@ -32,9 +32,9 @@ Add managers to a KPI assignment group.
 
 [Workforce Optimization for HR Domain Separation]()
 
-[Configure Scheduling for Workforce Optimization for HR]()
+[Setting up Scheduling for Workforce Optimization for HR]()
 
-[Configure Coaching in Workforce Optimization for HR]()
+[Setting up Coaching in Workforce Optimization for HR]()
 
 [Setting up Demand Forecast in Workforce Optimization for HR]()
 

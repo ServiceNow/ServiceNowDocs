@@ -7,7 +7,7 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 keywords: [HAM licensing, Hardware Asset Management licensing]
 breadcrumb: [Explore, Hardware Asset Management, IT Asset Management, Asset Management]
@@ -84,6 +84,6 @@ For more information, see [Base Asset Management](https://raw.githubusercontent.
 Hardware Asset Management \(HAM\) licensing enables you to choose the Hardware Asset Management resource categories that you want to use. You can save money by paying only for those categories that you use, and not for categories that you don't use.
 -   **[Licensing framework for Hardware Asset Management solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/licensing-ham-solutions.md)**  
 Manage the subscription units purchased and consumed by your organization for all the Hardware Asset Management solutions with the improved HAM licensing framework. When more than one Hardware Asset Management solution is activated on a ServiceNow instance, any licensable and opted-in resource category is licensed only under one solution.
--   **[Hardware Asset Management license exclusion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/ham-license-exclusion.md)**  
-Pay only for the assets using licensed Hardware Asset Management features and exclude an asset for which you don't want to use the licensed features.
+
+**Parent Topic:**[Exploring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/exploring-ham.md)
 

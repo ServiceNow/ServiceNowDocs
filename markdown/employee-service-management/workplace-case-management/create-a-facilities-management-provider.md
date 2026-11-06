@@ -7,9 +7,9 @@ release: australia
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrated Facilities Management Integration Framework, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Setup Integrated Facilities Management Integration Framework, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Create a facilities management provider
@@ -40,7 +40,7 @@ A Facilities Management Provider record represents a third-party FM vendor that 
     |Update work order flow|Reference to the Flow Designer workflow that synchronizes updates from ServiceNow to the external FM provider system. This flow handles operations such as adding comments or work notes to existing work orders.|
     |Cancel work order flow|Reference to the Flow Designer workflow that processes work order cancellation requests sent to the external FM provider system. This flow is triggered when a workplace case is cancelled, notifying the FM provider to cancel the corresponding work order in their system.|
 
-    **Note:** For more information about work order flows, see .
+    **Note:** For more information about work order flows, see [Outbound flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/outbound-flows.md).
 
     \[Omitted image "FM\_provider.png"\] Alt text:
 

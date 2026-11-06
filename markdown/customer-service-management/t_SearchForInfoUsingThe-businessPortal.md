@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_SearchForInfoUsingThe-businessPortal.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Business Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Business Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Search for information using Business Portal
@@ -17,10 +17,6 @@ Use the search feature on the business portal header and home page to find infor
 ## Before you begin
 
 Role required: sn\_customerservice.customer, sn\_customerservice.customer\_admin, sn\_customerservice.partner, or sn\_customerservice.partner\_admin
-
-## About this task
-
-The portal has a search feature that you can use to search for information across several repositories. You can use the search feature on the home page or on the business portal header.
 
 ## Procedure
 
@@ -67,7 +63,7 @@ The business portal includes a link to the knowledge base that you can use to se
     -   Most viewed
 3.  Do one of the following,
 
-<table id="choicetable_fs5_krt_vr"><tbody><tr><td id="d319181e234">
+<table id="choicetable_fs5_krt_vr"><tbody><tr><td id="d326157e234">
 
 **Click a product to display more specific information**
 
@@ -75,7 +71,7 @@ The business portal includes a link to the knowledge base that you can use to se
 
 Displays a list of categories on the left and articles on the right. Select a category to drill down even further.
 
-</td></tr><tr><td id="d319181e243">
+</td></tr><tr><td id="d326157e243">
 
 **Click a link from one of the lists**
 
@@ -83,7 +79,7 @@ Displays a list of categories on the left and articles on the right. Select a ca
 
 Displays the article.
 
-</td></tr><tr><td id="d319181e252">
+</td></tr><tr><td id="d326157e252">
 
 **Type a topic in the __Search__ field and press the Enter key**
 

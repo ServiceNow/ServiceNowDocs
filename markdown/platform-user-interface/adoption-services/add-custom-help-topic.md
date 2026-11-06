@@ -7,7 +7,7 @@ release: australia
 product: Adoption Services
 classification: adoption-services
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configuring Embedded Help, Embedded Help, In-product help, Adoption services, Configure user experiences]
 ---
@@ -31,7 +31,7 @@ When you write content for your users, keep the following limitations in mind.
 -   Any changes you make to embedded help are not automatically deployed to another instance.
 -   Changes to the embedded help table are not captured in update sets, update\_sync=false is set intentionally.
 
-**Note:** Embedded help records are also used to create content for the Help Center within a configurable workspace. For more information, see [Create Help Center content for configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/adoption-services/create-help-center-content.md).
+**Note:** Embedded help records are also used to create content for the Help Center within a configurable workspace. For more information, see [Create Help Center content for configurable workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/adoption-services/create-help-center-content.md).
 
 ## Procedure
 
@@ -65,7 +65,7 @@ Page
 
 Enter the UI page this content provides help for, without the .do file extension.\[Omitted image "embedded-help-url-page.png"\] Alt text: Page name in the URL
 
-**Note:** If you are using the embedded help record to display in the Help Center, as described in [Create Help Center content for configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/adoption-services/create-help-center-content.md), enter the same value in the Name and Page fields, replacing spaces with underscores in the Page field.
+**Note:** If you are using the embedded help record to display in the Help Center, as described in [Create Help Center content for configurable workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/adoption-services/create-help-center-content.md), enter the same value in the Name and Page fields, replacing spaces with underscores in the Page field.
 
 </td></tr><tr><td>
 

@@ -7,7 +7,7 @@ release: australia
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -30,9 +30,9 @@ During this phase, the system identifies the initial transaction. You’re then 
 
 You can then add more transactions \(if the dispute category is Fraud\),  and select associated transactions \(if Visa network\). You also complete the dispute questionnaire and upload any supporting documentation.  Dispute cases created using  disputes intake via Virtual Agent  are populated with information from the customer's responses in the Virtual Agent chat.
 
-When a transaction is selected for a card dispute, you can obtain additional information about the transaction with an integration, such as Order Insight Digital Management.
+When a transaction is selected for a card dispute, you can obtain additional information about the transaction with an integration, such as [Order Insight Digital Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/visa-spoke.md).
 
-**Note:** Additional integrations such as Ethoca Consumer Clarity are available to retrieve additional information on a transaction.
+**Note:** Additional integrations such as [Ethoca Consumer Clarity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/ethoca-spoke.md) are available to retrieve additional information on a transaction.
 
 The system evaluates decision rules and determines policy rules for each transaction in the case. For example, determining which transaction qualifies for a provisional credit, as opposed to a final credit. However, if the dispute is initiated by a contributor or customer, the evaluation of decision rules occurs only after the Review task has been submitted. For more information on these rules, see [Dispute decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-decision-tables.md).
 
@@ -40,7 +40,7 @@ The system generates tasks based on the policy rules that are evaluated when a c
 
 Chargeback eligibility rules depend on the dispute category \(for card disputes\). In cases of fraud, these rules are evaluated during the Investigate stage, specifically after the Fraud Report task is submitted. For non-fraud categories, the evaluation happens at the Submit action, whether from Initiate or Review. For ACH disputes, the eligibility for chargeback is evaluated during investigation and can be assisted by ServiceNow Otto agents.
 
-For information about configuring business rules, see [Exploring decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/decision-designer-overview.md).
+For information about configuring business rules, see [Exploring Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/decision-designer-overview.md).
 
 ## Review
 
@@ -82,7 +82,7 @@ During this stage, the card network, card issuing bank, merchant bank or acquire
 
 **Note:** Issuer banks don’t contact merchants directly about disputed transactions. However, merchants enrolled in Ethoca Alerts or Verifi CDRN receive notifications of potential disputes, enabling them to work with cardholders to resolve issues and help prevent chargebacks.
 
-In this stage, agents can also work on transactions identified as friendly fraud. For more information, see [Resolve friendly fraud disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/resolve-friendly-fraud.md).
+In this stage, agents can also work on transactions identified as friendly fraud. For more information, see [Detect friendly fraud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/resolve-friendly-fraud.md).
 
 ## Chargeback
 

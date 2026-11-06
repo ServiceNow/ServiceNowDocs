@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -45,11 +45,9 @@ The following procedure describes the collection of JSON formatted event message
 
 ## Procedure
 
-1.  Verify the MID Server IP is accessible from the Google Cloud Platform \(GCP\) console and the MID rest point is accessible from GCP.
+1.  Verify that the MID Server IP is accessible from the Google Cloud Platform \(GCP\) console and that the MID rest point is accessible from GCP.
 
-    Alternatively, install the MID Server on a GCP VM and provide the VM external IP address in the URL.
-
-    In the GCP console, create a firewall rule.
+    Alternatively, install the MID Server on a GCP VM and provide the VM external IP address in the URL. In the GCP console, create a firewall rule.
 
     1.  Navigate to **VPC Network** &gt; **Firewall** &gt; **Create Firewall**.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/kc-edit-knowledge-article.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using Knowledge Center, Knowledge Center, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -52,7 +52,7 @@ Generate and edit knowledge articles in the Knowledge Center from a task using A
 
 12. Upload images and re-size, rotate, or flip using the image-editing tools.
 
-13. Use the ServiceNow Otto article assistant to modify content with open prompt commands for summarizing, expanding and, formatting paragraphs.
+13. Use the AI article assistant to modify content with open prompt commands for summarizing, expanding and, formatting paragraphs.
 
 14. Select **Save** to save the draft of the article.
 

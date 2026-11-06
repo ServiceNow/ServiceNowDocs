@@ -7,9 +7,9 @@ release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a bulk case request using Agent Workspace for HR Case Management, Using Agent Workspace for HR Case Management, Agent Workspace, HR Service Delivery, Employee Service Management]
+breadcrumb: [Create a bulk case request using Agent Workspace for HR Case Management, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Review users in a user segment group
@@ -30,7 +30,7 @@ Role required: sn\_hr\_core\_admin
 
 4.  Select the bulk case request.
 
-5.  Select the **User segments group** tab.
+5.  Select the **User segment group** tab.
 
 6.  Select the user segment group.
 
@@ -43,15 +43,15 @@ Role required: sn\_hr\_core\_admin
     -   Included: The user matches the filter criteria and a case will be created for the user.
     -   Excluded: The user does not match the criteria and a case will not be created.
     -   Duplicate: The user is listed multiple times.
-<table id="choicetable_y2w_s5c_3bc"><thead><tr><th align="left" id="d99101e136">
+<table id="choicetable_y2w_s5c_3bc"><thead><tr><th align="left" id="d99258e136">
 
 Review result
 
-</th><th align="left" id="d99101e139">
+</th><th align="left" id="d99258e139">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d99101e145">
+</th></tr></thead><tbody><tr><td id="d99258e145">
 
 **Some user statuses must be modified**
 

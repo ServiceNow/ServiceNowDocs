@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/common-dv-tasks.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -16,7 +16,7 @@ See how to edit, share, duplicate, and delete Platform Analytics data visualizat
 
 -   **[Edit a data visualization in an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/editing-dv-in-line-db.md)**  
 You can create and edit a data visualization from within the inline dashboard editor. Not all the options are the same as in the Visualization Designer. You can move between the inline editor and the Visualization Designer.
--   **[Edit a data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/edit-dv-ac-center.md)**  
+-   **[Edit a data visualization in the library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/edit-dv-ac-center.md)**  
 After you create a data visualization, you can return to it and edit the data visualization's appearance and other aspects.
 -   **[Add a visualization to a dashboard from the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/add-dv-new-db.md)**  
 Add a visualization from the Visualization Designer to a new dashboard or to an existing dashboard.
@@ -24,7 +24,7 @@ Add a visualization from the Visualization Designer to a new dashboard or to an 
 Duplicate a visualization so that you can use aspects of the source in a copy of the visualization.
 -   **[Share a data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/share-dv-ac.md)**  
 Share a visualization to provide view or edit permissions to users, groups, or roles. A user can access a shared visualization in any workspace on the original instance.
--   **[Export a data visualization from the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/export-visualization-vd.md)**  
+-   **[Export a Platform Analytics data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/export-visualization-vd.md)**  
 Export individual data visualizations to various formats and sizes. Download the exports or share them over email.
 -   **[Schedule the export of data visualizations or dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/schedule-visn-export-vd.md)**  
 Automate the export and mailing of data visualizations. Help colleagues build presentations, share information with external users, or track data over time.

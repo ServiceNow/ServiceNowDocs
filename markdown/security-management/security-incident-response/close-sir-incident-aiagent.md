@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [AI Agents, agentic AI]
 breadcrumb: [Close security incidents, Use agentic workflows, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
@@ -37,15 +37,15 @@ Role required: sn\_si.analyst or sn\_si.manager
 
 4.  Close the security incident by using one of the following options.
 
-<table id="choicetable_ytr_35h_m2c"><thead><tr><th align="left" id="d40479e117">
+<table id="choicetable_ytr_35h_m2c"><thead><tr><th align="left" id="d40464e117">
 
 Option
 
-</th><th align="left" id="d40479e120">
+</th><th align="left" id="d40464e120">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d40479e126">
+</th></tr></thead><tbody><tr><td id="d40464e126">
 
 **Close a security incident**
 
@@ -71,7 +71,7 @@ The AI agent closes the security incident.
 
 **Note:** When a field is changed, the activity stream appends the words "AI AGENT:" with a description of the update made by the AI agent. For example, `AI AGENT: Close code is updated`.
 
-</td></tr><tr><td id="d40479e210">
+</td></tr><tr><td id="d40464e210">
 
 **Close a security incident as false positive**
 

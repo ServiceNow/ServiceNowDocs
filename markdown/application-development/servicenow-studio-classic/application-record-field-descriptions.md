@@ -1,20 +1,20 @@
 ---
 title: Custom Application record form
-description: The Custom Application form enables you to add or modify information about a custom application to define its behavior.
+description: Use the Custom Application form to add or modify information that defines the behavior of a custom application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/application-record-field-descriptions.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: reference
-last_updated: "2026-06-03"
-reading_time_minutes: 4
-breadcrumb: [Reference, ServiceNow Studio, Developing your application, Building applications]
+last_updated: "2026-10-08"
+reading_time_minutes: 3
+breadcrumb: [Reference, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Custom Application record form
 
-The Custom Application form enables you to add or modify information about a custom application to define its behavior.
+Use the Custom Application form to add or modify information that defines the behavior of a custom application.
 
 <table id="table_CustomApplicationForm"><thead><tr><th>
 
@@ -146,7 +146,7 @@ User role
 
 </td><td>
 
-Select the user role required to access the application menu. For more information about user roles, see [Create a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateARole.md) [Create a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateARole.md).
+Select the user role required to access the application menu. For more information about user roles, see [Create a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateARole.md).
 
 </td></tr><tr><td>
 

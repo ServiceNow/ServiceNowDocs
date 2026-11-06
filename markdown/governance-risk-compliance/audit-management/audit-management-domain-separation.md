@@ -7,9 +7,9 @@ release: australia
 product: Audit Management
 classification: audit-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Audit Management reference, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Reference, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Domain separation and Audit Management
@@ -44,7 +44,7 @@ These users can choose to expand or collapse the domain scope to show or hide da
 
 While GRC supports separation of data, separation of logic and process is not fully supported.
 
--   Many types of records in GRC are automatically generated through user processes. Entities, controls, risks, indicators, and control tests are all fields that can be generated automatically. For automatically generated records and manually generated GRC records, the domain of the record matches the domain of the user who created or generated it.
+-   Many types of records in GRC are automatically generated through user processes. Entities, controls, risks, indicators, and control tests are all fields that can be generated automatically. For automatically generated records and manually generated GRC records, the record domain matches the user's domain.
 -   Automatic generation should be kept in mind when working in a domain-separated GRC implementation. Users should be sure that they are creating / generating records at the right domain level so that they are visible to the right set of users.
 
     For example, suppose you have domains that look like:
@@ -52,10 +52,10 @@ While GRC supports separation of data, separation of logic and process is not fu
     \[Omitted image "domain-separation-pc.png"\] Alt text: Domain separation in GRC Audit Management application.
 
 
--   To assess a risk or control in domains A and B, generate or manually create it at the global level. If you create the risk or control in Domain B, you cannot recreate it in Domain A due to indexing.
--   If you have a risk or control that you want to be assessed by users in TOP and Domain A, create the risk or control in Domain A.
+-   To assess a risk or control in domains A and B, generate or manually create it at the global level. Creating it in Domain B prevents recreation in Domain A due to indexing.
+-   To assess a risk or control in TOP and Domain A, create it in Domain A.
 
-Unless the risks and controls are in the Global domain, users should not assign risks or controls in a higher domain to users in a lower domain. In the example above, if you have a control in the TOP domain, you should not assign it for attestation to users in Domains A or B. Those users would not have access to the control, so the attestation or assessment questionnaire would not be generated.
+Unless the risks and controls are in the Global domain, users should not assign risks or controls in a higher domain to users in a lower domain. In the example above, if you have a control in the TOP domain, do not assign it for attestation to users in Domains A or B. Those users would not have access to the control, so the attestation or assessment questionnaire would not be generated.
 
 Similarly, users should not assign control objectives and risk statements in a higher domain to attestations and assessments in a lower domain. Otherwise the attestation or assessment questionnaire would not be generated.
 
@@ -65,11 +65,11 @@ GRC data for IT can be separated from the GRC data of other departments. Each bu
 
 When looking at a control from the IT domain, the user can choose to expand the domain scope to show values from the Finance domain. The user can also collapse the domain scope to show only controls that match the IT domain.
 
-By default, domain separation adds a domain field to the Task `[task]`and Configuration Items `[cmdb_ci]` tables and their extensions.
+By default, domain separation adds a domain field to the Task `[task]` and Configuration Items `[cmdb_ci]` tables and their extensions.
 
 You can extend domain separation to any new tables you create by adding a `sys_domain` field to the table's dictionary definition. By default, the system only domain-separates platform and baseline application tables where appropriate.
 
-**Warning:** ServiceNow does not recommend domain separating platform tables \(any table with the sys\_ prefix such as the Dictionary Entry `[sys_dictionary]`and Dictionary Entry Override `[sys_dictionary_override]` tables\) because it can produce unexpected results.
+**Warning:** ServiceNow does not recommend domain separating platform tables \(any table with the sys\_ prefix such as the Dictionary Entry `[sys_dictionary]` and Dictionary Entry Override `[sys_dictionary_override]` tables\) because it can produce unexpected results.
 
 In this use case, client scripts, business rules, workflows, processes, and so on can be domain-separated.
 

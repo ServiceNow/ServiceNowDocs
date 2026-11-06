@@ -7,7 +7,7 @@ release: australia
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Fine-tune application services to implement owner requests, Application service mapping using classic Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -26,11 +26,11 @@ Role required: service\_mapping\_admin
 
 ## About this task
 
-When you transfer a map segment into another application service, you create a link between the original application service and the application service into which you planted the map segment. The connection to the top CI in the segment becomes an entry point when you transfer it into another, existing or new, application service.
+When you transfer a map segment into another application service, you create a link between the original application service and the application service into which you planted the map segment. The connection to the top CI in the segment becomes an entry point when you transfer it into another application service.
 
 The original service map shows the link to the other application service instead of the map segment. The service that contains the reference, becomes a dependent service. The service that appears as a reference is a contained service.
 
-When you transfer a map segment into another application service, the information about the connection to the top CI in the transferred segment, is updated in the CMDB. If other application services use the same ingoing connection \(endpoint\), the CMDB recognizes it and replaces map segments coming out of the same connection with connected service CIs by analogy.
+When you transfer a map segment into another application service, the information about the connection to the top CI in the transferred segment is updated in the CMDB. If other application services use the same ingoing connection \(endpoint\), the CMDB recognizes it. It replaces map segments coming out of the same connection with connected service CIs by analogy.
 
 You can't insert links to multiple application services from the same connection.
 

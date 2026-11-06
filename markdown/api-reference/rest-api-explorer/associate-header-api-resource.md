@@ -7,7 +7,7 @@ release: australia
 product: REST API Explorer
 classification: rest-api-explorer
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a scripted REST API, Scripted REST APIs, REST APIs, Web services, API implementation, API implementation and reference]
 ---
@@ -30,15 +30,15 @@ The following procedure describes the process for manually associating a REST AP
 
 1.  Create a Scripted REST Header Association record in one of the following ways
 
-<table id="choicetable_fv4_myc_j3c"><thead><tr><th align="left" id="d317164e67">
+<table id="choicetable_fv4_myc_j3c"><thead><tr><th align="left" id="d330976e66">
 
 Option
 
-</th><th align="left" id="d317164e70">
+</th><th align="left" id="d330976e69">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d317164e76">
+</th></tr></thead><tbody><tr><td id="d330976e75">
 
 **Navigate through a scripted REST API record**
 
@@ -50,7 +50,7 @@ Procedure
 4.  In the **Request Header Associations** tab, select **New**.
 
 
-</td></tr><tr><td id="d317164e121">
+</td></tr><tr><td id="d330976e120">
 
 **Navigate directly to a new Scripted REST Header Association record**
 

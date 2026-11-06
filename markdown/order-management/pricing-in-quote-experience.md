@@ -1,30 +1,35 @@
 ---
 title: Pricing in the ServiceNow Quote Experience
-description: The Quote Experience prices quotes through an integrated pricing service. Pricing runs when you reprice a quote or when a change affects pricing, and it applies both rep-entered and rule-driven adjustments.
+description: ServiceNow Quote Experience integrates natively with ServiceNow CPQ Price Management, enabling your organization to set, manage, and optimize pricing strategies for Quotes. These pricing strategies enable your sales team to generate quotes with accurate and competitive pricing quickly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/pricing-in-quote-experience.html
 release: australia
 topic_type: concept
 last_updated: "2026-08-26"
-reading_time_minutes: 3
-breadcrumb: [ServiceNow Quote Experience, Configure, price, quote apps, Explore, Sales Customer Relationship Management]
+reading_time_minutes: 5
+breadcrumb: [Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Pricing in the ServiceNow Quote Experience
 
-The Quote Experience prices quotes through an integrated pricing service. Pricing runs when you reprice a quote or when a change affects pricing, and it applies both rep-entered and rule-driven adjustments.
+ServiceNow Quote Experience integrates natively with ServiceNow CPQ Price Management, enabling your organization to set, manage, and optimize pricing strategies for Quotes. These pricing strategies enable your sales team to generate quotes with accurate and competitive pricing quickly.
 
-When pricing is enabled for a deployment, the Quote Experience connects to a pricing service that calculates quote and line prices. Pricing fields on the quote header and lines are populated automatically, so sales representatives see current prices, margins, and totals as they build a quote.
+Price evaluations can be triggered manually by a user or automatically when a price affecting field value changes. Price strategies support both user-entered and rule-driven price adjustments. For more information, see [Pricing Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/pricing-management.md).
 
-## Pricing integration model
+## Enable pricing for the Quote Experience
 
-You enable pricing by connecting the ServiceNow Quote Experience to the pricing service and turning on the productized pricing integration tenant setting. With the productized integration, field-to-context mappings load automatically from the quote blueprint when you deploy it, so you do not hand-configure request and response transformations.
+To enable pricing for the Quote Experience, complete the following steps:
 
-If a pricing input has no matching quote field during deployment, the deployment records a warning and continues. It does not fail. Administrators set up the pricing connection and integration during configuration. For more information, see [Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sales-crm-tm-quoting-configure.md).
+1.  Complete ServiceNow CPQ setup for Quote Experience. For more information, see [Setting up ServiceNow CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/setup-cpq-integrator.md).
+2.  Install the required [Price Management plugins](https://www.servicenow.com/docs/r/australia/order-management/quoting-experiences-overview.html).
+3.  Submit a support ticket requesting the required tenant setting configurations for your instance:
+    1.  transaction.oneQuoting.pricing.enabled to 'TRUE'
+    2.  transaction.oneQuoting.pricing.integration.type to 'productized'
+4.  Export and import the quote blueprint in ServiceNow CPQ Administration.
 
 ## Pricing states
 
-The Quote Experience records a pricing state for the quote header and for each quote line. The state shows whether the current prices reflect the latest changes, so a representative can tell when a reprice is needed before sharing or submitting a quote.
+The Quote Experience records a state for the quote header \(`txn.pricing.state`\) and for each quote line \(`txn.line.pricing.state`\) that indicates whether price values are up-to-date or need a reprice.
 
 -   **Up-to-date**
 
@@ -35,41 +40,70 @@ The Quote Experience records a pricing state for the quote header and for each q
     A pricing-affecting field has changed since the last successful pricing call, so the current prices might be out of date. The quote or line stays in this state until a pricing call completes successfully.
 
 
-The header shows a **Last Priced** timestamp that records when the most recent successful pricing call completed. Each line shows its own pricing state so that representatives can identify exactly which lines need attention.
+Pricing-affecting fields are the inputs that determine price, such as quantity, price list, discount, or product configuration. Changing a field that does not affect price, such as a description, does not change the pricing state.
 
-A quote or line is marked as needing a reprice when a pricing-affecting field changes. Pricing-affecting fields are the inputs that determine price, such as quantity, price list, discount, or product configuration. Changing a field that does not affect price, such as a description, does not change the pricing state. The needs-reprice state persists on the quote across other processing, such as rules evaluation, until a successful pricing call clears it. A successful pricing call returns the affected quote or line to the up-to-date state.
+## Last priced
 
-## Manual and automatic repricing
+The timestamp of the most recent successful pricing call is stored in the Last Priced \(`txn.pricing.lastPriced`\) field.
 
-You can reprice a quote in the following ways:
+## Automatic and manual repricing
 
--   **Manual repricing**
+Price updates can be configured to run automatically or explicitly through an event \(user- or API-triggered\). Manual repricing allows sales representatives to request an updated price at any time. Automatic repricing ensures prices are recalculated when pricing-affecting fields change.
 
-    Reprice a quote or line explicitly with the **Reprice** action when you are ready to recalculate pricing.
+-   To configure the Reprice event action, see [Transaction events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-events.md).
+-   To configure automatic repricing per stage, see [Quote transaction stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-stages.md).
 
--   **Event-driven repricing**
+## Context variables
 
-    Certain actions, such as adding or reconfiguring a product, carry a reprice action and trigger a pricing call automatically. Additionally, you can add reprice actions to the custom events.
+Context variables bring information beyond the product itself into pricing decisions — such as customer, channel, geography, term, transaction type, or usage. A single pricing rule can condition on that context instead of requiring a separate rule for every permutation. ServiceNow CPQ Pricing uses context variables to execute price rules, matrices, and calculations. A set of system-defined context variables is provided, and administrators can create custom variables.
 
--   **Automatic repricing**
+**Important:** Pricing in the ServiceNow Quote Experience uses field-mapped context variables. Variable mappings using dot-walked fields or scripted values are not supported.
 
-    The ServiceNow Quote Experience can reprice quotes that need a reprice without a representative selecting **Reprice**, so a quote that is left idle does not stay out of date.
+To implement a custom context variable to pricing:
+
+1.  Define custom context variables in the Context Rule Management section of the CRM Workspace.
+2.  Set **Entity** to **Quote Advanced**.
+3.  Set **Table** to either Quote \(`sn_quote_mgmt_core_quote`\) or Quote Line Item \(`sn_quote_mgmt_core_quote_line_item`\)
+4.  Sync it to ServiceNow CPQ.
+
+For more information on creating and managing context variables, see the following resources:
+
+-   [Create a custom context variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-create-context-variable.md)
+-   [Map a custom context variable to a transaction entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-map-variable.md)
+-   [Sync context variables to CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sync-variable-to-cpq.md)
+
+## Field mapping
+
+Custom transaction fields used by pricing must be mapped to columns on the Quote or Quote Lines tables. This mapping ensures that pricing data syncs between the transaction and the quote record. For the procedure, see [Configure transaction-to-quote field mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-opportunity-quote-mapping.md).
+
+## Manual price adjustments
+
+A sales representative can apply a manual adjustment — a fixed-amount or percentage discount or uplift, or a price override — to a line or to the header total. A manual adjustment is preserved as a distinct, rep-supplied input and is not overwritten by the next pricing call. The key fields for manual adjustments are:
+
+-   Discount Adjustment Type \(txn.line.pricing.adjustment.type\)
+-   Discount Adjustment Value \(txn.line.pricing.adjustment.value\)
+-   Discount Reason \(txn.line.pricing.discountReason\)
+
+For additional field information, see [Transaction line-level system fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-line-level-system-fields.md).
+
+**Related topics**  
 
 
-Administrators tune which events trigger repricing and how automatic repricing behaves per lifecycle stage during configuration.
+[Enable pricing in the ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/enable-pricing-quote-experience.md)
 
-## Manual and automatic adjustments
+[Set up an external connection in ServiceNow CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/set-up-external-connection-logik.md)
 
-The Quote Experience supports two kinds of price adjustments:
+[Transaction events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-events.md)
 
--   **Manual adjustments**
+[Quote transaction stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-stages.md)
 
-    A sales representative applies a discount, markdown, or price override to a line or to the quote total. The Quote Experience preserves a manual adjustment as a distinct, rep-supplied input, so the next pricing call does not overwrite it. Manual adjustments are auditable.
+[Map a custom context variable to a transaction entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-map-variable.md)
 
--   **Automatic adjustments**
+[Sync context variables to CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sync-variable-to-cpq.md)
 
-    The pricing service applies rule-driven adjustments, such as volume tiers, promotions, and contracted discounts, during a pricing call. Automatic adjustments recalculate on each call as inputs change.
+[Configure transaction-to-quote field mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-opportunity-quote-mapping.md)
 
+[Transaction-level system fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-header-level-system-fields.md)
 
-Where both apply to the same line or header, a manual adjustment takes precedence over an automatic adjustment.
+[Transaction line-level system fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-line-level-system-fields.md)
 

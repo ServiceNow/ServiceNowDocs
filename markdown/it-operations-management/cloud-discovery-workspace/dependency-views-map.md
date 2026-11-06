@@ -7,7 +7,7 @@ release: australia
 product: Cloud Discovery Workspace
 classification: cloud-discovery-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Cloud Discovery Workspace, ITOM Visibility, IT Operations Management]
 ---

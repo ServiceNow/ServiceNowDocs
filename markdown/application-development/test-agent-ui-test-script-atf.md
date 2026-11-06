@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/test-agent-ui-test-script-atf.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-27"
-reading_time_minutes: 1
-breadcrumb: [Use, Test Agent, Agentic development on the ServiceNow AI Platform, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Use, Test Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # UI Test Script in Automated Test Framework \(ATF\)
@@ -63,4 +63,9 @@ UI Test Script is available in the following environments:
 -   ServiceNow Studio \(SNS\)
 -   IDE \(Integrated Development Environment\)
 -   Standard ATF forms and lists \(for non-conversational creation\)
+
+-   **[Create a UI Test Script in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/test-agent-create-ui-test-script-ba.md)**  
+Create test scripts for custom user interfaces using conversational interaction with Build Agent. UI Test Scripts expose elements of Testing Library and run as part of the Automated Test Framework \(ATF\).
+
+**Parent Topic:**[Author, execute, and troubleshoot tests and test suites with Test Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/test-agent-use.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Health and Safety
 classification: health-and-safety
 topic_type: task
-last_updated: "2026-05-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Chemical management, Use, Health and Safety Environmental Management, Health and Safety, Employee Service Management]
 ---

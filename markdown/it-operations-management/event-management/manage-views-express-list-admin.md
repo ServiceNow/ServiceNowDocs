@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-07-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configuring Express List views for users and user groups, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -149,15 +149,15 @@ Add an alert tag filter condition
 
 5.  Assign users and groups to the Express List view.
 
-<table id="choicetable_lyp_4hp_k1c"><thead><tr><th align="left" id="d729919e377">
+<table id="choicetable_lyp_4hp_k1c"><thead><tr><th align="left" id="d779492e377">
 
 Task
 
-</th><th align="left" id="d729919e380">
+</th><th align="left" id="d779492e380">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d729919e386">
+</th></tr></thead><tbody><tr><td id="d779492e386">
 
 **Assign a user to the selected Express List view**
 
@@ -169,7 +169,7 @@ Procedure
 4.  Select the save icon \[Omitted image "save-icon.png"\].
 
 
-</td></tr><tr><td id="d729919e426">
+</td></tr><tr><td id="d779492e426">
 
 **Assign a user group to the selected Express List view**
 

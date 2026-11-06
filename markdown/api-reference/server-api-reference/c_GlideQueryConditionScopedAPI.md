@@ -1,14 +1,14 @@
 ---
 title: GlideQueryCondition - Scoped
-description: This API provides AND or OR conditions that can be added to the current condition, allowing you to build complex queries.Adds an AND condition to the current condition.Appends a two-or-three parameter OR condition to an existing GlideQueryCondition.Adds an AND condition to the current condition. Use this method to bypass query access.Appends a two-or-three parameter OR condition to an existing GlideQueryCondition. Use this method to bypass query access.Adds an AND condition to the current condition. Use this method to enforce query access based on the user.Appends a two-or-three parameter OR condition to an existing GlideQueryCondition. Use this method to enforce query access based on the user.
+description: This API provides AND or OR conditions that can be added to the current condition, allowing you to build complex queries.Adds an AND condition to the current condition.Appends a two-or-three parameter OR condition to an existing GlideQueryCondition.Adds an AND condition to the current condition.Appends a two-or-three parameter OR condition to an existing GlideQueryCondition.Adds an AND condition to the current condition.Appends a two-or-three parameter OR condition to an existing GlideQueryCondition.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/c\_GlideQueryConditionScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 14
+last_updated: "2026-09-10"
+reading_time_minutes: 12
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
 
@@ -266,16 +266,13 @@ Incident: INC0000058 State: 7 Priority: 5
 
 ## GlideQueryCondition - addSystemCondition\(String name, String oper, Object value\)
 
-Adds an AND condition to the current condition. Use this method to bypass query access.
+Adds an AND condition to the current condition.
 
-Use this method when system-level access is intended, so that query ACL enforcement is explicitly bypassed for the user. Use[addUserCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md) to enforce query access.
+Explicitly bypasses query ACL checks. Use this method when system-level access is intended, ensuring the script's intent is clear.
 
-Additional methods for system-level access that bypass query ACL checks:
+See also:
 
--   [addSystemOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
--   [GlideRecord - addSystemEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
--   [GlideRecord - addSystemOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
--   [GlideRecord - addSystemOrderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [addUserCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
 -   [GlideRecord - addSystemQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
 
 <table id="table_vy2_525_jq" class="parameters"><thead><tr><th>
@@ -393,19 +390,11 @@ Incident: INC0013306 State: 1 Priority: 4
 
 ## GlideQueryCondition - addSystemOrCondition\(String name, String oper, Object value\)
 
-Appends a two-or-three parameter OR condition to an existing GlideQueryCondition. Use this method to bypass query access.
+Appends a two-or-three parameter OR condition to an existing GlideQueryCondition.
 
-Use this method when system-level access is intended, so that query ACL enforcement is explicitly bypassed for the user. Use[addUserOrCondition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md) to enforce query access.
+Explicitly bypasses query ACL checks. Use this method when system-level access is intended, ensuring the script's intent is clear. See also [GlideQueryCondition - addUserOrCondition\(String name, String oper, Object value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md).
 
-Additional methods for system-level access that bypass query ACL checks:
-
--   [addSystemCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
--   [GlideRecord - addSystemEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
--   [GlideRecord - addSystemOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
--   [GlideRecord - addSystemOrderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
--   [GlideRecord - addSystemQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
-
-The addSystemOrCondition\(\) method works with the [GlideRecord addSystemQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) method to `OR` the specified query parameters to the query previously constructed using addSystemQuery\(\).
+addSystemOrCondition\(\) works in conjunction with the [GlideRecord addSystemQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) method to `OR` the specified query parameters to the query previously constructed using addSystemQuery\(\).
 
 <table id="table_vy2_625_jq" class="parameters"><thead><tr><th>
 
@@ -522,22 +511,11 @@ Incident: INC0000072 State: 7 Priority: 5
 
 ## GlideQueryCondition - addUserCondition\(String name, String oper, Object value\)
 
-Adds an AND condition to the current condition. Use this method to enforce query access based on the user.
+Adds an AND condition to the current condition.
 
-This method returns only records that the current user has query access to \(based on ACLs\).
+To explicitly bypasses query ACL checks, use [addSystemCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md).
 
-Related methods:
-
--   [addCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md) provides the same functionality without ACL enforcement.
--   [addSystemCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md) bypasses query access checks.
-
-Additional methods for enforcing query ACL checks:
-
--   [addUserOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
--   [GlideRecord - addUserEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
--   [GlideRecord - addUserOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
--   [GlideRecord - addUserOrderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
--   [GlideRecord - addUserQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+See also [GlideRecord - addUserQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
 
 <table id="table_vy2_525_jq" class="parameters"><thead><tr><th>
 
@@ -654,24 +632,11 @@ Incident: INC0013306 State: 1 Priority: 4
 
 ## GlideQueryCondition - addUserOrCondition\(String name, String oper, Object value\)
 
-Appends a two-or-three parameter OR condition to an existing GlideQueryCondition. Use this method to enforce query access based on the user.
+Appends a two-or-three parameter OR condition to an existing GlideQueryCondition.
 
-This method returns only records that the current user has query access to \(based on ACLs\).
+addUserOrCondition\(\) works in conjunction with the [GlideRecord addUserQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) method to `OR` the specified query parameters to the query previously constructed using addUserQuery\(\).
 
-The addUserOrCondition\(\) method works with the [GlideRecord addUserQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) method to `OR` the specified query parameters to the query previously constructed using addUserQuery\(\).
-
-Related methods:
-
--   [addOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md) provides the same functionality without ACL enforcement.
--   [addSystemOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md) bypasses query access checks.
-
-Additional methods for enforcing query ACL checks:
-
--   [addUserCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
--   [GlideRecord - addUserEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
--   [GlideRecord - addUserOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
--   [GlideRecord - addUserOrderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
--   [GlideRecord - addUserQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+To explicitly bypass query ACL checks, use [addUserOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md).
 
 <table id="table_vy2_625_jq" class="parameters"><thead><tr><th>
 

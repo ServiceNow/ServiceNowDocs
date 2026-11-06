@@ -7,7 +7,7 @@ release: australia
 product: Product Feedback
 classification: product-feedback
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Feedback in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -32,15 +32,15 @@ Role required: pf\_user
 
 4.  Update the record details or delete the feedback filter card.
 
-<table id="choicetable_pxx_tl2_2bc"><thead><tr><th align="left" id="d282557e94">
+<table id="choicetable_pxx_tl2_2bc"><thead><tr><th align="left" id="d293236e94">
 
 Choice
 
-</th><th align="left" id="d282557e97">
+</th><th align="left" id="d293236e97">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d282557e103">
+</th></tr></thead><tbody><tr><td id="d293236e103">
 
 **Edit feedback filter card**
 
@@ -53,7 +53,7 @@ From the feedback page:
 3.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d282557e138">
+</td></tr><tr><td id="d293236e138">
 
 **Delete feedback filter card**
 

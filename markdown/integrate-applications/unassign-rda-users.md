@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/unassign-rda-users.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Adding details for your bot process, Configuring a bot process record, Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -32,15 +32,15 @@ Role required: sn\_rpa\_fdn.rpa\_release\_manager, sn\_rpa\_fdn.rpa\_support\_us
 
 5.  On the **Attended Users/Groups** tab, do one of the following actions.
 
-<table id="choicetable_wh5_mgl_frb"><thead><tr><th align="left" id="d131889e147">
+<table id="choicetable_wh5_mgl_frb"><thead><tr><th align="left" id="d129995e147">
 
 Option
 
-</th><th align="left" id="d131889e150">
+</th><th align="left" id="d129995e150">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d131889e156">
+</th></tr></thead><tbody><tr><td id="d129995e156">
 
 **To delete a user**
 
@@ -50,7 +50,7 @@ Action
 2.  Select **Delete**.
 
 
-</td></tr><tr><td id="d131889e177">
+</td></tr><tr><td id="d129995e177">
 
 **To delete a group**
 

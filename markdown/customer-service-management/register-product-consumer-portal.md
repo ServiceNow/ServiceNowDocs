@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/register-product-consumer-portal.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the Consumer Service Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Consumer Service Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Register a product from the Consumer Service Portal
@@ -17,10 +17,6 @@ Users with the consumer role can register their products from the Consumer Servi
 ## Before you begin
 
 Role required: sn\_customerservice.consumer
-
-## About this task
-
-Registering a product associates it with your account so that support agents can view your product details when you submit a case. Registered products appear in your My Products list and can be referenced when creating or updating cases.
 
 ## Procedure
 

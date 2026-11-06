@@ -7,7 +7,7 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Authentication, Hardening settings, Platform Security]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Authentication, Hardening settings, Platform Security]
 
 Reduce the risk of requests by malicious bots by enabling CAPTCHA for customer registration.
 
-The **sn\_customerservice.captchaEnabled** system property determines if CAPTCHA validation is enabled or disabled for customer registration on the Customer Service Management Portal.
+The **sn\_customerservice.captchaEnabled** system property determines if CAPTCHA validation is tuned on or off for customer registration on the Customer Service Management Portal.
 
 Set the system property **sn\_customerservice.captchaEnabled** to **true** to enable CAPTCHA validation. If the property isn’t on the System Properties \[sys\_properties\] table, the default value is **true**.
 
@@ -94,7 +94,7 @@ Security risk
 
 -   Severity score: 3.7
 -   CVSS rating: Low
--   Security risk details: CAPTCHA validation is considered a best practice to prevent potentially malicious bots from automatically submitting requests against an application.
+-   Security risk details: CAPTCHA validation is considered a general guidelines to prevent potentially malicious bots from automatically submitting requests against an application.
 
 </td></tr><tr><td>
 

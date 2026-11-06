@@ -7,7 +7,7 @@ release: australia
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Usage Insights for Service Portal, Analytics and Reporting Solutions for Service Portal, Analyzing portal performance and usage, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -18,7 +18,7 @@ If you enabled unauthenticated user tracking in your portal, you may be required
 
 ## Before you begin
 
-By default, unauthenticated user tracking is turned off for portals. To modify analytics settings for a portal, see Configure Usage Insights Settings.
+By default, unauthenticated user tracking is turned off for portals. To modify analytics settings for a portal, see [Configure Usage Insights Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/config-analytics-settings.md).
 
 Role required: sp\_admin
 

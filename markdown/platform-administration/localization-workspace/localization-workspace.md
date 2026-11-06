@@ -7,7 +7,7 @@ release: australia
 product: Localization Workspace
 classification: localization-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -43,12 +43,12 @@ Some ServiceNow resources that can provide you with helpful information are:
 
     [Localization Workspace](https://www.servicenow.com/community/international-localization-blog/localization-workspace/ba-p/3389408)
 
+    [Getting started with Localization Workspace](https://www.servicenow.com/community/international-localization-blog/from-simple-set-up-to-translation-at-scale-getting-started-with/ba-p/3551082)
+
     [Internationalization and Localization](https://www.servicenow.com/community/internationalization/ct-p/international-localization)
 
     [Language Support Guide](https://www.servicenow.com/community/international-localization-blog/in-platform-language-support-guide/ba-p/2289237)
 
--   **\[Omitted image "dcx-icon-support.svg"\] Support**
-
-
+    [Localization Workspace updates](https://www.servicenow.com/community/international-localization-blog/localization-workspace-release-updates/ba-p/3506857)
 
 

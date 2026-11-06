@@ -1,21 +1,21 @@
 ---
 title: Secure custom input properties sheet
-description: Use this sheet to specify secure inputs, such as a password, in a custom input control in Virtual Agent.
+description: Secure custom input properties define secure inputs, such as a password, in a custom input control in Virtual Agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/secure-custom-input-properties-form.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-10-24"
 reading_time_minutes: 3
 keywords: [Virtual Agent, Secure, Input, Custom, Control]
-breadcrumb: [Customizing Virtual Agent with custom controls, Exploring other Virtual Agent features, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Use custom controls, Other Virtual Agent features, Build conversations, Virtual Agent, Conversational Interfaces]
 ---
 
 # Secure custom input properties sheet
 
-Use this sheet to specify secure inputs, such as a password, in a custom input control in Virtual Agent.
+Secure custom input properties define secure inputs, such as a password, in a custom input control in Virtual Agent.
 
 **Important:** To implement secure \(password2\) inputs in your Virtual Agent custom control, you must adhere to the scoped application requirements in Workflow Studio. For details, see [Workflow Studio scoped application requirements for secure inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-fd-app-reqs-secure-inputs.md).
 
@@ -89,7 +89,7 @@ Action / Subflow
 
 The Workflow Studio action or subflow to be performed in the instance. The **Input mapping** and **Output mapping** areas change depending on your selection.
 
- For details about the action or subflow, click the link beneath your selection to view it in Workflow Studio.
+ For details about the action or subflow, select the link beneath your selection to view it in Workflow Studio.
 
 </td></tr><tr><td>
 
@@ -97,7 +97,7 @@ Input mapping
 
 </td><td>
 
-Specifies the variables to be used as input to the selected action. The check boxes for secure fields \(password2 type\) are selected automatically, which makes them mandatory. If you select the check box for a String field, it will be mandatory, but not secure. Only fields that use the password2 data type are secure. For each selected field, provide the corresponding input response variable name that is specified in the action or subflow. For example, a Workflow Studio action contains an **oldPassword** input and a **newPassword** input. The input response object looks like this:
+Specifies the variables to be used as input to the selected action. The check boxes for secure fields \(password2 type\) are selected automatically, which makes them mandatory . If you select the check box for a String field, it will be mandatory , but not secure. Only fields that use the password2 data type are secure. For each selected field, provide the corresponding input response variable name that is specified in the action or subflow. For example, a Workflow Studio action contains an **oldPassword** input and a **newPassword** input. The input response object looks like this:
 
 ```
 { 

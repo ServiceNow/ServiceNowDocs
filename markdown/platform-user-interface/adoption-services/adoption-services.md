@@ -7,7 +7,7 @@ release: australia
 product: Adoption Services
 classification: adoption-services
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure user experiences]
 ---
@@ -18,17 +18,9 @@ Adoption Services is a suite of solutions, both products and features, that prov
 
 ## Get started
 
-Choose one of the tiles to get started.
+Choose one of the tiles below to get started.
 
 <table id="table_oyp_mhr_r5b" class="nav-card"><tbody><tr><td>
-
-[Dynamic Guidance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/adoption-services/dynamic-guidance.md)
-
- [\[Omitted image "icon-now-assist.png"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/adoption-services/dynamic-guidance.md)
-
- [Generates an engaging voice and text based, step by step, real-time guidance, dynamically, across platforms.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/adoption-services/dynamic-guidance.md)
-
-</td><td>
 
 [In-product help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/adoption-services/inproduct-help.md)
 
@@ -60,10 +52,5 @@ Choose one of the tiles to get started.
 
  [Use guided tours to provide step-by-step walkthroughs of applications within your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/adoption-services/guided-tours.md)
 
-</td><td>
-
- 
-
 </td></tr></tbody>
-</table>For additional getting started information, see the following Getting Started with Adoption Services video.
-
+</table>

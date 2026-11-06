@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-08-04"
 reading_time_minutes: 1
-breadcrumb: [Employee Service Management, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [Employee Service Management, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Employee Service Management AI agents

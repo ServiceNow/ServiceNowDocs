@@ -7,7 +7,7 @@ release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-09-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Issue workflows, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -24,9 +24,9 @@ Role required: sn\_grc\_issue\_mgmt.issue\_workflow\_admin
 
 ## About this task
 
-Each non-terminal state in the workflow's state model maps to one corresponding playbook stage. When the issue enters a mapped state, the playbook moves to the corresponding stage. When the final activity in a stage is completed, the system proposes the corresponding state change for confirmation.
+\[Omitted video\] Description: How to map states to playbook stages in an issue workflow
 
-Terminal states, such as Closed or Cancelled, aren't mapped, because no further guided activity is required.
+Each non-terminal state in the workflow's state model maps to one corresponding playbook stage. When the issue enters a mapped state, the playbook moves to the corresponding stage. When the final activity in a stage is completed, the system proposes the corresponding state change for confirmation.
 
 ## Procedure
 
@@ -38,7 +38,7 @@ Terminal states, such as Closed or Cancelled, aren't mapped, because no further 
 
     If the list contains many stages, enter text to search for the stage.
 
-3.  Map a playbook stage to each remaining nonterminal state.
+3.  Map a playbook stage to each remaining non-terminal state.
 
 4.  Save the state-to-stage mappings by selecting **Save and continue**.
 

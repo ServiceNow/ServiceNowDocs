@@ -7,7 +7,7 @@ release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -20,7 +20,7 @@ The Commitments feature recommends resources that could decrease costs by the co
 
 ## How the Commitments feature works
 
-1.  Each time billing and usage data updates, the system identifies resources recommended by your provider for committed plans. These are resources projected to cost less under a reservation plan over their planned lifetime.
+1.  Each time billing and usage data updates, the system identifies resources recommended by your provider for reservation plans. These are resources projected to cost less under a reservation plan over their planned lifetime.
 2.  The Commitments feature sorts the resources by estimated savings and displays the list on the **Commitments** page. You can view the list by navigating to **Cloud Cost Management Workspace** &gt; **Optimization** &gt; **Commitments**.
 
     For more information, see [Reduce resource cost with Commitments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/reserve-plan-using.md).

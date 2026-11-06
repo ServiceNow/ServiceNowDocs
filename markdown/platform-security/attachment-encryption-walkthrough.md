@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/attachment-encryption-walkthrough.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Column Level Encryption Enterprise examples, Using Column Level Encryption, Column Level Encryption, Encryption]
 ---
@@ -133,7 +133,9 @@ Method
 The **Single Module** option is used to apply the policies for one module. **Multiple Modules** is used to apply the policies across multiple modules.
 
 </td></tr></tbody>
-</table>7.  Select **Save**.
+</table>    \[Omitted image "image.fe-efc-table"\] Alt text: Encrypted Field Configuration table
+
+7.  Select **Save**.
 
     Establish a Module Access Policy \(MAP\) to assign access to the cryptographic module. Refer to [Create a module access policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platform-encryption/create-module-access-policy.md) for additional information.
 
@@ -163,6 +165,8 @@ The **Single Module** option is used to apply the policies for one module. **Mul
 13. As user with access to the encryption module, navigate to **Incidents** and add an attachment to the form.
 
     Once the attachment is uploaded, it will be available from the Activities screen.
+
+    \[Omitted image "image.fe-attachment-available-per-role"\] Alt text: Attachment available per role
 
 14. Log in as a user that doesn't have access to the module.
 

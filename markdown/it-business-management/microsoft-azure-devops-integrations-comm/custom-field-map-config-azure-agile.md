@@ -7,7 +7,7 @@ release: australia
 product: Microsoft Azure DevOps Integrations Comm
 classification: microsoft-azure-devops-integrations-comm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Customizing your map configuration for Microsoft Azure DevOps integration, Setting up the integration between Microsoft Azure DevOps and Agile Development 2.0, Microsoft Azure DevOps Integration for Agile Development, Strategic Portfolio Management]
 ---
@@ -120,6 +120,10 @@ Understand how to configure a reference field while creating a new field map con
 When you select a reference field for the **Internal Field** field, you must select a value for the **Lookup Column Name** field. The value from the **Lookup Column Name** field is used during the import and export of work items between Azure DevOps and Agile Development 2.0.
 
 During import, the integration application searches for the record in the reference table using the **Lookup Column Name** field. If the record is not found, the value in the work item will be empty in Agile Development 2.0.
+
+For a user reference field such as **Assigned To**, the integration reads the value in angle brackets that follows the user's display name in the Azure DevOps value. It searches the user table for a record in which the column that you select in **Lookup Column Name** matches that value. If no user matches, **Assigned To** is empty.
+
+To match users by another attribute, change **Lookup Column Name** on the **Assigned To** field map to that column. For example, select `user_name` if the value in angle brackets is the sign-in name of the user. You can't select a column that is itself a reference field.
 
 
 

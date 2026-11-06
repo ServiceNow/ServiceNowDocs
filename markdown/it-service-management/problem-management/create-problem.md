@@ -7,7 +7,7 @@ release: australia
 product: Problem Management
 classification: problem-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a problem, Managing Problems, Problem Management, IT Service Management]
 ---
@@ -24,7 +24,7 @@ Role required: itil
 
 1.  Create the problem with one of these options.
 
-<table id="choicetable_agp_ckc_3t"><tbody><tr><td id="d152478e54">
+<table id="choicetable_agp_ckc_3t"><tbody><tr><td id="d251475e54">
 
 **From the Problem module**
 
@@ -32,7 +32,7 @@ Role required: itil
 
 Navigate to **Problem** &gt; **Create New**.
 
-</td></tr><tr><td id="d152478e72">
+</td></tr><tr><td id="d251475e72">
 
 **From an incident**
 

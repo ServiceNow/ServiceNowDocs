@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Closing an RMA order, Return Merchandise Authorization \(RMA\), Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
@@ -175,7 +175,7 @@ Notes about the task that are visible to all users within your organization.
 
     If you are receiving a new enterprise asset as a replacement for the defective enterprise asset, you must also create an asset record for the new enterprise asset. See [Create enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/create-asset-eam.md) for detailed instructions.
 
-    **Note:** When you create the asset record for the new enterprise asset, you must set the **State** field to **In stock**. You must also verify that the **Acquisition method** field is set to **RMA Replacement.**
+    **Note:** When you create the asset record for the new enterprise asset, set the **State** field to **In stock** and the **Substate** field to **Available**. In addition, set the **Acquisition method** field to any option other than **RMA Replacement**. Assets with that acquisition method aren't available to select from in the **Replacement asset** field of the Receive task. When you close the Receive task, the Enterprise Asset Management application automatically sets the **Acquisition method** field for the replacement asset to **RMA Replacement**.
 
     1.  On the **RMA Line Tasks** tab of the RMA order line record, select the task number for the **Receive** task.
 

@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -46,7 +46,7 @@ If you want additional actions to be performed after creating a CI, such as crea
 -   In the getAppId\(\) function, add the sys\_id of the application containing the workspace from the UX Application \[sys\_ux\_page\_registry\] table.
 -   In the postInsertCI\(\) function, define the additional actions you want to perform.
 
-Your extension point implementation runs after a new CI is created in the application specified in getAppId\(\). You can create additional implementations as needed for additional applications. For more information about extension points, see [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md).
+Your extension point implementation runs after a new CI is created in the application specified in getAppId\(\). You can create additional implementations as needed for additional applications. For more information about extension points, see .
 
 Role required: cmdb\_manual\_ci\_ire\_access \(contained in the sn\_cmdb\_editor role by default\)
 

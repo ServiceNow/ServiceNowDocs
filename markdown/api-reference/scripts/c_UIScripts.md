@@ -1,15 +1,15 @@
 ---
 title: UI scripts
-description: UI scripts provide a way to package client-side JavaScript into a reusable form, similar to how script includes store server-side JavaScript. Administrators can create UI scripts and run them from client scripts and other client-side script objects and from HTML code.You can create a UI script and designate it as global, which makes the script available on any form in the system. You cannot create a global UI script in a scoped application.Create a UI script to define reusable client-side JavaScript code.Follow these guidelines when running UI scripts.
+description: UI scripts provide a way to package client-side JavaScript into a reusable form, similar to how script includes store server-side JavaScript. Administrators can create UI scripts and run them from client scripts and other client-side script objects and from HTML code.Create a UI script to define reusable client-side JavaScript code.Follow these general guidelines when running UI scripts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/c\_UIScripts.html
 release: australia
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Client-side scripting, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Write client-side scripts, Scripting, API implementation, API implementation and reference]
 ---
 
 # UI scripts
@@ -18,29 +18,23 @@ UI scripts provide a way to package client-side JavaScript into a reusable form,
 
 **Note:** UI scripts aren't supported on mobile or Next Experience.
 
-**Parent Topic:**[Client-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/client-side-scripting-overview.md)
-
-## Global UI scripts
-
-You can create a UI script and designate it as global, which makes the script available on any form in the system. You cannot create a global UI script in a scoped application.
-
-You can mark a UI script as Global to make it available on any form in the system. For example, you can create a UI script that has a function helloWorld\(\), and has the **Global** field checked:
-
-```
-function helloWorld() {
-  alert('Hi');
-}
-```
-
-After you create this global UI script, you can call the helloWorld\(\) function from any client script or UI policy you write.
+**Parent Topic:**[Writing client-side scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/client-side-scripting-overview.md)
 
 ## Create a UI script
 
 Create a UI script to define reusable client-side JavaScript code.
 
+### Before you begin
+
+Role required: admin
+
 ### Procedure
 
-1.  To create UI scripts, navigate to **System UI** &gt; **UI Scripts** and create or edit a record \(see table for field descriptions\).
+1.  Navigate to **System UI** &gt; **UI Scripts**.
+
+2.  Select **New**.
+
+3.  On the form, fill in the fields.
 
 <table id="table_zsc_z4z_sr"><thead><tr><th>
 
@@ -51,14 +45,6 @@ Field
 Description
 
 </th></tr></thead><tbody><tr><td>
-
-Script Name
-
-</td><td>
-
-Name of the UI script. Ensure the name is unique on your system.
-
-</td></tr><tr><td>
 
 API Name
 
@@ -76,6 +62,14 @@ Application that contains the UI script.
 
 </td></tr><tr><td>
 
+UI Type
+
+</td><td>
+
+Target user interface to which the UI script applies.
+
+</td></tr><tr><td>
+
 Active
 
 </td><td>
@@ -88,9 +82,7 @@ Global
 
 </td><td>
 
-Indicator of whether the script loads on every page in the system.
-
- **Note:** Use caution when creating global UI scripts because they can impact performance. You cannot create a global UI script in a scoped application.
+An option to makes the script available on any form in the system. You can call global UI scripts from any client script or UI policy you write.**Note:** Use caution when creating global UI scripts because they can impact performance. You can't create a global UI script in a scoped application.
 
 </td></tr><tr><td>
 
@@ -109,18 +101,20 @@ Script
 Client-side script to run when called from other scripts.
 
 </td></tr></tbody>
-</table>
-## Run UI scripts
+</table>4.  Select **Submit**.
 
-Follow these guidelines when running UI scripts.
+
+## General guidelines for running UI scripts
+
+Follow these general guidelines when running UI scripts.
 
 ### Run a UI script from a form
 
-To run a UI script on a form, [Create a formatter and add it to a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAFormatter.md). In the associated [UI macro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_UIMacros.md), include a `g:requires` tag and specify the **name=** parameter as the name of the UI script followed by the .jsdbx extension. Add the formatter on the form view.
+To run a UI script on a form, [Create a formatter and add it to a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAFormatter.md). In the associated [UI macro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_UIMacros.md), include a `g:requires` tag and specify the **name=** parameter as the name of the UI script followed by the `.jsdbx` extension. Add the formatter on the form view.
 
 This code ensures that the definitions and results of the UI script are immediately available in the browser.
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8" ?>  
 <j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">  
     <g2:evaluate var="jvar_stamp">  
@@ -138,7 +132,7 @@ This code ensures that the definitions and results of the UI script are immediat
 
 To run a UI script from HTML code, use the `<script>` tag and specify the `src=` argument as the API name of the UI script followed by the .jsdbx extension. For example, include the UI script named CoolClock with this code:
 
-```
+```xml
 <script language="javascript" src="CoolClock.jsdbx" />
 ```
 

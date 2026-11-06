@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/impact-packages.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Impact reference, Impact]
+breadcrumb: [General reference, Impact reference, Impact]
 ---
 
 # Impact packages
@@ -32,10 +32,9 @@ If you have purchased an Impact offering, the applicable Impact Package descript
 
 -   **Guided**
     -   Entry-level offerings including the Premium digital experience, enhanced technical support, and curated content.
-    -   Impact Squad: Customer Success Manager
 -   **Total**
     -   The complete solution with a designated expert team, personalized recommendations, preventative tools, and much more.
-    -   Impact Squad Team: Customer Success Executive, Platform Architect, Customer Success Manager, and Support Account Manager
+    -   Impact Squad Team: Customer Success Executive, Platform Architect, , and Support Account Manager
 -   **Integrated Success**
     -   Includes all benefits in Impact Total along with expert-led support for Program Delivery \(EM\), Design \(BPC\), and Architecture \(SA\) and Technical Implementation Services
     -   Expert Team: Engineering Manager \(EM\), Business Process Consultant\(BPC\), Solution Architect\(SA\)
@@ -68,7 +67,7 @@ Guided
 
 </td><td>
 
-Entry-level offerings including the Premium digital experience, enhanced technical support, Impact Squad Customer Service Manager \(CSM\), and curated content
+Entry-level offerings including the Premium digital experience, enhanced technical support, , and curated content
 
 </td><td>
 
@@ -123,7 +122,6 @@ Strategic Value
 
 -   Upgraded Value IDI
 -   Two additional Strategy Accelerator catalog concurrencies
--   Additional CSM coverage
 
 </td></tr><tr><td>
 
@@ -133,7 +131,6 @@ Platform Governance
 
 -   Upgraded Health IDI
 -   Two additional Architecture Accelerator catalog concurrencies
--   Additional CSM coverage
 
 </td></tr><tr><td>
 
@@ -193,8 +190,7 @@ Platform Health
 </table>**Note:**
 
 -   IDI = Impact Delivery Instance
--   CSM = Customer Support Manager
 -   SAM = Support Account Manager
 
-**Parent Topic:**[Impact reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-reference.md)
+**Parent Topic:**[General reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/general-reference.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/work-indiv-life-insurance-underwriting-task.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Individual Life Servicing, Life Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -32,7 +32,7 @@ Use the case playbook that provides the activities and tasks required to researc
 
 3.  Open the task from the underwriting task list.
 
-<table><tbody><tr><td id="d60111e105">
+<table><tbody><tr><td id="d60430e105">
 
 **From the Individual Life Underwriting task list**
 
@@ -53,15 +53,15 @@ Use the case playbook that provides the activities and tasks required to researc
 
 6.  Close the task from the underwriting task form.
 
-<table><thead><tr><th align="left" id="d60111e182">
+<table><thead><tr><th align="left" id="d60430e182">
 
 Underwriting task
 
-</th><th align="left" id="d60111e185">
+</th><th align="left" id="d60430e185">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d60111e191">
+</th></tr></thead><tbody><tr><td id="d60430e191">
 
 **To review coverage change**
 
@@ -73,7 +73,7 @@ Action
     -   In the task form, in the **State** field, change the state of the task to **Closed Complete**.
 
 
-</td></tr><tr><td id="d60111e229">
+</td></tr><tr><td id="d60430e229">
 
 **To submit a review**
 

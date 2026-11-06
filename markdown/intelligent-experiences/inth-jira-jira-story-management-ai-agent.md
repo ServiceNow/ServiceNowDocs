@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-09-30"
 reading_time_minutes: 2
-breadcrumb: [Jira Spoke AI agents, Integration Hub AI agents, Integration Hub, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [Jira Spoke AI agents, Integration Hub AI agents, Integration Hub, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Jira story management AI agent

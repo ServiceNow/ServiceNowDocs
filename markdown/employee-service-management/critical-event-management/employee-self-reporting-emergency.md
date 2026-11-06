@@ -7,7 +7,7 @@ release: australia
 product: Critical Event Management
 classification: critical-event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Report critical events, Critical Event Management, Health and Safety, Employee Service Management]
 ---
@@ -24,15 +24,15 @@ Role required: sn\_critical.user
 
 1.  Open the email or SMS notification and respond.
 
-<table id="choicetable_iwx_5bh_ndc"><thead><tr><th align="left" id="d763953e57">
+<table id="choicetable_iwx_5bh_ndc"><thead><tr><th align="left" id="d761065e57">
 
 Notification
 
-</th><th align="left" id="d763953e60">
+</th><th align="left" id="d761065e60">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d763953e66">
+</th></tr></thead><tbody><tr><td id="d761065e66">
 
 **Email**
 
@@ -42,7 +42,7 @@ Steps
 2.  Select **Send**.
 
 
-</td></tr><tr><td id="d763953e90">
+</td></tr><tr><td id="d761065e90">
 
 **SMS**
 

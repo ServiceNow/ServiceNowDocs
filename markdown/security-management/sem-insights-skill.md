@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-insights-skill.html
 release: australia
 topic_type: task
-last_updated: "2026-07-29"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Use, Unified Security Exposure Management, Security Operations]
 ---
 
@@ -54,6 +54,4 @@ To generate insights in the SEM workspace, you must have the sn\_vul\_ai.run\_se
 -   Regenerate insights after applying dashboard filters for more tailored results.
 -   Provide feedback on insights using the thumbs up or thumbs down icons on each card.
 -   Refresh dashboard data with the refresh icon. Refreshing updates data but does not regenerate insights automatically.
-
-**Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/using-unified-security-exposure-management.md)
 

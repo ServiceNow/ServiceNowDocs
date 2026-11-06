@@ -7,7 +7,7 @@ release: australia
 product: UI Builder API Reference
 classification: ui-builder-api-reference
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 24
 breadcrumb: [UIB API reference, API reference, API implementation and reference]
 ---

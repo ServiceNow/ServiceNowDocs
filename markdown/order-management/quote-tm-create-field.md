@@ -1,18 +1,18 @@
 ---
 title: Create a transaction field
-description: Create a custom field in ServiceNow Quote Experience to capture additional data at the transaction \(header\) level or the transaction line level in CPQ.
+description: Create a custom field in ServiceNow Quote Experience to capture additional data at the transaction \(header\) level or the transaction line level in ServiceNow CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quote-tm-create-field.html
 release: australia
 topic_type: task
 last_updated: "2026-05-07"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Fields, ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create a transaction field
 
-Create a custom field in ServiceNow Quote Experience to capture additional data at the transaction \(header\) level or the transaction line level in CPQ.
+Create a custom field in ServiceNow Quote Experience to capture additional data at the transaction \(header\) level or the transaction line level in ServiceNow CPQ.
 
 ## Before you begin
 
@@ -71,7 +71,7 @@ Fields created through the ServiceNow Quote Experience administration interface 
 18. Select the form the number field takes.
 
     -   Select **Number** for a plain numeric value.
-    -   Select **Currency** for a monetary value. The unit label defaults to the currency symbol configured for your CPQ site.
+    -   Select **Currency** for a monetary value. The unit label defaults to the currency symbol configured for your ServiceNow CPQ site.
     -   Select **Percentage** for a percentage value. The unit label defaults to the percent symbol \(%\).
 19. In the **Unit Label** field, enter a custom label to display alongside the number value.
 
@@ -94,42 +94,46 @@ Fields created through the ServiceNow Quote Experience administration interface 
 
 26. In the **False Label** field, enter the text to display when the field value is false.
 
-27. Configure picklist field options
-28. In the **Selection Type** field, select how users choose values from this picklist.
+27. Map fields.
+
+    For more information, see [Configure transaction-to-quote field mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-opportunity-quote-mapping.md).
+
+28. Configure picklist field options
+29. In the **Selection Type** field, select how users choose values from this picklist.
 
     -   Select **Single-select** so users can choose one option at a time.
     -   Select **Multi-select** so users can choose more than one option.
-29. In the **Comparison Type** field, select how the selected option's value is treated when used in a rule condition.
+30. In the **Comparison Type** field, select how the selected option's value is treated when used in a rule condition.
 
     -   Select **Text** to treat the option value as a string in comparisons.
     -   Select **Number** to treat the option value as a numeric value in comparisons.
-30. Select **+ Add Picklist Options** to add the first option to the picklist.
+31. Select **+ Add Picklist Options** to add the first option to the picklist.
 
-31. Configure the option properties using the following fields.
+32. Configure the option properties using the following fields.
 
     |Property|Description|
     |--------|-----------|
     |**Order**|Controls the position of this option in the picklist. Lower numbers appear higher in the list. Use increments of 10 \(10, 20, 30\) rather than 1, 2, 3 to leave room for inserting options later.|
     |**Option Label**|The option name displayed to users on the quote layout.|
-    |**Option Value**|The internal value that CPQ uses to identify this option in rules and integrations.|
+    |**Option Value**|The internal value that ServiceNow CPQ uses to identify this option in rules and integrations.|
     |**Selected**|When enabled, this option is the default selected value when a new quote is created.|
     |**Description**|An optional description of the option, visible in the administration interface.|
     |**Image URL**|The URL of a image to display in place of the option label text on the quote layout.|
 
-32. Select **Save Option** to add the option to the picklist.
+33. Select **Save Option** to add the option to the picklist.
 
-33. Select **+ Add Option** to add another option and repeat the previous two steps until all options are added.
+34. Select **+ Add Option** to add another option and repeat the previous two steps until all options are added.
 
-34. Configure date/time field options
-35. In the **Default Value** field, enter the default date and time for the field.
+35. Configure date/time field options
+36. In the **Default Value** field, enter the default date and time for the field.
 
     The value is stored and displayed in UTC format: `YYYY-MM-DDTHH:MM:SSZ`. For more information about date and time field behavior, see [Date and time field fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-date-time-field-behavior.md).
 
-36. In the **Not Before** field, enter the earliest date and time a user can select for this field.
+37. In the **Not Before** field, enter the earliest date and time a user can select for this field.
 
-37. In the **Not After** field, enter the latest date and time a user can select for this field.
+38. In the **Not After** field, enter the latest date and time a user can select for this field.
 
-38. Select **Save** to save the field configuration.
+39. Select **Save** to save the field configuration.
 
     The field is saved and associated with the blueprint. It appears in the Associated Fields list and is available to add to a quote layout.
 
@@ -137,8 +141,6 @@ Fields created through the ServiceNow Quote Experience administration interface 
 ## What to do next
 
 Add the field to the quote layout to make it visible to users on the quote interface. For more information, see [Create a quote transaction layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-create-layout.md).
-
-**Parent Topic:**[Quote transaction fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-fields.md)
 
 **Related topics**  
 

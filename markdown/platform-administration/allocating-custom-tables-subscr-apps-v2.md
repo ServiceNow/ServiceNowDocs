@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/allocating-custom-tables-subscr-apps-v2.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Subscription Management, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -49,15 +49,15 @@ A custom application is defined as an application that you create on the Service
 
 App Engine subscriptions entitle you to develop applications and deploy custom tables in production instances. Based on your App Engine version, you monitor the subscription usage of your App Engine applications differently.
 
--   You can view and manage App Engine V2 subscriptions in Subscription Management just like any other product subscription. You can map your applications and custom tables to an App Engine V2 subscription and allocate per-user subscriptions by adding groups with measured roles to an App Engine V2 subscription.
+-   You can view and manage App Engine V2 subscriptions in Subscription Management just like any other product subscription. You can map your applications and custom tables to an App Engine V2 subscriptionand allocate per-user subscriptions by adding groups with measured roles to an App Engine V2 subscription.
 -   You can't view App Engine V1 subscription details on the details page like other subscriptions. Users with the usage\_admin, sn\_sub\_man.admin, or admin roles can view App Engine V1 subscription details and usage information by navigating to the **App Engine usage** module from the filter navigator. This module only appears if you have App Engine V1.
 
-    For details on auditing App Engine V1 usage, see [KB0999383](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0999383).
+    For details on auditing App Engine V1 usage, see the article [Auditing App Engine v1 \[KB0999383\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0999383) in the Now Support Knowledge Base.
 
 
 -   **[Map a custom application to a product subscription in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/map-custom-applications-v2.md)**  
 Maintain accurate entitlement for custom tables in a scoped application by mapping the application to a product subscription in Subscription Management. To stay in compliance, you must map custom tables to a product subscription.
--   **[Map a missing custom application to a product subscription in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/map-missing-custom-app-sub-mgt.md)**  
+-   **[Map a missing custom app to a product subscription in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/map-missing-custom-app-sub-mgt.md)**  
 Map a custom application to a product subscription when that application isn't shown in the **Unmapped custom applications** tab of **Subscription Management**. To stay in compliance, you must map custom tables that belong to a custom application to a product subscription.
 -   **[Map custom tables to a product subscription in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/allocate-custom-table-subsc-app-v2.md)**  
 Maintain accurate entitlement for custom tables in the global scope and stay in compliance by mapping the tables to a product subscription in Subscription Management. Mapping your custom tables keeps your custom table allotment updated and helps you avoid running out of custom table entitlements.

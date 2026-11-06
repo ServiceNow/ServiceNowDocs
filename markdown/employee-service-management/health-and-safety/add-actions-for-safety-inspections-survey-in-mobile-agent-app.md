@@ -7,7 +7,7 @@ release: australia
 product: Health and Safety
 classification: health-and-safety
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage the safety inspection and audit surveys through mobile app, Manage safety inspections and audits through the mobile apps, Mobile experience for Health and Safety, Health and Safety, Employee Service Management]
 ---
@@ -42,15 +42,15 @@ For more information on how an admin configures which survey field type should d
 
 3.  To open surveys,
 
-<table id="choicetable_adf_tqn_lfc"><thead><tr><th align="left" id="d810100e146">
+<table id="choicetable_adf_tqn_lfc"><thead><tr><th align="left" id="d806660e146">
 
 Section
 
-</th><th align="left" id="d810100e149">
+</th><th align="left" id="d806660e149">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d810100e155">
+</th></tr></thead><tbody><tr><td id="d806660e155">
 
 **My Surveys**
 
@@ -58,7 +58,7 @@ Steps
 
 Tap **My Assessments and Surveys**.All surveys that were downloaded before you went offline are listed.
 
-</td></tr><tr><td id="d810100e169">
+</td></tr><tr><td id="d806660e169">
 
 **Inspections**
 

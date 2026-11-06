@@ -7,7 +7,7 @@ release: australia
 product: Safe Workplace
 classification: safe-workplace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up Workplace PPE Inventory Management, Workplace PPE Inventory Management, Safe Workplace, Health and Safety, Employee Service Management]
 ---
@@ -18,7 +18,7 @@ Add stock for a PPE model to track the availability of the item at different loc
 
 ## Before you begin
 
-Create stockrooms for your PPE. To create a stockroom, navigate to **PPE Inventory Management** &gt; **Inventory** &gt; **Stockrooms**.
+Create stockrooms for your PPE. To create a stockroom, navigate to **PPE Inventory Management** &gt; **Inventory** &gt; **Stockrooms**. For more information, see Stockrooms.
 
 Role required: sn\_imt\_ppe.ppe\_admin
 

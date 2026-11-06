@@ -7,7 +7,7 @@ release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Bundling WOTs, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
@@ -32,15 +32,15 @@ When you unbundle a work order task bundle, the work order task bundle enters a 
 
 3.  Select the bundle.
 
-<table id="choicetable_o4n_qvz_2wb"><thead><tr><th align="left" id="d84089e96">
+<table id="choicetable_o4n_qvz_2wb"><thead><tr><th align="left" id="d86640e96">
 
 Bundle
 
-</th><th align="left" id="d84089e99">
+</th><th align="left" id="d86640e99">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d84089e105">
+</th></tr></thead><tbody><tr><td id="d86640e105">
 
 **Single bundle**
 
@@ -48,7 +48,7 @@ Action
 
 Select the bundle.
 
-</td></tr><tr><td id="d84089e114">
+</td></tr><tr><td id="d86640e114">
 
 **Multiple bundles**
 

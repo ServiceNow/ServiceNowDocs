@@ -7,7 +7,7 @@ release: australia
 product: Automation Center
 classification: automation-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Configure batch import for data, Configuring data import, Create an automation source, Working with Connection Manager, Use, Automation Center, Workflow Data Fabric]
 ---

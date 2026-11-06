@@ -1,20 +1,20 @@
 ---
 title: Configure daily stats
-description: Configure daily stats records that you want to display on the Manager Hub. Daily stats can be information related to employee PTO, employee location, and so on.
+description: Configure daily stats records that you want to display on the Manager Hub and Team members tabs in Your team menu in Employee Center. Daily stats can be information related to employee PTO, employee location, and so on.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/configure-daily-stats.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure, Manager Hub, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure Manager Hub, Manager Hub, HR Service Delivery, Employee Service Management]
 ---
 
 # Configure daily stats
 
-Configure daily stats records that you want to display on the Manager Hub. Daily stats can be information related to employee PTO, employee location, and so on.
+Configure daily stats records that you want to display on the Manager Hub and Team members tabs in Your team menu in Employee Center. Daily stats can be information related to employee PTO, employee location, and so on.
 
 ## Before you begin
 
@@ -31,9 +31,9 @@ Role required: sn\_mh.admin
     |Field|Description|
     |-----|-----------|
     |Name|Name of the daily stat configuration record.|
-    |Display label|Display name of the daily stat record in the Manager Hub and Team members tabs in Your team menu.|
+    |Display label|Display name of the daily stat record in the Manager Hub and Team members tabs in Your team menu in Employee Center.|
     |Active|Option to activate or deactivate the daily stat configuration record.|
-    |Order|Order in which you want the daily stat record to appear in the Manager Hub and Team members tabs in Your team menu. The daily stat configuration record with the lowest order number appears first, and the daily stat configuration record with the highest order number appears last on the user interface.|
+    |Order|Order in which you want the daily stat record to appear in the Manager Hub and Team members tabs in Your team menu in Employee Center. The daily stat configuration record with the lowest order number appears first, and the daily stat configuration record with the highest order number appears last on the user interface.|
 
 4.  Click **Submit**.
 
@@ -63,8 +63,6 @@ Role required: sn\_mh.admin
 [Activate a scheduled job]()
 
 [Configure important dates]()
-
-[Configure manager insights for ServiceNow Otto for HRSD]()
 
 [Configure team requests]()
 

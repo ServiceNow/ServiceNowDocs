@@ -7,9 +7,9 @@ release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Using Predictive Intelligence, Predictive Intelligence, Enable AI experiences]
+breadcrumb: [Using Predictive Intelligence, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Use Predictive Intelligence in Workflow Studio with ML actions
@@ -28,7 +28,7 @@ Workflow Studio enables you to automate complex processes. The first thing to id
 
 You can deploy any active and trained classification, similarity, or regression ML solution in your flow, as appropriate for your use case.
 
-**Note:** The regression framework is deprecated in the Australia release. You can continue to use existing regression solutions but you can't create new ones.
+**Note:** The regression framework is deprecated in the Brazil release. You can continue to use existing regression solutions but you can't create new ones.
 
 In this example procedure, you create a flow that implements the ml\_incident\_categorization solution in a Workflow Studio action. You can find this solution by searching on the ML Solutions \[ml\_solution\] table, as shown in the image below. Confirm that the solution you use has been trained and its **Active** value is set to **true**.
 
@@ -124,7 +124,7 @@ For more information on how to use Flow Designer in Workflow Studio, see [Explor
 
         In order to access the list of items in the Regression Prediction action, you don't need the **For Each Item in** flow logic.
 
-        \(The regression framework is deprecated in the Australia release. You can continue to use existing regression solutions but you can't create new ones.\)
+        \(The regression framework is deprecated in the Brazil release. You can continue to use existing regression solutions but you can't create new ones.\)
 
     2.  Select **Done**.
 

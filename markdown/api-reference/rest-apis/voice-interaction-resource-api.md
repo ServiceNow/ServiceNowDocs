@@ -7,8 +7,8 @@ release: australia
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 20
+last_updated: "2026-09-29"
+reading_time_minutes: 22
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
 
@@ -24,9 +24,9 @@ You can use this API to persist transcribed messages from an on-going phone call
 
 The following call flow shows how to use the Voice Interaction API to create a voice interaction record, transcribe and store the messages within that voice conversation, and then close the voice conversation record. You can also use business rules and other scripts to perform this functionality, however, this type of implementation is not covered in this section.
 
-1.  First, call the [Voice Interaction Resource - POST /cs/voice-interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/voice-interaction-resource-api.md) endpoint to create a voice interaction record in the Interaction \[interaction\] table.
+1.  First, call the [Voice Interaction Resource - POST /cs/voice-interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/voice-interaction-resource-api.md) endpoint to create a voice interaction record in the Interaction \[interaction\] table. In callback scenarios, pass the **relatedRecords** parameter to provide callback context; the endpoint checks for an existing work-in-progress interaction with the same callback reference and reuses it instead of creating a duplicate.
 2.  Then call the [Voice Interaction Resource - POST /cs/voice-interactions/\{interactionId\}/messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/voice-interaction-resource-api.md) endpoint to store translated messages from the voice conversation into the Conversation Message table. If you are processing a real-time conversation, you should call this endpoint frequently, so that the messages appear in Agent Workspace in a timely manner. When processing a recording for historical purposes, you can pass all messages in a single endpoint call.
-3.  Once you are finished persisting the voice messages, call the [Voice Interaction Resource - PATCH /cs/voice-interactions/\{interactionId\}/state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/voice-interaction-resource-api.md) endpoint to terminate the capture and close the voice interaction record.
+3.  When you finish persisting the voice messages, call the [Voice Interaction Resource - PATCH /cs/voice-interactions/\{interactionId\}/state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/voice-interaction-resource-api.md) endpoint to terminate the capture and close the voice interaction record.
 
 ## Availability
 
@@ -207,6 +207,8 @@ Creates a voice interaction record within the Interaction \[interaction\] table.
 
 You must create this record before trying to save any transcribed voice messages. You can also use this endpoint to assign a call to a specific agent by passing in their specific user ID.
 
+When creating a voice interaction in a callback scenario, the endpoint checks for an existing work-in-progress \(WIP\) interaction with the same callback reference. If found, the endpoint reuses that interaction instead of creating a duplicate. This prevents multiple interaction records from being created when an agent initiates a callback.
+
 ### URL format
 
 Versioned URL: `/api/now/{api_version}/cs/voice-interactions`
@@ -298,6 +300,43 @@ Required. Phone number of the caller who made the call associated with the voice
 
 Format: Defined by the software that created the voice conversation script. Typically E.164 standard compliant.
 
+</td></tr><tr><td>
+
+relatedRecords
+
+</td><td>
+
+Context information for the interaction. Pass this parameter to associate the voice interaction with a callback request or other related record. Data type: Object
+
+```
+"relatedRecords": {
+    "context_document": "String",
+    "context_table": "String"
+  }
+```
+
+Default: None
+
+</td></tr><tr><td>
+
+context\_document
+
+</td><td>
+
+The sys\_id of the related record. For example, the sys\_id of a Callback \[sys\_cs\_callback\] record in a callback scenario. Data type: String
+
+Default: None
+
+</td></tr><tr><td>
+
+context\_table
+
+</td><td>
+
+The table name of the related record. For example, `sys_cs_callback`. Data type: String
+
+Default: None
+
 </td></tr></tbody>
 </table>### Headers
 
@@ -338,7 +377,7 @@ The following status codes apply to this HTTP action. For a list of possible sta
 
 |Status code|Description|
 |-----------|-----------|
-|200|Successful. The request was successfully processed.|
+|200|Success. Returns the sys\_id of the voice interaction. If a WIP interaction with the same callback reference exists, returns the sys\_id of the existing interaction instead of creating a new one.|
 |400|Bad Request. Badly formed JSON or required parameters were not passed.|
 |500|Internal server error. An unexpected error occurred while processing the request. The response contains additional information about the error.|
 
@@ -383,6 +422,38 @@ curl "http://instance.servicenow.com/api/now/v1/cs/voice-interactions" \
   "agentId": "beth.anglin",
   "callerPhoneNumber": "+14089178878",
   "clientSessionId": "f8453abb-a33d-45b7-bf01-52b7a821e99z"
+}'
+```
+
+Response:
+
+```
+{
+  "result": {
+    "interactionId": "4462cb4753751110b6e8ddeeff7b12ca"
+  }
+}
+```
+
+### \(cURL\) Callback scenario with duplicate prevention
+
+The following code example shows how to create a voice interaction for a callback scenario. If a work-in-progress interaction with the same callback reference already exists, the endpoint returns the sys\_id of that existing interaction.
+
+```
+curl "http://instance.servicenow.com/api/now/v1/cs/voice-interactions" \ 
+--request POST \ 
+--header "Accept:application/json" \ 
+--user 'username':'password' \ 
+--header "Content-Type: application/json"\ 
+-d '{ 
+  "userId": "+14089178877",
+  "agentId": "beth.anglin",
+  "callerPhoneNumber": "+14089178878",
+  "clientSessionId": "f8453abb-a33d-45b7-bf01-52b7a821e99z",
+  "relatedRecords": {
+    "context_document": "d1234567890abcdef1234567890abcd",
+    "context_table": "sys_cs_callback"
+  }
 }'
 ```
 

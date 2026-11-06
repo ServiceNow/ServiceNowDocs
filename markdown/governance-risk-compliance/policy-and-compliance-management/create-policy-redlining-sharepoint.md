@@ -7,7 +7,7 @@ release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Creating and associating policy texts from Cloud documents, Policy authoring and redlining in Compliance Workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -57,6 +57,8 @@ When personal authentication is enabled, create, connect, and upload operations 
     The Document Library is the default root location for hosting documents. Provide only the path relative to it, not the full site URL.
 
     For example, if your document, PolicyAuthoring.docx, will reside at **Site Documents** &gt; **GRC**, enter GRC in the **Folder location** field.
+
+    Currently, you can create, connect, and retrieve documents only from the default document library of the configured SharePoint site.
 
 8.  Enter the name of the document in the **Document name** field.
 

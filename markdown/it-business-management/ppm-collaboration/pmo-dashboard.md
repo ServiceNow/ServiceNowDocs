@@ -7,7 +7,7 @@ release: australia
 product: PPM Collaboration
 classification: ppm-collaboration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Project Portfolio Management Platform Analytics Solutions, Project Portfolio Management, Strategic Portfolio Management]
 ---

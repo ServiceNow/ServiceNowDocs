@@ -26,6 +26,8 @@ Retail includes four prebuilt case types that extend the retail framework. Each 
 
 **Note:** As of the Zurich Q3 '25 store release, the Retail Case \(`sn_retail_case`\) table is abstract. Cases must be created in a case type extension, not directly in the base table.
 
+**Parent Topic:**[Retail case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-retail-case-types-revamp.md)
+
 **Related topics**  
 
 

@@ -7,7 +7,7 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-08-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -40,7 +40,7 @@ Role required: sn\_agent.token\_admin
 
     3.  Select **View Maintenance Token** in the Related Links section.
 
-    4.  Select the **Copy Token** \(\[Omitted image "copy-token-icon.png"\]\) icon to copy the maintenance token value.
+    4.  Select the **Copy Token** \(\[Omitted image "copy-token-icon.png"\] Alt text: Copy token icon to copy the maintenance token value\) icon to copy the maintenance token value.
 
 3.  Paste the maintenance token in the **Maintenance Token** field.
 

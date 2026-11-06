@@ -7,7 +7,7 @@ release: australia
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -58,15 +58,21 @@ A name to identify the configuration.
 
 </td></tr><tr><td>
 
-Root email \(AWS\)
+ 
 
 </td><td>
 
-Cloud Account Management uses an email address to generate the root email ID for newly created account.
+For AWS:
+
+ Cloud Account Management uses an email address to generate the root email ID for newly created account.
 
  For example, if your root email ID is myawsaccount@example.com, the Cloud Account Management application appends a request ID to generate myawsaccount-CWSAREQ0000001@example.com.
 
  **Note:** To create a root email, see [Set up and verify root email in AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/aws-setup.md).
+
+ For Azure:
+
+ Cloud Account Management uses the contact email entry in the config form as the root email for Azure budget alerts.
 
 </td></tr><tr><td>
 

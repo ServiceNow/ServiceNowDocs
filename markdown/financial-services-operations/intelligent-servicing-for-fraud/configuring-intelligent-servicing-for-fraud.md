@@ -7,7 +7,7 @@ release: australia
 product: Intelligent Servicing for Fraud
 classification: intelligent-servicing-for-fraud
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [configure intelligent servicing for fraud, set up fraud application, install intelligent servicing for fraud, assign roles for fraud users, configure service definitions, configure playbooks, configure workspace, configure user groups, configure assignment rules, configure slas, service level agreements, fraud operations analyst, fraud operations manager, fraud case routing]
 breadcrumb: [Intelligent Servicing for Fraud, Banking applications, Financial Services Operations \(FSO\)]

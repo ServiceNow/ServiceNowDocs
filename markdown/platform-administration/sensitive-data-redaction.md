@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/sensitive-data-redaction.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Inbound email, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -18,10 +18,10 @@ When an inbound email is received, the sensitive data is masked. The sensitive d
 
 **Note:** Data that has been redacted can’t be recovered.
 
-Redact sensitive data option is available in inbound email actions once the following is activated:
+Redact sensitive data option is available in inbound email actions automatically. To access it:
 
--   [Sensitive Data Redaction for Inbound Emails plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/activate-data-redaction-emails-plugin.md)
--   [Data Discovery application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/activate-data-discovery.md)
+-   For Classic configurations, navigate to **Data Privacy \(classic\) &gt; Privacy Policy Advanced configuration &gt; New &gt; Data Channel &gt; Inbound Email**.
+-   If the Data Privacy Store App is installed, navigate to **Data Privacy &gt; Anonymization &gt; Create New Policy &gt; Real Time Data &gt; Inbound Email**.
 
     **Note:** Data Discovery application does not require a paid subscription when used along with sensitive data redaction for inbound emails plugin.
 

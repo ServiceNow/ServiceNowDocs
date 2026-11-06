@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-08-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 keywords: [FortiManager, discovery, MID server, firewall]
 breadcrumb: [Reference, Firewall Audits and Reporting, ITOM Visibility, IT Operations Management]

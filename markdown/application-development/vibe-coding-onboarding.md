@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/vibe-coding-onboarding.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [configure]
-breadcrumb: [Agentic development, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Onboarding for agentic development
@@ -55,4 +55,6 @@ See [General guidelines for agentic development](https://raw.githubusercontent.c
 ## Engage with the development community
 
 Check out [ServiceNow Community](https://www.servicenow.com/community/) to connect with other developers and share ideas.
+
+**Parent Topic:**[Agentic development on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vibe-coding-landing.md)
 

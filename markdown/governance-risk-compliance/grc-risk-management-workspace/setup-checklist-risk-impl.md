@@ -7,8 +7,8 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-05-04"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Risk Management implementation, Configure, Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -24,6 +24,8 @@ Role required: sn\_risk.admin
 
 1.  Create and print a PDF of the checklist topic and check off tasks as you complete them.
 
+2.  To generate a PDF, select the **Save As PDF** \[Omitted image "save-as-pdf.png"\] Alt text: Save as PDF iconicon and at the top of the topic and select **Selected topic**.
+
 <table id="table_ns4_rt4_rcc"><thead><tr><th>
 
 Item
@@ -34,7 +36,7 @@ Checklist
 
 </th></tr></thead><tbody><tr><td>
 
-\[Omitted image "checkbox.png"\] Alt text:
+\[Omitted image "checkbox.png"\] Alt text: checkbox
 
 </td><td>
 
@@ -47,7 +49,7 @@ A user with the sn\_risk.admin role, can -   define and modify the risk criteria
 
 </td></tr><tr><td>
 
-\[Omitted image "checkbox.png"\] Alt text:
+\[Omitted image "checkbox.png"\] Alt text: checkbox
 
 </td><td>
 
@@ -55,7 +57,7 @@ A user with the sn\_risk.admin role, can also assign roles. For details, see [Ro
 
 </td></tr><tr><td>
 
-\[Omitted image "checkbox.png"\] Alt text:
+\[Omitted image "checkbox.png"\] Alt text: checkbox
 
 </td><td>
 
@@ -63,7 +65,7 @@ A risk manager, with the sn\_risk.manager role, needs to manage numerous risk st
 
 </td></tr><tr><td>
 
-\[Omitted image "checkbox.png"\] Alt text:
+\[Omitted image "checkbox.png"\] Alt text: checkbox
 
 </td><td>
 
@@ -71,7 +73,7 @@ A risk manager, with the sn\_risk.manager role, must create a risk statement to 
 
 </td></tr><tr><td>
 
-\[Omitted image "checkbox.png"\] Alt text:
+\[Omitted image "checkbox.png"\] Alt text: checkbox
 
 </td><td>
 
@@ -79,7 +81,7 @@ A risk administrator or a risk manager can create a risk assessments using the R
 
 </td></tr><tr><td>
 
-\[Omitted image "checkbox.png"\] Alt text:
+\[Omitted image "checkbox.png"\] Alt text: checkbox
 
 </td><td>
 
@@ -87,7 +89,7 @@ Risk administrators and risk managers can create risk indicators. Risk indicator
 
 </td></tr><tr><td>
 
-\[Omitted image "checkbox.png"\] Alt text:
+\[Omitted image "checkbox.png"\] Alt text: checkbox
 
 </td><td>
 
@@ -95,7 +97,7 @@ Risk administrators and risk managers can create entities manually, rather than 
 
 </td></tr><tr><td>
 
-\[Omitted image "checkbox.png"\] Alt text:
+\[Omitted image "checkbox.png"\] Alt text: checkbox
 
 </td><td>
 

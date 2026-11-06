@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/analyze-impact-tolerance-importance-of-service-in-ws.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -27,11 +27,11 @@ If you have the sn\_oper\_res.admin role, you can create and maintain a pre-defi
 
 ## Using Smart Assessment to evaluate importance and impact tolerance of a service
 
-Beginning with Operational Resilience, release 21.x.x, the Smart Assessment functionality has been integrated with the Importance and impact tolerance assessment. It enables you to create and manage the Importance and impact tolerance assessments efficiently. It includes features such as an assessment type field with legacy and smart options, default templates, and automated data updates. To progress, all assessments must be completed, after which they become read-only and are ready for approval.
+Beginning with Operational Resilience, release 21.x.x, the Smart Assessment functionality has been integrated with the Importance and impact tolerance assessment. This integration enables you to create and manage the Importance and impact tolerance assessments efficiently. It includes features such as an assessment type field with legacy and smart options, default templates, and automated data updates. To progress, all assessments must be completed, after which they become read-only and are ready for approval.
 
 The system requires assessments to be completed, as cancellations are not supported. Defining the assessment scope is mandatory, and the system prevents creation of an assessment without the scope.
 
-With the enhanced approval flow, completed assessments are reviewed and validated, after which the assessor can request approval. Approver can then approve the assessment, completing the workflow. With Smart Assessment, the assessment can now be moved back to the **Pending Response** state, allowing the assessor to retake the assessment and resubmit it for approval.
+With the enhanced approval flow, completed assessments are reviewed and validated. The assessor can request approval, and the approver can then approve the assessment, completing the workflow. With Smart Assessment, the assessment can now be moved back to the **Pending Response** state, allowing the assessor to retake the assessment and resubmit it for approval.
 
 ## Tasks and states that are associated with the assessment workflow
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/open-dv-on-db-in-vd.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Edit a data visualization in an inline dashboard, Share, edit, or delete, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -43,7 +43,7 @@ While working in the dashboard editor, you may find that you want to reconfigure
 
 ## What to do next
 
-Proceed to edit the data visualization as described in [Edit a data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/edit-dv-ac-center.md).
+Proceed to edit the data visualization as described in [Edit a data visualization in the library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/edit-dv-ac-center.md).
 
 **Parent Topic:**[Edit a data visualization in an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/editing-dv-in-line-db.md)
 

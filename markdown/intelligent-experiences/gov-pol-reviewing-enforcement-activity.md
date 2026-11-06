@@ -1,17 +1,17 @@
 ---
-title: Reviewing policy enforcement in AI Control Tower
+title: Reviewing policy enforcement activities in AI Control Tower
 description: Review policy activities and execution results.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/gov-pol-reviewing-enforcement-activity.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-27"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, Policies, enforcement activity]
-breadcrumb: [Controlling AI asset usage, Govern AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Controlling AI asset usage, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
-# Reviewing policy enforcement in AI Control Tower
+# Reviewing policy enforcement activities in AI Control Tower
 
 Review policy activities and execution results.
 
@@ -28,7 +28,7 @@ For AI agent containment specifically, the **Enforcement activity** tab shows al
 An outcome other than success has a specific meaning, not just pass or fail:
 
 -   **Error** means something actually went wrong at a connector, and the record includes why.
--   **Skipped** means no connector applied to that context; there was nothing to enforce against, which isn't a failure.
+-   **Skipped** means no connector applied to that context, either because there was nothing to enforce against, or because the connector for that point was never configured. If you expected enforcement at a given point and see **Skipped**, confirm that point is configured and active on the **Control enforcement points** tab; otherwise, a real coverage gap can look like a clean run. See [Configuring security connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configuring-security-connections.md).
 -   **Timeout** means a connector didn't respond within its window.
 
 ## Use cases

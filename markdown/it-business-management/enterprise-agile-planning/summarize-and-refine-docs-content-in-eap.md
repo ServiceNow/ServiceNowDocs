@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Refine records, ServiceNow Otto skill, ServiceNow Otto, Gen AI, Generative AI, Strategic Portfolio Management, SPM]
 breadcrumb: [Collaborate using Docs, Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
@@ -36,15 +36,15 @@ If you have custom roles that require access to this skill, update the ACLs for 
 
 2.  Navigate to your Doc.
 
-<table id="choicetable_wz1_jq3_bcc"><thead><tr><th align="left" id="d138486e163">
+<table id="choicetable_wz1_jq3_bcc"><thead><tr><th align="left" id="d141823e163">
 
 Type
 
-</th><th align="left" id="d138486e166">
+</th><th align="left" id="d141823e166">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d138486e172">
+</th></tr></thead><tbody><tr><td id="d141823e172">
 
 **Team Doc**
 
@@ -54,7 +54,7 @@ Actions
 2.  Select the Docs tab and open your Doc.
 
 
-</td></tr><tr><td id="d138486e190">
+</td></tr><tr><td id="d141823e190">
 
 **Planning item Doc**
 

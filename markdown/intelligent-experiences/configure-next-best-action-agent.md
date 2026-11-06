@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/configure-next-best-action-agent.html
 release: australia
 topic_type: task
-last_updated: "2025-11-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Agentic AI, ACLs in AI agents]
-breadcrumb: [AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Create an AI agent

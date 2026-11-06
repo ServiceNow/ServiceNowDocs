@@ -7,9 +7,9 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a report from an imported spreadsheet, Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Create a report from an imported spreadsheet, Advanced Core UI reporting topics, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Edit an imported data source
@@ -24,11 +24,13 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select **New**.
+1.  Open the Platform Analytics Data visualization library and select **Create data visualization**, then select **Core UI** in the modal that opens.
+
+    The **com.snc.par.coreui.report\_create.enabled** system property must be `true`.
 
 2.  Select the name of a report that uses to imported data source to open the report in the Report Designer.
 
-3.  On the **Data** tab, select the pencil icon \(\[Omitted image "EditWidgetButton.png"\] Alt text:\) next to the name of the external import.
+3.  On the **Data** tab, click the pencil icon \(\[Omitted image "EditWidgetButton.png"\] Alt text:\) next to the name of the external import.
 
 4.  In the **Edit external import** dialog box you can make these changes:
 
@@ -50,9 +52,9 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
         Change the visibility for the uploaded file: Only you, Everyone, or Custom. Select **Custom** to specify users, groups, or roles.
 
-        If you select **Custom**, select **Next** to choose who can use the data in the imported file and select **Submit**.
+        If you select **Custom**, click **Next** to choose who can use the data in the imported file and click **Submit**.
 
-5.  Select **Submit**.
+5.  Click **Submit**.
 
 
 ## Result

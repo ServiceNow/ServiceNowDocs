@@ -7,7 +7,7 @@ release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [AWS discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -158,7 +158,7 @@ Concatenate of API ID + ".execute-api." + region + ".amazonaws.com".For example:
 |Name \[name\]|Unique name or IP address of the DNS host.|
 |IP Address \[ip\_address\]|IP address of the DNS host.|
 
-\[Omitted image "aws-api-gateway-dependency-view.png"\] Alt text: aWS API gateway CIs and connections on a Dependency Views map
+\[Omitted image "aws-api-gateway-dependency-view.png"\] Alt text: AWS API gateway CIs and connections on a Dependency Views map
 
 ## Relationships
 

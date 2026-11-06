@@ -7,8 +7,8 @@ release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
-last_updated: "2026-08-05"
-reading_time_minutes: 3
+last_updated: "2026-10-23"
+reading_time_minutes: 4
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, benefit, feature]
 breadcrumb: [Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
@@ -19,7 +19,9 @@ Zero Copy Connector for ERP \(Enterprise Resource Planning\) enables you to conn
 
 ## Zero Copy Connector for ERP overview
 
-Zero Copy Connector for ERP helps you identify custom Enterprise Resource Planning \(ERP\) apps and fields in an ERP system \(such as SAP\) to access their data on the ServiceNow AI Platform.
+Zero Copy Connector for ERP helps you identify custom Enterprise Resource Planning \(ERP\) apps and fields in an ERP system to access their data on the ServiceNow AI Platform.
+
+Legacy ERP systems can have old, complex custom code and data. The old information requires more time and effort to move to newer versions of the ERP system. Use Zero Copy Connector for ERP to find and replace custom code with digitized workflows, resulting in a clean ERP core. This is the process of ERP modernization.
 
 Zero Copy Connector for ERP supports the following ERP systems:
 
@@ -30,10 +32,11 @@ Zero Copy Connector for ERP supports the following ERP systems:
 -   Workday
 -   Oracle E-Business Suite \(EBS\)
 
-Zero Copy Connector for ERP offers a unified data model for ERP systems. Zero Copy Connector for ERP enables you to manage tables that contain both standard and custom fields grouped within ERP models. You can send updates to and extract data from tables on the ERP system. Store extracted data in a remote table or an extraction table, depending on the size of datasets and refresh needs.
+The replatforming of legacy code enables innovation on top of the ERP system without knowledge of the legacy system. Administrators and developers are then relieved of time-consuming efforts to create database views or endpoints in the ERP system and can work on other projects, such as migration.
 
--   Remote tables get their records from running an associated script against an external data source.
--   Extraction tables retrieve large amounts of data using a scheduled query, and use transform tables to process data for use on the ServiceNow AI Platform.
+Use models as the foundation for ERP apps. These models include ERP system data in remote tables and extraction tables. The models enable you to perform read, update, and create operations on the ERP system. After you create models, you can use the extracted and transformed data to build apps that access the models. For example, use ServiceNow Studio to build apps or use the ERP data in flows within Workflow Studio.
+
+Zero Copy Connector for ERP content packs are sets of predefined models and process extensions that are useful examples for developers with little or no SAP domain knowledge. Content packs accelerate the work so that building use cases involving SAP data becomes a faster process that more developers can accomplish. For more information, see [Accelerating SAP integrations with Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-content-packs.md).
 
 **Note:** Zero Copy Connector for ERP doesn't replicate data into the ServiceNow AI Platform. It mirrors data that lives in the ERP system, and remains protected there.
 
@@ -46,7 +49,7 @@ The unified data model of the ServiceNow AI Platform helps integrate ERP data in
 |Configure connections to the ERP system|[Working with ERP systems in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-work-with-systems.md)|
 |Build ERP models to create read, update, and create operations and organize mirrored ERP data|[Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/work-with-erp-data-models.md)|
 |Work with and query remote tables to view ERP data on the ERP system|[Using ERP remote tables in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-work-with-remote-tables.md)|
-|Configure extraction tables to pull custom data from the ERP system regularly|[ERP data extraction and transformation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-extraction-tables.md)|
+|Configure extraction tables to pull custom data from the ERP system regularly|[Extracting and transforming ERP data with Zero Copy Connector for ERP extraction tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-extraction-tables.md)|
 |Use ERP data in ServiceNow Studio, Workflow Studio flows and playbooks, Table Builder, UI Builder, and Workspace Builder|[Next steps after extracting data from your ERP system using Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erpi-next-steps-replatforming.md)|
 
 ## Helpful resources

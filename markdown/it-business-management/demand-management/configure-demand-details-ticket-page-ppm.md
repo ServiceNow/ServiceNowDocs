@@ -7,7 +7,7 @@ release: australia
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2026-09-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Work with demands in Employee Slate, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---

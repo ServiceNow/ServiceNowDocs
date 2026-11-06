@@ -7,19 +7,19 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-06-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [CIMD, Client ID Metadata Document, OAuth inbound, oauth\_entity\_cimd, public client, client registration, authentication]
-breadcrumb: [Inbound Integrations, OAuth Inbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [Inbound integrations, OAuth inbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # Client ID Metadata Document \(CIMD\) client integration
 
 CIMD lets the ServiceNow AI Platform accept an external OAuth client that identifies itself with an HTTPS metadata-document URL instead of a pre-issued client ID and secret.
 
-CIMD is a JSON file an OAuth client hosts at an HTTPS URL; that URL serves as the client's `client_id`, and when the client initiates an OAuth flow, the ServiceNow AI Platform fetches the metadata document from the URL and uses it to complete the flow. This removes the pre-registeration of client secret for every client.
+Client ID Metadata Document \(CIMD\) is a JSON file an OAuth client hosts at an HTTPS URL; that URL serves as the client's `client_id`, and when the client initiates an OAuth flow, the ServiceNow AI Platform fetches the metadata document from the URL and uses it to complete the flow. This removes the pre-registration of client secret for every client.
 
-CIMD gives you a faster, lower-friction way to bring an external OAuth client onto an instance. Instead of entering every client detail manually, you point the instance at the client's metadata URL, and the ServiceNow AI Platform fetches the configuration.
+CIMD gives you a way to bring an external OAuth client onto an instance. Instead of entering every client detail manually, you point the instance at the client's metadata URL, and the ServiceNow AI Platform fetches the configuration.
 
 You stay in control of which clients connect. An instance doesn't accept clients on its own — you register each CIMD client before it can connect. CIMD makes registration easier and, in Live mode, keeps the client's configuration current. It doesn't remove the registration step.
 
@@ -41,7 +41,7 @@ At the protocol level the flow is:
 
 ## Availability
 
-CIMD is available from **Zurich Patch 7** onward and from **Australia Patch 1** onward.
+CIMD is available from Zurich Patch 7 onward and from Australia Patch 1 onward.
 
 ## CIMD metadata document
 
@@ -57,11 +57,11 @@ The metadata values follow the OAuth client metadata vocabulary \(RFC 7591\). Se
 
 ## URL and hosting requirements
 
-The metadata URL must use HTTPS and include a path, and it must not contain dot or double-dot path segments. A short, stable URL is recommended because it may appear to people on authorization screens. The endpoint must return valid JSON with a JSON content type; if the document is malformed, the instance stops the request and does not cache the error.
+The metadata URL must use HTTPS and include a path, and it must not contain dot or double-dot path segments. Use a short, stable URL because it may appear to people on authorization screens. The endpoint must return valid JSON with a JSON content type; if the document is malformed, the instance stops the request and does not cache the error.
 
 ## Metadata sync modes
 
-Each CIMD client is configured with a metadata sync mode that determines how the obtains and refreshes the client's configuration:
+Each CIMD client is configured with a metadata sync mode that determines how the instance obtains and refreshes the client's configuration:
 
 -   **Live \(Dynamic\)**
 
@@ -74,19 +74,19 @@ Each CIMD client is configured with a metadata sync mode that determines how the
 
 ## Supported use cases
 
--   **ServiceNow MCP Server—MCP clients**: An MCP client can identify with a CIMD URL rather than a manually created OAuth inbound integration. There is no dedicated onboarding UI for MCP clients yet; they use the same CIMD registration flow as any other client.
--   **Regular OAuth clients**: CIMD is a general OAuth client-identification mechanism on the instance, not limited to MCP.
+-   ServiceNow MCP Server—MCP clients: An MCP client can identify with a CIMD URL rather than a manually created OAuth inbound integration. There is no dedicated onboarding UI for MCP clients yet; they use the same CIMD registration flow as any other client.
+-   Regular OAuth clients: CIMD is a general OAuth client-identification mechanism on the instance, not limited to MCP.
 
 ## Public clients, PKCE, and token format
 
-Characteristics of CIMD clients CIMD clients:
+Characteristics of CIMD clients:
 
--   Public clients and use PKCE; the Public Client setting is fixed
+-   Public clients that use PKCE; the Public Client setting is fixed
 -   The supported response type is code only
 -   The only supported flow is authorization code with PKCE
 -   Token Format defaults to Opaque, with JWT also available. Scope Restriction defaults to Securely scoped.
 
 ## Caching and performance
 
-The instance caches the metadata it fetches and does not cache errors or invalid documents. The default cache lifespan is **3,600 seconds \(one hour\)** and is configurable per client through the Cache lifespan field. Because metadata is fetched only at the start of a new authorization flow, the performance impact is small.
+The instance caches the metadata it fetches and does not cache errors or invalid documents. The default cache lifespan is 3,600 seconds \(one hour\) and is configurable per client through the Cache lifespan field. Because metadata is fetched only at the start of a new authorization flow, the performance impact is small.
 

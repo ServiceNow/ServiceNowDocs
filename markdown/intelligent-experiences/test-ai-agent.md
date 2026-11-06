@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/test-ai-agent.html
 release: australia
 topic_type: task
-last_updated: "2026-07-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create an AI agent, AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [Create an AI agent, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Manually test the execution of an AI agent
@@ -52,7 +52,7 @@ When manually testing performance, you can see how the AI agent interacts with t
 
     **Note:** In the task summary, include a reference number or specific record for better results during your testing.
 
-    \[Omitted image "test-aia-manually-new.png"\] Alt text: Complete the testing form
+    \[Omitted image "image.test-aia-manually-new"\] Alt text: Complete the testing form
 
 8.  Select **Continue to Test Chat Response**.
 

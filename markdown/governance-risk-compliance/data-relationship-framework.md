@@ -1,18 +1,18 @@
 ---
 title: Data Relationships Framework
-description: The Data Relationships Framework application \(sn\_grc\_rel\_config\) supports the BCM application with the underlying framework to fetch dependencies in BIAs, plans, and events. It retrieves data from different sources such as CMDB, BIA, and BCP. Beginning with the Australia release, the Data Relationships Framework \(sn\_grc\_rel\_config\) application is installed with the BCM application by default.
+description: The Data Relationships Framework application \(sn\_grc\_rel\_config\) supports the BCM application with the underlying framework to fetch dependencies in BIAs, plans, and events. It retrieves data from sources such as CMDB, BIA, and BCP. The Data Relationships Framework \(sn\_grc\_rel\_config\) application is installed with the BCM application by default.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/data-relationship-framework.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Reference, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Data Relationships Framework
 
-The Data Relationships Framework application \(sn\_grc\_rel\_config\) supports the BCM application with the underlying framework to fetch dependencies in BIAs, plans, and events. It retrieves data from different sources such as CMDB, BIA, and BCP. Beginning with the Australia release, the Data Relationships Framework \(sn\_grc\_rel\_config\) application is installed with the BCM application by default.
+The Data Relationships Framework application \(sn\_grc\_rel\_config\) supports the BCM application with the underlying framework to fetch dependencies in BIAs, plans, and events. It retrieves data from sources such as CMDB, BIA, and BCP. The Data Relationships Framework \(sn\_grc\_rel\_config\) application is installed with the BCM application by default.
 
 \[Omitted video\] Description: An overview of the Data Relationships Framework.
 
@@ -22,7 +22,7 @@ The video gives you an overview of the Data Relationships Framework and how it f
 
 The Data Relationships Framework \(sn\_grc\_rel\_config\) stores the configurations for how a main object type can relate to other object types. It enables you to configure the source \(main node\) for the dependency updates and configure its relationship with the child nodes. You can fetch the dependencies for the selected object.
 
-A scheduled job scans the object configuration data at regular intervals and checks if any dependencies have been updated. If any changes are observed, the scheduled job fetches the dependencies of the selected object. The dependencies are fetched from one of the configured sources such as BIA, BCP, or CMDB.
+A scheduled job scans the object configuration data at regular intervals and checks if any dependencies have been updated. When changes are detected, the job fetches the dependencies from configured sources such as BIA, BCP, or CMDB.
 
 ## Benefits of the Data Relationships Framework
 
@@ -130,6 +130,8 @@ The Data Relationships Framework is used to configure the node and asset relatio
 
 Consider the following use case that shows the main node configuration and its relationships.
 
+\[Omitted image "data-relationship-framework-mapping.png"\] Alt text: Data relationship framework.
+
 In this example, INC1010 is the main node where the source is an Incident. INC1010 has two child nodes:
 
 1.  Asset A: The affected configuration item for Asset A is Risk A.
@@ -176,9 +178,11 @@ The Data Relationships Framework has the following limitations:
 For more information on the administrative setup for the configuration records, see [Dependency Configuration records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/dependency-config-modules.md).
 
 -   **[Create a main node configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-a-main-node-config-record.md)**  
-Create a main node configuration record to configure the source for fetching the dependencies. You can configure the details of the main node such as its name, source, table name, filter conditions, and so on.
+Create a main node configuration record to configure the source for fetching the dependencies. You can configure the details of the main node such as its name, source, table name, filer conditions, and so on.
+-   **[Update the node relationship configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/update-node-rel-config-bcm.md)**  
+Update the node relationship configuration for each main node configuration. In the Node relationship configurations related list, select the sequence and update the source table, relationship registry, relationship table, target table, and target conditions.
 -   **[Create a relationship registry record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-a-rela-registry-record.md)**  
-Create a relationship registry record to set up relationship between the record and object defined in the table. You can configure the details of the main node such as its name, source, table name, filter conditions, and so on.
+Create a relationship registry record to set up relationship between the record and object defined in the table. You can configure the details of the main node such as its name, source, table name, filer conditions, and so on.
 -   **[Configure the properties for the Data Relationships Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/configure-properties-for-data-rel-framework.md)**  
 Configure the properties for the Data Relationships Framework application.
 

@@ -4,8 +4,8 @@ description: Create a record for every building that is part of your organizatio
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 9
+last_updated: "2026-09-10"
+reading_time_minutes: 8
 ---
 
 # Add a building using Workplace Space Management
@@ -303,7 +303,7 @@ The building is added to the selected region, site, and campus.
 
 [Create a view-by configuration]()
 
-[Create a KPI Configuration]()
+[]()
 
 [Reviewing allocation changes]()
 

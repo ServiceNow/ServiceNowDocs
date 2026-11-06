@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-23"
 reading_time_minutes: 4
 keywords: [Retail MCP Server, MCP, Model Context Protocol, AI assistant, break-fix, store inquiry]
-breadcrumb: [Configure, Retail]
+breadcrumb: [ServiceNow Otto for Retail Service Management \(RSM\), Retail]
 ---
 
 # Retail MCP Server
@@ -86,7 +86,7 @@ Access to the Retail MCP Server is controlled at two levels: roles determine who
 
 [Retail MCP Server roles and data access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-mcp-server-access-control.md)
 
-[moveworks-breakfix-storeaudit-overview]
+[ServiceNow Otto for Break-Fix and Store Audit overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/moveworks-breakfix-storeaudit-overview.md)
 
-[moveworks-breakfix-storeaudit-reference]
+[Components Moveworks Integration for Break-Fix and Store Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/moveworks-breakfix-storeaudit-reference.md)
 

@@ -1,20 +1,20 @@
 ---
-title: Tutorial: Configuring session validation
-description: Configure session validation within the Adaptive Authentication framework to provide as an additional layer of protection for session or cookie hijacking.
+title: Configure session validation
+description: Configure session validation within the Adaptive Authentication framework to provide an additional layer of protection for session or cookie hijacking.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/use-ip-session-context.html
 release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Session validation context, Authentication policy contexts, Adaptive authentication, Authentication, Access Management]
 ---
 
-# Tutorial: Configuring session validation
+# Configure session validation
 
-Configure session validation within the Adaptive Authentication framework to provide as an additional layer of protection for session or cookie hijacking.
+Configure session validation within the Adaptive Authentication framework to provide an additional layer of protection for session or cookie hijacking.
 
 ## Before you begin
 
@@ -34,7 +34,7 @@ To configure Session Validation, you must perform the following steps:
 
     1.  Select **New** or **Edit**.
 
-    2.  Choose the kind of Policy Input \(Filter Criteria\) that you want to create.
+    2.  Choose the kind of Policy Input \(Filter Criteria\) to create.
 
         Available options are IP, Role, and Group Filter Criteria. Let's choose **IP Filter Criteria**.\[Omitted image "use-ip-session-context-filter.png"\] Alt text: IP Filter Criteria
 
@@ -56,7 +56,7 @@ To configure Session Validation, you must perform the following steps:
 
         \[Omitted image "condition-session-context.png"\] Alt text: Condition
 
-5.  Select the `Active` check box to activate the policy after the Session Validation Policy is set up with policy inputs and conditions.
+5.  Select the **Active** check box to activate the policy after the Session Validation Policy is set up with policy inputs and conditions.
 
     \[Omitted image "activate-session-context.png"\] Alt text: Activate Session Context
 
@@ -66,7 +66,7 @@ To configure Session Validation, you must perform the following steps:
 
 7.  Navigate to **All** &gt; **Adaptive Authentication** &gt; **Auth Policy Contexts** &gt; **Session Validation Context**.
 
-8.  Set the Default Policy to **Allow Policy** or **Deny Policy** to set the session validation context according to the policy input and policy conditions.
+8.  Set the Default Policy to **Allow Policy** to set the session validation context according to the policy input and policy conditions.
 
     **Note:** By default:
 

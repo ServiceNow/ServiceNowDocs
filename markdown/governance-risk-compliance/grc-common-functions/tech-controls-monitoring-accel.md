@@ -7,7 +7,7 @@ release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [GRC use case accelerators, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -28,7 +28,7 @@ These packaged indicator templates have also been mapped to related common contr
 
 CIS Controls ™ are a prioritized set of safeguards to mitigate the cyber-attacks against systems and networks. These controls are mapped to and referenced by multiple legal, regulatory, and policy frameworks. CIS Controls ™ v8 has been enhanced to continue supporting the modern systems and software such as cloud-based computing, virtualization, mobility, outsourcing as businesses shift their working model to fully cloud and hybrid environments.
 
-Beginning with the Australia release, Technology Controls Monitoring Accelerator provides pre-packaged CIS v8 controls and indicator templates to monitor them along with its common controls mapped to various standards.
+Beginning with the Brazil release, Technology Controls Monitoring Accelerator provides pre-packaged CIS v8 controls and indicator templates to monitor them along with its common controls mapped to various standards.
 
 The following enhancements are supported with CIS Controls ™ v8:
 

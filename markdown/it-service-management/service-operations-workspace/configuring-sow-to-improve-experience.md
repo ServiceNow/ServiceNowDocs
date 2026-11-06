@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -33,7 +33,7 @@ To align with your record page requirements, you can configure the data availabl
 -   **[Hide contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/hide-contextual-side-panel-sow.md)**  
 Set the **hideContextualSidebar** page property to determine when to hide the default primary contextual side panel for specific table-tab combinations, showing the tab's embedded contextual side panel in its place.
 -   **[Sharing record pages from Service Operations Workspace across workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/sow-share-record-pages-other-workspaces.md)**  
-Share the look and feel of the record pages in Service Operations Workspace \(SOW\) such as incident or change request as it is across other workspace such as CSM and FSM workspaces.
+Share the look and feel of the record pages in Service Operations Workspace \(SOW\) such as incident or change request as it is across other workspaces such as CSM and FSM workspaces.
 -   **[Configure the task record information in the MS Teams Import tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/configure-record-details-import-chat-sow.md)**  
 Customize the task record fields displayed when you view or import a Microsoft Teams chat conversation.
 -   **[Specify the refresh duration for user presence in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/specify-refresh-duration-user-presence.md)**  

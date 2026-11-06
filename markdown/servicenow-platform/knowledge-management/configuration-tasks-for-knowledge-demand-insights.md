@@ -7,7 +7,7 @@ release: australia
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Review the following configurations tasks for knowledge demand insights.
 
 -   **[Configure Knowledge Demand Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/configure-demand-insights.md)**  
 Configure the Knowledge Demand Insights feature to identify which topics are missing knowledge articles and creating actionable knowledge gaps for missing topics.
--   **[Configure solution definitions to find gaps in a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/configure-km-solution-defintions.md)**  
+-   **[Configure solution definitions to find gaps in a knowledge base]()**  
 The Knowledge Demand Insights feature finds knowledge gaps by comparing knowledge bases with existing tasks. To enable comparing knowledge bases with a task type, you must first configure similarity and clustering solution definitions.
 -   **[Configure the mapping of solution definitions with task tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/select-tasks-knowledge-bases.md)**  
 Configure the combination of the task table and similarity and clustering solution definitions that are processed in a scheduled job for a task type. You can create another demand insights configuration or modify an existing configuration to define a scheduled job for demand insights.

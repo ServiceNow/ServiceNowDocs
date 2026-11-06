@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: concept
-last_updated: "2026-04-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AI agents, Agentic AI]
 breadcrumb: [Use agentic workflows, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
@@ -19,7 +19,7 @@ Use the schedule interviews agentic workflow to collect necessary inputs from re
 
 ## Schedule interviews agentic workflow overview
 
-Use the schedule interviews agentic workflow to automate the interview scheduling process. This agentic workflow manages all tasks, including gathering inputs to understand the context, finding overlapping slots, drafting personalized messages, and creating and sending invites. The agentic workflow also creates interview records to verify that everything is easily trackable.
+Use the schedule interviews agentic workflow to automate the interview scheduling process. This agentic workflow manages all tasks, including gathering inputs to understand the context, finding overlapping slots, drafting personalized messages, and creating and sending invites. The agentic workflow also creates interview records to verify that everything is easily tracked.
 
 To be able to use the agentic workflow, you must do the following:
 
@@ -56,7 +56,7 @@ Interview schedule AI agent
 
 Gathers input from the recruiter or recruitment coordinator to obtain the necessary details for scheduling interviews and then identifies the best time slot options for interviews. It uses a combination of attendees' declared scheduling preferences and available calendar time slots to present a prioritized order of time slots that reduce the likelihood of rescheduling. When beneficial, it recommends the self-scheduling option, which presents applicants with panelist-compatible time slots sorted by confidence level, allowing them to select their preferred time.
 
-Next, it drafts personalized email content for applicants to include in the interview invite. Users can choose to start from a preconfigured template or use AI to generate the content. Finally, it creates and shares invites by compiling the confirmed information from the previous steps, and completes the scheduling process by creating an interview record to ensure trackability.
+Next, it drafts personalized email content for applicants to include in the interview invite. Users can choose to start from a preconfigured template or use AI to generate the content. Finally, it creates and shares invites by compiling the confirmed information from the previous steps, and completes the scheduling process by creating an interview record for tracking.
 
 </td></tr></tbody>
 </table>

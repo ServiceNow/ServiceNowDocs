@@ -7,10 +7,10 @@ release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: task
-last_updated: "2026-08-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [MCP Server, HRSD, Integration, OAuth, AI integration, Model Context Protocol]
-breadcrumb: [HRSD MCP Server, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [HRSD MCP Server, Configure, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
 # Configure the HRSD MCP Server Console
@@ -47,7 +47,7 @@ Role required: sn\_mcp\_server.admin or admin
 
     4.  Select **Activate**.
 
-        Activating the HRSD MCP server automatically makes all the tools available to the connected MCP clients. For more information on the tools, see [MCP Server Tools reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/mcp-server-tools-reference.md).
+        Activating the HRSD MCP server automatically makes all the tools available to the connected MCP clients. For more information on the tools, see [MCP Server Tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/mcp-server-tools-reference.md).
 
         **Note:** Activating the HRSD MCP server creates an OAuth client entry with the HRSD MCP Server integration name, for example, **sn\_hr\_mcp\_server.hr\_default**.
 
@@ -55,15 +55,15 @@ Role required: sn\_mcp\_server.admin or admin
 
     **Note:** Change the application scope to **Global**.
 
-<table id="choicetable_tss_d1b_dkc"><thead><tr><th align="left" id="d807641e208">
+<table id="choicetable_tss_d1b_dkc"><thead><tr><th align="left" id="d804198e208">
 
 Authentication option
 
-</th><th align="left" id="d807641e211">
+</th><th align="left" id="d804198e211">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d807641e217">
+</th></tr></thead><tbody><tr><td id="d804198e217">
 
 **Use the HRSD MCP Server OAuth client entry**
 
@@ -78,7 +78,7 @@ The fields on the Authorization code grant page are automatically populated.
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d807641e255">
+</td></tr><tr><td id="d804198e255">
 
 **Set up your own OAuth connection**
 
@@ -88,3 +88,5 @@ See [Connecting to an MCP server from an MCP client](https://raw.githubuserconte
 
 </td></tr></tbody>
 </table>
+**Parent Topic:**[HRSD MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/hrsd-mcp-server.md)
+

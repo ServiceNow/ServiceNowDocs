@@ -7,7 +7,7 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
-last_updated: "2026-05-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [MID-less log streaming, configuration, ITOM Gateway, gRPC, Hermes Messaging Service, log source streaming, HLA infrastructure scaling, AI Engine, JWT provider token]
 breadcrumb: [MID-less integrations, Set up integrations from Integrations Launchpad, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
@@ -75,7 +75,12 @@ Log sources authenticate to HLA using a JWT token. You must configure a JWT prov
 |AI Engine|HLA back-end component that processes and analyzes ingested log data.|
 |Integrations Launchpad|ServiceNow interface for configuring log source integrations. Each supported log source has a dedicated tile.|
 
-**Parent Topic:**[Set up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-implement.md)
+-   **[Configure a JWT provider and token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-jwt-token-config.md)**  
+Configure a JSON Web Token \(JWT\) provider and token to authenticate log streaming integrations sending data to Health Log Analytics \(HLA\) via ITOM Gateway. This configuration is required before you can activate any ITOM Gateway integration in Integrations Launchpad.
+-   **[Set up log streaming via ITOM Gateway for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-midless-streaming-setup.md)**  
+Set up log streaming via ITOM Gateway to enable Health Log Analytics \(HLA\) to receive log data directly from external sources without a MID Server.
+
+**Parent Topic:**[MID-less integrations for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-mid-less-integrations-concept.md)
 
 **Related topics**  
 

@@ -1,13 +1,13 @@
 ---
 title: ServiceNow Otto for IT Service Management \(ITSM\)
-description: Use the ServiceNow Otto for IT Service Management \(ITSM\) application to summarize the incident information, generate incident resolution notes, and summarize the chat for an interaction. You can enable your agents to understand the chat and incident context so that they can propose quicker resolutions to your requesters.
+description: Use the ServiceNow ServiceNow Otto for IT Service Management \(ITSM\) application to summarize the incident information, generate incident resolution notes, and summarize the chat for an interaction. You can enable your agents to understand the chat and incident context so that they can propose quicker resolutions to your requesters.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [IT Service Management]
@@ -15,17 +15,17 @@ breadcrumb: [IT Service Management]
 
 # ServiceNow Otto for IT Service Management \(ITSM\)
 
-Use the ServiceNow Otto for IT Service Management \(ITSM\) application to summarize the incident information, generate incident resolution notes, and summarize the chat for an interaction. You can enable your agents to understand the chat and incident context so that they can propose quicker resolutions to your requesters.
+Use the ServiceNow® ServiceNow Otto for IT Service Management \(ITSM\) application to summarize the incident information, generate incident resolution notes, and summarize the chat for an interaction. You can enable your agents to understand the chat and incident context so that they can propose quicker resolutions to your requesters.
 
 ## Get started
 
 <table id="table_iht_hgl_5yb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about ServiceNow Otto for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/now-assist-for-it-service-management-itsm/exploring-now-assist-itsm.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/now-assist-for-it-service-management-itsm/exploring-now-assist-itsm.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the ServiceNow Otto for ITSM application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/now-assist-for-it-service-management-itsm/configure-now-assist-for-itsm.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Now Assist for ITSM application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/now-assist-for-it-service-management-itsm/configure-now-assist-for-itsm.md)
 
 </td><td>
 
@@ -37,7 +37,7 @@ Use the ServiceNow Otto for IT Service Management \(ITSM\) application to summar
 
 </td><td>
 
-[Use Agentic AI in ServiceNow Otto for ITSM\[Omitted image "bus-ai-otto.svg"\] Alt text:Use the ServiceNow Otto for ITSM for ITSM IT Service Management AI agents to complete tasks autonomously.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-ai-agents-use-cases.md)
+[Use Agentic AI in IT Service Management\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use the Now Assist for ITSM IT Service Management AI agents to complete tasks autonomously.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-ai-agents-use-cases.md)
 
 </td><td>
 
@@ -67,7 +67,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect incident data \(for Incident Assist and Knowledge Assist\) and chat transcripts \(for Chat Assist\). Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect incident data \(for Incident Assist and Knowledge Assist\) and chat transcripts \(for Chat Assist\). Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
-For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+For more information, see the [ServiceNow AI documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-products.md).
 

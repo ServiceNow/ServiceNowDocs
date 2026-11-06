@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/opres-with-csdm-header.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring 360º views for services and processes, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -29,7 +29,7 @@ You can configure the node relationships in the Opres with CSDM header Main node
 
 \[Omitted image "node-rel-config-opres-w-csdm-header.png"\] Alt text: Opres with CSDM header Main node configuration.
 
-The following illustration shows the node relationship configurations for Opres with CSDM header Main node configuration, provided as the base version. For each relationship \[cmdb\_rel\_ci\] table, you can set up combined relationship configurations. For example, for a business service as the parent class, you can configure its relationship to a service offering. You can then configure relationships to a business process and to an application service.
+The following illustration shows the node relationship configurations for Opres with CSDM header Main node configuration, provided as the base version. For each relationship \[cmdb\_rel\_ci\] table, you can set up combined relationship configurations. For example, you can configure a business service as the parent class. You can then configure its relationship to a service offering, to a business process, and to an application service.
 
 \[Omitted image "node-rel-example.png"\] Alt text: Relationships.
 

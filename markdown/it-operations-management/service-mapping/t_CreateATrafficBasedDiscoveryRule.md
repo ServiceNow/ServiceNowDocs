@@ -7,7 +7,7 @@ release: australia
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Advanced Service Mapping configuration, Configuring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -39,7 +39,7 @@ If discovery based on Predictive Intelligence isn't enabled, Service Mapping aut
 
 If your instance uses domain separation, you can create traffic-based rules for specific domains. Rules in the base system are assigned to the global domain and apply to all domains of all levels.
 
-When you create a rule for a specific domain, the new rule is used only for this domain and does not exist in any other domains. If you customize an existing rule in the global domain and assign it to a specific domain, you create a copy of the global rule, which is still used in all other domains except the domain that has the customized version of this rule. Likewise, if you customize a rule in the global domain, the change affects all domains except the one that uses a customized copy of this rule.
+When you create a rule for a specific domain, the new rule is used only for this domain and does not exist in any other domains. If you customize an existing rule in the global domain and assign it to a specific domain, you create a copy of the global rule. This copy is still used in all other domains except the domain that has the customized version. Likewise, if you customize a rule in the global domain, the change affects all domains except the one that uses a customized copy of this rule.
 
 ## Procedure
 

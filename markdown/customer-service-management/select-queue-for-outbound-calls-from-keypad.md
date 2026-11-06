@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/select-queue-for-outbound-calls-from-keypad.html
 release: australia
 topic_type: task
-last_updated: "2026-01-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Queue selection, Enable ICC for CCaaS calls and callbacks, Configure voice, Configure omnichannel, Configure, Customer Service Management]
 ---

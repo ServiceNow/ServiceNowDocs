@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-ale-choice.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Getting started, Customer success, Configure, Customer Success Management]
 ---
@@ -33,7 +33,7 @@ These will appear as choices in the Service bridge integration field on the Acco
 
 ## Procedure
 
-1.  Navigate to **Workspace** &gt; **CSM/FSM Configurable Workspace** and select the List icon.
+1.  Navigate to **Workspace** &gt; **CRM Workspace** and select the List icon.
 
 2.  Navigate to the **Customer Success** &gt; **Customer Success Choice** and select **New**.
 

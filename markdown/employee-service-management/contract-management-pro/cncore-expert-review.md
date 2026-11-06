@@ -7,7 +7,7 @@ release: australia
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Expert review, Manual review, Internal review, Contract review workflow, Subject matter expert review]
 audience: [sn\_cm\_core.contract\_fulfiller, sn\_cm\_core.contract\_reviewer]

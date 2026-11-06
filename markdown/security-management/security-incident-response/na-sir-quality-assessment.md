@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Generative AI, Gen AI, Now Assist, Security Operations, quality assessment, security incident response]
 breadcrumb: [Use generative AI skills, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]

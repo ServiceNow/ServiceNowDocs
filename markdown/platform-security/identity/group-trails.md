@@ -7,7 +7,7 @@ release: australia
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Identity Audit Results, Identity and Access Audit, Identity]
 ---
@@ -20,7 +20,7 @@ For a given group, Group Trails show:
 
 -   Attribute changes
 -   Membership changes
--   Roles changes
+-   Role changes
 
 To access Group Trails, navigate to **All** &gt; **System Security** &gt; **Identity and Access Audit** &gt; **Group Trails**. The Group Trails page is displayed with the following information.
 
@@ -28,7 +28,7 @@ To access Group Trails, navigate to **All** &gt; **System Security** &gt; **Iden
 |---|---|
 |Group Name|Name of the group.|
 |Group Sys id|Details about the Group sys\_id for the audited record.|
-|Source Table|Details about the Source Table where the audit performed.|
+|Source Table|Details about the Source Table where the audit was performed.|
 |Action|Describes the audit action.|
 |Created By|The user who made the change.|
 |Created|The time and date the audit was performed.|

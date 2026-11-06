@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/view-customer-accounts-and-transactions.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [banking customer 360 view customer accounts, banking customer 360 view customer transactions, banking customer 360 financial summary, banking customer 360 account holdings, banking customer 360 total deposit, banking customer 360 total available credit, banking customer 360 total money owed, banking customer 360 account details, banking customer 360 transaction history, customer 360 page]
 breadcrumb: [Use, Agentic Contact Center for Banking, Banking applications, Financial Services Operations \(FSO\)]

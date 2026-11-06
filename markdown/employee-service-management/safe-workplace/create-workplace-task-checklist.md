@@ -7,7 +7,7 @@ release: australia
 product: Safe Workplace
 classification: safe-workplace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Managing workplace tasks, Workplace Core, Safe Workplace, Health and Safety, Employee Service Management]
 ---
@@ -33,15 +33,15 @@ You can also create checklists for individual workplace task records.
 
 1.  Create a checklist to be included in all tasks using the same template or add a checklist to a specific task.
 
-<table id="choicetable_ggh_smr_rlb"><thead><tr><th align="left" id="d530060e68">
+<table id="choicetable_ggh_smr_rlb"><thead><tr><th align="left" id="d529220e68">
 
 Option
 
-</th><th align="left" id="d530060e71">
+</th><th align="left" id="d529220e71">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d530060e77">
+</th></tr></thead><tbody><tr><td id="d529220e77">
 
 **Checklist for workplace task template**
 
@@ -51,7 +51,7 @@ Steps
 2.  In the list, select to open the template to which you want to add the checklist.
 
 
-</td></tr><tr><td id="d530060e107">
+</td></tr><tr><td id="d529220e107">
 
 **Checklist in a specific workplace task**
 

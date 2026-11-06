@@ -7,9 +7,9 @@ release: australia
 product: Employee Document Management
 classification: employee-document-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Reference, Employee Document Management, HR Documents, HR Service Delivery, Employee Service Management]
+breadcrumb: [Reference - Employee Document Management, Employee Document Management, HR Documents, HR Service Delivery, Employee Service Management]
 ---
 
 # Components installed with Employee Document Management
@@ -20,7 +20,7 @@ Several types of components install with the activation of the Employee Document
 
 Demo data is available for this feature.
 
-**Note:** The Employee Document Management \[com.sn\_employee\_document\_management\] plugin activates the sn\_hr\_ef.min\_admin\_count system property \[sys\_properties.list\]. This property prevents you from deleting your only Employee Document Management admin user by requiring a minimum number \(default is two\) of active users with this role.
+**Note:** The Employee Document Management\[com.sn\_employee\_document\_management\] plugin activates the sn\_hr\_ef.min\_admin\_count system property \[sys\_properties.list\]. This property prevents you from deleting your only Employee Document Management admin user by requiring a minimum number \(default is two\) of active users with this role.
 
 ## Document management roles and descriptions
 
@@ -272,7 +272,7 @@ Purge Log \[sn\_hr\_ef\_purge\_log\]
 
 </td><td>
 
-Configurable by the Employee Documents Properties. Determines what fields appear on the purge logs.
+Configured by the Employee Documents Properties. Determines what fields appear on the purge logs.
 
 </td></tr><tr><td>
 

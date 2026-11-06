@@ -7,8 +7,8 @@ release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-09-01"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Common GRC features, Governance, Risk, and Compliance]
 ---
 
@@ -26,49 +26,23 @@ Role required: none
 
 Activities become available in sequence within a stage. Activities that are not yet available display a message indicating that previous activities must be completed first. Each activity can have a different assignee, which is displayed on the activity card.
 
-The activities, fields, and stages displayed for an issue depend on the playbook associated with the issue's workflow. The steps below follow the default issue workflow playbook's states as an example. Some activities can be optional and can be skipped.
+The activities, fields, and stages displayed for an issue depend on the playbook associated with the issue's workflow. Some activities can be optional and can be skipped.
 
 ## Procedure
 
 1.  Open the issue and select the **Lifecycle** tab.
 
-2.  Work through the activities in the New state.
+2.  Complete the fields for the current activity.
 
-    1.  Complete the fields for each activity.
+3.  Select **Mark as complete**.
 
-        See [New state fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/new-state-fields.md).
+    If the activity is optional, you can select **Skip** instead.
 
-    2.  Select **Mark as complete** on the last activity, then confirm the state change.
+4.  When prompted, confirm the state change.
 
-        A confirmation message identifies the state transition that will occur.
+    The confirmation message identifies the state transition that will occur. Continue to the next state by selecting the confirmation button. If you aren't ready to continue, select **Cancel**.
 
-3.  Work through the activities in the Analyze state.
-
-    1.  Complete the fields for each activity.
-
-        One activity, Group this issue, is optional and has a **Skip** option.
-
-    2.  Select **Mark as complete** or **Skip** on the last activity, then confirm the state change.
-
-        A confirmation message identifies the state transition that will occur.
-
-4.  Work through the activities in the Respond state.
-
-    1.  Complete the fields for each activity.
-
-        See [Respond state fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/respond-state-fields.md).
-
-    2.  Select **Mark as complete** on the last activity, then confirm the state change.
-
-        A confirmation message identifies the state transition that will occur.
-
-5.  Work through the activities in the Review and close state.
-
-    1.  Complete the fields for each activity.
-
-        See [Review and close state fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/review-and-close-state-fields.md).
-
-    2.  Select **Mark as complete** on the last activity to close the issue.
+5.  Repeat [2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/complete-a-playbook-activity.md) through [4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/complete-a-playbook-activity.md) until all required activities are completed.
 
 
 ## Result
@@ -84,7 +58,7 @@ Fields used in the activities of the Respond state in an issue's lifecycle.
 -   **[Review and close state fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/review-and-close-state-fields.md)**  
 Fields used in the activities of the Review and close state in an issue's lifecycle.
 -   **[Remediation task fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/remediation-task-fields.md)**  
-Fields on a remediation task record.
+Fields on the remediation task form.
 
 **Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/common-grc-features.md)
 

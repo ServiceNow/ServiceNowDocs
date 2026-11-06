@@ -7,8 +7,9 @@ release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [Security Control Lists, bulk observables, SCL]
 breadcrumb: [About Security Control Lists in TISC, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 

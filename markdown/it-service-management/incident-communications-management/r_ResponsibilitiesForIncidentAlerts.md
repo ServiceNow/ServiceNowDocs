@@ -1,29 +1,31 @@
 ---
-title: Responsibilities for Incident Communication Plan
-description: Contact responsibilities helps you to identify contacts by their responsibilities and to understand what you can expect from the user throughout the life cycle of the communication plan.
+title: Contact responsibilities for incident communication plans
+description: Contact responsibilities identify the contacts for an incident communication plan and define the role that each contact plays throughout the plan life cycle.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-communications-management/r\_ResponsibilitiesForIncidentAlerts.html
 release: australia
 product: Incident Communications Management
 classification: incident-communications-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Incident Communications Management and Contacts, Managing Incident Communications, Incident Communications Management, IT Service Management]
+breadcrumb: [Incident Communications Management and contacts, Managing incident communications, Incident Communications Management, IT Service Management]
 ---
 
-# Responsibilities for Incident Communication Plan
+# Contact responsibilities for incident communication plans
 
-Contact responsibilities helps you to identify contacts by their responsibilities and to understand what you can expect from the user throughout the life cycle of the communication plan.
+Contact responsibilities identify the contacts for an incident communication plan and define the role that each contact plays throughout the plan life cycle.
 
-There are two types of responsibilities available for use with incident communication plans:
+## Type of contact responsibilities
+
+Incident communication plans use two types of contact responsibilities:
 
 -   Default Responsibilities: Contacts who are notified by default.
 -   Other Responsibilities: Contacts who can be selected for notification.
 
 Use contact definitions to view and modify the rules that determine the specific users associated with contact responsibilities.
 
-## Default Responsibilities
+## Default responsibilities
 
 By default, contacts with the following responsibilities are notified when an incident communication plan is created:
 
@@ -31,9 +33,9 @@ By default, contacts with the following responsibilities are notified when an in
 -   Incident Manager
 -   Duty Director
 
-These roles are involved with resolving the source incident or original event that the incident communication plan relates to. They are seen as key contacts for the incident communication plan.
+Contacts with these responsibilities help resolve the source incident or original event of the incident communication plan and act as key contacts for the plan.
 
-The following sections describe typical operational roles for these responsibilities.
+The following table describes typical operational roles for these responsibilities.
 
 |Responsibility|Description|
 |--------------|-----------|
@@ -41,22 +43,22 @@ The following sections describe typical operational roles for these responsibili
 |Incident Manager|A senior technician, accountable for coordinating and managing all technical resources required to resolve incidents. After being notified by the Duty Manager of a serious incident, the Incident Manager assesses the seriousness and associated business impact. Based on this assessment, the Incident Manager decides whether to escalate the incident to the Duty Director. The Incident Manager may escalate to the Duty Director to gain access to resources outside of the department, if necessary.|
 |Duty Director|The escalation point for all issues that affect critical services. The Duty Director works in partnership with the business directors in the organization to approve recovery plans developed by the Incident Manager. The Duty Director also manages the senior level communications for the source incident.|
 
-## Other Responsibilities
+## Other responsibilities
 
-Incident Communications Management provides the following additional responsibilities that can be added to incident communication plans. You can also create contact responsibilities, as needed. The associated users receive notifications about the incident communication plan.
+Incident Communications Management provides the following additional responsibilities that you can add to incident communication plans. You can also create contact responsibilities, as needed. The associated users receive notifications about the incident communication plan.
 
 |Responsibility|Description|
 |--------------|-----------|
-|Business Director|Director within the business who is identified as a potential contact when an incident communication plan occurs.|
-|Communication Manager|Business-facing role in the event communication is required in an incident communication plan.|
+|Business Director|Director within the business who is identified as a potential contact when an incident communication plan is created.|
+|Communication Manager|Business-facing role that's involved when an incident communication plan requires business communication.|
 |Crisis Action Manager|Overall responsibility and accountability for managing incident communication plans.|
-|Crisis Action Team Member|Nominated department heads who are involved when an incident communication plan occurs.|
-|Development personnel|Development personnel involved in the troubleshooting and resolving an incident communication plan.|
-|Operations support personnel|Personnel involved in the second or third level of support in troubleshooting and resolving an incident communication plan.|
+|Crisis Action Team Member|Nominated department heads who are involved when an incident communication plan is created.|
+|Development personnel|Development personnel involved in troubleshooting and resolving the source incident of an incident communication plan.|
+|Operations support personnel|Second-level or third-level support personnel involved in troubleshooting and resolving the source incident of an incident communication plan.|
 |Service Owner|Service owner or manager who is identified as a potential contact when an incident communication plan relates to one or more of their services.|
-|Technical Support|Second or third level technical support personnel involved in troubleshooting and resolving an incident communication plan.|
+|Technical Support|Second-level or third-level technical support personnel involved in troubleshooting and resolving the source incident of an incident communication plan.|
 
-**Parent Topic:**[Incident Communications Management and Contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-communications-management/c_IncidentAlertContact.md)
+**Parent Topic:**[Incident Communications Management and contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-communications-management/c_IncidentAlertContact.md)
 
 **Related topics**  
 

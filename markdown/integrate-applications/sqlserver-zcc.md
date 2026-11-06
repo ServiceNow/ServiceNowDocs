@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-30"
 reading_time_minutes: 2
 keywords: [Microsoft SQL Server connector, zero-copy connector, JDBC connector, relational database, data fabric]
-breadcrumb: [Primary connectors, Zero Copy Connectors, Workflow Data Fabric]
+breadcrumb: [Primary connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
 
 # Microsoft SQL Server
@@ -31,6 +31,8 @@ The connector supports pushdown for the following Glide queries and list view op
 The connector also supports pushdown for cast expressions, string functions such as `LOWER` and `UPPER`, and date-part extraction, for example extracting the year from a date column. Unsupported expressions fall back to Trino with correct results.
 
 The connector also supports the following aggregate pushdowns: `avg()`, `count()`, `max()`, `min()`, `sum()`, `STDDEV_SAMP`, `STDDEV_POP`, `VARIANCE_SAMP`, `VARIANCE_POP`, `COVAR_SAMP`, `COVAR_POP`, `CORR`, `REGR_INTERCEPT`, and `REGR_SLOPE`. The connector also supports complex-expression pushdown, including arithmetic operations, `CAST`, `AND`/`OR`, `IN`, and `LIKE`.
+
+For known limitations, see the Knowledge Base article [Workflow Data Fabric - Primary Connectors Limitations \[KBB0010487\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KBB0010487).
 
 ## Supported data types
 

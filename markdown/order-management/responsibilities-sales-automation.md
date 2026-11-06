@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/responsibilities-sales-automation.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Responsibility-based access to Sales CRM entities, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---

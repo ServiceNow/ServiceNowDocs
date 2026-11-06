@@ -7,7 +7,7 @@ release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Quotas and resource order controls, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -18,9 +18,9 @@ Use resource order controls to perform quota checks for template-based catalog i
 
 ## Resource Order Controls
 
-Resource order controls enable you to control the quota limit of resources provisioned through template-based catalogs. Quota checks for cloud template-based catalog items are available beginning with the Australia release.
+Resource order controls enable you to control the quota limit of resources provisioned through template-based catalogs. Quota checks for cloud template-based catalog items are available beginning with the Brazil release.
 
-You can now map quota limits to template-based catalogs and trigger notifications or an approval subflow when the resource limit or quota definitions you specify for a user or user group is exceeded. For more information, see [Resource Quota](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/resource-quota.md).
+You can now map quota limits to template-based catalogs. You can trigger notifications or an approval subflow when the resource limit or quota definitions you specify for a user or user group is exceeded. For more information, see [Resource Quota](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/resource-quota.md).
 
 Use resource controls to perform the following actions:
 
@@ -42,7 +42,7 @@ For example, say you specify a quota limit of 20 GB for a storage volume for a c
 
 The stack count quota introduces a default base system quota for template-based cloud catalog items. The Stack count quota counts all active stacks \(identified by the **Stack** CI class\) provisioned by users and user groups. The stack count quota applies to all template-based cloud resources and you do not need to map catalog items to quota definitions. Once the stack quota is enabled, whenever a user from the group mapped to the stack quota provisions a cloud resource, the quota is calculated. When users from the mapped group try to provision resources beyond the limit defined in the quota definition for stacks, the Resource Order Control policy and **on Resource Limit exceeded** policy action is triggered.
 
-**Note:** The base system stack count quota does not have predefined default quotas to preserve stacks that might have been created prior to upgrading to Australia. You must specify default quota limits for users and user groups to enable the Stack count quota.
+**Note:** The base system stack count quota does not have predefined default quotas to preserve stacks that might have been created prior to upgrading to Brazil. You must specify default quota limits for users and user groups to enable the Stack count quota.
 
 ## Resource Order Control Policy
 

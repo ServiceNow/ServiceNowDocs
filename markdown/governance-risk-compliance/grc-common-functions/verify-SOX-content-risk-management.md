@@ -7,7 +7,7 @@ release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-05-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SOX content pack, GRC content packs, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -46,15 +46,21 @@ Role required: Risk Admin \(sn\_risk.admin\)
     -   Tax
     -   Travel and Expense
     -   Treasury
-2.  Under the Profile filters related list, a filter is added to query the SOX processes table for the generation of SOX profiles.
+    \[Omitted image "SOX-profile-type.png"\] Alt text: Profile type record is pictured with the Profiles related list
+
+2.  Under the Profile filters related list, a filter is added to query the SOX processes table for the generation of SOX profiles.\[Omitted image "SOX-profile-filter.png"\] Alt text: Profile type record is pictured with the Profile Filters Related List
 
 3.  Navigate to **Risk** &gt; **Risk Library** &gt; **Risk Statements**.
 
     All SOX risk statements have been added in the Draft state and the Risk Assessment is assigned to them.
 
+    \[Omitted image "SOX-risk-statements.png"\] Alt text: Risk statements
+
 4.  Navigate to **Risk** &gt; **Risk Register** &gt; **Risks**.
 
     All SOX risk statements have been added in the Draft state and the Risk Assessment is assigned to them.
+
+    \[Omitted image "SOX-risks.png"\] Alt text: Risks
 
 
 ## Result

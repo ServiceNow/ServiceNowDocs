@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/r\_HistoryList.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Knowing about History sets, Auditing]
 ---
@@ -14,11 +14,11 @@ breadcrumb: [Knowing about History sets, Auditing]
 
 The history list displays each change as its own row in the change list.
 
-\[Omitted image "ViewHistoryList.png"\] Alt text: View History List
+\[Omitted image "ViewHistoryList.png"\] Alt text:
 
 Click on a row item to view additional details about the change.
 
-\[Omitted image "ViewListChange.png"\] Alt text: View List Change record
+\[Omitted image "ViewListChange.png"\] Alt text:
 
 ## Requirements
 

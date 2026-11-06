@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/banner-widget-inst-options.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Configurable Portal widgets instance options, Configurable Portal Widgets reference, Reference, Customer Service Management]
 ---
 
@@ -40,7 +40,7 @@ Description
 
 </td><td>
 
-Required subtitle that appears below the heading. The default description is `This is home page description`.
+Required subtitle that appears under the heading. The default description is `This is home page banner description`.
 
 </td></tr><tr><td>
 
@@ -206,5 +206,11 @@ Defines the parameters of the widget that you want to add.For more information, 
 </table>**Related topics**  
 
 
+[Portal Banner widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-banner-widget.md)
+
 [Add and configure the Portal Banner widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-banner-widget-inst-opt.md)
+
+[Provide web page link buttons to display on the Portal Banner widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-scripted-extension-banner.md)
+
+[Add a widget in the Portal Banner widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-banner-option-schema.md)
 

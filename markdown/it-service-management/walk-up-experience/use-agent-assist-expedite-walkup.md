@@ -7,9 +7,9 @@ release: australia
 product: Walk-Up Experience
 classification: walk-up-experience
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage Walk-up Experience queue and interaction, Walk-up Experience, IT Service Management]
+breadcrumb: [Manage Walk-up Experience queue and interactions, Walk-up Experience, IT Service Management]
 ---
 
 # Use Agent Assist to expedite Walk-up Experience fulfillment
@@ -39,5 +39,5 @@ Agent Assist is a contextual search option available in Agent Workspace when a w
     For more detailed information about Agent Assist and using it to expedite incidents and requests, refer to Using Agent Assist in Agent Workspace and Order a catalog item using Agent Assist.
 
 
-**Parent Topic:**[Manage Walk-up Experience queue and interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/use-walkup-to-manage-demand.md)
+**Parent Topic:**[Manage Walk-up Experience queue and interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/use-walkup-to-manage-demand.md)
 

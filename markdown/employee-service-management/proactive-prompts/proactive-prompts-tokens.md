@@ -7,7 +7,7 @@ release: australia
 product: Proactive Prompts
 classification: proactive-prompts
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference for Proactive Prompts, Proactive Prompts, HR Service Delivery, Employee Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Reference for Proactive Prompts, Proactive Prompts, HR Service Deli
 
 Token placeholders indicate the data that will be replaced during runtime.
 
-When creating a signal, the message displayed to the user is written in the Single record display and Multiple record display fields. Use tokens in these messages to indicate data that will be replaced dynamically during runtime. For example, the message "Hey $\{receiving\_user\}, looks like $\{user\_count\} members in your team haven't taken PTO in the last quarter" will be displayed as "Hey Abel Tuter, looks like 2 members in your team haven't taken PTO in the last quarter".
+When you create a signal, write the message displayed to the user in the Single record display and Multiple record display fields. Use tokens in these messages to indicate data that will be replaced dynamically during runtime. For example, the message “Hey `${receiving_user}`, looks like `${user_count}` members in your team haven’t taken PTO in the last quarter” displays as “Hey Abel Tuter, looks like 2 members in your team haven’t taken PTO in the last quarter".
 
 ## Types of Tokens
 

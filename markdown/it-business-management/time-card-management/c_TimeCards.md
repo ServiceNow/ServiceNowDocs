@@ -7,7 +7,7 @@ release: australia
 product: Time Card Management
 classification: time-card-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Time Card management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -46,7 +46,7 @@ As a time card approver, you can view and approve or reject a submitted time car
 -   **[Recall a processed time card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/time-card-management/recall-approved-time-card.md)**  
 You can recall an incorrect time card in the Approved or Processed state to return it to the submitter. The submitter can then make the necessary changes and resubmit the time card.
 -   **[Map a time card category with operational work types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/time-card-management/map-time-card-category.md)**  
-Map custom time card categories with operational work types so you can select only the operational resource plans that are associated with the user for a specific time card period and category while posting time.
+Mapping custom time card categories with operational work types, you can select the operational resource plans associated with the user for a specific time card period and category.
 
 **Parent Topic:**[Time Card Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/time-card-management/time-card-management.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Create software models in Software Asset Management Core UI
+title: Create software models in Software Asset Management classic
 description: Create a software model to add product details that are used to connect software rights you purchased with software installations discovered on your system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/record-terms-software-licenses.html
@@ -7,12 +7,12 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Use SAM Core UI, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Using Software Asset Management classic, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
-# Create software models in Software Asset Management Core UI
+# Create software models in Software Asset Management classic
 
 Create a software model to add product details that are used to connect software rights you purchased with software installations discovered on your system.
 
@@ -83,14 +83,14 @@ If you've installed the SAP publisher pack, see [Record publisher details for SA
 13. Select **Update**.
 
 
-**Parent Topic:**[Using Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/using-sam-classic.md)
+**Parent Topic:**[Using Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/using-sam-classic.md)
 
 **Related topics**  
 
 
 [Supported software publisher licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sam-publisher-packs.md)
 
-[Software models and Software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-models-and-entitlements.md)
+[Software models and software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-models-and-entitlements.md)
 
 [Software model fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-model-fields.md)
 

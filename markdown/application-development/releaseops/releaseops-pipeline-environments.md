@@ -7,10 +7,10 @@ release: australia
 product: ReleaseOps
 classification: releaseops
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ReleaseOps, deploy changes, update sets, pipeline, ATF, schedule a release, deployment request, deployment analyzer, custom pipeline, large scale deployment ServiceNow]
-breadcrumb: [Explore, ReleaseOps, Deploying applications, Building applications]
+breadcrumb: [Explore, ReleaseOps, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Pipelines in ReleaseOps
@@ -34,5 +34,7 @@ A pipeline maps intermediate instances to the playbook. For example, the sample 
 
 Pipelines can use the sample ReleaseOps playbooks, custom playbooks, or a mix of both. Multiple pipelines can leverage the same playbooks by mapping a different instance definition, which is then referenced in the playbooks.
 
-However, because the activities required during deployment might vary from release to release, ReleaseOps also provides a more flexible solution to having to create and adjust custom playbooks each time: runbook tasks. Runbook tasks can be added at the deployment request level and enable you to define the kind of activity \(manual or automated\) needed at the given playbook stage. For more information about runbook tasks, see [Runbook tasks in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/runbook-tasks.md).
+Because the activities required during deployment might vary from release to release, ReleaseOps also provides a more flexible solution to having to create and adjust custom playbooks each time: runbook tasks. Runbook tasks can be added at the deployment request level and enable you to define the kind of activity \(manual or automated\) needed at the given playbook stage. For more information about runbook tasks, see [Runbook tasks in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/runbook-tasks.md).
+
+**Parent Topic:**[Exploring ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/exploring-release-ops.md)
 

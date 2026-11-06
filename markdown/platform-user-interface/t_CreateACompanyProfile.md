@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_CreateACompanyProfile.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -32,7 +32,7 @@ Much of the company information that you enter is reference information that adm
 
 3.  Select the **Primary** check box to indicate if this company is the primary company.
 
-    If needed, configure the form to add the **Primary** check box. Designate only one company in your system as the primary company.
+    If needed, [configure the form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) to add the **Primary** check box. Designate only one company in your system as the primary company.
 
 4.  To upload your company logo, select **Click to add** or **Update** beside **UI16 Banner Image**.
 

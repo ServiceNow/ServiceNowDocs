@@ -7,7 +7,7 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Agent Client Collector, IT Operations Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Agent Client Collector, IT Operations Management]
 
 Agent Client Collector Log Analytics \(ACC-L\) enables you to stream log data from Linux and Windows hosts to a ServiceNow instance, using the Agent Client Collector.
 
-As with Agent Client Collector Framework \(ACC-F\), the Agent Client Collector connects to a MID Server. A single MID Server may support multiple agents, while a single agent works with one MID Server at a time and switches to a different MID Server when necessary to provide failover protection.
+As with Agent Client Collector Framework \(ACC-F\), the Agent Client Collector connects to a MID Server. A single MID Server may support multiple agents. A single agent works with one MID Server at a time and switches to a different MID Server when necessary to provide failover protection.
 
 Use the Agent Client Collector to stream log data to your ServiceNow® instance by means of a log shipper. The log data is mapped and structured in the ServiceNow® Health Log Analytics application. For more information, see the [Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-landing-page.md) product documentation.
 

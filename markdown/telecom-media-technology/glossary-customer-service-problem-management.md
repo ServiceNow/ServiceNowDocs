@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/glossary-customer-service-problem-management.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms]
 breadcrumb: [Reference, Customer Service Problem Management, Telecommunications, Media, and Technology \(TMT\)]
@@ -62,6 +62,10 @@ Glossary terms are grouped alphabetically.
 ### Service problem case
 
 A record representing a customer-reported issue or a network fault, tracked through its lifecycle from verification to closure.
+
+### Southbound API
+
+APIs responsible for executing tests on external systems \(e.g., routers or network devices\) as part of the diagnostic process. To learn more, see [Customer Service Problem Management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/spm-data-model.md).
 
 ## T
 

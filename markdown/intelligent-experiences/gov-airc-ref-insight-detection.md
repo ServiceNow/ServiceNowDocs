@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-10-01"
 reading_time_minutes: 1
 keywords: [stalled lifecycle tasks, significant issues, detection threshold, AI insight]
-breadcrumb: [Governance insights, Reviewing AI governance posture and compliance status, Managing risk and compliance, Govern AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Governance insights, Reviewing AI governance posture and compliance status, Managing risk and compliance, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Governance insight detection reference
@@ -22,7 +22,7 @@ A lifecycle task is flagged if either of the following is true:
 -   Overdue: The task has a due date that is more than 7 days in the past.
 -   Dormant: The task hasn't been updated in more than 7 days, regardless of its due date.
 
-Tasks already in a terminal state \(such as Closed complete, Closed incomplete, or Cancelled\) are excluded. The AI system itself is also excluded if it's in the Retired or Cancelled state. The detection job evaluates four task types: AI system lifecycle tasks, assessment tasks, risk assessment instances, and risk assessment projects.
+Tasks already in a terminal state \(such as Closed complete, Closed incomplete, or Cancelled\) are excluded. The AI system itself is also excluded if it's in the Retired or Cancelled state. The detection job evaluates AI system lifecycle tasks and assessment tasks. If the GRC: Advanced Risk Assessment \(com.sn\_risk\_advanced\) plugin is active, it also evaluates risk assessment instances and risk assessment projects.
 
 ## Significant Issues criteria
 

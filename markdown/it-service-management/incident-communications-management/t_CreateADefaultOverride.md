@@ -1,20 +1,20 @@
 ---
 title: Create a default override
-description: Create a default override to specify user or group for a contact definition of an incident communication plan. It helps you to set multiple conditions based on which a user or a group is considered as a contact.
+description: Create a default override to specify the user or group for a contact definition in an incident communication plan. Use multiple conditions to determine which user or group becomes the contact.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-communications-management/t\_CreateADefaultOverride.html
 release: australia
 product: Incident Communications Management
 classification: incident-communications-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Incident Communications Management and Contacts, Managing Incident Communications, Incident Communications Management, IT Service Management]
+breadcrumb: [Incident Communications Management and contacts, Managing incident communications, Incident Communications Management, IT Service Management]
 ---
 
 # Create a default override
 
-Create a default override to specify user or group for a contact definition of an incident communication plan. It helps you to set multiple conditions based on which a user or a group is considered as a contact.
+Create a default override to specify the user or group for a contact definition in an incident communication plan. Use multiple conditions to determine which user or group becomes the contact.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: ia\_admin or admin
 
 ## About this task
 
-The Default overrides related list is available only if you select **Default override** as the value of the **Source** field in the Contact definition form.
+The Default overrides related list is available only if you select **Default Override** as the value of the **Source** field in the Contact definition form.
 
 ## Procedure
 
@@ -32,11 +32,11 @@ The Default overrides related list is available only if you select **Default ove
 
 2.  Open the contact definition record.
 
-3.  In the Default override section, click **New**.
+3.  In the Default overrides related list, select **New**.
 
     \[Omitted image "NewDefaultOverride.png"\] Alt text: Default override form
 
-4.  On the form, fill the fields.
+4.  On the form, fill in the fields.
 
 <table id="table_wf5_bzg_1r"><thead><tr><th>
 
@@ -52,7 +52,7 @@ Order
 
 </td><td>
 
-The order in which the condition in default override should be evaluated.
+Order in which the default override condition is evaluated.
 
 </td></tr><tr><td>
 
@@ -60,7 +60,7 @@ User value
 
 </td><td>
 
-User specified in the **User value** field is assigned as the contact if the condition in the default override matches. **Note:** The **User value** field appears if the value of the **Type** field in the Contact definition form is **User**.
+User assigned as the contact when the default override condition matches. **Note:** The **User value** field appears if the value of the **Type** field in the Contact definition form is **User**.
 
 </td></tr><tr><td>
 
@@ -68,7 +68,7 @@ Group value
 
 </td><td>
 
-Group specified in the **Group value** field is assigned as the contact if the condition in the default override matches. **Note:** The **Group value** field appears if the value of the **Type** field in the Contact definition form is **Group**.
+Group assigned as the contact when the default override condition matches. **Note:** The **Group value** field appears if the value of the **Type** field in the Contact definition form is **Group**.
 
 </td></tr><tr><td>
 
@@ -76,20 +76,20 @@ Condition
 
 </td><td>
 
-The conditions defining whether the default override values are to be applied. If multiple conditions are defined, each condition is evaluated as per the listed order. If no conditions match, the default override is not applied.
+Conditions that determine whether the default override values are applied. If multiple conditions are defined, they're evaluated in the listed order. If no conditions match, the default override is not applied.
 
 </td></tr></tbody>
-</table>5.  Click **Submit**.
+</table>5.  Select **Submit**.
 
     Default override and its conditions are defined for a contact definition.
 
 
-**Parent Topic:**[Incident Communications Management and Contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-communications-management/c_IncidentAlertContact.md)
+**Parent Topic:**[Incident Communications Management and contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-communications-management/c_IncidentAlertContact.md)
 
 **Related topics**  
 
 
-[Responsibilities for Incident Communication Plan]()
+[Contact responsibilities for incident communication plans]()
 
 [Define contact responsibilities]()
 

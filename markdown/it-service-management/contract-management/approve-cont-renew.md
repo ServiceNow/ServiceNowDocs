@@ -7,7 +7,7 @@ release: australia
 product: Contract Management
 classification: contract-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Contract renewal workflow, Contract Management, Asset Management common applications, IT Service Management]
 ---
@@ -40,15 +40,15 @@ Role required: contract\_system\_admin, asset\_manager\(core UI and Hardware Ass
 
 5.  Either approve or reject the contract renewal request.
 
-<table id="choicetable_lcq_2fl_4tb"><thead><tr><th align="left" id="d393518e134">
+<table id="choicetable_lcq_2fl_4tb"><thead><tr><th align="left" id="d270143e134">
 
 Action
 
-</th><th align="left" id="d393518e137">
+</th><th align="left" id="d270143e137">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d393518e143">
+</th></tr></thead><tbody><tr><td id="d270143e143">
 
 **Approve the request by selecting Approve**
 
@@ -58,7 +58,7 @@ Result
 -   The Renewal purchase order task or the Manual purchase order task is created.
 
 
-</td></tr><tr><td id="d393518e161">
+</td></tr><tr><td id="d270143e161">
 
 **Reject the request by selecting Reject**
 

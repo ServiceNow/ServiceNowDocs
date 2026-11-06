@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
 breadcrumb: [Running discoveries in your network, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -152,7 +152,7 @@ Validate the results of your discovery by accessing the ECC queue, analyzing the
 
 ### Before you begin
 
-Role required: discovery\_admin
+Role required: discovery\_admin or discovery\_operator
 
 ### About this task
 

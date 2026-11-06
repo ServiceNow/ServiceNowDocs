@@ -7,7 +7,7 @@ release: australia
 product: MID Server
 classification: mid-server
 topic_type: concept
-last_updated: "2026-05-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
 breadcrumb: [Configuring MID Servers, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -689,7 +689,7 @@ Role required: agent\_admin, admin
 
 Multiple MID Servers can listen to the same vCenter instance, and you can add multiple Event Collectors for different vCenters to a single MID Server. Make sure you configure the events on the event collector record that specify the correct MID Server.
 
-**Note:** You can add events to the vCenter event collector. However, not every event is supported by the base system event handlers. If you want to handle events other than those supported in the base Discovery system, you must create a script action to process the events.For instructions, see [Script actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/r_ScriptActions.md). As a reference, the instance processes the vCenter events in the base system with a script action called **Discovery: Process vCenter events**. Do not edit or delete this script action.
+**Note:** You can add events to the vCenter event collector. However, not every event is supported by the base system event handlers. If you want to handle events other than those supported in the base Discovery system, you must create a script action to process the events.For instructions, see Script actions. As a reference, the instance processes the vCenter events in the base system with a script action called **Discovery: Process vCenter events**. Do not edit or delete this script action.
 
 To configure the vCenter event processor extension:
 

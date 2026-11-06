@@ -7,7 +7,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-04-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Analytics and reporting solutions for Risk Management, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -24,7 +24,7 @@ To view the operational risk heatmaps, ensure the following:
 -   Activate the **GRC: Advanced Risk** \(com.sn\_risk\_advanced\) plugin.
 -   Enable the **Migrate to Advanced Risk Assessments** property.
 
-In the **Summary** field, you can select the risk assessment methodology for which you want to view the heatmap. When you select any tile of the heatmap, you can view all the risks and their scores assessed for that particular risk assessment methodology. You can view the risk response strategy selected for those risks. If you want to define colors for your heatmaps, you can define the colors according to your preferences. For more information, see [Create risk color styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/create-risk-color-style.md).
+In the **Summary** field, you can select the risk assessment methodology for which you want to view the heatmap. When you click any tile of the heatmap, you can view all the risks and their scores assessed for that particular risk assessment methodology. You can view the risk response strategy selected for those risks. If you want to define colors for your heatmaps, you can define the colors according to your preferences. For more information, see [Create risk color styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/create-risk-color-style.md).
 
 \[Omitted image "heatmap\_ara.jpg"\] Alt text: Heatmap of operational risk.
 

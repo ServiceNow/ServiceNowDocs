@@ -1,5 +1,5 @@
 ---
-title: Cisco Meraki Service Graph Connector API Endpoints
+title: Cisco Meraki Service Graph Connector API endpoints
 description: The Service Graph Connector for Meraki integrates Cisco Meraki Dashboard API data into ServiceNow AI PlatformConfiguration Management Database \(CMDB\). This document details the API endpoints used and how data flows through the system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-service-ops/telecommunications-service-operations-management/cisco-meraki-service-graph-connector-api-endpoints.html
@@ -7,12 +7,12 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 breadcrumb: [Reference, Telecommunications Service Operations Management]
 ---
 
-# Cisco Meraki Service Graph Connector API Endpoints
+# Cisco Meraki Service Graph Connector API endpoints
 
 The Service Graph Connector for Meraki integrates Cisco Meraki Dashboard API data into ServiceNow AI Platform®Configuration Management Database \(CMDB\). This document details the API endpoints used and how data flows through the system.
 
@@ -45,7 +45,11 @@ Organizations API response`URL:/organizations`
 ```
 
 </td></tr></tbody>
-</table><table><thead><tr><th>
+</table>|Description|API response|
+|-----------|------------|
+|Licenses overview API response`URL: /organizations/{orgId}/licenses/overview`|Called for organizations with a CO-TERM licensing model \(`org.licensing.model === "co-term"`\) to collect the license expiration date, which is not available on a per-device basis for these organizations.|
+
+<table><thead><tr><th>
 
 Description
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/tp-eng-add-digi-resi-info.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a third-party engagement and enhance data, Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Create a third-party engagement for digital resilience, Use, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Add Digital resilience info to third-party engagements
@@ -26,7 +26,7 @@ Role required: sn\_oper\_res.manager
 
 3.  Select **New**.
 
-    The Create ICT third-party service provider form is displayed.
+    The Create New ICT third-party service provider form is displayed.
 
 4.  Set up the digital resilience information details.
 
@@ -39,5 +39,5 @@ Role required: sn\_oper\_res.manager
 6.  Navigate to the Contractual arrangements tab and view the details.
 
 
-**Parent Topic:**[Create a third-party engagement and enhance data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-drtp-reg-tp-engagement.md)
+**Parent Topic:**[Create a third-party engagement for digital resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-drtp-reg-tp-engagement.md)
 

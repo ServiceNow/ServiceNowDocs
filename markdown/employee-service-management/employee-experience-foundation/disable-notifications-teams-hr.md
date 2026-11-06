@@ -7,9 +7,9 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [HR Service Delivery integration, Microsoft Teams Integration for Employee Experience, Configure, ServiceNow for Microsoft Teams and Microsoft 365, Unified Employee Experience, Employee Service Management]
+breadcrumb: [HR Service Delivery integration, Microsoft Teams Integration for Employee Experience, Configure, ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
 ---
 
 # Review the active notifications for Microsoft Teams
@@ -28,13 +28,15 @@ You will find HR Case as a duplicate notification after installing the HR Servic
 
 1.  Navigate to **All** &gt; **ServiceNow for Microsoft 365** &gt; **Notifications** &gt; **Provider Notifications**.
 
-    You can also navigate to **All** &gt; **System Notifications** &gt; **Provider** &gt; **Notifications**.
+    You can also navigate to **All** &gt; **System Notifications** &gt; **Provider** &gt; **Notifications**. \[Omitted image "notifications.png"\] Alt text: Notifications
 
 2.  In the Notifications list, search for the **HR Case** notification.
 
 3.  Select one of the **HR Case** notifications.
 
 4.  Clear the **Active** field.
+
+    \[Omitted image "uncheck-active-hr.png"\] Alt text: Uncheck active
 
 5.  Select **Update**.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/om-inv-invoice-dispute-ai-voice-agent.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Order Management AI agents, Sales CRM AI agents, Sales CRM, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [Order Management AI agents, Sales CRM AI agents, Sales CRM, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Invoice dispute AI voice agent
@@ -16,14 +16,13 @@ This AI voice agent helps customers resolve discrepancies between invoiced quant
 
 ## Workflow
 
-The agent scope is strictly limited to quantity disputes only. It must escalate to a live agent for other issues such as pricing, billing, discounts, product quality, and damage complaints.
+The agent scope is strictly limited to quantity disputes only. It must escalate to a live agent for other issues such as pricing issues, payment issues, tax questions, delivery problems, and billing address changes.
 
 1.  If the user requests help beyond the agent’s capabilities or encounters repeated issues, always offer live agent support as option.
 2.  Extract all available information from the user's first statement \(invoice number, product, date, quantity received\).
 3.  Search with all available parameters to find the invoice. If multiple possible invoices are found, clarify with customer.
 4.  Clarify with the customer which line on the invoice has the disputed quantity.
 5.  Create an invoice case.
-6.  End workflow.
 
 <table><thead><tr><th>
 
@@ -113,7 +112,7 @@ Used in agentic workflows
 Not applicable.
 
 </td></tr></tbody>
-</table>Learn more about Order Management at [Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md).
+</table>Learn more about customer self-service via Business Portal at [Customer self-service for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-self-service-business-portal.md).
 
 **Parent Topic:**[Order Management AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/om-ai-agents-overview.md)
 

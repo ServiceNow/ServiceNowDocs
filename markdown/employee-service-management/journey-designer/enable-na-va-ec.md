@@ -1,20 +1,20 @@
 ---
-title: Add Employee Center to the ServiceNow Otto display experience
-description: Enable ServiceNow Otto to appear in Employee Center to converse with AI agents in this agentic workflow.
+title: Add Employee Center to Now Assist in Virtual Agent
+description: Add Now Assist in Virtual Agent to the Employee Center display experience to enable AI agent conversations during agentic workflow processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/journey-designer/enable-na-va-ec.html
 release: australia
 product: Journey Designer
 classification: journey-designer
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Generate onboarding ramp-up plan, AI in Journey designer, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Generate onboarding ramp-up plan agentic workflow, AI in Journey designer, Use, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
-# Add Employee Center to the ServiceNow Otto display experience
+# Add Employee Center to Now Assist in Virtual Agent
 
-Enable ServiceNow Otto to appear in Employee Center to converse with AI agents in this agentic workflow.
+Add Now Assist in Virtual Agent to the Employee Center display experience to enable AI agent conversations during agentic workflow processes.
 
 ## Before you begin
 
@@ -24,22 +24,26 @@ Role required: virtual\_agent\_admin
 
 1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistants**.
 
-2.  Select **Manage assistants**.
+    The Assistants page appears.
 
-3.  On the Now Assistin Virtual Agent \(default\) card, select **Edit**.
+2.  Select **Now Assist in Virtual Agent \(default\)**.
 
-4.  In the Continue customizing this assistant widget, select **Review display experiences**.
+3.  On the navigation panel, select **Display experience**.
 
-    The Display experiences section within the Settings page appears.
+    The Choose how to display page appears.
 
-5.  Select **Employee Center** from the **Add portal** drop-down list.
+4.  In the Portals widget, select **Employee Center** from the **Add portal** drop-down list.
 
-6.  Select the **Enhanced chat** radio button.
+    The Add chat experience dialog box appears.
 
-7.  Select the **Allow the search bar to open into a full-page chat experience** check box.
+5.  Select the **Allow the search bar to open into a full-page chat experience** check box.
 
-8.  Select **Add**.
+6.  Select **Add**.
 
-9.  Select **Save**.
+7.  Select **Save and continue**.
 
+
+**Parent Topic:**[Generate onboarding ramp-up plan agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/onboarding-ramp-up-plan-agentic-wf.md)
+
+**Parent Topic:**[Offboarding knowledge transfer plan generation agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/offboarding-knowledge-x-agentic-wf.md)
 

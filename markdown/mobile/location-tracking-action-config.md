@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/location-tracking-action-config.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Enabling/selecting options, Location tracking in the Now Mobile Agent app, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -43,15 +43,15 @@ Role required: admin
 
 5.  In the **Location tracking action** field, select one of the following options of the action item.
 
-<table id="choicetable_tqp_sb1_fwb"><thead><tr><th align="left" id="d130025e154">
+<table id="choicetable_tqp_sb1_fwb"><thead><tr><th align="left" id="d131229e154">
 
 Location tracking action
 
-</th><th align="left" id="d130025e157">
+</th><th align="left" id="d131229e157">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d130025e163">
+</th></tr></thead><tbody><tr><td id="d131229e163">
 
 **None**
 
@@ -59,7 +59,7 @@ Description
 
 This option does not affect any location tracking functionality.
 
-</td></tr><tr><td id="d130025e172">
+</td></tr><tr><td id="d131229e172">
 
 **Stop**
 
@@ -67,7 +67,7 @@ This option does not affect any location tracking functionality.
 
 Ends a location tracking session.
 
-</td></tr><tr><td id="d130025e181">
+</td></tr><tr><td id="d131229e181">
 
 **Start**
 

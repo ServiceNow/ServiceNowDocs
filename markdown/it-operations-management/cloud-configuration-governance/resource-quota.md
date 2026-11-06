@@ -7,7 +7,7 @@ release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Launch a stack, Cloud User Portal, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -26,7 +26,7 @@ To see the quota you have consumed for provisioning resources compared to the ma
 -   Storage Volume Size
 -   Network Count
 
-**Note:** The Stack Count is a default base system quota limit available beginning with the Australia release. It is displayed on the Overview page if your Cloud Provisioning and Governance administrator has set a Stack Count quota for you or your user group.
+**Note:** The Stack Count is a default base system quota limit available beginning with the Brazil release. It is displayed on the Overview page if your Cloud Provisioning and Governance administrator has set a Stack Count quota for you or your user group.
 
 The Quota section on the Overview page displays the quota limits in a graph.
 

@@ -1,41 +1,41 @@
 ---
-title: Configure a customized notification for critical alert
-description: Set your custom notifications as critical for ITSM Mobile Agent
+title: Configure a custom notification as a critical alert
+description: Set your custom push notifications as critical alerts in ITSM Mobile Agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-mobile-agent/configure-customised-notification-for-critical-alert.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Enable Override do not disturb to receive critical alerts, Configuring ITSM Mobile Agent, ITSM Mobile Agent, IT Service Management]
+breadcrumb: [Enable critical alerts in Do Not Disturb mode, Configuring ITSM Mobile Agent, ITSM Mobile Agent, IT Service Management]
 ---
 
-# Configure a customized notification for critical alert
+# Configure a custom notification as a critical alert
 
-Set your custom notifications as critical for ITSM Mobile Agent
+Set your custom push notifications as critical alerts in ITSM Mobile Agent.
 
 ## Before you begin
 
-Ensure that the custom notification is listed in the notification table.
+The custom notification must be listed in the notification table.
 
 Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **System notification** &gt; **Push** &gt; **Push Notification** and open the notification that you want to set as critical.
+1.  Navigate to **All** &gt; **System notification** &gt; **Push** &gt; **Push Notification** and open the notification to set as critical.
 
 2.  In the selected notification record, select the **What to send** tab.
 
-3.  Select the info icon \(\[Omitted image "icon-more-info.png"\] Alt text: Info icon.\) next to the **Push message** field and select **Open record** from the **Push Notification Message** pop-up message.
+3.  Select the info icon \[Omitted image "icon-more-info.png"\] Alt text: next to the **Push message** field and select **Open record** from the **Push Notification Message** pop-up message.
 
-4.  Open the **Push Notification Message Content** table and paste the **return new sn\_itsm\_mobile\_agt.CriticalPushPayloadBuilder\(current, json, attributes\).buildJSON\(\);** attribute in the **Push Message Generation** field.
+4.  Open the Push Notification Message Content table and paste `return new sn_itsm_mobile_agt.CriticalPushPayloadBuilder(current, json, attributes).buildJSON();` into the **Push Message Generation** field.
 
-5.  Create a new **isCritical** attribute with the attribute type as `string`.
+5.  Create an **isCritical** attribute with the attribute type as `string`.
 
-6.  Set the default value for the property as `False`.
+6.  Set the default value of the attribute to `False`.
 
-7.  In the Push Notification Message table, add the **isCritical** attribute, and set the value as `true`.
+7.  In the Push Notification Message table, add the **isCritical** attribute and set its value to `true`.
 
 

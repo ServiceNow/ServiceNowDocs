@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/vault-vault-crypto-module-manager-ai-agent.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Vault AI agents, ServiceNow Vault AI agents, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [ServiceNow Vault AI agents, ServiceNow Vault AI agents, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Vault crypto module manager AI agent
@@ -92,7 +92,7 @@ Allowed user roles The specific user roles that can access this AI agent.
 
 </td><td>
 
-snc\_internal
+Not defined.
 
 </td></tr><tr><td>
 
@@ -100,7 +100,7 @@ Data access roles The specific user identity roles that determine which data the
 
 </td><td>
 
-sn\_vault\_console.vault\_console\_admin, security\_admin, sn\_kmf.admin, sn\_kmf.cryptographic\_manager
+sn\_vault\_console.vault\_console\_admin, security\_admin, sn\_kmf.cryptographic\_manager
 
 </td></tr><tr><td>
 

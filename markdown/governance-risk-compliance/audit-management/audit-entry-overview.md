@@ -7,10 +7,10 @@ release: australia
 product: Audit Management
 classification: audit-management
 topic_type: concept
-last_updated: "2026-05-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [audit entry, third line, second line, audit workspace]
-breadcrumb: [Exploring Audit Management, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Explore, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Audit entry
@@ -41,11 +41,11 @@ After a record is saved, the audit entry field is locked and can't be changed.
 
 ## Impact on risk score roll-up
 
-Third-line entities, third-line risk statements, and third-line risks are excluded from the risk score roll-up calculation. This exclusion helps avoid third-line records from changing the assessment scores that second-line users see on second-line risks.
+Third-line entities, third-line risk statements, and third-line risks are excluded from the risk score roll-up calculation. This exclusion helps prevent third-line records from changing the assessment scores that second-line users see on second-line risks.
 
 ## Impact on compliance score roll-up
 
-Third-line control objectives and third-line controls are excluded from the compliance score roll-up calculation. This exclusion helps avoid third-line records from changing the compliance scores that second-line users see on second-line controls.
+Third-line control objectives and third-line controls are excluded from the compliance score roll-up calculation. This exclusion helps prevent third-line records from changing the compliance scores that second-line users see on second-line controls.
 
 -   **[Create an audit entry record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/create-audit-entry-record.md)**  
 Create audit entry records to track third-line audit objects in the Audit Workspace. Audit entry records are read-only after the first save and are hidden from second-line users.

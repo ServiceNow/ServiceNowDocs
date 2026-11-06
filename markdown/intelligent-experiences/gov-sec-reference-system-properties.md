@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/gov-sec-reference-system-properties.html
 release: australia
 topic_type: reference
-last_updated: "2026-05-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Reference, Managing AI asset security, Govern AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Reference, Managing AI asset security, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # System properties for AI asset security
@@ -45,8 +45,7 @@ sn\_ai\_security.veza.api.key
 
 </td><td>
 
-The Veza API access token that controls authentication for data for access intelligence. For more information, see [Configure Veza access intelligence in the agent map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-configure-veza-access-intelligence.md).-   Type: password2
--   Default value: false
+Deprecated. The Veza API access token that controls authentication for data for access intelligence. For more information, see [Configure Veza access intelligence in the agent map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-configure-veza-access-intelligence.md).-   Type: password2
 -   Location: The System Properties \[sys\_properties\] table
 
 </td></tr><tr><td>
@@ -55,8 +54,7 @@ sn\_ai\_security.veza.api.url
 
 </td><td>
 
-The base URL of the Veza tenant that provides access intelligence data for the agent map. For example, `https://your-tenant.vezacloud.com`. For more information, see [Configure Veza access intelligence in the agent map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-configure-veza-access-intelligence.md).-   Type: string
--   Default value: false
+The base URL of the Veza tenant that provides access intelligence data for the agent map. For example, `https://your-tenant.vezacloud.com`. Used for connection URL construction even when OAuth is active. For more information, see [Configure Veza access intelligence in the agent map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-configure-veza-access-intelligence.md).-   Type: string
 -   Location: The System Properties \[sys\_properties\] table
 
 </td></tr></tbody>

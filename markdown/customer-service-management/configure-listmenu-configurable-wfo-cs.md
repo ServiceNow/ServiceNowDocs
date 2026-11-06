@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-listmenu-configurable-wfo-cs.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up Workforce Optimization Coaching, Optimize workforce operations, Extend capabilities, Configure, Customer Service Management]
 ---
@@ -26,9 +26,9 @@ Role required: admin
 
 1.  In the application navigator, enter `sys_ux_list_menu_config.list`.
 
-2.  Select **Learning list** record.
+2.  Click **Learning list** record.
 
-3.  Under UX list category, select **New**.
+3.  Under UX list category, click **New**.
 
 4.  Enter the following field values.
 
@@ -39,9 +39,9 @@ Role required: admin
     |Order|Enter a value to set the position of the list category in the current list.|
     |Active|Select the check box to make the list category visible.|
 
-5.  Select **Submit**.
+5.  Click **Submit**.
 
-6.  Under UX Lists, select **New** to create lists under that list category.
+6.  Under UX Lists, click **New** to create lists under that list category.
 
 7.  Enter the following field values.
 
@@ -52,9 +52,9 @@ Role required: admin
     |Configuration|Select **Learning List**.|
     |Columns|Select the columns that you want to display for the table.|
 
-8.  Select **Submit**.
+8.  Click **Submit**.
 
-9.  Select **Update**.
+9.  Click **Update**.
 
 
 **Parent Topic:**[Setting up Coaching in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setup-coaching-configurable-wfo-cs.md)

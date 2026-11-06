@@ -7,10 +7,10 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 keywords: [HAM licensing, Hardware Asset Management licensing]
-breadcrumb: [Hardware Asset Management subscription, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Hardware Asset Management license exclusion
@@ -37,12 +37,8 @@ You can't select and use the excluded assets in the following HAM flows and task
 
 **Note:** Any workflow once started on an asset is allowed to complete even if the asset is marked excluded midway through.
 
-**Parent Topic:**[Hardware Asset Management subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/ham-subscription.md)
+-   **[Opt-in or opt-out of HAM license resource categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/optin-optout-ham-license-resource-categories.md)**  
+Opt in the Hardware Asset Management \(HAM\) license resource categories that are part of the HAM subscription. You can purchase and opt in the resource categories that you use, and you can opt out and not pay for the categories that you don't use.
 
-**Related topics**  
-
-
-[Hardware Asset Management licensing]()
-
-[Licensing framework for Hardware Asset Management solutions]()
+**Parent Topic:**[Configuring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/configuring-ham.md)
 

@@ -1,20 +1,20 @@
 ---
-title: Enable HTML Sanitizer within Virtual Agent
-description: Use the com.glide.cs.html.sanitizer.enabled property to enable HTMLSanitizerService.
+title: Enable HTML sanitizer within Virtual Agent
+description: Use the com.glide.cs.html.sanitizer.enabled property to enable HTML sanitizer service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/instance-security-hardening-settings/sc-enable-html-sanitizer.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platform Security]
 ---
 
-# Enable HTML Sanitizer within Virtual Agent
+# Enable HTML sanitizer within Virtual Agent
 
-Use the **com.glide.cs.html.sanitizer.enabled** property to enable HTMLSanitizerService.
+Use the **com.glide.cs.html.sanitizer.enabled** property to enable HTML sanitizer service.
 
 The **com.glide.cs.html.sanitizer.enabled** system property controls the whether the HtmlSanitizerService is enabled. If **com.glide.cs.html.sanitizer.enabled** is not set to **true**, then a Stored Cross-Site Scripting \(XSS\) attack is possible in the VA web client.
 
@@ -70,7 +70,7 @@ Default value
 
 </td><td>
 
-&lt;none&gt;
+true
 
 </td></tr><tr><td>
 

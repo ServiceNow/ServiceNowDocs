@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-config-eaw-using-setup-page.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -40,7 +40,7 @@ You can configure the shape libraries, modeling options, entities, and relations
 Configure the application TCO source, cost type, and determine the duration of a fiscal property, in the Enterprise Architecture Workspace.
 -   **[Configure certification policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-setup-cert-policies.md)**  
 Configure certification policies to keep your business applications inventory up to date. Keeping your business application data current helps you to assess your business applications precisely as there are indicators that are dependent on these business applications.
--   **[Configure Technology Lifecycle Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-config-tech-portfolio-mgmt.md)**  
+-   **[Configure Technology Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-config-tech-portfolio-mgmt.md)**  
 Configure Technology Lifecycle Management in Enterprise Architecture Workspace. By configuring TLM, you can get application lifecycle risk insights and rationalize applications.
 -   **[Configure Technology Reference Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-config-tech-ref-model.md)**  
 Configure Technology Reference Model Enterprise Architecture Workspace. Configuring the Technology Reference Model offers a structured approach to managing technology standards across your organization.

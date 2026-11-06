@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-29"
 reading_time_minutes: 4
 keywords: [Extend existing ServiceNow experiences, Prerequisites, Steps, Two extensions targeting the same route]
-breadcrumb: [Extend experiences, Lux Development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Extend experiences, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Extend existing ServiceNow experiences
@@ -20,7 +20,7 @@ Contribute a page to an experience owned by another scoped application, without 
 -   Role required: admin
 -   The Now SDK is installed and authenticated against a target instance.
 -   Familiarity with scaffolding an application with `now-sdk init` \(see [Create your first Lux experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/create-your-first-experience.md)\).
--   The host application's `scope` and `basename` \(its `aiux.json` values\). If the host's manifest isn't visible - for example, a pre-existing experience whose scope wasn't derived through this convention - use the experience's sys\_id directly instead. For that explicit form, see .
+-   The host application's `scope` and `basename` \(its `aiux.json` values\). If the host's manifest isn't visible - for example, a pre-existing experience whose scope wasn't derived through this convention - use the experience's sys\_id directly instead. For that explicit form, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/supported-extension-points.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/supported-extension-points.md).
 
 ## About this task
 
@@ -58,7 +58,7 @@ For the same task through the ServiceNow Lux Lab for VS Code instead of the CLI,
     pnpm install
     ```
 
-    The extending application's own `aiux.json` and `pages/` are unrelated to what it extends - an extension is declared separately, under `src/extensions/`. A project must not include both. If a project contains any src/extensions/ pages, its own pages/ are still processed. However, they get silently wired into the host's experience instead of its own, even with basename set. Keep an extension project extension-only \(pages under src/extensions/ only, no project-owned pages/\) A mixed project does carry one trap of its own around per-host lifecycle modules - see .
+    The extending application's own `aiux.json` and `pages/` are unrelated to what it extends - an extension is declared separately, under `src/extensions/`. A project must not include both. If a project contains any src/extensions/ pages, its own pages/ are still processed. However, they get silently wired into the host's experience instead of its own, even with basename set. Keep an extension project extension-only \(pages under src/extensions/ only, no project-owned pages/\) A mixed project does carry one trap of its own around per-host lifecycle modules - see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ownership-and-maintenance-considerations.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ownership-and-maintenance-considerations.md).
 
 3.  Add a net-new page, at a route the host doesn't already have, under the host's scope and basename.
 
@@ -132,5 +132,5 @@ For the same task through the ServiceNow Lux Lab for VS Code instead of the CLI,
 
 ## Two extensions targeting the same route
 
-Scaffolding a second extending application that overrides the same host route is a supported scenario, though the tooling doesn't resolve it for you. For the ordering rules, see .
+Scaffolding a second extending application that overrides the same host route is a supported scenario, though the tooling doesn't resolve it for you. For the ordering rules, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ownership-and-maintenance-considerations.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ownership-and-maintenance-considerations.md).
 

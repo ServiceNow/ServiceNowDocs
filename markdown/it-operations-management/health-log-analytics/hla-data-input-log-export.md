@@ -7,9 +7,9 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-keywords: [ServiceNow, Log Export, Health Log Analytics, HLA, data input, configuration]
+keywords: [ServiceNow, Log Export, Health Log Analytics, HLA, manual, data input, configuration]
 breadcrumb: [Manual data input configuration, Set up data inputs manually, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
@@ -47,7 +47,7 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-The ServiceNow Log Export data input streams system node logs from Java code and JavaScript into HLA. It provides a complete view of your ServiceNow instance status with server context. This enhanced visibility facilitates improved monitoring and generates more meaningful alerts. You can identify instance issues, detect security threats, optimize performance, and maintain regulatory compliance.
+The ServiceNow Log Export data input streams system node logs from Java code and JavaScript into HLA. This provides a complete view of your ServiceNow instance status with server context. This enhanced visibility facilitates improved monitoring and generates more meaningful alerts to help you identify instance issues, detect security threats, optimize performance, and maintain regulatory compliance.
 
 ## Procedure
 

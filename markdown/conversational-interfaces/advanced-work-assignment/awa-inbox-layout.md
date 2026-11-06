@@ -7,7 +7,7 @@ release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
@@ -28,7 +28,7 @@ Up to five fields can be shown in the card layout.
 
 ## Layout example
 
-For chats that do not have either a contact or consumer, the layout includes only the chat subject. You control the display of the Time to accept count \(timer\) and the **Reject** button through the [agent assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/advanced-work-assignment/awa-create-assignment-rule.md).
+For chats that do not have either a contact or consumer, the layout includes only the chat subject. You control the display of the **Time to accept** count \(timer\) and the **Reject** button through the [agent assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/advanced-work-assignment/awa-create-assignment-rule.md).
 
 \[Omitted image "chat-inbox-layout.png"\] Alt text: Agent Workspace inbox with chat layout.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configure-guided-selling-exit-criteria.html
 release: australia
 topic_type: task
-last_updated: "2026-07-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [guided selling, playbook, stage exit criteria, opportunity stages, process compliance, mandatory activities]
 breadcrumb: [Opportunity Management, Sales automation apps, Configure, Sales Customer Relationship Management]
@@ -33,7 +33,7 @@ The system records activity completion state in the Sales CRM Progression Checkp
 
 1.  Navigate to **All** &gt; **Playbooks Designer**.
 
-2.  Open the **Sales stage guide**.
+2.  Open the **Sales essentials playbook**.
 
     The default playbook is triggered when an opportunity is created or updated with a sales cycle type of **New Business**. Configure the trigger condition to match the sales cycle type you want to support.
 

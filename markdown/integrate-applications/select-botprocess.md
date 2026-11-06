@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/select-botprocess.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 18
 keywords: [associate bot process to bot process configuration record, rpa Hub, assign bot process to bot process configuration record, bot process settings, attended bot process, unattended bot process, bot process rpa hub, bot process configuration rpa hub]
 breadcrumb: [Configuring a bot process record, Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
@@ -45,15 +45,15 @@ For more information about migrating your metadata from a lower environment to a
 
 1.  You can associate a bot process to a bot process configuration record by choosing one of these options.
 
-<table id="choicetable_nkf_c3k_xvb"><thead><tr><th align="left" id="d625847e162">
+<table id="choicetable_nkf_c3k_xvb"><thead><tr><th align="left" id="d614303e162">
 
 Option
 
-</th><th align="left" id="d625847e165">
+</th><th align="left" id="d614303e165">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d625847e171">
+</th></tr></thead><tbody><tr><td id="d614303e171">
 
 **Perform this task in workspace**
 
@@ -77,7 +77,7 @@ For a description of the field values, see [Bot Process form in RPA Hub](https:/
 10. On the **Details** tab, in **Activity** and **Compose** fields, view the activity of the form, work notes, and additional comments.
 
 
-</td></tr><tr><td id="d625847e282">
+</td></tr><tr><td id="d614303e282">
 
 **Perform this task in the classic environment**
 

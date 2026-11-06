@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/c360-view-inter-record.html
 release: australia
 topic_type: task
-last_updated: "2026-04-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Telecommunications Customer 360, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -21,11 +21,9 @@ Use this option to view and manage customer phone interaction records.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **CSM/FSM Configurable Workspace** &gt; **Interactions** &gt; **All Interactions**.
+1.  Navigate to **All** &gt; **CRM Workspace** &gt; **Interactions** &gt; **All Interactions**.
 
 2.  Select an interaction from the list of consumer phone interaction records displayed.
-
-    \[Omitted image "c360-interaction-record.jpg"\] Alt text: Interaction record page
 
 3.  Select the **Verify and open details** option to verify the details and open the consumer record page.
 

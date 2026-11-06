@@ -7,7 +7,7 @@ release: australia
 product: Contract Management
 classification: contract-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a contract, Contracts, Contract Management use, Contract Management, Common applications, Asset Management]
 ---
@@ -36,7 +36,7 @@ The goal of this example is to create a contract that shows the total amount of 
 
 5.  Click **New** and enter the following information.
 
-<table id="choicetable_iy4_czk_35"><tbody><tr><td id="d204230e155">
+<table id="choicetable_iy4_czk_35"><tbody><tr><td id="d207824e155">
 
 **Agreement Type**
 
@@ -44,7 +44,7 @@ The goal of this example is to create a contract that shows the total amount of 
 
 Select **Enterprise**.
 
-</td></tr><tr><td id="d204230e167">
+</td></tr><tr><td id="d207824e167">
 
 **Application Model**
 
@@ -59,7 +59,7 @@ Select the application model created in step 1.
 
 7.  In the **Asset Covered** related list, click **New** and enter the following information.
 
-<table id="choicetable_yqm_mzk_35"><tbody><tr><td id="d204230e204">
+<table id="choicetable_yqm_mzk_35"><tbody><tr><td id="d207824e204">
 
 **Asset**
 
@@ -67,7 +67,7 @@ Select the application model created in step 1.
 
 Select the software license created in step 3.
 
-</td></tr><tr><td id="d204230e213">
+</td></tr><tr><td id="d207824e213">
 
 **Date added**
 
@@ -80,7 +80,7 @@ Enter the value.
 
 9.  Continue completing the form with the following information.
 
-<table id="choicetable_smt_zzk_35"><tbody><tr><td id="d204230e240">
+<table id="choicetable_smt_zzk_35"><tbody><tr><td id="d207824e240">
 
 **Payment schedule**
 
@@ -88,7 +88,7 @@ Enter the value.
 
 Select **Annually**.
 
-</td></tr><tr><td id="d204230e252">
+</td></tr><tr><td id="d207824e252">
 
 **Payment amount**
 

@@ -5,15 +5,19 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mon-ai-landing.html
 release: australia
 topic_type: reference
-last_updated: "2026-04-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Monitor AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Monitor AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Monitoring and evaluating AI systems in AI Control Tower
 
 Continuously monitor your ServiceNow and external AI systems to determine whether they meet quality and safety standards, and investigate root causes when they don't.
+
+\[Omitted video\] Description: Monitoring overview video, approximately 5 minutes and 44 seconds long.
+
+Watch this short video to learn more about Monitoring in AI Control Tower.
 
 ## Get started
 
@@ -60,4 +64,6 @@ This application requires data to be transferred from ServiceNow customers' indi
 ## Data collection
 
 ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+
+For more information, see the [ServiceNow AI documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-products.md).
 

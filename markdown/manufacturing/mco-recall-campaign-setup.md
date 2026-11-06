@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-recall-campaign-setup.html
 release: australia
 topic_type: task
-last_updated: "2026-07-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [MCO core implementation, Configure, Manufacturing Commercial Operations]
 ---
@@ -27,9 +27,9 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager or admin
     1.  Install Manufacturing recall claim management \[sn\_rcl\_claim\_mgmt\]: [Install Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/install-manufacturing-commercial-operations-core.md).
     2.  Set up product models and parts: and [Configure product model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-configure-product-model.md).
     3.  Set up assets and install base items: [Configure assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-configure-assets.md) and [Configure install base item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-create-install-base-item.md).
-    4.  Set up dealers: [Set up Dealer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-dealer-setup.md)
+    4.  Set up dealers: [Set up dealer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/set-up-dealer.md).
     5.  Assign recall roles: [Assigning roles in Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/assign-mco-roles.md).
-3.  Work with recall campaign \(OEM\): Use the Agents \(CSM/FSM\) workspace to create and manage recall campaigns, phases, and claims.
+3.  Work with recall campaign \(OEM\): Use the Agents \(CRM\) workspace to create and manage recall campaigns, phases, and claims.
 
     1.  Create a recall campaign: [Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-rc-my-campaigns.md).
 

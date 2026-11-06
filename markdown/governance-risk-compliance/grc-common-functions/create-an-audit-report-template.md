@@ -7,7 +7,7 @@ release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure document templates using Document Designer, Microsoft Word based audit report templates using Document designer, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -30,7 +30,7 @@ Role required: sn\_audit.manager and sn\_grc\_doc\_design.reader
 
 1.  Navigate to the Microsoft Word document that you want to use for template creation.
 
-2.  To create placeholders, select **Design template** on the ribbon.
+2.  To create placeholders, select **Design template** On the ribbon.
 
 3.  To log in to your ServiceNow instance, select **Log in** using the audit manager credentials.
 
@@ -76,7 +76,7 @@ Role required: sn\_audit.manager and sn\_grc\_doc\_design.reader
 
     7.  Select **Add**.
 
-6.  To insert reporting content, select **Add content** on the ribbon.
+6.  To insert reporting content, select **Insert content** on the ribbon.
 
     1.  Select the **Data** tab.
 
@@ -120,7 +120,7 @@ Role required: sn\_audit.manager and sn\_grc\_doc\_design.reader
 
         The chart is inserted in to the template. The inserted chart can be modified according to your preferences. For example, you can change the colors, the type of chart and so on.
 
-7.  To update reporting content, select **Manage content**.
+7.  To update reporting content, select **Update content**.
 
     1.  Select the field that you would like to get the updated data for and select **View and refresh links**.
 
@@ -135,7 +135,7 @@ Role required: sn\_audit.manager and sn\_grc\_doc\_design.reader
     -   Don't add a content block within another content block.
     -   Don't add more than 10 images.
     -   Don't add more than one table inside a content block.
-    -   Don't add more than five content blocks.
+    -   Don't add more than two content blocks.
 8.  Save the template.
 
 

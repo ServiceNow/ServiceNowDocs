@@ -7,7 +7,7 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
@@ -23,4 +23,6 @@ After the asset integration with Zebra technology RFID system is successful, you
 The data from the Zebra technology RFID system is imported to ServiceNow regularly. Any data change in the RFID system is updated in your ServiceNow instance.
 
 The RFID asset \[rfid\_asset\] table stores the RFID information of assets. For more information about viewing the RFID information, see [View RFID information of assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/view-rfid-info.md).
+
+**Parent Topic:**[Exploring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/exploring-ham.md)
 

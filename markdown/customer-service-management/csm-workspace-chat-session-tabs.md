@@ -1,22 +1,22 @@
 ---
-title: CSM Configurable Workspace chat session tabs
+title: CRM Workspace chat session tabs
 description: Use visual indicators on chat session tabs, such as colors and icons, to alert agents to unread chat messages and SLA threshold timers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-workspace-chat-session-tabs.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# CSM Configurable Workspace chat session tabs
+# CRM Workspace chat session tabs
 
 Use visual indicators on chat session tabs, such as colors and icons, to alert agents to unread chat messages and SLA threshold timers.
 
 The chat session tabs feature helps agents to manage multiple interactions efficiently. Agents can use visual indicators to reduce the risk of threshold timer breaches, improve chat prioritization, and optimize response times. This feature enables agents to multitask effectively while maintaining service level commitments.
 
-The chat session tabs feature introduces a color-coded system for chat session tabs in CSM Configurable Workspace based on configured Service Level Agreement \(SLA\) thresholds. Additional visual indicators alert agents about unread messages, chat status, and unsaved changes. These visual cues help agents to prioritize their interactions by tracking chat duration and alerting them when conversations require immediate attention.
+The chat session tabs feature introduces a color-coded system for chat session tabs in CRM Workspace based on configured Service Level Agreement \(SLA\) thresholds. Additional visual indicators alert agents about unread messages, chat status, and unsaved changes. These visual cues help agents to prioritize their interactions by tracking chat duration and alerting them when conversations require immediate attention.
 
 ## Benefits
 
@@ -213,7 +213,7 @@ When a chat is automatically transferred to another agent or to a queue:-   The 
 </td></tr></tbody>
 </table>If a chat is transferred to a queue, SLA threshold timers and tab colors are applicable to the next agent who picks up the case.
 
-When an agent seeks help from a colleague or manager using the [Agent Whisper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ci-agent-whisper.md) feature, the SLA threshold timers and tab behavior are applicable only for the owner agent and not for anyone else participating in the interaction.
+When an agent seeks help from a colleague or manager using the [Agent Whisper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ci-agent-whisper.md) feature, the SLA threshold timers and tab behavior are applicable only for the owner agent. They don't apply to anyone else participating in the interaction.
 
 ## Configuring the chat session tabs feature
 

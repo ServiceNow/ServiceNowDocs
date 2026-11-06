@@ -7,18 +7,16 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Administering reports, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Administering Core UI reports, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Report statistics
 
 The **Report Stats** list enables you to view how often each of your Core UI reports is run and how long it takes for the reports to run.
 
-To view report statistics, navigate to **All** &gt; **Reports** &gt; **Administration** &gt; **Report Statistics**. The admin or report\_admin role is required. By default, the Report Statistics list displays all reports that have been run. To view reports that haven't been run, select the context menu icon \(\[Omitted image "ContextMenuIcon.png"\] Alt text: Context menu icon\) and choose **Add Unused Reports**.
-
-**Note:** Adding unused reports to this list takes some time, especially if your instance has many reports.
+To view report statistics, navigate to **All** &gt; **Reports** &gt; **Administration** &gt; **Report Statistics**. The admin or report\_admin role is required. By default, the Report Statistics list displays all reports that have been run.
 
 The **Report Stats** list has the following columns:
 
@@ -36,7 +34,7 @@ The **Report Stats** list has the following columns:
 -   To view used reports, filter out the value 0 from the **Runs** column.
 -   To view the most used reports, sort the **Runs** column from z-a.
 
-**Parent Topic:**[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_AdminsteringReports.md)
+**Parent Topic:**[Administering Core UI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_AdminsteringReports.md)
 
 ## Reports Usage dashboard
 

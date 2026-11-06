@@ -7,7 +7,7 @@ release: australia
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -37,15 +37,15 @@ For details on assigning KMF roles, see [Roles installed with Key Management Fra
 
 2.  Control access to topics by configuring Access Control Lists \(ACLs\) at the namespace or topic-level.
 
-<table id="choicetable_ebz_1jn_zyb"><thead><tr><th align="left" id="d386057e128">
+<table id="choicetable_ebz_1jn_zyb"><thead><tr><th align="left" id="d390502e128">
 
 Option
 
-</th><th align="left" id="d386057e131">
+</th><th align="left" id="d390502e131">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d386057e137">
+</th></tr></thead><tbody><tr><td id="d390502e137">
 
 **Apply ACLs to namespaces**
 
@@ -58,7 +58,7 @@ Description
 5.  Select **Add**.
 
 
-</td></tr><tr><td id="d386057e179">
+</td></tr><tr><td id="d390502e179">
 
 **Apply ACLs to defined topics**
 

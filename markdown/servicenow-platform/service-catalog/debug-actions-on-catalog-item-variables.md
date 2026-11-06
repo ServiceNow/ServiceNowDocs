@@ -7,7 +7,7 @@ release: australia
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Debugging Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -53,7 +53,7 @@ The variable action logger displays the chronology of actions that happen on all
 
 6.  Review the results of the variable action logger.
 
-<table id="choicetable_f5q_mwb_5bb"><tbody><tr><td id="d276411e180">
+<table id="choicetable_f5q_mwb_5bb"><tbody><tr><td id="d279010e180">
 
 **Search**
 
@@ -61,7 +61,7 @@ The variable action logger displays the chronology of actions that happen on all
 
 To search for a variable or script, use the **Search** field.
 
-</td></tr><tr><td id="d276411e192">
+</td></tr><tr><td id="d279010e192">
 
 **Collapse All**
 
@@ -69,7 +69,7 @@ To search for a variable or script, use the **Search** field.
 
 To collapse variable logs within a group, click **Collapse All**.
 
-</td></tr><tr><td id="d276411e204">
+</td></tr><tr><td id="d279010e204">
 
 **Expand All**
 
@@ -77,7 +77,7 @@ To collapse variable logs within a group, click **Collapse All**.
 
 To expand variable logs within a group, click **Expand All**.
 
-</td></tr><tr><td id="d276411e216">
+</td></tr><tr><td id="d279010e216">
 
 **Filter**
 
@@ -85,7 +85,7 @@ To expand variable logs within a group, click **Expand All**.
 
 To filter variable logs, click the Filter icon \(\[Omitted image "Filter.png"\] Alt text: Filter icon\) and select the required options.
 
-</td></tr><tr><td id="d276411e231">
+</td></tr><tr><td id="d279010e231">
 
 **Clear Logs**
 
@@ -93,7 +93,7 @@ To filter variable logs, click the Filter icon \(\[Omitted image "Filter.png"\] 
 
 To clear variable logs, click the Actions icon \(\[Omitted image "Actions.png"\] Alt text: Icon to clear variable logs\) and select **Clear Logs**.
 
-</td></tr><tr><td id="d276411e250">
+</td></tr><tr><td id="d279010e250">
 
 **Export to CSV**
 
@@ -101,7 +101,7 @@ To clear variable logs, click the Actions icon \(\[Omitted image "Actions.png"\]
 
 To export the variable logs to a .csv file, click the Actions icon \( \[Omitted image "Actions.png"\] Alt text: Actions icon\) and select **Export to CSV**.
 
-</td></tr><tr><td id="d276411e268">
+</td></tr><tr><td id="d279010e268">
 
 **Print Logs**
 

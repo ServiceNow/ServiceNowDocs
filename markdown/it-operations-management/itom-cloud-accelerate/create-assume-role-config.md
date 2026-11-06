@@ -1,20 +1,20 @@
 ---
 title: Create an assume role configuration
-description: Create a service account assume role configuration to facilitate cross-account access that is from a management account to a member account or from a trusted account to a trusting account. All the related member accounts or trusted accounts are automatically loaded avoiding the need to add them individually.
+description: Create a service account assume role configuration to facilitate cross-account access. This supports access from a management account to a member account, or from a trusted account to a trusting account. All related accounts are automatically loaded, avoiding the need to add them individually.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-cloud-accelerate/create-assume-role-config.html
 release: australia
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up AWS, Explore, Cloud Configuration Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Create an assume role configuration
 
-Create a service account assume role configuration to facilitate cross-account access that is from a management account to a member account or from a trusted account to a trusting account. All the related member accounts or trusted accounts are automatically loaded avoiding the need to add them individually.
+Create a service account assume role configuration to facilitate cross-account access. This supports access from a management account to a member account, or from a trusted account to a trusting account. All related accounts are automatically loaded, avoiding the need to add them individually.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: sn\_itom\_ccg.scheduling\_admin
 
 ## About this task
 
-If permanent credentials aren't defined for the member account, Cloud Configuration Governance checks the Cloud Service Account Assume Role Config \[sn\_itom\_ccg\_service\_account\_assume\_role\_config\] table to identify the special configuration associated with the management account, and then uses the management account credentials to generate temporary credentials for the member accounts. If the configuration exists in the table, Cloud Configuration Governance uses the temporary credentials acquired by specifying a role and its configuration in the Amazon Web Services \(AWS\) Security Token Services API AssumeRole action.
+If permanent credentials aren't defined for the member account, Cloud Configuration Governance checks the Cloud Service Account Assume Role Config \[sn\_itom\_ccg\_service\_account\_assume\_role\_config\] table to identify the special configuration associated with the management account. It then uses the management account credentials to generate temporary credentials for the member accounts. If the configuration exists in the table, Cloud Configuration Governance uses the temporary credentials acquired by specifying a role and its configuration in the Amazon Web Services \(AWS\) Security Token Services API AssumeRole action.
 
 ## Procedure
 

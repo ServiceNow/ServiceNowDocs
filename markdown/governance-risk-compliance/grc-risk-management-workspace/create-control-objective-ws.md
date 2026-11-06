@@ -7,7 +7,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Risk Workspace, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -28,7 +28,7 @@ When a control objective and risk statement are associated and the control entit
 
 1.  Navigate to **All** &gt; **Risk** &gt; **Risk Workspace**.
 
-2.  In the Risk Workspace, select the list \[Omitted image "list-icon-risk-workspace.png"\] Alt text: List. icon.
+2.  In the Risk Workspace, select the list \[Omitted image "ws-list-icon.png"\] Alt text: List. icon.
 
 3.  Navigate to **Library** &gt; **Control objectives**.
 

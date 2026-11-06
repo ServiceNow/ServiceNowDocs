@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-mcp-server-alert-remediation.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use the ITOM MCP Server Console, AI in ITOM, IT Operations Management]
 ---

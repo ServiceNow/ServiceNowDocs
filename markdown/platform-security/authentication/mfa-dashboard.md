@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Multi-factor authentication, Authentication, Access Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Multi-factor authentication, Authentication, Access Management]
 
 View the different MFA metrics to understand the MFA adoption and usage.
 
-The MFA enhances security by requiring an additional verification step during the login process. The MFA Dashboard helps you to monitor and manage MFA settings for your organization. This dashboard provides an overview of MFA user enrollment, privileged admins who haven't opted MFA, and compliance. You can use it to ensure that all users have MFA enabled for enhanced security.
+Multi-factor authentication \(MFA\) enhances security by requiring an additional verification step during the login process. The MFA Dashboard helps you to monitor and manage MFA settings for your organization. This dashboard provides an overview of MFA user enrollment, privileged admins who haven't enrolled in MFA, and compliance. You can use it to verify that all users have MFA enabled for enhanced security.
 
 To access the MFA Dashboard, navigate **All** &gt; **Multi-factor Authentication** &gt; **MFA Dashboard**.
 
@@ -55,7 +55,7 @@ Privileged admins without Multi-factor Authentication \(MFA\)
 
 </td><td>
 
-Privileged admins not using MFA is a significant risk to platform security. It’s recommended that you get these people using MFA. **Note:** Privileged admins are the users who have at least one role from the sys\_icenter\_role\_config table. \(Refreshed once a day to collect records for a day before\).
+Privileged admins not using MFA is a significant risk to platform security. Enroll these users in MFA. **Note:** Privileged admins are the users who have at least one role from the sys\_icenter\_role\_config table. \(Refreshed once a day to collect records for a day before\).
 
 </td></tr></tbody>
 </table>## Login Metrics

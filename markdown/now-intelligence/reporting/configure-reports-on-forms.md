@@ -7,9 +7,9 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Advanced Core UI reporting topics, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Configure charts on forms
@@ -21,6 +21,10 @@ You can add reports to forms such as change requests, and configure the report v
 Role required: itil, report\_user, report\_group, report\_global, report\_admin, or admin. To create a meaningful report, you must have the right to access the data you want to report on.
 
 The following report types are not supported on forms: List, Pivot, Multilevel Pivot, Calendar, and Single Score.
+
+## About this task
+
+**Note:** This topic refers to Core UI reports, not Platform Analytics data visualizations.
 
 ## Procedure
 

@@ -7,7 +7,7 @@ release: australia
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security findings, Exploring Machine Identity Console, Machine Identity Console, Identity]
 ---
@@ -22,6 +22,8 @@ Integration accounts with Web Service Access set to false displays the accounts 
 
 -   Any changes made to the record displayed on this page are immediately updated in the list, risk score resulting from those changes will be reflected the following day.
 -   Accounts that have the **Internal Integration User** field set to `true` in their `sys_user` record will not populate data in the Machine Identity Console.
+
+This finding lists all integration accounts that have Web Service Access disabled.
 
 \[Omitted image "mic-wsa-false-overview.png"\] Alt text: Accounts with WSA set to false
 

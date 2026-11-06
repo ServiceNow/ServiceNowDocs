@@ -1,30 +1,28 @@
 ---
-title: Configure an event handler with ServiceNow Otto
-description: Use ServiceNow Otto in UI Builder to configure event handlers. At present, you can configure Open page or URL, Open or close modal, and View load requested event handlers.
+title: Configure an event handler with Now Assist
+description: Use Now Assist in UI Builder to configure event handlers. At present, you can configure link to destination, open or close modal, and view load requested event handlers using Now Assist in UI Builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ui-builder/configure-an-event-handler-with-now-assist.html
 release: australia
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2026-10-09"
-reading_time_minutes: 2
-breadcrumb: [Use, UI generation, UI Builder, Builder library, Developing your application, Building applications]
+last_updated: "2026-11-06"
+reading_time_minutes: 1
+breadcrumb: [Manage actions in UI Builder pages, Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
-# Configure an event handler with ServiceNow Otto
+# Configure an event handler with Now Assist
 
-Use ServiceNow Otto in UI Builder to configure event handlers. At present, you can configure Open page or URL, Open or close modal, and View load requested event handlers.
+Use Now Assist in UI Builder to configure event handlers. At present, you can configure link to destination, open or close modal, and view load requested event handlers using Now Assist in UI Builder.
 
 ## Before you begin
-
-Make sure that you install UI generation and that you have the ui\_builder\_admin role. For more information, see [Install UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/install-ui-generation.md) and [Grant UI Builder admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/grant-ui-builder-admin-role.md).
 
 Role required: ui\_builder\_admin
 
 ## Procedure
 
-1.  In the application navigator, navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
+1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
@@ -40,9 +38,9 @@ Role required: ui\_builder\_admin
 
 5.  To add an event handler to your component's event, go to the configuration panel and select **Events**.
 
-    An event handler lets you assign an event to a component. For example, if you add a button component to your page, you want it to perform an action when a user selects it.
+    An event handler lets you assign an event to a component. For example, if you add a button component to your page, you want it to perform an action when a user clicks it.
 
-6.  In the event handler, select **Open page or URL** and select **Continue**.
+6.  In the event handler, select **Link to destination** and select **Continue**.
 
 7.  In the Configure section, select **Get Started**.
 
@@ -67,5 +65,5 @@ Role required: ui\_builder\_admin
 
 The event handler configurations are updated.
 
-**Parent Topic:**[Using UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/using-ui-generation.md)
+**Parent Topic:**[Manage actions in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/work-events.md)
 

@@ -1,0 +1,63 @@
+---
+title: Exploring ServiceNow Otto for Process Mining
+description: Use ServiceNow ServiceNow Otto for Process Mining to minimize time, maximize effort, and reduce complexity in project setup, identifying bottlenecks and retrieving process inefficiencies.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/process-mining/exp-na-process-mining.html
+release: australia
+product: Process Mining
+classification: process-mining
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [ServiceNow Otto for Process Mining, Use, Process Mining, Discover, AI Workflow Factory Prime, Agentic app development, Building applications]
+---
+
+# Exploring ServiceNow Otto for Process Mining
+
+Use ServiceNow ServiceNow Otto for Process Mining to minimize time, maximize effort, and reduce complexity in project setup, identifying bottlenecks and retrieving process inefficiencies.
+
+## ServiceNow Otto for Process Mining overview
+
+Identifying the root cause of inefficient transitions is challenging and time-consuming, requiring manually examining numerous records for each transition. With thousands of transitions in a process, this task becomes overwhelming and leads to missed opportunities.
+
+This feature is accessible to customers with both Process Mining and GenAI.
+
+## Transition Work Notes Analysis skill
+
+ServiceNow Otto for Process Mining includes the Transition Work Notes Analysis skill. This skill must be activated to use ServiceNow Otto for Process Mining to analyze work notes. For more information, see [Activate transition work notes analysis skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/process-mining/activate-na-skill.md).
+
+**Note:** You can use the ServiceNow Otto feature for work notes analysis with 5-50 eligible work notes. If there are less than 25 eligible work notes, the system will not run clustering, but will put all the work notes into one LLM call, otherwise clustering will be performed before calling the LLM.
+
+Once activated and configured, ServiceNow Otto for Process Mining uses an LLM to:
+
+-   Analyze all work notes related to inefficient transitions and provide the most important reasons for the transition. This feature is visible in the Process Mining workspace and Platform Analytics Process Mining components.
+
+    When a transition analysis job is initiated, relevant work notes from records in the transition are gathered. Work notes are grouped into clusters, and one LLM call is used for each cluster to explain why the transition occurred.
+
+-   Highlight anomalies and deviations in a process inefficiency by comparing it with the standard process and use Generative AI to provide details.
+
+## Process Inefficiency Highlights skill
+
+ServiceNow Otto for Process Mining includes the Process Inefficiency Highlights skill. This skill must be activated to use ServiceNow Otto for Process Mining to generate highlights for improvement opportunities. For more information, see [Activate Process Inefficiency Highlights skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/process-mining/activate-highlight-skills.md).
+
+## Intent and Activity Analysis skill
+
+ServiceNow Otto for Process Mining includes the Intent and Activity Analysis skill. This skill must be activated to use ServiceNow Otto for Process Mining to understand the intent of the requester and gain insight into the related tasks and actions needed to complete the tasks. For more information, see [Activate Process Inefficiency Highlights skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/process-mining/activate-highlight-skills.md).
+
+## Generate process configuration
+
+ServiceNow Otto for Process Mining includes the Generate process configuration skill. This skill generates process configuration for a table using AI. This skill is activated by default. For more information, see [Generate process configuration using AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/process-mining/activate-pro-config-skill.md).
+
+## Generate state responsibility mapping
+
+ServiceNow Otto for Process Mining includes the Generate state responsibility mapping skill. This skill maps process steps to stakeholder responsibilities using AI. This skill is activated by default. For more information, see [Generate state responsibility mapping using AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/process-mining/activate-gen-state-resp.md).
+
+## What to explore next
+
+To learn more about configuring and using ServiceNow Otto for Process Mining, see:
+
+-   [Configuring ServiceNow Otto for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/process-mining/config-na-proc-min.md)
+-   [Using ServiceNow Otto for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/process-mining/use-na-process-mining.md)
+
+**Parent Topic:**[ServiceNow Otto for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/process-mining/now-assist.md)
+

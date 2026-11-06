@@ -7,7 +7,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Parallel Review and Feedback in Advanced Risk, Use Risk Workspace, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -26,14 +26,14 @@ Role required: sn\_rvw\_feedback.reviewer
 
 2.  Open the Feedback that you want to review and assess the respondent's comments and response.
 
-3.  If you're satisfied with the response, you have the following choices:
+3.  If you are satisfied with the response, you have the following choices:
 
     -   To close the feedback, select **Close**.
     -   To close the feedback with an action, select **Close and initiate an action**.
 
         **Note:** You can create an issue or link the feedback to an existing record to facilitate follow-up and resolution.
 
-4.  If you’re unsatisfied with the response, select the more actions \[Omitted image "more-actions-new.png"\] Alt text: more action icon icon and do the following:
+4.  If you’re unsatisfied with the response, select the more actions \[Omitted image "MoreActionsIcon.jpg"\] Alt text: more action icon icon and do the following:
 
     1.  Select **Move to draft**.
 

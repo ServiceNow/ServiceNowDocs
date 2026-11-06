@@ -7,9 +7,9 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, HR Service Delivery Advanced Integration with Workday, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configuring, HR Service Delivery Advanced Integration with Workday, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
 
 # Legal name change configuration
@@ -26,7 +26,7 @@ Role required: sn\_hr\_workday.admin
 
 2.  To pull the legal name change document categories from Workday into a ServiceNow application, click **Get Reference IDs**.
 
-    A data source with a predefined script imports document categories into the Workday Reference ID List Staging \[sn\_hr\_workday\_adv\_reference\_id\_list\_staging\] table and from staging table into the Workday Reference ID List \[sn\_hr\_workday\_adv\_reference\_id\_list\] table.
+    A data source with a predefined script imports document categories into the Workday Reference ID List Staging \[sn\_hr\_workday\_adv\_reference\_id\_list\_staging\] table. From there, the script imports them into the Workday Reference ID List \[sn\_hr\_workday\_adv\_reference\_id\_list\] table.
 
 
 ## What to do next

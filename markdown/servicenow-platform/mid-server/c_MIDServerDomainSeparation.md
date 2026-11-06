@@ -7,7 +7,7 @@ release: australia
 product: MID Server
 classification: mid-server
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Configuring MID Servers, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -29,7 +29,7 @@ You can create versions of these specific MID Server policy records that only a 
 -   MID Server JAR File \[ecc\_agent\_jar\]
 -   MID Server Script File \[ecc\_agent\_script\_files\]
 
-**Note:** Attachments on MIB or JAR file records might not appear as they did in a non-domain separated environment. The attachments do not appear because the **Attachments** \[sys\_attachment\] table is data separated. When data is separated between domains, a record in a child domain cannot access records in a parent domain.
+**Note:** Attachments on MIB or JAR file records might not appear as they did in a non-domain separated environment. The attachments don't appear because the **Attachments** \[sys\_attachment\] table is data separated. When data is separated between domains, a record in a child domain can't access records in a parent domain.
 
 **Parent Topic:**[Configuring MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/c_MIDServerConfiguration.md)
 
@@ -65,7 +65,7 @@ If you need to create versions of specific MID Server files that only MID Server
     -   **Script Files**
 2.  Update an existing domain policy or submit a new record.
 
-    **Note:** Attachments on MIB or JAR file records might not appear as they did in a non-domain separated environment. The attachments do not appear because the **Attachments** \[sys\_attachment\] table is data separated. When data is separated between domains, a record in a child domain cannot access records in a parent domain.
+    **Note:** Attachments on MIB or JAR file records might not appear as they did in a non-domain separated environment. The attachments don't appear because the **Attachments** \[sys\_attachment\] table is data separated. When data is separated between domains, a record in a child domain can't access records in a parent domain.
 
 
 ## Configure a multi-domain MID Server

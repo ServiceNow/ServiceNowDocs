@@ -7,7 +7,7 @@ release: australia
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create baseline of a project, Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -28,15 +28,15 @@ Role required: it\_project\_manager
 
 1.  To compare the schedule baselines of a project, use one of the following options.
 
-<table id="choicetable_wgp_h4y_tfb"><thead><tr><th align="left" id="d237027e64">
+<table id="choicetable_wgp_h4y_tfb"><thead><tr><th align="left" id="d245537e64">
 
 Option
 
-</th><th align="left" id="d237027e67">
+</th><th align="left" id="d245537e67">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d237027e73">
+</th></tr></thead><tbody><tr><td id="d245537e73">
 
 **From the Planning Console**
 
@@ -48,7 +48,7 @@ Steps
 4.  On the Planning Console, select the more actions icon \(\[Omitted image "gannt\_chart\_icon.png"\] Alt text: More actions icon\) and then from the Baselines list, select a baseline.
 
 
-</td></tr><tr><td id="d237027e121">
+</td></tr><tr><td id="d245537e121">
 
 **From the Baseline form**
 

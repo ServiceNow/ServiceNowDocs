@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/delete-a-capability.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with the business portfolio module, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -16,7 +16,7 @@ Delete a capability that you no longer require.
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_apm.apm\_user
 
 ## Procedure
 

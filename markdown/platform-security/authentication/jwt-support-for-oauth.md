@@ -1,35 +1,35 @@
 ---
-title: Private Key JWT Support for OAuth 2.0 Client Authentication
-description: Support JWT Support for OAuth 2.0 Client Authentication.
+title: Private key JWT support for OAuth 2.0 client authentication
+description: Use private key JWT to authenticate OAuth 2.0 clients to the authorization server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/jwt-support-for-oauth.html
 release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [OAuth Outbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [OAuth outbound, OAuth authentication, Authentication, Access Management]
 ---
 
-# Private Key JWT Support for OAuth 2.0 Client Authentication
+# Private key JWT support for OAuth 2.0 client authentication
 
-Support JWT Support for OAuth 2.0 Client Authentication.
+Use private key JWT to authenticate OAuth 2.0 clients to the authorization server.
 
-Private Key JWT Client Authentication is an authentication method that can be used by clients to authenticate to the authorization server when using the token endpoint.
+Private key JWT client authentication is an authentication method that can be used by clients to authenticate to the authorization server when using the token endpoint.
 
 In this authentication mechanism, only the clients that have registered a public key and signed a JWT using that key can authenticate.
 
-The JWT must contain REQUIRED claim values and may contain OPTIONAL claim values. To know more about the claim values needed for the JWT for `private_key_jwt` authentication, refer the Client Authentication section in the [OpenID Connect core](https://openid.net/specs/openid-connect-core-1_0.html#ClientAuthentication) documentation.
+The JWT must contain required claim values and may contain optional claim values. To learn more about the claim values needed for the JWT for `private_key_jwt` authentication, refer to the Client Authentication section in the [OpenID Connect core](https://openid.net/specs/openid-connect-core-1_0.html#ClientAuthentication) documentation.
 
-**Note:** The authentication token must be sent as the value of the client\_assertion parameter. The value of the  **client\_assertion\_type ** parameter must be  `urn:ietf:params:oauth:client-assertion-type:jwt-bearer`.
+**Note:** The authentication token must be sent as the value of the client\_assertion parameter. The value of the  **client\_assertion\_type** parameter must be  `urn:ietf:params:oauth:client-assertion-type:jwt-bearer`.
 
 Plugins required for OAuth 2.0 Client Authentication using JWT token:
 
--   **OAuth 2.0 \(com.snc.platform.security.oauth\)**: This plugin is active on new and upgraded instances. If the plugin is not active on your instance, you can activate it.
--   **Integration - Multiple Provider Single Sign-On Installer \(com.snc.integration.sso.multi.installer\)**: For OIDC based single sign-on use case.
+-   OAuth 2.0 \(com.snc.platform.security.oauth\): This plugin is active on new and upgraded instances. If the plugin is not active on your instance, you can activate it.
+-   Integration - Multiple Provider Single Sign-On Installer \(com.snc.integration.sso.multi.installer\): For OIDC based single sign-on use case.
 
-You can use the OAuth 2.0 Client Authentication using Private Key JWT for the following:
+You can use the OAuth 2.0 client authentication using private key JWT for the following:
 
 -   [OIDC based single sign-on](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/config-private-key-jwt-oidc-sso.md)
 -   [Outbound OAuth integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/config-private-key-jwt-outbound-oauth.md)

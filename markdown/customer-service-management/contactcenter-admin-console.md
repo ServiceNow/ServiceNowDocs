@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/contactcenter-admin-console.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integrating with contact centers, Integrate, Customer Service Management]
 ---
@@ -34,5 +34,5 @@ The key capability of the Admin Console is importing skills, queues, and wrap-up
 
 Data import helps customers set up and execute External Routing and Unified Desktop by ensuring data is synchronized across platforms. The Unified Desktop experience allows agents to handle both digital and voice interactions from a single ServiceNow Workspace, eliminating the need to switch between different interfaces and improving efficiency. Customers can choose between different routing engines to manage incoming calls and messages. The routing engine intelligently matches interactions with agents based on skills and experience, ensuring a better customer experience.
 
-For more information, see: [Importing skills, queues, and wrap-up codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/import-skills-queues-and-wrap-up.md).
+For more information, see: [Import skills, queues, and wrap-up codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/import-skills-queues-and-wrap-up.md).
 

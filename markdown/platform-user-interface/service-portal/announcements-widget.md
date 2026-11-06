@@ -7,7 +7,7 @@ release: australia
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Example widgets, Widget library, Using portal widgets, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -87,7 +87,7 @@ View All Page
 
 </td><td>
 
-Select target for **View all** link. The **View all** link only displays when: -   There are more announcements than can be displayed on a single page. The **Max Records** field defines the number of records displayed per page.
+Click target for **View all** link. The **View all** link only displays when: -   There are more announcements than can be displayed on a single page. The **Max Records** field defines the number of records displayed per page.
 -   A view all page is defined.
 
 </td></tr><tr><td>
@@ -96,7 +96,7 @@ Who Can View Instances \| Who Cannot View Instances
 
 </td><td>
 
-Control who can and cannot view a widget instance with [user criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/user-criteria.md). This option appears when user criteria for the Service Portal is activated.
+Control who can and cannot view a widget instance with [user criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/user-criteria.md). Only visible if user criteria for the Service Portal is activated.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/sp-example-widgets.md)

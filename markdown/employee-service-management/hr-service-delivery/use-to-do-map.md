@@ -1,20 +1,20 @@
 ---
 title: Configure to do mappings
-description: Create additional conditions or mappings to display managerial tasks and requests.
+description: Create additional conditions or mappings to display managerial tasks and requests in Manager Hub in Employee Center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/use-to-do-map.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure, Manager Hub, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure Manager Hub, Manager Hub, HR Service Delivery, Employee Service Management]
 ---
 
 # Configure to do mappings
 
-Create additional conditions or mappings to display managerial tasks and requests.
+Create additional conditions or mappings to display managerial tasks and requests in Manager Hub in Employee Center.
 
 ## Before you begin
 
@@ -119,8 +119,6 @@ Order in which additional filter conditions are applied.
 [Activate a scheduled job]()
 
 [Configure important dates]()
-
-[Configure manager insights for ServiceNow Otto for HRSD]()
 
 [Configure team requests]()
 

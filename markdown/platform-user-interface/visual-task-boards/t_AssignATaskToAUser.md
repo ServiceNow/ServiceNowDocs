@@ -7,9 +7,9 @@ release: australia
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with Visual Task Board cards, Using Visual Task Boards, Visual Task Boards, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Working with Visual Task Board cards, Using Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
 
 # Assign a Visual Task Board card to a user
@@ -36,7 +36,7 @@ For flexible and guided boards, the primary assignee corresponds to the underlyi
 
 1.  Do one of the following actions.
 
-<table id="choicetable_l4n_x4d_pt"><tbody><tr><td id="d63887e91">
+<table id="choicetable_l4n_x4d_pt"><tbody><tr><td id="d64700e91">
 
 **Add an assignee from the quick panel**
 
@@ -46,7 +46,7 @@ For flexible and guided boards, the primary assignee corresponds to the underlyi
 2.  Drop the avatar in the **Primary** or **Additional** drop zone.
 
 
-</td></tr><tr><td id="d63887e115">
+</td></tr><tr><td id="d64700e115">
 
 **Add an assignee from the card details**
 

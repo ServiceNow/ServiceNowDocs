@@ -7,9 +7,9 @@ release: australia
 product: Task Intelligence
 classification: task-intelligence
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Task Intelligence, Task Intelligence, Enable AI experiences]
+breadcrumb: [Configure Task Intelligence, Task Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Install Task Intelligence Admin Console

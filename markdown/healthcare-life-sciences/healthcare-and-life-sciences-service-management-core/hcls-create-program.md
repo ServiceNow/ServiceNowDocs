@@ -7,7 +7,7 @@ release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure programs and program services, Configure, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -20,7 +20,7 @@ Add a program for use within the Healthcare and Life Sciences Service Management
 
 Role required: sn.hcls\_manager or admin
 
-To associate an eligibility criteria checklist with the program, create a checklist. For more information, see [Create a checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_CreateAChecklist.md).
+To associate an eligibility criteria checklist with the program, create a checklist. For more information, see Create a checklist.
 
 **Note:** By default, the application provides a few checklist templates that you can use as a reference when creating a checklist for a Healthcare and Life Sciences program.
 

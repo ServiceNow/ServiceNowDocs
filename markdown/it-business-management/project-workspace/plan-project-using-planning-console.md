@@ -1,5 +1,5 @@
 ---
-title: Plan a project using planning console
+title: Plan a project using planning console in classic Project Workspace
 description: Perform the project planning such as create project schedule, make resource assignments, create baselines, and view critical path, using planning console in the classic Project Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/plan-project-using-planning-console.html
@@ -7,12 +7,12 @@ release: australia
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Project workspace classic - Legacy, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Plan a project using planning console
+# Plan a project using planning console in classic Project Workspace
 
 Perform the project planning such as create project schedule, make resource assignments, create baselines, and view critical path, using planning console in the classic Project Workspace.
 

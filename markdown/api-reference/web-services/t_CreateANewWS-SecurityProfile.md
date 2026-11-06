@@ -7,7 +7,7 @@ release: australia
 product: Web Services
 classification: web-services
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [SOAP web service, Inbound, Web services, API implementation, API implementation and reference]
 ---
@@ -40,6 +40,8 @@ Role required: web\_service\_admin or admin
     |User field to match UserName|Select the column from the User \[sys\_user\] table containing the value you want match against the request's UserName. For example, if you select **Email** then the request UserName header must contain an email address matching an existing ServiceNow user. This field is only visible when the profile action is **Authenticate with user**.|
     |User name|Enter the user name that all web services requests must contain. This field is only visible when the profile action is **Username**.|
     |User password|Enter the password that all web services requests must contain. This field is only visible when the profile action is **Username**|
+
+    \[Omitted image "WS-SecurityProfile.png"\] Alt text: WS-Security Profile
 
 4.  Click **Submit**.
 

@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: itil
 
 ## Procedure
 
-1.  Log into your ServiceNow instance.
+1.  Log in to your ServiceNow instance.
 
 2.  From the **Workspaces** menu, select **Service Operations Workspace**.
 

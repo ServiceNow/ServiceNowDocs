@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/configuring-column-level-encryption.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Field Encryption, Encryption]
 ---
@@ -36,7 +36,7 @@ Activate either Field Encryption Starter or Field Encryption Enterprise.
 -   **[Role requirements for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/fe-roles.md)**  
 Learn about the roles required to configure Field Encryption.
 -   **[Configure Field Encryption modules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/configure-fe-modules.md)**  
-Learn how to configure Field Encryption modules.
+ Configure Field Encryption modules by selecting and updating module settings.
 -   **[Cryptographic specifications for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/configure-fe-crypto-specs.md)**  
 Use cryptographic specifications to define the purpose, algorithm, key length, mode, and origin of your encryption key.
 -   **[Module keys for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/fe-module-keys.md)**  

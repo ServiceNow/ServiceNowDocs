@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Managing a major incident record, Major Incident Management in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -26,13 +26,13 @@ Role required: major\_incident\_manager, itil, ia\_admin, or admin
 
 ## Procedure
 
-1.  On the incident record, select the **Collaborate** \(\[Omitted image "mim-collaborate-icon.png"\] Alt text: Collaborate icon\) icon on the contextual side panel to open the collaborate tab on the side panel.
+1.  On the incident record, select the **Collaborate** \(\[Omitted image "mim-collaborate-icon.png"\] Alt text:\) icon on the contextual side panel to open the collaborate tab on the side panel.
 
     The collaborate tab displays the following tabs:
 
     -   Call – Includes a list of call records and call-related information, such as status and due date with time duration, for the upcoming, pending, overdue, and active calls with the collaborators.
     -   Chat - Includes a list of chat records and chat-related information, such as name and number of participants and due date with time duration, for upcoming, pending, overdue, and active chats with collaborators.
-2.  Select the **Initiate collaboration** \(\[Omitted image "mim-add-call-chat-icon.png"\] Alt text: Add call\) icon.
+2.  Select the **Initiate collaboration** \(\[Omitted image "mim-add-call-chat-icon.png"\] Alt text:\) icon.
 
 3.  Collaborate using chat.
 
@@ -44,7 +44,7 @@ Role required: major\_incident\_manager, itil, ia\_admin, or admin
 
         -   The chat application must be configured with Service Operations Workspace.
         -   Slack channels aren't supported.
-        -   Users with incident\_write or itil role assigned to a Collaborate task such as call or chat, can now view the existing Collaborate card and start a sidebar discussion, Microsoft Teams chat, or call.
+        -   Users with incident\_write or itil role assigned to a Collaborate task such as call or chat, can view the existing Collaborate card and start a sidebar discussion, Microsoft Teams chat, or call.
     2.  On the pop-up window, fill in the details.
 
         |Field|Description|
@@ -63,7 +63,7 @@ Role required: major\_incident\_manager, itil, ia\_admin, or admin
     1.  Select one of the following call options.
 
         -   Start Webex meeting
-        -   Start MS teams meeting
+        -   Start MS Teams meeting
         -   Start Twilio meeting
         -   Start Zoom meeting
         **Note:** The selected call channel applications must be configured for Service Operations Workspace.

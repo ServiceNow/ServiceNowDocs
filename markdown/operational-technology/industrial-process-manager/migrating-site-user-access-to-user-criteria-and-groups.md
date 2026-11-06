@@ -7,8 +7,8 @@ release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Reference, Industrial Process Manager, Operational Technology]
 ---
 
@@ -16,9 +16,13 @@ breadcrumb: [Reference, Industrial Process Manager, Operational Technology]
 
 When you upgrade to version 1.0.12 of the ISA Equipment Model, the migration from site user access to user criteria and groups begins automatically.
 
+**Note:** Current users can decide whether to migrate to other available versions of the ISA Equipment Model. However, user criteria configurations aren't available with the ISA Equipment Model version 4.2.0. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/granular-access-control-isa-equipment.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/granular-access-control-isa-equipment.md).
+
+## Upgrading to ISA Equipment Model version 1.0.12
+
 The following changes occur when you upgrade to version 1.0.12 of the ISA Equipment Model.
 
--   Improved site level access control to that uses user criteria to define read or write level user access to equipment model entity sites. With the additional assignment of OT viewer \(cmdb\_ot\_viewer\) or OT Editor \(cmdb\_ot\_editor\) roles, you can also have view or edit access to OT devices in the sites assigned accordingly.
+-   Improved site level access control that uses user criteria to define read or write level user access to equipment model entity sites. Assign the OT viewer \(cmdb\_ot\_viewer\) or OT Editor \(cmdb\_ot\_editor\) role to have view or edit access to OT devices in the assigned sites.
 -   When you upgrade to version 1.0.12 of ISA Equipment Model, existing site user records are migrated to an improved access control model using user criteria to preserve the same access permissions. For each site with ISA Entity Site User records, the following changes occur.
     -   For users with viewer access:
         -   A new user criteria record is created and named **Read User Criteria for &lt;site name&gt; Site \[System Generated\]**

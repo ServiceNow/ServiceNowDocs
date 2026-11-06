@@ -7,7 +7,7 @@ release: australia
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Identity and Access Audit, Identity]
 ---
@@ -18,7 +18,7 @@ Displays all audits performed within the ServiceNow® instance.
 
 Audit Results displays changes made for users, groups, roles, and ACLs in the ServiceNow instance.
 
-To access the Audit Results, navigate **All** &gt; **System Security** &gt; **Identity and Access Audit** &gt; **Audit Results**. The **Security Table Audits** page shows the following information.
+To access the Audit Results, navigate to **All** &gt; **System Security** &gt; **Identity and Access Audit** &gt; **Audit Results**. The **Security Table Audits** page shows the following information.
 
 |Column Name|Description|
 |-----------|-----------|
@@ -26,7 +26,7 @@ To access the Audit Results, navigate **All** &gt; **System Security** &gt; **Id
 |Action|Describes the audit action.|
 |Sys\_id|The sys\_id for the audited record.|
 |Created by|The user who created the audit.|
-|Transaction ID|A unique ID that represents all actions performed for the particular.|
+|Transaction ID|A unique ID that represents all actions performed for the particular transaction.|
 |Changed for user|Name of the user when the audit was performed.|
 |Created|The time and date the audit was performed.|
 

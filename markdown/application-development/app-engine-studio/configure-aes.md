@@ -9,7 +9,7 @@ classification: app-engine-studio
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Configure, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Configure App Engine Studio

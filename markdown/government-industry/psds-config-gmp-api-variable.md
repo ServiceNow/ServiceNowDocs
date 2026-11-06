@@ -24,9 +24,9 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Workspaces** &gt; **CRM Workspace**.
+1.  Navigate to **All** &gt; **Workspaces** &gt; **Public Sector Workspace**.
 
-2.  From the CRM Workspace sidebar, navigate to the **Policy Home**.
+2.  From the Public Sector Workspace sidebar, navigate to the **Policy Home**.
 
 3.  Select the **API Variables** list.
 

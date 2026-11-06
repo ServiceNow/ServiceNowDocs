@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CMDB Workspace, Use, Telecommunications Network Inventory]
 ---
@@ -18,7 +18,7 @@ Customizing deletion action enables you to create your own process of the deleti
 
 ## Before you begin
 
-Role required: Admin
+Role required: admin.
 
 ## Procedure
 

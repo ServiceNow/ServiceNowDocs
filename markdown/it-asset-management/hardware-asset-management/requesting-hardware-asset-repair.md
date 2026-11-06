@@ -7,7 +7,7 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
@@ -34,4 +34,6 @@ As an asset manager, you can request repair of assets that are either defective 
     The repair flow proceeds to the next stage only if the asset is repaired. Otherwise the repair order is marked as Complete.
 
 3.  Evaluate: Stage to perform a quality control check of the repaired asset. Based on the evaluation results, the asset is either redeployed or disposed of. The Repair flow is completed after asset evaluation.
+
+**Parent Topic:**[Exploring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/exploring-ham.md)
 

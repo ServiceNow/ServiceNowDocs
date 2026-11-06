@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-08-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -195,7 +195,7 @@ resolution\_state
 
 </td><td>
 
-Optional – Indicates whether an event has been resolved or is no longer occurring. Some event monitors use ‘clear’ severity to indicate resolution. Other event monitors use a ‘close’ value for severity. This field is used for those monitors proffering the latter. Valid values are `New` and `Closing`.
+Optional – To indicate that an event has been resolved or no longer occurring, some event monitors use ‘clear’ severity. Others use a ‘close’ value for severity. This field is used for monitors that use the ‘close’ value. Valid values are `New` and `Closing`.
 
 </td></tr></tbody>
 </table>3.  To create multiple records with a single call, trigger the event web service using the following URL:
@@ -219,8 +219,8 @@ Optional – Indicates whether an event has been resolved or is no longer occurr
           "severity": "4",
           "description": "The disk D: on computer V-W2K8-abc.abc.com is running out of disk space. The value that exceeded the threshold is 38% free space.",
           "additional_info": "{\"scom-severity\": \"Medium\", \"metric-value\": \"38\", \"os_type\": \"Windows.Server.2008\"}"
-          }
-        },
+        }
+    },
         {
           "source": "SCOM",
           "event_class": "SCOM 2012 on scom.server.com",
@@ -237,9 +237,9 @@ Optional – Indicates whether an event has been resolved or is no longer occurr
     }
     ```
 
-4.  Trigger the event web service using the following URL.
+4.  Trigger the event web service using the following URL:
 
-    Replace &lt;instancename&gt; with the name of the required instance: `https://<instancename>.service-now.com/api/global/em/jsonv2`
+    Replace &lt;instancename&gt; with the name of the required instance. `https://<instancename>.service-now.com/api/global/em/jsonv2`
 
     Example showing the payload for one event that is sent in a single web service call:
 

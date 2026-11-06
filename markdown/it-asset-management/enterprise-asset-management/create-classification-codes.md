@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Enterprise Asset Management, Asset Management]
 ---
@@ -24,11 +24,15 @@ Role required: sn\_eam.enterprise\_admin
 
 ## Procedure
 
-1.  Navigate to **Enterprise Asset Workspace** &gt; **Enterprise model management** &gt; **Classification**.
+1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace**.
 
-2.  Select **New**.
+2.  From the Enterprise Asset Workspace, open the Admin center view.
 
-3.  On the form, fill in the details.
+3.  From the navigation panel of the Admin center view, navigate to **Model classifications** &gt; **Classifications**.
+
+4.  Select **New**.
+
+5.  On the form, fill in the details.
 
 <table id="table_vkt_jhj_rwb"><thead><tr><th>
 
@@ -91,7 +95,7 @@ Model categories
 Mode categories assigned to the code.
 
 </td></tr></tbody>
-</table>4.  Select **Save**.
+</table>6.  Select **Save**.
 
     The display name of the classification code is generated and displayed in the **Classification** field. The display name represents the code, the description, and the source. You can view the new classification code record in the Classifications list view page.
 

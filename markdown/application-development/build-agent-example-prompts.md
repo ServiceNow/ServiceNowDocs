@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/build-agent-example-prompts.html
 release: australia
 topic_type: reference
-last_updated: "2026-04-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Reference, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Reference, Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Example prompts

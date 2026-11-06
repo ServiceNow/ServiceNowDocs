@@ -7,7 +7,7 @@ release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Learning, Training your teams, Coaching, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -49,15 +49,15 @@ You can analyze the course items that were most taken by your team members. You 
 
 6.  In the **Assign learning course** screen, assign the learning course to groups or team members.
 
-<table id="choicetable_byw_mnk_rvb"><thead><tr><th align="left" id="d299965e190">
+<table id="choicetable_byw_mnk_rvb"><thead><tr><th align="left" id="d108251e190">
 
 To
 
-</th><th align="left" id="d299965e193">
+</th><th align="left" id="d108251e193">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d299965e199">
+</th></tr></thead><tbody><tr><td id="d108251e199">
 
 **Assign the course to all groups that you directly and additionally manage**
 
@@ -65,7 +65,7 @@ Do this
 
 Select **To my groups**.
 
-</td></tr><tr><td id="d299965e211">
+</td></tr><tr><td id="d108251e211">
 
 **Assign the course to specific groups or team members**
 

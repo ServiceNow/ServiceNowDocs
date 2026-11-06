@@ -7,7 +7,7 @@ release: australia
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ Debug user criteria of catalog items, UI customizations for Service Catalog page
 Analyze the client-side actions affecting the state and values of all variables. You can also get insights into the performance of each script working on the variables.
 -   **[Debug user criteria of a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/debug-user-criteria-cat-item.md)**  
 Debug whether a user can access a catalog item based on the matched user criteria and fix any issues.
--   **[Debug UI customizations for a Service Catalog page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/debug-ui-customization-catalog-page.md)**  
+-   **[Debug UI customizations for a Service Catalog page]()**  
 Perform the health check of a Service Catalog page. The UI Page Customization Diagnostics window displays the UI macros applicable for the Service Catalog page and their corresponding states. For issues on a Service Catalog page due to customized UI macros, you can identify the source of broken functionality.
 -   **[Debug performance diagnostics of a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/debug-perf-diagnostics.md)**  
 Analyze the impact of the variable setup in a catalog item on its runtime performance, and identify any issues. You can review the processing time of the catalog item and its variables based on the triggered SQL queries.

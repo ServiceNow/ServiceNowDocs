@@ -7,7 +7,7 @@ release: australia
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 204
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
@@ -7707,7 +7707,7 @@ curl "https://instance.servicenow.com/api/sn_chg_rest/v1/change/emergency/b0dbda
 
 Retrieves one or more change models based on the specified criteria.
 
-Use this endpoint to find a change model that best fits the change request that you are trying to create. For additional information, see Change Models.
+Use this endpoint to find a change model that best fits the change request that you are trying to create. For additional information, see [Change model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/manage-change-models.md).
 
 ### URL format
 
@@ -8183,7 +8183,7 @@ For brevity, this response only shows a single change model object.
 
 Retrieves the change model identified by the specified sys\_id.
 
-You can then use this change model to create the desired change request. For additional information on change models, see Change Models.
+You can then use this change model to create the desired change request. For additional information on change models, see [Change model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/manage-change-models.md).
 
 ### URL format
 
@@ -10545,7 +10545,7 @@ Name-value pairs representing the field\(s\) to update in the associated change 
 
 encrypted\_fields
 
-</td><td id="d3047e945">
+</td><td id="d2828e945">
 
 List of comma-separated fields to encrypt. These fields are encrypted before they are stored in the associated record. When specified, the endpoint calls the GlideRecord setDisplayValue\(\) method, instead of calling the setValue\(\) method.Because of this, you can also use this parameter to pass display values for non-encrypted fields, such as reference or choice fields, instead of passing sys\_ids or values.
 
@@ -13114,7 +13114,7 @@ chg\_model
 
 Name of a change model listed in the Change Model \[chg\_model\] table. Provided in the following format: `chg_model=Normal`.
 
-For more information, see Change models.
+For more information, see [Change model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/manage-change-models.md).
 
 **Note:** Not providing either the change model \(**chg\_model**\) or **type** value results in a default setting that is subject to change by release. It is strongly advised to set at least one of these values.
 
@@ -13169,7 +13169,7 @@ Object.chg\_model
 
 Name of a change model listed in the Change Model \[chg\_model\] table. Provided as a name-value pair in the following format: `{"chg_model" : "Cloud Infrastructure"}`
 
-For more information, see Change models.
+For more information, see [Change model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/manage-change-models.md).
 
 **Note:** Not providing either the change model \(**chg\_model**\) or **type** value results in a default setting that is subject to change by release. It is strongly advised to set at least one of these values.
 

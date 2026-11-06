@@ -9,7 +9,7 @@ last_updated: "2026-09-15"
 reading_time_minutes: 1
 keywords: [Autonomous Engineer, plans, Build Agent, plan dashboard, plan view, work items]
 audience: programmer
-breadcrumb: [Use, Autonomous Engineer, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Use, Autonomous Engineer, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Plans in Autonomous Engineer

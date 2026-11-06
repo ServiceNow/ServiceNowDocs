@@ -7,7 +7,7 @@ release: australia
 product: Asset Management for Field Service
 classification: asset-management-for-field-service
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Stockrooms, Inventory and asset management, Configure, Field Service Management]
 ---

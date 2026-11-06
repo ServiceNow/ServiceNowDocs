@@ -7,7 +7,7 @@ release: australia
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 keywords: [Configure Cloud Account Management, Configure Cloud Workspace, Configure CAM, setup Cloud Account Management]
 breadcrumb: [Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]

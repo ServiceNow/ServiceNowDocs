@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-config-workspace-record-pages.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Record pages and page templates, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -38,7 +38,7 @@ Description
 
 </td><td>
 
-This page provides the basic structure for case management, including record information, chat and phone features, and suggestions for resolving issues.**Note:** Use this page to display generative AI elements and functionality available with [Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/now-assist-csm.md).
+This page provides the basic structure for case management, including record information, chat and phone features, and suggestions for resolving issues.**Note:** Use this page to display generative AI elements and functionality available with ServiceNow Otto for Customer Service Management \(CSM\).
 
 </td></tr><tr><td>
 
@@ -54,7 +54,7 @@ This page is designed for front-line agents. It provides a simplified case view 
 
 </td><td>
 
-This page includes CSM-specific features for interaction management, including interaction information and related search results, and enables agents to accept and respond to live chats, calls, email, and SMS messages.**Note:** Use this page to display generative AI elements and functionality available with [Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/now-assist-csm.md).
+This page includes CSM-specific features for interaction management, including interaction information and related search results, and enables agents to accept and respond to live chats, calls, email, and SMS messages.**Note:** Use this page to display generative AI elements and functionality available with ServiceNow Otto for Customer Service Management \(CSM\).
 
 </td></tr><tr><td>
 
@@ -70,7 +70,7 @@ This page enables agents to manage email conversations with customers using inte
 
 </td><td>
 
-This page provides a component that customers can use for integration with Contact Center as a Service \(CCaaS\) providers and an interface that agents can use to handle customer phone calls.
+This page provides a component that customers can use for integration with Contact Center as a Service \(CCaaS\) providers. This component has an interface that agents can use to handle customer phone calls.
 
 </td></tr><tr><td>
 

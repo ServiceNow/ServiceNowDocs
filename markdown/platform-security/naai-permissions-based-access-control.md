@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/naai-permissions-based-access-control.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Agentic AI security and governance]
 ---
@@ -16,7 +16,7 @@ Use Agent Role Inheritance, identity types, and granular roles to verify your AI
 
 ServiceNow uses AI Agents to perform tasks that range from simple automated responses to complex problem solving. AI agents are restricted by their assigner roles, and are subject to the same ACL limitations as standard users.
 
-Now Assist provides several mechanisms to enforce least-privilege access across your
+ServiceNow Otto provides several mechanisms to enforce least-privilege access across your instance.
 
 -   Access control lists \(ACLs\) that determine who can invoke an agent, user identities that define what data an agent can access once invoked.
 -   Role masking that limits inherited permissions during tool execution

@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Workflow Studio, Build workflows]
 ---
@@ -22,7 +22,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 ## App dependencies
 
-If you’re having trouble installing the app, ensure that the dependent plugin, ServiceNow IntegrationHub Starter Pack Installer \(com.glide.hub.integrations.starter\) is installed. You need ServiceNow IntegrationHub Professional Pack Installer license in your prod and sub-prod environments for creating spokes using OpenAPI specification, Postman collection, or with AI.
+If you’re having trouble installing the app, ensure that the dependent plugin, ServiceNow IntegrationHub Starter Pack Installer \(com.glide.hub.integrations.starter\) is installed. You need ServiceNow IntegrationHub Professional Pack Installer license in your prod and sub-prod environments for creating spokes using OpenAPI specification, Postman collection, or Now Assist.
 
 **Note:** Some of these plugins are licensable features and require appropriate licenses, if used outside the spoke implementation.
 
@@ -90,5 +90,5 @@ Spoke actions created by importing OpenAPI specification, contain the OpenAPI st
 
 ## App version
 
-Spoke Generator v5.0.0 is the latest version.
+Spoke Generator v4.2.4 is the latest version.
 

@@ -7,7 +7,7 @@ release: australia
 product: Knowledge Management
 classification: knowledge-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Knowledge Management reference, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Knowledge Management reference, Knowledge Management, Manage conten
 
 Validate that Knowledge Management still works after you make any configuration change, such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 
-Knowledge Management quick start tests require activating the following plugins: Knowledge Management Core \(com.glideapp.knowledge\), Knowledge Management Advanced Installer \(com.snc.knowledge\_advanced.installer\), Knowledge Blocks \(com.snc.knowledge\_blocks\), and Customer Service Management Demo Data \(com.snc.customerservice.demo\).
+Knowledge Management quick start tests require activating the Knowledge Management Core plugin \(com.glideapp.knowledge\), the Knowledge Management Advanced Installer plugin \(com.snc.knowledge\_advanced.installer\), and the Knowledge Blocks plugin \(com.snc.knowledge\_blocks\). The tests also require activating the Customer Service Management Demo Data plugin \(com.snc.customerservice.demo\).
 
 <table id="table_whf_nfg_h1c"><thead><tr><th>
 

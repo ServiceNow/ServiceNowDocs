@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [On-Call Scheduling in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -34,7 +34,7 @@ For information about On-Call Scheduling, see [On-Call Scheduling](https://raw.g
 
 **Parent Topic:**[On-Call Scheduling in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/on-call-scheduling-in-sow.md)
 
-## Experts on-call in Service Operations Workspace
+## Work with on-call experts in Service Operations Workspace
 
 View the relevant shift details and contact on-call members for issue resolution and dynamically track the on-call escalation.
 
@@ -50,7 +50,7 @@ Ensure that the escalation logging, that is, the **com.snc.on\_call\_rotation.lo
 
 2.  To view the relevant shift details, contact on-call members, and do other relevant tasks, perform the following steps.
 
-    1.  From the contextual side panel, click the experts on-call icon \(\[Omitted image "experts-on-call.png"\] Alt text: experts on-call icon\).
+    1.  From the contextual side panel, select the experts on-call icon \(\[Omitted image "experts-on-call.png"\] Alt text:\).
 
         For information about how on-call recommendations can be configured, see [Customize the on-call support group recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/configure-supportgroup-oncall-sow.md).
 
@@ -61,25 +61,25 @@ Ensure that the escalation logging, that is, the **com.snc.on\_call\_rotation.lo
         -   Support group associated with the primary configuration item, that is, the **Configuration item** field.
         -   Top support group of affected CIs from the Affected CIs related list.
         -   Assignment group of the agent, that is, the **Assignment group** field.
-    2.  To view detailed shift information such as all on-call members and start time and end time and, click **Shift details**.
+    2.  To view detailed shift information such as all on-call members and start time and end time, select **Shift details**.
 
         When no on-call member is available for a support group in that shift, you can view the next shift with on-call members.
 
-    3.  To start a Microsoft Teams chat conversation with an on-call member, click **Contact** next to the member details and click **Start Teams chat**.
+    3.  To start a Microsoft Teams chat conversation with an on-call member, select **Contact** next to the member details and select **Start Teams chat**.
 
         **Note:** You can view the user presence before contacting the on-call member.
 
         For information about Microsoft Teams chat, see [Collaborate on a task record using Microsoft Teams in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/start-msteams-chat-sow.md).
 
-    4.  To configure display preferences in the **Experts on-call** panel, click the preferences icon \(\[Omitted image "preferences-icon.png"\] Alt text: preferences icon\) and perform any of the following actions.
+    4.  To configure display preferences in the **Experts on-call** panel, select the preferences icon \(\[Omitted image "preferences-icon.png"\] Alt text:\) and perform any of the following actions.
 
-        -   To hide shifts with no on-call members, use the **Hide shifts with no on-call** toggle switch. If no on-call members are available for all support groups, you can search for other groups and view its on-call members.
+        -   To hide shifts with no on-call members, use the **Hide shifts with no on-call** toggle switch. If no on-call members are available for all support groups, you can search for other groups and view their on-call members.
         -   To use the default date and time format configured for the current user, use the **Use default date and time formats** toggle switch.
-3.  To view dynamic tracking of an on-call escalation, click the on-call escalations icon \(\[Omitted image "on-call-escalation.png"\] Alt text: on-call escalations icon\)
+3.  To view dynamic tracking of an on-call escalation, select the on-call escalations icon \(\[Omitted image "on-call-escalation.png"\] Alt text:\)
 
     \[Omitted image "escalation-tracking-SOW.png"\] Alt text: Escalation tracking in SOW
 
-4.  To view detailed escalation tracking information, click **View escalation details**.
+4.  To view detailed escalation tracking information, select **View escalation details**.
 
     \[Omitted image "escalation\_tracking\_details\_SOWOncall.png"\] Alt text: View escalation tracking details
 

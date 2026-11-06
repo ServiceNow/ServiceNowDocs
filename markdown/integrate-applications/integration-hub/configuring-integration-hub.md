@@ -7,7 +7,7 @@ release: australia
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integration Hub, Workflow Data Fabric]
 ---
@@ -17,7 +17,7 @@ breadcrumb: [Integration Hub, Workflow Data Fabric]
 Review and select an Integration Hub subscription package. Activate Integration Hub plugins and review usage and transaction details.
 
 -   **[Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/request-ih-overview.md)**  
-ServiceNow® Integration Hub enables you to build reusable integrations with third-party systems and call them from anywhere in the ServiceNow AI Platform. For example, you can request Integration Hub to call external systems using integration APIs from the Action Designer Script step, run the Script step on the ServiceNow® MID Server, and activate protocol steps like REST, SOAP, and PowerShell.
+ServiceNow® Integration Hub enables you to build reusable integrations with third-party systems and call them from anywhere in the ServiceNow AI Platform. For example, you can call external systems using integration APIs from the Action Designer Script step or run the Script step on the ServiceNow® MID Server. You can also activate protocol steps such as REST, SOAP, and PowerShell.
 -   **[Integration Hub Usage Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/integrationhub-usage-dashboard.md)**  
 Get insights on the usage of Integration Hub data from the Integration Hub Usage Dashboard. For example, view the average number of monthly transactions in the last year or the data egress from Integration Hub via REST and SOAP API protocols.
 

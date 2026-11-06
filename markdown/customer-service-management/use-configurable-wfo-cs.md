@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/use-configurable-wfo-cs.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Agent management, Use, Customer Service Management]
 ---
@@ -22,16 +22,18 @@ Channel management lets you monitor important metrics across different channels 
 Manage your teams' work assignments easily by customizing your work queue to display the most relevant work items.
 -   **[Scheduling in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/scheduling-configurable-wfo-cs.md)**  
 By using Scheduling, you can manage your workforce resources efficiently by planning and managing schedules, staffing, and shifts across your teams all from one location. You can also integrate with on-call scheduling and create shifts and schedule for on-call rotations.
--   **[Managing user criteria for event types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/und-user-criteria-event-types.md)**  
+-   **[Managing user criteria for event types in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/und-user-criteria-event-types.md)**  
 Manage user access for any event type such as meeting, training, and time-off requests in the team calendar.
 -   **[Teams in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/explore-teams-configurable-wfo-cs.md)**  
 Teams lets you organize each of your teams into assignment groups, define a set of key performance indicators \(KPIs\) to analyze the performance of all groups within a team, drill into the metrics for a group, an agent, or an incident from a central location, and manage your teams effectively from a single location.
 -   **[Coaching in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/explore-coaching-configurable-wfo-cs.md)**  
 Coaching lets you review and assess the quality of completed interactions and tasks, enhance your teams' skill set by assigning training based on the assessments, add skills to their profile when they get trained, and identify skill gaps to train your agents effectively.
--   **[Mobile Experience for Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/wfo-configurable-mobile-interface.md)**  
+-   **[Mobile experience for Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/wfo-configurable-mobile-interface.md)**  
 Manage customer service cases from your mobile device with the Now Mobile Agent application. You can stay connected and access information in real time so that you can complete your tasks quickly.
 -   **[Scheduling in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/explore-scheduling-configurable-wfo-cs.md)**  
 Learn how you can plan shifts that include break time for your agents to effectively manage their schedule in Workforce Optimization for Customer Service. Publish schedules to view the agent schedules on the team calendar.
+-   **[Forecasting in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/forecasting-configurable-wfo-cs.md)**  
+ Use the Forecasting page to monitor staffing levels and volume forecast trends for your assignment groups.
 -   **[Schedule Adherence in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/schedule-adherence-configurable-wfo-cs.md)**  
 You can use schedule adherence to monitor whether your team members are adhering and conforming to the schedules and to improve the operational efficiency of your organization.
 -   **[Work scheduler in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/work-scheduling-wfo-cs.md)**  

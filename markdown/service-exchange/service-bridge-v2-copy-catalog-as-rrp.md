@@ -7,7 +7,7 @@ release: australia
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure for providers, Service Exchange for Providers, Service Exchange]
 ---
@@ -58,7 +58,7 @@ After you copy, you can edit and publish these RRPs.
 
 6.  Add a variable to each RRP if not already available.
 
-    Each RRP must have at least one variable. You can add more than one variable. For more details, see [Create variables for remote record producers for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-assign-variables-ser-defn.md).
+    Each RRP must have at least one variable. You can add more than one variable. For more details, see [Create variables for remote record producers in Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-assign-variables-ser-defn.md).
 
 7.  Add a flow to the RRP using **Flow** field.
 

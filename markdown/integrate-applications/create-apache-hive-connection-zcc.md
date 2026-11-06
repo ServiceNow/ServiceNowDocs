@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/create-apache-hive-connection-zcc.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Apache Hive, Community connectors, Zero Copy Connectors, Workflow Data Fabric]
+breadcrumb: [Apache Hive, Community connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
 
 # Create an Apache Hive connection
@@ -48,15 +48,15 @@ Work with your data source admin to create a connection to Apache Hive. For addi
 
 4.  Configure the metastore that you want to use with Apache Hive.
 
-<table id="choicetable_xqf_z3l_rfc"><thead><tr><th align="left" id="d592048e243">
+<table id="choicetable_xqf_z3l_rfc"><thead><tr><th align="left" id="d580690e243">
 
 Option
 
-</th><th align="left" id="d592048e246">
+</th><th align="left" id="d580690e246">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d592048e252">
+</th></tr></thead><tbody><tr><td id="d580690e252">
 
 **Hive Thrift**
 
@@ -70,7 +70,7 @@ Description
 
 `thrift://<host>:<port>`
 
-</td></tr><tr><td id="d592048e287">
+</td></tr><tr><td id="d580690e287">
 
 **AWS Glue**
 

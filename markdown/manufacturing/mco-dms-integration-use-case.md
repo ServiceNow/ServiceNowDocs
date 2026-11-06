@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-dms-integration-use-case.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [DMS integration, STAR API, dealer warranty claims]
 breadcrumb: [DMS integration, Integrate, Manufacturing Commercial Operations]

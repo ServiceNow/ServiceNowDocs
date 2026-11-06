@@ -7,7 +7,7 @@ release: australia
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Virtual Agent topics for ITSM Success Dashboard, ITSM Success Dashboard Admin console, Configure, ITSM Success Dashboard indicators, IT Service Management]
 ---
@@ -20,7 +20,7 @@ Configure the Virtual Agent \(VA\) topics for ITSM Success Dashboard indicators 
 
 Role required: admin
 
-To update the live agent script include see, [Update the live agent script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-success-dashboard-indicators/update-live-agent-script-include.md).
+To update the live agent script include, see [Update the live agent script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-success-dashboard-indicators/update-live-agent-script-include.md).
 
 ## Procedure
 
@@ -28,11 +28,11 @@ To update the live agent script include see, [Update the live agent script inclu
 
 2.  Select **Review and Configure**.
 
-3.  Select **Review** tab.
+3.  Select the **Review** tab.
 
-4.  Select a deflection pattern under Virtual Agent deflection.
+4.  Select a deflection pattern under **Virtual Agent deflection**.
 
-5.  Update the value in **Refresh Window** field.
+5.  Update the value in the **Refresh Window** field.
 
     This is the refresh interval for the report to be executed.
 

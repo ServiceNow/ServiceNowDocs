@@ -7,7 +7,7 @@ release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: concept
-last_updated: "2026-05-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [holiday schedule, field service, workforce management, dispatcher workspace, location-based calendar]
 breadcrumb: [Configuring an agent calendar, Set up workforce, Configure, Field Service Management]

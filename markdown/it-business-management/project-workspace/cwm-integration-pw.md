@@ -7,7 +7,7 @@ release: australia
 product: Project Workspace
 classification: project-workspace
 topic_type: concept
-last_updated: "2026-07-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [CWM integration, connected work, project execution, team collaboration]
 breadcrumb: [Project Workspace, Project Portfolio Management, Strategic Portfolio Management]

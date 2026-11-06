@@ -1,0 +1,42 @@
+---
+title: Define alert criteria
+description: Specify the event alert criteria by choosing the alert severity, defining thresholds, and specifying conditions for when the alert must be triggered.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/define-alert-criteria-event.html
+release: australia
+product: Digital End-User Experience \(DEX\)
+classification: digital-end-user-experience-dex
+topic_type: task
+last_updated: "2026-10-23"
+reading_time_minutes: 1
+keywords: [event alert criteria, alert severity, alert thresholds, event alert conditions]
+breadcrumb: [Creating an event rule, Managing alert rules, Configure, Digital End-User Experience, IT Operations Management]
+---
+
+# Define alert criteria
+
+Specify the event alert criteria by choosing the alert severity, defining thresholds, and specifying conditions for when the alert must be triggered.
+
+## Before you begin
+
+Role required: sn\_dex.admin
+
+## Procedure
+
+1.  In the **Alert severity** field, select a severity for the alert.
+
+2.  Define the thresholds for the alert.
+
+3.  Add another alert severity level by selecting **Add another alert severity**.
+
+4.  In the Alert when section, select a time period.
+
+5.  Under **Clear the alert when**, define the conditions for when to clear the alert.
+
+6.  Select **Next**.
+
+
+## What to do next
+
+For the next step, see [Define alert rule name and status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/define-alert-name-state.md).
+

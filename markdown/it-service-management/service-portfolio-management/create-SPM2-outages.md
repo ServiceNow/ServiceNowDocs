@@ -7,8 +7,8 @@ release: australia
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: task
-last_updated: "2026-05-21"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Use, Service Portfolio Management, IT Service Management]
 ---
 
@@ -62,25 +62,19 @@ When an outage is opened against a business or technical service, all child offe
 
     If a single outage impacts multiple business or technical service offerings, you can add those offerings to the Affected CIs related list.
 
-7.  Select **Refresh affected service offerings**.
-
-    All related service offerings will be added to the Affected CIs related list.
-
-    **Note:** The **Refresh affected service offerings** button doesn't appear until a CI is added to the record. If you update the CI and select the button again, you're provided with a new list of service offerings.
-
-8.  To add an associated affected CI, select **Add**.
+7.  To add an associated affected CI, select **Add**.
 
     All affected CIs are listed in the **Service Offering** configuration class.
 
-9.  Select a single CI or group of CIs.
+8.  Select a single CI or group of CIs.
 
     Select the box next to the CI name and then select **Add Selected**. Alternatively, you can choose to add all the listed affected CIs to the outage record by selecting **Add All**.
 
-10. Close the Add Affected Configuration Items list window.
+9.  Close the Add Affected Configuration Items list window.
 
     The CI or CIs are added to the Affected CIs related list.
 
-11. Select **Update**.
+10. Select **Update**.
 
 
 **Parent Topic:**[Using Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-portfolio-management/SPM2-using.md)

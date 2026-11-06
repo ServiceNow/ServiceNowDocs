@@ -7,7 +7,7 @@ release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Manage portfolio plans, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
@@ -39,15 +39,15 @@ Role required: sn\_align\_core.apw\_user or business\_stakeholder
 
 4.  Update the details of the portfolio plan or delete it.
 
-<table id="choicetable_hjj_wbj_gvb"><thead><tr><th align="left" id="d187529e144">
+<table id="choicetable_hjj_wbj_gvb"><thead><tr><th align="left" id="d193760e144">
 
 Choice
 
-</th><th align="left" id="d187529e147">
+</th><th align="left" id="d193760e147">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d187529e153">
+</th></tr></thead><tbody><tr><td id="d193760e153">
 
 **Update portfolio plan**
 
@@ -58,7 +58,7 @@ Action
 3.  Select **Update**.
 
 
-</td></tr><tr><td id="d187529e181">
+</td></tr><tr><td id="d193760e181">
 
 **Delete portfolio plan**
 

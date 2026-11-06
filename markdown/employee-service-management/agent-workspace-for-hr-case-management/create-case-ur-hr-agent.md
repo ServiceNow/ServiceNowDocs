@@ -7,9 +7,9 @@ release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [HR Service Delivery Agent Workspace integration with Universal Request, Agent Workspace, HR Service Delivery, Employee Service Management]
+breadcrumb: [Integrate, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Create an HR case from Universal Request in HR Service Delivery Agent Workspace

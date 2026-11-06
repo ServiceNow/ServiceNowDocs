@@ -7,14 +7,18 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Design your indicator solution, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Generating tasks in KPI Composer
 
 For each KPI Composer artifact in your project, you can generate a task to create an equivalent Performance Analytics element. All tasks are created with one action. The tasks are assigned automatically to the responsible group for implementing analytics.
+
+**Important:**
+
+This application is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 Tasks can be generated to create the following Performance Analytics and Reporting elements based on the definitions in your KPI Composer project. The tasks are generated for each type of element in this order:
 
@@ -38,6 +42,10 @@ Tasks can be generated to create the following Performance Analytics and Reporti
 Assign the tasks in a KPI Composer project to a group. By default, tasks are assigned to the Analytics Implementers assignment group. You can add users and groups to this group, or you can select a different assignment group.
 
 ### Before you begin
+
+**Important:**
+
+This application is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 Role required: sn\_kpi\_composer.user, sn\_kpi\_composer.admin, admin
 
@@ -82,6 +90,10 @@ Generate tasks for all sufficiently defined KPI Composer artifacts with a single
 
 ### Before you begin
 
+**Important:**
+
+This application is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
+
 -   Populate the Analytics Implementers group with users.
 -   Complete designing your KPI Composer project. The necessary artifacts should all be defined. However, if you change something later, you can regenerate the tasks. Regenerating tasks is a good way to track their completion.
 
@@ -109,6 +121,10 @@ View the tasks you have created. In the Tasks tile, you have links to active tas
 ## Task Definition records
 
 KPI Composer tasks are defined in Task Definition \[sn\_kpi\_composer\_task\_definition\] records. When you generate tasks, you create these records or update their statuses.
+
+**Important:**
+
+This application is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 You can access any existing Task Definition records from links on the Tasks tile of the Review tab. These links take you to a filtered list of records, as follows:
 
@@ -207,6 +223,10 @@ Task generation checks all task definitions, including those with the status OK.
 ## Task flows
 
 KPI Composer tasks utilize flows created with the ServiceNow AI Platform® Flow Designer.
+
+**Important:**
+
+This application is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 KPI Composer provides two flows to manage the transition between task states:
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/mobile-experience-fsm.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Explore, Field Service Management]
 ---
@@ -76,11 +76,9 @@ The Field Service Management mobile application runs on the ServiceNow mobile pl
 </td></tr></tbody>
 </table>When [offline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/work-offline-fieldservice-mobile.md), you can still execute assigned tasks, manage assets, access your schedule, track the time stamp of updated tasks, and close work orders and work order tasks. The data for tasks performed offline is stored on your device and synchronized when the device goes online.
 
-Watch this four-minute video for a demonstration of the ServiceNow Field Service mobile application for managing field service tasks.
-
 ## Empower technicians with an optimized mobile application
 
-From their supported smartphones and tablets, field service technicians can do various tasks, such as accept or reject tasks, track travel and work time, display tasks and parts using map views, and access their schedules. Questionnaires are available to collect and complete necessary task details, such as safety or work completion checklists. When assignments are complete, customers can acknowledge the work with a signature on the technician’s mobile device. Customers can also receive a work order summary by email.
+From their supported smartphones and tablets, field service technicians can do various tasks, such as accept or reject tasks, track travel and work time, display tasks and parts using map views, and access their schedules. Questionnaires are available to collect and complete necessary task details, such as safety or work completion checklists. When assignments are complete, customers can acknowledge the work with a signature on the technician's mobile device. Customers can also receive a work order summary by email.
 
 The mobile app also supports offline mode, enabling technicians to work without internet connectivity.
 
@@ -89,6 +87,19 @@ Use and customize reports available with your application to get insights into t
 ## Empower managers with Field Service Manager Mobile
 
 Field Service Manager Mobile gives Field Service managers the ability to manage their team, create work order tasks, view agents, and see SLAs from their mobile device. Field Service Manager Mobile empowers managers in the field to stay on top of their work without having to bring their laptop.
+
+## Example: Technician Completes Job
+
+A service technician needs to complete a work order task from the field without returning to the office. The Field Service Management mobile application gives technicians access to work order tasks and questionnaires, and syncs all updates automatically when the device reconnects.
+
+|Step|Actor|Action|
+|----|-----|------|
+|1|Technician|Opens the mobile app|
+|2|Technician|Reviews work order task|
+|3|Technician|Navigates to site and checks in when arrived|
+|4|Technician|Performs work|
+|5|Technician|Captures notes, photos, signature, and questionnaire responses|
+|6|Technician|Closes task|
 
 **Related topics**  
 

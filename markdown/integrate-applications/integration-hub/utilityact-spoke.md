@@ -30,7 +30,7 @@ Utility Actions spoke v1.4.1 is the latest version. For version history of the s
 
 ## Supported versions
 
-This spoke is compatible with ServiceNow instance of Australia and later versions.
+This spoke is compatible with ServiceNow instance of Brazil and later versions.
 
 ## Spoke dependencies
 

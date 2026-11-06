@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/add-page-to-navigation-servicenow-ai-experience-lab-for-vs-code.html
 release: australia
 topic_type: task
-last_updated: "2026-08-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use, ServiceNow Lux Lab for VS Code extension, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Use, ServiceNow Lux Lab for VS Code extension, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Add a page to the navigation
@@ -16,7 +16,7 @@ Add pages to the navigation to make them accessible from other pages, such as a 
 
 ## About this task
 
-Some pages are added to the navigation by default when you create them. For pages that aren't added automatically to the navigation, use the following procedure to make them display and accessible via other pages.
+Some pages are added to the navigation by default when you create them. For pages that aren't added automatically added to the navigation, use the following procedure to make them display and accessible via other pages.
 
 The following procedure describes how to complete this task manually. You can also complete the task using agentic development tools, such as Claude Code.
 
@@ -44,7 +44,7 @@ Visual Studio Code
 
 </td><td>
 
-1.97 later
+1.97 or later
 
 </td><td>
 
@@ -80,7 +80,7 @@ ServiceNow SDK
 
 </td><td>
 
-4.12.1 or later
+4.14 or later
 
 </td><td>
 

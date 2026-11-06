@@ -7,7 +7,7 @@ release: australia
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-09-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Personal events, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
@@ -30,7 +30,7 @@ Events created with ServiceNow Agent show as personal in the calendar view. You 
 
 2.  Select the day for which you want to create an event.
 
-3.  Tap the ellipsis icon in the top right and tap **Create event**.
+3.  Tap the plus icon \(\[Omitted image "add-personal-event-mobile.png"\] Alt text: plus sign\).
 
 4.  Enter the following information.
 

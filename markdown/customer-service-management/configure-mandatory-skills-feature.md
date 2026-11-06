@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-mandatory-skills-feature.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Mandatory skills, Configure Skills Management, Configure case routing and assignment, Route and assign cases, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -88,4 +88,8 @@ Contains a list of tables for which the **Skills** field has already been migrat
 -   **Default value**: none
 
 </td></tr></tbody>
-</table>
+</table>**Related topics**  
+
+
+[bundle-fsm.skills-table-fields]
+

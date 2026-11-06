@@ -1,0 +1,69 @@
+---
+title: Import data into the audit table
+description: Import external dataset into the audit table to start working with the data in Process Mining.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/process-mining/import-data.html
+release: australia
+product: Process Mining
+classification: process-mining
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Working with external datasets, Import external data, Process Mining, Discover, AI Workflow Factory Prime, Agentic app development, Building applications]
+---
+
+# Import data into the audit table
+
+Import external dataset into the audit table to start working with the data in Process Mining.
+
+## Before you begin
+
+-   [Create an audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/process-mining/create-table.md)
+
+You can import using ServiceNow Integration Hub or any other application. This section describes how to import data using ServiceNow Integration Hub.
+
+Role required: sn\_process\_mining\_admin
+
+**Note:** If an import takes more than 24 hours, it gets automatically cancelled. This is managed by the sn\_po\_extdata.cancel\_job\_after\_seconds system property. For more information, see [Process Mining properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/process-mining/components-installed.md).
+
+## Procedure
+
+1.  Select **Import using Integration Hub**, in the Import Data section.
+
+    \[Omitted image "ext-dataset-3.png"\] Alt text: Import using Integration Hub
+
+    A dialog box appears requesting you to confirm your selection, and reminding that after importing data from Integration Hub, you must come to this page again.
+
+2.  Select **Proceed to Integration Hub**.
+
+    Integration Hub opens in a new tab.
+
+3.  Select **Create new integration**.
+
+4.  On the NEW DATA IMPORT INTEGRATION page fill the fields.
+
+    **Note:** Specify `Process Mining for external data` in the **Application** field.
+
+    \[Omitted image "ext-data-inthub1.png"\] Alt text: New data import integration
+
+5.  Select **Save &amp; continue**.
+
+6.  Select and configure your data source.
+
+    1.  Select **File** as a source type from the drop-down list.
+    2.  Select either Excel or CSV depending on how your data is stored.
+
+        **Note:** It is good if you have the date formatted as jjjj-mm-dd uu:mm:ss. This reduces the transformation time in Integration Hub. Also, it's recommended that you use a CSV file for ease of import.
+
+7.  You must now map source to target.
+
+    1.  Select **Add a table**.
+    2.  Select a target table. This must be the same table that you created.
+    3.  Map the target fields with the source fields.
+    \[Omitted image "ext-data-inthub2.png"\] Alt text: Map the source and target fields
+
+8.  Schedule your imports.
+
+    For detailed information, see [Integration Hub - Import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integrationhub-imports.md).
+
+

@@ -7,14 +7,16 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [List reports, Report types, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [List reports, Core UI Report types, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # List report style options
 
 Add a title to your list report configure the title's size, color, and alignment.
+
+**Important:** This topic is about Core UI List reports. For information about the newer Platform Analytics lists, see [Create a Platform Analytics list visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-dv-analytics-list.md).
 
 When you create or edit a list report, you can add a title that replaces the report name you provide on the Data tab. Users you share the report with see the new title instead of the name of the report.
 

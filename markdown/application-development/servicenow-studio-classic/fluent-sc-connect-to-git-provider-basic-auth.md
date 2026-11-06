@@ -7,10 +7,10 @@ release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2026-07-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 keywords: [ServiceNow studio, source control, fluent, pro-code development]
-breadcrumb: [Fluent source control in ServiceNow Studio, Source control integration, Use, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Fluent source control in ServiceNow Studio, Source control integration, Use, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Connect to a Git provider using basic authentication
@@ -34,14 +34,14 @@ Role required: admin
     -   Mac: Cmd-Shift-P
 3.  Enter `Git: Set IDE Git credentials` and press Enter.
 
-4.  From the New Git credential form, select **Basic auth**.
+4.  From the New Git credential form, select **Basic auth** to authenticate with your Git user name and personal access token.
 
-5.  On the form, fill in the fields.
+5.  On the form, fill in the fields to identify your repository and credentials.
 
     |Field|Description|
     |-----|-----------|
     |Git repository URL|HTTPS URL of a Git repository associated with your Git credentials.|
-    |Git username|Git username.|
+    |Git username|Your user name for the Git provider.|
     |Personal access token|Personal access token that you generate from your Git provider.|
     |Use this credential for all repositories|Option to use the credentials for all repositories in the Git domain associated with the Git repository URL.|
 
@@ -50,7 +50,7 @@ Role required: admin
 
 ## Result
 
-Your Git credentials are associated with your user on the instance and used for all repositories in the domain from the Git repository URL. If you add different credentials for a repository in the same domain, the new credentials are used and the previous credentials are set to inactive.
+The instance associates your Git credentials with your user and uses them for all repositories in the domain from the Git repository URL. If you add different credentials for a repository in the same domain, the instance uses the new credentials and sets the previous credentials to inactive.
 
 ## What to do next
 

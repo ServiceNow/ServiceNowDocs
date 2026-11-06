@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_SearchForInfoUsingThePortal.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Customer Service Portal, Customer communication, Use, Customer Service Management]
 ---
@@ -20,17 +20,17 @@ Role required: sn\_customerservice.customer, sn\_customerservice.customer\_admin
 
 ## About this task
 
-The portal has a search feature that you can use to search for information across several repositories. Enter a search term in the **Search** field and then click **Search** to display a list of related articles.
+The portal has a search feature that you can use to search for information across several repositories. Enter a search term in the **Search** field and then select **Search** to display a list of related articles.
 
 ## Procedure
 
 1.  Enter a search term into the **Search** field.
 
-2.  Click **Search**.
+2.  Select **Search**.
 
     A list of articles related to the search term is displayed.
 
-3.  Click a link to view an article.
+3.  Select a link to view an article.
 
 
 **Related topics**  

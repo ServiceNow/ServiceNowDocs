@@ -1,20 +1,20 @@
 ---
-title: Setting up Basic Software Asset Management
-description: Set up Basic Software Asset Management before configuration.
+title: Setting up Basic Software Asset Management plugin
+description: Set up Basic Software Asset Management plugin before configuration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/software-asset-management-foundation-plugin/t\_SAMSetupSAMF.html
 release: australia
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 breadcrumb: [Basic Software Asset Management, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
 
-# Setting up Basic Software Asset Management
+# Setting up Basic Software Asset Management plugin
 
-Set up Basic Software Asset Management before configuration.
+Set up Basic Software Asset Management plugin before configuration.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: sam\_admin
 
 ## About this task
 
-Once you have [requested](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management-foundation-plugin/t_RequSoftwareAssetMgmtSAMF.md) Basic Software Asset Management and it has been activated from ServiceNow personnel, complete these steps to set up Basic Software Asset Management before you begin to use it.
+Once you have [requested](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management-foundation-plugin/t_RequSoftwareAssetMgmtSAMF.md) Basic Software Asset Management plugin and it has been activated from ServiceNow personnel, complete these steps to set up Basic Software Asset Management plugin before you begin to use it.
 
 ## Procedure
 
@@ -41,13 +41,13 @@ Once you have [requested](https://raw.githubusercontent.com/ServiceNow/ServiceNo
 
     -   If so, run the [Migrate Basic Software Asset Management software installations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management-foundation-plugin/t_MigrateSWInstallsSAMF.md) script.
 
-        This step copies records from the \[cmdb\_ci\_spkg\] table to the \[cmdb\_sam\_sw\_install\] table, so that any previously discovered software installs are utilized by the Basic Software Asset Management.
+        This step copies records from the \[cmdb\_ci\_spkg\] table to the \[cmdb\_sam\_sw\_install\] table, so that any previously discovered software installs are utilized by the Basic Software Asset Management plugin.
 
     -   If not, activate and configure Discovery.
 
         For more information, see [Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/r-discovery.md).
 
-3.  Proceed to [Get started with Basic Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management-foundation-plugin/t_SAMGetStartedSAMF.md) to begin using the Basic Software Asset Management in your environment.
+3.  Proceed to [Get started with Basic Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management-foundation-plugin/t_SAMGetStartedSAMF.md) to begin using the Basic Software Asset Management plugin in your environment.
 
 
 -   **[Request Basic Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management-foundation-plugin/t_RequSoftwareAssetMgmtSAMF.md)**  

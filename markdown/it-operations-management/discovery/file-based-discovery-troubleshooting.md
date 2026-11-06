@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-03-25"
+last_updated: "2026-10-13"
 reading_time_minutes: 1
 breadcrumb: [File-based Discovery references, File-based Discovery, Running discoveries in your network, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -48,7 +48,7 @@ File-based Discovery is not triggered during discovery.
 
 </td><td>
 
-Check the Internal properties managed by the Discovery \[discovery\_private\_properties\] table for the following items. To view this table, enter **discovery\_private\_properties.list** in the navigation filter and press **Enter**.-   File\_discovery.file\_extensions\_windows should contain a list of Windows file extensions to be scanned.
+Check the Internal properties managed by the Discovery \[discovery\_private\_properties\] table for the following items. To view this table, enter `discovery_private_properties.list` in the navigation filter and press **Enter**.-   File\_discovery.file\_extensions\_windows should contain a list of Windows file extensions to be scanned.
 -   File\_discovery.unix\_filename\_timestamp should be something other than 1970 timestamp.
 -   File\_discovery\_windows\_filename.timestamp should be something other than 1970 timestamp.
 

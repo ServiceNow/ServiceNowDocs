@@ -7,9 +7,9 @@ release: australia
 product: Task Intelligence
 classification: task-intelligence
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Task Intelligence references, Task Intelligence, Enable AI experiences]
+breadcrumb: [Task Intelligence references, Task Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Task Intelligence roles

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/data-migration.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Migrate a dashboard, migrate a Core UI dashboard, migrate a responsive dashboard]
 breadcrumb: [Platform Analytics experience, Platform Analytics]

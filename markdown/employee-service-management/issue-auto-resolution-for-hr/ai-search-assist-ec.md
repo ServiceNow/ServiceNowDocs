@@ -7,7 +7,7 @@ release: australia
 product: Issue Auto Resolution for HR
 classification: issue-auto-resolution-for-hr
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Issue Auto Resolution for HR, HR Service Delivery, Employee Service Management]
 ---
@@ -20,7 +20,7 @@ Use the enhanced search functionality providing relevant recommendations to self
 
 You can find both Service Catalog items and Knowledge Base articles as recommendations for your search.
 
-The feature is available with the Australia release and onwards.
+The feature is available with the Brazil release and onwards.
 
 For more information on how to configure the enhanced AI Search assist functionality, see [Configure AI Search Assist for a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-ai-search-assist.md).
 

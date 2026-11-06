@@ -7,7 +7,7 @@ release: australia
 product: Orchestration
 classification: orchestration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Orchestration activity packs, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ Orchestration provides custom PowerShell activities that were created with the P
 
 **Note:** Existing workflows from earlier versions that were created with legacy PowerShell activities continue to function normally after an upgrade to Geneva. However, all new workflows must use these custom PowerShell activities.
 
-Starting with the Australia release, there are the following updates to the PowerShell activity pack:
+Starting with the Brazil release, there are the following updates to the PowerShell activity pack:
 
 -   A new PowerShell probe \(V2\), which takes advantage of Integration Hub functionality
 -   The ability to insert debug statements in the PowerShell scripts and produce the resulting messages at runtime
@@ -35,7 +35,7 @@ PowerShell activities are configured to return data to a workflow from a host us
 PowerShell uses the Windows Management Instrumentation \(WMI\) and Windows Remote Management \(WinRM\) protocols to enable Orchestration activities to run commands on remote Windows hosts.
 -   **[Join Domain activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/r_JoinDomainActivity.md)**  
 The Join Domain activity joins a Windows computer to a domain.
--   **[Install Windows App activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/r_InstallWindowsAppActivity.md)**  
+-   **[Install Windows App activity]()**  
 The Install Windows App activity installs an application from an MSI package on a Windows target machine.
 -   **[Change Service State activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/r_ChangeServiceState.md)**  
 The Change Service State activity starts or stops a Windows service on a remote system.

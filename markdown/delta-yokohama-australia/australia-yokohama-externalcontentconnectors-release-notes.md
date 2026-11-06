@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-externalcontentconnectors-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-10-09"
-reading_time_minutes: 19
+last_updated: "2026-11-06"
+reading_time_minutes: 20
 breadcrumb: [Products combined by family]
 ---
 
@@ -339,7 +339,7 @@ Retrieve searchable content and metadata from your Workday source system.
 
 Retrieve searchable content and metadata from your Zoom source system.
 
--   **[Configure user mapping permission settings](https://www.servicenow.com/docs/access?context=configure-user-mapping-settings-external-content-connector&family=zurich&ft:locale=en-US)**
+-   **[Configure user mapping settings](https://www.servicenow.com/docs/access?context=configure-user-mapping-settings-external-content-connector&family=zurich&ft:locale=en-US)**
 
 Specify the source system and User \[sys\_user\] table fields to examine for matches when an external content connector maps source system users to your ServiceNow AI Platform users.
 
@@ -403,7 +403,16 @@ Australia
 
 </td><td>
 
--   **[Connector health dashboard](https://www.servicenow.com/docs/access?context=resolve-health-issues-external-content-connector&family=australia&ft:locale=en-US)**
+-   **[Custom Connector Gateway external content connector](https://www.servicenow.com/docs/access?context=custom-connector-gateway-external-content-connector&family=australia&ft:locale=en-US)**
+
+Retrieve content, metadata, and users from any source system using your own custom connector, running in your local or cloud environment. Send your retrieved data to a gateway connector running on your instance by submitting Custom Connector Gateway API requests to an ingest gateway host. The gateway connector indexes your retrieved data and makes it searchable in the ServiceNow AI Platform®.
+
+-   **[Support for Markdown and email message binary files and attachments](https://www.servicenow.com/docs/access?context=file-extensions-ext-cont-connector&family=australia&ft:locale=en-US)**
+
+Extract searchable text from Markdown \(.md\) and email message \(.eml, .msg\) files and attachments retrieved by your external content connectors.
+
+
+ -   **[Connector health dashboard](https://www.servicenow.com/docs/access?context=resolve-health-issues-external-content-connector&family=australia&ft:locale=en-US)**
 
 View and resolve connector health issues using the connector health dashboard.
 
@@ -428,6 +437,10 @@ Configure your Google Drive external content connectors to only retrieve content
  -   **[SAP SuccessFactors external content connector](https://www.servicenow.com/docs/access?context=sap-successfactors-external-content-connector&family=australia&ft:locale=en-US)**
 
 Retrieve searchable content and metadata exported from your SAP SuccessFactors Learning source system.
+
+-   **[Maximum crawl depth setting for the Webcrawler external content connector](https://www.servicenow.com/docs/access?context=webcrawler-external-content-connector&family=australia&ft:locale=en-US)**
+
+Control crawl scope by specifying the maximum number of link hops from the start point URL the connector traverses when crawling content.
 
 -   **[Configuring crawl settings for external content connectors](https://www.servicenow.com/docs/access?context=cfg-crawl-settings-ext-cont-connector&family=australia&ft:locale=en-US)**
 
@@ -589,7 +602,16 @@ Australia
 
 </td><td>
 
--   **[Crawl schedules tab renamed](https://www.servicenow.com/docs/access?context=create-content-crawl-external-content-connector&family=australia&ft:locale=en-US)**
+-   **[Secure search for the Amazon S3 external content connector](https://www.servicenow.com/docs/access?context=amazon-s3-external-content-connector&family=australia&ft:locale=en-US)**
+
+The Amazon S3 external content connector adds support for secure search. The **Settings** tab for this connector includes a new **User mapping settings** screen. On this screen, you can select one of three permission modes for the connector and optionally configure user mappings. You can also configure user permission crawls for the connector if using a permission mode that requires them.
+
+-   **[Analytics for external content connectors](https://www.servicenow.com/docs/access?context=analytics-external-content-connectors&family=australia&ft:locale=en-US)**
+
+The **Quota usage** metric has been renamed **Connector limit** for clarity.
+
+
+ -   **[Crawl schedules tab renamed](https://www.servicenow.com/docs/access?context=create-content-crawl-external-content-connector&family=australia&ft:locale=en-US)**
 
 In the external content connector editor, the **Crawl schedules** tab has been renamed to **Manage crawls**.
 

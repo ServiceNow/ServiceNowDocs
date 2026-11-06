@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/security-management/i
 release: australia
 topic_type: task
 last_updated: "2026-09-09"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Palo Alto Prisma AIRS Integration for AI Security Exposure Management, Integrate, Unified Security Exposure Management, Security Operations]
 ---
 
@@ -98,6 +98,4 @@ Scheduling integrations:
 4.  Configure your desired frequency, for example, daily or hourly.
 5.  Save the integration record.
 6.  Perform these steps for each integration.
-
-**Parent Topic:**[Palo Alto Prisma AIRS integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/prisma-airs-integration.md)
 

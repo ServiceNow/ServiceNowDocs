@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure the inbox in Service Operations Workspace, Configuring Service Operations Workspace for ITSM to improve your experience, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -36,7 +36,7 @@ Role required: admin
 
         -   Inbox card: Accepts the interactions and adds them to the agent inbox. Agent can open the accepted interaction from the inbox.
         -   Inbox card and workspace tab: Accepts the interactions and opens a tab for each accepted interaction.
-4.  Click **Update**.
+4.  Select **Update**.
 
 
 **Parent Topic:**[Configure the inbox in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/configure-inbox-in-sow.md)

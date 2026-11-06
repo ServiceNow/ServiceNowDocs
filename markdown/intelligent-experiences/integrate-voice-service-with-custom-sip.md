@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-08-24"
 reading_time_minutes: 3
 keywords: [custom SIP, SIP, voice assistant, voice integration, telephony provider, AI voice agent, SIP trunk]
-breadcrumb: [Integrating voice assistant with CCaaS provider, Deploy AI voice agents, AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [Integrating voice assistant with CCaaS provider, Deploy AI voice agents, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Integrate ServiceNow voice assistant with a custom SIP provider
@@ -59,7 +59,7 @@ Connect any SIP-capable telephony system to a ServiceNow voice assistant using t
     |User-to-User \(UUI\)|Passes conversation context using the standard SIP User-to-User header, enabling transfers without losing conversation state. Use this option when your telephony system supports the SIP UUI header.|
     |None|No session or interaction data is shared between systems.|
 
-    \[Omitted image "ai-voice-assistant-custom-sip-configuration.png"\] Alt text: Custom SIP provider configuration showing SIP communication channel, custom provider, REFER transfer method, transfer number/address, and X-snc-context selected for context transport.
+    \[Omitted image "image.ai-voice-assistant-custom-sip-configuration"\] Alt text: Custom SIP provider configuration showing SIP communication channel, custom provider, REFER transfer method, transfer number/address, and X-snc-context selected for context transport.
 
 11. Select **Save and continue**.
 

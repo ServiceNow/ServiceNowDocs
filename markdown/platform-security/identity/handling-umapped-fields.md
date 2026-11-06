@@ -7,7 +7,7 @@ release: australia
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [SCIM customization, SCIM Provider, System for Cross-domain Identity Management \(SCIM\), Identity]
 ---
@@ -16,19 +16,19 @@ breadcrumb: [SCIM customization, SCIM Provider, System for Cross-domain Identity
 
 You can handle unmapped fields in SCIM customization in different ways.
 
-During SCIM customization, the fields that are not part of the `sys_user` and `sys_user_group` tables can be mapped by performing the following functions.
+During SCIM customization, the fields that are not part of the sys\_user and sys\_user\_group tables can be mapped by performing the following functions.
 
-## Customize SCIM \(Create or Update\)
+## Customize SCIM \(create or update\)
 
 You can create or update the SCIM Client.
 
 -   The SCIM admin can add custom scripts in the **onBefore** and **onAfter** scripts for fields that are not mapped in ETL Definition or RTE.
 -   The SCIM admin can override RTE Mappings by adding custom scripts in the **onBefore** and **onAfter** scripts.
--   You can invoke a scriptable API in the RTE **onBefore** or **onAfter** scripts to access incoming request and perform transformations on other tables, lists, and unmapped attributes.
--   You can use the **sn\_auth.SCIM2Util.getScimProviderCustomizationContext\(\)** method to provide the SCIM request context that contains the **scimResource** object. The **scimResource** in context represents the following in each operation:
-    -   **POST**: The SCIM resource sent in the request payload.
-    -   **PUT**: The current SCIM resource from database replaced with the SCIM resource sent in thee request payload.
-    -   **PATCH**: The current SCIM resource from the database after performing the patch operations.
+-   You can invoke a scriptable API in the RTE **onBefore** or **onAfter** scripts to access the incoming request and perform transformations on other tables, lists, and unmapped attributes.
+-   You can use the sn\_auth.SCIM2Util.getScimProviderCustomizationContext\(\) method to provide the SCIM request context that contains the **scimResource** object. The **scimResource** in context represents the following in each operation:
+    -   POST: The SCIM resource sent in the request payload.
+    -   PUT: The current SCIM resource from the database, replaced with the SCIM resource sent in the request payload.
+    -   PATCH: The current SCIM resource from the database after performing the patch operations.
 
 The following is an example of an **onAfter** script.
 
@@ -130,7 +130,7 @@ SCIMCustomizationScript.prototype = Object.extendsObject(SCIMProviderCustomizati
 -   The parameter that the **customizeUserResponse** and **customizeGroupResponse** methods contain is a context object with one attribute called **scimResource**. This attribute has all the attributes of a user or group resource object.
 -   A customized script include can only be created and viewed by the admin.
 -   If a user or group resource is modified, then you must return the context back.
--   If there are no modification of any attribute in the resource object, then set the **com.snc.integration.scim2.provider.customization.script.id** to empty or return as null.
+-   If there are no modifications to any attribute in the resource object, then set the **com.snc.integration.scim2.provider.customization.script.id** to empty or return as null.
 -   If certain attributes are persisted through the **onAfter** script, they must be populated with database values in the **scimResource** object inside the customized script. This action is required so that the system can do the following:
     -   To get the correct **scimResource** object in **onAfter** scripts during the PUT and PATCH operation.
     -   To include the attributes that persisted through the **onAfter** script in the response back to the client.
@@ -141,11 +141,11 @@ The following are some of the helper functions for SCIM customization. These fun
 
 |Function|Purpose|
 |--------|-------|
-|**SCIMProviderCustomization.prototype.getCustomExtensionUrn.call\(this, "User"\);**|Fetch the value of custom extension schema.|
-|**SCIMProviderCustomization.prototype.getServiceNowExtensionUrn.call\(this, "User"\);**|Fetch the value of the ServiceNow extension schema.|
-|**SCIMProviderCustomization.prototype.getCustomExtensionNodeValue.call\(this, "User", context\);**|Fetch the custom schema node from the response.|
-|**SCIMProviderCustomization.prototype.getServiceNowExtensionNodeValue.call\(this, "User", context\);**|Fetch the ServiceNow schema node from the response|
-|**SCIMProviderCustomization.prototype.setCustomExtensionNodeValue.call\(this, "User", context, customExtensionValue\);**|Set the custom schema node in the response.|
+|SCIMProviderCustomization.prototype.getCustomExtensionUrn.call\(this, "User"\);|Fetch the value of custom extension schema.|
+|SCIMProviderCustomization.prototype.getServiceNowExtensionUrn.call\(this, "User"\);|Fetch the value of the ServiceNow extension schema.|
+|SCIMProviderCustomization.prototype.getCustomExtensionNodeValue.call\(this, "User", context\);|Fetch the custom schema node from the response.|
+|SCIMProviderCustomization.prototype.getServiceNowExtensionNodeValue.call\(this, "User", context\);|Fetch the ServiceNow schema node from the response|
+|SCIMProviderCustomization.prototype.setCustomExtensionNodeValue.call\(this, "User", context, customExtensionValue\);|Set the custom schema node in the response.|
 
 The following is an example of using the helper function:
 

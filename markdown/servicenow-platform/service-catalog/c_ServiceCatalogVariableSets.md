@@ -7,7 +7,7 @@ release: australia
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Service Catalog Reference, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -74,7 +74,7 @@ An MRVS form changes dynamically based on the data in the catalog item form that
 -   Other rows of that MRVS
 -   Other variables outside of that MRVS on the catalog item form.
 
-For information about accessing data in a multi-row variable set \(MRVS\) when a dialog box is open, see [g\_service\_catalog - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/g_service_catalogClientAPI.md).
+For information about accessing data in a multi-row variable set \(MRVS\) when a dialog box is open, see g\_service\_catalog - Client.
 
 You can define catalog client scripts, catalog UI policies, and catalog data lookups for an MRVS. Visibility is honored just on the MRVS form and not in the list.
 

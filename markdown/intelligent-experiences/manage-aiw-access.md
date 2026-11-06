@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/manage-aiw-access.html
 release: australia
 topic_type: task
-last_updated: "2026-08-11"
-reading_time_minutes: 2
-keywords: [AI specialist, access management, workspace access, role configuration, AI workforce]
-breadcrumb: [Use in the legacy AI Agent Studio, Use, Autonomous Workforce, Enable AI experiences]
+last_updated: "2026-10-13"
+reading_time_minutes: 3
+keywords: [AI specialist, ai specialist access management, ai specialist workspace access, ai specialist role configuration]
+breadcrumb: [Use in the legacy AI Agent Studio, Use, Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Manage access to an AI specialist inthe legacy AI Agent Studio
@@ -51,7 +51,7 @@ Access management includes workspace permissions, role-based security, publishin
 
     For example, you can configure an AI specialist copy for one assignment group to perform specific tasks that differ from those assigned to another group. For more information, see [Create a copy of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/copy-aiw.md).
 
-    \[Omitted image "aiw-aias-manage-1.png"\] Alt text: Management tab for an AI specialist in AI agent studio with the sections described in the previous steps
+    \[Omitted image "aiw-aias-manage-1.png"\] Alt text: Management tab with settings for where the AI specialist is managed, user access roles, copy permissions, and a list of existing copies
 
 7.  Set the active status of the AI specialist.
 
@@ -63,7 +63,7 @@ Access management includes workspace permissions, role-based security, publishin
 
     If an AI specialist is unpublished, then it will not be visible for Service Desk Managers or other members of the assignment group, even if it is active.
 
-    \[Omitted image "aiw-aias-manage-2.png"\] Alt text: Management tab for an AI specialist with the active and publish sections
+    \[Omitted image "aiw-aias-manage-2.png"\] Alt text: Activate and Publish sections of the Management tab, with toggles to activate the AI specialist, select its manager, and publish it in a workspace
 
 9.  Select **Save** to apply your access configuration changes.
 

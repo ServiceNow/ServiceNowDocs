@@ -7,8 +7,8 @@ release: australia
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [IT Service Management]
 ---
 
@@ -26,8 +26,6 @@ ITSM Virtual Agent helps you automate employee workflows by addressing common IT
 
 ITSM Virtual Agent includes pre-built topic conversations that cover common IT interactions. These conversations run in the web chat client and are also available in supported ITSM Virtual Agent messaging integrations.
 
-\[Omitted image "itsm-va-overview.png"\] Alt text: Overview of ITSM Virtual Agent components.
-
 Conversations between Virtual Agent and the user accomplish an IT goal. The information exchanged during the conversation flow, such as user inputs and Virtual Agent responses, enables Virtual Agent to fulfill a request or help complete a task.
 
 ITSM Virtual Agent integrates with ServiceNow® [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integrationhub.md) and [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md). Some topics may require specific spokes to be installed.
@@ -36,9 +34,8 @@ For more information about Virtual Agent features, see [Virtual Agent](https://r
 
 ## Languages supported for NLU services on the ITSM Virtual Agent
 
-ITSM Virtual Agent supports the following languages for NLU:
+In addition to English, ITSM Virtual Agent supports the following languages for NLU:
 
--   English
 -   German
 -   French
 -   French \(Canadian\)
@@ -56,17 +53,7 @@ The ITSM Virtual Agent topics re-factored with gs.getMessageLang\(\) provide you
 
 ## Edge Encryption for ITSM Virtual Agent
 
-Edge encryption provides you with direct control over your data security. Encryption and key management are performed on your intranet between your browser and your ServiceNow instance.
-
-See [Exploring Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_EdgeEncryptionOverview.md).
-
-Because edge encryption is enabled on a proxy server on your side of the network, there is significant planning, network administration and management, and setup required. For more information, see [Planning for Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_EdgeEncryptionPlanning.md).
-
-To install edge encryption, see [Edge Encryption installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_InstallEdgeEncryptionProxy.md).
-
-To configure edge encryption, see [Edge Encryption configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-config.md).
-
-**Note:** There are limitations when using edge encryption. For more information, see [Edge Encryption limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption-limitations.md).
+Edge encryption provides you with direct control over your data security. Encryption and key management are performed on your intranet between your browser and your ServiceNow® instance. For details about edge encryption, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/r\_ITServiceManagement.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/r_ITServiceManagement.md).
 
 -   **[Exploring ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/explore-itsm-va.md)**  
 The ServiceNow ITSM Virtual Agent provides assistance through conversations within an intelligent messaging interface.

@@ -7,8 +7,8 @@ release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -24,9 +24,9 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 Supported ServiceNow versions:
 
--   Yokohama
 -   Zurich
 -   Australia
+-   Brazil
 
 ## Use cases
 
@@ -52,10 +52,6 @@ The Integration Commons for CMDB store app provides a dashboard with a central v
 ## Event-based discovery
 
 The Service Graph Connector for Microsoft Azure works with event-based discovery. Events that are pulled from Azure can create and update CIs that were brought by the Service Graph Connector for Microsoft Azure.
-
-## Additional resource
-
-[How do I configure the Azure Service Graph Connector?](https://www.servicenow.com/community/cmdb-articles/azure-service-graph-connector-version-1-12/ta-p/3308034)
 
 **Related topics**  
 

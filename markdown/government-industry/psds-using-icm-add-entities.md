@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-using-icm-add-entities.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
 breadcrumb: [Using Entity Management, Investigative Case Management, Solutions, Use, Public Sector Digital Services \(PSDS\)]
 ---
@@ -32,9 +32,9 @@ Role required: icm.investigator, supervisory\_agent
 
 ### Procedure
 
-1.  Navigate to the CRM Workspace and select **My active cases**.
+1.  Navigate to the Public Sector Workspace and select **My active cases**.
 
-    Alternatively, you can select a case using the CRM Workspace Lists menu by selecting **Lists** &gt; **Investigative Cases** &gt; **All** and selecting the case.
+    Alternatively, you can select a case using the Public Sector Workspace Lists menu by selecting **Lists** &gt; **Investigative Cases** &gt; **All** and selecting the case.
 
 2.  Select the case you wish to add a person entity record to.
 
@@ -67,9 +67,9 @@ Role required: icm.investigator, supervisory\_agent
 
 ### Procedure
 
-1.  Navigate to the CRM Workspace and select **My active cases**.
+1.  Navigate to the Public Sector Workspace and select **My active cases**.
 
-    Alternatively, you can select a case using the CRM Workspace Lists menu by selecting **Lists** &gt; **Investigative Cases** &gt; **All** and selecting the case.
+    Alternatively, you can select a case using the Public Sector Workspace Lists menu by selecting **Lists** &gt; **Investigative Cases** &gt; **All** and selecting the case.
 
 2.  Select the case you wish to add a property entity to.
 
@@ -100,9 +100,9 @@ Role required: icm.investigator, supervisory\_agent
 
 ### Procedure
 
-1.  Navigate to the CRM Workspace and select **My active cases**.
+1.  Navigate to the Public Sector Workspace and select **My active cases**.
 
-    Alternatively, you can select a case using the CRM Workspace Lists menu by selecting **Lists** &gt; **Investigative Cases** &gt; **All** and selecting the case.
+    Alternatively, you can select a case using the Public Sector Workspace Lists menu by selecting **Lists** &gt; **Investigative Cases** &gt; **All** and selecting the case.
 
 2.  Select the case you wish to add a location entity to.
 
@@ -135,9 +135,9 @@ With Investigative Case Management, investigators can create incident and invest
 
 ### Procedure
 
-1.  Navigate to the CRM Workspace and select **My active cases**.
+1.  Navigate to the Public Sector Workspace and select **My active cases**.
 
-    Alternatively, you can select a case using the CRM Workspace Lists menu by selecting **Lists** &gt; **Investigative Cases** &gt; **All** and selecting the case.
+    Alternatively, you can select a case using the Public Sector Workspace Lists menu by selecting **Lists** &gt; **Investigative Cases** &gt; **All** and selecting the case.
 
 2.  Select the case you wish to add a Event entity to.
 
@@ -170,9 +170,9 @@ Role required: icm.investigator, supervisory\_agent
 
 ### Procedure
 
-1.  Navigate to the CRM Workspace and select **My active cases**.
+1.  Navigate to the Public Sector Workspace and select **My active cases**.
 
-    Alternatively, you can select a case using the CRM Workspace Lists menu by selecting **Lists** &gt; **Investigative Cases** &gt; **All** and selecting the case.
+    Alternatively, you can select a case using the Public Sector Workspace Lists menu by selecting **Lists** &gt; **Investigative Cases** &gt; **All** and selecting the case.
 
 2.  Select the case you wish to add a vehicle entity to.
 
@@ -203,9 +203,9 @@ Role required: icm.investigator, supervisory\_agent
 
 ### Procedure
 
-1.  Navigate to the CRM Workspace and select **My active cases**.
+1.  Navigate to the Public Sector Workspace and select **My active cases**.
 
-    Alternatively, you can select a case using the CRM Workspace Lists menu by selecting **Lists** &gt; **Investigative Cases** &gt; **All** and selecting the case.
+    Alternatively, you can select a case using the Public Sector Workspace Lists menu by selecting **Lists** &gt; **Investigative Cases** &gt; **All** and selecting the case.
 
 2.  Select the case you wish to add a organization entity to.
 
@@ -238,9 +238,9 @@ With Investigative Case Management, Investigators can create and manage a centra
 
 ### Procedure
 
-1.  Navigate to the CRM Workspace and select **My active cases**.
+1.  Navigate to the Public Sector Workspace and select **My active cases**.
 
-    Alternatively, you can select a case using the CRM Workspace Lists menu by selecting **Lists** &gt; **Investigative Cases** &gt; **All** and selecting the case.
+    Alternatively, you can select a case using the Public Sector Workspace Lists menu by selecting **Lists** &gt; **Investigative Cases** &gt; **All** and selecting the case.
 
 2.  Select the case you wish to add a firearm entity to.
 

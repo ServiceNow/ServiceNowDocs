@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-workspace-search-knowledge.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using CRM Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
 ---
@@ -32,7 +32,7 @@ Agent Assist displays contextual search results based on text entered in the **S
 
 3.  Perform one of the following.
 
-    -   In the Agent Assist panel, click the search resource icon \(\[Omitted image "agent-assist-select-search-resource-icon.png"\] Alt text: Search resource icon.\) and select a search source.
+    -   In the Agent Assist panel, select the search resource icon \(\[Omitted image "agent-assist-select-search-resource-icon.png"\] Alt text: Search resource icon.\) and select a search source.
         -   `Knowledge Articles`
         -   `Similar Knowledge Articles`
     -   In the Recommended Actions - Search tab, search with a keyword and select the **Search source** as `Knowledge` to filter the knowledge articles.
@@ -41,7 +41,7 @@ Agent Assist displays contextual search results based on text entered in the **S
 
 4.  Select a knowledge article.
 
-5.  Click **Attach**.
+5.  Select **Attach**.
 
     Depending on your configuration, you can add a link or embed an article directly into the Additional comments \(customer visible\) portion of the activity stream.
 

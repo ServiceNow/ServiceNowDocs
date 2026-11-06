@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -49,17 +49,17 @@ The following procedure describes the collection of JSON formatted event message
 
 1.  In the Azure Monitor Portal, verify that the MID Server IP is accessible from the Azure portal and the MID rest point is accessible from Microsoft Azure.
 
-2.  Install the MID Server on an Azure VM, provide the Azure VM public address in the URL, and allow the mid\_web\_Server\_port in **Azure VM** &gt; **Networking Settings** &gt; **Inbound port rules**.
+    Alternatively, install the MID Server on an Azure VM. Provide the Azure VM public address in the URL and allow the mid\_web\_Server\_port in **Azure VM** &gt; **Networking Settings** &gt; **Inbound port rules**.
 
-3.  Create an action group with a webhook and provide the rest endpoint as `http://<MID_Web_Server_User>:<MID_Web_Server_Password>@<MID_Server_IP>:<MID_Web_Server_Port>/api/mid/em/inbound_event?Transform=TransformEvents_MidAzureMonitor`
+2.  Create an action group with a webhook and provide the rest endpoint as `http://<MID_Web_Server_User>:<MID_Web_Server_Password>@<MID_Server_IP>:<MID_Web_Server_Port>/api/mid/em/inbound_event?Transform=TransformEvents_MidAzureMonitor`
 
     **Note:** For more information about adding a webhook to an action group, see [Create and manage action groups in the Azure portal](https://docs.microsoft.com/en-us/azure/azure-monitor/alerts/action-groups) on the Microsoft documentation site.
 
-4.  In the Webhook section, make sure **Yes** is selected for the **Enable the common alert schema** option.
+3.  In the Webhook section, make sure **Yes** is selected for the **Enable the common alert schema** option.
 
-5.  Navigate to **Alerts** &gt; **Manage Alert Rules**.
+4.  Navigate to **Alerts** &gt; **Manage Alert Rules**.
 
-6.  Add the action group with the webhook to an alert rule.
+5.  Add the action group with the webhook to an alert rule.
 
 
 ## What to do next

@@ -7,9 +7,9 @@ release: australia
 product: Conversational Intelligence
 classification: conversational-intelligence
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Conversation Insights, Enable AI experiences]
+breadcrumb: [Conversation Insights, Analyzing AI effectiveness, Enable AI Experiences]
 ---
 
 # Conversation Insights reference
@@ -19,5 +19,5 @@ The following topics provide additional information about the features and prope
 -   **[Components installed with Conversation Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/conversational-intelligence/components-installed-with-conversation-insights.md)**  
 Installation of the Conversation Insights application also installs the Conversation Insights \[sn\_aci\_insights\] table.
 
-**Parent Topic:**[Enable AI experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-products.md)
+**Parent Topic:**[Analyzing AI effectiveness](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/platai-analyzing-ai-effectiveness.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 breadcrumb: [Inventory number allocation, Define inventory records, Use, Telecommunications Network Inventory]
 ---
@@ -28,7 +28,7 @@ Allocate IP address slots to create one Allocated IP Address record for each add
 Create one or more IP Address records by selecting allocated IP slots and promoting them to active CMDB Configuration Items.
 -   **[Create an IP Address record at subnet level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create-an-ip-address-record-at-subnet-level.md)**  
 Create a single IP Address record that represents an entire IP Subnetwork as one Configuration Item. The IP Address record uses the subnetwork'ss CIDR as its value, rather than a single host address. This method is used when the subnetwork is bound to a service, port, customer, or interface as a single entity.
--   **[Create a managed network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create_managed_network.md)**  
+-   **[Create a Managed Network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create-managed-network.md)**  
 Create a Managed Network record to define a network scope that can be assigned to IP Address Blocks. A Managed Network value propagates to subnetworks and allocated IP records beneath the IP Address Block, and the same CIDR can exist in different Managed Networks without conflict.
 
 **Parent Topic:**[Inventory number allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/vlan_or_lag_number_management.md)

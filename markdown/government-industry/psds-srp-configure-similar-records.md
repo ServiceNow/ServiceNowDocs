@@ -1,16 +1,16 @@
 ---
-title: Configure the Similar Records Activity UI in Service Request Playbook
+title: Configure the Similar Records Activity UI in Service Request Administration
 description: The Similar Records Activity UI uses the name and description of existing cases to display a list of cases associated with the current case, allowing an agent to determine whether the current case is a duplicate of an existing case. Similar records can also provide helpful information about a current case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-srp-configure-similar-records.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Request Playbook, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Configure the Similar Records Activity UI in Service Request Playbook
+# Configure the Similar Records Activity UI in Service Request Administration
 
 The Similar Records Activity UI uses the name and description of existing cases to display a list of cases associated with the current case, allowing an agent to determine whether the current case is a duplicate of an existing case. Similar records can also provide helpful information about a current case.
 
@@ -51,5 +51,5 @@ Role required: admin
 
 ## Result
 
-The Similar Records UI activity is now configured, and the modal should now display when you open a new or existing Service Request Playbook.
+The Similar Records UI activity is now configured, and the modal should now display when you open a new or existing Service Request Administration.
 

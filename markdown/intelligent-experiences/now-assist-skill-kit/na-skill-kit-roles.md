@@ -1,6 +1,6 @@
 ---
 title: AI Skill Kit roles
-description: Certain roles are required to use AI Skill Kit functionality.Users with this role can create, update, and publish skills in AI Skill Kit. This role is required to use AI Skill Kit.Users with this role can create and update the custom large language models \(LLMs\) available to skills.
+description: Certain roles are required to use AI Skill Kit functionality.Users with this role can create, update, and publish skills in AI Skill Kit. This role is required to use AI Skill Kit.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-skill-kit/na-skill-kit-roles.html
 release: australia
@@ -8,8 +8,8 @@ product: Now Assist Skill Kit
 classification: now-assist-skill-kit
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 6
-breadcrumb: [AI Skill Kit reference, AI Skill Kit, Enable AI experiences]
+reading_time_minutes: 5
+breadcrumb: [AI Skill Kit reference, AI Skill Kit, Generative AI skills, Enable AI Experiences]
 ---
 
 # AI Skill Kit roles
@@ -58,6 +58,8 @@ Users with this role can create, update, and publish skills in AI Skill Kit. Thi
 
 ### Contains roles
 
+List of roles contained within the role.
+
 None.
 
 ### Groups
@@ -87,24 +89,4 @@ The **sn\_skill\_builder.admin** role is required for the following tasks:
 This role grants access to the AI Skill Kit application and all skill authoring functionality. It does not grant the ability to activate skills in AI Admin Hub. Activating skills requires the **admin** role.
 
 When configuring access control lists \(ACLs\) for a skill, the roles you specify in the ACL determine which users can invoke the skill. The **sn\_skill\_builder.admin** role only controls who can author skills, not who can use them. To learn more about configuring skill ACLs, see [Configure security controls for a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/nask-access-control.md).
-
-## Skill Kit model admin \(sn\_skill\_builder.sb\_model\_admin\)
-
-Users with this role can create and update the custom large language models \(LLMs\) available to skills.
-
-### Contains roles
-
-List of roles contained within the role.
-
-None.
-
-### Groups
-
-None. This role is not assigned to any groups by default.
-
-### Special considerations
-
-This role is only required when working with custom large language models. AI developers who use the standard Now LLM Service provider or prebuilt external LLM spokes do not need this role. To learn more about provider options when creating a skill, see [Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/create-new-skill.md).
-
-This role does not replace the **sn\_skill\_builder.admin** role. AI developers who create skills using custom large language models require both roles.
 

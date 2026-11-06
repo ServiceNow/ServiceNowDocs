@@ -7,7 +7,7 @@ release: australia
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Legacy flexible checkout and delivery forms, Cart layout, Service Catalog customization, Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Legacy flexible checkout and delivery forms, Cart layout, Service C
 
 In the final checkout step, a summary screen provides a list of all items and services ordered.
 
-**Warning:** Modifying the Order Status or Summary screen requires advanced scripting and a knowledge of [Jelly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_JellyTags.md). Also, the upgrade process skips updates to the summary screen after a customization. With these constraints in mind, you can modify the summary screen by editing the **com.glideapp.servicecatalog\_checkout\_view** UI page.
+**Warning:** Modifying the Order Status or Summary screen requires advanced scripting and a knowledge of Jelly. Also, the upgrade process skips updates to the summary screen after a customization. With these constraints in mind, you can modify the summary screen by editing the **com.glideapp.servicecatalog\_checkout\_view** UI page.
 
 \[Omitted image "CatalogOrderSummaryStatus.png"\] Alt text: Summary of ordered items and link to the request
 

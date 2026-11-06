@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/self-attestation-in-ws.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
@@ -142,5 +142,5 @@ For more information on submitting a self-attestation in Operational Resilience 
 
 For the description of the field values that are listed in the self-attestation form in the Operational Resilience Workspace, see [Create Self attestation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/self-attestation-new-record-reference-form-in-ws.md).
 
-When you have the sn\_oper\_res.admin role, you can create a customized attestation template instead of using the default template. For more information, see [Create and edit the attestation template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-new-attestation-template.md).
+As an optional task, when you have the sn\_oper\_res.admin role, you can create a customized attestation template. This replaces the default attestation template provided with the base system. For more information on creating a customized attestation template, see [Create and edit the attestation template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-new-attestation-template.md).
 

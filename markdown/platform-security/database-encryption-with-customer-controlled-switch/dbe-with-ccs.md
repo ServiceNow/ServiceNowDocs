@@ -7,7 +7,7 @@ release: australia
 product: Database Encryption with Customer Controlled Switch
 classification: database-encryption-with-customer-controlled-switch
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Database Encryption, Encryption]
 ---
@@ -16,7 +16,9 @@ breadcrumb: [Database Encryption, Encryption]
 
 Database Encryption with Customer-Controlled Switch \(DBE-CCS\) is an encryption solution that encrypts all data-at-rest when not in use in the database.
 
-**Important:** Database Encryption has begun its End of Life process and has reached the End of Sale and End of Renewal milestones as of the Australia release. Cloud Encryption is the replacement solution for data at rest encryption. For details, see [Cloud Encryption with Key Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/cloud-encryption/dare-overview.md)
+**Important:**
+
+Database Encryption with Customer Controlled Switch has begun its End of Life process, and has reached the End Of Sale and End of Renewal milestones as of the Yokohama release. For data-at-rest encryption support, see [Cloud Encryption with Key Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/cloud-encryption/dare-overview.md).
 
 ## Overview
 

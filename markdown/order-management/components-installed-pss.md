@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/components-installed-pss.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customer Contracts and Entitlements, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configure Customer Contracts and Entitlements, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Components installed with Customer Contracts and Entitlements

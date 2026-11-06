@@ -7,7 +7,7 @@ release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
 ---
@@ -30,15 +30,15 @@ Role required: LEAP admin
 
 4.  Select one of the following options to create playbook.
 
-<table id="choicetable_qgv_1wb_xhc"><thead><tr><th align="left" id="d788639e105">
+<table id="choicetable_qgv_1wb_xhc"><thead><tr><th align="left" id="d843337e105">
 
 UI option
 
-</th><th align="left" id="d788639e108">
+</th><th align="left" id="d843337e108">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d788639e114">
+</th></tr></thead><tbody><tr><td id="d843337e114">
 
 **Actions**
 
@@ -46,7 +46,7 @@ Steps
 
 Select Actions button \[Omitted image "actions-icon.png"\], and select **Create Playbook**.
 
-</td></tr><tr><td id="d788639e128">
+</td></tr><tr><td id="d843337e128">
 
 **Ask Otto**
 

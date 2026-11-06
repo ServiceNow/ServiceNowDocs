@@ -7,7 +7,7 @@ release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Operational Technology Manager, Operational Technology]
 ---
@@ -27,7 +27,7 @@ Devices managed under the OT data model exist in Levels 0 to 3.5 of the Purdue M
 
 The following graphic depicts these differences.
 
-\[Omitted image "ot-assets-alignment-cmdb.svg"\] Alt text: CMDB class models support Purdue levels
+\[Omitted image "ot-assets-alignment-cmdb.svg"\] Alt text: Purdue levels for the OT CMDB Class Model
 
 **Note:** To learn more about Purdue levels, see [Industrial Control Systems](https://subscription.packtpub.com/book/networking_and_servers/9781788395151/1/ch01lvl1sec10/the-purdue-model-for-industrial-control-systems).
 

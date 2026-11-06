@@ -18,8 +18,8 @@ Classic approvals are records that store the authorization tasks that must be do
 
 Administrators create approval logic from Workflow Studio flows or classic workflows.
 
--   Create a Workflow Studio flow that contains an [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/ask-approval-flow-designer.md).
--   Create a classic workflow that contains either an [Approval - Group workflow activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/workflow-activities/r_ApprovalGroup.md) or an [Approval - User workflow activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/workflow-activities/r_ApprovalUser.md).
+-   Create a Workflow Studio flow that contains an .
+-   Create a classic workflow that contains either an [Approval - Group workflow activity]() or an [Approval - User workflow activity]().
 
 In either case, the approval record defines this information.
 
@@ -82,7 +82,7 @@ Approval Summarizer
 
 </td><td>
 
-A [Create a formatter and add it to a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAFormatter.md) that displays key fields relevant to the approval from the referenced document. This summarizer will not display if there is no record referenced.
+A Create a formatter and add it to a form that displays key fields relevant to the approval from the referenced document. This summarizer will not display if there is no record referenced.
 
 </td></tr></tbody>
 </table>-   **[Approval engines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/approvals/c_ApprovalEngines.md)**  

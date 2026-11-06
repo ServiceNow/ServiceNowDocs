@@ -1,13 +1,13 @@
 ---
 title: AI Search Admin console Applications page
-description: The AI Search Admin console Applications page is where you monitor all the applications which use AI Search, and create and adjust AI Search configurations.
+description: The AI Search Admin console Applications page is where you monitor all the applications which use AI Search, as well as create and adjust AI Search configurations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/ais-admin-console-applications.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: reference
-last_updated: "2026-07-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 16
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [AI Search Admin console reference, AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -15,11 +15,13 @@ breadcrumb: [AI Search Admin console reference, AI Search Admin console, Search 
 
 # AI Search Admin console Applications page
 
-The AI Search Admin console Applications page is where you monitor all the applications which use AI Search, and create and adjust AI Search configurations.
+The AI Search Admin console Applications page is where you monitor all the applications which use AI Search, as well as create and adjust AI Search configurations.
 
 \[Omitted image "ais-admin-02.png"\] Alt text: AI Search Admin console Applications page with 5 callouts highlighted. For a text description, see the table that follows.
 
 Each application is represented by a card on the Applications page. Each card shows the AI Search status of the application, its name, and the date when it was last modified or if its configuration isn’t started yet. Selecting a card takes you to the application's Configuration view.
+
+\[Omitted image "ais-admin-02a.png"\] Alt text: Application cards showing AI Search in use, Ready to turn on, andConfiguration needed status messages.
 
 <table id="table_lyh_wwg_rhb"><thead><tr><th>
 
@@ -88,7 +90,9 @@ Frequently asked questions related to AI Search.
 
 When you select an application's card in the Applications page, the application's configuration data appears. In the Configuration view, you can turn AI Search on and off for the application, choose and test search profiles and application configurations before publishing, and publish profiles. Select **Search Profile** or **Search Application Configuration** to view profile summaries. You can also select an individual option from the sidebar or its matching card on the main view to display it in detail.
 
-**Note:** The Applications view varies if you select a Search Profile with Genius Results activated. For more information, see Genius Results in [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md)
+\[Omitted image "ais-admin-02b.png"\] Alt text: AI Search Admin console Employee Center application configuration summary view. The application's Current Status and Search Profile sections respectively show the AI Search and profile publication status.
+
+**Note:** The Applications view varies if you select a Search Profile with Genius Results activated. For more information, see Genius Results in [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md)
 
 <table id="table_szg_w5q_1cc"><thead><tr><th>
 
@@ -289,7 +293,7 @@ The Search Profile view is where you review and publish your search profile. You
 
 You use Search Sources to make your searchable content available in search experiences. For more information, see [Search sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/search-sources-ais.md) and [Create a search source for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/create-search-source-ais.md).
 
-\[Omitted image "ais-admin-02d.png"\] Alt text: AI Search Admin Console Search Sources view.
+\[Omitted image "ais-admin-02d.png"\] Alt text: AI Search Admin console Search Sources view.
 
 |Field|Description|
 |-----|-----------|
@@ -302,7 +306,7 @@ You use Search Sources to make your searchable content available in search exper
 
 Dictionaries are an optional part of your search profile that guide your searches with synonyms, stop words, and spell checking options. For more information on synonyms, see [Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/synonyms-ais.md), [Create synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/create-synonym-ais.md), and [Create a synonym dictionary linked to a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/create-synonym-dict-ais.md). For more information on stop words, see [Stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/stop-words-ais.md), [Create stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/create-stop-word-ais.md), and [Create a stop word dictionary linked to a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/create-stop-word-dict-ais.md).
 
-\[Omitted image "ais-admin-02e.png"\] Alt text: AI Search Admin Console Dictionaries view.
+\[Omitted image "ais-admin-02e.png"\] Alt text: AI Search Admin console Dictionaries view.
 
 |Field|Description|
 |-----|-----------|

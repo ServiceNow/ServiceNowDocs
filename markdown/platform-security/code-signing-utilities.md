@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/code-signing-utilities.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [utility, batch-signature-generator, code-signing]
 breadcrumb: [Health and Status Dashboard, Code Signing, Platform Security]

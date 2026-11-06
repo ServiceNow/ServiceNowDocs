@@ -1,0 +1,46 @@
+---
+title: Administering Digital End-User Experience
+description: As a DEX administrator, use the DEX Administration tab to manage applications, agent policies, user roles, remedial actions, and other administrative settings. Monitor Agent Client Collector installations and Desktop Assistant usage to keep your deployment healthy.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/administer-dex.html
+release: australia
+product: Digital End-User Experience \(DEX\)
+classification: digital-end-user-experience-dex
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+keywords: [dex administration, administration tab]
+audience: administrator
+breadcrumb: [Digital End-User Experience, IT Operations Management]
+---
+
+# Administering Digital End-User Experience
+
+As a DEX administrator, use the DEX Administration tab to manage applications, agent policies, user roles, remedial actions, and other administrative settings. Monitor Agent Client Collector installations and Desktop Assistant usage to keep your deployment healthy.
+
+## DEX administration
+
+Ongoing administration for Digital End-User Experience is centered on the **Administration** tab, where you manage the applications you monitor, agent policies, user roles, metric rules, remedial actions, and settings. Complete the following tasks as needed to keep your DEX deployment running as expected.
+
+-   [DEX Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/dex-workspace-administration-tab.md)
+
+    The DEX **Administration** tab provides cards for managing the following:
+
+    -   Applications
+    -   Agent policies
+    -   User roles
+    -   Metric rules
+    -   Remedial actions
+    -   File management
+    -   Windows registry management
+    -   System compliance
+    -   Agent health
+-   [View Desktop Assistant usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/view-da-usage-metrics.md)
+
+    Monitor Desktop Assistant connection status, logged-in users, and installed versions to verify communication with the ServiceNow instance.
+
+-   [Customize recipient list for Major Incident Management updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/recipient-lists-for-mim.md)
+
+    Customize the base system recipient list for Major Incident Management updates based on application usage data from Digital Experience Score​.
+
+

@@ -1,18 +1,18 @@
 ---
-title: Add a price adjustment definition to a decision table​ in License and Permit Playbook
-description: As an admin, you can use a price adjustment definition in the License and Permit Playbook to add adjustments to field prices based on the conditions of fields that are not price fields​, such as the residency status of the constituent for the location they are requesting the permit or license in.
+title: Add a price adjustment definition to a decision table​ in License and Permit Administration
+description: As an admin, you can use a price adjustment definition in the License and Permit Administration to add adjustments to field prices based on the conditions of fields that are not price fields​, such as the residency status of the constituent for the location they are requesting the permit or license in.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-decision-table-price-adjustment.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a pricing configuration decision table, Configure decision tables, License and Permit Playbook, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Add a price adjustment definition to a decision table​ in License and Permit Playbook
+# Add a price adjustment definition to a decision table​ in License and Permit Administration
 
-As an admin, you can use a price adjustment definition in the License and Permit Playbook to add adjustments to field prices based on the conditions of fields that are not price fields​, such as the residency status of the constituent for the location they are requesting the permit or license in.
+As an admin, you can use a price adjustment definition in the License and Permit Administration to add adjustments to field prices based on the conditions of fields that are not price fields​, such as the residency status of the constituent for the location they are requesting the permit or license in.
 
 ## Before you begin
 

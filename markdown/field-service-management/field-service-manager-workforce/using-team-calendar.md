@@ -1,28 +1,31 @@
 ---
 title: Using the team calendar
-description: The team calendar in Workforce provides a centralized view of agent schedules and assigned tasks. It lists agents in the selected group and displays work order tasks, case tasks, appointments, and personal time-off events.
+description: The team calendar in Workforce provides a centralized view of technicians schedules and assigned tasks. It lists agents in the selected group and displays work order tasks, case tasks, appointments, and personal time-off events.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-manager-workforce/using-team-calendar.html
 release: australia
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Managing agents and tasks from Workforce, Managing workforce, Use, Field Service Management]
 ---
 
 # Using the team calendar
 
-The team calendar in Workforce provides a centralized view of agent schedules and assigned tasks. It lists agents in the selected group and displays work order tasks, case tasks, appointments, and personal time-off events.
+The team calendar in Workforce provides a centralized view of technicians schedules and assigned tasks. It lists agents in the selected group and displays work order tasks, case tasks, appointments, and personal time-off events.
 
 ## Team calendar overview
 
 Field Service users with the **wm\_basic** role can access the team calendar to:
 
--   View agents and their assigned work order tasks.
+-   View technicians and their assigned work order tasks.
 -   See additional events such as case tasks, appointments, and time-off.
 -   Navigate by day, workday, or week. In week view, the current day is highlighted in blue.
+-   Create, view, and edit the scheduled breaks for the technicians.
+
+Updating or deleting a break that affects a scheduled task recalculates the task's estimated end time. The related work order updates accordingly, whether the break is being embedded or removed. This works the same whether you make the update from Manager Workforce, Manager Workspace Teams calendar, Manager mobile, or the AI agent. Lunch breaks are indicated on the calendar with a fork and knife icon. If more than one break is scheduled during a task, a fraction on the break indicator shows breaks taken vs. scheduled. An X shows on the break indicator if a technician misses a scheduled break.
 
 ## Team calendar features
 

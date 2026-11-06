@@ -7,7 +7,7 @@ release: australia
 product: Asset Management
 classification: asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Base Asset Management, Common applications, Asset Management]
 ---
@@ -29,4 +29,6 @@ Select any widget or chart to view the details. You can also use Location, Sto
 |Open hardware requests from stock \(YTD\)|Number of transfer orders of Procurement type that are already delivered and created this calendar year.|
 |Open transfer orders|Number of canceled or undelivered transfer orders.|
 |Active stock rules by model category|All active stock rules grouped by their model category.|
+
+**Parent Topic:**[Exploring Asset Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/exploring-asset-management.md)
 

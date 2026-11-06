@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/what-is-opres.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -71,7 +71,7 @@ The Operational Resilience application provides the following benefits:
 |Benefits|Features|Users|
 |--------|--------|-----|
 |Analyze the importance and impact tolerance of a business service.|[Performing Importance and impact tolerance assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/analyze-impact-tolerance-importance-of-service-in-ws.md)|Operational Resilience managers and users|
-|Perform a scenario analysis in Operational Resilience workspace.|[Scenario analysis using simulation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/scenario-analysis-in-ws.md)|Operational Resilience managers and users|
+|Perform a scenario analysis in Operational Resilience workspace.|[Conducting a scenario analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/scenario-analysis-in-ws.md)|Operational Resilience managers and users|
 |Self-attest the business services in Operational Resilience workspace.|[Certifying services using self-attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/self-attestation-in-ws.md)|Operational Resilience managers and users|
 |Add an issue, change request, incident, and outage in Operational Resilience workspace.|[Creating or adding an issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/issue-architecture-changes.md)|Operational Resilience managers and users|
 |Add or remove an operational vulnerability in Operational Resilience workspace.|[Managing Operational vulnerability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/operational-vulnerability.md)|Operational Resilience managers and users|

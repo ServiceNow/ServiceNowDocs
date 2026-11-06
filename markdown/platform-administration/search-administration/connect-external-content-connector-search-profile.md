@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-06-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -35,7 +35,7 @@ Linking an external content connector's search source to a search profile makes 
 
 2.  In the Connectors list, select the record for the external content connector with results that you want to make searchable using one or more search profiles.
 
-3.  In the connector editor's Settings tab, select **Manage index**.
+3.  In the connector editor's **Settings** tab, select **Manage index**.
 
 4.  In the Connected search profiles section, repeat these steps for each search profile you want to link the selected external content connector to.
 

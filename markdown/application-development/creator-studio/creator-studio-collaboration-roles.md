@@ -7,10 +7,10 @@ release: australia
 product: Creator Studio
 classification: creator-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [app collaboration, collaboration, delegated development]
-breadcrumb: [Build apps, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Collaborating with others to build apps in Creator Studio

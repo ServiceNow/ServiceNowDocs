@@ -1,16 +1,16 @@
 ---
-title: Configure Contributor Users
+title: Configure contributor users
 description: The CSM Contributor User plugin enables you to engage middle office teams in resolving customer issues and requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/config-contributor-user.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [User management, Set up your environment, Configure, Customer Service Management]
 ---
 
-# Configure Contributor Users
+# Configure contributor users
 
 The CSM Contributor User plugin enables you to engage middle office teams in resolving customer issues and requests.
 
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-With the provided roles, relationships, and user profile attributes, contributors can report and collaborate on cases created for customers, service organizations, or themselves.
+With the provided roles, relationships, and user profile attributes, contributors can report and follow up on cases created for customers, service organizations, or themselves.
 
 The CSM Query Rules plugin is automatically activated by the CSM Contributor User plugin \(com.snc.csm\_contributor\_user\). The CSM Contributor User plugin is moved to App Store beginning with the Australia release. For more information, see [CSM Query Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-query-rules.md).
 
@@ -30,8 +30,17 @@ The CSM Query Rules plugin is automatically activated by the CSM Contributor Use
 
 2.  Assign the contributor user roles to middle office users.
 
+    For more details on the contributor user roles and their privileges, see [Contributor users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-service-contributor-users.md) and [Contributor user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-contributor-user-roles.md).
+
 3.  Create relationships.
 
 4.  Confirm the **sn\_cs\_queryrules.use\_query\_rules** property is set to true.
 
+
+**Related topics**  
+
+
+[Contributor users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-service-contributor-users.md)
+
+[Contributor user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-contributor-user-roles.md)
 

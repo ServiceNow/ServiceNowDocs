@@ -7,7 +7,7 @@ release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a Work scheduler card using the Next Experience UI Builder, Setting up, Work scheduler, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -50,15 +50,15 @@ Role required: workspace\_admin or ui\_builder\_admin​
 
     The Components pop-up screen appears.
 
-<table id="choicetable_jbw_3mm_ntb"><thead><tr><th align="left" id="d369018e236">
+<table id="choicetable_jbw_3mm_ntb"><thead><tr><th align="left" id="d225192e236">
 
 To
 
-</th><th align="left" id="d369018e239">
+</th><th align="left" id="d225192e239">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d369018e245">
+</th></tr></thead><tbody><tr><td id="d225192e245">
 
 **Add the Avatar component**
 
@@ -71,7 +71,7 @@ In the configure tab, set the size, user name, and tooltip.1.  In the **Size** m
 5.  In the **Tooltip text** menu, type **!@state.cardProps.assignedTo**.
 
 
-</td></tr><tr><td id="d369018e308">
+</td></tr><tr><td id="d225192e308">
 
 **Add the Label Value Tabbed component**
 

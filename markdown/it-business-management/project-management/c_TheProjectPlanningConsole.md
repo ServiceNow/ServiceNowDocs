@@ -8,7 +8,7 @@ product: Project Management
 classification: project-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -18,7 +18,9 @@ The planning console is a centralized interface for the Project Management appli
 
 **Important:**
 
-The Planning console is no longer deployed, enhanced, or supported. It will be hidden and no longer available for upgrades or installation. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base. Use new [Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/project-workspace-landing-page.md) with enhanced UI to help you efficiently manage your projects.
+Starting Brazil release, Planning console is no longer deployed, enhanced, supported or available for activation. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base. You're encouraged to use Project Workspace For more information, see [manage projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/use-projects-pw.md)
+
+Existing customers: If you have Project Workbench implemented in your instance, you can continue using it. The application remains in your instance and your data is intact. However, it is treated as custom code. ServiceNow Technical Support will no longer provide fixes, patches, or upgrades for any issues.
 
 The planning console gives project managers a comprehensive view of all aspects of a project. This includes a hierarchical list of sub-projects, if any, project tasks that appear in a work breakdown structure \(WBS\) list, and the project Gantt chart. The console also integrates with Live Feed so your users can collaborate on projects.
 
@@ -52,7 +54,7 @@ Build your project structure quickly on the client side without having to save d
 
 In an **automatic** project, any change to the dates, duration, or relationships of a project task automatically updates all the tasks in the entire project. This includes the project record, as necessary. The automatic project icon \(\[Omitted image "automatic\_project.png"\] Alt text: screenshot for automatic project icon\) appears adjacent to the project name.
 
-In a **manual** project, changes to the dates, duration, or relationships of a project task do not automatically update all tasks. So parent task dates do not reflect any changes made to dependents or child tasks. The only change that is made automatically is when a task date or duration change updates dates and duration of the project record. In a manual project, any update to actual start date does not update the planned end date of the project or project task. However, enabling the [project property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/r_InstalledWithProjectManagement.md) **Enable alter of planned date with Actual for Manual Project** updates the planned end date from actual start date and planned duration. The manual project icon \(\[Omitted image "manual\_project.png"\] Alt text: screenshot for manual project icon\) appears adjacent to the project name.
+In a **manual** project, changes to the dates, duration, or relationships of a project task do not automatically update all tasks. So parent task dates don't reflect any changes made to dependents or child tasks. The only change that is made automatically is when a task date or duration change updates dates and duration of the project record. In a manual project, any update to actual start date does not update the planned end date of the project or project task. However, enabling the [project property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/r_InstalledWithProjectManagement.md) **Enable alter of planned date with Actual for Manual Project** updates the planned end date from actual start date and planned duration. The manual project icon \(\[Omitted image "manual\_project.png"\] Alt text: screenshot for manual project icon\) appears adjacent to the project name.
 
 You can specify if a project is automatic or manual in the **Calculation** field on the Project form. This field becomes read-only when the project starts.
 

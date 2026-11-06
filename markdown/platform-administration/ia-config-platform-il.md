@@ -1,18 +1,18 @@
 ---
-title: Platform module configuration in ServiceNow Otto for Setup
-description: Follow through all the console items configuration to configure the Platform module.
+title: Configure the Platform module in ServiceNow Otto for Setup
+description: Complete the following steps to configure the Platform module.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ia-config-platform-il.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, ServiceNow Otto for Setup, Get started, Administer the ServiceNow AI Platform]
 ---
 
-# Platform module configuration in ServiceNow Otto for Setup
+# Configure the Platform module in ServiceNow Otto for Setup
 
-Follow through all the console items configuration to configure the Platform module.
+Complete the following steps to configure the Platform module.
 
 **Note:** The Platform module is visible only if the selected product module configures the Platform changes for a particular install.
 

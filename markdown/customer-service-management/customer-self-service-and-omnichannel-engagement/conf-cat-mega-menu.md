@@ -1,20 +1,20 @@
 ---
 title: Configure the category of a Portal Mega Menu widget
-description: Configure a Portal Mega Menu widget to define a menu category and associate pages with it, so you can navigate to different pages from the portal.
+description: Define a menu category for a Portal Mega Menu widget and associate pages to enable navigation across portal pages.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/conf-cat-mega-menu.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Portal Mega Menu widget, Portal Polaris Header widget, Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Portal Mega Menu widget, Portal Polaris Header widget, Set up Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure the category of a Portal Mega Menu widget
 
-Configure a Portal Mega Menu widget to define a menu category and associate pages with it, so you can navigate to different pages from the portal.
+Define a menu category for a Portal Mega Menu widget and associate pages to enable navigation across portal pages.
 
 ## Before you begin
 
@@ -32,11 +32,11 @@ Role required: sp\_admin
 
 4.  On the Customer Service form, in the **Main menu** field, select the Preview this record icon \(\[Omitted image "preview-record-icon.jpg"\] Alt text: Preview this record icon\).
 
-    If a message appears about the application scope, select the link to edit the record.
+    If a message appears about the application scope, select **here** to be able to edit the record.
 
-5.  On the Instance with Menu form, select **Open Record**.
+5.  On the Instance with Menu pop up, select **Open Record**.
 
-6.  On the CSP Header Menu form, if Portal Mega Menu doesn't appear in the **Widget** field, search for and select it.
+6.  On the Instance with Menu form, if Portal Mega Menu doesn’t appear in the **Widget** field, search for and select it.
 
 7.  Select **Update**.
 

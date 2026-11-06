@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-license-module.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-10-18"
 reading_time_minutes: 6
 breadcrumb: [Explore, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
 ---
@@ -17,6 +17,7 @@ The ServiceNow AI Platform® uses a licensing method where your organization is 
 For licensing purposes, licensable resources are assigned to CI categories. License usage is measured using subscription units, which may cover a different number of resources, depending on the resource CI category. The customer contract for your organization determines the CI categories from the available options, and also the ratios of CI allocation for subscription units in each CI category. Information from the customer contract is synchronized with the ServiceNow platform. The latest version of ServiceNow® ITOM/OT SU Licensing supports the following CI categories:
 
 -   Containers
+-   Container images
 -   PaaS
 -   FaaS
 -   Servers
@@ -25,11 +26,11 @@ For licensing purposes, licensable resources are assigned to CI categories. Lice
 -   End User Devices
 -   IoT
 -   Customer Prem Devices
--   Container Images
 -   APIs
--   AI Agents
+-   AI agents
 -   GPUs
 -   Service Instances
+-   UMOs
 
 You have the option to buy subscriptions for individual ITOM products separately \(a la carte\) or as part of a bundle with multiple products. You can also purchase both—a bundle subscription that covers most required applications and an a la carte subscription for applications that consume more subscription units. For more information, see [ITOM/OT SU Licensing subscription types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-licensing-subscription-types.md).
 
@@ -66,6 +67,13 @@ ServiceNow® charges for the following IT Operations Management products:
     The ITOM Cloud Accelerate product consists of the following workflow applications: Tag Governance, Cloud Migration Assessment, Cloud Configuration Governance, and Cloud Action Library. In Tag Governance, you can update CI tags in the cloud environment, in addition to updating them in the CMDB.
 
     For licensing purposes, the ITOM Cloud Accelerate license provides the CI count for CIs managed and monitored by Cloud Migration Assessment, Cloud Configuration Governance, or Cloud Action Library. If different ITOM Cloud Accelerate features report the same CIs as their resources, the CI count is manipulated to remove the duplication.
+
+    **Note:** Starting with the brazil release, the following applications are being prepared for future deprecation. They will be hidden and no longer installed on new instances but will continue to be supported:
+
+    -   Cloud Configuration Governance
+    -   CCG Content Pack
+    -   Cloud Action Library
+    For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 -   **ITOM Optimization**
 

@@ -1,5 +1,5 @@
 ---
-title: Create a SCIM Provider
+title: Create a SCIM provider
 description: Create a SCIM Provider to fetch resource types and schemas information from the SCIM Provider with the REST message. Enable the configuration of the HTTP Method \(PUT or PATCH\) to update a resource in the SCIM Provider.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/identity/create-scim-provider.html
@@ -7,12 +7,12 @@ release: australia
 product: Identity
 classification: identity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SCIM Client, System for Cross-domain Identity Management \(SCIM\), Identity]
 ---
 
-# Create a SCIM Provider
+# Create a SCIM provider
 
 Create a SCIM Provider to fetch resource types and schemas information from the SCIM Provider with the REST message. Enable the configuration of the HTTP Method \(PUT or PATCH\) to update a resource in the SCIM Provider.
 
@@ -20,13 +20,13 @@ Create a SCIM Provider to fetch resource types and schemas information from the 
 
 **Note:** A sample SCIM Provider is part of the base system. You can use and configure based on your requirement, or create a new record.
 
-Roles required: scim\_client\_config\_admin
+Role required: scim\_client\_config\_admin
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **SCIM Client** &gt; **SCIM Provider**.
 
-2.  In the SCIM Providers page, click **New**.
+2.  In the SCIM Providers page, select **New**.
 
 3.  On the form, fill in the fields.
 
@@ -38,11 +38,11 @@ Roles required: scim\_client\_config\_admin
 
     **Note:**
 
-    -   The **Resource Definition** and **Schema Field Definition** fields are fetched from the **/ResourceTypes** and **/Schemas** public endpoints of the SCIM Provider. These fields are auto-populated after the rest message is selected.
-    -   If the REST message, Schemas, or the Resource Types are updated on the SCIM Provider, then click **Refresh** and then **Update** to update the **Resource Definition** and **Schema Field Definition** fields.
+    -   The **Resource Definition** and **Schema Field Definition** fields are fetched from the **/ResourceTypes** and **/Schemas** public endpoints of the SCIM Provider. These fields are auto-populated after the REST message is selected.
+    -   If the REST message, Schemas, or the Resource Types are updated on the SCIM Provider, then select **Refresh** and then **Update** to update the **Resource Definition** and **Schema Field Definition** fields.
     \[Omitted image "scim-provider-page.png"\] Alt text: SCIM Provider page
 
-4.  Click **Submit**.
+4.  Select **Submit**.
 
 
 ## Result

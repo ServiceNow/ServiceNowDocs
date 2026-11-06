@@ -7,7 +7,7 @@ release: australia
 product: Workplace Central
 classification: workplace-central
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Working with Event planner, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -144,12 +144,6 @@ You can view reservations created in any campus, building, or floor of your orga
 Reservation planners can bypass or overrule certain settings in the Reservable module while moving a reservation to another location in the Event planner Scheduled View.
 -   **[Move reservations between Reservable modules using the Schedule view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/evnt-planner-scheduled-view-move-rsv.md)**  
 Reservation or space planners can move or update reservation between Reservable modules. Planners with sn\_wsd\_rsv.bypass\_module\_validation role can bypass the Reservable module configuration settings.
--   **[Create custom filters on the schedule view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/create-custom-filters-on-schedule-view.md)**  
-Create custom filters in the schedule view to control which records appear in your list. You can set filter conditions to view only the records that meet your criteria.
--   **[View space details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/view-space-details.md)**  
-View the full details of a workspace that you selected in the schedule view. You can view details such as the floor, building, capacity, standard services, and reservation purpose on the space details panel.
--   **[Schedule view flexibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/schedule-view-flexibility.md)**  
-Event planners and space planners can organize, view, and manage events across multiple spaces and time zones using the Event planner **Schedule view** tab.
 
 **Parent Topic:**[Working with Event planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/working-with-event-planner.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/run-assignments.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Sales Territory Management, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -35,6 +35,8 @@ Role required: sales territory admin
     -   Consumer \(csm\_consumer\)
     -   Account \(customer\_account\)
 4.  Select **Run Assignment Rules**.
+
+    **Note:** After an account is created, the assignment algorithm runs automatically and assigns the relevant territories to that account.
 
 
 ## Result

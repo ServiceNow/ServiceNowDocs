@@ -7,7 +7,7 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
 breadcrumb: [Configure advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -31,7 +31,7 @@ Performance Analytics external data collection uses three types of configuration
 **Related topics**  
 
 
-[bundle-crint.r_JDBCTypeDataSource]
+[JDBC type data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/r_JDBCTypeDataSource.md)
 
 ## Supported database formats for external data
 
@@ -46,7 +46,7 @@ Performance Analytics supports only the database formats that ServiceNow support
 **Related topics**  
 
 
-[bundle-crint.r_JDBCTypeDataSource]
+[JDBC type data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/r_JDBCTypeDataSource.md)
 
 ## Create an indicator for external data
 
@@ -249,7 +249,7 @@ If you want to collect breakdown scores for the indicator, define an external br
 **Related topics**  
 
 
-[bundle-crint.r_JDBCTypeDataSource]
+[JDBC type data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/r_JDBCTypeDataSource.md)
 
 ## Create a breakdown using external data
 

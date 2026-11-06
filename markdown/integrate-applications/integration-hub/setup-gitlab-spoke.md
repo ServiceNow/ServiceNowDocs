@@ -94,7 +94,7 @@ Add and configure a GitLab connection to authenticate ServiceNow requests in Git
 
 ### Before you begin
 
-Role required: admin
+Role required: admin.
 
 ### Procedure
 
@@ -104,9 +104,15 @@ Role required: admin
 
 3.  Under **Connections**, the **Outbound** connections are displayed by default.
 
-4.  Locate the **GitLab** connection alias and click **View Details**.
+4.  Locate the alias for **Gitlab** and click **View Details**.
+
+    \[Omitted image "gitlab-connection.png"\] Alt text: Connection for the GitLab spoke.
+
+    To manage more than one GitLab connection record, create a new child alias record by selecting **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/support-multiple-connections.md).
 
 5.  Click **Edit** or if you are configuring the spoke for the first time, click **Configure**.
+
+    \[Omitted image "gitlab-connection-conf.png"\] Alt text: Initial connection configuration.
 
 6.  On the **Connection** form, fill in the fields.
 
@@ -118,7 +124,11 @@ Field
 
 Description
 
-</th></tr></thead><tbody><tr><td>
+</th></tr></thead><tbody><tr><td colspan="2">
+
+Connection Information
+
+</td></tr><tr><td>
 
 Connection Name
 
@@ -133,6 +143,10 @@ Connection URL
 </td><td>
 
 Enter `https://gitlab.com/api`.**Note:** If you have installed GitLab on an on-premise server, enter the URL in this format: `https://<gitlab-hosted-instance>.com/api`
+
+</td></tr><tr><td colspan="2">
+
+Credential Information
 
 </td></tr><tr><td>
 
@@ -167,6 +181,8 @@ OAuth Redirect URL
 OAuth callback endpoint. The format of the redirect URL is: `https://<instance-name>.service-now.com/api/sn_gitlab_spoke/gitlab_oauth_redirect/oauth?secureToken=<Secure-Token>`.Replace **&lt;Instance-Name&gt;** with the name of your ServiceNow instance and replace **&lt;Secure-Token&gt;** with the secure token you had generated in the ServiceNow instance.
 
 </td></tr></tbody>
-</table>7.  Click **Configure and Get OAuth Token**.
+</table>    \[Omitted image "gitlab-conf-temp.png"\] Alt text: Configure a connection for the GitLab spoke.
+
+7.  Click **Save and Get OAuth Token**.
 
 

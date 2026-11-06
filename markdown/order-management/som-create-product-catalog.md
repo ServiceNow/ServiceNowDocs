@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/som-create-product-catalog.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
@@ -115,6 +115,14 @@ Code
 </td><td>
 
 System-generated product code for the catalog. The system automatically generates a code based on the catalog **Name** entered, but you can change the value to any desired alphanumeric string.
+
+</td></tr><tr><td>
+
+Order
+
+</td><td>
+
+Number that sets where this catalog appears relative to other catalogs. Catalogs display in ascending order by this number, then alphabetically. Leave this field empty to sort the catalog alphabetically with other unordered catalogs.
 
 </td></tr></tbody>
 </table>4.  Select **Save**.

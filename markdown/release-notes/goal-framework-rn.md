@@ -1,48 +1,72 @@
 ---
 title: Goal Framework release notes
-description: The ServiceNow Goal Framework application enables your business to create goals, set targets for them, and evaluate the progress of the goals and targets to accomplish your organizational plans and drive business outcomes. Goal Framework was enhanced and updated in the Australia release.The ServiceNow Goal Framework application enables your business to create goals, set targets for them, and evaluate the progress of the goals and targets to accomplish your organizational plans and drive business outcomes. Goal Framework was enhanced and updated in the Australia release.
+description: The ServiceNow Goal Framework application enables your business to create goals, set targets, and evaluate progress toward organizational plans and business outcomes.Track targets that must stay above, below, or within a range of a set value. Customize the prefixes of goal and target numbers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/goal-framework-rn.html
 release: australia
 topic_type: topic
-last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Strategic Portfolio Management release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
+last_updated: "2026-09-29"
+reading_time_minutes: 2
+keywords: [goals, targets, maintain targets, number prefixes]
+breadcrumb: [Strategic Portfolio Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Goal Framework release notes
 
-The ServiceNow® Goal Framework application enables your business to create goals, set targets for them, and evaluate the progress of the goals and targets to accomplish your organizational plans and drive business outcomes. Goal Framework was enhanced and updated in the Australia release.
+The ServiceNow® Goal Framework application enables your business to create goals, set targets, and evaluate progress toward organizational plans and business outcomes.
 
 ## About Goal Framework
 
-Use the enhanced Goal, Target, and Strategic Priority forms to more effectively manage and track your organization’s goals.
+-   Create strategic plans, define organizational goals with quantitative or qualitative targets, and establish real-time checkpoints across daily, weekly, monthly, quarterly, and yearly frequencies to track execution.
+-   Associate work and planning items—including demand, projects, and portfolios—with strategic goals and targets to provide end-to-end performance visibility across the organization.
+-   Support Enterprise PMO \(EPMO\) and portfolio managers with customizable goal preferences, weighted progress calculations, and centralized governance to drive business outcomes aligned to strategic priorities.
 
 See [Goal Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework.md) for more information.
 
 ## Activation and other requirements
 
-**Important:** Goal Framework is available in the ServiceNow Store. For details, see the Activation information section of these release notes.
-
 -   **Activation information**
 
-    Install Goal Framework by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Install Goal Framework by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store.
 
 
 **Parent Topic:**[Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/it-business-management-rn-landing.md)
 
-## Australia
+## Version 4.16.0
 
-The ServiceNow® Goal Framework application enables your business to create goals, set targets for them, and evaluate the progress of the goals and targets to accomplish your organizational plans and drive business outcomes. Goal Framework was enhanced and updated in the Australia release.
+Track targets that must stay above, below, or within a range of a set value. Customize the prefixes of goal and target numbers.
+
+### What's new
+
+-   **[Maintain-type targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/target-types-gf.md)**
+
+    Track targets that must hold a value for the whole period instead of growing or shrinking toward it. The **Type** field on a target has three new options: **Maintain above**, **Maintain below**, and **Maintain constant**.
+
+    For these types, target progress is the percentage of breakdown periods with actuals where the target was met. For example, if a Maintain above target is met in three of four quarters, its progress is 75%.
+
+    Maintain types are available only with quantitative units of measure. The **Target value distribution** field isn't shown for them.
+
+-   **[Tolerance for Maintain constant targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/configure-maintain-constant-tolerance.md)**
+
+    Set how far a Maintain constant target's actual value can move from the final target and still count as met. By default, an actual value within 5% of the final target, above or below, counts as met. Administrators can change the tolerance with the **sn\_gf.maintain\_constant\_tolerance\_percent** system property.
+
+-   **[Unique numbers and prefixes for goals and targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/change-number-prefix-goals-targets.md)**
+
+    Match goal and target numbers to your organization's terminology, for example, OBJ and KR if you use objectives and key results. After an administrator changes the prefix in the number configuration, run the **GF - Override Goal and Target Number fields with customized prefixes** scheduled job to update existing records. The job keeps the numeric part of each number, so GOAL0004512 becomes OBJ0004512. It also skips records that already have the new prefix.
+
 
 ### What's changed
 
--   **[Changes to Goal and Target forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-form.md)**
+-   **[Target type editable when actuals exist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/change-target-type-gf.md)**
 
-    The **Cancelled** option has been added to the **State** field in both the [Goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-form.md) and [Target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/target-form.md) forms, enabling you to set their status to **Cancelled** when needed.
+    You can change a target's **Type** after actual values have been recorded. Previously, the **Type** field became read-only once a target had progress. A confirmation message appears before the change is applied, and if you cancel, the **Type** goes back to its original value. Changing the **Type** clears the target's actual value and percent complete. The exceptions are changes between two Maintain types and changes to or from Milestone.
 
--   **[Changes to Strategic Priority form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-priority-form.md)**
+-   **[Type and unit of measure stay in sync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/target-types-gf.md)**
 
-    The **Status** field has been added to the Strategic Priority form, enabling you to set the status of a strategic priority as **None**, **Green**, **Yellow**, or **Red**.
+    Choosing a target **Type** sets a matching unit of measure:
+
+    -   **Milestone**: Sets the unit of measure to Yes/No, or keeps a custom qualitative unit if one is already selected.
+    -   **Maximize**, **Minimize**, or a Maintain type: Restores the last quantitative unit you used, or sets Count \(\#\) if there isn't one.
+    The **Type** list always shows all six types. The same pairing also applies to targets created or updated through imports or APIs.
 
 

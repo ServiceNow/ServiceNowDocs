@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Flow logic, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -67,7 +67,7 @@ During the following schedule
 
 </td><td>
 
-Select the schedule used to calculate the **Scheduled End date/time** value from the selected wait duration. For example, waiting for a 10-hour duration as part of an 8-5 weekdays schedule causes the flow to wait for one or more business days. If you leave this field blank, the timer runs without a schedule. For information on creating schedules, see [Define a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_DefineASchedule.md).
+Select the schedule used to calculate the **Scheduled End date/time** value from the selected wait duration. For example, waiting for a 10-hour duration as part of an 8-5 weekdays schedule causes the flow to wait for one or more business days. If you leave this field blank, the timer runs without a schedule. For information on creating schedules, see Define a schedule.
 
 </td></tr></tbody>
 </table>## Outputs

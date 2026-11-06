@@ -7,8 +7,8 @@ release: australia
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Prepare work orders, Use, Field Service Management]
 ---
 
@@ -120,4 +120,15 @@ Project task**Note:** Before work orders can be created from project tasks, Fiel
 </td></tr></tbody>
 </table>    Work orders can be filtered based on different attributes, such as qualification group, location, initiated from, priority, state, and so on. This help to create a group of similar work orders.
 
+
+## Example: AC Not Cooling – Repair
+
+A customer contacts support to report an AC unit is not cooling. A CSM agent creates a work order from the case. The qualifier validates the work order and routes it to the dispatch queue, where it is ready for a dispatcher to assign to a technician.
+
+|Step|Actor|Action|
+|----|-----|------|
+|1|Customer|Reports need for repair|
+|2|System|Creates case in CSM|
+|3|CSM agent|Creates work order from case|
+|4|Qualifier|Validates work order and routes to dispatch queue|
 

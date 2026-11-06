@@ -7,9 +7,9 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Advanced Core UI reporting topics, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Value formatting in reports
@@ -17,6 +17,8 @@ breadcrumb: [Advanced Core UI reporting topics, Reporting, Reporting, dashboards
 In most reports, you can configure how numerical values look when you publish the report.
 
 ## Supported value formats
+
+**Note:** This topic refers to Core UI reports, not Platform Analytics data visualizations.
 
 A limited number of visualization types support value formatting.
 
@@ -130,7 +132,7 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 ### Procedure
 
-1.  Navigate to `sys_reports.list`.
+1.  Navigate to `sys_report.list`.
 
 2.  Select the report with the values you want to format.
 

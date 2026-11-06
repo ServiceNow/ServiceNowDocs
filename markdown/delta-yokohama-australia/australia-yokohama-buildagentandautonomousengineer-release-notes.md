@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-buildagentandautonomousengineer-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 27
 breadcrumb: [Products combined by family]
 ---
@@ -85,6 +85,11 @@ Zurich
 
 -   **[New model support](https://www.servicenow.com/docs/access?context=ba-models-versions&family=zurich&ft:locale=en-US)**
 
+Use OpenAI GPT 6.1 Sol and Google Gemini 3.8 Flash models with Build Agent.
+
+
+ -   **[New model support](https://www.servicenow.com/docs/access?context=ba-models-versions&family=zurich&ft:locale=en-US)**
+
 Build Agent supports the Google Gemini 3.7 Flash model in the October 2026 release.
 
 -   **[Additional metadata support](https://www.servicenow.com/docs/access?context=build-agent-supported-metadata&family=zurich&ft:locale=en-US)**
@@ -125,7 +130,7 @@ Build Agent includes the following updates to Playbook support:
 Build Agent now supports the following models:
 
     -   Azure OpenAI GPT 5.6 Sol
-    -   Anthropic Claude on AWS Opus 5
+    -   Anthropic Claude Opus 5
 -   **[Test suite authoring and execution](https://www.servicenow.com/docs/access?context=build-agent-testing&family=zurich&ft:locale=en-US)**
 
 Create and run ATF test suites from Build Agent. Group multiple tests under a single suite and execute the suite to run regression testing without selecting individual tests. Execution status and any errors are reported in the chat panel.
@@ -277,7 +282,7 @@ Use semantic search in Build Agent to locate relevant instance artifacts, includ
 
 -   **[Additional model support](https://www.servicenow.com/docs/access?context=exploring-build-agent&family=zurich&ft:locale=en-US)**
 
-Choose the provider and model that fits your organizational needs in Build Agent, which now supports Anthropic Claude on AWS Sonnet 4.6 and Azure OpenAI GPT 5.4.
+Choose the provider and model that fits your organizational needs in Build Agent, which now supports Anthropic Claude Sonnet 4.6 and Azure OpenAI GPT 5.4.
 
 -   **[Expanded metadata support](https://www.servicenow.com/docs/access?context=build-agent-supported-metadata&family=zurich&ft:locale=en-US)**
 
@@ -376,7 +381,7 @@ Build Agent includes the following updates to Playbook support:
 Build Agent now supports the following models:
 
     -   Azure OpenAI GPT 5.6 Sol
-    -   Anthropic Claude on AWS Opus 5
+    -   Anthropic Claude Opus 5
 -   **[Test suite authoring and execution](https://www.servicenow.com/docs/access?context=build-agent-testing&family=australia&ft:locale=en-US)**
 
 Create and run ATF test suites from Build Agent. Group multiple tests under a single suite and execute the suite to run regression testing without selecting individual tests. Execution status and any errors are reported in the chat panel.
@@ -528,7 +533,7 @@ Use semantic search in Build Agent to locate relevant instance artifacts, includ
 
 -   **[Additional model support](https://www.servicenow.com/docs/access?context=exploring-build-agent&family=australia&ft:locale=en-US)**
 
-Choose the provider and model that fits your organizational needs in Build Agent, which now supports Anthropic Claude on AWS Sonnet 4.6 and Azure OpenAI GPT 5.4.
+Choose the provider and model that fits your organizational needs in Build Agent, which now supports Anthropic Claude Sonnet 4.6 and Azure OpenAI GPT 5.4.
 
 -   **[Expanded metadata support](https://www.servicenow.com/docs/access?context=build-agent-supported-metadata&family=australia&ft:locale=en-US)**
 
@@ -576,6 +581,11 @@ Work with more metadata types, as Build Agent now supports the following:
     -   UI policies
     -   UI views
     -   Workspaces
+
+ -   **[New model support](https://www.servicenow.com/docs/access?context=ba-models-versions&family=australia&ft:locale=en-US)**
+
+Use OpenAI GPT 6.1 Sol and Google Gemini 3.8 Flash models with Build Agent and Autonomous Engineer.
+
 
 </td></tr></tbody>
 </table>## Changes

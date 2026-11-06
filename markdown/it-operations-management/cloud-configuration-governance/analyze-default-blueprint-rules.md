@@ -7,7 +7,7 @@ release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Cloud catalog form configuration examples, Form configuration with blueprints, Cloud Provisioning Blueprints, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -28,7 +28,7 @@ Role required: sn\_cmp.cloud\_service\_designer
 
 ## About this task
 
-The goal of this example is to show you how a default set of blueprint rules accomplishes the task of populating the Location field based on the Cloud Account. Because this example walks you through default data, you do not need to create any records if you are following these steps.
+This example shows how a default set of blueprint rules populates the Location field based on the Cloud Account. Because this example walks you through default data, you do not need to create any records if you are following these steps.
 
 This blueprint, which includes a virtual server that can be provisioned in an AWS datacenter, is used to illustrate the example:
 

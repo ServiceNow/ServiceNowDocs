@@ -7,7 +7,7 @@ release: australia
 product: Tag Governance
 classification: tag-governance
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Tag Governance, ITOM Visibility, IT Operations Management]
 ---
@@ -32,7 +32,7 @@ Before you finalize your tagging approach, ensure that you have considered the f
 **Related topics**  
 
 
-[Configure a tag policy for Tag Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/tag-governance/configure-tag-governance-policy.md)
+[Configure tag policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/tag-governance/configure-tag-governance-policy.md)
 
-[Configure remediation policies on tag audit findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/tag-governance/configure-remediation-tag-governance-.md)
+[Configure remediation policies for tag audit findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/tag-governance/configure-remediation-tag-governance-.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Workplace Central
 classification: workplace-central
 topic_type: concept
-last_updated: "2026-03-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -32,8 +32,6 @@ For more information about the lists, you can refer to the documentation of the 
 -   [Move Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/move-mgmt.md)
 -   [Case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/case-management-workspace.md)
 -   [Kiosk Indoor Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/kiosk-indoor-mapping.md)
-
-**Note:** The Facility Assets and Facility Models lists are available in Workplace Central when the Enterprise Asset Management plugin is installed. However, the New button on these lists is visible only when the logged-in user has the corresponding side roles for assets and models.
 
 ## My lists tab
 

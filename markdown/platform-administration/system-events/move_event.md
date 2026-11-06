@@ -7,7 +7,7 @@ release: australia
 product: System Events
 classification: system-events
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing system events, System Events, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -18,7 +18,7 @@ Accelerate the execution process by moving high priority events from the default
 
 ## Before you begin
 
-Role required: events\_admin
+Role required: admin
 
 ## Procedure
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/exploring-reverse-tunnel.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Reverse Tunnel, private connectivity, Zero Copy Connectors, Workflow Data Fabric]
 breadcrumb: [Reverse Tunnel, Workflow Data Fabric]
@@ -30,7 +30,7 @@ Reverse Tunnel extends Zero Copy Connectors access to data sources hosted in pri
     A component deployed in the customer network that connects outbound to the gateway and proxies traffic between the gateway and the customer's private cloud data source. The relay is deployed in the customer network and operates like a MID Server in placement and connectivity.
 
 
-**Note:** Private relays authenticate with the gateway automatically using certificates issued by the ServiceNow instance. Certificate configuration and management are handled automatically.
+**Note:** Private relays authenticate with the gateway automatically by using certificates. ServiceNow issues and renews the certificates, so you don't need to configure or manage them.
 
 -   **Gateway Controller**
 
@@ -51,9 +51,9 @@ The setup workflow involves the following primary activities:
 1.  Install the `sn_zc_tunnel` \(Zero Copy Reverse Tunnel\), which provides the interface to manage relays and services.
 2.  Service account creation: The relay manager creates a service account in User Administration with the sn\_zc\_tunnel.relay\_user role and notes the password for relay configuration.
 3.  Relay setup: The relay manager downloads the relay artifact `Reverse Tunnel Relay` from the store app, extracts the files, and configures and starts the relay.
-4.  Relay record configuration: After the relay starts, the relay registers with the instance and a new record is created in the `Relay [sn_zc_tunnel_relay]` table. The relay manager requests a gateway instance.
+4.  Relay record configuration: After the relay starts, the relay registers with the instance and a new record is created in the `Relay [sn_zc_tunnel_relay]` table.
 
-    Two gateway records are automatically attached to the Gateways field, tied to the instance name.
+    Gateway records are automatically added to the Gateways field, tied to the instance name.
 
 5.  Backend services registration: The relay manager adds a service endpoint to the relay record for each data source to be accessed through the tunnel. For details, see [Manage relay service endpoints through Reverse Tunnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/manage-relay-services.md).
 6.  Zero Copy Connectors connection setup: The relay manager configures the connector in Zero Copy Connectors with the required credentials and tests the connection.

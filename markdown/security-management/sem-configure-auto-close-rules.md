@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-configure-auto-close-rules.html
 release: australia
 topic_type: concept
-last_updated: "2026-04-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure rules to manage findings, Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -22,8 +22,6 @@ The base system provides the following auto-close rules:
 Starting with v30.3.3 of USEM parallel processing for auto close rules is supported. Previously, auto close rules ran as a single sequential job. With parallel processing, the system automatically creates multiple concurrent jobs based on data volume, significantly reducing execution time for large datasets. When you enable an auto close rule, the system evaluates the number of applicable items and determines the number of parallel jobs to create automatically. Parallelism is configured in code and requires no manual setup.
 
 Configuration of auto-delete rules includes the following steps.
-
-**Parent Topic:**[Configure rules to manage findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-rules-manage-findings.md)
 
 **Related topics**  
 

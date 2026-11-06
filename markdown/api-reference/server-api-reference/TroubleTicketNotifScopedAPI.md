@@ -7,7 +7,7 @@ release: australia
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
@@ -24,6 +24,8 @@ Override the methods in this script include to:
 For additional information, see [Configure trouble ticket notifications using the Producer Event Notification Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/developer-guides/prd_evt_not-dev_gd-cfg_trbl_tkt_not.md).
 
 This script include runs within the `sn_ind_tsm_sdwan` namespace.
+
+**Note:** Starting with the November 2026 release, Trouble Ticket APIs transitions scope from `sn_ind_tsm_sdwan` to `sn_ind_tsm_core`. If you installed the application before the July 2026 release, your instance uses `sn_ind_tsm_sdwan` by default. If you installed the application on or after the July release, your instance uses the `sn_ind_tsm_core` URL by default. SDWAN are usable until the Denmark release, when it will be officially removed and sunset from the system. An automatic upgrade is planned for the December release for existing customers who have installed pre-July release versions.
 
 The calling user must have the ticket\_integrator role.
 

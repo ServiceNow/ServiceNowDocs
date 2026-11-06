@@ -7,7 +7,7 @@ release: australia
 product: Service Exchange
 classification: service-exchange
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Service Exchange]
 ---
@@ -56,10 +56,6 @@ Global
 
 -   catalog\_ui\_policy
 -   catalog\_ui\_policy\_action
--   clone\_data\_exclude
--   clone\_data\_preserver
--   clone\_profile\_exclusions
--   clone\_profile\_preservers
 -   ih\_sync\_capture\_definition
 -   ih\_sync\_definition
 -   ih\_sync\_inbound\_definition
@@ -77,7 +73,6 @@ Global
 -   sn\_sb\_con\_entitlement
 -   sn\_sb\_error
 -   sn\_sb\_known\_error\_code
--   sn\_sb\_con\_persona\_group
 -   sn\_sb\_con\_provider\_connection
 -   sn\_sb\_con\_provider\_task
 -   sn\_sb\_release

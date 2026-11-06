@@ -7,7 +7,7 @@ release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Cloud catalog form configuration examples, Form configuration with blueprints, Cloud Provisioning Blueprints, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -30,7 +30,7 @@ This example uses a script include. If you want to create similar script include
 
 ## About this task
 
-The goal of this example is to take the ID of the catalog requester and populate it in the Stack Name field. The field remains editable. Use this approach when you want to loosely enforce a naming or labeling convention on certain values. Users can still enter the text that they want.
+The goal of this example is to take the ID of the catalog requester and populate it in the Stack Name field. The field remains editable. Follow an example like this one when you want to loosely enforce a naming or labeling convention on certain values. This approach still allows the user to enter the text that they want.
 
 ## Procedure
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-ws-list-view.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -123,9 +123,4 @@ Select a cell in a column and refine the data displayed by choosing one:-   Show
 </td></tr></tbody>
 </table>5.  You can create an application vulnerable item from the **Active** or **All** lists under **Application Vulnerable items** by selecting the **New** button on the upper right.
 
-
--   **[Create a customized list of records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-create-custom-list.md)**  
-You can create a customized list in the Security Exposure Management Workspace.
-
-**Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/using-unified-security-exposure-management.md)
 

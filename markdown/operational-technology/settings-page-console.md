@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/settings-page-console.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -139,15 +139,15 @@ For more information, see [Download Console log files](https://raw.githubusercon
 -   **[Certificate tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/certificate-tab.md)**  
 The Certificate tab is for generating or uploading the Discovery Console for OT certificate.
 -   **[Discovery Console for OT API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/api-discovery-console.md)**  
-You can access the discovery data from the Console via the API. On the Settings page, select the **API** tab to view and use the active tokens, denied tokens, and endpoints needed to communicate with the Service Graph Connector \(SGC\).
+You can access the Console Discovery data via the API. On the Settings page, select the **API** tab to view and use the active tokens, denied tokens, and endpoints needed to communicate with the Service Graph Connector \(SGC\).
 -   **[Edit email settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/edit-email-settings.md)**  
 Edit the email settings as needed to match the settings on your mail server.
 -   **[Export data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/export-data-json.md)**  
 The Discovery Console for OT exports data as a JSON export file.
--   **[Create a backup for the Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/create-console-backup-concept.md)**  
+-   **[Create a backup for the Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/console-create-backup.md)**  
 You can create a full or partial backup of the Discovery Console for OT data.
 -   **[Edit the Query Driver on Metadata tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/edit-query-driver-on-metadata.md)**  
-Edit the Query Driver on **Metadata** tab. The Query Driver section enables you to import or download query drivers and control the speed of Auto Queries.
+Edit the Query Driver on **Metadata** tab. The Query Driver section enables you to import or download query drivers as well as control the speed of Auto Queries.
 -   **[Upload firmware packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/edit-package-settings.md)**  
 If you're using a local repository, upload firmware packages to the Discovery Console for OT so the system knows when an update is needed.
 -   **[Reprocess Auto Query results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/reprocess-tab-results.md)**  

@@ -1,26 +1,26 @@
 ---
 title: Deploy the ServiceNow Add-in for Microsoft Outlook
-description: Deploy the ServiceNow add-in for Microsoft Outlook to chat with a virtual agent, create incidents and VTB tasks from within the Microsoft Outlook.
+description: Deploy the ServiceNow add-in for Microsoft Outlook so that users can chat with a virtual agent and create incidents and Visual Task Board \(VTB\) tasks from within Outlook.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/deploy-outlook-add-in.html
 release: australia
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring Microsoft Outlook to create incidents and VTB tasks, Configuring Incident Management, Incident Management, IT Service Management]
 ---
 
 # Deploy the ServiceNow Add-in for Microsoft Outlook
 
-Deploy the ServiceNow add-in for Microsoft Outlook to chat with a virtual agent, create incidents and VTB tasks from within the Microsoft Outlook.
+Deploy the ServiceNow add-in for Microsoft Outlook so that users can chat with a virtual agent and create incidents and Visual Task Board \(VTB\) tasks from within Outlook.
 
 ## Before you begin
 
-In addition to having one of the following roles on the ServiceNow instance, you must be an Office365 administrator to deploy the ServiceNow add-in.
+Office 365 administrator access and one of the following roles on the ServiceNow instance are required to deploy the ServiceNow add-in.
 
-Role required: admin, sn\_outlook\_addin.outlook\_addin\_setup
+Role required: sn\_outlook\_addin.outlook\_addin\_setup or admin
 
 ## About this task
 
@@ -28,9 +28,9 @@ Deploy the ServiceNow add-in to Microsoft Outlook using the instructions in this
 
 **Note:** You must be an Office365 administrator to deploy the ServiceNow add-in.
 
-The ServiceNow add-in is only supported for use with Outlook for Mac and Outlook for Windows \(Requirement set 1.4\).
+The ServiceNow add-in is supported only for use with Outlook for Mac and Outlook for Windows \(Requirement set 1.4\).
 
-You can add or remove fields directly on the Incident form for users with the itil role by customizing the Outlook view form layout. For users that do not have the itil role, you can configure a Service Catalog record producer to use for creating new incidents.
+You can add or remove fields directly on the Incident form for users with the itil role by customizing the Outlook view form layout. For users who don't have the itil role, you can configure a Service Catalog record producer to use for creating new incidents.
 
 ## Procedure
 
@@ -42,36 +42,36 @@ You can add or remove fields directly on the Incident form for users with the it
 
     |Field|Description|
     |-----|-----------|
-    |Add-in Name|A user-friendly name for the add-in. For example, if the add-in needs to be deployed only for administrators, you can choose to name it accordingly.|
+    |Add-in Name|Display name for the add-in. For example, if the add-in needs to be deployed only for administrators, you can choose to name it accordingly.|
     |Description|A short description of the add-in. For example, if the add-in is for a help desk, you can write a short description accordingly.|
     |Plugin ID|A unique identification string for the add-in you are deploying. You can change the plugin ID value to a new UUID to allow usage of multiple instances of the add-in.|
     |Version|Version of the plugin execution.|
-    |Icon URL|HTTPS URL or relative URL for ServiceNow icon to be displayed in Microsoft Outlook.|
-    |Active|Indicates that the add-in is active.|
+    |Icon URL|HTTPS URL or relative URL for ServiceNow icon to display in Microsoft Outlook.|
+    |Active|Option for making the add-in active.|
 
-4.  Click **Submit**.
+4.  Select **Submit**.
 
     **Note:** The Office Controls related list shows the menu and menu items associated with the add-in.
 
-5.  Click **Download Manifest** to download the add-in manifest file and follow the instructions in the Microsoft article for deployment. Microsoft article: [Publish Office Add-ins using Centralized Deployment via the Office 365 admin center](https://docs.microsoft.com/en-us/office/dev/add-ins/publish/centralized-deployment)page.
+5.  Select **Download Manifest** to download the add-in manifest file and follow the deployment instructions in the Microsoft article [Publish Office Add-ins using Centralized Deployment via the Office 365 admin center](https://docs.microsoft.com/en-us/office/dev/add-ins/publish/centralized-deployment).
 
-6.  You can also customize the add-in by clicking **Clone Manifest** from the context menu.
+6.  Customize the add-in by selecting **Clone Manifest** from the context menu.
 
     This option clones the current manifest into a new record that allows customizing the labels, icons, menus, and menu items.
 
 7.  To customize the Incident form for users with the itil role, configure the Incident form layout directly.
 
-    1.  Select the **Context menu** icon \(\[Omitted image "outlook-context-menu.png"\] Alt text: Context menu icon.\) on the form and select **View** &gt; **Outlook**.
+    1.  Select the additional actions icon \[Omitted image "outlook-context-menu.png"\] Alt text: on the form and select **View** &gt; **Outlook**.
 
-    2.  Select the **Context menu** icon \(\[Omitted image "outlook-context-menu.png"\] Alt text: Context menu icon.\) on the form again and then select **Configure** &gt; **Form Layout**.
+    2.  Select the additional actions icon \[Omitted image "outlook-context-menu.png"\] Alt text: on the form again and then select **Configure** &gt; **Form Layout**.
 
     3.  Add or remove fields, as needed.
 
-8.  To customize the Incident form for users that do not have the itil role, use a Service Catalog record producer to configure the Incident form.
+8.  To customize the Incident form for users who don't have the itil role, use a Service Catalog record producer to configure the Incident form.
 
     1.  Navigate to **Service Catalog** &gt; **Record Producers**.
 
-    2.  Right-click the record producer to use for creating new incidents and select **Copy sys\_id**.
+    2.  Select the additional actions icon \[Omitted image "additional-actions.png"\] Alt text: and then select **Copy sys\_id**.
 
     3.  Paste the copied sys\_id into the **Value** field of the **Provide sys\_id of the record producer for create incident action from Outlook Add-In** \(**sn\_outlook\_addin.create\_incident\_cat\_item**\) system property.
 

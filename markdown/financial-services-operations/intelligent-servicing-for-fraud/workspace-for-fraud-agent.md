@@ -7,7 +7,7 @@ release: australia
 product: Intelligent Servicing for Fraud
 classification: intelligent-servicing-for-fraud
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [workspace for fraud agent, fraud agent workspace, fraud case management workspace, process fraud cases and tasks, fraud workload monitoring, high priority fraud cases, workspace landing page, open fraud cases, sla at risk]
 breadcrumb: [Use, Intelligent Servicing for Fraud, Banking applications, Financial Services Operations \(FSO\)]

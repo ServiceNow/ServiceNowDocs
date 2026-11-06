@@ -7,9 +7,9 @@ release: australia
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [AI Control Tower Home, AI Control Tower dashboard, Explore, AI Control Tower \(legacy\), Enable AI experiences]
+breadcrumb: [AI Control Tower Home, AI Control Tower dashboard, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # AI asset inventory tab in AI Control Tower
@@ -24,7 +24,7 @@ The **AI asset inventory** tab displays the following widgets. You can view the 
 
     This section displays the number of AI systems, categorized by the providers using a donut chart.
 
-    **Note:** The AI system by provider donut chart doesn’t display the Other category when there are more than five providers, which can cause a mismatch between the number of metric labels and the items shown in the list when selecting a metric label.
+    **Note:** The AI system by provider donut chart doesn’t display the **Other** category when there are more than five providers, which can cause a mismatch between the number of metric labels and the items shown in the list when selecting a metric label.
 
 -   **AI systems by type**
 

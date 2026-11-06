@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -81,6 +81,8 @@ Expand the capabilities of Workflow Studio flows with additional subscriptions a
 Configure how the system processes flows.
 -   **[Workflow Studio flow trigger types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-triggers.md)**  
 Each trigger type defines when a flow starts and the starting data available to it. There are triggers for record operations, dates, and application operations.​
+-   **[Flow troubleshooting scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-troubleshooting-scenarios.md)**  
+Learn how the Flow Troubleshooting Agent addresses common flow execution errors and troubleshooting scenarios you may encounter when designing and running flows.
 -   **[Workflow Studio input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/action-inputs-outputs.md)**  
 Actions and subflows use variables to store input and output data. The variable data type determines what kind of data it stores and its advanced configuration options.
 -   **[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/steps.md)**  

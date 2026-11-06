@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/change-rot-overview.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Configure, Code Signing, Platform Security]
 ---
 
@@ -61,4 +61,11 @@ ROT property set to true
     -   The isTrusted\(\) API returns `true` for signatures with your certificate.
     -   The REST API call for certificates excludes build certificates.
     -   You may see MID Server issues, such as `signature validation failed` messages in the logs.
+
+-   **[Migrate signatures to use a customer certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/migrate-sigs-customer-rot.md)**  
+Run a signing job to migrate your signatures to a customer Root of Trust \(ROT\).
+-   **[Disable ServiceNow Root of Trust](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/disable-sn-rot.md)**  
+Run a scheduled job on your trusted instance to disable Root of Trust.
+
+**Parent Topic:**[Configuring Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/config-code-signing.md)
 

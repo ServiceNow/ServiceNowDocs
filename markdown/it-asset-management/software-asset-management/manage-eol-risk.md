@@ -7,9 +7,9 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Use SAM Workspace, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create an end of life workflow request for your software products
@@ -38,7 +38,7 @@ The EOL workflow can also be completed using the Software End of Life Flow in th
 
 2.  On the [Lifecycle management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/lifecycle-management-dashboard.md), select the **Upcoming end of life product lifecycles in next 18 months** report or the **Current and past end of life product lifecycles** report.
 
-    The End of life products page displays the current and upcoming life-cycle phases calculated using the Software Product Lifecycle \[sam\_sw\_product\_lifecyle\] table. For more details, see [Software models and Software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-models-and-entitlements.md).
+    The End of life products page displays the current and upcoming life-cycle phases calculated using the Software Product Lifecycle \[sam\_sw\_product\_lifecyle\] table. For more details, see [Software models and software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-models-and-entitlements.md).
 
 3.  Select a record that has the **Current phase** as either End of Support, End of Extended Support, or End of Life.
 

@@ -7,7 +7,7 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Error handling and logging, Hardening settings, Platform Security]
 ---
@@ -30,14 +30,15 @@ Ensure that the **glide.db.loguser** system property is set to **false**.
 |Purpose|To disable SQL error messages from displaying within the browser.|
 |Type|Boolean|
 |Recommended value|false|
-|Default value|true|
+|Default value|false|
+|Fallback value|true|
 |Security risk rating|3.1|
 |Functional impact|This remediation disables rendering of SQL error messages. There is no impact to any functionality.|
 |Security risk|\(Medium\) No sensitive SQL information that could help an attacker should appear as a part of error message on a web page.|
 
 ## More information
 
-<table id="table_ajc_b43_3kc"><thead><tr><th>
+<table id="table_ajc_b43_3kb"><thead><tr><th>
 
 Attribute
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/view-bia-details.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Assess impact categories and dependencies of process, Structured workflows for BIA, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -30,7 +30,7 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
     -   **General Information**
 
-        View the general details of an assessment for the Business Impact Analysis. You can also view the template that you have used to create the BIA.
+        View the general details of a Business Impact Analysis assessment. Details include the BIA name, description, business unit, and department. View the template that you used to create the BIA.
 
     -   **Results**
 
@@ -83,11 +83,11 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
         -   The new BIA that is copied from the original BIA has all the RTO, RPO impact, dependency assessment structural details similar to the original BIA.
         -   However, the impact category details for each of these assessments are editable for you to assess the dependency details exclusively for the copied BIA.
-        -   If the impact categories of RTO and RPO impact assessments in the original BIA are **Complete**, then the impact categories in the copied BIA are in the **Complete** state.
+        -   Impact categories in the copied BIA inherit the state from the original BIA. If the RTO and RPO impact assessments are in the **Complete** state in the original BIA, they are also **Complete** in the copied BIA.
         -   Therefore, you must assess and enter the disruption duration, response, and required recovery timeframe relevant to the copied BIA.
         -   You can assess the details in the **Results** section. The RTO and RPO values are recalculated after you complete the assessments.
         -   Activities and Work notes are not copied to the new BIA. Enter this information relevant to the new BIA.
-        -   Any attachments attached to the original BIA in any format are copied to the new BIA. However, the PDF generated for the original BIA using the **Generate PDF** button is not copied over to the new BIA as assessment data pertains to original BIA. Since you can modify the assessment details in the copied BIA and generate a PDF, copying the PDF generated for the original BIA has no relevance.
+        -   Any attachments attached to the original BIA in any format are copied to the new BIA. However, the PDF generated for the original BIA using the **Generate PDF** button will not be copied over to the new BIA. The assessment data pertain to the original BIA. You can modify the assessment details in the copied BIA and generate a new PDF. Therefore, copying the original PDF is not necessary.
         **Note:** You can delete a BIA and its related tables in the **Draft** state. The BCM planner and program manager can delete a BIA that is in the **In Review** and **Returned** states whereas, a BCM admin can delete a BIA irrespective of its state.
 
 

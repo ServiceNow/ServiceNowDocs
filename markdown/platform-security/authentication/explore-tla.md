@@ -1,5 +1,5 @@
 ---
-title: Explore Time limited authentication
+title: Time limited authentication
 description: Support time limited authentication for your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/explore-tla.html
@@ -7,16 +7,16 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Time limited authentication, Token based authentication \(User logins\), Authentication, Access Management]
+breadcrumb: [Time limited authentication, Token based authentication \(user logins\), Authentication, Access Management]
 ---
 
-# Explore Time limited authentication
+# Time limited authentication
 
 Support time limited authentication for your ServiceNow instance.
 
-**Note:** Time limited authentication is very specific to ServiceNow instance, the customized links for users can only be created within ServiceNow.
+**Note:** Time limited authentication is specific to the ServiceNow instance. Customized links for users can only be created within ServiceNow.
 
 Admins can configure link based authentication on the ServiceNow instance. The configured link can be shared with the user through Email or SMS and user can use those links to log in to the instance.
 
@@ -25,7 +25,7 @@ Login to instance with this authentication scheme is controlled through Adaptive
 Time based authentication enables you to perform the following:
 
 -   Admin can configure link based auth to use it within an expiry time.
--   Application team can fetch nonce to be used with link for the specific configuration item using exposed scriptable API. Link generation will be taken care by Application team.
+-   Application team can fetch nonce to be used with link for the specific configuration item using exposed scriptable API. Link generation will be taken care of by Application team.
 -   Application team can generate the link and send to the user through an existing channel.
 -   User with the link can log in to instance one time and within expiry time specified as part of configuration.
 -   Admins can configure the low privileged roles for the authentication scheme.

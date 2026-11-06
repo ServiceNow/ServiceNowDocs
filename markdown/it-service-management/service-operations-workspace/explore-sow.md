@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -18,7 +18,7 @@ Service Operations Workspace provides agents with a unified view of incidents, a
 
 ## Service Operations Workspace for ITSM overview
 
-Service Operations Workspace for ITSM is a configurable workspace that provides a unified experience for multiple IT Service Management and IT Operations Management workflows. Configure your agent experience using the easy-to-navigate interface of Service Operations Workspace for ITSM.
+Service Operations Workspace for ITSM is a configurable workspace that provides a unified experience for multiple IT Service Management and IT Operations Management workflows. Configure your agent experience using Service Operations Workspace for ITSM.
 
 ## Accessing Service Operations Workspace for ITSM
 
@@ -84,14 +84,14 @@ User who implements and sets up Service Operations Workspace for ITSM.
 |Administrators can have a guided experience for initial configuration of Service Operations Workspace for ITSM.|[Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/guided-setup.md)|Administrator|
 |Agents can have a unified experience for services and operations on a single platform by integrating with Service Operations Workspace for ITOM.|[Automating and optimizing your services and operations using Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/service-operations.md)|Tier 1 agent, Tier 2 agent, and IT operator|
 
-For information about key features in Service Operations Workspace for ITOM, see Exploring Service Operations Workspace for ITOM.
+For information about key features in Service Operations Workspace for ITOM, see [Exploring Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/sow-landing-page-itom.md).
 
 ## Service Operations Workspace for ITSM workflow for an agent
 
 \[Omitted image "final-sow-workflow.png"\] Alt text: SOW workflow
 
--   An agent can start the day by looking at an overview of assignments, outages, service announcements, and assignments in Service Operations Workspace to prioritize work based on service level agreements \(SLAs\), priority level, and urgency​.
--   The agent can create an incident based on the issue reported. Since the agent has access to related incidents and recent interactions, better and faster support can be provided. Agent also has access to all related information from the incident record page.
+-   Start the day by reviewing the outages, service announcements, and assignments in Service Operations Workspace to prioritize work based on service level agreements \(SLAs\), priority level, and urgency​.
+-   The agent can create an incident based on the issue reported. Because the agent has access to related incidents and recent interactions, the agent can provide better and faster support. The agent also has access to all related information from the incident record page.
 -   The agent can resolve the incident faster by using tailored recommendations.
 -   The agent can reach out to experts on-call for high-priority tasks.​
 -   The agent can collaborate easily with the requester and peers right from the task.
@@ -99,11 +99,11 @@ For information about key features in Service Operations Workspace for ITOM, see
 
 ## Using guided tours to learn about Service Operations Workspace for ITSM
 
-Use a guided tour that is sequence of interactive steps to guide an agent through a specific process or task within Service Operations Workspace for ITSM. To access guided tours, select the Show help icon in the navigation bar and scroll down to find the **Take a Tour** or **Select a Tour** option. For more information about playing a guided tour, see [Play a guided tour in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/play-guided-tour-sow.md).
+Use a guided tour that is a sequence of interactive steps to guide an agent through a specific process or task within Service Operations Workspace for ITSM. To access guided tours, select the Show help icon in the navigation bar and scroll down to find the **Take a Tour** or **Select a Tour** option. For more information about playing a guided tour, see [Play a guided tour in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/play-guided-tour-sow.md).
 
 **Important:**
 
--   A guided tour might break if you customize any of its associated UI elements in your instance, so ensure that you update your guided tours as well accordingly. For information on how to update guided tours, see [Edit Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/edit-guided-tour.md).
+-   A guided tour might break if you customize any of its associated UI elements in your instance, so update your guided tours accordingly. For information on how to update guided tours, see [Edit Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/edit-guided-tour.md).
 -   The **Take a Tour** or **Select a Tour** option is available only when a guided tour is available for that UI page.
 
 ## Using guided setup to implement Service Operations Workspace for ITSM
@@ -126,7 +126,7 @@ You can navigate through the Service Operations Workspace to get an overview of 
 -   **[Service Operations Workspace for ITSM landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/sow-ui-landing-page.md)**  
 An agent can get quick visibility into the work assigned, view announcements, and view upcoming tasks.
 -   **[Exploring Recommended Actions for ITSM in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/exploring-recommended-actions-for-itsm-in-service-operations-workspace.md)**  
-Recommended Actions for ITSM lets you set up and apply real-time actionable recommendations for speeding up the triaging process. You can resolve issues quickly across various records in the Service Operations Workspace, including Incident, Incident task, Problem, Problem task, Change request, Change task, Interaction, and Request.
+Recommended Actions for ITSM lets you set up and apply real-time actionable recommendations for speeding up the triaging process. You can resolve issues quickly across various records in the Service Operations Workspace, including incidents, incident tasks, problems, problem tasks, change requests, change tasks, interactions, and requests.
 -   **[Exploring On-call Scheduling in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/on-call-scheduling-in-service-operations-workspace.md)**  
 On-Call Scheduling ensures that dedicated support team members are always available to resolve issues as they arise. You can set up on-call schedules, roster rotations, and escalation policies, escalate notifications for a group, and determine the current contact for an escalation.
 

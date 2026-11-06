@@ -7,7 +7,7 @@ release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-05-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Software Asset Management, SAM, License Compliance, Software Asset Workspace, CMDB, Publisher Packs]
 breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]

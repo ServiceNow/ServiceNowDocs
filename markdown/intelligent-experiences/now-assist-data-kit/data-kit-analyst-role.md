@@ -1,26 +1,28 @@
 ---
-title: AI Data Kit roles \(sn\_data\_kit.analyst\)
-description: Users with this role can access the AI Data Kit Home page and edit and save ground truth data. Assign this role to analysts and AI practitioners who work with datasets and ground truth in AI Data Kit.
+title: AI Data Kit analyst \(sn\_data\_kit.analyst\)
+description: Provides read-only access to AI Data Kit, plus the ability to enter and save ground truth values.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-data-kit/data-kit-analyst-role.html
 release: australia
 product: Now Assist Data Kit
 classification: now-assist-data-kit
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-30"
 reading_time_minutes: 1
-breadcrumb: [AI Data Kit reference, AI Data Kit, Enable AI experiences]
+keywords: [sn\_data\_kit.analyst, Now Assist Data Kit]
+breadcrumb: [AI Data Kit reference, AI Data Kit, Managing data for AI, Enable AI Experiences]
 ---
 
-# AI Data Kit roles \(sn\_data\_kit.analyst\)
+# AI Data Kit analyst \(sn\_data\_kit.analyst\)
 
-Users with this role can access the AI Data Kit Home page and edit and save ground truth data. Assign this role to analysts and AI practitioners who work with datasets and ground truth in AI Data Kit.
+Provides read-only access to AI Data Kit, plus the ability to enter and save ground truth values.
 
 ## Contains Roles
 
 List of roles contained within the role.
 
-None.
+-   canvas\_user
+-   snc\_required\_script\_writer\_permission
 
 ## Groups
 
@@ -30,5 +32,5 @@ None.
 
 ## Special considerations
 
-The AI Data Kit Home page requires the `sn_data_kit.analyst` role. Users who have the platform `admin` role but not `sn_data_kit.analyst` or `sn_data_kit.admin` will receive a security constraint error when navigating to AI Data Kit. Assign `sn_data_kit.analyst` to all users who need access to the application, including administrators.
+The sn\_data\_kit.admin role contains this role, so anyone with the admin role also has analyst access.
 

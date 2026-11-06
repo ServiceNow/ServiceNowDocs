@@ -7,7 +7,7 @@ release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Landing Page Configurations module, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -16,9 +16,9 @@ breadcrumb: [Landing Page Configurations module, Common GRC features, Governance
 
 The Tasks Page Configuration module in the classic user interface displays the configurations related to the Tasks section in the landing pages of the workspaces. The configurations in the Tasks Page Configuration module help the users to view the data in different workspaces.
 
-Only users with the sn\_grc\_workspace.task\_admin role can configure the Tasks landing pages for the workspaces using the Tasks Page Configurations module in the classic user interface. The administrators are assigned the sn\_grc\_workspace.task\_admin role by default.
+Only users with the sn\_grc\_workspace.task\_admin role can configure the Tasks landing pages for the workspaces using the Tasks Page Configurations module in the classic user interface.
 
-GRC administrators perform task page configurations, including the workspaces, tabs, and filters configurations in this module. Based on all the filter conditions that are applied at table levels or state levels, the users can view the data in the Tasks landing page in the workspace.
+GRC administrators perform task page configurations, including the workspaces, tabs, and filters configurations in this module. The administrators are assigned the sn\_grc\_workspace.task\_admin role by default. Based on all the filter conditions that are applied at table levels or state levels, the users can view the data in the Tasks landing page in the workspace.
 
 In the homepage view of the workspace, the widgets displayed about the tasks such as My tasks and My group's work are configured using the UI Builder. Clicking these widgets in the homepage view directs the users to the Tasks page in the workspace.
 

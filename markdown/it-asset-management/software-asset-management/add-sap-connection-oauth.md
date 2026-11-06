@@ -7,7 +7,7 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -55,7 +55,7 @@ Default price list
 
 </td><td>
 
-Default price list that should be considered for reconciliation.
+Default price list that should be considered for reconciliation.**Note:** If connecting to SAP S/4HANA Cloud Private Edition, select **SAP S/4HANA Private Cloud**. For more information, see [Price Lists for Private Cloud](https://support.sap.com/en/my-support/systems-installations/glac/private-cloud-metering/price-lists-pce.html).
 
 </td></tr><tr><td>
 
@@ -281,15 +281,17 @@ You can start creating software models and entitlements.
 **Related topics**  
 
 
+[SAP publisher pack integration architecture]()
+
 [Tables installed with the SAP publisher pack]()
 
 [Set up SAP integration to establish a connection with SAP]()
 
 [Establish an SAP connection using basic authentication]()
 
-[Create entitlements for SAP]()
-
 [Create software models for SAP]()
+
+[Create entitlements for SAP]()
 
 [Create a custom SAP named user type]()
 

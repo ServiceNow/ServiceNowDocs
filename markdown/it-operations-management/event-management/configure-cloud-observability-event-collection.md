@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -82,9 +82,9 @@ Authenticate ServiceNow Cloud Observability as a data source to enable Event Man
 
     4.  In the Notification Rules area, in the Send Notifications to fields, select the notification destination as **webhook**.
 
-        Search for the destination name for the webhook that you created in step 2.
+    5.  Search for the destination name for the webhook that you created in step 2.
 
-    5.  Select **Save**.
+    6.  Select **Save**.
 
         The default severity for stream based alerts is **Critical**. You can change the default in the  Push Connector Configuration area of an ServiceNow AI Platform instance. The valid severity values are:
 

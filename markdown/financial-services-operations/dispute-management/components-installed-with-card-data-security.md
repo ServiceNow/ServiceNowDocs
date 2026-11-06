@@ -7,7 +7,7 @@ release: australia
 product: Dispute Management
 classification: dispute-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [components installed with card data security, card data security roles, sn\_data\_sec admin role, sn\_data\_sec flow executor role, sn\_data\_sec\_resource\_config, tokenizer resource configuration table, installed roles, installed tables, card data security activation, sn\_data\_sec]
 breadcrumb: [Reference, Card Data Security, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]

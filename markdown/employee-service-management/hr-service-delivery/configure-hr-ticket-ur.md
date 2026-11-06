@@ -7,7 +7,7 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Standard Ticket Page view for HR Service Delivery, HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
@@ -235,7 +235,7 @@ Widget
 
 </td><td>
 
-Widget that should be displayed in the tabs section. This field appears only when **Custom** is selected from **Type**.**Note:** For the **Tasks/To-dos** tab, by default the HRM Task Parent widget is used. For the **Approvers** tab, by default the HRJ Approval Tab widget is used. For the **Attachments** tab, by default the HR Standard Ticket Attachments widget is used. This widget also displays employee documents \(EDM\).
+Widget that should be displayed in the tabs section. This field appears only when **Custom** is selected from **Type**.**Note:** For the **Tasks/To-dos** tab, by default the HRM Task Parent widget is used. For the **Approvers** tab, by default the HRM Approval Tab widget is used. For the **Attachments** tab, by default the HR Standard Ticket Attachments widget is used. This widget also displays employee documents \(EDM\).
 
 </td></tr><tr><td>
 

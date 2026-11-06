@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ra-configure-contextual-filtering.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring AI search, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 When search results are generated in Recommended Actions, you can make them contextually relevant to the current record by using the contextual information passed in the additional context payload of the AI Search API. Using this contextual information, you can implement preprocessing logic through the **AisDynamicFilter** extension point to filter search results based on conditions that match the current context record.
 
-When preprocessing is implemented, AI Search considers the defined filter conditions before returning search results, ensuring that only results matching those conditions are displayed. For example, you can define a filter condition to exclude the current context record from search results, so that the record you are working on does not appear in the recommendations.
+When preprocessing is implemented, AI Search considers the defined filter conditions before returning search results, ensuring that only results matching those conditions are displayed. For example, you can define a filter condition to exclude the current context record from search results, so that the record you're working on does not appear in the recommendations.
 
 ## Procedure
 

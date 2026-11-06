@@ -7,10 +7,10 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-06-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [configure CIMD client, register CIMD client, Client ID Metadata Document, CIMD metadata URL, metadata sync mode, oauth\_entity\_cimd]
-breadcrumb: [CIMD client integration, Inbound Integrations, OAuth Inbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [CIMD client integration, Inbound integrations, OAuth inbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # Configure a CIMD client
@@ -33,7 +33,7 @@ You can register a CIMD client in two ways:
 
 -   **Enter the configuration details manually**
 
-    Provide the client fields yourself. Use this method when you want to enter or adjust the details by hand.
+    Provide the client fields yourself. Use this method when you need to enter or adjust the details by hand.
 
 
 Each CIMD client also has a metadata sync mode that controls how the instance keeps the client's configuration current:
@@ -61,7 +61,7 @@ Each CIMD client also has a metadata sync mode that controls how the instance ke
 
 4.  Provide the client configuration using one of the following methods:
 
-    -   Fetch from the metadata URL \(recommended\): In **CIMD Metadata URL**, enter the client's metadata document URL — for example, `https://vscode.dev/oauth/client-metadata.json` and select **Fetch Metadata**. The instance retrieves the document and populates the **Client Name**, **Redirect URIs**, **Response Types**, **Client URI**, and **Logo URL** fields.
+    -   Fetch from the metadata URL \(a common approach\): In **CIMD Metadata URL**, enter the client's metadata document URL — for example, `https://vscode.dev/oauth/client-metadata.json` and select **Fetch Metadata**. The instance retrieves the document and populates the **Client Name**, **Redirect URIs**, **Response Types**, **Client URI**, and **Logo URL** fields.
     -   Enter the details manually: Select **Enter the details instead**, and enter the client's **Name**, **Client ID** \(the CIMD metadata document URL\), and the remaining fields.
 5.  Select the **Metadata Sync Mode**:
 

@@ -7,9 +7,9 @@ release: australia
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Customize UI Builder pages using components
@@ -167,7 +167,7 @@ Duplicate a configured component to reuse on a page.
 Use the conditional renderer component to display content or components based on specified conditions.
 -   **[Learn components by example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/learning-components-by-example.md)**  
 Follow these procedures to learn how components create the functionality you need in your UI Builder pages.
--   **[Page collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/page-collections.md)**  
+-   **[Page collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/page-collections.md)**  
 Page Collections are groups of pages that can be used across multiple experiences.
 -   **[Change data visualizations in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/component-hot-swapping.md)**  
 Change data visualizations in real time using a drop-down list to preview data in your experience.

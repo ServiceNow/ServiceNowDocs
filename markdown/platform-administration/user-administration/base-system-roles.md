@@ -7,7 +7,7 @@ release: australia
 product: User Administration
 classification: user-administration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Managing roles, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Managing roles, User administration, Configure core features, Admin
 
 Administrators can control access to features and capabilities on a ServiceNow instance by assigning roles to users.
 
-Your ServiceNow includes roles to grant access to the platform features and applications included a base system instance. Applications you install on your instance may include additional roles to control access to those installed features. For more information about roles, see [Exploring user administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/exploring-user-administration.md).
+Your ServiceNow AI Platform instance includes roles to grant access to the platform features and applications included in a base system instance. Applications you install on your instance may include additional roles to control access to those installed features. For more information about roles, see [Exploring user administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/exploring-user-administration.md).
 
 **Important:** Base system and roles installed with applications can be deactivated by administrators, but can’t modify or rename these roles.
 

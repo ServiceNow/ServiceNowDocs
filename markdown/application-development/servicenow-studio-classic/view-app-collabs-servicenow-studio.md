@@ -7,9 +7,9 @@ release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2026-05-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Collaborating on apps, Configure, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Collaborating on apps, Configure, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # View collaborators on an app in ServiceNow Studio
@@ -30,7 +30,7 @@ Role required: admin or delegated\_developer
 
 3.  Access collaboration settings by selecting the more options icon \[Omitted image "sn-studio-more-options-icon.png"\] Alt text: and selecting **Invite**.
 
-    \[Omitted image "sn-studio-collab-select-as2.png"\] Alt text: Invite collaborators to work on your app using the more options menu on the app details page.
+    \[Omitted image "sn-studio-collab-select-bs1.png"\] Alt text: Invite collaborators to work on your app using the Invite menu.
 
 4.  Review the collaborator names, groups, and descriptors on the **Collaborate with others** dialog.
 

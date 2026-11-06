@@ -7,9 +7,9 @@ release: australia
 product: CMDB CI Class Models
 classification: cmdb-ci-class-models
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [CMDB CI class models, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB CI class models, CMDB hierarchy, Explore, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Nutanix extension classes
@@ -26,7 +26,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 ## Nutanix Enterprise Cloud platform
 
-The Nutanix Enterprise Cloud platform is a converged, scale-out compute and storage system that hosts and stores virtual machines. All nodes in a Nutanix cluster share the management of cluster resources. The foundational unit for the cluster is a Nutanix node which runs a standard hypervisor and contains processors, memory, and local storage \(SSDs and hard disks\). A Nutanix Controller virtual machine runs on each node, enabling the pooling of local storage from all nodes in the cluster.
+The Nutanix Enterprise Cloud platform is a converged, scale-out compute and storage system that hosts and stores virtual machines. All nodes in a Nutanix cluster share the management of cluster resources. The foundational unit for the cluster is a Nutanix node that runs a standard hypervisor and contains processors, memory, and local storage \(SSDs and hard disks\). A Nutanix Controller virtual machine runs on each node, enabling the pooling of local storage from all nodes in the cluster.
 
 ## Classes
 
@@ -119,7 +119,7 @@ Storage Pool \[cmdb\_ci\_storage\_pool\]
 
 </td><td>
 
-Grouping of physical disks within a Nutanix cluster which is typically used to create physical separation between virtual machines.
+Grouping of physical disks within a Nutanix cluster that is typically used to create physical separation between virtual machines.
 
 </td></tr><tr><td>
 
@@ -206,7 +206,7 @@ Storage Pool \[cmdb\_ci\_storage\_pool\]
 
 </td><td>
 
-Grouping of physical disks within a Nutanix cluster which is typically used to create physical separation between virtual machines.
+Grouping of physical disks within a Nutanix cluster that is typically used to create physical separation between virtual machines.
 
 </td></tr><tr><td>
 
@@ -293,7 +293,7 @@ Storage Pool \[cmdb\_ci\_storage\_pool\]
 
 </td><td>
 
-Grouping of physical disks within a Nutanix cluster which is typically used to create physical separation between virtual machines.
+Grouping of physical disks within a Nutanix cluster that is typically used to create physical separation between virtual machines.
 
 </td></tr><tr><td>
 

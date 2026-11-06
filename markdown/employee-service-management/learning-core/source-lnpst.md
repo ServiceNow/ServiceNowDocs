@@ -7,9 +7,9 @@ release: australia
 product: Learning Core
 classification: learning-core
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Integrating Learning Core with third-party learning management systems, Configuring Learning Core, Learning Core, HR Service Delivery, Employee Service Management]
+breadcrumb: [Integrate with third-party systems, Configure, Learning Core, HR Service Delivery, Employee Service Management]
 ---
 
 # Sources for Learning Core
@@ -56,9 +56,6 @@ Integration Services
 </td><td>
 
 Services that interact with the Cornerstone OnDemand application to pull or push learning courses.-   **Course assign service**: Assigns a course to an employee in the Cornerstone Ondemand application.
-
-**Note:** Skills information associated with Cornerstone courses is not available.
-
 -   **Sync users**: Maps users in the Cornerstone OnDemand system to users in the ServiceNow system using email Ids.
 
 **Note:** If you want to use user\_id or user\_name field for mapping users, then override**getCornerstoneUser method** in the sn\_lc.UserMappingUtil script.

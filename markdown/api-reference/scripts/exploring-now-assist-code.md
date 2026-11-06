@@ -7,7 +7,7 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Otto for Code, Scripting, API implementation, API implementation and reference]
 ---
@@ -41,7 +41,7 @@ The Code autocomplete skill provides contextually relevant suggestions as users 
 
 For more information, see [Generate code with autocomplete](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/generate-code-with-autocomplete.md).
 
-With the Australia release, Code autocomplete is available in the ServiceNow integrated development environment \(IDE\) application.
+With the Brazil release, Code autocomplete is available in the ServiceNow integrated development environment \(IDE\) application.
 
 ## Difference between Code generation and Code autocomplete skills
 

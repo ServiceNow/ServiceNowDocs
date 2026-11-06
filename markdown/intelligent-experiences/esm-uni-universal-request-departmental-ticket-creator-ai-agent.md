@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/esm-uni-universal-request-departmental-ticket-creator-ai-agent.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-14"
-reading_time_minutes: 2
-breadcrumb: [Employee Service Management AI agents, Employee Service Management, AI agents library, AI assets, Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Employee Service Management AI agents, Employee Service Management, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Universal Request departmental ticket creator AI agent

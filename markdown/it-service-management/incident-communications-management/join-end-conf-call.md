@@ -1,5 +1,5 @@
 ---
-title: Join or end conference call on incident communication task
+title: Join or end an incident communication conference call
 description: After a conference call is initiated, join the call to participate in the discussion or end the call when the conference is no longer required.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-communications-management/join-end-conf-call.html
@@ -7,12 +7,12 @@ release: australia
 product: Incident Communications Management
 classification: incident-communications-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing Incident Communications, Incident Communications Management, IT Service Management]
+breadcrumb: [Managing incident communications, Incident Communications Management, IT Service Management]
 ---
 
-# Join or end conference call on incident communication task
+# Join or end an incident communication conference call
 
 After a conference call is initiated, join the call to participate in the discussion or end the call when the conference is no longer required.
 
@@ -35,31 +35,31 @@ Role required:
 
 5.  In the related links, perform any of the following actions.
 
-<table id="choicetable_qdq_fjq_thb"><thead><tr><th align="left" id="d208648e92">
+<table id="choicetable_qdq_fjq_thb"><thead><tr><th align="left" id="d349773e91">
 
 Option
 
-</th><th align="left" id="d208648e95">
+</th><th align="left" id="d349773e94">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d208648e101">
+</th></tr></thead><tbody><tr><td id="d349773e100">
 
 **Join Conference Call**
 
 </td><td>
 
-If the logged in user is not already a part of the conference call, the user can join the conference.
+Join the conference call if you aren't already a participant.
 
-</td></tr><tr><td id="d208648e110">
+</td></tr><tr><td id="d349773e109">
 
 **End Conference Call**
 
 </td><td>
 
-End the conference when the discussion is over.**Note:** The work notes get updated with the details of the conference call such as duration and participants.
+End the conference when the discussion is over.**Note:** The work notes are updated with the details of the conference call, such as duration and participants.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Managing Incident Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-communications-management/working-with-inci-comm-mgmt.md)
+**Parent Topic:**[Managing incident communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-communications-management/working-with-inci-comm-mgmt.md)
 

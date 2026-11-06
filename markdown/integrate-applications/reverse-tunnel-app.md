@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/reverse-tunnel-app.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Private Relay navigation, relay management]
 breadcrumb: [Explore, Reverse Tunnel, Workflow Data Fabric]

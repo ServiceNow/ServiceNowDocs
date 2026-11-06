@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-09-17"
 reading_time_minutes: 1
 keywords: [software spend detection, software asset management software spend detection, software spend transaction fields]
-breadcrumb: [Reference, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software spend transaction fields

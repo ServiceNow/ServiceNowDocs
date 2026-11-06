@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-configuring.html
 release: australia
 topic_type: concept
-last_updated: "2026-04-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, configure]
-breadcrumb: [AI Control Tower, Enable AI experiences]
+breadcrumb: [AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Configuring AI Control Tower
@@ -29,12 +29,12 @@ Add and manage role to a user group to grant its members the corresponding permi
 Connect AI Control Tower to external AI platforms so you can discover AI assets, collect trace data for monitoring, and synchronize governance across multiple ServiceNow instances.
 -   **[Configuring rules and templates in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-rules-and-templates.md)**  
 Configure how AI assets are classified, evaluated, valued, and secured across your organization through rules and templates.
--   **[AI Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-gateway.md)**  
-Use the AI Gateway settings page to control global transaction processing for all connected MCP servers and manage individual MCP server connections independently of the global gateway state.
+-   **[AI Gateway in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-gw-landing.md)**  
+Route AI agent connections to MCP servers through AI Gateway, so you control which servers and tools agents can reach and what data passes between them.
 -   **[AI Control Tower playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-playbooks-reference.md)**  
 Drive the lifecycle and approval workflows for AI assets using playbooks in AI Control Tower.
--   **[Configure ServiceNow AI settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configure-servicenow-ai-settings.md)**  
-Control how AI features operate on your instance by configuring data sharing preferences, asset approval requirements, and allowed AI model providers.
+-   **[Configuring ServiceNow AI settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configuring-servicenow-ai-settings.md)**  
+Decide what AI data your instance shares with ServiceNow, which AI assets need AI steward approval before deployment, and which AI model providers your AI systems can use.
 -   **[Configuring pages in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configuring-page-widgets.md)**  
 View and govern your AI portfolio using terms and visualizations tailored to your organization.
 -   **[Creating or extending pages with pro-code tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-create-extend-pages-pro-code-tools.md)**  

@@ -7,7 +7,7 @@ release: australia
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-04-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage RIDAC, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -24,7 +24,7 @@ Role required: it\_project\_manager
 
 -   Install ServiceNow Otto for Strategic Portfolio Management plugin.
 -   Verify risk generation skill is active.
--   The risk generation skill is activated by default. For more information on how to activate the skill if it isn't automatically activated or if you want to change the skill configuration, see [Configure AI Admin Hub]().
+-   The risk generation skill is activated by default. For more information on how to activate the skill if it isn't automatically activated or if you want to change the skill configuration, see [Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/configuring-na-spm.md).
 
 ## About this task
 
@@ -51,7 +51,7 @@ The AI Identified Risks menu is visible only to project managers when the risk g
 
 5.  Select **Generate AI Risks** if no risks are identified for the project.
 
-    \[Omitted image "ai-generated-risks.png"\] Alt text: AI-generated risks for a project.
+    \[Omitted image "image.ai-generated-risks"\] Alt text: AI-generated risks for a project.
 
     You can select any task ID, resource ID, or other reference in the AI Rationale column of AI-identified risks. This navigates directly to the related record without searching for the ID manually.
 

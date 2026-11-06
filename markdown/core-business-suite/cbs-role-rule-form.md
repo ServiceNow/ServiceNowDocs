@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/cbs-role-rule-form.html
 release: australia
 topic_type: reference
-last_updated: "2026-06-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [CBS Client Role Rule, role rule form, requester role, Core Business Suite]
 breadcrumb: [Reference, Core Business Suite]

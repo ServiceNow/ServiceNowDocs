@@ -7,7 +7,7 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Data snapshots and multiple breakdowns, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -23,7 +23,7 @@ Several features of indicators and breakdowns are not supported with Data snapsh
 |Database requirements|Only instances with the [RaptorDB Professional \(PostgreSQL\) database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/raptordb.md) are supported, not Oracle or MariaDB/MySQL. \(Checked when plugin is activated.\)|
 |Domain separation|Domain-separated instances are not supported.|
 
-If you have Australia Patch 3 or later, the Data Snapshots \(com.snc.pa.mlb\) plugin is installed automatically on eligible instances. This includes instances with domain separation, but on such instances the Data snapshots feature is disabled when the first job runs.
+Instances with RaptorDB Professional have the Data Snapshots \(com.snc.pa.mlb\) plugin installed automatically. If the instance is domain separated, the Data snapshots feature is turned off.
 
 ## Table-level limitations
 
@@ -136,11 +136,11 @@ Only 250 levels of breakdown are supported.
 
 </td></tr><tr><td>
 
-Indicators whose collection jobs have more than one timezone
+Converted indicators whose collection jobs have more than one timezone
 
 </td><td>
 
-Only daily collection and only one timezone are supported.
+If the indicator time zone and the source time zone do not match, the source time zone is used. If possible, an All Activity source is used, thus supporting intraday data collection.
 
 </td></tr><tr><td>
 
@@ -164,7 +164,7 @@ Collection periods set on data collector
 
 </td><td>
 
-All collections are daily.
+All collections are daily or intraday, depending on the Data snapshots source.
 
 </td></tr></tbody>
 </table>## Field-level limitations \(Indicator, breakdown, source, and data collector fields\)

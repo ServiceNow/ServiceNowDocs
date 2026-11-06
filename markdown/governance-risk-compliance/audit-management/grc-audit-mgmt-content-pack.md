@@ -1,5 +1,5 @@
 ---
-title: Analytics and Reporting Solutions for Audit Management
+title: Analytics and reporting solutions for Audit Management
 description: Platform Analytics contain preconfigured dashboards. These dashboards contain actionable data visualizations that help you improve your business processes and practices.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/grc-audit-mgmt-content-pack.html
@@ -7,12 +7,12 @@ release: australia
 product: Audit Management
 classification: audit-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Audit Management, Governance, Risk, and Compliance]
 ---
 
-# Analytics and Reporting Solutions for Audit Management
+# Analytics and reporting solutions for Audit Management
 
 Platform Analytics contain preconfigured dashboards. These dashboards contain actionable data visualizations that help you improve your business processes and practices.
 
@@ -32,7 +32,7 @@ To enable the Analytics and Reporting solution for GRC: Audit Management, perfor
 
 **Important:**
 
-Starting with version 18.1.5 of the Audit Management application, the Analytics and Reporting solutions for Audit Management such as the Audit Engagement Overview dashboard and Audit Manager dashboard are available in the Next Experience UI Framework.
+Starting with version 18.1.5 of the Audit Management application, the Analytics and Reporting solutions for Audit Management are available in the Next Experience UI Framework. These solutions include the Audit Engagement Overview dashboard and Audit Manager dashboard.
 
 For more information, see [Audit Engagement Overview Performance Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/grc-audit-mgmt-dashboard.md) and [Audit Manager Performance Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/audit-manager-dashboard.md).
 

@@ -7,7 +7,7 @@ release: australia
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Loan Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -101,7 +101,7 @@ Loan Drawdown
 Loan Rollover
 
 </td></tr></tbody>
-</table>These workflows are built using Flow Designer. The loan admin can review and customize these predefined flows that are based on the business needs of an organization.
+</table>These workflows are built using [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md). The loan admin can review and customize these predefined flows that are based on the business needs of an organization.
 
 ## General workflow for Loan Operations
 

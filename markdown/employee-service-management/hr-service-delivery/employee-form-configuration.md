@@ -7,7 +7,7 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
@@ -31,7 +31,7 @@ Once created, you can use the employee forms in HR tasks or HR task templates.
 -   [Adding an HR task to an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/t_ViewAnHRTask.md)
 -   [Configure an HR task template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-hr-task-template.md)
 
-You can also use HR criteria records to query collected answers for use in downstream processes, such as for lifecycle event activities. Because questions on the employee form are built using the survey designer, the answers collected are saved to the Metric Result \[asmt\_metric\_result\] table. You can use HR criteria records to query answers from that table to determine whether an activity should trigger for a particular user. For example, if on an invention disclosure form, the new hire answers yes, then you can use that answer to trigger the creation of another task to collect details on the invention.
+You can also use HR criteria records to query collected answers for downstream processes, such as lifecycle event activities. Questions on the employee form are built with the survey designer. Their answers are saved to the Metric Result \[asmt\_metric\_result\] table. You can use HR criteria records to query answers from that table. You can then determine whether an activity should trigger for a particular user. For example, if a new hire answers yes on an invention disclosure form, that answer could trigger the creation of another task to collect details on the invention.
 
 For more information, see [Create an HR criteria record for an employee form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-hr-criteria-record-for-employee-form.md).
 

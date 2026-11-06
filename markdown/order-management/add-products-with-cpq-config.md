@@ -1,16 +1,16 @@
 ---
-title: Add customizable products using CPQ Configurator
+title: Add customizable products using ServiceNow CPQ Configurator
 description: Use the Configurator to add configurable products to a Sales Customer Relationship Management transaction, for example an opportunity or quote.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/add-products-with-cpq-config.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [CPQ Configurator, Configure, price, quote apps, Use, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
-# Add customizable products using CPQ Configurator
+# Add customizable products using ServiceNow CPQ Configurator
 
 Use the Configurator to add configurable products to a Sales Customer Relationship Management transaction, for example an opportunity or quote.
 
@@ -22,7 +22,7 @@ Role required: sales agent, order agent, customer
 
 1.  Create a transaction, such as an opportunity or a quote, in the CRM Workspace.
 
-    1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**, and select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
+    1.  Navigate to **Workspaces** &gt; **CRM Workspace**, and select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
     2.  Navigate to the module for the transaction, for example **Quotes** &gt; **All**, and select **New** to create the transaction.
 
@@ -34,7 +34,7 @@ Role required: sales agent, order agent, customer
 
 3.  In the card for the product offering to be configured, select **Customize**.
 
-    The CPQ Configurator opens.
+    The ServiceNow CPQ Configurator opens.
 
 4.  Select a product in the bundle and in the Options selection section, choose the product option.
 
@@ -47,5 +47,5 @@ Role required: sales agent, order agent, customer
     The configurable product is added as a line item to the transaction.
 
 
-**Parent Topic:**[Using the CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-servicenowcpq.md)
+**Parent Topic:**[Using the ServiceNow CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-servicenowcpq.md)
 

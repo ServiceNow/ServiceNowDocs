@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/integrate-voice-assistant-with-mobile-app-voice-launcher.html
 release: australia
 topic_type: task
-last_updated: "2026-01-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Deploy AI voice agents, AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [Deploy AI voice agents, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Integrate voice assistant with mobile app launcher
@@ -19,7 +19,7 @@ Configure your voice assistant to be accessible through the voice launcher funct
 Role required: virtual\_agent\_admin or admin
 
 -   You must have a voice assistant created in Assistant Designer
--   Mobile app voice launcher function must be configured using ServiceNow Otto for Mobile before you can assign it to an assistant. See [Configure Mobile AI Voice Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-mobile-ai-voice-agent.md) for more information.
+-   Mobile app voice launcher function must be configured using Now Assist for Mobile before you can assign it to an assistant. See [Configure Mobile AI Voice Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-mobile-ai-voice-agent.md) for more information.
 
 ## Procedure
 

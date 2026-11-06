@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [OKE, Agent Client Collector, Kubernetes, Visibility, supported, versions, Kubernetes, OpenShift, reference, Cloud Native Operations for Visibility, CNO for Visibility]
 breadcrumb: [Reference, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
@@ -23,13 +23,18 @@ For the latest information, see the [Kubernetes Visibility Agent \(formerly CNO 
 
 ## FIPS-140 compliance
 
-In regulated markets that require FIPS-140 compliant code, the Kubernetes Visibility Agent Informer provides the following compliance:
+FIPS-140 \(Federal Information Processing Standard 140\) is a US government standard for cryptographic modules used in regulated industries. In regulated markets that require FIPS-140 compliant code, the Kubernetes Visibility Agent Informer images have the following FIPS-140 compliance status:
 
 -   The main informer image is FIPS-140 compliant.
 -   The daemonset image used for traffic discovery is FIPS-140 compliant.
+-   The optional Syft scanner image used for container image scanning is not FIPS-140 compliant.
+
+## Windows nodes
+
+When the **createServerCi** parameter is set to `true`, the Kubernetes Visibility Agent Informer creates a Windows Server \[cmdb\_ci\_win\_server\] CI for each Windows Kubernetes node. To configure server CIs for all node types, see [Configure server CI creation for Kubernetes nodes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cnov-config-linux-server-ci.md).
 
 -   **[Kubernetes Visibility Agent \(KVA\) Performance Benchmark](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/kva-p-benchmark.md)**  
-Performance tests are available for Kubernetes Visibility Agent \(KVA\) to help you estimate load, memory, and CPU on the Instance and Kubernetes cluster.
+Performance tests help you estimate the load, memory, and CPU on the Instance and Kubernetes cluster.
 -   **[Discovering Kubevirt Virtual Machines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discover-KVM.md)**  
 KubeVirt provides a unified development platform where developers can build, modify, and deploy applications in both Application Containers and Virtual Machines.
 -   **[Running Kubernetes Visibility Agent \(KVA\) at Scale](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/running-kva-at-scale.md)**  

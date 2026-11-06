@@ -7,7 +7,7 @@ release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Manage issues, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -26,7 +26,7 @@ Grouping issues under a parent can streamline your workflow and save time. All c
 
 You can enable the **Advanced issue grouping functionality** property to use the advanced issue grouping features, such as management methods for issue grouping and making standalone issues into parents. For more information, see [Governance, Risk, and Compliance properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/grc-properties.md).
 
-If the issues you're grouping use different workflows, **Management method** is locked to **Manage child**. Each child issue continues to follow its own workflow independently, and the parent issue only keeps them grouped together.
+If the issues you are grouping use different workflows, **Management method** is locked to **Manage child**. Each child issue continues to follow its own workflow independently, and the parent issue only keeps them grouped together.
 
 **Important:** When you group issues with confidentiality enabled, you can add confidential child issues only under a confidential parent issue.
 

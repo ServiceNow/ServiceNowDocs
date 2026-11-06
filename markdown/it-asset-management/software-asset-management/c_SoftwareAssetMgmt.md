@@ -7,7 +7,7 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [IT Asset Management, Asset Management]
 ---
@@ -20,7 +20,7 @@ Watch this short video for an introduction to the Software Asset Management appl
 
 \[Omitted video\] Description: Introduction to the Software Asset Workspace
 
-**Note:** Beginning with the ServiceNow AI Platform Australia release, limited support is provided for the Software Asset Management classic user interface. While it remains active in your instance, including when you upgrade to a new ServiceNow AI Platform release, you're encouraged to move to the new workspace experience.
+**Note:** Beginning with the ServiceNow AI Platform Brazil release, limited support is provided for the Software Asset Management classic user interface. While it remains active in your instance, including when you upgrade to a new ServiceNow AI Platform release, you're encouraged to move to the new workspace experience.
 
 For the ITSM Software Asset Management feature of Asset Management, see [ITSM Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-sam.md).
 
@@ -61,10 +61,10 @@ Install and configure the Software Asset Management application to manage your s
 Streamline your software asset operations by using the ServiceNow Otto for Software Asset Management \(SAM\) agentic AI workflows and generative AI skills.
 -   **[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/using-sam-workspace.md)**  
 Use the Software Asset Workspace, the intuitive and streamlined user interface of the Software Asset Management application, to manage software licenses, compliance, and optimization.
--   **[Using Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/using-sam-classic.md)**  
-Use the Software Asset Management Core UI framework to manage your licenses, compliance, and optimization.
+-   **[Using Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/using-sam-classic.md)**  
+Use the classic Software Asset Management framework to manage your licenses, compliance, and optimization.
 -   **[Subscriptions for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sam-subscription.md)**  
-The ServiceNow platform uses a licensing method where your organization is charged for using the IT Asset Management applications- ServiceNow Software Asset Management.
+ServiceNow Software Asset Management \(SAM\), part of the IT Asset Management suite, uses a subscription-based licensing model that charges your organization based on the IT resources it manages.
 -   **[Supported software publisher licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sam-publisher-packs.md)**  
 With Software Asset Management, there are several publisher packs that can be used to extend functionality between the ServiceNow AI Platform and your third-party software applications.
 -   **[Engineering license management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/concurrent-licenses.md)**  
@@ -72,7 +72,7 @@ Monitor engineering licenses and usage through OpenLM and Open iT to eliminate a
 -   **[SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/sam-subscription-management.md)**  
 SaaS License Management tracks and controls cloud-based application subscriptions within Software Asset Management \(SAM\). This capability helps organizations manage subscriptions, monitor usage, and control costs across hybrid and direct SaaS models.
 -   **[Software Spend Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-spend-detection.md)**  
-Use the ServiceNow Software Spend Detection feature to track, analyze, and optimize software spending from imported financial data.
+Use the Software Spend Detection feature to track, analyze, and optimize software spending from imported financial data.
 -   **[Software Asset Management administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/c_SAMAdministration.md)**  
 Software Asset Management administration tasks include adding custom part number records and custom license metrics. You can also refresh processor definitions and migrate software installations. Software Asset Management content service can be enabled, and migration procedures are also included.
 -   **[Platform Analytics Solution for Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-asset-mgmt-content-pack.md)**  
@@ -81,4 +81,6 @@ This Platform Analytics Solution contains preconfigured dashboards. These dashbo
 Use the descriptions provided to help you fill in the Software Asset Management forms.
 -   **[ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam.md)**  
 Use the ServiceNow Otto for Software Asset Management \(SAM\) application to integrate generative AI capabilities into your daily workflow, thereby minimizing manual tasks while enhancing compliance visibility and optimization insights.
+
+**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/asset-management-landing-page.md)
 

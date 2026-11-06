@@ -7,16 +7,16 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Administering reports, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Administering Core UI reports, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Report Administration module
 
 Learn how to administer reports on the ServiceNow platform using the **Reports** &gt; **Administration** module.
 
-This module is not enabled by default, and must be activated. For a list of the reporting roles delivered with the ServiceNow platform, see [Reporting roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/reporting-roles.md).
+This module is not enabled by default, and must be activated. For a list of the reporting roles delivered with the ServiceNow platform, see [Core UI Reporting roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/reporting-roles.md).
 
 **Note:** Restricting a report by role restricts who can view a report. Users without the admin role cannot edit global reports. If a non-admin user edits a global report, saving that report creates a personalized version belonging to that user
 
@@ -213,5 +213,5 @@ Trend Field
 The field to track over time for [Trend](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_CreateTrendCharts.md) or [Trendbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_CreatingTrendboxCharts.md) Charts.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_AdminsteringReports.md)
+</table>**Parent Topic:**[Administering Core UI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_AdminsteringReports.md)
 

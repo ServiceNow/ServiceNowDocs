@@ -1,13 +1,13 @@
 ---
 title: Activate or deactivate an EVAM view configuration
-description: Activate or deactivate the Entity View Action Mapper \(EVAM\) view configurations in the AI Search application as needed. This helps you to control which view configurations are in use.
+description: Activating or deactivating the Entity View Action Mapper \(EVAM\) view configurations in the AI Search application helps you to control which view configurations are in use.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/enable-evam-config-ais-admin-console.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Customizing the result-card interface of an AI Search application by using EVAM, Using AI Search Admin console, AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -15,7 +15,7 @@ breadcrumb: [Customizing the result-card interface of an AI Search application b
 
 # Activate or deactivate an EVAM view configuration
 
-Activate or deactivate the Entity View Action Mapper \(EVAM\) view configurations in the AI Search application as needed. This helps you to control which view configurations are in use.
+Activating or deactivating the Entity View Action Mapper \(EVAM\) view configurations in the AI Search application helps you to control which view configurations are in use.
 
 ## Before you begin
 
@@ -23,7 +23,7 @@ Role required: admin or ais\_admin
 
 ## About this task
 
-When you configure a new EVAM view configuration for your AI Search application, you must manually activate it to enable it.
+When you configure a new EVAM view configuration for your AI Search application, you must manually activate it before it can be used.
 
 ## Procedure
 
@@ -33,11 +33,11 @@ When you configure a new EVAM view configuration for your AI Search application,
 
 3.  In the left pane, select **Result-card Interface**.
 
-4.  From the **Select a bundle to edit** list, select an EVAM configuration bundle.
+4.  From the Select a bundle to edit list, select an EVAM configuration bundle.
 
-    The list of view configurations that are associated with the selected bundle are displayed.
+    A list of view configurations associated with the selected bundle appears.
 
-5.  Hover over the view configuration that you want to activate or deactivate and then select the **More Actions icon \[Omitted image "more-actions-icon.png"\] Alt text: More Actions.** &gt; **Activate or deactivate**.
+5.  Hover over the view configuration that you want to activate or deactivate and then select **More Actions \(\[Omitted image "more-actions-icon.png"\] Alt text: More Actions.\)** &gt; **Activate or deactivate**.
 
 
 ## Result

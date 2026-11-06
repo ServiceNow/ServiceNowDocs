@@ -4,7 +4,7 @@ description: Provide details on how an office space should be reconfigured.
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 ---
 
@@ -26,21 +26,13 @@ You can also raise a request from the Employee Center. On the home page, navigat
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Workplace Core** &gt; **Workplace service portal**.
+1.  Navigate to **All** &gt; **Self-service** &gt; **Employee Center**.
 
-    The Workplace Service Portal opens.
+2.  On the Employee Center portal, select **Help Center** &gt; **Workplace Services**.
 
-2.  Open the **General** category where the workplace service is located, do the following:
+3.  From the list of workplace services, select **Reconfigure an office space**.
 
-    1.  Click **Catalog**.
-
-    2.  Click **Browse by Categories**.
-
-    3.  In the Workplace Services Catalog, select **General**.
-
-        **Note:** If there are multiple catalogs configured on the portal, go to the Catalogs list and select **Workplace Services Catalog** &gt; **General**.
-
-3.  Select **Reconfigure an office space**.
+    Alternatively, you can search for the workplace service and select it from the search results.
 
 4.  On the form, fill in the fields.
 
@@ -58,7 +50,7 @@ You can also raise a request from the Employee Center. On the home page, navigat
 
 5.  **Add attachments** if required.
 
-6.  Click **Submit**.
+6.  Select **Submit**.
 
 
 ## Result
@@ -67,9 +59,9 @@ Your request is submitted.
 
 ## What to do next
 
-You can check the details of your request or choose to cancel it anytime using the Workplace Service Portal or the Now Mobile app. Click **Cancel Request** to cancel the request.
+You can check the details of your request or choose to cancel it anytime using the Employee Center or the Now Mobile app. Select **Cancel Request** to cancel the request.
 
--   On Workplace Service Portal, go to the Requests tab to view your requests and reservations.
+-   On Employee Center, go to the Requests tab to view your requests and reservations.
 -   On the Now Mobile app's navigation bar, tap **For Me** and scroll down to the My Request section to view your requests.
 
 When the request is resolved, select **Accept** or **Reject** based on the resolution received.

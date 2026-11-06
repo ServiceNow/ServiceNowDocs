@@ -7,9 +7,9 @@ release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Automated Test Framework use case examples, Automated Test Framework \(ATF\) reference, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
+breadcrumb: [Automated Test Framework use case examples, Automated Test Framework \(ATF\) reference, Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
 ---
 
 # Automated Test Framework use case: test a Service Catalog request
@@ -22,7 +22,7 @@ Role required: atf\_test\_admin
 
 ## About this task
 
-With the Replay Request Item test step, you can test the service catalog ordering process once a request exists and has a record in the request item table. In the Australia release, you cannot create an automated test for the process by which the user creates a new request.
+With the Replay Request Item test step, you can test the service catalog ordering process once a request exists and has a record in the request item table. In the Brazil release, you cannot create an automated test for the process by which the user creates a new request.
 
 \[Omitted image "atf-use-serv-cat.png"\] Alt text: Test steps
 

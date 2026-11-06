@@ -7,7 +7,7 @@ release: australia
 product: Time Card Management
 classification: time-card-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Time cards, Time Card management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -22,7 +22,7 @@ Role required: timecard\_approver or timecard\_admin
 
 ## About this task
 
-You can view only those time cards that are submitted to you for approval or you have been delegated as the time card approver by one of the other user managers. The [time sheet policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/time-card-management/create-time-sheet-policy.md) assigned to the user governs the approval process.
+You can only view the time cards that are submitted or delegated to you for your approval. The [time sheet policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/time-card-management/create-time-sheet-policy.md) assigned to the user governs the approval process.
 
 ## Procedure
 
@@ -30,7 +30,7 @@ You can view only those time cards that are submitted to you for approval or you
 
 2.  Select the time card to approve or reject.
 
-3.  Click **Approve** or **Reject**.
+3.  Select **Approve** or **Reject**.
 
 
 ## Result

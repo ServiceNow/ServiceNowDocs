@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Set up a profile for scheduled notable event ingestion, Create an event profile, Splunk Enterprise Security event ingestion integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -140,15 +140,15 @@ Create custom mappings by adding or removing the fields on the mapping grid on t
 
 10. Choose one to continue with the profile configuration.
 
-<table id="choicetable_svs_ttl_kdb"><thead><tr><th align="left" id="d518554e472">
+<table id="choicetable_svs_ttl_kdb"><thead><tr><th align="left" id="d521852e472">
 
 Option
 
-</th><th align="left" id="d518554e475">
+</th><th align="left" id="d521852e475">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d518554e481">
+</th></tr></thead><tbody><tr><td id="d521852e481">
 
 ** **
 
@@ -156,7 +156,7 @@ Description
 
  
 
-</td></tr><tr><td id="d518554e488">
+</td></tr><tr><td id="d521852e488">
 
 **Continue**
 
@@ -164,7 +164,7 @@ Description
 
 The Mapping form is displayed. **Preview** is selected on the progress bar. The next step is to preview the fields you mapped on a SIR security incident.
 
-</td></tr><tr><td id="d518554e505">
+</td></tr><tr><td id="d521852e505">
 
 **Update**
 
@@ -172,7 +172,7 @@ The Mapping form is displayed. **Preview** is selected on the progress bar. The 
 
 Your data is saved and the Splunk Event Profiles list is displayed.
 
-</td></tr><tr><td id="d518554e514">
+</td></tr><tr><td id="d521852e514">
 
 **Previous**
 
@@ -180,7 +180,7 @@ Your data is saved and the Splunk Event Profiles list is displayed.
 
 The Notable Event Selection form is displayed.
 
-</td></tr><tr><td id="d518554e524">
+</td></tr><tr><td id="d521852e524">
 
 **Delete**
 

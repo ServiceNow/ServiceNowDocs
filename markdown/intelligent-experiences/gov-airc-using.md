@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-10-03"
 reading_time_minutes: 3
 keywords: [use]
-breadcrumb: [Managing risk and compliance, Govern AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Managing risk and compliance, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Reviewing AI governance posture and compliance status

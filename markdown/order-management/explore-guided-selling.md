@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/explore-guided-selling.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [guided selling, opportunity stages, stage exit criteria, playbook, action center]
 breadcrumb: [Opportunity Management, Sales automation, Explore, Sales Customer Relationship Management]

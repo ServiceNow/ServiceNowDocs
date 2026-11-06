@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-licensing-subscription-types.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
 ---
@@ -16,7 +16,7 @@ Purchase licensing subscriptions for ITOM products individually \(a la carte\), 
 
 You have the option to buy subscriptions for individual ITOM products separately \(a la carte\) or as part of a bundle with multiple products. You can also purchase both—a bundle subscription that covers most required applications and an a la carte subscription for applications that consume more subscription units.
 
-If your organization uses more subscriptions than estimated, you have the option to buy additional subscription units as needed. These units can be purchased for either a bundle or individual products \(a la carte\). However, if your organization uses ITOM applications in a bundle at various levels, you can choose to buy both — a bundle subscription covering most required applications and an a la carte subscription for those that require more subscription units.
+If your organization uses more subscriptions than estimated, you have the option to buy additional subscription units as needed. These units can be purchased for either a bundle or individual products \(a la carte\). However, if your organization uses ITOM applications in a bundle at various levels, you can buy both. Purchase a bundle subscription covering most required applications and an a la carte subscription for those that require more subscription units.
 
 **Note:** ITOM bundles also provide entitlement to Integration Hub to select spokes and protocols. ITOM Cloud Accelerate requires the additional Integration Hub Enterprise bundle entitlement.
 

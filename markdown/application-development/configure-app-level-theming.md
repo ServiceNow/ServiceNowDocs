@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-05"
 reading_time_minutes: 3
 keywords: [Configure app-level theming, Extend component styles with tailwind.app.css, Register document-wide CSS with head.app.css, Verify, Next steps]
-breadcrumb: [Theming with Lux, Configure experiences, Lux Development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Theming with Lux, Configure experiences, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Configure app-level theming
@@ -97,5 +97,5 @@ For colors, shape, or fonts that a tenant theme should be able to change, use `t
 ## What to do next
 
 -   [Configure app-level theming](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/configure-app-level-theming.md) — configure rebrandable colors, shape, and fonts.
--    — available tokens and their default values.
+-   [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/design-tokens.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/design-tokens.md) — available tokens and their default values.
 

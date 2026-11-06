@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Adaptive authentication, Authentication, Access Management]
 ---
@@ -102,11 +102,11 @@ Yes \| No
 
 </td></tr><tr><td>
 
-Maximum number of trusted device a user can register \(glide.trusted.device.max.count\)
+Maximum number of trusted devices a user can register \(glide.trusted.device.max.count\)
 
 </td><td>
 
-It is the maximum number of trusted device a user can register.
+It is the maximum number of trusted devices a user can register.
 
 </td><td>
 

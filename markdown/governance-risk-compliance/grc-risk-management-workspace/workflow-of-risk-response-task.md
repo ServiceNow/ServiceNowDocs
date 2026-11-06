@@ -7,7 +7,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use Risk Workspace, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -41,13 +41,13 @@ The risk response task workflow consists of the following stages:
 
 -   **Respond to the risk response tasks**
 
-    After the risk response task is assigned, the risk response task owner moves the risk response task to the Work in progress state. In this stage, the risk response task owner defines a plan of action for the risk response task. After defining the plan of action, the task owner can request for approval from the approvers defined in the approval configurator. By default, a single level of approval is enabled for all types of risk response tasks, where the risk owner can approve the tasks. These approvals can be configured based on requirements. After the task owner request for approval, the risk response task moves to the Awaiting approval state.
+    After the risk response task is assigned, the risk response task owner moves the risk response task to the Work in progress state. In this stage, the risk response task owner defines a plan of action for the risk response task. After defining the plan of action, the task owner can request for approval from the approvers defined in the approval configurator. By default, two levels of approval apply to all types of risk response tasks. At level 1, the risk owner and the risk owning group must both approve the task. If the risk owning group is empty or inactive, only the risk owner approves. At level 2, the risk owner's manager approves the task after level 1 completes. You can configure these approvals based on requirements. After the task owner request for approval, the risk response task moves to the Awaiting approval state.
 
     **Important:** All action items associated with the risk response task must be closed to move the risk response task from Work in progress to Awaiting approval state.
 
 -   **Approve or reject the risk response task**
 
-    In the Awaiting approval state, the approvers defined in the approval configurator can review the plan of action and either approve or reject the risk response task. The risk response task moves to the Closed state, if the all the approvers approve the task. If any of the approvers reject the task, then the risk response task moves back to the Work in progress state.
+    In the Awaiting approval state, the approvers defined in the approval configurator can review the plan of action and either approve or reject the risk response task. The risk response task moves to the Closed state, if all the approvers approve the task. If any of the approvers reject the task, then the risk response task moves back to the Work in progress state.
 
 
 **Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)

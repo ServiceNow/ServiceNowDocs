@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/agentic-workflows-now-assist-retail.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage store inquiries, Retail]
+breadcrumb: [ServiceNow Otto for Retail Service Management \(RSM\), Retail]
 ---
 
 # Use ServiceNow Otto for Retail Service Management
@@ -42,6 +42,4 @@ Looking for an AI agent?
 **AI agents security**
 
 For security implementation guidance on AI agents and agentic workflows, see [Enable store inquiry AI agent trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-enable-store-inquiry-ai-agent.md).
-
-**Parent Topic:**[Manage store inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-manage-store-inquiries.md)
 

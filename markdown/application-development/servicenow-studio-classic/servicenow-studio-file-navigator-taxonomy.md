@@ -7,9 +7,9 @@ release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: reference
-last_updated: "2026-05-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 34
-breadcrumb: [Reference, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Reference, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # ServiceNow Studio Navigator panel taxonomy
@@ -199,7 +199,7 @@ Decision table
 
 Decision tables decouple decision logic from your code by creating and maintaining decision rules. Decision tables provide a single point where you can create, view, and modify decisions.
 
- For more information, see [Exploring decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/decision-designer-overview.md).
+ For more information, see [Exploring Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/decision-designer-overview.md).
 
 </td><td>
 
@@ -1703,7 +1703,7 @@ Report
 
 Reports display data visually to provide insights, track performance, and support data-driven decisions. For example, create and distribute reports that show the current state of instance data, such as the number of open incidents of each priority.
 
- For more information, see [Exploring reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/exploring-reporting.md).
+ For more information, see [Exploring Core UI reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/exploring-reporting.md).
 
 </td><td>
 
@@ -2198,7 +2198,7 @@ Page collections
 
 </td><td>
 
-Page collections are groups of pages that can be reused in experiences within tabs or modals.For more information, see [Page collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/page-collections.md).
+Page collections are groups of pages that can be reused in experiences within tabs or modals.For more information, see [Lux Page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/page-collections.md).
 
 </td><td>
 

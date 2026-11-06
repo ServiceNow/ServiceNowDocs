@@ -1,116 +1,157 @@
 ---
 title: Configure exception reason properties
-description: When real-time enforcement, enforce\_real\_time\_validation is set to true, Recommend level findings require an approved exception reason before the form can be saved.
+description: When real-time enforcement, enforce\_real\_time\_validation, is enabled, exception reasons can be configured for Suggest, Review, Recommend, and Act level findings based on the exception reason scope. The scope controls which finding levels can have exceptions. It doesn't decide which findings block a save.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/exception-reason-properties.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Configure Scan Engine parameters, Activate Scan Engine and review settings, Run Impact Guided Setup, Configuring Impact, Impact]
+last_updated: "2026-10-28"
+reading_time_minutes: 3
+breadcrumb: [Configure Scan Engine properties, Activate Scan Engine and review settings, Configuring Impact, Impact]
 ---
 
 # Configure exception reason properties
 
-When real-time enforcement, `enforce_real_time_validation` is set to `true`, Recommend level findings require an approved exception reason before the form can be saved.
+When real-time enforcement, `enforce_real_time_validation`, is enabled, exception reasons can be configured for Suggest, Review, Recommend, and Act level findings based on the exception reason scope. The scope controls which finding levels can have exceptions. It doesn't decide which findings block a save.
 
 ## Before you begin
 
-Role required: sn\_se.scan\_engine\_admin, sn\_se.scan\_engine\_read\_user, sn\_se.internal\_rest\_integration
+Role required: sn\_se.scan\_engine\_admin, sn\_se.scan\_engine\_read\_user, or sn\_se.internal\_rest\_integration
+
+## About this task
+
+This topic is the reference for each exception reason setting and its values. For an overview of exception reasons and the approval lifecycle, see [Exception handling in Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/exception-handling-overview.md). For setting the options in order, see [Configure exception approval behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-exception-reasons-scan-engine.md).
 
 ## Procedure
 
-1.  Select whether to **Enforce rejected exception reason validations**.
+1.  Navigate to **All** &gt; **Impact** &gt; **Configuration** &gt; **Scan Engine Properties** and select the **Exception Reason** tab.
 
-    When enabled, and if an exception reason is rejected, the object linked to that reason becomes read-only. Users cannot make additional changes until either:
+2.  Configure the following settings to control exception reason behavior.
 
-    -   The Recommend level message is resolved.
-    -   A new exception reason is submitted.
-    This ensures strict compliance with validation rules and prevents inconsistent or unauthorized updates while an exception is unresolved.
+<table><thead><tr><th>
 
-2.  Select whether to **Enable approvals in production**.
-
-    If `enable_exception_reason_approvals_in_production` is set to `false`, exceptions can only be approved in the instances in which they are raised.
-
-    **Note:** This setting is only applicable to development instances.
-
-3.  Approval groups will approve or reject exception requests and receive notifications.
-
-    -   Use the`Enable approvals in production` setting to control whether exceptions can be approved in production instances or only in development environments.
-    -   Approval group\(s\) displays the group or groups that will approve or reject exception reasons and also receive notifications when new approvals are requested.
-4.  Select whether to **Exclude approved exception reasons from technical debt**.
-
-    When enabled, findings with approved exception reasons will be excluded from technical debt metrics.
-
-    **Note:** This does not remove the finding from the system.
-
-5.  **Upon new finding found**, `er_finding_number_validation` , determines how exception reasons are handled when the same issue is detected again in a subsequent scan.
-
-    Options are: **Auto Accept Existing Reason** and **Re-approve Existing Reason**.
-
-6.  **Upon line number change**, `exception_reason_validation`
-
-    -   ``Determines how approved exception reasons are handled when the finding's line number changes in the code.
-    -   Options are **Auto Accept Existing Reason** \(default\) and **Re-approve Existing Reason**.
-    Choose whether to automatically accept the existing reason.
-
-    **Note:** When you deactivate Scan Engine definitions, the system handles base system and custom definitions differently to ensure accurate entitlement tracking and prevent quota overages.
-
-<table id="table_deactivation_behavior"><thead><tr><th>
-
-Scenario
+Field
 
 </th><th>
 
-Behavior
+Description
+
+</th><th>
+
+Values
 
 </th></tr></thead><tbody><tr><td>
 
-Direct deactivation of base system definition
+Exception reason scope
 
 </td><td>
 
--   The definition is deactivated via UI or API without creating an override record.
--   No override is recorded in the system.
+Determines which finding levels \(Suggest, Review, Recommend, or Act\) can have exception reasons submitted and approved. Choose the scope that matches your organization's exception workflow requirements.
+
+</td><td>
+
+-   **Recommend only** \(default\): Exception reasons can only be submitted for Recommend level findings. The other levels don't display exception submission options.
+-   **Act and Recommend**: Exception reasons can be submitted for both Act and Recommend level findings. Suggest and Review level findings don't display exception submission options.
+-   **All levels**: Exception reasons can be submitted for Suggest, Review, Recommend, and Act level findings. All four levels display exception submission options in the Findings panel.
 
 
 </td></tr><tr><td>
 
-Quota impact check after deactivation
+Enforce rejected exception reason validations
 
 </td><td>
 
--   Deactivated base system definitions are excluded from active definition counts.
--   They do not count toward custom definition quotas.
--   System recalculates entitlements accurately when definitions change status.
+-   When enabled and an exception reason is rejected, the object linked to that reason is set to read-only.
+-   Users can't make additional changes until the finding message is resolved or a new exception reason is submitted.
+-   This confirms strict conformance with validation rules and prevents inconsistent or unauthorized updates while an exception is unresolved.
+-   The setting applies to production and non-production instances.
+
+
+</td><td>
+
+Selected or cleared
+
+</td></tr><tr><td>
+
+Enable approvals in production \(**enable\_exception\_reason\_approvals\_in\_production**\)
+
+</td><td>
+
+-   Controls whether exceptions can be approved in production instances or only in development environments.
+-   When disabled, exceptions can only be approved in the instances in which they are raised.
+-   Select this setting on each non-production instance where you want exceptions approved in production.
+    -   The setting is read-only on production and doesn't sync between instances.
+    -   It is available after the instance is registered in My SN Instances. See [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/register-your-instance.md).
+
+
+</td><td>
+
+Selected or cleared
+
+</td></tr><tr><td>
+
+Approval group\(s\)
+
+</td><td>
+
+-   The group or groups that approve or reject exception reasons and receive notifications when new approvals are requested.
+-   Set the approval groups on the production instance, as they don't sync between instances.
+
+
+</td><td>
+
+Select one or more approval groups
+
+</td></tr><tr><td>
+
+Exclude approved exception reasons from technical debt
+
+</td><td>
+
+-   When enabled, findings with approved exception reasons are excluded from technical debt metrics.
+-   This does not remove the finding from the system.
+
+
+</td><td>
+
+Selected or cleared
+
+</td></tr><tr><td>
+
+Upon new finding found \(**er\_finding\_number\_validation**\)
+
+</td><td>
+
+Determines how an existing approved exception reason is handled when the same issue is detected again in a subsequent scan.
+
+</td><td>
+
+-   **Auto Accept Existing Reason**: The existing approved reason carries forward automatically, and no re-approval is required.
+-   **Re-approve Existing Reason**: The existing reason is suspended and must be re-reviewed before it takes effect again.
 
 
 </td></tr><tr><td>
 
-Override-then-deactivate existing workflow
+Upon line number change \(**exception\_reason\_validation**\)
 
 </td><td>
 
--   When a base system definition is overridden and then deactivated, the behavior remains unchanged.
--   The deactivated override does not count as a custom definition.
-
-
-</td></tr><tr><td>
-
-Entitlement hashing integrity
+Determines how an approved exception reason is handled when the finding's line number changes in the code, for example after a refactor.
 
 </td><td>
 
--   All combinations of base system and overridden definitions in active or inactive states produce consistent entitlement hash results.
--   No regressions occur for states that existed before this feature was introduced.
+-   **Auto Accept Existing Reason** \(default\): The exception reason stays approved even if the line number shifts. Use this when minor code movement is expected.
+-   **Re-approve Existing Reason**: Any line number change requires re-review. Use this when line position is meaningful to the exception context.
 
 
 </td></tr></tbody>
-</table>    **Note:** Deactivating a definition does not remove it from the system. It only changes the active status. If you need to completely remove a definition, contact your system administrator.
+</table>
+## Result
 
+The system decides who can approve or reject an exception as follows. When **Enable approvals in production** is selected, the system checks whether the user is in an approval group. If so, the user can approve or reject the exception. If not, the system checks whether the user has the Scan Engine exception approver role, sn\_se.scan\_engine\_exception\_approver. When the setting is cleared, approval or rejection happens only in the instance where the exception was raised, and the system checks for the approver role.
 
 -   **[Configure exception approval behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-exception-reasons-scan-engine.md)**  
-Configure how exception reasons are enforced, approved, and re-evaluated when findings are detected using the ServiceNow Scan Engine.
+Configure how exception reasons are enforced, approved, and re-evaluated when findings are detected using the Scan Engine. Settings control exception behavior.
 
-**Parent Topic:**[Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-scan-engine-properties.md)
+**Parent Topic:**[Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-scan-engine-properties.md)
 

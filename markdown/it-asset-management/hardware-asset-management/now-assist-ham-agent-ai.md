@@ -7,7 +7,7 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2025-11-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [AI in Hardware Asset Management, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
@@ -19,4 +19,6 @@ Streamline asset management tasks in the Hardware Asset Workspace by using the g
 |Generative AI skill name|Description|Introduced inServiceNow Otto for HAM version|
 |------------------------|-----------|--------------------------------------------|
 |[Generate hardware asset insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/generate-asset-analysis-now-assist-ham.md)|Generates comprehensive asset summaries and actionable recommendations for the asset.|ServiceNow Otto for Hardware Asset Management \(HAM\) v4.0|
+
+**Parent Topic:**[AI in Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/ai-in-ham.md)
 

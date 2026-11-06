@@ -1,20 +1,20 @@
 ---
 title: Copy time cards from a previous time sheet
-description: Another option for creating time cards is to copy them from an existing timesheet, which copies all the time cards \(for project as well as non-project tasks\) from a selected time sheet.
+description: You can copy time cards from an existing time sheet, which copies all the time cards \(for project and non-project tasks\) from a selected time sheet.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/time-card-management/copy-time-sheet.html
 release: australia
 product: Time Card Management
 classification: time-card-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create time card, Time cards, Time Card management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Copy time cards from a previous time sheet
 
-Another option for creating time cards is to copy them from an existing timesheet, which copies all the time cards \(for project as well as non-project tasks\) from a selected time sheet.
+You can copy time cards from an existing time sheet, which copies all the time cards \(for project and non-project tasks\) from a selected time sheet.
 
 ## Before you begin
 
@@ -52,7 +52,7 @@ You can also perform this task from the [Time Sheet Portal](https://raw.githubus
 
 -   If the previous time sheet has rate types and the time sheet policy of the user allows rate types, then rate types are also copied into the current time sheet.
 
--   If the previous time sheet has rate types, but the time sheet policy of the user no longer allows rate types, then rate types are not copied to the current time sheet.
+-   If the previous time sheet has rate types, but the time sheet policy of the user no longer allows rate types, then rate types aren't copied to the current time sheet.
 -   If the previous time sheet has a rate type that is inactive, that rate type is not copied. If necessary, the user can enter a different rate type before saving the individual time cards.
 
 **Parent Topic:**[Create a time card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/time-card-management/t_CreateATimeCard.md)

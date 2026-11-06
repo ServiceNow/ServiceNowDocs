@@ -7,7 +7,7 @@ release: australia
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Integration Hub - Import, Import and stream data, Integration Hub, Workflow Data Fabric]
 ---
@@ -94,7 +94,7 @@ Role required: admin or ih\_import.
         4.  Select **Done**.
     6.  Change or modify your data by applying transform functions.
 
-        For example, you can use the Uppercase transform function to change an input string to all uppercase characters. For more information, see Transform functions.
+        For example, you can use the Uppercase transform function to change an input string to all uppercase characters. For more information, see [Transform functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/transform-functions.md).
 
         **Note:** Not all the transform functions available while creating flows and subflows are available in Integration Hub - Import.
 

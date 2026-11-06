@@ -42,7 +42,7 @@ When creating a domain, follow these general guidelines:
 
 4.  Create a domain with the same name as the account by selecting **Save**.
 
-    For example, when you create an account named ParentDomain under the global scope, you also create a domain with the same name. All the domains that are created under the global scope are under the TOP \(top level\) domain. If you create an account called ChildDomain within the ParentDomain domain, the domain with the same name is also created under the ParentDomain domain.
+    For example, when you create an account named ParentDomain under the global scope, you also create a domain with the same name. All the domains that are created under the global scope will be under the TOP \(top level\) domain. If you create an account called ChildDomain within the ParentDomain domain, the domain with the same name is also created under the ParentDomain domain.
 
 5.  Navigate to **All** &gt; **Domain Admin** &gt; **Domains**.
 

@@ -46,7 +46,7 @@ When you try to [Add a playbook as an MCP tool](https://raw.githubusercontent.co
 
     When the playbook compatibility status is **Compatible**, you can add it to an MCP server as an MCP tool.
 
-    To check the compatibility status of subflows and actions used in the playbook, select **All** and enter `sn_fd_genai_mcp_staging_action_tool.list` \(for actions\) or `sn_fd_genai_mcp_staging_subflow_tool.list`\(for subflows\) in the search box. To be compatible as an MCP tool, the subflows and actions need an AI ACL. For more information, see [Create an AI ACL for a Subflow or Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ai-acl.md).
+    To check the compatibility status of subflows and actions used in the playbook, select **All** and enter `sn_fd_genai_mcp_staging_action_tool.list` \(for actions\) or `sn_fd_genai_mcp_staging_subflow_tool.list`\(for subflows\) in the search box. To be compatible as an MCP tool, the subflows and actions need an AI ACL. For more information, see .
 
 
 ## What to do next

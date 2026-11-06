@@ -7,7 +7,7 @@ release: australia
 product: Content Management System
 classification: content-management-system
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Content Management meta tags, Configure Content Management sites, Content Management System, Configure UIs and portals, Configure user experiences]
 ---

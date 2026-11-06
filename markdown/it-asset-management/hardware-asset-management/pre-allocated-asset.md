@@ -7,7 +7,7 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
@@ -23,4 +23,6 @@ For example, pre-installed, pre-allocated servers can be set up in server racks 
 **Note:** Warranties aren’t active until an item is installed. Therefore, until an asset is allocated and assigned, it isn’t under warranty.
 
 You can create a pre-allocated asset, allocate the assets from pre-allocated asset records, and also split a pre-allocated asset to create a group that can be moved to a different stockroom. For more information, see [Manage pre-allocated assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/manage-preallocated-asset.md).
+
+**Parent Topic:**[Exploring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/exploring-ham.md)
 

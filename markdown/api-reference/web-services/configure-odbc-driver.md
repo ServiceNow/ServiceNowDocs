@@ -7,7 +7,7 @@ release: australia
 product: Web Services
 classification: web-services
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Access your ServiceNow data using Live Connect, Additional integration resources, Web services, API implementation, API implementation and reference]
 ---
@@ -18,9 +18,7 @@ Configure the ODBC driver with your instance URL, BCFIPS JAR file paths, and aut
 
 ## Before you begin
 
-Confirm that you have the following:
-
--   A valid ServiceNow user account \(personal or service account\) with the required roles. See [Assign roles and create service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/create-service-account.md).
+-   A valid ServiceNow user account \(personal or service account\) with the required roles must be available. See [Assign roles and create service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/create-service-account.md).
 -   The client machine IP address must be included in the Live Connect IP filter criteria. See [Create IP filter criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/create-ip-filter-criteria.md).
 -   The ServiceNow instance URL and user account credentials must be available.
 
@@ -50,7 +48,7 @@ Role required: admin
 
     2.  Update the value to set OAuth to True and provide OAuth client ID, client secret, token URL, access token, refresh token.
 
-        OAuth properties are described in [OAuth connection properties for ODBC and JDBC drivers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/oauth-connection-properties-for-odbc-and-jdbc-drivers.md)
+        OAuth properties are described in [OAuth connection properties for ODBC and JDBC drivers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/oauth-connection-properties-for-odbc-and-jdbc-drivers.md).
 
         For example, you can enter the value in this pattern: `url=https://<instance>.service-now.com;UseOAuth=True;`
 

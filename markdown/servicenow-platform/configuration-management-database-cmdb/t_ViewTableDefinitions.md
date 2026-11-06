@@ -7,8 +7,8 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [CMDB classifications and class dependency, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -24,7 +24,7 @@ Role required: Per item as specified
 
 The [CI Class Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/ci-class-manager-landing-page.md) shows the entire CMDB class hierarchy in a tree-view format, consolidating class definitions into a central location. It lets you show metadata information for a class, such as reconciliation rules, mandatory and recommended fields, and audit templates. You can also select a specific class to view, to modify, or to extend its definition to create a derived class. For each class, you can directly access CMDB Health settings, identification and reconciliation rules, orphan scorecard, and certificate template, defined for the class.
 
-For more information about extending a class and how attributes are derived from a parent class in that process, see [Table extension and classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-extension-and-classes.md).
+For more information about extending a class and how attributes are derived from a parent class in that process, see .
 
 ## Procedure
 
@@ -41,7 +41,7 @@ For more information about extending a class and how attributes are derived from
 
         -   **Attributes**:Shows table attributes \(columns\). Lets you edit those attributes and add new ones. For description of the different attributes in the list view, see [Dictionary entry form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_DictionaryEntryForm.md).
 
-            Role required: personalize\_dictionary for reading and writing
+            Role required: sn\_cmdb\_admin, itil\_admin, and personalize\_dictionary for reading and writing, and sn\_cmdb\_editor and itil for read access.
 
             To add an attribute:
 
@@ -60,7 +60,7 @@ For more information about extending a class and how attributes are derived from
 
         -   **Suggested Relationships**: Shows a diagram of all suggested relationships for the class, and lets you delete or add suggested relationships for the class. Use the navigation tools to increase or decrease the diagram, and to move the diagram on the page. Use the filter to show specific relationship types. See [Suggested class relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/r_SuggestedRelationshipModel.md) for more information.
 
-            Role required: sn\_cmdb\_editor or itil for reading, and sn\_cmdb\_admin or itil\_admin for writing
+            Role required: sn\_cmdb\_editor or itil for reading, and sn\_cmdb\_admin or itil\_admin for writing.
 
     -   **All Relationship Rules**: Shows a combined diagram of all suggested relationships and all dependent relationships for the class. Use the navigation tools to zoom in or out, and to move or center the diagram on the page. Use the filter to show specific relationship categories.
 
@@ -80,19 +80,19 @@ For more information about extending a class and how attributes are derived from
 **Related topics**  
 
 
-[Dependent CIs management]()
-
 [CMDB record types]()
 
 [Related Lists of CI components]()
+
+[Principal Class]()
+
+[Dependent CIs management]()
 
 [Create a CI class]()
 
 [Reclassify a CI]()
 
 [Delete CIs]()
-
-[Principal Class]()
 
 [Create or modify map icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/dependency-views/t_CreateModifyNGBSMMapIcons.md)
 

@@ -1,20 +1,20 @@
 ---
-title: Guidances in Recommended Actions for Customer Service
+title: Guidances in Recommended Actions for Service
 description: A guidance is an action that an agent can take or information that an agent can share as they work to resolve tasks, such as customer service cases. Guidances appear as cards in the contextual side panel in a workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ra-csm-custom-guidances.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Recommended Actions for Service, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
 
-# Guidances in Recommended Actions for Customer Service
+# Guidances in Recommended Actions for Service
 
 A guidance is an action that an agent can take or information that an agent can share as they work to resolve tasks, such as customer service cases. Guidances appear as cards in the contextual side panel in a workspace.
 
-The Recommended Actions for Customer Service application includes custom guidances for the following tables:
+The Recommended Actions for Service application includes custom guidances for the following tables:
 
 -   Knowledge
 -   Case

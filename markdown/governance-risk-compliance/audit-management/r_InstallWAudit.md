@@ -7,9 +7,9 @@ release: australia
 product: Audit Management
 classification: audit-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Audit Management reference, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Reference, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Components installed with Audit Management
@@ -83,7 +83,7 @@ sn\_audit\_advanced.role\_documentation \_link
 
 </td><td>
 
-Documentation link for role requirements for enabling and using advanced planning feature \(with PPM integration\). Type: string
+Documentation link for role requirements for enabling and using the advanced planning feature \(with PPM integration\). Type: string
 
 </td><td>
 
@@ -151,7 +151,7 @@ Audit approver \[sn\_audit.approver\]
 
 </td><td>
 
-The audit approver can approve an engagement and audit plan. The user with this role can be a part of approver list and the role is classified as Lite operator role.
+The audit approver can approve an engagement and audit plan. The user with this role can be a part of the approver list and the role is classified as a lite operator role.
 
 </td><td>
 
@@ -200,7 +200,7 @@ Audit Manager\[sn\_audit.manager\]
 
 </td><td>
 
-In addition to the inherited permissions, the audit manager can create audit tasks \(such as control tests, activities, walkthroughs, and interviews\). The audit manager can also create engagements, test plans, test templates, issues, remediation tasks, and entities. If Advanced Core is installed, the audit manager can create evidence requests.
+In addition to the inherited permissions, the audit manager can create audit tasks \(such as control tests, activities, walkthroughs, and interviews\). The audit manager can also create engagements, test plans, test templates, issues, remediation tasks, and entities. If Advanced Core is installed, the audit manager can also create evidence requests.
 
 </td><td>
 

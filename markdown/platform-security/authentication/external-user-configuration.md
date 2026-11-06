@@ -7,9 +7,9 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Self-register to ServiceNow instance, Authentication, Access Management]
+breadcrumb: [Self-registration to ServiceNow instance, Authentication, Access Management]
 ---
 
 # Configure a user registration configuration for external users
@@ -23,7 +23,7 @@ Create a user registration configuration record to bootstrap the onboarding proc
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **External User Self-Registration** &gt; **User Registration Configurations** and click **New**.
+1.  Navigate to **All** &gt; **External User Self-Registration** &gt; **User Registration Configurations** and select **New**.
 
 2.  On the form, fill in the fields.
 
@@ -49,7 +49,7 @@ Roles assigned to provisioned users
 
 </td><td>
 
-Roles assigned to the provisioned users. The specified roles have to extend or contains the `snc_external` role. The specified role can also be `snc_external` role. For external users, each role must have an `snc_external` to notate an external user. If you have pre-configured roles, the roles should be accessible when you unlock the roles and search for users.
+Roles assigned to the provisioned users. The specified roles have to extend or contain the `snc_external` role. The specified role can also be `snc_external` role. For external users, each role must have an `snc_external` to notate an external user. If you have pre-configured roles, the roles should be accessible when you unlock the roles and search for users.
 
 </td></tr><tr><td>
 
@@ -100,7 +100,7 @@ Enable CAPTCHA
 Option to add a CAPTCHA to the registration form. The default CAPTCHA provider is Google reCAPTCHA.**Note:** To enable CAPTCHA for user registration, follow the steps in [Configure Google reCAPTCHA for external user self-registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/configure-recaptcha-sp.md).
 
 </td></tr></tbody>
-</table>3.  Click **Submit**.
+</table>3.  Select **Submit**.
 
     A user registration configuration with the default settings is created.
 
@@ -110,9 +110,9 @@ Option to add a CAPTCHA to the registration form. The default CAPTCHA provider i
 
     |Column|Description|
     |------|-----------|
-    |Display in Registration Form|Set any field you want to display as `True`.|
+    |Display in Registration Form|Set any field to display as `True`.|
     |Order|Set an order number to display fields on your form.|
-    |Mandatory|Set any field you want to make it mandatory as `True`.|
+    |Mandatory|Set any field to make it mandatory as `True`.|
     |Validation only field|Set any field you want to use only for validation. For example, registration code.|
 
     You can choose to display the default form fields or you can add custom form fields to the Registration Form. For more information, see [Default registration form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/default-reg-form-fields.md).

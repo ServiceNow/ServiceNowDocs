@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 4
 breadcrumb: [IP address management, Inventory number allocation, Explore, Telecommunications Network Inventory]
 ---
@@ -36,7 +36,7 @@ Using the IP address allocation, you can create, view, and update IP Address Blo
 
 -   **Managed Network**
 
-    A network scope within which an IP Address Block's CIDR must be unique. The same CIDR may exist in different Managed Networks without conflict. The Managed Network assigned to an IP Address Block propagates to its IP Subnetworks and cannot be changed at a lower level. For more information, see [Create a managed network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create_managed_network.md).
+    A network scope within which an IP Address Block's CIDR must be unique. The same CIDR may exist in different Managed Networks without conflict. The Managed Network assigned to an IP Address Block propagates to its IP Subnetworks and cannot be changed at a lower level. For more information, see [Create Managed Network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create_managed_network.md).
 
 
 ## IP allocation methods
@@ -75,5 +75,5 @@ Both relationship types are visible on each IP Address record's Related Items pa
 
 [Create an IP Address record at subnet level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create-an-ip-address-record-at-subnet-level.md)
 
-[Create a managed network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create_managed_network.md)
+[Create Managed Network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/create_managed_network.md)
 

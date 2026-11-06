@@ -7,7 +7,7 @@ release: australia
 product: Platform Encryption
 classification: platform-encryption
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring the Key Management Framework, Key Management Framework, Encryption]
 ---
@@ -28,7 +28,7 @@ Role required: sn\_kmf.cryptographic\_manager and security\_admin
 
 2.  From the Field Encryption Settings, select either **ServiceNow Generated Keys** or **Customer Supplied Keys** from the **Key Source** list.
 
-    \[Omitted image "field-encryption-settings-choices.png"\] Alt text: Key source selection
+    \[Omitted image "field-encryption-settings-choices.png"\] Alt text:
 
     This option changes the `com.glide.encryption.cle_kmf.key_source` property to either **ServiceNow Generated Keys** or **Customer Supplied Keys**.
 

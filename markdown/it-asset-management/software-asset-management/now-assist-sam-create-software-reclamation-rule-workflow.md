@@ -7,7 +7,7 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use agentic workflows, Using AI in Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -24,7 +24,7 @@ Use the Create software reclamation rule agentic workflow to streamline and auto
 
 Roles required: sam\_admin.
 
-Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/implement-aias-security-new.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use role masking to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
 ## Create software reclamation rule agentic workflow
 
@@ -84,7 +84,7 @@ The agentic workflow is initiated.
 2.  Select **Create reclamation rule**
 3.  Select the Otto icon \[Omitted image "icon-otto-outline-24.svg"\] Alt text: on the top-right side of the workspace to open the panel.
 
-If the panel is already open, select the hamburger icon.
+If the Otto panel is already open, select the hamburger icon.
 
 4.  Select a product from a list of products that need reclamation rules and then select **Submit**.
 

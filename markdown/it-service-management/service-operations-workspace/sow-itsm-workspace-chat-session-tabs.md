@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Configuring Interaction Management in Service Operations Workspace, Configuring Service Operations Workspace for ITSM to improve your experience, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -16,9 +16,9 @@ breadcrumb: [Configuring Interaction Management in Service Operations Workspace,
 
 Use visual indicators on chat session tabs, such as colors and icons, to alert agents about unread messages and SLA threshold timers.
 
-The chat session tabs feature helps agents to manage multiple interactions efficiently. Agents can use visual indicators to reduce the risk of threshold timer breaches, improve chat prioritization, and optimize response times. This feature enables agents to multitask effectively while maintaining service level commitments.
+The chat session tabs feature helps agents manage multiple interactions. Agents can use visual indicators to reduce the risk of threshold timer breaches, improve chat prioritization, and optimize response times. This feature enables agents to multitask while tracking service level commitments.
 
-The chat session tabs feature introduces a color-coded system for chat session tabs in Configurable Workspace based on configured Service Level Agreement \(SLA\) thresholds. Additional visual indicators alert agents about unread messages, chat status, and unsaved changes. These visual cues help agents to prioritize their interactions by tracking chat duration and alerting them when conversations require immediate attention.
+The chat session tabs feature introduces a color-coded system for chat session tabs in Configurable Workspace based on configured Service Level Agreement \(SLA\) thresholds. Additional visual indicators alert agents about unread messages, chat status, and unsaved changes. These visual cues help agents prioritize their interactions by tracking chat duration and alerting them when conversations require immediate attention.
 
 ## Key features
 
@@ -40,7 +40,7 @@ Real-time duration tracking for chat sessions
 
 This feature actively tracks the duration of a chat and alerts the agent when predefined SLA thresholds are reached.-   The timer begins when a customer sends a message to an agent and the tab for that chat interaction is inactive.
 -   The inactive tab cycles through different colors to alert the agent to the unread message and the approaching SLA thresholds.
--   The timer resets once the agent engages with the tab.
+-   The timer resets after the agent selects the tab.
 
 </td></tr><tr><td>
 
@@ -78,7 +78,7 @@ Unsaved changes indicator
 
 </td><td>
 
-A gray circle on a chat session tab indicates that there are unsaved changes on the tab. The circle disappears once the changes are saved.
+A gray circle on a chat session tab indicates that there are unsaved changes on the tab. The circle disappears after the changes are saved.
 
 </td></tr></tbody>
 </table>## Benefits
@@ -86,8 +86,8 @@ A gray circle on a chat session tab indicates that there are unsaved changes on 
 The chat session tabs feature provides the following benefits.
 
 -   Improved prioritization: Agents can visually track the SLA status of each chat by glancing at the tab color and use that information to prioritize customer responses.
--   Agent multitasking: Tab color changes and real time notifications help agents to handle multiple interactions simultaneously, minimizing the risk of missing crucial chats.
--   Agent productivity: The system helps agents respond more efficiently by highlighting conversations based on urgency, improving customer engagement and satisfaction.
+-   Agent multitasking: Tab color changes and real-time notifications help agents to handle multiple interactions simultaneously, minimizing the risk of missing crucial chats.
+-   Agent productivity: The system highlights conversations based on urgency to help agents respond.
 
 ## Tab colors
 
@@ -137,7 +137,7 @@ Purple
 Indicates an inactive tab that has one or more unread messages from a customer.The chat duration timer begins when the first message is received. The tab remains purple for 0-30 seconds \(default value\), at which point the timer reaches the warning SLA threshold level.
 
 -   The inactive tab cycles through different colors to alert the agent about the unread message and the approaching SLA thresholds.
--   The timer resets once the agent engages with the tab.
+-   The timer resets after the agent selects the tab.
 
 </td></tr><tr><td>
 
@@ -237,7 +237,7 @@ Manual transfer
 
 When an agent manually transfers a chat to another agent and the new agent accepts the chat:-   The unread messages counter isn’t displayed on the chat session tab.
 -   The separator isn’t displayed between new and older messages. The interaction is treated as new for the receiving agent.
--   The new agent experiences the tab color changes as configured by the admin when new messages arrive from the customer.
+-   The new agent experiences the tab color changes as configured by the administrator when new messages arrive from the customer.
 -   The new agent sees the unread messages counter update when new messages arrive.
 
 </td></tr><tr><td>
@@ -248,7 +248,7 @@ Automatic transfer
 
 When a chat is automatically transferred to another agent or to a queue:-   The unread messages counter isn’t displayed on the chat session tab. All messages in the chat are in an unread state for the new agent.
 -   The separator isn’t displayed between new and older messages. The interaction is treated as new for the receiving agent.
--   The new agent experiences the tab color changes as configured by the admin when new messages arrive from the customer.
+-   The new agent experiences the tab color changes as configured by the administrator when new messages arrive from the customer.
 -   The new agent sees the unread messages counter update when new messages arrive.
 
 </td></tr></tbody>
@@ -258,7 +258,7 @@ When an agent seeks help from a colleague or manager using the [Agent Whisper](h
 
 ## Configuring the chat session tabs feature
 
-Users with the administrator role can enable the chat sessions tab feature and configure SLA threshold timers for chat sessions from the SOW admin center.
+Users with the administrator role can enable the chat session tabs feature and configure SLA threshold timers for chat sessions from the SOW admin center.
 
 When this feature is enabled, chat session tabs display colors to indicate the chat status. These colors are determined by SLA threshold timers that alert agents of impending SLA breaches. This feature includes two SLA threshold timers with default settings:
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/i-o-reports.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Monitor instance performance, Platform Health, Using Impact, Impact]
 ---

@@ -7,10 +7,10 @@ release: australia
 product: Now Assist Skills
 classification: now-assist-skills
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, Gen AI, Generative AI, Virtual Agent, AI Search, Configuring Now Assist, Now LLM, large language model, Knowledge content recommendation, Context menu]
-breadcrumb: [Skills in the Platform workflow, Skills, AI assets, Enable AI experiences]
+breadcrumb: [Skills in the Platform workflow, Skills, Generative AI skills, Enable AI Experiences]
 ---
 
 # Knowledge content recommendation

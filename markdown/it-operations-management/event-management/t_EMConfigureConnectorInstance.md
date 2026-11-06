@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -35,8 +35,6 @@ You can use a connector instance to control the location and manner in which eve
 -   Both the MID Server and the host are running in the same domain.
 -   The connector instance value fields are valid.
 -   A connection can be made to the event source, using API, to retrieve events.
-
-[Integrations Launchpad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/integrations-launchpad.md), available in the Service Operations Workspace, consolidates all Event Management connector integrations in one place. Use it to pull or push events from external or internal devices, create or manage connector configurations from a single interface.
 
 ## Procedure
 
@@ -86,6 +84,7 @@ Connector definition **Note:** Metric Intelligence connectors \(such as the AWS 
 
 The vendor and protocol used to gather events from the external event source. Select the connector definition that matches the source of external events. The options available in the base system are, for example: -   AWS CloudWatch
 -   AzureConnector
+-   Datadog
 -   HPOM
 -   IBM Netcool
 -   NagiosXI
@@ -332,7 +331,7 @@ Configure the Opsview\_V2 connector instance to receive alerts from an Opsview M
 -   **[Configure PRTG connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-prtg-connector.md)**  
 Configure the PRTG connector instance to receive alerts from a Paessler PRTG Network Monitor source.
 -   **[Apache Kafka Consumer Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/apache-kafka-consumer-connector.md)**  
-The Apache Kafka Consumer connector instance enables you to create events from messages collected from the Apache Kafka topic as a JSON payload that contains essential information in a data block.
+The Apache Kafka Consumer connector creates events from messages collected from the Apache Kafka topic as a JSON payload in a data block.
 -   **[Configure the Kafka metrics connector instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-kafka-metrics-connector.md)**  
 Configure the Kafka metric consumer connector instance to read message send to Kafka server over topic.
 -   **[Configure SAP Solution Manager connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-sapsolman-connector.md)**  
@@ -347,6 +346,8 @@ Configure the VMware vCenter Server \(vCenter or vCenter\_V2\) connector instanc
 Configure the VMware vRealize Operations \(vRealize or vRealize\_V2\) connector instance to receive events from the vRealize Operations Log and Event Management servers. vRealize uses basic authentication. vRealize\_V2 uses token-based authentication.
 -   **[Configure event collection from Zabbix server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_EMConfigureZabbixConnector.md)**  
 Configure the Zabbix server connector instance to receiving alerts from the Zabbix server.
+-   **[Configure a Datadog work item connector instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-a-datadog-work-item-connector.md)**  
+Configure a Datadog work item to aggregate related alerts and signals from Datadog into a trackable operational problem.
 
 **Parent Topic:**[Configure Event Management connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/connectors-and-listeners.md)
 

@@ -7,9 +7,9 @@ release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Deep linking feature, Engagement Messenger, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Deep linking feature, Set up Engagement Messenger, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Launch a feature in Engagement Messenger using URL parameters
@@ -30,7 +30,7 @@ You can use URL parameters to display specific feature in Engagement Messenger. 
 
 **Note:**
 
-If you are using existing Embed code, ensure that you update the script to include `v=3.1`. For example:
+If you're using existing code, update the script to show the latest version. For example:
 
 \[Omitted image "em-version-no-update.png"\] Alt text: Engagement Messenger with the version number highlighted in the Embed code.
 
@@ -38,17 +38,19 @@ If you are using existing Embed code, ensure that you update the script to inclu
 
 1.  Navigate to **Engagement Messenger** &gt; **Modules**.
 
-2.  In the Configure Engagement Messenger Module, open the Implement tab.
+2.  Select the module.
 
-3.  Copy the code from the Embed code section.
+3.  In the Configure Engagement Messenger Module, open the Implement tab.
 
-4.  In a text editor, open the HTML file of the web page on your website where you integrate Engagement Messenger.
+4.  Copy the code from the Embed code section.
 
-5.  Paste the code you copied before the closing body tag.
+5.  In a text editor, open the HTML file of the web page on your website where you integrate Engagement Messenger.
 
-6.  Save the file.
+6.  Paste the code you copied before the closing body tag.
 
-7.  Modify the website URL to include the feature.
+7.  Save the file.
+
+8.  Modify the website URL to include the feature.
 
     ```
     https://website/page.html?feature=<FEATURE_NAME>&<PARAM_NAME1>=<PARAM_VALUE1>&<PARAM_NAME2>=<PARAM_VALUE2>
@@ -62,7 +64,7 @@ If you are using existing Embed code, ensure that you update the script to inclu
 
         Name and value of a parameter associated with the feature. To define multiple parameters, use the same format. For more information, see [Feature context parameters supported in Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/contextual-launch-supported-features.md).
 
-8.  Verify that the URL launches the designated feature automatically.
+9.  Verify that the URL launches the designated feature automatically.
 
 
 ## Result

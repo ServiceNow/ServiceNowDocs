@@ -1,26 +1,26 @@
 ---
 title: App deployment in ServiceNow Studio
-description: Deploy applications from ServiceNow Studio using several methods, including using deployment requests to move application and global file changes across instances. Deployment options depend on organizational preference and standards.
+description: Deploy applications from ServiceNow Studio using several methods, including deployment requests that move application and global file changes across instances. Deployment options depend on organizational preference and standards.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/app-deployment-servicenow-studio.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
-last_updated: "2026-05-26"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
-breadcrumb: [Use, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Use, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # App deployment in ServiceNow Studio
 
-Deploy applications from ServiceNow Studio using several methods, including using deployment requests to move application and global file changes across instances. Deployment options depend on organizational preference and standards.
+Deploy applications from ServiceNow Studio using several methods, including deployment requests that move application and global file changes across instances. Deployment options depend on organizational preference and standards.
 
 View and manage your deployment pipeline from within ServiceNow Studio, without switching to another application or environment.
 
 ## How are deployment requests created?
 
-When a developer selects **Publish** in an application, a deployment request is created and displays on the **Deployment** section of the ServiceNow Studio homepage, on the **Deployment requests** tab.
+When a developer selects **Publish** in an application, a deployment request is created and displays on the **Deployment requests** tab in the Deployment tab\[Omitted image "sn-studio-deployment-icon.png"\] Alt text:.
 
 Select a deployment record number to open it in a new tab, or select **New** to create a deployment request and attach update sets to it.
 
@@ -28,7 +28,7 @@ Select a deployment record number to open it in a new tab, or select **New** to 
 
 ## What options are available for app deployment?
 
-Available deployment methods vary depending on if you're on the core UI or the Next Experience.
+Available deployment methods vary depending on whether you use the core UI or the Next Experience.
 
 -   **Next Experience**
 
@@ -36,11 +36,11 @@ Available deployment methods vary depending on if you're on the core UI or the N
 
 -   **Core UI \(lists and forms\)**
 
-    **ReleaseOps**: Automates the deployment process using update sets and customizable pipelines. ReleaseOps orchestrates the entire process of deployment, including moving changes between instances, running scans and tests, and releasing changes, while providing transparency into the process for release managers and teams. For more information, see [ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/releaseops-landing.md).
+    **ReleaseOps**: Automates the deployment process using update sets and customizable pipelines. ReleaseOps orchestrates the entire process of deployment, including moving changes between instances, running scans and tests, and releasing changes. Using ReleaseOps provides transparency into the deployment process for release managers and teams. For more information, see [ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/releaseops-landing.md).
 
-    **Application Repository**: Central location for all scoped applications that are published by all ServiceNow customers. After you develop and test a custom application, you can make the application available to company instances by publishing it to this repository.
+    **Application Repository**: Central location for all scoped applications that are published by all ServiceNow customers. After you develop and test a custom application, publish it to this repository to make it available to company instances.
 
-    **Update sets**: Group of configuration changes that can be moved from one instance to another. Admins can group a series of changes into a named set and then move them as a unit to other systems for testing or deployment.
+    **Update sets**: Group of configuration changes that move from one instance to another. Admins can group a series of changes into a named set and then move them as a unit to other systems for testing or deployment.
 
 
 -   **[Update sets in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/working-with-update-sets-in-servicenow-studio.md)**  

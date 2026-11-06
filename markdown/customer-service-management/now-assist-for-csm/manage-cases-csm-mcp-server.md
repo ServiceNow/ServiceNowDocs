@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-08-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [CSM MCP Server, case management, MCP client, customer service cases]
 breadcrumb: [Set up the CSM MCP Server, CSM MCP Server, ServiceNow Otto for CSM, Customer Service Management]

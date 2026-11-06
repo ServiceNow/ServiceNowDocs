@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/a2a-protocol.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrate external AI agents, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Integrate external AI agents, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Agent2Agent Protocol

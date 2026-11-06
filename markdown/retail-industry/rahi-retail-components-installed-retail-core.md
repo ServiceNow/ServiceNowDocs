@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-retail-components-installed-retail-core.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Components installed with plugins, Reference, Retail]
 ---
@@ -162,7 +162,7 @@ This plugin supports the Service Model Foundation, where the corporation does bu
 
 </td></tr><tr><td>
 
-Customer Service
+Case Management Core
 
  \[com.sn\_customerservice\]
 

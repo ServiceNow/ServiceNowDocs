@@ -7,7 +7,7 @@ release: australia
 product: Impact Activity Center
 classification: impact-activity-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Impact Delivery Instance reference, Impact reference, Impact]
 ---
@@ -34,5 +34,5 @@ Scan all conversations you are included in. Start a conversation any time to ask
 -   **[Activity Center All Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-activity-center/recommendations-value-journey.md)**  
 View AI driven and expert suggested recommendations for training, content, and experts-on-demand offerings.
 
-**Parent Topic:**[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-delivery-instance-reference.md)
+**Parent Topic:**[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/idi-reference.md)
 

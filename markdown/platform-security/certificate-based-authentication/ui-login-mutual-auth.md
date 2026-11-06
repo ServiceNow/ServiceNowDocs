@@ -1,20 +1,20 @@
 ---
-title: Log in using Certificate-based authentication
-description: After your administrator sets up Certificate-based authentication, you can register the client certificate and log in using your PIV \(Personal Identity Verification\) or CAC \(Common Access Card\) card.Before you log in to ServiceNow AI Platform using your PIV or CAC card, you must register the client certificate of your PIV or CAC card. If you are not able to register the client certificate, contact your administrator. Your administrator can also register the client certificate of your PIV or CAC card.You can log in with your PIV or CAC card instead of user name and password when Certificate-based authentication is enabled on ServiceNow AI Platform.View and delete client certificates associated with your account.
+title: Log in using certificate-based authentication
+description: After your administrator sets up certificate-based authentication, you can register the client certificate and log in using your PIV \(Personal Identity Verification\) or CAC \(Common Access Card\) card.Before you log in to ServiceNow AI Platform using your PIV or CAC card, you must register the client certificate of your PIV or CAC card. If you are not able to register the client certificate, contact your administrator. Your administrator can also register the client certificate of your PIV or CAC card.You can log in with your personal identity verification \(PIV\) or Common Access Card \(CAC\) instead of user name and password when Certificate-based authentication is enabled on ServiceNow AI Platform.View and delete client certificates associated with your account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/certificate-based-authentication/ui-login-mutual-auth.html
 release: australia
 product: Certificate-based Authentication
 classification: certificate-based-authentication
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Certificate-based authentication, Authentication, Access Management]
 ---
 
-# Log in using Certificate-based authentication
+# Log in using certificate-based authentication
 
-After your administrator sets up Certificate-based authentication, you can register the client certificate and log in using your PIV \(Personal Identity Verification\) or CAC \(Common Access Card\) card.
+After your administrator sets up certificate-based authentication, you can register the client certificate and log in using your PIV \(Personal Identity Verification\) or CAC \(Common Access Card\) card.
 
 **Related topics**  
 
@@ -44,7 +44,7 @@ Before you log in to ServiceNow AI Platform using your PIV or CAC card, you must
 
 ### About this task
 
-If you need an admin to register your client certificate, see [Map PEM certificate to user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/certificate-based-authentication/set-up-mutual-auth.md).
+If you need an admin to register your client certificate, see [Map PEM certificate to user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/certificate-based-authentication/map-user-pem-certificate.md).
 
 ### Procedure
 
@@ -71,14 +71,14 @@ If you need an admin to register your client certificate, see [Map PEM certifica
 
 ## Log in to ServiceNow AI Platform using PIV or CAC card
 
-You can log in with your PIV or CAC card instead of user name and password when Certificate-based authentication is enabled on ServiceNow AI Platform.
+You can log in with your personal identity verification \(PIV\) or Common Access Card \(CAC\) instead of user name and password when Certificate-based authentication is enabled on ServiceNow AI Platform.
 
 ### Before you begin
 
 -   Role required: none
--   Make sure that Certificate-based authentication is enabled.
--   Make sure that a PIV or CAC card reader is connected to your computer.
--   Make sure that a client certificate of your PIV or CAC card is mapped to you. For more information, see [Register CA certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/certificate-based-authentication/set-up-mutual-auth.md).
+-   Certificate-based authentication must be enabled.
+-   A PIV or CAC card reader must be connected to your computer.
+-   A client certificate of your PIV or CAC card must be mapped to you. For more information, see [Register CA certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/certificate-based-authentication/map-ca-cert-chain.md).
 
 ### Procedure
 
@@ -100,7 +100,7 @@ You can log in with your PIV or CAC card instead of user name and password when 
 
     If the certificate is valid and mapped to you, you are redirected to the login page.\[Omitted image "piv\_cac\_card\_login.png"\] Alt text: Login page with PIV or CAC card option
 
-6.  Click **Log in with PIV/CAC card** button.
+6.  Select **Log in with PIV/CAC card** button.
 
     To log out of the ServiceNow AI Platform, you must remove the PIV or CAC from the card reader and then close the browser.
 

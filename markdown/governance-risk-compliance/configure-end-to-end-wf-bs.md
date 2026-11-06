@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/configure-end-to-end-wf-bs.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -16,7 +16,9 @@ Configure an end-to-end workflow for a business service to fetch the CSDM depend
 
 ## Before you begin
 
-Role required: sn\_oper\_res.manager
+Role required: sn\_oper\_res.manager with the itil user role, sn\_oper\_res.admin with the itil user role
+
+To create a business service, you also need a role that can create records on the Service \[cmdb\_ci\_service\] table, such as itil or sn\_cmdb\_editor. With the sn\_oper\_res.manager role alone, you can add existing business services to Operational Resilience reporting, but you can't create them.
 
 ## About this task
 
@@ -44,7 +46,7 @@ For instructions on creating the Main node configuration records, see [Configure
 
     The selected service is added to Operational Resilience reporting.
 
-5.  Verify that an entity is created for the business service on the Entity types page.
+5.  Verify that an entity is created for the business service and is active on the Entity types page.
 
     You can verify that the value of the Active column for the Business Services is set to **True**. Verify that the entity is listed in the **Entities** tab and it is marked as Active in the **Details** tab.\[Omitted image "bs-sample-ent-ty-pg.png"\] Alt text: Business Services.\[Omitted image "bs-sample-ent-listed.png"\] Alt text: Entity listed.
 

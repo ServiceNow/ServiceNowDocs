@@ -41,7 +41,7 @@ Step-to-job mapping creates the relationship between specific resolution steps a
 
 4.  Select **Review details** to open the mapping modal.
 
-    \[Omitted image "map\_ansible\_playbooks.png"\] Alt text: Map resolution steps to Ansible pllaybooks
+    \[Omitted image "map\_ansible\_playbooks.png"\] Alt text: Map resolution steps to Ansible playbooks
 
     This button appears only after the Ansible discovery agent has analyzed the automation opportunity and identified candidate job templates. If the button does not appear, confirm that the Ansible discovery agent has completed analysis.
 

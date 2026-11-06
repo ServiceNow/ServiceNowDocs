@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/define-sec-aia-new.html
 release: australia
 topic_type: task
-last_updated: "2026-07-21"
-reading_time_minutes: 4
-breadcrumb: [Create an AI agent, AI Agent Studio, Enable AI experiences]
+last_updated: "2026-10-23"
+reading_time_minutes: 3
+breadcrumb: [Create an AI agent, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Define access rules for an AI agent
@@ -16,7 +16,7 @@ Define security controls for an AI agent to determine which users can access it 
 
 ## Before you begin
 
-Role required: sn\_aia\_admin
+Role required: sn\_aia.admin
 
 ## About this task
 
@@ -55,7 +55,7 @@ See [Security for AI agents](https://raw.githubusercontent.com/ServiceNow/Servic
 
     If you select **Dynamic user**, you can select the **Approved roles** that the AI agent runs with. By default, an AI agent runs as a dynamic user and has the roles of the invoking user. Select the approved roles to limit the data access that an AI agent could have. Role filtering must be applied for all AI agents and agentic workflows to run as dynamic users. If you don't select any roles, the agent inherits whatever roles the invoking user holds.
 
-    To override the role filtering requirement for a specific agentic workflow or AI agent, admins with the correct elevated access can create an approved list of roles for a given agentic workflow or AI agent. Then, they can access that role filtering record in the Agent Access Role Configurations table \[sys\_agent\_access\_role\_configuration\], and select the **allow all roles** check box. Taking these steps deactivates the requirement for a role filtering approved roles list in AI Agent Studio, so the AI admin can return to AI Agent Studio and continue to configure the agentic workflow or AI agent without role filtering applied.
+    To override the role filtering requirement for a specific agentic workflow or AI agent, an admin with the correct elevated access must first create an approved roles list for it. Then, in the Agent Access Role Configurations table \[sys\_agent\_access\_role\_configuration\], the admin selects the **allow all roles** check box. This removes the approved roles requirement in AI Agent Studio, so you can return to AI Agent Studio and finish configuring the agentic workflow or AI agent without role filtering.
 
     **Note:** Role filtering should be applied as security best practice and adherence to the principle of least privilege. Overriding the role filtering requirement isn't recommended.
 

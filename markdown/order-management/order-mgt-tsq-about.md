@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/order-mgt-tsq-about.html
 release: australia
 topic_type: concept
-last_updated: "2025-10-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Managing service orders, Order Management, Use, Sales Customer Relationship Management]
 ---

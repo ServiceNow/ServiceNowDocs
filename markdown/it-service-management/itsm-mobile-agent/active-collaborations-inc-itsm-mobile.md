@@ -7,9 +7,9 @@ release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Collaboration with incidents, My incidents, Managing incidents and tasks using My Work applet, ITSM Mobile Agent, IT Service Management]
+breadcrumb: [Collaboration with incidents, Work on incidents assigned to you, Managing incidents and tasks using the My Work applet, ITSM Mobile Agent, IT Service Management]
 ---
 
 # View active collaborations
@@ -22,13 +22,13 @@ Role required: itil, itil\_admin, or admin
 
 ## Procedure
 
-1.  Open ITSM Mobile Agent app.
+1.  Open the ITSM Mobile Agent app.
 
-2.  In **My work** tab, tap **See All**.
+2.  On the **My work** tab, tap **See All**.
 
     \[Omitted image "my-work-itsm-mobile.png"\] Alt text: My work.
 
-3.  Tap on an incident.
+3.  Tap an incident.
 
 4.  Tap **Collaborate**.
 
@@ -36,10 +36,10 @@ Role required: itil, itil\_admin, or admin
 
     Each collaboration displays:
 
-    -   Application: Slack / Microsoft Teams
+    -   Application: Slack or Microsoft Teams
     -   Collaboration title
     -   Incident created date and timestamp
-    -   Channel name: Channel marked with “\#” is a public channel. Any user can view the conversation. Channel that doesn’t contain a “\#” is a private channel, this channel isn’t accessible to public users. Only the collaborators can view the chat conversation.
+    -   Channel name: Channel marked with “\#” is a public channel. Any user can view the conversation. Channel that doesn’t contain a “\#” is a private channel and isn’t accessible to public users. Only the collaborators can view the chat conversation.
 5.  Swipe and tap **View** to view the conversation in the respective application.
 
     \[Omitted image "view-active-collab-inc-itsm-mobile.png"\] Alt text: View active collaborations

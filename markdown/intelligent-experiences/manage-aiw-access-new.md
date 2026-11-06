@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/manage-aiw-access-new.html
 release: australia
 topic_type: task
-last_updated: "2026-01-31"
+last_updated: "2026-10-13"
 reading_time_minutes: 2
-keywords: [AI specialist, access management, workspace access, role configuration, AI workforce]
-breadcrumb: [Use in AI Agent Studio, Use, Autonomous Workforce, Enable AI experiences]
+keywords: [AI specialist, ai specialist access management, ai specialist workspace access, ai specialist role configuration]
+breadcrumb: [Use in AI Agent Studio, Use, Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Manage access to an AI specialist in AI Agent Studio
@@ -37,7 +37,7 @@ Access management includes workspace permissions, role-based security, publishin
 
     The first node contains the main configuration settings for the AI specialist. The other nodes represent the individual agents that comprise the underlying architecture and do not require modification for access management.
 
-4.  Scroll down to the **Management** section in the AI specialist guided setup.
+4.  Select the **Management** section in the AI specialist guided setup.
 
     The Management section contains all access control and operational settings for the AI specialist.
 

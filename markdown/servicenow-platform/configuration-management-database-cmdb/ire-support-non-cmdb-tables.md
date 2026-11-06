@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [CMDB Identification and Reconciliation \(IRE\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,10 +16,10 @@ breadcrumb: [CMDB Identification and Reconciliation \(IRE\), Configuration Manag
 
 Apply Identification and Reconciliation Engine \(IRE\) processes to supported non-CMDB tables to ensure data integrity and health of those tables.
 
-Starting with the Australia release, IRE supports some non-CMDB tables. You can use all IRE features with some non-CMDB tables after creating identification rules \(CI identifiers and identifier entries\) for those tables. Non-CMDB tables supported for IRE features include:
+Starting with the Brazil release, IRE supports some non-CMDB tables. You can use all IRE features with some non-CMDB tables after creating identification rules \(CI identifiers and identifier entries\) for those tables. Non-CMDB tables supported for IRE features include:
 
 -   In an application-specific scope: All non-CMDB tables
--   In the global scope: Only non-CMDB tables that are preset in the base system. In the Australia release for example, the Location \[cmn\_location\], Department \[cmn\_department\], Cost Center \[cmn\_cost\_center\], Building \[cmn\_building\], User \[sys\_user\], and Group \[sys\_user\_group\] non-CMDB tables are supported.
+-   In the global scope: Only non-CMDB tables that are preset in the base system. In the Brazil release for example, the Location \[cmn\_location\], Department \[cmn\_department\], Cost Center \[cmn\_cost\_center\], Building \[cmn\_building\], User \[sys\_user\], and Group \[sys\_user\_group\] non-CMDB tables are supported.
 
 You can't use the [CI Class Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/ci-class-manager-landing-page.md) to manage any IRE-related rules for non-CMDB tables. Instead, you must work directly with the respective tables in list views to create and manage those rules as described in the following procedures:
 

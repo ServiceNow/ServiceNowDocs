@@ -7,7 +7,7 @@ release: australia
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Task Mining, Integration, Activate, Process Mining, Platform Analytics]
 ---
@@ -60,10 +60,14 @@ Creating a Task Mining project enables you to get task-level insights across wor
 
 8.  Select **View project** for the project you created.
 
-    The project opens in the Task Mining Workspace. For information on Task Mining analyses, see [Task Mining analyses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/task-mining/task-mining-dashboard.md). After project creation once the analysis becomes available, we can view the task mining user activity dashboard for the selected list of users by clicking **View project**.
+    The project opens in the Task Mining Workspace. For information on Task Mining analyses, see [Task Mining analyses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/task-mining/task-mining-dashboard.md). After project creation once the analysis is available, we can view the task mining user activity dashboard for the selected list of users by clicking **View project**.
 
     You can also create a draft project, and continue project creation later from the Associated projects section.
 
+
+## Result
+
+The project is created. The project is named automatically. To know about teh naming convention, see [Task Mining project naming](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/task-mining-naming.md).
 
 ## What to do next
 

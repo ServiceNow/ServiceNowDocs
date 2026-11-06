@@ -7,7 +7,7 @@ release: australia
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workflow administration, Classic Workflow, Build workflows]
 ---
@@ -112,5 +112,5 @@ For periodical workflows, the first date and time to run the workflow. For sched
 **Related topics**  
 
 
-[Create a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAScheduledJob.md)
+[bundle-platadm.t_CreateAScheduledJob]
 

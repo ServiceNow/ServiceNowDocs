@@ -7,7 +7,7 @@ release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [GRC reference, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -71,6 +71,8 @@ Role that is a part of the GRC Profiles application. Assign this role to users w
 -   View and report risk events.
 -   View indicator supporting data.
 
+ Permissions for advanced risk assessment, such as taking and approving assessments, come from the sn\_risk\_advanced.ara\_assessor and sn\_risk\_advanced.ara\_approver roles. These roles aren't contained by sn\_grc.business\_user, so assign them separately.
+
  Integration with Project Portfolio Management:
 
 -   Create a risk from a library.
@@ -92,6 +94,8 @@ Role that is a part of the GRC Profiles application. Assign this role to users w
 
 -   sn\_grc.user\_hierarchy\_reader
 -   workspace\_user
+-   sn\_grc\_workspace.user
+-   sn\_smart\_asmt.actor
 -   sn\_grc\_workspace.task\_reader
 -   canvas\_user
 
@@ -197,6 +201,7 @@ Role that provides a user with management access to the GRC suite of application
 
 </td><td>
 
+-   sn\_grc.business\_user
 -   sn\_grc.reader
 -   business\_process\_user
 -   sn\_grc\_pa.sn\_grc\_pa\_viewer

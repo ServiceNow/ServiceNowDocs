@@ -7,9 +7,9 @@ release: australia
 product: Team Development
 classification: team-development
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Versions, Administer, Team Development, Planning your application, Building applications]
+breadcrumb: [Versions, Administer, Team Development, Planning your application, Classic app development, Building applications]
 ---
 
 # Version record navigation
@@ -29,7 +29,7 @@ You can navigate from a version record to:
 -   The customized object: Click the **Show Related Record** related link.
 -   The application file record for the object: Click the **Show Application File** related link.
 
-    \[Omitted image "VersionRecord.png"\] Alt text: Navigate from a version to either related records or the application file itself.
+    \[Omitted image "VersionRecord.png"\] Alt text:
 
 
 **Parent Topic:**[Versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/team-development/c_Versions.md)

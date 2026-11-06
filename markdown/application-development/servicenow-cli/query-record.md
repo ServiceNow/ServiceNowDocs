@@ -7,9 +7,9 @@ release: australia
 product: ServiceNow CLI
 classification: servicenow-cli
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Perform record operations using ServiceNow CLI, ServiceNow CLI, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Perform record operations using ServiceNow CLI, ServiceNow CLI, Developing your application, Classic app development, Building applications]
 ---
 
 # Query records

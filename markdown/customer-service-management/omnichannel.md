@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/omnichannel.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Customer Service Management]
 ---
@@ -32,7 +32,7 @@ Omnichannel brings together customer communications from email, chat, voice, mes
 
 -   **Voice**
 
-    The Voice framework integrates with certified CCaaS platforms to deliver call features. ServiceNow serves as the unified agent workspace for organizations that need voice-only or embedded Computer Telephony Integration \(CTI\).
+    The Voice framework integrates with certified CCaaS platforms to deliver call features. ServiceNow serves as the unified workspace for organizations that need voice-only or embedded Computer Telephony Integration \(CTI\).
 
 
 ## Omnichannel workflow

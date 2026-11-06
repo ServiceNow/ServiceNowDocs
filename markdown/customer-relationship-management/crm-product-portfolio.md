@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-relationship-management/crm-product-portfolio.html
 release: australia
 topic_type: concept
-last_updated: "2026-04-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customer Relationship Management]
 ---
@@ -56,4 +56,5 @@ Use the ServiceNow CRM products to manage customer interactions, service request
 [Telecommunications, Media, and Technology \[Omitted image "bus-cloud.svg"\] Alt text: Unite ordering and assurance on one platform for a seamless experience and visibility for communications service providers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecom-media-tech-landing.md)
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-relationship-management/customer-relationship-mgmt-landing.md)
+

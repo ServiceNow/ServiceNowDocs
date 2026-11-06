@@ -7,10 +7,10 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [HAM licensing, Hardware Asset Management licensing]
-breadcrumb: [Manage Hardware Asset Management subscriptions, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Manage Hardware Asset Management subscriptions, Attestation and conformance, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # View the license report for the Hardware Asset Management application
@@ -66,11 +66,4 @@ Role required: admin, usage\_admin
     -   **Total Subscription Units Consumed**: The number of subscriptions per Resource category that your organization consumed. The licensing module calculates this number by applying the Subscription Unit Ratio to the Resource Total Count for each Resource Category.
 
 **Parent Topic:**[Manage Hardware Asset Management subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/managing-ham-subscriptions.md)
-
-**Related topics**  
-
-
-[Opt-in or opt-out of HAM license resource categories]()
-
-[Exclude assets]()
 

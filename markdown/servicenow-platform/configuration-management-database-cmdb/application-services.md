@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
 breadcrumb: [Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -166,7 +166,7 @@ Need to ensure that the CMDB group accurately filters for the CIs that should be
 
 </td></tr><tr><td>
 
-[Application service API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/application-service-api.md) Create an automation for creating application services in bulk. Use this method, if your organization has performed cross-organization mapping and analysis and collected some information about services.
+Application service API Create an automation for creating application services in bulk. Use this method, if your organization has performed cross-organization mapping and analysis and collected some information about services.
 
 Application services created using APIs belong to the manual type are stored in the Mapped Application Service \[cmdb\_ci\_service\_discovered\] table.
 
@@ -234,6 +234,6 @@ Domain separation, if deployed, impacts an service instance as follows:
 
 -   When creating an service instance, the service instance is assigned to the user's domain.
 -   When manually adding a CI to an service instance, you can choose only CIs that belong to the service domain.
--   When using the [createOrUpdateService - POST](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/application-service-api.md) REST API for creating or updating an application service, the process stops if one of the CIs referenced in the API belongs to a different domain than the application service itself.
+-   When using the createOrUpdateService - POST REST API for creating or updating an application service, the process stops if one of the CIs referenced in the API belongs to a different domain than the application service itself.
 -   When converting business services into application services, the newly created application service belongs to the same domain as the original business service. The application service comprises only CIs belonging to the same domain as the application service itself.
 

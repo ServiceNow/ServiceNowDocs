@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-07-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Nokia MPN, security log, Elastic data input, Health Log Analytics]
 breadcrumb: [Configure Telecom Assurance, Configure, Telecommunications Service Operations Management]
@@ -65,7 +65,7 @@ MPN security log collection uses the out-of-box security log data input under He
 
 6.  Attach the MPN security log source type parser to the data input.
 
-    The parser is provided predefined, automatically detects the log source subtype, and extracts structured fields from each raw log document. If a structured `raw_data` field is present, the parser extracts from it directly; otherwise it falls back to regex parsing of the `message` field.
+    The parser is provided predefined, automatically detects the log source subtype—NDAC, COVE, AWS CloudWatch, or Management-Plane—and extracts structured fields from each raw log document. If a structured `raw_data` field is present, the parser extracts from it directly; otherwise it falls back to regex parsing of the `message` field.
 
     The parser also maps log severity: `INFO` logs are treated as OK \(normal/informational activity\), `WARN` logs as Minor \(informational alerts\), and `ERROR` logs as Major/Critical \(for example, unauthorized access, denied operations, off-hours sensitive access, or failed logins\).
 
@@ -97,5 +97,5 @@ produces a structured record containing fields such as customer, site, user, cli
 **Related topics**  
 
 
-[MPN security log fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/nokia-mpn-security-log-fields.md)
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/nokia-mpn-security-log-fields.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/nokia-mpn-security-log-fields.md)
 

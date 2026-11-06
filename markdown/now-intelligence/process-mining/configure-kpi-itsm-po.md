@@ -7,9 +7,9 @@ release: australia
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ITSM, Activate content packs, Activate, Process Mining, Platform Analytics]
+breadcrumb: [ITSM, Automatic content pack delivery, Activate content packs, Activate, Process Mining, Platform Analytics]
 ---
 
 # Configure KPIs for ITSM work items in the Process Mining dashboard
@@ -18,7 +18,7 @@ Add the desired Key Performance Indicators \(KPIs\) to monitor the performance o
 
 ## Before you begin
 
-**Important:** This feature is available with the ServiceNow Store Process Mining ITSM content pack v1.2. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+**Important:** This feature is included with the Process Mining ITSM content pack, which is delivered automatically when ITSM is installed on your instance. For more information, see [Automatic delivery of content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/process-mining-content-pack-delivery.md).
 
 Role required: Administrator
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/intent-based-order-fulfillment-somt.html
 release: australia
 topic_type: concept
-last_updated: "2025-07-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [intent-based order fulfillment, order decomposition, non-catalog, SOMT, PSR catalog]
 breadcrumb: [Explore, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
@@ -46,6 +46,8 @@ A customer order decomposes into the following hierarchy:
 -   Service orders decompose into resource orders \(RO\) via resource-facing service specifications \(RFSS\)
 
 This structure maps directly to TM Forum standards: Service Catalog Management \(TMF633\), Product Order \(TMF620\), and Service Order \(TMF641\).
+
+\[Omitted image "mmasset0022313-97.png"\] Alt text: Infographic showing the order decomposition structure from customer order through product, service, and resource orders. Details are described in the surrounding text.
 
 ## Benefits
 

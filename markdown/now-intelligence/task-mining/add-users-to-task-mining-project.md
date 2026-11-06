@@ -7,8 +7,8 @@ release: australia
 product: Task Mining
 classification: task-mining
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Defining the scope of projects, Use, Task Mining, Platform Analytics]
 ---
 
@@ -40,7 +40,7 @@ All data requests to collect data for the workstation users for a project must b
 
     2.  Select **Remove**.
 
-    \[Omitted image "tm-add-users.png"\] Alt text: Screenshot showing the workstation users interface.
+    \[Omitted image "tm-add-users.png"\] Alt text: The workstation users interface.
 
 5.  Select **Add users**.
 
@@ -66,7 +66,7 @@ All data requests to collect data for the workstation users for a project must b
 
 10. Review the project summary before proceeding.
 
-    \[Omitted image "tm-project-summary.png"\] Alt text: Screenshot showing the project summary page.
+    \[Omitted image "tm-project-summary.png"\] Alt text: The project summary page.
 
 
 ## Result

@@ -7,7 +7,7 @@ release: australia
 product: Edge Encryption
 classification: edge-encryption
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Install the Edge Encryption proxy server using the command line installer, Installing Edge Encryption, Edge Encryption, Encryption]
 ---
@@ -32,7 +32,7 @@ Before starting the encryption proxy, verify the following:
 
 1.  Run the proxy server.
 
-<table id="choicetable_mpf_khb_tt"><tbody><tr><td id="d274221e99">
+<table id="choicetable_mpf_khb_tt"><tbody><tr><td id="d290314e99">
 
 **On a Linux machine**
 
@@ -42,7 +42,7 @@ Before starting the encryption proxy, verify the following:
 2.  Execute `./startup.sh`
 
 
-</td></tr><tr><td id="d274221e123">
+</td></tr><tr><td id="d290314e123">
 
 **On a Windows machine**
 

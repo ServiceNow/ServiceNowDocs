@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/order-mgt-business-portal.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Sales Customer Relationship Management]
 ---
@@ -24,6 +24,8 @@ Request quotes for products or services you're interested in via the Business Po
 Business Portal enables customers to create and view order cases for orders or order line items. They can request changes to unfulfilled orders from the ServiceNow Otto Virtual Agent panel using chat and voice channels.
 -   **[Invoice and invoice case management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/invoice-case-self-service.md)**  
 Business Portal enables customers to view invoices, dispute discrepancies across single or multiple invoices using self-service playbooks, and track resolution. Billing specialists can resolve disputes using an agentic workflow that validates claims and automates resolution actions.
+-   **[View contracts and entitlements on the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/contracts-entitlements-self-service.md)**  
+Customers can view contracts and entitlements associated with their accounts on the Business Portal.
 
 **Parent Topic:**[Using Sales Customer Relationship Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-using.md)
 

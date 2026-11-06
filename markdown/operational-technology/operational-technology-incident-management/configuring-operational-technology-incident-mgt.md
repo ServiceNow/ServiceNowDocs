@@ -7,7 +7,7 @@ release: australia
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Operational Technology Incident Management, Operational Technology]
 ---
@@ -83,7 +83,7 @@ Create an assignment rule to automatically assign an OT incident to the right gr
 If you have the admin role, you can configure the ServiceNow Otto for Operational Technology \(OT\) Service Management application so that teams can use the generative AI capabilities in the Industrial Workspace for their OT incidents.
 -   **[Install Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-incident-management/install-operational-technology-service-management.md)**  
 You can install the Operational Technology Incident Management application \(sn\_ot\_inc\_mgmt\) if you have the admin role. The application installs related ServiceNow® Store applications and plugins if they are not already installed.
--   **[Migrate incidents to the new incident table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-incident-management/migrate-operational-technology-incidents.md)**  
+-   **[Migrate incidents to another incident table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-incident-management/migrate-operational-technology-incidents.md)**  
 Migrate Operational Technology incidents from the old incident table to the new incident table. Migrating incidents lets the Operational Technology Incident Management application know that the old table is no longer applicable.
 -   **[Assign roles to your users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-incident-management/assign-operational-technology-incident-management-roles.md)**  
 Assign roles to your users in the Operational Technology Incident Management application so that you can control their access to the features, capabilities, and data.

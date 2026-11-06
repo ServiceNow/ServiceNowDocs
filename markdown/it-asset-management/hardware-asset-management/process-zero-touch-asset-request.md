@@ -7,9 +7,9 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Manage refresh of assets using Zero Touch Refresh, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Manage refresh of assets using Zero Touch Refresh, Asset lifecycle and disposal, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Process a Zero Touch Refresh request
@@ -49,7 +49,7 @@ After the provider ships the assets, the Zero Touch Refresh flow completes when 
 
     -   An email message is sent to notify the employee that the asset has arrived in the stockroom and is ready for pickup.
     -   The Receive asset task is created.
-7.  Ensure that the Receive asset task is closed.
+7.  Confirm that the Receive asset task is closed.
 
     -   If the employee has acknowledged receipt of the replacement asset online, the task is closed automatically.
 
@@ -96,13 +96,5 @@ The Zero Touch Refresh flow completes. The stage and state of the Zero Touch Ref
 **Related topics**  
 
 
-[Configure replacement models for a refresh model]()
-
-[Request a hardware asset refresh through Zero Touch Refresh]()
-
 [Fulfill a Zero Touch Refresh Fulfillment Request]()
-
-[Acknowledge receipt of an asset on a mobile device]()
-
-[Acknowledge receipt of an asset through the Core UI]()
 

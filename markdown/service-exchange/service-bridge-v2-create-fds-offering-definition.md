@@ -7,7 +7,7 @@ release: australia
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure outbound FDS as providers, Configure for providers, Service Exchange for Providers, Service Exchange]
 ---
@@ -92,13 +92,13 @@ Clear the**Auto publish FDS subscriptions** check box.
 
     4.  In the **Outbound fields**, select the table fields you want to share by selecting the lock icon and moving them from the **Available** to the **Selected** column.
 
-    5.  If it isn’t already selected, select the **AccountSecure** check box to ensure data security.
+    5.  If it isn't already selected, select the **AccountSecure** check box to ensure data security.
 
         When enabled, only records where the company field matches the connection company are synchronized. Clear this option to synchronize all records regardless of company.
 
         **AccountSecure** option is selected by default.
 
-    6.  If it isn’t already selected, select **Send attachments** check box to Send attachments.
+    6.  If it isn't already selected, select **Send attachments** check box to Send attachments.
 
         When enabled, file attachments linked to records are included in the synchronization.
 
@@ -106,7 +106,7 @@ Clear the**Auto publish FDS subscriptions** check box.
 
     7.  If you selected a non-CMDB table, unlock the **Coalesce fields**, select the table fields you want to share, and move them from the **Available** to the**Selected** column.
 
-    8.  If it isn’t already selected, select the **Maintain SysID** check box to preserve referential integrity.
+    8.  If it isn't already selected, select the **Maintain SysID** check box to preserve referential integrity.
 
         When enabled, new records created in the destination instance maintain their original sys\_id. However, if an existing record is updated, the sys\_id may not be preserved.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/mysql-connection-security-fields-zcc.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [MySQL, SSL, connection security configurations, zero copy connector]
 breadcrumb: [Reference, Zero Copy Connectors, Workflow Data Fabric]

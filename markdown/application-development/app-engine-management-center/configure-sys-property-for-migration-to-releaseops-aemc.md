@@ -7,9 +7,9 @@ release: australia
 product: App Engine Management Center
 classification: app-engine-management-center
 topic_type: task
-last_updated: "2025-10-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Migration tasks, Configure Pipelines and Deployments, Configure, App Engine Management Center, Governing app development, Building applications]
+breadcrumb: [Migration tasks, Configure Pipelines and Deployments, Configure, App Engine Management Center, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Configure the system property to enable migration to ReleaseOps
@@ -48,4 +48,6 @@ You have set the **sn\_deploy\_pipeline.migrate\_releaseops** system property to
 ## What to do next
 
 If you customized your ReleaseOps deployment request states, you must map the deployment request states onto the corresponding App Engine deployment request states. See [Map deployment request states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/map-deployment-request-states-aemc.md) for more information.
+
+**Parent Topic:**[Migration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/migration-tasks-aemc.md)
 

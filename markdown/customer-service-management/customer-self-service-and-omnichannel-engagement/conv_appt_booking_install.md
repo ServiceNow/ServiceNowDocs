@@ -7,7 +7,7 @@ release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Conversational Appointment Booking, Set up self-service, Configure, Customer Service Management]
 ---
@@ -33,11 +33,12 @@ Conversational Appointment Booking requires the following plugins. Ensure that t
 
         The following items are installed with this plugin:
 
-        -   Now Assist model for Conversational Appointment Booking.
+        -   NLU model for Conversational Appointment Booking.
 
-            **Note:** A Now Assist for CSM license must be active on your instance for using the Now Assist model for Conversational Appointment Booking model.
+            **Note:** In order to use the NLU model, you need to train and publish the model. See [Natural Language Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-landing.md) for more information.
 
-        -   Virtual Agent topics: Walk-up Appointment Scheduling - LLM, Reschedule a Walk-up appointment, and Cancel a Walk-up appointment.
+        -   Virtual Agent topics: Schedule a Walk-up appointment, Reschedule a Walk-up appointment, and Cancel a Walk-up appointment.
+        -   Virtual Agent topic blocks: Get Walk-up location and Walk-up appointment scheduling.
     -   **Appointment Booking \(com.snc.appointment\_booking\)**
 
         Enables the appointment booking feature for Walk-up Experience.
@@ -45,6 +46,10 @@ Conversational Appointment Booking requires the following plugins. Ensure that t
     -   **Glide Virtual Agent \(com.glide.cs.chatbot\)**
 
         Activates the Virtual Agent platform. Virtual Agent requires additional licensing. See [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent-landing-page.md) for more information.
+
+    -   **NLU Workbench \(com.snc.nlu\_studio\)**
+
+        Enables the creation of custom ServiceNow Natural Language Understanding models used by Virtual Agent.
 
     -   **Studio \(com.glide.dev-studio\)**
 

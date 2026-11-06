@@ -7,7 +7,7 @@ release: australia
 product: Communities
 classification: communities
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Communities references, Communities, Customer Service Management]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [Communities references, Communities, Customer Service Management]
 # Properties installed with Communities
 
 Community administrators can use properties to configure Communities behavior.
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 The following properties are available for further configuration. To list the properties, enter `sys_properties.list` in the filter navigator and search for the property to configure.
 
@@ -672,17 +676,6 @@ sn\_ext\_usr\_reg.captchaEnabled
 
 Enables Google re-CAPTCHA on the self-registration page.-   Type: boolean
 -   Default value: true
-
-</td></tr><tr><td>
-
-sn\_ext\_usr\_reg.eur\_user\_role
-
-</td><td>
-
-Adds a role when a sys\_user record is created through self-registration.
-
- -   Type: string
--   Default value: sn\_communities.community\_user
 
 </td></tr><tr><td>
 

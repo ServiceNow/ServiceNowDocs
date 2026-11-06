@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd
 topic_type: concept
-last_updated: "2026-03-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Using AI agent workflows in ServiceNow Otto for WSD, ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
@@ -77,7 +77,7 @@ Add the Workplace Concierge to an email thread or a calendar invite.
 
 [Automate map updates agentic workflow]()
 
-[Workplace Advisor Overview]()
+[Process image to record agent for workplace case creation]()
 
 [Implement Autonomous L1 Agent for Workplace]()
 

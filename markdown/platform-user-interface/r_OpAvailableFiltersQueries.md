@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/r\_OpAvailableFiltersQueries.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 15
 breadcrumb: [Create a condition statement using the condition builder, Common UI elements, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -763,7 +763,7 @@ managerIN\_HIERARCHY\_DYNAMICfdd0fa0f93f5d2505bd0bd886cba1015%4090d1921e5f510100
 
 </td><td>
 
-All records throughout the Manager hierarchy in which the manager is you or a user reporting up to you.**Note:** A record hierarchy between related records in the same table must be established before you can use this operator. See .
+All records throughout the Manager hierarchy in which the manager is you or a user reporting up to you.**Note:** A record hierarchy between related records in the same table must be established before you can use this operator. See [Building hierarchical queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/data-hierarchies.md).
 
 </td></tr></tbody>
 </table>**Note:** Not all operators are available for all reference types. Depending on the reference you select, you may see a shorter list of operators.

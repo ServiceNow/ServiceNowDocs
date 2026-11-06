@@ -7,8 +7,8 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-08-10"
-reading_time_minutes: 1
+last_updated: "2026-10-23"
+reading_time_minutes: 2
 breadcrumb: [Integrate, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -25,6 +25,10 @@ AI Search Assist helps with incident deflection for incident record producers, d
 AI Search Assist supports ServiceNow mobile.
 
 **Note:** AI Search Assist doesn't support external users. If an external user tries to use an Assist UI action, the system returns an error.
+
+AI Search Assist doesn't support Summary Genius Results. Summary Genius Results use an improved LLM pipeline that includes Knowledge Graph support, and AI Search Assist can't display them. To display Genius Results, use the . AI Search Assist displays only AI Search results.
+
+For more information about Summary Genius Results, see [Summary Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/now-assist-multi-content-qna-genius-results.md).
 
 ## Activation information
 

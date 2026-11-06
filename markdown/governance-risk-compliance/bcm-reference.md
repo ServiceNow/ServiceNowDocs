@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/bcm-reference.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -19,9 +19,9 @@ Several types of components are installed with activation of the Business Contin
 -   **[Group owner fields and role requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/owner-group-eligibility-roles.md)**  
 Reference guide for group owner role eligibility requirements, field mapping, and filtering logic across all Business Continuity Management record types.
 -   **[Data Relationships Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/data-relationship-framework.md)**  
-The Data Relationships Framework application \(sn\_grc\_rel\_config\) supports the BCM application with the underlying framework to fetch dependencies in BIAs, plans, and events. It retrieves data from different sources such as CMDB, BIA, and BCP. Beginning with the Australia release, the Data Relationships Framework \(sn\_grc\_rel\_config\) application is installed with the BCM application by default.
+The Data Relationships Framework application \(sn\_grc\_rel\_config\) supports the BCM application with the underlying framework to fetch dependencies in BIAs, plans, and events. It retrieves data from sources such as CMDB, BIA, and BCP. The Data Relationships Framework \(sn\_grc\_rel\_config\) application is installed with the BCM application by default.
 -   **[GRC record page template for BCM records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/using-grc-record-page-template-for-bcm.md)**  
-Beginning with the Australia release, the GRC records use the common GRC record page template. You can leverage the new variant of record pages to streamline page creation, simplify maintenance, and minimize the cost of page ownership.
+Beginning with the Brazil release, the GRC records use the common GRC record page template. You can leverage the new variant of record pages to streamline page creation, simplify maintenance, and minimize the cost of page ownership.
 -   **[Email notifications in Business Continuity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/email-notifications-in-bcm.md)**  
 Email notifications are sent by the Business Continuity Management \(BCM\) application at different points in the Business Impact Analysis, planning, exercise, and crisis management lifecycle.
 

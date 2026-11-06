@@ -7,7 +7,7 @@ release: australia
 product: MID Server
 classification: mid-server
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [MID Server reference, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -30,7 +30,7 @@ Monitoring a MID Server involves verifying entries in log files, confirming netw
 
 -   From the MID Server instance, navigate to the **MID Servers** page, and review the status of the MID Server. For additional information, click a **Name**.
 
--   Set up email, SMS, and push notifications to alert you when issues occur with MID servers. The **MID Server Down** notification is enabled by default. See [Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/notifications.md) for details.
+-   Set up email, SMS, and push notifications to alert you when issues occur with MID servers. The **MID Server Down** notification is enabled by default. See Notifications for details.
 
 
 ## Java Flight Recorder

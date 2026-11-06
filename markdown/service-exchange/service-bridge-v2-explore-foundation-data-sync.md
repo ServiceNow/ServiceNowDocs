@@ -7,7 +7,7 @@ release: australia
 product: Service Exchange
 classification: service-exchange
 topic_type: concept
-last_updated: "2026-05-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [foundation data sync, FDS, data sharing, CMDB, provider consumer data]
 breadcrumb: [Explore, Service Exchange]
@@ -17,7 +17,7 @@ breadcrumb: [Explore, Service Exchange]
 
 Foundation data sync \(FDS\) enables structured, periodic data sharing from provider to consumer and consumer to provider instances. FDS ensures that both providers and consumers can share and receive accurate, up‑to‑date foundational data, supporting better service delivery and operational alignment.
 
-FDS is a data synchronization mechanism that enables a provider instance to share foundational data, such as server, hardware, network information with consumer instances. It also enables consumer instances to share foundational data with provider instances on a scheduled cadence \(daily, weekly, or monthly\).
+FDS is a data synchronization mechanism that enables a provider instance to share foundational data, such as server, hardware, network information with consumer instances and consumers instance to provider instances on a scheduled cadence \(daily, weekly, or monthly\).
 
 FDS supports two separate unidirectional data flows, allowing both providers and consumers to act as either data source or recipient depending on the business need:
 
@@ -71,6 +71,10 @@ ABC company also needs visibility into XYZ to understand the consumption pattern
 
 **Related topics**  
 
+
+[Activate Service Exchange FDS for provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/se-fds-plugin-act-prov.md)
+
+[Activate Service Exchange FDS for consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/se-fds-plugin-act-cons.md)
 
 [Configure outbound foundation data sync as providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-using-foundation-data-sync.md)
 

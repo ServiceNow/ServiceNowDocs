@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/use-connector-method.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use a connector, Use, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -32,15 +32,15 @@ Role required: None
 
     Some connectors expose the methods at the connector level while the others expose the methods at multiple levels. For the latter, you must first configure the connector. To find a connector that needs configuration first, right-click the connector and see if the context-menu displays the **Configure** option.
 
-<table id="choicetable_vy3_55j_tsb"><thead><tr><th align="left" id="d594289e89">
+<table id="choicetable_vy3_55j_tsb"><thead><tr><th align="left" id="d582928e89">
 
 Number of levels
 
-</th><th align="left" id="d594289e92">
+</th><th align="left" id="d582928e92">
 
 Step
 
-</th></tr></thead><tbody><tr><td id="d594289e98">
+</th></tr></thead><tbody><tr><td id="d582928e98">
 
 **Connector**
 
@@ -48,7 +48,7 @@ Step
 
 Double-click the connector.
 
-</td></tr><tr><td id="d594289e107">
+</td></tr><tr><td id="d582928e107">
 
 **Multiple**
 

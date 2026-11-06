@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/create-servicenow-remote-instance-connection.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Remote Instance, Primary connectors, Zero Copy Connectors, Workflow Data Fabric]
+breadcrumb: [ServiceNow Remote Instance, Primary connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
 
 # Create a ServiceNow Remote Instance connection

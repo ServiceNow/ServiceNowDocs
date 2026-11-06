@@ -7,7 +7,7 @@ release: australia
 product: Orchestration
 classification: orchestration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Orchestration activity packs, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -44,7 +44,7 @@ The Add F5 Virtual Server activity adds a virtual server.
 The Delete F5 Pool Member activity deletes an F5 load balancer pool member.
 -   **[Delete F5 Pool activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/r_DeleteF5PoolActivity.md)**  
 The Delete F5 Pool activity deletes an F5 load balancer pool.
--   **[Add F5 Pool activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/r_AddF5PoolActivity.md)**  
+-   **[Add F5 Pool activity]()**  
 The Add F5 Pool activity creates the F5 load balancer pool.
 
 **Parent Topic:**[Orchestration activity packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/c_OrchestrationActivityPacks.md)

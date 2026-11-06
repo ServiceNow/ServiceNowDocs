@@ -7,7 +7,7 @@ release: australia
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -35,8 +35,8 @@ Use the variables to present and gather information from the users. Catalog UI P
 Specify related items and articles for a catalog item to provide alternatives and additional information. These items and articles are displayed in the catalog item page in Service Portal and Now Mobile.
 -   **[Add an ordered item link to an item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/t_AddOrderedItemLinks.md)**  
 Use ordered item links to provide a link on the ordered item screen that provides more information about an item.
--   **[Create a Service Catalog client script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/t_CreateACatalogClientScript.md)**  
-You can create client scripts to customize the catalog.
+-   **[Service Catalog client scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/c_CatalogClientScriptCreation.md)**  
+Client-side scripts can add dynamic effects and validation to forms. Scripts can apply to service catalog items or variable sets, allowing administrators to use the same functionality that is available on other forms.
 -   **[Translation of Service Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/translate-catalog-items.md)**  
 You can translate Service Catalog items into multiple languages using the ServiceNow® Localization Framework.
 -   **[Monitoring aggregated catalog item data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/monitor-aggregated-catalog-item-data.md)**  

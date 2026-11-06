@@ -1,18 +1,18 @@
 ---
-title: Install and configure Lead to Cash Core
-description: Install the Lead to Cash Core application, which enables you to compose and build workflows that your organization maintains for the life cycle of a sold product.
+title: Install and configure CRM Core
+description: Install the CRM Core application, which enables you to compose and build workflows that your organization maintains for the life cycle of a sold product.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/install-and-configure-lead-to-cash.html
 release: australia
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
-# Install and configure Lead to Cash Core
+# Install and configure CRM Core
 
-Install the Lead to Cash Core application, which enables you to compose and build workflows that your organization maintains for the life cycle of a sold product.
+Install the CRM Core application, which enables you to compose and build workflows that your organization maintains for the life cycle of a sold product.
 
 This mapping provides your users with a unified workflow experience across different entities.
 
@@ -29,5 +29,5 @@ Admins and users with various roles complete the following configurations tasks 
 
 [Using lead-to-cash foundation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-lead-cash-foundation.md)
 
-[Lead to Cash Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/lead-to-cash.md)
+[CRM Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/lead-to-cash.md)
 

@@ -1,20 +1,20 @@
 ---
 title: Domain separation and Change Management
-description: Domain separation is supported in Change Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+description: Change Management supports domain separation. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/domain-separation-change-mgt.html
 release: australia
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Change Management, IT Service Management]
 ---
 
 # Domain separation and Change Management
 
-Domain separation is supported in Change Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+Change Management supports domain separation. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
 ## Support level: Basic
 
@@ -34,10 +34,10 @@ Change Management provides a systematic approach to controlling the life cycle o
 
 ## How domain separation works in Change Management
 
-Change management involves the management of change requests. A change request allows you to implement a controlled process for the addition, modification, or removal of approved and supported configuration items \(CIs\). The request records the detailed information about the change, such as the reason for the change, the priority, the risk, the type of change, and the change category.
+Change management involves the management of change requests. A change request enables you to implement a controlled process for the addition, modification, or removal of approved and supported configuration items \(CIs\). The request records the detailed information about the change, such as the reason for the change, the priority, the risk, the type of change, and the change category.
 
--   A change request is an extension of a Task. Records are created in the domain of users creating the task they have in session.
--   All change properties are global, meaning they are the same for every application that uses the **\[sys\_properties\]**table properties. The table is not domain separated so any changes made impact all domains.
+-   The Change Request table extends the Task table. Records are created in the session domain of the user who creates the task.
+-   All change properties are global, meaning they are the same for every application that uses the System Property \[sys\_properties\] table. This table isn't domain-separated, so any changes affect all domains.
 
 **Domain separated tables**
 
@@ -45,13 +45,13 @@ Change Request \[change\_request\].
 
 **Use case**
 
-An ITIL user in the Acme domain logs in and creates a change request. The change request is created in the domain that the user has selected.
+A user with the itil role in the ACME domain logs in and creates a change request. The change request is created in the domain that the user has selected.
 
 ## How domain separation works in Change Advisory Board \(CAB\) Workbench
 
--   CAB meetings synchronize with the CAB Definition table if the meeting was generated via a definition, or the meeting was created manually and has the CAB Definition field populated.
--   CAB Meetings are created in the domain of the user if the meeting is created manually without an associated CAB definition.
--   Meeting records are not supported if in a different domain from the associated definition.
+-   CAB meetings synchronize with the CAB Definition table if the meeting was generated from a definition, or the meeting was created manually and has the CAB Definition field populated.
+-   CAB meetings are created in the domain of the user if the meeting is created manually without an associated CAB definition.
+-   Meeting records in a different domain from the associated definition aren't supported.
 -   All other CAB records have their domain master set to the associated CAB Meeting record.
 
 **Domain separated tables**
@@ -67,12 +67,12 @@ An ITIL user in the Acme domain logs in and creates a change request. The change
 
 **Use cases**
 
--   A CAB manager creates a new CAB definition and generates 20 meetings while in the ACME domain. The result: Both the definition and meetings are created within the ACME domain.
+-   A CAB manager creates a new CAB definition and generates 20 meetings while in the ACME domain. Result: Both the definition and meetings are created within the ACME domain.
 
 -   A CAB manager creates an ad-hoc CAB meeting from the related list on the CAB definition form. Result: The meeting is created in the domain of the CAB meeting.
 -   All other use cases behave in the same way as when domain separation is not enabled.
 
-## How domain separation works in Change Schedules \(New feature\)
+## How domain separation works in Change Schedules
 
 -   Change Schedule definitions encapsulate all the configuration options and related records used to display a given Change Schedule.
 -   Records are created in the domain of the current user.
@@ -88,7 +88,7 @@ An ITIL user in the Acme domain logs in and creates a change request. The change
 
 **Use cases**
 
-An ITIL user in the ACME domain logs in and navigates to the Change Schedule landing page. The user can view the Change Schedules in both their current or global domain.
+A user with the itil role in the ACME domain logs in and navigates to the Change Schedule landing page. The user can view the Change Schedules in both their current domain and the global domain.
 
 **Parent Topic:**[Reference section for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/reference-change-management.md)
 

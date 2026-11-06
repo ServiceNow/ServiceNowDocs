@@ -7,8 +7,8 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
@@ -52,7 +52,7 @@ Default price list
 
 </td><td>
 
-Default price list that should be considered for reconciliation.
+Default price list that should be considered for reconciliation. **Note:** If connecting to SAP S/4HANA Cloud Private Edition, select **SAP S/4HANA Private Cloud**. For more information, see [Price Lists for Private Cloud](https://support.sap.com/en/my-support/systems-installations/glac/private-cloud-metering/price-lists-pce.html).
 
 </td></tr><tr><td>
 
@@ -70,7 +70,7 @@ WSDL
 
 </td><td>
 
-Web Service Description Language \(WSDL\) URL from the SOA manager that includes an IP address that is used to connect to the SAP system.This is same value that you generated in the [Create a WSDL for the SAP service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-wsdl-sap-service.md) procedure.
+Web Service Description Language \(WSDL\) URL from the SOA manager that includes an IP address that is used to connect to the SAP system.This is the same value that you generated in the [Create a WSDL for the SAP service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-wsdl-sap-service.md) procedure.
 
 **Note:** Don’t change the SAP WSDL name. The WSDL service definition name must be /NOW/SAMP and the service binding name must be NOW\_SAMP. The only WSDL name that can be changed is the WSDL generation name.
 
@@ -272,15 +272,17 @@ You can start creating software models and entitlements.
 **Related topics**  
 
 
+[SAP publisher pack integration architecture]()
+
 [Tables installed with the SAP publisher pack]()
 
 [Set up SAP integration to establish a connection with SAP]()
 
 [Establish an SAP connection using OAuth 2.0]()
 
-[Create entitlements for SAP]()
-
 [Create software models for SAP]()
+
+[Create entitlements for SAP]()
 
 [Create a custom SAP named user type]()
 

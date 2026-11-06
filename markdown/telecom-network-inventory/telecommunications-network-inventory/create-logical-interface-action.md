@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Function catalog, Reference, Telecommunications Network Inventory]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Function catalog, Reference, Telecommunications Network Inventory]
 
 The Create Logical Interface function enables you to create logical interfaces in the Telecommunications Network Inventory application.
 
-You can use the Create Logical Interface function to create the logical interfaces that are created either as a termination point for logical connections or as a child of a physical or logical interface. A physical or logical Interface can have multiple child logical interfaces. The bandwidth of the logical Interface isn’t fixed and you can configure it as applicable. Also, this function sets the virtual flag of the logical network interface.
+You can use the Create Logical Interface function to create logical interfaces. These interfaces serve either as a termination point for logical connections or as a child of a physical or logical interface. A physical or logical Interface can have multiple child logical interfaces. The bandwidth of the logical Interface isn’t fixed and you can configure it as applicable. Also, this function sets the virtual flag of the logical network interface.
 
 You can use this function as a Workflow Studio action in the Telecommunications Network Inventory workflow.
 

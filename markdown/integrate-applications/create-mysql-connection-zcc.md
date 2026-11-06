@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/create-mysql-connection-zcc.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [MySQL connection, zero-copy connector, JDBC connector, data fabric connection, relational database]
-breadcrumb: [MySQL, Primary connectors, Zero Copy Connectors, Workflow Data Fabric]
+breadcrumb: [MySQL, Primary connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
 
 # Create a MySQL connection
@@ -96,15 +96,15 @@ Option to enable or disable SSL for the connection. When enabled, additional fie
 </td></tr></tbody>
 </table>4.  Configure the authentication method that you want to use with MySQL.
 
-<table id="choicetable_mysql_auth"><thead><tr><th align="left" id="d635920e251">
+<table id="choicetable_mysql_auth"><thead><tr><th align="left" id="d624448e251">
 
 Option
 
-</th><th align="left" id="d635920e254">
+</th><th align="left" id="d624448e254">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d635920e260">
+</th></tr></thead><tbody><tr><td id="d624448e260">
 
 **Basic**
 
@@ -116,7 +116,7 @@ Option to use a username and password.
 2.  Enter the password associated with the username.
 
 
-</td></tr><tr><td id="d635920e281">
+</td></tr><tr><td id="d624448e281">
 
 **AWS IAM**
 
@@ -124,7 +124,7 @@ Option to use a username and password.
 
 Option to authenticate using AWS IAM token-based authentication. See [MySQL authentication method fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/mysql-authentication-method-fields-zcc.md) for the specific fields \(Database user, AWS region, AWS access key ID, AWS secret access key\).
 
-</td></tr><tr><td id="d635920e300">
+</td></tr><tr><td id="d624448e300">
 
 **GCP IAM**
 
@@ -132,7 +132,7 @@ Option to authenticate using AWS IAM token-based authentication. See [MySQL auth
 
 Option to authenticate using GCP Cloud IAM token-based authentication. See [MySQL authentication method fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/mysql-authentication-method-fields-zcc.md) for the specific fields \(Service account key \(JSON\), Database user, GCP token scope\).
 
-</td></tr><tr><td id="d635920e319">
+</td></tr><tr><td id="d624448e319">
 
 **OAuth**
 

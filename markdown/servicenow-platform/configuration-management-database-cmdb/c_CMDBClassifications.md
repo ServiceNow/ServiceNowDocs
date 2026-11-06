@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -35,22 +35,22 @@ Identification processes in the [Identification and Reconciliation Engine \(IRE\
 
 For more information, see [Identification rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_IdentificationRules.md).
 
--   **[Dependent CIs management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/manage-dependent-ci.md)**  
-A life cycle update for a CI affects its dependent CIs. For example, when the CI that a dependent CI depends on is deleted, the dependent CI becomes orphan with no further use. To maintain the integrity and health of the CMDB, the system applies cascade-cleanup processes to dependent CIs that are affected by a life cycle update.
 -   **[CMDB record types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/r_CMDBRecordTypes.md)**  
 The CMDB contains the following major record types.
 -   **[Related Lists of CI components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/r_RelatedListsOfCIComponents.md)**  
 Related lists in CI records display additional components contained by that CI, such as disk drives on a server and the rules that control the behavior of a network router.
+-   **[Principal Class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/principal-class-filter.md)**  
+A Principal Class is a designation for those CMDB classes that are most critical for foundational data health and governance in the organization. Those classes are then prioritized for tracking, health, certification, lifecycle management, and class list views.
+-   **[Dependent CIs management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/manage-dependent-ci.md)**  
+A life cycle update for a CI affects its dependent CIs. For example, when the CI that a dependent CI depends on is deleted, the dependent CI becomes orphan with no further use. To maintain the integrity and health of the CMDB, the system applies cascade-cleanup processes to dependent CIs that are affected by a life cycle update.
 -   **[Create a CI class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/t_CreateCIType.md)**  
 Create a CI class \(table\) that is an extension of an existing CI class. Then create identification and reconciliation rules for the new class.
+-   **[View and edit class definitions and metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/t_ViewTableDefinitions.md)**  
+Use the CI Class Manager as a central location to explore the CMDB class hierarchy, CI table definitions, and class CIs. View the details of each table such as its label and fields, relationships, and all related metadata definitions.
 -   **[Reclassify a CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/t_ManuallyReclassifyCI.md)**  
 You can upgrade, downgrade, or switch the class of a CI by modifying its **Class** attribute.
 -   **[Delete CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/delete-class-records-ci-class-mgr.md)**  
 You can use the CI Class Manager to delete CIs that are no longer needed.
--   **[View and edit class definitions and metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/t_ViewTableDefinitions.md)**  
-Use the CI Class Manager as a central location to explore the CMDB class hierarchy, CI table definitions, and class CIs. View the details of each table such as its label and fields, relationships, and all related metadata definitions.
--   **[Principal Class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/principal-class-filter.md)**  
-A Principal Class is a designation for those CMDB classes that are most critical for foundational data health and governance in the organization. Those classes are then prioritized for tracking, health, certification, lifecycle management, and class list views.
 
 **Parent Topic:**[Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/c_ITILConfigurationManagement.md)
 

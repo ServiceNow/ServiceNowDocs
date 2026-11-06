@@ -1,28 +1,25 @@
 ---
-title: Remove ServiceNow Virtual Agent integration with Slack
-description: Remove the ServiceNow Virtual Agent integration from your ServiceNow instance to disassociate the Slack app.
+title: Remove Virtual Agent integration with Slack
+description: Remove the Virtual Agent integration from your ServiceNow instance to disassociate the Slack app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/uninstall-virtual-agent-slack.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Virtual Agent, integration, Slack]
-breadcrumb: [Integrate VA with Slack, Conversational Integration with Slack, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Integrate Virtual Agent with Slack, Slack, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
-# Remove ServiceNow Virtual Agent integration with Slack
+# Remove Virtual Agent integration with Slack
 
-Remove the ServiceNow Virtual Agent integration from your ServiceNow instance to disassociate the Slack app.
+Remove the Virtual Agent integration from your ServiceNow instance to disassociate the Slack app.
 
 ## Before you begin
 
-Roles required:
-
--   Virtual\_agent\_admin and external\_app\_install\_admin or admin
--   Administrator for third-party applications
+Role required: virtual\_agent\_admin or admin
 
 ## Procedure
 
@@ -32,24 +29,26 @@ Roles required:
 
 3.  On the Channels and integration page, in the Slack tile, select **Manage**.
 
-4.  In the Manage Slack channel page, find the ServiceNow Virtual Agent integration to remove from your ServiceNow instance, select the manage bot icon \[Omitted image "manage-bot-icon.png"\] Alt text: Manage bot icon., and select **Remove integration**.
+4.  In the Manage Slack channel page, find the Virtual Agent integration to remove from your ServiceNow instance, and then select the manage bot icon \[Omitted image "manage-bot-icon.png"\].
+
+5.  Select **Remove integration**.
 
     \[Omitted image "remove-snva-integration.png"\] Alt text: Remove integration option with Now Virtual Agent.
 
-5.  In the Remove integration confirmation message, select **Remove**.
+6.  When prompted to confirm your choice, select **Remove**.
 
-    You are redirected to the Slack App Directory.
+    The Slack app directory displays.
 
-6.  On the Slack app directory, navigate to the Configuration tab, and select **See All** against **1 authorized member**.
+7.  Navigate to the **Configuration** tab, and then select **See All** against **1 authorized member**.
 
-7.  Select **Revoke** in the 1 Authorized member pop-up.
+8.  Select **Revoke** in the 1 Authorized member pop-up.
 
-8.  Select **Revoke** in the confirmation message.\[Omitted image "revoke-slack-snow-integ.png"\] Alt text: Revoke ServiceNow Virtual Agent integration with Slack.
+9.  Select **Revoke** in the confirmation message.\[Omitted image "revoke-slack-snow-integ.png"\] Alt text: Revoke ServiceNow Virtual Agent integration with Slack.
 
-    A message appears saying that **You have successfully removed an authorization for Now Virtual Agent**.
+    A message displays that says: **You have successfully removed an authorization for Now Virtual Agent**
 
-    ServiceNow Virtual Agent integration with Slack is removed from your ServiceNow instance.
+    Virtual Agent integration with Slack is removed from your ServiceNow instance.
 
 
-**Parent Topic:**[Integrating ServiceNow Virtual Agent with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-integ-slack.md)
+**Parent Topic:**[Integrating Virtual Agent with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-integ-slack.md)
 

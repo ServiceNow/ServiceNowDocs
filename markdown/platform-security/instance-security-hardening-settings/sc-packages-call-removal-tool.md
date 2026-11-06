@@ -7,7 +7,7 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Restrict allowed Java packages \[Updated in Security Center 1.3\], Validation, sanitization, and encoding, Hardening settings, Platform Security]
 ---

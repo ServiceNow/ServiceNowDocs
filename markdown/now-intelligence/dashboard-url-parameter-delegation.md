@@ -15,8 +15,6 @@ breadcrumb: [Creating Platform Analytics pages, Platform Analytics experience, P
 
 The Delegate URL params property enables UIB pages containing dashboard components to control how URL parameter updates are handled. Doing so enables custom navigation logic for embedded or workspace scenarios.
 
-**Note:** This functionality requires the latest Platform Analytics experience application from the ServiceNow® Store.
-
 By default, dashboard components automatically update the browser URL when users switch dashboards, change tabs, or toggle edit mode. This behavior works well for standard dashboard pages but may not suit all implementation scenarios.
 
 The **Delegate URL params** property provides an alternative approach where the dashboard component dispatches events instead of directly updating URLs. This delegation mechanism allows parent pages to implement custom navigation logic.

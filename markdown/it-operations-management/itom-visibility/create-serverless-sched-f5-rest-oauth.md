@@ -7,7 +7,7 @@ release: australia
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-21"
 reading_time_minutes: 1
 breadcrumb: [F5 BIG-IP, Load balancers, Network device discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -23,6 +23,10 @@ Create a serverless discovery schedule to discover F5 BIG-IP load balancers thro
 -   Create a alias for the basic authentication credential. For more information, see [Credential aliases for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/discovery-credential-alias.md).
 
 Role required: discovery\_admin
+
+## About this task
+
+To discover multiple F5 BIG-IP load balancers within one schedule, create a separate Serverless Execution Pattern record, with its own launcher parameters, for each load balancer.
 
 ## Procedure
 

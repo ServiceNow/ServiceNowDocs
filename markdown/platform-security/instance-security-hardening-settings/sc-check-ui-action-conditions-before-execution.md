@@ -7,7 +7,7 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
@@ -68,7 +68,7 @@ Default value
 
 </td><td>
 
-&lt;none&gt;
+TRUE
 
 </td></tr><tr><td>
 
@@ -94,7 +94,7 @@ Security risk
 
 -   Severity score: 3.3
 -   CVSS rating: Low
--   Security risk details: Users may perform operations they may not be authorized for, potentially leading to unauthorized data manipulation, privilege escalation, and bypassing of access controls designed to protect sensitive records.
+-   Security risk details: Users may perform unauthorized operations, leading to data manipulation, privilege escalation, and bypassing of access controls protecting sensitive records.
 
 </td></tr><tr><td>
 

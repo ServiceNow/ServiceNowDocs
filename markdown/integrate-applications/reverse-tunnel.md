@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/reverse-tunnel.html
 release: australia
 topic_type: reference
-last_updated: "2026-05-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Reverse Tunnel, private connectivity, Zero Copy Connectors, Workflow Data Fabric]
 breadcrumb: [Workflow Data Fabric]
@@ -31,7 +31,7 @@ Establish secure private connectivity between your private cloud data sources an
 
 </td><td>
 
-
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Reference information such as relay properties for a private relay.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/reverse-tunnel-reference.md)
 
 </td></tr></tbody>
 </table>## Reverse Tunnel overview

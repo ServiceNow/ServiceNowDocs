@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/som-managing-product-catalogs.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -30,8 +30,8 @@ The following table identifies the configuration tasks for setting up the variou
 
 |Configuration task|Description|
 |------------------|-----------|
-|[Create a product offering catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-create-product-catalog.md)|Create a catalog, which is the top-level entity in the catalog hierarchy. Catalogs can have categories, and categories can have subcategories or product offers.|
-|[Create a product offering category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-create-product-offering-category.md)|Define a product offering category used to organize similar product offerings in a catalog. Catalog categories make it easier for agents to browse and navigate product offerings when creating opportunities, quotes, and orders.|
+|[Create a product offering catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-create-product-catalog.md)|Create a catalog, which is the top-level entity in the catalog hierarchy. Catalogs can have categories, and categories can have subcategories or product offers. Set a custom display order for a catalog so it appears in the sequence you choose instead of alphabetically.|
+|[Create a product offering category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-create-product-offering-category.md)|Define a product offering category used to organize similar product offerings in a catalog. Catalog categories make it easier for agents to browse and navigate product offerings when creating opportunities, quotes, and orders. Set a custom display order for a category within a catalog so it appears in the sequence you choose instead of alphabetically.|
 |[Create a product offering family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-product-offering-family.md)|Create a product offering family for products with similar or common features that have multiple variations. You can apply common rules or attributes for product offerings at the product offering family level instead of applying them individually to each product offering.|
 |[Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-product-config-add-characteristics.md)|Define the specific attributes, properties, and options that distinguish a product offering, influencing its configuration and pricing.|
 |[Create product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/som-create-product-offering.md)|Configure and add product offerings to catalogs and categories. Once published, product offerings are available to Sales Customer Relationship Management agents as they create opportunities, quotes, and orders.|

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/building-applications-source-code.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Building applications in source code

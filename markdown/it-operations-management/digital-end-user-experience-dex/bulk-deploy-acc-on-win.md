@@ -1,0 +1,109 @@
+---
+title: Install Agent Client Collector on Windows using Microsoft Intune
+description: Use Microsoft Intune to install Agent Client Collector \(ACC\) on multiple Windows devices at once, promoting consistent deployment across your organization.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/bulk-deploy-acc-on-win.html
+release: australia
+product: Digital End-User Experience \(DEX\)
+classification: digital-end-user-experience-dex
+topic_type: task
+last_updated: "2026-10-23"
+reading_time_minutes: 2
+breadcrumb: [Deploying DEX to employees, Configure, Digital End-User Experience, IT Operations Management]
+---
+
+# Install Agent Client Collector on Windows using Microsoft Intune
+
+Use Microsoft Intune to install Agent Client Collector \(ACC\) on multiple Windows devices at once, promoting consistent deployment across your organization.
+
+## Before you begin
+
+\[Omitted video\] Description: Installing ACC on user devices using Microsoft Intune
+
+-   An agent registration key must be created. For more information, see [Create an ACC registration key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/create-acc-reg-key.md).
+-   The ACC agent must be uninstalled from your candidate test devices. For more information, see [Uninstall the Agent Client Collector agent from a device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/uninstall-acc-agent.md).
+
+Role required: agent\_client\_collector\_admin
+
+## About this task
+
+Your organization might have a different method to accomplish this task.
+
+To mass-deploy ACC using Microsoft Configuration Manager instead, see [Bulk deploy Agent Client Collector on Windows using Microsoft Configuration Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/bulk-deploy-acc-on-win-mcm.md).
+
+## Procedure
+
+1.  On the ServiceNow instance, download the installation package:
+
+    1.  Navigate to **All** &gt; **Agent Client Collector** &gt; **Deployment** &gt; **Agent Downloads**.
+
+    2.  Download the MSI installer by selecting the download icon \[Omitted image "icon-download-blue.png"\] Alt text: under the Windows Downloads section.
+
+    3.  Copy the command from the Single-line installer commands section of **Agent Client Downloads**.
+
+2.  In Microsoft Intune, navigate to **Apps** &gt; **Windows**.
+
+3.  Select **Create**.
+
+4.  From the **Select app type** drop-down menu, select **Line-of-business app**, then select **Select**.
+
+    **Note:** Depending on your setup, you might have to select **Win 32 app**.
+
+5.  Select **Select app package file**, browse to the folder where you stored the ACC installation package file, and select **OK**.
+
+6.  Complete the Add app form.
+
+<table id="table_brt_shm_pgc"><thead><tr><th>
+
+Tab
+
+</th><th>
+
+Steps
+
+</th></tr></thead><tbody><tr><td>
+
+**App information**
+
+</td><td>
+
+Complete the required fields as shown in the following procedure.1.  Name your application.
+2.  Enter a recognizable description.
+3.  In the **Publisher** field, enter ServiceNow.
+4.  Paste the command that you copied earlier into the **Command-line arguments** field and remove the content before `/quiet`.
+5.  In the command string `/quiet /qn /norestart CONNECT_WITHOUT_MID="true" ACC_CNC="*ACC\_CNC*" REGISTRATION_KEY="*REGISTRATION KEY*" INSTANCE_URL="*INSTANCE URL*" LOCALUSERNAME="*local user name*"`, confirm or enter the variable parameters as follows:
+    -   ACC\_CNC: gateway URL for your region
+    -   REGISTRATION KEY: ACC registration key
+    -   INSTANCE\_URL: URL that contains your ServiceNow instance name
+    -   LOCALUSERNAME: `SYSTEM`
+
+
+</td></tr><tr><td>
+
+**Scope tags**
+
+</td><td>
+
+Define the scope tags to control role-based access to the objects you create, then select **Next**.This setting is optional.
+
+</td></tr><tr><td>
+
+**Assignments**
+
+</td><td>
+
+Define the groups, users, and devices to which you want to deploy the ACC, then select **Select**.
+
+</td></tr></tbody>
+</table>7.  Select **Next**.
+
+8.  Review the settings, then select **Create**.
+
+    You can view the ACC application in the application list. After users check in and are synchronized with Microsoft Intune, the silent installation process begins.
+
+9.  Do one of the following to monitor the deployment status:
+
+    -   In Microsoft Intune, select your newly created application.
+    -   Review the log file on the endpoint devices: `C:\ProgramData\ServiceNow\agent-client-collector\log\acc.log`.
+    -   On an endpoint device, search for **Services** and check the status for Agent Client Collector.
+

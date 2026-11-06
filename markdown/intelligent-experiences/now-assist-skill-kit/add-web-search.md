@@ -8,9 +8,9 @@ product: Now Assist Skill Kit
 classification: now-assist-skill-kit
 topic_type: task
 last_updated: "2026-09-23"
-reading_time_minutes: 3
+reading_time_minutes: 2
 keywords: [web search, Websearch, web search skill, web search tool]
-breadcrumb: [Add a tool, Create a prompt, Using AI Skill Kit, AI Skill Kit, Enable AI experiences]
+breadcrumb: [Add a tool, Create a prompt, Using AI Skill Kit, AI Skill Kit, Generative AI skills, Enable AI Experiences]
 ---
 
 # Add a web search
@@ -22,21 +22,6 @@ Add a web search as a tool in AI Skill Kit to include web search results in your
 Role required: sn\_skill\_builder.adminor admin.
 
 A search engine API key from your provider must be configured on the ServiceNow AI Platform.
-
-## About this task
-
-The web search tool queries the web and returns results that the skill prompt can use. Two search result types are available depending on the providers you have configured:
-
--   **AI answers**
-
-    Generates a single synthesized response to the search query using OpenAI, Perplexity, or Gemini. Requires a configured API key for the selected provider.
-
--   **Searching and scraping**
-
-    Generates multiple responses using Now LLM Service. Requires a configured scraping API. Default search engine is Bing; Google requires additional configuration.
-
-
-**Important:** If you select Google as your web search provider, the web search tool uses [Grounding with Google Search](https://cloud.google.com/vertex-ai/generative-ai/docs/grounding/grounding-with-google-search), offered under a Global Standard deployment. Because grounding is not [data resident](https://cloud.google.com/vertex-ai/generative-ai/docs/security-controls), Google global infrastructure routes traffic to a global datacenter for each web search request. This processing may differ from your data processing location. Consider your organization data policies before enabling skills that use Google web search.
 
 ## Procedure
 

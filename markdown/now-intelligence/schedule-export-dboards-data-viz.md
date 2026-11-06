@@ -32,7 +32,6 @@ You can export multiple dashboards and data visualizations together in one sched
 |Data visualization or dashboard element|Supported dashboard export formats|Supported data visualization export formats|
 |---------------------------------------|----------------------------------|-------------------------------------------|
 |Calendar reports, Indicator scorecards, Pivot tables, Geomap|None|None|
-|Pivot tables|PowerPoint, PDF|PowerPoint, PDF, PNG, JPEG, Embedded PNG|
 |Lists|PDF|PDF, Microsoft Excel \(.xls or .xlsx\), Embedded LIST, CSV|
 |Other data visualizations|PowerPoint, PDF|PowerPoint, PDF, PNG, JPEG, Embedded PNG|
 |Non-data visualization dashboard elements, like Headings|None|Not applicable|
@@ -49,11 +48,13 @@ You can export multiple dashboards and data visualizations together in one sched
 
 3.  From the More actions menu \(\[Omitted image "more-actions-menu-icon.png"\] Alt text: More actions menu icon\), select **Schedule**.
 
-    You can't be in Edit mode.
+    You cannot be in Edit mode.
 
     \[Omitted image "paw-vd-schedule.png"\] Alt text: Schedule option in More actions menu
 
     All the options appear for exporting the dashboard or data visualization. If you don't want to export this object, select **Change**.
+
+    \[Omitted image "paw-vd-schedule-change.png"\] Alt text: Scheduled export page with Change option highlighted.
 
 4.  Select the file type.
 
@@ -71,7 +72,7 @@ You can export multiple dashboards and data visualizations together in one sched
 
         For example, if you don't turn on **Export all tabs**, you have to select the tabs to export. If you select a tab and turn on **Export all visualizations in the top layout**, you export that tab and any visualizations placed above the tabs.
 
-        \[Omitted image "sched-exp-top-and-tab.png"\] Alt text: Tab and top level visualizations that are exported.
+        \[Omitted image "db-top-level-layout-mini.png"\] Alt text: Dashboard with visualizations in a tab and in the top layout.
 
 7.  To add more dashboards or data visualizations to the export, do the following steps:
 

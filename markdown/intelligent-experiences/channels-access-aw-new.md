@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/channels-access-aw-new.html
 release: australia
 topic_type: task
-last_updated: "2026-06-06"
+last_updated: "2026-10-23"
 reading_time_minutes: 1
-breadcrumb: [Create an agentic workflow, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Create an agentic workflow, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Select channels for an agentic workflow
@@ -24,7 +24,7 @@ In this section of the agentic workflow guided setup, you configure where the ag
 
 ## Procedure
 
-1.  Choose whether to engage via Otto panel by toggling **Otto panel**.
+1.  Choose whether to make the agentic workflow available in the **Otto panel** by turning the toggle on or off.
 
 2.  To add UI actions, select **Create new** under **UI actions invoking this workflow**.
 
@@ -32,7 +32,7 @@ In this section of the agentic workflow guided setup, you configure where the ag
 
 3.  Configure the UI action in the modal.
 
-    1.  Toggle **Active** to determine if the UI action is active.
+    1.  Turn on **Active** to make the UI action available to users.
 
     2.  Enter a label for the UI action in the **UI action label** field.
 
@@ -44,7 +44,7 @@ In this section of the agentic workflow guided setup, you configure where the ag
 
 4.  Select **Save**.
 
-    \[Omitted image "aw-setup-channels.png"\] Alt text: Agentic workflow setup channels and display configuration with Virtual Agent assistants, UI actions, and processing messages.
+    \[Omitted image "aw-setup-channels.png"\] Alt text: Agentic workflow setup channels and display configuration with the Otto panel and UI actions
 
 
 ## Result

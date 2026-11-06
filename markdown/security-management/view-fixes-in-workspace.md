@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/view-fixes-in-workspace.html
 release: australia
 topic_type: task
-last_updated: "2026-07-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [view fixes, Security Exposure Management Workspace, Fix list]
 breadcrumb: [Use, Fix Intelligence for Security Exposure Management, Integrate, Unified Security Exposure Management, Security Operations]
@@ -21,7 +21,8 @@ Role required: `sn_vul_fix.read`, or a Vulnerability Response role that contains
 
 Prerequisites:
 
--   ServiceNow Support has configured the Armis Centrix™ for ViPR integration, and at least one sync has completed. See [Install Fix Intelligence for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/install-fix-intel.md).
+-   Install Fix Intelligence for SEM. See [Install Fix Intelligence for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/install-fix-intel.md).
+-   Install the Unified Exposure Pipeline application.
 
 ## About this task
 

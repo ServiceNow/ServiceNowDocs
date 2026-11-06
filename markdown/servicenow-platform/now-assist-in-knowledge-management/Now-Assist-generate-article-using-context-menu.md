@@ -7,7 +7,7 @@ release: australia
 product: Now Assist in Knowledge Management
 classification: now-assist-in-knowledge-management
 topic_type: task
-last_updated: "2026-07-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Now Assist, Gen AI, Generative AI, AI Search, Configuring Now Assist, Now LLM, large language model, Knowledge content recommendation, Context menu, Now Assist, Gen AI, Generative AI, AI Search, Configuring Now Assist, Now LLM, large language model, Knowledge content recommendation, Context menu]
 breadcrumb: [Use ServiceNow Otto in Knowledge Management, ServiceNow Otto in Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]

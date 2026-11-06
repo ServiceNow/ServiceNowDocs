@@ -7,7 +7,7 @@ release: australia
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Coaching, Workforce Optimization, Managing workforce, Use, Field Service Management]
 ---
@@ -42,15 +42,15 @@ The Coaching Overview screen displays the average quality of the tasks that were
 
 3.  Perform assessments.
 
-<table id="choicetable_k5z_rpq_pnb"><thead><tr><th align="left" id="d109186e114">
+<table id="choicetable_k5z_rpq_pnb"><thead><tr><th align="left" id="d111911e114">
 
 To
 
-</th><th align="left" id="d109186e117">
+</th><th align="left" id="d111911e117">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d109186e123">
+</th></tr></thead><tbody><tr><td id="d111911e123">
 
 **Perform adhoc assessments**
 
@@ -65,7 +65,7 @@ The assessment screen appears in the right panel.
 4.  Click the plus \(+\) icon.
 
 
-</td></tr><tr><td id="d109186e163">
+</td></tr><tr><td id="d111911e163">
 
 **Use assessments triggered by coaching opportunities**
 

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-guided-setup-modules.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Guided setup, Configure, AI Control Tower, Enable AI experiences]
+breadcrumb: [Guided setup, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Guided setup areas
@@ -53,9 +53,9 @@ Configure data sharing, deployment approval, and AI model provider settings that
 
 |Setup area|Setup item|Description|
 |----------|----------|-----------|
-|ServiceNow AI settings|Configure data control preferences|Set how your organization shares data with ServiceNow and manages data traffic during peak usage. For more information, see [Configure ServiceNow AI settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configure-servicenow-ai-settings.md).|
-|ServiceNow AI settings|Set builder controls|Require AI steward approval before AI assets deploy, and automate approval requests when new AI assets are added. For more information, see [Configure ServiceNow AI settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configure-servicenow-ai-settings.md).|
-|ServiceNow AI settings|Configure AI model providers|Choose which AI model providers are allowed on your instance and set fallback behavior for AI systems whose providers aren't on the allowed list. For more information, see [Configure ServiceNow AI settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configure-servicenow-ai-settings.md).|
+|ServiceNow AI settings|Configure data control preferences|Set how your organization shares data with ServiceNow and manages data traffic during peak usage. For more information, see [Configuring data controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configuring-data-controls.md).|
+|ServiceNow AI settings|Set builder controls|Require AI steward approval before AI assets deploy, and trigger approval requests automatically. For more information, see [Configuring builder controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configuring-builder-controls.md).|
+|ServiceNow AI settings|Configure AI model providers|Choose which AI model providers are allowed on your instance and set fallback behavior for AI systems whose providers aren't on the allowed list. For more information, see [Configuring AI model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configuring-ai-model-providers.md).|
 
 **Parent Topic:**[Guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-guided-setup.md)
 

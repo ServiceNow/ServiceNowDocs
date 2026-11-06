@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-29"
 reading_time_minutes: 5
 keywords: [Ways to preview an experience, Preview in Lux Lab, Preview locally with the dev server, Preview a production build locally, Verify server-rendered output]
-breadcrumb: [Test and deploy a Lux app, Lux Development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Test and deploy a Lux app, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Ways to preview a Lux experience
@@ -105,7 +105,7 @@ Your app can be deployed and running either locally or on an instance. In both c
 
 Do not confuse this DevTools **Preview** tab with the Lux Lab Preview panel or the `pnpm serve` command described earlier: three unrelated mechanisms that share the word "preview." The tab inspects one request's rendered HTML; the panel and `pnpm serve` each run your whole app.
 
-For deeper inspection of a running page, widget properties, re-render causes, network calls, see . That topic covers Lux DevTools, a different tool from the browser's built-in DevTools panel described earlier in this topic.
+For deeper inspection of a running page, widget properties, re-render causes, network calls, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/debug-an-experience.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/debug-an-experience.md). That topic covers Lux DevTools, a different tool from the browser's built-in DevTools panel described earlier in this topic.
 
 Confirming that server-rendered output arrives is also an item on the ship checklist in [Deploy to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/deploy-to-an-instance.md).
 

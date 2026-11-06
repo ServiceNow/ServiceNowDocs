@@ -7,8 +7,8 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Change Management plugins, Configure, Change Management, IT Service Management]
 ---
 
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-The Change Management - Data Archiving plugin \(com.glide.auxdb\) enables to move a subset of data from large tables into the data archive.
+The Change Management - Data Archiving plugin \(com.glide.auxdb\) enables you to move a subset of data from large tables into the data archive.
 
 ## Procedure
 
@@ -44,7 +44,7 @@ The Change Management - Data Archiving plugin \(com.glide.auxdb\) enables to mov
 **Related topics**  
 
 
-[Request ITSM Roles- Change Management]()
+[Request ITSM Roles - Change Management]()
 
 [Activate Business Stakeholder]()
 
@@ -64,11 +64,11 @@ The Change Management - Data Archiving plugin \(com.glide.auxdb\) enables to mov
 
 [Activate Change Management - Mass Update CI]()
 
-[Activate Change Management -Approval policy]()
+[Activate Change Management - Approval policy]()
 
 [Activate Change Management - CAB Workbench]()
 
-[Activate Change Management ATF Tests]()
+[Activate Change Management - ATF Tests]()
 
 [Activate Change Management - Core]()
 
@@ -76,7 +76,7 @@ The Change Management - Data Archiving plugin \(com.glide.auxdb\) enables to mov
 
 [Request Change Management - Standard Change Template Intelligence]()
 
-[Change Management - Predictive Intelligence Core]()
+[Request Change Management - Predictive Intelligence Core]()
 
 [Activate Change Management - Change Flows]()
 
@@ -84,5 +84,5 @@ The Change Management - Data Archiving plugin \(com.glide.auxdb\) enables to mov
 
 [Activate Change Management - Change Models]()
 
-[Activate Change Management Success Probability]()
+[Activate Change Management - Success Probability]()
 

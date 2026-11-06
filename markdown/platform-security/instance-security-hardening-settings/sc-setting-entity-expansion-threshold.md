@@ -1,5 +1,5 @@
 ---
-title: Minimize Entity Expansion Threshold for GlideXMLUtil Scriptable
+title: Minimize entity expansion threshold for GlideXMLUtil scriptable
 description: Use the glide.xmlutil.max\_entity\_expansion property to change the maximum entity expansion limit to a smaller number.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/instance-security-hardening-settings/sc-setting-entity-expansion-threshold.html
@@ -7,16 +7,16 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platform Security]
 ---
 
-# Minimize Entity Expansion Threshold for GlideXMLUtil Scriptable
+# Minimize entity expansion threshold for GlideXMLUtil scriptable
 
 Use the **glide.xmlutil.max\_entity\_expansion** property to change the maximum entity expansion limit to a smaller number.
 
-The **glide.xmlutil.max\_entity\_expansion** system property controls the maximum amount of entity expansion within an XML Parser. If **glide.xmlutil.max\_entity\_expansion** isn't set to the recommended value of `3000` or less, then the GlideXMLUtil parsing scriptable may be vulnerable to denial of service attacks.
+The **glide.xmlutil.max\_entity\_expansion** system property controls the maximum amount of entity expansion within an XML parser. If **glide.xmlutil.max\_entity\_expansion** isn't set to the recommended value of `3000` or less, then the GlideXMLUtil parsing scriptable may be vulnerable to denial of service attacks.
 
 Ensure that the property **glide.xmlutil.max\_entity\_expansion** is set to `3000` or less.
 
@@ -72,7 +72,7 @@ Default value
 
 </td><td>
 
-&lt;none&gt;
+3000
 
 </td></tr><tr><td>
 

@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Authentication, Access Management]
 ---
@@ -18,7 +18,7 @@ API access policy defines the permissions and duration of access to an API.
 
 API access policy enables you to restrict access to inbound ServiceNow® APIs based on the authentication type and the specified filter criteria of the access policy.
 
-Following are the three level auth policy support for the non-interactive sessions:
+Following are the three levels of auth policy support for the non-interactive sessions:
 
 -   **REST API**: Admin can define a global API auth policy or API specific auth policy.
 -   **SOAP API**: Admin can define a global API auth policy or API specific auth policy.
@@ -33,7 +33,7 @@ Following are the plugins auto-installed for API policies and authentication sco
 -   com.glide.processor.policy
 -   com.glide.rest.auth.scope
 
-You can configure the default Global Blocking Policy or create a custom API access policy according to your security requirements. And apply filter criteria that contain filter conditions or queries that are used as policy inputs for an authentication policy.
+You can configure the default Global Blocking Policy or create a custom API access policy according to your security requirements. You can also apply filter criteria that contain filter conditions or queries that are used as policy inputs for an authentication policy.
 
 The following API access policies are supported in ServiceNow®:
 

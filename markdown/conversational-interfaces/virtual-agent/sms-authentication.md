@@ -1,20 +1,20 @@
 ---
 title: Rate limiting policy for SMS Authentication
-description: Rate limiting policy locks out a user when an invalid or incorrect Soft PIN is entered consecutively for 3 times in a span of 24 hours.
+description: Rate limiting policy locks out a user when an invalid or incorrect Soft PIN is entered consecutively for three times in a span of 24 hours.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/sms-authentication.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure SMS authentication, Configure, Conversational SMS Integration with Twilio, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Configure SMS authentication, Configure, SMS Twilio, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Rate limiting policy for SMS Authentication
 
-Rate limiting policy locks out a user when an invalid or incorrect Soft PIN is entered consecutively for 3 times in a span of 24 hours.
+Rate limiting policy locks out a user when an invalid or incorrect Soft PIN is entered consecutively for three times in a span of 24 hours.
 
 ## Rate limiting policy
 
@@ -29,7 +29,7 @@ Rate limiting policy is enabled by default for SMS for better security. To confi
 
     **Note:** The maximum number of attempts is **3**.
 
-    If your account is locked, you are treated as a guest user when you start a new conversation. The bot confirms that your account is locked. You are then provided with the public topics and you can also unlock the account using the **Setup/Reset Verification Profile** Virtual Agent topic to reset the Soft PIN and Google authenticator.
+    If your account is locked, you're treated as a guest user when you start a new conversation. The bot confirms that your account is locked. You're then provided with the public topics and you can also unlock the account using the **Setup/Reset Verification Profile** Virtual Agent topic to reset the Soft PIN and Google authenticator.
 
 
 \[Omitted image "sms-auth-rate-limit-properties.png"\] Alt text: The Provider Properties tab lists entries for each of these parameters, including the value and description.

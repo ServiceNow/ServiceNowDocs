@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Microsoft Exchange Online integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -192,15 +192,15 @@ For example, `Log in to your account` are exact key words in the string `log in 
 
 13. Choose one option to continue.
 
-<table id="choicetable_uyx_fxn_l2b"><thead><tr><th align="left" id="d334067e673">
+<table id="choicetable_uyx_fxn_l2b"><thead><tr><th align="left" id="d335755e673">
 
 Option
 
-</th><th align="left" id="d334067e676">
+</th><th align="left" id="d335755e676">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d334067e682">
+</th></tr></thead><tbody><tr><td id="d335755e682">
 
 **Update**
 
@@ -208,7 +208,7 @@ Description
 
 Update and save your changes to the record.
 
-</td></tr><tr><td id="d334067e691">
+</td></tr><tr><td id="d335755e691">
 
 **Search on Email Server\(s\)**
 
@@ -216,7 +216,7 @@ Update and save your changes to the record.
 
 Initiate a search on the servers with the criteria that you saved on the Email Search Criteria record.
 
-</td></tr><tr><td id="d334067e700">
+</td></tr><tr><td id="d335755e700">
 
 **Delete**
 

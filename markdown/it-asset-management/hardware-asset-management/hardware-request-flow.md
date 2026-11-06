@@ -7,9 +7,9 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Fulfilling hardware asset requests, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Fulfilling hardware asset requests, Procurement and fulfillment, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Fulfill hardware asset requests manually by using the Standard Hardware Asset Request flow

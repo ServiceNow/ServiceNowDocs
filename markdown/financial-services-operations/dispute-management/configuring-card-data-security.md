@@ -7,7 +7,7 @@ release: australia
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [configure card data security, card data security setup steps, install card data security, provision tokenizer service, card vault setup, set up oauth card data security, tokenizer route configuration, tokenizer resource configurations, card data security configuration checklist, set up connections card data security]
 breadcrumb: [Card Data Security, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]

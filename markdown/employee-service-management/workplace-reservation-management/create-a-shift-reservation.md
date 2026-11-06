@@ -7,8 +7,8 @@ release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Reserve workplace items, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -24,15 +24,15 @@ Role required: sn\_wsd\_core.workplace\_user
 
 1.  Navigate to the Make a Reservation page from any of the following starting points.
 
-<table id="choicetable_lfy_3zf_r4b"><thead><tr><th align="left" id="d494169e51">
+<table id="choicetable_lfy_3zf_r4b"><thead><tr><th align="left" id="d493438e51">
 
 Location
 
-</th><th align="left" id="d494169e54">
+</th><th align="left" id="d493438e54">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d494169e60">
+</th></tr></thead><tbody><tr><td id="d493438e60">
 
 **From application navigator**
 
@@ -40,7 +40,7 @@ Steps
 
 Navigate to **Workplace Reservation Management** &gt; **Portal** &gt; **New Reservation**.
 
-</td></tr><tr><td id="d494169e81">
+</td></tr><tr><td id="d493438e81">
 
 **Employee Center**
 
@@ -144,9 +144,9 @@ Review your reservation details. To edit or cancel your reservations, see [Share
 
 [Create a reservation]()
 
-[Add invitees as collaborators and create a reservation]()
-
 [Auto-resolve recurring reservations]()
+
+[Add invitees as collaborators and create a reservation]()
 
 [Set a location as favorite using the Space details page]()
 
@@ -173,4 +173,6 @@ Review your reservation details. To edit or cancel your reservations, see [Share
 [Reserve a workplace using the Quick Reservation widget]()
 
 [Download an iCalendar for a reservation]()
+
+[Manage and configure reservation waitlist]()
 

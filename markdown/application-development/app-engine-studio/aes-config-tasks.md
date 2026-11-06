@@ -7,9 +7,9 @@ release: australia
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: reference
-last_updated: "2026-04-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Configure AES, Configure, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Configure AES, Configure, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Perform AES configuration tasks
@@ -18,7 +18,7 @@ As you work through the App Engine Studio \(AES\) guided setup, you must perform
 
 ## Setting up environments, tools, and user access
 
-The following table lists the tasks required for configuring App Engine Studio, including links to detailed instructions for completing the tasks.
+The tasks for configuring App Engine Studio are listed below, along with links to detailed instructions for completing them.
 
 <table id="table_lqq_1qt_rhb"><thead><tr><th>
 
@@ -46,7 +46,7 @@ Set up instance credentials.
 
 </td><td>
 
-For each instance that you're using, create a Connections and Credentials alias. Verify that the alias type is **Credential**, not **Connection and Credential**.
+For each instance that you're using, create a Connections and Credentials alias. Ensure that the alias type is **Credential**, not **Connection and Credential**.
 
  For detailed instructions, see [Set up instance credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connection-alias.md).
 
@@ -60,7 +60,7 @@ You can edit processes in App Engine Studio, but you must activate Playbooks for
 
 </td></tr><tr id="integrationhub-spokes"><td>
 
-Set up Integration Hub spokes.
+Set up IntegrationHub spokes.
 
 </td><td>
 
@@ -70,7 +70,7 @@ Activate spokes to enhance your Workflow Studio and App Engine Studio experience
 
 -   [Gmail spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-gmail.md)
 -   [Google Sheets spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-gsheets.md)
--   [Jira Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/jira-spoke-v3-0-2.md)
+-   [Jira spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-jira-spk-opt2.md)
 -   [Microsoft 365 Excel spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-office-365-excel.md)
 -   [Microsoft Teams spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/microsoft-teams-spoke.md)
 -   [Slack spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-slack.md)
@@ -80,7 +80,7 @@ Activate spokes to enhance your Workflow Studio and App Engine Studio experience
 
 </td></tr><tr><td>
 
-Review access settings for Workflow Studio in your development instance.
+Review access settings for Flow Designer in your development instance.
 
 </td><td>
 
@@ -96,7 +96,7 @@ Enable your developers to add items to the appropriate catalogs and categories.â
 
 </td></tr><tr><td>
 
-Set up an instance scan cadence.
+Set up an instance scan cadence in Health Center.
 
 </td><td>
 
@@ -104,7 +104,7 @@ Schedule regular scans of your instance so that you can identify possible issues
 
 </td></tr><tr><td>
 
-In your production instance, add users to the App Engine Studio admin group.
+In your production instance, add users to the App Engine Studio Admin group.
 
 </td><td>
 
@@ -114,7 +114,7 @@ Add members to the group so they can review app- and deployment-related requests
 
 </td></tr><tr><td>
 
-In your development instance, add developers to the App Engine Studio users group.
+In your development instance, add developers to the App Engine Studio Users group.
 
 </td><td>
 

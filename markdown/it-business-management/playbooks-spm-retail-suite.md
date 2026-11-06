@@ -1,11 +1,11 @@
 ---
 title: Explore playbooks for retail projects
-description: Playbooks in Retail Strategic Portfolio Management Suite provide a guided, structured approach to managing store life cycle projects from initiation to completion. This helps project teams follow a consistent process across every store scenario.
+description: Playbooks in Retail Strategic Portfolio Management Suite provide a guided, structured approach to managing store life cycle projects from initiation to completion, helping project teams follow a consistent process across every store scenario.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/playbooks-spm-retail-suite.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 keywords: [playbooks, SPM retail suite, SPM Retail, store life cycle playbook, retail project playbook]
 breadcrumb: [Explore, Retail Strategic Portfolio Management Suite, Strategic Portfolio Management]
@@ -13,7 +13,7 @@ breadcrumb: [Explore, Retail Strategic Portfolio Management Suite, Strategic Por
 
 # Explore playbooks for retail projects
 
-Playbooks in Retail Strategic Portfolio Management Suite provide a guided, structured approach to managing store life cycle projects from initiation to completion. This helps project teams follow a consistent process across every store scenario.
+Playbooks in Retail Strategic Portfolio Management Suite provide a guided, structured approach to managing store life cycle projects from initiation to completion, helping project teams follow a consistent process across every store scenario.
 
 Without prescribed playbooks, high-volume store projects typically have three core problems.
 
@@ -50,7 +50,7 @@ These stages serve two purposes: they give project managers a prescribed sequenc
 
 ## Embedded approvals and exit criteria at every stage
 
-Every playbook stage includes the approvals, sign-offs, and exit criteria required before the project can transition to the next stage. With the Retail Strategic Portfolio Management Suite playbooks, governance is built into the project flow rather than relying on offline review meetings or ad hoc emails. As a result, capital commitments, lease decisions, and go-live readiness are gated consistently across every project.
+Every playbook stage includes the approvals, sign-offs, and exit criteria required before the project can transition to the next stage. With the Retail Strategic Portfolio Management Suite playbooks, governance is built into the project flow rather than relying on offline review meetings or ad hoc emails, so capital commitments, lease decisions, and go-live readiness are gated consistently across every project.
 
 ## Portfolio-level visibility across all playbook stages
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/use-user-certificates-rpa.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Obtaining client authentication and code signing certificates, Configure, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -93,15 +93,15 @@ Generate a code signing certificate for publishing an automation project from RP
 
 9.  Generate a user certificate.
 
-<table id="choicetable_xwg_ksg_q2c"><thead><tr><th align="left" id="d610232e362">
+<table id="choicetable_xwg_ksg_q2c"><thead><tr><th align="left" id="d598904e362">
 
 Certificate type
 
-</th><th align="left" id="d610232e365">
+</th><th align="left" id="d598904e365">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d610232e371">
+</th></tr></thead><tbody><tr><td id="d598904e371">
 
 **mTLS authentication for client certificate**
 
@@ -123,7 +123,7 @@ Steps
 7.  Select **OK**.
 
 
-</td></tr><tr><td id="d610232e450">
+</td></tr><tr><td id="d598904e450">
 
 **Code signing certificate**
 

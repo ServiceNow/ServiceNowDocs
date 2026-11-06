@@ -7,8 +7,8 @@ release: australia
 product: Workplace Central
 classification: workplace-central
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Working with Case management, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -37,12 +37,6 @@ Use one of the following options to proceed:
 [Print a workplace case]()
 
 [Cancel or delete a case]()
-
-[Manage workplace cases in calendar view in Workplace Central]()
-
-[Workplace cases in List view in Workplace Central]()
-
-[View facility assets in Workplace Central]()
 
 ## Print filtered cases
 

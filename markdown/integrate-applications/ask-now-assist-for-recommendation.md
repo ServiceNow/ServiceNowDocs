@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/ask-now-assist-for-recommendation.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, Workflow Data Fabric Home, Workflow Data Fabric]
+breadcrumb: [ServiceNow Otto for Workflow Data Fabric \(WDF\), Workflow Data Fabric Home, Workflow Data Fabric]
 ---
 
 # Ask ServiceNow Otto for Workflow Data Fabric \(WDF\) for recommendations
@@ -22,26 +22,24 @@ Role required: df\_data\_steward, connection\_admin, wdf\_operator, wdf\_builder
 
 1.  Navigate to **All** &gt; **Workflow Data Fabric** &gt; **Workflow Data Fabric Home**.
 
-2.  On the landing page, enter your question in the ServiceNow Otto conversation interface.
+2.  On the landing page, enter your question in the Now Assist search field \[Omitted image "now-assist-sparkle-icon-dark.png"\] Alt text:.
 
-    You can also use the ServiceNow Otto panel embedded in the top-right corner of the Workflow Data Fabric \(WDF\) home page header by clicking the sparkle \[Omitted image "image.now-assist-sparkle-icon-dark"\] icon.
+    Ask for information in plain language. For example, `How can I connect to Jira`.
 
-3.  Enter your question in plain language.
+    If specific applications have data available that you want to use, enter the application name and get relevant links. For example, `MySQL`.
 
-    For example, `How can I connect to Jira`. If specific applications have data available that you want to use, enter the application name and get relevant links. For example, `MySQL`.
+    \[Omitted image "wdf-na-search-field.png"\] Alt text: Screenshot showing search field on Workflow Data Fabric landing page.
 
-    \[Omitted image "wdf-na-search-field.png"\] Alt text: Screenshot showing the search field on the Workflow Data Fabric landing page.
+3.  Select source links to see more information about a topic.
 
-4.  Select source links to see more information about a topic.
-
-    **Note:** You can access support information and toggle audio notifications from thes Support and setting icon \[Omitted image "wdf-na-support-icon.png"\] Alt text:.
+    **Note:** You can access support information and toggle audio notifications from the Support and setting icon \[Omitted image "wdf-na-support-icon.png"\] Alt text:.
 
 
 ## Result
 
 ServiceNow Otto for Workflow Data Fabric \(WDF\) provides the information that you requested, including alternatives, sources, and a summary.
 
-\[Omitted image "wdf-na-request-1.png"\] Alt text: Screenshot showing query and the Now Assist response.
+\[Omitted image "wdf-na-request-1.png"\] Alt text: Screenshot showing query and Now Assist response.
 
 ## Search documents across cloud drives
 
@@ -57,15 +55,21 @@ I want to generate incidents in ServiceNow automatically when critical events ar
 
 ## Unify customer data
 
-Customer data exists across Salesforce, SAP, and internal databases. We need a unified view for support and operations without syncing everything into a single system.
+Customer data exists across Salesforce SAP, and internal databases. We need a unified view for support and operations without syncing everything into a single system.
 
 ## Search the data catalog
 
 The support team is investigating customer churn. It wants to find data assets in the Data Catalog that hold subscription and cancellation records, along with the related glossary terms.
 
+## Classify ServiceNow assets
+
+The data privacy team wants data class recommendations for the ServiceNow columns in the Data Catalog. Select the promoted Classifying ServiceNow assets with Vault agents agentic workflow, if available on this panel, or ask Otto to classify the ServiceNow assets.
+
+\[Omitted image "dc-otto-classify-assets.png"\] Alt text: Otto classify assets panel in the Data Catalog.
+
 ## Enrich metadata for data assets
 
-A recent metadata collector run onboarded new assets to the Data Catalog, but their metadata is still incomplete. Select the promoted [Bulk enrich assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/ai-metadata-enrichment-overview-dc.md) action, if available on this panel, or ask Otto to bulk enrich the assets.
+A recent metadata collector run onboarded new assets to the Data Catalog, but their metadata is still incomplete. Select the promoted [Bulk-enrich assets action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/ai-metadata-enrichment-overview-dc.md), if available on this panel, or ask Otto to bulk enrich the assets.
 
 \[Omitted image "dc-bulk-enrich-with-ai.png"\] Alt text: Enrich data assets with AI
 

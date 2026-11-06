@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ba-update-sets.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Use, Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Update sets and Build Agent
@@ -17,15 +17,13 @@ When you work with Build Agent, your changes are automatically tracked in update
 
 Build Agent tracks every change it makes to your application in update sets. Changes from each checkpoint in a conversation are captured together in a single update set. You can access, review, and open the update sets directly from the Build Agent chat panel. You can also open the update sets from the Current Changes List \(CCL\) page in ServiceNow Studio, without navigating to the platform.
 
-**Note:** Your instance must be on Australia Patch 3 or later to work with update sets in Build Agent.
-
 Update sets use descriptive names to help identify what each update set contains. Names follow this pattern: *application-name* `build agent install 1`, `build agent install 2`, and so on.
 
 For general information about update sets on the ServiceNow AI Platform, see [System update sets]().
 
 ## How Build Agent tracks changes
 
-Starting with Australia Patch 4, Build Agent automatically captures changes in a unified update set as you work. Manual edits you make in the ServiceNow Studio editor and automatic edits made by Build Agent within the same work session are bundled into a single update set. The consolidated update set merges all the update sets created for previous agentic and manual development into a single update set for ease of deployment. The consolidation occurs after you tell Build Agent that you're done working on a task and no longer require rollback.
+Build Agent automatically captures changes in a unified update set as you work. Manual edits you make in the ServiceNow Studio editor and automatic edits made by Build Agent within the same work session are bundled into a single update set. The consolidated update set merges all the update sets created for previous agentic and manual development into a single update set for ease of deployment. The consolidation occurs after you tell Build Agent that you're done working on a task and no longer require rollback.
 
 Build Agent automatically captures changes to the app and metadata that you're working on.
 

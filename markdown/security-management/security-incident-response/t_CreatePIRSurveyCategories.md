@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Perform a questionnaire-based post incident review, Manage post incident activities, Managing security incidents and inbound requests, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -18,7 +18,7 @@ You can use the post incident review questionnaire categories that come with the
 
 ## Before you begin
 
-Role required: `sn_si.admin`
+Role required: sn\_si.admin
 
 ## About this task
 

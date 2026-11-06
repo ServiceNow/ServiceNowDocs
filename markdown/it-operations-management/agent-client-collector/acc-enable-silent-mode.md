@@ -1,20 +1,20 @@
 ---
 title: Pause Agent Client Collector data collection
-description: If CPU consumption on your server is getting too high, you can manually turn off the Agent Client Collector data collection to pause all checks performed by the agent, except for the agent's keep alive messages.
+description: If CPU consumption on your server is getting too high, you can manually turn off the Agent Client Collector data collection. This pauses all checks performed by the agent, except for the agent's keep alive messages.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/acc-enable-silent-mode.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enabling ACC data collection, ACC deployment - shared between servers and endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Pause Agent Client Collector data collection
 
-If CPU consumption on your server is getting too high, you can manually turn off the Agent Client Collector data collection to pause all checks performed by the agent, except for the agent's keep alive messages.
+If CPU consumption on your server is getting too high, you can manually turn off the Agent Client Collector data collection. This pauses all checks performed by the agent, except for the agent's keep alive messages.
 
 ## Before you begin
 

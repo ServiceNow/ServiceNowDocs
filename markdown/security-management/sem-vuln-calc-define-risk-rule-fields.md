@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-vuln-calc-define-risk-rule-fields.html
 release: australia
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Configure rules to manage findings, Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -159,7 +159,10 @@ Use case: Third-party vendors, like Qualys and Tenable, provide their own scores
 4.  From the Choose reference table list, select **Vulnerable item**.
 5.  From the Field list, select **Vulnerability.Source Severity**.
 6.  In the **Weight** field, enter the relative importance of this field within the risk rule. The value must be an integer from 0 through 100.
-7.  In the Define Value Weightages section, add field values, and assign a weight to them.
+7.  In the Define Value Weightage section, add field values, and assign a weight to them.
+
+    \[Omitted image "risk-rule-vi-example.jpg"\] Alt text: Risk rule VI example.
+
 8.  Select **Submit**.
 
 Example 2: Add a business criticality as a criterion for a risk rule.
@@ -184,6 +187,9 @@ The mapping between the CI and services is stored in the Related Services \[sn\_
 7.  In the **Aggregation** field, select **Minimum** to retrieve the most critical service for this use case \(**1- Most critical** value\) or Maximum to retrieve the least critical service for this use case \(**4 – Not critical** value\) for this use case.
 8.  In the **Weight** field, enter the relative importance of this field within the risk rule. The value must be an integer from 0 through 100.
 9.  In the Define Value Weightages section, add field values, and assign a weight to them.
+
+    \[Omitted image "risk-rule-ci-ref-table-define-value-weightages.png"\] Alt text: Risk rule CI reference table.
+
 10. Select **Submit**.
 
 Example 3: Add a conditional criterion to the risk calculator.
@@ -202,12 +208,13 @@ To add a conditional criterion to the risk rule, do the following:
 6.  In the **Field name** field, enter the name **CI Exposure**.
 7.  In the **Weight** field, enter the relative importance of this field within the risk rule. The value must be an integer from 0 through 100.
 8.  In the **Condition** field, select **Name** &gt; **starts with** and enter the value **external**.
+
+    \[Omitted image "risk-rule-custom-conditions.jpg"\] Alt text: Custom conditions for a new risk rule.
+
 9.  Select **Submit**.
 
     **Note:** Adding conditional criteria to your risk rule might degrade performance.
 
-
-**Parent Topic:**[Configure rules to manage findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-rules-manage-findings.md)
 
 **Related topics**  
 

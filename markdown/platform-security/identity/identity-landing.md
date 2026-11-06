@@ -1,19 +1,19 @@
 ---
 title: Identity
-description: Know more about the Identities in the instance.
+description: Learn about the identities in the instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/identity/identity-landing.html
 release: australia
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 ---
 
 # Identity
 
-Know more about the Identities in the instance.
+Learn about the identities in the instance.
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 

@@ -1,20 +1,20 @@
 ---
 title: Enable automatic MID Server selection
-description: Enabling automatic MID Server selection lets the agent perform a connectivity test against the list of available MID Servers and determine the best connection based on latency and number of currently connected agents. Automatic MID Server selection is disabled by default.
+description: Enabling automatic MID Server selection lets the agent perform a connectivity test against the list of available MID Servers. The agent then determines the best connection based on latency and number of currently connected agents. Automatic MID Server selection is disabled by default.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/acc-disable-auto-mid-selection.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Automatic MID Server selection, Configuring ACC with a MID Server, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Enable automatic MID Server selection
 
-Enabling automatic MID Server selection lets the agent perform a connectivity test against the list of available MID Servers and determine the best connection based on latency and number of currently connected agents. Automatic MID Server selection is disabled by default.
+Enabling automatic MID Server selection lets the agent perform a connectivity test against the list of available MID Servers. The agent then determines the best connection based on latency and number of currently connected agents. Automatic MID Server selection is disabled by default.
 
 ## Before you begin
 

@@ -7,9 +7,9 @@ release: australia
 product: Customer Experience for Field Service Management
 classification: customer-experience-for-field-service-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customer self service, Use, Field Service Management]
+breadcrumb: [Customer or Consumer Service Portal, Customer self service, Use, Field Service Management]
 ---
 
 # View and add comments to work order tasks from the Customer or Consumer Service Portal

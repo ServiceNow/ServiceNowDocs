@@ -7,7 +7,7 @@ release: australia
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [Explore Cloud Workspace, Explore CW, What is Cloud Workspace, Benefits of Cloud Workspace, Subscription accounts in Cloud Workspace, personas in Cloud Workspace]
 breadcrumb: [Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
@@ -21,7 +21,7 @@ The ServiceNow Cloud Account Management in Cloud Workspace application provides 
 
 The automation capabilities of Cloud Account Management in Cloud Workspace simplify administrative tasks related to account management, such as creation, suspension, reactivation, and certification. Data certification confirms the integrity and security of user accounts within the organization's cloud environment.
 
-As a Cloud Account Management admin, you can view the account statistics displayed on the **Home** tab, which include critical severity accounts, high severity accounts, suspended accounts, accounts due for certification, and accounts with undefined budgets.
+As a Cloud Account Management admin, you can view the account statistics displayed on the **Home** tab, which include critical severity accounts, high severity accounts, suspended accounts, accounts due for certification, and accounts with undefined budgets. Select a category to view the affected accounts.
 
 \[Omitted image "overview-cam.png"\] Alt text: Cloud Account Management overview infographic
 

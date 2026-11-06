@@ -7,7 +7,7 @@ release: australia
 product: MetricBase
 classification: metricbase
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Working with demo data, Configure, MetricBase, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -93,7 +93,7 @@ After ServiceNow personnel install the MetricBase and MetricBase Demo plugins, y
     \[Omitted image "flow-action.png"\] Alt text: Define an action
 
 24. Select a domain of actions from the left column and the specific action to take in the right column.
-25. Select **Save** and **Activate**. The flow doesn't execute unless it is activated. For more information about Workflow Studio, see [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio.md).
+25. Select **Save** and **Activate**. The flow doesn't execute unless it is activated. For more information about Workflow Studio, see .
 
 The following table summarizes the modules in the MetricBase demo.
 

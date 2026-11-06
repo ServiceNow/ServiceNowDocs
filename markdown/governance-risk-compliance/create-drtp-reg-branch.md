@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-drtp-reg-branch.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Use, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Create a branch and enhance digital resilience data
@@ -58,7 +58,7 @@ It eliminates the need for manual lookup and ensures that branch records contain
 
 4.  Select **Save**.
 
-    When a valid LEI is entered in the Identification code of the branch field, the system validates it against the GLEIF database in real time. On successful validation, the system automatically populates the Name of the branch, Country of the branch, and LEI of the financial entity head office fields.
+    When a valid LEI is entered in the Identification code of the branch field, the system validates it against the GLEIF database in real time. On successful validation, the system automatically populates the Name of the branch, Country of the branch, and LEI of the financial entity head office fields. The data is returned from GLEIF.
 
     The digital resilience information for the branch is shown in the example.
 

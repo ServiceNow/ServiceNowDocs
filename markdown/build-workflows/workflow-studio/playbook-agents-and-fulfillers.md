@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Playbooks, Workflow Studio, Build workflows]
 ---
@@ -65,10 +65,10 @@ The Automated Test Framework \(ATF\) can be used to create automated tests to co
 Restart a playbook from the beginning, an activity, or a stage.
 -   **[Cancel a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/cancel-playbook.md)**  
 Cancel a playbook to stop a business workflow when no longer valid.
--   **[Open full lists within playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/full-list-playbook.md)**  
+-   **[Open full lists within a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/full-list-playbook.md)**  
 Open a full list within playbook cards to view and update list items.
--   **[Using activity stream within a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/activity-stream-in-playbook.md)**  
-Use activity stream within a playbook to add comments or notes, and view communication and task history for the parent or associated record.
+-   **[Using the activity stream within a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/activity-stream-in-playbook.md)**  
+Add comments or notes, and view communication and task history for a parent or associated record using the activity stream. The activity stream is available only on cards where an administrator has configured it.
 
-**Parent Topic:**[Workflow Studio Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/workflow-studio-playbooks-landing.md)
+**Parent Topic:**[Workflow Studio playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/workflow-studio-playbooks-landing.md)
 

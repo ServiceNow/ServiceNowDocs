@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/analytics-center.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-10-05"
 reading_time_minutes: 3
 breadcrumb: [Platform Analytics experience, Platform Analytics]
 ---
@@ -46,7 +46,7 @@ Library pages like this one include a navigation pane that provides access to th
 
 \[Omitted image "analytics-overview-non-admin.png"\] Alt text: Platform analytics overview page for users with non-admin roles
 
-The following table shows the elements that users can view in the Analytics Overview page. Refer to the numbered call-outs in the image and their descriptions in the table.
+The following table shows the elements that users can view in the Analytics Overview page. Refer to the numbered call-outs in the screenshots and their descriptions in the table.
 
 <table id="table_avg_rs2_yhc"><thead><tr><th>
 
@@ -105,7 +105,7 @@ Search bar
 
 </td><td>
 
-Type name and search for any platform analytics artifact such as dashboard, data visualization, filter, or indicator across multiple libraries. The **Search** option uses AI search functionality if enabled in the instance, otherwise, uses Zing search functionality.
+Type name and search for any platform analytics artifact such as dashboard, data visualization, filter, or indicator across multiple libraries. The **Search** option uses AI search functionality if enabled in the instance. Otherwise, it uses Zing search functionality.
 
 </td></tr><tr><td>
 
@@ -121,17 +121,17 @@ Single score filter
 
 </td><td>
 
-Consists of single score cards for the following data collection filters:-   Latest data collection jobs with errors
+Consists of single score visualizations for the following data collection filters:-   Latest data collection jobs with errors
 -   Latest data collection jobs with warnings
 -   Latest data collection jobs running over 1 hour
 
-**Note:** Users with pa\_admin, pa\_data\_collector, and pa\_power\_user roles can view the single scorecards related to job logs.
+**Note:** Users with pa\_admin, pa\_data\_collector, and pa\_power\_user roles can view the single score visualizations related to job logs.
 
-Users with dashboard\_admin role can only view scorecards related to dashboards.
+Users with dashboard\_admin role can only view the single score visualizations related to dashboards.
 
-Users with platform\_analytics\_admin can view all scorecards.
+Users with platform\_analytics\_admin can view all the single score visualizations on this overview.
 
-Users with viz\_admin and/or reports\_admin roles can’t view any scorecards.
+Users with the viz\_admin or reports\_admin roles don't see any of the single score visualizations on this overview.
 
 </td></tr><tr><td>
 
@@ -147,16 +147,14 @@ Single score filter
 
 </td><td>
 
-Consists of single score cards for the following dashboards filters:-   Usage of recently created dashboards
+This section has three visualizations:-   Usage of recently created dashboards
 
-**Note:** This value indicates the usage of the dashboards created by the user logged in currently.
+**Note:** This time series visualization shows the usage of dashboards created by the logged in user with the platform\_analytics\_admin role.
 
--   Dashboards with load time less than 5 secs
--   Dashboards with load time greater than 5 secs
+-   Dashboards with load time less than 5 secs \(Single score visible to the dashboard\_admin user - this user can select the visualization to view the underlying list.\)
+-   Dashboards with load time greater than 5 secs \(Single score visible to the dashboard\_admin user - this user can select the visualization to view the underlying list.\)
 
-**Note:** You can view the data in this scorecard only if the Usage Insights \(glide.analytics.enabled property\) is enabled for your instance and if corresponding Usage Insights data is available.
-
-Users with only dashboard\_admin and platform\_analytics\_admin roles can view these scorecards.
+**Note:** The visualization **Usage of recently created dashboards** requires Usage Insights to be enabled for your instance and corresponding Usage Insights data. Only users with the platform\_analytics\_admin role can see this visualization.
 
 </td></tr><tr><td>
 

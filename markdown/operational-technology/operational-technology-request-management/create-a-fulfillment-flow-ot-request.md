@@ -7,7 +7,7 @@ release: australia
 product: Operational Technology Request Management
 classification: operational-technology-request-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Operational Technology Request Management, Operational Technology]
 ---

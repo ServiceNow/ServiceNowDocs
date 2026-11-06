@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/r\_ProcessFlowFormatter.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Formatters, Administer, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -20,7 +20,7 @@ These examples show a workflow in Core UI interface.
 
 
 
-\[Omitted image "image.process-flow"\] Alt text: Core UI process flow for a change request
+\[Omitted image "process-flow.png"\] Alt text: Core UI process flow for a change request
 
 When any formatter stages are defined for a table, they appear on the form associated with that table in the order specified, assuming the formatter has been added to the form.
 

@@ -7,7 +7,7 @@ release: australia
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Credential Store for Password Reset for Microsoft Entra ID, Credential stores for Password Reset, Configure your Password Reset process, Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,7 +24,7 @@ Role required: admin
 
 1.  To integrate Password Reset with your Microsoft Entra ID, you must set up the Microsoft Entra ID spoke.
 
-    For more information about setting it up, see [Set up Microsoft Entra ID spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-azure.md).
+    For more information about setting it up, see .
 
     The Microsoft Entra ID Integration for Password Reset is integrated.
 

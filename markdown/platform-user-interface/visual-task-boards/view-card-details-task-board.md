@@ -7,9 +7,9 @@ release: australia
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Visual Task Board accessibility, Exploring Visual Task Boards, Visual Task Boards, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Visual Task Board accessibility, Exploring Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
 
 # View card details in a Visual Task Board
@@ -32,7 +32,7 @@ Role required: none
 
 4.  Press the Tab key to navigate through the card until the Open Card Details button appears.
 
-    \[Omitted image "viewcarddetails.png"\] Alt text: Task board card with the View Card Details button enabled and highlighted
+    \[Omitted image "image.viewcarddetails"\] Alt text: Task board card with the View Card Details button enabled and highlighted
 
 5.  Press **Enter** to open the card.
 

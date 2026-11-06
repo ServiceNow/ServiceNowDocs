@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/next-experience-theming.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -38,7 +38,7 @@ Customers upgrading from a previous release continue to see the theme applied to
 
 ## Theme record
 
-This image shows the default Polaris theme, which is read-only. Polaris and Coral are fixed, base themes and cannot be copied or edited. You create your own themes and styles to be used by experiences in your instance by [by copying a Theme Builder theme record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/create-custom-theme-using-theme-builder-record.md). After copying a theme record, you must also copy the styles under UX Theme Styles and make changes to those styles, as desired. At least one Core type style must be defined.
+This image shows the default Polaris theme, which is read-only. Polaris and Coral are fixed, base themes and cannot be copied or edited. You create your own themes and styles to be used by experiences in your instance by [copying a Theme Builder theme record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/create-custom-theme-using-theme-builder-record.md). After copying a theme record, you must also copy the styles under UX Theme Styles and modify those styles as needed. At least one Core type style must be defined.
 
 \[Omitted image "comp-theme-overview.png"\] Alt text: Next Experience Polaris UX theme main record with Applicability, Order, Style and Type columns highlighted
 
@@ -48,7 +48,7 @@ When you configure a theme, you adjust the color schemes, fonts, and images of y
 
 -   **Order**
 
-    Style records with higher-order values override styles with lower values. The base system styles all have the order 0. If you meet the Applicability constraint, styles with higher values override the base system styles. If not, the lower-value style is used.
+    Style records with higher-order values override styles with lower values. The base system styles all have the order 0. If you meet the Applicability constraint, styles with higher values override the base system styles. If you do not meet the Applicability constraint, the lower-value style is used.
 
 -   **Style**
 

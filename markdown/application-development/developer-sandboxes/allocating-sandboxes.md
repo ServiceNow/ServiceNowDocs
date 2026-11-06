@@ -7,9 +7,9 @@ release: australia
 product: Developer Sandboxes
 classification: developer-sandboxes
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Administering, Developer Sandboxes, Developing your application, Building applications]
+last_updated: "2026-10-20"
+reading_time_minutes: 2
+breadcrumb: [Administering, Developer Sandboxes, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Allocate a sandbox
@@ -28,6 +28,10 @@ Role required: admin or sandbox\_manager
 
 You can allocate a sandbox at the beginning of a story or during the project planning process.
 
+When you allocate a sandbox, you claim one from a pre-created pool rather than waiting for a new instance to be provisioned. This makes sandboxes available faster, so you can start working sooner.
+
+**Note:** Because pooled sandboxes are pre-created, they may be out of date from the current base instance state. By default, a pooled sandbox that stays unclaimed for 24 hours is retired and replaced with a new one. For more information, see [Properties installed with Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/dsb-properties-installed.md).
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Sandbox Management** &gt; **Sandbox Management Home**.
@@ -38,40 +42,12 @@ You can allocate a sandbox at the beginning of a story or during the project pla
 
 3.  On the form, fill in the fields.
 
-<table id="table_r2b_zqk_fcc"><thead><tr><th>
+    |Field|Description|
+    |-----|-----------|
+    |Allocate to|User that owns the sandbox.|
+    |Sandbox alias|Name that's used to identify the sandbox, for example, in the sandbox management table. The name is configurable, but you can't change the URL.The name must be 1 to 20 characters long and can contain lowercase letters, numbers, and hyphens. The name must include at least one letter and can't start or end with a hyphen.|
 
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Allocate to
-
-</td><td>
-
-User that owns the sandbox.
-
-</td></tr><tr><td>
-
-Sandbox template
-
-</td><td>
-
-Template selected for the sandbox.For information on configuring templates to generate reusable data, see [Using sandbox templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/create-sandbox-template.md).
-
-</td></tr><tr><td>
-
-Sandbox alias
-
-</td><td>
-
-Name that's used in the unique URL for the sandbox.
-
-</td></tr></tbody>
-</table>    \[Omitted image "dev-sbx-allocate-modal.png"\] Alt text: Fill in the Allocate Sandbox form
+    \[Omitted image "dev-sbx-allocate-modal.png"\] Alt text: Fill in the Allocate Sandbox form
 
 4.  Select **Allocate**.
 
@@ -82,9 +58,16 @@ Name that's used in the unique URL for the sandbox.
 
 Developer Sandboxes starts the process of provisioning the sandbox.
 
-**Note:** It can take between 10 minutes and two hours for a sandbox to be provisioned, depending on the size of the tables used in the template. You can select the refresh icon \[Omitted image "dev-sbx-refresh-icon.png"\] Alt text: to see updates to the Sandboxes list.The record for the sandbox appears in the list as **Initializing** until the sandbox is ready.
+**Note:** Sandboxes from the pool are allocated quickly. If the pool is exhausted, it can take between ten minutes and two hours to allocate a sandbox. You can select the refresh icon \[Omitted image "dev-sbx-refresh-icon.png"\] Alt text: to see updates to the Sandboxes list.The record for the sandbox appears in the list as **Initializing** until the sandbox is ready.
 
-Once allocated, developers can access their sandbox by pre-pending the **Sandbox alias** value to the instance name followed by `devsandboxes`. For example, `https://samsbox.[instance].devsandboxes.servicenow.com`.
+After allocation, developers can access their sandbox in the following ways:
 
-Sandbox users use the same login credentials for their sandbox as the base instance. If you use Single Sign-On \(SSO\) for login, when you enable it to connect to your account on the base instance, Developer Sandboxes authenticates using the same mechanism and credentials as the base instance. For information on enabling SSO, see [Installing Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/dev-sbx-installing.md).
+-   Select the sandbox name on the Sandbox Management Home page.
+-   Copy the sandbox URL from the context menu and paste it in a browser.
+
+Sandbox users use the same login credentials for their sandbox as the base instance. If you use Single Sign-On \(SSO\), enabling it on the base instance also authenticates Developer Sandboxes using the same credentials. For information on enabling SSO, see [Single sign-on for Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/dev-sbx-sso.md).
+
+Two automatically created update set sources enable you to retrieve, preview, and commit completed update sets between the sandbox and base instance using the standard update set process. For more information, see [Update sets transfer between sandboxes and base instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/dsb-update-sets.md).
+
+**Parent Topic:**[Administering Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/administering-sandboxes.md)
 

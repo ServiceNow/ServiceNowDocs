@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-06-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [ITOM AIOps, IT Operations Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [ITOM AIOps, IT Operations Management]
 
 ServiceNow® Event Management is a robust application that helps keep your IT systems healthy by spotting problems quickly and fixing them. It collects events from different sources, figures out what's causing the issues, and converts them into alerts. These alerts are then analyzed, grouped, and acted upon to resolve issues and maintain system health.
 
-Event Management seamlessly integrates with various monitoring tools via connectors and listeners, enabling comprehensive data collection and correlation. Available as a separate subscription from the main ServiceNow platform, Event Management allows organizations to tailor their usage to specific needs, ensuring effective and efficient incident management without unnecessary overhead.
+Event Management seamlessly integrates with various monitoring tools via connectors and listeners, enabling comprehensive data collection and correlation. Available as a separate subscription, Event Management can be tailored to specific needs for efficient incident management.
 
 \[Omitted video\] Description: This video explains how to install and configure Event Management so you can start using it.
 

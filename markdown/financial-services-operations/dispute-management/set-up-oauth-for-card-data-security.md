@@ -7,7 +7,7 @@ release: australia
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [set up oauth card data security, oauth authentication, jwt authentication, json web token, context-aware token, service token, client token, data token signer, carddatasecurity servicetoken, carddatasecurity clienttoken, carddatasecurity datatokensigner, tokenizer service authentication]
 breadcrumb: [Configure, Card Data Security, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]

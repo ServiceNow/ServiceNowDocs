@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-walkup-view-auto-assigned-requests.html
 release: australia
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Manage queues and interactions, Using Walk-up Experience, Customer communication, Use, Customer Service Management]
+breadcrumb: [Manage queues and interactions, Use Walk-up Experience, Customer communication, Use, Customer Service Management]
 ---
 
 # Manage automatically assigned Walk-up Experience interactions
@@ -85,7 +85,7 @@ All Closed Complete and Closed Abandoned interactions assigned to a specific wal
 
     2.  You can associate the interaction with another record by selecting **Associate Record** from the more UI actions icon in the interaction header.
 
-    3.  If you cannot resolve an issue, select **Create Case** in the interaction header.
+    3.  If you can't resolve an issue, select **Create Case** in the interaction header.
 
         When you create an associated case, a **New Case** tab opens next to the **Details** tab of the original interaction. Fill out the new case form. Select **Save** to save the new case.
 

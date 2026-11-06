@@ -7,7 +7,7 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [ServiceNow Store applications and integrations, AI Search, Search a
 
 This ServiceNow® Store application enables administrators to configure AI Search as the search engine for Unified Navigation searches in Next Experience, including global search and configurable workspace search.
 
-AI Search for Next Experience is automatically installed and enabled in the Australia release, so you don't need to perform the initial migration and enablement configuration steps. To add new Unified Navigation workspace search configurations later, see [Add a new Unified Navigation workspace search configuration to AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/add-new-srch-app-cfg-ais-next-exp.md).
+AI Search for Next Experience is automatically installed and enabled in the Brazil release, so you don't need to perform the initial migration and enablement configuration steps. To add new Unified Navigation workspace search configurations later, see [Add a new Unified Navigation workspace search configuration to AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/add-new-srch-app-cfg-ais-next-exp.md).
 
 To learn about how global search and configurable workspace search work when AI Search for Next Experience is enabled, see [Using global search with AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/using-ais-next-experience-app.md).
 

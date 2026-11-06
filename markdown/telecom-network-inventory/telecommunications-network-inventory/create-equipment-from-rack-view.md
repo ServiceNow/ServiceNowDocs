@@ -1,20 +1,20 @@
 ---
 title: Create equipment from rack view
-description: The Create new equipment form enables you to create an equipment from the selected rack using the Telecommunications Network Inventory application.
+description: The Create equipment form enables you to create an equipment from the selected rack using the Telecommunications Network Inventory application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-network-inventory/telecommunications-network-inventory/create-equipment-from-rack-view.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
 
 # Create equipment from rack view
 
-The Create new equipment form enables you to create an equipment from the selected rack using the Telecommunications Network Inventory application.
+The Create equipment form enables you to create an equipment from the selected rack using the Telecommunications Network Inventory application.
 
 <table id="table_idw_wk4_rbc"><thead><tr><th>
 

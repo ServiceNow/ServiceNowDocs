@@ -7,7 +7,7 @@ release: australia
 product: Security Center
 classification: security-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security metrics, Security monitoring console, Security Center, Platform Security]
 ---
@@ -18,7 +18,7 @@ Use authentication policies to evaluate authentication requests and deny or allo
 
 Adaptive authentication metrics enable you to monitor how adaptive authentication is being used on your instance. View a summary of all of your metrics on Adaptive authentication, individual metrics such as policy result rates or denied IP addresses. This page requires the Adaptive Authentication \(**com.snc.adaptive\_authentication**\) plugin for adaptive authentication to be available in your instance. You must enable Authentication Policy to see the metrics. See [Activate adaptive authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/adaptive-authentication-plugin.md) and [Configure adaptive authentication properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/configure-adaptive-auth-properties.md) for more details.
 
-**Note:** This feature was released with Security Center version 1.2.
+**Note:** This feature was released with version 1.2.
 
 -   Policy result rates: All the successful and failed adaptive authentication events.
 -   Event failure distribution: All the failed events for each event type.

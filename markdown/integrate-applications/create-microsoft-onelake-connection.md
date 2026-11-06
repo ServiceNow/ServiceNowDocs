@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/create-microsoft-onelake-connection.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Microsoft OneLake, Primary connectors, Zero Copy Connectors, Workflow Data Fabric]
+breadcrumb: [Microsoft OneLake, Primary connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
 
 # Create a Microsoft OneLake connection
@@ -70,17 +70,7 @@ Description of the connection explaining what it is about.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
-Catalog Configuration
-
-</td></tr><tr><td>
-
-Iceberg REST catalog URI
-
-</td><td>
-
-URI of the Iceberg REST catalog endpoint for Microsoft OneLake. For example: ```
-https://onelake.dfs.fabric.microsoft.com/iceberg
-```
+Catalog configuration
 
 </td></tr><tr><td>
 
@@ -100,7 +90,7 @@ Secret key associated with the client ID.
 
 </td></tr><tr><td>
 
-OAuth Endpoint
+OAuth endpoint
 
 </td><td>
 
@@ -110,7 +100,7 @@ https://login.microsoftonline.com/<tenant-id>/oauth2/v2.0/token
 
 </td></tr><tr><td>
 
-WareHouse
+Warehouse
 
 </td><td>
 
@@ -118,7 +108,7 @@ Iceberg REST catalog warehouse.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
-Object Storage System configuration
+Authentication configuration
 
 </td></tr><tr><td>
 
@@ -146,7 +136,7 @@ Secret key associated with the client ID.
 
 </td></tr><tr><td>
 
-OAuth Endpoint
+OAuth endpoint
 
 </td><td>
 

@@ -7,7 +7,7 @@ release: australia
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Requesting a workplace service, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -34,21 +34,13 @@ You can select the best option and submit the selection. If an approval is confi
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Workplace Core** &gt; **Workplace service portal**.
+1.  Navigate to **All** &gt; **Self-service** &gt; **Employee Center**.
 
-    The Workplace Service Portal opens.
+2.  On the Employee Center portal, select **Help Center** &gt; **Workplace Services**.
 
-2.  Open the General category.
+3.  From the list of workplace services, select **Space assist request**.
 
-    1.  Select **Catalog**.
-
-    2.  Select **Browse by Categories**.
-
-    3.  In the Workplace Services Catalog, select **General**.
-
-        **Note:** If there are multiple catalogs configured on the portal, go to the Catalogs list and select **Workplace Services Catalog** &gt; **General**.
-
-3.  Select **Space assist request**.
+    Alternatively, you can search for the workplace service and select it from the search results.
 
 4.  On the form, fill in the fields.
 
@@ -265,7 +257,7 @@ Option to attach any supporting files if necessary.
 
     3.  Select **Select** next to the option that you want to proceed with.
 
-    4.  If you do not want to select any option for any reason, select **None of the above**.
+    4.  If you don't want to select any option for any reason, select **None of the above**.
 
         **Note:** If you select **None of the above**, the request is closed and the state will be set to **Closed complete**
 
@@ -346,7 +338,7 @@ The option that you selected is submitted. At any time, you can view your select
 
 [Create a view-by configuration]()
 
-[Create a KPI Configuration]()
+[]()
 
 [Reviewing allocation changes]()
 

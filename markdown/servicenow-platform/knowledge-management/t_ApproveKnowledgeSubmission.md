@@ -7,7 +7,7 @@ release: australia
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Creating and maintaining articles, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,9 +22,9 @@ Role required: knowledge
 
 ## About this task
 
-To create a knowledge article from an incident, see [Create a knowledge article from an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/create-knowledge-incident.md).
+To create a knowledge article from an incident, see Create a knowledge article from an incident.
 
-To create a knowledge article from problem, see [Create a known error article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/create-known-error-from-problem.md).
+To create a knowledge article from problem, see Create a known error article.
 
 Depending on the value of the **glide.knowman.submission.workflow** property, knowledge created from an incident or problem may require additional approval. When this property is true, a submission record is created instead of a knowledge article. A user with the knowledge role must approve the submission to create a knowledge article.
 

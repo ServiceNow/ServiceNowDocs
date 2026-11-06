@@ -7,9 +7,9 @@ release: australia
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Configure PCRS, Qualys, Integrate with other applications, Configuration Compliance, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Configure PCRS, Qualys, Integrate, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
 
 # Components installed with the Qualys Integration for Security Operations

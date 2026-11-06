@@ -1,24 +1,24 @@
 ---
 title: Change Approval Policy workflow activity
-description: Use the Change Approval Policy workflow activity to control the approval process for a change request by creating user and group approvals according to a change approval policy record. Multiple activities can be used in a workflow, where each activity can reference the same or different Change Approval Policies.
+description: The Change Approval Policy workflow activity controls the approval process for a change request. It creates user and group approvals according to a change approval policy record. A workflow can include multiple activities, each referencing the same or different Change Approval Policies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/change-approval-policiy-wf-activity.html
 release: australia
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Creating change approval policies, Use, Change Management, IT Service Management]
 ---
 
 # Change Approval Policy workflow activity
 
-Use the Change Approval Policy workflow activity to control the approval process for a change request by creating user and group approvals according to a change approval policy record. Multiple activities can be used in a workflow, where each activity can reference the same or different Change Approval Policies.
+The Change Approval Policy workflow activity controls the approval process for a change request. It creates user and group approvals according to a change approval policy record. A workflow can include multiple activities, each referencing the same or different Change Approval Policies.
 
 Using the current change request and additional inputs defined in the **Policy Input** script field in the activity, you can evaluate the Change Approval Policy record, which applies the approval definitions from matching decisions.
 
-**Note:** This activity is only available when the workflow runs on a table that extends or is the \[change\_request\] table.
+**Note:** This activity is only available when the workflow runs on a table that extends or is the Change Request \[change\_request\] table.
 
 ## Results
 
@@ -36,9 +36,9 @@ Input variables determine the initial behavior of the activity.
 
 |Field|Description|
 |-----|-----------|
-|Approval Policy|The Change Approval Policy that you want to apply to the change request.|
+|Approval Policy|Change Approval Policy to apply to the change request.|
 |Policy Input|Policy Inputs that are defined on the Change Approval Policy record. Set additional policy inputs here.|
-|Finish condition|Determine if the activity should complete while pending approvals remain. Use this condition if the workflow is configured to handle restarting the Change Approval Policy activity. For example, when the Change Request goes on-hold.|
+|Finish condition|Determine if the activity should complete while pending approvals remain. Use this condition if the workflow is configured to handle restarting the Change Approval Policy activity. For example, when the change request is put on hold.|
 
 ## Condition
 
@@ -58,7 +58,7 @@ Approved
 
 </td><td>
 
-Change request is approved when the criteria defined by applied Approval Definitions is met.
+The change request is approved when it meets the criteria defined by the applied approval definitions.
 
 </td></tr><tr><td>
 
@@ -66,7 +66,7 @@ Rejected
 
 </td><td>
 
-Any rejection from applied Approval Definitions will result in the Rejected outcome.
+Any rejection from the applied approval definitions results in the Rejected outcome.
 
 </td></tr><tr><td>
 
@@ -100,11 +100,11 @@ The workflow engine uses the activity state to perform the next logical action o
 
 ## Example
 
-In this example, let us reference the Risk approvals activity in the **Change Request - Normal** workflow. In the workflow, the change approval policy factors if the assigned group's manager has already approved the Change Request.
+This example uses the Risk approvals activity in the **Change Request - Normal** workflow. In the workflow, the change approval policy factors in whether the assigned group's manager has already approved the change request.
 
 \[Omitted image "CAPwfexample.png"\] Alt text: Example for Change Approval Policy Risk approvals
 
-You can use this activity to access the risk of the change request of a normal change policy. When this activity runs, the associated decisions executes the approvals that needs to be requested.
+You can use this activity to assess the risk of the change request of a normal change policy. When this activity runs, the associated decisions request the required approvals.
 
 \[Omitted image "examplepolicyinput.png"\] Alt text: Example policy input script for risk assessment
 
@@ -112,7 +112,7 @@ Use the **Policy Input** field to set up additional inputs. In the given example
 
 **Note:** Ensure that the manager\_approved policy input is defined in the Change Approval Policy record.
 
-The **Finish condition** field is used to complete the activity by marking pending approvals as **No Longer Required**. In this workflow example, when the Change Request is put on-hold, the Change Approval Policy activity is completed and the workflow disregards the pending approvals before waiting for the Change Request to resume. When the on-hold state is released, the Change Approval Policy activity is restarted.
+The **Finish condition** field completes the activity by marking pending approvals as **No Longer Required**. In this workflow example, when the Change Request is put on-hold, the Change Approval Policy activity is completed. The workflow then disregards pending approvals and waits for the Change Request to resume. When the on-hold state is released, the Change Approval Policy activity restarts.
 
 **Parent Topic:**[Creating change approval policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/using-change-approval-policies-cf.md)
 

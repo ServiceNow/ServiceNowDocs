@@ -7,10 +7,10 @@ release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-keywords: [ServiceNow Otto, generative AI, report a GRC issue]
-breadcrumb: [Configure, ServiceNow Otto, Common GRC features, Governance, Risk, and Compliance]
+keywords: [Now Assist, generative AI, report a GRC issue]
+breadcrumb: [Configure, ServiceNow Otto for Integrated Risk Management \(IRM\), Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Activate the Report a GRC issue AI agent
@@ -30,6 +30,8 @@ Role required: sn\_nowassist\_admin.nsa\_admin or sn\_aia.admin.
 2.  In the Recent agentic workflows and AI agents activity section, select **AI agents**.
 
 3.  From the list of available AI agents, select **Report a GRC issue**.
+
+    \[Omitted image "report-a-grc-issue.png"\] Alt text: The Report a GRC issue AI agent page.
 
 4.  Select the Define the specialty section, review the fields, and confirm that the AI agent meets your requirements.
 

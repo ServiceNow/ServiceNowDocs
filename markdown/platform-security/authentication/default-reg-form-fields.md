@@ -7,9 +7,9 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure a user registration configuration for external users, Self-register to ServiceNow instance, Authentication, Access Management]
+breadcrumb: [Configure a user registration configuration for external users, Self-registration to ServiceNow instance, Authentication, Access Management]
 ---
 
 # Default registration form fields
@@ -136,7 +136,7 @@ Single line text
 
 </td></tr><tr><td>
 
-Prefix Title of the user. For example, Mr. , Dr. , and so on.
+Prefix Title of the user. For example, Mr., Dr., and so on.
 
 </td><td>
 

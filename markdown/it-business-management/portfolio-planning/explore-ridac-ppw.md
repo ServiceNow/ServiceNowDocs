@@ -7,7 +7,7 @@ release: australia
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: concept
-last_updated: "2026-07-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [explore]
 breadcrumb: [Explore, Portfolio Planning, Strategic Portfolio Management]

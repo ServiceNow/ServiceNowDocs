@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure, Enterprise Asset Management, Asset Management]
 ---
@@ -26,13 +26,15 @@ You can create common calibration attributes that are not associated with any en
 
 ## Procedure
 
-1.  From the Enterprise Asset Workspace, open the Admin center view.
+1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace**.
 
-2.  From the left navigation menu of the Admin center view, navigate to **Calibration** &gt; **Attribute library**.
+2.  From the Enterprise Asset Workspace, open the Admin center view.
 
-3.  Select **New**.
+3.  From the navigation panel of the Admin center view, navigate to **Calibration configuration** &gt; **Attribute library**.
 
-4.  On the form, fill in the fields.
+4.  Select **New**.
+
+5.  On the form, fill in the fields.
 
 <table id="table_ln5_w4y_1bc"><thead><tr><th>
 
@@ -181,11 +183,11 @@ Instruction
 General instructions or instrument settings that you must follow when performing the calibrations.
 
 </td></tr></tbody>
-</table>5.  Select **Save**.
+</table>6.  Select **Save**.
 
     The form closes and you are automatically redirected to the new calibration attribute record.
 
-6.  Specify the points at which you can measure accuracy.
+7.  Specify the points at which you can measure accuracy.
 
     **Important:** You must specify one or more points within each enterprise asset's measurement range. If you do not specify at least one point, the calibration attribute cannot be set to Active.
 

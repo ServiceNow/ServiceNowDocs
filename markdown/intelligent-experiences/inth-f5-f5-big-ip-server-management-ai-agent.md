@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-09-30"
 reading_time_minutes: 2
-breadcrumb: [F5 BIG-IP Spoke AI agents, Integration Hub AI agents, Integration Hub, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [F5 BIG-IP Spoke AI agents, Integration Hub AI agents, Integration Hub, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # F5 BIG-IP server management AI agent

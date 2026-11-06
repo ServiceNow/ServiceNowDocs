@@ -7,7 +7,7 @@ release: australia
 product: Web Services
 classification: web-services
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Direct services, SOAP web service, Inbound, Web services, API implementation, API implementation and reference]
 ---

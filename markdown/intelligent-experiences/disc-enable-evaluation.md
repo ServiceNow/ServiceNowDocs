@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/disc-enable-evaluation.html
 release: australia
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, use]
-breadcrumb: [Evaluating AI systems, Managing your AI asset inventory, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Evaluating AI systems, Managing your AI asset inventory, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Enable evaluation for an AI system
@@ -30,15 +30,15 @@ Role required: sn\_ai\_asset\_mgmt.ai\_asset\_owner or sn\_ai\_governance.ai\_st
 
 2.  On the Overview tab, enable evaluation for one or more AI systems.
 
-<table><thead><tr><th align="left" id="d162487e135">
+<table><thead><tr><th align="left" id="d153052e135">
 
 Option
 
-</th><th align="left" id="d162487e138">
+</th><th align="left" id="d153052e138">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d162487e144">
+</th></tr></thead><tbody><tr><td id="d153052e144">
 
 **Enable evaluation for a single AI system**
 
@@ -50,7 +50,7 @@ Steps
 4.  Select **Turn on evaluation** to confirm.
 
 
-</td></tr><tr><td id="d162487e177">
+</td></tr><tr><td id="d153052e177">
 
 **Enable evaluation for multiple AI systems**
 

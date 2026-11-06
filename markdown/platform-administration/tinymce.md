@@ -5,16 +5,14 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/tinymce.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 12
+last_updated: "2026-09-10"
+reading_time_minutes: 11
 breadcrumb: [Configure a field editor for the HTML field, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Configuring the TinyMCE toolbar via Dictionary attributes
 
 You can configure the TinyMCE HTML editor for a specific table by configuring the dictionary attributes.
-
-For information on configuring the toolbar, see [Change the TinyMCE default toolbar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/tinymce.md). For information on configuring specific plugins, see [Change TinyMCE plugins for a specific table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/tinymce.md). For information on configuring the default height of an HTML field, see [Change the default height of an HTML field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/tinymce.md). For information on configuring the default font size in an HTML field, see [Change the default font size of an HTML field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/tinymce.md). For information on configuring the menu bar on the TinyMCE HTML editor, see [Configure the menu bar on the TinyMCE HTML editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/tinymce.md).
 
 ## Change the TinyMCE default toolbar
 
@@ -28,7 +26,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **System Properties** &gt; **UI Properties**.
 
-2.  Update the **Configures the editing toolbar for HTML fields\(TinyMCE v6.8.2\)** \(glide.ui.html.editor.toolbar\) property to add or remove buttons for the toolbar.
+2.  Update the **Configures the editing toolbar for HTML fields\(TinyMCE v8.3.0\)** \(glide.ui.html.editor.toolbar\) property to add or remove buttons for the toolbar.
 
     **Note:** Use a vertical bar \("\|"\) to add a section separator.
 

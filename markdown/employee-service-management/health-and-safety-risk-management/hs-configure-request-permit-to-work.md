@@ -7,7 +7,7 @@ release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure permit-to-work, Configure, Health and Safety Risk Management, Health and Safety, Employee Service Management]
 ---
@@ -28,15 +28,15 @@ Role required: admin and sn\_hs\_rm.permit\_coordinator
 
 3.  Either add new questions or edit existing questions.
 
-<table id="choicetable_ltg_1fk_rgc"><thead><tr><th align="left" id="d688047e123">
+<table id="choicetable_ltg_1fk_rgc"><thead><tr><th align="left" id="d685291e123">
 
 Goal
 
-</th><th align="left" id="d688047e126">
+</th><th align="left" id="d685291e126">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d688047e132">
+</th></tr></thead><tbody><tr><td id="d685291e132">
 
 **Add a new question**
 
@@ -50,7 +50,7 @@ For a description of the field values, see [Variable new record form](https://ra
 3.  Select **Submit**.
 
 
-</td></tr><tr><td id="d688047e211">
+</td></tr><tr><td id="d685291e211">
 
 **Modify an existing question**
 

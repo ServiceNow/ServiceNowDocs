@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-customer-success-landing-page.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customer Success Management]
 ---
@@ -13,8 +13,6 @@ breadcrumb: [Customer Success Management]
 # Use Customer Success Management
 
 Define and track objectives, outcomes, milestones, and plans to achieve shared goals.
-
-**Important:** Account Lifecycle Events has been renamed to Customer Success Management in Zurich.
 
 -   **[Account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-use.md)**  
 With the account onboarding solution, service providers can repeatedly define, measure, and collaborate with customers on the activities needed to onboard rapidly.

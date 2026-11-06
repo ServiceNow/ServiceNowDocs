@@ -7,7 +7,7 @@ release: australia
 product: MID Server
 classification: mid-server
 topic_type: reference
-last_updated: "2026-04-26"
+last_updated: "2026-10-16"
 reading_time_minutes: 16
 breadcrumb: [MID Server reference, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Use these minimum system requirements to allocate resources for computers hostin
 
 <table id="table_mhj_csf_khb"><tbody><tr><td>
 
-![Links to each of the MID Server sections](../image/MIDRefIconBar.png)
+![MID Server reference navigation](../image/MIDRefIconBar.png)
 
 </td></tr></tbody>
 </table>## MID Server supported systems
@@ -41,6 +41,8 @@ Use these minimum system requirements to allocate resources for computers hostin
     -   Linux Red Hat 6 and above
     -   Ubuntu 1404 \(Ubuntu 14\) and above
     -   CentOS 9 and above
+    On Linux, the MID Server requires the net-tools package \(specifically netstat\) to populate the **Network** and **Router** fields on the MID Server record. If net-tools is not installed, these fields remain empty even after the MID Server is validated.
+
 
 **Note:** ServiceNow no longer supports new installations of 32-bit MID Servers or upgrades to version Rome. New MID Server installation are blocked through RPM and MSI installer on the following operating systems:
 
@@ -70,15 +72,13 @@ In order to connect, the MID Server requires access to:
 
 **Note:** OCSP responder URLs use HTTP by design, not HTTPS. Allow outbound HTTP traffic to these addresses so the MID Server can reach OCSP responder endpoints.
 
-While SSL/TLS certificates are always issued with an expiration date, there are certain circumstances in which a certificate must be revoked before it expires \(for example, if its associated private key may have been compromised\). Therefore, the current validity of a website’s certificate must always be checked by clients regardless of its expiry date.
+While SSL/TLS certificates are always issued with an expiration date, there are certain circumstances in which a certificate must be revoked before it expires. For example, this occurs if its associated private key may have been compromised. Therefore, the current validity of a website's certificate must always be checked by clients regardless of its expiry date.
 
 Clients fail a connection when they can’t check the revocation status of a certificate. Firewalls and proxy configurations may block calls to the OCSP DigiCert servers, which prevents the MID Server from working. You may need to change your firewall permissions so that the OCSP traffic goes through. For more information and resolutions, see the HI Knowledge Base article [\[KB1216223\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1216223).
 
 ## PowerShell requirements \(Windows only\)
 
-On Windows hosts, the MID Server requires the minimum PowerShell version 3.0 and supports versions up to PowerShell 5.1, plus PowerShell 7. PowerShell 6 is not supported. In most cases, manually disable the PowerShell 7 Compatibility Mode. See Microsoft's documentation for more information about PowerShell requirements.
-
-To find your current PowerShell version using the instance, go to **ecc\_agent\_list.do**. Using the **Update Personalize List** gear icon, add **Host PowerShell Version** to the Selected column. Then sort the list of MID Servers by their PowerShell version to find outdated MID Servers. Alternatively, you can find the PowerShell version on the host machine by using the command **$Host.Version** in the host's PowerShell console. The PowerShell version is listed as PSVersion.
+On Windows hosts, the MID Server requires the minimum PowerShell version 3.0 and supports versions up to PowerShell 5.1. See Microsoft's documentation for more information about PowerShell requirements. To find your current PowerShell version using the instance, go to **ecc\_agent\_list.do**. Using the **Update Personalize List** gear icon, add **Host PowerShell Version** to the Selected column. Then sort the list of MID Servers by their PowerShell version to find outdated MID Servers. Alternatively, you can find the PowerShell version on the host machine by using the command **$Host.Version** in the host's PowerShell console. The PowerShell version is listed as PSVersion.
 
 ## Java version support
 
@@ -233,7 +233,7 @@ As a result, there is no one size requirement that fits for all MID Server deplo
 
 ## Monitoring performance
 
-To ensure that the MID Server resource allocations are sufficient for your environment, monitor performance during peak periods of product execution from the [MID Server dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/c_MIDServerDashboard.md).
+To ensure that the MID Server resource allocations are sufficient for your environment, monitor performance during peak periods of product execution from the [MID Server dashboard]().
 
 **Parent Topic:**[MID Server reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-reference-information.md)
 

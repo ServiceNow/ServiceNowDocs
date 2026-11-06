@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -18,7 +18,7 @@ Turn on the ServiceNow Otto for Creator skills for using generative AI for creat
 
 ## Before you begin
 
--   Install the ServiceNow Otto for Creator application. For more information, see [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-now-assist-for-creator.md).
+-   Install the ServiceNow Otto for Creator application. For more information, see .
 -   Role required: admin
 
 ## About this task

@@ -7,7 +7,7 @@ release: australia
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Reference, Cloud Configuration Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -145,9 +145,9 @@ IAM User
 
 </td><td>
 
-Multi-Factor Authentication \(MFA\) adds an extra layer of authentication assurance beyond traditional credentials. With MFA enabled, when a user signs in to the AWS Console, they will be prompted for their user name and password as well as for an authentication code from their physical or virtual MFA token. It is recommended that MFA be enabled for all accounts that have a console password.
+Multi-Factor Authentication \(MFA\) adds an extra layer of authentication assurance beyond traditional credentials. With MFA enabled, users who sign in to the AWS Console must provide their user name and password, and an authentication code from their physical or virtual MFA token. Enable MFA for all accounts that have a console password.
 
- Enabling MFA provides increased security for console access as it requires the authenticating principal to possess a device that displays a time-sensitive key and have knowledge of a credential.
+ Enabling MFA provides increased security for console access. The authenticating principal must possess a device that displays a time-sensitive key and have knowledge of a credential.
 
 </td></tr><tr><td>
 
@@ -199,7 +199,7 @@ IAM User
 
 </td><td>
 
-Access keys consist of an access key ID and secret access key, which are used to sign programmatic requests that you make to AWS. AWS users need their own access keys to make programmatic calls to AWS from the AWS Command Line Interface \(AWS CLI\), Tools for Windows PowerShell, the AWS SDKs, or direct HTTP calls using the APIs for individual AWS services.It is recommended that all access keys be regularly rotated.
+Access keys consist of an access key ID and secret access key, which are used to sign programmatic requests that you make to AWS. AWS users need their own access keys to make programmatic calls to AWS from the AWS Command Line Interface \(AWS CLI\), Tools for Windows PowerShell, the AWS SDKs, or direct HTTP calls using the APIs for individual AWS services. Rotate all access keys regularly.
 
  Rotating access keys will reduce the window of opportunity for an access key that is associated with a compromised or terminated account to be used.
 
@@ -247,7 +247,7 @@ IAM User
 
 IAM policies are the means by which privileges are granted to users, groups, or roles. It is recommended and considered a standard security advice to grant least privilege-that is, granting only the permissions required to perform a task. Determine what users need to do and then craft policies for them that let the users perform only those tasks, instead of allowing full administrative privileges.
 
- It's more secure to start with a minimum set of permissions and grant additional permissions as necessary, rather than starting with permissions that are too lenient and then trying to tighten them later.
+ Start with a minimum set of permissions and grant additional permissions as necessary. Avoid starting with permissions that are too lenient, as tightening them later is more difficult.
 
  Providing full administrative privileges instead of restricting to the minimum set of permissions that the user is required to do exposes the resources to potentially unwanted actions.
 
@@ -269,7 +269,7 @@ IAM User
 
 AWS provides a support center that can be used for incident notification and response, as well as technical support and customer services. Create an IAM Role to allow authorized users to manage incidents with AWS Support.
 
- By implementing least privilege for access control, an IAM Role will require an appropriate IAM Policy to allow Support Center Access in order to manage Incidents with AWS Support.
+ To implement least privilege for access control, assign an IAM Role an appropriate IAM Policy. This allows authorized users to manage incidents with AWS Support.
 
 </td></tr><tr><td>
 
@@ -287,7 +287,7 @@ IAM User
 
 To enable HTTPS connections to your website or application in AWS, you need an SSL/TLS server certificate. You can use ACM or IAM to store and deploy server certificates. Use IAM as a certificate manager only when you must support HTTPS connections in a region that is not supported by ACM. IAM securely encrypts your private keys and stores the encrypted version in IAM SSL certificate storage. IAM supports deploying server certificates in all regions, but you must obtain your certificate from an external provider for use with AWS. You cannot upload an ACM certificate to IAM. Additionally, you cannot manage your certificates from the IAM Console.
 
- Removing expired SSL/TLS certificates eliminates the risk that an invalid certificate will be deployed accidentally to a resource such as AWS Elastic Load Balancer \(ELB\), which can damage the credibility of the application/website behind the ELB. As a best practice, it is recommended to delete expired certificates.
+ Removing expired SSL/TLS certificates eliminates the risk of accidentally deploying an invalid certificate to a resource such as AWS Elastic Load Balancer \(ELB\). An invalid certificate can damage the credibility of the application or website behind the ELB. Delete expired certificates.
 
 </td></tr><tr><td>
 
@@ -307,7 +307,7 @@ Enable IAM Access analyzer for IAM policies about all resources in each region.
 
  IAM Access Analyzer is a technology introduced at AWS reinvent 2019. After the Analyzer is enabled in IAM, scan results are displayed on the console showing the accessible resources. Scans show resources that other accounts and federated users can access, such as KMS keys and IAM roles. So the results allow you to determine if an unintended user is allowed, making it easier for administrators to monitor least privileges access. Access Analyzer analyzes only policies that are applied to resources in the same AWS Region.
 
- AWS IAM Access Analyzer helps you identify the resources in your organization and accounts, such as Amazon S3 buckets or IAM roles, that are shared with an external entity. This lets you identify unintended access to your resources and data. Access Analyzer identifies resources that are shared with external principals by using logic-based reasoning to analyze the resource-based policies in your AWS environment. IAM Access Analyzer continuously monitors all policies for S3 bucket, IAM roles, KMS\(Key Management Service\) keys, AWS Lambda functions, and Amazon SQS\(Simple Queue Service\) queues.
+ AWS IAM Access Analyzer helps you identify resources shared with an external entity, such as Amazon S3 buckets or IAM roles. Use it to identify unintended access to your resources and data. Access Analyzer identifies resources that are shared with external principals by using logic-based reasoning to analyze the resource-based policies in your AWS environment. IAM Access Analyzer continuously monitors all policies for S3 bucket, IAM roles, KMS\(Key Management Service\) keys, AWS Lambda functions, and Amazon SQS\(Simple Queue Service\) queues.
 
 </td></tr><tr><td>
 
@@ -341,9 +341,9 @@ IAM User
 
 </td><td>
 
-The 'root' user account is the most privileged user in an AWS account. Multi-factor Authentication \(MFA\) adds an extra layer of protection on top of a username and password. With MFA enabled, when a user signs in to an AWS website, they will be prompted for their username and password as well as for an authentication code from their AWS MFA device.
+The 'root' user account is the most privileged user in an AWS account. Multi-factor Authentication \(MFA\) adds an extra layer of protection on top of a username and password. With MFA enabled, users who sign in to an AWS website must provide their username, password, and an authentication code from their AWS MFA device.
 
- Enabling MFA provides increased security for console access as it requires the authenticating principal to possess a device that emits a time-sensitive key and have knowledge of a credential.
+ Enabling MFA provides increased security for console access. The authenticating principal must possess a device that emits a time-sensitive key and have knowledge of a credential.
 
 </td></tr><tr><td>
 
@@ -359,7 +359,7 @@ IAM User
 
 </td><td>
 
-The 'root' user account is the most privileged user in an AWS account. MFA adds an extra layer of protection on top of a user name and password. With MFA enabled, when a user signs in to an AWS website, they will be prompted for their user name and password as well as for an authentication code from their AWS MFA device. For Level 2, it is recommended that the 'root' user account be protected with a hardware MFA.
+The 'root' user account is the most privileged user in an AWS account. MFA adds an extra layer of protection on top of a user name and password. With MFA enabled, users who sign in to an AWS website must provide their user name, password, and an authentication code from their AWS MFA device. For Level 2, protect the 'root' user account with a hardware MFA.
 
  A hardware MFA has a smaller attack surface than a virtual MFA. For example, a hardware MFA does not suffer the attack surface introduced by the mobile smartphone on which a virtual MFA resides.
 

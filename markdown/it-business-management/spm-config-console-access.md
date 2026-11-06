@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/spm-config-console-access.html
 release: australia
 topic_type: task
-last_updated: "2026-05-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Strategic Portfolio Management, SPM, Now Assist for Setup, Admin Home, Admin Center, configuration console, setup console, portfolio management setup]
 audience: administrator

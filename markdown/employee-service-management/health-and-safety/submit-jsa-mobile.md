@@ -7,7 +7,7 @@ release: australia
 product: Health and Safety
 classification: health-and-safety
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Mobile experience for Health and Safety, Health and Safety, Employee Service Management]
 ---
@@ -26,15 +26,15 @@ Role required: sn\_hs\_rm.jsa\_reporter
 
 2.  Create a JSA.
 
-<table id="choicetable_znq_p3r_dcc"><thead><tr><th align="left" id="d377357e62">
+<table id="choicetable_znq_p3r_dcc"><thead><tr><th align="left" id="d376638e62">
 
 Option
 
-</th><th align="left" id="d377357e65">
+</th><th align="left" id="d376638e65">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d377357e71">
+</th></tr></thead><tbody><tr><td id="d376638e71">
 
 **From Home tab**
 
@@ -44,7 +44,7 @@ Steps
 2.  In the **Quick links** section on the page, tap **Create a job safety analysis**.
 
 
-</td></tr><tr><td id="d377357e98">
+</td></tr><tr><td id="d376638e98">
 
 **From Support tab**
 
@@ -54,7 +54,7 @@ Steps
 2.  In the **Browse from all topics** section on the page, tap **Health and Safety** and then tap **Job safety analysis**.
 
 
-</td></tr><tr><td id="d377357e128">
+</td></tr><tr><td id="d376638e128">
 
 **From a previously submitted JSA**
 

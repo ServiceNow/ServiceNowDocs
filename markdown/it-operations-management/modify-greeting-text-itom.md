@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/modify-greeting-text-itom.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Customize the SOW for ITOM home page, Configure, ITOM AIOps, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ Role required: evt\_mgmt\_admin or admin
 
 The Get service desk agent shift data broker server script calls the `SOWServiceDeskAgentShift` script includes to display the shift information in the greeting text.
 
-You can customize the display text for the default landing page. To make visual styling changes to the text, create a copy of the landing page.
+You can customize the display text for the default landing page. To change the visual styling of the text, create a copy of the landing page.
 
 Suppose you are on call until Monday, March 21. You can update your greetings to reflect your on-call status.
 

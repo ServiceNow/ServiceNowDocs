@@ -7,7 +7,7 @@ release: australia
 product: Workflow Activities
 classification: workflow-activities
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workflow activities reference, Workflow activities, Classic Workflow, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,14 +18,16 @@ Task activities create and modify workflow tasks.
 
 Task activities are only available when the workflow runs on a table that extends Task.
 
--   **[Add Worknote workflow activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/workflow-activities/r_AddWorknote.md)**  
+-   **[Add Worknote workflow activity]()**  
 The **Add Worknote** activity adds text to the Worknotes field of the current incident record.
--   **[Attachment Note workflow activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/workflow-activities/r_AttachmentNote.md)**  
+-   **[Attachment Note workflow activity]()**  
 The **Attachment Note** activity adds an attachment to the current record.
--   **[Catalog Task workflow activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/workflow-activities/r_CatalogTask.md)**  
+-   **[Catalog Task workflow activity]()**  
 The **Catalog Task** activity creates a service catalog task record.
--   **[Create Task workflow activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/workflow-activities/r_CreateTask.md)**  
+-   **[Create Task workflow activity]()**  
 The **Create Task** activity generates a record on any of the tables that extend Task \[task\].
+
+**Parent Topic:**[Manage instance data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/manage-data-sources.md)
 
 **Parent Topic:**[Workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/workflow-activities/c_WorkflowActivities.md)
 

@@ -7,9 +7,9 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
-breadcrumb: [Conversational custom chat integrations, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Create custom chat integrations, Configure, Virtual Agent, Conversational Interfaces]
 ---
 
 # Supported Virtual Agent and Agent Chat features for custom chat integrations
@@ -65,7 +65,7 @@ No configuration or scripting required to implement these features in Custom Cha
 
     Channels can be set up as either chat or messaging. For more information on long-running conversations, see [Using Asynchronous Chat in messaging channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/async-chat.md).
 
--   **[Custom Virtual Agent chat experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configure-default-chat-experience.md)**
+-   **[Custom Virtual Agent chat experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/configure-default-chat-experience.md)**
 
     Define a custom chat experience for a specific context in which your users run Virtual Agent.
 
@@ -99,7 +99,7 @@ No configuration or scripting required to implement these features in Custom Cha
 
 -   **Specify the default portal for URL navigation at the Provider Channel Identities level**
 
-    For a provider channel, specify the portal in which chat links, including links in output cards and cards for Virtual Agent notifications and AI Search results, are opened. For details on setting the default portal in the Provider Channel Identities \[sys\_cs\_provider\_application\] table, see [Create a channel identifier for your custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-channel-id-va-cccif.md). To learn more about URL navigation, see [Configure URL navigation for chat links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/ac-configure-url-navigation.md).
+    For a provider channel, specify the portal in which chat links, including links in output cards and cards for Virtual Agent notifications and AI Search results, are opened. For details on setting the default portal in the Provider Channel Identities \[sys\_cs\_provider\_application\] table, see [Create a channel identifier for your custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-channel-id-va-cccif.md). To learn more about URL navigation, see [\(Legacy\) Configure URL navigation for chat links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/ac-configure-url-navigation.md).
 
 
 ## Supported Agent Chat features
@@ -115,7 +115,7 @@ No configuration or scripting required to implement these features in Custom Cha
     -   Display agent name and avatar, if enabled in [Agent Chat settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ac-configure-agent-chat.md).
 -   **Channel-level flag to initiate conversations with live agents, bypassing Virtual Agent**
 
-    Enable the **Live Agent Only** option in the Messaging Channels \[sys\_cs\_channel\] table to route conversations directly to a live agent and skip the Virtual Agent conversation greeting. If an agent isn't available, the message **No agent available** is displayed to the user. For channel configuration information, see [Create a new channel for your custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-channel-va-cccif.md).
+    Enable the **Live Agent Only** option in the Messaging Channels \[sys\_cs\_channel\] table to route conversations directly to a live agent and skip the Virtual Agent conversation greeting. If an agent isn't available, the message **No agent available** is displayed to the user. For channel configuration information, see [Create a channel for your custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-channel-va-cccif.md).
 
 -   **Pass the agent avatar and name if enabled in Agent Chat settings**
 

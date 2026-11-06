@@ -1,28 +1,28 @@
 ---
-title: Create a list visualization in the Visualization Designer
+title: Create a Platform Analytics list visualization
 description: Create a list of table records that can be drilled down to from chart interactions. List visualizations display table data in columns. By default, the columns match the default list view of the table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/create-dv-analytics-list.html
 release: australia
 topic_type: task
-last_updated: "2026-07-28"
-reading_time_minutes: 8
+last_updated: "2026-09-10"
+reading_time_minutes: 9
 breadcrumb: [Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
-# Create a list visualization in the Visualization Designer
+# Create a Platform Analytics list visualization
 
 Create a list of table records that can be drilled down to from chart interactions. List visualizations display table data in columns. By default, the columns match the default list view of the table.
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
-**Warning:** If you want to modify the selection of columns, first save the List visualization. Otherwise, the default columns are removed from the List. Ignore this warning if you do not want to keep any of the default columns. If you do not have the latest Platform Analytics bundle installed, you must add the default columns manually instead of just saving the visualization.
+**Warning:** If you want to change which columns are shown on a new List, first save the visualization. Otherwise, the default columns are removed. Ignore this warning if you do not want to keep any of the default columns.
 
-In the Zurich release, this List replaces the simple list visualization. Upon migration, all simple lists are migrated to the new List.
+In the Zurich release, this List replaces the simple list visualization. On migration, all simple lists are migrated to the new List.
 
 **Note:**
 
@@ -53,8 +53,10 @@ In the Zurich release, this List replaces the simple list visualization. Upon mi
     |Show header|The visualization header, including title and icons.|
     |Show header separator|Option to display a line separating the header from the rest of the component.|
     |Chart title|Title of the visualization.|
+    |Title alignment|Choose Start to align the title with the start of line, End to align it with the end of the line, or Center for center alignment.|
     |Description|A short overview about the visualization that the end user sees. Descriptions help users find the visualization.|
     |Wrap title|Option to wrap long titles onto a second line. If false, displays an ellipsis to truncate long titles.|
+    |Line of truncation|Specify where to truncate long labels with an ellipsis. Options are 1, 2, and 3.|
     |Show border|Option to display a line around the component.|
     |Bare|Option to remove padding around data visualization to provide more compact positioning on the page. Only available when **Show border** is turned off.|
     |Header background color|Specify the color behind the title of the visualization.|
@@ -80,10 +82,12 @@ Group by \(optional\)
 
 </td><td>
 
-The field to group by. For example, in a visualization of incident data grouped by **Assignment group**, all incidents that belong to Software, Service Desk, and Network are placed in separate groups. If the table contains variables or question fields, you have the option to group by one of them at the end of the list of fields.**Note:**
+The field to group by. You can group by any field in the table including list fields.For example, in a visualization of incident data grouped by **Assignment group**, all incidents that belong to Software, Service Desk, and Network are placed in separate groups. If the table contains variables or question fields, you have the option to group by one of them at the end of the list of fields.
+
+**Note:**
 
 -   It is not possible to group or stack data by the **Tags** field, or by certain field types, such as MEDIUMTEXT.
--   For fields with continuous values, such as date or integer, values are automatically grouped according to any report ranges defined for the data. For more information, see [Report ranges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_ReportRanges.md).
+-   Fields with continuous values, such as date or integer, are automatically grouped according to any report ranges defined for the data. For more information, see [Report ranges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_ReportRanges.md).
 
 
 </td></tr><tr id="alternative-group-by"><td>
@@ -92,7 +96,7 @@ Add alternative group by
 
 </td><td>
 
-This selection opens a dialog in which you select additional items that the data in the visualization may be grouped by. The viewer of the visualization can then select which of these items to group the data by. The viewer toggles the visibility of the selector in the visualization's More actions menu. In the additional items dialog, you can set whether this selector is visible by default by toggling **Selector visible by default**.If you select a value in **Group by**, that is the default group-by value. You do not have to select a **Group by** value to specify alternative group-by values. In this case, no default group-by value is used.
+This selection opens a dialog in which you select additional items that the data in the visualization may be grouped by. The viewer of the visualization can then select which of these items to group the data by. The viewer toggles the visibility of the selector in the visualization's More actions menu. In the additional items dialog, you can set whether this selector is visible by default by toggling **Selector visible by default**.If you select a value in **Group by**, that is the default group-by value. You don't have to select a **Group by** value to specify alternative group-by values. In this case, no default group-by value is used.
 
 For more information about the viewer experience selecting from alternative group-by values, see [Select a group-by value in a data visualization as a viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/select-group-runtime.md).
 
@@ -195,7 +199,9 @@ Columns
 
 </td><td>
 
-Select the columns from the table that you want to display in the visualization.**Note:** The List shows some columns by default after you select the data source. These columns are not included as selected columns in the configuration panel. If you're working on a new List visualization and have the latest Platform Analytics bundle installed, save the visualization to mark these columns as selected. Otherwise, manually select any default columns that you want to keep. Any columns that are not marked as selected are removed when you apply your changes to the columns.
+Select the columns from the table that you want to display in the visualization.**Note:** The List shows some columns by default after you select the data source. These columns aren't included as selected columns in the configuration panel until you save the data visualization for the first time. If you add columns without first saving the list data visualization, these default columns are removed.
+
+If you're editing the columns on an existing List visualization, you might see columns on the List but no selected columns in the configuration panel. Manually add the columns that you want to keep. Any columns that you don't add are removed when you apply your changes. This issue occurs only on List visualizations that were created on Zurich before Platform Analytics experience bundle 7.2.1 was installed.
 
 </td></tr><tr><td>
 
@@ -354,8 +360,8 @@ Because different configurations can highlight values with different colors, sel
 
 </td></tr></tbody>
 </table>
--   **[Create a list visualization with variable columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-list-dv-with-var-col.md)**  
-You can create a list visualization with variables columns based on a data source or table that has variables associated with it. For example, if an item has a variable called **Storage**, you can create a list report that has a column for the values in this variable.
+-   **[Add variable or question columns to a Platform Analytics list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-list-dv-with-var-col.md)**  
+You can create a list data visualization with variables or questions as columns based on a data source or table that has variables associated with it. For example, if an item has a variable called **Storage**, you can create a list that has a column for the values in this variable.
 -   **[Column filters in list components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/column-filters-in-lists.md)**  
 If column filters are activated, viewers of a List can filter the list by the contents of individual columns. Filter options depend on the column type.
 

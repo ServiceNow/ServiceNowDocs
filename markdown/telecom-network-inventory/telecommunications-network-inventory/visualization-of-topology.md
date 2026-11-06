@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Visualize network infrastructure, Explore, Telecommunications Network Inventory]
 ---
@@ -18,7 +18,7 @@ The topology in the Telecommunications Network Inventory application graphically
 
 ## Topology visualization overview
 
-The network topology is a visual representation of the network elements such as nodes \(equipment\), edges \(connections\), and termination points \(interfaces\), and how they’re organized and connected to one another. A topology can be a ring, tree, mesh, star, or bus in structure. A topology enables you to plan the network expansions, monitor the network performance, and troubleshoot the faults occurring in the network.
+The network topology is a visual representation of the network elements such as nodes \(equipment\), edges \(connections\), and termination points \(interfaces\). It also shows how these elements are organized and connected to one another. A topology can be a ring, tree, mesh, star, or bus in structure. A topology enables you to plan the network expansions, monitor the network performance, and troubleshoot the faults occurring in the network.
 
 The following example shows a topology in the Telecommunications Network Inventory application.
 

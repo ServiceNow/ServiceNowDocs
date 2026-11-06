@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/customize-sow-landing-page-itom.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Modify greeting text, Modify cards, Create a copy of the landing page, Configure your workspace using UI Builder]
 breadcrumb: [Configure, ITOM AIOps, IT Operations Management]
@@ -18,7 +18,7 @@ You can customize the data displayed in sub pages of the home page that is avail
 -   **[Modify the greeting text on the landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/modify-greeting-text-itom.md)**  
 Customize the header message that is a part of the greeting text on the home page. This creates a personalized user experience and sets the right tone for the information presented.
 -   **[Modify the first-level cards in the Service Operations Workspace for ITOM Overview section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/customize-first-level-cards-itom.md)**  
-Customize the data displayed in the first-level cards in the Overview section. Configure parameters such as header label, data source, metric, group by field, and viewAllQuery for tailored information display.
+Customize the data displayed in the first-level cards in the Overview section. Configure parameters such as the header label, data source, metric, group by field, and viewAllQuery for a tailored display.
 -   **[Create a copy of the Service Operations Workspace for ITOM landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/create-copy-sow-landing-page-itom.md)**  
 Make visual styling changes to the sub-pages in the home page. This will enhance the overall user experience by providing a consistent and visually appealing interface, improving navigation, and ensuring that key information is easily accessible and engaging.
 -   **[Open your configurable workspace experience in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/open-workspace-ui-builder-sow-itom.md)**  

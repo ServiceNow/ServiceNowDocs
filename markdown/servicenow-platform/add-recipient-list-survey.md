@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/add-recipient-list-survey.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Survey distribution, Survey administration, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -28,15 +28,15 @@ Recipients lists should be pre-defined in the Recipients Lists submodule. For mo
 
 3.  Perform any of the following steps.
 
-<table id="choicetable_jnl_df2_5fb"><thead><tr><th align="left" id="d483606e81">
+<table id="choicetable_jnl_df2_5fb"><thead><tr><th align="left" id="d487976e81">
 
 Option
 
-</th><th align="left" id="d483606e84">
+</th><th align="left" id="d487976e84">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d483606e90">
+</th></tr></thead><tbody><tr><td id="d487976e90">
 
 **From Platform**
 
@@ -47,7 +47,7 @@ Description
 3.  Click **Submit**.
 
 
-</td></tr><tr><td id="d483606e123">
+</td></tr><tr><td id="d487976e123">
 
 **From Survey Designer**
 

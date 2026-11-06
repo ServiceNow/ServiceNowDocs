@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/configure-popover-fields.html
 release: australia
 topic_type: task
-last_updated: "2026-05-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Dispatcher Workspace, CSM/FSM Configurable Workspace, Configure, Field Service Management]
 ---
@@ -37,15 +37,15 @@ The system property sn\_fsm\_disp\_wrkspc.dispatcher\_workspace.task\_panel\_car
 
 2.  Choose from the following.
 
-<table id="choicetable_cn3_bdn_fjc"><thead><tr><th align="left" id="d41663e186">
+<table id="choicetable_cn3_bdn_fjc"><thead><tr><th align="left" id="d43102e186">
 
 Selection
 
-</th><th align="left" id="d41663e189">
+</th><th align="left" id="d43102e189">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d41663e195">
+</th></tr></thead><tbody><tr><td id="d43102e195">
 
 **Select __New__**
 
@@ -55,7 +55,7 @@ Action
 2.  Select **Submit**.
 
 
-</td></tr><tr><td id="d41663e218">
+</td></tr><tr><td id="d43102e218">
 
 **Select an existing field**
 

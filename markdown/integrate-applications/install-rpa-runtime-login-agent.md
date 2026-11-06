@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/install-rpa-runtime-login-agent.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Unattended Robot, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -56,7 +56,7 @@ Unattended Robot Login Agent does not support Multi-Factor Authentication \(MFA\
 
 You can see the following image on your Windows lock screen after installation.
 
-
+\[Omitted image "login-agent-rpa-runtime.png"\] Alt text: Snapshot of the Unattended Robot Login Agent that appears on your Windows lock screen.
 
 ## What to do next
 

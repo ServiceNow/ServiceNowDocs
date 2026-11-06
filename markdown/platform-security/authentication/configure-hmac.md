@@ -1,5 +1,5 @@
 ---
-title: Configure HMAC - Token-based authentication
+title: Configure HMAC token-based authentication
 description: Configure HMAC to support authentication for REST API endpoints.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/configure-hmac.html
@@ -7,12 +7,12 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [API Key and HMAC Authentication for inbound REST APIs, Token-based authentication, API Authentication, Authentication, Access Management]
+breadcrumb: [API key and HMAC authentication for inbound REST APIs, Token-based authentication, API authentication, Authentication, Access Management]
 ---
 
-# Configure HMAC - Token-based authentication
+# Configure HMAC token-based authentication
 
 Configure HMAC to support authentication for REST API endpoints.
 
@@ -20,9 +20,9 @@ Configure HMAC to support authentication for REST API endpoints.
 
 Role required: api\_service\_admin, adaptive\_auth\_policy\_admin
 
-Plugin required: API Key and HMAC Authentication \(`com.glide.tokenbased_auth`\)
+Plugin required: API Key and HMAC Authentication \(com.glide.tokenbased\_auth\)
 
-**Note:** While configuring the HMAC, ensure the name of the script that starts with HMAC to populated in the script list view.
+**Note:** While configuring the HMAC, ensure the name of the script that starts with HMAC to be populated in the script list view.
 
 ## Procedure
 
@@ -34,7 +34,7 @@ Plugin required: API Key and HMAC Authentication \(`com.glide.tokenbased_auth`\)
 
         **Note:** You can also use the **Default HMAC SHA256 Base64 Encoding** which is created when installing the plugin.
 
-    3.  On the form, fill the fields:
+    3.  On the form, fill in the fields:
 
 <table id="table_y3b_h1f_nzb"><thead><tr><th>
 
@@ -74,10 +74,10 @@ Hash Algorithm
 
 </td><td>
 
-Choose the Hash Algorithm. Options available:-   HmacSHA256
+The hash algorithm to use. Options available:-   HmacSHA256
 -   HmacSHA384
 -   HmacSHA512
-
+**Note:** Starting with the Yokohama release, weak hash algorithms are not supported. Use HmacSHA256 or a stronger algorithm.
 
 </td></tr><tr><td>
 
@@ -140,7 +140,7 @@ Configuration for HMAC
 
 </td><td>
 
-Select the HMAC configuration that was created.
+The HMAC configuration that was created.
 
 </td></tr><tr><td>
 
@@ -148,7 +148,7 @@ Auth Parameter
 
 </td><td>
 
-Select the auth parameter for the authentication request. You can select the default options or create a new auth parameter:-   x-sn-hmac-signature-256: Auth Header
+The auth parameter for the authentication request. You can select the default options or create a new auth parameter:-   x-sn-hmac-signature-256: Auth Header
 -   x-sn-hmac-signature-256: Query Parameter
 
 
@@ -171,7 +171,7 @@ The token information that can be updated in this field for using HMAC.
 
     2.  Select **New**.
 
-    3.  On the form, fill the fields:
+    3.  On the form, fill in the fields:
 
 <table id="table_tpz_x1f_nzb"><thead><tr><th>
 
@@ -243,7 +243,7 @@ Expiry
 
 </td><td>
 
-Time after which the credential is no longer valid. Empty value means no expiration.**Note:** For more information, about expiry of token, see [Cleaning up token Expiry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/token-expiry-api-and-hmac.md) .
+Time after which the credential is no longer valid. Empty value means no expiration.**Note:** For more information, about expiry of token, see [Cleaning up token expiry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/token-expiry-api-and-hmac.md) .
 
 </td></tr></tbody>
 </table>    4.  Submit the form.
@@ -318,7 +318,7 @@ Version
 
 </td><td>
 
-Version of the API. For example, **v1**. This field is auto-populated based on the selected REST API.**Note:** If you want to create an authentication policy for all versions of a REST API, you must create individual policies for each version.
+Version of the API. For example, **v1**. This field is auto-populated based on the selected REST API.**Note:** To create an authentication policy for all versions of a REST API, you must create individual policies for each version.
 
 </td></tr><tr><td>
 
@@ -342,7 +342,7 @@ Global
 
 </td><td>
 
-Enable this field to apply auth policy to all methods, versions, and resources for the API.**Note:** Token Based Auth isn’t allowed in the Global REST API Policy.
+Option to apply auth policy to all methods, versions, and resources for the API.**Note:** Token Based Auth isn’t allowed in the Global REST API Policy.
 
 </td></tr><tr><td>
 
@@ -350,7 +350,7 @@ Apply to all methods
 
 </td><td>
 
-Enable this field to apply the auth policy for the API to all the methods, versions, and resources for the API.
+Option to apply the auth policy for the API to all the methods, versions, and resources for the API.
 
 </td></tr><tr><td>
 
@@ -358,7 +358,7 @@ Apply to all resources
 
 </td><td>
 
-Enable this field to apply the auth policy for the API to all the versions.
+Option to apply the auth policy for the API to all the versions.
 
 </td></tr><tr><td>
 
@@ -366,7 +366,7 @@ Apply to all versions
 
 </td><td>
 
-Enable this field to apply the auth policy for the API to all the resources.
+Option to apply the auth policy for the API to all the resources.
 
 </td></tr></tbody>
 </table>    4.  Add the API authentication profile that was created.

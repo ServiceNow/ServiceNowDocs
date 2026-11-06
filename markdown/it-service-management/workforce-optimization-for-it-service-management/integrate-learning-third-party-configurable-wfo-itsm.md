@@ -7,7 +7,7 @@ release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Setting up, Coaching, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -135,15 +135,15 @@ Configuration set to push a record if the previous push fails.**Note:** This fie
 </table>    7.  Click **Update**.
 2.  Integrate your ServiceNow instance with your third-party learning source accounts.
 
-<table id="choicetable_bzs_wvn_rpb"><thead><tr><th align="left" id="d174929e336">
+<table id="choicetable_bzs_wvn_rpb"><thead><tr><th align="left" id="d293032e338">
 
 To integrate with this third-party learning source
 
-</th><th align="left" id="d174929e339">
+</th><th align="left" id="d293032e341">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d174929e345">
+</th></tr></thead><tbody><tr><td id="d293032e347">
 
 **Pluralsight Skills account**
 
@@ -151,7 +151,7 @@ Do this
 
 Use an API key to authenticate the ServiceNow requests. Follow the steps in [Set up the Pluralsight spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-pluralsight-spk.md) to perform the integration.
 
-</td></tr><tr><td id="d174929e361">
+</td></tr><tr><td id="d293032e363">
 
 **Cornerstone application**
 
@@ -159,7 +159,7 @@ Use an API key to authenticate the ServiceNow requests. Follow the steps in [Set
 
 Register an OAuth application in Cornerstone and authenticate requests from ServiceNow. Follow the steps in [Set up the Cornerstone spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-cornerstone.md) to perform the integration.
 
-</td></tr><tr><td id="d174929e377">
+</td></tr><tr><td id="d293032e379">
 
 **Udemy application**
 
@@ -167,7 +167,7 @@ Register an OAuth application in Cornerstone and authenticate requests from Serv
 
 **Note:** You must manually configure fields such as logos and course reassignments in the learning system configuration table.
 
-</td></tr><tr><td id="d174929e389">
+</td></tr><tr><td id="d293032e391">
 
 **ServiceNow University application**
 

@@ -1,20 +1,20 @@
 ---
-title: Product localization information in Australia
-description: Cumulative release notes summary on new Australia features and products.
+title: Product localization information in Brazil
+description: Cumulative release notes summary on new Brazil features and products.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/rn-summary-localization.html
 release: australia
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 2
-breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
+last_updated: "2026-11-04"
+reading_time_minutes: 4
+breadcrumb: [Release notes summaries for Brazil features, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
-# Product localization information in Australia
+# Product localization information in Brazil
 
-Cumulative release notes summary on new Australia features and products.
+Cumulative release notes summary on new Brazil features and products.
 
-Some products may have specific localization requirements or behavior in Australia.
+Some products may have specific localization requirements or behavior in Brazil.
 
 <table id="rn-summary-localization-table" class="custom-rows"><thead><tr><th class="filter">
 
@@ -30,15 +30,10 @@ AI Admin Center
 
 </td><td>
 
-AI Admin Center supports machine translation for Australia. Localization is applicable to AI Admin Center in all languages supported by the ServiceNow AI Platform.
+-   ****
 
-</td></tr><tr><td>
+AI Admin Center supports machine translation. Localization is applicable to AI Admin Center in all languages supported by the ServiceNow AI Platform.
 
-AI Admin Hub
-
-</td><td>
-
-ServiceNow Otto supports Dynamic Translation for Australia.
 
 </td></tr><tr><td>
 
@@ -46,7 +41,10 @@ AI Agent Advisor
 
 </td><td>
 
-AI Agent Advisor supports machine translation for Australia. Localization is applicable to AI Agent Advisor in all languages supported by the ServiceNow AI Platform.
+-   ****
+
+AI Agent Advisor supports machine translation. Localization is applicable to AI Agent Advisor in all languages supported by the ServiceNow AI Platform.
+
 
 </td></tr><tr><td>
 
@@ -58,13 +56,24 @@ AI agents and AI Agent Studio are built on the GPT-4o-based framework and suppor
 
 </td></tr><tr><td>
 
+AI Control Tower
+
+</td><td>
+
+-   ****
+
+Strings in AI asset security score details, AI agent containment, and configuration pages on the Security tab are available in your organization's configured language, including strings that were previously untranslated.
+
+
+</td></tr><tr><td>
+
 AI Search
 
 </td><td>
 
 -   ****
 
-AI Search supports indexing and search in all languages offered by the ServiceNow AI Platform. Search features, such as stop words and synonyms, are available in many supported languages. For details of language support by feature, see [Internationalization support for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/international-language-support-ais.md).
+AI Search supports indexing and search in all languages offered by the ServiceNow AI Platform. Search features, such as stop words and synonyms, are available in many supported languages. For details of language support by feature, see .
 
 
 </td></tr><tr><td>
@@ -73,7 +82,10 @@ Accounts Payable Operations
 
 </td><td>
 
+-   ****
+
 Accounts Payable Operations supports multiple languages. However, the current DocIntel model is trained to extract invoices in the English language only. To process an invoice in the multiple languages supported by DocIntel, you must train the DocIntel model.
+
 
 </td></tr><tr><td>
 
@@ -83,34 +95,96 @@ Autonomous Workforce
 
 -   ****
 
-AI specialist supports multiple languages for user interaction. Because language detection and generation are based on an underlying large language model, not all languages have the same level of fluency. See [Multilingual support for AI specialists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/lang-support-aiw.md) for more information.
+AI specialist supports multiple languages for user interaction. Because language detection and generation are based on an underlying large language model, not all languages have the same level of fluency. See Multilingual support for AI specialists for more information.
 
 
 </td></tr><tr><td>
 
-CPQ
+CRM Outlook Add-in
 
 </td><td>
 
-Japanese Localization for CPQ admin UI: The CPQ admin UI supports internationalization for the CPQ Configurator and Transaction Manager. Static user interface elements, including labels, headings, and system text, can be displayed in Japanese. This is part of an initial pilot to support SoftBank onboarding. Administrators can select their preferred language through the ServiceNow platform. If any static content is not translated, the system automatically falls back to English. It also supports Japanese character input across applicable fields and controls. User-generated content remains in the language in which it is entered.
+-   ****
 
-Enhanced localization in CPQ: Translation and localization support is enhanced to include product offering labels, definitions, and field text in CPQ. Content is translated at compile time, enabling multilingual configuration workflows and a more consistent localized experience.
+The CRM Outlook Add-in is available in Arabic, Brazilian Portuguese, Chinese \(Simplified and Traditional\), Czech, Dutch, English, Finnish, French \(France and Canada\), German, Hebrew, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Russian, Spanish, Swedish, Thai, and Turkish. Language packs are installed automatically when the corresponding ServiceNow base system language plugin is active.
+
 
 </td></tr><tr><td>
 
-Digital End-User Experience
+Customer Engagement Sequences
 
 </td><td>
 
-Localization is applicable to DEX in all languages supported by the ServiceNow AI Platform.
+-   ****
+
+Customer Engagement Sequences is available in Arabic, Brazilian Portuguese, Chinese, Czech, Dutch, Finnish, French, French Canadian, German, Hebrew, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Russian, Spanish, Swedish, Thai, Traditional Chinese, and Turkish. Language packs are installed automatically when the corresponding ServiceNow AI Platform base system language plugin is active.
+
 
 </td></tr><tr><td>
 
-Generative AI Controller
+Customer self-service for Sales Customer Relationship Management
 
 </td><td>
 
-Generative AI Controller uses Microsoft Azure OEM for Dynamic Translation in Now Assist for multilanguage support. You can enable dynamic translation from the AI Admin Hub console. For more information, see [Microsoft Azure OEM for Dynamic Translation in Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/dynamic-translation-na-ms-azure-oem.md).
+-   ****
+
+Business Portal text is displayed in the language set for the active ServiceNow language pack, including Japanese, with right-to-left rendering support for locales such as Arabic and Hebrew. Language packs are installed automatically when the corresponding ServiceNow base system language plugin is active.
+
+
+</td></tr><tr><td>
+
+Decision tables
+
+</td><td>
+
+-   ****
+
+Decision tables in Workflow Studio support the Localization Framework. However, editing decision tables in Excel isn’t supported for localized content, so the Excel editing feature is available only on instances that use English.
+
+
+</td></tr><tr><td>
+
+Event Management
+
+</td><td>
+
+-   ****
+
+The current available languages for Event Management are US English, UK English, French, German, Italian, Japanese, and Spanish. The default language is US English.
+
+
+</td></tr><tr><td>
+
+Firewall Audits and Reporting
+
+</td><td>
+
+-   ****
+
+This application is available in English. Additional language support may be added in future releases.
+
+
+</td></tr><tr><td>
+
+Health Log Analytics
+
+</td><td>
+
+-   ****
+
+The current available languages for Health Log Analytics are US English, UK English, French, German, Italian, Japanese, and Spanish. The default language is US English.
+
+
+</td></tr><tr><td>
+
+Kubernetes Visibility Agent \(KVA\)
+
+</td><td>
+
+-   ****
+
+This application is available in English. Additional language support may be added in future releases.
+
 
 </td></tr><tr><td>
 
@@ -129,32 +203,88 @@ Live Connect
 
 </td><td>
 
-Live Connect operates independently of language settings. Data returned through Live Connect reflects the language settings of the queried tables.
+-   ****
+
+Live Connect is operates independently of language settings. Data returned through Live Connect reflects the language settings of the queried tables.
+
 
 </td></tr><tr><td>
 
-RPA Hub
+Product Catalog Management
 
 </td><td>
 
-RPA Hub supports international languages. For more information, see [Internationalization support for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-hub-international-language-support.md).
+-   ****
+
+Certain Product Catalog Management fields, such as product offering name and description, support multilingual text. Admins can display these fields in multiple languages in the product catalog interface when the corresponding ServiceNow base system language plugin is active.
+
 
 </td></tr><tr><td>
 
-ServiceNow IDE
+Sales CRM for Telecommunications
 
 </td><td>
 
-The ServiceNow IDE is localized in all supported left-to-right languages and reflects the language preference selected by users for the instance. For information about how to activate a language on an instance, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateALanguage.md).
+-   ****
+
+Sales Customer Relationship Management does not include dedicated language packs. Language support relies on the base system language plugins active on your instance.
+
 
 </td></tr><tr><td>
 
-Third-party Risk Management
+Service Operations Workspace
 
 </td><td>
 
-Third-party portal strings are externalized and translated for supported languages. Newly introduced features may have incomplete translations.
+-   ****
+
+The current available languages for Service Operations Workspace are US English, UK English, French, German, Italian, Japanese, and Spanish. The default language is US English.
+
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Virtual Agent
+
+</td><td>
+
+-   ****
+
+Dynamic Translation is supported for non-streaming ServiceNow Otto for Virtual Agent conversations. For more information, see .
+
+
+</td></tr><tr><td>
+
+ServiceNow Quote Experience
+
+</td><td>
+
+-   ****
+
+Enhanced localization in ServiceNow CPQ: Translation and localization support is enhanced to include product offering labels, definitions, and field text in ServiceNow CPQ. Content is translated at compile time, enabling multilingual configuration workflows and a more consistent localized experience.
+
+
+</td></tr><tr><td>
+
+Telecommunications Service Operations Management \(TSOM\)
+
+</td><td>
+
+-   ****
+
+Telecommunications Service Operations Management does not include dedicated language packs. Language support relies on the base system language plugins active on your instance.
+
+
+</td></tr><tr><td>
+
+Zing text indexing and search engine
+
+</td><td>
+
+-   ****
+
+Zing text indexing and search engine supports all languages offered by the ServiceNow AI Platform. To improve Japanese-language search results, search administrators can configure the Kuromoji Japanese tokenizer on the text indexes for individual tables.
+
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Release notes summaries for Australia features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/release-notes-summaries.md)
+</table>**Parent Topic:**[Release notes summaries for Brazil features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/release-notes-summaries.md)
 

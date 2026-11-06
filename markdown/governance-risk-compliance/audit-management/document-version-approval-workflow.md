@@ -1,20 +1,20 @@
 ---
 title: Document version and approval workflow
-description: Every new version of a document in the Documents panel can go through an optional review and approval workflow before it is published and replaces the previous version.
+description: A new version of a document in the Documents panel goes through an optional review and approval workflow before publication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/audit-management/document-version-approval-workflow.html
 release: australia
 product: Audit Management
 classification: audit-management
 topic_type: concept
-last_updated: "2026-08-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Document Management System in Audit Workspace, Audit Workspace Overview, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Using Document Management System in Audit Workspace, Audit Workspace overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Document version and approval workflow
 
-Every new version of a document in the Documents panel can go through an optional review and approval workflow before it is published and replaces the previous version.
+A new version of a document in the Documents panel goes through an optional review and approval workflow before publication.
 
 When you upload a new version of a document from the Documents panel, the version moves through the following states:
 
@@ -24,9 +24,9 @@ When you upload a new version of a document from the Documents panel, the versio
 |Awaiting review|The version is submitted and is waiting for the assigned reviewer to review it. This state occurs only if a reviewer is configured for the version.|
 |Awaiting approval|The reviewer has completed their review and the version is waiting for the assigned approver, or the next approver in sequence, to approve it. This state occurs only if one or more approvers are configured for the version.|
 |Published|The version is published and becomes the current version of the document. The previously published version is automatically retired.|
-|Retired|An earlier version that was replaced when a newer version was published. Retired versions remain available for reference but cannot be edited or republished.|
+|Retired|A previous version that was replaced when a newer version was published. Retired versions remain available for reference but cannot be edited or republished.|
 
-If you don't add a reviewer or an approver before you submit a version, the version publishes immediately and retires the previous version.
+If you do not add a reviewer or an approver before you submit a version, the version publishes immediately and retires the previous version.
 
 ## Reviewers and approvers
 
@@ -34,5 +34,5 @@ Before you submit a new version, you can add one reviewer and one or more approv
 
 ## Rollback is not supported
 
-**Note:** After a version is published, you cannot roll back to a previous version. To make changes to a published document, upload a new version.
+**Note:** After a version is published, you can't roll back to a previous version. To make changes to a published document, upload a new version.
 

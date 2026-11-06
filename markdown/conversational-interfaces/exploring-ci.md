@@ -7,7 +7,7 @@ release: australia
 product: Conversational Interfaces
 classification: conversational-interfaces
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Conversational Interfaces Console, Conversational Interfaces]
 ---
@@ -38,8 +38,6 @@ Navigate to **All** &gt; **Conversational Interfaces** &gt; **Home** to start ex
 
 **Note:** The Conversational Interfaces console is also available in the Omni-Experience Standard Feature Set app from the ServiceNow Store. Existing customers don't need to install it from the store. However, subsequent updates will be available there. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/53b1b0e79761011018b2fa98c253afcc/) website for more information. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
--   **[Monitoring and managing Conversational Interfaces applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/monitor-manage-ci-applications.md)**  
-Use the Conversational Interfaces Home page to monitor the performance of recent Virtual Agent conversations or test your bot. Plugin update notices will alert you when a feature update is ready.
 -   **[Channels in Conversational Interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/ci-channels-overview.md)**  
 The various ways in which your end users engage with virtual and live agents are called channels. In Conversational Interfaces, users and agents converse through channels that have specific communication modes: chat mode for real-time conversations and messaging mode for long-running conversations.
 

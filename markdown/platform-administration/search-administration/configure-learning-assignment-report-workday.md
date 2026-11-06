@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Workday external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -49,7 +49,7 @@ This task is optional. The Workday external content connector can retrieve Learn
 
         Workday takes you to the Calculation tab for the new calculated field.
 
-    5.  On the Calculation tab, enter the calculation setting field values shown in the entry for the calculated field in the following Calculated fields table.
+    5.  On the **Calculation** tab, enter the calculation setting field values shown in the entry for the calculated field in the following Calculated fields table.
 
     6.  Select **OK**.
 
@@ -480,12 +480,12 @@ Lookup Related Value
 
         Workday takes you to the Calculation tab for the new calculated field.
 
-    6.  On the Calculation tab, enter these calculation field values.
+    6.  On the **Calculation** tab, enter these calculation field values.
 
         -   Field Type: Text
         -   Business Object: \(empty\)
         -   Default Value: Empty String
-    7.  On the Calculation tab, in the table, add a new row with the specified field values for each entry in the following cf\_learning\_content\_id calculated field conditions table.
+    7.  On the **Calculation** tab, in the table, add a new row with the specified field values for each entry in the following cf\_learning\_content\_id calculated field conditions table.
 
         |Condition|Return Value If Condition is True|
         |---------|---------------------------------|
@@ -519,7 +519,7 @@ Lookup Related Value
 
     Workday takes you to the Edit Custom Report page for your new custom report.
 
-5.  On the Edit Custom Report page, on the Columns tab, perform the following steps for each entry in the following Custom report columns table.
+5.  On the Edit Custom Report page, on the **Columns** tab, perform the following steps for each entry in the following Custom report columns table.
 
     1.  Select **+** to add a new column row.
 
@@ -554,7 +554,7 @@ Lookup Related Value
         |Worker's Manager\(s\)|Employee ID|Manager emp id|Manager\_Employee\_ID|
         |Worker's Manager\(s\)|Workday ID|Manager\_wid|managerworkdayID|
 
-6.  On the Columns tab, in the Group Column Headings section for your new custom report, perform the following steps for each entry in the following Custom report group column headings table.
+6.  On the **Columns** tab, in the Group Column Headings section for your new custom report, perform the following steps for each entry in the following Custom report group column headings table.
 
     1.  Select **+** to add a new column row.
 
@@ -566,7 +566,7 @@ Lookup Related Value
         |Worker| |Worker\_group|
         |Worker's Manager\(s\)| |Worker\_s\_Manager\_s\_\_group|
 
-7.  On the Edit Custom Report page, navigate to the Sort tab, then perform these steps.
+7.  On the Edit Custom Report page, navigate to the **Sort** tab, then perform these steps.
 
     1.  In the table, select **+** to add a new result sort order row for your custom report.
 
@@ -576,7 +576,7 @@ Lookup Related Value
         |-----|--------------|
         |Last Functionally Updated|Alphabetical - Ascending|
 
-8.  On the Edit Custom Report page, navigate to the Filter tab, then perform the following steps for each filter condition entry in the following Filter conditions table.
+8.  On the Edit Custom Report page, navigate to the **Filter** tab, then perform the following steps for each filter condition entry in the following Filter conditions table.
 
     1.  In the Filter conditions for filtering on instances table, select **+** to add a new sort order row for your custom report.
 
@@ -914,9 +914,9 @@ Lesson
  
 
 </td></tr></tbody>
-</table>9.  On the Edit Custom Report page, navigate to the Prompt tab, then select the **Populate Undefined Prompt Defaults** option
+</table>9.  On the Edit Custom Report page, navigate to the **Prompt** tab, then select the **Populate Undefined Prompt Defaults** option
 
-10. On the Prompt tab, perform the following steps for each prompt entry in the following Prompts table.
+10. On the **Prompt** tab, perform the following steps for each prompt entry in the following Prompts table.
 
     1.  In the Prompt Defaults table, select **+** to add a new prompt row for your custom report.
 

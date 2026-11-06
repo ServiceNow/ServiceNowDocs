@@ -7,7 +7,7 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Indicators, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -61,15 +61,15 @@ Role required: pa\_data\_collector or admin
 
 6.  Select a facts table, either directly or by reusing a report source.
 
-<table id="choicetable_bwt_24j_dbb"><thead><tr><th align="left" id="d148753e246">
+<table id="choicetable_bwt_24j_dbb"><thead><tr><th align="left" id="d150655e246">
 
 Field
 
-</th><th align="left" id="d148753e249">
+</th><th align="left" id="d150655e249">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d148753e255">
+</th></tr></thead><tbody><tr><td id="d150655e255">
 
 **Facts table**
 
@@ -77,7 +77,7 @@ Description
 
 Specify the facts table and any conditions for filtering the records of that table. You can specify a [database view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md) as the facts table. Remote tables are not supported, but Workflow Data Fabric tables are supported.
 
-</td></tr><tr><td id="d148753e271">
+</td></tr><tr><td id="d150655e271">
 
 **Report source**
 

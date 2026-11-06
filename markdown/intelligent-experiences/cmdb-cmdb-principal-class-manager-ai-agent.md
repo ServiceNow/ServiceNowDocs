@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/cmdb-cmdb-principal-class-manager-ai-agent.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [CMDB AI agents, CMDB, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [CMDB AI agents, CMDB, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # CMDB principal class manager AI agent
@@ -19,13 +19,12 @@ Performs actions related to principal configuration item \(CI\) classes
 The agent helps users complete tasks related to CMDB principal class manager.
 
 1.  Check the CMDB governance access level for the current user.
-2.  If you have done it before, skip to step 3.
-3.  List all existing and potential principal CI classes.
-4.  If the user does not have permission to mark principal classes, skip to step 7.
-5.  Ask the user whether they want to mark a suggested CI class or unmark a current CI class from the list as principal.
-6.  If the user specifies a class, mark or unmark the selected CI class as principal.
-7.  Ask the user if they are done reviewing, or if they want to see details about a specific CI class.
-8.  If the user has write access, inform the user that they have completed the step of managing principal CI classes.
+2.  List all existing and potential principal CI classes.
+3.  If the user does not have permission to mark principal classes, skip to step 7.
+4.  Ask the user whether they want to mark a suggested CI class or unmark a current CI class from the list as principal.
+5.  If the user specifies a class, mark or unmark the selected CI class as principal.
+6.  Ask the user if they are done reviewing, or if they want to see details about a specific CI class.
+7.  If the user has write access, inform the user that they have completed the step of managing principal CI classes.
 
 <table><thead><tr><th>
 
@@ -84,7 +83,7 @@ Allowed user roles The specific user roles that can access this AI agent.
 
 </td><td>
 
-snc\_internal, sn\_cmdb\_admin
+sn\_cmdb\_admin
 
 </td></tr><tr><td>
 

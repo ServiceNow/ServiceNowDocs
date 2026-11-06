@@ -1,18 +1,18 @@
 ---
 title: Track emails linked from Microsoft Outlook
-description: View emails that have been linked to CRM records using the Microsoft Outlook directly from the CSM/FSM Configurable Workspace.
+description: View emails that have been linked to CRM records using the Microsoft Outlook directly from the CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/view-associated-emails-crm.html
 release: australia
 topic_type: task
-last_updated: "2026-04-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Activity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Track emails linked from Microsoft Outlook
 
-View emails that have been linked to CRM records using the Microsoft Outlook directly from the CSM/FSM Configurable Workspace.
+View emails that have been linked to CRM records using the Microsoft Outlook directly from the CRM Workspace.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: sn\_crm\_outlook.crm\_outlook\_user
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 

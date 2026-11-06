@@ -1,27 +1,27 @@
 ---
-title: Metrics
+title: Continuous authentication metrics
 description: View the different metrics for continuous authentication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/ca-metrics.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring CA, Continuous Authentication \(CA\), Zero Trust Access, Access Management]
 ---
 
-# Metrics
+# Continuous authentication metrics
 
 View the different metrics for continuous authentication.
 
 To access the metrics page, navigate to **All** &gt; **Continuous Authentication**, select **Metrics** tab.
 
-Following are the different KPI details that you can view for continuous authentication:
+You can view the following KPI details for continuous authentication.
 
 |Metrics|Description|
 |-------|-----------|
-|Total policies|KPI for number of continuous authentication policy that are created for the users.|
-|Total protected classifications|KPI for number of classification that are protected due to the CA policy creation.|
+|Total policies|KPI for the number of continuous authentication policies that are created for users.|
+|Total protected classifications|KPI for the number of classifications that are protected due to the continuous authentication \(CA\) policy creation.|
 |Failed step-up or re-authentication|KPI for the number of failed step-up \(MFA\) or re-authentication \(SSO\).|
 |No of times policies invoked|KPI for the total number of times CA policies invoked.|
 
@@ -32,11 +32,11 @@ Following are the different KPI details that you can view for continuous authent
 **Related topics**  
 
 
-[Policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ca-policies.md)
+[Continuous authentication policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ca-policies.md)
 
-[Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ca-metrics.md)
+[Continuous authentication metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ca-metrics.md)
 
-[System properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ca-system-properties.md)
+[Continuous authentication system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ca-system-properties.md)
 
 [Exploring Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/explore-continuous-auth.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-11-03"
 reading_time_minutes: 5
 breadcrumb: [Operating systems discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -24,7 +24,7 @@ Discovery identifies and classifies information about Windows computers that use
 
 For IPv4 discovery:
 
--   Windows Workstation 7, 8, 10
+-   Windows Workstation 7, 8, 10, 11
 -   Windows Server versions:
     -   2008
     -   2008R2
@@ -40,6 +40,7 @@ For IPv6 discovery:
 -   Windows Server 2016
 -   Windows Desktop 10
 -   Windows 2019 Datacenter
+-   Windows 11
 
 **Note:** For fiber channel discovery on a Windows 2008 host, the Microsoft Fibre Channel Information Tool \(`fcinfo.exe`\) must be installed on that machine. The `fcinfo` executable should be available on the environment path. The Microsoft Fibre Channel Information Tool tool is available for download at [http://www.microsoft.com](http://www.microsoft.com).
 
@@ -162,8 +163,8 @@ To use patterns, verify that the correct pattern is specified in the horizontal 
 |CPU speed \(MHz\)|cmdb\_ci\_computer|cpu\_speed|wmi|
 |Default gateway|cmdb\_ci\_win\_server|default\_gateway|wmi|
 |Description|cmdb\_ci\_disk|short\_description|wmi|
-|Disk space \(GB\)|cmdb\_ci\_computer|disk\_space|wmi|
-|Disk space \(GB\)|cmdb\_ci\_disk|disk\_space|wmi|
+|Disk space \(GB\)\*\*|cmdb\_ci\_computer|disk\_space|wmi|
+|Disk space \(GB\)\*\*|cmdb\_ci\_disk|disk\_space|wmi|
 |DHCP enabled|cmdb\_ci\_network\_adapter|dhcp\_enabled|wmi|
 |DNS domain|cmdb\_ci\_win\_server|dns\_domain|DNS|
 |Free space \(GB\)|cmdb\_ci\_file\_system|free\_space|wmi|

@@ -7,7 +7,7 @@ release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 10
 breadcrumb: [Set up access to AWS billing and usage data, Configure Cloud Cost Management for AWS, Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -51,7 +51,7 @@ For AWS.
 -   You can create only one Billing Download job for each service account.
 -   Only costs of the unblended type are supported.
 -   The Billing Download job updates the billing node data table \[sn\_cld\_intg\_aws\_cost\_usage\] with the CIs in the CMDB that correspond to each resource ID.
--   The CI placement process associates downloaded cost and usage data with the appropriate CIs in the CMDB. See [Add an AWS CI class type to ensure accurate billing data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/aws-class-type-add-cloudin.md) for the details.
+-   The CI placement process associates downloaded cost and usage data with the appropriate CIs in the CMDB. See [Add an AWS CI class type for billing data accuracy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/cloud-cost-management/aws-class-type-add-cloudin.md) for the details.
 
 ## Procedure
 

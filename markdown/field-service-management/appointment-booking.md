@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/appointment-booking.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Optimize Scheduling and Dispatching, Explore, Field Service Management]
 ---
@@ -19,6 +19,20 @@ Appointment booking helps to effectively manage the service requests. With the a
 Customers can view available appointment windows, make a selection, and book service appointments from the service portal. Agents and dispatchers can also book appointments on behalf of customers.
 
 Appointment booking feature supports manual and dynamic scheduling of the work order tasks.
+
+## Example: Customer Books Repair Slot
+
+A customer needs to book a service appointment at a convenient time without contacting a service desk. Appointment Booking lets customers view available slots and schedule service through the customer portal. The system automatically generates a work order and sends a confirmation when an appointment is selected.
+
+|Step|Actor|Action|
+|----|-----|------|
+|1|Customer|Initiates request through customer portal|
+|2|System|Checks availability|
+|3|System|Presents slots|
+|4|Customer|Selects appointment|
+|5|System|Creates work order and appointment|
+|6|System|Sends confirmation|
+|7|System|Schedules dispatch|
 
 ## Key features
 

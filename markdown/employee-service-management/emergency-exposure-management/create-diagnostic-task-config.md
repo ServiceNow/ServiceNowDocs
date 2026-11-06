@@ -7,9 +7,9 @@ release: australia
 product: Emergency Exposure Management
 classification: emergency-exposure-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up Emergency Exposure Management, Emergency Exposure Management, Emergency Response Management, Employee Service Management]
+breadcrumb: [Set up Emergency Exposure Management, Emergency Exposure Management, Emergency Response Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Create or modify a diagnostic request task configuration

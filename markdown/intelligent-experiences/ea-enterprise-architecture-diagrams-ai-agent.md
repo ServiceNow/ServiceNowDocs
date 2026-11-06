@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-10-06"
 reading_time_minutes: 2
-breadcrumb: [Enterprise Architecture AI agents, Enterprise Architecture, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [Enterprise Architecture AI agents, Enterprise Architecture, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Enterprise Architecture diagrams AI agent
@@ -19,12 +19,11 @@ The agent finds a business application by name or ID and generates a hierarchy d
 The agent helps the user generate and review a hierarchy diagram for a business application.
 
 1.  Look up the business application that the user names or identifies by ID.
-2.  If no match is found, ask the user for the correct business application name or ID.
-3.  If several matches are found, list them and ask the user to select one.
-4.  Ask the user for an artifact name for the diagram, and ask for a different name if an artifact with that name already exists.
-5.  Generate the hierarchy diagram for the selected business application.
-6.  Present a link to the generated diagram so the user can review it.
-7.  Generate and display a summary of the diagram.
+2.  If no match is found, ask the user for the correct business application name or ID, and if several matches are found, list them and ask the user to select one.
+3.  Ask the user for an artifact name for the diagram, and ask for a different name if an artifact with that name already exists.
+4.  Generate the hierarchy diagram for the selected business application.
+5.  Present a link to the generated diagram so the user can review it.
+6.  Generate and display a summary of the diagram.
 
 <table><thead><tr><th>
 
@@ -115,11 +114,4 @@ Generate enterprise architecture diagram
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Enterprise Architecture AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ea-ai-agents-overview.md)
-
-**Related topics**  
-
-
-[Enterprise Architecture AI agent diagramming agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/now-assist-aiagents-ea-diagramming-usecase.md)
-
-[Exploring ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/exploring-now-assist-for-ea.md)
 

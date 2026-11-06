@@ -7,7 +7,7 @@ release: australia
 product: Field Service Management for Telecommunications
 classification: field-service-management-for-telecommunications
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Field Service Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -26,7 +26,6 @@ This feature supports the following:
 -   Understands the appointment data model available in the Field Service Management application.
 -   Supports POST operation to create an appointment in the Field Service Management application for a work order.
 -   Supports required validations for the incoming data for appointment creation for an available time slot via `search time slot API`.
--   Reschedule appointments for a  work order
 
 ## Configuring the appointment booking feature
 

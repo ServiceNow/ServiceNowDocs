@@ -7,7 +7,7 @@ release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Managing mobile experience for GRC Policy and Compliance, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -59,15 +59,15 @@ Approve or reject a pending Policy and Compliance Management request from the li
 
     \[Omitted image "mobile-policy-compl-policy-rcd.png"\] Alt text: Policy record details.
 
-<table id="choicetable_sgf_5fd_xhb"><thead><tr><th align="left" id="d146202e242">
+<table id="choicetable_sgf_5fd_xhb"><thead><tr><th align="left" id="d147655e242">
 
 Option
 
-</th><th align="left" id="d146202e245">
+</th><th align="left" id="d147655e245">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d146202e251">
+</th></tr></thead><tbody><tr><td id="d147655e251">
 
 **Details tab**
 
@@ -79,7 +79,7 @@ Choose one to continue.
 -   At the top right of the screen, tap the menu icon \(\[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon\) to approve or reject the policy approval request. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d146202e278">
+</td></tr><tr><td id="d147655e278">
 
 **Related List tab**
 
@@ -92,7 +92,7 @@ View the related lists.
 3.  After you review the details, navigate back to the Policy screen and tap the menu icon \( \[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon\) to approve or reject the policy approval request. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d146202e321">
+</td></tr><tr><td id="d147655e321">
 
 **Screen icons at the bottom of the screen.**
 

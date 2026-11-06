@@ -1,22 +1,22 @@
 ---
-title: Using the CRM Workspace for Public Sector Digital Services
+title: Using the Public Sector Workspace for Public Sector Digital Services
 description: Set up CSM Configurable Workspace for your agents and expand the Workspace UI so they can engage with customers, answer questions, create cases, and resolve issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-using-csm-workspace.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Using the CRM Workspace for Public Sector Digital Services
+# Using the Public Sector Workspace for Public Sector Digital Services
 
 Set up CSM Configurable Workspace for your agents and expand the Workspace UI so they can engage with customers, answer questions, create cases, and resolve issues.
 
-Government service agents can complete most tasks in CRM Workspace. For more information on how to set up the CRM Workspace, see [Set up the CRM Workspace for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/setting-up-csm-fsm.md).
+Government service agents can complete most tasks in Public Sector Workspace. For more information on how to set up the Public Sector Workspace, see [Set up the Public Sector Workspace for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/setting-up-csm-fsm.md).
 
-The tables below describe some of the basic tasks that agents can perform in CRM Workspace.
+The tables below describe some of the basic tasks that agents can perform in Public Sector Workspace.
 
 <table id="table_csm_workspace_agent_tasks"><thead><tr><th>
 
@@ -82,7 +82,7 @@ Quickly respond to customers using different types of predefined information.
 
 </td><td>
 
-[Use response templates in Service Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/use-response-templates-psds.md)
+[Use response templates in Service Request Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/use-response-templates-psds.md)
 
 </td></tr></tbody>
 </table>

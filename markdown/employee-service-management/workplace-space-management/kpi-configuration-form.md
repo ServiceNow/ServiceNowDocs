@@ -7,7 +7,7 @@ release: australia
 product: Workplace Space Management
 classification: workplace-space-management
 topic_type: reference
-last_updated: "2026-05-18"
+last_updated: "2026-10-22"
 reading_time_minutes: 2
 breadcrumb: [Reference, Workplace Space Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -30,7 +30,7 @@ Name
 
 </td><td>
 
-Name of the KPI Configuration.
+Name of the KPI Configuration. **Note:** The name must be unique.
 
 </td></tr><tr><td>
 
@@ -84,8 +84,11 @@ The operation that is applied to the selected field. The operation is applied ac
 -   **AVG**: Calculates the average of the values of the selected field.
 -   **COUNT**: Counts the number of values of the selected field.
 -   **COUNT DISTINCT**: Counts the number of unique values of the selected field.
+-   **None**: Doesn't apply an operation. Use this value for KPIs that a script include calculates.
 
 For example, SUM of Capacity displays the total capacity of the applicable spaces.
+
+Each combination of Type and Computation field can be used in only one KPI configuration.
 
 **Note:**
 
@@ -101,7 +104,9 @@ Computation field
 
 </td><td>
 
-Field on the Space \[sn\_wsd\_core\_space\] table on which the selected operation is performed. This field is displayed only after you select a value in the **Type** field.For example, SUM of Capacity displays the total capacity of the applicable spaces.
+Field on the Space \[sn\_wsd\_core\_space\] table on which the selected operation is performed. This field is displayed only after you select a value in the **Type** field.**Note:** You must select a computation field when the type is SUM, AVG, or COUNT DISTINCT.
+
+ For example, SUM of Capacity displays the total capacity of the applicable spaces.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Workplace Space Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/workplace-space-mgmt-references.md)
@@ -109,9 +114,13 @@ Field on the Space \[sn\_wsd\_core\_space\] table on which the selected operatio
 **Related topics**  
 
 
+[Allocation - types, setting, and impact]()
+
 [Components installed with Workplace Space Management]()
 
 [Properties installed with Workplace Space Management]()
 
 [View by Configuration form]()
+
+[]()
 

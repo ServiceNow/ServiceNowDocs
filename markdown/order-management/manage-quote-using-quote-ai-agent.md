@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/manage-quote-using-quote-ai-agent.html
 release: australia
 topic_type: task
-last_updated: "2026-07-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
@@ -42,15 +42,15 @@ If a change requires approval, the agent notifies you and starts the approval wo
 
 3.  Enter your request or respond to the agent, depending on your operation.
 
-<table><thead><tr><th align="left" id="d80870e138">
+<table><thead><tr><th align="left" id="d83434e138">
 
 Operation
 
-</th><th align="left" id="d80870e141">
+</th><th align="left" id="d83434e141">
 
 What to do
 
-</th></tr></thead><tbody><tr><td id="d80870e147">
+</th></tr></thead><tbody><tr><td id="d83434e147">
 
 **Create a quote**
 
@@ -65,7 +65,7 @@ Enter your request in the chat, including the opportunity number and any pricing
 -   `Create a quote for Opportunity OPT001 and generate an email with the document.`
 
 
-</td></tr><tr><td id="d80870e177">
+</td></tr><tr><td id="d83434e177">
 
 **Modify a quote**
 
@@ -81,7 +81,7 @@ Enter your modification request in the chat, including the quote number and the 
 -   `Change the price list on this quote to the EMEA price list.`
 
 
-</td></tr><tr><td id="d80870e211">
+</td></tr><tr><td id="d83434e211">
 
 **Review a trigger-generated quote**
 

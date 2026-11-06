@@ -7,7 +7,7 @@ release: australia
 product: Identity
 classification: identity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring Machine Identity Console, Machine Identity Console, Identity]
 ---
@@ -20,9 +20,7 @@ Configure the Machine Identity security score settings.
 
 Role required: mi\_admin
 
-The following task is specific to your organization on how to handle the inactive accounts.
-
-**Note:** If your organization does not want to report on accounts inactive for 100 days, you can deactivate this report below. This is the only report that can be set to inactive.
+Each category has an activate or deactivate button. Select the button to turn a category on or off for your organization.
 
 ## Procedure
 
@@ -36,4 +34,8 @@ The following task is specific to your organization on how to handle the inactiv
     -   **Accounts logging into the UI despite being integration only**
     \[Omitted image "mic-settings.png"\] Alt text: Machine Identity Console Settings
 
+
+## What to do next
+
+For the system properties that control Machine Identity Console data collection, see [Exploring Machine Identity Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/identity/explore-machine-identity-console.md).
 

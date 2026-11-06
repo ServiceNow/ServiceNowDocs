@@ -7,7 +7,7 @@ release: australia
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-10-22"
 reading_time_minutes: 4
 breadcrumb: [Work with portfolios, Digital Portfolio Management, IT Service Management]
 ---
@@ -35,12 +35,12 @@ The following list provides all the possible solution types that you can filter 
 -   Technology management services
 -   Technology management service offerings
 -   Business services
--   Business services offerings
+-   Business service offerings
 -   Service instances
 
 ## Editing personal portfolios
 
-To edit a solution that you open from the personal portfolio, you must have edit access based on the access control list \(ACL\) for each solution that makes up the portfolio. For example, if you're assigned a service editor role and you own a specific service and offering, then you can edit those specific records that you open from the personal portfolio. But if you don’t have those access rights, then you can only view the services and offerings in the personal portfolio and see KPIs.
+To edit a solution from the personal portfolio, you must have edit access based on the access control list \(ACL\) for each solution that makes up the portfolio. For example, if you're assigned a service editor role and you own a specific service and offering, then you can edit those specific records that you open from the personal portfolio. But if you don’t have those access rights, then you can only view the services and offerings in the personal portfolio and see KPIs.
 
 **Tip:** With a DPM admin role \[sn\_dpm.dpm\_admin\], you can hide certain tabs and tab sections of solutions in a personal portfolio. For more information, see [Configure the Digital Portfolio Management experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-configure-experience.md).
 

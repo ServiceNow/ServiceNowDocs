@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-sbp-add-beneficiary.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [How to Add a beneficiary to a social benefits application, Add a beneficiary, Add a beneficiary to a social benefits application]
 breadcrumb: [Using Social Benefits Playbook, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
@@ -21,7 +21,7 @@ Role required: admin
 
 ## Procedure
 
-1.  In the CRM Workspace, navigate to **Lists** &gt; **Social Benefits** &gt; **All**.
+1.  In the Public Sector Workspace, navigate to **Lists** &gt; **Social Benefits** &gt; **All**.
 
 2.  Select **New** to create a case.
 

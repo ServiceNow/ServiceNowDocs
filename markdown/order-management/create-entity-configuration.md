@@ -1,18 +1,18 @@
 ---
 title: Create an entity configuration
-description: Create an entity configuration to compose a workflow between two entities so that you can update their existing configurations and perform actions like suspend, resume, or disconnect a sold product.
+description: Create an entity configuration to compose a workflow between two entities. You can update existing configurations and perform actions like suspend, resume, or disconnect a sold product.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-entity-configuration.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Install and configure Lead to Cash Core, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Install and configure CRM Core, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create an entity configuration
 
-Create an entity configuration to compose a workflow between two entities so that you can update their existing configurations and perform actions like suspend, resume, or disconnect a sold product.
+Create an entity configuration to compose a workflow between two entities. You can update existing configurations and perform actions like suspend, resume, or disconnect a sold product.
 
 ## Before you begin
 
@@ -58,5 +58,5 @@ You’ve created an entity configuration and defined its definition and attribut
 
 [Using lead-to-cash foundation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-lead-cash-foundation.md)
 
-[Lead to Cash Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/lead-to-cash.md)
+[CRM Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/lead-to-cash.md)
 

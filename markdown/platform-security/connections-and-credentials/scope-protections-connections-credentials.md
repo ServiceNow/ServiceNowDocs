@@ -7,7 +7,7 @@ release: australia
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore credentials, connections, and aliases, Connections and Credentials, Access Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Explore credentials, connections, and aliases, Connections and Cred
 
 You can classify certain types of Connection &amp; Credential records as belonging to a scope, and extend scope protections to them. These scope policies protect records you create in a table, and prevent interactions with records that are private to another scope.
 
-An **Application** field is available in the Connection \[sys\_connection\] and Discovery Credentials \[discovery\_credentials\] tables for associating these types of records to specific scopes. It is not visible on UI forms in Australia, but you can easily add it to them. To learn more about these record types, and adding the field to their UI forms, see:
+An **Application** field is available in the Connection \[sys\_connection\] and Discovery Credentials \[discovery\_credentials\] tables for associating these types of records to specific scopes. It is not visible on UI forms in Brazil, but you can easily add it to them. To learn more about these record types, and adding the field to their UI forms, see:
 
 -   [Get started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/connections-and-credentials/connection-information.md)
 -   [Get started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/connections-and-credentials/credentials-getting-started.md)

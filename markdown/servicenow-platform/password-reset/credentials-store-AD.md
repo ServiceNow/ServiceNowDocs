@@ -7,7 +7,7 @@ release: australia
 product: Password Reset
 classification: password-reset
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Credential stores for Password Reset, Configure your Password Reset process, Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ A credential store type is a set of workflows that specify how to connect to a c
 
 ## Overview
 
-Navigate to **Password Reset** &gt; **Credential Stores** to view the list of example credential stores that are based on the base-system types. You can also use subflows and integration hub [IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integrationhub.md).
+Navigate to **Password Reset** &gt; **Credential Stores** to view the list of example credential stores that are based on the base-system types. You can also use subflows and integration hub IntegrationHub.
 
 -   **[Integrate Password Reset with your Active Directory service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/t_ConPassResetActiveDir.md)**  
 The Password Reset application can change passwords on an Active Directory credential store. The application changes passwords by referencing an Active Directory user role with the appropriate password change privileges.

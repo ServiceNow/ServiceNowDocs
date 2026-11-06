@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Azure change processing, Discovery for Microsoft Azure, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -28,7 +28,9 @@ Role required: discovery\_admin or sn\_cmp.cloud\_admin
 
 ## About this task
 
-If you are using the Microsoft Azure alert-driven discovery and the ServiceNow AI Platform receives many alerts from the Azure cloud, processing those alerts and updating the Configuration Management Database \(CMDB\) can take a significant amount of time. Migrate to the Azure change processing to overcome the performance issues. For more information on the Azure change processing, see [Azure change processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/azure-change-processing.md).
+If you are using the Microsoft Azure alert-driven discovery and the ServiceNow AI Platform receives many alerts from the Azure cloud, processing those alerts and updating the Configuration Management Database \(CMDB\) can take a significant amount of time.
+
+Migrate to the Azure change processing to overcome the performance issues. For more information on the Azure change processing, see [Azure change processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/azure-change-processing.md).
 
 ## Procedure
 

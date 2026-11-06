@@ -7,7 +7,7 @@ release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -159,7 +159,7 @@ Approve or defer a demand
 
 </td><td>
 
-The demand manager sets the demand to approved \(moves forward for execution\) or deferred \(moves to the Deferred state\).
+The demand manager sets the demand to approved \(moves forward for execution\) or deferred \(moves to the Deferred state\).**Note:** This is a description of a traditional demand management process. You can follow other management processes from it according to your governance requirements. For example, a demand can be converted to a work item at any state, including Draft. This is not restricted to support different types of governance processes.
 
 </td><td>
 

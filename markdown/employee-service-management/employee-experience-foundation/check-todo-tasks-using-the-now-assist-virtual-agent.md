@@ -7,9 +7,9 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, ServiceNow Otto for Employee Experience, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Use, ServiceNow Otto for Employee Experience, EmployeeWorks, Employee Service Management]
 ---
 
 # Check your to-do tasks by using the ServiceNow Otto for Virtual Agent
@@ -61,4 +61,6 @@ Role required: None
 [Check company news and events]()
 
 [View summarization for approvals]()
+
+[Manage approvals with Approval Assistance AI agent]()
 

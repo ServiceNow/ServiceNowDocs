@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 keywords: [Nokia MPN]
 breadcrumb: [Reference, Telecommunications Service Operations Management]
@@ -43,5 +43,5 @@ TSOM calculates one additional KPI from the source KPIs. This value is not repor
 
 [MPN Formula Engine processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/nokia-mpn-formula-engine.md)
 
-[MPN Latency Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/mpn-latency-dashboard.md)
+[MPN latency metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/mpn-latency-dashboard.md)
 

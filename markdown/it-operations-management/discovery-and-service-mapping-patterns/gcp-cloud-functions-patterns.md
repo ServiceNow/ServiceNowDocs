@@ -7,7 +7,7 @@ release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Cloud Functions, GCP Cloud Functions, Google Cloud Platform Cloud Functions, Google Cloud Platform \(GCP\) Cloud Functions, Cloud Functions pattern, GCP Cloud Functions pattern, Google Cloud Platform Cloud Functions pattern, Google Cloud Platform \(GCP\) Cloud Functions pattern]
 breadcrumb: [GCP discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]

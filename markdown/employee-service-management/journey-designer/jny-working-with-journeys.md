@@ -7,7 +7,7 @@ release: australia
 product: Journey Designer
 classification: journey-designer
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
@@ -55,8 +55,6 @@ Many journeys have similar task types for multiple users. You can update similar
 Journey owners and mentors with the **Can add personalized message** permission can send a personal message to the employee assigned to a journey.
 -   **[Display learning recommendations to the Manager creating a journey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-dsgnr-learning-recom-manager-ml.md)**  
 Enable manager who is creating a journey for an employee, to add relevant learning recommendations for the employee in the Employee Center.
--   **[Add tasks to an activity set using Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/add-tasks-activity-set.md)**  
-Add tasks to a Lifecycle Events activity set to personalize an employee’s journey. Adding tasks gives you the flexibility to tailor journeys to individual employee needs without modifying the underlying journey configuration.
 -   **[Journeys on Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/journeys-mobile-now.md)**  
 Journeys are created in the ServiceNow® Journey designer application to help employees navigate multi-step transitions, such as onboarding, maternity leave, or an interdepartmental transfer. The Now Mobile application enables users to perform journey-related tasks from the convenience of their mobile device.
 

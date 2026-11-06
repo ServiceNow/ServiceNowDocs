@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/activate-entitled-store-app.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Download an application from the ServiceNow Store for the first time, Security Operations and the ServiceNow Store, Security Operations]
 ---

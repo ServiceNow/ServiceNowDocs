@@ -7,7 +7,7 @@ release: australia
 product: Digital Product Release
 classification: digital-product-release
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Reference, Digital Product Release, IT Service Management]
 ---
@@ -116,7 +116,7 @@ Option to make this release as an out-of-band release, which means it isn’t as
 -   **out\_of\_band\_release\_allowed** is set to **true**.
 -   You have one of the roles listed in **out\_of\_band\_release\_roles**.
 
-For more information, see [Digital Product Release properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-product-release/digital-product-release-properties.md).
+For more information, see [Digital Product Release system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-product-release/digital-product-release-properties.md).
 
 </td></tr><tr><td>
 

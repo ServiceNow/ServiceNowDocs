@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ra-csm-recommendations.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Recommended Actions, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -159,4 +159,6 @@ Group created by a defined grouping strategy that displays relevant recommendati
 
 </td></tr></tbody>
 </table>**Note:** The **Action type**, **Action**, and **Recommendation hint** fields aren’t shown for the AI search resource generator. You can configure the **Action type** and **Action** fields, and mapping between AI search outputs and guidance actions inputs in the Search result mapping related list.
+
+\[Omitted image "ra-recommendation.png"\] Alt text: Recommendations form - Guidance action type
 

@@ -7,7 +7,7 @@ release: australia
 product: Project Management
 classification: project-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Project Management reference, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -36,7 +36,7 @@ Currency in which the project is to be implemented.**Note:**
 
 The **Project currency** field defaults to the Functional Currency if you modify the currency field and save the Project form without selecting a currency.
 
-The **Project currency** field of a project becomes read-only field and cannot be modified once you create a cost plan, cost plan breakdown, benefit plan, benefit plan breakdown, or an expense line for the project.
+The **Project currency** field is set to read-only after you create a financial plan for the project. Financial plans include cost plans, cost plan breakdowns, benefit plans, benefit plan breakdowns, and expense lines.
 
 </td></tr><tr><td>
 
@@ -149,7 +149,7 @@ Status report currency
 
 </td><td>
 
-Currency in which the project status report is generated.If you have the Project currency view enabled in the Project form, then you have the choice to generate the project status report using any of the following currency options:
+Currency in which the project status report is generated.If the Project currency view is enabled in the Project form, select a currency option for the project status report:
 
  -   **Functional currency**: Currency obtained from the glide.system.locale property in which the project status report is created.
 -   **Project currency**: Project status report is created in the local currency that is selected. If you select Project currency, you can view the planned cost and actual cost in the selected project currency.
@@ -291,4 +291,10 @@ Exchange reference date
 Budget Reference Rate from where the exchange rate is retrieved.
 
 </td></tr></tbody>
-</table>
+</table>-   **[Cost rollup in project currency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/project-costing-project-currency.md)**  
+Cost rollup calculation in projects and sub-projects with different currencies varies with the budget reference rate. The rate at which the amount is converted depends on the conversion rate.
+-   **[Project currency in cost and benefit plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/project-currency-cost-benefit-plans.md)**  
+The currency fields in cost and benefit plans defaults to the project currency of the project.
+
+**Parent Topic:**[Project Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/project-management-reference.md)
+

@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Primary connectors, Zero Copy Connectors, Workflow Data Fabric]
+breadcrumb: [Primary connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
 
 # ServiceNow Remote Instance
@@ -44,7 +44,7 @@ Work with the remote instance administrator to perform the following tasks:
 
 ## Use case
 
-A managed service provider operates twelve ServiceNow instances for different business units, each containing incident, change, and asset data specific to that unit. Due to data residency regulations in multiple regions, records cannot be copied or moved between instances.
+A managed service provider operates twelve ServiceNow instances for different business units, each containing incident, change, and asset data specific to that unit. Due to data residency regulations in multiple regions, records can't be copied or moved between instances.
 
 The provider designates one instance as the central processing instance where cross-organizational workflows and dashboards are managed. Using the ServiceNow Remote Instance connector, the central instance establishes zero copy connections to each of the twelve remote instances. Data stewards create data fabric tables that map incident and asset fields from the remote instances.
 

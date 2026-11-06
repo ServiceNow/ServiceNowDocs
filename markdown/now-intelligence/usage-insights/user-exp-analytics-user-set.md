@@ -7,7 +7,7 @@ release: australia
 product: Usage Insights
 classification: usage-insights
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [User privacy, tracking, and consent, Configuring Usage Insights, Usage Insights, Platform Analytics]
 ---
@@ -28,15 +28,15 @@ You can opt in or opt out of advanced tracking on a mobile device, in the Servic
 
 1.  Access a platform to configure Usage Insights advanced tracking settings either via your mobile application, the Service Portal, or the web-based UI.
 
-<table id="choicetable_nwq_zlv_hsb"><thead><tr><th align="left" id="d119622e77">
+<table id="choicetable_nwq_zlv_hsb"><thead><tr><th align="left" id="d121117e77">
 
 Platform type
 
-</th><th align="left" id="d119622e80">
+</th><th align="left" id="d121117e80">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d119622e86">
+</th></tr></thead><tbody><tr><td id="d121117e86">
 
 **Mobile application**
 
@@ -48,7 +48,7 @@ Action
 4.  Either enable the **Enable Analytics** button to opt in to advanced tracking, or turn off the **Enable Analytics** button to opt out of advanced tracking.
 
 
-</td></tr><tr><td id="d119622e131">
+</td></tr><tr><td id="d121117e131">
 
 **Web-based UI**
 
@@ -59,7 +59,7 @@ Action
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d119622e170">
+</td></tr><tr><td id="d121117e170">
 
 **Service Portal**
 

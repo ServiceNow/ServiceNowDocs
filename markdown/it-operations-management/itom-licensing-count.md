@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-licensing-count.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_itom\_license.reader
 
 ## About this task
 
-The generated CI list is closely correlated to the latest daily CI count. At the same time, the number of CIs on the generated CI list may be slightly different from the latest daily CI count, if changes occurred since the last daily count.
+The generated CI list is closely correlated to the latest daily CI count. If changes occurred since the last daily count, the number of CIs on the generated list may differ slightly.
 
 **Note:** To estimate the predicted usage under 2026 Packaging SKUs, see [Predict CI consumption for 2026 Packaging SKU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/generate-ci-consumption-predictions.md).
 

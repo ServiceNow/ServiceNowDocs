@@ -1,6 +1,6 @@
 ---
 title: Improving CMDB data quality for Data Foundations
-description: The Remediation actions panel available for a chart in the CMDB success advisor dashboard for Data Foundations suggests targeted actions to address Data Foundations data quality issues and improve the overall quality of your Configuration Management Database \(CMDB\). Select the Ask Otto action on a KPI card to start an agent conversation without waiting for the next scheduled agent run.
+description: The Remediation actions panel available for a chart in the CMDB success advisor dashboard for Data Foundations displays suggestions for targeted actions to address Data Foundations data quality issues and improve the overall quality of your Configuration Management Database \(CMDB\). Select the Ask Otto action on a KPI card to start an agent conversation without waiting for the next scheduled agent run.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-remediation.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Use Data Foundations advisor, CMDB success advisor, Configuration M
 
 # Improving CMDB data quality for Data Foundations
 
-The Remediation actions panel available for a chart in the CMDB success advisor dashboard for Data Foundations suggests targeted actions to address Data Foundations data quality issues and improve the overall quality of your Configuration Management Database \(CMDB\). Select the Ask Otto action on a KPI card to start an agent conversation without waiting for the next scheduled agent run.
+The Remediation actions panel available for a chart in the CMDB success advisor dashboard for Data Foundations displays suggestions for targeted actions to address Data Foundations data quality issues and improve the overall quality of your Configuration Management Database \(CMDB\). Select the Ask Otto action on a KPI card to start an agent conversation without waiting for the next scheduled agent run.
 
 \[Omitted image "cmdb-sa-df-remediation-actions.png"\] Alt text: Example actions in the remediation actions panel shown for stale CIs not updated within the selected time period.
 
@@ -26,14 +26,14 @@ You can perform the actions suggested within the Remediation actions panel to ad
 The Remediation actions panel:
 
 -   Improves CMDB data quality through guided actions
--   Suggests context-aware actions
+-   Displays context-aware action suggestions
 -   Supports quick, informed remediation steps
 -   Focuses attention on meaningful tasks
 -   Appears only when actionable insights are available
 
 ## Accessing the Remediation actions panel
 
-To open the Remediation actions panel, select a segment or count on a chart in the CMDB success advisor dashboard for Data Foundations. The KPI Details page opens. If the remediation actions are available for the selected data, the panel appears on the details page suggesting various remediation actions.
+To open the Remediation actions panel, select a segment or count on a chart in the CMDB success advisor dashboard for Data Foundations. The KPI Details page opens. If the remediation actions are available for the selected data, the panel appears on the details page displaying suggestions for various remediation actions.
 
 ## Available remediation actions
 
@@ -53,6 +53,11 @@ The remediation actions are available for the improvement of the following issue
 
     Assign a managed by group to CIs in your principal classes that are missing ownership. Ownership data is critical for routing incidents, changes, and service requests to the correct team.
 
+    The remediation actions depend on the cause:
+
+    -   **Turn on sync setting**: appears when the sync setting is turned off. Shown only to users with the CMDB admin role. For more information, see [Principal class sync in Data Foundations advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-class-sync.md).
+    -   **Managed by group setting**: opens CI Class Manager so you can add the managed by group field to the affected classes. Appears when at least one contributing class is missing the field.
+    -   **View CIs**: opens the list of CIs missing managed by group. Appears in place of the Managed by group setting action when you can't access that setting.
 -   **Stale CIs**
 
     Remove or update CIs in your principal classes that have not been updated or discovered for an extended period. Stale records reduce trust in the CMDB and can cause incorrect assignments.
@@ -67,6 +72,6 @@ The Stale CIs card and the Duplicate CIs card on the Data Foundations advisor da
 ## Data Foundations specific remediation tips
 
 -   For stale CIs in principal classes: check whether a Discovery schedule is running against the affected network segment or cloud account. Stale data often means a Discovery job is failing or out of scope.
--   For duplicate CIs: review the CMDB Identification and Reconciliation \(IRE\) rules for the affected CI class. Duplicates often signal that IRE rules need updating.
+-   For duplicate CIs: review the CMDB Identification and Reconciliation \(IRE\) rules for the affected CI class. Duplicates often signal that IRE rules require updating.
 -   For missing location or owner: consider using a CMDB enrichment rule to auto-populate these fields from related records. For example, derive location from IP subnet.
 

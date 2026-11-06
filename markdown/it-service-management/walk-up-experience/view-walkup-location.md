@@ -7,9 +7,9 @@ release: australia
 product: Walk-Up Experience
 classification: walk-up-experience
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage Walk-up Experience queue and interaction, Walk-up Experience, IT Service Management]
+breadcrumb: [Manage Walk-up Experience queue and interactions, Walk-up Experience, IT Service Management]
 ---
 
 # View assigned Walk-up Experience locations
@@ -44,5 +44,5 @@ The agents can view associated walk-up location stockrooms in following ways:
     If there are any pending interactions with no associated guests at the queue, select **Abandon All** to cancel these interactions.
 
 
-**Parent Topic:**[Manage Walk-up Experience queue and interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/use-walkup-to-manage-demand.md)
+**Parent Topic:**[Manage Walk-up Experience queue and interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/walk-up-experience/use-walkup-to-manage-demand.md)
 

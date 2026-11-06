@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/table-field-level-mapping.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Impact reference, Impact]
+breadcrumb: [Data synchronization reference, Impact reference, Impact]
 ---
 
 # Table and field level mapping
@@ -32,5 +32,5 @@ Following are the tables that are synced with anything related to requesting or 
 -   **[Working with your Squad tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/working-with-squad-mapping.md)**  
 Following is the information that is synced: who’s on your Impact Squad, your Squad’s contact information, the status of your Impact Foundations activities, and records of your consent \(for example, for Accelerators that require you to accept additional terms and conditions\).
 
-**Parent Topic:**[Impact reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-reference.md)
+**Parent Topic:**[Data synchronization reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/data-synchronization-reference.md)
 

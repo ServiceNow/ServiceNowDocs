@@ -7,7 +7,7 @@ release: australia
 product: Legal Conflict of Interest
 classification: legal-conflict-of-interest
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure risk assessment, Configure, Legal Conflict of Interest, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -57,15 +57,15 @@ Role required: sn\_lco\_cmn.config
 
 3.  Configure evaluation type.
 
-<table id="choicetable_xj5_tp1_33c"><thead><tr><th align="left" id="d439106e254">
+<table id="choicetable_xj5_tp1_33c"><thead><tr><th align="left" id="d438497e254">
 
 Evaluation type
 
-</th><th align="left" id="d439106e257">
+</th><th align="left" id="d438497e257">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d439106e263">
+</th></tr></thead><tbody><tr><td id="d438497e263">
 
 **Subflow**
 
@@ -75,7 +75,7 @@ A Subflow reference field appears.
 
 Select the Flow Designer subflow that executes custom evaluation logic and returns a risk score in the Subflow field.
 
-</td></tr><tr><td id="d439106e274">
+</td></tr><tr><td id="d438497e274">
 
 **Condition**
 
@@ -92,7 +92,7 @@ Select the Flow Designer subflow that executes custom evaluation logic and retur
 -   In the **Applies to** filter, define filter conditions using the condition builder. Example: Is it a true governance board for an organization is Advisory Board.
 
 
-</td></tr><tr><td id="d439106e341">
+</td></tr><tr><td id="d438497e341">
 
 **Skill**
 

@@ -7,16 +7,16 @@ release: australia
 product: Employee Document Management
 classification: employee-document-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Bulk imports, Use, Employee Document Management, HR Documents, HR Service Delivery, Employee Service Management]
+breadcrumb: [Employee Document Management bulk imports, Using Employee Document Management, Employee Document Management, HR Documents, HR Service Delivery, Employee Service Management]
 ---
 
 # Bulk import map examples
 
 Mapping your source employee documents to required elements in Employee Document Management is crucial for a successful bulk import.
 
-This topic provides examples on how to map your source employee documents to the required elements in Employee Document Management. The values provided are examples designed to guide you through the import map configuration.
+This topic provides examples on how to map your source employee documents to the required elements in Employee Document Management. The values provided are examples to guide you through the import map configuration.
 
 ## Map fields and values directly from existing file names
 
@@ -492,7 +492,7 @@ An example of Employee Document Import Map.
 
 \[Omitted image "edm-import-map.png"\] Alt text: Import map
 
-When a connection to your source repository is confirmed and import maps are set up correctly, you can click **Start staging job** from Related Links.
+When a connection to your source repository is confirmed and import maps are set up correctly, you can select **Start staging job** from Related Links.
 
-**Parent Topic:**[Employee document management bulk imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/edm-bulk-uploads.md)
+**Parent Topic:**[Employee Document Management bulk imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-document-management/edm-bulk-uploads.md)
 

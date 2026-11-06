@@ -7,7 +7,7 @@ release: australia
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Operating systems discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -32,7 +32,7 @@ Discovery identifies and classifies information about AIX servers.
 
 -   **Reference the main CI on discovered IP addresses**
 
-    Starting with Discovery and Service Mapping Patterns version 1.35.0, you can populate the **Owned By Configuration Item** field on discovered IP address records with a reference to the main CI by setting the **add.owned.by.attribute** property to true. For more information, see [Reference the main CI on discovered IP addresses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/populate-owned-by-field-ip-address.md).
+    Starting with Discovery and Service Mapping Patterns version 1.35.1, you can populate the **Owned By Configuration Item** field on discovered IP address records with a reference to the main CI by setting the **add.owned.by.attribute** property to true. For more information, see [Reference the main CI on discovered IP addresses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/populate-owned-by-field-ip-address.md).
 
 -   **Discover only the latest OS patch versions**
 

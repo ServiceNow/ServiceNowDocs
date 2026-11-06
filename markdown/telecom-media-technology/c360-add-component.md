@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/c360-add-component.html
 release: australia
 topic_type: task
-last_updated: "2026-07-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Telecommunications Customer 360 component, Add the Customer 360 tab to a record page, Configure, Telecommunications Customer 360, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -34,7 +34,7 @@ The component can be added only as a new tab on the record page. You can't embed
 
 2.  Select **Experiences**.
 
-3.  Select **CSM/FSM Configurable Workspace** from the list.
+3.  Select **CRM Workspace** from the list.
 
 4.  Open any existing record page, or create a record page, add a tab to the page, and then add the **Telecom Customer 360** component.
 

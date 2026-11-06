@@ -7,7 +7,7 @@ release: australia
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 49
 breadcrumb: [API reference, API implementation and reference]
 ---
@@ -154,8 +154,8 @@ The ConnectionInfo API enables you to get connection attribute information throu
 The ConnectionInfoProvider API provides methods to select connection information through the connection alias.
 -   **[Console - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ConsoleAPI.md)**  
 The Console API provides methods to log messages to the system log, create and stop timers, create and log counters, log stack traces, and group/organize related content.
--   **[ConsolidationService - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ConsolidationServiceAPI.md)**  
-The ConsolidationService API is a script include with methods for merging and de-duplicating complex, hierarchical business data \(such as contracts, quotes, line items, and entitlements\) using custom logic.
+-   **[ConsolidationService - Scoped, Gobal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ConsolidationServiceAPI.md)**  
+The ConsolidationServiceSNC API is a script include with methods for merging and de-duplicating complex, hierarchical business data \(such as contracts, quotes, line items, and entitlements\) using custom logic.
 -   **[Conversation - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_ConversationScopedAPI.md)**  
 The Conversation API enables you to create or modify Connect conversations.
 -   **[CopyDynamicSchemaAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/CopyDynamicSchemaAPI.md)**  
@@ -515,7 +515,7 @@ The JSUtil script include provides shortcuts for common JavaScript routines.
 -   **[KafkaProducerAPI - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/KafkaProducerAPIScoped.md)**  
 The KafkaProducerAPI provides a method to produce messages from server-side scripts to an Apache Kafka topic.
 -   **[KMFCryptoOperation - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/KMFCryptoOperationBothAPI.md)**  
-The KMFCryptoOperation class provides methods for performing cryptographic operations, including JSON Web Token \(JWT\) signing and verification, using the Key Management Framework \(KMF\) cryptographic module or a Field Encryption encryption module.
+The KMFCryptoOperation class provides methods for performing cryptographic operations using a Key Management Framework \(KMF\) cryptographic module or a Field Encryption encryption module.
 -   **[LeadAPIHelperOOB - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/LeadAPIHelperOOBAPI.md)**  
 The LeadAPIHelperOOB script include provides helper methods called by the lead REST API to perform various functions, such as converting a set of lead records from a GlideRecord object into a JSON array or JSON object and transforming fields within a lead object.
 -   **[LeadAPIProcessUtilOOB - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/LeadAPIProcessUtilOOBAPI.md)**  
@@ -744,6 +744,8 @@ Creates a builder object used to define parameters for flow, subflow, and action
 Captures the result of using ScriptableFlowRunner to execute a flow, subflow, or action. Includes data such as the context ID, domain, and any outputs from the flow execution.
 -   **[ScriptableUriMatcher - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/ScriptableUriMatcherBothAPI.md)**  
 Use the ScriptableUriMatcher API to verify URI matches.
+-   **[SecretsAPI - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/SecretsAPI.md)**  
+The SecretsAPI provides an entry point for delivering credentials to a MID Server without requiring the caller to know the underlying storage mechanism. This scoped API enforces a comprehensive authorization chain before decrypting and returning secret values.
 -   **[SegmentHandle API - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/SegmentHandleAPIScoped.md)**  
 Methods for handling a single instance of a segment, such as a header or item. This class is defined in the SegmentHandler script include.
 -   **[SegmentHandler API - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/SegmentHandlerAPIScoped.md)**  

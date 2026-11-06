@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/field-encryption-key-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using Field Encryption, Field Encryption, Encryption]
 ---
@@ -37,7 +37,7 @@ Schedule encryption, decryption, and rekeying jobs to run at a time that is best
 You can run mass encryption on encryption configurations, as well as a mass decryption to decrypt previously encrypted values.
 -   **[Upload attachments for encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/upload-attachments-for-encryption.md)**  
 Protect sensitive files by encrypting record attachments using Field Encryption and Row Conditions.
--   **[Module access policies for inbound email attachment encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/fe-maps-inbound-email-attachment-encryption.md)**  
+-   **[Module access policies for inbound email attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/fe-maps-inbound-email-attachment-encryption.md)**  
 Encrypting inbound email attachments associated with matched records requires one or more module access policies \(MAPs\).
 
 **Parent Topic:**[Using Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/using-column-level-encryption.md)

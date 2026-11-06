@@ -7,7 +7,7 @@ release: australia
 product: e-Signature
 classification: e-signature
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using e-signature, E-signature, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -60,7 +60,11 @@ Document type
 
 </td><td colspan="2">
 
-Document type of the e-signature template. Select one of the following:-   **Knowledge article**: In the **Knowledge article** field, select the knowledge article that the signatory will sign.
+Document type of the e-signature template. Select one of the following:-   **HR document template**: Make sure that the **Task table** field is set to HR Task \[sn\_hr\_core\_task\].
+
+The HR document template that the signatory will sign is selected on the HR case form. See Select an HR document template for an e-signature task for more information.
+
+-   **Knowledge article**: In the **Knowledge article** field, select the knowledge article that the signatory will sign.
 -   **Managed document**: In the **Managed document** field, select the managed document that the signatory will sign.
 
 
@@ -71,7 +75,13 @@ Signature type
 </td><td colspan="2">
 
 Signature type of the e-signature template. Select one of the following:-   **Acknowledgment**: The signatory acknowledges the document by accepting and completing the task.
+
+**Note:** This option is not available for HR document templates.
+
 -   **Credential**: The signatory signs the document with their credentials.
+
+**Note:** This option is not available for HR document templates.
+
 -   **Signature**: The signatory signs the document with their typed or drawn signature.
 
 

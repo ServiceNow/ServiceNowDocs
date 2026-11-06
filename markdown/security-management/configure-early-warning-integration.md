@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/configure-early-warning-integration.html
 release: australia
 topic_type: task
-last_updated: "2026-06-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [configure, Early Warning, integration setup, Vulnerability Response]
 breadcrumb: [Early Warning for Security Exposure Management, Integrate, Unified Security Exposure Management, Security Operations]
@@ -74,6 +74,4 @@ After configuring the integration, consider the following next steps:
 -   Configure risk rules to weight the early warning flag in your vulnerability risk calculation
 -   Create custom Vulnerability Crisis Management \(VCM\) workflows to trigger on early warning CVEs.
 -   Review and customize the Early Warning dashboard to fit your team's reporting needs.
-
-**Parent Topic:**[Early Warning for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/armis-early-warning-integration.md)
 

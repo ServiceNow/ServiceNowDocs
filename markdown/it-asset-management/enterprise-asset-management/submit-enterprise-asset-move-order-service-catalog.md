@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Submitting an enterprise asset move order, Managing enterprise asset move orders, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
@@ -18,9 +18,9 @@ Use the ServiceNow® Service Catalog to submit a move order so that you can move
 
 ## Before you begin
 
-Role required: sn\_eam.enterprise\_asset\_manager or end user
+Role required: none
 
-**Note:** The sn\_eam.enterprise\_asset\_manager role can submit move orders for any enterprise assets within a deployment. The end user role can submit move orders for only assigned enterprise assets.
+**Note:** If you have the sn\_eam.enterprise\_asset\_manager role, you can include any eligible enterprise asset in a move order. If you have any other role, you can include only enterprise assets that are assigned to, managed by, or owned by the user specified in the **Requested for** field of the move order.
 
 ## Procedure
 
@@ -44,7 +44,7 @@ Requested for
 
 </td><td>
 
-User who the move order is being submitted for. If you specify a user in this field, the move order can include enterprise assets that are assigned only to that user.
+User who the move order is being submitted for.
 
 </td></tr><tr><td>
 
@@ -92,7 +92,14 @@ Asset\(s\)
 
 </td><td>
 
-Enterprise assets that you want to include in the move order. You can select from any of the enterprise assets that reside in the location specified in the **From location** field.**Note:** If you select an enterprise asset that contains any child assets, all child assets are also included in the move order.
+Enterprise assets that you want to include in the move order. Consider the following points when selecting these enterprise assets:
+
+-   If you have the sn\_eam.enterprise\_asset\_manager role, you can select from any of the enterprise assets that reside in the location specified in the **From location** field.
+-   If you have any role other than the sn\_eam.enterprise\_asset\_manager role, you can select from only the enterprise assets that meet the following criteria:
+    -   Reside in the location specified in the **From location** field.
+    -   Are assigned to, managed by, or owned by the user specified in the **Requested for** field.
+-   If you select an enterprise asset that contains any child assets, all child assets are also included in the move order.
+
 
 </td></tr><tr><td>
 

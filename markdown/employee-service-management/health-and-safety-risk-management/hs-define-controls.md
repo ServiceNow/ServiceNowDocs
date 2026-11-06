@@ -7,7 +7,7 @@ release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Health and Safety Risk Management, Health and Safety, Employee Service Management]
 ---

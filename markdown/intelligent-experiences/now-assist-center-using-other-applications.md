@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-10-02"
 reading_time_minutes: 1
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [Setting up AI capabilities and configurations, AI Admin Center, Enable AI experiences]
+breadcrumb: [Setting up AI capabilities and configurations, AI Admin Center, Getting started with AI, Enable AI Experiences]
 ---
 
 # Using other AI applications and features from AI Admin Center

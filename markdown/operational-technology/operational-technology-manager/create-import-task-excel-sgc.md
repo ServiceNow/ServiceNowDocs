@@ -7,7 +7,7 @@ release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using the Service Graph Connector for Microsoft Excel through import tasks, Service Graph Connector for Microsoft Excel, Use, Operational Technology Manager, Operational Technology]
 ---
@@ -23,8 +23,6 @@ Role required: ot\_excel\_import\_user
 ## About this task
 
 Watch this short video to learn how to create an import task in the Industrial Workspace.
-
-**Note:** The import task is supported only from the Industrial Workspace. The option to perform the import task from the Application Navigator \(**All** menu\) is no longer available.
 
 \[Omitted video\] Description: Create an import task in the Industrial Workspace
 
@@ -71,7 +69,7 @@ Watch this short video to learn how to create an import task in the Industrial W
 
 ## Result
 
-After the import process is complete and the Microsoft Excel spreadsheet has been successfully imported, you can view the staging records for your Operational Technology \(OT\) device data by selecting the **Staging Records** tab.
+After the import process is complete and the Microsoft Excel spreadsheet has been successfully imported, select the **Staging Records** tab to view the staging records for your Operational Technology \(OT\) device data.
 
 ## What to do next
 

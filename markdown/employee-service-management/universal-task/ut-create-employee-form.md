@@ -7,7 +7,7 @@ release: australia
 product: Universal Task
 classification: universal-task
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Universal Task, Universal Task, Employee Service Management]
 ---
@@ -26,7 +26,7 @@ Role required: sn\_uni\_task.emp\_form\_admin or sn\_uni\_task.emp\_form\_creato
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Universal Task** &gt; **Employee forms**.
+1.  Navigate to **All** &gt; **Universal tasks** &gt; **Employee forms**.
 
 2.  Click **Create New**.
 

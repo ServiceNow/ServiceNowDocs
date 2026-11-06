@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/config-auto-responder.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Machine learning solutions, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -24,7 +24,7 @@ Activate the Predictive Intelligence for Customer Service Management plugin \(co
 
 When you install and activate the Predictive Intelligence for Customer Service Management plugin \(com.snc.csm\_ml\), the following related plugins are also activated:
 
--   Customer Service plugin \(com.sn\_customerservice\)
+-   Case Management Core plugin \(com.sn\_customerservice\)
 -   Predictive Intelligence for Contextual Search plugin \(com.snc.contextual\_search\_ml\)
 -   Email Notification Script for Contextual Search Results plugin \(com.snc.adv\_cxs\_results\_email\_script\)
 
@@ -46,7 +46,7 @@ You can also configure the Auto-Responder feature for tasks other than customer 
 
 6.  Follow the steps in this link: [Enable text search recommendations in Auto-Responder notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/enable-text-based-auto-responder.md).
 
-7.  Follow the steps in this link: [Include cases logged using specified communication channels in Auto-Responder notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-auto-responder-channels.md).
+7.  Follow the steps in this link: [Include cases from communication channels in Auto-Responder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-auto-responder-channels.md).
 
 8.  Follow the steps in this link: [Include knowledge articles from custom portals in Auto-Responder notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-auto-responder-custom-portal.md).
 

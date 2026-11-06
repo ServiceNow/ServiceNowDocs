@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [API Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -28,9 +28,9 @@ The API Insights workspace provides a centralized interface where you can analyz
 
 ## Supported ServiceNow versions
 
--   Yokohama
 -   Zurich
 -   Australia
+-   Brazil
 
 ## Use cases
 

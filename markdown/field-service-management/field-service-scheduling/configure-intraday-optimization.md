@@ -7,7 +7,7 @@ release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Intraday optimization, Schedule Optimization, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
@@ -28,9 +28,9 @@ Role required: wm\_admin
 
 **Note:** This video demonstrates how to configure intraday optimization for a specific group or territory. To create a default intraday configuration for all groups and territories, see step 5.
 
-You can configure the schedule optimization engine to automatically update assigned work order tasks throughout the day as scheduling conditions change. Common conditions that trigger intraday optimization to run are an agent running late, an agent calling in sick, an agent using PTO, a task being canceled, or a new high priority task being added.
+You can configure the schedule optimization engine to automatically update assigned work order tasks throughout the day as scheduling conditions change. Common conditions that trigger intraday optimization are an agent running late, calling in sick, using PTO, a task being canceled, or a new high priority task.
 
-You can also enable dispatchers to manually trigger optimization to run from the Dispatcher Workspace when the intraday on demand optimization configuration is enabled and an on demand applicable policy has been added to the scheduling attribute. See [Create a scheduling attribute for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/configure-scheduling-attributes.md) to add an on-demand applicable policy to the configuration.
+You can also enable dispatchers to manually trigger optimization to run from the Dispatcher Workspace when the intraday on demand optimization configuration is enabled. Verify that an on demand applicable policy is added to the scheduling attribute. See [Create a scheduling attribute for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/configure-scheduling-attributes.md) to add an on-demand applicable policy to the configuration.
 
 ## Procedure
 
@@ -46,7 +46,7 @@ You can also enable dispatchers to manually trigger optimization to run from the
 
 5.  Select the **Default** check box to create a global record for all groups and territories.
 
-    **Note:** Only 1 default record can exist. If you are creating a new default record, deactivate the existing default record.
+    **Note:** Only 1 default record can exist. If you're creating a new default record, deactivate the existing default record.
 
 6.  Select the **Active** check box.
 

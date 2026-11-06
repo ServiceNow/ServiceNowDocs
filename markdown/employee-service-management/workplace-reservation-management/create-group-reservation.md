@@ -7,7 +7,7 @@ release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Reserve workplace items, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -32,15 +32,15 @@ For example, if you are reserving four workplaces for four different employees. 
 
 1.  Navigate to the Make a Reservation page from any of the following starting points.
 
-<table id="choicetable_ewc_11d_vrb"><thead><tr><th align="left" id="d557082e73">
+<table id="choicetable_ewc_11d_vrb"><thead><tr><th align="left" id="d556176e73">
 
 Location
 
-</th><th align="left" id="d557082e76">
+</th><th align="left" id="d556176e76">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d557082e82">
+</th></tr></thead><tbody><tr><td id="d556176e82">
 
 **From application navigator search context menu**
 
@@ -48,7 +48,7 @@ Steps
 
 Navigate to **All** &gt; **Workplace Reservation Management** &gt; **Portal** &gt; **New Reservation**.
 
-</td></tr><tr><td id="d557082e106">
+</td></tr><tr><td id="d556176e106">
 
 **Employee Center**
 
@@ -103,6 +103,8 @@ Navigate to **All** &gt; **Workplace Reservation Management** &gt; **Portal** &g
 
     3.  Clear the **Reserve these items together for the same person** option.
 
+        \[Omitted image "wsd-group-reservation-use.png"\] Alt text: Reservation details page showing options to reserve a space for a group.
+
         **Note:** When the **Reserve these items together for the same person** is unchecked, the **This reservation is for** option is not displayed on the Reservation details page since this is a group reservation. The space cannot be reserved for a single workplace user.
 
     Selected spaces in a campus are displayed.
@@ -131,9 +133,9 @@ The group reservation is created. You can view the reservation details on the Re
 
 [Create a reservation]()
 
-[Add invitees as collaborators and create a reservation]()
-
 [Auto-resolve recurring reservations]()
+
+[Add invitees as collaborators and create a reservation]()
 
 [Set a location as favorite using the Space details page]()
 
@@ -160,4 +162,6 @@ The group reservation is created. You can view the reservation details on the Re
 [Reserve a workplace using the Quick Reservation widget]()
 
 [Download an iCalendar for a reservation]()
+
+[Manage and configure reservation waitlist]()
 

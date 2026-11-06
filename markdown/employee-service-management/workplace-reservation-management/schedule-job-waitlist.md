@@ -1,20 +1,20 @@
 ---
 title: Create a schedule job for waitlist
-description: A nightly scheduled job Waitlist Expirations handles expiration of past or stale waitlist records that are in Queued state. The nightly job runs daily and sets the status of any record with an expired or stale stale start time.
+description: A nightly scheduled job Waitlist Expirations handles expiration of past or stale waitlist records that are in Queued state. The nightly job runs daily and sets the status of any record with an expired or stale start time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-reservation-management/schedule-job-waitlist.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2026-05-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage and configure reservation waitlist, Manage employee reservations, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Manage and configure reservation waitlist, Reserve workplace items, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Create a schedule job for waitlist
 
-A nightly scheduled job Waitlist Expirations handles expiration of past or stale waitlist records that are in Queued state. The nightly job runs daily and sets the status of any record with an expired or stale stale start time.
+A nightly scheduled job Waitlist Expirations handles expiration of past or stale waitlist records that are in Queued state. The nightly job runs daily and sets the status of any record with an expired or stale start time.
 
 ## Before you begin
 
@@ -30,7 +30,7 @@ Role required: sn\_wsd\_core.admin
 
     The Scheduled Script Executions page opens.
 
-2.  In the Name column, search for `*Waitlist Expiration`.
+2.  In the Name column, search for `*Waitlist Expiration` .
 
 3.  Open the job record and review the schedule and retention period.
 
@@ -45,7 +45,8 @@ Role required: sn\_wsd\_core.admin
 
 **Parent Topic:**[Manage and configure reservation waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/subscribe-waitlist-overview.md)
 
-**Previous topic:**[Create a reservation waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/create-rsv-waitlist.md)
+**Related topics**  
 
-**Next topic:**[Purge a waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/purge-waitlist.md)
+
+[Purge a waitlist]()
 

@@ -7,7 +7,7 @@ release: australia
 product: Process Mining
 classification: process-mining
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Reference, Process Mining, Platform Analytics]
 ---
@@ -520,6 +520,28 @@ Default: The default roles added to the property are:
 
 </td></tr><tr><td>
 
+sn\_po\_extdata.cancel\_job\_after\_seconds
+
+</td><td>
+
+Specifies the number of seconds the external data import runs before getting cancelled automatically. Type: integer
+
+Default: 86400
+
+</td></tr><tr><td>
+
+sn\_promin\_sf.salesforce\_data\_chunk\_size
+
+</td><td>
+
+This is applicable only for Process Mining for SalesforceSpecifies the number of records that are processed in a single batch during an import.
+
+Type: integer
+
+Default: 200
+
+</td></tr><tr><td>
+
 promin.metered\_usage.allow\_unrestricted
 
 </td><td>
@@ -540,25 +562,23 @@ Default: -1
 
 </td></tr><tr><td>
 
-sn\_po\_extdata.cancel\_job\_after\_seconds
+promin.workspace.hide\_from\_navigation
 
 </td><td>
 
-Specifies the number of seconds the external data import runs before getting cancelled automatically. Type: integer
+Hides Process Mining Workspace in Unified Navigation from users who don't have the Process Mining roles.Type: true \| false
 
-Default: 86400
+Default: false
 
 </td></tr><tr><td>
 
-sn\_promin\_sf.salesforce\_data\_chunk\_size
+promin.feature.enable\_evaluation
 
 </td><td>
 
-This is applicable only for Process Mining for SalesforceSpecifies the number of records that are processed in a single batch during an import.
+Enables or disables the evaluation feature.Type: true \| false
 
-Type: integer
-
-Default: 200
+Default: true
 
 </td></tr></tbody>
 </table>

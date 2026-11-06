@@ -1,20 +1,20 @@
 ---
 title: Evaluate Nacha operating guidelines
-description: Evaluate the Nacha operating guidelines to ensure that the ACH dispute qualifies for potential reimbursement. When enabled, the Nacha operating guidelines check AI agent can verify eligibility automatically based on documents such as a valid Written Statement of Unauthorized Debit \(WSUD\).
+description: Evaluate the Nacha operating guidelines to ensure that the ACH dispute qualifies for potential reimbursement. When the Nacha operating guidelines check AI agent is enabled, it can verify eligibility automatically by checking required documentation, such as a valid Written Statement of Unauthorized Debit \(WSUD\), and confirming actions occur within the allowed time frames.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/dispute-management/fso-ach-evaluate-nacha.html
 release: australia
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-07-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Processing an ACH dispute, Resolving ACH disputes, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Evaluate Nacha operating guidelines
 
-Evaluate the Nacha operating guidelines to ensure that the ACH dispute qualifies for potential reimbursement. When enabled, the Nacha operating guidelines check AI agent can verify eligibility automatically based on documents such as a valid Written Statement of Unauthorized Debit \(WSUD\).
+Evaluate the Nacha operating guidelines to ensure that the ACH dispute qualifies for potential reimbursement. When the Nacha operating guidelines check AI agent is enabled, it can verify eligibility automatically by checking required documentation, such as a valid Written Statement of Unauthorized Debit \(WSUD\), and confirming actions occur within the allowed time frames.
 
 ## Before you begin
 
@@ -63,7 +63,7 @@ To access the knowledge base article:
 8.  If the AI agent is enabled, review the agent's analysis and select one of these options on the workspace.
 
     -   **Apply Recommendation**: Accept the recommendation after reviewing the Nacha operating guidelines analysis. The recommended **Outcome** and **Rationale** on the recommendation card component are copied to **Final action** and **Resolution reason** respectively, and the task closes automatically.
-    -   **Ask a follow up**: Select this option only if you aren't sure about the analysis and want to verify further. The analysis is then displayed in the ServiceNow Otto panel. If you disagree with the analysis, the AI agent prompts you for a rationale for the disagreement before the task proceeds.
+    -   **Ask a follow up**: Select this option only if you aren't sure about the analysis and want to verify further. The analysis is then displayed in the ServiceNow Otto panel. If you disagree with the analysis, the AI agent prompts you for a rationale for the disagreement before the task proceeds. \[Omitted image "now-assist-nacha-analysis.png"\] Alt text: Nacha eligibility
     **Note:** You can also access the AI agent's recommendation as follows:
 
     1.  Once you select **Assign to me**, a notification appears for you in the ServiceNow Otto panel.

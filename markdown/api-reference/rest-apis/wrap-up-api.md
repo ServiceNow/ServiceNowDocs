@@ -1,42 +1,26 @@
 ---
 title: Wrap Up API
-description: Provides endpoints for managing wrap-up functionality for external Contact Center as a Service \(CCaaS\) systems or ServiceNow AI Platform workspaces.Retrieves details for a specified wrap-up code.Retrieves details for a specified wrap-up segment.Retrieves details for a wrap-up segment based on a specified agent and interaction.Creates or updates wrap-up codes.Opens a wrap-up segment for an interaction.Updates and closes a wrap-up segment for an interaction.Updates an existing open wrap-up segment with AI-recommended wrap-up codes and notes.
+description: The Wrap Up API provides endpoints for managing wrap-up functionality for external Contact Center as a Service \(CCaaS\) systems or ServiceNow AI Platform workspaces.Retrieves details for a specified wrap-up code.Retrieves details for a specified wrap-up segment.Retrieves details for a wrap-up segment based on a specified agent and interaction.Creates or updates wrap-up codes.Opens a wrap-up segment for an interaction.Updates and closes a wrap-up segment for an interaction.Updates an existing open wrap-up segment with AI-recommended wrap-up codes and notes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/rest-apis/wrap-up-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 45
+last_updated: "2026-09-10"
+reading_time_minutes: 44
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
 
 # Wrap Up API
 
-Provides endpoints for managing wrap-up functionality for external Contact Center as a Service \(CCaaS\) systems or ServiceNow AI Platform workspaces.
+The Wrap Up API provides endpoints for managing wrap-up functionality for external Contact Center as a Service \(CCaaS\) systems or ServiceNow AI Platform workspaces.
 
-This API requires the Interactions Management \(com.glide.interaction.awa\) plugin. To call this API, you must have the interaction\_integration\_user role.
+This API requires the Interactions Management \(com.glide.interaction\) plugin. To call this API, you must have the interaction\_integration\_user role.
 
 When agents close an interaction, the wrap-up feature enables them to enter closing details and wrap-up codes for future reference. For more information about wrap-up functionality, see [Wrap up overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/wrap-up-overview.md).
 
-To use this API for segmented wrap-up of interactions from external systems, you must implement the InteractionSegment scripted extension point to create and retrieve segment records in your chosen table. If you're using [OpenFrame](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_OpenFrameOverview.md), the extension point has an existing implementation to create and retrieve segment records in the Phone Log \[sn\_openframe\_phone\_log\] table.
-
--   **AI wrap-up recommendations**
-
-    AI wrap-up recommendations can come from two sources:
-
-    -   Internal \(Now Assist\): When **use\_third\_party\_ai** is false, a business rule triggers automatically after segment creation to call the CSM API and populate **ai\_wrap\_up\_code** and **ai\_notes**.
-    -   External \(third-party / CCaaS\): When **use\_third\_party\_ai** is true, the external system pushes AI data via the new PUT `/api/now/wrapup/segment/update/ai` endpoint.
--   **Use cases**
-    -   Reduce agent handle time by providing wrap-up codes and notes with AI suggestions.
-    -   Enable CCaaS platforms to push AI-generated content into ServiceNow AI Platform after an interaction ends.
-    -   Give supervisors cleaner, more consistent wrap-up data for reporting and analytics.
--   **Endpoint call order for an AI-assisted wrap-up flow**
-    1.  POST `/api/now/wrapup/segment/create` — Open a segment or pass **ai\_wrap\_up\_code** / **ai\_notes** and AI config flags.
-    2.  PUT `/api/now/wrapup/segment/update/ai` — \(External AI only\) Push AI recommendations onto the open segment.
-    3.  PUT `/api/now/wrapup/segment/update` — Agent finalizes and closes the segment.
-    4.  GET `/api/now/wrapup/segment/{segment_id}` — Retrieve segment including stored AI fields.
+To use the Wrap Up API for segmented wrap-up of interactions from external systems, you must implement the InteractionSegment scripted extension point to create and retrieve segment records in your chosen table. If you're using [OpenFrame](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_OpenFrameOverview.md), the extension point has an existing implementation to create and retrieve segment records in the Phone Log \[sn\_openframe\_phone\_log\] table.
 
 **Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/api-rest.md)
 
@@ -1142,7 +1126,7 @@ Table: User \[sys\_user\]
 
 segment.agent
 
-</td><td id="d3836e468">
+</td><td id="d3868e468">
 
 Sys\_id of the agent assigned to the interaction.Data type: String
 

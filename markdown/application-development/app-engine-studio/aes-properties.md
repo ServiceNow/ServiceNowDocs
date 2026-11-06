@@ -7,9 +7,9 @@ release: australia
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Reference, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # AES properties

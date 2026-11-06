@@ -7,7 +7,7 @@ release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage regulatory tasks, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -67,7 +67,7 @@ In the following procedure, step 4 and after describe various actions that users
     |Highlighted details|
     |Taxonomy|Taxonomy details associated with the alert. This field is automatically set to display the taxonomy details of the alert.|
 
-    **Note:** Beginning with the ServiceNow® Australia release, the taxonomy section in the form is not available to the new installations.
+    **Note:** Beginning with the ServiceNow® Brazil release, the taxonomy section in the form is not available to the new installations.
 
 6.  In the **Coordinator** field, assign the regulatory event alert to a coordinator with the sn\_grc\_reg\_change.user user role and select **Save**.
 

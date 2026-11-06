@@ -7,9 +7,9 @@ release: australia
 product: MID Server
 classification: mid-server
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 7
-breadcrumb: [Installing the MID Server with manual or guided setup, Installing the MID Server, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [Installing the MID Server, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Create the MID Server user and grant the role
@@ -32,8 +32,6 @@ The MID Server connects to an instance using the SOAP web service. To allow auth
 **Note:** The strict SOAP security feature, enabled by default for any instance that uses basic authentication, protects all tables with Access Control Lists \(ACL\).
 
 If multiple MID Servers are using the same logged in user, an issue record is created when more than one is **Up** at a time. It is recommended that MID Servers use a unique logged in user. See [\(KB1552863\) MID Server Unique Logged In User](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1552863) for more information and remediation steps.
-
-**Important:** Improve security by using MID Server mutual authentication instead of basic authentication. See [Enable MID Server mutual authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/install-mid-mutual-auth.md) for more information.
 
 ## Procedure
 

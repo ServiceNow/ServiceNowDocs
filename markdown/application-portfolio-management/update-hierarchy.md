@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/update-hierarchy.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with the business portfolio module, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_apm.apm\_analyst
 
 1.  Navigate to **Workspaces** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Business Capability Hierarchy page by clicking the Business Portfolio icon \(\).
+2.  Open the Business Capability Hierarchy page by clicking the Business Portfolio icon \(\[Omitted image "business-portfolio-icon.png"\] Alt text: Business Portfolio icon\).
 
 3.  Select **Update Hierarchies**.
 

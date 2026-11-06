@@ -7,8 +7,8 @@ release: australia
 product: PPM Collaboration
 classification: ppm-collaboration
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Explore Project Portfolio Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -36,7 +36,7 @@ The PPM Standard plugin installs Financial Management and Project Portfolio Suit
 
 ## PPM Standard additions
 
-You can perform financial planning and budgeting using UI actions on related lists.
+PPM Standard adds the portfolio workbench, that you can use to perform all aspects of financial planning. You can also perform financial planning and budgeting using UI actions on related lists, but the workbench is the preferred method. See [Legacy portfolio workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-management/c_PortfolioWorkbench.md) for more information. See [Legacy- Plan the portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-management/c_FinancialPlanningForPortfolio.md) for information on how to plan end-to-end finances for projects and portfolios, including tracking actual costs and creating budgets as part of the Financial Management application.
 
 ## Get started with project management
 
@@ -44,6 +44,7 @@ PPM Standard provides comprehensive capabilities for project planning and execut
 
 -   **Project creation and planning:** Create projects, define work breakdown structures, set milestones, and plan timelines. See the Project Management documentation.
 -   **Resource management:** Allocate resources to projects, manage capacity, and track utilization. See [Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/explore-rmw.md).
+-   **Financial planning:** Create cost plans, track budgets, and manage investment funding. See [Financial planning for portfolios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-management/c_FinancialPlanningForPortfolio.md).
 -   **Portfolio management:** Prioritize demands, manage portfolios, and track portfolio performance. See [Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-management/c_PortfolioManagement.md).
 -   **Installed components:** Review the roles, tables, and configurations installed with PPM Standard. See [Roles installed with PPM Standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/roles-installed-with-PPS-finance.md).
 

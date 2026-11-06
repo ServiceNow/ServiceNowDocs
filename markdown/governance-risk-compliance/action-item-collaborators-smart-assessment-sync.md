@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/action-item-collaborators-smart-assessment-sync.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [BCM, action item, Smart Assessment, collaborators]
-breadcrumb: [Creating action items in crisis events, Structured workflows for Crisis events, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Creating action items, Structured workflows for crisis events, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Action item collaborator synchronization with Smart Assessment

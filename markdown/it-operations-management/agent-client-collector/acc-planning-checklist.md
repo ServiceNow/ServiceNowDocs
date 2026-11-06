@@ -7,7 +7,7 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Preparing for Agent Client Collector implementation, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -38,7 +38,7 @@ Define use cases, targeted devices, and success metrics
 
 </td><td>
 
-Typical ACC use cases include ITOM Visibility, ITAM \(SAM/HAM\), ITSM \(DEX\), ITOM Health \(HLA/Metric Intelligence\). Many customers have success metrics targeting a percentage of devices with successful data collection for a use case over a 7 to 14-day window \(for example, “95% of endpoints report software usage over a 14-day period”\).
+Typical ACC use cases include ITOM Visibility, ITAM \(SAM/HAM\), ITSM \(DEX\), ITOM Health \(HLA/Metric Intelligence\). Many customers have success metrics targeting a percentage of devices with successful data collection for a use case over a 7 to 14-day window. For example, “95% of endpoints report software usage over a 14-day period.”
 
 </td></tr><tr><td align="center">
 
@@ -62,7 +62,7 @@ Assess ServiceNow License, Store App and Instance Requirements
 
 </td><td>
 
-Ensure that you have all license entitlements for your use cases. Determine which software updates or configuration changes to your production and sub-production instances are needed to support your targeted number of devices.
+Ensure that you have all license entitlements for your use cases. Determine which software updates or configuration changes to your production and sub-production instances are needed to support your targeted number of devices.For details, see [Evaluating version requirements and dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/versions-dependencies.md).
 
 </td></tr><tr><td align="center">
 
@@ -76,6 +76,8 @@ Assess Software Requirements
 
 1.  Ensure that all CPU architectures and operating systems for your use cases are supported. If not, determine whether non-ACC solutions such as Service Graph Connector or Discovery Patterns can be used.
 2.  Determine whether your use cases require elevated system privileges on endpoints or servers \(for example, root access on Linux for device serial number tracking\).
+
+ For details, see [Agent Client Collector system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-sys-requirements.md).
 
 </td></tr><tr><td align="center">
 
@@ -111,7 +113,7 @@ Draft ACC Solution Architecture
 
 </td><td>
 
-Work with your ServiceNow account team to define how ACC agents send data to the ServiceNow instance, based on your use cases and differences in server and endpoint deployment techniques. Verify whether direct connections are made using ITOM Cloud Services or MID Servers.
+Work with your ServiceNow account team to define how ACC agents send data to the ServiceNow instance, based on your use cases and differences in server and endpoint deployment techniques. Verify whether direct connections are made using ITOM Cloud Services or MID Servers.For details, see [Agent Client Collector architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-concept.md).
 
 </td></tr><tr><td align="center">
 

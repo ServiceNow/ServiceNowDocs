@@ -7,7 +7,7 @@ release: australia
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Using Resource Management Workspace, Use, Resource Management Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -19,17 +19,17 @@ Reassign or unassign any assigned work from the Resource Management Workspace. Y
 ## Before you begin
 
 -   When you reassign work, the primary attributes of both the resource should match. For more information about mapping primary attributes to resources, see [Map primary attributes to resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/map-primary-attributes-cp.md).
--   You can reassign a work item for the period for which actual hours aren't captured.
--   You can't reassign a work item if it has associated actual hours captured for the entire duration.
--   You can't unassign a work item if it has any associated actual hours captured.
--   You can't unassign an assignment if it has any associated actual hours captured.
--   You can't reassign or unassign group resource assignments.
+-   You can reassign a work item for the period for which actual hours are not captured.
+-   You cannot reassign a work item if it has associated actual hours captured for the entire duration.
+-   You cannot unassign a work item if it has any associated actual hours captured.
+-   You cannot unassign an assignment if it has any associated actual hours captured.
+-   You cannot reassign or unassign group resource assignments.
 
 Role required: resource\_user, resource\_manager
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Resource Management Workspace**
+1.  Navigate to **Workspace** &gt; **Resource Management Workspace**
 
 2.  Select the Resource cards icon \(\[Omitted image "rmw-resource-cards-L1-icon.png"\] Alt text: Resource cards icon.\) from the menu and open a resource card.
 

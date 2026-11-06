@@ -1,21 +1,21 @@
 ---
 title: Oracle E-Business Suite support in Zero Copy Connector for ERP
-description: Zero Copy Connector for ERP reads business data from Oracle E-Business Suite \(EBS\) 12.2 or later through REST services, without copying the data into ServiceNow.
+description: Zero Copy Connector for ERP reads business data from Oracle E-Business Suite \(EBS\) through REST services, without copying the data into ServiceNow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erp-canvas-oracle-ebs-overview.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
-last_updated: "2026-08-24"
+last_updated: "2026-10-22"
 reading_time_minutes: 1
-keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, oracle, ebs, e-business suite, rest, isg, system]
+keywords: [oracle, ebs, e-business suite, isg, zero copy connector for erp, oracle e-business suite, oracle ebs, connect to oracle ebs, oracle ebs erp system, oracle ebs rest services, integrated soa gateway, oracle ebs mid server]
 breadcrumb: [Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Oracle E-Business Suite support in Zero Copy Connector for ERP
 
-Zero Copy Connector for ERP reads business data from Oracle E-Business Suite \(EBS\) 12.2 or later through REST services, without copying the data into ServiceNow.
+Zero Copy Connector for ERP reads business data from Oracle E-Business Suite \(EBS\) through REST services, without copying the data into ServiceNow.
 
 ## Oracle as an ERP software family
 
@@ -37,7 +37,9 @@ Requests are routed through a MID Server.
 
 Oracle EBS metadata discovery is manual.
 
+Only read operations on Oracle EBS models are supported in the **Use ERP Data** action.
+
 ## Security
 
-For information about role requirements and transport security for Oracle EBS connections, see [Security for Oracle E-Business Suite connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-oracle-ebs-security.md).
+For information about role requirements and transport security for Oracle EBS connections, see [Security for Oracle E-Business Suite connections in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-oracle-ebs-security.md).
 

@@ -7,7 +7,7 @@ release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: concept
-last_updated: "2026-06-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [scripted extension point, extension point, SmartAsmtResponseAssistExtensionPoint, AI Response Assist, Document Provider, customize AI sources]
 breadcrumb: [Configure, ServiceNow Otto for SAE, Smart Assessment Engine, Governance, Risk, and Compliance]

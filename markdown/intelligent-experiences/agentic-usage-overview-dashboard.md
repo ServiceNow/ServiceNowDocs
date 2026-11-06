@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-28"
 reading_time_minutes: 2
 keywords: [Agentic Usage Overview Dashboard, Action Fabric, MCP client, record access, flow execution]
-breadcrumb: [Enable AI experiences]
+breadcrumb: [Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
 # Agentic Usage Overview Dashboard

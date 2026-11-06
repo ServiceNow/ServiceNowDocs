@@ -7,9 +7,9 @@ release: australia
 product: Service Level Management
 classification: service-level-management
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Configure Service Level Agreement \(SLA\), Configuring Service Level Management, Service Level Management, IT Service Management]
+breadcrumb: [Service Level Agreement \(SLA\) definition, Configure Service Level Agreement \(SLA\), Configuring Service Level Management, Service Level Management, IT Service Management]
 ---
 
 # Create an SLA definition
@@ -241,5 +241,5 @@ Condition type that determines when an SLA attaches, pauses, completes, or reset
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Configure Service Level Agreement \(SLA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/c_ConfigureSLAs.md)
+**Parent Topic:**[Service Level Agreement \(SLA\) definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/c_SLADefinitions.md)
 

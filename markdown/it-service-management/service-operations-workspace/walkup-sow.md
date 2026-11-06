@@ -1,26 +1,26 @@
 ---
 title: Walk-up Experience management in Service Operations Workspace
-description: Manage your Walk-up interactions and queues in Service Operations Workspace.
+description: Manage your walk-up interactions and queues in Service Operations Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/walkup-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Walk-up Experience management in Service Operations Workspace
 
-Manage your Walk-up interactions and queues in Service Operations Workspace.
+Manage your walk-up interactions and queues in Service Operations Workspace.
 
-As a Walk-up agent, you can use Service Operations Workspace to manage your assigned walk-up interactions. You can open incidents when an issue is not resolved at the walk-up location. You can also directly create a request for hardware or software through the Service Catalog when an asset is not available at the walk-up location stockroom.
+As a walk-up agent, you can use Service Operations Workspace to manage your assigned walk-up interactions. You can open incidents when an issue is not resolved at the walk-up location. You can also directly create a request for hardware or software through the Service Catalog when an asset is not available at the walk-up location stockroom.
 
-As a Walk-up agent, you can do the following activities.
+As a walk-up agent, you can do the following activities:
 
--   Access personal inbox to view Walk-up channel assignments.
+-   Access your personal inbox to view walk-up channel assignments.
 -   Work on concurrent or multiple interactions at the same time.
 -   Promote interactions to incidents or requests.
 -   Randomly pull and work on a Walk-up interaction from the queue.
@@ -103,16 +103,16 @@ Explore the various sections of a walk-up assignment.
 
 ## Details tab
 
-View details of a Walk-up interaction.
+View details of a walk-up interaction.
 
--   Walk-up Interaction: View details of the Walk-up interaction such as the number, state, Walk-up location, and the reason for the Walk-up visit.
+-   Walk-up Interaction: View details of the walk-up interaction such as the number, state, walk-up location, and the reason for the walk-up visit.
 -   Compose: Write work notes for yourself.
 -   Activity: View the activities performed on that record.
 -   Record Information: View the information about the appointment.
 -   Opened for: View the requester's information.
--   Source: View the source of the Walk-up interaction record.
+-   Source: View the source of the walk-up interaction record.
 
-    **Note:** The Source section appears only if a Walk-up appointment is created through an incident. For more details, view [Create an appointment through incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/create-walkup-appointment-incident-sow.md)
+    **Note:** The Source section appears only if a walk-up appointment is created through an incident. For more information, see [Create an appointment through incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/create-walkup-appointment-incident-sow.md)
 
 
 ## Related records tab
@@ -122,7 +122,7 @@ View details of the related records.
 -   Related Tasks
 -   User's Tasks
 
--   **[Work on Walk-up interaction in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/work-on-walkup-sow.md)**  
+-   **[Work on a Walk-up interaction in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/work-on-walkup-sow.md)**  
 Manage your Walk-up appointments in Service Operations Workspace.
 -   **[Create an appointment through incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/create-walkup-appointment-incident-sow.md)**  
 Schedule an appointment on behalf of a requester through an incident record.

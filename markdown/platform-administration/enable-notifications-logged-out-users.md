@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/enable-notifications-logged-out-users.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Push notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -67,7 +67,7 @@ The date and time to activate the plugin.
 </td></tr></tbody>
 </table>    4.  Select **Submit**.
 
-        After the Now Support maintenance window closes, the plugin will be installed on your instance.
+        After the Now Support maintenance window timeframe, the plugin will be installed on your instance.
 
     5.  Confirm the installation by viewing the applications listed in the **Installed** tab in the Application Manager.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-use.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Customer Success Management]
 ---
@@ -13,8 +13,6 @@ breadcrumb: [Use, Customer Success Management]
 # Account onboarding
 
 With the account onboarding solution, service providers can repeatedly define, measure, and collaborate with customers on the activities needed to onboard rapidly.
-
-**Important:** Account Lifecycle Events has been renamed to Customer Success Management in Zurich.
 
 -   **[Account onboarding landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/acct-lifecycle-events/account-lifecycle-events-onboarding-landing.md)**  
 Get real-time visibility into your onboarding cases and track your onboarding tasks.

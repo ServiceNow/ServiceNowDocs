@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-explore.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customer Success Management]
 ---
@@ -13,8 +13,6 @@ breadcrumb: [Customer Success Management]
 # Explore Customer Success Management
 
 Customer Success Management enables technology industry providers to create a structured onboarding experience, define and track objectives, outcomes, milestones, and plans to achieve shared goals.
-
-**Important:** Account Lifecycle Events has been renamed to Customer Success Management in Zurich.
 
 The following diagram shows the different tasks involved in the Customer Success Management life-cycle that can be managed by this application.
 

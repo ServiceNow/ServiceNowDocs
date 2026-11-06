@@ -7,7 +7,7 @@ release: australia
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Individual Life Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -28,15 +28,15 @@ Role required: sn\_ins\_claim\_indl.fnol\_representative, sn\_ins\_claim\_indl.m
 
 3.  Open the task from the case playbook or the Individual death claim tasks list.
 
-<table id="choicetable_dvz_rgb_qbc"><thead><tr><th align="left" id="d50679e114">
+<table id="choicetable_dvz_rgb_qbc"><thead><tr><th align="left" id="d50747e114">
 
 Option
 
-</th><th align="left" id="d50679e117">
+</th><th align="left" id="d50747e117">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d50679e123">
+</th></tr></thead><tbody><tr><td id="d50747e123">
 
 **From the case playbook**
 
@@ -46,7 +46,7 @@ Steps
 2.  In the list, select the case that contains the adjuster task.
 
 
-</td></tr><tr><td id="d50679e144">
+</td></tr><tr><td id="d50747e144">
 
 **From the Individual death claim tasks list**
 

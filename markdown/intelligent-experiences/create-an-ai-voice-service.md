@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/create-an-ai-voice-service.html
 release: australia
 topic_type: task
-last_updated: "2026-09-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 16
-breadcrumb: [Deploy AI voice agents, AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [Deploy AI voice agents, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Create an AI voice assistant
@@ -311,7 +311,7 @@ Voice or DTMF
 </td></tr></tbody>
 </table>    4.  Select the step-up authentication factor.
 
-        This step is required if one or more AI voice agents in this assistant require step-up authentication. If none do, the step is optional and you can select the factor in advance. For more information about step-up authentication, see Step-up authentication.
+        This step is required if one or more AI voice agents in this assistant require step-up authentication. If none do, the step is optional and you can select the factor in advance. For more information about step-up authentication, see [Step-up authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/step-up-authentication.md).
 
         Select one factor. The same factor applies to every AI voice agent in this assistant that requires step-up authentication. Supported factors are Okta Verify push notification, SMS verification code, and Authenticator app time-based One Time Password \(TOTP\). The factor selected as the **First factor** or **Second factor** can also be selected for step-up authentication. The caller receives a new challenge.
 

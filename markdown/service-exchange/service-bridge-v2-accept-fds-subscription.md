@@ -7,7 +7,7 @@ release: australia
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure inbound FDS as consumers, Configure for consumers, Service Exchange for Consumers, Service Exchange]
 ---
@@ -34,6 +34,6 @@ After the subscription item is validated, you must accept the subscription to co
 
 4.  Select **Accept**.
 
-    If you reject the subscription by selecting **Reject**, your provider needs to resend the sample files. Also, you must reconfigure the subscription items before you can accept the subscription again.
+    If you reject the subscription by selecting **Reject**, your provider needs to resend the sample files. You must reconfigure the subscription items before you can accept the subscription again.
 
 

@@ -7,7 +7,7 @@ release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [SGC-Jamf, SGC Jamf, SGC for Jamf, Jamf SGC, Service Graph Connector for Jamf, Jamf connection details, Jamf connection, common connection framework, CCF, SGC-Jamf, SGC Jamf, SGC for Jamf, Jamf SGC, Service Graph Connector for Jamf, Jamf connection details, Jamf connection, common connection framework, CCF]
 breadcrumb: [Jamf, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]

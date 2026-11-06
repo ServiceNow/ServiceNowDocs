@@ -7,16 +7,16 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Migrate from legacy change risk assessments, Analyze change request risk and impact, Reference, Change Management, IT Service Management]
+breadcrumb: [Migrate to legacy change risk assessments, Analyze change request risk and impact, Reference, Change Management, IT Service Management]
 ---
 
 # Migrated risk assessment components
 
 When you migrate a change risk assessment, the system maps records from legacy risk assessment to the new risk assessment tables.
 
-To create a functional risk assessment on the assessment framework, the system converts risk assessment records to the most logical equivalent assessment risk records. This may mean multiple assessment risk records are created from one legacy risk record.
+To create a functional risk assessment on the assessment framework, the system converts risk assessment records to the most logical equivalent assessment risk records. This might mean multiple assessment risk records are created from one legacy risk record.
 
 |Risk assessment components|Change risk assessment components|
 |--------------------------|---------------------------------|
@@ -25,7 +25,7 @@ To create a functional risk assessment on the assessment framework, the system c
 |Assessment Metric \[asmt\_metric\]|
 |Assessment Question Choice \[assessment\_question\_choice\]|Assessment metric definition \[asmt\_metric\_definition\]|
 |Risk Assessment Thresholds \[risk\_assessment\_threshold\]|Assessment Thresholds \[change\_risk\_asmt\_threshold\]|
-|Assessment Conditions \[assessment\_conditions\]|This is included in Change Management - Risk Assessment \[com.snc.change.risk\_assessment\].|
+|Assessment Conditions \[assessment\_conditions\]|Included in the Change Management - Risk Assessment \(com.snc.change.risk\_assessment\) plugin.|
 
-**Parent Topic:**[Migrate from legacy change risk assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/legacy-change-risk-assessment-migration.md)
+**Parent Topic:**[Migrate to legacy change risk assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/legacy-change-risk-assessment-migration.md)
 

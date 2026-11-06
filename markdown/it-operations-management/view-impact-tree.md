@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/view-impact-tree.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Unified service map in SOW ITOM, Impact path in SOW ITOM, Impact tree in SOW ITOM, Relation between CIs and alerts]
 breadcrumb: [Service Operations Workspace, Configure, ITOM AIOps, IT Operations Management]
@@ -53,19 +53,11 @@ You can also investigate a wider view of the service topology on the service map
 
     \[Omitted image "sow-service-map-page.png"\] Alt text: The application map along with the CI relationships appears.
 
-    **Note:**
-
-    The unified map displays differently based on service size. For services with up to 60 CIs, the full map appears. For services with over 60 CIs, an Impact Path leading to the most critical alert appears. You can reveal more CIs by clearing the existing selection and navigating to the **Showing more nodes** optimization option.
-
-    **Impact Path** shows alerts on the selected CI and all CIs within its impact subtree.
+    **Note:** Depending on the size of the service, the unified map either shows the full map \(if it contains up to 60 CIs\) or an Impact Path leading to the most critical alert \(for maps with over 60 CIs\). For large maps, you can reveal more CIs by clearing the existing selecting and navigating to the **Showing more nodes** optimization option.
 
     \[Omitted image "sow-service-map-nodes.png"\] Alt text: Option to change how many CIs you want to view in the map.
 
-    If the **Impact path** panel is closed, you can open it by selecting the Impact path icon \(\[Omitted image "icon-sow-impact-path.png"\] Alt text: Impact path icon\).
-
-    To view active alerts directly associated with the selected CI, select the Related items icon \(\[Omitted image "icon-service-map-related-items.png"\] Alt text: Related items icon\) in the right pane, then select **Active Alerts**.
-
-    \[Omitted image "sow-service-map-related-items.png"\] Alt text: View active alerts directly associated with the selected CI.
+    If the impact path panel is closed, you can open it by selecting the Impact path icon \(\[Omitted image "icon-sow-impact-path.png"\] Alt text: Impact path icon\).
 
 5.  Navigate between alerts by selecting an alert card.
 

@@ -1,34 +1,34 @@
 ---
 title: Add related tasks to a change schedule
-description: Create related definitions to present related tasks for change requests in the change schedule. For example, to view the change tasks associated with a change request, you need to define a related definition.
+description: Create related definitions to present related tasks for change requests in the change schedule. For example, define a related definition to view the change tasks associated with a change request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/add-related-tasks-to-chng-schedule.html
 release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Change schedules, Configure, Change Management, IT Service Management]
 ---
 
 # Add related tasks to a change schedule
 
-Create related definitions to present related tasks for change requests in the change schedule. For example, to view the change tasks associated with a change request, you need to define a related definition.
+Create related definitions to present related tasks for change requests in the change schedule. For example, define a related definition to view the change tasks associated with a change request.
 
 ## Before you begin
 
--   You have activated Change Management - Change Schedule plugin \(com.snc.change\_management.soc\).
--   Parent change schedule is defined.
--   Role required: itil, sn\_chg\_soc.change\_soc\_admin, sn\_change\_role, sn\_change\_write roles, sn\_change\_write, or admin
+-   The Change Management - Change Schedule plugin \(com.snc.change\_management.soc\) must be active.
+-   A parent change schedule must be defined.
+-   Role required: itil, sn\_chg\_soc.change\_soc\_admin, sn\_change\_role, sn\_change\_write, or admin
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Schedules** &gt; **Change Schedule Definitions**.
 
-2.  Select a Change schedule definition.
+2.  Select a change schedule definition.
 
-3.  Select **New** in **Related Definition** tab.
+3.  Select **New** on the **Related Definition** tab.
 
 4.  On the form, fill in the fields.
 
@@ -62,7 +62,7 @@ Active
 
 </td><td>
 
-Check box to select whether the child schedule is active.
+Check box that, when selected, makes the child schedule active.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -74,7 +74,7 @@ Table name
 
 </td><td>
 
-Choice list to select the table on which the Related Definition is based.
+List to select the table on which the Related Definition is based.
 
 </td></tr><tr><td>
 
@@ -110,7 +110,7 @@ Conditions included in the change schedule and the associated ordering of the co
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
-Record Summary**Note:** The record summary pop-up appears when you click any span on the change schedule timeline.
+Record Summary**Note:** The record summary pop-up appears when you select any span on the change schedule timeline.
 
 </td></tr><tr><td>
 
@@ -118,7 +118,7 @@ Left column fields
 
 </td><td>
 
-List of fields that appear on the left column of the record summary pop-up. The record summary pop-up appears when you click any span on the change schedule timeline.
+List of fields that appear on the left column of the record summary pop-up. The record summary pop-up appears when you select any span on the change schedule timeline.
 
 </td></tr><tr><td>
 
@@ -126,12 +126,12 @@ Right column fields
 
 </td><td>
 
-List of fields that appear on the right column of the record summary pop-up. The record summary pop-up appears when you click any span on the change schedule timeline.
+List of fields that appear on the right column of the record summary pop-up. The record summary pop-up appears when you select any span on the change schedule timeline.
 
 </td></tr></tbody>
 </table>    **Note:** You can also add style rules specific to a related task. You can configure the change schedule page to show related tasks for the change, such as implementation tasks.
 
-5.  Click **Submit**.
+5.  Select **Submit**.
 
 
 **Parent Topic:**[Change schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-schedule.md)

@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Telecommunications Network Inventory]
 ---
@@ -93,7 +93,7 @@ The Telecommunications Network Inventory application has the following subflows:
 
 -   **Physical Connection Creation**
 
-    Creates a physical connection record in the Telecommunications Network Inventory application based on the input that you receive when you instantiate an inventory. To learn more, see [Physical connection creation subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/physical-connection-creation-subflow.md).
+    Creates a physical connection record in the Telecommunications Network Inventory application based on the input that you receive when you instantiate an inventory. To learn more, see [Physical Connection Creation subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/physical-connection-creation-subflow.md).
 
 
 The following example shows the subflows that are available in the Workflow Studio action library under the **Network Inventory Advanced** option. You can use these functions to perform the inventory-related data operations.

@@ -7,7 +7,7 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-06-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure ServiceNow Otto for HAM, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
@@ -48,4 +48,6 @@ The agentic workflow and the AI agents included in the ServiceNow Otto for Hardw
 
         **Note:** The activation process can take up to 24 hours.
 
+
+**Parent Topic:**[Configuring ServiceNow Otto for Hardware Asset Management \(HAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/configuring-now-assist-ham.md)
 

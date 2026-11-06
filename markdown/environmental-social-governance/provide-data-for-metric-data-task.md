@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/provide-data-for-metric-data-task.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Using GRC: Metrics to provide data, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
@@ -16,8 +16,7 @@ Use the metric data task to provide data for a manual metric. Metric data helps 
 
 ## Before you begin
 
--   To enable support for data estimation refer to [Set up estimation for manual metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/set-up-estimation-for-manual-metric-definition.md).
--   Role required: sn\_esg.data\_owner
+Role required: sn\_esg.data\_owner
 
 ## Procedure
 
@@ -28,6 +27,8 @@ Use the metric data task to provide data for a manual metric. Metric data helps 
 3.  Select **Move to In Progress**.
 
 4.  On the Metric information form, under the Metric input section, fill in the following fields.
+
+    **Note:** Some fields are visible only when the Metric estimation property \(sn\_esg.metric\_estimation\) is enabled. To enable it, navigate to **All** &gt; **Operational Sustainability Management** &gt; **Administration** &gt; **Properties**, and mark the **Enable estimation for metric data** property as Yes. For more information, see [Set up estimation for manual metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/set-up-estimation-for-manual-metric-definition.md).
 
 <table id="table_h2g_242_dgc"><thead><tr><th>
 
@@ -143,6 +144,10 @@ Additional information for the metric data.
 
 8.  Select **Submit**.
 
+
+## Result
+
+After you submit the data, it is evaluated against the metric's thresholds. A threshold applies only when it is active and the interval date of the metric data task falls within the threshold's **Valid from** and **Valid until** dates. When a threshold applies, the threshold rating on the task is updated. If the data breaches a threshold with breach monitoring enabled, you are prompted for a justification. If no threshold covers the interval date, no threshold rating is set and no justification is requested. The same evaluation applies to metric data, using the metric's thresholds, and to metric definition data, using the metric definition's thresholds.
 
 **Parent Topic:**[Using GRC: Metrics to provide data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/using-grc-metrics.md)
 

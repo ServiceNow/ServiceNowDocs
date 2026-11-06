@@ -1,13 +1,13 @@
 ---
 title: Manage notifications for CMDB Data Manager
-description: The CMDB Data Manager supports several types of notifications that alert administrators, task assignees, and approvers about policy execution outcomes, task life-cycle events, and pending actions. All notifications are delivered via email using ServiceNow event-driven email actions.
+description: The CMDB Data Manager supports several types of notifications that alert administrators, task assignees, and approvers about policy execution outcomes, task life-cycle events, and pending actions. All notifications are delivered via email using ServiceNow® event-driven email actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-data-manager-notifications.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-04-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---

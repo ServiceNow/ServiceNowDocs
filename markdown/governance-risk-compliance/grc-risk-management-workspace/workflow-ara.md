@@ -7,7 +7,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Advanced Risk Assessment, Explore, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -31,7 +31,7 @@ Before using Advanced Risk Assessment, different users must perform different se
     -   Periodicity of those risk assessments.
     For more information, see [Create a risk assessment scope and initiate assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/create-risk-assess-scope.md) or [Create a risk assessment scope in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-risk-management-workspace/create-risk-asses-scope-workspace.md).
 
-3.  Perform risk assessment: The risk assessor with the sn\_grc. business\_user role performs the following assessment tasks.
+3.  Perform risk assessment: The risk assessor with the sn\_risk\_advanced.ara\_assessor role \(included with the sn\_risk.user role\) performs the following assessment tasks.
 
     -   Assesses the inherent risks and the effectiveness of mitigating controls​.
     -   Reviews the residual risk and defines the risk treatment plan.

@@ -7,7 +7,7 @@ release: australia
 product: Cloud Encryption
 classification: cloud-encryption
 topic_type: concept
-last_updated: "2026-05-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Encryption]
 ---

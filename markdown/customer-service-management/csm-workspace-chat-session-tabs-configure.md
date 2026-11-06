@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-workspace-chat-session-tabs-configure.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Chat session tabs, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -40,7 +40,7 @@ You can configure a minimum of one and a maximum of three chat SLA threshold tim
 
     This is a global switch that enables the feature for an instance.
 
-4.  Select **CSM/FSM Configurable Workspace** in the **Select a workspace for tab settings** field.
+4.  Select **CRM Workspace** in the **Select a workspace for tab settings** field.
 
     This is the workspace for which you want to enable the chat session tabs feature.
 

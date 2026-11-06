@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/c360-launch-agentic-workflow-guidance.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Recommendations panel, Use, Telecommunications Customer 360, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -28,6 +28,9 @@ You can map guidance input in two ways, depending on how the workflow is trigger
 -   Search result mapping: Open the search result mapping record for the workflow and populate the guidance inputs.
 
 For more information about mapping guidance inputs, see [Map AI search results with guidance inputs in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-create-search-result-mapping-for-ai-search.md).
+
+-   **[ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) Smart Actions for Telecom agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/now-assist-tmt-smart-actions-agentic-workflow.md)**  
+Use the Smart Actions for Telecom agentic workflow to retrieve customer data and get a summary with a recommended next action for a customer account or consumer.
 
 **Parent Topic:**[Recommendations panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/c360-recommendations.md)
 

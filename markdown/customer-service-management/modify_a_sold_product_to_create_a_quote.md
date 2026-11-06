@@ -1,30 +1,32 @@
 ---
 title: Modify a sold product to create a quote
-description: Modify a sold product and its complete hierarchy on the CRM Workspace to generate a quote for any updated characteristics or configurations. For example, a customer may want to find the price to modify a sold product's characteristics and the line items \(hierarchy\) that are associated with it.
+description: Modify a sold product and its complete hierarchy on Customer Service Workspace to generate a quote for any updated characteristics or configurations. For example, a customer may want to find the price to modify a sold product's characteristics and the line items \(hierarchy\) that are associated with it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/modify\_a\_sold\_product\_to\_create\_a\_quote.html
 release: australia
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Modify a sold product and hierarchy, Customer Life Cycle Management Workflows, Product data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Modify a sold product to create a quote
 
-Modify a sold product and its complete hierarchy on the CRM Workspace to generate a quote for any updated characteristics or configurations. For example, a customer may want to find the price to modify a sold product's characteristics and the line items \(hierarchy\) that are associated with it.
+Modify a sold product and its complete hierarchy on Customer Service Workspace to generate a quote for any updated characteristics or configurations. For example, a customer may want to find the price to modify a sold product's characteristics and the line items \(hierarchy\) that are associated with it.
+
+## Before you begin
+
+Required plugins: Product Configurator UI \(com.sn\_prd\_config\_ui\), Quote Management \(app-l2c-quote-mgmt\), and Customer Lifecycle Management workflows \(com.snc.customer\_lifecycle\_mgmt\_workflows\).
+
+Role required: Sales Agent \(sn\_sales\_common.sales\_agent\) or Sales Manager \(sn\_sales\_common.sales\_manager\)
 
 ## About this task
 
 Change a sold product or its characteristics. When you modify a sold product's characteristics, a sold product to quote flow is triggered. This flow applies changes to the existing sold product characteristics and presents customers with a quotation based on their selected changes.
 
-Required plugins: Product Configurator UI \(com.sn\_prd\_config\_ui\), Quote Management \(app-l2c-quote-mgmt\), and Customer Lifecycle Management workflows \(com.snc.customer\_lifecycle\_mgmt\_workflows\) \(
-
-Role required: Sales Agent \(sn\_sales\_common.sales\_agent\) and Sales Manager \(sn\_sales\_common.sales\_manager\)
-
 ## Procedure
 
-1.  Navigate to **All** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **All** &gt; **Customer Service Workspace**.
 
 2.  In the list view, select **Customer** &gt; **Accounts**.
 

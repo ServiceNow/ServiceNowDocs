@@ -1,6 +1,6 @@
 ---
-title: ServiceNow Otto Chat Integration
-description: ServiceNow Otto Chat Integration \(built on Moveworks\) \(formerly known as Moveworks for Employee Center \) enables AI-powered conversational support within the Employee Center portal through natural language interactions.
+title: Moveworks for Employee Center
+description: Moveworks for Employee Center \(built on Moveworks\) enables AI-powered conversational support within the Employee Center portal through natural language interactions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/moveworks-for-employeecenter.html
 release: australia
@@ -8,13 +8,13 @@ product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Unified Employee Experience, Employee Service Management]
+reading_time_minutes: 1
+breadcrumb: [Configuring Employee Center Pro, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
-# ServiceNow Otto Chat Integration
+# Moveworks for Employee Center
 
-ServiceNow Otto Chat Integration \(built on Moveworks\) \(formerly known as Moveworks for Employee Center \) enables AI-powered conversational support within the Employee Center portal through natural language interactions.
+Moveworks for Employee Center \(built on Moveworks\) enables AI-powered conversational support within the Employee Center portal through natural language interactions.
 
 Using Moveworks embedded AI assistant, your employees can ask questions, get instant answers, and complete tasks end-to-end from Employee Center and Employee Center Pro.
 
@@ -35,13 +35,13 @@ Moveworks unifies the enterprise systems under one intelligent layer to deliver 
 **Related topics**  
 
 
-[Getting started with Otto Chat Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/moveworks-ec-getting-started.md)
+[Getting started with Moveworks for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/moveworks-ec-getting-started.md)
 
-[Install Otto chat application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/mw-install-app.md)
+[Install Moveworks for Employee Center application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/mw-install-app.md)
 
 [Upload Java KeyStore certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/mw-upload-jks-cert.md)
 
 [Configure bot ID and AI assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/mw-setup-botid.md)
 
-[Use Otto Chat Integration on employee portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/mw-employee-chat-ui.md)
+[Use Moveworks for Employee Center on employee portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/mw-employee-chat-ui.md)
 

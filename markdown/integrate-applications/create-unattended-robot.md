@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/create-unattended-robot.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Robots, Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -38,15 +38,15 @@ You can map multiple unattended robots as high density robots to one virtual mac
 
 2.  Create an unattended robot from either the list icon or from the plus icon.
 
-<table id="choicetable_kgc_jxm_frb"><thead><tr><th align="left" id="d679765e134">
+<table id="choicetable_kgc_jxm_frb"><thead><tr><th align="left" id="d667788e134">
 
 Option
 
-</th><th align="left" id="d679765e137">
+</th><th align="left" id="d667788e137">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d679765e143">
+</th></tr></thead><tbody><tr><td id="d667788e143">
 
 **Create an unattended robot from the list icon**
 
@@ -57,7 +57,7 @@ Action
 3.  Select **New**.
 
 
-</td></tr><tr><td id="d679765e182">
+</td></tr><tr><td id="d667788e182">
 
 **Create an unattended robot from the plus icon**
 

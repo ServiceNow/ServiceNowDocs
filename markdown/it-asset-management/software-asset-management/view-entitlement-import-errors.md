@@ -1,20 +1,20 @@
 ---
-title: Import bulk entitlements in Software Asset Management Core UI
-description: You can import multiple entitlements together using a Microsoft Excel spreadsheet in Software Asset Management Core UI.
+title: Import bulk entitlements in Software Asset Management classic
+description: You can import multiple entitlements together using a Microsoft Excel spreadsheet in Software Asset Management classic.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/view-entitlement-import-errors.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use SAM Core UI, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Using Software Asset Management classic, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
-# Import bulk entitlements in Software Asset Management Core UI
+# Import bulk entitlements in Software Asset Management classic
 
-You can import multiple entitlements together using a Microsoft Excel spreadsheet in Software Asset Management Core UI.
+You can import multiple entitlements together using a Microsoft Excel spreadsheet in Software Asset Management classic.
 
 ## Before you begin
 
@@ -69,5 +69,5 @@ The entitlement import records are stored in the Entitlement import \[samp\_bulk
     The entitlement is successfully created. For more information on resolving errors, see [Entitlement import error actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/import-software-rights-form.md).
 
 
-**Parent Topic:**[Using Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/using-sam-classic.md)
+**Parent Topic:**[Using Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/using-sam-classic.md)
 

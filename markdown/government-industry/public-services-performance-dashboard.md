@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/public-services-performance-dashboard.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Public Services Performance Overview dashboard, Public Services Performance metrics, Assess Public Services Performance]
 breadcrumb: [Analytics and Reporting, Public Sector Digital Services \(PSDS\)]

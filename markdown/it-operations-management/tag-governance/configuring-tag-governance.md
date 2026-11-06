@@ -7,7 +7,7 @@ release: australia
 product: Tag Governance
 classification: tag-governance
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Tag Governance, ITOM Visibility, IT Operations Management]
 ---
@@ -18,11 +18,11 @@ Install the Tag Governance app to execute tag audits, view the Tag Data Governan
 
 ## Configuration overview
 
--   [Domain separation and Tag Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/tag-governance/tag-governance-domain-separation.md)
+-   [Domain separation in Tag Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/tag-governance/tag-governance-domain-separation.md)
 
     Domain separation is supported in Tag Governance. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
--   [Install Tag Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/tag-governance/install-tag-governance.md)
+-   [Install the application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/tag-governance/install-tag-governance.md)
 
     Install the Tag Governance app to execute tag audits, view the Tag Data Governance dashboard, and perform tag remediation.
 

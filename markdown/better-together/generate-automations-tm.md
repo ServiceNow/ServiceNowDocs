@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/better-together/generate-automations-tm.html
 release: australia
 topic_type: task
-last_updated: "2026-06-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [create agent, decomposed automations, automations blocks, desktop actions, automation center, UI block, non UI block, deterministic desktop actions]
 breadcrumb: [Building desktop automations from Task Mining data, Solutions]

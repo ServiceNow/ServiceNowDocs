@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/add-interactive-view-coreui.html
 release: australia
 topic_type: task
-last_updated: "2026-07-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [In-product agentic AI, Agentic workflows, AI assets, Enable AI experiences]
+breadcrumb: [In-product agentic AI, Agentic workflows, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Add Interactive View Experience in the Core UI
@@ -24,7 +24,7 @@ Role required: personalize\_form
 
 1.  Navigate to the table where the Interactive View Experience should be displayed.
 
-2.  Select the Additional Actions icon \[Omitted image "icon-docintel-additional-actions.png"\] icon to open the menu and select **View**.
+2.  Select the Additional Actions icon \[Omitted image "image.icon-docintel-additional-actions"\] icon to open the menu and select **View**.
 
 3.  Select the view where the component should appear, or select **Default view** to display it by default.
 
@@ -44,7 +44,7 @@ Role required: personalize\_form
 
         If you add both the AI Activity Inline Experience and the AI Activity Sidebar Experience, the sidebar won't open. The AI Activity button will only redirect to the Inline Experience.
 
-7.  Save, then switch to the modified view and interact with the AI Activity button \[Omitted image "ai-activity-button.png"\] to confirm the inline or sidebar experience renders correctly.
+7.  Save, then switch to the modified view and interact with the AI Activity button \[Omitted image "image.ai-activity-button"\] to confirm the inline or sidebar experience renders correctly.
 
 8.  Repeat for all tables and views where the Interactive View Experience should be enabled.
 

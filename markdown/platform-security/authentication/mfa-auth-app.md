@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using MFA, Multi-factor authentication, Authentication, Access Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Using MFA, Multi-factor authentication, Authentication, Access Mana
 
 Use third party authenticator applications to generate temporary MFA pass codes.
 
-An authenticator application is third-party software that generates temporary pass-codes. You can use these pass-codes along with your password to login into an instance that requires multi-factor authentication \(MFA\).
+An authenticator application is third-party software that generates temporary pass-codes. You can use these pass-codes along with your password to log in to an instance that requires multi-factor authentication \(MFA\).
 
 If your administrator has enabled MFA on your instance, you see a prompt for a pass-code after entering your user and password during login.
 
@@ -24,7 +24,9 @@ If your administrator has enabled MFA on your instance, you see a prompt for a p
 
 **Note:** Install an authenticator app such as Google Authenticator or Microsoft Authenticator on your mobile device before scanning the QR code. The QR code configures your authenticator app for this account; it does not install the app.
 
-ServiceNow requires authenticator applications that support Time-based One-time Passwords \(TOTP\).
+ServiceNow requires authenticator applications that support time-based one-time passwords \(TOTP\).
+
+To set up MFA in a different way, select **Try another way to set up** on the screen.
 
 ServiceNow tests MFA with the following authenticators:
 

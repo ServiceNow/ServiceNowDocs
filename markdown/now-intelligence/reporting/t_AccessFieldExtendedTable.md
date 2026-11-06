@@ -7,10 +7,10 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-07-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [related tables, extended tables, dot-walking]
-breadcrumb: [Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Advanced Core UI reporting topics, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Report on extended tables
@@ -29,6 +29,8 @@ To include the columns in the report that are unique to the extended tables, a u
 
 ## About this task
 
+**Note:** This topic refers to Core UI reports, not Platform Analytics data visualizations.
+
 Watch this six-minute video to learn how to include fields on extended tables in reports by starting with the parent table.
 
 \[Omitted video\] Description: How to include fields on extended tables that aren't available through dot-walking
@@ -37,7 +39,9 @@ The video shows how to create a report with data from multiple tables using the 
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select **New**.
+1.  Open the Platform Analytics Data visualization library and select **Create data visualization**, then select **Core UI** in the modal that opens.
+
+    The **com.snc.par.coreui.report\_create.enabled** system property must be `true`.
 
 2.  On the Data tab, name the report `Active Incidents and Problems of Priority 1 or 2`, select the Source type Table, and select the table Task \[task\].
 

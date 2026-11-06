@@ -7,8 +7,8 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 15
+last_updated: "2026-09-10"
+reading_time_minutes: 16
 breadcrumb: [Administer CMDB Data Manager, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -23,12 +23,12 @@ Create a CMDB Data Manager policy in CMDB Workspace to automatically process CIs
     For more information about retirement definitions, see [Retirement definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/life-cycle-rules.md).
 
 -   Verify that any custom subflow that you want to associate with a policy, exists:
-    1.  Navigate to **Workspaces** &gt; **CMDB Workspace** and select **Management** in the CMDB Workspace menu bar. Then, select the **Data Manager** link in Management tools, in the Manage section.
+    1.  Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Governance**. Then, in the Governance navigation pane, select **Data Manager**.
     2.  Select **Subflows** in the navigation bar on the left.
     3.  Review the subflows on the Data Manager subflows page, and drill down to a subflow to open it in Workflow Studio.
     4.  Select **Create new subflow** to [create a new subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/subflows.md).
 -   To require a review and an approval for a policy task: Ensure that the **Managed By Group** attribute is populated in target CIs and that the assigned users have the privilege to approve the policy tasks.
--   When [Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_AssetManagement.md) is activated, check if there's an asset record associated with that CI before retiring the CI. Check the associated asset record, if there's one, and verify that its asset state \(install\_status\) is **Retired**.
+-   When Asset Management is activated, check if there's an asset record associated with that CI before retiring the CI. Check the associated asset record, if there's one, and verify that its asset state \(install\_status\) is **Retired**.
 
 Role required: sn\_cmdb\_admin
 
@@ -44,7 +44,7 @@ For more information about life-cycle state definitions and other concepts for w
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CMDB Workspace** and select **Management** in the CMDB Workspace menu bar. Then, select the **Data Manager** link in Management tools, in the Manage section.
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Governance**. Then, in the Governance navigation pane, select **Data Manager**.
 
 2.  Select **Policies** in the left-side bar.
 
@@ -218,7 +218,7 @@ Retention time
 
 The length of time for retaining archived CIs in the archive table before they're deleted.
 
- During the specified retention period, you can use the ServiceNow AI Platform® data archiving feature to [restore archived CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-archived-data.md).
+ During the specified retention period, you can use the ServiceNow AI Platform® data archiving feature to restore archived CIs.
 
 **Note:** You can't use the CMDB Data Manager to re-archive a CI that was previously archived and restored.
 
@@ -370,6 +370,14 @@ After you publish a policy:
 -   On the Policies page, in the Published policies list view, select a policy to see policy details on a policy form. Select **View Policy** to see the settings in all of the policy form pages.
 -   On the Policies page, in the Published policies list view, select a policy that you want to deactivate. On a policy form select **Deactivate Policy** to temporarily prevent the policy from running.
 -   Select **View Open Tasks** in the Open Policy Tasks tile to track the processing of policy tasks in the CMDB Data Management Task Control list view. The Success Percent column shows the percentage of CIs in the task for which the task is completed. A CI is counted as complete in an archival task only after the archival process has been fully completed for the CI \(and isn't counted as complete while the CI is initially staged for archival for example\).
+-   Review the outcome of policy execution in the policy record in the CMDB Data Management Policy Executions \[cmdb\_data\_management\_policy\_execution\] table. Examine the **Work Notes** and the **Activities** fields to see the number of CIs that weren't processed.
+
+    A CI might be skipped during processing for reasons such as:
+
+    -   The CI is already included in another task.
+    -   The policy Run As user doesn’t have adequate access privileges to the CI or to the CI’s class.
+    Use this information to mitigate issues, for example, by updating policy configurations or updating user permissions.
+
 -   Run a policy on-demand. In general, the system generates a scheduled job for on-demand policies, prefixed with the policy name.
 
     -   Run the scheduled job:

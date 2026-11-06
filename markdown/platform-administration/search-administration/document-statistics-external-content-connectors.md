@@ -7,8 +7,8 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: reference
-last_updated: "2026-09-29"
-reading_time_minutes: 2
+last_updated: "2026-10-21"
+reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Reference, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -71,7 +71,7 @@ Error
 
 </td><td>
 
-Score shows the number of Error-level alerts recorded for the content crawl. Select **Details** to view the Alerts tab for the crawl history entry.
+Score shows the number of Error-level alerts recorded for the content crawl. Select **Details** to view the **Alerts** tab for the crawl history entry.
 
 </td></tr><tr><td>
 
@@ -79,7 +79,7 @@ Warning
 
 </td><td>
 
-Score shows the number of Warning-level alerts recorded for the content crawl. Select **Details** to view the Alerts tab for the crawl history entry.
+Score shows the number of Warning-level alerts recorded for the content crawl. Select **Details** to view the **Alerts** tab for the crawl history entry.
 
 </td></tr><tr><td>
 
@@ -120,21 +120,30 @@ Skipped
 
 </td><td>
 
-The number of items that weren't added to or updated in the AI Search index for any of the following reasons:-   **The item doesn't satisfy indexing limits**
+The number of items that were discovered but not added to or updated in the AI Search index. This count includes the following items:-   **Items excluded by an inclusion or exclusion filter specified in the connector's crawl settings**
 
-The connector skips an item when any of these conditions is true.
+The connector skips a content item if it's not included in your specified inclusion filter. It similarly skips an item if it's explicitly included in your specified exclusion filter.
 
-    -   The item is a binary file/attachment with an unsupported format. For the list of supported binary file formats, see [Binary file extensions supported in External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/file-extensions-ext-cont-connector.md).
-    -   The item is a binary file/attachment that exceeds the maximum file-size limit \(25 MB\).
-    -   The connector has reached its content indexing limit.
--   **The item is excluded by an inclusion or exclusion filter in the connector's crawl settings**
+**Note:** Items in folders or other locations that are excluded by your inclusion or exclusion filter aren't discovered and so aren't included in the **Skipped** count.
 
-The connector skips an item if it or its location is not included in your specified inclusion filter. It similarly skips an item if it or its location is explicitly included in your specified exclusion filter.
+-   **Binary files or attachments with unsupported formats**
 
--   **The item doesn't satisfy the connector's content validation rules**
+The connector skips binary files and attachments with unsupported formats. For the list of supported binary file formats, see [Binary file extensions supported in External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/file-extensions-ext-cont-connector.md).
 
-Individual external content connectors have their own validation rules that determine what content they accept for indexing. As an example, the Webcrawler external content connector rejects HTML pages that don't have a title element. The connector skips any item that doesn't satisfy its content validation rules.
+-   **Binary files or attachments that exceed the maximum attachment file-size limit**
 
+The connector skips binary files and attachments that exceed the 25 MB maximum file-size limit.
+
+-   **Items in excess of the connector's content indexing limit**
+
+When the connector reaches its content indexing limit, it skips all newly found content items. Most connectors are limited to indexing a maximum of one million content items, but some connector types have different content indexing limits.
+
+-   **Items excluded by connector content validation rules**
+
+Individual external content connectors may skip content items for other reasons.
+
+
+To see why a content item was skipped, you can view its record in the index inspector. For details about using the index inspector, see [Review indexing status for individual content items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/review-indexing-status-content-items.md).
 
 </td></tr></tbody>
 </table>|Performance statistics entry|Description|

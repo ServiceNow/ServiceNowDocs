@@ -1,20 +1,20 @@
 ---
 title: Components installed with Enterprise Service Management Integrations Framework
-description: Several types of components are installed with activation of the Enterprise Service Management Integrations Framework \[sn\_hr\_integr\_fw\], including tables and user roles.
+description: Several types of components are installed with activation of the Enterprise Service Management Integrations Framework \[sn\_hr\_integre\_fw\], including tables and user roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/installed-with-hr-int-fra.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enterprise Service Management Integrations Framework reference, Enterprise Service Management Integrations Framework, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
 
 # Components installed with Enterprise Service Management Integrations Framework
 
-Several types of components are installed with activation of the Enterprise Service Management Integrations Framework \[sn\_hr\_integr\_fw\], including tables and user roles.
+Several types of components are installed with activation of the Enterprise Service Management Integrations Framework \[sn\_hr\_integre\_fw\], including tables and user roles.
 
 ## Roles
 

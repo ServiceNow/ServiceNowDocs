@@ -7,7 +7,7 @@ release: australia
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [User resources and group resources, Resource allocation, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---

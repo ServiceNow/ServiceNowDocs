@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/les-mid-server-consumer.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Log Export Service \(LES\), Platform Security]
 ---
@@ -14,17 +14,9 @@ breadcrumb: [Configure, Log Export Service \(LES\), Platform Security]
 
 Use guided setup to step through the initial configuration of LES for MID server consumer.
 
-## Guided setup home page
-
-The home page for guided setup contains an overview of configuration types for your guided setup. You can select your guided setup type and select **Continue** to open the guided setup steps and begin configuration.
-
-\[Omitted image "les-mid-server-setup.png"\] Alt text: LES guided setup for MID Server comsumer
-
-All three setups on this page, Quick Start/Best Experience/Custom provide the same tasks and functionality. A dedicated MID Server is required to continuously stream logs from your instance to your log analytic system. The MID Server needs a one-time setup to establish a secure connection to the Hermes Messaging Service. Even if you have marked a task as completed, you can go back and uncheck it back to in-progress. To do so, first click on the **Edit** box on the upper right corner for the category. Then click on the **Edit** box for the task you want to uncheck. The **Mark as complete** box will be no longer marked.
-
 ## Guided setup categories page
 
-The categories page contains an overview and descriptions of the categories and associated tasks. You can click either the drop down arrow to view information about the category or click **Start** to open the guided setup steps and begin configuration.
+The categories page contains an overview and descriptions of the categories and associated tasks. You can click either the drop down arrow to view information about the category or click **Start** to open the guided setup steps and begin configuration. To modify or resume a configuration that you have started, select **Edit** or **Resume**.
 
 \[Omitted image "les-mid-server-categories.png"\] Alt text: MID Server comsumer options
 

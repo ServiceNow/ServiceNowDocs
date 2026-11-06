@@ -7,9 +7,9 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Jelly tags, Creating UI pages and macros, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Jelly tags, UI pages and macros, Write client-side scripts, Scripting, API implementation, API implementation and reference]
 ---
 
 # Jelly escaping types

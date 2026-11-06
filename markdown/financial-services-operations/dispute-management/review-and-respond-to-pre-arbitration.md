@@ -7,7 +7,7 @@ release: australia
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Allocation workflow, Initiate chargeback, Processing a Visa dispute, Managing disputes integrated with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -52,15 +52,15 @@ The acquirer might choose to initiate pre-arbitration. You can review and respon
 
 8.  Respond in one of the following ways.
 
-<table id="choicetable_hxf_hdv_n2c"><thead><tr><th align="left" id="d78800e203">
+<table id="choicetable_hxf_hdv_n2c"><thead><tr><th align="left" id="d79326e203">
 
 Option
 
-</th><th align="left" id="d78800e206">
+</th><th align="left" id="d79326e206">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d78800e212">
+</th></tr></thead><tbody><tr><td id="d79326e212">
 
 **Resolved**
 
@@ -70,7 +70,7 @@ Determine whether to reverse provisional credit using the **Reverse provisional 
 
  As a result, the issuer accepts the pre-arbitration request of the acquirer. It reverses provisional credit or convert provisional credit to final credit.
 
-</td></tr><tr><td id="d78800e239">
+</td></tr><tr><td id="d79326e239">
 
 **Unresolved**
 

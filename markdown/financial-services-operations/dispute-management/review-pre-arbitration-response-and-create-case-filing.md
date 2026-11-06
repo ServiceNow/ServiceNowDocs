@@ -7,7 +7,7 @@ release: australia
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Collaboration workflow, Initiate chargeback, Processing a Visa dispute, Managing disputes integrated with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -52,15 +52,15 @@ After you receive the merchant’s response for pre-arbitration, the response is
 
 8.  In the **Pre arbitration outcome** field, select **Resolved** or **Unresolved**.
 
-<table id="choicetable_inv_t2g_2fc"><thead><tr><th align="left" id="d127503e218">
+<table id="choicetable_inv_t2g_2fc"><thead><tr><th align="left" id="d129512e218">
 
 Selection
 
-</th><th align="left" id="d127503e221">
+</th><th align="left" id="d129512e221">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d127503e227">
+</th></tr></thead><tbody><tr><td id="d129512e227">
 
 **Unresolved**
 
@@ -73,7 +73,7 @@ the field **Do you want to create case filing?** is displayed.1.  Create a case 
 5.  Select **Submit dispute filing**.
 
 
-</td></tr><tr><td id="d127503e273">
+</td></tr><tr><td id="d129512e273">
 
 **Resolved**
 

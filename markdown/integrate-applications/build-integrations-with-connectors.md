@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/build-integrations-with-connectors.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Connect, Workflow Data Fabric]
+breadcrumb: [Connect, Workflow Data Fabric Home, Workflow Data Fabric]
 ---
 
 # Build integrations with connectors
@@ -26,7 +26,7 @@ Role required: admin
 
 3.  Find the connector type you need:
 
-    -   **Spoke** - See  for full build and configuration details.
+    -   **Spoke** - See [Building spokes using Spoke Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/spoke-builder.md) for full build and configuration details.
     -   **Model Context Protocol \(MCP\)** - See [MCP Integration Documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/model-context-protocol-connector.md) for full configuration details.
 4.  Find your connector in the list.
 

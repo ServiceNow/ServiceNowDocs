@@ -1,20 +1,20 @@
 ---
-title: Configurations and customizations that can be migrated from ITSM Agent workspace to SOW for ITSM
-description: Several configurations and customizations related to various ITSM Agent Workspace features that can be migrated to SOW for ITSM.
+title: Migration of ITSM Agent workspace configurations to SOW for ITSM
+description: You can migrate several configurations and customizations related to ITSM Agent Workspace features to SOW for ITSM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/configurations-and-customizations-from-itsm-aw-sow-itsm.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Migrate from ITSM Agent Workspace to Service Operations Workspace for ITSM, Migration from ITSM Agent Workspace to Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
-# Configurations and customizations that can be migrated from ITSM Agent workspace to SOW for ITSM
+# Migration of ITSM Agent workspace configurations to SOW for ITSM
 
-Several configurations and customizations related to various ITSM Agent Workspace features that can be migrated to SOW for ITSM.
+You can migrate several configurations and customizations related to ITSM Agent Workspace features to SOW for ITSM.
 
 -   **[Migration of UI actions and layouts from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/ui-actions-layouts-migration-itsm-aw-sow.md)**  
 Migration from ITSM Agent Workspace to Service Operations Workspace for ITSM includes identifying the required tables, identifying the eligible UI actions and layout records for migrations, and the migration process.

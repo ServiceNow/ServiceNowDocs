@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/install\_base\_hierarchy\_visualisation.html
 release: australia
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 breadcrumb: [Install base items, Configure install base, Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -16,11 +16,11 @@ Use the **Install Base Hierarchy** tab on the CRM Workspace to view the parent-c
 
 The install base hierarchy provides a node map of both parent and child items associated with an install base item. The hierarchy node begins with the install base item that is currently open. The node map extends toward both the root install base item and the child install base item up to seven levels of hierarchy.
 
-The first level of the install base hierarchy node map always displays the child items associated with the current install base item. Select the levels from the level selector to view the number if install base levels associated with the current install base item.
+The first level of the install base hierarchy node map displays the child items associated with the current install base item. Select the levels from the level selector to view the number if install base levels associated with the current install base item.
 
 For example, select Level 1 with the current install base item as the home node, to view all the child items associated with it. Subsequently, at Level 2, set one of the child install base items as a home node to have further insight into its own child items. The number of child items are denoted by a number badge next to the install base node. You can continue to expand the hierarchy structure up to the seventh level or to 250 nodes, whichever comes first.
 
-
+\[Omitted image "ib-hierarchy.png"\] Alt text: The hierarchy structure of the X5 Sport Utility 4D Install base item.
 
 **Note:** Badges against child items aren't displayed beyond the seventh level of hierarchy. To view the hierarchy beyond the seven levels, set any one of the install base items in the hierarchy as the home node.
 

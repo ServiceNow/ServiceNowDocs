@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-09-23"
 reading_time_minutes: 2
 keywords: [Retail MCP Server, roles, ACL, invoke\_from\_ai, data visibility]
-breadcrumb: [Retail MCP Server, Configure, Retail]
+breadcrumb: [Retail MCP Server, ServiceNow Otto for Retail Service Management \(RSM\), Retail]
 ---
 
 # Retail MCP Server roles and data access

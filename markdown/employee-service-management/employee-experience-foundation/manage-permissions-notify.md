@@ -7,9 +7,9 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating Notify connector self-configured app with Microsoft Teams, Integration for Agent Experience, Setup for integrating self-configured apps, Setup the Servicenow instance, Integrating ServiceNow with Microsoft Teams and Microsoft 365, ServiceNow for Microsoft Teams and Microsoft 365, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Integrating Notify connector self-configured app with Microsoft Teams, Integration for Agent Experience, Setup for integrating self-configured apps, Setup the Servicenow instance, Integrating ServiceNow with Microsoft Teams and Microsoft 365, ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
 ---
 
 # Manage permissions and authenticate the Notify connector app/bot in Microsoft Azure portal
@@ -38,7 +38,7 @@ You can manage the permissions required by the Notify connector app/bot to perfo
 
     -   **User.Read.All** from User list.
     -   **OnlineMeetings.ReadWrite.All** from OnlineMeetings list.
-    -   **Calls.InitiateGroupCall.All**, **Calls.JoinGroupCall.All**, **Calls.JoinGroupCallAsGuest.All** from Calls list.
+    -   **Calls.InitiateGroupCall.All**, **Calls.JoinGroupCall.All** from Calls list.
 6.  Grant admins access to the Microsoft Azure applications that require admin approval.
 
     1.  Select **Grant admin consent for &lt;tenant&gt;** in the API permissions page.

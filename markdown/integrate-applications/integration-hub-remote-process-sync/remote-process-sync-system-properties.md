@@ -7,7 +7,7 @@ release: australia
 product: Integration Hub Remote Process Sync
 classification: integration-hub-remote-process-sync
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Integration Hub Remote Process Sync, Workflow Data Fabric]
 ---

@@ -7,7 +7,7 @@ release: australia
 product: Access Control
 classification: access-control
 topic_type: reference
-last_updated: "2026-06-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Access Control Lists \(ACLs\), Access Management]
 ---
@@ -73,5 +73,5 @@ Security Attribute Conditions can be defined as local or existing:
     The condition references a Security Attribute condition already defined on another ACL, enabling reuse across multiple rules.
 
 
-For a complete list of built-in security attribute types and configuration details, see [Security Attributes Fundamentals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/security-attribute-fundamentals.md) and [Security Attribute Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/access-control/security-attribute-scope.md).
+For a complete list of built-in security attribute types and configuration details, see [Security Attributes Fundamentals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-attribute-fundamentals.md) and [Security Attribute Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-attribute-scope.md).
 

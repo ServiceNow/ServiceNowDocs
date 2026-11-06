@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-04-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Exploring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -40,7 +40,7 @@ Tier 1 agent
 
 -   Get quick visibility into the work assigned to the agent or the agent's team before starting the day.
 -   Analyze incidents and catalog tasks that need attention and navigate to the records on which action should be taken.
--   Monitor incidents with service level agreements \(SLAs\) that have been breached or at risk, open P1 incidents, or the ones not updated in 24 hours.
+-   Monitor incidents with service level agreements \(SLAs\) that are breached or at risk, open P1 incidents, or incidents not updated in 24 hours.
 
  To use the features in Workforce Optimization for ITSM, see the **Explore key features in Workforce Optimization for ITSM** section.
 
@@ -72,7 +72,7 @@ Header
 
 </td><td>
 
-This section displays the greeting text and shift details of the agent. For information about how you can customize this section, see [Configure the header message on the landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/modify-greeting-text.md).The image on the banner of the header section in the SOW landing page supports custom themes for a more personalized experience.For more information, see [Configure the space man on the landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/modify-space-man-landing-page.md).
+This section displays the greeting text and shift details of the agent. For information about how you can customize this section, see [Configure the header message on the landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/modify-greeting-text.md).The image on the banner of the header section in the SOW landing page supports custom themes for a more personalized experience. For more information, see [Configure the space man on the landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/modify-space-man-landing-page.md).
 
 The alert notification displayed on the banner of the pages in SOW is expanded automatically to adjust and fit the complete message. For more information, see [Configure the header message on the landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/modify-greeting-text.md).
 
@@ -124,20 +124,20 @@ Upcoming
 
 </td><td>
 
-This section reminds agents of the upcoming tasks for the same day and next day. You can select the link to access the task.If there’s a single record for the task type, the record opens. If there are multiple records for the task type, it opens a list of all records in a new tab.
+This section reminds agents of the upcoming tasks for the same day and next day. You can select the link to access the task. If there’s a single record for the task type, the record opens. If there are multiple records for the task type, it opens a list of all records in a new tab.
 
 **Note:** An agent can also view tasks delegated to the agent by other users.
 
  \[Omitted image "upcoming-section.png"\] Alt text: Upcoming section
 
- -   The **Today** tab shows tasks that you may want to attend to on the current day.
+ -   The **Today** tab shows tasks that you might need to attend to on the current day.
 -   The **Tomorrow** tab shows tasks coming up the day after the current day.
 
  When the [Workforce Optimization for ITSM plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/activate-configurable-workforce-optimization-itsm.md) \(sn\_wfo\_cfg\_itsm\) is activated, you can also view your upcoming shift information and the following tasks are displayed in this section:
 
--   Events: Number of events such as training and time off that's related to your shifts.
+-   Events: Number of events such as training and time off that are related to your shifts.
 
-**Note:** If you have an upcoming PTO on the day after the current day, in the **Upcoming** section, the **Today** list will display that you have an upcoming PTO the next day. If you are on PTO the current day, this list does not display that you have a PTO.
+**Note:** If you have upcoming paid time off \(PTO\) on the day after the current day, in the **Upcoming** section, the **Today** list displays that you have an upcoming PTO the next day. If you are on PTO the current day, this list does not display that you have a PTO.
 
 -   Shifts: Number of work shifts.
 -   Skill review requests: Number of requests from your manager to review your skills.
@@ -181,7 +181,7 @@ My active learning section
 
 </td><td>
 
-Monitor learning tasks that you must complete. This section displays up to three learning tasks, which could include learning paths and courses that are new, due soon, or overdue. These tasks are either the ones that have been assigned to you or the ones you chose to self-enroll. The tasks are sorted by the due date and they're highlighted in red when they're overdue. You can also see the remaining duration to complete a task that you can select and complete.**Important:** This section is displayed only when the [Workforce Optimization for ITSM plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/activate-configurable-workforce-optimization-itsm.md) \(sn\_wfo\_cfg\_itsm\) is activated.
+Monitor learning tasks that you must complete. This section displays up to three learning tasks, which could include learning paths and courses that are new, due soon, or overdue. These tasks are either assigned to you or ones that you chose to self-enroll in. The tasks are sorted by the due date and they're highlighted in red when they're overdue. You can also see the remaining duration to complete a task that you can select and complete.**Important:** This section is displayed only when the [Workforce Optimization for ITSM plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/activate-configurable-workforce-optimization-itsm.md) \(sn\_wfo\_cfg\_itsm\) is activated.
 
 \[Omitted image "my-active-learning.png"\] Alt text: My active learning
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/create-sap-s4hana-connection-primary.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [SAP S/4HANA, Primary connectors, Zero Copy Connectors, Workflow Data Fabric]
+breadcrumb: [SAP S/4HANA, Primary connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
 
 # Create an SAP S/4HANA connection

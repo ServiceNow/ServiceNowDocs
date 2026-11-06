@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/install-base-existing-cases.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a case for a new install base item, Case form, Customer Service forms, Reference, Customer Service Management]
+breadcrumb: [Create a case for install base items, Case form, Customer Service forms, Reference, Customer Service Management]
 ---
 
 # Migrating the install base information for existing cases

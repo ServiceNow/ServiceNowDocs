@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/ekms-check-key-status.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using External Key Management Service, External Key Management Service, Field Encryption, Encryption]
 ---
@@ -44,7 +44,7 @@ You can check your AWS KMS key status at any time to verify its current state. C
     -   **Unavailable** - Your instance can't connect to AWS. This can be due to authentication issues with your EKMS configuration, network connectivity problems, or AWS service disruptions.
 4.  Note the status and the last synchronization time.
 
-    The automatic synchronization job runs every 30 minutes. The synchronization timestamp shows when the status was last updated from AWS. This default frequency is configurable if you need a different synchronization interval. See [Change synchronization frequency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/ekms-change-synchronization-frequency.md).
+    The automatic synchronization job runs every 30 minutes. The synchronization timestamp shows when the status was last updated from AWS.
 
 
 ## Result

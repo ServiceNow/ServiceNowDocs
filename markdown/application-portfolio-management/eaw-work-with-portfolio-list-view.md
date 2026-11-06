@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-work-with-portfolio-list-view.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -24,8 +24,8 @@ Manage business units, departments, goals, value streams, value stream stages, b
 Manage all your business applications, business capabilities, information objects, application services and also, manage their associated architectural artifacts in the Enterprise Architecture Workspace.
 -   **[Working with information portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-info-portfoliodita.md)**  
 Information portfolio helps to capture information from the assets of your organization as information objects. You can categorize the information assets and determine its business application use.
--   **[Working with AI Portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-working-with-ai-portfolio.md)**  
-Manage AI System Digital Assets, AI Model Digital Assets, AI Dataset Digital Assets, and AI Prompt Digital assets in the Enterprise Architecture Workspace.
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-working-with-ai-portfolio.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-working-with-ai-portfolio.md)**  
+
 -   **[Working with your entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-your-entities.md)**  
 Manage all your Enterprise Architecture Workspace entities from a single place.
 

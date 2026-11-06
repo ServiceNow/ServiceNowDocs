@@ -7,9 +7,9 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Explore, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # AI in Software Asset Management
@@ -26,15 +26,15 @@ For more information, see [ServiceNow product tiers](https://raw.githubuserconte
 
 ## AI capabilities in ServiceNow Otto for Software Asset Management \(SAM\)
 
-ServiceNow Otto for SAM enhances the capabilities of the Software Asset Management application. It automates complex tasks, provides intelligent insights, and enables organizations to manage software assets, maintain compliance, and reduce costs.
+ServiceNow Otto for Software Asset Management \(SAM\) enhances the capabilities of the Software Asset Management application. It automates complex tasks, provides intelligent insights, and enables organizations to manage software assets, maintain compliance, and reduce costs.
 
-With ServiceNow Otto for SAM AI agent collection, organizations gain the following benefits:
+With ServiceNow Otto for Software Asset Management \(SAM\) AI agent collection, organizations gain the following benefits:
 
 -   Reduce software request processing time by automating software request fulfillment.
 -   Identify and create reclamation rules for software products that lack reclamation rules but are viable candidates.
 -   Identify and reclaim unused licenses to reduce waste and accelerate license reclamation.
 
-With ServiceNow Otto for SAM generative AI skills, organizations gain the following benefits:
+With ServiceNow Otto for Software Asset Management \(SAM\) generative AI skills, organizations gain the following benefits:
 
 -   Generate detailed publisher and product summaries to enhance software estate visibility and streamline compliance evaluation.
 -   Generate recommended actions to manage software license compliance and optimize licensing spend.
@@ -43,7 +43,7 @@ With ServiceNow Otto for SAM generative AI skills, organizations gain the follow
 -   Resolve entitlement import errors by normalizing the unresolved Publisher and Product field value.
 -   Identify software purchases in imported spend transactions, extract raw publisher and raw product values, and match them to existing publisher and product records in Software Asset Management Content Library for accurate spend reporting.
 
-For more information about AI capabilities in ServiceNow Otto for SAM, see the following:
+For more information about AI capabilities in ServiceNow Otto for Software Asset Management \(SAM\), see the following:
 
 -   [Agentic workflows in ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/using-now-assist-sam-ai-agents-usecases.md)
 -   [Generative AI skills in ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/using-now-assist-sam.md)
@@ -53,9 +53,9 @@ For information about AI assets that are available on the ServiceNow AI Platform
 -   [Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills.md)
 -   [Agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-aia-use-cases-list.md)
 
-You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
 
-Domain separation is supported in ServiceNow Otto for SAM. For details, see [Domain separation in the AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/domain-separation-in-the-now-assist-admin-console.md).
+Domain separation is supported in ServiceNow Otto for Software Asset Management \(SAM\). For details, see [Domain separation in the AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/domain-separation-in-the-now-assist-admin-console.md).
 
 -   **[Supporting information for ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/supporting-information-now-assist-sam.md)**  
 Get a quick overview of the important information that is related to the ServiceNow Otto for Software Asset Management \(SAM\) application.

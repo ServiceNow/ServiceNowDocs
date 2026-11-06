@@ -7,7 +7,7 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Splunk TCP, data input, integration, configuration, field, description, ServiceNow, Health Log Analytics, HLA]
 breadcrumb: [Integration configuration fields, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
@@ -53,7 +53,7 @@ Port
 
 </td><td>
 
-The port for the MID Server. This field is required.Make sure that your organization’s security team opens the selected port on the MID Server.
+The port on the MID Server used for listening to logs. This field is required.**Important:** Enter a unique port that no other application on the MID Server uses. Ask your security team to confirm that traffic on that port is allowed.
 
 </td></tr><tr><td>
 

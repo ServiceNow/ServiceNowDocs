@@ -7,7 +7,7 @@ release: australia
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: task
-last_updated: "2026-03-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Add a workplace service item to a workplace service, Configure, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---

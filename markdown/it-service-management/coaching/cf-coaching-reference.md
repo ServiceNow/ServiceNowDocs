@@ -7,7 +7,7 @@ release: australia
 product: Coaching
 classification: coaching
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Coaching, IT Service Management]
 ---
@@ -20,7 +20,7 @@ Coaching reference content includes business rules and field descriptions.
 
 To provide coaching on a table source that does not extend the Task table, you must create a business rule to initiate the coaching process.
 
-The business rule **Evaluate coaching opportunity on tasks** initiates coaching for tables that extend Task. You can copy this business rule and modify it for tables that do not extend the Task table.
+The business rule **Evaluate coaching opportunity on tasks** initiates coaching for tables that extend Task. You can copy this business rule and modify it for tables that don't extend the Task table.
 
 \[Omitted image "coaching-non-task-table.png"\] Alt text: CoachingNonTaskTable
 

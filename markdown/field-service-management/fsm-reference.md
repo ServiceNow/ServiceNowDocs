@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/fsm-reference.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Field Service Management]
 ---
@@ -28,6 +28,8 @@ Several types of components are installed with the additional plugins for the Fi
 Components installed with Schedule Optimization include tables, roles, constraints, objectives, and properties.
 -   **[Schedule Optimization travel estimate providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/schedule-optimization-travel-estimate-providers.md)**  
 Travel estimate providers used by Schedule Optimization.
+-   **[Skills table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/skills-table-fields.md)**  
+Field reference for skills management records in Field Service Management, including Task Skills, User Skills, Group Skills, and User Skill History tables.
 -   **[Intra-day schedule automation flows and subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/intraday-scheduling-flows.md)**  
 The flows and subflows for configuring intra-day schedule automation.
 -   **[Task assignees table for crew members or equipment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/task-assignees-table.md)**  
@@ -54,6 +56,6 @@ Script includes used in Field Service Management help configure agent scheduling
 Both survey-based and Smart Assessment questionnaires are available in the ServiceNow Agent mobile application. If a questionnaire is configured as mandatory for a work order task, the task can't be closed until the questionnaire is completed.
 -   **[GeoJSON format requirements for territory geographies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/geojson-format-requirements.md)**  
 GeoJSON format requirements define the structure, geometry types, and coordinate rules that territory geographies must follow.
--   **[Field Service Management glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/glossary-fsm.md)**  
+-   **[Field Service Management glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-management-glossary.md)**  
 Learn about terms and concepts that are unique to Field Service Management.
 

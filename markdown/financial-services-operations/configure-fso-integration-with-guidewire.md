@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/configure-fso-integration-with-guidewire.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Guidewire, Integrate, Financial Services Operations \(FSO\)]
 ---
@@ -29,7 +29,7 @@ Role required: admin
     -   Guidewire ClaimCenter
     -   Guidewire PolicyCenter
     -   Guidewire ContactManager
-    Select one of these connections and follow the instructions described in  to update the connection configuration.
+    Select one of these connections and follow the instructions described in [Set up the Guidewire spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-guidewire-spoke.md) to update the connection configuration.
 
 3.  Select the **Subflows** tab.
 

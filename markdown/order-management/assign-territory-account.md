@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/assign-territory-account.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Sales Territory Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
@@ -25,6 +25,8 @@ Role required: sales territory admin \(or a user with sales territory override r
 2.  Navigate to **Customer** &gt; **Accounts** and select the account you want to update the territory.
 
 3.  On the Details tab, update the **Sales Ownership** &gt; **Primary Sales Territory** field with the other available territories.
+
+    **Note:** The territories are automatically assigned to the account by the assignment algorithm. For more info, see [Run Assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/run-assignments.md).
 
 4.  Select **Save**.
 

@@ -7,7 +7,7 @@ release: australia
 product: Localization Workspace
 classification: localization-workspace
 topic_type: task
-last_updated: "2026-06-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Requesting translations in Localization Workspace, Localization Workspace, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -26,7 +26,7 @@ Add target languages to a translation request in Localization Workspace.
 
 Your translation request can bundle multiple target languages and multiple content types. Each language in the request can include different target documents.
 
-**Note:** In the Australia release, only requests from English into non-English target languages are supported. Requests from non-English source languages are not supported.
+**Note:** In the Brazil release, only requests from English into non-English target languages are supported. Requests from non-English source languages are not supported.
 
 The following procedure covers step one of four steps in the Translation Request wizard.
 
@@ -44,7 +44,7 @@ The following procedure covers step one of four steps in the Translation Request
 
 4.  Select target languages or language groups according to the following guidance.
 
-<table id="choicetable_ff5_wjv_khc"><tbody><tr><td id="d302303e157">
+<table id="choicetable_ff5_wjv_khc"><tbody><tr><td id="d303516e157">
 
 **Language**
 
@@ -54,7 +54,7 @@ To select an individual language:1.  In the **Target language** field, select an
 2.  In the **Translation provider** field, select a name from the list of providers available for the language you chose.
  You can add more than one language to a request.
 
-</td></tr><tr><td id="d302303e181">
+</td></tr><tr><td id="d303516e181">
 
 **Groups**
 

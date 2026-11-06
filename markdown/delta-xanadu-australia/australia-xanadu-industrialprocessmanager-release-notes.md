@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-industrialprocessmanager-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-10-09"
-reading_time_minutes: 14
+last_updated: "2026-11-06"
+reading_time_minutes: 15
 breadcrumb: [Products combined by family]
 ---
 
@@ -176,7 +176,12 @@ Australia
 
 </td><td>
 
--   **[Discovered subnets supported by the AMAZING feature](https://www.servicenow.com/docs/access?context=automate-mappings-between-ot-assets-and-equipment-model-entity&family=australia&ft:locale=en-US)**
+-   **[Max search results system property](https://www.servicenow.com/docs/access?context=isa-equipment-model-system-properties&family=australia&ft:locale=en-US)**
+
+When you search for an equipment model entity in the Industrial Workspace, the search results show up to 200 matching entities. When there are more, a message asks you to refine your search. Using the sn\_otsm.equipment\_model.max\_search\_results system property, you can change the search result limit to up to 1000.
+
+
+ -   **[Discovered subnets supported by the AMAZING feature](https://www.servicenow.com/docs/access?context=automate-mappings-between-ot-assets-and-equipment-model-entity&family=australia&ft:locale=en-US)**
 
 Use the AMAZING feature, which uses discovered subnets, to identify OT devices and assign them to the correct equipment model entity during OT subnet mapping.
 

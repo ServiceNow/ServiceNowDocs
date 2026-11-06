@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hl7-integration-overview.html
 release: australia
 topic_type: reference
-last_updated: "2026-06-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [HL7, HL7 v2, integration, ADT]
 breadcrumb: [Healthcare Integrations, Healthcare and Life Sciences]

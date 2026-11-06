@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/r\_MailDiagnostics.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Email FAQs and troubleshooting, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Email logs and diagnostics, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Email diagnostics
@@ -21,7 +21,7 @@ Navigate to the Diagnostics and Connection page from either of these modules:
 -   **System Mailboxes** &gt; **Email Diagnostics**
 -   **System Diagnostics** &gt; **Email Diagnostics**
 
-\[Omitted image "email-diagnostics-page.png"\] Alt text: Diagnostics and Connection page that shows email sending and receiving as operational
+\[Omitted image "EmailDiagnosticsPage.png"\] Alt text: Diagnostics and Connection page that shows email receiving as non-operational
 
 For quick status on a field, point to the green check mark or red X icon. The check mark icon indicates that the item is operational or healthy, while the X icon indicates that the item is not operational or within the expected range.
 
@@ -174,7 +174,7 @@ Date and time when the reader job last ran.
 The result of the test connection to the accounts. The connection is tested every time you load the page.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Email FAQs and troubleshooting notification emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/troubleshooting-notification-emails.md)
+</table>**Parent Topic:**[Notification email logs and diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/troubleshooting-notification-emails.md)
 
 **Related topics**  
 

@@ -7,7 +7,7 @@ release: australia
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Digital Portfolio Management, IT Service Management]
 ---
@@ -34,7 +34,7 @@ Create key performance indicator \(KPI\) groups and mappings in Digital Portfoli
 -   **[Configure KPIs in Digital Portfolio Management with service availability example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-configure-kpi-availability.md)**  
 Configure key performance indicators \(KPIs\) in Digital Portfolio Management \(DPM\) to surface performance information in the context of your solutions. This procedure uses the example of configuring service availability to display the availability score in the Run life-cycle phase.
 -   **[Copy a KPI group to create a new KPI group in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-copy-kpi-group.md)**  
-Create a new key performance indicator \(KPI\) group by copying an existing KPI group in Digital Portfolio Management \(DPM\). All the KPI records, supporting KPIs, and mappings of the KPI group are copied as well. After you copy the KPI group, you can modify all aspects of it so the new group best fits your needs.
+Create a key performance indicator \(KPI\) group by copying an existing KPI group in Digital Portfolio Management \(DPM\). All the KPI records, supporting KPIs, and mappings of the KPI group are copied as well. After you copy the KPI group, you can modify all aspects of it so the new group best fits your needs.
 -   **[Update KPIs in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-kpi-descriptions.md)**  
 You can update the key performance indicator \(KPI\) fields in Digital Portfolio Management \(DPM\). The KPI displays in KPI groups in the DPM Workspace.
 

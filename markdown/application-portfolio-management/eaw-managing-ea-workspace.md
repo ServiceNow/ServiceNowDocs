@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-managing-ea-workspace.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -31,7 +31,7 @@ Technology Lifecycle Management provide visibility, governance, and actionable i
 -   **[Working with Technology Reference Model \(TRM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-trm.md)**  
 The Technology Reference Model provides a structured, centralized view of all technology products; hardware, software, and platforms used across the enterprise.
 -   **[Working with Gantt chart views in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-gantt-chart-views.md)**  
-The Gantt charts in the Enterprise Architecture Workspace allow toggling between TLM \(Technology Lifecycle Management\) and TRM \(Technology Reference Model\) views. This enables enterprise architects to visualize key lifecycle stages such as deployment, maintenance, and retirement. Identify risks like outdated configurations or unsupported technologies.
+The Gantt charts in the Enterprise Architecture Workspace allow toggling between TPM \(Technology Portfolio Management\) and TRM \(Technology Reference Model\) views. This enables enterprise architects to visualize key lifecycle stages such as deployment, maintenance, and retirement. Identify risks like outdated configurations or unsupported technologies.
 -   **[Working with Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)**  
 Enterprise Modeling and Visualization provides a structured, visual framework for managing the complex relationships between IT systems, business processes, and organizational goals.
 -   **[Working with data certification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-data-cert.md)**  

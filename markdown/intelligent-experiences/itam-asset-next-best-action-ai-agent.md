@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/itam-asset-next-best-action-ai-agent.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Asset Management AI agents, IT Asset Management, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [Asset Management AI agents, IT Asset Management, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Asset next best action AI agent
@@ -82,7 +82,7 @@ Data access roles The specific user identity roles that determine which data the
 
 </td><td>
 
-inventory\_user, 8c5ce94b77ac4210fa3fca22fe5a994b
+inventory\_user, sn\_eam.asset\_technician
 
 </td></tr><tr><td>
 

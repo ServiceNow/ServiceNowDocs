@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/create-data-interface-union-wdf.html
 release: australia
 topic_type: task
-last_updated: "2026-03-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Managing data interfaces, Data Products, Workflow Data Fabric]
 ---
@@ -21,36 +21,38 @@ Before you begin, verify the following:
 -   All source tables are discoverable in the Data Catalog.
 -   The source tables have compatible schemas. Columns that you map to the same target column must have compatible data types.
 -   For tables in external systems, a zero copy connector for each system is configured in Connect Hub. For setup instructions, see the [Zero copy connectors documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/zero-copy-connectors.md).
--   Role required: data\_product\_admin, df\_data\_steward, delegated\_developer, df\_data\_steward, and delegatedadmin \(scope admin\)
+-   Role required: data\_product\_admin, delegated\_developer, df\_data\_steward, and delegatedadmin \(scope admin\)
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Workflow Data Fabric** &gt; **Data Workbench**.
+1.  In the Unified Navigation menu, select the picker icon \(\[Omitted image "icon-scope.png"\] Alt text:\), then set the **Application scope** to the scope in which you want to create the data interfaces.
 
-2.  Select **Create** &gt; **Create data interface**.
+2.  Navigate to **All** &gt; **Workflow Data Fabric** &gt; **Data Workbench**.
+
+3.  Select **Create** &gt; **Create data interface**.
 
     The data interface wizard opens to the **Basic details** step.
 
-3.  Enter the basic details for the data interface and select **Continue**.
+4.  Enter the basic details for the data interface and select **Continue**.
 
     -   **Interface label**: Enter a name for the data interface. This label identifies the interface in the Data Catalog.
     -   **Unique name**: Auto-generated from the data interface label.
     -   **Application scope**: Select the scope in which to create the data interface.
-4.  On the Select source tables page, select **Add**.
+5.  On the Select source tables page, select **Add**.
 
-5.  Search for the source table in the Data Catalog and add tables to your selection. \[Omitted image "wdf-data-interface-union-select-table.png"\] Alt text: Select source tables
+6.  Search for the source table in the Data Catalog and add tables to your selection. \[Omitted image "wdf-data-interface-union-select-table.png"\] Alt text: Select source tables
 
     **Note:** The following platform table types are not supported as source tables:
 
     -   Tables with names that begin with `sys_`
     -   Child tables
-6.  Review the list of tables and select **Continue**.
+7.  Review the list of tables and select **Continue**.
 
     The wizard advances to the combination method step.
 
-7.  Select **Union** as the combination method and select **Continue**.
+8.  Select **Union** as the combination method and select **Continue**.
 
-8.  Map source columns from each table to the union output schema and select **Continue**.
+9.  Map source columns from each table to the union output schema and select **Continue**.
 
     The **Union mapping** step shows a row for each output column. For each row:
 
@@ -59,13 +61,13 @@ Before you begin, verify the following:
     -   Select the target column type.
     All source columns mapped to the same output column must have compatible data types. The system validates type compatibility and displays errors before you can continue. \[Omitted image "wdf-data-interface-union-select-columns.png"\] Alt text: Define union mapping
 
-9.  Review the target table column mapping and select **Create table**.
+10. Review the target table column mapping and select **Create table**.
 
     The **Define target table** step shows the output schema based on your union mapping. You can adjust column labels and types before creating the table. \[Omitted image "wdf-data-interface-union-define-table.png"\] Alt text: Define target table
 
     The system creates the data interface table and the underlying Data Fabric Tables. The wizard advances to the **Connect and verify** step.
 
-10. Connect and verify each source table.
+11. Connect and verify each source table.
 
     Repeat the following substeps for each source table.
 
@@ -77,17 +79,17 @@ Before you begin, verify the following:
 
         The table shows a **Verified** status when the connection is verified. \[Omitted image "wdf-data-interface-union-verify.png"\] Alt text: Connect and verify
 
-11. Select **Preview** to review sample data from the data interface.
+12. Select **Preview** to review sample data from the data interface.
 
     The preview shows the top 10 live records from the combined output. Verify the columns and data match what consumers expect before continuing.
 
-12. Review the permissions and select **Continue**.
+13. Review the permissions and select **Continue**.
 
     For data interfaces built entirely on external source tables, the system automatically configures the required access roles.
 
     **Note:** If the data interface includes any ServiceNow tables, this step requires a manual permissions request. Copy the email template provided and send it to your Security Administrator. The Security Administrator must add the correct read roles to the composite role generated for the data interface. Select the confirmation check box before continuing.
 
-13. Review the data interface configuration on the **Review and finalize** page and select **Done**.
+14. Review the data interface configuration on the **Review and finalize** page and select **Done**.
 
     The data interface is published and the overview page opens.
 

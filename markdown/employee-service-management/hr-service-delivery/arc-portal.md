@@ -7,7 +7,7 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Employee Relations, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
@@ -26,7 +26,7 @@ The following steps describe how an employee submits a report and how the system
 2.  Case Creation — The system automatically creates an Employee Relations case in the HR Agent Workspace, routing it to the appropriate HR team for review.
 3.  Investigation — An HR agent picks up the case and can initiate a formal investigation directly from the HR Agent Workspace.
 4.  Two-Way Communication — If the HR agent needs more information, they can communicate with the employee through case comments. The employee can respond without ever revealing their identity.
-5.  Employee Case Tracking — The employee can check in on their case at any time by returning to the ARC and entering their case number and case key to view status updates and any new activity.
+5.  Employee Case Tracking — The employee can check in on their case at any time. They return to the ARC and enter their case number and case key to view status updates and any new activity.
 
 ## Getting Started
 

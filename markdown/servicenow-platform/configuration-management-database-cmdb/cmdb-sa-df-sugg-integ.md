@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-06-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [suggested integrations for Data Foundations, recommended Service Graph Connectors, recommended Discovery patterns, Data integrations tab, improve CI data coverage]
 breadcrumb: [Analyze data integrations, Use Data Foundations advisor, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
@@ -37,7 +37,7 @@ The Data Foundations advisor dashboard must be configured before you can access 
 
 5.  Select the **Attribute coverage** link next to a suggested integration to view which CI attributes it supports for your principal classes.
 
-    **Note:** If an upgraded version of the integration is suggested, select **View available versions** to open the Application Manager, where users with the admin role can install or upgrade the integration to improve attribute coverage. For more information, see [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager.md).
+    **Note:** If an upgraded version of the integration is suggested, select **View available versions** to open the Application Manager, where users with the admin role can install or upgrade the integration to improve attribute coverage. For more information, see .
 
 
 ## Result

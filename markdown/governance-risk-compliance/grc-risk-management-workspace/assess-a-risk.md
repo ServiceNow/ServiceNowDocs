@@ -7,7 +7,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Assess risks, Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -30,7 +30,7 @@ Risk assessments do not appear in the **Self-Service** &gt; **My assessments &am
 
 2.  Open the assessment and review the details.
 
-<table id="choicetable_ehk_qqs_dw"><tbody><tr><td id="d438315e108">
+<table id="choicetable_ehk_qqs_dw"><tbody><tr><td id="d442051e108">
 
 **If you are unable to answer the questions**
 
@@ -42,7 +42,7 @@ Risk assessments do not appear in the **Self-Service** &gt; **My assessments &am
 
  The list of assessments refreshes when you reassign an assessment to another user.
 
-</td></tr><tr><td id="d438315e141">
+</td></tr><tr><td id="d442051e141">
 
 **If you are able to answer the questions**
 

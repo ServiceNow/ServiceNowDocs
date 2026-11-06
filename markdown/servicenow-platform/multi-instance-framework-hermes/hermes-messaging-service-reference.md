@@ -7,7 +7,7 @@ release: australia
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,8 +22,6 @@ The Hermes Messaging Service architecture is built on the following components.
 The Hermes Messaging Service security model relies on the following capabilities.
 -   **[Hermes Messaging Service system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-properties.md)**  
 These system properties control the behavior of the Hermes Messaging Service.
--   **[Hermes background jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/multi-instance-framework-hermes/hermes-settings-background-jobs.md)**  
-These background jobs are associated with Hermes settings. The table lists their default run frequencies and descriptions.
 -   **[Hermes Messaging Service roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-roles.md)**  
 Hermes Messaging Service is installed with these roles.
 -   **[Hermes Messaging Service domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-domain-separation.md)**  

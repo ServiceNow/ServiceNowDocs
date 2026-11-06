@@ -7,9 +7,9 @@ release: australia
 product: Knowledge Graph
 classification: knowledge-graph
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Using Enterprise graph schema, Knowledge Graph, Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Using Enterprise graph schema, Knowledge Graph, Managing data for AI, Enable AI Experiences]
 ---
 
 # Enterprise Graph initial setup in production instance
@@ -18,7 +18,7 @@ Setup and use Enterprise Graph Schema, a unified Knowledge Graph schema, that ca
 
 ## Before you begin
 
-When you install Enterprise Graph, it automatically begins configuring instance tables. This may take several days and until the setup is complete, the schema won't respond effectively to queries.
+When you install Enterprise Graph, it automatically begins configuring instance tables. This may take several days and until the setup is complete, the schema won’t respond effectively to queries.
 
 If you have already completed the setup in sub-production instance, you can import the generated descriptions to production instance and fasten the process.
 
@@ -37,17 +37,17 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Connections &amp; Credentials** &gt; **Connection &amp; Credential Aliases**.
 
-    \[Omitted image "connection-and-credntials-page.png"\] Alt text: Connection and credentials navigation
+    \[Omitted image "image.connection-and-credntials-page"\] Alt text: Connection and credentials navigation
 
 2.  Open the record with name **Description\_Connector**.
 
 3.  Select **Create New Connection &amp; Credential** from the related links section.
 
-    \[Omitted image "connection-and-credentials-aliases.png"\] Alt text: Create connection and credentials aliases
+    \[Omitted image "image.connection-and-credentials-aliases"\] Alt text: Create connection and credentials aliases
 
 4.  Enter the required details in the **Create Connection &amp; Credential** form.
 
-    \[Omitted image "create-connection-and-credntials.png"\] Alt text: Create connection and credentials form
+    \[Omitted image "image.create-connection-and-credntials"\] Alt text: Create connection and credentials form
 
 5.  Add the user name and password that was used, while creating the new user.
 
@@ -67,11 +67,11 @@ Role required: admin
 
 8.  Open one of the displayed table and select **Load All Records** from the Related links section.
 
-    Ensure the data is loaded.\[Omitted image "table-picker-kg.png"\] Alt text: KG Table picker
+    Ensure the data is loaded.\[Omitted image "image.table-picker-kg"\] Alt text: KG Table picker
 
 9.  Navigate to **System Import Sets** &gt; **Advanced** &gt; **Import Sets**, once the data is loaded.
 
-    For detailed information, see import set documentation [Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/import-sets-landing-page.md)\[Omitted image "import-set-kg.png"\] Alt text: Import set
+    For detailed information, see import set documentation [Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/import-sets-landing-page.md)\[Omitted image "image.import-set-kg"\] Alt text: Import set
 
 10. Open the import set and select **Transform** from the Related links section.
 
@@ -79,21 +79,10 @@ Role required: admin
 
 11. Select **Transform** to complete the transformation.
 
-    \[Omitted image "transform-page-kg.png"\] Alt text: Transform option
+    \[Omitted image "image.transform-page-kg"\] Alt text: Transform option
 
 12. Navigate to the selected table and verify if the data is loaded.
 
 13. Repeat the import set and transformation steps for other three tables.
 
-14. For regulated market instance, complete the following additional steps:
-
-    -   Go to `sn_kg_picker_description_tracker` table and delete all the existing data.
-
-    -   Go to system properties \(sys\_properties\) and update the following fields:
-
-        -   Property name: sn\_kg.knowledge\_graph.description.server\_url\_prefix
-        -   Property value: `https://<CDN-server-url>/glide/distribution/builds/package/app-signed/knowledge-graph-descriptions/`. Replace the `<CDN-server-url>` with your CDN server URL.
-    -   Go to sys\_properties and verify if Knowledge Graph version is 2.1 or later and
-        -   Property name: sn\_kg.knowledge\_graph.description.version
-        -   Property value: 2.1
 

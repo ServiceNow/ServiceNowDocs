@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Change management integrations, Reference, Change Management, IT Service Management]
 ---
@@ -20,12 +20,12 @@ If your organization is subscribed to ITOM Discovery or ITOM Visibility, integra
 
 Depending on subscriptions purchased by your organization, you must install and configure the following plugins:
 
--   For ITOM Discovery - the Discovery plugin \(com.snc.discovery\)
--   For ITOM Visibility - the Discovery plugin \(com.snc.discovery\) and Service Mapping plugin \(com.snc.service-mapping\)
+-   For ITOM Discovery: the Discovery plugin \(com.snc.discovery\)
+-   For ITOM Visibility: the Discovery plugin \(com.snc.discovery\) and Service Mapping plugin \(com.snc.service-mapping\)
 
 ## Integration with ITOM Discovery
 
-When Discovery is activated, Change Management exposes three new properties within the Change Properties module \(**Change Management** &gt; **Administration** &gt; **Change Properties**\):
+When Discovery is activated, Change Management adds three properties to the Change Properties module \(**Change Management** &gt; **Administration** &gt; **Change Properties**\). The following table describes these properties.
 
 <table id="table_jh5_w4s_jdb"><thead><tr><th>
 
@@ -47,7 +47,7 @@ Determines whether to trigger discovery for the affected CIs automatically, manu
 
  Default value: Off
 
- **Note:** If the property below is set to Both, and you trigger discovery manually, then the automatic discovery will not be triggered for that change request.
+ **Note:** If this property is set to Both and you trigger discovery manually, automatic discovery isn't triggered for that change request.
 
 </td></tr><tr><td>
 
@@ -55,7 +55,7 @@ List of Change Request states \(comma-separated\) where discovery can be trigger
 
 </td><td>
 
-Defines the change request state values to allow discovery to be manually initiated. For these defined state values, the Initiate Discovery related link is available.Type: String
+Defines the change request states in which users can manually initiate discovery. For these defined state values, the Initiate Discovery related link is available.Type: String
 
  Default value: Implement, Review
 
@@ -63,7 +63,7 @@ Defines the change request state values to allow discovery to be manually initia
 
 </td></tr><tr><td>
 
-List of Change Request states \(comma-separated\) where discovery triggers automatically. E.g. when the Change Request's state changes to Review
+List of Change Request states \(comma-separated\) where discovery triggers automatically. For example, when the Change Request's state changes to Review
 
 </td><td>
 
@@ -74,9 +74,9 @@ Defines the change request state values for which discovery is automatically tri
  **Note:** If there are multiple languages used on the instance, then this property needs to be set to the internal state value for Review.
 
 </td></tr></tbody>
-</table>**Note:** For the last two properties in the above table, if there are multiple languages used on the instance, then the property needs to be set to the internal value, which is 0, for Review.
+</table>**Note:** For the last two properties in the preceding table, if there are multiple languages used on the instance, then the property needs to be set to the internal value, which is 0, for Review.
 
-In addition to the new properties, the **Discovery State** and the **Discovery last updated** fields get added to the **Affected CI** related list. **Discovery State** provides one of five status values and a corresponding icon to reflect that status:
+In addition to these properties, the **Discovery State** and the **Discovery last updated** fields are added to the Affected CIs related list. **Discovery State** provides one of five status values and a corresponding icon to reflect that status:
 
 -   In Progress
 -   Completed Successfully
@@ -88,7 +88,7 @@ The Discovery State value is presented as a link to the corresponding Discovery 
 
 If you have opted to manually initiate the Discovery module, or opted for both manual and automatic initiation, then the **Initiate Discovery** related link appears in the Related Links section when the state of the change request matches one of the defined states in the property. When Discovery is triggered, the values in the **Discovery State** and the **Discovery last updated** fields change.
 
-\[Omitted image "cm-integration-discovery"\] Alt text: change management integration with discovery
+\[Omitted image "cm-integration-discovery"\] Alt text: Affected CIs related list with Discovery State and Discovery last updated fields, and the Initiate Discovery related link
 
 ## Integration with ITOM Visibility
 

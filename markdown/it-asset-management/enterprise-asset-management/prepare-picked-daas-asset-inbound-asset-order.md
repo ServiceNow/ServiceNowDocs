@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Completing an inbound asset order, Managing inbound asset orders for requested DaaS assets, Enterprise Asset Management for Providers, Industry-specific EAM solutions, Enterprise Asset Management, Asset Management]
 ---
@@ -28,15 +28,15 @@ Role required: sn\_eam\_provider.provider\_asset\_technician
 
 2.  Open the Asset tasks list.
 
-<table id="choicetable_wwt_xxs_1hc"><thead><tr><th align="left" id="d361380e91">
+<table id="choicetable_wwt_xxs_1hc"><thead><tr><th align="left" id="d367295e91">
 
 Navigation option
 
-</th><th align="left" id="d361380e94">
+</th><th align="left" id="d367295e94">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d361380e100">
+</th></tr></thead><tbody><tr><td id="d367295e100">
 
 **Provider inbound asset order**
 
@@ -52,7 +52,7 @@ Procedure
 5.  On the inbound asset order line record, select the **Asset tasks** tab.
 
 
-</td></tr><tr><td id="d361380e144">
+</td></tr><tr><td id="d367295e144">
 
 **Provider inbound asset order line**
 
@@ -66,7 +66,7 @@ Procedure
 3.  On the inbound asset order line record, select the **Asset tasks** tab.
 
 
-</td></tr><tr><td id="d361380e179">
+</td></tr><tr><td id="d367295e179">
 
 **Provider asset tasks**
 

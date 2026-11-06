@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using agentic workflows, ServiceNow Otto for Configuration Management Database \(CMDB\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -54,15 +54,15 @@ Incomplete CI data can lead to poor business outcomes and loss of trust in busin
 
 3.  Provide feedback, copy the response text to the clipboard, or refresh the response.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d509866e271">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d514675e271">
 
 Option
 
-</th><th align="left" id="d509866e274">
+</th><th align="left" id="d514675e274">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d509866e280">
+</th></tr></thead><tbody><tr><td id="d514675e280">
 
 **Provide feedback for the summary**
 
@@ -70,7 +70,7 @@ Procedure
 
 If you think that the response was helpful, select thumbs-up \[Omitted image "icon-thumbs-up.png"\]. If you think that it wasn’t helpful, select thumbs-down \[Omitted image "icon-thumbs-down.png"\].This feedback improves the agentic AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated response and stores it in the agentic AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d509866e295">
+</td></tr><tr><td id="d514675e295">
 
 **Copy the summary**
 
@@ -78,7 +78,7 @@ If you think that the response was helpful, select thumbs-up \[Omitted image "ic
 
 Select the copy to clipboard icon \[Omitted image "icon-clipboard.png"\] to use the response information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d509866e306">
+</td></tr><tr><td id="d514675e306">
 
 **Refresh the summary**
 

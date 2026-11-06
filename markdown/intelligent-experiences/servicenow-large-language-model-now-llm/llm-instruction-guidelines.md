@@ -7,10 +7,10 @@ release: australia
 product: ServiceNow Large Language Model \(Now LLM\)
 classification: servicenow-large-language-model-now-llm
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 keywords: [LLM, Large language model, writing, guidelines, instructions, Now Assist, GenAI, Generative AI]
-breadcrumb: [Large language models on the ServiceNow AI Platform, Enable AI experiences]
+breadcrumb: [Large language models, Large language models and providers, Enable AI Experiences]
 ---
 
 # General guidelines for writing instructions for generative AI large language models \(LLMs\)

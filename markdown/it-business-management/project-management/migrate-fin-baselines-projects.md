@@ -8,7 +8,7 @@ product: Project Management
 classification: project-management
 topic_type: task
 last_updated: "2026-09-07"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -43,15 +43,15 @@ Role required: it\_project\_manager
 
 2.  Migrate baselines using one of the following options.
 
-<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d54116e165">
+<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d53735e165">
 
 Choice
 
-</th><th align="left" id="d54116e168">
+</th><th align="left" id="d53735e168">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d54116e174">
+</th></tr></thead><tbody><tr><td id="d53735e174">
 
 **Using list actions**
 
@@ -62,7 +62,7 @@ Description
 3.  Select **OK** on the Migrate Financial Baselines confirmation window.
 
 
-</td></tr><tr><td id="d54116e204">
+</td></tr><tr><td id="d53735e204">
 
 **Using related links**
 
@@ -72,7 +72,7 @@ Description
 2.  Select the **Migrate Financial Baselines** related link.
 
 
-</td></tr><tr><td id="d54116e225">
+</td></tr><tr><td id="d53735e225">
 
 **Activate a scheduled job**
 
@@ -121,6 +121,10 @@ Financial baselines for the selected projects will be migrated to Next Experienc
 [Create an expense line]()
 
 [Create and manage waterfall projects]()
+
+[Schedule a project from a start date]()
+
+[Apply or change a task constraint]()
 
 [Update a project]()
 

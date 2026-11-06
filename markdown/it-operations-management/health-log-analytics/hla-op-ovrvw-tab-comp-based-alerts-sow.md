@@ -7,7 +7,7 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Overview tab, Component-based alerts, identified issue, anomaly card, anomaly detection, baseline, meaningful log properties, impacted services, configuration items, surrounding logs]
 breadcrumb: [Information on the alert Overview tab, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
@@ -29,7 +29,7 @@ For a detailed description of Component-based alerts, see [Types of Health Log A
 
     Select the **Details** tab for more information about the alert.
 
-    Select the **View surrounding logs** link to view the log lines that were generated one minute before and one minute after the alert. For more information, see [Analyze log lines that surround an anomaly in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-op-surrounding-logs-view-sow.md).
+    Select the **View surrounding logs** link to view the log lines that were generated one minute before and one minute after the alert. For more information, see [Analyze log lines around an anomaly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-op-surrounding-logs-view-sow.md).
 
 -   **Anomaly**
 

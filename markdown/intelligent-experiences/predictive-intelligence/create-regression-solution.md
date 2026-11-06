@@ -7,9 +7,9 @@ release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: task
-last_updated: "2026-03-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Creating and training solutions, Predictive Intelligence, Enable AI experiences]
+breadcrumb: [Creating and training solutions, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Create and train a regression solution
@@ -18,7 +18,7 @@ Regression solutions have been deprecated. They could be used to predict numeric
 
 ## Before you begin
 
-**Note:** Support for new regression solutions is deprecated in the Australia release. You can still edit and train any existing solutions, but you can't initiate new ones. The following information is provided for legacy context.
+**Note:** Support for new regression solutions is deprecated in the Brazil release. You can still edit and train any existing solutions, but you can't initiate new ones. The following information is provided for legacy context.
 
 Role required: ml\_admin or admin
 

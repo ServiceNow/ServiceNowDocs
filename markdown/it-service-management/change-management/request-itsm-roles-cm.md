@@ -1,20 +1,20 @@
 ---
-title: Request ITSM Roles- Change Management
-description: Request the ITSM Roles plugin \(com.snc.itsm.roles\) to activate the ITSM Roles — Change Management plugin \(com.snc.itsm.roles.change\_management\) to gain more control over the access that different change agents, technicians, and managers have within your Change Management process.
+title: Request ITSM Roles - Change Management
+description: Request the ITSM Roles plugin \(com.snc.itsm.roles\) to activate the ITSM Roles - Change Management plugin \(com.snc.itsm.roles.change\_management\). This gives change agents, technicians, and managers more control over access within your Change Management process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/request-itsm-roles-cm.html
 release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Change Management plugins, Configure, Change Management, IT Service Management]
 ---
 
-# Request ITSM Roles- Change Management
+# Request ITSM Roles - Change Management
 
-Request the ITSM Roles plugin \(com.snc.itsm.roles\) to activate the ITSM Roles — Change Management plugin \(com.snc.itsm.roles.change\_management\) to gain more control over the access that different change agents, technicians, and managers have within your Change Management process.
+Request the ITSM Roles plugin \(com.snc.itsm.roles\) to activate the ITSM Roles - Change Management plugin \(com.snc.itsm.roles.change\_management\). This gives change agents, technicians, and managers more control over access within your Change Management process.
 
 ## Before you begin
 
@@ -22,11 +22,17 @@ Role required: admin
 
 ## About this task
 
-The ITSM Roles plugin activates several related plugins such as Business Stakeholder \(com.snc\_business\_stakeholder\), ITSM Roles — Incident Management \(com.snc.itsm.roles.incident\_management\), ITSM Roles — Problem Management \(com.snc.itsm.roles.problem\_management\), ITSM Roles — Change Management \(com.snc.itsm.roles.change\_management\), and ITSM Roles — Request Management \(com.snc.service\_management.roles.request\_management\). The related plugins updates the security model and introduces roles for respective products.
+The ITSM Roles plugin activates the following related plugins, which update the security model and introduce roles for respective products:
 
-With the introduction of the new roles, ITSM provides more control over the access that users have within the process.
+-   Business Stakeholder \(com.snc\_business\_stakeholder\)
+-   ITSM Roles - Incident Management \(com.snc.itsm.roles.incident\_management\)
+-   ITSM Roles - Problem Management \(com.snc.itsm.roles.problem\_management\)
+-   ITSM Roles - Change Management \(com.snc.itsm.roles.change\_management\)
+-   ITSM Roles - Request Management \(com.snc.service\_management.roles.request\_management\)
 
-By default, this feature is activated only in new instances created in New York or the above releases. It is not automatically activated when upgrading to New York or newer releases from a version prior to New York.
+These roles provide more control over the access that users have within the process.
+
+By default, this feature is active only on new instances created in New York and later releases. It isn't activated automatically when you upgrade to New York or a later release from an earlier release.
 
 ## Procedure
 
@@ -60,7 +66,7 @@ Which plugin would you like to activate
 
 Select the name of the plugin to activate.
 
- **Note:** If the plugin isn't listed, or if you're activating on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box. Enter the plugin name in the field that appears.
+ **Note:** If the system doesn't list the plugin you want or if you're activating the plugin on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box and then enter the name of the plugin.
 
 </td></tr><tr id="date-time"><td>
 
@@ -79,7 +85,7 @@ Select the date and time to activate the plugin.
 
 
 -   **[Components installed with ITSM Roles - Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/installed-with-cm-itsm-roles.md)**  
-Several user roles are installed with the activation of the ITSM Roles — Change Management plugin \(com.snc.itsm.roles.change\_management\). Security ACLs to support the security model for Change Management and related functionality are also installed.
+Several user roles are installed with the activation of the ITSM Roles - Change Management plugin \(com.snc.itsm.roles.change\_management\). Security ACLs to support the security model for Change Management and related functionality are also installed.
 
 **Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-plugins.md)
 
@@ -104,11 +110,11 @@ Several user roles are installed with the activation of the ITSM Roles — Chang
 
 [Activate Change Management - Mass Update CI]()
 
-[Activate Change Management -Approval policy]()
+[Activate Change Management - Approval policy]()
 
 [Activate Change Management - CAB Workbench]()
 
-[Activate Change Management ATF Tests]()
+[Activate Change Management - ATF Tests]()
 
 [Activate Change Management - Core]()
 
@@ -116,7 +122,7 @@ Several user roles are installed with the activation of the ITSM Roles — Chang
 
 [Request Change Management - Standard Change Template Intelligence]()
 
-[Change Management - Predictive Intelligence Core]()
+[Request Change Management - Predictive Intelligence Core]()
 
 [Activate Change Management - Change Flows]()
 
@@ -124,7 +130,7 @@ Several user roles are installed with the activation of the ITSM Roles — Chang
 
 [Activate Change Management - Change Models]()
 
-[Activate Change Management Success Probability]()
+[Activate Change Management - Success Probability]()
 
 [Activate Change Management - Data Archiving]()
 

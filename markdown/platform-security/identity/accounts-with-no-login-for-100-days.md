@@ -7,7 +7,7 @@ release: australia
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security findings, Exploring Machine Identity Console, Machine Identity Console, Identity]
 ---
@@ -17,6 +17,8 @@ breadcrumb: [Security findings, Exploring Machine Identity Console, Machine Iden
 Display the findings about the accounts that have not accessed any API in 100 days under the Security findings in the Machine Identity Console.
 
 Accounts with no login for 100 days displays the non human identity accounts that have not accessed any API in 100 days.
+
+The list uses a 99-day window, so it includes accounts that have not accessed any API in the last 99 days.
 
 **Note:** Any changes made to the record displayed on this page are immediately updated in the list, risk score resulting from those changes will be reflected the following day.
 

@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Activate Change Management - Change Schedule, Change Management plugins, Configure, Change Management, IT Service Management]
 ---
@@ -24,8 +24,8 @@ Plugins are added with activation of Change Management - Change Schedule.
 
 |Plugin|ID|Description|
 |------|---|-----------|
-|Change Management - Change Schedule|com.snc.change\_management.soc|This plugin is the core Change Schedules plugin which includes the supporting Change Schedules table structure, landing page, and Change Schedules user interface.|
-|Change Management - Change Schedule foundation|com.snc.change\_management.soc.foundation|This plugin contains six change schedules to help users. Enabling this plugin automatically enables Change Management – Change Schedules Version 1.0.0.|
+|Change Management - Change Schedule|com.snc.change\_management.soc|Core Change Schedules plugin, which includes the supporting Change Schedules table structure, landing page, and Change Schedules user interface.|
+|Change Management - Change Schedule foundation|com.snc.change\_management.soc.foundation|Contains six base change schedules. Activating this plugin also activates the Change Management - Change Schedule plugin.|
 
 ## Roles installed with Change Management - Change Schedule
 
@@ -39,7 +39,7 @@ Roles are added with activation of Change Management - Change Schedule.
 
 Tables are added with activation of Change Management - Change Schedule.
 
-Change Management - Change Schedule adds the following tables.
+The Change Management - Change Schedule plugin adds the following tables.
 
 <table id="table_id2_fgd_3db"><thead><tr><th>
 
@@ -55,7 +55,7 @@ Style Rule\[chg\_soc\_style\_rule\]
 
 </td><td>
 
-Define a default style rule that is applied to all Change Schedule definitions for each Change record displayed on the page
+Defines a default style rule that is applied to all Change Schedule definitions for each Change record displayed on the page
 
 </td></tr><tr><td>
 
@@ -63,7 +63,7 @@ Style Rule\[chg\_soc\_definition\_style\_rule\]
 
 </td><td>
 
-Define a style rule for each Change record displayed on the Change Schedule page
+Defines a style rule for each Change record displayed on the Change Schedule page
 
 </td></tr><tr><td>
 
@@ -71,7 +71,7 @@ Style Rule\[chg\_soc\_def\_child\_style\_rule\]
 
 </td><td>
 
-Define a style rule for each related record displayed on the Change Schedule page
+Defines a style rule for each related record displayed on the Change Schedule page
 
 </td></tr><tr><td>
 
@@ -79,7 +79,7 @@ Change Schedule Definition\[chg\_soc\_definition\]
 
 </td><td>
 
-Define a Change Schedule page
+Defines a Change Schedule page
 
 </td></tr><tr><td>
 
@@ -87,7 +87,7 @@ Change Schedule Definition Core \[chg\_soc\_definition\_child\]
 
 </td><td>
 
-Define related records for each Change record that is presented on the Change Schedule page
+Defines related records for each Change record that is presented on the Change Schedule page
 
 </td></tr></tbody>
 </table>## Properties installed with Change Management - Change Schedule
@@ -346,8 +346,8 @@ Script includes are added with activation of Change Management - Change Schedule
 |SoCLandingModelBuilderSNC|Builds the change schedule definition model used by the Change Schedule landing page|
 |SoCModelBuilder|Extends SoCModelBuilderSNC and can be used to overwrite functionality defined therein|
 |SoCModelBuilderSNC|Builds the change schedule model used by the change schedule page|
-|SoCRefFieldsList|Field choice list processor. Return the fields on the current table which reference the parent table|
-|SoCRefTablesList|Field Choice List Processor. Return the tables referencing the provided table name.|
+|SoCRefFieldsList|Field choice list processor. Returns the fields on the current table that reference the parent table|
+|SoCRefTablesList|Field Choice List Processor. Returns the tables referencing the provided table name.|
 |SoCStyleRule|Extends SoCStyleRuleSNC and can be used to overwrite functionality defined therein|
 |SoCStyleRuleSNC|Provides utilities for style rules|
 
@@ -368,7 +368,7 @@ UI scripts are added with activation of Change Management - Change Schedule.
 |sn\_chg\_soc.gantt|Angular module that maintains instances of gantt objects and handles the definition of the gantt scale|
 |sn\_chg\_soc.keyboard|Angular module for the keyboard panel on the change schedule page|
 |sn\_chg\_soc.landing.app|Angular module for the change schedule landing page, which includes all of the angular applications dependencies|
-|sn\_chg\_soc.landing\_accessibility|Angular module for acceissbility support on the change schedule landing page|
+|sn\_chg\_soc.landing\_accessibility|Angular module for accessibility support on the change schedule landing page|
 |sn\_chg\_soc.landing\_card|Angular module defines a directive for a change schedule definition card|
 |sn\_chg\_soc.landing\_decoration|Angular module defines a directive that provides styling|
 |sn\_chg\_soc.landing\_notifications|Angular module for displaying notifications|

@@ -1,6 +1,6 @@
 ---
-title: Contract repository record tabs
-description: Use the tabs on a contract repository record to view contract details, documents, requests, obligations, and history. Some tabs appear only after an amendment or renewal workflow completes.
+title: View contract repository record
+description: Use the tabs on a contract repository record to view contract details, documents, requests, obligations, and renewal history.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-view-cntr-tabs.html
 release: australia
@@ -8,18 +8,16 @@ product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
 last_updated: "2026-09-22"
-reading_time_minutes: 2
+reading_time_minutes: 1
 keywords: [contract repository, CNTR, contract record tabs]
 breadcrumb: [Manage contract records, Manage, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Contract repository record tabs
+# View contract repository record
 
-Use the tabs on a contract repository record to view contract details, documents, requests, obligations, and history. Some tabs appear only after an amendment or renewal workflow completes.
+Use the tabs on a contract repository record to view contract details, documents, requests, obligations, and renewal history.
 
-## Standard tabs
-
-The following tabs are available on every contract repository \(CNTR\) record:
+The following tabs are available on a contract repository \(CNTR\) record:
 
 -   **Details**
 
@@ -31,33 +29,23 @@ The following tabs are available on every contract repository \(CNTR\) record:
 
 -   **Contract documents**
 
-    View all signed documents related to the contract. This tab also shows documents generated or updated through amendment and renewal processes. Amendment contract documents have **Amend&lt;version&gt;** appended to the name.
+    View all signed documents related to the contract, including documents generated or updated through amendment processes. Amendment contract documents have **Amend&lt;version&gt;** appended to the name.
 
 -   **Contract requests**
 
-    View all contract, amendment, and renewal requests associated with the contract repository record.
+    View all contract and amendment requests associated with the contract repository record.
 
 -   **Obligations**
 
     View and manage obligations extracted from the contract. For more information, see [Obligation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-obligation-management.md).
 
--   **Record History**
-
-    View the history of changes made to the contract repository record.
-
-
-## Amendment tabs
-
-The following tab appears on a contract repository record after an amendment workflow completes. You must add it to your workspace view before it is visible. For setup instructions, see [Add amendment tabs to contract repository record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-BU-amend-relatedlist.md).
-
 -   **Amendment field changes**
 
     View a detailed log of all field changes made through amendments, including the old and new values for each change.
 
+-   **Record History**
 
-## Renewal tab
-
-The following tab appears on a contract repository record after a renewal workflow completes:
+    View the history of changes made to the contract repository record.
 
 -   **Contract history**
 

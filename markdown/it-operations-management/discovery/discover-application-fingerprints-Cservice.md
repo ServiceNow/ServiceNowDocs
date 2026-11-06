@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Discover applications based on fingerprints, Running discoveries in your network, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
@@ -34,15 +34,15 @@ Review application suggestions based on application fingerprints or ITOM Content
 
 2.  Select an application suggestion to add to discovery based on either application fingerprints or ITOM Content Service.
 
-<table id="choicetable_r5b_jxr_21c"><thead><tr><th align="left" id="d526451e185">
+<table id="choicetable_r5b_jxr_21c"><thead><tr><th align="left" id="d564325e185">
 
 Suggestion source
 
-</th><th align="left" id="d526451e188">
+</th><th align="left" id="d564325e188">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d526451e194">
+</th></tr></thead><tbody><tr><td id="d564325e194">
 
 **Application fingerprints**
 
@@ -59,7 +59,7 @@ For information about the form fields, see [Application fingerprint suggestion f
     -   If you want to add it, select **Add to discovery**.
 
 
-</td></tr><tr><td id="d526451e247">
+</td></tr><tr><td id="d564325e247">
 
 **ITOM Content Service**
 

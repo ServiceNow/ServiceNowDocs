@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/setting-up-fso-integration.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Socure, Integrate, Financial Services Operations \(FSO\)]
 ---
@@ -22,5 +22,5 @@ To set up your integration, do the following actions:
 
 1.  Request an Integration Hub subscription. To learn how, see [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/request-ih-overview.md)
 2.  Activate Financial Services Operations integration with Socure application from ServiceNow Store which automatically activates the Socure spoke.
-3.  Set up the Socure spoke. To learn how, see Set up the Socure spoke.
+3.  Set up the Socure spoke. To learn how, see [Set up the Socure spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-socure.md).
 

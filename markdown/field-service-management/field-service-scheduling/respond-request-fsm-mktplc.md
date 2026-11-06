@@ -7,7 +7,7 @@ release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Allowing contractors to bid on work orders and tasks, Scheduling and dispatching, Use, Field Service Management]
 ---
@@ -32,7 +32,7 @@ Fulfilling requests on Field Service Marketplace is only available via the Mobil
 
     **Note:** Selection options vary depending on the requestor's configuration.
 
-<table id="choicetable_jfw_j4r_21c"><tbody><tr><td id="d115156e123">
+<table id="choicetable_jfw_j4r_21c"><tbody><tr><td id="d117915e123">
 
 **Respond**
 
@@ -40,7 +40,7 @@ Fulfilling requests on Field Service Marketplace is only available via the Mobil
 
 Enables you to respond with time estimates, cost estimates, or other notes and comments. The requestor may award the task to you.
 
-</td></tr><tr><td id="d115156e132">
+</td></tr><tr><td id="d117915e132">
 
 **Accept**
 
@@ -48,7 +48,7 @@ Enables you to respond with time estimates, cost estimates, or other notes and c
 
 Accepts the request. The requestor may award the task to you.
 
-</td></tr><tr><td id="d115156e141">
+</td></tr><tr><td id="d117915e141">
 
 **Decline**
 

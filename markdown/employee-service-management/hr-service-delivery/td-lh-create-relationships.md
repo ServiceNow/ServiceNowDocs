@@ -7,9 +7,9 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Install and configure, Leader Hub, HR Service Delivery, Employee Service Management]
+breadcrumb: [Installing and configuring Leader Hub, Leader Hub, HR Service Delivery, Employee Service Management]
 ---
 
 # Create support relationships
@@ -20,7 +20,7 @@ Use the Org Support Relationships table to create a relationship between an orga
 
 An organizational leader can receive support from multiple organizational supporters, and an organizational supporter can support multiple organizational leaders. You must create a separate record for each organizational relationship.
 
-Role required: sn\_egd\_lh.admin
+Role required: admin \[sn\_egd\_lh.admin\]
 
 ## Procedure
 

@@ -1,26 +1,28 @@
 ---
 title: CMDB search AI agent
-description: This AI agent searches for data in CMDB.
+description: Searches for CIs in the CMDB. It builds queries from the request, runs them, and returns a link or summary for the matched CIs. The agent supports multi-table searches with joins and can be consumed through MCP.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/cmdb-cmdb-search-ai-agent.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-14"
-reading_time_minutes: 1
-breadcrumb: [CMDB AI agents, CMDB, AI agents library, AI assets, Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [CMDB AI agents, CMDB, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # CMDB search AI agent
 
-This AI agent searches for data in CMDB.
+Searches for CIs in the CMDB. It builds queries from the request, runs them, and returns a link or summary for the matched CIs. The agent supports multi-table searches with joins and can be consumed through MCP.
 
 ## Workflow
 
 The agent helps users complete tasks related to CMDB search.
 
-1.  Receive the user's request and validate required inputs.
+1.  Receive the request and validate required inputs.
 2.  Execute the appropriate tools to perform the requested action.
 3.  Return the results or update the relevant record.
+
+After the results are shown, you can refine the search with more detail or start a new one.
 
 <table><thead><tr><th>
 
@@ -75,7 +77,7 @@ Allowed user roles The specific user roles that can access this AI agent.
 
 </td><td>
 
-snc\_internal
+sn\_cmdb\_user
 
 </td></tr><tr><td>
 

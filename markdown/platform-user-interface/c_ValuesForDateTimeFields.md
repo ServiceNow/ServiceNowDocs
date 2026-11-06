@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/c\_ValuesForDateTimeFields.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Condition builder, Create a condition statement using the condition builder, Common UI elements, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -31,7 +31,7 @@ For the **at or before** and **at or after** filters, use midnight as a start or
 
 [Comparing field values]()
 
-[bundle-platadm.r_UseDateAndTimeFields]
+[Date and Date/Time fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_UseDateAndTimeFields.md)
 
 ## Operators and values available for date and time fields
 

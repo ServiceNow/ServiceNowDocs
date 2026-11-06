@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/task-plan-templates-roles.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-04"
 reading_time_minutes: 1
 breadcrumb: [Task Plan Templates, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -108,6 +108,8 @@ Can create records in the following tables:-   Task Plan Template \[sn\_task\_pl
 -   Template Item \[sn\_task\_plan\_template\_item\]
 -   Template Item Condition \[sn\_task\_plan\_template\_item\_condition\]
 
+This role is also required to run the task plan template creation AI agent.
+
 </td><td>
 
 sn\_task\_plan.writer
@@ -136,7 +138,7 @@ Can view the task plan template reports.
 
 </td><td>
 
-sn\_task\_plan.viewer
+ 
 
 </td></tr><tr><td>
 

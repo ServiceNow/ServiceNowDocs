@@ -7,7 +7,7 @@ release: australia
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2026-07-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Process Mining, Platform Analytics]
 ---
@@ -55,6 +55,4 @@ Applications for external data can't function without Process Mining. Before act
 [Working with external datasets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/external-dataset.md)
 
 [Process Mining for Workday and Salesforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/pm-workday.md)
-
-[pm-salesforce]
 

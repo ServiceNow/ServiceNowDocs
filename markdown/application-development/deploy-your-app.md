@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/deploy-your-app.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Exploring professional development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Exploring professional development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Deploy your app
@@ -20,11 +20,11 @@ Publishing an application to the App Repo makes this version of the application 
 
 \[Omitted image "deploy-app-repo.png"\] Alt text: Deploy apps through the Application Repository
 
-For more information, see [Publishing an application to the application repo](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/application-repository-self-hosted/t_PublishAppsToTheAppRepository.md), Install an application.
+For more information, see [Publishing an application to the application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/application-repository-self-hosted/t_PublishAppsToTheAppRepository.md) and [Installing applications, plugins, and products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/installing-apps-app-manager.md).
 
 ## Update Sets
 
-If the application repository cannot be used to deploy applications, use Update Sets instead. The diagram shows the best practice lifecycle of an Update Set to deploy a customization from the development instance to the test instance.
+If the application repository cannot be used to deploy applications, use Update Sets instead. The diagram shows the lifecycle of an Update Set to deploy a customization from the development instance to the test instance.
 
 \[Omitted image "deploy-update-sets.png"\] Alt text: Deploy apps using Update Sets
 

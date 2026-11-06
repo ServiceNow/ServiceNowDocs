@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/configure-intelligent-approvals.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [configure, intelligent approvals, AI approvals, AI platform]
 breadcrumb: [Intelligent approvals, Build workflows]

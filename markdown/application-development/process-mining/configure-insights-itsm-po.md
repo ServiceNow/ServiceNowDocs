@@ -1,0 +1,98 @@
+---
+title: Configure ITSM insights in the Process Mining dashboard
+description: Configure rule definitions for incidents, problems, change requests, or request items to discover insights in the Summary and insights page.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/process-mining/configure-insights-itsm-po.html
+release: australia
+product: Process Mining
+classification: process-mining
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [ITSM, Automatic content pack delivery, Activate content packs, Activate, Process Mining, Discover, AI Workflow Factory Prime, Agentic app development, Building applications]
+---
+
+# Configure ITSM insights in the Process Mining dashboard
+
+Configure rule definitions for incidents, problems, change requests, or request items to discover insights in the Summary and insights page.
+
+## Before you begin
+
+**Important:** This feature is included with the Process Mining ITSM content pack, which is delivered automatically when ITSM is installed on your instance. For more information, see [Automatic delivery of content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/process-mining/process-mining-content-pack-delivery.md).
+
+Role required: sn\_process\_mining\_power\_user
+
+## About this task
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Process Mining** &gt; **Process Configurations**.
+
+2.  [Configure the desired finding definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/view-business-findings.md).
+
+    The insights filters listed in the following table are available by default.
+
+<table id="table_jc3_pzy_2qb"><thead><tr><th>
+
+Work item
+
+</th><th>
+
+Insights filters
+
+</th></tr></thead><tbody><tr><td>
+
+Incident
+
+</td><td>
+
+-   Multihop issue
+-   Solution rejection issue
+-   Misuse of On Hold state
+-   SLA missed issues
+
+
+</td></tr><tr><td>
+
+Problem
+
+</td><td>
+
+-   Problem was canceled
+-   Problem risk was accepted
+-   Resolved problem was reanalyzed
+-   Problem fix not completed
+-   Problem reopened
+
+
+</td></tr><tr><td>
+
+Change requests
+
+</td><td>
+
+-   Model is changed in the process
+-   Pre-approved change requests
+-   Failed change requests
+
+
+</td></tr><tr><td>
+
+Requested items
+
+</td><td>
+
+-   RITM state is closed incomplete or closed skipped
+-   Multihop: RITM going through two or more reassignment
+
+
+</td></tr></tbody>
+</table>    When the finding rules are updated, you can view that in the Insights section in the dashboard.
+
+3.  On the Summary and insights page, for the selected insight:
+
+    -   To perform process analysis, select **Process Analysis**. You can view the Process Mining map with the applied filters.
+    -   To perform cluster analysis, select **Cluster Analysis**. Select **View cluster** to view the results. For more information, see [View a cluster analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/cluster-analysis.md).
+
+**Parent Topic:**[Content pack for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/process-mining/itsm-proc-opti-content-pack.md)
+

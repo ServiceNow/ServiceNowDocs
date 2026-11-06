@@ -1,16 +1,16 @@
 ---
-title: Applications
+title: Playbook applications
 description: Several playbook applications are available that provide playbooks to onboard customers, manage customer complaints, and resolve issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-playbook-apps.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# Applications
+# Playbook applications
 
 Several playbook applications are available that provide playbooks to onboard customers, manage customer complaints, and resolve issues.
 

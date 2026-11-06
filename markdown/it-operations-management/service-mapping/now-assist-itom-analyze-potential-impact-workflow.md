@@ -7,7 +7,7 @@ release: australia
 product: Service Mapping
 classification: service-mapping
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [installing Now Assist, AI features, AI products, updating Now Assist, solutions, Now Assist, GenAI, generative AI, configure Now Assist]
 breadcrumb: [AI in Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
@@ -48,7 +48,7 @@ To learn more about using the workflow, see [Assess a change request with the An
 
 Currently, the Analyze potential impact agentic workflow doesn’t support instances with domain separation. For optimal results, conduct all conversations in English.
 
-## Service Mapping AI Skills
+## Service Mapping Skills
 
 Service Mapping skills are intelligent capabilities that enhance the Analyze potential impact agentic workflow. These skills leverage generative AI to identify, classify, and assess the impact of changes to your IT infrastructure.
 

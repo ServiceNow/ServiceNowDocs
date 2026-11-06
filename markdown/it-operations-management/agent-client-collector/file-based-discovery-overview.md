@@ -7,7 +7,7 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-05-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [file-based discovery, FBD, agent client collector, software discovery, file inventory]
 breadcrumb: [ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
@@ -17,11 +17,11 @@ breadcrumb: [ACC deployment - endpoints, Configuring Agent Client Collector, Age
 
 Agent Client Collector File-Based Discovery \(FBD\) scans file systems on managed endpoints to discover installed software and track file inventories.
 
-FBD runs as a lightweight background process within the existing Agent Client Collector agent. It is configured and controlled entirely from the ServiceNow instance. Administrators define which directories to scan, which files to look for, and how often to scan. The agent discovers matching files, collects metadata such as name, path, size, and version, and sends the results back to the instance where they are stored in the appropriate CMDB and application tables.
+FBD runs as a lightweight background process within the existing Agent Client Collector agent. It is configured and controlled entirely from the ServiceNow instance. Administrators define which directories to scan, which files to look for, and how often to scan. The agent discovers matching files, collects metadata such as name, path, size, and version, and sends the results back to the instance. The results are stored in the appropriate CMDB and application tables.
 
 To activate FBD, navigate to the Discovery Configuration Console \(**All** &gt; **Discovery Definition** &gt; **Configuration Console**\) and in the **File Based Discovery** section, activate the **Enable File Based Discovery** toggle switch.
 
-\[Omitted image "DiscoConfigConsole.png"\] Alt text: Discovery Configuration Console
+\[Omitted image "discovery-configuration-console.png"\] Alt text: Discovery Configuration Console
 
 For details on the FBD configuration and system properties, see [Agent Client Collector File-Based Discovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/file-based-discovery-configuration-properties.md).
 
@@ -71,6 +71,8 @@ For filtering rules and performance safeguards, see [Archive file scanning filte
 
 -   **[Running process-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/running-process-based-discovery.md)**  
 Running process-based discovery extends File-Based Discovery \(FBD\) with process-based path detection, enabling the Agent Client Collector for Visibility Content agent to detect software running outside of standard configured scan directories.
+-   **[Discovering a license key in a file-based discovery framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/license-key-discovery-fbd.md)**  
+License key discovery across Windows, Linux, and macOS enables ACC to automatically identify and create an inventory of license keys stored in files on managed computers. A license key proves that software installation is legitimate and is being used within the boundaries the vendor agreed to at the time of purchase.
 
 **Parent Topic:**[Deploying Agent Client Collector on endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-endpoint-deployment.md)
 

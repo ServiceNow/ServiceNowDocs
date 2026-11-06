@@ -1,20 +1,20 @@
 ---
 title: Predictive Intelligence frameworks
-description: Predictive Intelligence provides three different model frameworks in the Australia release: classification, similarity, and clustering. Each framework specializes in different types of predictions.
+description: Predictive Intelligence provides three different model frameworks in the Brazil release: classification, similarity, and clustering. Each framework specializes in different types of predictions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/predictive-intelligence/predictive-intelligence-frameworks.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: concept
-last_updated: "2026-07-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Explore Predictive Intelligence, Predictive Intelligence, Enable AI experiences]
+breadcrumb: [Explore Predictive Intelligence, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Predictive Intelligence frameworks
 
-Predictive Intelligence provides three different model frameworks in the Australia release: classification, similarity, and clustering. Each framework specializes in different types of predictions.
+Predictive Intelligence provides three different model frameworks in the Brazil release: classification, similarity, and clustering. Each framework specializes in different types of predictions.
 
 ## Predictive Intelligence classification framework
 

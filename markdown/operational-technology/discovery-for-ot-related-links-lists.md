@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/discovery-for-ot-related-links-lists.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [IT Discovery for Operational Technology \(OT\) Networks, Operational Technology Discovery, Operational Technology]
 ---
@@ -61,7 +61,7 @@ Discovery IP Ranges
 
 </td><td>
 
-Discovery IP addresses and address ranges to scan and discover. If you're using a simple CI scan \(no behaviors\), use this related list to define these IP addresses. The MID Server in use must be able to connect to the specified IP ranges.**Note:** To improve security, limit the range of discovery targets to exclude unnecessary networks and devices.
+Discovery IP addresses and address ranges to scan and discover. If you're using a simple CI scan \(no behaviors\), use this related list to define these IP addresses. The MID Server in use must be able to connect to the specified IP ranges.**Note:** To improve security, limit the range of Discovery targets to exclude unnecessary networks and devices.
 
 </td></tr><tr><td>
 
@@ -69,7 +69,7 @@ Discovery Range Sets
 
 </td><td>
 
-Definition of each range set that the OT discovery schedule scans, using one or more Shazzam probes.
+Definition of each range set that the OT Discovery schedule scans, using one or more Shazzam probes.
 
 </td></tr><tr><td>
 
@@ -77,7 +77,7 @@ Discovery Status
 
 </td><td>
 
-History of the results of the current and past OT discovery schedule runs.
+History of the results of the current and past OT Discovery schedule runs.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[IT Discovery for Operational Technology \(OT\) Networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/discovery-for-operational-technology.md)

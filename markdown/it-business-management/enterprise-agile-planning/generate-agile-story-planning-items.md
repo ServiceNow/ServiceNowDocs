@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -26,7 +26,7 @@ Create stories AI agentic workflow addresses these challenges by automating stor
 
 -   Analyze and generate: The agent reviews the epic description and creates relevant, detailed user stories.
 -   Interactive refinement: The agent engages in a free-flow conversation with you, presenting story recommendations, accepting feedback, and iterating based on your input.
--   Decision and action: The agent manages successful flows such as saving validated stories and feedback loops such as removing unwanted stories and learning from corrections to ensure that accurate, high-quality stories are finalized.
+-   Decision and action: The agent manages successful flows such as saving validated stories. It also manages feedback loops such as removing unwanted stories and learning from corrections. These actions ensure that accurate, high-quality stories are finalized.
 
 The key benefits of this workflow are:
 

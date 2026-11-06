@@ -1,26 +1,30 @@
 ---
 title: Billing invoice data collector AI agent
-description: This Telecommunications, Media, and Technology \(TMT\) agent provides detailed information about invoices, validates amounts, and identifies high-amount line items for billing inquiries. The agent retrieves invoice history, communicates invoice and line item details to the user, and flags potential causes of high charges.
+description: The agent retrieves the latest and previous invoices for a billing account, collects the line items on the latest invoice, and validates the pending amount. It compares the two invoice amounts and, when the latest invoice is higher, identifies the line item and the sold product behind the increase.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/tmt-billing-invoice-data-collector-ai-agent.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-14"
+last_updated: "2026-10-22"
 reading_time_minutes: 2
-breadcrumb: [Telecommunications, Media and Technology AI agents, Telecom, Media and Tech AI agents, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [Customer Service Problem Management AI agents, Telecommunications, Media and Technology AI agents, Telecom, Media and Tech AI agents, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Billing invoice data collector AI agent
 
-This Telecommunications, Media, and Technology \(TMT\) agent provides detailed information about invoices, validates amounts, and identifies high-amount line items for billing inquiries. The agent retrieves invoice history, communicates invoice and line item details to the user, and flags potential causes of high charges.
+The agent retrieves the latest and previous invoices for a billing account, collects the line items on the latest invoice, and validates the pending amount. It compares the two invoice amounts and, when the latest invoice is higher, identifies the line item and the sold product behind the increase.
 
 ## Workflow
 
-1.  Fetch the invoice history using the billing account number and extract the latest and previous invoices.
-2.  Show the user the key details for each invoice: number, amount, usage billed through, and credited amount.
-3.  If the latest invoice has a pending amount greater than zero, notify the user of the outstanding balance and due date.
-4.  Fetch detailed line items for the latest invoice and present them to the user. If the line items can't be retrieved, inform the user and stop.
-5.  If the latest invoice amount is higher than the previous invoice, identify the line item responsible for the increase. Inform the user which item likely caused the higher bill. If the latest invoice is not higher, return control to the orchestrator.
+The agent collects invoice data for a billing inquiry case and returns it to the orchestrator.
+
+1.  Read the billing inquiry case details and the billing account number from memory.
+2.  Retrieve the invoice history for the billing account.
+3.  Extract the latest and the previous invoice, including invoice number, amount, usage billed through date, credited amount, and due date.
+4.  Validate the pending amount on the latest invoice.
+5.  Retrieve the line items for the latest invoice.
+6.  Compare the amounts of the two invoices and, when the latest invoice is higher, identify the high amount line item and the high usage sold product number.
+7.  Return the invoice data to the orchestrator.
 
 <table><thead><tr><th>
 
@@ -60,13 +64,13 @@ Tools
 
 </td><td>
 
--   **Scripts**
-
-Get high amount line item
+-   **Script**
 
 Get Invoice Details
 
 Get Invoice History
+
+Get high amount line item
 
 
 </td></tr><tr><td>
@@ -75,7 +79,7 @@ Allowed user roles The specific user roles that can access this AI agent.
 
 </td><td>
 
-sn\_tmt\_agentic\_ai.telco\_billing\_inquiry\_case\_agent
+Not defined.
 
 </td></tr><tr><td>
 
@@ -83,7 +87,7 @@ Data access roles The specific user identity roles that determine which data the
 
 </td><td>
 
-sn\_tmt\_agentic\_ai.telco\_billing\_inquiry\_case\_agent
+Not defined.
 
 </td></tr><tr><td>
 
@@ -99,7 +103,7 @@ Channels
 
 </td><td>
 
-Not defined.
+Configure an assistant for Virtual Agent or ServiceNow Otto panel using [Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
 
 </td></tr><tr><td>
 
@@ -110,7 +114,7 @@ Used in agentic workflows
 Help remediate bill issues
 
 </td></tr></tbody>
-</table>Learn more about Supplier Lifecycle Operations at [Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supp-mgmt-landing-page.md).
+</table>Learn more about Customer Service Problem Management at [Customer Service Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/cspm-landing-page.md).
 
-**Parent Topic:**[Telecommunications, Media and Technology AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/tmt-ai-agents-overview.md)
+**Parent Topic:**[Customer Service Problem Management AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/cspm-ai-agents-overview.md)
 

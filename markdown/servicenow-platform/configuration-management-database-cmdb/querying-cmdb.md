@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [CMDB Query Builder, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -40,7 +40,7 @@ The integration of Intelligent Search for CMDB with the CMDB Query Builder is co
 
 ## AI Search and CMDB
 
-NLQ Genius Results for [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/overview-ais.md) use natural language queries to find CMDB tables that match your search without leaving a portal or workspace. For more information, see [NLQ Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/genius-result-nlq-ais.md).
+NLQ Genius Results for  use natural language queries to find CMDB tables that match your search without leaving a portal or workspace. For more information, see .
 
 **Note:** AI Search is a complementary search experience that allows you to surface CMDB records in your normal flow of work, without having to access the CMDB Query Builder. It doesn't replace intelligent Search for CMDB, which is purpose-built and integrated into CMDB Query Builder.
 

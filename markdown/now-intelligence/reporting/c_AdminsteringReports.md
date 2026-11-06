@@ -1,5 +1,5 @@
 ---
-title: Administering reports
+title: Administering Core UI reports
 description: Learn about the tasks report administrators typically perform, the objects that they work with, and the roles and rules that apply.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/c\_AdminsteringReports.html
@@ -7,12 +7,12 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 5
-breadcrumb: [Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
-# Administering reports
+# Administering Core UI reports
 
 Learn about the tasks report administrators typically perform, the objects that they work with, and the roles and rules that apply.
 
@@ -29,7 +29,7 @@ To administer reports, reporting roles, and report sources, navigate to **Report
 |Role title\[name\]|Description|
 |------------------|-----------|
 |No role|Can view reports that are shared with them.|
-|ACL-based|The report\_view access controls on tables and fields limits the ability to read, edit and create reports. Administrators can create other ACL rules. You need a role that gives you access to the data that is the subject of the report. For more information, see [Restrict report creation with an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/t_RestrictRepCreationWAnACLRule.md) and [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/report-view-access-control.md).|
+|ACL-based|The report\_view access controls on tables and fields limits the ability to read, edit and create reports. Administrators can create other ACL rules. You need a role that gives you access to the data that is the subject of the report. For more information, see [Restrict report creation with an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/t_RestrictRepCreationWAnACLRule.md) and [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/report-view-access-control.md).|
 |report user \[report\_user\], itil|Can create reports and view reports that have been shared with them. Cannot share, edit, or delete reports that have been shared with them.|
 |report scheduler \[report\_scheduler\]|Can **Schedule** emailing of all reports that they can see, including reports they cannot manage. Users with this role must also have another role that grants permission to create, edit, and share reports.|
 |group report user \[report\_group\]|Can manage and share reports that are shared with the groups they are members of \(listed in **Group**\).|
@@ -39,10 +39,6 @@ To administer reports, reporting roles, and report sources, navigate to **Report
 
 -   **[Restrict report creation with an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/t_RestrictRepCreationWAnACLRule.md)**  
 Create an access control list rule to restrict who can create a report on a table, data source, or database view.
--   **[Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/report-view-access-control.md)**  
-The report\_view operation is a record type access control list \(ACL\) that restricts access to reports. Only users who have one of the required roles can view reports that contain the restricted resource.
--   **[ACL Assessment for Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/report-view-acl-dashboard.md)**  
-Use the ServiceNow® ACL Assessment for Reports to identify reports that are blocked by report\_view ACLs \(access control lists\).
 -   **[Column view access control for list reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/column-view-access-control-list-reports.md)**  
 For list reports, the **glide.report.add\_to\_list\_supported** system property enables the add\_to\_list access control list. This access control list \(ACL\) prevents users from reporting on list report columns with sensitive data.
 -   **[Report permission issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/report-permission-issues.md)**  
@@ -76,12 +72,12 @@ When executing reports that group results by a Translated Text field, to ensure 
 -   **[Report Administration module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/r_AdministerReports.md)**  
 Learn how to administer reports on the ServiceNow platform using the **Reports** &gt; **Administration** module.
 
-**Parent Topic:**[Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/reporting-landing-page.md)
+**Parent Topic:**[Core UI Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/reporting-landing-page.md)
 
 **Related topics**  
 
 
 [Performance Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/r_PARoles.md)
 
-[Dashboard permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_DashboardRoles.md)
+[Core UI dashboard permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_DashboardRoles.md)
 

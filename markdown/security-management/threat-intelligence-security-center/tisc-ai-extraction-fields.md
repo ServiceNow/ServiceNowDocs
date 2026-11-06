@@ -7,7 +7,7 @@ release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: reference
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AI extraction, Analysis Score, Analysis Reasoning]
 breadcrumb: [Import data using AI, Import Intelligence in TISC, Use, Threat Intelligence Security Center, Security Operations]
@@ -30,6 +30,7 @@ Threat entity types that AI extraction identifies in an uploaded document, and t
 |-----|-----------|
 |Analysis Score|AI-assessed confidence from 0 through 100, based on contextual signals and enrichment. The score indicates how confidently the entity was identified and classified.|
 |Analysis Reasoning|AI-generated explanation of the score assessment, stored as a set of attributes. See the following table.|
+|AI Use Case|Read-only field on the import record that shows which extraction use case ran for the import.|
 
 |Attribute|Description|
 |---------|-----------|

@@ -7,8 +7,8 @@ release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Setting up HR Service Delivery Playbook, HR Service Delivery Playbook, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
@@ -20,7 +20,7 @@ Use Playbook Card Configuration to view and manage what appears for each card in
 
 Role required: sn\_hr\_ws.admin
 
-Each activity attempts to show a record \(HR task, HR case, request, and so on\) and goes through the card configuration and attempts to match to the lowest ordered record in the table. For example, the 'Verify Work Authorization' is a 'mark when complete' card that the base system provides.
+Each activity attempts to show a record \(HR task, HR case, request, and so on\). The activity goes through the card configuration and attempts to match to the lowest ordered record in the table. For example, the 'Verify Work Authorization' is a 'mark when complete' card that the base system provides.
 
 The properties from the card configuration record are filled in from the record \(HR task, HR case, request, and so on\).
 
@@ -113,7 +113,7 @@ Footer
 
 </td><td>
 
-Information you want to appear in the footer of an HR Playbook card.Enter text or click the pill picker icon \[Omitted image "playbook-hr-pill-picker-icon.png"\] Alt text: Pill picker icon to display references you can select from to automate the placement of information.
+Information you want to appear in the footer of an HR Playbook card.Enter text or select the pill picker icon \[Omitted image "playbook-hr-pill-picker-icon.png"\] Alt text: Pill picker icon to display references you can select from to automate the placement of information.
 
 </td></tr><tr><td>
 
@@ -129,7 +129,7 @@ Icon
 
 </td><td>
 
-Displays an icon that appears in the upper, left-side of the card.Click the Lookup using list icon \[Omitted image "magnifying-glass.png"\] Alt text: Lookup using list icon to select the icon you want to appear.
+Displays an icon that appears in the upper, left-side of the card.Select the Lookup using list icon \[Omitted image "magnifying-glass.png"\] Alt text: Lookup using list icon to select the icon you want to appear.
 
 </td></tr><tr><td>
 
@@ -161,7 +161,7 @@ Form fields
 
 </td><td>
 
-Displays a vertical column of fields that render below the row of record fields.**Note:** The fields are editable when at least one button on the card says **Form fields required**.
+Displays a vertical column of fields that render following the row of record fields.**Note:** The fields are editable when at least one button on the card says **Form fields required**.
 
  You can enter comma separated text or select fields by clicking the pill picker icon \[Omitted image "playbook-hr-pill-picker-icon.png"\] Alt text: Pill picker icon.
 
@@ -181,7 +181,7 @@ Tagline
 
 </td><td>
 
-Enter or select information that appears at the top of the card above the title.
+Enter or select information that appears at the top of the card before the title.
 
 </td></tr><tr><td>
 
@@ -189,7 +189,7 @@ Attachment source
 
 </td><td>
 
-Use to allow uploading of attachments. Selecting associated\_record allows the user to upload an attachment from the card.
+Upload attachments. Selecting associated\_record allows the user to upload an attachment from the card.
 
 </td></tr><tr><td>
 
@@ -197,7 +197,7 @@ Record fields
 
 </td><td>
 
-Fields you want to appear across the upper section of the card.Enter comma separated list of fields you want to appear on the card or click the xx icon to select references.
+Fields you want to appear across the upper section of the card.Enter comma separated list of fields you want to appear on the card or select the xx icon to select references.
 
 </td></tr><tr><td>
 
@@ -226,6 +226,6 @@ Form View
 Works with the **Form fields** and allows you to define an entire section you want to appear on the card.
 
 </td></tr></tbody>
-</table>3.  Click **Submit** or **Update**.
+</table>3.  Select **Submit** or **Update**.
 
 

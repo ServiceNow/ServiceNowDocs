@@ -7,10 +7,10 @@ release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, Now Assist for Creator, Install Now Assist for Creator, Use agentic AI, agentic AI, AI agents in Now Assist for Creator, agentic workflow Now Assist for Creator, Activate Creator AI agents, Build Agent]
-breadcrumb: [ServiceNow Otto for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [ServiceNow Otto for Creator, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Using agentic AI with ServiceNow Otto for Creator
@@ -29,7 +29,7 @@ Application
 
 </th></tr></thead><tbody><tr><td>
 
-[ATF troubleshooting agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-troubleshooting-agent-landing-page.md)
+[ATF troubleshooting agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-creator/atf-troubleshooting-agent-landing-page.md)
 
 </td><td>
 
@@ -64,12 +64,15 @@ Theme Builder
 
 </td></tr><tr><td>
 
-[UI Builder agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ui-builder/using-ui-builder-agent.md)
+[UI Builder agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-creator/using-ui-builder-agent.md)
 
 </td><td>
 
 UI Builder
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-creator/now-assist-for-creator-landing.md)
+</table>-   **[ATF troubleshooting agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-creator/atf-troubleshooting-agent-landing-page.md)**  
+Use ATF troubleshooting agent to simplify test failure diagnosis on specific metadata.
+
+**Parent Topic:**[ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-creator/now-assist-for-creator-landing.md)
 

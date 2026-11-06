@@ -7,8 +7,8 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [GRC Risk Workspace, Explore, Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -22,7 +22,7 @@ The new workspace offers the following views for the users.
 
 -   **List view**
 
-    The list view shows a simplified list of all the modules. You can access the list view by clicking the List icon \(\[Omitted image "list-icon-risk-workspace.png"\] Alt text: List view icon.\).
+    The list view shows a simplified list of all the modules. You can access the list view by clicking the List icon \(\[Omitted image "list-view.jpg"\] Alt text: List view icon.\).
 
 -   **Record view**
 
@@ -33,15 +33,15 @@ The new workspace offers the following views for the users.
 
 -   **Overview pages of records**
 
-    The Overview tab of each record provides you a summary of all the information you need in a single view. For example, for a risk record you can see KRI breaches, the controls failures, the number of issues open, the open indicator tasks, the number of risks assessed and so on.
+    The Overview tab of each record provides a summary of all the information you need in a single view. For a risk record, this includes KRI breaches, control failures, open issues, open indicator tasks, and the number of risks assessed.
 
 -   **Contextual side panel for records**
 
-    The Contextual side panel of a record provides detailed related information for the records. For example, for a risk, you can see the parent and child hierarchy. You can display and close the Contextual side panel by clicking the reference icon \(\[Omitted image "information-icon-latest.png"\] Alt text: Contextual side panel icon.\).
+    The Contextual side panel of a record provides detailed related information for the records. For example, for a risk, you can see the parent and child hierarchy. You can display and close the Contextual side panel by clicking the reference icon \(\[Omitted image "information-icon.jpg"\] Alt text: Contextual side panel icon.\).
 
 -   **Tasks**
 
-    Tasks is a centralized task inbox that shows your tasks and your group's tasks. You can access your tasks by clicking the Tasks icon \(\[Omitted image "task-icon.png"\] Alt text: Tasks icon. \).
+    Tasks is a centralized task inbox that shows your tasks and your group's tasks. You can access your tasks by clicking the Tasks icon \(\[Omitted image "work-queue.jpg"\] Alt text: Tasks icon. \).
 
 -   **360° relationship view**
 
@@ -49,7 +49,7 @@ The new workspace offers the following views for the users.
 
 -   **Breadcrumb navigation**
 
-    The breadcrumb style navigation provides a browser path to navigate a hierarchy of linked pages with related content. The breadcrumb style navigation provides a digital trail from the user's starting point to the current content, with the ability to navigate to each link.​ For more information, refer to [Breadcrumb navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/breadcrumb-navigation.md)
+    Breadcrumb navigation provides a digital trail through a hierarchy of linked pages. You can navigate to any link in the trail. For more information, refer to [Breadcrumb navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/breadcrumb-navigation.md)
 
 -   **Consolidated issues page**
 

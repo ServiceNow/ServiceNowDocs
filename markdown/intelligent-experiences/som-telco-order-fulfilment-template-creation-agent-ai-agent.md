@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-06-01"
 reading_time_minutes: 2
-breadcrumb: [Sales Automation AI agents, Sales CRM AI agents, Sales CRM, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [Order Management AI agents, Sales CRM AI agents, Sales CRM, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Telco order fulfilment template creation AI agent
@@ -66,6 +66,8 @@ Tools
 
 Create Task Plan Record
 
+Fetch Domain Order record details.
+
 Fetch Order Intent Type
 
 
@@ -112,5 +114,5 @@ Design Telecom Order Fulfilment Template
 </td></tr></tbody>
 </table>Learn more at [Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-overview.md).
 
-**Parent Topic:**[Sales Automation AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/sales-automation-ai-agents-overview.md)
+**Parent Topic:**[Order Management AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/om-ai-agents-overview.md)
 

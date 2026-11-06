@@ -1,13 +1,13 @@
 ---
 title: Filtering questions in an assessment
-description: In SAE, narrow the question list in an assessment by selecting one or more filters from the filter dropdown. Filters can be combined to focus on questions that match every selected criterion.
+description: Responders can narrow the question list in an assessment by selecting one or more filters from the filter dropdown. Filters can be combined to focus on questions that match every selected criterion.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/smart-assessment-engine/filtering-questions-in-an-assessment.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: concept
-last_updated: "2026-06-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [filter, filtering, question filter, assessment]
 breadcrumb: [Respond to assessments, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
@@ -15,11 +15,11 @@ breadcrumb: [Respond to assessments, Manage, Smart Assessment Engine, Governance
 
 # Filtering questions in an assessment
 
-In SAE, narrow the question list in an assessment by selecting one or more filters from the filter dropdown. Filters can be combined to focus on questions that match every selected criterion.
+Responders can narrow the question list in an assessment by selecting one or more filters from the filter dropdown. Filters can be combined to focus on questions that match every selected criterion.
 
 ## Filter overview
 
-The filter is labeled **All questions** when no filter is applied. When a responder opens the drop-down list, they see a list of filters that they can select individually or in combination. The drop-down list label updates to reflect what is active — for example, **AI assisted +1** when two filters are selected.
+The filter is labeled **All questions** with no filter is applied. When a responder opens the drop-down list, they see a list of filters that they can select individually or in combination. The drop-down list label updates to reflect what is active — for example, **AI assisted +1** when two filters are selected.
 
 Selecting multiple filters narrows the list to questions that match every selected filter. For example, selecting both **Unanswered** and **Flagged** shows only questions that are unanswered and flagged.
 

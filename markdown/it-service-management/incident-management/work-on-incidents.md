@@ -7,7 +7,7 @@ release: australia
 product: Incident Management
 classification: incident-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Incident Management, IT Service Management]
 ---
@@ -18,17 +18,17 @@ Working on incidents involves diagnosing and investigating the incident, recordi
 
 Initial diagnosis of incidents is largely a human process. The service desk agent looks at the details of the incident and communicates with the user to diagnose the issue.
 
-To aid in the diagnosis, the service desk agent can query the configuration management database, or CMDB. The CMDB contains information about hardware and software within a network and the relationships between them. The CMDB can be populated by: [Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/r-discovery.md) . Discovery is available as a separate product.
+To aid in the diagnosis, the service desk agent can query the configuration management database \(CMDB\). The CMDB contains information about hardware and software within a network and the relationships between them. The CMDB can be populated by [Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/r-discovery.md). Discovery is available as a separate product.
 
 ## Incident investigation
 
-Incident investigation is also a human process. The service desk continues to use the information in the Incident form as well as the CMDB to solve the issue. Work notes are added to the incident as the service desk evaluates the incident, facilitating communication between the concerned parties. Work notes and other updates can be communicated to the concerned parties through [email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md).
+Incident investigation is also a human process. The service desk continues to use the information in the Incident form and the CMDB to solve the issue. Work notes are added to the incident as the service desk evaluates the incident, facilitating communication between the concerned parties. Work notes and other updates can be communicated to the concerned parties through [email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md).
 
 One way to investigate incidents is to determine whether related records exist, using one of the following features.
 
 -   **Related incidents icon**
 
-    The show related incidents icon \(\[Omitted image "ShowRelatedIncidentsIcon.png"\] Alt text: Show related incidents icon\) appears beside the **Caller** field when it is populated. Click the icon to view the list of incidents for the same caller.
+    The show related incidents icon \[Omitted image "ShowRelatedIncidentsIcon.png"\] Alt text: appears beside the **Caller** field when it is populated. Select the icon to view the list of incidents for the same caller.
 
     **Note:** Administrators can add this icon to any reference field by modifying the dictionary entry and adding the **ref\_contributions=user\_show\_incidents** dictionary attribute. The icon appears only for users who have read or write access to the field. A UI macro named user\_show\_incidents defines the behavior. The UI macro must be active to view the related incidents icon.
 
@@ -38,7 +38,7 @@ One way to investigate incidents is to determine whether related records exist, 
 
 -   **Dependency views**
 
-    Dependency views can help find related incidents based on configuration items \(CI\). If a configuration item is attached to an incident, click the map icon \(\[Omitted image "BusinessServiceMapIcon.png"\] Alt text: Dependency view icon\) to display the dependency views map. In the dependency map, if you want to view the tasks that are attached to the CI, click the down arrow next to the CI and from the menu, select **View Related Tasks**.
+    Dependency views can help find related incidents based on configuration items \(CIs\). If a configuration item is attached to an incident, select the map icon \[Omitted image "BusinessServiceMapIcon.png"\] Alt text: to display the dependency views map. In the dependency map, to view the tasks that are attached to the CI, select the down arrow next to the CI and from the menu, select **View Related Tasks**.
 
     \[Omitted image "IM\_CIOptionsDepViews.png"\] Alt text: CI options menu
 
@@ -47,7 +47,7 @@ One way to investigate incidents is to determine whether related records exist, 
 
 When the incident management team has determined that the cause of an incident is an error or widespread problem, the team initiates the problem management process. When the issue requires a change to the infrastructure or a business service, the team initiates the change management process.
 
-A menu item on the Incident form lets you create a problem or change record easily and associate the incident with the problem or change record. For more information, refer [Create a record from incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/t_PromoteAnIncident.md)
+A menu item on the Incident form lets you create a problem or change record and associate the incident with the problem or change record. For more information, see [Create a record from an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/t_PromoteAnIncident.md)
 
 **Note:** If the incident already has an associated problem or change record, you cannot create another record of the same task type.
 
@@ -61,10 +61,10 @@ There are two escalation methods the platform uses to track and report on incide
 
 -   **[Service level agreements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-level-management/service-level-management-concepts.md) \(SLAs\)**
 
-    SLAs monitor the progress of an incident according to a set of agreements between a service provider and customer that define the scope, quality, and speed of the services being provided. As time passes, the SLA escalates the priority of the incident and leaves a marker as to its progress. SLAs are also used as a performance indicator for the service desk.
+    SLAs monitor incident progress against agreements between a service provider and customer. These agreements define the scope, quality, and speed of services provided. As time passes, the SLA escalates the priority of the incident and leaves a marker as to its progress. SLAs are also used as a performance indicator for the service desk.
 
 -   **[Inactivity monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_SetAnInactivityMonitor.md)**
 
-    The inactivity monitor generates an event to prevent incidents from going unnoticed. When a certain amount of time has passed without an update to the incident, the event creates an email notification or triggers a script.
+    The inactivity monitor generates an event to help prevent incidents from going unnoticed. When a certain amount of time has passed without an update to the incident, the event creates an email notification or triggers a script.
 
 

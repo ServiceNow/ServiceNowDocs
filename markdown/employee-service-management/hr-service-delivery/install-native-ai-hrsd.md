@@ -20,6 +20,8 @@ Install the HR Service Delivery Implementation agent and HR Service Delivery app
 
 Role required: admin
 
+Complete the ServiceNow Otto for Setup Platform configuration flow: [Platform module configuration in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-platform-il.md)
+
 ## About this task
 
 HR Service Delivery applications, plugins, and dependencies are bundled into a single installable resource. Selecting install starts the installation of the full set of HR Service Delivery Foundation applications, instead of installing each application individually.
@@ -34,7 +36,7 @@ HR Service Delivery applications, plugins, and dependencies are bundled into a s
 
 3.  Select the HR Service Delivery tile.
 
-    \[Omitted image "image.hrsd-config-hub"\] Alt text: In the Manage your products section, the Human Resources Service Delivery tile redirects to an HRSD-specific configuration flow
+    \[Omitted image "hrsd-config-hub.png"\] Alt text: In the Manage your products section, the Human Resources Service Delivery tile redirects to an HRSD-specific configuration flow
 
 4.  In the **Apps and plugins** section, from the **Not installed** tab, select the **Install** icon for the HR Service Delivery applications you want to install.
 
@@ -46,7 +48,7 @@ HR Service Delivery applications, plugins, and dependencies are bundled into a s
 
 6.  After installation completes, the **Now you're ready to configure** window is displayed.
 
-    \[Omitted image "image.hrsd-ready-to-configure"\] Alt text: The Now you're ready to configure window is displayed with a Configure button to proceed
+    \[Omitted image "hrsd-ready-to-configure.png"\] Alt text: The Now you're ready to configure window is displayed with a Configure button to proceed
 
 
 ## What to do next

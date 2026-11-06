@@ -7,7 +7,7 @@ release: australia
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Process Mining, Platform Analytics]
 ---
@@ -31,6 +31,8 @@ To mine a project, ensure that you have enabled [Audit Log](https://raw.githubus
     The Project Setup page is displayed.
 
     \[Omitted image "set-obj.png"\] Alt text: Project setup page
+
+    Select **Manage templates** to create or map templates. For more information, see [Create a Process Mining template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/create-template.md) and [Map a template to a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/map_template_to_table.md).
 
 
 -   **[Set objectives for Process Mining projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/set-objectives.md)**  

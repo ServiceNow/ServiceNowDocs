@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring KPI monitoring settings, Configure, Enterprise Asset Management, Asset Management]
 ---
@@ -22,15 +22,17 @@ Role required: sn\_eam.enterprise\_admin
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace** &gt; **Admin center** &gt; **KPI configuration**.
+1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace**.
 
-2.  From the KPI configuration list, select **KPI opt in**.
+2.  From the Enterprise Asset Workspace, open the Admin center view.
 
-3.  From the list of model categories, select the one for which you want to enable the KPI tracking.
+3.  From the navigation panel of the Admin center view, navigate to **KPI configuration** &gt; **KPI opt in**.
 
-4.  On the Asset performance tracking form, select the **Track performance KPI** check box.
+4.  From the list of model categories, select the one for which you want to enable the KPI tracking.
 
-5.  Select **Save**.
+5.  On the Asset performance tracking form, select the **Track performance KPI** check box.
+
+6.  Select **Save**.
 
 
 ## What to do next

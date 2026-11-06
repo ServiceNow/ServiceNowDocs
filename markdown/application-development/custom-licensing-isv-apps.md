@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/custom-licensing-isv-apps.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Application sharing, Administer your apps, Deploying applications, Building applications]
+breadcrumb: [Application sharing, Administer your apps, Deploying applications, Classic app development, Building applications]
 ---
 
 # Custom licensing for ISV applications

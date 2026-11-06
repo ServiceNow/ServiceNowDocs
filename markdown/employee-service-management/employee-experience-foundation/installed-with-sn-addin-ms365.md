@@ -7,9 +7,9 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Add-in for Microsoft 365 reference, ServiceNow Add-in for Microsoft 365, Unified Employee Experience, Employee Service Management]
+breadcrumb: [ServiceNow Add-in for Microsoft 365 reference, ServiceNow Add-in for Microsoft 365, EmployeeWorks, Employee Service Management]
 ---
 
 # Components installed with ServiceNow Add-in for Microsoft 365

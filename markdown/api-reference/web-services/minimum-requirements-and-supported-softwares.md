@@ -7,7 +7,7 @@ release: australia
 product: Web Services
 classification: web-services
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Access your ServiceNow data using Live Connect, Additional integration resources, Web services, API implementation, API implementation and reference]
 ---
@@ -57,6 +57,14 @@ Java Development Kit \(JDK\)
 </td><td>
 
 JDK 17
+
+</td></tr><tr><td>
+
+OAuth 2.0 authentication
+
+</td><td>
+
+Zurich patch13, Australia patch6
 
 </td></tr><tr><td>
 

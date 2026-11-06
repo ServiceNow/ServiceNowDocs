@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/create-custom-notifications-next-experience.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -158,7 +158,7 @@ Recipient\(s\) listed in event parm1
 
 </td><td>
 
-Option to select whether Parm 1 contains a list of comma-separated sys\_ids. For more information, see Classic Events.
+Option to select whether Parm 1 contains a list of comma-separated sys\_ids. For more information, see [Classic Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/events.md).
 
 </td></tr><tr><td>
 

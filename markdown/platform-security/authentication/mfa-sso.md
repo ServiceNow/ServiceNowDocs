@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring MFA, Multi-factor authentication, Authentication, Access Management]
 ---
@@ -16,14 +16,14 @@ breadcrumb: [Configuring MFA, Multi-factor authentication, Authentication, Acces
 
 You can use MFA with an SSO provider for your ServiceNow instance.
 
-Since many users in your organization are logging in to your corporate network and accessing your ServiceNow instance, there is a stronger need for a secure authentication.
+Because many users in your organization are logging in to your corporate network and accessing your ServiceNow instance, there is a stronger need for a secure authentication.
 
 MFA with the combination of SSO provides an enhanced security for your instance. This capability provides flexibility to conditionally enable MFA for users.
 
 **Note:**
 
 -   ServiceNow MFA is enforced after the user is redirected after the successful authentication at the Identity Provider.
--   MFA was not enforced with SSO prior to the San Diego release.
+-   MFA was not enforced with SSO before the San Diego release.
 
 For example, if you would like to give your external users an extra security protocol, then you can enforce MFA to only those users. In this way, you can add additional authentication abilities and control your user access.
 
@@ -36,5 +36,5 @@ You can enforce MFA for the following conditions:
 -   Authentication Scheme
 -   Identity Provider
 
-MFA with SSO is offered as a part of the Adaptive Authentication plugin \(com.snc.adaptive\_authentication\). To know more on how to set up Adaptive Authentication, see [Adaptive authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/adaptive-authentication.md).
+MFA with SSO is offered as a part of the Adaptive Authentication plugin \(com.snc.adaptive\_authentication\). To learn more about how to set up Adaptive Authentication, see [Adaptive authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/adaptive-authentication.md).
 

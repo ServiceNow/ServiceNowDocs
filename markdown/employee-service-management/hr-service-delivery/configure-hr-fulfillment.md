@@ -7,7 +7,7 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [HR fulfillment instructions, HR services, HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
@@ -17,8 +17,6 @@ breadcrumb: [HR fulfillment instructions, HR services, HR Administration, Config
 Use HR fulfillment instructions to provide focused and targeted instructions for an HR case.
 
 ## Before you begin
-
-\[Omitted video\] Description: Configure HR fulfillment instructions
 
 Role required: sn\_hr\_core.admin
 

@@ -7,7 +7,7 @@ release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by
 
 Discovery uses the Solaris Logical Domain \(LDOM\) infrastructure pattern and Solaris LDOM shared library pattern to find all LDOM data. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
-Discovery uses these patterns to run horizontal discovery. You can use the patterns on the ServiceNow AI Platform using the Australia release or later.
+Discovery uses these patterns to run horizontal discovery. You can use the patterns on the ServiceNow AI Platform using the Brazil release or later.
 
 The Solaris LDOM infrastructure pattern is triggered automatically on Solaris Server discovery. The pattern verifies if there is an LDOM controller, and stops running if it doesn't find a controller.
 

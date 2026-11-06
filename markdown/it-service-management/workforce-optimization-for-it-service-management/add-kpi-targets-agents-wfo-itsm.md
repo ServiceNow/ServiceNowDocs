@@ -7,7 +7,7 @@ release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Analyzing team performance, Teams, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -48,15 +48,15 @@ When you set a personal target, it is only visible to you.
     -   To set a personal target, click **Personal**.
 7.  Set the KPI target.
 
-<table id="choicetable_fdw_lqf_t4b"><thead><tr><th align="left" id="d260018e161">
+<table id="choicetable_fdw_lqf_t4b"><thead><tr><th align="left" id="d448394e161">
 
 To
 
-</th><th align="left" id="d260018e164">
+</th><th align="left" id="d448394e164">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d260018e170">
+</th></tr></thead><tbody><tr><td id="d448394e170">
 
 **Update an existing target**
 
@@ -64,7 +64,7 @@ Do this
 
 In the **Target** field, update the value that you'd like the agent to achieve for the selected KPI.
 
-</td></tr><tr><td id="d260018e182">
+</td></tr><tr><td id="d448394e182">
 
 **Set a target for a key performance indicator**
 
@@ -74,7 +74,7 @@ In the **Target** field, update the value that you'd like the agent to achieve f
 2.  In the **Target** field, enter a value that you'd like the agent to achieve for the selected KPI.
 
 
-</td></tr><tr><td id="d260018e203">
+</td></tr><tr><td id="d448394e203">
 
 **Set a target to improve an existing baseline value**
 

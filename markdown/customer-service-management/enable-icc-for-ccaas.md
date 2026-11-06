@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/enable-icc-for-ccaas.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ICC for contact center integration, ICC for CCaaS, NVC for CCaaS integration]
 breadcrumb: [Configure voice, Configure omnichannel, Configure, Customer Service Management]
@@ -26,12 +26,9 @@ The voice controls and callback controls display under the following conditions:
 -   When the interaction is a phone call, voice controls display.When the interaction is a phone call that is associated with a callback task, the callback controls display.
 -   The **Enable interaction controls** field is enabled on the OpenFrame Configuration record that allows the admin to configure the Agent Workspace to display voice interaction components.
 -   The agent is a member of the user group specified on the OpenFrame Configuration record. If no user group is specified, all agents can access the CSM voice interaction record page.
--   Ensure the certified third-party App Store plugin is installed. The following examples apply to voice interactions:
-
+-   Ensure the certified third-party App Store plugin is installed. For Example:
     -   [Unified Experience from Genesys](https://store.servicenow.com/store/app/cdff6b621ba46a50a85b16db234bcba3#linksAndDocuments)
     -   [Unified Experience from Genesys - Core](https://store.servicenow.com/store/app/6ebe67ea1b646a50a85b16db234bcb54)
-    **Note:** Prerequisite for CCaaS callbacks: Verify that agents are configured through their contact center integration to receive callbacks and access the ServiceNow Workspace. Agent profiles are synced automatically when agents log in through the contact center connector in OpenFrame. For example, an agent must be able to log in to both the contact center and ServiceNow workspace. The agent presence state must match between both systems, as callbacks only route to available agents. In some cases, the state "available" might be labeled differently in the contact center, such as "on queue." Presence mismatches can prevent agents from receiving callbacks.
-
 
 ## Before you begin
 

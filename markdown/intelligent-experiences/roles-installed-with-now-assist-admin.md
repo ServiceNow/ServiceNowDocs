@@ -1,6 +1,6 @@
 ---
 title: AI Admin Hub roles
-description: Certain roles are required to use AI Admin Hub functionality. The base admin \(sys\_admin\) role does not automatically grant or include the following roles, so assign these directly to users who require them.Can create and update the AI Admin Hub experience by editing and configuring skills.Can access AI Admin Hub to view skills and their configurations, but can't make modifications.Users who have access to the Now Assist panel.
+description: Certain roles are required to use AI Admin Hub functionality. The base admin \(sys\_admin\) role does not automatically grant or include the following roles, so assign these directly to users who require them.Can create and update the AI Admin Hub experience by editing and configuring skills.Can access AI Admin Hub to view skills and their configurations, but can't make modifications.Users who have access to the ServiceNow Otto panel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/roles-installed-with-now-assist-admin.html
 release: australia
@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-09-16"
 reading_time_minutes: 1
 keywords: [Now Assist Admin, roles, Generative AI, Gen AI, Now Assist Admin, edit, configure, skills, roles, groups, special considerations, ace\_user, sn\_nowassist\_admin.nsa\_admin, Now Assist, panel, user, access, roles, groups, special, considerations, Generative AI, Gen AI, sn\_nowassist\_admin.user, Now Assist, panel, user, access, roles, groups, special, considerations, Generative AI, Gen AI]
-breadcrumb: [AI Admin Hub reference, AI Admin Hub, Enable AI experiences]
+breadcrumb: [AI Admin Hub reference, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # AI Admin Hub roles
@@ -39,7 +39,7 @@ None.
 
 ### Special considerations
 
-Avoid granting an admin role when more specialized roles are available. For detailed comparison of roles, see .
+Avoid granting an admin role when more specialized roles are available. For detailed comparison of roles, see [Roles and responsibilities for AI administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/platai-roles-responsibilities-ai-admin.md).
 
 ## AI Admin Hub console user \[sn\_nowassist\_admin.user\]
 
@@ -61,11 +61,11 @@ None.
 
 ### Special considerations
 
-For detailed comparison of roles, see .
+For detailed comparison of roles, see [Roles and responsibilities for AI administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/platai-roles-responsibilities-ai-admin.md).
 
 ## ServiceNow Otto panel user \[now\_assist\_panel\_user\]
 
-Users who have access to the Now Assist panel.
+Users who have access to the ServiceNow Otto panel.
 
 ### Contains Roles
 
@@ -81,5 +81,5 @@ None.
 
 ### Special considerations
 
-None.
+This role is part of the following application scope: now\_assist\_core.
 

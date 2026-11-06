@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/example-aia.html
 release: australia
 topic_type: concept
-last_updated: "2025-10-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Writing prompts for agentic AI, AI agents best practices, Explore, AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [Writing prompts for agentic AI, AI agents best practices, Explore, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Example AI agent

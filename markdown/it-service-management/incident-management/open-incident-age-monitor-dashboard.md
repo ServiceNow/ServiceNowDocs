@@ -7,9 +7,9 @@ release: australia
 product: Incident Management
 classification: incident-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Legacy: Incident Management Platform Analytics Solutions, Reporting incidents, Incident Management, IT Service Management]
+breadcrumb: [Legacy: Incident Management Platform Analytics Solutions, Incident reporting, Incident Management, IT Service Management]
 ---
 
 # Legacy: Open Incidents Age Monitor dashboard

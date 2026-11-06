@@ -7,7 +7,7 @@ release: australia
 product: Time Configuration
 classification: time-configuration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Event scheduling, System scheduler, Explore, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -18,7 +18,7 @@ You can set an inactivity monitor that triggers an event for a task record when 
 
 ## Before you begin
 
-Role required: system\_scheduler\_admin
+Role required: admin
 
 ## About this task
 

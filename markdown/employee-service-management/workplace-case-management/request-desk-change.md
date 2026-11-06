@@ -7,7 +7,7 @@ release: australia
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Requesting a workplace service, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -22,21 +22,13 @@ Role required: sn\_wsd\_core.workplace\_user
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Workplace Core** &gt; **Workplace service portal**.
+1.  Navigate to **All** &gt; **Self-service** &gt; **Employee Center**.
 
-    The Workplace Service Portal opens.
+2.  On the Employee Center portal, select **Help Center** &gt; **Workplace Services**.
 
-2.  Open the **General** category where the workplace service is located, do the following:
+3.  From the list of workplace services, select **Request a desk change**.
 
-    1.  Click **Catalog**.
-
-    2.  Click **Browse by Categories**.
-
-    3.  In the Workplace Services Catalog, select **General**.
-
-        **Note:** If there are multiple catalogs configured on the portal, go to the Catalogs list and select **Workplace Services Catalog** &gt; **General**.
-
-3.  Select **Request a desk change**.
+    Alternatively, you can search for the workplace service and select it from the search results.
 
 4.  On the form, fill in the fields.
 
@@ -185,7 +177,7 @@ Add attachment
 Attached files that support the move request if required.
 
 </td></tr></tbody>
-</table>5.  Click **Submit**.
+</table>5.  Select **Submit**.
 
 
 ## Result
@@ -196,11 +188,11 @@ If the state of the move request is Closed complete, it means that the move requ
 
 Depending on your platform, do one of the following to view your requests:
 
--   On the Workplace Service Portal, go to the **Requests** tab to view your requests and reservations.
+-   On the Employee Center, go to the **Requests** tab to view your requests and reservations.
 -   On the Now Mobile app's navigation bar, tap **For Me** and scroll down to the My Request section to view your requests.
 -   In the virtual agent chat, type your question or select **Show Me Everything** to select from a list of available options.
 
-If you want to cancel a request, Click **Cancel Request**. When the request is resolved, select **Accept** or **Reject**.
+If you want to cancel a request, select **Cancel Request**. When the request is resolved, select **Accept** or **Reject**.
 
 **Parent Topic:**[Requesting a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/request-workplace-services.md)
 

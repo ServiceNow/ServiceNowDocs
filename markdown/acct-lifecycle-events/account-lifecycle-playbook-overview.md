@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-playbook-overview.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Customer Success Management]
 ---
@@ -13,8 +13,6 @@ breadcrumb: [Explore, Customer Success Management]
 # Account onboarding
 
 The account onboarding feature enables technology industry providers to define a structured, repeatable, onboarding experience. It enables collaboration, transparency, and insight for both internal staff members and external customers involved in the onboarding process.
-
-**Important:** Account Lifecycle Events has been renamed to Customer Success Management in Zurich.
 
 The account onboarding feature includes a playbook, an account onboarding case type, and defined case tasks that support this important process. You can use the playbook as a template or as a starting hover over build your onboarding experience.
 

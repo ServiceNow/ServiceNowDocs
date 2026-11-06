@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/unified-security-exposure-management-landing-page.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Security Operations]
 ---
@@ -13,10 +13,6 @@ breadcrumb: [Security Operations]
 # Unified Security Exposure Management \(USEM\)
 
 Unified Security Exposure Management \(USEM\) is a comprehensive platform designed to transform how organizations manage security exposure across their digital estate. It consolidates multiple security exposure applications including Vulnerability Response, Configuration Compliance, Application Vulnerability Response, and Container Vulnerability Response into a single, cohesive architecture.
-
-\[Omitted video\] Description: USEM overview
-
-The video provides a walk through of the Security Exposure Management Workspace.
 
 **Important:** Unified Security Exposure Management \(USEM\) is a major architectural upgrade to Vulnerability Response applications. If you are currently using Vulnerability Response and upgrading to USEM for the first time, you must use the Migration assistant for Unified Security Exposure Management to ensure a successful upgrade.
 

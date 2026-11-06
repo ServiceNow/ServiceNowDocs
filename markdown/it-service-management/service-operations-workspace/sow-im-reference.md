@@ -1,20 +1,20 @@
 ---
 title: Incident Management in Service Operations Workspace reference
-description: Reference topics provide additional information about Incident Management in Service Operations Workspace.
+description: Find additional information about Incident Management in Service Operations Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/sow-im-reference.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Incident Management in Service Operations Workspace, Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Incident Management in Service Operations Workspace reference
 
-Reference topics provide additional information about Incident Management in Service Operations Workspace.
+Find additional information about Incident Management in Service Operations Workspace.
 
 -   **[Components installed with Agent Client Collector for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/components-installed-investigate.md)**  
 Several types of components are installed with activation of the Agent Client Collector for Investigation \(sn\_acc\_adapter\) application, including user roles and ServiceNow Store applications.

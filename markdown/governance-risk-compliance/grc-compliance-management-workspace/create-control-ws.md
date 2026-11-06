@@ -1,20 +1,20 @@
 ---
 title: Create a control using the Compliance Workspace
-description: Controls are automatically generated when you associate a policy with an entity type, or an entity type with a control objective, or when an entity is added to a control objective. A control is created for each entity listed in the entity type for the control objective. Controls can also be manually created using the Compliance Workspace.
+description: Controls can either be automatically generated or manually created. A control is created for each entity listed in the entity type for the control objective.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-compliance-management-workspace/create-control-ws.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Manage controls using the Compliance Workspace, Use, GRC Compliance workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Create a control using the Compliance Workspace
 
-Controls are automatically generated when you associate a policy with an entity type, or an entity type with a control objective, or when an entity is added to a control objective. A control is created for each entity listed in the entity type for the control objective. Controls can also be manually created using the Compliance Workspace.
+Controls can either be automatically generated or manually created. A control is created for each entity listed in the entity type for the control objective.
 
 ## Before you begin
 
@@ -115,7 +115,7 @@ Exempt
 
 </td><td>
 
-Mark the control as exempted from the attestation cycle. When a control is marked as exempt, an attestation is stopped triggering for that control. Attestations are not created when the control moves to the Attest state.
+Mark the control as exempted from the attestation cycle. When a control is marked as exempt, an attestation is stopped triggering for that control. Attestations aren't created when the control moves to the Attest state.When you select the Exempt option on a control, the system does not generate an attestation for the control. When the control moves to the Attest state, the system moves it to the Review state instead and adds the comment: `Control is marked as exempt. Attestation skipped. If the control already has open assessments, the system cancels them. Completed assessments are not affected.`
 
 </td></tr><tr><td>
 

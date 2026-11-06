@@ -7,9 +7,9 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Script Debugger, Debugging scripts, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Use Script Debugger, Debug scripts, Scripting, API implementation, API implementation and reference]
 ---
 
 # Evaluate expressions in runtime using Console

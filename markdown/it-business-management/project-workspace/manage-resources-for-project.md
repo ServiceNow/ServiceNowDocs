@@ -7,7 +7,7 @@ release: australia
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Project workspace classic - Legacy, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -38,7 +38,7 @@ The **Resources** tab in project workspace shows the resource plans for the sele
     Use the grid view in the tab to:
 
     -   Edit the planned and allocated hours inline without opening the record in a form.
-    -   Group, hide, or show columns as per your requirement.
+    -   Group, hide, or show columns according to your requirement.
     -   Hide cancelled or completed resource plans.
     -   Request, confirm, or allocate a resource plan.
     -   Move a resource plan and its allocations to a future date for a group, role, or user resource plan.
@@ -48,7 +48,7 @@ The **Resources** tab in project workspace shows the resource plans for the sele
     -   Identify the resource plans created with specific members preference by viewing the **Resource plan created with specific members** icon \(\[Omitted image "specificmember\_allocation\_wb\_grid.png"\] Alt text: Icon for resource plans created with specific members preference\) next to the resource plans.
 -   **Resource Finder**
 
-    The section is available at the bottom of the page. The section is hidden by default. It can be made visible by clicking the resource finder icon \( \[Omitted image "ResourceFinderIcon.png"\] Alt text: Resource Finder icon \) in the top right of the page. It enables you to:
+    The section is available at the bottom of the page. The section is hidden by default. It can be made visible by selecting the resource finder icon \( \[Omitted image "ResourceFinderIcon.png"\] Alt text: Resource Finder icon \) in the top right of the page. It enables you to:
 
     -   Search the resources and view their availability. You can search the resources by group, role, or user.
     -   Add resource plans for the searched resources to the project and its tasks.
@@ -57,7 +57,7 @@ The **Resources** tab in project workspace shows the resource plans for the sele
     -   Configure the Actuals column using Detailed View.
     -   Filter resources in the Resource Finder by available, overallocated, or all resources.
     -   Identify resources that are created as specific members for a resource plan by viewing the **Member specified in the resource plan** icon \(\[Omitted image "specificmember\_allocation\_wb\_grid.png"\] Alt text: Icon for resources created as specific members\) next to the resources.
-    -   View the Resource Availability and Resource Capacity grids by clicking on a capacity or availability column.
+    -   View the Resource Availability and Resource Capacity grids by selecting on a capacity or availability column.
 
         You can view the user and resource allocation details in a pop-up window by selecting the **User** and **Allocated Hours** columns respectively in the **Resource Availability** grid.
 
@@ -68,22 +68,22 @@ When you select a resource plan in the resource grid section, the availability d
 
 1.  [Open](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/access-the-project-workspace.md) the required project in project workspace.
 
-2.  Click the **Resources** tab.
+2.  Select the **Resources** tab.
 
-    -   To [create a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/t_CreateResourcePlanProjectTask.md), click **New**.
-    -   To view the allocations in weekly or monthly format in the grid, click **Week** or **Month** button. The selected option changes the grid view in both the resource grid and resource finder sections.
+    -   To [create a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/t_CreateResourcePlanProjectTask.md), select **New**.
+    -   To view the allocations in weekly or monthly format in the grid, select **Week** or **Month** button. The selected option changes the grid view in both the resource grid and resource finder sections.
 
-        The time duration in the grid is displayed based on the earliest start date of the project or resource plans, and the last end date of the project or resource plans.
+        The time duration in the grid is displayed based on the earliest start date and the last end date of the project or resource plans.
 
-    -   To view the allocations in hours, FTE, or person days format in the grid, click **Hours**, **FTE**, or **Person Days** option in the list. The selected option changes the grid view in both the resource grid section and resource finder section.
-    -   To [search the resources and create a resource plan for them](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/create-resource-plan-with-finder.md), click the resource finder icon \( \[Omitted image "ResourceFinderIcon.png"\] Alt text: Resource Finder icon \).
-    -   To show or hide certain columns from the grid view, click the configuration icon \(\[Omitted image "configuration\_investment.png"\] Alt text: Configuration icon\). Hiding or displaying an item column does not update the table. Grouped columns cannot be hidden.
+    -   To view the allocations in hours, FTE, or person days format in the grid, select **Hours**, **FTE**, or **Person Days** option in the list. The selected option changes the grid view in both the resource grid section and resource finder section.
+    -   To [search the resources and create a resource plan for them](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/create-resource-plan-with-finder.md), select the resource finder icon \( \[Omitted image "ResourceFinderIcon.png"\] Alt text: Resource Finder icon \).
+    -   To show or hide certain columns from the grid view, select the configuration icon \(\[Omitted image "configuration\_investment.png"\] Alt text: Configuration icon\). Hiding or displaying an item column does not update the table. Grouped columns cannot be hidden.
     -   To view the resource allocations at user level, expand a resource plan in the grid. The user level allocations are listed only for Group and Role resource plans.
     -   To edit the planned and allocated hours inline in the grid, double-click a row. You can update the planned hours for future period for resource plans in Requested, Confirmed, and Allocated state.
-    -   To view and update resource plan details in a form, click the information icon \( \[Omitted image "informationicon.png"\] Alt text: Information icon \) in the beginning of the resource plan row.
-    -   To request a resource plan in the **Actions** column, click the actions icon \(\[Omitted image "ellipsis-vertical-icon.png"\] Alt text: Actions icon \) and select **Request**.
-    -   To delete a resource plan in the **Actions** column, click the actions icon \(\[Omitted image "ellipsis-vertical-icon.png"\] Alt text: Actions icon \) and select **Delete**.
-    -   To request all the resource plans created for the project in the **Actions** column, click the actions icon \(\[Omitted image "ellipsis-vertical-icon.png"\] Alt text: Actions icon\) in the project row and select **Request All**. The icon is enabled when at least one of the listed resource plans for the project is in the Planning or Rejected state.
+    -   To view and update resource plan details in a form, select the information icon \( \[Omitted image "informationicon.png"\] Alt text: Information icon \) in the beginning of the resource plan row.
+    -   To request a resource plan in the **Actions** column, select the actions icon \(\[Omitted image "ellipsis-vertical-icon.png"\] Alt text: Actions icon \) and select **Request**.
+    -   To delete a resource plan in the **Actions** column, select the actions icon \(\[Omitted image "ellipsis-vertical-icon.png"\] Alt text: Actions icon \) and select **Delete**.
+    -   To request all the resource plans created for the project in the **Actions** column, select the actions icon \(\[Omitted image "ellipsis-vertical-icon.png"\] Alt text: Actions icon\) in the project row and select **Request All**. The icon is enabled when at least one of the listed resource plans for the project is in the Planning or Rejected state.
 
 **Parent Topic:**[Project workspace classic - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/project-workspace-classic.md)
 

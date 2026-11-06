@@ -7,8 +7,8 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
@@ -39,7 +39,7 @@ This section provides a list view of the records associated with the change requ
 From this section, you can access the following information:
 
 -   Record information for the change request.
--   Agent Assist and search for relevant records and perform the required actions.
+-   Agent Assist for searching for relevant records and performing the required actions.
 
 For information about Change Management, see [Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_ITILChangeManagement.md).
 

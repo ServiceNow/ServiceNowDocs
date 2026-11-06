@@ -7,7 +7,7 @@ release: australia
 product: Workplace Service Delivery Integration with Microsoft Places
 classification: workplace-service-delivery-integration-with-microsoft-places
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, WSD for Microsoft places, Workplace Service Delivery, Employee Service Management]
 ---
@@ -17,8 +17,6 @@ breadcrumb: [Reference, WSD for Microsoft places, Workplace Service Delivery, Em
 The WSD for Microsoft places application lets you create workplace service requests and manage all your open workplace service requests.
 
 ## WSD for Microsoft places- Key features
-
-**Note:** Requests submitted from WSD for Microsoft places can't be edited from the WSD for Microsoft places portal.
 
 The WSD for Microsoft places is designed for a workplace user to create and manage workplace services requests. As an agent, you can create, and view service requests, and monitor its progress.
 

@@ -7,7 +7,7 @@ release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-08-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [scheduled job, sprint data, burndown chart, burnup chart]
 breadcrumb: [Configure, Collaborative Work Management, Strategic Portfolio Management]

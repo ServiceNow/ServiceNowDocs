@@ -7,9 +7,8 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [integration flow, pull data from ATS, Integration Hub, applicant data, ATS integration]
 breadcrumb: [Import application data, ATS integration, Integrate, Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
 

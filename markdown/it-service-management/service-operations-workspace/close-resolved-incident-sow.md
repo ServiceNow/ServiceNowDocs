@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Incident Management in Service Operations Workspace, Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -24,11 +24,11 @@ Role required: itil\_admin or admin
 
 1.  Navigate to **Workspace Experience** &gt; **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the left navigation, select **List** &gt; **Incident**.
+2.  From the navigation list, select **List** &gt; **Incident**.
 
 3.  In the Incident section, select **Resolved**.
 
-    List of incidents with **Resolved** state is displayed.
+    The list of incidents with the **Resolved** state is displayed.
 
 4.  Open an incident record with **Resolved** state.
 
@@ -39,7 +39,7 @@ Role required: itil\_admin or admin
 
 ## Result
 
-The incident record is closed and a success message is displayed. You cannot further edit the field values in the incident form.
+The incident record is closed and a success message is displayed. You can't further edit the field values in the incident form.
 
 **Parent Topic:**[Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/incident-sow.md)
 

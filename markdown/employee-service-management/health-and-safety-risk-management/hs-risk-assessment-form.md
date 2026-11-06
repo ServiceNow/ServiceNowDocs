@@ -7,7 +7,7 @@ release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-10-06"
 reading_time_minutes: 2
 breadcrumb: [Reference, Health and Safety Risk Management, Health and Safety, Employee Service Management]
 ---
@@ -57,6 +57,22 @@ Approval
 </td><td>
 
 State of approval of this risk assessment.
+
+</td></tr><tr><td>
+
+Assigned to
+
+</td><td>
+
+User assigned to this risk assessment record. Only users with access to the risk assessment can associate it with a record, for example, an Audit.
+
+</td></tr><tr><td>
+
+Assignment group
+
+</td><td>
+
+Team or group assigned to manage this risk assessment record.
 
 </td></tr><tr><td>
 

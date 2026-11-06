@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [AI Search analytics dashboard, Advanced AI Search Management Tools, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -34,7 +34,7 @@ The AI Search Analytics dashboard displays the ServiceNow logo in the banner. Yo
 
 2.  To replace the default **header\_for\_dashboard** UX theme asset with a version containing your logo, perform the following steps.
 
-    1.  Navigate to the UX Theme Asset \[sys\_ux\_theme\_asset\] table's list view by selecting **All**, entering `sys_ux_theme_asset.list` in the **Filter** field, and pressing Enter.
+    1.  Navigate to the UX Theme Asset \[sys\_ux\_theme\_asset\] table's list view by selecting **All**, entering `sys_ux_theme_asset.list` in the navigation field, and pressing Enter.
 
     2.  Open the **header\_for\_dashboard** record.
 
@@ -57,7 +57,7 @@ The AI Search Analytics dashboard displays the ServiceNow logo in the banner. Yo
 
 3.  To link your new UX theme asset to the banner for the AI Search Analytics dashboard, perform the following steps.
 
-    1.  Navigate to the UX Theme \[sys\_ux\_theme\] table's list view by selecting **All**, entering `sys_ux_theme.list` in the **Filter** field, and pressing Enter.
+    1.  Navigate to the UX Theme \[sys\_ux\_theme\] table's list view by selecting **All**, entering `sys_ux_theme.list` in the navigation field, and pressing Enter.
 
     2.  Open the **SearchAnalytics Dashboard Theme** record.
 

@@ -1,13 +1,13 @@
 ---
 title: Using Troubleshooting steps identification AI agent
-description: The Troubleshooting steps identification AI agent analyzes case context, knowledge articles, similar cases, and standard operating documents to propose additional troubleshooting steps.
+description: The Troubleshooting steps identification AI agent fetches the context from a case, identifies the missing context by comparing it with knowledge articles, similar cases, and standard operating documents, and then proposes additional troubleshooting steps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/troubleshooting-steps-identification-ai-agent.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AI Agents, Agentic AI]
 breadcrumb: [Use generative AI, ServiceNow Otto for CSM, Customer Service Management]
@@ -15,7 +15,7 @@ breadcrumb: [Use generative AI, ServiceNow Otto for CSM, Customer Service Manage
 
 # Using Troubleshooting steps identification AI agent
 
-The Troubleshooting steps identification AI agent analyzes case context, knowledge articles, similar cases, and standard operating documents to propose additional troubleshooting steps.
+The Troubleshooting steps identification AI agent fetches the context from a case, identifies the missing context by comparing it with knowledge articles, similar cases, and standard operating documents, and then proposes additional troubleshooting steps.
 
 ## Troubleshooting steps identification AI agent overview
 

@@ -7,9 +7,9 @@ release: australia
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Building a data model, App creation tutorial, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Building a data model, App creation tutorial, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Create a data table
@@ -84,7 +84,7 @@ Follow along to create a table for the employee travel request application.
 
 4.  Select **Create a blank table**.
 
-    A blank table enables you to create the fields, rows, and columns in your table from scratch. You can import existing data, such as spreadsheets or PDFs, to create the table for your application.
+    A blank table enables you to create the fields, rows, and columns in your table from scratch. You can import existing data, such as spreadsheets, to create the table for your application.
 
 5.  Select **Continue**.
 

@@ -7,7 +7,7 @@ release: australia
 product: Legal Hold Notification
 classification: legal-hold-notification
 topic_type: task
-last_updated: "2026-05-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Legal Hold Notification, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -26,15 +26,15 @@ Role required: sn\_lg\_hold.legal\_hold\_fulfiller or sn\_lg\_ops.legal\_fulfill
 
 1.  Access the Legal Hold Notification matter intake form through either the Employee Center or the Legal Counsel Center.
 
-<table id="choicetable_gcx_sb4_qfc"><thead><tr><th align="left" id="d709966e96">
+<table id="choicetable_gcx_sb4_qfc"><thead><tr><th align="left" id="d707374e96">
 
 Option
 
-</th><th align="left" id="d709966e99">
+</th><th align="left" id="d707374e99">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d709966e105">
+</th></tr></thead><tbody><tr><td id="d707374e105">
 
 **Using Employee Center \(sn\_lg\_hold.legal\_hold\_fulfiller\)**
 
@@ -45,7 +45,7 @@ Description
 3.  In the **Ethics and compliance** category, select **Legal Hold Notification**.
 
 
-</td></tr><tr><td id="d709966e153">
+</td></tr><tr><td id="d707374e153">
 
 **Using Legal Counsel Center \(sn\_lg\_ops.legal\_fulfiller\)**
 

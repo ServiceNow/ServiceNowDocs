@@ -7,7 +7,7 @@ release: australia
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Using Stream Connect for Apache Kafka, Import and stream data, Integration Hub, Workflow Data Fabric]
 ---
@@ -38,11 +38,15 @@ Every schema belongs to a registry. There are two types of schema registries in 
 
 Both schema registries have an option to **Track in the update set**. When this option is enabled, the schemas in that registry are saved to the update set. Saving the schemas to the update set makes it possible to move them from one environment to another. By default, this option is turned off for the Confluent Schema Registry because schema IDs may change from one environment to another. This option is enabled for the Standalone Schema Registry, because if you're creating schemas manually, the schema ID is less likely to change from one environment to another. To change the default setting for either registry, navigate to **All** &gt; **IntegrationHub** &gt; **Schema Registries**, select the registry, and change the **Track in the update set** option.
 
+## Stream Producer schemas
+
 When you create or update a Stream Producer record with the serialization format set to Avro, ServiceNow automatically generates and maintains an Avro schema for the associated table.
 
 If a schema already exists for the table when the Stream Producer record is saved, that schema is reused. If no schema exists, a new one is generated based on the table's field layout. Table metadata is used to detect whether a schema needs to be regenerated. A new schema is only generated when the table structure has changed.
 
 Schemas used by Stream Producer are cached in memory. If a message payload contains a field that the cached schema doesn't recognize, a new schema is generated and stored in the schema tables. The updated schema is then used to convert the change data capture \(CDC\) payload to Avro format before the message is sent to Kafka.
+
+## Schema tables and roles
 
 Stream Producer schemas are stored across two tables in the ServiceNow IntegrationHub Stream Connect Schema \[`com.glide.hub.stream_connect.schema`\] plugin. These tables are read-only for all users. No one has create, update, or delete access.
 
@@ -113,11 +117,13 @@ Data, serialized in an Avro format.
 
 Stream Connect producers and consumers can be configured to use an Avro format.
 
-When configuring a producer, simply specify which schema you want to use. Then when you run the producer, the message payload is generated in JSON and automatically converted to an Avro format using the specified schema. For more information on producers, see the  or the ProducerV2 API.
+When configuring a producer, simply specify which schema you want to use. Then when you run the producer, the message payload is generated in JSON and automatically converted to an Avro format using the specified schema. For more information on producers, see the [Kafka Producer step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/kafka-producer-action-designer.md) or the [ProducerV2 API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ProducerV2ScopedAPI.md).
 
 You can also configure a Stream Producer to send messages in an Avro format. When the serialization format is set to Avro, the Stream Producer uses the auto-generated schema for the selected table to convert CDC payloads to Avro before sending them to Kafka.
 
-Configuring a consumer is similar. Specify the serialization format as **Encoded** and select a schema registry. When the consumer receives a message in an Avro format, it's automatically converted to JSON according to the schema for the schema ID received in the message. For more information, see the Kafka Message trigger or the [ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/configure-etl-consumer.md), [Transform Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/configure-transform-map-consumer.md), or [Script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/configure-script-consumer.md) consumers.
+Configuring a consumer is similar. Specify the serialization format as **Encoded** and select a schema registry. When the consumer receives a message in an Avro format, it's automatically converted to JSON according to the schema for the schema ID received in the message. For more information, see the [Kafka Message trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-flow-kafka.md) or the [ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/configure-etl-consumer.md), [Transform Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/configure-transform-map-consumer.md), or [Script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/configure-script-consumer.md) consumers.
+
+## Schema Registry REST API
 
 The Schema Registry REST API exposes your Stream Producer Avro schemas to external systems and consumers. External applications can use the API to retrieve schemas and decode Avro-encoded messages received from Kafka topics.
 

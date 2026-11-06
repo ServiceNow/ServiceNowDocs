@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/r\_AvailableSystemProperties.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 145
+last_updated: "2026-09-10"
+reading_time_minutes: 146
 breadcrumb: [Basic system configuration, Get started, Administer the ServiceNow AI Platform]
 ---
 
@@ -14,7 +14,7 @@ breadcrumb: [Basic system configuration, Get started, Administer the ServiceNow 
 
 Some properties are available on a system properties form, but some lesser-used properties are available only from the System Property \[sys\_properties\] table. Sometimes, the property does not exist in a base instance, but can be added if you change the value.
 
-**Note:** The Instance Security Hardening Settings content contains detailed descriptions, and compliance values, for the security-related system properties and plugins in the ServiceNow AI Platform. To learn more about each of these properties, see Instance Security Hardening Settings.
+**Note:** The Instance Security Hardening Settings content contains detailed descriptions, and compliance values, for the security-related system properties and plugins in the ServiceNow AI Platform. To learn more about each of these properties, see [Instance Security Hardening Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-hardening-settings.md).
 
 -   **cdu.record.watcher.timeout**
 
@@ -1141,7 +1141,7 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.db.loguser**
 
-    Display \(**true**\) or suppress display \(**false**\) of database errors. For example, `Unique Key violation detected by database (Duplicate entry 'ABC' for key 'name') to user.` to logged-in user.
+    Display \(**true**\) or suppress display \(**false**\) of database errors such as `Unique Key violation detected by database (Duplicate entry 'ABC' for key 'name').` to logged-in user.
 
     -   Type: true \| false
     -   Default value: none
@@ -2147,6 +2147,13 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: true \| false
     -   Default value: false
     -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+-   **glide.log.off\_glide\_ingestion.enabled**
+
+    Enables logging MCP server activities in the System Logs. The logs don't include activity that occurs before you enable the system property. For more information, see [View MCP server logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/view-mcp-server-logs.md).
+
+    -   Type: true \| false
+    -   Default value: false
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.login.no\_blank\_password**
 
     Prevents \(**true**\) or allows \(**false**\) logins from users with blank passwords. Often, importing lists of users creates many users with blank passwords. By default, this property is set to **true** on production instances.
@@ -2640,13 +2647,6 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: true \| false
     -   Default value: true
     -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
--   **glide.rest.sampling.enabled**
-
-    Enables request sampling from scripted REST API resources. Request samples can be used to automatically generate definitions for request headers, query parameters, and schemas. General guidance to help limit performance problems is to only enable this property in non-production instances.
-
-    -   Type: true \| false
-    -   Default value: false
-    -   Location: System Property \[sys\_properties\] table
 -   **glide.rest.serialize.disable\_response\_stream\_buffering**
 
     Enables streaming multipart responses immediately rather than buffering responses until complete. This property applies to only REST APIs that support multipart requests, such as the Batch API, and instances configured with Application Delivery Controller, version 2 \(ADCv2\).
@@ -2726,6 +2726,15 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: boolean
     -   Default value: false
     -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+-   **glide.script.enforce\_scope\_checks\_on\_get\_ref\_record**
+
+    Used to enhance cross-scope access controls for the**getRefRecord\(\)** JavaScript API method to ensure authorization rules are followed consistently when retrieving information from other another application scope via the JavaScript method **getRefRecord\(\)**.
+
+    For more information, see [KB3142985: Cross-Scope Access Security Enhancement \(Glide Element API: getRefRecord\(\)\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3142985)
+
+    -   Type: Boolean \(true \| false\)
+    -   Default value: True for new instances, starting with the Brazil release. False for upgraded instances \(meaning customers must “opt-in”\).
+    -   Location: To help prevent insecure configurations, this property cannot be manually added and with the value set to false. For assistance, contact customer support.
 -   **glide.script.log\_level**
 
     Controls the behavior of gs.log. Set this property to **none** to disable Glide script logging, or to **print** to save log data to the file system instead of the database. Use the default value **all** to save all Glide script logs to the database.
@@ -3077,6 +3086,16 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: true \| false
     -   Default value: false
     -   Location: System Property \[sys\_properties\] table
+-   **glide.sys.fencing.restricted\_caller\_access.invalidation\_mode**
+
+    Controls how the system invalidates Restricted Caller Access records when a source code record, such as a script include, in a cross-scope access table is committed in an update set. For more information about RCA privileges, see [Restricted caller access privilege settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/restricted-caller-access-privilege.md).
+
+    -   Type: string
+    -   Default value: SCRIPT\_ENGINE
+    -   Valid values:
+        -   DB\_LISTENER: Enables a database listener that monitors update set commits on source code tables and invalidates RCA records at the time of the commits so that cross-scope access is based on the latest source code updates.
+        -   SCRIPT\_ENGINE: If an update set contains a script with changes, the script engine doesn't invalidate associated RCA records.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.sys.time\_format**
 
     System time format for all users unless overridden in the user's record.
@@ -3335,6 +3354,13 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: integer
     -   Default value: 8
     -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+-   **glide.ui.choice.display\_none**
+
+    Controls the label displayed for the empty option in choice fields. Set to **true** to display **None**. When set to **false**, displays the default **--None--** label.
+
+    -   Type: true \| false
+    -   Default value: false
+    -   Location: System Property \[sys\_properties\] table
 -   **glide.ui.clickthrough.popup**
 
     -   For reference fields, enables \(**true**\) or disables \(**false**\) display of the pop-up diamond icon for reference fields, and opening a new window when clicking the icon.

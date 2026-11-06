@@ -7,7 +7,7 @@ release: australia
 product: Conversational Interfaces
 classification: conversational-interfaces
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [Channels, Conversational Interfaces, Chat, Messaging, Live Agent]
 breadcrumb: [Exploring Conversational Interfaces Console, Conversational Interfaces Console, Conversational Interfaces]
@@ -27,13 +27,15 @@ The following channels are supported for synchronous chat:
 
 -   Service Portal \(mweb\) chat widget
 -   Mobile web \(mweb\) client
+-   [\(Legacy\) Conversational Integration with Alexa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/conv-integ-alexa.md)
+-   [Conversational Integration with Apple Messages for Business](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/integration-apple-mssg.md)
+-   [Conversational Integration with Google Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/gchat-conv-integration.md)
+-   [Conversational Integration with LINE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/messg-line.md)
 -   [Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/teams-conv-integration.md)
 -   [Conversational Integration with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/mssg-slack.md)
--   [Conversational Integration with Workplace from Facebook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/mssg-workplace.md)
--   [Conversational Integration with Alexa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/conv-integ-alexa.md)
+-   [Conversational SMS Integration with AWS End User Messaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/conversational-sms-integration-amazon.md)
 -   [Conversational Integration with WhatsApp \(powered by Twilio\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/messg-whatsapp-twilio.md)
--   [Conversational Integration with LINE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/messg-line.md)
--   [Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/messg-fbm.md)
+-   [Conversational Integration with WhatsApp \(WhatsApp Cloud API\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/messg-direct-whatsapp.md)
 
 ## Messaging channels
 
@@ -53,13 +55,13 @@ Messaging channels are defined in the Messaging Channels table \[sys\_cs\_channe
 
 \[Omitted image "messaging-channels-table.png"\] Alt text: The Messaging Channels table displays all of the channels that are configured for the instance.
 
-## Live Agent support by channel
+## Live agent support by channel
 
-Not all channels may be suitable for Live Agent support. For example, you may want to disable support for the Bot-to-Bot and voice channels. Live Agent support is enabled by default, but admins can change this setting in the Messaging Channels \[sys\_cs\_channel\] table. For details, see [Disable live agent support for a channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/disable-live-agent-support-channel.md).
+Not all channels may be suitable for live agent support. For example, you may want to disable support for the Bot-to-Bot and voice channels. Live agent support is enabled by default, but admins can change this setting in the Messaging Channels \[sys\_cs\_channel\] table. For details, see [Disable live agent support for a channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/disable-live-agent-support-channel.md).
 
-## Chat and messaging features
+## Agent Chat messaging features
 
-The Conversational Interfaces channels offer basic features that make it easy for your agents and end users to stay connected:
+The Conversational Interfaces channels offer basic features that make it easy for your users and agents to stay connected:
 
 -   Message indicators that inform your users of new and unread messages received when they’re away from chat or when they’ve been offline.
 -   Typing indicators that show a chat participant is responding.
@@ -67,13 +69,11 @@ The Conversational Interfaces channels offer basic features that make it easy fo
 -   Secure handling of sensitive data, such as passwords or account numbers. This data is masked when users enter the information, and it cannot be viewed by others.
 -   Automatic closing of [idle chat or messaging conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ci-idle-chats.md).
 
-## New and unread message indicators
+## New and unread message indicators for Agent Chat
 
 End users receive new message indicators on chat and messaging channels when they're offline. Users can be anonymous \(guests\) or known \(authenticated\). The unread message count is displayed on the chat widget.
 
 In asynchronous chat, the unread message count reflects the number of any offline messages sent by a live agent and any simple notifications received.
-
-\[Omitted image "unread-new-message-indicators.png"\] Alt text: Unread message count and new message indicators in the Service Portal chat widget.
 
 Message indicators are displayed as follows:
 
@@ -86,14 +86,12 @@ Message indicators are displayed as follows:
 -   When a user closes and reopens the chat window, the messages displayed are considered as "read" even though the user might not have reviewed them.
 
 
-## System messages
+## Agent Chat system messages
 
-During active conversations with live or virtual agents, certain system messages inform users and agents about the conversation state. For example, if a user is engaged in live chat, but doesn’t respond within a certain amount of time, a conversation timeout message is displayed: `The conversation is timing out, are you still there?`
+During active conversations with live agents, certain system messages inform users and agents about the conversation state. For example, if a user is engaged in live chat, but doesn’t respond within a certain amount of time, a conversation timeout message is displayed: `The conversation is timing out, are you still there?`
 
 You can change base system messages by editing their related system properties in Chat Settings in the Conversational Interfaces console.
 
--   **[Disable live agent support for a channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/disable-live-agent-support-channel.md)**  
-Add the **disable\_live\_agent** property to the Channel Properties related list to exclude it from live agent support.
 -   **[Using Asynchronous Chat in messaging channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/async-chat.md)**  
 Enable your organization or brand to maintain constant engagement with end users. With Asynchronous Chat, your agents and end users can participate in long-running conversations without being online concurrently. Agents can also proactively contact users whenever there is useful information to share, such as important alerts or updates.
 

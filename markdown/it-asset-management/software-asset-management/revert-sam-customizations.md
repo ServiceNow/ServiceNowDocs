@@ -7,9 +7,9 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [SAM Administration, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Software Asset Management administration, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Revert Software Asset Management customizations
@@ -29,7 +29,7 @@ To ensure feature functionality, you must revert customizations after:
 -   A new installation of the Software Asset Management Professional \(com.snc.samp\) plugin
 -   Upgrading from the Software Asset Management Foundation \(com.snc.sams\) plugin
 
-You can also revert customizations using the **System Diagnostics** &gt; **Upgrade History** navigation.
+You can also revert customizations using the **System Diagnostics** &gt; **Upgrade History** navigation or using the Configuration Console for Software Asset Management. For more details about the Configuration Console for Software Asset Management, see [Configuration Console for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/config-console-sam.md).
 
 ## Procedure
 

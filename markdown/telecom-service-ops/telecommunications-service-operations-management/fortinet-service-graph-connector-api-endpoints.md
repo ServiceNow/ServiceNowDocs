@@ -1,5 +1,5 @@
 ---
-title: Fortinet Service Graph Connector API Endpoints
+title: Fortinet Service Graph Connector API endpoints
 description: The Service Graph Connector for Fortinet integrates Fortinet Dashboard API data into ServiceNow AI PlatformConfiguration Management Database \(CMDB\). This document details the API endpoints used and how data flows through the system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-service-ops/telecommunications-service-operations-management/fortinet-service-graph-connector-api-endpoints.html
@@ -7,12 +7,12 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Reference, Telecommunications Service Operations Management]
 ---
 
-# Fortinet Service Graph Connector API Endpoints
+# Fortinet Service Graph Connector API endpoints
 
 The Service Graph Connector for Fortinet integrates Fortinet Dashboard API data into ServiceNow AI PlatformConfiguration Management Database \(CMDB\). This document details the API endpoints used and how data flows through the system.
 

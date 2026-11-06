@@ -1,13 +1,13 @@
 ---
 title: CopyDynamicSchemaAPI - Scoped, Global
-description: The CopyDynamicSchemaAPI class provides methods and extension points for duplicating dynamic schema metadata.Creates and returns a CopyDynamicSchemaAPI object used to execute the copy operation. This method is provided in the DynamicSchemaCopyController class.Preset enabling users to skip the copying of attributes during the copy operation.Preset enabling users to skip the copying of all choice overrides during the copy operation.Preset enabling users to skip the copying of all choice sets and choices during the copy operation. All copied elements that would’ve linked to the copied choice set or choice will link to the original choice set or choice instead.Generates and returns a unique transaction ID for each copy operation you start. This ID is used to track the operation and is passed to extension points for validation and custom logic. This method is provided in the DynamicSchemaCopyController class.Starts the copy process for dynamic schema components and returns a transaction ID for identifying the copy operation. This method is provided in the DynamicSchemaCopyController class.Extension point method allowing custom names for a copy or an auto-generated name if empty or null. This extension point method is provided in the DynamicSchemaCopyController JavaScript class.Extension point method for creating custom copy operations by allowing users to specify whether a particular record should be copied. The method returns true if the record is to be copied and false if it should be skipped.Extension point method used to verify the transaction ID of the copy operation before returning the matching verification key from getCopyApi\(\), ensuring relevance to the extension point implementation. This extension point method is provided in the DynamicSchemaCopyController class.
+description: The CopyDynamicSchemaAPI class provides methods and extension points for duplicating dynamic schema metadata.Creates and returns a CopyDynamicSchemaAPI object used to execute the copy operation. This method is provided in the DynamicSchemaCopyController JavaScript class.Preset enabling users to skip the copying of attributes during the copy operation.Preset enabling users to skip the copying of all choice overrides during the copy operation.Preset enabling users to skip the copying of all choice sets and choices during the copy operation. All copied elements that would’ve linked to the copied choice set or choice will link to the original choice set or choice instead.Generates and returns a unique transaction ID for each copy operation you start. This ID is used to track the operation and is passed to extension points for validation and custom logic. This method is provided in the DynamicSchemaCopyController JavaScript class.Starts the actual copy process for dynamic schema components and returns a transaction ID for identifying the copy operation. This method is provided in the DynamicSchemaCopyController JavaScript class.Extension point method allowing custom names for a copy or an auto-generated name if empty or null. This extension point method is provided in the DynamicSchemaCopyController JavaScript class.Extension point method for creating custom copy operations by allowing users to specify whether a particular record should be copied. The method returns true if the record is to be copied and false if it should be skipped.Extension point method used to verify the transaction ID of the copy operation before returning the matching verification key from getCopyApi\(\), ensuring relevance to the extension point implementation. This extension point method is provided in the DynamicSchemaCopyController JavaScript class.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/server-api-reference/CopyDynamicSchemaAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The CopyDynamicSchemaAPI class provides methods and extension points for duplicating dynamic schema metadata.
 
-The CopyDynamicSchemaAPI API accepts a specified dynamic category as input and proceeds to copy all associated metadata through an asynchronous background process. Metadata includes child categories, category members, attributes, choice sets, choices, and choice overrides.
+The CopyDynamicSchemaAPI API accepts a specified dynamic category as input and proceeds to copy all associated metadata—including child categories, category members, attributes, choice sets, choices, and choice overrides—through an asynchronous background process.
 
 For example, metadata schema is used to describe product characteristics like color, screen size, or network speed. These characteristics change over time, and the schema helps track those changes across versions for things like tech support or warranties. The CopyDynamicSchemaAPI allows you to duplicate these volumes of metadata in a single request.
 
@@ -28,19 +28,19 @@ This API requires the Dynamic Schema Support \(com.glide.dynamic\_schema\) plugi
 
 ## Extension point methods
 
-The copyDynamicSchema API supports a JavaScript class called DynamicSchemaCopyController, which implements three **optional** extension‑point methods that you define using custom logic. If you choose to implement the extension points, you must first create and define it before calling any API methods. Runtime invocation of extension point methods happens after your script calls runAsync\(\).
+The copyDynamicSchema API supports a JavaScript class called DynamicSchemaCopyController, which implements three **optional** extension‑point methods that you define using custom logic. If you choose to implement the extension point, you must first create and define it before calling any API methods. Runtime invocation of extension point methods happens after your script calls runAsync\(\).
 
 **Note:** Presets \(skipAttributes\(\), skipChoiceSets\(\), skipChoiceOverrrides\(\)\) take precedence over extension method behavior.
 
-These extension point methods define whether the copy process applies to the current transaction, whether a particular record is copied or skipped, and what the new copy name is. This allows you to control whether to skip certain metadata, rename items, enforce business rules, or avoid copying sensitive information.
+These extension point methods define whether the copy process should apply to the current transaction, whether a particular record should be copied or skipped, and what the new copy name will be. This allows you to control whether to skip certain metadata, rename items, enforce business rules, or avoid copying sensitive information.
 
 If no extension points are provided, the API copies everything \(unless the API is called with any of the skip methods, for example skipAttributes\(\)\) and generates names for the copied elements.
 
 The extension point methods are as follows:
 
-1.  [CopyDynamicSchemaAPI - verifyCopyOperation\(String transactionId\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/CopyDynamicSchemaAPI.md) - Called before copying each major component type. Must return the same verification key supplied to getCopyApi\(\). If the method returns null, the extension point logic is ignored for this operation.
-2.  [CopyDynamicSchemaAPI - shouldCopy\(Object recordData\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/CopyDynamicSchemaAPI.md) - If false, skips the copy of that record.
-3.  [CopyDynamicSchemaAPI - getCopyName\(Object recordData\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/CopyDynamicSchemaAPI.md) - Creates a custom or auto-generated name for the copy.
+1.  [CopyDynamicSchemaAPI - verifyCopyOperation\(String transactionId\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/CopyDynamicSchemaAPI.md) - Called before copying each major component type. Must return the same verification key supplied to getCopyApi\(\). If returns null, the extension point logic ignored for this operation.
+2.  [CopyDynamicSchemaAPI - shouldCopy\(Java HashMap recordData\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/CopyDynamicSchemaAPI.md) - If false, skips the copy of that record.
+3.  [CopyDynamicSchemaAPI - getCopyName\(Java HashMap recordData\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/CopyDynamicSchemaAPI.md) - Creates a custom or auto-generated name for the copy.
 
 ## CopyDynamicSchemaAPI workflow
 
@@ -54,13 +54,13 @@ The following workflow shows the order in which to call CopyDynamicSchemaAPI met
 4.  [CopyDynamicSchemaAPI - runAsync\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/CopyDynamicSchemaAPI.md) - Starts the asynchronous copy process and triggers the extension points for each record being copied. Returns the transaction ID.
 5.  After runAsync\(\), the system runs the extension point methods you may have previously defined: verifyCopyOperation\(\), shouldCopy\(\), getCopyName\(\).
 
-If any step fails, the API rolls back the entire transaction. You can monitor the operation's status in the Progress Worker \[sys\_progress\_worker\] table, Name column with a name format like `Copy Dynamic Schema – <transaction ID>`.
+If any step fails, the API rolls back the entire transaction. You can monitor the operation's status in the Progress Worker \[sys\_progress\_worker\] table, Name column with a name format like “Copy Dynamic Schema – &lt;transaction ID&gt;”.
 
 **Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 
 ## CopyDynamicSchemaAPI - getCopyApi\(String categoryToCopy, String verificationKey\)
 
-Creates and returns a CopyDynamicSchemaAPI object used to execute the copy operation. This method is provided in the DynamicSchemaCopyController class.
+Creates and returns a CopyDynamicSchemaAPI object used to execute the copy operation. This method is provided in the DynamicSchemaCopyController JavaScript class.
 
 <table id="table_rlv_v5c_xgc" class="parameters"><thead><tr><th>
 
@@ -84,7 +84,7 @@ String
 
 </td><td>
 
-The namespace name that uniquely identifies the given category to copy from.Example: `"tech_store/u_device_specs/u_mobile_devices"`
+The namespace name \(namespace + name\) that uniquely identifies the given category to copy from.Example: `"tech_store/u_device_specs/u_mobile_devices"`
 
 Table: Dynamic Categories \[dynamic\_categories\], \(Computed\) Namespaced Name column
 
@@ -115,13 +115,11 @@ var api = DynamicSchemaAPI.get().getCopyApi("tech_store/u_device_specs/u_mobile_
 api.runAsync();
 ```
 
-This script returns a CopyDynamicSchemaAPI object. Output:
+This script returns a CopyDynamicSchemaAPI object. With this object, you can monitor the operation, configure presets as needed, and initiate the copy process. Output:
 
 ```
 {CopyDynamicSchemaAPI@13721}
 ```
-
-With this object, you can monitor the operation, configure presets as needed, and initiate the copy process using additional copyDynamicSchema API methods.
 
 ## CopyDynamicSchemaAPI - skipAttributes\(\)
 
@@ -203,7 +201,7 @@ Output:
 
 ## CopyDynamicSchemaAPI - getTransactionId\(\)
 
-Generates and returns a unique transaction ID for each copy operation you start. This ID is used to track the operation and is passed to extension points for validation and custom logic. This method is provided in the DynamicSchemaCopyController class.
+Generates and returns a unique transaction ID for each copy operation you start. This ID is used to track the operation and is passed to extension points for validation and custom logic. This method is provided in the DynamicSchemaCopyController JavaScript class.
 
 The transaction ID is used by extension points like getCopyName\(\) to ensure that custom logic only applies to the correct copy transaction. You can store this ID in a custom table to reference it later or to coordinate with other scripts.
 
@@ -225,10 +223,10 @@ String
 
 </td><td>
 
-Transaction ID that can be used to identify the copy operation. You can check the status of the copy operation in the Progress Worker \[sys\_progress\_worker\] table, Name column.Naming format: Copy Dynamic Schema - &lt;transaction ID&gt;
+Returns a transaction ID that can be used to identify the copy operation. You can check the status of the copy operation in the Progress Worker \[sys\_progress\_worker\] table, Name column.Naming format: Copy Dynamic Schema - &lt;transaction ID&gt;
 
 </td></tr></tbody>
-</table>The following example shows how to use getTransactionId\(\) to retrieve and store a transaction ID before copying a dynamic schema. The user calls getTransactionId\(\) to obtain the transaction ID and store it in a custom table. When the extension point implementation is invoked during the copy process, it can check against stored transaction IDs to determine whether it should provide custom naming logic or return null to ignore the transaction.
+</table>The following example script shows how to use getTransactionId\(\) to retrieve and store a transaction ID before copying a dynamic schema. The user calls getTransactionId\(\) to obtain the transaction ID and store it in a custom table. When the extension point implementation is invoked during the copy process, it can check against stored transaction IDs to determine whether it should provide custom naming logic or return null to ignore the transaction.
 
 ```
 var api = DynamicSchemaAPI.get().getCopyApi("tech_store/u_device_specs/u_mobile_devices", "verification_key"); 
@@ -250,9 +248,9 @@ Output returns the unique transaction ID:
 
 ## CopyDynamicSchemaAPI - runAsync\(\)
 
-Starts the copy process for dynamic schema components and returns a transaction ID for identifying the copy operation. This method is provided in the DynamicSchemaCopyController class.
+Starts the actual copy process for dynamic schema components and returns a transaction ID for identifying the copy operation. This method is provided in the DynamicSchemaCopyController JavaScript class.
 
-The runAsync\(\) method runs the copy operation asynchronously in the background, and calls the extension points, getCopyName\(\), shouldCopy\(\), and verifyCopyOperation\(\), during the copy process to customize naming and security. To view the status of the copy operation, see the Progress Worker \[sys\_progress\_worker\] table, Name column with a naming format of `Copy Dynamic Schema - <transaction ID>`.
+The runAsync\(\) method runs the copy operation asynchronously in the background, and calls the extension points, getCopyName\(\), shouldCopy\(\), and verifyCopyOperation\(\), during the copy process to customize naming and security. To view the status of the copy operation, see the Progress Worker \[sys\_progress\_worker\] table, Name column with a naming format "Copy Dynamic Schema - &lt;transaction ID&gt;".
 
 If any part of the copy fails, the API automatically rolls back all changes to maintain data consistency.
 
@@ -274,7 +272,7 @@ String
 
 </td><td>
 
-Transaction ID used to identify the copy operation. The copy process is asynchronous, but you can check the status of the copy operation in the Progress Worker \[sys\_progress\_worker\] table, Name column with a naming format of `Copy Dynamic Schema - <transaction ID>`.The copying behavior depends on the extension point implementation and the skip method presets. Components are only skipped if the skip\(\) method presets are called or if the extension point shouldCopy\(\) returns false.
+Returns a transaction ID used to identify the copy operation. The copy process is asynchronous, but you can check the status of the copy operation in the Progress Worker \[sys\_progress\_worker\] table, Name column with a naming format "Copy Dynamic Schema - &lt;transaction ID&gt;".The actual copying behavior depends on the extension point implementation and the skip method presets. Components are only skipped if the skip\(\) method presets are called or if the extension point shouldCopy\(\) returns false.
 
 </td></tr></tbody>
 </table>The following example script shows how to initiate a dynamic schema copy operation using the runAsync\(\) method where `tech_store/u_device_specs/u_mobile_devices` is the unique name of the category to copy and `verification_key` is a verification key. After obtaining the copy API instance and storing the transaction ID for extension point reference, runAsync\(\) begins the copy process for all schema components \(categories, category members, attributes, choice sets, choices, and choice overrides\).
@@ -291,121 +289,11 @@ Outputs the transaction ID:
 “9a8e0f92ff5032103c16ffffffffff82”
 ```
 
-## CopyDynamicSchemaAPI - getCopyName\(Object recordData\)
+## CopyDynamicSchemaAPI - getCopyName\(Java HashMap recordData\)
 
 Extension point method allowing custom names for a copy or an auto-generated name if empty or null. This extension point method is provided in the DynamicSchemaCopyController JavaScript class.
 
 <table id="table_fb1_1fz_13c" class="parameters"><thead><tr><th>
-
-Name
-
-</th><th>
-
-Type
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-recordData
-
-</td><td>
-
-Object
-
-</td><td>
-
-Object containing record metadata: -   `name`: record name
--   `namespaced_name`: namespace + record name
--   `table_name`: table name
--   `sys_id`: unique system ID
-
-</td></tr></tbody>
-</table><table id="table_gb1_1fz_13c" class="returns"><thead><tr><th>
-
-Type
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-String
-
-</td><td>
-
-Proposed name for this copy.Possible errors:
-
--   Name is more than 60 characters.
--   Copy name already exists.
-
-</td></tr><tr><td>
-
-String \(empty or null\)
-
-</td><td>
-
-Autogenerated name for this copy.
-
-</td></tr></tbody>
-</table>This example shows an implementation of the extension point. After the shouldCopy\(\) method returns `true` to confirm the user's intent to copy the record, the user provides a custom name for the copy by defining getCopyName\(\). For example, the user can append "\_copy" to the original name as a chosen label, or allow the system to automatically generate a name.
-
-```
-var DynamicSchemaCopyController = Class.create(); 
-DynamicSchemaCopyController.prototype = { 
- 
-    initialize: function() {}, 
-
-    verifyCopyOperation: function(transactionId) { 
-        var transactionIdExist = new GlideRecord('u_copy_transactions'); 
-        transactionIdExist.addQuery('u_transaction_id', transactionId); 
-        transactionIdExist.query(); 
- 
-        if (transactionIdExist.hasNext()) { 
-            return 'verification_key'; 
-        } 
-        else { 
-            return null; 
-        } 
-    }, 
- 
-    shouldCopy: function(recordData) { 
-        var namespacedNameSkip = [ 
-            'tech_store/u_device_specs/u_phone', 
-            'tech_store/u_device_specs/u_storage' 
-        ]; 
-        var recordNamespacedName = String(recordData.get('namespaced_name')); 
-        if (namespacedNameSkip.includes(recordNamespacedName)) { 
-            return false; 
-        } 
-        return true; 
-    }, 
- 
-    getCopyName: function(recordData) { 
-        return String(recordData.get('name') + '_copy'); 
-    }, 
- 
-    type: 'DynamicSchemaCopyController' 
-
-};
-```
-
-Output:
-
-```
-Record's name + "_copy"
-```
-
-## CopyDynamicSchemaAPI - shouldCopy\(Object recordData\)
-
-Extension point method for creating custom copy operations by allowing users to specify whether a particular record should be copied. The method returns true if the record is to be copied and false if it should be skipped.
-
-This extension point method is provided in the DynamicSchemaCopyController class, and provides flexibility for users to control which records are included in the copy process based on their requirements.
-
-<table id="table_z44_mdz_13c" class="parameters"><thead><tr><th>
 
 Name
 
@@ -433,7 +321,7 @@ Java HashMap containing record metadata: -   name: record name
 -   sys\_id: unique system ID
 
 </td></tr></tbody>
-</table><table id="table_ap4_mdz_13c" class="returns"><thead><tr><th>
+</table><table id="table_gb1_1fz_13c" class="returns"><thead><tr><th>
 
 Type
 
@@ -443,19 +331,25 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Boolean
+String
 
 </td><td>
 
-Returns true if a copy should be made and false otherwise.Flag that indicates whether a copy should be made.
+Proposed name for this copy.Possible errors \(during the copy process\):
 
-Valid values:
+-   Name is more than 60 characters.
+-   Copy name already exists. \(For example, when another table entry has the same name as the copy being inserted.\)
 
--   true: Make a copy.
--   false: Don't make a copy.
+</td></tr><tr><td>
+
+String \(empty or null\)
+
+</td><td>
+
+Auto-generated name for this copy.
 
 </td></tr></tbody>
-</table>This example shows an implementation of the shouldCopy\(\) extension point. Once verification is complete, the method enables users to implement custom copying logic, allowing them to skip records according to criteria such as name, namespaced\_name, table, or sys\_id.
+</table>This example shows an implementation of the extension point. After the shouldCopy\(\) method returns `true` to confirm the user's intent to copy the record, the user provides a custom name for the copy by defining getCopyName\(\). For example, they can append "\_copy" to the original name as a chosen label, or allow the system to automatically generate a name.
 
 ```
 var DynamicSchemaCopyController = Class.create(); DynamicSchemaCopyController.prototype = { 
@@ -496,11 +390,96 @@ var DynamicSchemaCopyController = Class.create(); DynamicSchemaCopyController.pr
 };
 ```
 
-Returns `true` if the namespaced\_name isn’t equal to `tech_store/u_device_specs/u_phone` or `tech_store/u_device_specs/u_storage`.
+Output:
+
+```
+Record's name + "_copy”
+```
+
+## CopyDynamicSchemaAPI - shouldCopy\(Java HashMap recordData\)
+
+Extension point method for creating custom copy operations by allowing users to specify whether a particular record should be copied. The method returns true if the record is to be copied and false if it should be skipped.
+
+This extension point method is provided in the DynamicSchemaCopyController JavaScript class, and provides flexibility for users to control which records are included in the copy process based on their requirements.
+
+<table id="table_z44_mdz_13c" class="parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+recordData
+
+</td><td>
+
+Java HashMap
+
+</td><td>
+
+Java HashMap containing record metadata: -   name: record name
+-   namespaced\_name: namespace + record name
+-   table\_name: table name
+-   sys\_id: unique system ID
+
+</td></tr></tbody>
+</table>|Type|Description|
+|----|-----------|
+|Boolean|Returns true if a copy should be made and false otherwise.|
+
+This example shows an implementation of the shouldCopy\(\) extension point. Once verification is complete, the method enables users to implement custom copying logic, allowing them to skip records according to criteria such as name, namespaced\_name, table, or sys\_id.
+
+```
+var DynamicSchemaCopyController = Class.create(); DynamicSchemaCopyController.prototype = { 
+ 
+    initialize: function() {}, 
+
+    verifyCopyOperation: function(transactionId) { 
+        var transactionIdExist = new GlideRecord(‘u_copy_transactions’); 
+        transactionIdExist.addQuery(‘u_transaction_id’, transactionId); 
+        transactionIdExist.query(); 
+ 
+        if (transactionIdExist.hasNext()) { 
+            return ‘verification_key’; 
+        } 
+        else { 
+            return null; 
+        } 
+    }, 
+ 
+    shouldCopy: function(recordData) { 
+        var namespacedNameSkip = [ 
+            ‘tech_store/u_device_specs/u_phone’, 
+            ‘tech_store/u_device_specs/u_storage’ 
+        ]; 
+        var recordNamespacedName = String(recordData.get(‘namespaced_name’)); 
+        if (namespacedNameSkip.includes(recordNamespacedName)) { 
+            return false; 
+        } 
+        return true; 
+    }, 
+ 
+    getCopyName: function(recordData) { 
+        return String(recordData.get(‘name’) + ‘_copy’); 
+    }, 
+ 
+    type: 'DynamicSchemaCopyController' 
+
+};
+```
+
+Output: Returns `true` if the namespaced\_name isn’t equal to `tech_store/u_device_specs/u_phone` or `tech_store/u_device_specs/u_storage`.
 
 ## CopyDynamicSchemaAPI - verifyCopyOperation\(String transactionId\)
 
-Extension point method used to verify the transaction ID of the copy operation before returning the matching verification key from getCopyApi\(\), ensuring relevance to the extension point implementation. This extension point method is provided in the DynamicSchemaCopyController class.
+Extension point method used to verify the transaction ID of the copy operation before returning the matching verification key from getCopyApi\(\), ensuring relevance to the extension point implementation. This extension point method is provided in the DynamicSchemaCopyController JavaScript class.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -508,7 +487,7 @@ Extension point method used to verify the transaction ID of the copy operation b
 
 |Type|Description|
 |----|-----------|
-|String|Verification key from getCopyApi\(\), or null if the transaction ID isn't relevant to this extension point.|
+|String|Returns the verification key from getCopyApi\(\), or null if the transaction ID isn't relevant to this extension point.|
 
 This example shows an implementation of the verifyCopyOperation\(\) extension point. The user is required to verify the transaction ID associated with the copy operation before returning the verification key. The verification key must correspond to the value provided as an argument to the getCopyApi\(\) method.
 

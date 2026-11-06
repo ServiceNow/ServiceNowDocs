@@ -7,8 +7,8 @@ release: australia
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: concept
-last_updated: "2026-04-03"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Explore, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
 
@@ -18,7 +18,7 @@ When data is imported from a third-party integration, Configuration Compliance a
 
 As assets are imported, a lookup is performed first on the **Discovered Items** list using third-party IDs to find matches to configuration item \(CIs\) from prior imports. When a host ID match is found, it is used as the **Configuration item** field in the test result record.
 
-You can see how imported assets are mapped to CIs using the **Discovered Items** list. If a match is not found, or the cmdb\_ci field is empty, the rules use the other host information to attempt to correctly identify the CI. If a match is still not found, a placeholder CI is created and is designated as an **Unmatched CI**. See [Discovered Items for Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/configuration-compliance/cc-cj-discovered-items.md) for more information on how those CIs are handled.
+You can see how imported assets are mapped to CIs using the **Discovered Items** list. If a match is not found, or the cmdb\_ci field is empty, the rules use the other host information to attempt to correctly identify the CI. If a match is still not found, a placeholder CI is created and is designated as an **Unmatched CI**.
 
 A new discovered item is created and mapped to this CI.
 

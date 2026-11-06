@@ -1,0 +1,41 @@
+---
+title: Configure an instance for migration
+description: Configure an instance to migrate your automations.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/automation-center/config-instance.html
+release: australia
+product: Automation Center
+classification: automation-center
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Migrate automations to ServiceNow RPA Hub, Migrating automations from third-party applications, Use, Automation Center, Discover, AI Workflow Factory Prime, Agentic app development, Building applications]
+---
+
+# Configure an instance for migration
+
+Configure an instance to migrate your automations.
+
+## Before you begin
+
+Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Connections &amp; Credentials** &gt; **Connection &amp; credential aliases**.
+
+2.  Select `RPA Migrations` from the lists.
+
+3.  Edit the record.
+
+    Select the link that is displayed at the top of the page stating "To edit this record click here."
+
+4.  Select `OAuth Authorization Code Demo Configuration` in the **Configuration Template** field.
+
+5.  Select **Create New Connection &amp; Credentials**.
+
+    For more information about OAuth authorization in connections and credentials, see [Set up OAuth integration via MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-conn-alias-oauth-integration-via-mid-server.md).
+
+
+**Parent Topic:**[Migrate automations to ServiceNow RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automation-center/migrate-automations.md)
+

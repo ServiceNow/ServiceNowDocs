@@ -7,7 +7,7 @@ release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [UI Builder for Agent Workspace for HR Case Management, Setting up Agent Workspace for HR Case Management, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
@@ -32,11 +32,11 @@ Role required: sn\_hr\_agent\_ws.admin and sn\_hr\_core.basic
 
 5.  Turn on the **Enable drilldown** option.
 
-    \[Omitted image "enable-drilldown.png"\] Alt text: Configuration panel showing Enable drilldown toggle switch turned on for data visualization component
+    \[Omitted image "enable-drilldown.png"\] Alt text: Drilldown toggle switch
 
 6.  In the Events panel, select **+Add event handler** to map the data that is displayed when the user drills down on the report.
 
-    \[Omitted image "event-handler.png"\] Alt text: Events panel with Add event handler button for mapping drilldown data display
+    \[Omitted image "event-handler.png"\] Alt text: Event handler
 
 7.  In the **Search item** field, enter `Open cases - simple list page`.
 

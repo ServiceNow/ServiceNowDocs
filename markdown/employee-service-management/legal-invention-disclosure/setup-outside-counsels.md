@@ -7,7 +7,7 @@ release: australia
 product: Legal Invention Disclosure
 classification: legal-invention-disclosure
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Legal Invention Disclosure, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -30,15 +30,15 @@ Setting up an outside counsel can be done either as a fulfiller task or when con
 
 1.  Access the form to create an Outside Counsel record.
 
-<table id="choicetable_urg_zmd_jzb"><thead><tr><th align="left" id="d140265e78">
+<table id="choicetable_urg_zmd_jzb"><thead><tr><th align="left" id="d140153e78">
 
 Location
 
-</th><th align="left" id="d140265e81">
+</th><th align="left" id="d140153e81">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d140265e87">
+</th></tr></thead><tbody><tr><td id="d140153e87">
 
 **From the Legal Matter module**
 
@@ -46,7 +46,7 @@ Actions
 
 Navigate to **All** &gt; **Legal Matter** &gt; **Outside Counsel Setup** &gt; **Setup Outside Counsels**.
 
-</td></tr><tr><td id="d140265e114">
+</td></tr><tr><td id="d140153e114">
 
 **From Legal Counsel Center**
 

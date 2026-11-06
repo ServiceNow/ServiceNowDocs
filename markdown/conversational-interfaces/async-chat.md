@@ -7,7 +7,7 @@ release: australia
 product: Conversational Interfaces
 classification: conversational-interfaces
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 keywords: [Asynchronous Chat, messaging, channels, agents, Twilio, SMS]
 breadcrumb: [Channels in Conversational Interfaces, Exploring Conversational Interfaces Console, Conversational Interfaces Console, Conversational Interfaces]
@@ -47,7 +47,7 @@ Glide Conversation Server
 
 Enables Virtual Agent functionality handled by the Conversation Server, including conversation settings and the Virtual Agent chat widget plugin \(com.glide.cs.sn-va-web-client-app\).
 
- The Conversation Server is included with Virtual Agent Lite, which is provided with your base system. For full Virtual Agent functionality, see [Activate Glide Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/activate-virtual-agent.md), which is available by subscription.
+ The Conversation Server is included with Virtual Agent Lite, which is provided with your base system. For full Virtual Agent functionality, see [Activate Glide Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/activate-virtual-agent.md), which is available by subscription.
 
 </td></tr><tr><td>
 

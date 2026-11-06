@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configure-external-ids-pricing-requests.html
 release: australia
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [External ID support in Sales CRM Pricing API, Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -31,7 +31,7 @@ For information on the pricing API, see [Sales CRM Pricing API](https://raw.gith
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Set the application scope to Context Rule Management.
 

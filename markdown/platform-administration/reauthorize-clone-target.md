@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/reauthorize-clone-target.html
 release: australia
 topic_type: task
-last_updated: "2026-06-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Register instance for cloning, Configure, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---

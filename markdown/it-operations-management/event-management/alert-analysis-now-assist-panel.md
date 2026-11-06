@@ -7,10 +7,10 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Generative AI for IT Operations Management, Generative AI for ITOM, alert analysis, Now Assist panel]
-breadcrumb: [Respond to alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Responding to and working with alerts in Express List, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Launch an alert analysis from the ServiceNow Otto panel
@@ -35,15 +35,15 @@ Role required: evt\_mgmt\_operator
 
 4.  Initiate an alert analysis from the ServiceNow Otto panel using one of the available methods.
 
-<table id="choicetable_jyk_xts_5cc"><thead><tr><th align="left" id="d698902e147">
+<table id="choicetable_jyk_xts_5cc"><thead><tr><th align="left" id="d745349e147">
 
 Launch an alert analysis
 
-</th><th align="left" id="d698902e150">
+</th><th align="left" id="d745349e150">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d698902e156">
+</th></tr></thead><tbody><tr><td id="d745349e156">
 
 **From the list**
 
@@ -59,7 +59,7 @@ The panel displays.
 
 The alert analysis displays in the panel.
 
-</td></tr><tr><td id="d698902e194">
+</td></tr><tr><td id="d745349e194">
 
 **From an alert form**
 

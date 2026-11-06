@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/work-indiv-life-service-case.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Individual Life Servicing, Life Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -56,15 +56,15 @@ Use the case playbook that provides the activities and tasks required to researc
 
 8.  Close the task from the playbook activity or the task form.
 
-<table><thead><tr><th align="left" id="d112891e211">
+<table><thead><tr><th align="left" id="d114890e211">
 
 Policy task
 
-</th><th align="left" id="d112891e214">
+</th><th align="left" id="d114890e214">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d112891e220">
+</th></tr></thead><tbody><tr><td id="d114890e220">
 
 **To verify a change or a document**
 
@@ -74,7 +74,7 @@ Action
 -   In the task form, in the **State** field, change the state of the task to **Closed Complete**.
 
 
-</td></tr><tr><td id="d112891e247">
+</td></tr><tr><td id="d114890e247">
 
 **To submit a review**
 

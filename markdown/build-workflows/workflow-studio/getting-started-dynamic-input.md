@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 20
 breadcrumb: [Dynamic inputs, Create an action in Workflow Studio, Build actions, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -175,7 +175,7 @@ Connection Alias
 
 </td><td>
 
-Select the alias you created earlier, or select the Create new record icon \(\[Omitted image "create-new-record-icon.png"\] Alt text: Create new record icon\) to [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-https-connection.md).**Note:** The **Credential** for the HTTP\(s\) connection must use [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_BasicAuthCredentialsForm.md). Additionally, the **Connection URL** must be the base URL for your instance, including the forward slash at the end. For more information on connections and credentials, see [Getting started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connection-information.md) and [Getting started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/credentials-getting-started.md).
+Select the alias you created earlier, or select the Create new record icon \(\[Omitted image "create-new-record-icon.png"\] Alt text: Create new record icon\) to [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-https-connection.md).**Note:** The **Credential** for the HTTP\(s\) connection must use Basic authentication credentials. Additionally, the **Connection URL** must be the base URL for your instance, including the forward slash at the end. For more information on connections and credentials, see Getting started with connections and Getting started with credentials.
 
 </td></tr><tr><td>
 
@@ -480,7 +480,7 @@ Connection Alias
 
 </td><td>
 
-Select the alias you created earlier, or select the Create new record icon \(\[Omitted image "create-new-record-icon.png"\] Alt text: Create new record icon\) to [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-https-connection.md).**Note:** The **Credential** for the HTTP\(s\) connection must use [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_BasicAuthCredentialsForm.md). Additionally, the **Connection URL** must be the base URL for your instance, including the forward slash at the end. For more information on connections and credentials, see [Getting started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connection-information.md) and [Getting started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/credentials-getting-started.md).
+Select the alias you created earlier, or select the Create new record icon \(\[Omitted image "create-new-record-icon.png"\] Alt text: Create new record icon\) to [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-https-connection.md).**Note:** The **Credential** for the HTTP\(s\) connection must use Basic authentication credentials. Additionally, the **Connection URL** must be the base URL for your instance, including the forward slash at the end. For more information on connections and credentials, see Getting started with connections and Getting started with credentials.
 
 </td></tr><tr><td>
 
@@ -790,7 +790,7 @@ This custom action includes these elements.
 
 -   An input of type Dynamic Choice to select a table
 -   An input of type Dynamic Template to select and set field values
--   A script step to create a record from the [GlideRecord - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)
+-   A script step to create a record from the 
 -   An action output variable named `output` to store the sys\_id of the record created
 
 ### Procedure

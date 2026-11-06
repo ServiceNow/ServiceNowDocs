@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/pillars-ov.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Landing page and dashboard views, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -148,7 +148,7 @@ The following sample report shows data for the Application Service pillar with i
 
 ## Report on the red flags
 
-The Red flags report on the **Pillars overview** tab shows the total number of red flags that require immediate attention. These red flags are associated with assets, controls, issues, and risks related to the selected pillar. The report breaks down details based on integrations with the Operational Resilience application. For example, if you have installed the Risk Management application, data for the risk ratings is pulled from that application and displayed in this report.
+The Red flags report on the **Pillars overview** tab shows the total number of red flags that require immediate attention. These red flags are associated with assets, controls, issues, and risks related to the selected pillar. The report breaks down details based on the integrations with the Operational Resilience application. For example, if you have installed the Risk Management application, data for the risk ratings is pulled from that application and displayed in this report.
 
 If you install optional applications from the GRC product suite, such as Business Continuity Management and Vulnerability Response, additional reports appear on the dashboard. You can view the Business Continuity plan and Vulnerability Response reports.
 

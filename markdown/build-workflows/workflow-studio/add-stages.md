@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Flow and subflow stages, Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -30,7 +30,7 @@ Role required: flow\_designer or admin
 
     For a stage field to report stages on a record-based flow, a stage field must be present on the same table as the triggering record.
 
-    To add a field to a table, see [Add and customize a field in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreatingNewFields.md).
+    To add a field to a table, see Add and customize a field in a table.
 
 2.  If adding stages to a flow with a Service Catalog trigger, select the flow in the **Flow** field of the Service Catalog Item \[sc\_cat\_item\] table.
 

@@ -7,7 +7,7 @@ release: australia
 product: Web Services
 classification: web-services
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Examples, Inbound, Web services, API implementation, API implementation and reference]
 ---
@@ -57,6 +57,8 @@ Change the ASP code to redirect users to the proper ServiceNow instance.
 </html>
 </asp>
 ```
+
+\[Omitted image "ASPPortalRedirectCode.png"\] Alt text:
 
 The following C\# code handles the OnClick button event for the form. The code:
 

@@ -7,8 +7,8 @@ release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Fulfill repair orders manually, Fulfilling repair orders in the Enterprise Asset Workspace, Manage repair of defective assets in your stockroom in the Enterprise Asset Workspace, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
 
@@ -64,7 +64,9 @@ You can bulk close only similar asset repair tasks that are in the Open state. H
 
 ## Result
 
-All the selected repair tasks are closed with the same task result and Work notes.
+All selected repair tasks are closed with the same task result and work notes. If you recorded the time worked on any repair task, all selected repair tasks are also closed with the same time worked.
+
+**Note:** For more information about recording time worked on an asset repair task, see [Record time worked on asset repair tasks in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/record-repair-time-eam-ws.md) or [Record time worked on an enterprise asset repair task using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/record-time-worked-repair-task-mobile-agent-eam.md).
 
 **Parent Topic:**[Manually fulfill repair orders in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/fulfill-eam-repair-orders-in-ws.md)
 

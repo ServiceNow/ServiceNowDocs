@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-customer-service.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Customer Service Management]
 ---
@@ -73,7 +73,7 @@ Configuring your agent workspaces is crucial for improving the efficiency and ef
 
 </td><td>
 
-Sarah is prepared to organize the agent workspaces. Sarah uses guided setup to implement Configurable Workspace for Company A's customer service agents. It enables Sarah to configure branding, chat settings, and other necessary elements to enhance agent productivity.
+Sarah is prepared to organize the agent workspaces. Sarah uses guided setup to implement a workspace for Company A's customer service agents. It enables Sarah to configure branding, chat settings, and other necessary elements to enhance agent productivity.
 
 </td></tr><tr><td>
 

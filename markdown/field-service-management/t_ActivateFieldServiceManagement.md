@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/t\_ActivateFieldServiceManagement.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Configure, Field Service Management]
 ---
 
@@ -60,18 +60,6 @@ Manages the Field Service mobile components on an iOS or an Android mobile devic
 
 </td></tr><tr><td>
 
-FSM Agent Workspace \(Deprecated\)
-
-</td><td>
-
-com.snc.agent\_workspace.fsmThe deprecated plugin is replaced by com.snc.uib.fsm\_agent\_workspace.
-
-</td><td>
-
-Enables users to manage work orders and tasks within the agent workspace. The plugin has been deprecated in Vancouver release.For more information, see [Activate Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/activate-dispatcher_workspace.md).
-
-</td></tr><tr><td>
-
 Field Service Management Demo Data
 
 </td><td>
@@ -95,42 +83,6 @@ com.snc.wm\_questionnaire
 </td><td>
 
 Create questionnaire for work orders or work order tasks.For more information, see [Activate Field Service Questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/Activate-fsm-questionnaire.md).
-
-</td></tr><tr><td>
-
-Field Service Management Mobile \(Deprecated\)
-
-</td><td>
-
-com.snc.work\_management\_mThe deprecated plugin is replaced by sn\_fsm\_mobile.
-
-</td><td>
-
-Manages the Field Service classic mobile components. Agents and dispatchers can manage field service tasks using the dispatch map when the device is online and can access read-only tasks when the device is not connected to the Internet. This plugin has been deprecated.For more information, see [Setting up Field Service Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/mobile-experience-for-field-service-management-glide-family/setting-up-field-service-mobile-agent.md).
-
-</td></tr><tr><td>
-
-Field Service Map \(Deprecated\)
-
-</td><td>
-
-com.snc.fsm\_mapThe deprecated plugin is replaced by com.snc.uib.fsm\_dispatcher\_workspace.
-
-</td><td>
-
-Field Service Map to view Agents, Tasks and Agent Routes.For more information, see [Additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-additional-plugins.md).
-
-</td></tr><tr><td>
-
-Central Dispatch \(Deprecated\)
-
-</td><td>
-
-com.snc.central\_dispatchThe deprecated plugin is replaced by sn\_fsm\_disp\_wrkspc.
-
-</td><td>
-
-Allows visually allocating tasks to agents for a logged in dispatcher. Installs the core Service Management items used to allow other service-related plugins to work, such as Field Service Management and Facilities Service Management.For more information, see [Activate Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/activate-dispatcher_workspace.md).
 
 </td></tr><tr><td>
 
@@ -215,18 +167,6 @@ com.snc.work\_management\_geolocation.demo
 </td><td>
 
 Enables geolocation capabilities for the Field Service Management application.
-
-</td></tr><tr><td>
-
-Field Service Manager Mobile
-
-</td><td>
-
-com.snc.fsm\_manager\_mobile
-
-</td><td>
-
-Allows managers to use Field Service Manager Mobile
 
 </td></tr></tbody>
 </table>For more information, see [Additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-additional-plugins.md).

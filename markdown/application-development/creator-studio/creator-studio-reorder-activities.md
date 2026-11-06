@@ -7,9 +7,9 @@ release: australia
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [About custom activities, Administer, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [About custom activities, Administer, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Reorder how activities appear in a playbook's activity picker

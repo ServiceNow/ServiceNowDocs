@@ -1,18 +1,18 @@
 ---
 title: Customize a quote summarization skill in ServiceNow Otto for Configure, Price, Quote \(CPQ\)
-description: Configure the ServiceNow Otto for Configure, Price, Quote \(CPQ\) application so that the agent can use the generative AI skills in the CSM/FSM Configurable Workspace and Business Portal.
+description: Configure the ServiceNow Otto for Configure, Price, Quote \(CPQ\) application so that the agent can use the generative AI skills in the CRM Workspace and Business Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/customize-quote-summarization-skill.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Customize a quote summarization skill in ServiceNow Otto for Configure, Price, Quote \(CPQ\)
 
-Configure the ServiceNow Otto for Configure, Price, Quote \(CPQ\) application so that the agent can use the generative AI skills in the CSM/FSM Configurable Workspace and Business Portal.
+Configure the ServiceNow Otto for Configure, Price, Quote \(CPQ\) application so that the agent can use the generative AI skills in the CRM Workspace and Business Portal.
 
 ## Before you begin
 
@@ -136,6 +136,4 @@ Description of the base input field value.
 
     2.  Generate the quote summary by selecting **Summarize** in a quote.
 
-
-**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sales-crm-tm-quoting-configure.md)
 

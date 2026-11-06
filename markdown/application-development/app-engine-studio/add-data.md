@@ -1,20 +1,22 @@
 ---
 title: Create a data model for your application
-description: Create a data model in App Engine Studio \(AES\) for your application by creating the tables that will house your application data. Create data tables that will be used in your application by creating the table from scratch, uploading a spreadsheet or PDF, or by using an existing table as a template. You can also create and schedule data imports by mapping a spreadsheet to an existing table in your application.
+description: Create a data model in App Engine Studio \(AES\) for your application by creating the tables that will house your application data. Create data tables that will be used in your application by creating the table from scratch, uploading a spreadsheet, or by using an existing table as a template. You can also create and schedule data imports by mapping a spreadsheet to an existing table in your application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-studio/add-data.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Enhance your app, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Enhance your app, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Create a data model for your application
 
-Create a data model in App Engine Studio \(AES\) for your application by creating the tables that will house your application data. Create data tables that will be used in your application by creating the table from scratch, uploading a spreadsheetor PDF, or by using an existing table as a template. You can also create and schedule data imports by mapping a spreadsheet to an existing table in your application.
+Create a data model in App Engine Studio \(AES\) for your application by creating the tables that will house your application data. Create data tables that will be used in your application by creating the table from scratch, uploading a spreadsheet, or by using an existing table as a template. You can also create and schedule data imports by mapping a spreadsheet to an existing table in your application.
+
+**Note:** Starting with the Brazil release, the PDF extractor tool has been deprecated. The feature is hidden and no longer available for installation or use. The capability to create tables from PDFs is available with Build Agent. For more information, see [Migrating to Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-studio/aes-migrating-to-build-agent.md).
 
 Creating a data model and populating data into user interfaces are crucial starting points for any new application. Users may provide data, such as their name and phone number, when they fill in a form, and other users may refer to data as they fulfill a request.
 

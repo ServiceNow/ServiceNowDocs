@@ -7,9 +7,9 @@ release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Set up Web Embeddables, Web Embeddables, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Set up Web Embeddables, Configure Web Embeddables, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure the ServiceNow component instance
@@ -74,8 +74,6 @@ This procedure outlines the high-level steps that you must follow to set up Web 
 ## Result
 
 The global and component codes are ready to be shared with the third-party admin to embed component instance on their third-party webpage.
-
-\[Omitted video\] Description: Configure the ServiceNow components instance
 
 ## What to do next
 

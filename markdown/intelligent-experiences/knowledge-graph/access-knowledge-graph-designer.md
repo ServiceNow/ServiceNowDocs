@@ -1,5 +1,5 @@
 ---
-title: Access Knowledge Graph Schema
+title: Access Knowledge Graph schema
 description: Use Knowledge Graph Designer to create, edit, and manage Knowledge Graph schema.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/knowledge-graph/access-knowledge-graph-designer.html
@@ -7,12 +7,12 @@ release: australia
 product: Knowledge Graph
 classification: knowledge-graph
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring Knowledge Graph, Knowledge Graph, Enable AI experiences]
+breadcrumb: [Exploring Knowledge Graph, Knowledge Graph, Managing data for AI, Enable AI Experiences]
 ---
 
-# Access Knowledge Graph Schema
+# Access Knowledge Graph schema
 
 Use Knowledge Graph Designer to create, edit, and manage Knowledge Graph schema.
 
@@ -20,23 +20,23 @@ Use Knowledge Graph Designer to create, edit, and manage Knowledge Graph schema.
 
 Role required: kg\_admin
 
+If you are enabling Knowledge Graph for external users with the snc\_external role, verify that the **sn\_kg.enable\_external\_user\_check** property is set to `true`.
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Knowledge Graph** &gt; **Knowledge Graph Designer**.
 
     The Knowledge Graph Designer landing page displays a list of all the Knowledge Graph schemas available for users.
 
-    ServiceNow some provides prebuilt schema that are non-editable. Currently, the following prebuilt schemas are available:
+    ServiceNow provides prebuilt schemas that are non-editable. Currently, the following prebuilt schemas are available:
 
     -   User graph schema: Used to provide logged in user's details to Virtual Agent for personalized response. The profile section is used by AI agents for additional user context.
-    -   Natural Language Query Scheme: Helps the requester with personalized responses on people queries and Natural Language queries. Also supports people citation card. By default the user NLQ graph is connected which is used for people queries but you also have sample graph schema for other employee queries. For more details on other prebuilt schema, see [KB article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2069778).
-    ServiceNow® has also introduced Enterprise Graph, a pre-configured Knowledge Graph schema that maps all instance tables and their connections, enabling natural language queries from data across all tables. For more details, see [Using Enterprise graph schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/knowledge-graph/global-graph-schema.md).
+    -   Natural Language Query Scheme: Provides personalized responses to people queries and natural language queries. It also supports people citation cards. By default, the user NLQ graph is connected which is used for people queries but sample schemas are also available for other employee queries. For details about other prebuilt schemas, see [\[Article title\] \[KB2069778\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2069778).
+    ServiceNow® has also introduced Enterprise Graph, a pre-configured Knowledge Graph schema that maps all instance tables and their connections, enabling natural language queries from data across all tables. For details, see [Using Enterprise graph schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/knowledge-graph/global-graph-schema.md).
 
-    Along with Enterprise Graph, you can also create, edit and manage tags with Knowledge Graph Designer. You can use these tags to mark the key tables, that are important for answering natural language questions for specific use cases. For details, see [Tagging in Knowledge Graph Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/knowledge-graph/tagging-in-knowledge-graph.md)
+    Along with Enterprise Graph, you can also create, edit, and manage tags with Knowledge Graph Designer. You can use these tags to mark the key tables, that are important for answering natural language questions for specific use cases. For details, see [Tagging in Knowledge Graph Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/knowledge-graph/tagging-in-knowledge-graph.md)
 
-    Knowledge Graph supports Admin to create Knowledge Graph schema with WorkFlow Data Fabric tables. This helps accessing data from different system in real time without moving it.
-
-    You can create a Knowledge Graph schema from the landing page.
+    Knowledge Graph enables administrators to create Knowledge Graph schema with Workflow Data Fabric tables. This enables access to data from different systems in real-time without moving it.
 
     \[Omitted image "kg-landing-page-tags.png"\] Alt text: Knowledge Graph Designer landing page
 

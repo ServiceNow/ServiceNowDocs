@@ -7,7 +7,7 @@ release: australia
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Workflow management, Classic Workflow, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -42,7 +42,7 @@ To add, view, or modify a variable:
 
 2.  Select a workflow activity, such as **Approval - User**.
 
-3.  In the **Activity Variables** section or tab, add, view, or modify the variables. Activity variables are defined using the same fields as [System dictionary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_SystemDictionary.md).
+3.  In the **Activity Variables** section or tab, add, view, or modify the variables. Activity variables are defined using the same fields as System dictionary.
 
     **Note:** If defining a new activity variable that is dependent on another activity variable, put the prefix "vars." before the name of the parent activity variable. For example, if the child field is dependent on a field named **parent**, put the value `vars.parent` in the **Dependent** field.
 

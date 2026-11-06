@@ -57,11 +57,6 @@ If you're a Remediation Owner, a risk modification request is submitted for appr
 
 **Note:** The sn\_sec\_exception.modify\_risk\_approval\_required system property controls whether a Remediation Owner request requires approval. This property is set to true by default. If set to false, the change approval moves directly to **Approved** and the risk rating updates immediately for Remediation Owners too.
 
--   **[Modify risk and Request risk modification form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-modify-risk-form.md)**  
-The following table shows the fields on the **Modify risk** and **Request risk modification** dialogs.
-
-**Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/using-unified-security-exposure-management.md)
-
 **Related topics**  
 
 

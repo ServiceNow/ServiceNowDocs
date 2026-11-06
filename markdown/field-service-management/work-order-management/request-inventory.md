@@ -7,7 +7,7 @@ release: australia
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Inventory, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
@@ -50,15 +50,15 @@ You can create a part requirement with or without the context of a work order ta
 
 2.  Request and source parts.
 
-<table id="choicetable_z2w_ytf_ytb"><thead><tr><th align="left" id="d69895e151">
+<table id="choicetable_z2w_ytf_ytb"><thead><tr><th align="left" id="d72168e151">
 
 From
 
-</th><th align="left" id="d69895e154">
+</th><th align="left" id="d72168e154">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d69895e160">
+</th></tr></thead><tbody><tr><td id="d72168e160">
 
 **My Work**
 
@@ -72,7 +72,7 @@ Do this
 6.  Tap the More actions \(\[Omitted image "OverflowIcon.png"\] Alt text: More actions icon\) icon and then select **Create Part Requirement**.
 
 
-</td></tr><tr><td id="d69895e212">
+</td></tr><tr><td id="d72168e212">
 
 **Inventory**
 
@@ -172,15 +172,15 @@ You can create part requests from **My work** and **Inventory** screens with the
 
 2.  Request parts with or without a work order task, or from your own requests or parts requirements lists.
 
-<table id="choicetable_z2w_ytf_ytb"><thead><tr><th align="left" id="d69895e624">
+<table id="choicetable_z2w_ytf_ytb"><thead><tr><th align="left" id="d72168e624">
 
 To request parts from
 
-</th><th align="left" id="d69895e627">
+</th><th align="left" id="d72168e627">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d69895e633">
+</th></tr></thead><tbody><tr><td id="d72168e633">
 
 **Work order task**
 
@@ -192,7 +192,7 @@ Do this
 4.  Tap **Create part request**.
 
 
-</td></tr><tr><td id="d69895e672">
+</td></tr><tr><td id="d72168e672">
 
 **Work order task with existing part requirements**
 
@@ -205,7 +205,7 @@ Do this
 5.  Tap **Request parts**.
  **Note:** The **Request parts** option appears only when you have pending part requirements. Note that you can request parts without selecting a part requirement.
 
-</td></tr><tr><td id="d69895e726">
+</td></tr><tr><td id="d72168e726">
 
 **Missing work order task**
 
@@ -215,7 +215,7 @@ Do this
 2.  Tap **Create part request**.
 
 
-</td></tr><tr><td id="d69895e750">
+</td></tr><tr><td id="d72168e750">
 
 **My requests**
 
@@ -225,7 +225,7 @@ Do this
 2.  Tap **My requests** and then **Create part request**.
 
 
-</td></tr><tr><td id="d69895e778">
+</td></tr><tr><td id="d72168e778">
 
 **My part requirements**
 
@@ -249,15 +249,15 @@ Do this
 
 6.  Add parts to the part request either directly or from a part requirement.
 
-<table id="choicetable_wrg_txw_stb"><thead><tr><th align="left" id="d69895e853">
+<table id="choicetable_wrg_txw_stb"><thead><tr><th align="left" id="d72168e853">
 
 To
 
-</th><th align="left" id="d69895e856">
+</th><th align="left" id="d72168e856">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d69895e862">
+</th></tr></thead><tbody><tr><td id="d72168e862">
 
 **Add parts directly**
 
@@ -271,7 +271,7 @@ Do this
 6.  \(Optional\) View available substitutes of the selected part model by selecting **Include substitute**.
  **Note:** To add multiple parts, repeat these steps.
 
-</td></tr><tr><td id="d69895e908">
+</td></tr><tr><td id="d72168e908">
 
 **Add from part requirements**
 

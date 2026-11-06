@@ -7,7 +7,7 @@ release: australia
 product: Safe Workplace
 classification: safe-workplace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-09"
 reading_time_minutes: 7
 breadcrumb: [Safe Workplace, Health and Safety, Employee Service Management]
 ---
@@ -15,6 +15,8 @@ breadcrumb: [Safe Workplace, Health and Safety, Employee Service Management]
 # Employee Health Screening
 
 Screen users before entering the workplace to ensure compliance with the organization's entry requirements, such as a temperature check and PPE. Require that users agree to comply with health and safety policies before they return to the workplace.
+
+**Note:** Starting with the Brazil release, Employee Health Screening is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
 The ServiceNow® Employee Health Screening application enables organizations to screen users before entering the workplace to ensure compliance with the organization's entry requirements, such as a temperature check and personal protective equipment \(PPE\). Based on their own criteria, organizations can determine whether it’s safe for the user to enter the workplace. Organizations can use a reporting dashboard  to view trends by sites and record the return of users into  their  facilities.
 

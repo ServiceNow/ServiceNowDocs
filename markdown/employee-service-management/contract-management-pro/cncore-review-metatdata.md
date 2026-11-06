@@ -7,7 +7,7 @@ release: australia
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Metadata Extraction]
 breadcrumb: [Extract contract metadata, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
@@ -31,15 +31,15 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_fulfiller
 
 1.  Open a contract repository record where you want to review extracted information.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d630598e69">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d629686e69">
 
 Method
 
-</th><th align="left" id="d630598e72">
+</th><th align="left" id="d629686e72">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d630598e78">
+</th></tr></thead><tbody><tr><td id="d629686e78">
 
 **Contract Workspace**
 
@@ -52,7 +52,7 @@ Steps
 5.  Select the contract repository record.
 
 
-</td></tr><tr><td id="d630598e126">
+</td></tr><tr><td id="d629686e126">
 
 **Workspace used by your application**
 

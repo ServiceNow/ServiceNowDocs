@@ -7,7 +7,7 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [add log correlator, define log correlator, create log correlator, custom log correlators, log correlator configuration, correlator setup]
 breadcrumb: [Use log correlators to find related alerts, Analyzing and resolving alerts, Health Log Analytics, ITOM AIOps, IT Operations Management]
@@ -29,15 +29,15 @@ For information about the types and functions of log correlators, see [Log corre
 
 1.  Use one of the following methods to add a log correlator.
 
-<table id="choicetable_aks_4jj_dpb"><thead><tr><th align="left" id="d366668e105">
+<table id="choicetable_aks_4jj_dpb"><thead><tr><th align="left" id="d391791e105">
 
 Option
 
-</th><th align="left" id="d366668e108">
+</th><th align="left" id="d391791e108">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d366668e114">
+</th></tr></thead><tbody><tr><td id="d391791e114">
 
 **Add a log correlator for a specific log source**
 
@@ -48,7 +48,7 @@ Procedure
 3.  Select **New**.
 
 
-</td></tr><tr><td id="d366668e153">
+</td></tr><tr><td id="d391791e153">
 
 **Add a log correlator that applies either to all log sources or to only those log sources that become active after you define this log correlator**
 

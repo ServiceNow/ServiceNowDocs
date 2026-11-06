@@ -7,7 +7,7 @@ release: australia
 product: Task Mining
 classification: task-mining
 topic_type: task
-last_updated: "2026-04-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Install the Task Mining agent, Configure, Task Mining, Platform Analytics]
 ---
@@ -26,11 +26,11 @@ Role required: Task Mining Agent Install
 
 1.  Extract the `ZIP` and copy the **Instance URL** and **Registration key**.
 
-    1.  Navigate to **All** &gt; **Task Mining** &gt; **Agent Installation**.
+    1.  Navigate to **All** &gt; **Task Mining** &gt; **System Settings** &gt; **Agent Installation**.
 
     2.  Select an existing key or create one.
 
-        \[Omitted image "tm-agent-3.png"\] Alt text: Screenshot of registration key selection.
+        \[Omitted image "tm-agent-3.png"\] Alt text: A registration key selection.
 
     3.  Select the Portable Windows agent tab.
 
@@ -38,7 +38,7 @@ Role required: Task Mining Agent Install
 
     5.  Copy the **Instance URL** and **Registration key** on the Agent Installation page.
 
-    \[Omitted image "tm-agent-5.png"\] Alt text: Screenshot of portable windows agent download screen.
+    \[Omitted image "tm-agent-5.png"\] Alt text: A portable windows agent download screen.
 
 2.  Run `PortableLauncher.exe` from the extracted folder.
 

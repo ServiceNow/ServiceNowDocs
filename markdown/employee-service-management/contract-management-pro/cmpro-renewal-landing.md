@@ -53,7 +53,7 @@ For more information about how amendment and renewal requests interact, see [Ame
 
 ## Renewal action items
 
--   [Submit a renewal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-sa-renewal.md)
+-   [Submit a standalone renewal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-sa-renewal.md)
 -   [View renewal details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-renewal-history.md)
 -   [Manage signature in own-paper requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-sa-own-send-sign.md)
 -   [Work on a renewal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-renewal-fulfiller.md)

@@ -7,7 +7,7 @@ release: australia
 product: EMR Help
 classification: emr-help
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Resolve EMR Help requests, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Resolve EMR Help requests, EMR Help, Healthcare and Life Sciences S
 
 Work on task records that are automatically created when clinicians submit ServiceNow IT service requests from an EMR system.
 
-Ensure that an administrator has added the EMR Incident Data related list to the Incident form. For more information, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+Ensure that an administrator has added the EMR Incident Data related list to the Incident form. For more information, see Configuring the form layout.
 
 Incidents are the task type configured by default with the EMR Help application.
 

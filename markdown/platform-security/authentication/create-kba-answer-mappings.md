@@ -1,20 +1,20 @@
 ---
 title: Map KBA questions to answers
-description: Create knowledge-based questions and answer mapping to confirm the user's identity.
+description: Map knowledge-based questions to their answers so the answers can be used to confirm a caller's identity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/create-kba-answer-mappings.html
 release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure KBA, Knowledge-based authentication, Configure authentication factors for AI voice agents, Authentication factors, Authentication, Access Management]
+breadcrumb: [Configure KBA, Knowledge-based authentication, Authentication factor configuration for AI voice agents, Authentication factors, Authentication, Access Management]
 ---
 
 # Map KBA questions to answers
 
-Create knowledge-based questions and answer mapping to confirm the user's identity.
+Map knowledge-based questions to their answers so the answers can be used to confirm a caller's identity.
 
 ## Before you begin
 
@@ -26,13 +26,13 @@ Role required: auth\_factors\_admin
 
 2.  Select **New** on the Knowledge Based Question Answer Mappings page.
 
-3.  Specify the following fields on the form:
+3.  Specify the following fields on the form.
 
     |Field|Description|
     |-----|-----------|
-    |Question|Select the question that you would like to map with the answer. Example: `What is your business phone number?`|
+    |Question|Question to map with the answer. Example: `What is your business phone number?`|
     |Application|Global application scope is selected by default.|
-    |Answer|Select the answer for mapping to the question. Example: `Business Phone Number`.|
+    |Answer|Answer for mapping to the question. Example: `Business Phone Number`.|
 
     \[Omitted image "configure-kba-question-answer.png"\] Alt text: Knowledge Based Question Answer Mapping
 

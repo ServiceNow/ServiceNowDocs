@@ -7,9 +7,9 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Client Credentials, Old Inbound integrations experience, OAuth Inbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [Client credentials, Old inbound integrations experience, OAuth inbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # Create the Client Credentials system property
@@ -30,14 +30,14 @@ Plugin required: OAuth 2.0.
 
 2.  Select **New**.
 
-3.  On the form, fill the following fields.
+3.  On the form, fill in the following fields.
 
     |Field|Description|
     |-----|-----------|
     |Name|Name of the property you’re creating. In this case, `glide.oauth.inbound.client.credential.grant_type.enabled`.|
-    |Description|Type a brief, descriptive phrase describing the function of the property.|
-    |Type|Select the appropriate data type from the list. In this case, `true| false`.|
-    |Value|Set the desired value for the property. In this case, `true` to enable the client credentials grant type for OAuth inbound integrations.|
+    |Description|Brief, descriptive phrase that describes the function of the property.|
+    |Type|Appropriate data type from the list. In this case, `true| false`.|
+    |Value|Desired value for the property. In this case, `true` to enable the client credentials grant type for OAuth inbound integrations.|
 
     \[Omitted image "create-cc-sys-prop.png"\] Alt text: Client Credentials property
 

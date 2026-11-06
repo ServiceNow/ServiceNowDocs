@@ -7,7 +7,7 @@ release: australia
 product: Portfolio Management
 classification: portfolio-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Portfolio Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -182,6 +182,8 @@ According to the fiscal years, lists projects and demands that are part of the p
 
 
 [Open a portfolio status list]()
+
+[Legacy portfolio workbench]()
 
 [Scenario Planning for PPM]()
 

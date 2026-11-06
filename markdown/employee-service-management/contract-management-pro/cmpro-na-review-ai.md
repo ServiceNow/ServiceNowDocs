@@ -7,7 +7,7 @@ release: australia
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Manage contract repository, Agentic workflow in Contract Management Pro, AI agents in CM Pro, Playbook in Contract Management Pro, Review AI results in Contract Management Pro]
 breadcrumb: [Manage contract repository agentic workflow, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]

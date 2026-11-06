@@ -7,7 +7,7 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Breakdown sources, Indicator breakdowns, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -44,7 +44,7 @@ The breakdown source uses the following records from the Choice table:
 
 4.  Add a detailed **Description** to help others understand the use and purpose of this breakdown source and to help them avoid creating duplicates.
 
-5.  For the **Facts Table**, select the table that the breakdown source gets elements from.
+5.  For the **Facts Table**, select the table \(including database view or Workflow Data Fabric table\) that the breakdown source gets elements from.
 
     For example, for the breakdown source to specify user groups as elements, select **Group \[sys\_user\_group\]**.
 

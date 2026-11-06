@@ -7,7 +7,7 @@ release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Legal Counsel Center, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -23,7 +23,7 @@ Legal Counsel Center requires the installation of the following applications:
 
 Install Legal Counsel Center to get the Next Experience. Review the [Legal Counsel Center](https://store.servicenow.com/sn_appstore_store.do#!/store/application/278ddaf373003300844489b954f6a78b) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
-**Note:** Install Legal Counsel Center to get the Next Experience and then review and uninstall the Legal Counsel Center Classic. For more information, see .
+**Note:** Install Legal Counsel Center to get the Next Experience and then review and uninstall the Legal Counsel Center Classic. For more information, see [Uninstall an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/uninstall-application-app-mgr.md).
 
 ## Legal Counsel Center benefits
 

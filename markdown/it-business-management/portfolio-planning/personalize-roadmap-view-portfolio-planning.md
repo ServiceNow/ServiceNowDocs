@@ -7,7 +7,7 @@ release: australia
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace, roadmap]
 breadcrumb: [Plan roadmaps, Portfolio Planning, Strategic Portfolio Management]
@@ -31,15 +31,15 @@ Any settings that you apply here are saved as preferences per roadmap. All users
 
 1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d45570e99">
+<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d44727e99">
 
 Roadmap type
 
-</th><th align="left" id="d45570e102">
+</th><th align="left" id="d44727e102">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d45570e108">
+</th></tr></thead><tbody><tr><td id="d44727e108">
 
 **Portfolio plan roadmap**
 
@@ -49,7 +49,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d45570e129">
+</td></tr><tr><td id="d44727e129">
 
 **Free-form roadmap**
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-success-report.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Success report dashboard overview, Dashboards, Customer success, Use, Customer Success Management]
 ---
@@ -17,7 +17,7 @@ Get an overall view of all your engagement and team status overview, risk indica
 To view this page, follow these steps:
 
 1.  Login as a user with either the `sn_acct_lc.success_manager` and `sn_acct_lc_customer_success_agent` roles.
-2.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** to view the Success report page.
+2.  Navigate to **Workspaces** &gt; **CRM Workspace** to view the Success report page.
 
 **Note:**
 

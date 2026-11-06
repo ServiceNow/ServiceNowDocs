@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -38,15 +38,15 @@ Configuration for EAP List View determines the columns that are displayed for a 
 
 5.  Create the EAP List View or update its configuration.
 
-<table id="choicetable_ap3_sy1_f1c"><thead><tr><th align="left" id="d275609e118">
+<table id="choicetable_ap3_sy1_f1c"><thead><tr><th align="left" id="d286031e118">
 
 Option
 
-</th><th align="left" id="d275609e121">
+</th><th align="left" id="d286031e121">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d275609e127">
+</th></tr></thead><tbody><tr><td id="d286031e127">
 
 **Create EAP List View**
 
@@ -59,7 +59,7 @@ Steps
 
 You can also rearrange them in the order of your choice.
 
-</td></tr><tr><td id="d275609e171">
+</td></tr><tr><td id="d286031e171">
 
 **Edit EAP List View**
 

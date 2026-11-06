@@ -7,7 +7,7 @@ release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Regulatory Change Management Core UI, Use, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -27,9 +27,9 @@ A source document import task is created from a regulatory alert record. The tas
 
 The source document import life cycle starts from the regulatory alert record. When the manager with the sn\_grc\_reg\_change.manager role marks an unassigned source document alert as applicable, a source document import task gets created.
 
-Users can view the import document task in the Ready to Import state, evaluate the citation associated with the alert, and decide the future course of action for the import document task.
+Users can view the import document task in the Ready to Import state, evaluate the citation associated with the alert. They can then decide the future course of action for the import document task.
 
--   **[Users, associated actions, and states for the source document import tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/regulatory-change-management-service-portal/import-doc-tasks-users-actions.md)**  
+-   **[User actions and states for source document import tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/regulatory-change-management-service-portal/import-doc-tasks-users-actions.md)**  
 Managers with the sn\_grc\_reg\_change.manager role and the users with the sn\_grc\_reg\_change.user, or sn\_grc\_reg\_change.admin role can view and perform certain actions on the source document import tasks.
 -   **[Manage the source document import tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/regulatory-change-management-service-portal/manage-source-document-import-tasks.md)**  
 Manage the source document tasks, the associated source document alerts, and other relevant details in the Regulatory Change Tasks module. Use these tasks to identify and comply with the source document changes.

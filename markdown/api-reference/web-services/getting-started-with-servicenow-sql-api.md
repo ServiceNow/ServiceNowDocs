@@ -106,7 +106,7 @@ To learn more about configuring and using Live Connect, see:
 -   **[Live Connect architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/sql-api-architecture.md)**  
 Live Connect provides secure, read-only access to ServiceNow data for external BI platforms via industry-standard database APIs, while maintaining all existing security policies and role-based restrictions.
 -   **[Use cases for Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/common-use-cases-for-sql-api.md)**  
-Live Connect supports business intelligence \(BI\) reporting, ad-hoc data analysis, and custom report development.
+ Live Connect supports business intelligence \(BI\) reporting, ad-hoc data analysis, and custom report development.
 
 **Parent Topic:**[Access your ServiceNow data using Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/accessing-your-servicenow-data-using-sql-api.md)
 

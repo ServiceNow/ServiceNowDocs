@@ -1,5 +1,5 @@
 ---
-title: Knowledge-based authentication \(Security Questions\)
+title: Knowledge-based authentication \(security questions\)
 description: Knowledge-based authentication \(KBA\) is an identification and authentication method that verifies callers by prompting them to answer preconfigured questions across conversational AI channels, such as AI voice agents. KBA can be used to identify a caller, authenticate a caller, or both within the same interaction.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/knowledge-based-authentication.html
@@ -7,17 +7,17 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [KBA Security questions, Personal identification information, Authentication methods, Identity verification, Challenge questions, Secret answers, User authentication, Security Questions]
-breadcrumb: [Configure authentication factors for AI voice agents, Authentication factors, Authentication, Access Management]
+breadcrumb: [Authentication factor configuration for AI voice agents, Authentication factors, Authentication, Access Management]
 ---
 
-# Knowledge-based authentication \(Security Questions\)
+# Knowledge-based authentication \(security questions\)
 
 Knowledge-based authentication \(KBA\) is an identification and authentication method that verifies callers by prompting them to answer preconfigured questions across conversational AI channels, such as AI voice agents. KBA can be used to identify a caller, authenticate a caller, or both within the same interaction.
 
-KBA validates answers against records in ServiceNow AI Platform tables. For callers whose data resides outside ServiceNow, admins can configure scripts to validate answers against external systems in real-time. External data is never imported or stored in ServiceNow AI Platform.
+KBA validates answers against records in ServiceNow AI Platform tables. For callers whose data resides outside ServiceNow, admins can configure scripts to validate answers against external systems in real-time. External data isn’t imported or stored in ServiceNow AI Platform.
 
 ## How KBA works
 
@@ -26,6 +26,8 @@ KBA validates answers against records in ServiceNow AI Platform tables. For call
 **Authentication** verifies that the caller is who they claim to be. The caller answers one or more questions, and the system validates those answers against stored or externally sourced data.
 
 KBA questions can be configured for identification, authentication, or both phases, depending on admin configuration.
+
+**Note:** KBA factor isn’t supported for step-up authentication.
 
 ## External source validation
 
@@ -36,13 +38,15 @@ When caller data is not stored in ServiceNow AI Platform, admins can configure a
 
 **Note:** Only `snc_external` users can be authenticated using external source.
 
-Script execution is limited to 15 seconds by default. To learn more configuration properties, see [System Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/create-knowledge-based-answers.md).
+Script execution is limited to 15 seconds by default. For more information about configuration properties, see [System Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/create-knowledge-based-answers.md).
 
 ## Context persistence
 
-Starting `"nowassist-aia-voice", version: "5.0.3"` release, answers collected during identification and authentication are persisted as session context and are available to subsequent authentication questions. This means a caller does not have to repeat information they already provided. For example, if a caller provides a booking reference during identification, that value is accessible to authentication scripts without prompting the caller again.
+Starting `"nowassist-aia-voice", version: "5.0.3"` release, answers collected during identification and authentication are persisted as session context and are available to subsequent authentication questions. Only the caller's own answers are kept, for the current session. This means a caller does not have to repeat information they already provided. For example, if a caller provides a booking reference during identification, that value is accessible to authentication scripts without prompting the caller again.
 
-**Note:** Context persistence is available only for scripted answers, it doesn't capture non-scripted answer responses.
+Only the caller's own answers are kept, for the current session.
+
+**Note:** Context persistence is available only for scripted answers. It doesn’t capture non-scripted answer responses.
 
 ## Key strengths
 
@@ -52,13 +56,13 @@ Starting `"nowassist-aia-voice", version: "5.0.3"` release, answers collected du
 ## Limitations
 
 -   KBA relies on information the caller knows, which can be guessed, obtained from public records, or exposed through social engineering.
--   KBA is not recommended as the sole verification method for sensitive operations.
--   KBA is best suited for low-risk scenarios, such as general IT support or public documentation access.
+-   KBA isn’t designed as the sole verification method for sensitive operations.
+-   KBA is well suited for low-risk scenarios, such as general IT support or public documentation access.
 
 For detailed configuration instructions, see:
 
 -   [Create KBA questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/create-knowledge-based-questions.md)
 -   [Create KBA answers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/create-knowledge-based-answers.md)
 -   [Map KBA questions to answers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/create-kba-answer-mappings.md)
--   [AI voice agent service mapping with KBA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/create-kba-service-mappings.md)
+-   [Specify knowledge-based questions for an AI voice agent service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/create-kba-service-mappings.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
@@ -26,6 +26,8 @@ Domain separation is supported in the Advanced Work Assignment feature. Domain s
 Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+
+## Overview
 
 Advanced Work Assignment enables the automatic assignment of work items to qualified agents using work item queues defined for specific service channels. Managed Service Providers can create domain-specific queues by specifying a particular domain as a queue routing condition.
 

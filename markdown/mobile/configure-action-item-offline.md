@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/configure-action-item-offline.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Action items/action steps, Offline mode setup options, Offline mode, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
@@ -41,6 +41,8 @@ For an action item to work in ofﬂine mode, you must deﬁne the action item ty
 8.  In the **Writeback Action Item** field, select the action item you created in the earlier steps.
 
 9.  In the **Applicable for** field, select either **Offline** or **Both**.
+
+    **Note:** Mobile scripting can use write-back actions and write-back-action steps. For an explanation as to how you work with mobile scripts in offline and online, see [Write-back action support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/wba-mobile-script.md).
 
 10. In the **Type** field, select either **New**, **Update**, **Delete** or **Local Save**.
 

@@ -7,8 +7,8 @@ release: australia
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Configure, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -17,12 +17,6 @@ breadcrumb: [Configure, Workplace Case Management, Workplace Service Delivery, E
 Configure a record producer to integrate it with Workplace Reservation Management.
 
 Integrating a record producer with Workplace Reservation Management provides administrators with flexible choices to handle service requests. If a record producer is mapped to the **Record producer for reservation** field in a workplace service, it’s displayed to users during the reservation process. If no record producer is mapped, the system displays a custom widget for service item requests.
-
-**Note:**
-
-Some fields or minor functionality can differ between cases submitted for additional services of a reservation and standalone cases. While the fulfillment experience for both cases is similar, it is not completely the same because they serve different purposes.
-
-For example, while reserving a room with a projector from 10:00 to 11:00, the preparation and cleanup time is applicable to set up and remove the projector. If the preparation and cleanup duration is 30 minutes each, the room is reserved from 9:30 to 11:30. For standalone cases, users can raise a request at any time. The request doesn't need a start time and end time, therefore, preparation and cleanup time aren't applicable.
 
 The dual approach with a record producer and a custom widget provides a streamlined and unified experience:
 
@@ -47,7 +41,7 @@ While creating the record producer, make sure that you follow these steps.
     -   WSD Workplace Service: The widget used to select specific service items.
 -   You must adhere to specific names for the variables so the system can automatically pass data from the reservation to your record producer. These variables are populated with known data from the reservation and are typically hidden on the form.
 
-    Make sure that you use the specified names for the following variables.
+    Make sure that you use the specified names for the following variables:
 
     -   **Requested for**: requested\_for
     -   **Date and time requested by**: delivery\_time
@@ -75,7 +69,7 @@ For more information about the fields of a workplace service, see [Workplace Ser
 
 [Create a Workplace task template]()
 
-[Smart Assessment for workplace cases and tasks]()
+[Smart Assessment for Workplace Case and Task]()
 
 [Automating seat assignment for new hires]()
 

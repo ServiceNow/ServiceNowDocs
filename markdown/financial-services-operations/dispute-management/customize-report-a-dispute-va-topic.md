@@ -7,7 +7,7 @@ release: australia
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Disputes intake via Virtual Agent, Configure, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -44,7 +44,7 @@ Review and modify the workflow for your business needs.
 **Related topics**  
 
 
-[bundle-convint.vad-reference]
+[Assistant Designer interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/vad-reference.md)
 
 [Form Data Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/learn-about-the-form-data-collector.md)
 

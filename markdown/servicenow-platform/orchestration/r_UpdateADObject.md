@@ -7,7 +7,7 @@ release: australia
 product: Orchestration
 classification: orchestration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Active Directory activity pack, Orchestration activity packs, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Active Directory activity pack, Orchestration activity packs, Class
 
 The Update AD Object activity updates an object in Windows Active Directory.
 
-This activity only replaces existing values with new values. It cannot add new values to AD records such as adding a new group member to an AD group. For complex AD operations, use the [Run PowerShell activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/c_OrchestrPowerShellActivities.md) instead. The activity fails if it cannot find an existing account with matching object name and data.
+This activity only replaces existing values with new values. It cannot add new values to AD records such as adding a new group member to an AD group. For complex AD operations, use the [Run PowerShell activity]() instead. The activity fails if it cannot find an existing account with matching object name and data.
 
 To access this activity in the Workflow Editor, select the **Custom** tab, and then navigate to **Custom Activities** &gt; **Active Directory**.
 
@@ -81,5 +81,5 @@ The object type to update: user, group, or computer.
 |Success|AD object was successfully updated.|
 |Failure|An error occurred while attempting to update an AD object. Additional details may be available in the workflow log.|
 
-**Parent Topic:**[Active Directory activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/orchestration/c_OrchActiveDirectoryActivities.md)
+**Parent Topic:**[Active Directory activity pack]()
 

@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Alert grouping types and creation methods, Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Alert grouping types and creation methods, Alert grouping, Configur
 
 Rule-based alert grouping is created by alert correlation rules. These rules allow you to manually classify alerts as primary or secondary and establish a relationship between them. Use alert correlation rules to group related alerts. The rule runs only for new alerts or alerts whose status changed from close/flapping to open/reopen.
 
-Example: If rule-based alert grouping is applied, secondary alerts indicating that virtual machines or applications on the offline server are also down and are grouped under the primary alert, which is the root alert for the server that is offline. You can view rule-based alert grouping in Express List of Service Operations Workspace \(ITOM\). For more information, see [Viewing links between alerts in rules-based alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/el-rule-based-link-view.md).
+Example: With rule-based alert grouping, secondary alerts for virtual machines or applications on the offline server are grouped under the primary alert for that server. You can view rule-based alert grouping in Express List of Service Operations Workspace \(ITOM\). For more information, see [Viewing links between alerts in rules-based alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/el-rule-based-link-view.md).
 
 ## Primary and secondary alerts
 
@@ -29,13 +29,13 @@ In rule-based alert grouping, one of the real alerts is designated as the primar
 
 In this alert grouping, both primary and secondary alerts are visible but secondary alerts are grouped under the primary alert. The property **Keep the secondary alert open even when primary closed. for manual or rule based** \(**evt\_mgmt.rule\_based\_manual\_closure**\) controls whether secondary alerts remain open or are closed when the primary alert is closed.
 
-If the property is not selected \(i.e., set to No\), after the primary alert is closed, the parent reference is removed from the secondary alerts \(the grouping is dissolved\), and the secondary alerts are closed and become stand-alone. If you select the checkbox for the property \(i.e., set it to Yes\) and the primary alert is closed, the parent reference is removed from the secondary alerts \(the grouping is dissolved\), causing them to become stand-alone open alerts.
+If the property is cleared \(No\), closing the primary alert dissolves the grouping and closes secondary alerts as stand-alone. If the property is selected \(Yes\), closing the primary alert dissolves the grouping and secondary alerts become stand-alone open alerts.
 
 ## Alert hierarchy
 
 Only one level of secondary alerts is permitted. In situations where a secondary alert has its own secondary alert, the Event Management application flattens the hierarchy to preserve only two levels.
 
-For example, assume alert A is the primary alert and alert B is the secondary alert. If alert C becomes a secondary alert for alert B, the application flattens the hierarchy so that A remains the primary and B and C become sibling secondary alerts, one level below A.
+For example, assume alert A is the primary alert and alert B is the secondary alert. If alert C becomes a secondary alert of alert B, the hierarchy is flattened so that A remains primary and B and C become sibling secondary alerts.
 
 As another example, assume that there are three correlation rules that produce the following results:
 
@@ -48,7 +48,7 @@ When alerts B, C, D, and E are triggered, they all appear in the alert list sepa
 When alert A is triggered:
 
 1.  Rule 1 makes A a secondary alert under alert B.
-2.  Rule 2 makes both C and D secondary alerts under alert A, and the hierarchy is flattened so that A, C, and D become secondary alerts to the primary alert B.
+2.  Rule 2 makes C and D secondary alerts under A; the hierarchy is flattened so that A, C, and D become secondary alerts under primary alert B.
 3.  Rule 3 is not applied because multiple parents are not allowed—A already has B as its primary.
 
 Therefore, if all alerts are triggered, only B appears as the primary alert for A, D, and C, while E remains a standalone alert.

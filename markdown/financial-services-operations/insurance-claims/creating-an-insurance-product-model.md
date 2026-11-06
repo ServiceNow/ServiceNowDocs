@@ -7,7 +7,7 @@ release: australia
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Insurance product models, Setting up the policy data for Insurance claims, Configure, Insurance claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -26,7 +26,7 @@ Role required: admin
 
 2.  In the Label column, search for either the personal insurance model or the commercial insurance model.
 
-<table id="choicetable_hsn_gnv_2dc"><tbody><tr><td id="d87768e79">
+<table id="choicetable_hsn_gnv_2dc"><tbody><tr><td id="d89730e79">
 
 **Personal insurance model**
 
@@ -34,7 +34,7 @@ Role required: admin
 
 Search for and select **Personal lines insurance product model**.
 
-</td></tr><tr><td id="d87768e91">
+</td></tr><tr><td id="d89730e91">
 
 **Commercial insurance model**
 

@@ -9,7 +9,7 @@ classification: project-workspace
 topic_type: concept
 last_updated: "2026-09-12"
 reading_time_minutes: 1
-breadcrumb: [Configuring projects with Project Workspace, Configure, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Configuring projects with Project Workspace, Configuring Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Playbooks configuration
@@ -28,7 +28,7 @@ There are two pre-defined project management playbooks available in the Workflow
 To configure playbooks, perform these tasks:
 
 1.  Navigate to **Workflow Studio** and select **Playbooks**.
-2.  Create and configure playbooks as per your requirement. For more information, see [Create and configure playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/setting-up-process-automation-designer.md).
+2.  Create and configure playbooks according to your requirement. For more information, see [Create and configure playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/setting-up-process-automation-designer.md).
 3.  Activate one of the two pre-defined playbooks for the Project Workspace and define an appropriate trigger condition. For more information, see [Activate Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/activate-process-automation-designer.md) and [Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer-triggers.md).
 
 Multiple playbooks can be enabled at a time. Define the trigger so that each project is mapped to only one type of playbook. To activate a playbook, see [Activate Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/activate-process-automation-designer.md).

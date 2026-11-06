@@ -7,7 +7,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using GRC: Metrics to provide data, GRC: Metrics in Integrated Risk Management, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -32,15 +32,15 @@ If you have been assigned as an approver as part of a metric definition record, 
 
 3.  Review the metric data tasks and perform one of the following actions.
 
-<table id="choicetable_ypj_xgr_z5b"><thead><tr><th align="left" id="d225989e85">
+<table id="choicetable_ypj_xgr_z5b"><thead><tr><th align="left" id="d227341e85">
 
 Choice
 
-</th><th align="left" id="d225989e88">
+</th><th align="left" id="d227341e88">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d225989e94">
+</th></tr></thead><tbody><tr><td id="d227341e94">
 
 **Reject**
 
@@ -50,7 +50,7 @@ Action
 2.  Select **Reject** and provide your reason for rejection.
 
 
-</td></tr><tr><td id="d225989e115">
+</td></tr><tr><td id="d227341e115">
 
 **Approve**
 

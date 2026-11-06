@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Explore, CMDB Health, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -98,7 +98,7 @@ Shows various charts for relationships health, such as duplicate, orphan, and st
 
 </td></tr><tr><td>
 
-CI health report -   On a CI form outside of CMDB Workspaceand Service Graph Workspace, select **Open in Workspace** to view CI health.
+CI health report -   On a CI form outside of CMDB Workspaceand Service Graph Workspace, select **Open in Workspace**.
 -   In CMDB Workspace, select a CI in a list view to open the CI's form. For example, on the CMDB Health Dashboard, drill down a KPI tile and then select a CI in the tile's list view.
 
 </td><td>

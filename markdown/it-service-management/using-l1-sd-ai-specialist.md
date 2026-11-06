@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/using-l1-sd-ai-specialist.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-25"
+last_updated: "2026-09-16"
 reading_time_minutes: 1
 keywords: [use]
 breadcrumb: [L1 IT Service Desk AI Specialist, IT Service Management]
@@ -17,7 +17,7 @@ The L1 IT Service Desk AI Specialist is assigned to teams to investigate and res
 
 ## Overview of using the L1 IT Service Desk AI Specialist
 
-The L1 IT Service Desk AI Specialist is an autonomous worker that is assigned incidents and resolves them without human intervention. It uses knowledge articles and historical data to investigate incidents, communicates directly with requesters, and escalates to human agents when confidence is low.
+The L1 IT Service Desk AI Specialist is an autonomous worker that is assigned incidents and resolves them without human intervention. It uses knowledge articles and historical data to investigate incidents, communicates directly with requesters, and escalates to human agents when confidence is low. In autonomous mode, it also automatically detects major incidents and hands them off to specialist teams with complete context.
 
 -   [Onboard the L1 Service Desk Specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/onboard-l1-sd-ai-spec.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/create-apache-hudi-connection-zcc.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Apache Hudi, Community connectors, Zero Copy Connectors, Workflow Data Fabric]
+breadcrumb: [Apache Hudi, Community connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
 
 # Create an Apache Hudi connection
@@ -117,15 +117,15 @@ AWS region where your S3 bucket is located.
 </td></tr></tbody>
 </table>4.  Configure the metastore that you want to use with Apache Hudi.
 
-<table id="choicetable_xqf_z3l_rfc"><thead><tr><th align="left" id="d146524e256">
+<table id="choicetable_xqf_z3l_rfc"><thead><tr><th align="left" id="d144646e256">
 
 Option
 
-</th><th align="left" id="d146524e259">
+</th><th align="left" id="d144646e259">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d146524e265">
+</th></tr></thead><tbody><tr><td id="d144646e265">
 
 **Hive Thrift**
 
@@ -141,7 +141,7 @@ Description
 3.  Enter the truststore password.
 
 
-</td></tr><tr><td id="d146524e300">
+</td></tr><tr><td id="d144646e300">
 
 **AWS Glue**
 

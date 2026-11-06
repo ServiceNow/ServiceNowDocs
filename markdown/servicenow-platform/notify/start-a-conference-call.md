@@ -7,7 +7,7 @@ release: australia
 product: Notify
 classification: notify
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using Notify for making conference calls, Using Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -50,7 +50,7 @@ Call participants can include:
 
 6.  To select ad-hoc participants,
 
-<table id="choicetable_b2f_p4c_lq"><tbody><tr><td id="d173451e151">
+<table id="choicetable_b2f_p4c_lq"><tbody><tr><td id="d173952e151">
 
 **Click the reference lookup icon, and select the relevant user.**
 
@@ -58,7 +58,7 @@ Call participants can include:
 
 Click **Add to selected**.
 
-</td></tr><tr><td id="d173451e163">
+</td></tr><tr><td id="d173952e163">
 
 **Enter the participant's phone number**
 

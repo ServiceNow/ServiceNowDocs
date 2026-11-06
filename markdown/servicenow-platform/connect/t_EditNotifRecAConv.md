@@ -7,7 +7,7 @@ release: australia
 product: Connect
 classification: connect
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Connect, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,7 +24,7 @@ Role required: none
 
 Connect can send mobile, desktop, email, and audio notifications to inform you of messages and other activity, when you are not actively viewing Connect. You can edit your notification preferences in each conversation to control which notifications you receive for the conversation and under what circumstances. For example, if you are a member of a large group conversation, you might want to receive mobile, desktop, and email notifications for all activity, and audio notifications only when someone [mentions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/connect/t_MentionUserInConnectConversation.md) you. You might also want to disable a certain type of notification entirely for a conversation.
 
-By default, you receive mobile, email, and audio notifications for all activity in every conversation you belong to. You must enable desktop notifications manually. Not all browsers allow desktop notifications. For more information, see [Enable or disable Connect notifications globally](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/connect/t_EnableDisableConnectNotifications.md).
+By default, you receive mobile, email, and audio notifications for all activity in every conversation you belong to. You must enable desktop notifications manually. Not all browsers allow desktop notifications. For more information, see [Enable or disable Connect notifications globally]().
 
 An administrator can [customize the sound](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/connect/t_CustomizeConnectAudioNotifSound.md) used for audio notifications.
 
@@ -38,7 +38,7 @@ An administrator can [customize the sound](https://raw.githubusercontent.com/Ser
 
 3.  Edit the following settings according to your preferences.
 
-    **Note:** If a notification type is [disabled globally](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/connect/t_EnableDisableConnectNotifications.md), a link to enable that type appears. You must click the link before you can edit conversation-specific notification settings.
+    **Note:** If a notification type is [disabled globally](), a link to enable that type appears. You must click the link before you can edit conversation-specific notification settings.
 
     \[Omitted image "NotificationsDisabledGloballyMessage.png"\] Alt text: A message appears under the settings for the notification type
 

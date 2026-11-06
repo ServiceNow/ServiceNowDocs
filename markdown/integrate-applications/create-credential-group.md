@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/create-credential-group.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Credential Management, Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -165,7 +165,7 @@ If you remove an authorized user from the list, the Process Robot Credential rec
 
 You can't edit the **Shared** option and add or remove the users in the **Authorized Users** tab when the life-cycle stage status of the associated bot process is set to **Published**.
 
-**Important:** If you’re upgrading to Australia, the **Shared** option is pre-selected. When you clear the **Shared** option, the Process Robot Credential records that were created by an RPA release manager and an RPA administrator are retained. However, the Process Robot Credential records that were created by the developers from the Managed by group are deleted.
+**Important:** If you’re upgrading to Brazil, the **Shared** option is pre-selected. When you clear the **Shared** option, the Process Robot Credential records that were created by an RPA release manager and an RPA administrator are retained. However, the Process Robot Credential records that were created by the developers from the Managed by group are deleted.
 
 ### Procedure
 
@@ -181,15 +181,15 @@ You can't edit the **Shared** option and add or remove the users in the **Author
 
 6.  Provide access to users.
 
-<table id="choicetable_uvn_mw3_wbc"><thead><tr><th align="left" id="d385952e903">
+<table id="choicetable_uvn_mw3_wbc"><thead><tr><th align="left" id="d380284e903">
 
 Option
 
-</th><th align="left" id="d385952e906">
+</th><th align="left" id="d380284e906">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d385952e912">
+</th></tr></thead><tbody><tr><td id="d380284e912">
 
 **Provide access to all users in the Managed by group**
 
@@ -197,7 +197,7 @@ Action
 
 Select the **Shared** option.
 
-</td></tr><tr><td id="d385952e924">
+</td></tr><tr><td id="d380284e924">
 
 **Provide access to the selected users in the Managed by group**
 

@@ -62,6 +62,8 @@ A cost plan breakdown captures the estimated cost and actual cost for every fisc
 
 [Project scheduling in Project Management]()
 
+[Task constraints]()
+
 ## System-generated cost plans
 
 When an expense line is created without populating the **Cost Plan** field, system-generated cost plans are created automatically.
@@ -82,5 +84,5 @@ There are two system-generated cost plans, CapEx and OpEx. Depending on the type
 
 When you create a time card and approve it, an expense line of type CapEx is created. The orphan expense line is then associated to the system-generated cost plan of type CapEx. The system-generated cost plans are created to ensure that none of the expense lines are left without being associated to a cost plan. The system-generated cost plans are read-only.
 
-For customers upgrading to Australia, you can run the project diagnostics, **Associate orphan expense lines to the system generated cost plan**, to associate orphan expense lines to a system-generated cost plan. The diagnostic scan lists the expense lines that are not associated to any cost plan. When you run the fix script, system-generated cost plans are created, and the orphan expense lines are associated to the system-generated cost plans.
+For customers upgrading to Brazil, you can run the project diagnostics, **Associate orphan expense lines to the system generated cost plan**, to associate orphan expense lines to a system-generated cost plan. The diagnostic scan lists the expense lines that are not associated to any cost plan. When you run the fix script, system-generated cost plans are created, and the orphan expense lines are associated to the system-generated cost plans.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/configuring-now-assist-tisc.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Otto for Threat Intelligence Security Center \(TISC\), Security Operations]
 ---
@@ -20,7 +20,7 @@ Use the AI Admin Hub console to configure and activate the generative AI skills 
 
 By sharing data with the ServiceNow® AI development program, you provide relevant data to help improve prediction accuracy and reduce hallucinations for your activated Now Assist skills.
 
-Use the AI Admin Hub console to configure ServiceNow Otto for Threat Intelligence Security Center \(TISC\). This console contains everything to install the applications and configure the generative AI skills. For additional information, see [Configuring AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-na-landing.md).
+Use the AI Admin Hub console to configure ServiceNow Otto for Threat Intelligence Security Center \(TISC\). This console contains everything to install the applications and configure the generative AI skills. For additional information, see [Configuring plugins and skills in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-na-landing.md).
 
 To configure ServiceNow Otto for Threat Intelligence Security Center \(TISC\), complete the following tasks:
 

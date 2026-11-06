@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/assess-impact-categories-bia.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Structured workflows for BIA, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -87,7 +87,7 @@ Role required: sn\_bcm.program\_manager or sn\_bcm.planner
 
         \[Omitted image "GridConfigBCMSetup.png"\] Alt text: Grid configuration setup.
 
-        For ad-hoc reporting: Add columns to the Dependency report source \[sn\_bia\_dependency\_report\_source\] table that match the dependency variables you defined in Element variable with **Enable reporting** option set to **true**. A scheduled job runs weekly to retrieve dependencies \(sn\_bia\_dependency\) and their corresponding elements, then updates the data in the reporting table. The job retrieves dependencies where the impact analysis is in approved state, was updated in the last seven days, and has not expired. To display the columns that you require you must set up the [element variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/setup-bcm-element-variable.md) and [grid configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/setup-bcm-grid-config.md). For more information, see, [Grid configuration for column display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grid-config-dependency-assessment.md).
+        For ad-hoc reporting: Add the columns in Dependency report source \[sn\_bia\_dependency\_report\_source\] table to match the variables that you defined in Element variable where the **Enable reporting** option is set to **true**. A scheduled job runs weekly to retrieve dependencies \(sn\_bia\_dependency\) and their corresponding elements, then updates the data in the reporting table. The job retrieves dependencies where the impact analysis is in approved state, was updated in the last seven days, and has not expired. To display the columns that you require you must set up the [element variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/setup-bcm-element-variable.md) and [grid configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/setup-bcm-grid-config.md). For more information, see, [Grid configuration for column display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grid-config-dependency-assessment.md).
 
 8.  To change the order of appearance of the impact categories in RTO, RPO, and dependency groups in dependency assessment, navigate to **Business Continuity** &gt; **Business Impact Analysis** &gt; **Impact Category Results**.
 

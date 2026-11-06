@@ -7,7 +7,7 @@ release: australia
 product: Vaccine Administration Management
 classification: vaccine-administration-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Vaccine Administration Management, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -52,7 +52,7 @@ The appointment reminder sends a reminder email and a pre-appointment questionna
 
     3.  In the Variables related list, create or update variables for the questionnaire.
 
-        For details on how to configure a variable, see [Service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ServiceCatalogVariables.md).
+        For details on how to configure a variable, see Service catalog variables.
 
         **Important:** Don’t configure the *task\_id* and *is\_portal* variables.
 

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/create-scenarios-aia.html
 release: australia
 topic_type: task
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [agentic evaluation, automated evaluation, automatic evaluation, batch testing, test scenarios, test objectives]
-breadcrumb: [AI Agent Studio, Enable AI experiences]
+breadcrumb: [AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Create test scenarios for an agentic AI asset
@@ -35,15 +35,15 @@ Role required: sn\_aia.admin
 
 5.  Select an input method.
 
-<table><thead><tr><th align="left" id="d220561e129">
+<table><thead><tr><th align="left" id="d209897e129">
 
 Input method
 
-</th><th align="left" id="d220561e132">
+</th><th align="left" id="d209897e132">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d220561e138">
+</th></tr></thead><tbody><tr><td id="d209897e138">
 
 **__Table records__**
 
@@ -51,7 +51,7 @@ Description
 
 Select records from an existing table to test against. You can use table fields as variables when you craft your test objective. Continue to the next step.
 
-</td></tr><tr><td id="d220561e148">
+</td></tr><tr><td id="d209897e148">
 
 **__Manual entry__**
 

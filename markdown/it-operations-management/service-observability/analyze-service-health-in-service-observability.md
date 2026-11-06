@@ -7,7 +7,7 @@ release: australia
 product: Service Observability
 classification: service-observability
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Generative AI for IT Operations Management, Generative AI for ITOM, Service Observability dashboard analysis, Now Assist panel]
 breadcrumb: [Monitoring and investigating, Service Observability, ITOM AIOps, IT Operations Management]
@@ -21,7 +21,7 @@ Use the Analyze Service Health skill to view an analysis of all Service Observab
 
 The analyze service health skill uses generative AI to analyze all available Service Observability dashboards for the selected service.
 
-When you ask the skill to analyze a service's health, it generates an optimized version of the Service Observability charts for a service, whether or not they are currently displayed. It then analyzes the data, and taking the time period shown into account, detects reports any insights it finds, and analyzes general service health. With these insights on service health, operators can assess service impact, identify root causes, and streamline incident response.
+When you ask the skill to analyze a service's health, it generates an optimized version of the Service Observability charts for a service, whether or not they are currently displayed. It then analyzes the data, taking the time period shown into account, and reports any insights it finds. It also analyzes general service health. With these insights on service health, operators can assess service impact, identify root causes, and streamline incident response.
 
 \[Omitted image "so\_NAService.png"\] Alt text: AI found insights on three dashboards.
 
@@ -31,7 +31,7 @@ Once the skill is [activated](https://raw.githubusercontent.com/ServiceNow/Servi
 
 Note the following:
 
--   The analysis captures the time range as reflected by the user's set time zone. When sharing analysis data across time zones, be aware that the analysis time period always reflects the time zone originally captured and may not be in sync with your time zone settings.
+-   The analysis captures the time range as reflected by the user's set time zone. When sharing analysis data across time zones, be aware that the analysis time period always reflects the time zone originally captured. It may not be in sync with your time zone settings.
 -   The analysis doesn't weigh insights with regards to possible impact to an alert, incident, or overall dashboard health.
 -   The skill has a maximum number of 50 images that can be analyzed.
 

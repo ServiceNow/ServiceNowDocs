@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/api-implementation.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [API implementation and reference]
 ---
@@ -16,11 +16,11 @@ You can use JavaScript APIs to extend application server and client functionalit
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Scripts\[Omitted image "bus-start-developing.svg"\] Alt text: Extend application server and client functionality.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_Script.md)
+[Scripts\[Omitted image "bus-start-developing.svg"\] Alt text: Extend application server and client functionality.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/scripting-landing.md)
 
 </td><td>
 
-[Web services \[Omitted image "bus-rocketship.svg"\] Alt text: Communicate between ServiceNow and third-party applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/r_AvailableWebServices.md)
+[Web services \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Communicate between ServiceNow and third-party applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/r_AvailableWebServices.md)
 
 </td></tr></tbody>
 </table>## Scripts

@@ -1,18 +1,18 @@
 ---
 title: Configure the List Menu for Public Sector Digital Services
-description: Add public sector-related menu options to the List Menu in the CRM Workspace.
+description: Add public sector-related menu options to the List Menu in the Public Sector Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/public-sector-configure-list-menu.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [CRM Workspace, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Public Sector Workspace, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Configure the List Menu for Public Sector Digital Services
 
-Add public sector-related menu options to the List Menu in the CRM Workspace.
+Add public sector-related menu options to the List Menu in the Public Sector Workspace.
 
 ## Before you begin
 
@@ -66,5 +66,5 @@ To configure the List Menu, you can follow this procedure or use [guided setup](
 
 [Configure the Public Sector landing page using UI Builder.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/public-sector-configure-landing-page.md)
 
-**Parent Topic:**[Set up the CRM Workspace for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/setting-up-csm-fsm.md)
+**Parent Topic:**[Set up the Public Sector Workspace for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/setting-up-csm-fsm.md)
 

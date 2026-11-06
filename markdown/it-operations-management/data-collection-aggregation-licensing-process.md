@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/data-collection-aggregation-licensing-process.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
 ---
@@ -21,7 +21,7 @@ The process of collecting and aggregating information for licensing purposes inv
 1.  The ITOM licensing mechanism counts the Configuration Items \(CIs\) managed by each ITOM product daily, categorizing them into licensable CI categories. For more details, see [KB0748149: ITOM Subscription Unit license calculation logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0748149).
 2.  If the same CIs are managed by different features within the same ITOM products, the CI count is adjusted to eliminate the duplication. For example, if both Discovery and Service Mapping discover the same CIs, these CIs appear only once in the CI count. Container CIs are excluded from SU count if they have a relationship to a container image.
 3.  The licensing module aggregates CI counts from ITOM applications to determine the average daily CI count for the last 90 days.
-4.  The licensing module then compares the daily average CI counts for the last 90 days from ITOM applications with the licensing information in the customer contract to generate license statistics.
+4.  The licensing module then compares the daily average CI counts for the last 90 days from ITOM applications with the licensing information in the customer contract. This generates license statistics.
 
 As a result, you can view the statistics on how your organization uses purchased subscription units.
 

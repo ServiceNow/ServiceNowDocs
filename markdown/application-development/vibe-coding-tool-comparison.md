@@ -5,11 +5,11 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/vibe-coding-tool-comparison.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [agentic development, tool comparison, development tools, artificial intelligence, application development, workflow comparison, development workflow, AI agents, code generation]
 audience: developer
-breadcrumb: [Explore, Agentic development, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Explore, Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Tool comparison for agentic development
@@ -248,4 +248,6 @@ The following table shows performance and scaling considerations for ServiceNow 
 |ServiceNow IDE|Complex business rules, script includes, advanced customization|Developer expertise required|
 |ServiceNow Otto for Creator|Service Catalog items \(one at a time\)|Creates single Service Catalog items, not full applications|
 |ServiceNow SDK|Local development with TypeScript|Limited platform metadata manipulation compared to ServiceNow Studio|
+
+**Parent Topic:**[Exploring agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/exploring-vibe-coding.md)
 

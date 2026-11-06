@@ -7,7 +7,7 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [HR PIWB template: Recommend estimated time to resolve, HR Predictive Intelligence Workbench implementation, HR Predictive Intelligence Workbench, Integration of HR Service Delivery with ServiceNow applications, HR Service Delivery, Employee Service Management]
 ---
@@ -20,11 +20,11 @@ Once you configure ETTR, you can see the **HR Case Resolution Time** option. See
 
 -   Employee portal view
 
-
+    \[Omitted image "ettr-employee-view.png"\] Alt text: Displays the estimated time to resolve the case for employee
 
 -   Now Mobile view
 
-
+    \[Omitted image "ettr-mobile-employee.png"\] Alt text: Displays the estimated time to resolve the case for employee on mobile app
 
 -   Platform view for agent
 
@@ -32,7 +32,7 @@ Once you configure ETTR, you can see the **HR Case Resolution Time** option. See
 
 -   Agent workspace
 
-
+    \[Omitted image "ettr-agent-view.png"\] Alt text: Displays the estimated time to resolve the case on agent workspace
 
 
 Based on the configuration, the views may be different for your implementation.

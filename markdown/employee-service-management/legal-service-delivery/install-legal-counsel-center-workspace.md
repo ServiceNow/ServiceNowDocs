@@ -7,7 +7,7 @@ release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Legal Counsel Center Workspace, Legal Counsel Center, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---

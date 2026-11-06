@@ -7,7 +7,7 @@ release: australia
 product: Platform Encryption
 classification: platform-encryption
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Key Management Framework, Encryption]
 ---
@@ -32,7 +32,7 @@ The Key Management Framework provides a base system parent cryptographic module 
 
 This cm\_glide\_encrypter module can have submodules, each with their own module key and specification. If a submodule is present with the same application scope as the application where the Password2 field is, the system uses the submodule. For example, if a table in the ServiceNow® Customer Service application has a submodule, and you write information to a Password2 field on a table in the Customer Service application scope, the cryptographic process calls the Customer Service submodule. The process also uses that submodule's key for encryption and decryption with a unique AES 256 GCM encryption key. One submodule per application scope is allowed. Parent module isn’t always used for global scope. Generally, new fields use instance\_level\_glide\_encrypter.
 
-**Note:** You can’t create your own submodules in Australia. Submodules are provided in various application plugins on the ServiceNow AI Platform. You can rotate keys on submodules, but not the parent cm\_glide\_encrypter module.
+**Note:** You can’t create your own submodules in Brazil. Submodules are provided in various application plugins on the ServiceNow AI Platform. You can rotate keys on submodules, but not the parent cm\_glide\_encrypter module.
 
 ## Domain separation and on-premise customers
 
@@ -40,7 +40,7 @@ KMF Password2 doesn’t support domain separation. You can use Password2 with on
 
 ## Legacy Password2 and the current Password2
 
-In Australia, the existing Password2 field has been upgraded.
+In Brazil, the existing Password2 field has been upgraded.
 
 The current implementation of Password2:
 

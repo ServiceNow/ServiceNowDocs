@@ -1,22 +1,22 @@
 ---
-title: Using License and Permit Playbook
-description: If you're an license and permits case agent or manager, you can use the License and Permit Playbook for Public Sector Digital Services to manage and resolve requests for licenses and permits.
+title: Using License and Permit Administration
+description: If you're an license and permits case agent or manager, you can use the License and Permit Administration for Public Sector Digital Services to manage and resolve requests for licenses and permits.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-using-lp-playbooks.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Using License and Permit Playbook
+# Using License and Permit Administration
 
-If you're an license and permits case agent or manager, you can use the License and Permit Playbook for Public Sector Digital Services to manage and resolve requests for licenses and permits.
+If you're an license and permits case agent or manager, you can use the License and Permit Administration for Public Sector Digital Services to manage and resolve requests for licenses and permits.
 
 A playbook provides you with step-by-step guidance through the life cycle of a license and permits request case.
 
-The License and Permit Playbook automatically appears in the **Playbook** tab when you create an license and permit request case by using the CRM Workspace.
+The License and Permit Administration automatically appears in the **Playbook** tab when you create an license and permit request case by using the Public Sector Workspace.
 
 A playbook takes a workflow and breaks it into multiple stages or lanes. Each stage in a playbook includes one or more activities, or steps, for you to complete. Stages can also include automated activities, such as auto-sending an email to a customer when a stage or activity is complete. When using a playbook, you can:
 
@@ -31,7 +31,7 @@ The workflows for a type of case and the activities that you need to resolve the
 
 Like other PSDS playbooks, this playbook contains four stages \(i.e., Intake, Review, Process, and Decision\) and several activities in each stage. Below is a diagram illustrating the base License &amp; Permit playbook workflow. This workflow can be modified to match a specific license/permit use case.
 
-The License and Permit Playbook stages are listed in the following table.
+The License and Permit Administration stages are listed in the following table.
 
 |Task|Description|
 |----|-----------|
@@ -44,7 +44,7 @@ The License and Permit Playbook stages are listed in the following table.
 
 A playbook is made up of several areas, including the playbook life cycle, the playbook work area, and the contextual side panel. The activity view determines how the stages and activities appear in the playbook.
 
-The default activity view for the License and Permit Playbook is the Process-based experience view. This view, which is shown in the following example, shows constituent or business information and case task information at the forefront of the playbook work area as you work on it.
+The default activity view for the License and Permit Administration is the Process-based experience view. This view, which is shown in the following example, shows constituent or business information and case task information at the forefront of the playbook work area as you work on it.
 
 The process-based playbook layout shows the following features:
 
@@ -53,9 +53,9 @@ The process-based playbook layout shows the following features:
 
 -   Related records in the contextual side panel supported by the dynamic related records component.
 
-\[Omitted image "lp-request-process-based-layout.png"\] Alt text: Agent workspace view of the License and Permit Playbook life cycle, case record information, and license request details, shown in the Process-based experience view.
+\[Omitted image "lp-request-process-based-layout.png"\] Alt text: Agent workspace view of the License and Permit Administration life cycle, case record information, and license request details, shown in the Process-based experience view.
 
-The following table shows the components that you can see in the License and Permit Playbook workspace.
+The following table shows the components that you can see in the License and Permit Administration workspace.
 
 <table id="table_j4r_cww_5pb"><thead><tr><th>
 

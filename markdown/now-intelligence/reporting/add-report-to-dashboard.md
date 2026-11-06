@@ -9,7 +9,7 @@ classification: reporting
 topic_type: task
 last_updated: "2026-09-24"
 reading_time_minutes: 1
-breadcrumb: [Distribute reports, Core UI Reporting, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Distribute Core UI reports, Using Core UI reporting, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Add a report to a responsive dashboard
@@ -20,7 +20,7 @@ Make actionable decisions faster by combining relevant reports and widgets onto 
 
 Role required: Any user who can create a report can add it to a responsive dashboard.
 
-This topic refers to Reporting in the Core UI. If your instance is a new Australia instance or migrated to Platform Analytics experience, see [Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/common-dashboard-tasks.md).
+This topic refers to Reporting in the Core UI. If your instance is a new Brazil instance or migrated to Platform Analytics experience, see [Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/common-dashboard-tasks.md).
 
 Watch this eight-minute video to learn about generating reports, creating reports in the Report Designer, and sharing and scheduling reports.
 
@@ -43,5 +43,5 @@ Watch this eight-minute video to learn about generating reports, creating report
 6.  Select **Edit** to move or resize the report.
 
 
-**Parent Topic:**[Distribute reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_DistributeReports.md)
+**Parent Topic:**[Distribute Core UI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_DistributeReports.md)
 

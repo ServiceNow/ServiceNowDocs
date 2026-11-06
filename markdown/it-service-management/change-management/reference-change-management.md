@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Change Management, IT Service Management]
 ---
@@ -17,11 +17,11 @@ breadcrumb: [Change Management, IT Service Management]
 Reference sections provide additional information about components installed with Change Management.
 
 -   **[Configuring maintenance schedules - Best practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/configuring-maintenance-schedules-best-practices.md)**  
-Maintenance schedules define the periods during which a Configuration Item or change can be implemented.
+Maintenance schedules define the periods during which a configuration item \(CI\) or change can be implemented.
 -   **[Change Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/r_ChangeManagementProperties.md)**  
 Administrators can use change properties to configure Change Management behavior.
 -   **[Analyze change request risk and impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-risk-conflict-analysis.md)**  
-Assess and analyze the risk and impact involved in the change request. You can review any conflicts that are detected by reviewing the change request.
+After you create a change request, you can assess and analyze the risk and impact involved in the change request. You can review any conflicts that are detected by reviewing the change request.
 -   **[Success Probability definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/success-probability-definition.md)**  
 Success Probability definition is a configuration that defines the probability and the matching conditions of a change request.
 -   **[Calculated Risk Score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/risk-lookup.md)**  
@@ -29,13 +29,15 @@ Risk lookup table is to get the risk value corresponding to the success probabil
 -   **[Change management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-mgmt-integrations.md)**  
 You can integrate Change Management with other ServiceNow applications such as Discovery, Software Asset Management, and Hardware Asset Management.
 -   **[Domain separation and Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/domain-separation-change-mgt.md)**  
-Domain separation is supported in Change Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
--   **[Tutorial: add a new change management state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_AddNewStateTutorial.md)**  
-This tutorial provides an example of adding a new state to the existing state model.
+Change Management supports domain separation. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+-   **[Tutorial: Add a new change management state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_AddNewStateTutorial.md)**  
+Add a Complete state between the Implement and Review states as an example of extending the state model.
 -   **[Change flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-flows.md)**  
-The Change Management Change flows provide a library of reusable actions and end-to-end implementations of the Change models provided in the base system.
+Change Management change flows provide a library of reusable actions and end-to-end implementations of the change models in the base system.
 -   **[ITSM Enhanced Security Features for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/features-itsm-enhanced-security-change.md)**  
 Help prevent unauthorized access to change-related tables using deny-unless ACLs. A deny-unless authentication ACL restricts access for a non-authenticated user.
+-   **[Change Management glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/glossary-itsm-change-management.md)**  
+Learn about the terms and concepts used in Change Management.
 
 **Parent Topic:**[Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_ITILChangeManagement.md)
 

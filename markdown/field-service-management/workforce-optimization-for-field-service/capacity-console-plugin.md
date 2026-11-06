@@ -7,8 +7,8 @@ release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Capacity and Reservations Management, Set up workforce, Configure, Field Service Management]
 ---
 
@@ -33,11 +33,19 @@ Role required: admin.
 
 The following components are installed with Field Service Advanced Capacity and Reservations Management plugin:
 
--   Tables
--   Script Includes
--   Roles
+-   The Capacity Planner role \(fsm\_adv\_cap\_mgmt.wm\_capacity\_planner\) provides read, write, and create access to capacity-related tables, along with access to the Capacity Console.
+-   Script Includes: The following table provides the list of script includes that are installed.
 
-For more information, see [Capacity and Reservations Management components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/advanced-capacity-components.md).
+    |Name|Description|
+    |----|-----------|
+    |CapacityConsoleConstants|Aggregate all constants in one place for the Capacity Console. Customers can override constants from `CapacityConsoleConstantsSNC`.|
+    |CapacityConsoleConstantsSNC|Aggregate all constants in one place for the Capacity Console.|
+    |CapacityConsoleData|Contains all the business logic for the Capacity Console. Customers can override this logic using `CapacityConsoleDataSNC`.|
+    |CapacityConsoleDataSNC|Contains all the business logic for the Capacity Console.|
+    |CapacityConsoleUtil|Contains all utility functions for the Capacity Console.|
+    |CapacityConsoleUtilSNC|Contains all utility functions for the Capacity Console.|
+    |FSMCapacityAdvancedFilterDefinition|Custom implementation of all advanced filters used in the Capacity Console.|
+
 
 **Note:** You can customize the Capacity Console by taking the reference from the SNC script includes.
 

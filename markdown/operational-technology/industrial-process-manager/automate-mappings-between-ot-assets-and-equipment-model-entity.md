@@ -7,7 +7,7 @@ release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Managing equipment models, Use, Industrial Process Manager, Operational Technology]
 ---
@@ -27,9 +27,9 @@ When OT managers experience vulnerabilities or must manage workflow involving OT
 -   Minimize issues with reuse of private IP address ranges across multiple sites​.
 -   Use discovered subnets in copy-paste networks to help uniquely identify OT devices for mapping.
 
-Industrial networks use subnets to divide the private IP address space with a single subnet often aligned to a part of the production process, or the equipment model entity. For example, a canning line runs on a 192.168.101.0/24 network in which all the equipment was programmed by the integrator. The IPs used by the control systems, or OT devices, are often hard-coded into the automation software used to run the line. If the subnet maps to the canning line in the Atlanta site, a manager can automatically map a detected PLC with IP 192.168.101.66 to the canning line.
+Industrial networks use subnets to divide private IP address space, with each subnet aligned to a production process or equipment entity. For example, a canning line runs on a 192.168.101.0/24 network where all equipment was programmed by the integrator. IPs for control systems and OT devices are hard-coded into the automation software. When the subnet maps to a canning line in the Atlanta site, detected PLCs with IPs like 192.168.101.66 are automatically mapped to that line.
 
-The mapping feature relates each subnet to an equipment model entity, enabling you to automatically map OT devices to the subnets associated with the equipment model entity based on the IP address that was reported upon import from an OT-certified integration or ServiceNow®'s [IT Discovery for Operational Technology \(OT\) Networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/discovery-for-operational-technology.md).​
+The mapping feature relates each subnet to an equipment model entity. You can map OT devices to associated subnets based on imported IP addresses from OT-certified integrations or Discovery for Operational Technology.
 
 ## Types of mapping
 
@@ -70,9 +70,7 @@ Discovered subnet in your OT network.**Note:** Discovered subnet mapping is supp
 </td></tr></tbody>
 </table>## Using discovered subnets to uniquely identify devices
 
-Copy-paste networks can make it difficult to uniquely identify OT devices and correctly map them to their equipment model entities. At some sites the same IP subnet range may be used for multiple equipment model entities, which can result in ambiguity about where to map your OT device. To more accurately map an OT device to its equipment model entity, you can configure the discovered subnet to identify the unique device and which equipment model entity it should be mapped to.
-
-By using discovered subnets with the AMAZING feature, you can uniquely identify OT devices in a copy-paste network. The logic is as follows:
+Copy-paste networks create difficulty uniquely identifying OT devices and mapping them to equipment model entities. At some sites, the same IP subnet range applies to multiple equipment model entities, causing ambiguity about device mapping. Configure the discovered subnet to identify unique devices and their equipment model entities for more accurate mapping. By using discovered subnets with the AMAZING feature, you can uniquely identify OT devices in a copy-paste network. The logic is as follows:
 
 1.  When OT device data is populated from a Service Graph Connector, the subnet and managed network must be populated in the IP Address \[cmdb\_ci\_ip\_address\] table using the **Netmask** and **Network partition identifier** fields. The **Network partition identifier** field is important to the mapping process because it's always unique to an OT device.
 2.  The **Discovered subnet** and **Managed network** fields must also be populated in the OT device data for mapping to continue.

@@ -7,7 +7,7 @@ release: australia
 product: Lifecycle Events
 classification: lifecycle-events
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Lifecycle Events, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
@@ -63,7 +63,7 @@ Provides Employee Center.
 
     To use Agent Workspace and Playbook with Lifecycle Events, you must request the Playbook plugin from the ServiceNow Store.
 
-    **Note:** For more information on requesting a ServiceNow Store plugin, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md).
+    **Note:** For more information on requesting a ServiceNow Store plugin, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/installing-applications-in-application-manager.md).
 
 
 ## Procedure

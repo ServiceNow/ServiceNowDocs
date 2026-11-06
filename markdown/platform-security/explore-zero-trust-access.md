@@ -1,20 +1,20 @@
 ---
-title: Explore Zero Trust Access
+title: Zero Trust Access
 description: Zero Trust Access \(ZTA\) is a security model that assumes that no user or device is trusted by default.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/explore-zero-trust-access.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Zero Trust Access, Access Management]
 ---
 
-# Explore Zero Trust Access
+# Zero Trust Access
 
 Zero Trust Access \(ZTA\) is a security model that assumes that no user or device is trusted by default.
 
-ZTA ensures that all access to applications and data is granted on a least privilege basis, only after the user's identity verification and risk assessment.
+ZTA grants all access to applications and data on a least privilege basis, only after the user's identity verification and risk assessment.
 
 ## Zero Trust - Policy Based Session Access
 
@@ -43,13 +43,13 @@ Following are some of the use cases of Zero Trust Access:
 -   Reduce privileges based on the risk associated with the session. For example, a fulfiller role user logging from outside the trusted network can be configured to have only the requester role for the session.
 -   Reduce access based on IDP response for a user session, if the user is using an untrusted device. For more information, see [Configure Identity Provider attribute for Session Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/configure-idp-session-access.md).
 
-This role relegation ensures that the user doesn’t have any other existing privileges in a session. When the user is logging in from a trusted network, all the existing privileges are assigned for a session.
+This role relegation helps prevent the user from having any other existing privileges in a session. When the user is logging in from a trusted network, all the existing privileges are assigned for a session.
 
 Multiple IP conditions and multiple role or group assignments can be defined as part of the policy.
 
 ## Zero Trust Access - Mobile
 
-You can use the Zero Trust Access - Session Access policy within the Adaptive Authentication policy to reduce the roles or privileges of the particular session in mobile.
+You can use the Zero Trust Access - Session Access policy within the Adaptive Authentication policy to reduce the roles or privileges of the particular session on mobile devices.
 
 Zero Trust Access - Session Access mobile can be enabled by enabling the **glide.authenticate.session\_access.mobile.enabled** from the system properties table.
 

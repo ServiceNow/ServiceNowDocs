@@ -7,7 +7,7 @@ release: australia
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Time sheets, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
@@ -30,15 +30,15 @@ Role required: wm\_agent
 
 4.  Manage your time cards.
 
-<table id="choicetable_yfs_nxg_qmb"><thead><tr><th align="left" id="d119626e94">
+<table id="choicetable_yfs_nxg_qmb"><thead><tr><th align="left" id="d122497e94">
 
 Action
 
-</th><th align="left" id="d119626e97">
+</th><th align="left" id="d122497e97">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d119626e103">
+</th></tr></thead><tbody><tr><td id="d122497e103">
 
 **Submit time card**
 
@@ -46,7 +46,7 @@ Steps
 
 Tap **Submit time card**.**Note:** This option is available only when hours are posted for a day against the task.
 
-</td></tr><tr><td id="d119626e118">
+</td></tr><tr><td id="d122497e118">
 
 **View a time card**
 
@@ -54,7 +54,7 @@ Tap **Submit time card**.**Note:** This option is available only when hours are 
 
 Tap **View time card** to view time card details such as task, hours, resource plan, and notes.
 
-</td></tr><tr><td id="d119626e130">
+</td></tr><tr><td id="d122497e130">
 
 **View time card notes**
 
@@ -62,7 +62,7 @@ Tap **View time card** to view time card details such as task, hours, resource p
 
 Tap **Time card notes** to view the notes related to the time card.
 
-</td></tr><tr><td id="d119626e142">
+</td></tr><tr><td id="d122497e142">
 
 **Add time card notes**
 
@@ -70,7 +70,7 @@ Tap **Time card notes** to view the notes related to the time card.
 
 Tap **Add new note** to add a new note.
 
-</td></tr><tr><td id="d119626e155">
+</td></tr><tr><td id="d122497e155">
 
 **Delete a time card**
 

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/scenario-analysis-playbook-experience.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 keywords: [Scenario Analysis, Operational Resilience, Playbook, statistical modelling, Annual Loss Model, Statistical Model Profile, simulation, treatment decision, lifecycle event]
-breadcrumb: [Scenario analysis using simulation, Scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Conducting a scenario analysis, Scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Building a scenario analysis using simulation
@@ -181,7 +181,7 @@ A Scenario Analysis Profile links a Statistical Model Profile to the input and o
 
 \[Omitted image "sca-statistical-model-profile-mappings.png"\] Alt text: Statistical Model Profile record 'Annual loss model driven by risk events' with the Question Parameter Mappings related list showing each parameter mapped to its input or output assessment question.
 
-The parameter column on the Statistical Model Profile record is fixed. You can re-map an existing parameter to a different assessment question or update an existing question but the number of questions and parameters remains same. You cannot add new parameters or remove existing ones because the parameters are tightly coupled to the annual loss model that ships with the base version.
+The parameter column on the Statistical Model Profile record is fixed. You can re-map an existing parameter to a different assessment question or update an existing question but the number of questions and parameters remains the same. You cannot add new parameters or remove existing ones because the parameters are tightly coupled to the annual loss model that ships with the base version.
 
 **Note:** The Monte Carlo simulation uses a log-normal severity distribution and a Poisson frequency distribution. These distributions are set and you cannot configure them.
 

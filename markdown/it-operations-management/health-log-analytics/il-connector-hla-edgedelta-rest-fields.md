@@ -7,7 +7,7 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Edge Delta, REST, data input, integration, configuration, field, description, ServiceNow, Health Log Analytics, HLA]
 breadcrumb: [Integration configuration fields, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
@@ -57,7 +57,7 @@ Port
 
 </td><td>
 
-The port for the MID Server.This field is read-only. It is auto-populated when the MID Web Server is chosen.
+The port on the MID Server used for listening to logs.This field is read-only. It is auto-populated when the MID Web Server is chosen.
 
 </td></tr><tr><td>
 

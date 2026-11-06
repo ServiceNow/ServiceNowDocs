@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-07-01"
 reading_time_minutes: 1
 keywords: [Employee Hub, attestation, terms and conditions, compliance configuration]
-breadcrumb: [Configure terms of use, EmployeeWorks home, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configure terms of use, EmployeeWorks home, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # Accept AI terms and conditions

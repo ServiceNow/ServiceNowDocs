@@ -7,7 +7,7 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-07-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI, Agent Client Collector, ACC diagnostic, agentic workflow, error analysis]
 breadcrumb: [Agent Client Collector Monitoring, Agent Client Collector, IT Operations Management]

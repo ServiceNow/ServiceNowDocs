@@ -5,17 +5,17 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/configure-build-agent.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-03"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Build Agent configuration
 
 Build Agent connects your instance to AI-powered design workflows. Set up the required application and MCP server connections to start using it.
 
-**Note:** Build Agent is enabled by default to create apps with AI, for example in ServiceNow Studio. To use other ServiceNow Otto products, such as the app generation skill, disable Build Agent. For example, using the setting in your ServiceNow Studio preferences. For more information, see [Use the app generation skill to generate apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/sns-app-gen-use-app-gen-skill.md).
+**Note:** Build Agent is enabled by default to create apps with AI, for example in ServiceNow Studio. To use other ServiceNow Otto products, such as the app generation skill, disable Build Agent. For example, using the setting in your ServiceNow Studio preferences.
 
 Configuring Build Agent involves several sequential steps:
 
@@ -26,8 +26,12 @@ Configuring Build Agent involves several sequential steps:
 
 Complete these steps to verify that all dependencies and integrations are in place before using Build Agent.
 
+Because Autonomous Engineer runs through Build Agent as its execution layer, most settings you configure here also apply when Autonomous Engineer runs. For more information, see [Configuring Autonomous Engineer settings in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ae-settings.md).
+
 -   **[Install Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/install-build-agent.md)**  
 For the Premium version of Build Agent, install the ServiceNow Otto for Creator application from the ServiceNow Store.
+-   **[Properties, tables, and roles installed with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ba-properties-installed-with.md)**  
+System properties installed with Build Agent control operational settings and resource limits. Tables store conversation, message, checkpoint, and telemetry data. Roles define access control for properties and features.
 -   **[Build Agent plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-agent-plugins.md)**  
 Plugins are required for Build Agent, and vary by version.
 -   **[Connect Build Agent to a supported MCP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ba-connct-mcp-server.md)**  
@@ -35,7 +39,7 @@ Connect a supported MCP server to Build Agent to access external tools and resou
 -   **[Configure custom skills and rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ba-configure-custom-skills-rules.md)**  
 Create and manage custom skills and rules, or instructions to control how Build Agent behaves during a session. Rules are preloaded into every session automatically. Skills are available on demand when you or the agent invokes them by name.
 -   **[Configure auto test prompting and UI tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ba-config-testing.md)**  
-Configure test settings to enable automatic test prompting and execution of UI tests in Build Agent.
+Configure test settings to enable automatic test prompting and execution of UI tests in Build Agent and Autonomous Engineer.
 -   **[Configure web search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ba-configure-settings.md)**  
 Enable the web search tool so that Build Agent can search the public web and retrieve relevant information when responding to queries.
 

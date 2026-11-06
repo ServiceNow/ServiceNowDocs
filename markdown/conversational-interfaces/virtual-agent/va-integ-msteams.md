@@ -7,10 +7,10 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-04-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow, Virtual Agent, integration, MS Teams, Microsoft, Teams]
-breadcrumb: [Conversational Integration with Microsoft Teams, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Microsoft Teams, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Integrate Virtual Agent with Microsoft Teams
@@ -21,6 +21,8 @@ Enable ServiceNow Virtual Agent to integrate with the Microsoft Teams applicatio
 
 Role required: virtual\_agent\_admin or admin.
 
+-   **[Integrating ServiceNow Otto for Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/integrating-now-assist-va-msteams.md)**  
+ServiceNow Otto for Virtual Agent uses large language models \(LLMs\) and generative AI to improve deflection rates and reduce the amount of work that Natural Language Understanding \(NLU\) topic discovery once required.
 -   **[Integrate ServiceNow Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/add-msteams-snow-va-bot.md)**  
 Add the Now Virtual Agent bot to your ServiceNow instance to integrate with Microsoft Teams.
 -   **[Override Microsoft Teams integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/override-msteams-install.md)**  

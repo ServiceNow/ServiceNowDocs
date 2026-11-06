@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-23"
 reading_time_minutes: 2
 keywords: [break-fix, AI assistant, Retail MCP Server, report device issue]
-breadcrumb: [Retail MCP Server, Configure, Retail]
+breadcrumb: [Retail MCP Server, ServiceNow Otto for Retail Service Management \(RSM\), Retail]
 ---
 
 # Report a broken device from your AI assistant
@@ -69,5 +69,5 @@ To check on the case later, see [Track and update your cases from your AI assist
 
 [Submit Break-Fix Cases through Portal or Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/breakfix-submit-case.md)
 
-[moveworks-breakfix-case-operations]
+[Submit and track break-fix cases via Moveworks Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/moveworks-breakfix-case-operations.md)
 

@@ -1,20 +1,20 @@
 ---
 title: Using the Operational Technology Manager
-description: After you complete all required set up tasks, including installing the Operational Technology \(OT\) extension classes and assigning user roles, perform the following tasks to create the foundational data and relationships for the ServiceNow Operational Technology solution.
+description: After completing setup tasks, perform the following tasks to create foundational data and relationships for the ServiceNow Operational Technology solution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/operational-technology-manager/using-operational-technology-manager.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Operational Technology Manager, Operational Technology]
 ---
 
 # Using the Operational Technology Manager
 
-After you complete all required set up tasks, including installing the Operational Technology \(OT\) extension classes and assigning user roles, perform the following tasks to create the foundational data and relationships for the ServiceNow® Operational Technology solution.
+After completing setup tasks, perform the following tasks to create foundational data and relationships for the ServiceNow® Operational Technology solution.
 
 |Task|Purpose|
 |----|-------|

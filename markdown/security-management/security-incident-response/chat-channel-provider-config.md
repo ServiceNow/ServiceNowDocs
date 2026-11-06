@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -20,7 +20,7 @@ Configuring and subscribing to a Microsoft Teams chat environment, retrieving ch
 
 To configure Microsoft Teams, activate Teams as the chat provider. You can then create chat channels for the various stakeholders and groups communicating about activities and track chat conversations to resolve the Major Security Incident. The Microsoft Teams and Microsoft Graph API configuration includes:
 
--   [Establish MS Teams Graph connection on ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/msim-micorsoft-team-requirements.md)
+-   [Establish Microsoft Teams Graph connection on ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/msim-micorsoft-team-requirements.md)
 -   [Activate MS Teams as a chat provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/chat-provider-configuration.md)
 -   [Create a chat channel template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/create-chat-channel-template-for-msim.md)
 -   [View Chat Message Activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/chat-message-activity.md)

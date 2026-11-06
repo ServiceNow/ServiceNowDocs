@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/approving-exception-requests-scan-engine.html
 release: australia
 topic_type: task
-last_updated: "2026-09-03"
+last_updated: "2026-10-28"
 reading_time_minutes: 1
-breadcrumb: [Exception handling in Scan Engine, Prevent technical debt with real-time code fixes, Prevent and resolve technical debt with AI, Platform Health, Using Impact, Impact]
+breadcrumb: [Prevent technical debt with real-time code fixes, Platform Health, Using Impact, Impact]
 ---
 
 # Approve or reject exception requests for Scan Engine findings
@@ -30,11 +30,15 @@ Role required: sn\_se.scan\_engine\_exception\_approver
     -   The severity level \(Suggest, Review, Recommend, or Act\)
     -   The exception reason provided by the developer
     -   The scanned record affected by the finding
-2.  Select the notification link or navigate to the Findings panel and select the finding card with the Pending approval badge.
+2.  Select the notification link or navigate to the Findings panel and select the finding card with the Exception requested badge.
 
 3.  On the finding card, select **View exception reason** to open the exception details.
 
-4.  Review the exception reason and finding details provided by the developer. Determine whether the exception is justified based on your organization's policies.
+    \[Omitted image "se-view-exception-reason-approver.png"\] Alt text: Exception reason submitting modal with the View exception reason button available.
+
+4.  Review the exception reason and finding details provided by the developer.
+
+5.  Determine whether the exception is justified based on your organization's policies.
 
     Consider the following when evaluating an exception:
 
@@ -42,18 +46,14 @@ Role required: sn\_se.scan\_engine\_exception\_approver
     -   Is this a pre-existing issue with a remediation plan?
     -   Is the risk acceptable for your use case?
     -   Does the exception reason align with your organization's governance standards?
-5.  Select **Approve/reject exception** to open the approval modal.
+6.  Select **Approve/reject exception** to open the approval modal.
 
-    \[Omitted image "image.view-exception-reason-approve-reject"\] Alt text: The exception approval modal showing the definition, description, and exception reason with Approve and Reject buttons.
-
-6.  Choose your decision:
+    \[Omitted image "se-view-exception-reason.png"\] Alt text: The exception approval modal showing the definition, description, and exception reason with Approve and Reject buttons.
 
     |Decision|Action|
     |--------|------|
     |**Approve**|The exception is granted. The finding is excluded from technical debt calculations and no longer blocks form submission. The finding card displays the Approved badge with the approval date.|
     |**Reject**|The exception is denied. The developer receives notification and can submit a new exception request with different rationale or work to resolve the finding. The finding card displays the Rejected badge.|
-
-7.  Select your decision button.
 
     The exception request is processed and the developer receives notification of your decision. If approved, the finding is immediately excluded from technical debt calculations. The finding card updates to display the Approved or Rejected badge with the decision date.
 

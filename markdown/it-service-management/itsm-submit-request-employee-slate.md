@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-submit-request-employee-slate.html
 release: australia
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Employee experience in Employee Slate, Simplified IT Service Management, IT Service Management]
+breadcrumb: [Employee experience in Employee Slate, Employee experience, Simplified IT Service Management, IT Service Management]
 ---
 
 # Submit a catalog request in Employee Slate

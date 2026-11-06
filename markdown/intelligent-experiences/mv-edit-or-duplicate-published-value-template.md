@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mv-edit-or-duplicate-published-value-template.html
 release: australia
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Value, Configure, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
+breadcrumb: [Value, Configure, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Edit a published value template
@@ -75,7 +75,7 @@ Draft
 
         When you add an AI system, the AI Control Tower starts calculating value for it against this template.
 
-    2.  To remove the mapping, select \[Omitted image "ad-delete-icon.png"\] Alt text: Delete icon beside the AI system type that you want to delete.
+    2.  To remove the mapping, select \[Omitted image "image.ad-delete-icon"\] Alt text: Delete icon beside the AI system type that you want to delete.
 
         Each deployed AI system must have a published template so that value calculation continues. When you map the AI system to another published template, the AI Control Tower retires the earlier mapping. A message explains this when you try to remove the only mapping.
 

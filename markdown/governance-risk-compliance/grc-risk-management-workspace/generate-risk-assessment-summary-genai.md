@@ -1,32 +1,32 @@
 ---
 title: Generate an AI risk assessment summary
-description: Generate an AI risk assessment summary that is based on your inherent risks, residual risks, target risks, and control effectiveness data by using the ServiceNow Otto for IRM application. Your approvers get the key insights to understand the context quickly, and you reduce the time involved in creating summaries manually.
+description: Generate an AI risk assessment summary based on your inherent risks, residual risks, target risks, and control effectiveness data by using the ServiceNow Otto for IRM application. Approvers get key insights to understand the context quickly, and you spend less time creating summaries manually.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/grc-risk-management-workspace/generate-risk-assessment-summary-genai.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [AI in Risk Management, Explore, Risk Management, Governance, Risk, and Compliance]
 ---
 
 # Generate an AI risk assessment summary
 
-Generate an AI risk assessment summary that is based on your inherent risks, residual risks, target risks, and control effectiveness data by using the ServiceNow Otto for IRM application. Your approvers get the key insights to understand the context quickly, and you reduce the time involved in creating summaries manually.
+Generate an AI risk assessment summary based on your inherent risks, residual risks, target risks, and control effectiveness data by using the ServiceNow Otto for IRM application. Approvers get key insights to understand the context quickly, and you spend less time creating summaries manually.
 
 ## Before you begin
 
-Install the ServiceNow Otto for IRM application to generate a risk assessment summary. For more information, see [ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/now-assist-for-irm.md).
+The ServiceNow Otto for IRM application must be installed to generate a risk assessment summary. For more information, see [ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/now-assist-for-irm.md).
 
-**Note:** The Risk Assessment Summarization skill is activated by default, unless you manually deactivate it. For more information, see [Activate AI skills in ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/activate-na-skills-in-irm.md).
+**Note:** The Risk Assessment Summarization skill is activated by default, unless you manually deactivate it. For more information, see [Activate Now Assist skills in ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/activate-na-skills-in-irm.md).
 
 Role required: The sn\_grc\_sharegenai.risk\_asmt\_user role must be assigned manually to the assessor \(sn\_risk\_advanced.ara\_assessor\) and approver \(sn\_risk\_advanced.ara\_approver\) roles to generate the risk assessment summary.
 
 ## About this task
 
-Assessor can generate the risk assessment summary and save the summary in the **Risk assessment summary field** only when they are submitting the assessment. After submission, both assessors and approvers can generate the summary and share it in the work notes. You can also summarize the assessment for object based assessments.
+An assessor can generate the risk assessment summary and save the summary in the **Risk assessment summary** field only when they are submitting the assessment. After submission, both assessors and approvers can generate the summary and share it in the work notes. You can also summarize the assessment for object-based assessments.
 
 **Note:** This feature is available only on the Risk Workspace.
 
@@ -34,13 +34,13 @@ Assessor can generate the risk assessment summary and save the summary in the **
 
 1.  Navigate to **All** &gt; **Risk** &gt; **Risk Workspace** &gt; **My tasks**.
 
-2.  Open the risk assessment that you want to create the risk assessment summary for.
+2.  Open the risk assessment for which you need to create a summary.
 
 3.  Generate a risk assessment summary from the risk assessment landing page by selecting **Summarize**.
 
     \[Omitted image "risk-assessment-summary-landing-page-genai.png"\] Alt text: Generate risk assessment summary button on the risk assessment landing page.
 
-4.  Generate a risk assessment summary while submitting the assessment by selecting the generate summary \[Omitted image "risk-assessment-summarization-icon.png"\] Alt text: Summarize button on the risk assessment landing page. icon.
+4.  Generate a risk assessment summary while submitting the assessment by selecting the generate summary \[Omitted image "risk-assessment-summarization-icon.png"\] Alt text: icon.
 
     \[Omitted image "risk-assessment-summary-submit-assessment-genai.png"\] Alt text: Generate risk assessment summary button on the submit an assessment dialog box.
 

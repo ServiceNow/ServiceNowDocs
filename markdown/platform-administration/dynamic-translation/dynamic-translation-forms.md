@@ -7,7 +7,7 @@ release: australia
 product: Dynamic Translation
 classification: dynamic-translation
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Translating with Dynamic Translation, Dynamic Translation, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -28,12 +28,12 @@ You can enable dynamic translation in activity streams on the ServiceNow AI Plat
 
 Use the dynamic translation properties to enable or prevent the option for dynamic translation in the activity stream of the tables you list. When enabled, select the translate icon \(\[Omitted image "Translation.png"\] Alt text: Translate icon\) to show or hide the translated content for each comment or work note in the activity stream. For more information, see [Dynamic Translation properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/dynamic-translation/dynamic-translation-properties.md).
 
-## Length limitations for translation service providers
+## Length limitations for machine translation service providers
 
-The following are the length limitations for translation service providers:
+The following are the length limitations for some translation service providers. If you use a different third-party provider, check that provider's documentation.
 
--   For Google, the recommended maximum length of each request is 5,000 characters. The maximum size of the input text cannot exceed 30,000 code points. For more information, see the [Google Documentation](https://cloud.google.com/translate/quotas).
--   For Microsoft, the input text for translation cannot have more than 50,000 characters including spaces. The input text for detection also has a maximum of limit of 50,000 characters. For more information, see the [Microsoft Documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/translator/request-limits#character-and-array-limits-per-request).
+-   For Google, the recommended maximum length of each request is 5,000 characters. The maximum size of the input text can't exceed 30,000 code points. For more information, see the [Google Documentation](https://cloud.google.com/translate/quotas).
+-   For Microsoft, the input text for translation can't have more than 50,000 characters including spaces. The input text for detection also has a maximum of limit of 50,000 characters. For more information, see the [Microsoft Documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/translator/request-limits#character-and-array-limits-per-request).
 
 **Note:** Starting with the Rome release, you can use Dynamic Translation without the snc-internal role.
 

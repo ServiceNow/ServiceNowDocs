@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/edit-kb-ref-cbs.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [edit knowledge base form, Core Business Suite, field descriptions, knowledge base configuration]
 breadcrumb: [Reference, Core Business Suite]

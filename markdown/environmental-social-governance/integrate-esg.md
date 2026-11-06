@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/integrate-esg.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -28,11 +28,13 @@ The following image shows the Operational Sustainability Management home page wi
 
 \[Omitted image "esg-homepage-with-ppm.png"\] Alt text: Operational Sustainability Management home page with programs and projects.
 
+After you integrate with Project Portfolio Management, you can see the Programs/Projects list on the Goal form. \[Omitted image "goals-form-with-ppm.png"\] Alt text: Goals form with PPM integration.
+
 ## Integration with IRM
 
 If you integrate Operational Sustainability Management with IRM, you can add risks, risk statements, policies, control objectives, and issues to your goals. For example, if you add a policy to your goal, then all the related control objectives and controls get associated with this goal. This integration helps you to identify and assess the risks that pose threats to your goals.
 
-**Note:** As an ESG user, you're not required to create policies. The policies are created by the IRM administrators. You only need to associate the policies to your goals.
+**Note:** As an ESG user, you are not required to create policies. The policies are created by the IRM administrators. You only need to associate the policies to your goals.
 
 After you integrate with IRM, the Goal form lists additional options.\[Omitted image "goals-form-with-risk-intg.png"\] Alt text: Goals form with IRM integration.
 

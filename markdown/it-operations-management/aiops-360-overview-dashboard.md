@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/aiops-360-overview-dashboard.html
 release: australia
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 4
 breadcrumb: [AIOps Dashboards in SOW for ITOM, ITOM AIOps, IT Operations Management]
 ---
@@ -161,7 +161,7 @@ Resolution types by assignment groups
 Closure reasons by top assignment groups, highlighting automation closures \(within 10 minutes of execution\) to encourage quick resolution, and time threshold closures \(after the auto-close interval\), which indicate unattended alerts.You should consider the number of alerts that are automatically closed when they reach their time limit. This figure can reveal if your team is unable to resolve or close all alerts, leaving some unaddressed.
 
 </td></tr></tbody>
-</table>**Note:** If you're starting with Australia, some charts, graphs, or metrics in the dashboard may appear blank or show limited data. This is expected if there's no historical data or only a few weeks or months of data available. As your system continues to collect and process alerts, the dashboard will populate with more complete insights over time.
+</table>**Note:** If you're starting with Brazil, some charts, graphs, or metrics in the dashboard may appear blank or show limited data. This is expected if there's no historical data or only a few weeks or months of data available. As your system continues to collect and process alerts, the dashboard will populate with more complete insights over time.
 
 If you want to know about funnel visualization, see [Create a funnel visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/create-funnel-visualization.md).
 

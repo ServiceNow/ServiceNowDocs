@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create blackout and maintenance schedules in Change Management, Conflict detection, Configure, Change Management, IT Service Management]
 ---
@@ -30,7 +30,7 @@ When the configuration item with an assigned maintenance schedule is used in the
 
 2.  From the list of servers, select the server that you want to add the maintenance schedule to.
 
-    **Note:** If you don't see the **Maintenance schedule** field on the record, click the personalize list icon \( \[Omitted image "gearicon.png"\] Alt text: personalize list\) and modify the Personalize List settings to add this field.
+    **Note:** If you don't see the **Maintenance schedule** field on the record, select the personalize list icon \( \[Omitted image "gearicon.png"\] Alt text: personalize list\) and modify the Personalize List settings to add this field.
 
 3.  Double-click the **Maintenance schedule** field and use the search icon to select a schedule and assign it to the server.
 

@@ -1,17 +1,17 @@
 ---
-title: Export a data visualization from the Visualization Designer
+title: Export a Platform Analytics data visualization
 description: Export individual data visualizations to various formats and sizes. Download the exports or share them over email.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/export-visualization-vd.html
 release: australia
 topic_type: task
-last_updated: "2026-03-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Export a visualization, Export a report, Export a visualization to PDF, Export a visualization to PNG, Export a visualization to JPEG, Export a list visualization to Excel]
 breadcrumb: [Share, edit, or delete, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
-# Export a data visualization from the Visualization Designer
+# Export a Platform Analytics data visualization
 
 Export individual data visualizations to various formats and sizes. Download the exports or share them over email.
 
@@ -23,11 +23,10 @@ Role required: You can export any visualization that you created or that was sha
 
 Not all visualizations support all output types. Some export options shown in the UI for a visualization may not be valid. Consult the following table.
 
-|Type of Data visualization|Supported Data visualization export formats|
-|--------------------------|-------------------------------------------|
-|Calendar reports, Indicator scorecards, Geomap|None|
-|Pivot tables|PowerPoint, PDF, PNG, JPEG, Embedded PNG|
-|Lists|PDF, Microsoft Excel \(.xls or .xlsx\), CSV|
+| |Supported data visualization export formats|
+|---|-------------------------------------------|
+|Calendar reports, Indicator scorecards, Pivot tables, Geomap|None|
+|Lists|PDF, Microsoft Excel \(.xls or .xlsx\), Embedded LIST, CSV|
 |Other data visualizations|PowerPoint, PDF, PNG, JPEG, Embedded PNG|
 |Non-data visualization dashboard elements, like Headings|Not applicable|
 
@@ -71,7 +70,7 @@ Page format
 
 </td><td>
 
-For PDF, PNG, Embedded PNG, and JPEG, select Letter, A4, or A3 to correspond to the paper dimensions of the printed visualization.You cannot set the page format when exporting a List.
+For PDF, PNG, Embedded PNG, and JPEG, select Letter, A4, or A3 to correspond to the paper dimensions of the printed visualization.You can't set the page format when exporting a List.
 
 </td></tr><tr><td>
 

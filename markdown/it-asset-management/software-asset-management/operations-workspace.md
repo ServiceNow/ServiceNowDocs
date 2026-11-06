@@ -7,16 +7,16 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 19
-breadcrumb: [Software Asset Workspace, Explore, Software Asset Management, IT Asset Management, Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 18
+breadcrumb: [Software Asset Workspace, Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # License operations view
 
 Use the License operations view in Software Asset Workspace to manage software asset operations.
 
-The operations on the License operation view include license management, administration,contracts, discovery, client access, resource value, user subscriptions, content suggestions, cloud cost simulation, and SAM implementation. The application specific operations include IBM ASP, IBM ILMT V2 integrations, and engineering apps integrations.
+The operations on the License operations view include license management, administration, contracts, discovery, client access, resource value, user subscriptions, content suggestions, cloud cost simulation, and SAM implementation. The application specific operations include IBM ASP, IBM ILMT V2 integrations, and engineering apps integrations.
 
 Access the License operations view by navigating to **Software Asset Workspace** &gt; **License operations**.
 
@@ -55,10 +55,6 @@ The License operations view includes the following categories:
 
         View the product install condition that accounts for all software model installations for a product during reconciliation. These installation conditions are applicable for the software product and all its components. For example, if you have purchased Microsoft Visual Studio, set  up product installation conditions for using Visual Studio only to consume licenses in your non-production  environment. These same conditions then apply across all software models under Visual Studio, including downgrades and  editions. For more information, see [Create product install conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-product-install-condition.md).
 
-    -   **Software installs**
-
-        View the details of software installation such as discovery model, publisher, and reconciliation details. The list view also shows the total number of software installation records for your organization. For more information, see [Software installation fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-installation-fields.md).
-
 -   **Administration**
     -   **Reclamation rules**
 
@@ -66,12 +62,12 @@ The License operations view includes the following categories:
 
     -   **Deduplication rules**
 
-        View the details of software deduplication rules that are created to define how duplicate software installations are identified and matched within your organization. For more information, see .
+        View the details of software deduplication rules that are created to define how duplicate software installations are identified and matched within your organization. For more information, see [Software install deduplication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/deduplication-rule.md).
 
 -   **Reclamation**
     -   **Removal candidates**
 
-        View a list of all removal candidates. Removal candidates are used to reclaim software installations that aren’t being used. You can also create removal candidates. For more details, see [Create a software removal candidate in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/add-sw-removal-workspace.md).
+        View a list of all removal candidates. Removal candidates are used to reclaim software installations and subscriptions that aren’t being used. You can also create removal candidates. For more details, see [Create a software removal candidate in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/add-sw-removal-workspace.md).
 
     -   **Reclamation summary**
 

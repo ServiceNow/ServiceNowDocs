@@ -7,9 +7,9 @@ release: australia
 product: Value Library
 classification: value-library
 topic_type: task
-last_updated: "2026-07-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Product value, Value management, Using Impact, Impact]
+breadcrumb: [Product value, Value Management, Impact reference, Impact]
 ---
 
 # View outcome performance on the product value dashboard

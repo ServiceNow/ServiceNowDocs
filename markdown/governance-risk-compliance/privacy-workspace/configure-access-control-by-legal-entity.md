@@ -7,7 +7,7 @@ release: australia
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2025-11-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Access control by legal entity, Use, Privacy Management, Governance, Risk, and Compliance]
 ---

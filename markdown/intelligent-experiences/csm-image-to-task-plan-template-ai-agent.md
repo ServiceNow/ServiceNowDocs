@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experienc
 release: australia
 topic_type: reference
 last_updated: "2026-06-01"
-reading_time_minutes: 2
-breadcrumb: [Customer Service Management AI agents, Customer Service Management, AI agents library, AI assets, Enable AI experiences]
+reading_time_minutes: 1
+breadcrumb: [Customer Service Management AI agents, Customer Service Management, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Image to task plan template AI agent

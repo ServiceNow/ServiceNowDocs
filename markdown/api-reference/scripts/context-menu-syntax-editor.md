@@ -7,9 +7,9 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the JavaScript syntax editor, JavaScript syntax editor, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Using the JavaScript syntax editor, JavaScript syntax editor, Explore, Scripting, API implementation, API implementation and reference]
 ---
 
 # Context menu in the syntax editor

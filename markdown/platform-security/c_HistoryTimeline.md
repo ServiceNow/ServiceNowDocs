@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/c\_HistoryTimeline.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Knowing about History sets, Auditing]
 ---
@@ -22,9 +22,9 @@ CI changes are represented by bubbles in different shapes and colors along the t
 
 A change to a relationship is considered valid only if it was applied through change management. If the change was applied via the Proposed Changes framework, it is valid. For additional validation steps, see [Create or edit a planned validation script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ProposedChanges.md).
 
-\[Omitted image "TimelineDashboard.png"\] Alt text: History timeline view
+\[Omitted image "TimelineDashboard.png"\] Alt text:
 
-\[Omitted image "TimelineBubbles.png"\] Alt text: Timeline bubbles
+\[Omitted image "TimelineBubbles.png"\] Alt text:
 
 **Note:** Proposed changes that do not have a planned start date are placed at future points of time.
 

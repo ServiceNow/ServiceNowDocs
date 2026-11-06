@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/partner-workspace.html
 release: australia
 topic_type: concept
-last_updated: "2026-10-09"
-reading_time_minutes: 2
+last_updated: "2026-11-06"
+reading_time_minutes: 1
 breadcrumb: [Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
 
@@ -22,28 +22,17 @@ You can perform the following actions using the workspace.
 
 |Task|Description|
 |----|-----------|
-|[Create Channel Partner record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-channel-partner-record.md)|Create and track channel partner records on workspace to manage and store all information related to the channel partners.|
-|[View Channel Partner information on partner workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/view-channel-partner-information-on-partner-workspace.md)|View all the details, cases, and other entities associated with a channel partner.|
-|[Create Partner Programs on the CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-partner-programs-on-workspace.md)|Enable channel partners to create Partner Programs on the workspace.|
-|[Create Partnerships on the CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-partnerships-on-workspace.md)|Establish a relationship between channel partners and partner programs on the workspace.|
-
--   **[Create Channel Partner record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-channel-partner-record.md)**  
-Create and track channel partner records on the partner workspace to manage and store all information related to the channel partners.
--   **[Create Partner Programs on the CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-partner-programs-on-workspace.md)**  
-Enable channel partners to participate in structured initiatives designed to drive revenue, enhance market reach, and build customer relationships by creating partner programs on the workspace.
--   **[Create Partnerships on the CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-partnerships-on-workspace.md)**  
-With the Partner Relationship Management application, you can establish a relationship between channel partners and partner programs on the workspace.
--   **[Create cases for channel partners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-cases-for-channel-partners.md)**  
-Create customer service cases for channel partners to manage customer queries and offer resolution.
--   **[Update deal registration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/update-deal-registration-record.md)**  
-Create a deal registration record or perform actions on an existing record in the CRM Workspace, including submitting for approval and managing post-approval actions.
+||Create and track channel partner records on workspace to manage and store all information related to the channel partners.|
+||View all the details, cases, and other entities associated with a channel partner.|
+||Enable channel partners to create Partner Programs on the workspace.|
+||Establish a relationship between channel partners and partner programs on the workspace.|
 
 **Parent Topic:**[Configure Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configure-partner-relationship-management.md)
 
 **Related topics**  
 
 
-[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/partner-relationship-management.md)
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/partner-relationship-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/partner-relationship-management.md)
 
-[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-partner-relationship-management.md)
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-partner-relationship-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-partner-relationship-management.md)
 

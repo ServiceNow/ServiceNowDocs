@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/unified-security-exposure-management-reference.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Unified Security Exposure Management, Security Operations]
 ---
@@ -14,8 +14,6 @@ breadcrumb: [Unified Security Exposure Management, Security Operations]
 
 Reference topic contains information about tables, roles, scheduled jobs and properties installed with the Unified Security Exposure Management application. It also includes additional references.
 
--   **[ServiceNow Otto for Unified Security Exposure Management reference information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/now-assist-vulnerability-response-reference.md)**  
-Tools, agents, and AI agent collection information for ServiceNow Otto for Unified Security Exposure Management.
 -   **[Security Exposure Management Workspace Components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-components-installed.md)**  
 When you activate the Unified Security Exposure Management \(USEM\) and Security Exposure Management Workspace applications, the system installs specific key components including tables, user roles, and scheduled jobs to support the operations required for assessing and managing security exposures.
 -   **[Security Exposure Management Knowledge Base articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-kb-list.md)**  
@@ -26,4 +24,10 @@ Lists and tables of scheduled jobs, table deprecations, and new columns added to
 List of roles installed with Security Exposure Management, defining user permissions and access for Security Exposure Management-related tasks.
 -   **[Visualization widget fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-vis-widget-fields.md)**  
 Use this reference to understand the fields available on the Visualization widget form. These fields define how the widget appears, behaves, and groups data.
+-   **[Exception questionnaire scenarios for vulnerable items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-exception-ques-scenarios.md)**  
+The questionnaire displayed when a user requests an exception on a vulnerability item depends on which questionnaires are configured in the exception management record and which request type is selected.
+-   **[Target tables for scanner integrations in unified exposure pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/uep-scanners-target-tables.md)**  
+For scanners configured using unified exposure pipeline, provides information about the impacted target tables in Unified Security Exposure Management \(USEM\).
+-   **[Security asset fields for asset types in unified exposure pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/uep-asset-types-labels.md)**  
+Provides information about security asset fields added for various asset types in the unified exposure pipeline.
 

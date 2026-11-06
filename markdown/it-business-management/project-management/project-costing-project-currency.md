@@ -7,7 +7,7 @@ release: australia
 product: Project Management
 classification: project-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Multicurrency fields in project-related forms, Project Management reference, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -42,8 +42,8 @@ True
 
 If the property is set to True, then you can:1.  Associate a sub-project to a parent project, where both the projects have different project currencies.
 2.  Roll up the sub-project amounts to the parent project amounts. However, the accuracy of the rolled up amount in the parent project varies because of the currency variation.
-    -   If the project currencies of the parent project and the sub-project are the same, then the project currency amounts from the sub-projects to its parent and the top project are rolled up by adding up the amounts in the sub-project, and the rolled up amount is accurate.
-    -   If the project currencies of the parent project and the sub-project are different, then all the costs of the sub-projects are converted to the project currency of the parent or the top project, referencing the Budget Reference Rate. The rate at which the amount is converted depends on the exchange rates between the project currencies, and the specified time period at which the conversion is made. Hence, the rolled up amount is only an estimate or an approximate value.
+    -   When parent and sub-project currencies match, sub-project amounts roll up to the parent and top project by addition, giving an accurate rolled-up amount.
+    -   If the parent project and sub-project have different project currencies, all sub-project costs are converted to the project currency of the parent or top project. The conversion references the Budget Reference Rate. The conversion rate depends on the exchange rates between the project currencies and the specified time period at which the conversion is made. As a result, the rolled-up amount is only an estimate or an approximate value.
 
 </td></tr><tr><td>
 
@@ -89,7 +89,7 @@ Either true or false
 
 </td><td>
 
-Can associate sub-project to parent project even though project currency of sub-project and parent project is different but costs from sub-project to parent project cannot be rolled up.
+Can associate sub-project to parent project even though project currency of sub-project and parent project is different but costs from sub-project to parent project can't be rolled up.
 
 </td></tr><tr><td>
 
@@ -101,7 +101,8 @@ False
 
 </td><td>
 
-Cannot associate sub-project to parent project if project currency of the sub-project and parent project is different.In such case of an association, an error message: `System policy does not allow parent and child projects to have different project currency` pops up.
+Can't associate sub-project to parent project if project currency of the sub-project and parent project is different.In such case of an association, an error message: `System policy does not allow parent and child projects to have different project currency` pops up.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Multicurrency fields in project-related forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/multicurrency-fields-project-form.md)
+

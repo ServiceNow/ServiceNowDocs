@@ -7,7 +7,7 @@ release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [AI extraction, Import Intelligence, Threat Intelligence Security Center]
 breadcrumb: [Import Intelligence in TISC, Use, Threat Intelligence Security Center, Security Operations]
@@ -127,7 +127,7 @@ Select the taxonomy for the imported data. For more information, see [Creating T
 
     \[Omitted image "tisc-import-assistant-review.png"\] Alt text: TISC AI Import Assistant Review Screen
 
-    The extracted entities are displayed on the review screen.
+    The extracted entities are displayed on the review screen. If no threat entities are found in the document, the message `No threat entities were found in the provided content.` is displayed.
 
 8.  Review the extracted entities before submission.
 
@@ -154,7 +154,7 @@ Select the taxonomy for the imported data. For more information, see [Creating T
 
     The record displays the processed status once the submission is successful.
 
-13. Select **Go Back** to return to the previous page, or select **Cancel** to abort the import.
+13. Select **Go back** to return to the previous page, or select **Cancel** to abort the import.
 
 
 -   **[AI extraction supported entities and fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-ai-extraction-fields.md)**  

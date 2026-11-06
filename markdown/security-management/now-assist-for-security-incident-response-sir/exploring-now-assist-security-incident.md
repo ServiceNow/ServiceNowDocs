@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [ServiceNow Otto for Security Incident Response \(SIR\), Security Operations]
 ---

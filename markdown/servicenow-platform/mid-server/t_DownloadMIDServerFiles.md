@@ -7,9 +7,9 @@ release: australia
 product: MID Server
 classification: mid-server
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Installing the MID Server with manual or guided setup, Installing the MID Server, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Installing the MID Server, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Download the MID Server files
@@ -38,9 +38,11 @@ A maint user can change the MID Server download site URL with the MID Server sys
 
 ## Procedure
 
-1.  On the ServiceNow instance, navigate to **Mid Server** &gt; **Downloads**.
+1.  On the ServiceNow instance, navigate to **All** &gt; **ITOM Infra Services Workspace**.
 
-2.  Select and download the MID Server for the appropriate operating system.
+2.  On the **MID Servers** tab, select the **MID downloads** tab, and then download the MID Server for the appropriate operating system.
+
+    Alternatively, navigate to **All** &gt; **MID Server** &gt; **Downloads**, and then select and download the MID Server.
 
     For the best performance, install the 64-bit MID Server for your operating system.
 
@@ -55,7 +57,7 @@ A maint user can change the MID Server download site URL with the MID Server sys
 
     \[Omitted image "MIDServerDownloadMatrix.png"\] Alt text: MID Server downloads
 
-3.  Save the download file to a temporary file on the local drive.
+3.  Save the downloaded file to a temporary location on your local drive.
 
 4.  Move the file into the designated MID Server folder you create for your operating system and run the installer from that location.
 

@@ -7,7 +7,7 @@ release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [GitLab, Integrate, DevOps Change Velocity, IT Service Management]
 ---

@@ -7,7 +7,7 @@ release: australia
 product: Remote Tables
 classification: remote-tables
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Remote tables, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -83,7 +83,7 @@ Option to designate this table as a remote table. A remote table is a table to w
 
 6.  In the Application Access section, define the scope protection for the remote table like you do when you define additional table options for a normal table.
 
-    For more information, see [Application access settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationAccessSettings.md).
+    For more information, see Application access settings.
 
 7.  Select **Submit**.
 

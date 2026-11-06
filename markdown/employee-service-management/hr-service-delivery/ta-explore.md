@@ -7,9 +7,8 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-keywords: [Talent Acquisition overview, hiring journey, talent portal, retain talent, hiring automation, hiring experiences]
 breadcrumb: [Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
 
@@ -32,6 +31,8 @@ Applicants feel connected and engaged through a password-free login and a person
 ## Applications in the Hiring Experiences suite
 
 The Hiring Experiences suite consists of the following applications that work together to streamline and enhance the hiring process.
+
+**Important:** The Hiring Experiences suite is available with the HR Service Delivery Professional and Enterprise licenses.
 
 | | |
 |---|---|

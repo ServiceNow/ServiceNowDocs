@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/migrate-data-rpa-hub.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 keywords: [bot process configuration update set rpa hub, update set bot process configuration rpa hub]
 breadcrumb: [Migrate data, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
@@ -27,7 +27,7 @@ There are two ways you can migrate your data from a lower environment to a highe
 
 For more information about the restructuring of the RPA Hub tables, see [Restructuring RPA Hub tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/restructured-rpa-hub-tables-utah.md).
 
-For more information about update sets, see Get started with update sets.
+For more information about update sets, see [Get started with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/get-started-update-sets.md).
 
 ## Functionality
 
@@ -59,7 +59,7 @@ Environment
 
 </th></tr></thead><tbody><tr><td>
 
-1. Create and select an update set as the current set.
+1. [Create and select an update set as the current set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-select-update-set.md).
 
 </td><td>
 
@@ -83,7 +83,7 @@ Lower \(non-production\) environment
 
 </td></tr><tr><td>
 
-4. Mark your current update set complete.
+4. [Mark your current update set complete](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/t_CompleteUpdateSets.md).
 
 </td><td>
 
@@ -91,7 +91,7 @@ Lower \(non-production\) environment
 
 </td></tr><tr><td>
 
-5. Export to XML.
+5. [Export to XML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/t_SaveAnUpdateSetAsAnXMLFile.md).
 
 </td><td>
 
@@ -109,7 +109,7 @@ Lower \(non-production\) environment
 
 </td></tr><tr><td>
 
-7. Switch to higher instance. Retrieve an update set.
+7. Switch to higher instance. [Retrieve an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/t_RetrieveAnUpdateSet.md).
 
 </td><td>
 

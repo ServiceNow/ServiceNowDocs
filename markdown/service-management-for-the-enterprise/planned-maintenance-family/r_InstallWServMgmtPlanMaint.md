@@ -7,7 +7,7 @@ release: australia
 product: Planned Maintenance \(Family\)
 classification: planned-maintenance-family
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Activate Planned Maintenance, Planned Maintenance, Service Management]
 ---

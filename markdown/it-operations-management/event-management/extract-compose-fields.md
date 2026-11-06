@@ -1,20 +1,20 @@
 ---
-title: Extracting and composing alert fields
-description: Extracting and composing are ways to manage what you see in the alert output, making it simpler to filter, group, and read. Alert automation enables you to extract values from event payload's alert field and place it in an alert output field. Composing allows you to merge multiple alert fields into a single output field.
+title: Alert field extraction, composition, and value mapping
+description: Enrich automations let you extract values from event payload fields, combine multiple alert fields into a single output field, and map existing alert field values to new values. These actions help standardize alert data for filtering, grouping, and analysis.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/extract-compose-fields.html
 release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-11-01"
+reading_time_minutes: 5
 breadcrumb: [Create Enrich automation, Alert automation in SOW for ITOM, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
-# Extracting and composing alert fields
+# Alert field extraction, composition, and value mapping
 
-Extracting and composing are ways to manage what you see in the alert output, making it simpler to filter, group, and read. Alert automation enables you to extract values from event payload's alert field and place it in an alert output field. Composing allows you to merge multiple alert fields into a single output field.
+Enrich automations let you extract values from event payload fields, combine multiple alert fields into a single output field, and map existing alert field values to new values. These actions help standardize alert data for filtering, grouping, and analysis.
 
 ## Extracting alert fields
 
@@ -73,4 +73,12 @@ Suppose you want to have two input fields that compose data and display it in tw
         Alert fields are displayed in the `${field}` syntax format. You can also select the field name from the drop-down box, and the syntax will be added automatically.
 
     2.  **Alert output**: Select an existing alert field where you want to display the values from the input fields. For instance, select **Description**.
+
+## Changing alert values
+
+Use the **Change alert values** action to map existing alert field values to new values. This action helps standardize data received from different monitoring tools for consistent filtering and grouping.
+
+For example, you can map the **Severity** field value `DOWN` to `2` and `UP` to `5`. The specified replacement values are applied when the enrichment automation runs.
+
+For instructions on configuring value mappings, see [Create Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/enrich-alert-sow-itom.md).
 

@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [create an audit record]
 breadcrumb: [Manage enterprise asset inventory audit using the ServiceNow Agent app, Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, Asset Management]
@@ -29,15 +29,15 @@ Role required: sn\_eam.enterprise\_admin, sn\_eam.enterprise\_asset\_manager, sn
 
 3.  Select the audit that you want to perform.
 
-<table id="choicetable_bpk_mvc_whc"><thead><tr><th align="left" id="d59602e78">
+<table id="choicetable_bpk_mvc_whc"><thead><tr><th align="left" id="d60473e78">
 
 Audit type
 
-</th><th align="left" id="d59602e81">
+</th><th align="left" id="d60473e81">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d59602e87">
+</th></tr></thead><tbody><tr><td id="d60473e87">
 
 **To perform stockroom audits**
 
@@ -48,7 +48,7 @@ Action
 3.  Tap **New stockroom audit**.
 
 
-</td></tr><tr><td id="d59602e116">
+</td></tr><tr><td id="d60473e116">
 
 **To perform location audits**
 

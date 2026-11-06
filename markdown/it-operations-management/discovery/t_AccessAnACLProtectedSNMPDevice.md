@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Discovery behaviors, Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -22,13 +22,13 @@ Role required: discovery\_admin or admin
 
 ## About this task
 
-A specific type of Access Control List \(ACL\) on an SNMP device can prevent Discovery from identifying that device. This list defines host machines by IP addresses that are permitted to run agents on SNMP devices. In this example, we want to classify, identify, and update all the devices in an IP range, including the SNMP devices protected by an ACL. To do this, install a MID Server with access to the protected SNMP devices. Then create a Behavior that allows you to scan for all protocols without missing any devices or doing extra work.
+A specific type of Access Control List \(ACL\) on an SNMP device can prevent Discovery from identifying that device. This list defines host machines by IP addresses that are permitted to run agents on SNMP devices. In this example, we want to classify, identify, and update all the devices in an IP range, including the SNMP devices protected by an ACL. To do this, install a MID Server with access to the protected SNMP devices. Then create a Behavior that scans for all protocols without missing devices or doing extra work.
 
 ## Procedure
 
 1.  Install a MID Server on a host permitted by the ACL.
 
-    To scan SNMP devices in a network protected by an ACL, install a MID Server on a host machine specified in the ACL. The ACL must grant the host IP address access to the SNMP devices. Because this MID Server scans SNMP devices only, it can be installed on any supported operating system. The other MID Server, configured to discover WMI and SSH, can be installed on any Windows host that has visibility to the specified IP ranges.
+    To scan the SNMP devices in a network protected by an ACL, install a MID Server on a host machine specified in the ACL. The ACL must list the host's IP address as having access to the SNMP devices. Because this MID Server scans SNMP devices only, it can be installed on any supported operating system. The other MID Server, configured to discover WMI and SSH, can be installed on any Windows host that has visibility to the specified IP ranges.
 
 2.  Install additional MID Servers if you intend to configure either functionality to load balance.
 

@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure sets, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configure sets, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Modifying the Size and Change Size fields for a set
@@ -35,7 +35,7 @@ For more information about how to control the size and behavior of sets, see [Us
 **Related topics**  
 
 
-[Example: Use a custom field to dynamically control set size](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+[Example: Use a custom field to dynamically control set size](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/example-use-a-custom-field-to-dynamically-control-set-size.md)
 
 [Configure sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sets.md)
 

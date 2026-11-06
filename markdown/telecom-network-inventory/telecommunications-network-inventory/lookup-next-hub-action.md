@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Function catalog, Reference, Telecommunications Network Inventory]
 ---
@@ -56,7 +56,7 @@ The following table lists the information about the function output.
 
 -   **Use Case 1**
 
-    If the input is passed as Interface-1 of Equipment-1 as shown in the following example, the function returns empty records, because the network inventory has no physical or internal connections in the network inventory.
+    If the input is passed as Interface-1 of Equipment-1 as shown in the following example, the function returns empty records. This is because the network inventory has no physical or internal connections.
 
     \[Omitted image "cascade-action-1.png"\] Alt text: Display of use case 1 where Interface-1 is connected to Equipment-1.
 
@@ -68,9 +68,9 @@ The following table lists the information about the function output.
 
 -   **Use Case 3**
 
-    If the input is passed as Interface-1 of Equipment-1 as shown in the following example, the function returns the network interface record of Interface-2 and the physical connection record of PC-1.
+    If the input is passed as Interface-1 of Equipment-1 as shown in the following example, the function returns the network interface record of Interface-2. It also returns the physical connection record of PC-1.
 
-    \[Omitted image "cascade-action-3.png"\] Alt text: Display of use case 3 where Interface-2 and Interface-1 are connected to Equipment-1, and Interface-3 is connected to Equipment-2, and there is a physical connection between Interface 1 and 3.
+    \[Omitted image "cascade-action-3.png"\] Alt text: Diagram of use case 3 where Interface-1 and Interface-2 are connected to Equipment-1, Interface-3 is connected to Equipment-2, and a physical connection exists between Interface-1 and Interface-3.
 
 -   **Use Case 4**
 

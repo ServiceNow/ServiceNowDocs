@@ -7,7 +7,7 @@ release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-10-26"
 reading_time_minutes: 3
 breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -39,12 +39,16 @@ For details on system requirements and family compatibility, view the applicatio
 -   **Verify the applications are up to date**
     -   Discovery and Service Mapping Patterns
     -   CMDB CI Class Models
+-   **Verify the Terminal Access setting for the Discovery SSH account**
+
+    The Discovery SSH account on the F5 appliance must have **Terminal Access** set to **TMSH**.
+
 -   **Verify the configuration of F5 load balancer**
-    -   Ensure that F5 load balancer instances are up and running.
+    -   Verify that F5 load balancer instances are up and running.
     -   Make sure the host \(that has the F5 instance running on it\) can discover successfully with the Discovery user credentials.
 -   **Verify the configuration of Discovery**
 
-    Ensure that the Discovery user added in the ServiceNow AI Platform instance can run the following commands:
+    Verify that the Discovery user added in the ServiceNow AI Platform instance can run the following commands:
 
 <table id="table_h4p_1p3_2nb"><thead><tr><th>
 

@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-10-14"
 reading_time_minutes: 3
 breadcrumb: [Serverless Discovery, Running discoveries in your network, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -28,7 +28,7 @@ In the pattern, you must specify input parameters to explore the CI.
 
 1.  Navigate to **All** &gt; **Pattern Designer** &gt; **Discovery Patterns**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  Specify an **Infrastructure** type pattern with the correct CI type that applies to the CIs you want to discover.
 
@@ -36,25 +36,25 @@ In the pattern, you must specify input parameters to explore the CI.
 
 4.  Create an identification section and save the pattern.
 
-5.  Click the **Input Parameters** tab, and then click **New**.
+5.  Select the **Input Parameters** tab, and then select **New**.
 
 6.  Enter the parameters that are required to reach the serverless CIs.
 
     For example, you could enter `url` to reach a remote resource via an HTTP request.
 
-    **Note:** You specify the actual URL in a serverless discovery schedule.
+    **Note:** You specify the actual URL in the **Value** field in a serverless discovery schedule.
 
 7.  Save the pattern.
 
-8.  Click the **Basic** tab, and then click the identification section name to open the pattern designer.
+8.  Select the **Basic** tab, and then select the identification section name to open the pattern designer.
 
 9.  Create the steps you need to explore serverless CIs.
 
     For example, create an **Http Get Call** operation to reach a remote resource through a URL. In this case, you would specify the `$url` parameter in the **URL** field.
 
-10. To test the pattern, click **Debug Mode** and fill in values for the input parameters.
+10. To test the pattern, select **Debug Mode** and fill in values for the input parameters.
 
-    You do not need to enter a value for **Proxy Host**. In the this example, we are connecting to a website that serves up an XML file. The XML file parsing method is already defined in the Http Get Call operation. To test the pattern operation, click **Debug Mode**, enter the URL, and click **Connect**.
+    You don't need to enter a value for **Proxy Host**. In the this example, we are connecting to a website that serves up an XML file. The XML file parsing method is already defined in the Http Get Call operation. To test the pattern operation, select **Debug Mode**, enter the URL, and select **Connect**.
 
 11. After you connect and run the operation, the **Output** field displays the content.
 
@@ -77,15 +77,15 @@ You can reuse this schedule to run the same pattern using different parameters.
 
 1.  Navigate to **All** &gt; **Discovery** &gt; **Schedules**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  Select **Serverless** in the **Discovery** field.
 
     See [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/t_CreateADiscoverySchedule.md) for explanation of other fields.
 
-4.  Right-click the form header and select **Save**.
+4.  Select and hold \(or right-click\) the form header and select **Save**.
 
-5.  In the **Serverless Execution Pattern** related list, click **New**.
+5.  In the **Serverless Execution Pattern** related list, select **New**.
 
 6.  Fill out the form fields \(see table\):
 
@@ -96,11 +96,13 @@ You can reuse this schedule to run the same pattern using different parameters.
     |Proxy Host|Leave this field empty. This field applies to the host proxy-based scenario.|
     |Active|Keep this check box selected to use the pattern execution definition.|
 
-7.  Right-click the form header and select **Save**.
+7.  Select and hold \(or right-click\) the form header and select **Save**.
 
-8.  In the **Discovery Pattern Launcher Parameters** related list, add the parameters required by the pattern and provide a value for each one in the **Value** column.
+8.  In the **Discovery Pattern Launcher Parameters** related list, add the parameters required by the pattern and provide a value for each one in the **Value** field.
 
-9.  Click **Submit**.
+    **Note:** For a credential alias parameter, the value is the ID of the credential alias.
+
+9.  Select **Submit**.
 
 10. Define as many serverless execution pattern records as needed.
 

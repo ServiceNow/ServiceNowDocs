@@ -7,7 +7,7 @@ release: australia
 product: Resource Management
 classification: resource-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -31,7 +31,7 @@ Resource Management will not be enhanced for performance or functionality.
 
 Resource managers use the application to allocate resources to tasks. The Resource Management application can be used in conjunction with any task on the platform, including project tasks, incidents, problems, or changes.
 
-Watch this four-minute video to learn about the purpose of Resource Management application. Learn how to create resource plans, request and allocate resources, and analyze resource availability and capacity for maximum resource utilization.
+Watch this four-minute video to learn about the purpose of Resource Management application, creating resource plans, requesting and allocating resources, and analyzing resource availability and capacity for maximum resource utilization.
 
 With the Resource Management application:
 
@@ -45,7 +45,7 @@ The Resource Management application is activated as part of the [PPM Standard](h
 The resource plan is the key to understanding how resource management works.
 -   **[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/c_ResourcePlans.md)**  
 Resource plans are the key element in resource management.
--   **[Migration of resource plans and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md)**  
+-   **[Migration of resource plans, operational resource plans, and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md)**  
 Migrate resource plans to resource assignments and the associated cost plans to attribute-based labor costs of your projects or demands and easily work on resource allocations using Project Workspace.
 -   **[Create requested allocations for a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/request-allocation.md)**  
 Requested Allocations are automatically created when a resource plan is submitted and is in Planning state. If required, the resource requester can create new requested allocations for a resource plan in Planning or Rejected state. Resource managers can create requested allocations for the plans in Requested state.

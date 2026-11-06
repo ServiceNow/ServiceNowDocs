@@ -7,7 +7,7 @@ release: australia
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Inventory, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
@@ -36,8 +36,6 @@ Role required: wm\_agent
     -   Users with the asset\_audit\_user or asset\_audit\_admin role can audit all stockrooms.
     -   Space fields are displayed.
     -   Users can select any stockroom.
-
-For more information, see [Stockroom audit access by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/stockroom-audit-access-eam.md).
 
 ## Procedure
 
@@ -72,5 +70,5 @@ For more information, see [Stockroom audit access by role](https://raw.githubuse
 
 ## Result
 
-The asset audit is complete, ensuring that the assets in the technician's personal stockroom and the system are in sync.
+The asset audit is complete, enuring that the assets in the technician's personal stockroom and the system are in sync.
 

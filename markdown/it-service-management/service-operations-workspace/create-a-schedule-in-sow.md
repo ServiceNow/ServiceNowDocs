@@ -1,6 +1,6 @@
 ---
 title: Create and edit shift in Service Operations Workspace
-description: Shift manager can create a new shift using the Schedule menu or Teams menu in Service Operations Workspace
+description: A shift manager can create a shift using the Schedule menu or Teams menu in Service Operations Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/create-a-schedule-in-sow.html
 release: australia
@@ -14,16 +14,16 @@ breadcrumb: [Configuring On-Call Scheduling in Service Operations Workspace, On-
 
 # Create and edit shift in Service Operations Workspace
 
-Shift manager can create a new shift using the **Schedule** menu or **Teams** menu in Service Operations Workspace
+A shift manager can create a shift using the **Schedule** menu or **Teams** menu in Service Operations Workspace.
 
 ## About this task
 
-There are two ways to create and edit a shift:
+There are two ways to create and edit a shift for one team at a time:
 
--   Navigate to **Workspaces** &gt; **Service Operation Workspace** and select \[Omitted image "icon-sr-teams.png"\] Alt text: Teams menu. Select a team to view details and click **schedules** tab.
+-   Navigate to **Workspaces** &gt; **Service Operation Workspace** and select \[Omitted image "icon-sr-teams.png"\] Alt text: Teams menu. Select a team to view details and select the **schedules** tab.
 -   Navigate to **Workspaces** &gt; **Service Operation Workspace** and select \[Omitted image "show-schedules-icon.png"\] Alt text: Schedules menu.
 
-**Note:** This procedure creates and edits a shift for one team at a time. To associate a shift template with multiple teams or groups in one go, use the On-call Onboarding wizard. For more information, see [On-call Onboarding wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/oc-create-bulk-schedule-onboarding.md).
+**Note:** To associate a shift template with multiple teams or groups at one time, use the On-call Onboarding wizard. For more information, see [On-call Onboarding wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/oc-create-bulk-schedule-onboarding.md).
 
 ## Before you begin
 
@@ -31,7 +31,7 @@ Role required: rota\_manager, rota\_admin
 
 ## Procedure
 
-1.  On **Schedules** page, select **Create shift** and provide values for the following fields on the **Create new** shift form:
+1.  On the **Schedules** page, select **Create shift** and provide values for the following fields on the **Create new** shift form:
 
     If you select **Create new**, provide the following details and select **Create shift**: \[Omitted image "create\_shift\_schedule\_sow.png"\] Alt text: Create shift form
 
@@ -57,7 +57,7 @@ All day shift
 
 </td><td>
 
-Toggle for all day commitment.
+Toggle for all-day commitment.
 
 </td></tr><tr><td>
 
@@ -159,11 +159,11 @@ Existing schedule templates for shifts.Choices are:
 
 
 </td></tr></tbody>
-</table>    You have successfully created a new shift.
+</table>    The shift is created.
 
 2.  To edit a shift, right-click the shift card and select the icon\[Omitted image "edit-icon.png"\] Alt text: Edit shift
 
-    Shift details open up in the side panel.
+    Shift details open in the side panel.
 
 3.  From the shift details in the side panel, you can update the following shift details:
 
@@ -220,10 +220,10 @@ Update the shift details:\[Omitted image "edit\_shift\_members\_tab\_sow.png"\] 
 
 </td><td>
 
-View escalation policy and click **Open Team Record** go to the team record. \[Omitted image "edit\_shift\_escalation\_policies\_tab\_sow.png"\] Alt text: Escalation policies form
+View the escalation policy and select **Open Team Record** to go to the team record. \[Omitted image "edit\_shift\_escalation\_policies\_tab\_sow.png"\] Alt text: Escalation policies form
 
 </td></tr></tbody>
-</table>4.  After updating the shift details, click **Save &amp; publish** to save the changes.
+</table>4.  After updating the shift details, select **Save &amp; publish** to save the changes.
 
 5.  Select the \[Omitted image "icon-sr-more-actions-vertical.png"\] Alt text: More icon icon to change shift to draft mode, delete, or deactivate/activate the selected shift.
 

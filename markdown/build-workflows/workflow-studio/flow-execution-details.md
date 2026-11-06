@@ -7,9 +7,9 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
-breadcrumb: [Flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
+breadcrumb: [Explore flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Flow execution details
@@ -145,7 +145,7 @@ The following types of execution details are available.
 
 -   **Integration Metadata**
 
-    View transaction data such as connection and credential used, MID Server used, target host, and payload size. Integration Metadata is only displayed for integration steps and requires a separate Integration Hub subscription. For more information, see [Integration steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-steps.md).
+    View transaction data such as connection and credential used, MID Server used, target host, and payload size. Integration Metadata is only displayed for integration steps and requires a separate Integration Hub subscription. For more information, see Integration steps.
 
 -   **Configuration Details**
 
@@ -196,7 +196,7 @@ The calling source lists what started a flow, subflow, or action.
 |Workflow Studio Test|The flow started because someone selected the **Test** option from the Workflow Studio interface. The flow trigger conditions were ignored.|
 |CRUD Trigger|The flow started when the record-based trigger conditions were met.|
 |Date Trigger|The flow started when the schedule-based trigger conditions were met.|
-|Metric Trigger|The flow started when the MetricBase trigger conditions of a [MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase.md) were met.|
+|Metric Trigger|The flow started when the MetricBase trigger conditions of a MetricBase were met.|
 |Service Catalog Trigger|The flow started when a Service Catalog item was requested.|
 |Script|The flow started from a method call in a script, such as a business rule.|
 |Background Script|The flow started from a method call in the **Scripts - Background** module.|

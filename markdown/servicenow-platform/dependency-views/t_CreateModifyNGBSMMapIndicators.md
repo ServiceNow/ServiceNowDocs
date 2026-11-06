@@ -7,7 +7,7 @@ release: australia
 product: Dependency Views
 classification: dependency-views
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Administer, Dependency Views, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -32,7 +32,7 @@ The default configuration includes map indicators for the following record types
 
 You can filter out the display of affected CIs, alerts, current change requests, incidents and problems from the map settings menu.
 
-The Affected CI’s map indicator appears for CIs in two related but not identical situations. It appears for CIs for which tasks such as change request, incident, or problem were directly created for, and for any CIs that were added in those tasks \(parent tasks\) as Affected CIs \(The CI for which a task is directly created for, is automatically added as an affected CI in that task\). The state of affected CI’s depends on the status of the respective parent task. For as long as the parent task is active, the associated affected CIs continue to be impacted by the task issue. In a map, the Affected CI’s indicator displays for all affected CIs for as long as the parent task is active. On a map, the Affected CI tooltip displays the details of the task records in which the CI was added as an affected CI. However, the **Details** pane does not contain an Affected CI’s tab, and no further details about affected CIs, or the associated tasks are displayed. After the parent task is closed, the Affected CI’s indicator no longer displays for any of the tasks’ affected CIs. For information about affected CIs in Change Management, see [Associate CIs to a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_AffectedCIsAndImpactedServices.md).
+The Affected CI’s map indicator appears for CIs in two related but not identical situations. It appears for CIs for which tasks such as change request, incident, or problem were directly created for, and for any CIs that were added in those tasks \(parent tasks\) as Affected CIs \(The CI for which a task is directly created for, is automatically added as an affected CI in that task\). The state of affected CI’s depends on the status of the respective parent task. For as long as the parent task is active, the associated affected CIs continue to be impacted by the task issue. In a map, the Affected CI’s indicator displays for all affected CIs for as long as the parent task is active. On a map, the Affected CI tooltip displays the details of the task records in which the CI was added as an affected CI. However, the **Details** pane does not contain an Affected CI’s tab, and no further details about affected CIs, or the associated tasks are displayed. After the parent task is closed, the Affected CI’s indicator no longer displays for any of the tasks’ affected CIs. For information about affected CIs in Change Management, see Associate CIs to a change request.
 
 **Note:** Details about affected CIs are derived from the **task** and the **cmdb\_ci** tables and their extensions. Therefore, if you use custom tables to store CIs for incidents, problems and changes, it affects the details that are displayed for affected CIs.
 

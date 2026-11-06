@@ -19,7 +19,7 @@ You can install the ServiceNow Voice for CSM application \(sn\_cti\_csm\_cnt\) i
 -   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   ServiceNow Voice for CSM requires the following ServiceNow Store applications. Ensure that this application is installed before you install ServiceNow Voice for CSM.
     -   **Required ServiceNow Store applications**
-        -   **Customer Service plugin \(com.sn\_customerservice\)**
+        -   **Case Management Core plugin \(com.sn\_customerservice\)**
 
             Installs the Customer Service Management application.
 

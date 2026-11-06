@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-associate-field-with-a-blueprint.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure fields, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configure fields, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Associate a field with a blueprint
@@ -20,7 +20,7 @@ Role required: Admin
 
 ## Procedure
 
-1.  In the CPQ navigation pane, click **Blueprints**.
+1.  In the ServiceNow CPQ navigation pane, click **Blueprints**.
 
     \[Omitted image "cpq-blueprints.png"\] Alt text: Menu
 
@@ -44,5 +44,5 @@ Role required: Admin
 **Related topics**  
 
 
-[Create a field using the Administration UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+[Create a field using the Administration UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-a-field-using-the-administration-ui.md)
 

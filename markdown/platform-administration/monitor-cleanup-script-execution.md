@@ -70,5 +70,5 @@ Cleanup scripts resume execution. Monitor the **State** column to confirm script
 
 ## What to do next
 
-To persist fixes for future clones, update the cleanup script on the source instance where it is defined. See [Create cleanup scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/create-cleanup-script.md).
+To persist fixes for future clones, update the cleanup script on the source instance where it is defined. See .
 

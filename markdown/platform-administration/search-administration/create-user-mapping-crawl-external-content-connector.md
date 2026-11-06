@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-08-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Crawl, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -55,7 +55,7 @@ The Atlassian Confluence Cloud external content connector only retrieves permiss
 
 2.  In the Connectors list, select the record for the connector that you want to create a user permission crawl for.
 
-3.  In the connector editor's Create crawls tab, select **Crawl user permissions**.
+3.  In the connector editor's **Create crawls** tab, select **Crawl user permissions**.
 
     The Crawl user permissions dialog box appears, with the **User permission crawl** tile selected.
 

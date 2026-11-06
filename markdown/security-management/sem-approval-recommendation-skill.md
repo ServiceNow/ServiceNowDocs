@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-approval-recommendation-skill.html
 release: australia
 topic_type: task
-last_updated: "2026-07-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Approval recommendations using generative AI, Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -43,6 +43,4 @@ Role required: sn\_sec\_exception.approver
 
 -   **Refresh** the recommendation with the refresh icon. Refresh generates a fresh recommendation by analyzing latest data related to the request.
 -   **Provide feedback** using the thumbs up/down icons to rate the usefulness of the recommendation.
-
-**Parent Topic:**[Approval recommendations using generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/now-assist-vr-generating-approvals.md)
 

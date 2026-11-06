@@ -7,7 +7,7 @@ release: australia
 product: Digital Product Release
 classification: digital-product-release
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [Risk score calculation for a release, Risk score formula for a release, Risk score for a release, Risk score for a timeline-oriented release, Risk score for a stage-oriented release, risk score timeline release, timeline-oriented risk score, release risk calculation, risk score stage release, stage-oriented risk score, release risk calculation, risk score readiness]
 breadcrumb: [Reference, Digital Product Release, IT Service Management]

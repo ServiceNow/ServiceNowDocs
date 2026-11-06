@@ -1,15 +1,16 @@
 ---
 title: Client scripts
-description: Client scripts allow the system to run JavaScript on the client \(web browser\) when client-based events occur, such as when a form loads, after form submission, or when a field changes value.
+description: Client scripts allow the system to run JavaScript on the client \(web browser\) when client-based events occur, such as when a form loads, after form submission, or when a field changes value.Create a client script to control form behavior, respond to field changes, validate submissions, or update cell values in a list.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/scripts/client-scripts.html
 release: australia
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-05-18"
-reading_time_minutes: 4
-breadcrumb: [Client-side scripting, Scripting, API implementation, API implementation and reference]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+keywords: [client script, create client script]
+breadcrumb: [Write client-side scripts, Scripting, API implementation, API implementation and reference]
 ---
 
 # Client scripts
@@ -45,7 +46,28 @@ With the exception of onCellEdit\(\) client scripts, client scripts only apply t
 
 **Note:** Client scripts are not supported on ServiceNow mobile applications.
 
-## Client script form
+**Parent Topic:**[Writing client-side scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/client-side-scripting-overview.md)
+
+**Related topics**  
+
+
+[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/api-client.md)
+
+## Create a client script
+
+Create a client script to control form behavior, respond to field changes, validate submissions, or update cell values in a list.
+
+### Before you begin
+
+Role required: admin
+
+### Procedure
+
+1.  Navigate to **System Definition** &gt; **Client Scripts**.
+
+2.  Select **New**.
+
+3.  Complete the form.
 
 <table id="table_trz_nvg_zz"><thead><tr><th>
 
@@ -77,9 +99,10 @@ UI Type
 
 </td><td>
 
-Target user interface to which the client script applies.-   Desktop: The script runs only in the desktop Core UI.
+Target user interface to which the client script applies. -   Desktop: The script runs only in the desktop Core UI.
 -   Mobile / Service Portal: The script runs only in mobile, portal, or configurable workspace UIs.
--   All: The script executes across all available UIs.
+-   All: The script runs across all available UIs.
+**Note:** Client scripts that run on forms in the Service Portal or mobile environments can only include certain APIs. For more information, see [Client-side scripting for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/r_MobilePlatformMigrationImpacts.md).
 
 </td></tr><tr><td>
 
@@ -87,9 +110,9 @@ Type
 
 </td><td>
 
-onLoad\(\) — runs when the system first renders the form and before users can enter data. Typically, onLoad\(\) client scripts perform client-side-manipulation of the current form or set default record values.
+onLoad\(\) — runs when the system first renders the form and before users can enter data. Typically, onLoad\(\) client scripts perform client-side manipulation of the current form or set default record values.
 
- onSubmit\(\) — runs when a form is submitted. Typically, onSubmit\(\) scripts validate things on the form and ensure that the submission makes sense. An onSubmit\(\) client script can cancel form submission by returning a value of false.
+ onSubmit\(\) — runs when a form is submitted. Typically, onSubmit\(\) scripts validate form content and confirm that the submission makes sense. An onSubmit\(\) client script can cancel form submission by returning a value of false.
 
  onChange\(\) — runs when a particular field value changes on the form. The onChange\(\) client script must specify these parameters.
 
@@ -104,14 +127,14 @@ onLoad\(\) — runs when the system first renders the form and before users can 
 -   **newValue**: the value the widget has after the change.
 -   **isLoading**: identifies whether the change occurs as part of a form load.
 -   **isTemplate**: identifies whether the change occurs as part of a template load.
-
  onCellEdit\(\) — runs when the list editor changes a cell value. The onCellEdit\(\) client script must specify these parameters.
 
 -   **sysIDs**: an array of the sys\_ids for all items being edited.
 -   **table**: the table of the items being edited.
 -   **oldValues**: the old values of the cells being edited.
 -   **newValue**: the new value for the cells being edited.
--   **callback**: a callback that continues the execution of any other related cell edit scripts. If true is passed as a parameter, the other scripts are executed or the change is committed if there are no more scripts. If false is passed as a parameter, any further scripts are not executed and the change is not committed.
+-   **callback**: a callback that continues the execution of any other related cell edit scripts. If true is passed as a parameter, the other scripts run or the change is committed if there are no more scripts. If false is passed as a parameter, further scripts are not run and the change is not committed.
+
 
 </td></tr><tr><td>
 
@@ -135,7 +158,7 @@ Active
 
 </td><td>
 
-Enables the client script when selected. Unselect this field to disable the client script.
+Enables the client script when selected. Clear this field to disable the client script.
 
 </td></tr><tr><td>
 
@@ -151,7 +174,7 @@ Global
 
 </td><td>
 
-If true, the client script runs on all views of the table.
+When selected, the client script runs on all views of the table.
 
 </td></tr><tr><td>
 
@@ -159,7 +182,7 @@ View
 
 </td><td>
 
-Only visible when **Global** is unselected. Views on which the client script will run.
+Available only when **Global** is cleared. Views on which the client script runs.
 
 </td></tr><tr><td>
 
@@ -167,7 +190,7 @@ Description
 
 </td><td>
 
-Content describing the functionality and purpose of the client script.
+Description of the functionality and purpose of the client script.
 
 </td></tr><tr><td>
 
@@ -175,7 +198,7 @@ Messages
 
 </td><td>
 
-Text string \(one per line\) available to the client script as localized messages using getmessage\('\[message\]'\). For additional information, see [Translate a client script message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_TranslateAClientScriptMessage.md).
+Text string \(one per line\) available to the client script as localized messages using getmessage\('\[message\]'\). For more information, see [Translate a client script message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_TranslateAClientScriptMessage.md).
 
 </td></tr><tr><td>
 
@@ -191,13 +214,28 @@ Isolate script
 
 </td><td>
 
-New client scripts are run in strict mode, in which direct DOM access is turned off. Access to jQuery, prototype, and the window object are also turned off by default. To enable DOM access on a per-script basis, leave the **Isolate script** option cleared. To turn off strict mode for all new globally scoped client scripts, set the **glide.script.block.client.globals** system property to false.
+New client scripts run in strict mode, in which direct DOM access is turned off. Access to jQuery, prototype, and the window object are also turned off by default. To enable DOM access on a per-script basis, clear the **Isolate script** check box. To turn off strict mode for all new globally scoped client scripts, set the **glide.script.block.client.globals** system property to false.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Client-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/client-side-scripting-overview.md)
-
-**Related topics**  
+</table>4.  Select **Submit**.
 
 
-[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/api-client.md)
+### Get the value of a variable
+
+Use the following syntax to obtain the value of a catalog variable. Note that the variable must have a name. Replace `variable_name` with the name of the variable.
+
+```javascript
+g_form.getValue('variable_name');
+```
+
+### Restrict the number of characters a user can type in a variable
+
+This is an example of a script that runs when the variable is displayed, rather than when the item is ordered.
+
+```javascript
+function onLoad(){
+  var sd = g_form.getControl('short_description');
+  sd.maxLength=80;
+}
+```
 

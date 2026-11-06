@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/contact-center-intergration-with-icc-callback.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [Interaction Controls Component ICC integration with CCaaS callback, CCaaS callback, Interaction Controls Component \(ICC\) callback interaction features, Callback interaction features]
 breadcrumb: [Integrating contact centers with Interaction Controls Component \(ICC\) for callbacks, Integrating with contact centers, Integrate, Customer Service Management]

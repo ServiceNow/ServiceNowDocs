@@ -7,8 +7,8 @@ release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Use agentic workflows, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
@@ -20,7 +20,7 @@ Employees use HR Voice AI agents to perform HR-related tasks such as creating ne
 
 HR AI voice agents use generative AI to deliver natural, dynamic conversations that help employees complete HR-related tasks, resolve issues, and access HR information—anytime, anywhere. They are built on the ServiceNow AI Platform and delivered via the HR AI Voice agent plugin, allowing for customization to meet specific HR business needs.
 
-HR AI Voice agents are managed through the AI Agent Studio, which provides tools for creating, deploying, and monitoring these agents. Each agent is associated with a voice service acting as a virtual HR help desk and can be configured with welcome messages, voice profiles, and fallback options like live agent routing or ticket creation. This setup enables efficient, AI-driven HR support for employees.
+You can manage HR AI Voice agents through AI Agent Studio. The studio provides tools for creating, deploying, and monitoring agents. Each agent is associated with a voice service that acts as a virtual HR help desk. You can configure agents with welcome messages, voice profiles, and fallback options such as live agent routing or ticket creation.
 
 To enable employee access and use of Voice AI agents, an admin must install the HR AI Voice Agents \[sn\_hr\_voice\_aia\] plugin and [Configure HR AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/configure-voice-agents.md).
 

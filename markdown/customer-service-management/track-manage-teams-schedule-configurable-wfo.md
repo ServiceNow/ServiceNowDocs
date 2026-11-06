@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/track-manage-teams-schedule-configurable-wfo.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Schedule, Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
@@ -26,6 +26,7 @@ Using the calendar, you can do the following:
 -   Get insights into team compliance with published schedules.
 -   View an agent's work schedule that is actual shift time vs clock-in and clock-out times.
 -   Filter the team calendar based on the **Assignment Group**, **Location**, **Skills**, **Shift Plan**, and **Events** for a customized view.
+-   View current day schedule from **Today's schedules**.
 -   Modify the agent's shift, clock-in, and clock-out timings, if necessary.
 
 ## Procedure

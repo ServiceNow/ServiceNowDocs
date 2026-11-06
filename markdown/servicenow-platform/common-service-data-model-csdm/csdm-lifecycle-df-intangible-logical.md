@@ -7,7 +7,7 @@ release: australia
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Intangible/logical life cycle, Reference, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -30,7 +30,7 @@ The intangible/logical life-cycle value pairs represent the overall life cycle o
 
     After the software is approved, the organization procures the necessary licenses or subscriptions.
 
-    -   **On Order**: Licenses or software subscriptions have been purchased but are not yet available for use.
+    -   **On Order**: Licenses or software subscriptions have been purchased but aren't yet available for use.
     -   **Preallocated**: Licenses are assigned to users or departments before they are officially deployed. 
 -   **Inventory life cycle stage**
 

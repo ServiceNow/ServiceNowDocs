@@ -1,18 +1,18 @@
 ---
 title: CRM Workspace features
-description: CRM Workspace provides several different tools and features that agents can use to assist customers, research issues, and resolve cases.
+description: CRM Workspace provides several tools and features that agents can use to assist customers, research issues, and resolve cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-workspace-feature-overview.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 7
+last_updated: "2026-10-22"
+reading_time_minutes: 8
 breadcrumb: [CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # CRM Workspace features
 
-CRM Workspace provides several different tools and features that agents can use to assist customers, research issues, and resolve cases.
+CRM Workspace provides several tools and features that agents can use to assist customers, research issues, and resolve cases.
 
 <table id="table_csm_workspace_feature_overview"><thead><tr><th>
 
@@ -56,11 +56,11 @@ A landing page is an initial view of a user's workspace. For customer service ag
 
 </td></tr><tr><td>
 
-[List views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/lists-configurable-workspace.md)
+[List pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-workspace-list-views.md)
 
 </td><td>
 
-Provide filtered lists of cases, interactions, and other records such as accounts and contacts. Agents can also create and save their own lists.
+Provide filtered lists of cases, interactions, and other records such as accounts and contacts that enable agents to quickly find records and manage their work. Agents can also create and save personalized lists for quick access to relevant information.
 
 </td></tr><tr><td>
 
@@ -76,7 +76,7 @@ Content pages determine how information is displayed in the workspace. [Record p
 
 </td><td>
 
-Provides agents with access to tools and information directly from the record page, such as Recommended Actions, attachments, related lists, and templates. This access helps agents research and resolve customer issues without leaving the case view.
+A configurable panel that provides agents with additional tools and information such as search, Recommended Actions, attachments, related lists, and templates. This access helps agents research and resolve customer issues without leaving the case view.
 
 </td></tr><tr><td>
 
@@ -108,7 +108,7 @@ Windows that overlay the main window content in a workspace. Agents can use mode
 
 </td><td>
 
-Use form templates to populate fields on new records with selected values. Create and edit form templates for use in CRM Workspace and then use the templates to automatically the configured fields.
+Use form templates to populate fields on new records with selected values. Create and edit form templates for use in CRM Workspace and then use the templates to automatically populate the configured fields.
 
 </td></tr><tr><td>
 
@@ -116,7 +116,7 @@ Use form templates to populate fields on new records with selected values. Creat
 
 </td><td>
 
-Global search enables you to search multiple record types at once from the Next Experience Unified Navigation [search field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/using-ais-next-experience-app.md).
+Global search enables agents to search multiple record types at once from the Next Experience Unified Navigation [search field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/using-ais-next-experience-app.md).
 
  The Recommended Actions tab in the contextual side panel includes [AI search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-ai-search.md) functionality. This search feature displays an initial set of search results based on the text in the case short description, including knowledge articles. Agents can also enter different search keywords and repeat the search.
 
@@ -126,7 +126,7 @@ Global search enables you to search multiple record types at once from the Next 
 
 </td><td>
 
-Use the ServiceNow Otto for Customer Service Management \(CSM\) application to summarize interaction chats and calls, summarize case information, and generate case resolution notes.
+Includes recommended solutions, such as knowledge articles and similar cases, and Recommended Actions.Use the ServiceNow Otto for Customer Service Management \(CSM\) application to summarize interaction chats and calls, summarize case information, and generate case resolution notes.
 
 </td></tr><tr><td>
 
@@ -158,7 +158,31 @@ Use this feature to enable agents to quickly look up contacts or consumers using
 
 </td><td>
 
-Use the case action status feature so that agents can easily identify cases that need attention.
+Use the case action status feature so that agents can identify cases that need attention.
+
+</td></tr><tr><td>
+
+[Display preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/set-up-preferences-next-experience.md)
+
+</td><td>
+
+Agents can personalize their workspace to suit their workflow. Display, theme, and notification preferences enable agents to control information density \(comfortable or compact modes\), choose color schemes \(light or dark mode\), and manage alerts.
+
+</td></tr><tr><td>
+
+Responsive pages and resizable panes
+
+</td><td>
+
+Workspace pages adapt to any device, automatically adjusting layout for desktop, tablet, and mobile screens. Agents can resize panes and use modeless dialogs that fit their workflow.
+
+</td></tr><tr><td>
+
+Dynamic page views
+
+</td><td>
+
+Workspace is context aware and can be tailored to support record and persona-based experiences, driven by UI Builder.
 
 </td></tr></tbody>
 </table>## Additional applications
@@ -168,12 +192,12 @@ A number of additional applications are available for use with CRM Workspace.
 |Feature|Description|
 |-------|-----------|
 |[AWA for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/awa-csm-overview.md)|Use Advanced Work Assignment \(AWA\) to automatically assign work items to agents based on their availability, capacity, and skills.|
-|[Customer Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-central.md)|Use Customer Central to provide agents with all of the information about a customer in one central location. This feature enables agents to quickly zoom in on the customer issue and provide efficient and supportive service.|
+|[Customer Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-central.md)|Use Customer Central to provide agents with all of the information about a customer in one central location. This feature enables agents to quickly focus on the customer issue and provide efficient and supportive service.|
 |[ServiceNow Link Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-workspace-chrome-link-manager.md)|Use the ServiceNow Link Manager feature to manage and organize browser tabs within a ServiceNow instance.|
 |[Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configurable-wfo-cs.md)|Use Workforce Optimization for Customer Service to manage and maintain the productivity of your workforce. Efficiently route work to your team, manage your team's skills and schedules, and monitor their performance.|
 |[Customer Service Case Types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-service-case-types.md)|Use case types to handle different types of customer issues. A case type identifies the processes and the data needed to resolve a specific type of issue, such as a lost or missing credit card.|
 |[Proactive Customer Service Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/proactive-service-operations.md)|Use this feature to track the digital services used by your customers and to proactively create cases for service disruptions.|
-|[Playbooks in Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setting-up-csm-playbooks.md)|Use playbooks to provide step-by-step guidance for completing the tasks needed to resolve specific types of customer service cases.|
+|[Playbooks for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-service-case-playbooks.md)|Use playbooks to provide step-by-step guidance for completing the tasks needed to resolve specific types of customer service cases.|
 |[Guided Decisions for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setting-up-guided-decisions.md)|Use guided decisions to resolve complex cases faster and more efficiently by guiding customer service agents through a structured troubleshooting process.|
 |[Estimated time to resolve a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ettr.md)|Use machine learning to predict the estimated time to resolve a case \(ETTR\) based on case attributes such as the short description, category, priority, and assignment group.|
 

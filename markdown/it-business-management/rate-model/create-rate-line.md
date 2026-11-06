@@ -7,7 +7,7 @@ release: australia
 product: Rate Model
 classification: rate-model
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Rate Models, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -36,9 +36,9 @@ Before creating or updating a rate line, note the following points:
 
     -   Navigate to **All** &gt; **Project Administration** &gt; **Rate Model** &gt; **All**.
     -   Navigate to **All** &gt; **Time Sheets** &gt; **Rate Model** &gt; **All**.
-2.  On the Rate Model form, click the **View Rate Lines** related link.
+2.  On the Rate Model form, select the **View Rate Lines** related link.
 
-3.  On the Rate Lines form, click **New**.
+3.  On the Rate Lines form, select **New**.
 
 4.  On the form, fill in the fields.
 
@@ -90,7 +90,7 @@ Rate
 
 Applicable rate and currency of the rate line. By default, the currency of the rate model to which the rate line belongs is selected as the currency. You can select a rate currency, which can be different from the rate model currency. Rate lines with the same set of criteria values and currency must not have overlapping dates.
 
- A project or demand manager can track the resource cost for projects or demands in the corresponding project or demand currency by installing the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin and enabling the Project Currency view or Demand Currency view for resource plans. For more information, see the [Create a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/t_CreateResourcePlanProjectTask.md) topic.
+ A project or demand manager can track the resource cost for projects or demands in the corresponding currency by installing the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin. Enable the Project Currency view or Demand Currency view for resource plans. For more information, see the [Create a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/resource-management/t_CreateResourcePlanProjectTask.md) topic.
 
 </td></tr><tr><td>
 
@@ -109,7 +109,7 @@ Rate in functional currency
 Rate in the default currency configured in the Financial Management application. This field is not editable.
 
 </td></tr></tbody>
-</table>5.  Click **Submit**.
+</table>5.  Select **Submit**.
 
 
 ## Result

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/install-aias-new.html
 release: australia
 topic_type: task
-last_updated: "2026-06-11"
+last_updated: "2026-10-23"
 reading_time_minutes: 2
 keywords: [Install AI Agents]
-breadcrumb: [Configure AI Agent Studio, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Configure AI Agent Studio, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Install AI Agent Studio

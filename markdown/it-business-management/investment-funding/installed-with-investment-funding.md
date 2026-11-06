@@ -7,7 +7,7 @@ release: australia
 product: Investment Funding
 classification: investment-funding
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Install Investment Funding, Investment Funding, Strategic Portfolio Management]
 ---

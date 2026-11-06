@@ -7,7 +7,7 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Use agentic workflows, Using AI in Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -24,8 +24,8 @@ To use the Help manage software request agentic workflow, the Procurement \(com.
 
 The following three scenarios are supported for software requests:
 
--   User-based allocations: a user requests a software model with user-based entitlements.
--   Device-based allocations: a user requests a software model with device-based entitlements.
+-   User based allocations: a user requests a software model with user-based entitlements.
+-   Device based allocations: a user requests a software model with device-based entitlements.
 
     When a user who has requested the software has multiple devices assigned to them, the agent asks the fulfiller to select one of the user's devices for the allocation process. If the device isn’t assigned to the requested item number user during the software fulfillment, then a message appears in the ServiceNow Otto panel stating that the user has no devices associated. The user must associate a device and try again. If the device is assigned after this, then the fulfiller user should initiate a new panel chat and provide an utterance in the panel to fulfill the requested item number, rather than using the existing panel chat.
 
@@ -43,14 +43,6 @@ The Help manage software request agentic workflow supports both Azure OpenAI Ser
 ## Help manage software request agentic workflow
 
 By automating the sourcing of software assets through auto-allocation or purchase order creation, the agentic workflow speeds up request resolution and boost operational efficiency.
-
-A one-time manual activation is required before the Help manage software request workflow can run automatically. To activate the workflow:
-
-1.  Navigate to the AI Agent Studio and select the Help Manage Software Request agentic workflow.
-2.  Select **Add triggers**.
-3.  Select the Help manage software request link, in the **Name** column.
-4.  In the **Edit a trigger** dialog box, toggle the trigger status from **Off** to **On**.
-5.  Save your changes. The status of the Help manage software request agentic workflow changes from **Inactive** to **Active**
 
 To automatically trigger the Help manage software request workflow for sourcing software requests, follow these steps:
 

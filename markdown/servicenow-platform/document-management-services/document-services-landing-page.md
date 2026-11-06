@@ -7,7 +7,7 @@ release: australia
 product: Document Management Services
 classification: document-management-services
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -50,16 +50,16 @@ Document Services provides a broad range of services related to document managem
     Integrate providers with your ServiceNow instance to store files, upload, add versions, and download information with document providers.
 
 
--   [Upgrade to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrade.md)
+-   [Upgrade to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrade.md)
 -   [Developer training](https://developer.servicenow.com/app.do#!/training/article/app_store_learnv2_automatingapps_paris_notifications/app_store_learnv2_automatingapps_paris_notifications_objectives?v=paris)
 -   [Domain separation and Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/document-management-services/domain-separation-document-services.md)
 
 ## Document generation apps
 
--   [PDFGenerationAPI API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md)
--   [Document API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md)
--   [DocumentListService API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentListServiceBothAPI.md)
--   [DocumentService API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentServiceBothAPI.md)
+-   PDFGenerationAPI API
+-   Document API
+-   DocumentListService API
+-   DocumentService API
 
 ## Troubleshoot and get help
 

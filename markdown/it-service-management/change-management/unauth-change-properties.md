@@ -1,20 +1,20 @@
 ---
 title: Unauthorized change properties
-description: Use the Unauthorized Change Properties page to enable or disable the unauthorized change capability, and to configure the criteria for additional unauthorized change properties.
+description: Use the Unauthorized Change Properties page to turn on or turn off the unauthorized change capability, and to configure the criteria for additional unauthorized change properties.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/unauth-change-properties.html
 release: australia
 product: Change Management
 classification: change-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Unauthorized change request, Create a change request, Use, Change Management, IT Service Management]
 ---
 
 # Unauthorized change properties
 
-Use the Unauthorized Change Properties page to enable or disable the unauthorized change capability, and to configure the criteria for additional unauthorized change properties.
+Use the Unauthorized Change Properties page to turn on or turn off the unauthorized change capability, and to configure the criteria for additional unauthorized change properties.
 
 From this properties page, you can control the capabilities, such as:
 
@@ -27,10 +27,10 @@ From this properties page, you can control the capabilities, such as:
     **Note:** Monitored CIs must be part of an application service.
 
 
-This topic uses these terms consistently:
+This topic uses the following terms:
 
--   Unplanned CI change- A change detected directly on a configuration item, which raises the **ci.change.unplanned** event.
--   Unauthorized change request- The change request record created in response to an unplanned CI change that does not match an existing valid change request. For more information, see [Unauthorized change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/unauthorized-change-request.md)
+-   Unplanned CI change: A change detected directly on a configuration item, which raises the **ci.change.unplanned** event.
+-   Unauthorized change request: The change request record created in response to an unplanned CI change that does not match an existing valid change request. For more information, see [Unauthorized change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/unauthorized-change-request.md)
 
 Navigate to **Change** &gt; **Administration** &gt; **Unauthorized Change Properties** to view and edit the properties.
 
@@ -56,7 +56,7 @@ Notification ignores period
 
 </td><td>
 
-Enter the time duration until which you want to disable sending notifications or creating unauthorized changes for the same CI.Default value: 1 day
+Enter the time duration until which you want to turn off sending notifications or creating unauthorized changes for the same CI.Default value: 1 day
 
 </td></tr><tr><td>
 

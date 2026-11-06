@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/handle-ccaas-callback-gvc.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [CCaaS callback requests in the Configurable Workspace, Customer communication, Use, Customer Service Management]
 ---
 
@@ -18,9 +18,7 @@ As a customer service agent, when you leave the callback interaction page on the
 
 Role required: sn\_customerservice\_agent
 
-You must log in to your CCaaS account and CSM/FSM Configurable Workspace to receive the callback requests on the CRM Workspace.
-
-**Note:** Prerequisite for CCaaS callbacks: Verify that agents are configured through their contact center integration to receive callbacks and access the ServiceNow Workspace. Agent profiles are synced automatically when agents log in through the contact center connector in OpenFrame. For example, an agent must be able to log in to both the contact center and ServiceNow workspace. The agent presence state must match between both systems, as callbacks only route to available agents. In some cases, the state "available" might be labeled differently in the contact center, such as "on queue." Presence mismatches can prevent agents from receiving callbacks.
+You must log in to your CCaaS account and CSM/FSM Configurable Workspace to receive the callback requests on the CSM Configurable Workspace.
 
 ## About this task
 
@@ -38,15 +36,15 @@ The callback interaction is either routed in the customer-first or agent-first m
     -   Reason for callback
 2.  Perform one of the following in your inbox when you receive a callback interaction request.
 
-<table id="choicetable_xrb_1lf_cgc"><thead><tr><th align="left" id="d167466e135">
+<table id="choicetable_xrb_1lf_cgc"><thead><tr><th align="left" id="d170317e120">
 
 Action
 
-</th><th align="left" id="d167466e138">
+</th><th align="left" id="d170317e123">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d167466e144">
+</th></tr></thead><tbody><tr><td id="d170317e129">
 
 **Accept**
 
@@ -54,7 +52,7 @@ Description
 
 Select this button to accept the callback interaction request.The voice interaction page opens with the Callback Actions component on the top-left corner of the page. For more details on the callback actions component, see [Callback actions component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-native-voice-record-page.md).
 
-</td></tr><tr><td id="d167466e159">
+</td></tr><tr><td id="d170317e144">
 
 **Reject**
 

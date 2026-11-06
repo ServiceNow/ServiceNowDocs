@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/enabling-access-data-source-zcc.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Zero Copy Connectors, Workflow Data Fabric]
 ---
@@ -18,7 +18,7 @@ To connect to a data source behind a private network using a zero copy connectio
 
 -   **IP allowlist**
 
-    Your data source admin must allow access to a source IP range based on where the zero copy queries are coming from. For help with identifying the correct IP range, contact your account manager or Customer Service and Support and reference KB1706533. If you're unable to access the KB article and need immediate assistance, use one of the contact numbers from our [support contact page](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1000420).
+    Your data source admin must allow access to a source IP range based on where the zero copy queries are coming from. For help with identifying the correct IP range, contact your account manager or Customer Service and Support and reference KB1706533.
 
 -   **Private connectivity**
 

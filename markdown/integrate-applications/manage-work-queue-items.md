@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/manage-work-queue-items.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [mark as sensitive data rpa hub]
 breadcrumb: [Work items, Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
@@ -37,7 +37,7 @@ Role required: sn\_rpa\_fdn.rpa\_developer, sn\_rpa\_fdn.rpa\_business\_user, sn
 
 Option
 
-</th><th align="left" id="d483524e137">
+</th><th align="left" id="d475471e137">
 
 Action
 

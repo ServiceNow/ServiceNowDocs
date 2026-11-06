@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -26,9 +26,9 @@ There are two types of discovery:
 
 -   **Top-down discovery**
 
-    Top-down discovery is a technique that Service Mapping uses to find and maps CIs that are part of business services, such as an email service. For example, top-down discovery can map a website business service by showing the relationships between an Apache Tomcat web server service, a Windows server, and the MSSQL database that stores the data for the business service.
+    Top-down discovery is a technique that Service Mapping uses to find and maps CIs that are part of business services, such as an email service. For example, top-down discovery can map a website business service by showing the relationships between an Apache Tomcat web server service, a Windows server, and the MSSQL database that stores the data for the business service. This gives IT teams a clear view of service dependencies.
 
-    Typically, Service Mapping and Discovery work together to run horizontal discovery first to find CIs, and then top-down discovery to establish the relationships between business services that you need to know.
+    Typically, Service Mapping and Discovery work together. Horizontal discovery runs first to find CIs, and then top-down discovery establishes the relationships between business services.
 
 
 ## Probes, sensors, and patterns
@@ -41,7 +41,7 @@ Discovery uses these components to find CIs:
 
 -   **[Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/disco-process-flow-patterns.md)**
 
-    Patterns, like probes and sensors, are a series of operations that also collect data on a host, process it, and update the CMDB. Patterns differ from probes and sensors in that they are written in Neebula Discovery Language \(NDL\) rather than JavaScript, and they are called into action in the later stages of the horizontal discovery process. Default patterns are provided, but you can also customize or create patterns using the Pattern Designer.
+    Patterns, like probes and sensors, are a series of operations that also collect data on a host, process it, and update the CMDB. Patterns differ from probes and sensors in that they are written in Neebula Discovery Language \(NDL\) rather than JavaScript. They are called into action in the later stages of the horizontal discovery process. Default patterns are provided, but you can also customize or create patterns using the Pattern Designer.
 
 
 ## Horizontal discovery phases
@@ -73,7 +73,7 @@ A [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/austr
 
 The MID Server starts all communications, using SOAP on HTTPS, which means that all communications are secure, and all communications are initiated inside the enterprise's firewall. No special firewall rules or VPNs are required.
 
-Because Discovery is agentless, meaning that it does not require any permanent software to be installed on any computer or device to be discovered, the MID Server uses several techniques to probe devices without using agents. For example, the MID Server uses SSH to connect to a Unix or Linux computer, and then it can run a standard command, as specified in the probe, to gather information. Similarly, it uses the Simple Network Management Protocol \(SNMP\) to gather information from a network switch or a printer.
+Because Discovery is agentless, it does not require any permanent software to be installed on any computer or device. The MID Server uses several techniques to probe devices without using agents. For example, the MID Server uses SSH to connect to a Unix or Linux computer, and then it can run a standard command, as specified in the probe, to gather information. Similarly, it uses the Simple Network Management Protocol \(SNMP\) to gather information from a network switch or a printer.
 
 ## Types of discovery
 
@@ -124,7 +124,7 @@ Run this type of discovery to find applications on host machines without the nee
 
 IP Service affinity saves the IP service information that is used to successfully find a device and associates it with the IP address of the device. Using this information, Discovery can target the device in subsequent runs with the accurate protocol. Discovery records the IP Service along with the IP address. Discovery can store the successful IP service information in the IP Service Affinity table \[ip\_service\_affinity\].
 
-For example: A network device has both an SSH port and an SNMP port open. By its agentless design, Discovery tries SSH first. However, network devices should be discovered through SNMP. Discovery tries the SSH probe and it fails. This triggers the SNMP probe, which succeeds. With the association between the IP address and the IP service, subsequent discovery runs that target this IP address use SNMP first, because that is the probe that succeeded.
+For example: A network device has both an SSH port and an SNMP port open. By its agentless design, Discovery tries SSH first. However, network devices should be discovered through SNMP. Discovery tries the SSH probe and it fails. This triggers the SNMP probe, which succeeds. With the association between the IP address and the IP service, subsequent discovery runs targeting this IP address use SNMP first, because that is the probe that succeeded.
 
 -   **[Horizontal discovery process flow with probes and sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_DiscoProcessFlows.md)**  
 The horizontal discovery process passes through the four phases of discovery using probes, which gather information on the target machine. Sensors then help Discovery determine what to do with that information.

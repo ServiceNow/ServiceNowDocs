@@ -7,7 +7,7 @@ release: australia
 product: Talent Development Core
 classification: talent-development-core
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Quick start tests for Talent Development Core, Installing and configuring the Talent Development Core app, Talent Development Core, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
@@ -18,7 +18,7 @@ Run quick start tests to verify the Talent Development Core app and features sti
 
 ## Before you begin
 
-Role required: sn\_egd\_core.admin
+Role required: admin
 
 ## Procedure
 

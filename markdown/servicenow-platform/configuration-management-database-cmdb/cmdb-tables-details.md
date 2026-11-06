@@ -7,9 +7,9 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 32
-breadcrumb: [Explore, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 31
+breadcrumb: [CMDB hierarchy, Explore, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # CMDB tables descriptions
@@ -3014,7 +3014,7 @@ Types of information that a business application or any other entity handles.
 
  For example: 'Employee Salary Data', Employee Personal Data', and 'Sales Data'.
 
- For more information, see [CSDM implementation stage — Fly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-implement-fly-stage.md) and [Enterprise Architecture and CSDM tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/apm-use-case.md).
+ For more information, see [CSDM implementation stage — Fly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/common-service-data-model-csdm/csdm-implement-fly-stage.md) and .
 
 </td></tr><tr><td>
 
@@ -5658,9 +5658,9 @@ Service classification
 
 Designates the type of the service. -   Application Service \(For more information, see [Service instances \(Application services\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/application-services.md)\)
 -   Technical Service \(For more information, see [Service instances \(Application services\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/application-services.md) and [Use the Dynamic CI Group method to populate application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/populate-app-service-dynamic-group.md)\)
--   Service Offering \(For more information, see [Service Portfolio Management service offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/SPM2-service-offerings.md)\)
+-   Service Offering \(For more information, see Service Portfolio Management service offerings\)
 -   Shared Service
--   Billable Service \(To represent a service that is billed, or that is cost managed\)
+-   Billable Service \(To represents a service that is billed, or that is cost managed\)
 
 </td></tr><tr><td>
 

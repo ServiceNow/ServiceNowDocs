@@ -7,9 +7,9 @@ release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Activate, Configure, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
+breadcrumb: [Activate Workforce Optimization for HR, Configuring Workforce Optimization for HR, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
 ---
 
 # RCA approvals in Workforce Optimization for HR

@@ -7,7 +7,7 @@ release: australia
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Mobile experience for On-Call Scheduling, On-Call Scheduling, IT Service Management]
 ---
@@ -81,7 +81,7 @@ Approve or reject a time-off request.**Note:** Add a reason for rejection of a t
 |Swipe left on any of the shift cards|Tap **Provide coverage** to provide coverage for the shift.|
 |Tap **Provide Coverage**|Provide coverage for a gap in the shift.|
 
-For detailed procedure see [Managing teams and incidents using My Team applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-mobile-agent/my-team-application.md).
+For detailed procedure see [Managing teams and incidents using the My Team applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-mobile-agent/my-team-application.md).
 
 **Parent Topic:**[Mobile experience for On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/on-call-scheduling/mobile-experience-ocs.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hcls-cto-view-teams-portal.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage your teams, Navigate the Care Team Portal, Navigate, Care Team Portal, Healthcare Operations, Healthcare and Life Sciences]
+breadcrumb: [Manage your teams, Navigate, Care Team Portal, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
 # View your teams using the Care Team Portal

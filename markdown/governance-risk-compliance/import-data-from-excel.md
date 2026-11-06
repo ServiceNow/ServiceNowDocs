@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/import-data-from-excel.html
 release: australia
 topic_type: task
-last_updated: "2026-05-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Importing and exporting event tasks in Microsoft Excel, Structured workflows for Exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Importing and exporting event tasks in Microsoft Excel, Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Import data from Microsoft Excel
@@ -66,7 +66,7 @@ Role required: sn\_bcm.core\_viewer
 
 9.  Confirm that the event task shows the additional configuration details.
 
-    Example shows an event task with additional assignee details.
+    Example shows an event task the additional assignee details.
 
     \[Omitted image "event-task-addi-assignee-list.png"\] Alt text: Additional assignee details.
 

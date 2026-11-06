@@ -1,6 +1,6 @@
 ---
 title: Set up the First Advantage spoke
-description: Integrate the ServiceNow instance with your First Advantage account using an API key to authenticate ServiceNow requests.Create a connection record to integrate your ServiceNow instance and the First Advantage server. Your ServiceNow instance uses this connection record to perform the First Advantage spoke actions.Create First Advantage states to be displayed in the State list in your ServiceNow instance.Create the Draft, Ready, and In Progress states in the Task \[task\] table.Create the Complete and Cancelled states in the First Advantage Task \[sn\_fadv\_spoke\_first\_advantage\_task\] table.Create the Complete - Success and Complete - Deal Broken states in the First Advantage Employee Task \[sn\_fadv\_spoke\_first\_advantage\_employee\_task\_table\] table.Receive invite and order event updates at your ServiceNow instance by setting up the webhooks.Create a authorization key to authorise requests from Jenkins.Set up the First Advantage webhook by providing key for the First Advantage webhook client.Access the API endpoint for the invite and order events and share the required details with First Advantage to set up the webhooks.Store the details of the First Advantage accounts and packages by synchronizing First Advantage accounts and packages with ServiceNow.
+description: Integrate the ServiceNow instance with your First Advantage account using an API key to authenticate ServiceNow requests.Configure a connection to your First Advantage account. The First Advantage spoke connection and credential aliases use these connections to perform actions in First Advantage.Create First Advantage states to be displayed in the State list in your ServiceNow instance.Create the Draft, Ready, and In Progress states in the Task \[task\] table.Create the Complete and Cancelled states in the First Advantage Task \[sn\_fadv\_spoke\_first\_advantage\_task\] table.Create the Complete - Success and Complete - Deal Broken states in the First Advantage Employee Task \[sn\_fadv\_spoke\_first\_advantage\_employee\_task\_table\] table.Receive invite and order event updates at your ServiceNow instance by setting up the webhooks.Create a authorization key to authorise requests from Jenkins.Set up the First Advantage webhook by providing key for the First Advantage webhook client.Access the API endpoint for the invite and order events and share the required details with First Advantage to set up the webhooks.Store the details of the First Advantage accounts and packages by synchronizing First Advantage accounts and packages with ServiceNow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-first-adv.html
 release: australia
@@ -22,9 +22,9 @@ Integrate the ServiceNow instance with your First Advantage account using an API
 -   Activate the First Advantage spoke.
 -   Role required: admin.
 
-## Create Connection record for the First Advantage spoke
+## Configure a connection for the First Advantage spoke
 
-Create a connection record to integrate your ServiceNow instance and the First Advantage server. Your ServiceNow instance uses this connection record to perform the First Advantage spoke actions.
+Configure a connection to your First Advantage account. The First Advantage spoke connection and credential aliases use these connections to perform actions in First Advantage.
 
 ### Before you begin
 
@@ -36,33 +36,37 @@ Acquire the API key from the First Advantage server.
 
 1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
 
-2.  Select **Integrations**.
+2.  Click the **Integrations** tab.
 
-3.  Select the **Connections** tab.
+3.  Under **Connections**, toggle and enable the **Outbound** connections.
 
-4.  In the Search all connections field, enter `First Advantage`.
-
-    Confirm that the **Outbound** tab is selected.
-
-5.  On the FirstAdvantage tile, select **View Details**.
+4.  Locate the alias for **FirstAdvantage** and click **View Details**.
 
     \[Omitted image "first-adv-view-details.png"\] Alt text: View Details button on FirstAdvantage alias tile.
 
-6.  Select **Configure**.
+    To manage more than one First Advantage connection record, create a new child alias record by selecting **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/support-multiple-connections.md).
 
-7.  Fill the form.
+5.  Select **Configure**.
+
+    If you are configuring the spoke for the first time, select **Configure**. Otherwise, select **Edit**.
+
+    \[Omitted image "first-adv-connection-conf.png"\] Alt text: Configure button on the First Advantage connection record.
+
+6.  On the form, fill in these fields:
 
     |Field|Description|
     |-----|-----------|
+    |Connection Information|
     |Connection Name|Name of the connection. The default and read-only name of the first record is the same as that of the connection alias. You can provide a different name when you create a connection record by clicking **Add Connection**.|
     |Connection URL|Option to provide the connection URL to the First Advantage server. The URL is [https://rest-ua.fadv.com](https://rest-ua.fadv.com).|
     |Distribution Email|Option to provide a distribution email ID.|
     |Version|Option to provide the version of the API.|
+    |Credential Information|
     |API Key|Option to enter the API key that the First Advantage server uses to authenticate access requests.|
 
     \[Omitted image "first-adv-conn-form.png"\] Alt text: First Advantage connection form.
 
-8.  Select **Configure Connection**.
+7.  Select **Save**.
 
     The connection record is configured.
 

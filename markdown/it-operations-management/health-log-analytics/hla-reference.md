@@ -7,7 +7,7 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -21,7 +21,7 @@ Activating the Health Log Analytics, Health Log Analytics Viewer and Health Log 
 -   **[Supported data inputs for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-supported.md)**  
 Health Log Analytics \(HLA\) enables you to connect your ServiceNow instance to several types of data input.
 -   **[General guidelines for streaming data to Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-streaming-ref.md)**  
-This section helps you identify the appropriate data input for streaming your specific data type to the Health Log Analytics \(HLA\) application.
+This section helps you identify the appropriate data input for streaming your specific data type to the Health Log Analytics application.
 -   **[MID Server proxy preconditions for streaming logs to Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-mid-proxy-configure.md)**  
 Requirements for using a MID Server proxy to stream log data to Health Log Analytics.
 -   **[Health Log Analytics configuration preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-configuration-preferences.md)**  
@@ -54,6 +54,8 @@ This section describes the fields on the Log correlators form.
 Field descriptions for the Log-based CI candidates table, the Log-based CI candidate form, and the Add CI candidate to CMDB form.
 -   **[Metric Data table columns in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-metric-data-table-ref.md)**  
 The Metric Data table lists all metrics that Health Log Analytics collects. Use the table to query metrics by log source, integration, source type, and metric type, review anomaly detection statistics, and view metric baselines.
+-   **[Sustained alert table schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-sustained-alert-table.md)**  
+Reference documentation for the sn\_occ\_sustained\_alerts table that stores sustained alert feedback configurations per metric.
 
 **Parent Topic:**[ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-health-landing-page.md)
 

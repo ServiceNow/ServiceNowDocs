@@ -1,16 +1,16 @@
 ---
-title: Upgrade to the Australia release
+title: Upgrade to the Brazil release
 description: Upgrading and patching your instance requires planning, testing, and validation. To ensure a safe and effective upgrade, read the release notes, create upgrade plans, and test your upgrade on non-production instances before upgrading your production instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/upgrades-overview.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Australia release notes]
+breadcrumb: [Brazil release notes]
 ---
 
-# Upgrade to the Australia release
+# Upgrade to the Brazil release
 
 Upgrading and patching your instance requires planning, testing, and validation. To ensure a safe and effective upgrade, read the release notes, create upgrade plans, and test your upgrade on non-production instances before upgrading your production instance.
 

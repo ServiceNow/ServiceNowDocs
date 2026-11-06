@@ -7,7 +7,7 @@ release: australia
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Time sheets, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
@@ -30,15 +30,15 @@ Role required: wm\_agent
 
 4.  Add task-related or non-task related time cards.
 
-<table id="choicetable_yfs_nxg_qmb"><thead><tr><th align="left" id="d118597e85">
+<table id="choicetable_yfs_nxg_qmb"><thead><tr><th align="left" id="d121495e85">
 
 Time card type
 
-</th><th align="left" id="d118597e88">
+</th><th align="left" id="d121495e88">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d118597e94">
+</th></tr></thead><tbody><tr><td id="d121495e94">
 
 **Copy from previous time sheet**
 
@@ -46,7 +46,7 @@ Action
 
 Tap **Copy** from a previous time sheet.
 
-</td></tr><tr><td id="d118597e109">
+</td></tr><tr><td id="d121495e109">
 
 **Add assigned task**
 
@@ -57,7 +57,7 @@ Tap **Copy** from a previous time sheet.
 3.  Tap **Add**.
 
 
-</td></tr><tr><td id="d118597e136">
+</td></tr><tr><td id="d121495e136">
 
 **Add unassigned task**
 
@@ -67,7 +67,7 @@ Tap **Copy** from a previous time sheet.
 2.  Tap **Add**.
 
 
-</td></tr><tr><td id="d118597e157">
+</td></tr><tr><td id="d121495e157">
 
 **Add from category**
 

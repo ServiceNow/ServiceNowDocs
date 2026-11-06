@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/use-ccc.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [ServiceNow Voice, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -27,7 +27,7 @@ As an agent, you should have any of the following roles to receive an inbound ca
 
 After a customer dials in, the corresponding contact flow is invoked in Amazon Connect. Through the configured nodes, the request is forwarded to an operation handler in the ServiceNow instance.
 
-If an agent is available, the agent can receive the call and handle the request using Agent Softphone interface. For information about the presence states of an agent, see [Agent Inbox controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-experience.md).
+If an agent is available, the agent can receive the call and handle the request using Agent Softphone interface. For information about the presence states of an agent, see Agent Inbox controls.
 
 |If|Then the interaction|
 |---|--------------------|
@@ -118,7 +118,7 @@ The activity stream of the associated interaction record is populated with your 
 **Related topics**  
 
 
-[Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-overview.md)
+[bundle-convint.awa-overview]
 
 ## Transferring a call to an agent or queue
 

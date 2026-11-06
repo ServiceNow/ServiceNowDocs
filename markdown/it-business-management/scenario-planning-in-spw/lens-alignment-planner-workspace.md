@@ -7,7 +7,7 @@ release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -34,7 +34,7 @@ Get started with one of the pre-defined lenses, or build a custom lens structure
 
 ## Pre-defined lenses and their structure
 
-Strategic Planning provides nine pre-defined lenses to get you started with building your portfolio plans - Project Portfolio, Project Program, Organization, Strategic Investments, Product, Digital Product, Value Stream, Goals, and Business Capability. Planning managers can use these lenses based on their role at the company.
+Strategic Planning provides ten pre-defined lenses to get you started with building your portfolio plans - Project Portfolio, Project Program, Organization, Strategic Investments, Product, Digital Product, Value Stream, Goals, Project Program, and Business Capability. Planning managers can use these lenses based on their role at the company.
 
 \[Omitted image "predefined-lenses-sp.png"\] Alt text: Predefined lenses - Project Portfolio, Project Program, Organization, Strategic Investments, Product, Digital Product, Value Stream, Goals, and Business Capability.
 

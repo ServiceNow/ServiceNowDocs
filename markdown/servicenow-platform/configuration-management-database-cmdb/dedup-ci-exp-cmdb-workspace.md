@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Duplicate CIs remediation, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,14 +26,14 @@ More information:
 
 ## Access
 
-1.  Navigate to **Workspaces** &gt; **CMDB Workspace**.
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Governance**.
 2.  In the Manage group in Management tools, select either of the following links:
     -   **De-duplication Dashboard**
     -   **De-duplication Template Library**
 
 Role required:
 
--   To access the [Governance view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/sg-workspace-governance-view.md) to perform de-duplication tasks: sn\_cmdb\_admin
+-   To access the [Governance view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/sg-workspace-governance-view.md) to perform de-duplication tasks: sn\_cmdb\_editor or sn\_cmdb\_admin
 -   To perform de-duplication tasks, cmdb\_dedup\_admin or any role containing cmdb\_dedup\_admin \(such as sn\_cmdb\_admin\)
 
 ## De-duplication templates and libraries
@@ -67,7 +67,7 @@ Review the de-duplication templates and ensure that they're properly configured 
 
 ## Manage duplicate CIs skill
 
-You can use the Manage duplicate CIs skill that ServiceNow Otto for CMDB provides to get step-by-step guidance through the de-duplication process. The manage duplicate CIs skill guides you through reviewing de-duplication templates, assigning tasks to the templates, and then running the templates. The manage duplicate CIs skill presents you with relevant options for your next step, as you go, until you complete the remediation.
+You can use the Manage duplicate CIs skill that ServiceNow Otto® for CMDB provides to get step-by-step guidance through the de-duplication process. The manage duplicate CIs skill guides you through reviewing de-duplication templates, assigning tasks to the templates, and then running the templates. The manage duplicate CIs skill presents you with relevant options for your next step, as you go, until you complete the remediation.
 
 For more information, see [ServiceNow Otto for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.md).
 

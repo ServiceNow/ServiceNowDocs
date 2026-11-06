@@ -7,9 +7,9 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-07-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Decision tables reference, Decision tables, Workflow Studio, Build workflows]
+breadcrumb: [Reference, Decision tables, Workflow Studio, Build workflows]
 ---
 
 # Decision Builder system properties
@@ -34,7 +34,7 @@ com.glide.decision\_table.excel\_hide\_references
 
 </td><td>
 
-When set to true, decision tables exported to Excel do not include drop-down lists of records for condition or result columns with type = reference.-   Type: true/false
+When set to true, decision tables exported to Excel will not include drop-down lists of records for condition or result columns with type = reference.-   Type: true/false
 -   Default value: False
 
 </td></tr><tr><td>

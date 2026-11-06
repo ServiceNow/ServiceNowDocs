@@ -7,7 +7,7 @@ release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Now Assist, generative AI]
 breadcrumb: [Regulatory alert summarization skill, AI in Regulatory Change Management, Regulatory Change Management, Governance, Risk, and Compliance]
@@ -43,7 +43,7 @@ By default, all skills exist in the global domain. When you use AI in a domain-s
 
     -   **Workspaces** &gt; **Compliance Workspace**, select the list icon \[Omitted image "ws-list-icon.png"\] Alt text: and then navigate to **Regulatory alerts**.
     -   **Workspaces** &gt; **Compliance Workspace**, select the Regulatory Change Management dashboard icon \[Omitted image "reg-change-icon.png"\] Alt text:. Then in the Activity overview, Tracking, or Trends section, select any segment or value in an Alerts related widget to open the list of regulatory alerts with that state.
-2.  Select a regulatory alert in any state except Closed or Cancelled.
+2.  Select a regulatory alert.
 
 3.  On the Overview tab, select **Summarize**.
 
@@ -51,23 +51,23 @@ By default, all skills exist in the global domain. When you use AI in a domain-s
 
 4.  Review the summary and complete any of the following options.
 
-<table id="choicetable_szp_rjg_d2c"><thead><tr><th align="left" id="d161388e206">
+<table id="choicetable_szp_rjg_d2c"><thead><tr><th align="left" id="d162879e206">
 
 Option
 
-</th><th align="left" id="d161388e209">
+</th><th align="left" id="d162879e209">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d161388e215">
+</th></tr></thead><tbody><tr><td id="d162879e215">
 
-**Share to additional comments**
+**Share to alert summary**
 
 </td><td>
 
-Select the **Share to additional comments** button to launch the Summarized result in an editor window. You can modify or review the summary and make any necessary corrections to improve its accuracy and completeness.
+Select the **Share to alert summary** button to launch the Summarized result in an editor window. You can edit the summary, then select **Save to alert summary** to save your changes on the Overview tab of the regulatory alert.
 
-</td></tr><tr><td id="d161388e230">
+</td></tr><tr><td id="d162879e233">
 
 **View more**
 
@@ -75,7 +75,7 @@ Select the **Share to additional comments** button to launch the Summarized resu
 
 Select this link to expand the summary.
 
-</td></tr><tr><td id="d161388e239">
+</td></tr><tr><td id="d162879e242">
 
 **View less**
 
@@ -83,25 +83,25 @@ Select this link to expand the summary.
 
 Select this link to collapse the summary.
 
-</td></tr><tr><td id="d161388e248">
+</td></tr><tr><td id="d162879e251">
 
 **Provide feedback**
 
 </td><td>
 
-Select the helpful icon \[Omitted image "7460640cd7ecb24dc0c83ec9493197f65fc93719.png"\] Alt text: for positive feedback. Select the not helpful icon \[Omitted image "632478fc6dbb398af6773211af54c1d606b6607f.png"\] Alt text: if the summary wasn't helpful.
+Select the helpful icon \[Omitted image "782b0af82d02a8f89b5683cfe66de267c3a4c0b7.png"\] Alt text: for positive feedback. Select the not helpful icon \[Omitted image "bd21ca617dc78d98ad596e018f504a4959c444eb.png"\] Alt text: if the summary wasn't helpful.
 
  **Note:** Feedback improves the generative AI model and can help to improve future versions of this skill.
 
-</td></tr><tr><td id="d161388e274">
+</td></tr><tr><td id="d162879e277">
 
 **Copy the summary**
 
 </td><td>
 
-Select the copy icon \[Omitted image "b39b43a47f9751945329be2990af4b95d5e09f7b.png"\] Alt text: to copy the summary to the clipboard.
+Select the copy icon \[Omitted image "4a77b72651daa7f80649c76601bbaafcf4b6f999.png"\] Alt text: to copy the summary to the clipboard.
 
-</td></tr><tr><td id="d161388e291">
+</td></tr><tr><td id="d162879e294">
 
 **Regenerate the summary**
 

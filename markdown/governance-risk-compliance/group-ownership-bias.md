@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/group-ownership-bias.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-14"
-reading_time_minutes: 11
+last_updated: "2026-09-10"
+reading_time_minutes: 10
 keywords: [BCM, group ownership, owner group, BIA, business continuity plan, recovery event, team-based ownership]
 breadcrumb: [Explore, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -60,7 +60,6 @@ Either the **Owner** or the **Owner group** field is required to save the record
     At least one ownership field must be populated before saving:
 
     -   If both the **Owner group** and **Owner** fields are empty, both fields appear in red with an asterisk.
-    -   A validation error message appears displaying: `Select either a group or an individual to save the record and proceed with the workflow.`
     -   An informational banner prompts you to populate at least one ownership field.
     -   The record can only be saved when at least one ownership field is populated.
 
@@ -104,7 +103,7 @@ The following scenarios describe common ownership management tasks applicable ac
 
 -   **Change the individual owner within a group**
 
-    When a group is assigned as the owner group, you can designate or change the individual owner to any member of that group. The individual owner updates while the group ownership remains unchanged. If the individual owner leaves the group, the group ownership persists, and another group member is set to the new individual owner.
+    When a group is assigned as the owner group, you can designate or change the individual owner to any member of that group. The individual owner updates while the group ownership remains unchanged.
 
 -   **Assign an owner outside the group**
 
@@ -120,7 +119,7 @@ The following scenarios describe common ownership management tasks applicable ac
 
 -   **Manage contributors and group membership changes**
 
-    When contributors are added to or removed from a BIA, or when group members are added or removed, the system automatically syncs changes. This maintains real-time alignment between the record and related assessments \(BIA-specific\). During contributor synchronization from the BIA to the assessment, the member assigned to the **BCM lead** field is also synced to the assessment.
+    During contributor synchronization from the BIA to the assessment, the member assigned to the **BCM lead** field is also synced to the assessment.
 
 -   **Contributor access is independent of group ownership**
 
@@ -223,7 +222,7 @@ BCM Managers can edit the owner group only while records are in Draft state. BCM
 |Workflows|Group ownership integrated into record state transitions, approvals, and escalation rules|
 |Document export|Group ownership details are covered in the PDF and Word reports|
 |Copy and clone|When you copy a plan, the new record inherits both the original owner and owner group. When you copy a BIA, the new record inherits only the original owner group. The system automatically assigns the current user as the individual owner of the copied BIA.|
-|Audit trail|Historical logging tracks ownership changes and group member role transitions|
+|Audit trail|Historical logging tracks ownership changes|
 |Smart Assessment|Assessment owners default to group manager or first group member when BIA owner is not selected|
 
 ## Workspace parity

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/add-guided-decisions-service-portal.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring guidances and decision trees, Guided Decisions configuration, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -32,15 +32,15 @@ These steps are intended for users with little to no coding experience.
 
 3.  From the Service Portal Designer, either select an existing page or add a new page.
 
-<table id="choicetable_bmv_x5r_c1c"><thead><tr><th align="left" id="d193944e111">
+<table id="choicetable_bmv_x5r_c1c"><thead><tr><th align="left" id="d198280e111">
 
 Option
 
-</th><th align="left" id="d193944e114">
+</th><th align="left" id="d198280e114">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d193944e120">
+</th></tr></thead><tbody><tr><td id="d198280e120">
 
 **Use an existing page**
 
@@ -48,7 +48,7 @@ Action
 
 Select the page.
 
-</td></tr><tr><td id="d193944e129">
+</td></tr><tr><td id="d198280e129">
 
 **Add a page**
 

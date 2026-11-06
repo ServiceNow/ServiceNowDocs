@@ -1,20 +1,20 @@
 ---
 title: Manage a project
-description: Edit or delete a project from the Project Definition form. Delete a project if you are not using it and want to clean up data. Deleting a project deletes the project's configurations and versions or projects it has generated.
+description: Edit or delete a project. Delete a project if you aren't using it and want to clean up data. Deleting a project deletes the project's configurations and versions or projects it has generated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/edit-project.html
 release: australia
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a project using Classic view, Use, Process Mining, Platform Analytics]
 ---
 
 # Manage a project
 
-Edit or delete a project from the Project Definition form. Delete a project if you are not using it and want to clean up data. Deleting a project deletes the project's configurations and versions or projects it has generated.
+Edit or delete a project. Delete a project if you aren't using it and want to clean up data. Deleting a project deletes the project's configurations and versions or projects it has generated.
 
 ## Before you begin
 

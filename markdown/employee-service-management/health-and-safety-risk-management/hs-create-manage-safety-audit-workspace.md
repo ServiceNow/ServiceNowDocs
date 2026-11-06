@@ -7,7 +7,7 @@ release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-06"
 reading_time_minutes: 8
 breadcrumb: [Safety inspections and audits, Use, Health and Safety Risk Management, Health and Safety, Employee Service Management]
 ---
@@ -34,15 +34,15 @@ You can also set up an audit schedule to generate recurring safety audits. For m
 
 4.  Select **New** and then select an audit creation method.
 
-<table id="choicetable_ll2_jw3_l3c"><thead><tr><th align="left" id="d597537e111">
+<table id="choicetable_ll2_jw3_l3c"><thead><tr><th align="left" id="d596721e111">
 
 Option
 
-</th><th align="left" id="d597537e114">
+</th><th align="left" id="d596721e114">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d597537e120">
+</th></tr></thead><tbody><tr><td id="d596721e120">
 
 **Add to audit schedule**
 
@@ -52,7 +52,7 @@ Select this option to create this audit as part of an existing audit schedule.1.
 2.  Select **Create**.
 
 
-</td></tr><tr><td id="d597537e143">
+</td></tr><tr><td id="d596721e143">
 
 **Standalone audit**
 
@@ -105,7 +105,7 @@ Select this option to create an independent audit. 1.  In the **Regulatory audit
 
     3.  In the **Risk assessments** tab, select **New** to conduct a risk assessment as part of this audit.
 
-        -   Alternatively, select **Add** to associate an existing risk assessment to the audit record.
+        -   To associate an existing risk assessment with the audit record, select **Add**. The list displays only risk assessment records that you have permission to update based on your role and the record assignment.
         -   For more information, see [Conduct a safety risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/hs-conduct-risk-assessment.md).
     4.  In the **Audit actions** tab, create and assign any actions based on findings and recommendations.
 

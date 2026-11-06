@@ -7,7 +7,7 @@ release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2026-09-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Common GRC features, Governance, Risk, and Compliance]
 
 Issue workflows define the lifecycle, layout, guided activities, approval requirements, and routing rules for different types of issues.
 
-Different types of issues can require different states, layouts, guidance, and approval controls. Issue workflows allow multiple issue-management processes to operate on the same table, with each workflow configured for a particular type of issue. As a result, supporting a new issue-management process no longer requires customizing the issue table.
+Different types of issues can require different states, layouts, guidance, and approval controls. Issue workflows enable multiple issue-management processes to operate on the same table, with each workflow configured for a particular type of issue. As a result, supporting a new issue-management process no longer requires customizing the issue table.
 
 ## Key benefits
 
@@ -69,9 +69,9 @@ The playbook and approval definitions are optional. A workflow can define a layo
 
 When a new issue is created, the system evaluates active workflows configured for its table, beginning with the lowest priority number. The first workflow with a matching trigger condition is assigned. A workflow without a trigger condition applies to any new issue on its table that reaches it during evaluation. Active workflows on the same table can't share a priority number, so a new issue is never routed ambiguously.
 
-If no active workflow matches, the issue is created without a workflow configuration and continues to use the existing issue behavior. The vertical layout remains available, but workflow-specific playbooks and approval definitions do not apply. Existing issues are not evaluated retrospectively.
+If no active workflow matches, the issue is created without a workflow configuration and continues to use the existing issue behavior. The vertical layout remains available, but workflow-specific playbooks and approval definitions don't apply. Existing issues aren't evaluated retrospectively.
 
-The assigned workflow does not change automatically if the issue later matches another workflow's conditions. An issue without an assigned workflow cannot be moved to a configured workflow. For an issue that already has a workflow, the **Change workflow** action is available when more than one active workflow exists. See [Reassign an issue's workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/reassign-an-issue-s-workflow.md).
+The assigned workflow does not change automatically if the issue later matches another workflow's conditions. An issue without an assigned workflow can't be moved to a configured workflow. For an issue that already has a workflow, the **Change workflow** action is available when more than one active workflow exists. See [Reassign an issue's workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/reassign-an-issue-s-workflow.md).
 
 -   **[Access issue workflow administration from a workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/access-issue-workflow-administration-from-a-workspace.md)**  
 Reach issue workflow configuration from within a product workspace, such as Risk Workspace, instead of navigating to the base GRC admin console.
@@ -96,7 +96,7 @@ Stop an active workflow from being evaluated for new issues on its table.
 -   **[Clone an issue workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/clone-an-issue-workflow.md)**  
 Create a copy of an existing workflow to use as a starting point for a new workflow.
 -   **[Reassign an issue's workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/reassign-an-issue-s-workflow.md)**  
-Change the workflow assigned to an issue when more than one active workflow exists for the issue's table.
+Change the workflow that an existing issue follows so the issue uses the states, layout, and approval rules of a different workflow on the same table.
 
 **Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/common-grc-features.md)
 

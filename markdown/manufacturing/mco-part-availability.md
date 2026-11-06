@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-part-availability.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [parts availability, recall campaign part availability, recall management, part requirement, RCPPA, quantity allocated]
-breadcrumb: [Corrective actions, Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
+breadcrumb: [Generate a part requirement, Corrective actions, Create a campaign, Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create a parts availability
@@ -21,7 +21,7 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Recall Management** &gt; **My Campaigns**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **Lists** &gt; **Recall Management** &gt; **My Campaigns**.
 
 2.  Select the corresponding campaign record in which you want to generate the part requirements.
 
@@ -49,4 +49,6 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager
 
 8.  Select **Save**.
 
+
+**Parent Topic:**[Generate a part requirement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-part-requirements.md)
 

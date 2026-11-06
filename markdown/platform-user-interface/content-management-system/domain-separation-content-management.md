@@ -7,7 +7,7 @@ release: australia
 product: Content Management System
 classification: content-management-system
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Content Management System, Configure UIs and portals, Configure user experiences]
 ---
@@ -40,5 +40,5 @@ For more information on support levels, see [Application support for domain sepa
 
 [CMS translation]()
 
-[bundle-psec.domain-sep-landing-page]
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 

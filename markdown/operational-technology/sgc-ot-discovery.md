@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/sgc-ot-discovery.html
 release: australia
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 breadcrumb: [Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -24,8 +24,8 @@ If you have any errors or difficulties while using the Service Graph Connector, 
 The Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery imports data from a connected Operational Technology \(OT\) Discovery environment and leverages the Integration Hub ETL framework.
 -   **[Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery prerequisites and settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/sgc-prereq-settings.md)**  
 During set up of the Discovery Console for OT, review and confirm you have the following settings.
--   **[Install the Service Graph Connector for ServiceNow Operational Technology Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/install-sgc-ot-discovery.md)**  
-Install the Service Graph Connector for ServiceNow Operational Technology Discovery from the ServiceNow Store.
+-   **[Install the Service Graph Connector for ServiceNow OT Discovery Service Graph Connector for ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/install-sgc-ot-discovery.md)**  
+Install the Service Graph Connector for ServiceNow OT Discovery from the ServiceNow Store.
 -   **[Service Graph Connector for ServiceNow OT Discovery Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/sgc-ot-discovery-guided-setup.md)**  
 Use the Guided Setup for the Service Graph Connector for ServiceNow OT Discovery to lead you through the installation, connection, configuration, and integration steps for the OT Discovery environment.
 -   **[Configure the OT Discovery connections &amp; credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/configure-the-ot-discovery-connections-credentials.md)**  

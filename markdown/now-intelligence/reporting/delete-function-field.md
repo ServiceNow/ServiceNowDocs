@@ -7,9 +7,9 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Report on function fields, Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Report on function fields, Advanced Core UI reporting topics, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Deactivate a function field
@@ -34,7 +34,7 @@ Role required: admin, function\_field\_admin
 
     If one or more reports or visualizations uses the function field, you see a link to a list of those reports. You can review the list, choose **Deactivate anyway**, or select **Cancel**.
 
-6.  Confirm the deactivation or cancel.
+6.  Confirm the deactivation.
 
 
 ## Result

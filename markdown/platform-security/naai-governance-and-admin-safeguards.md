@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/naai-governance-and-admin-safeguards.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Agentic AI security and governance]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Agentic AI security and governance]
 
 Find guidance on preparing your instance for AI deployment, maintaining domain separation, and reducing risk across your Now Assist implementation.
 
-Responsible AI deployment requires more than configuring individual features. You need to verify that your instance is ready before you go live, maintain proper data separation across domains, and ensure your AI implementation stays aligned with your organization's governance requirements over time.
+Responsible AI deployment requires more than configuring individual features. You must verify that your instance is ready before you go live, maintain proper data separation across domains, and ensure your AI implementation stays aligned with your organization's governance requirements over time.
 
 ## AI readiness assessment
 

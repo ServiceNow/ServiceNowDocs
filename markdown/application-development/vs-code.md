@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/vs-code.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # ServiceNow Extensions for Visual Studio Code
@@ -37,7 +37,7 @@ Download and install ServiceNow extensions to begin editing your applications in
 Activate the ServiceNow Extensions for VS Code to be able to edit applications within your ServiceNow instance.
 -   **[Set up a workspace in VS Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/setup-workspace.md)**  
 Using the ServiceNow Extensions for VS Code, create a project work folder to use as a workspace for ServiceNow applications.
--   **[Create a project in VS Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/create-project.md)**  
+-   **[Create a project in VS Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/process-mining/create-project.md)**  
 ServiceNow applications are contained within a project in the VS Code IDE. Import an application from your ServiceNow instance with the help of ServiceNow Extensions for VS Code.
 -   **[Synchronization between Visual Studio Code and a ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vscode-sync.md)**  
 You can synchronize your applications between Visual Studio Code and your ServiceNow instance.

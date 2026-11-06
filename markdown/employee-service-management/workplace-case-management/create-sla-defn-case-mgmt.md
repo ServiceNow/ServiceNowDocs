@@ -7,7 +7,7 @@ release: australia
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -58,7 +58,7 @@ The SLA Definition is created.
 
 [Create a Workplace task template]()
 
-[Smart Assessment for workplace cases and tasks]()
+[Smart Assessment for Workplace Case and Task]()
 
 [Automating seat assignment for new hires]()
 

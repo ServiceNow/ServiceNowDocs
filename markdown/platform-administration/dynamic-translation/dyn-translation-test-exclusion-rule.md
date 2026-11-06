@@ -7,7 +7,7 @@ release: australia
 product: Dynamic Translation
 classification: dynamic-translation
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Exclusion Framework in Dynamic Translation, Configuring Dynamic Translation, Dynamic Translation, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -45,15 +45,15 @@ You can test iteratively to refine your exclusion pattern.
 
 2.  Select the appropriate option for the first question, **Do you want to test an existing or new exclusion rule?**
 
-<table id="choicetable_smp_tfm_tfc"><thead><tr><th align="left" id="d201755e136">
+<table id="choicetable_smp_tfm_tfc"><thead><tr><th align="left" id="d202885e136">
 
 Option
 
-</th><th align="left" id="d201755e139">
+</th><th align="left" id="d202885e139">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d201755e145">
+</th></tr></thead><tbody><tr><td id="d202885e145">
 
 **Existing exclusion rule**
 
@@ -61,7 +61,7 @@ Description
 
 If you choose this option, the next field opens: **Which exclusion pattern would you like to test?** Select your pattern from the list, or use the field's search function.The information icon \(\[Omitted image "information-icon.png"\] Alt text: Information icon.\) offers a read-only summary of the selected rule.
 
-</td></tr><tr><td id="d201755e163">
+</td></tr><tr><td id="d202885e163">
 
 **New exclusion rule**
 

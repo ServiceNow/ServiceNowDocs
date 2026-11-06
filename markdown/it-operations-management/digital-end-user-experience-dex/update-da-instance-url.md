@@ -1,0 +1,44 @@
+---
+title: Update instance URL in the Desktop Assistant configuration file
+description: As an administrator, update the instance URL in the Desktop Assistant configuration file to automatically populate the Desktop Assistant login page instance URL on devices where it is installed.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/update-da-instance-url.html
+release: australia
+product: Digital End-User Experience \(DEX\)
+classification: digital-end-user-experience-dex
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Download and install, Setting up Desktop Assistant, Configure, Digital End-User Experience, IT Operations Management]
+---
+
+# Update instance URL in the Desktop Assistant configuration file
+
+As an administrator, update the instance URL in the Desktop Assistant configuration file to automatically populate the Desktop Assistant login page instance URL on devices where it is installed.
+
+## Before you begin
+
+Role required: admin
+
+**Note:** Only an administrator must update the configuration file or make changes to it while deploying Desktop Assistant on devices.
+
+Desktop Assistant users can update the instance URL when logging in to the application. For more information, see [Open and log in to Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/open-desktop-exp.md).
+
+## Procedure
+
+1.  On your computer, navigate to the folder that contains the `settings.json` file.
+
+    -   On Windows devices: Navigate to the `C:\Users\user_name\AppData\Roaming\desktop_assistant_app` folder.
+    -   On macOS devices: Navigate to the `Users/user_name/Library/Application Support/desktop_assistant_app` folder.
+
+        **Note:** If you don’t see a folder, press Command+Shift+period \(.\) to show hidden folders.
+
+2.  Find and open the `settings.json` file.
+
+3.  Enter the Desktop Assistant instance URL in the **instanceURL** field of the JSON file.
+
+    You can also customize the Desktop Assistant login page by changing the **loginHeader**, **loginBody**, and **companyLogoSvg** values in the configuration file.
+
+4.  Save and close the JSON file.
+
+

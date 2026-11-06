@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-30"
 reading_time_minutes: 2
 keywords: [Consumption rule, software asset management consumption rule, device based metrics, user based metrics]
-breadcrumb: [Explore, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Consumption rule evaluation

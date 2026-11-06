@@ -7,7 +7,7 @@ release: australia
 product: Asset Management
 classification: asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Base Asset Management, Common applications, Asset Management]
 ---
@@ -26,4 +26,6 @@ Use the Model management view in the Asset Workspace to create or modify models 
 |Consumable models up for end of life this year|Count of consumable models whose start date of the end of life phase is the current year.|
 |Missing data|Count of models that have missing model name, manufacturer, and model number.|
 |Product model status|Current count of hardware, consumable, and software models based on the status of the models.|
+
+**Parent Topic:**[Exploring Asset Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/exploring-asset-management.md)
 

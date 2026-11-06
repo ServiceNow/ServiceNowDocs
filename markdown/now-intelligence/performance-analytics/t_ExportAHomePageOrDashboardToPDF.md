@@ -7,9 +7,9 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Working with responsive dashboards, Create and use dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Working with responsive dashboards, Create and use Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Export a responsive dashboard to PDF
@@ -20,7 +20,7 @@ Export a dashboard as a PDF so you can archive, print, or distribute it.
 
 This topic refers to Dashboards in the Core UI. If your instance is migrated to Platform Analytics experience, see [Export a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/export-pae-dashboard-ppt.md).
 
-Roles required: No role is required to export dashboards to PDF, however, an admin has to configure the instance for PDF export. See [Enable PDF export of dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/enable-pdf-export.md) for more information.
+Roles required: No role is required to export dashboards to PDF, however, an admin has to configure the instance for PDF export. See [Enable PDF export of Core UI dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/enable-pdf-export.md) for more information.
 
 ## About this task
 

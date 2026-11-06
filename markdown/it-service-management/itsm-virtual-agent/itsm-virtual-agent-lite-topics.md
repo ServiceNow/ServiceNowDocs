@@ -1,20 +1,22 @@
 ---
-title: ITSM Virtual Agent Lite pre-built topics
-description: ITSM Virtual Agent Lite includes several pre-built, read-only topic conversations you can use to set up a virtual agent for your end users.
+title: \(Legacy\) ITSM Virtual Agent Lite prebuilt topics
+description: ITSM Virtual Agent Lite includes several prebuilt, read-only topic conversations you can use to set up a virtual agent for your end users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-virtual-agent/itsm-virtual-agent-lite-topics.html
 release: australia
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up ITSM Virtual Agent Lite, ITSM Virtual Agent Lite, IT Service Management]
+breadcrumb: [Setting up, ITSM Virtual Agent Lite, IT Service Management]
 ---
 
-# ITSM Virtual Agent Lite pre-built topics
+# \(Legacy\) ITSM Virtual Agent Lite prebuilt topics
 
-ITSM Virtual Agent Lite includes several pre-built, read-only topic conversations you can use to set up a virtual agent for your end users.
+ITSM Virtual Agent Lite includes several prebuilt, read-only topic conversations you can use to set up a virtual agent for your end users.
+
+**Important:** Starting with the Brazil release, ITSM Virtual Agent Lite is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## ITSM Virtual Agent Lite topics
 
@@ -27,5 +29,5 @@ ITSM Virtual Agent Lite includes several pre-built, read-only topic conversation
     Users can create incidents using a [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_RecordProducer.md).
 
 
-**Parent Topic:**[Setting up ITSM Virtual Agent Lite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/setup-itsm-virtual-agent-lite.md)
+**Parent Topic:**[\(Legacy\) Setting up ITSM Virtual Agent Lite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-virtual-agent/setup-itsm-virtual-agent-lite.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 breadcrumb: [Import models and templates, Explore, Telecommunications Network Inventory]
 ---
@@ -37,7 +37,7 @@ On import model request submission, the system processes each row in the Excel f
 
 The models are based on the model class and model category specified in each row. Model relationships between these models are based on the relationship type, parent entity ID, and root entity ID values in the spreadsheet. Model relationships are created only for the rows where the relationship type, parent entity ID, and root entity ID are defined in the Excel file.
 
-You must manually create any model relationships not defined in the spreadsheet. To learn more, see [Modeling network inventory relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/inventory-modeling-process.md). If a model already exists in the system, the record is matched and updated to prevent duplicates.
+You must manually create any model relationships not defined in the spreadsheet. To learn more, see [Model relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/inventory-modeling-process.md). If a model already exists in the system, the record is matched and updated to prevent duplicates.
 
 During the import, the Integration Commons for CMDB plugin runs in the background. Normalization rules are applied to manufacturer and company names to keep your data clean and standardized. The normalization rules are applied only if the Normalization Data Service Client is installed. To learn more, see [Normalization data services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_NormalizationOverview.md).
 

@@ -7,7 +7,7 @@ release: australia
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Project workbench - Legacy, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -24,15 +24,15 @@ Role required: it\_project\_manager
 
 -   Access the project workbench in one of the following ways.
 
-<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d308860e62">
+<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d320456e62">
 
 Option
 
-</th><th align="left" id="d308860e65">
+</th><th align="left" id="d320456e65">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d308860e71">
+</th></tr></thead><tbody><tr><td id="d320456e71">
 
 **From Planning Console**
 
@@ -43,7 +43,7 @@ Steps
 3.  Select the **Planning Console** selection arrow on the banner and select **Project Workbench**.
 
 
-</td></tr><tr><td id="d308860e108">
+</td></tr><tr><td id="d320456e108">
 
 **From a project record**
 

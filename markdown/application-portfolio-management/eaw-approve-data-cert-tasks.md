@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-approve-data-cert-tasks.html
 release: australia
 topic_type: task
-last_updated: "2026-03-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Working with data certification, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -16,7 +16,7 @@ You can review and complete data certification tasks to confirm that records mee
 
 ## Before you begin
 
-\[Omitted video\] Description: Video demonstrating how to review and certify data certification tasks in the Enterprise Architecture Workspace, including selecting certification status, reassigning tasks, and submitting completed reviews. \[Omitted video\] Description:
+\[Omitted video\] Description: Video demonstrating how to review and certify data certification tasks in the Enterprise Architecture Workspace, including selecting certification status, reassigning tasks, and submitting completed reviews.
 
 You must be assigned a certification task as a user or as a member of an assigned user group.
 

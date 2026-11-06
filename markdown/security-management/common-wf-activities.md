@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/common-wf-activities.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---
@@ -52,7 +52,7 @@ The **Update security incident with lookup results** workflow updates existing s
 The Filtered Allowlisted Observables workflow activity removes observables that can be ignored from the list of observables. This activity can accelerate the investigation and remediation process.
 -   **[Write content to record as attachment activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/write-content-record-attachment-activity.md)**  
 This activity writes the content passed in from an input and creates a designated attachment to a given record.
--   **[Get IP from CI activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/get-ip-from-ci-activity.md)**  
+-   **[Get IP from CI activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
 The Get IP from CI flow activity gathers the IP address from configuration items \(CIs\) to use in the flow.
 
 **Parent Topic:**[Security Operations Integration Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/secops-integ-ref.md)

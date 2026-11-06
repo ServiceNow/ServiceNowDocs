@@ -7,7 +7,7 @@ release: australia
 product: Legal Matter Management
 classification: legal-matter-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Engage with outside counsel, Work on a legal matter, Use, Legal Matter Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -24,15 +24,15 @@ Role required: sn\_lg\_matter.matter\_fulfiller, sn\_lg\_ops.legal\_fulfiller
 
 1.  Open a legal matter.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d160467e51">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d160461e51">
 
 Method
 
-</th><th align="left" id="d160467e54">
+</th><th align="left" id="d160461e54">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d160467e60">
+</th></tr></thead><tbody><tr><td id="d160461e60">
 
 **Using Legal Counsel Center homepage**
 
@@ -42,7 +42,7 @@ Action
 2.  Select **View All** option on the Matters widget.
 
 
-</td></tr><tr><td id="d160467e95">
+</td></tr><tr><td id="d160461e95">
 
 **Using Legal Counsel Center lists**
 
@@ -53,7 +53,7 @@ Action
 3.  In the Lists tab, navigate to **Matters** &gt; **All**.
 
 
-</td></tr><tr><td id="d160467e145">
+</td></tr><tr><td id="d160461e145">
 
 **Using platform view**
 

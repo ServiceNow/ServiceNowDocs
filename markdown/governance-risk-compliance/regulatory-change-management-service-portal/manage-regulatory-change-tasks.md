@@ -7,7 +7,7 @@ release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Regulatory change tasks, Regulatory Change Management Core UI, Use, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -150,7 +150,7 @@ Action Tasks
 
 Regulatory action tasks. Select **New** to create a regulatory action task in response to the regulatory change task.**Note:**
 
-If there are regulatory action tasks that are in progress when the parent regulatory task is closed manually, all the associated regulatory action tasks are moved to the Cancelled state with the following warning message: `Action tasks for this Regulatory Change Task/Document Import Task are in-progress. Selecting OK will cancel them. Do you want to proceed?`
+If in-progress regulatory action tasks exist when the parent regulatory task is closed manually, all associated regulatory action tasks move to the Cancelled state. The following warning message appears: `Action tasks for this Regulatory Change Task/Document Import Task are in-progress. Selecting OK will cancel them. Do you want to proceed?`
 
 If there are no regulatory action tasks associated or if the regulatory action tasks are closed, the following message is displayed: `Are you sure you want to close this task? Select OK to close the task.`
 

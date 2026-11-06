@@ -7,9 +7,9 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Employee Relations, Employee Relations, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Employee Relations, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Create a COE security policy
@@ -58,19 +58,19 @@ Center of Excellence \(COE\) that you want to create a security policy for.**Not
 
 </td></tr><tr><td>
 
-Applies to all services
-
-</td><td>
-
-Option to apply all HR services for the COE security policy.
-
-</td></tr><tr><td>
-
 Applies to all child COEs
 
 </td><td>
 
 Option to apply the security policy on child COEs of the parent COE.
+
+</td></tr><tr><td>
+
+Applies to all services
+
+</td><td>
+
+Option to apply all HR services for the COE security policy.
 
 </td></tr><tr><td>
 

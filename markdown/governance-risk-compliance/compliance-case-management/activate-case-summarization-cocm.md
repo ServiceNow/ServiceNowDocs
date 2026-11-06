@@ -7,8 +7,8 @@ release: australia
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Case summarization for compliance cases, AI in Compliance Case Management, Compliance Case Management, Governance, Risk, and Compliance]
 ---
 
@@ -47,7 +47,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin and sn\_nowassist\_admin.user
 
 ## What to do next
 
-You can edit the skill configurations from the AI Admin Hub console after activation. For instructions, refer to .
+You can edit the skill configurations from the AI Admin Hub console after activation. For instructions, refer to [Customize a ServiceNow Otto for Integrated Risk Management \(IRM\) skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/customize-a-skill.md).
 
 -   **[GRC case summarization skill configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/compliance-case-management/case-summarization-config-fields.md)**  
 Review the skill details on each configuration tab before activating the GRC case summarization skill. Even after activation, these fields can be edited to refine the AI-generated summary.

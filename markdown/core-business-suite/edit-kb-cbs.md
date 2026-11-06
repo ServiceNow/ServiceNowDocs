@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/edit-kb-cbs.html
 release: australia
 topic_type: task
-last_updated: "2026-07-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [edit knowledge base, Core Business Suite, knowledge management, Configuration Console]
 breadcrumb: [Knowledge Base in Core Business Suite, Configure, Core Business Suite]

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-sca-record.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Scenario Analysis, Operational Resilience, Playbook, statistical modelling, create record]
-breadcrumb: [Building a scenario analysis using simulation, Scenario analysis using simulation, Scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Building a scenario analysis using simulation, Conducting a scenario analysis, Scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Create a scenario analysis record using simulation
@@ -56,7 +56,7 @@ Users with the sn\_oper\_res.user role can view records and playbook stages in r
     -   **Manual** — Uses an SME-driven assessment template without simulation.
     **Note:** The **Method** field defines which of the two scenario analysis flows you use; it is a choice, not an optional step. Select **Statistical Modelling** for a Monte Carlo simulation, or **Manual** for a qualitative SME assessment.
 
-    When you choose **Manual**, the **Statistical model profile** field is hidden, the playbook omits the Reference Data and Results steps. The Scenario Testing step uses an SME-driven assessment template instead of a simulation. All other playbook steps are identical.
+    When you choose **Manual**, the **Statistical model profile** field is hidden. The playbook omits the Reference Data and Results steps. The Scenario Testing step uses an SME-driven assessment template instead of a simulation. All other playbook steps are identical.
 
     **Statistical Modelling** is selected by default.
 

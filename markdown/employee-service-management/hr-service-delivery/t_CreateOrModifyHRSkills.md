@@ -7,7 +7,7 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [HR skills management, Manage HR roles, HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
@@ -33,6 +33,18 @@ The following procedure describes how to create and edit HR skills from the Skil
 3.  Enter or edit the name of the **Skill** and **Description**.
 
 4.  Click **Submit** to save your changes.
+
+5.  To assign users to the skill, complete the following steps.
+
+    1.  Locate and click the skill in the **All Skills** column.
+
+    2.  Click **Assign/Remove Users** at the top, right.
+
+    3.  Click the users you want assigned to this skill.
+
+    4.  Click **Save**.
+
+    If you add users to a skill with child skills, the child skills are assigned to the user. Messages are displayed to notify you of the skills that were assigned.
 
 
 **Parent Topic:**[HR skills management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_HRSkillsManagement.md)

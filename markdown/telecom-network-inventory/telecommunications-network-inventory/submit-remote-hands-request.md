@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Remote Hands Request, Use, Telecommunications Network Inventory]
 ---
@@ -28,7 +28,7 @@ Role required: sn\_ni\_dcim\_user
 
 ## About this task
 
-The Remote Hand Request form enables your customers to request services for equipment housed in your datacenters by connecting them directly with your onsite agents handling the remote hands requests.
+The Remote Hand Request form enables your customers to request services for equipment housed in your datacenters. It connects customers directly with your onsite agents handling the remote hands requests.
 
 ## Procedure
 

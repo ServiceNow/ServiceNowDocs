@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 breadcrumb: [Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -28,7 +28,7 @@ The dependency map on the main CI also shows the related CIs, as illustrated by 
 
 \[Omitted image "iis-server-related-cis.png"\] Alt text: related CIs to an IIS server
 
-After you discover the main CI and its related CIs for the first time using a pattern, you must manually configure an entry in the Related CI Types \[sa\_ci\_to\_pattern\] table for each relation between the main CI and a related CI type. These records are where you determine the deletion strategy for each related CI based on its type. Note that you cannot set a deletion strategy for the main CI for Infrastructure pattern type.
+After you discover the main CI and its related CIs for the first time using a pattern, manually configure an entry in the Related CI Types \[sa\_ci\_to\_pattern\] table for each relation between the main CI and a related CI type. Each record determines the deletion strategy for a related CI based on its type. You cannot set a deletion strategy for the main CI when using the Infrastructure pattern type.
 
 You can view a list of the relations as the following image illustrates:
 

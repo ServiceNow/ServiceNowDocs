@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-02"
 reading_time_minutes: 3
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [Increasing AI readiness, AI Admin Center, Enable AI experiences]
+breadcrumb: [Increasing AI readiness, AI Admin Center, Getting started with AI, Enable AI Experiences]
 ---
 
 # View your AI readiness in AI Admin Center \(Lux UI\)
@@ -17,7 +17,7 @@ Review the results of readiness assessments run for your instance.
 
 **Important:** Lux is the new user experience for AI Admin Center. For more information on the Lux experience, see [AI Admin Center user experience \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-admin-center-lux-user-experience.md).
 
-The Next Experience AI Admin Center workspace is being prepared for deprecation in the November store release and will no longer be supported. For more information on the Next Experience UI, see [AI Admin Center workspace \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-workspace.md).
+The Next Experience AI Admin Center workspace is being prepared for future deprecation and will no longer be supported. For more information on the Next Experience UI, see [AI Admin Center workspace \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-workspace.md).
 
 In AI Admin Center version 6.1, the Next Experience and Lux user interfaces are both available.
 
@@ -42,6 +42,8 @@ Follow these steps to review and evaluate the readiness of your instance for AI 
 2.  Review the **Readiness** section of the home page to see the overall AI readiness for the instance.
 
     The section displays data visualizations for overall instance health and data quality.
+
+    \[Omitted image "ai-admin-center-lux-home-readiness.png"\] Alt text: Readiness section of the AI Admin Center home page.
 
 3.  Select **View all** in the **Readiness** section or select **Readiness** \(\[Omitted image "icon-aiac-lux-nav-readiness.png"\] Alt text: Readiness icon.\) in the side navigation panel to view the complete list of AI readiness checks.
 

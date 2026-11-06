@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_ConfAltEmailConfPOP3Server.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Advanced email setup, Configure, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -22,19 +22,17 @@ You can use your own POP3 server to store and receive email for the instance.
 
 ## Procedure
 
-1.  Create a mailbox for your instance that has a custom email address on your POP3 server.
-
-    For example, create a mailbox for `service-desk@company.com`.
+1.  On your POP3 server, create a mailbox for your instance that has a custom email address. For example, create a mailbox for `service-desk@company.com`.
 
 2.  Navigate to **System Mailboxes** &gt; **Administration** &gt; **Email Accounts**.
 
     The system displays the list of available email accounts.
 
-3.  If you don't want to receive, email sent to the instance@service-now.com mailbox, locate the record for **ServiceNow POP3** and change **Active** to **false**.
+3.  If you do not want to receive, email sent to the instance@service-now.com mailbox, locate the record for **ServiceNow POP3** and change **Active** to **false**.
 
     An instance can receive email from multiple POP3 accounts at the same time. Leaving the **ServiceNow POP3** account active permits the instance to receive email sent to the default email address.
 
-4.  Select **New**.
+4.  Click **New**.
 
     The system displays an empty email Account form.
 
@@ -136,7 +134,7 @@ System Address Filter
 
 </td><td>
 
-System address filter to apply to the email account. If left empty, the system uses the default system address filter for inbound or outbound email.
+System address filter to apply to the email account. If left blank, the system uses the default system address filter for inbound or outbound email.
 
  For more information, see [System address filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/system-address-filters.md).
 
@@ -167,16 +165,16 @@ Option to create node logs for the raw data that is exchanged with the email ser
  You can enable this field temporarily to diagnose issues related to receiving or sending email.
 
 </td></tr></tbody>
-</table>7.  From **Related Links**, select **Test Connection**.
+</table>7.  From **Related Links**, click **Test Connection**.
 
     If the email account is valid, the system returns a success message.
 
-    \[Omitted image "connection-successful.png"\] Alt text: Connection dialog showing a successful connection test result for a POP3 email account
+    \[Omitted image "test-pop3-connection.png"\] Alt text: Example successful Completion code status for testing POP3 connection
 
 
 ## Example
 
-\[Omitted image "alt-email-configuration-pop3-server.png"\] Alt text: Diagram showing ServiceNow email flow using POP3 server, where outbound messages from the instance and user are routed through mail servers and DNS, and inbound messages are received through an incoming mail server after spam filtering
+\[Omitted image "AlternateEmailConfigurationUsingYourOwnPOP3Server.png"\] Alt text: Flow diagram that shows the steps that show how email is received on your POP3 server
 
 **Parent Topic:**[Advanced email setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/c_AlternateEmailConfigurations.md)
 

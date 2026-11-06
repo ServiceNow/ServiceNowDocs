@@ -7,7 +7,7 @@ release: australia
 product: Connect
 classification: connect
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Connect Support, Connect, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -38,7 +38,7 @@ Role required: none
 
 3.  Accept a conversation in one of the following ways.
 
-<table id="choicetable_rtc_4wl_wt"><tbody><tr><td id="d98149e124">
+<table id="choicetable_rtc_4wl_wt"><tbody><tr><td id="d98432e124">
 
 **Accept a conversation from a queue**
 
@@ -46,7 +46,7 @@ Role required: none
 
 Under **Queues**, click **Accept** by the queue.The conversation opens in the conversation pane and an entry appears in the **Cases** section of the sidebar.
 
-</td></tr><tr><td id="d98149e145">
+</td></tr><tr><td id="d98432e145">
 
 **Accept a transfer request**
 
@@ -63,7 +63,7 @@ Under **Cases**, click **Accept** by a transfer request.\[Omitted image "Connect
 
 5.  Initiate a Zoom meeting to help resolve customer issues faster.
 
-    For more information, see [Initiate Zoom meetings from chats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/initiate-chat-zoom.md).
+    For more information, see Initiate Zoom meetings from chats.
 
 
 **Related topics**  

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/main-node-relationship-fw.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 17
 breadcrumb: [Explore, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -14,13 +14,13 @@ breadcrumb: [Explore, Operational Resilience, Governance, Risk, and Compliance]
 
 Starting with Release 20.1.x, the Main node configurations, supported by the Data Relationships Framework, are available with Operational Resilience to define dependency roll-up chains. Operational Resilience administrators configure the entity types and pillars, generate the entities, and then establish relationships between different CSDM objects. After this setup is complete, data from the CMDB is fetched into Operational Resilience, displaying rolled-up dependencies in the Workspace view.
 
-## Data Relationships Framework
-
-The Data Relationships Framework \(sn\_grc\_rel\_config\) application provides the underlying framework to retrieve data from the CMDB. The Main node configurations in Operational Resilience support different business views in the CSDM model. The relationships defined in the Main node configuration align with the relationships specified in the CSDM model.
-
 \[Omitted video\] Description: An overview of creating a main node configuration.
 
 The video gives you an overview of creating a main node configuration to visualize incident relationships with affected configuration items and child incidents.
+
+## Data Relationships Framework
+
+The Data Relationships Framework \(sn\_grc\_rel\_config\) application provides the underlying framework to retrieve data from the CMDB. The Main node configurations in Operational Resilience support different business views in the CSDM model. The relationships defined in the Main node configuration align with the relationships specified in the CSDM model.
 
 ## Setting up the Main node configurations
 
@@ -70,9 +70,9 @@ The existing Node relationship configurations related list has been updated and 
 
 -   Maximum number of nodes and Maximum number of levels: You can set the maximum number of nodes and levels for the map \(as shown in the **Properties** tab\). Similarly, you can also control the maximum number of children shown at the specific node relation and maximum number of levels shown at a specific node. The **Maximum number of levels** property is enabled only when the source table and target table in the Main node configuration are the same; if they’re different, this property is disabled.
 -   Maximum number of children: You can control maximum number of children to be displayed at the specific node relation. The minimum value for this field is 2.
--   Another field added to the relationship configuration is "Direction." It specifies the direction of the relationship between the source and target tables.
+-   Direction: Another field added to the relationship configuration is "Direction," which specifies the direction of the relationship between the source and target tables. The direction can be set to either "Target to source" or "Source to target."
 
-    The direction can be set to either "Target to source" or "Source to target." When set to "Target to source," selecting a node displays all its upstream nodes. This shows the relationships leading to that node. When set to "Source to target," selecting a node displays all its downstream nodes.
+    When set to "Target to source," selecting a specific node displays all its upstream nodes. This shows the relationships leading to that node. When set to "Source to target," selecting a specific node displays all its downstream nodes.
 
     \[Omitted image "main-node-config-direction.png"\] Alt text: Direction.
 
@@ -85,7 +85,9 @@ The existing Node relationship configurations related list has been updated and 
 
 ## Nexus map configurations related list
 
-The Nexus map configurations related list has been introduced in the UI. Configuring the Nexus map configuration for the selected main node helps you define its UI configuration. This determines how the selected node is displayed in the Nexus map. This setting includes settings for colors, icons, edge configuration, and other visual elements. A single main node configuration can have multiple Nexus configurations, enabling for different data views for the same structure. This flexibility is achieved through configuration at the Nexus map level.
+The Nexus map configurations related list has been introduced in the UI. Configuring the Nexus map configuration for the selected main node helps you define its UI configuration. This determines how the selected node is displayed in the Nexus map. This setting includes settings for colors, icons, edge configuration, and other visual elements.
+
+A single main node configuration can have multiple Nexus configurations, enabling for different data views for the same structure. This flexibility is achieved through configuration at the Nexus map level.
 
 \[Omitted image "main-node-config-nexus-map.png"\] Alt text: Nexus map configuration.
 

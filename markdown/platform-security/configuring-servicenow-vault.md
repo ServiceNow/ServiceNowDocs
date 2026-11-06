@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/configuring-servicenow-vault.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Vault]
 ---
@@ -19,6 +19,10 @@ Learn how to install and configure ServiceNow Vault.
 -   [Install ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/install-vault.md)
 
     Install the ServiceNow Vault application and assign the required roles to users who need access to the Vault console.
+
+-   [Install Vault Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/install-vault-suite.md)
+
+    Install all ServiceNow Vault capabilities in a single step, from either the Application Manager or the ServiceNow Vault tile on Admin Home.
 
 -   [ServiceNow Vault roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/vault-roles.md)
 

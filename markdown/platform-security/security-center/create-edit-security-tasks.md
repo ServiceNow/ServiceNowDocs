@@ -7,7 +7,7 @@ release: australia
 product: Security Center
 classification: security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Security Tasks, Security Center, Platform Security]
 ---
@@ -32,9 +32,13 @@ Role required: admin or sn\_vsc\_task\_manager
 
         **Important:** Remember that users who are assigned tasks must be admins or have the sn\_vsc\_task\_manager role.
 
+        \[Omitted image "sec-task-mgr-3.png"\] Alt text: Security task record
+
     -   **Edit from the Security Task list**
 
         Select one or more Security Tasks by selecting on its check box on the left and then select the **Edit** button.
+
+        \[Omitted image "sec-task-mgr-4.png"\] Alt text: Editing multiple tasks with the edit button
 
 3.  Fill in the fields as needed:
 

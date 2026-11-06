@@ -5,18 +5,18 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/par-workspace.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Platform Analytics]
 ---
 
 # Platform Analytics experience
 
-Distribute and consume Platform Analytics through data visualizations and dashboards with optional filters. Explore KPIs and receive insights into significant events in the data.
+Distribute and consume Platform Analytics through data visualizations and [dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/dashboards-glossary.md) with optional filters. Explore KPIs and receive insights into significant events in the data.
 
 The Platform Analytics experience is a unified interface for visualizing data from multiple data sources. Access it in Unified Navigation at **All** &gt; **Platform Analytics**.
 
-**Platform Analytics** experience is enabled by default on upgrade to Australia. Core UI dashboards and reports are still visible from the Core UI tools. Users with the report\_admin role can create and edit Core UI reports. Users with the dashboard\_admin role can create and edit Core UI dashboards.
+**Platform Analytics** experience is enabled by default on upgrade to Brazil. Core UI dashboards and reports are still visible from the Core UI tools. Users with the report\_admin role can create and edit Core UI reports. Users with the dashboard\_admin role can create and edit Core UI dashboards.
 
 **Note:** To learn more about Platform Analytics and the Migration Center, see the [Platform Analytics enablement toolkit](https://sn.works/analytics/pae) on the ServiceNow Community.
 
@@ -28,7 +28,7 @@ The Platform Analytics experience has two main sections:
 
 -   **Library**
 
-    The library is a set of pages listing all the Platform Analytics visual components that you can access, along with utilities that apply to these components. You can also create your own dashboards, data visualizations, and filters. With the appropriate roles, you can add the components you create to the shared library.
+    The [library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/dashboards-glossary.md) is a set of pages listing all the Platform Analytics visual components that you can access, along with utilities that apply to these components. You can also create your own dashboards, data visualizations, and filters. With the appropriate roles, you can add the components you create to the shared library.
 
 
 **Note:** You can add an Analytics Overview with tabs for library content to your own configurable workspace. For more information, see [Creating Platform Analytics pages in your own workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/adding-analytics-center-to-ws.md).

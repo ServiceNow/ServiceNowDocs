@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-use-dealer-portal.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [dealer portal, repair claim, recall campaign, sales promotion claim, product non-conformance, asset lookup]
 breadcrumb: [Use, Manufacturing Commercial Operations]

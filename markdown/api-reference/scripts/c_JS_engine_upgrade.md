@@ -7,9 +7,9 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Server-side scripting, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Write server-side scripts, Scripting, API implementation, API implementation and reference]
 ---
 
 # JavaScript engine on the platform
@@ -36,12 +36,10 @@ You configure the mode that the JavaScript engine uses in the design and runtime
 
 -   **[JavaScript modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_JS_modes.md)**  
 JavaScript mode is a design and runtime setting for custom applications and scripts. To support existing server-side scripts and new scripts developed to the ECMAScript 2021 standard, the JavaScript engine has three modes: ECMAScript 2021 \(ES12\), ES5 Standards, and Compatibility.
--   **[JavaScript engine feature support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/javascript-engine-feature-support.md)**  
-Compare ECMAScript features between the ECMAScript 2021 \(ES12\) and ES5 Standards JavaScript modes in Australia. Both modes support a subset of ECMAScript features.
--   **[Updates to the JavaScript engine in Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/updates-javascript-engine.md)**  
-Review the updates to the JavaScript engine on the ServiceNow AI Platform in the Australia release.
+-   **[Updates to the JavaScript engine in Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/updates-javascript-engine.md)**  
+Review the updates to the JavaScript engine on the ServiceNow AI Platform in the Brazil release.
 
-**Parent Topic:**[Server-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_ServerScripting.md)
+**Parent Topic:**[Writing server-side scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/server-side-scripting-overview.md)
 
 **Related topics**  
 

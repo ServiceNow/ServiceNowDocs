@@ -1,22 +1,22 @@
 ---
-title: Pipelines and Deployments workflow
-description: As you manage requests for app deployment in App Engine Management Center \(AEMC\), use this workflow to understand how app deployments move through your pipelines in versions 24.1.2 and later.
+title: Pipelines and Deployments workflow version 24.1.2
+description: As you manage requests for app deployment in App Engine Management Center \(AEMC\), use this workflow to understand how app deployments move through your pipelines in version 24.1.2, released in November 2023.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/app-engine-management-center/pipelines-deployments-workflow-vs2.html
 release: australia
 product: App Engine Management Center
 classification: app-engine-management-center
 topic_type: concept
-last_updated: "2026-05-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Deployment process, Explore, App Engine Management Center, Governing app development, Building applications]
+breadcrumb: [Deployment process, Explore, App Engine Management Center, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
-# Pipelines and Deployments workflow
+# Pipelines and Deployments workflow version 24.1.2
 
-As you manage requests for app deployment in App Engine Management Center \(AEMC\), use this workflow to understand how app deployments move through your pipelines in versions 24.1.2 and later.
+As you manage requests for app deployment in App Engine Management Center \(AEMC\), use this workflow to understand how app deployments move through your pipelines in version 24.1.2, released in November 2023.
 
-\[Omitted image "aemc-pipelines-flow-MMASSET0021967.png"\] Alt text: Infographic depicting a standard pipeline deployment in App Engine Management Center.
+\[Omitted image "pipelines-flow-vs2.png"\] Alt text: Infographic depicting a standard Pipelines and Deployments workflow. For a text description, refer to the workflow steps that follow.
 
 In this workflow:
 
@@ -59,4 +59,6 @@ In this workflow:
 
         The workflow starts over when a requester selects **Submit** again in App Engine Studio, Creator Studio, or ServiceNow Studio.
 
+
+**Parent Topic:**[Deployment process in AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-management-center/deployment-process-aemc.md)
 

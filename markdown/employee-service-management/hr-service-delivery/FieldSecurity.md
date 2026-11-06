@@ -7,7 +7,7 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [HR Profile, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_hr\_core.admin, security\_admin
 
 Use **Access Control** \(ACL\) on a field to secure it.
 
-**Note:** This example shows how to secure the **Ethnicity** field on an **HR Profile** form so users with the HR Manager \[sn\_hr\_core.manager\] role or below cannot view it.
+**Note:** This example shows how to secure the **Ethnicity** field on an **HR Profile** form so users with the HR Manager \[hr\_manager\] role or below cannot view it.
 
 ## Procedure
 

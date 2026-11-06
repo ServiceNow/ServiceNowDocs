@@ -7,7 +7,7 @@ release: australia
 product: Approvals
 classification: approvals
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Classic approvals, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -32,5 +32,5 @@ Approval summarizers are stored in the Macro \[sys\_ui\_macro\] table.
 **Related topics**  
 
 
-[Using formatters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_Formatters.md)
+[bundle-platadm.c_Formatters]
 

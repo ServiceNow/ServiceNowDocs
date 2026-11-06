@@ -7,7 +7,7 @@ release: australia
 product: Orchestration
 classification: orchestration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Orchestration activity packs, Classic Orchestration, Workflow Data Fabric]
 ---
@@ -22,7 +22,7 @@ Domain controllers are identified by the IP address of the host machine. To use 
 
 Your instance must have access to a MID Server configured to use PowerShell to run these activities.
 
-**Note:** All Active Directory activities pass through error messages returned from Active Directory. To view these error messages, point to the failed activity in the workflow canvas or select the **Workflow Log** tab in a Workflow Context record.
+**Note:** All Active Directory activities pass through error messages returned from Active Directory. To view these error messages, point to the failed activity in the workflow canvas or select the **Workflow Log** tab in a [Workflow Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/r_AdministeringWorkflowContexts.md) record.
 
 ## Custom Active Directory activities
 

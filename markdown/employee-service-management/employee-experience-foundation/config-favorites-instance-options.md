@@ -1,20 +1,20 @@
 ---
 title: Modify the my favorites widget display
-description: The My Favorites widget displays the favorite content for quick use. You can configure the instance options to control the appearance of the widget, such as the title and number of items to display you want to view.
+description: The My Favorites widget displays the favorited content for quick use. You can configure the instance options to control the appearance of the widget, such as the title and number of items to display you want to view.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/config-favorites-instance-options.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-04-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Cross-channel favorites, Setup Employee Center browse experience features, Configuring Employee Center, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Cross-channel favorites, Setup Employee Center browse experience features, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Modify the my favorites widget display
 
-The **My Favorites** widget displays the favorite content for quick use. You can configure the instance options to control the appearance of the widget, such as the title and number of items to display you want to view.
+The **My Favorites** widget displays the favorited content for quick use. You can configure the instance options to control the appearance of the widget, such as the title and number of items to display you want to view.
 
 ## Before you begin
 
@@ -35,8 +35,6 @@ Role required: sp\_admin or admin
     .
 
 3.  Configure the instance options.
-
-    **Note:** The my **Favorites** widget syncs instantly with other widgets in real-time on the web. However, when adding favorites items across devices \(example: mobile to the web\), a manual refresh is required to reflect the latest changes — **Reload the page** on web or **Pull to refresh** on mobile.
 
 <table id="table_lgk_4yj_crb"><thead><tr><th>
 
@@ -104,7 +102,7 @@ Select the list of Load configuration option.-   **Async**
 You may make the load configuration Synchronous for the widgets visible on the Home page for better load experience.
 
 </td></tr></tbody>
-</table>4.  Select **Save**.
+</table>4.  Click **Save**.
 
     For more information, see [Cross-channel favorites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
 

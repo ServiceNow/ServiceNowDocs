@@ -7,8 +7,8 @@ release: australia
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 keywords: [foundation data sync, FDS subscription, validate subscription, field mapping, provider inbound]
 breadcrumb: [Configure inbound FDS as providers, Configure for providers, Service Exchange for Providers, Service Exchange]
 ---
@@ -60,19 +60,21 @@ After the consumer sends the sample, the system creates a subscription for each 
 
         For unresolved relationships, the banner remains until you complete the configuration.
 
-6.  Configure incoming data using either IntegrationHub ETL or a transform map depending on whether you are working with a Configuration Management Database \(CMDB\) or a non-CMDB table.
+6.  Configure incoming data using either IntegrationHub ETL or a transform map depending on table you selected.
 
-<table id="choicetable_msz_gll_sfc"><thead><tr><th align="left" id="d36194e203">
+    Some non-CMDB tables have names that start with cmdb\_, such as Product Model \[cmdb\_model\], Hardware Model \[cmdb\_hardware\_product\_model\], and Consumable Model \[cmdb\_consumable\_product\_model\]. Configure these tables using the non-CMDB table option. Refer to the following table for detailed steps.
+
+<table id="choicetable_msz_gll_sfc"><thead><tr><th align="left" id="d38460e206">
 
 Option
 
-</th><th align="left" id="d36194e206">
+</th><th align="left" id="d38460e209">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d36194e212">
+</th></tr></thead><tbody><tr><td id="d38460e215">
 
-**Configure data integration for CMDB tables**
+**Configure data integration for CMDB CI tables**
 
 </td><td>
 
@@ -90,24 +92,24 @@ The system creates a basic field mappings based on matching field names. Review 
 4.  Close the browser tab to return to the Subscription Item page.
 
 
-</td></tr><tr><td id="d36194e258">
+</td></tr><tr><td id="d38460e261">
 
-**Configure data integration for CMDB tables \(__Maintain sysID__ enabled by the provider\)**
+**Configure data integration for CMDB CI tables \(__Maintain sysID__ enabled by the provider\)**
 
 </td><td>
 
 1.  Select the **Transform Map** button.
 
-A message is displayed stating that you’re about to navigate to the Transform Map to complete the configuration.
+A message is displayed stating that you're about to navigate to the Transform Map to complete the configuration.
 
 2.  Confirm your choice by selecting **OK**.
 3.  Complete the configuration. For details, see [Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_CreateATransformMap.md).
 4.  Close the browser tab to return to the Subscription Item page.
 
 
-</td></tr><tr><td id="d36194e300">
+</td></tr><tr><td id="d38460e303">
 
-**Configure data integration for non-CMDB table**
+**Configure data integration for non-CMDB table and CMDB non-CI table**
 
 </td><td>
 
@@ -122,6 +124,14 @@ A message is displayed stating that you're about to navigate to the Transform Ma
 
 </td></tr></tbody>
 </table>    You must configure incoming data for each subscription item except dependent subscription items.
+
+7.  If a provider table does not exist on the consumer, do the following:
+
+    1.  On the consumer, create the subscription item.
+
+    2.  On the consumer, create a transform map that routes the incoming data to a target table, either default or custom.
+
+    3.  In the transform map, map each incoming field to a target column.
 
 
 ## Result

@@ -7,7 +7,7 @@ release: australia
 product: Vaccine Administration Management
 classification: vaccine-administration-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Vaccine Administration Management, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -36,7 +36,7 @@ Appointments are automatically scheduled for users according to the configuratio
 
 3.  Update the information in each section of the form to modify the configuration as needed.
 
-    For detailed instructions on how to fill in each section, see Configure appointment booking.
+    For detailed instructions on how to fill in each section, see [Configure appointment booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-walkup-appointment.md).
 
     For details on how to handle appointment booking configurations after appointments start getting scheduled, see [Recommendations on Appointment Booking configuration for Vaccine Administration Management \[KB0953615\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0953615).
 

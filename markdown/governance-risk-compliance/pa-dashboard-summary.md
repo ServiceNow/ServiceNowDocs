@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/pa-dashboard-summary.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Platform Analytics dashboard, BCM dashboard, create dashboard, customize dashboard, home page dashboard, record overview dashboard]
 breadcrumb: [Manage, Business Continuity Management, Governance, Risk, and Compliance]

@@ -7,7 +7,7 @@ release: australia
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -123,7 +123,7 @@ Depending on the system setup, view additional search results using one of these
 
 4.  Click **Update**.
 
-The search functionality in Knowledge Management Service Portal pages uses the **Knowledge Base Search** search context to fetch results. As an administrator, you must not update the definition of this search context because it may impact the search behavior. For more information about contextual search, see [Contextual search concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search-concepts.md).
+The search functionality in Knowledge Management Service Portal pages uses the **Knowledge Base Search** search context to fetch results. As an administrator, you must not update the definition of this search context because it may impact the search behavior. For more information about contextual search, see Contextual search concepts.
 
 **Parent Topic:**[Using Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/knowledge-management/using-knowledge-management.md)
 

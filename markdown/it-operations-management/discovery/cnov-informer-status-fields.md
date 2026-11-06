@@ -7,8 +7,8 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 keywords: [Agent Client Collector, Kubernetes, Visibility, Informer, status, fields, reference, Cloud Native Operations for Visibility, CNO for Visibility]
 breadcrumb: [Reference, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -80,8 +80,6 @@ Status
 The status of the Informer. Possible values are: Up, Down, Paused.
 
  **Note:** The status of an Informer is considered Down when no message has been received in the last 15 minutes.
-
- When the auto-retirement feature is enabled, clusters with Informers in the Down state for an extended period may be automatically retired during full discovery cycles. For more information, see [Enable automatic retirement for inactive Kubernetes cluster CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/remove-inactive-cis.md).
 
 </td></tr><tr><td>
 

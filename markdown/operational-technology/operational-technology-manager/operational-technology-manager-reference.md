@@ -7,7 +7,7 @@ release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Operational Technology Manager, Operational Technology]
 ---
@@ -28,10 +28,6 @@ The Industrial Core plugin contains the class mappings needed for the Operationa
 When configuration items \(CIs\) are created in the CMDB, asset records are created. The asset record contains the model category for the CI.
 -   **[APIs for IT to OT and OT to IT conversion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/api-for-it-to-ot-and-ot-to-it-conversion.md)**  
 There are 2 APIs used for handling refresh workflow scenarios for converting IT to Operational Technology \(OT\) and vice versa with the OT Asset Management application.
--   **[Operational Technology Backup Management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/ot-backup-management-data-model.md)**  
-The Operational Technology \(OT\) Backup Management provides visibility and actionable insights on the backup of the OT devices. The class tables described below are interconnected and collectively form the Backup Management data model.
--   **[Operational Technology Version Control data model for Backup Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/ot-version-control-backup-data-model.md)**  
-In Operational Technology \(OT\) Backup Management, you can develop multiple scripts or programs to automate the data backup process of OT devices. The Version Control data model enables you to maintain a record of all the backup scripts or programs you develop for an OT entity.
 -   **[Edit the protection policy for an OT View Rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/edit-protection-policy-ot-view-rules.md)**  
 Edit the protection policy for an Operational Technology \(OT\) View Rule to edit the View Rule as needed.
 -   **[Related information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-manager/otm-related-information.md)**  

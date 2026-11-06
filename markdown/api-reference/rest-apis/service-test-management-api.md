@@ -7,8 +7,8 @@ release: australia
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 91
+last_updated: "2026-09-10"
+reading_time_minutes: 92
 keywords: [Service Test Management Open API, Customer Service Problem Management]
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
@@ -125,6 +125,22 @@ Filter test definitions by the test's current state. Only test definitions in th
 -   rejected
 
 Data type: String
+
+</td></tr><tr><td>
+
+externalId
+
+</td><td>
+
+Filters result by the given service Test external ID. Located in the Service Test \[sn\_st\_mgmt\_test\] table.Data type: String
+
+</td></tr><tr><td>
+
+sys\_id
+
+</td><td>
+
+Filters result by the given service Test sys\_id. Located in the Service Test \[sn\_st\_mgmt\_test\] table.Data type: String
 
 </td></tr></tbody>
 </table>|Name|Description|
@@ -296,9 +312,7 @@ id
 
 </td><td>
 
-Sys\_id or external\_id of the service test definition.Data type: String
-
-Table: Service Test \[sn\_st\_mgmt\_test\]
+Sys\_id of the service test.Data type: String
 
 </td></tr><tr><td>
 
@@ -855,6 +869,7 @@ Response body.
   {
     "href": "/api/sn_sprb_mgmt/servicetestmanagement/serviceTest/09d1f42e3be28210d140068aa4e45ae2",
     "id": "09d1f42e3be28210d140068aa4e45ae2",
+    "externalId": "SVCTEST-1002",
     "description": "Service test",
     "endDateTime": "2025-01-31 15:05:43",
     "mode": "proactive",
@@ -961,15 +976,6 @@ Response body.
                 "appliedAction": "sendWarning",
                 "description": "send a warning to the system",
                 "name": "sendWarning",
-                "repeatAction": "0"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-]
 ```
 
 ## Service Test Management Open API – GET /sn\_sprb\_mgmt/servicetestmanagement/serviceTest/\{id\}
@@ -1162,9 +1168,7 @@ id
 
 </td><td>
 
-Sys\_id or external\_id of the service test definition.Data type: String
-
-Table: Service Test \[sn\_st\_mgmt\_test\]
+Sys\_id of the service test.Data type: String
 
 </td></tr><tr><td>
 
@@ -1724,6 +1728,7 @@ Response body.
 {
   "href": "/api/sn_sprb_mgmt/servicetestmanagement/serviceTest/44b7a8ea3b6a42107222bf9985e45a45",
   "id": "44b7a8ea3b6a42107222bf9985e45a45",
+  "externalId": "SVCTEST-1001",
   "description": "Service test",
   "endDateTime": "2025-01-31 15:05:43",
   "mode": "proactive",
@@ -1742,13 +1747,13 @@ Response body.
     "id": "7d3854864316c6500e51203d5fb8f2d8"
   },
   "characteristic": [
-        { 
-        "id": "5c682a2a3b2682107222bf9985e45a5a", 
-        "name": "url", 
-        "valueType": "single_line_text", 
-        "value": "test" 
-         }
-],
+    {
+      "id": "5c682a2a3b2682107222bf9985e45a5a",
+      "name": "url",
+      "valueType": "single_line_text",
+      "value": "test"
+    }
+  ],
   "testMeasure": [
     {
       "id": "62ade42a3ba28210d140068aa4e45a71",
@@ -1975,9 +1980,9 @@ id
 
 </td><td>
 
-Sys\_id or external\_id of the service test definition.Data type: String
+Sys\_id or external\_id of the related service specification.Data type: String
 
-Table: Service Test Definition \[sn\_st\_mgmt\_test\_definition\]
+Table: In the sys\_id or external\_id field of the Specification \[sn\_prd\_pm\_specification\] table.
 
 </td></tr><tr><td>
 
@@ -2010,7 +2015,7 @@ relatedServiceSpecification.id
 
 </td><td>
 
-Sys\_id or external\_id of the service specification.Data type: String
+Sys\_id or external\_id of the related service specification.Data type: String
 
 Table: In the sys\_id or external\_id field of the Specification \[sn\_prd\_pm\_specification\] table.
 
@@ -2020,7 +2025,7 @@ relatedServiceSpecification.name
 
 </td><td>
 
-Name of the service specification.Data type: String
+Name of the related service specification.Data type: String
 
 </td></tr><tr><td>
 
@@ -2639,6 +2644,22 @@ Date and time of the test definition on which the state of it is published. Data
 
 Format: YYYY-MM-DD 00:00:00. For example, `2025-01-31 09:35:43`.
 
+</td></tr><tr><td>
+
+externalId
+
+</td><td>
+
+Filters result by the given service Test Specification external ID. Located in the Service Test Definition \[sn\_st\_mgmt\_test\_definition\] table.Data type: String
+
+</td></tr><tr><td>
+
+sys\_id
+
+</td><td>
+
+Filters result by the given service Test Specification sys\_id. Located in the Service Test Definition \[sn\_st\_mgmt\_test\_definition\] table.Data type: String
+
 </td></tr></tbody>
 </table>### cURL request
 
@@ -2658,6 +2679,7 @@ Response body.
   {
     "description": "Operation, Administration and Maintenance",
     "id": "76a3b160432a02104fefe4511fb8f2ad",
+    "externalId": "SVCTESTSPEC-1001",
     "name": "OAM Test",
     "validFor": {
       "startDateTime": "",
@@ -3021,16 +3043,6 @@ Description of the service test definition.Data type: String
 
 </td></tr><tr><td>
 
-id
-
-</td><td>
-
-Sys\_id or external\_id of the service test definition.Data type: String
-
-Table: Service Test Definition \[sn\_st\_mgmt\_test\_definition\]
-
-</td></tr><tr><td>
-
 name
 
 </td><td>
@@ -3060,7 +3072,7 @@ relatedServiceSpecification.id
 
 </td><td>
 
-Sys\_id or external\_id of the service specification.Data type: String
+Sys\_id or external\_id of the related service specification.Data type: String
 
 Table: In the sys\_id or external\_id field of the Specification \[sn\_prd\_pm\_specification\] table.
 
@@ -3070,7 +3082,7 @@ relatedServiceSpecification.name
 
 </td><td>
 
-Name of the service specification.Data type: String
+Name of the related service specification.Data type: String
 
 </td></tr><tr><td>
 
@@ -3702,118 +3714,241 @@ curl --location --request GET "https:/instance.servicenow.com/api/sn_sprb_mgmt/s
 Response body.
 
 ```
-{
-  "description": "Upstream and Downstream speed ",
-  "id": "89d2b920432a02104fefe4511fb8f22e",
-  "name": "Speed Test",
-  "validFor": {
-    "startDateTime": "2024-05-31",
-    "endDateTime": "2024-06-27"
-  },
-  "testMeasureDefinition": [
-    {
-      "id": "1a04f560432a02104fefe4511fb8f2ad",
-      "captureFrequency": "once",
-      "captureMethod": "automatic",
-      "metricDescription": "This is the downstream speed in a service",
-      "metricName": "Downstream Speed",
-      "name": "Downstream Speed",
-      "unitOfMeasure": "a second",
-      "valueType": "",
-      "capturePeriod": "30 Minutes",
-      "validFor": {
-        "startDateTime": "2024-05-30 08:49:26",
-        "endDateTime": "2024-05-31 08:49:29"
+[
+  {
+    "description": "Operation, Administration and Maintenance",
+    "id": "76a3b160432a02104fefe4511fb8f2ad",
+    "externalId": "SVCTESTSPEC-1001",
+    "name": "OAM Test",
+    "validFor": {
+      "startDateTime": "",
+      "endDateTime": ""
+    },
+    "testMeasureDefinition": [
+      {
+        "id": "77b9b964432a02104fefe4511fb8f26e",
+        "captureFrequency": "once",
+        "captureMethod": "automatic",
+        "metricDescription": "This is the Rx signal level",
+        "metricName": "Rx Optical Signal Level",
+        "name": "Rx Optical Signal Level",
+        "unitOfMeasure": "a minute",
+        "valueType": "",
+        "capturePeriod": "",
+        "validFor": {
+          "startDateTime": "",
+          "endDateTime": ""
+        },
+        "thresholdRule": [
+          {
+            "id": "d3e97d64432a02104fefe4511fb8f281",
+            "description": "",
+            "name": "gponOntAniOpInfoRxOpticalSignalLevel",
+            "numberOfAllowedCrossing": "",
+            "thresholdRuleSeverity": "",
+            "tolerancePeriod": "",
+            "conformanceTargetUpper": "0",
+            "conformanceComparatorUpper": "less than",
+            "conformanceTargetLower": "-50",
+            "conformanceComparatorLower": "greater than",
+            "consequence": []
+          }
+        ]
       },
-      "thresholdRule": [
-        {
-          "id": "a754f960432a02104fefe4511fb8f2d0",
-          "description": "This speed is greater than the target upper",
-          "name": "InternetSpeedValue",
-          "numberOfAllowedCrossing": "0",
-          "thresholdRuleSeverity": "high",
-          "tolerancePeriod": "15 Minutes",
-          "conformanceTargetLower": "75",
-          "conformanceComparatorLower": "greater than",
-          "consequence": [
-            {
-              "id": "15a4bd60432a02104fefe4511fb8f2b8",
-              "prescribeAction": "null",
-              "description": "generate a waring report",
-              "name": "degradedQualityOfService",
-              "repeatAction": "0",
-              "validFor": {
-                "startDateTime": "2024-05-30 08:51:29",
-                "endDateTime": "2024-08-06 08:51:31"
-              }
-            },
-            {
-              "id": "e6847d60432a02104fefe4511fb8f2c3",
-              "prescribeAction": "null",
-              "description": "send a warning to the system",
-              "name": "packetdrop",
-              "repeatAction": "0",
-              "validFor": {
-                "startDateTime": "2024-05-30 08:50:53",
-                "endDateTime": "2024-08-06 08:50:55"
-              }
+      {
+        "id": "878afd64432a02104fefe4511fb8f28d",
+        "captureFrequency": "once",
+        "captureMethod": "automatic",
+        "metricDescription": "This is the Tx signal level",
+        "metricName": "TX Optical Signal Level",
+        "name": "TX Optical Signal Level",
+        "unitOfMeasure": "a minute",
+        "valueType": "",
+        "capturePeriod": "",
+        "validFor": {
+          "startDateTime": "",
+          "endDateTime": ""
+        },
+        "thresholdRule": [
+          {
+            "id": "b3dab5a4432a02104fefe4511fb8f2d3",
+            "description": "",
+            "name": "gponOntAniOpInfoTxOpticalSignalLevel",
+            "numberOfAllowedCrossing": "",
+            "thresholdRuleSeverity": "",
+            "tolerancePeriod": "",
+            "conformanceTargetUpper": "65",
+            "conformanceComparatorUpper": "less than",
+            "conformanceTargetLower": "-65",
+            "conformanceComparatorLower": "greater than",
+            "consequence": []
+          }
+        ]
+      }
+    ],
+    "specCharacteristic": [
+      {
+        "name": "AccessRequired",
+        "description": "AccessRequired",
+        "valueType": "yes_no",
+        "validFor": {
+          "startDatetime": "2024-05-30 09:09:57"
+        },
+        "characteristicValueSpecification": [
+          {
+            "value": "Yes",
+            "validFor": {
+              "startDateTime": "",
+              "endDateTime": ""
             }
-          ]
+          },
+          {
+            "value": "No",
+            "validFor": {
+              "startDateTime": "",
+              "endDateTime": ""
+            }
+          }
+        ]
+      }
+    ],
+    "serviceTestSpecRelationship": [],
+    "relatedServiceSpecification": [
+      {
+        "id": "f559b564432a02104fefe4511fb8f2e0",
+        "name": "OAM"
+      }
+    ]
+  },
+  {
+    "description": "Upstream and Downstream speed ",
+    "id": "89d2b920432a02104fefe4511fb8f22e",
+    "name": "Speed Test",
+    "validFor": {
+      "startDateTime": "2024-05-31",
+      "endDateTime": "2024-06-27"
+    },
+    "testMeasureDefinition": [
+      {
+        "id": "1a04f560432a02104fefe4511fb8f2ad",
+        "captureFrequency": "once",
+        "captureMethod": "automatic",
+        "metricDescription": "This is the downstream speed in a service",
+        "metricName": "Downstream Speed",
+        "name": "Downstream Speed",
+        "unitOfMeasure": "a second",
+        "valueType": "",
+        "capturePeriod": "30 Minutes",
+        "validFor": {
+          "startDateTime": "2024-05-30 08:49:26",
+          "endDateTime": "2024-05-31 08:49:29"
         },
-        {
-          "id": "cb55b5a0432a02104fefe4511fb8f201",
-          "description": "",
-          "name": "InternetSpeedValue",
-          "numberOfAllowedCrossing": "0",
-          "thresholdRuleSeverity": "medium",
-          "tolerancePeriod": "",
-          "conformanceTargetUpper": "120",
-          "conformanceComparatorUpper": "less than",
-          "consequence": []
-        }
-      ]
-    }
-  ],
-  "specCharacteristic": [
-    {
-      "name": "restart",
-      "description": "restart",
-      "valueType": "yes_no",
-      "validFor": {
-        "startDatetime": "2024-05-30 08:45:49"
+        "thresholdRule": [
+          {
+            "id": "a754f960432a02104fefe4511fb8f2d0",
+            "description": "This speed is greater than the target upper",
+            "name": "InternetSpeedValue",
+            "numberOfAllowedCrossing": "0",
+            "thresholdRuleSeverity": "high",
+            "tolerancePeriod": "15 Minutes",
+            "conformanceTargetLower": "75",
+            "conformanceComparatorLower": "greater than",
+            "consequence": [
+              {
+                "id": "15a4bd60432a02104fefe4511fb8f2b8",
+                "prescribeAction": "null",
+                "description": "generate a waring report",
+                "name": "degradedQualityOfService",
+                "repeatAction": "0",
+                "validFor": {
+                  "startDateTime": "2024-05-30 08:51:29",
+                  "endDateTime": "2024-08-06 08:51:31"
+                }
+              },
+              {
+                "id": "e6847d60432a02104fefe4511fb8f2c3",
+                "prescribeAction": "null",
+                "description": "send a warning to the system",
+                "name": "packetdrop",
+                "repeatAction": "0",
+                "validFor": {
+                  "startDateTime": "2024-05-30 08:50:53",
+                  "endDateTime": "2024-08-06 08:50:55"
+                }
+              }
+            ]
+          },
+          {
+            "id": "cb55b5a0432a02104fefe4511fb8f201",
+            "description": "",
+            "name": "InternetSpeedValue",
+            "numberOfAllowedCrossing": "0",
+            "thresholdRuleSeverity": "medium",
+            "tolerancePeriod": "",
+            "conformanceTargetUpper": "120",
+            "conformanceComparatorUpper": "less than",
+            "consequence": []
+          }
+        ]
       },
-      "characteristicValueSpecification": [
-        {
-          "value": "No",
-          "validFor": {
-            "startDateTime": "",
-            "endDateTime": ""
-          }
+      {
+        "id": "8f987524432a02104fefe4511fb8f2f0",
+        "captureFrequency": "once",
+        "captureMethod": "automatic",
+        "metricDescription": "This is the upstream speed in the service",
+        "metricName": "Upstream Speed",
+        "name": "Upstream Speed",
+        "unitOfMeasure": "a second",
+        "valueType": "",
+        "capturePeriod": "",
+        "validFor": {
+          "startDateTime": "",
+          "endDateTime": ""
         },
-        {
-          "value": "Yes",
-          "validFor": {
-            "startDateTime": "",
-            "endDateTime": ""
+        "thresholdRule": []
+      }
+    ],
+    "specCharacteristic": [
+      {
+        "name": "restart",
+        "description": "restart",
+        "valueType": "yes_no",
+        "validFor": {
+          "startDatetime": "2024-05-30 08:45:49"
+        },
+        "characteristicValueSpecification": [
+          {
+            "value": "No",
+            "validFor": {
+              "startDateTime": "",
+              "endDateTime": ""
+            }
+          },
+          {
+            "value": "Yes",
+            "validFor": {
+              "startDateTime": "",
+              "endDateTime": ""
+            }
           }
-        }
-      ]
-    }
-  ],
-  "serviceTestSpecRelationship": [
-    {
-      "id": "76a3b160432a02104fefe4511fb8f2ad",
-      "name": "OAM Test",
-      "relationshipType": ""
-    }
-  ],
-  "relatedServiceSpecification": [
-    {
-      "id": "aeddcd1fb7d69910ff00f203ae11a990",
-      "name": "Home Internet"
-    }
-  ]
-}
+        ]
+      }
+    ],
+    "serviceTestSpecRelationship": [
+      {
+        "id": "76a3b160432a02104fefe4511fb8f2ad",
+        "name": "OAM Test",
+        "relationshipType": ""
+      }
+    ],
+    "relatedServiceSpecification": [
+      {
+        "id": "aeddcd1fb7d69910ff00f203ae11a990",
+        "name": "Home Internet"
+      }
+    ]
+  }
+]
 ```
 
 ## Service Test Management Open API - PATCH /sn\_sprb\_mgmt/servicetestmanagement/serviceTest/\{id\}
@@ -4597,9 +4732,7 @@ id
 
 </td><td>
 
-Sys\_id or external\_id of the service test definition.Data type: String
-
-Table: Service Test \[sn\_st\_mgmt\_test\]
+Sys\_id of the service test.Data type: String
 
 </td></tr><tr><td>
 
@@ -5309,7 +5442,7 @@ relatedServiceSpecification.id
 
 </td><td>
 
-Sys\_id or external\_id of the service specification.Data type: String
+Sys\_id or external\_id of the related service specification.Data type: String
 
 Table: In the sys\_id or external\_id field of the Specification \[sn\_prd\_pm\_specification\] table.
 
@@ -5319,7 +5452,7 @@ relatedServiceSpecification.name
 
 </td><td>
 
-Name of the service specification.Data type: String
+Name of the related service specification.Data type: String
 
 </td></tr><tr><td>
 
@@ -5971,9 +6104,7 @@ id
 
 </td><td>
 
-Sys\_id or external\_id of the service test definition.Data type: String
-
-Table: Service Test \[sn\_st\_mgmt\_test\]
+Sys\_id of the service test specification.Data type: String
 
 </td></tr><tr><td>
 
@@ -6936,13 +7067,23 @@ End date and time of the service test. Data type: String
 
 Format: YYYY-MM-DD 00:00:00. For example, `2025-01-31 09:35:43`.
 
+</td></tr><tr><td>
+
+externalId
+
+</td><td>
+
+External\_id of the service test.Data type: String
+
+Table: Service Test \[sn\_st\_mgmt\_test\]
+
 </td></tr><tr id="serviceTest-request-id"><td>
 
 id
 
 </td><td>
 
-Sys\_id or external\_id of the service test. This ID creates a service test and is used as the external\_id.Data type: String
+Sys\_id of the service test.Data type: String
 
 Table: Service Test \[sn\_st\_mgmt\_test\]
 
@@ -7623,9 +7764,7 @@ id
 
 </td><td>
 
-Sys\_id or external\_id of the service test definition.Data type: String
-
-Table: Service Test \[sn\_st\_mgmt\_test\]
+Sys\_id of the service test.Data type: String
 
 </td></tr><tr><td>
 
@@ -8311,7 +8450,8 @@ The response returns confirmation details about the new test service and assigns
       ]
     }
   ],
-  "id": "2b406ec043b202104fefe4511fb8f211"
+  "id": "2b406ec043b202104fefe4511fb8f211",
+  "externalId": "SVCTEST-1002"
 }
 ```
 
@@ -8349,16 +8489,6 @@ description
 
 Description of the service test definition.Data type: String
 
-</td></tr><tr id="testSpec-request-id-param"><td>
-
-id
-
-</td><td>
-
-Sys\_id or external\_id of the service test definition.Data type: String
-
-Table: Service Test Definition \[sn\_st\_mgmt\_test\_definition\]
-
 </td></tr><tr id="testSpec-request-name-param"><td>
 
 name
@@ -8366,6 +8496,16 @@ name
 </td><td>
 
 Required. Name of the service test definition.Data type: String
+
+</td></tr><tr id="testSpec-request-id-param"><td>
+
+id
+
+</td><td>
+
+Sys\_id or external\_id of the related service specification.Data type: String
+
+Table: In the sys\_id or external\_id field of the Specification \[sn\_prd\_pm\_specification\] table.
 
 </td></tr><tr id="testSpec-request-relatedServiceSpecification-param"><td>
 
@@ -8390,7 +8530,7 @@ relatedServiceSpecification.id
 
 </td><td>
 
-Sys\_id or external\_id of the service specification.Data type: String
+Sys\_id or external\_id of the related service specification.Data type: String
 
 Table: In the sys\_id or external\_id field of the Specification \[sn\_prd\_pm\_specification\] table.
 
@@ -8400,7 +8540,7 @@ relatedServiceSpecification.name
 
 </td><td>
 
-Name of the service specification.Data type: String
+Name of the related service specification.Data type: String
 
 </td></tr><tr><td>
 
@@ -9066,9 +9206,7 @@ id
 
 </td><td>
 
-Sys\_id or external\_id of the service test definition.Data type: String
-
-Table: Service Test \[sn\_st\_mgmt\_test\]
+Sys\_id of the service test specification.Data type: String
 
 </td></tr><tr><td>
 
@@ -9865,133 +10003,66 @@ Response body.
 
 ```
 {
-  "description": "Upstream and Downstream speed ",  
-  "name": "Speed Test",
+  "description": "Service test",
+  "endDateTime": "2025-01-31 15:05:43",
+  "mode": "proactive",
+  "name": "Speed Test TR0001002",
+  "startDateTime": "2024-06-05 09:07:10",
   "validFor": {
-    "startDateTime": "2024-05-31",
-    "endDateTime": "2024-06-27"
+    "startDateTime": "",
+    "endDateTime": ""
   },
-  "testMeasureDefinition": [
+  "relatedService": {
+    "id": "fa6d13f45b5620102dff5e92dc81c77f",
+    "name": "Internet_VPLS_PI0000011"
+  },
+  "testSpecification": {
+    "href": "/api/sn_sprb_mgmt/servicetestmanagement/serviceTestSpecification/76a3b160432a02104fefe4511fb8f2ad",
+    "id": "76a3b160432a02104fefe4511fb8f2ad"
+  },
+  "characteristic": [
     {
-      "id": "1a04f560432a02104fefe4511fb8f2ad",
-      "captureFrequency": "once",
+      "id": "e7ef960443f202104fefe4511fb8f224",
+      "name": "AccessRequired",
+      "valueType": "yes_no",
+      "value": "Yes"
+    }
+  ],
+  "testMeasure": [
+    {
+      "id": "61d1382e3be28210d140068aa4e45a2e",
+      "accuracy": "0.0001",
+      "captureDateTime": "",
       "captureMethod": "automatic",
-      "metricDescription": "This is the downstream speed in a service",
-      "metricName": "Downstream Speed",
-      "name": "Downstream Speed",
-      "unitOfMeasure": "a second",
-      "valueType": "",
-      "capturePeriod": "30 Minutes",
-      "validFor": {
-        "startDateTime": "2024-05-30 08:49:26",
-        "endDateTime": "2024-05-31 08:49:29"
-      },
-      "thresholdRule": [
+      "metricDescription": "",
+      "metricName": "Flow speed",
+      "unitOfMeasure": "A second",
+      "value": "3000",
+      "ruleViolation": [
         {
-          "id": "a754f960432a02104fefe4511fb8f2d0",
-          "description": "This speed is greater than the target upper",
-          "name": "InternetSpeedValue",
+          "id": "61d1382e3be28210d140068aa4e45a2f",
+          "description": "This speed is greater than the target",
+          "name": "tooMuchTraffic",
           "numberOfAllowedCrossing": "0",
           "thresholdRuleSeverity": "high",
-          "tolerancePeriod": "15 Minutes",
-          "conformanceTargetLower": "75",
+          "tolerancePeriod": "",
+          "conformanceTargetLower": "2500",
           "conformanceComparatorLower": "greater than",
-          "consequence": [
+          "appliedConsequence": [
             {
-              "id": "15a4bd60432a02104fefe4511fb8f2b8",
-              "prescribeAction": "null",
-              "description": "generate a waring report",
-              "name": "degradedQualityOfService",
-              "repeatAction": "0",
-              "validFor": {
-                "startDateTime": "2024-05-30 08:51:29",
-                "endDateTime": "2024-08-06 08:51:31"
-              }
-            },
-            {
-              "id": "e6847d60432a02104fefe4511fb8f2c3",
-              "prescribeAction": "null",
+              "id": "65d1382e3be28210d140068aa4e45a31",
+              "appliedAction": "sendWarning",
               "description": "send a warning to the system",
-              "name": "packetdrop",
-              "repeatAction": "0",
-              "validFor": {
-                "startDateTime": "2024-05-30 08:50:53",
-                "endDateTime": "2024-08-06 08:50:55"
-              }
+              "name": "sendWarning",
+              "repeatAction": "0"
             }
           ]
-        },
-        {
-          "id": "cb55b5a0432a02104fefe4511fb8f201",
-          "description": "",
-          "name": "InternetSpeedValue",
-          "numberOfAllowedCrossing": "0",
-          "thresholdRuleSeverity": "medium",
-          "tolerancePeriod": "",
-          "conformanceTargetUpper": "120",
-          "conformanceComparatorUpper": "less than",
-          "consequence": []
-        }
-      ]
-    },
-    {
-      "id": "8f987524432a02104fefe4511fb8f2f0",
-      "captureFrequency": "once",
-      "captureMethod": "automatic",
-      "metricDescription": "This is the upstream speed in the service",
-      "metricName": "Upstream Speed",
-      "name": "Upstream Speed",
-      "unitOfMeasure": "a second",
-      "valueType": "",
-      "capturePeriod": "",
-      "validFor": {
-        "startDateTime": "",
-        "endDateTime": ""
-      },
-      "thresholdRule": []
-    }
-  ],
-  "specCharacteristic": [
-    {
-      "name": "restart",
-      "description": "restart",
-      "valueType": "yes_no",
-      "validFor": {
-        "startDatetime": "2024-05-30 08:45:49"
-      },
-      "characteristicValueSpecification": [
-        {
-          "value": "No",
-          "validFor": {
-            "startDateTime": "",
-            "endDateTime": ""
-          }
-        },
-        {
-          "value": "Yes",
-          "validFor": {
-            "startDateTime": "",
-            "endDateTime": ""
-          }
         }
       ]
     }
   ],
-  "serviceTestSpecRelationship": [
-    {
-      "id": "76a3b160432a02104fefe4511fb8f2ad",
-      "name": "OAM Test",
-      "relationshipType": ""
-    }
-  ],
-  "relatedServiceSpecification": [
-    {
-      "id": "aeddcd1fb7d69910ff00f203ae11a990",
-      "name": "Home Internet"
-    }
-  ]
-  "id": "89d2b920432a02104fefe4511fb8f22e"
+  "id": "2b406ec043b202104fefe4511fb8f211",
+  "externalId": "SVCTEST-1002"
 }
-
 ```
 

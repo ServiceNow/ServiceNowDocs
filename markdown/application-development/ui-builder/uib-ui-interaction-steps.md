@@ -7,9 +7,9 @@ release: australia
 product: UI Builder
 classification: ui-builder
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [UI interactions, Manage actions in UI Builder pages, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [UI interactions, Manage actions in UI Builder pages, Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # UI interaction toolbox steps
@@ -23,8 +23,6 @@ The following steps are available regardless of whether your UI interaction type
 Steps that show **None** in the Events column connect directly to the End node or the next step. They execute and do not return a confirmation that they have finished. To continue building the interaction after one of these steps, use an **And** branch.
 
 Steps that show **Success and/or Error** events allow you to define what happens next depending on the outcome, giving you full control over the interaction flow.
-
-When you insert a step before an existing step, the toolbox displays an Unavailable section. This section shows items that cannot be inserted at that location and includes a contextual message that changes depending on why the items are unavailable.
 
 <table id="table_rgp_lhl_m3c"><thead><tr><th>
 

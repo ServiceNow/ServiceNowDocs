@@ -7,7 +7,7 @@ release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Day 1 setup guide for Amazon Web Services on Cloud Provisioning and Governance, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -29,7 +29,7 @@ Role required: sn\_cmp.cloud\_admin
 
 ## About this task
 
-Cloud Provisioning and Governance accesses GovCloud regions using a set of credentials for each region. To configure Cloud Provisioning and Governance to support a GovCloud region, you create one standard AWS account for each region \(required for billing\), obtain the credentials for the account, and then create a service account for the region. For more information on billing, see the "AWS GovCloud \(US\) Billing and Payment" page in the [AWS documentation](https://aws.amazon.com/documentation/).
+Cloud Provisioning and Governance accesses GovCloud regions using a set of credentials for each region. To configure Cloud Provisioning and Governance to support a GovCloud region, create one standard AWS account for each region \(required for billing\). Then obtain the credentials for the account and create a service account for the region. For more information on billing, see the "AWS GovCloud \(US\) Billing and Payment" page in the [AWS documentation](https://aws.amazon.com/documentation/).
 
 ## Procedure
 

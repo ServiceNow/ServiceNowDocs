@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/create-product-offerings-somt.html
 release: australia
 topic_type: task
-last_updated: "2026-04-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -54,15 +54,15 @@ A versioned product offering is the customer-facing entity of a product. It cont
 
 8.  When you finish creating the product offering version, do one of the following actions.
 
-<table id="choicetable_product_offering"><thead><tr><th align="left" id="d45021e186">
+<table id="choicetable_product_offering"><thead><tr><th align="left" id="d46844e186">
 
 Action
 
-</th><th align="left" id="d45021e189">
+</th><th align="left" id="d46844e189">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d45021e195">
+</th></tr></thead><tbody><tr><td id="d46844e195">
 
 **Publish**
 
@@ -72,7 +72,7 @@ Publish the draft product offering so that you can use it in a product catalog:-
 -   After you publish a product offering, you can't change or delete it, unless you create a version for it.
 
 
-</td></tr><tr><td id="d45021e213">
+</td></tr><tr><td id="d46844e213">
 
 **Update**
 
@@ -80,7 +80,7 @@ Publish the draft product offering so that you can use it in a product catalog:-
 
 Update the product offering with the new data that you added, but don't publish it for use in a product catalog.
 
-</td></tr><tr><td id="d45021e222">
+</td></tr><tr><td id="d46844e222">
 
 **Copy**
 

@@ -7,7 +7,7 @@ release: australia
 product: MID Server
 classification: mid-server
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 23
 breadcrumb: [MID Server reference, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Properties control the behavior of all MID Servers or a particular MID Server.
 
 <table id="table_gwj_2sf_khb"><tbody><tr><td>
 
-![Links to each of the MID Server sections](../image/MIDRefIconBar.png)
+![MID Server reference navigation](../image/MIDRefIconBar.png)
 
 </td></tr></tbody>
 </table>The MID Server properties are in the MID Server Property \[ecc\_agent\_property\] table and can be accessed by navigating to **MID Server** &gt; **Properties**. To set these properties, you must add them, if they are not already present.
@@ -45,42 +45,33 @@ Properties control the behavior of all MID Servers or a particular MID Server.
     -   Default value: false
 -   **mid.discovery.max\_ci\_count\_per\_page**
 
-    Sets the maximum number of CIs per ECC queue page during horizontal discovery. When the CI count exceeds this limit, the MID Server splits the payload into multiple ECC queue pages.
+    Defines the maximum CI count per page.
 
-    -   Type: integer
+    -   Type: integer \(bytes\)
     -   Default value: 500
     You can also configure this as a [configuration parameter on a individual MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/mid-server-parameters.md).
 
 -   **mid.discovery.max\_related\_count\_per\_page**
-
-    Sets the maximum number of related items per chunk during horizontal discovery. When a CI has more related items than this value, the MID Server splits those items into separate ECC queue pages. Each page contains a copy of the parent CI with a subset of its related items.
-
     -   Type: integer
-    -   Default value: 100
+    -   Default: 100
 -   **mid.discovery.max\_relation\_count\_per\_page**
 
-    Sets the maximum number of relations per ECC queue page during horizontal discovery. When the relation count exceeds this limit, the MID Server splits the payload into multiple ECC queue pages.
+    Splits the payload based on the number of relations in it.
 
     -   Type: integer
-    -   Default value: 10000
+    -   Default: 10000
 -   **mid.discovery.max\_total\_items\_size\_per\_page**
 
-    Sets the maximum size limit per ECC queue page during pattern-based discovery. The system checks this threshold first. When the total items size exceeds this limit, the MID Server splits the payload into multiple ECC queue pages.
+    Splits the payload based on the size of the items.
 
-    -   Type: integer \(bytes\)
-    -   Default value: 3145728 \(3 MB\)
--   **mid.discovery.should\_minify\_pattern\_payload**
-
-    Enables JSON minification for pattern payloads. When set to true, the MID Server trims whitespace from the pattern payload to reduce its size. Enabling this property can help keep the payload within the size limit without increasing the MID Server JVM heap size.
-
-    -   Type: true \| false
-    -   Default value: false
+    -   Type: integer
+    -   Default:
 -   **mid.aws.sts.assume\_role.disable\_credential\_caching**
 
     Set this property to **true** to prevent the caching of temporary credentials for Cloud Discovery. For more information, see [Access setup for AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/access-aws-accounts.md) [Access setup for AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/access-aws-accounts.md).
 
     -   Type: true \| false
-    -   Default value: false
+    -   Default: false
 -   **mid.aws.sts.assume\_role.credential\_ttl\_minutes**
 
     Set the number of minutes you want to cache temporary credentials for Cloud Discovery. For more information, see [Access setup for AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/access-aws-accounts.md) [Access setup for AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/access-aws-accounts.md).
@@ -248,7 +239,7 @@ Properties control the behavior of all MID Servers or a particular MID Server.
     -   Default value: false
 -   **mid.probe.use\_legacy\_forward\_dns**
 
-    Enables the legacy DNSNameResolver probe and disables the default DNSNameResolver probe. See [Probes used by Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/r_OrchestrationProbes.md) for more information.
+    Enables the legacy DNSNameResolver probe and disables the default DNSNameResolver probe. See  for more information.
 
     -   Type: true \| false
     -   Default value: false
@@ -296,6 +287,17 @@ Properties control the behavior of all MID Servers or a particular MID Server.
 
     -   Type: True \| False
     -   Default value: true
+-   **mid.sa.ssh.allowable\_failures**
+
+    Specifies the number of allowable failures before the MID Server stops executing the pattern. Once the limit is reached, the next failure terminates the pattern. A failure occurs when an SSH command can't complete successfully due to issues such as authentication failure or connection timeout.
+
+    -   Type: integer
+    -   Default value: 2
+    -   Values:
+        -   0: The first failure terminates the pattern immediately.
+        -   1: The first failure is tolerated; the second failure terminates the pattern.
+        -   2: Two failures are tolerated; the third failure terminates the pattern.
+        -   -1: No maximum limit on failures; the pattern continues regardless of the number of failures.
 -   **mid.sa.ssh.use\_sncssh**
 
     Toggles SSH between non-interactive and interactive modes. True corresponds to non-interactive mode and allows probes to open sessions with the device without waiting for a prompt. False corresponds to interactive mode, which requires interactive sessions with the device for network devices and servers.
@@ -312,7 +314,7 @@ Properties control the behavior of all MID Servers or a particular MID Server.
         -   0: The first failure will terminate the pattern immediately.
         -   1: The first failure is tolerated; the second failure will terminate the pattern.
         -   2: Two failures are tolerated; the third failure will terminate the pattern.
-        -   -1: no maximum limit on failures; the pattern continues regardless of the number of failures.
+        -   -1: No maximum limit on failures; the pattern continues regardless of the number of failures.
 -   **mid.servicewatch.max\_concurrent\_connections**
 
     Defines the maximum number of concurrent tasks sent to an individual host by a single MID Server.

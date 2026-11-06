@@ -1,20 +1,20 @@
 ---
 title: Plugins or applications installed with ITOM Visibility
-description: Tables that list the plugins or applications that are installed with ITOM Visibility applications. When you update your application, any newly required application dependencies are installed.
+description: Plugins and applications are installed with ITOM Visibility, and application dependencies are installed when you update.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/plugin-app-itom-visibility.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 5
+last_updated: "2026-10-07"
+reading_time_minutes: 7
 breadcrumb: [ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
 
 # Plugins or applications installed with ITOM Visibility
 
-Tables that list the plugins or applications that are installed with ITOM Visibility applications. When you update your application, any newly required application dependencies are installed.
+Plugins and applications are installed with ITOM Visibility, and application dependencies are installed when you update.
 
 ## Discovery
 
@@ -23,12 +23,21 @@ Tables that list the plugins or applications that are installed with ITOM Visibi
 |Cloud Provisioning and Governance Core \(com.snc.cloud.core\)|Contains resource blocks and cloud Application Programming Interface \(cloud API\) mappings related to Cloud API-based discovery and events processed by either response mapping or calling patterns.|
 |Service Watch Suite commons \(com.snc.service-watch.commons\)|Contains common UI components for Discovery and Service Mapping.|
 |Discovery - IP Based \(com.snc.discovery.ip\_based\)|Contains shared components of horizontal discovery used by Discovery and Service Mapping.|
+|ITOM Smart Content \(com.snc.itom.smart.content\)|Delivers curated discovery and classification content that improves application and service identification and helps maintain accurate configuration data.|
+|ITOM Discovery Framework Core \(com.snc.discovery.framework.core\)|Provides the core functionality for the Discovery Framework.|
+|ITOM Discovery Admin Workspace \(com.snc.itom.daw\)|Enables the Discovery Admin Workspace experience for managing and monitoring Discovery operations.|
 
 ## Discovery Admin Workspace
 
 |Plugin or application name|Description|
 |--------------------------|-----------|
-|Discovery \(com.snc.discovery\)|Finds applications and devices on your network, and then updates the CMDB with the information it finds.|
+|ITOMDiscovery Admin Workspace \(com.snc.itom.daw\)|Enables the Discovery Admin Workspace experience for managing and monitoring Discovery operations.|
+|Service Operations WorkspaceService Reliability Management \(SRM\) Common \(sn\_sow\_srm\_common\)|Delivers common configurations for Service Reliability Management, which are stored globally, such as access control changes. This configuration is installed only as a result of enabling the Service Reliability Management application.|
+|CMDB Workspace \(sn\_cmdb\_ws\)|Provides a centralized experience for managing CMDB data health, governance, and insights. Use it to assess CMDB quality, investigate data issues, and gain visibility into configuration data so you can maintain a trusted CMDB.|
+|Discovery and Service Mapping Patterns \(sn\_itom\_pattern\)|Provides the latest versions of the Discovery and Service Mapping Patterns released on the ServiceNow Store. ServiceNow releases new patterns on the ServiceNow® Store on a monthly basis, enabling your organization to discover the latest industry-standard devices and applications.|
+|ITOM Configuration Console \(sn\_itom\_admin\)|Delivers structured onboarding journeys for both Event Management and Discovery, with step-by-step workflows covering monitoring tool integration, alert response configuration, CI classification, and diagnostics validation.|
+|ITOM Guided Setup - New \(sn\_sow\_guide\_setup\)|Provides a structured onboarding experience to help users quickly implement and realize value from ITOM.|
+|CMDB CI Class Models \(sn\_cmdb\_ci\_class\)|Adds class models that extend the CMDB class hierarchy, including class descriptions, identification rules, identifier entries, and dependent relationships if applicable. Applications such as Discovery and Service Mapping can use these class extensions to populate configuration items \(CIs\) and discover various technologies and software.|
 
 ## Service Mapping
 
@@ -53,6 +62,8 @@ Tables that list the plugins or applications that are installed with ITOM Visibi
 |Flow Designer Action Step - Script on MID \(com.glide.hub.action\_step.script\_mid\)|Provides an action step to execute custom JavaScript within a reusable action on a MID Server.|
 
 ## Cloud Discovery Workspace
+
+**Important:** Cloud Discovery Workspace is now deprecated and no longer supported or available for new activation. [Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-admin-workspace.md) provides the latest experience for this functionality. For details, see the [Application/Plugin Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 |Plugin or application name|Description|
 |--------------------------|-----------|

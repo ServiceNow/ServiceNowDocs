@@ -246,7 +246,7 @@ Create Service Goods Receipt
 
 </td><td>
 
-Creates a service goods receipt document in SAP ECC - RFC.
+Creates a Service goods receipt document in SAP ECC - RFC.
 
 </td></tr><tr><td>
 

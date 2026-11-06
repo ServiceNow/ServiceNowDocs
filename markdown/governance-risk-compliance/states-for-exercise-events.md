@@ -1,18 +1,18 @@
 ---
 title: States for an exercise and crisis event
-description: This section describes the states of progression for an exercise and crisis event.
+description: This section describes the states of progression for an exercises and crisis event.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/states-for-exercise-events.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Structured workflows for Exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # States for an exercise and crisis event
 
-This section describes the states of progression for an exercise and crisis event.
+This section describes the states of progression for an exercises and crisis event.
 
 ## States for an exercise and crisis event
 
@@ -191,5 +191,5 @@ Closed Incomplete state of the event task. Actual end time of the task is record
 Closed Complete state of the event task. The task is closed and complete in this state. Actual end time of the task is recorded in the **Actual end** field. If you do not update the actual end time, the current date and time are recorded as the actual end time.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Structured workflows for Exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
+</table>**Parent Topic:**[Structured workflows for exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
 

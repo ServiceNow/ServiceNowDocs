@@ -1,20 +1,20 @@
 ---
 title: Simulate event processing
-description: You can simulate event processing logic on events and display the resulting alert. This helps you understand which rules are executed and how event fields change.
+description: Simulate event processing logic to understand which rules execute on an event and how event fields change.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/simulate-event-processing.html
 release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Event rules, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Simulate event processing
 
-You can simulate event processing logic on events and display the resulting alert. This helps you understand which rules are executed and how event fields change.
+Simulate event processing logic to understand which rules execute on an event and how event fields change.
 
 ## Before you begin
 

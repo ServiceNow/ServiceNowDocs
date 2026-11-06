@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/add-property-coaching-quality-indicator-configurable-wfo-cs.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up Workforce Optimization Coaching, Optimize workforce operations, Extend capabilities, Configure, Customer Service Management]
 ---
@@ -30,7 +30,7 @@ Replace the existing indicator with any Performance Analytics indicator that has
 
 1.  In the application navigator, enter `sys_properties.list`.
 
-2.  Select **New**.
+2.  Click **New**.
 
 3.  Enter the following field values.
 
@@ -89,7 +89,7 @@ Read roles
 sn\_coaching.coach
 
 </td></tr></tbody>
-</table>4.  Select **Submit**.
+</table>4.  Click **Submit**.
 
     The configured indicator replaces the existing indicator in the Overview tab in the Coaching application in Workforce Optimization for Customer Service.
 

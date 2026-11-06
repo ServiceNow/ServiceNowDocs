@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-pre-auth-job-details-form.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Repair form, Reference, Manufacturing Commercial Operations]
 ---
@@ -37,6 +37,14 @@ Casual part
 </td><td>
 
 Part number of the product that is repaired.
+
+</td></tr><tr><td>
+
+Pre-auth case line
+
+</td><td>
+
+Select the required pre-auth case line.Only the approved charge lines are displayed.
 
 </td></tr><tr><td>
 

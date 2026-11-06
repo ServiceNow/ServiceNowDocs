@@ -1,20 +1,20 @@
 ---
 title: Remedial actions using Playbook
-description: Resolve the CI-related issues using the remedial actions using Playbook in the Investigate tab.
+description: Resolve CI-related issues by using remedial action playbooks on the Investigate tab.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/remedial-actions-playbook.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Incident Management in Service Operations Workspace, Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Remedial actions using Playbook
 
-Resolve the CI-related issues using the remedial actions using Playbook in the Investigate tab.
+Resolve CI-related issues by using remedial action playbooks on the Investigate tab.
 
 The Investigate tab includes the following types of remedial action to resolve CI-related issues:
 
@@ -41,9 +41,9 @@ You can cancel an ongoing End process or Restart service remedial action playboo
 -   The corresponding CI action record of the remedial action is already in progress.
 -   The change request has already moved to implement state for actions associated to CIs of type server.
 
-The Remedial actions section on the Investigate tab also contains the **Current** and **History** tab to display the list of remedial actions performed. By default, this section displays the list of remedial actions for the primary CI or current CI. You can switch the **Show actions performed on all CIs in this incident** toggle to display the list of remedial actions for all the CIs associated with the Incident.
+The Remedial actions section on the Investigate tab also contains the **Current** and **History** tabs to display the list of remedial actions performed. By default, this section displays the list of remedial actions for the primary CI or current CI. You can switch the **Show actions performed on all CIs in this incident** toggle to display the list of remedial actions for all the CIs associated with the Incident.
 
-Playbook is available only if both the Remedial Action Framework \[com.snc.sn\_reacf\] application and the Investigation Framework \[sn\_invest\_fwk\] application are installed and configured, as well as if the remedial actions are triggered.
+Playbook is available only if both the Remedial Action Framework \[com.snc.sn\_reacf\] application and the Investigation Framework \[sn\_invest\_fwk\] application are installed and configured, and if the remedial actions are triggered.
 
 **Note:** You can't execute concurrent or duplicate remedial actions when a remedial action is in progress on a process or service for a CI type device or server. You also can't execute concurrent or duplicate remedial actions on the same CI until the previous remedial action execution is completed. You can change this behavior and allow concurrent execution of the remedial action by selecting the **Allow concurrent execution** option for Remedial Action Type. For more information, see [Configure the Remedial Actions Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/config-remedial-action-fw.md).
 

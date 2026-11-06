@@ -7,7 +7,7 @@ release: australia
 product: Developer Guides
 classification: developer-guides
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Get started with Mobile SDK - iOS, Mobile SDK Developer Guide - iOS, Developer guides, API implementation and reference]
 ---
@@ -24,7 +24,7 @@ Role required: admin
 
 1.  Navigate to the Mobile SDK page on the ServiceNow Store web site.
 
-    For details, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md).
+    For details, see [Install an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/installing-applications-in-application-manager.md).
 
 2.  Select **Request Install** to download the Mobile SDK scoped application onto your ServiceNow instance.
 

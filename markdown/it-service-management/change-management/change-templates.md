@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Change Management, IT Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Explore, Change Management, IT Service Management]
 
 Standardize the creation of change requests by creating change templates based on all available change models.
 
-Users with the change\_manager roles or with write access to change models can create change templates.
+Users with the change\_manager role or with write access to change models can create change templates.
 
 Change templates streamline the process of creating common change records by providing users with predefined data for specific fields in common types of change requests. Templates reduce repetitive manual effort and enforce consistency and accuracy.
 
@@ -26,7 +26,7 @@ For more information, see [Create and propose a change template](https://raw.git
 
 You can create different template categories and group templates under specific parent and child categories. This categorization does not affect existing standard change categories.
 
-View template metrics to analyze the usage and efficiency of the templates created using each model. On the Change Template Overview page, you can view the usage statistics for all active change templates.
+You can view template metrics to analyze the usage and efficiency of the templates created from each model. On the Change Template Overview page, you can view the usage statistics for all active change templates.
 
 **Parent Topic:**[Exploring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/exploring-change-management.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -48,15 +48,11 @@ Role required: sn\_si.analyst
 
         \[Omitted image "review-playbook-to-close.png"\] Alt text: Using the Phishing Manual Playbook to analyse a user reported phishing incident.
 
-    -   Post-incident review report: You will now be moved to review the post-incident activities to proceed further with the closure. If the assessment is optional then skip the step or if the assessment is mandatory then take the assessment and complete it.
+    -   Post-incident review: You will now be moved to review the post-incident activities to proceed further with the closure. Select **Take assessment** to take the assessment and configure or preview the report together. If no assessment exists yet for the security incident, the button label reads **Take assessment and configure/preview report** instead. If the assessment is optional, you can skip this step.
 
         \[Omitted image "review-assessment-close-incident.png"\] Alt text: Close the security incident pop-up window: Take assessment.
 
         \[Omitted image "assessment-closure.png"\] Alt text: Post Incident Review: Assessment of the incident.
-
-    -   Configure/preview report: This is again an optional step, select the link to review report and proceed to **Next** step.
-
-        \[Omitted image "reports-closure.png"\] Alt text: Post Incident Review: Reports of the incident.
 
     -   Provide Resolution details: The analyst can select the check box to create knowledge articles automatically.
     -   Provide the Closure code, Closure notes and select **Close incident**.

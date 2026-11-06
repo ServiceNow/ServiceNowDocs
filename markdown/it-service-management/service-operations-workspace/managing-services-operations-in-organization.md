@@ -1,28 +1,28 @@
 ---
 title: Managing IT services in your organization
-description: You can leverage a few Service Operations Workspace integrations to promptly investigate the root cause and resolve the incidents that lead to unplanned interruptions and reduce the quality of IT services.
+description: You can use a few Service Operations Workspace integrations to promptly investigate the root cause and resolve the incidents that lead to unplanned interruptions and reduce the quality of IT services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/managing-services-operations-in-organization.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Managing IT services in your organization
 
-You can leverage a few Service Operations Workspace integrations to promptly investigate the root cause and resolve the incidents that lead to unplanned interruptions and reduce the quality of IT services.
+You can use a few Service Operations Workspace integrations to promptly investigate the root cause and resolve the incidents that lead to unplanned interruptions and reduce the quality of IT services.
 
 ## An agent's journey when managing IT services
 
 -   An agent can start the day by looking at an overview of assignments, outages, service announcements, and assignments in Service Operations Workspace to prioritize work based on service level agreements \(SLAs\), priority level, and urgency​.
--   The agent can create an incident based on the issue reported. Since the agent has access to related incidents and recent interactions, better and faster support can be provided. Agent also has access to all related information from the incident record page.
+-   The agent can create an incident based on the issue reported. Because the agent has access to related incidents and recent interactions, better and faster support can be provided. The agent also has access to all related information from the incident record page.
 -   The agent can resolve the incident faster by using tailored recommendations.
 -   The agent can reach out to experts on-call for high-priority tasks.​
--   The agent can collaborate easily with the requester and peers right from the task.
+-   The agent can collaborate with the requester and peers right from the task.
 -   The agent can create a change request to fix the issue.
 
 -   **[Knowledge Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/knowledge-articles-sow.md)**  
@@ -42,13 +42,13 @@ You can create a connected experience for users in Service Operations Workspace 
 -   **[Service Level Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/slm-sow.md)**  
 You can access the service level agreement \(SLA\) information for an incident on the Service Operations Workspace landing page and incident record page.
 -   **[Walk-up Experience management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/walkup-sow.md)**  
-Manage your Walk-up interactions and queues in Service Operations Workspace.
+Manage your walk-up interactions and queues in Service Operations Workspace.
 -   **[Collaboration in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/collaboration-sow.md)**  
 Collaboration services provide a way to communicate and collaborate in real time to resolve the incidents. You can initiate a chat or make conference calls using a service provider to communicate with stakeholders.
 -   **[Computer Telephony Integration in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/configure-cti-sow.md)**  
-Service Operations Workspace provides an agent \(with the sn\_openframe\_user role\) to receive inbound calls and place outbound calls using the Computer Telephony Integration \(CTI\) interface.
+Service Operations Workspace enables agents with the sn\_openframe\_user role to receive inbound calls and place outbound calls using the Computer Telephony Integration \(CTI\) interface.
 -   **[Universal Request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/using-ur-sow.md)**  
-The Universal Request is a task that a requester creates from any of the sources that include: Agent Workspace, Service Operations Workspace, or using a Virtual Agent chat.
+The Universal Request is a task that a requester creates from sources such as Agent Workspace, Service Operations Workspace, or using a Virtual Agent chat.
 -   **[Universal Task in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/using-ut-sow.md)**  
 Agents can use the Universal Task application to create tasks for employees and to manage the request resolution.
 -   **[Resetting password using Service-desk assisted Password Reset in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/resetting-password-pr-sow.md)**  

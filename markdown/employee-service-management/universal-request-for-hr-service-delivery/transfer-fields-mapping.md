@@ -7,7 +7,7 @@ release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure mappings, Configure service to use Universal Request, Setting up and configuring Universal Request, Universal Request, Employee Service Management]
 ---
@@ -30,15 +30,15 @@ To map automatically the fields, select **Map fields automatically** related lin
 
 2.  Open the configuration for which you want to map the fields.
 
-<table id="choicetable_mmq_lyn_mtb"><thead><tr><th align="left" id="d169949e80">
+<table id="choicetable_mmq_lyn_mtb"><thead><tr><th align="left" id="d169954e80">
 
 Mapping type
 
-</th><th align="left" id="d169949e83">
+</th><th align="left" id="d169954e83">
 
 Description and action
 
-</th></tr></thead><tbody><tr><td id="d169949e89">
+</th></tr></thead><tbody><tr><td id="d169954e89">
 
 **Direct transfer mappings**
 
@@ -52,7 +52,7 @@ Map the fields to create service level tickets when a ticket is transferred from
 4.  Select **Submit**.
 
 
-</td></tr><tr><td id="d169949e130">
+</td></tr><tr><td id="d169954e130">
 
 **Associated ticket mappings**
 
@@ -66,7 +66,7 @@ Map the fields to create an associated ticket for universal request.On the **Ass
 4.  Select **Submit**.
 
 
-</td></tr><tr><td id="d169949e171">
+</td></tr><tr><td id="d169954e171">
 
 **Create UR mappings**
 

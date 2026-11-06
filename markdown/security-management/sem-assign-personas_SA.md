@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-assign-personas\_SA.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Security Exposure Management Workspace personas and granular roles, Implement, Unified Security Exposure Management, Security Operations]
 ---

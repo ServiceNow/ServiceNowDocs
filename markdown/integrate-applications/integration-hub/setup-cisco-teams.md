@@ -1,6 +1,6 @@
 ---
 title: Set up the Cisco Webex Teams spoke
-description: Integrate the ServiceNow instance and Cisco Webex Teams by creating a custom OAuth application in Cisco Webex Teams or using the custom Cisco Webex Credentials to authenticate ServiceNow requests.Use the information generated during the Cisco Webex Teams application configuration to register Cisco Webex Teams as an OAuth provider and allow the ServiceNow instance to request OAuth 2.0 tokens.Create a credential record for the Cisco Webex Teams account. The Cisco Webex Teams Spoke connection and credential alias uses these credentials to authorize actions.Create a credential record for the Cisco Webex Teams account. The Cisco Webex Teams Spoke connection and credential alias uses these credentials to authorize actions.Modify the short description to provide spoke specific information.Create a connection record for your Specify whether the record is for a host, instance, custom application, or account.. The Visa spoke connection and credential aliases use these connections to perform actions in .
+description: Integrate the ServiceNow instance and Cisco Webex Teams by creating a custom OAuth application in Cisco Webex Teams or using the custom Cisco Webex Credentials to authenticate ServiceNow requests.Use the information generated during the Cisco Webex Teams application configuration to register Cisco Webex Teams as an OAuth provider and allow the ServiceNow instance to request OAuth 2.0 tokens.Create a credential record for the Cisco Webex Teams account. The Cisco Webex Teams Spoke connection and credential alias uses these credentials to authorize actions.Create a credential record for the Cisco Webex Teams account. The Cisco Webex Teams Spoke connection and credential alias uses these credentials to authorize actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/integration-hub/setup-cisco-teams.html
 release: australia
@@ -8,7 +8,7 @@ product: Integration Hub
 classification: integration-hub
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [Cisco Webex Teams Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
@@ -270,7 +270,7 @@ Credentials
 
 Name of the credential created for Cisco Webex Teams spoke
 
- Provide the value ceated in “Create a OAuth credential record for the Cisco Webex Teams spoke”.
+ Provide the value created in “Create a OAuth credential record for the Cisco Webex Teams spoke”.
 
 </td></tr><tr><td>
 
@@ -286,34 +286,5 @@ Option to provide the connection URL.
 </table>    \[Omitted image "connection\_record\_cisco\_webex\_teams.png"\] Alt text: Connection record for Cisco Webex Teams
 
 5.  Right-click the form header and click **Submit**.
-
-
-## Create a Connection &amp; Credentials alias for Visa Spoke
-
-Create a connection record for your  . The Visa spoke connection and credential aliases use these connections to perform actions in .
-
-### Procedure
-
-1.  Navigate to **All** &gt; **Connections &amp; Credentials** &gt; **Connections &amp; Credentials Aliases**.
-
-2.  Open the alias record for ****.
-
-3.  From the **Connections** tab, click **New**.
-
-4.  On the form, fill these fields.
-
-    |Field|Description|
-    |-----|-----------|
-    |Name|Name to uniquely identify the record. For example, `<Application-Name> Connection`.|
-    |Credential|Credential record created for Visa spoke. For example, `<Application-Name> Cred`.|
-    |Connection alias|Alias record associated with this connection.|
-    |Host|Fully qualified domain name of the target host where the **** server is installed. For example, `<host>.<domain>.com`.|
-    |Connection URL|Base URL to connect to ****. Enter: ``|
-    |Active|Option to actively use the connection record.|
-    |Domain|Domain that the action runs in.|
-    |Override default port|Target port used by the connection. If blank, the system uses the default port.|
-    |Use MID server|Option to use a MID Servers for this connection. If the check box is selected, define the fields in the Advanced MID Server Configuration related list.|
-
-5.  Click **Submit**.
 
 

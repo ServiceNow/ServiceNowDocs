@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/agent-intelligence-case-mgmt.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Machine learning solutions, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -20,7 +20,7 @@ From either Agent Workspace or the platform interface, agents can use this featu
 
 The Predictive Intelligence for Customer Service Management plugin \(com.snc.csm\_ml\) provides Predictive Intelligence capabilities for Customer Service Management. This plugin enables customers to leverage machine learning algorithms for searching related cases in CSM. This plugin requires:
 
--   Customer Service \(com.sn\_customerservice\)
+-   Case Management Core \(com.sn\_customerservice\)
 -   Predictive Intelligence for Contextual Search \(com.snc.contextual\_search\_ml\)
 
 The Predictive Intelligence for Customer Service Management plugin is activated automatically for new Orlando customers. Existing customers upgrading to the Orlando release must manually activate this plugin.

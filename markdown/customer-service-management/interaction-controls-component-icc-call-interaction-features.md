@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/interaction-controls-component-icc-call-interaction-features.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Enable ICC for CCaaS calls and callbacks, Configure voice, Configure omnichannel, Configure, Customer Service Management]
 ---
@@ -161,7 +161,7 @@ The agent can monitor interactions and access them using the call control panel,
 -   Active call: When an agent is in an active call, the associated interaction record displays. Selecting the link opens the interaction record in a new tab. During an active call, you can use buttons to hold, start, or stop recording, mute yourself or other parties, and transfer calls to a queue, other agents, or external numbers.
     -   **Overflow menu**
 
-        Access primary call controls \(Recording, Hold, Mute, Transfer, and Help Request\) directly on the active call interface, with additional CCaaS-defined actions available through an overflow menu when controls exceed five or available display width is crossed. See [Implement the overflow menu for active calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/implement-overflow-menu-icc.md).
+        Access primary call controls \(Recording, Hold, Mute, Transfer, and Help Request\) directly on the active call interface. Additional CCaaS-defined actions are available through an overflow menu when controls exceed five or available display width is crossed. See [Implement the overflow menu for active calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/implement-overflow-menu-icc.md).
 
     -   **Agent help request**
 
@@ -190,6 +190,8 @@ The agent can monitor interactions and access them using the call control panel,
 
         -   Use **Consult** to talk to the agent before transferring the call. You can **Merge** calls by combining your call with the new agent's call, or **Leave &amp; Transfer** calls by disconnecting from the call and transferring the call directly.
         -   Blind: Transfer the call directly without consultation.
+        Blind: Transfer the call directly without consultation.
+
 
 ## Global call component
 

@@ -1,5 +1,5 @@
 ---
-title: Explore Password complexity requirements
+title: Password complexity requirements
 description: Passwords in your ServiceNow instance must meet complexity requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/explore-password-requirements.html
@@ -7,12 +7,12 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Password complexity requirements, Local authentication, Authentication, Access Management]
 ---
 
-# Explore Password complexity requirements
+# Password complexity requirements
 
 Passwords in your ServiceNow® instance must meet complexity requirements.
 
@@ -30,12 +30,12 @@ If needed, you can require that passwords are changed regularly, at least every 
 
 ## Requirements and banned characters
 
-To enable a secure network environment, it is necessary for users to use strong passwords that include combination of letters, numbers, and symbols. These combinations help to prevent unauthorized users who usually use manual or automated methods to guess weak passwords.
+To enable a secure network environment, it is necessary for users to use strong passwords that include a combination of letters, numbers, and symbols. These combinations help to prevent unauthorized users who usually use manual or automated methods to guess weak passwords.
 
 The password to your instance must meet the following requirements:
 
--   Minimum 8 characters.
--   Maximum 100 characters.
+-   Contains a minimum of 8 characters.
+-   Contains a maximum of 100 characters.
 -   Contains lower case and upper case characters
 -   Contains special characters.
 -   Contains digits.

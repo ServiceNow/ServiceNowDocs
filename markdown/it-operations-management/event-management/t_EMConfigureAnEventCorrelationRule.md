@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Rule-based alert grouping, Alert grouping types and creation methods, Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -28,7 +28,7 @@ Grouping automation helps you manage alerts more effectively by collecting simil
 
 1.  Navigate to **All** &gt; **Event Management** &gt; **Rules** &gt; **Alert Correlation Rules**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  On the form, fill in the fields.
 
@@ -39,5 +39,5 @@ Grouping automation helps you manage alerts more effectively by collecting simil
 
 ## Result
 
-A rule-based alert group is created when a new alert is generated. It is also created when the status of an existing alert changes from Closed or Flapping to Open or Reopened, provided the filter criteria are matched.
+A rule-based alert group is created when a new alert is generated. An alert group is also created when the status of an existing alert changes from Closed or Flapping to Open or Reopened, provided the filter criteria are matched.
 

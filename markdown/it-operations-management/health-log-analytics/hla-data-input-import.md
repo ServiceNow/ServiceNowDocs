@@ -7,7 +7,7 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [ServiceNow, Health Log Analytics, HLA, data input, source types, migration, configuration, update set, import, settings, mapping]
 breadcrumb: [Migrating a data input configuration, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
@@ -49,7 +49,7 @@ Role required: admin
 
     3.  Close the dialog and resolve the errors in the **Update Set Preview Problems** related list.
 
-        For more information, see Preview a remote update set.
+        For more information, see [Preview a remote update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/t_PreviewARemoteUpdateSet.md).
 
         You can ignore errors that start with 'Could not find a record in \[table\]' for the following tables:
 

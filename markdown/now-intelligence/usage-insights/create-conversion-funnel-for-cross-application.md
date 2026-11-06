@@ -7,7 +7,7 @@ release: australia
 product: Usage Insights
 classification: usage-insights
 topic_type: task
-last_updated: "2026-08-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [cross application funnel]
 breadcrumb: [Create a conversion funnel, Conversion funnels, Using Usage Insights, Usage Insights, Platform Analytics]
@@ -67,6 +67,8 @@ The scope of the funnel is set by the first step:
     \[Omitted image "usage-create-croos-funnel-steps.png"\] Alt text: Steps to create cross-app funnel
 
 9.  Add the next step, and configure it against a different application.
+
+    For example, if the first step targets the **Home** page of Service Operations Workspace, set the second step to the **Create dashboard** page of Platform Analytics Workspace.
 
 10. Repeat the previous step to add further steps to the journey.
 

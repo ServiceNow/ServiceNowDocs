@@ -7,7 +7,7 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Reference, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
@@ -114,30 +114,6 @@ HR content reader\[sn\_hr\_core.content\_reader\]
 </td><td>
 
 Grants read access to all the table records and their content.
-
-</td><td>
-
-None
-
-</td></tr><tr><td>
-
-Case and Knowledge Management Restricted caller or application access definitionsn\_hr\_core.basic\_case\_writer
-
-</td><td>
-
-An application accessor definition used by HR Core to grant applications with the HR Basic persona the ability to write to HR Case-related resources.
-
-</td><td>
-
-None
-
-</td></tr><tr><td>
-
-Case and Knowledge Management restricted caller definitionsn\_hr\_core.restricted\_caller
-
-</td><td>
-
-Used by the HR Core application to control which application scopes are allowed to invoke protected HR Core APIs, Script Includes, tables, or other resources.
 
 </td><td>
 
@@ -408,7 +384,7 @@ Contains information about an allegation type and subtype.**Note:** A non-metada
 
 </td></tr><tr><td>
 
-\*Allegation Subtype\[sn\_hr\_er\_allegation\_sub\_type\]
+\*Allegation Subtype\[sn\_hr\_core\_allegation\_sub\_type\]
 
 </td><td>
 
@@ -417,7 +393,7 @@ Metadata table that provides 59 records to the base system. Allegation subtypes 
 
 </td></tr><tr><td>
 
-\*Allegation Type\[sn\_hr\_er\_allegation\_type\]
+\*Allegation Type\[sn\_hr\_core\_allegation\_type\]
 
 </td><td>
 

@@ -7,9 +7,9 @@ release: australia
 product: Conversational Interfaces Diagnostics Tool
 classification: conversational-interfaces-diagnostics-tool
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using the Conversational Interfaces Diagnostic Tool, Conversational Interfaces Diagnostic Tool, Conversational Interfaces]
+breadcrumb: [Use, Conversational Interfaces Diagnostic Tool, Manage people and work, Conversational Interfaces]
 ---
 
 # Diagnose Conversational Interfaces errors
@@ -19,6 +19,8 @@ Use the Conversational Interfaces Diagnostic Tool to resolve issues related to c
 ## Before you begin
 
 Role required: virtual\_agent\_admin or admin
+
+Starting with the Brazil release, Virtual Agent NLU functionality in the Diagnostic Tool is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## About this task
 

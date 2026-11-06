@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/install-plugins-rpa-studio.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Build, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -167,15 +167,15 @@ Connector for interacting with SAP applications.For more information about the S
 
 7.  Perform the following steps for more plugin options.
 
-<table id="choicetable_sx3_1wd_b2c"><thead><tr><th align="left" id="d565794e568">
+<table id="choicetable_sx3_1wd_b2c"><thead><tr><th align="left" id="d554593e568">
 
 Action
 
-</th><th align="left" id="d565794e571">
+</th><th align="left" id="d554593e571">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d565794e577">
+</th></tr></thead><tbody><tr><td id="d554593e577">
 
 **Update a plugin version**
 
@@ -189,7 +189,7 @@ Steps
 6.  Save, close and reopen the project to load the updated plugins to the current project.
 
 
-</td></tr><tr><td id="d565794e620">
+</td></tr><tr><td id="d554593e620">
 
 **Remove a plugin**
 

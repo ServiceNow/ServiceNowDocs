@@ -1,18 +1,18 @@
 ---
 title: Fulfilling requests in Care Team Operations for Environmental Services
-description: Healthcare EVS cases can be fulfilled one of two ways, depending on what plugin you have installed.
+description: Healthcare Facilities cases can be fulfilled one of two ways, depending on what plugin you have installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/cto-evs-fulfill-requests.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Care Team Operations for Environmental Services, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
 # Fulfilling requests in Care Team Operations for Environmental Services
 
-Healthcare EVS cases can be fulfilled one of two ways, depending on what plugin you have installed.
+Healthcare Facilities cases can be fulfilled one of two ways, depending on what plugin you have installed.
 
 For Care Team Operations for Environmental Services to create work orders from Healthcare EVS cases, the Field Service Management \[com.snc.work\_management\] plugin must be installed.
 
@@ -26,5 +26,7 @@ Work orders aren’t created from Healthcare EVS cases. Instead, agents work on 
 
 Cases created are assigned to assignment groups based on the requesting location associations and are configured normally.
 
-For information on fulfilling cases, see  in Customer Service Management.
+For information on fulfilling cases, see [Manage cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/manage-cases.md) in Customer Service Management.
+
+**Note:** Some cases are created by the ServiceNow Otto case creation AI agent instead of being submitted through a form. Fulfill these cases the same way. When a case comes from a chat conversation, an interaction record of the conversation is also created.
 

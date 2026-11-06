@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CrowdStrike Next-Gen SIEM integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -24,11 +24,11 @@ Role required: sn\_si.ingestion\_profile\_admin
 
 ## Procedure
 
-1.  If you're not continuing from the previous section of the detection profile definition process, access the profile you're defining.
+1.  If you are not continuing from the previous section of the detection profile definition process, access the profile you are defining.
 
     1.  Navigate to **All** &gt; **CrowdStrike Next-Gen SIEM** &gt; **Detection Profile**.
 
-    2.  Select the profile you're continuing to define.
+    2.  Select the profile you are continuing to define.
 
     3.  Select **Correlation Rules** in the progress bar.
 

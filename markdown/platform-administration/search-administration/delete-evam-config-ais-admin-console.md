@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Customizing the result-card interface of an AI Search application by using EVAM, Using AI Search Admin console, AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -29,7 +29,7 @@ Role required: admin or ais\_admin
 
 3.  In the left pane, select **Result-card Interface**.
 
-4.  From the **Select a bundle to edit** list, select an EVAM configuration bundle.
+4.  From the Select a bundle to edit list, select an EVAM configuration bundle.
 
     The list of view configurations that are associated with the selected bundle are displayed.
 

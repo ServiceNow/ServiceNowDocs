@@ -7,7 +7,7 @@ release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -76,10 +76,6 @@ Here's an overview of your set up process. Detailed instructions appear in the t
 Navigate to **Workspaces** &gt; **Cloud Cost Management Workspace** &gt; **Admin**. The Admin page enables you to set up a provider and preferences.
 
 \[Omitted image "cloud\_insights\_home.png"\] Alt text: Admin page of the Cloud Cost Management Workspace
-
-After you set up a provider and assign the insights\_owner role, the page displays additional setup activities.
-
-**Note:** The Configure and Run Discovery card appears only if you use the Discovery application to discover cloud resources.
 
 ## Setting up Cloud Cost Management
 
@@ -166,10 +162,10 @@ A Price Sheet Download job downloads and stores price sheet data. The Rightsizin
 
 </td><td>
 
--   The feature analyzes resource usage to recommend better sizes for resources that are wasting money by being over-provisioned or underused. A confidence rating and predicted savings support each recommendation. You schedule Rightsizing jobs to resize the resources you specify.
--   The Unused Machines feature analyzes usage data to identify resources that are wasting money because they are not used. You schedule Unused Machines jobs to power-off or terminate the resources that you specify.
+-   The Rightsizing feature analyzes resource usage to recommend better sizes for resources that are wasting money by being over-provisioned or underused. A confidence rating and predicted savings support each recommendation. You schedule Rightsizing jobs to resize the resources you specify.
+-   The Unused Machines feature analyzes usage data to identify resources that are wasting money because they aren't used. You schedule Unused Machines jobs to power-off or terminate the resources that you specify.
 -   A Business Hours job applies policies to identify resources that are running when they should be powered off, reports them, and can start and stop them on a schedule that you specify. Running only during specified business hours can significantly reduce your cloud spend.
--   Unassigned Resources policies help you to identify the resources that are not associated with a change group and to assign them appropriately. When a resource is assigned to the correct group, the resource can be appropriately governed even as it goes through stages such as patching, upgrading, and reconfiguring.
+-   Unassigned Resources policies help you to identify the resources that aren't associated with a change group and to assign them appropriately. When a resource is assigned to the correct group, the resource can be appropriately governed even as it goes through stages such as patching, upgrading, and reconfiguring.
 
 </td><td>
 

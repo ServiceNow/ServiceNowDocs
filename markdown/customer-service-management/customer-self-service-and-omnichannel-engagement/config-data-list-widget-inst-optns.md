@@ -7,9 +7,9 @@ release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Portal Data List widget, Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Portal Data List widget, Set up Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Add and configure the Portal Data List widget
@@ -50,94 +50,189 @@ Role required: sp\_admin
 
     ```
     [
+    
       {
+    
         "category": "All Cases",
+    
         "ID": "all_cases",
+    
         "table": "sn_customerservice_case",
+    
         "view": "csp",
+    
         "card_view_primary_column": "number",
+    
         "card_view_secondary_column": "short_description",
+    
         "card_view_additional_columns": "product|contact|account|priority",
+    
         "target_page_id": "standard_ticket",
-        "guest_view": "connect"
+    
+        "guest_view": "connect",
+    
+        "scope_runtime_filters_to_sub_category": true,
+    
         "role_based_views":{
-    	  "field_service_agent_view":"snc_field_technician",
-    	  "agent_case_view":["snc_customer_service_agent","snc_manager"]
+    
+        "field_service_agent_view":"snc_field_technician",
+    
+        "agent_case_view":["snc_customer_service_agent","snc_manager"]
+    
          },
+    
          "sub_categories": [
+    
           {
+    
             "sub_category": "Open",
+    
             "sub_category_query": "active=true"
+    
           },
+    
           {
+    
             "sub_category": "Closed",
+    
             "sub_category_query": "active=false"
+    
           }
+    
         ],
+    
         "run_time_filters": [
+    
           {
+    
             "column": "product",
-            "selection_type": "multi_select"
+    
+            "selection_type": "multi_select",
+    
+            "show_all_reference_filter_values": true
+    
           },
+    
           {
+    
             "column": "contact",
-            "selection_type": "multi_select"
+    
+            "selection_type": "multi_select",
+    
+            "show_all_reference_filter_values": true
+    
           },
+    
           {
+    
             "column": "account",
+    
             "selection_type": "multi_select"
+    
           },
+    
           {
+    
             "column": "priority",
+    
             "selection_type": "multi_select"
+    
           },
+    
           {
+    
             "column": "state",
+    
             "selection_type": "multi_select"
+    
           },
+    
           {
+    
             "column": "sys_updated_on",
+    
             "selection_type": "single_select",
+    
             "ranges": [
+    
               {
+    
                 "label": "Last 30 days",
+    
                 "query": "sys_updated_on<=javascript:gs.endOfToday()^sys_updated_onRELATIVEGT@dayofweek@ago@30"
+    
               },
+    
               {
+    
                 "label": "Last 60 days",
+    
                 "query": "sys_updated_on<=javascript:gs.endOfToday()^sys_updated_onRELATIVEGT@dayofweek@ago@60"
+    
               },
+    
               {
+    
                 "label": "Last 90 days",
+    
                 "query": "sys_updated_on<=javascript:gs.endOfToday()^sys_updated_onRELATIVEGT@dayofweek@ago@90"
+    
               },
+    
               {
+    
                 "label": "Before 90 days",
+    
                 "query": "sys_updated_onRELATIVELT@dayofweek@ago@90"
+    
               }
+    
             ]
+    
           }
+    
         ]
+    
       },
+    
       {
+    
         "category": "Actions Needed",
+    
         "table": "sn_customerservice_case",
+    
         "view": "Case",
+    
         "card_view_primary_column": "number",
+    
         "card_view_secondary_column": "short_description",
+    
         "card_view_additional_columns": "product|priority|state|contact",
+    
         "filter": "stateIN6,18",
+    
         "glyph": "check",
+    
         "target_page_id": "csm_ticket"
+    
       },
+    
       {
+    
         "category": "Work Orders",
+    
         "table": "wm_order",
+    
         "card_view_primary_column": "number",
+    
         "card_view_secondary_column": "short_description",
+    
         "card_view_additional_columns": "priority|state",
+    
         "glyph": "briefcase"
+    
       }
+    
     ]
     ```
 

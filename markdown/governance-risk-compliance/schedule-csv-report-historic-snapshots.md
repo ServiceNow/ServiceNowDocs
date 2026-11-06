@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/schedule-csv-report-historic-snapshots.html
 release: australia
 topic_type: task
-last_updated: "2026-08-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Configure, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Schedule a CSV download report for historic snapshots

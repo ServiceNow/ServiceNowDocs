@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_CreateANewHelpContext.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Context-sensitive help, User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -64,6 +64,8 @@ Document
 
 Click the reference lookup icon \(\[Omitted image "IconReferencelookup.png"\] Alt text: Reference lookup icon\) to open the document selection dialog box \(pictured\). Select the table and document \(record\) for this help context.
 
+ \[Omitted image "select-the-document.png"\] Alt text: Help context document select
+
  This field is only visible if you have selected **Record** as the **Type**.
 
 </td></tr><tr><td>
@@ -72,7 +74,7 @@ Language
 
 </td><td>
 
-Select the language of the help page to which you are linking. The choices available depend on which I18n Translation plugins you have activated. For more information, see Activate a language.
+Select the language of the help page to which you are linking. The choices available depend on which I18n Translation plugins you have activated. For more information, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateALanguage.md).
 
  This field allows you to create multiple help contexts for the same form, list, or record, each directing to a help page in a different language. For example, you might have two help contexts for Form X: one for English and the other for Spanish. If a user whose language is set to Spanish clicks the help icon while viewing Form X, the help page defined in the Spanish help context opens.
 

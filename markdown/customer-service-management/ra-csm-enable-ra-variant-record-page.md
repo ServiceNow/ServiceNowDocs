@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ra-csm-enable-ra-variant-record-page.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [restore Recommended Actions on record page variants after upgrade, Recommended Actions tab not appearing, RA tab missing, record page variant inactive, extended case table]
 breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
@@ -32,9 +32,9 @@ The following procedure applies only when the Recommended Actions page variant i
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
 
-2.  On the Experiences tab, select **CSM/FSM Configurable Workspace**.
+2.  On the Experiences tab, select CRM Workspace.
 
-3.  On the CSM/FSM Configurable Workspace page, scroll to the Records section and select one of the supported record pages:
+3.  On the CRM Workspace page, scroll to the Records section and select one of the supported record pages:
 
     -   CSM default record page
     -   CSM Interaction record page

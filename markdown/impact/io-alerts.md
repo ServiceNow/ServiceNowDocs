@@ -1,22 +1,22 @@
 ---
 title: Key alerts and notifications
-description: Use the Instance Observer Key Alerts functionality for flexibility to set alerts with historical thresholds from four week increments specific to your business needs and configure who on your team receives notifications.
+description: Use the Instance Observer Key Alerts functionality to set alerts with historical thresholds from four-week increments specific to your business needs. Configure who on your team receives notifications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/io-alerts.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use alerts to monitor your instance, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
 # Key alerts and notifications
 
-Use the Instance Observer Key Alerts functionality for flexibility to set alerts with historical thresholds from four week increments specific to your business needs and configure who on your team receives notifications.
+Use the Instance Observer Key Alerts functionality to set alerts with historical thresholds from four-week increments specific to your business needs. Configure who on your team receives notifications.
 
 **Note:** Instance Observer **Alerts** support is only available for Advanced and Total packages of ServiceNow Impact.
 
-Keys alerts activation will provide you with proactive alerts about moving averages, a statistic that captures the average change in a data series over time, for six critical metrics:
+Key alerts activation provides proactive alerts about moving averages for six critical metrics. Moving averages capture the average change in a data series over time.
 
 1.  **Transaction \(increase\) Instance**: Indicates transaction moving average increases by a certain percentage of it's historical median for a certain time period.
 2.  **Transaction \(drop\) Instance**: Indicates transaction moving average drops by a certain percentage of it's historical median for a certain time period.

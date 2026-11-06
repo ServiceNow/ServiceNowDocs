@@ -7,7 +7,7 @@ release: australia
 product: Digital Product Release
 classification: digital-product-release
 topic_type: task
-last_updated: "2026-04-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Generate AI-powered release notes, Digital Product Release AI release notes generator, AI-driven release notes generator, Now Assist skill, Now Assist for ITSM, Now Assist]
 breadcrumb: [Manage releases for digital products and services, Use, Digital Product Release, IT Service Management]

@@ -1,5 +1,5 @@
 ---
-title: Configure the help link for the Virtual Agent Facebook Messenger integration \(Legacy\)
+title: \(Legacy\) Configure the help link for the Virtual Agent Facebook Messenger integration
 description: Use the va.messenger.help.url system property to create the link that opens a web help page when requesters use the Help command in the Virtual Agent Facebook Messenger integration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/virtual-agent/create-fb-help-prop.html
@@ -7,12 +7,12 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Legacy setup and configuration, Configure, Conversational Integration with Facebook Messenger, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Legacy setup and configuration, Configure, Facebook Messenger, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
-# Configure the help link for the Virtual Agent Facebook Messenger integration \(Legacy\)
+# \(Legacy\) Configure the help link for the Virtual Agent Facebook Messenger integration
 
 Use the **va.messenger.help.url** system property to create the link that opens a web help page when requesters use the **Help** command in the Virtual Agent Facebook Messenger integration.
 

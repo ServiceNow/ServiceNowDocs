@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Conflict detection, Configure, Change Management, IT Service Management]
 ---
@@ -55,7 +55,7 @@ Role required: itil or sn\_change\_write
 
 4.  Select **Check Conflicts**.
 
-5.  When the conflict detection pop-up window is displayed, click **Close**.
+5.  When the conflict detection pop-up window is displayed, select **Close**.
 
     Conflicts appear in the Conflicts Detected list on the **Conflicts** tab. The **Conflict status** and **Conflict last run** fields on the change request record are also updated.
 
@@ -141,6 +141,8 @@ Resolve any conflicts and reschedule the change.
 
 [Create blackout and maintenance schedules in Change Management]()
 
+[Schedule types in conflict detection]()
+
 [Configure a change request to monitor outside maintenance schedule conflicts]()
 
 [Conflict calendar]()
@@ -163,13 +165,13 @@ Role required: admin
 
 2.  Open the change request that you want to cancel conflict checking for.
 
-3.  Click the **Conflicts** tab.
+3.  Select the **Conflicts** tab.
 
-4.  Click **Check Conflicts**.
+4.  Select **Check Conflicts**.
 
-    The Checking conflicts progress status pop-up window appears.
+    The Checking conflicts progress status dialog box appears.
 
-5.  To cancel conflict detection, click **Cancel**.
+5.  To cancel conflict detection, select **Cancel**.
 
     The active conflict detection job is canceled and all conflicts displayed in the Conflicts section are cleared. The **Conflict Status** field displays a **Not Run** status.
 
@@ -194,10 +196,10 @@ Role required: change\_manager
 
 4.  Add the **Exclude from conflict detection** field to the change request form.
 
-    For information on the procedure to add a new field to a form, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+    For more information about adding a field to a form, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
 
 
 ### Result
 
-The **Exclude from conflict detection** check box is added to the Change Request form. When the check box is selected in the change request form, the **Check conflicts** option is inactive, and the change request is excluded from the conflict detection process. The change request is also excluded from being displayed as a conflict when conflict detection is run on other change records.
+The **Exclude from conflict detection** check box is added to the Change Request form. When the check box is selected on the change request form, the **Check conflicts** option is inactive, and the change request is excluded from the conflict detection process. The change request is also excluded from being displayed as a conflict when conflict detection is run on other change records.
 

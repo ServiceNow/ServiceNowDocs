@@ -1,5 +1,5 @@
 ---
-title: Installing the MID Server with manual or guided setup
+title: Installing the MID Server
 description: Download and install the MID Server on the host machine, test the connection, and then validate the MID Server. Use the manual procedures or the guided setup. Set up multiple MID Servers for load balancing and domain separation. These procedures prepare it for use with any application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/mid-server/mid-server-installation.html
@@ -7,12 +7,12 @@ release: australia
 product: MID Server
 classification: mid-server
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Installing the MID Server, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Installing the MID Server with manual or guided setup
+# Installing the MID Server
 
 Download and install the MID Server on the host machine, test the connection, and then validate the MID Server. Use the manual procedures or the guided setup. Set up multiple MID Servers for load balancing and domain separation. These procedures prepare it for use with any application.
 

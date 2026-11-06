@@ -7,7 +7,7 @@ release: australia
 product: Communities
 classification: communities
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring communities, Communities, Customer Service Management]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [Configuring communities, Communities, Customer Service Management]
 # Enable users to self-register to a community
 
 Once users have accessed public forums and decided they want to join the community, they can self-register to the community. External user registration provides a way of validating users and requires them to accept the community Terms and Conditions.
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Community administrators perform the following tasks to configure external user registration.
 

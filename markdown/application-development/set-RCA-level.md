@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/set-RCA-level.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Restricted caller access privilege settings, Application access settings, Contextual development environment, Learning about developing on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Restricted caller access privilege settings, Application access settings, Contextual development environment, Learning about developing on the ServiceNow AI Platform, Classic app development, Building applications]
 ---
 
 # Define cross-scope access to an application resource
@@ -36,7 +36,7 @@ Role required: admin or application admin
 
 3.  Select the appropriate access level in the **Caller Access** field.
 
-<table id="choicetable_h1t_jtg_n1b"><tbody><tr><td id="d173284e128">
+<table id="choicetable_h1t_jtg_n1b"><tbody><tr><td id="d145364e128">
 
 **None**
 
@@ -44,7 +44,7 @@ Role required: admin or application admin
 
 Cross-scope calls to the resource are approved or denied based on the value of the **Accessible from** field.
 
-</td></tr><tr><td id="d173284e140">
+</td></tr><tr><td id="d145364e140">
 
 **Caller Restriction**
 
@@ -52,7 +52,7 @@ Cross-scope calls to the resource are approved or denied based on the value of t
 
 Calls to the resource must be manually approved. Access requests are tracked in the Restricted Caller Access table with a status of Requested.
 
-</td></tr><tr><td id="d173284e149">
+</td></tr><tr><td id="d145364e149">
 
 **Caller Tracking**
 

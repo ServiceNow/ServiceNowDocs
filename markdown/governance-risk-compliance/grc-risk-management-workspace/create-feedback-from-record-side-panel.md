@@ -7,7 +7,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-04-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create feedback in Advanced Risk, Parallel Review and Feedback in Advanced Risk, Use Risk Workspace, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_rvw\_feedback.reviewer
 
 1.  Navigate to **All** &gt; **Risk** &gt; **Risk Workspace**.
 
-2.  Select the list \[Omitted image "list-icon-riskworkspace.png"\] Alt text: List icon. icon.
+2.  Select the list \[Omitted image "ListsIcon.jpg"\] Alt text: list icon. icon.
 
 3.  Open the record on which you want to create a Feedback.
 

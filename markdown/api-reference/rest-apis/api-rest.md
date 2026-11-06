@@ -7,8 +7,8 @@ release: australia
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 16
+last_updated: "2026-09-10"
+reading_time_minutes: 17
 breadcrumb: [API reference, API implementation and reference]
 ---
 
@@ -114,12 +114,16 @@ The Copy Assessments API provides an endpoint to create a copy of an assessment 
 The CSM Attachment API provides endpoints that allow both internal and external users to upload, download, and remove attachments associated with a table and to retrieve attachment metadata.
 -   **[CTI API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/cti-api.md)**  
 The CTI API provides endpoints that enable Computer Telephony Integration \(CTI\) providers to interact with the Cloud Call Center framework.
+-   **[Custom Connector Gateway API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/custom-connector-gateway-api.md)**  
+The Custom Connector Gateway \(XCC\) API provides an asynchronous ingest endpoint.
 -   **[Customer Central API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/cust_central-api.md)**  
 The Customer Central API provides endpoints to access customer information and configuration details.
 -   **[Data Classification API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/data-classification-api.md)**  
 The Data Classification API provides endpoints to group data by type.
 -   **[DCIM Metric Data Feed API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/dcim-metric-data-feed-api.md)**  
 The DCIM Metric Data Feed API provides an endpoint to accept Data Center Infrastructure Management \(DCIM\) metric data from an external system and store the data in a MetricBase database.
+-   **[Developer Sandbox Management API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/developer-sandbox-management-api.md)**  
+The Developer Sandbox Management API provides endpoints to create, list, retrieve, and destroy developer sandboxes, and to check the status of sandbox lifecycle operations.
 -   **[DevOps API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/devops-api.md)**  
 The DevOps API provides endpoints that enable interaction with external DevOps tools.
 -   **[DevOps Config API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/devops-config-api.md)**  
@@ -150,6 +154,8 @@ The Identification and Reconciliation API provides endpoints that use the Identi
 The Import Set API provides endpoints that allow you to interact with import set tables.
 -   **[Install Base Item API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/integrations-api.md)**  
 The Install Base Item API provides endpoints to access and manage install base items records within a ServiceNow instance.
+-   **[Interaction Management API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/interaction-management-api.md)**  
+The Interaction Management API provides endpoints to create interactions.
 -   **[Knowledge Management REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/knowledge-api.md)**  
 The Knowledge Management API provides endpoints for searching, viewing, and fetching lists of the most-viewed and featured knowledge articles.
 -   **[lead API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/lead-api.md)**  
@@ -174,6 +180,8 @@ The Product Catalog Open API provides endpoints to create and retrieve product c
 The Product Catalog Search API searches the product catalog and retrieves the eligible catalog-category hierarchy for a given context. Search supports multiple catalog types, with paginated and sortable results.
 -   **[Product Inventory Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/product-inventory-open-api.md)**  
 The Product Inventory Open API provides endpoints to create and retrieve product inventories.
+-   **[Product Offering Qualification API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/product-offering-qualification-api.md)**  
+The Product Offering Qualification API determines eligibility for product offerings in the ServiceNow® product catalog, scoped to a customer account, sales channel, and geographic location. Implements the TM Forum TMF679 standard.
 -   **[Product Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/tmf622_product_ordering-api.md)**  
 The Product Order Open API provides endpoints that enable a standardized mechanism for placing product orders.
 -   **[Project Portfolio Management API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/ppm-api.md)**  
@@ -194,10 +202,16 @@ The Resource Inventory Open API provides endpoints to create, retrieve, and dele
 The Response Templates API provides endpoints to handle records in the Response Templates \[sn\_templated\_snip\_note\_template\] table.
 -   **[Sales Agreement API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/sales_agreement-api.md)**  
 The Sales Agreement API provides methods for creating a new sales agreement and retrieving an existing sales agreement of a given sys\_id.
+-   **[Sales Cart REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/sales-cart-api.md)**  
+The Sales Cart REST API gives an external system programmatic control of a ServiceNow sales cart. Operations include creating a cart and its line items, reading a cart or line item, removing a cart or line item, and submitting a cart. Submitting a cart causes Order Management to convert it into an order.
 -   **[Sales CRM Pricing API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/sales-crm-pricing-api.md)**  
 The Sales CRM Pricing API provides methods to calculate prices for transaction lines containing products.
 -   **[SAM-Software Usage Data Integration API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/sam_soft_us_int-api.md)**  
 The SAM-Software Usage Data Integration API provides endpoints to create and update records in the Software Usage \[samp\_sw\_usage\] table.
+-   **[SAP SuccessFactors XCC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/sap-successfactors-xcc-api.md)**  
+The SAP SuccessFactors XCC API.
+-   **[Schema Registry API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/schema_registry-api.md)**  
+Use the Schema Registry API to retrieve Avro schemas generated by Stream Connect, along with their subject and version history.
 -   **[Scorecards API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/c_PerformanceAnalyticsAPI.md)**  
 The Scorecards API provides endpoints that enable you to query data about Performance Analytics indicators. The query parameters equate to the functions available on the Analytics Hub for drilling down into an indicator.
 -   **[Script Debugger API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/scriptdebugger-api.md)**  
@@ -249,7 +263,7 @@ The Work Order Management API provides endpoints to create, update, and retrieve
 -   **[Workplace Connector Webhook API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/workplace_connector_webhook-api.md)**  
 The Workplace Connector Webhook API is a generic interface that enables data from different kinds of workplace hardware or sensors \(such as badging systems or occupancy sensors\) to be stored in Workplace Service Delivery tables.
 -   **[Wrap Up API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/wrap-up-api.md)**  
-Provides endpoints for managing wrap-up functionality for external Contact Center as a Service \(CCaaS\) systems or ServiceNow AI Platform workspaces.
+The Wrap Up API provides endpoints for managing wrap-up functionality for external Contact Center as a Service \(CCaaS\) systems or ServiceNow AI Platform workspaces.
 -   **[WSD Extra Service API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/wsd_extra_service-api.md)**  
 The Workplace Service Delivery \(WSD\) Extra Service API provides endpoints to retrieve extra services, such as location layouts and standard services of a workplace location.
 -   **[WSD Extra Service Request API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/wsd_extra_serv_req-api.md)**  

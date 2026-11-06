@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/t\_PrevUsersCancelModTrans.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Navigation action cancellation, User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -24,7 +24,7 @@ Role required: admin
 
 2.  In the **Modules** related list, click the module you want to prevent users from canceling.
 
-3.  Configuring the form layout layout and add the field **Uncancelable by Other Modules**.
+3.  [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) layout and add the field **Uncancelable by Other Modules**.
 
 4.  Select the check box for **Uncancelable by Other Modules**.
 

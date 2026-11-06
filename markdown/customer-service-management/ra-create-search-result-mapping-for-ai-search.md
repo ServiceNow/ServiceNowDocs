@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ra-create-search-result-mapping-for-ai-search.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuring AI search, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -54,15 +54,15 @@ Role required: sn\_nb\_action.next\_best\_action\_author, admin
 
 7.  Configure the AI search result type.
 
-<table id="choicetable_dwg_dbj_zyb"><thead><tr><th align="left" id="d41487e224">
+<table id="choicetable_dwg_dbj_zyb"><thead><tr><th align="left" id="d41950e224">
 
 Option
 
-</th><th align="left" id="d41487e227">
+</th><th align="left" id="d41950e227">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d41487e233">
+</th></tr></thead><tbody><tr><td id="d41950e233">
 
 **Map genius result: No**
 
@@ -73,7 +73,7 @@ Steps
 
 This field shows all the source tables mapped to the search profile of your search application configuration.
 
-</td></tr><tr><td id="d41487e262">
+</td></tr><tr><td id="d41950e262">
 
 **Map genius result: Yes**
 
@@ -93,15 +93,15 @@ This field shows return fields of the genius result configuration that is linked
 
     Action types and actions need inputs. These parameters enable agents to complete an action. You can choose static values for action inputs or you can use the pill picker to supply dynamic values.
 
-<table id="choicetable_o2j_nbj_zyb"><thead><tr><th align="left" id="d41487e316">
+<table id="choicetable_o2j_nbj_zyb"><thead><tr><th align="left" id="d41950e316">
 
 Option
 
-</th><th align="left" id="d41487e319">
+</th><th align="left" id="d41950e319">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d41487e325">
+</th></tr></thead><tbody><tr><td id="d41950e325">
 
 **Use a static value**
 
@@ -109,7 +109,7 @@ Steps
 
 Enter a value in the input field or use the lookup icon to select a value from the list.
 
-</td></tr><tr><td id="d41487e334">
+</td></tr><tr><td id="d41950e334">
 
 **Use a pill picker**
 
@@ -120,7 +120,7 @@ Enter a value in the input field or use the lookup icon to select a value from t
     -   The outputs from the search source table or genius result configuration
     -   Search query term, search result preview, search result sysId, search result table, search result teaser, search result title, and search result url
 
-Search query term: When an agent searches in the AI Search tab of the Recommended Actions side panel and selects a matching search result, the system automatically captures the search query term and passes it to the configured guidance as a dynamic input. This provides the ability for agents to include the search query term as a guidance input.
+Search query term: When an agent searches in the AI Search tab of the Recommended Actions side panel and selects a matching search result, the system automatically captures the search query term and passes it to the configured guidance as a dynamic input. This eliminates the need for agents to re-enter the same information when executing a workflow triggered from search results, reducing handling time and providing a smoother agent experience.
 
 2.  Select the output from the pill picker.
 

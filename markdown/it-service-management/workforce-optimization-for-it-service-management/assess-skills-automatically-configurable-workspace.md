@@ -7,7 +7,7 @@ release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Surveys, Training your teams, Coaching, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -18,7 +18,7 @@ Assess the ability of your agents to resolve incidents or the quality of their c
 
 ## Before you begin
 
-**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+**Important:** Starting with the Brazil release, User Surveys in Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 You can create an assessment from an interaction or any task type. When you manually create an assessment, you can add a survey to it. Coaching assessments also get created and assigned to the coach based on the trigger conditions that are defined in coaching opportunities.
 
@@ -40,15 +40,15 @@ The Coaching Overview screen displays the average quality of the tasks that were
 
 2.  Perform adhoc assessments or the ones triggered by coaching opportunities.
 
-<table id="choicetable_k5z_rpq_pnb"><thead><tr><th align="left" id="d335648e125">
+<table id="choicetable_k5z_rpq_pnb"><thead><tr><th align="left" id="d171828e126">
 
 To
 
-</th><th align="left" id="d335648e128">
+</th><th align="left" id="d171828e129">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d335648e134">
+</th></tr></thead><tbody><tr><td id="d171828e135">
 
 **Perform adhoc assessments**
 
@@ -60,7 +60,7 @@ Do this
 4.  Click the plus \(+\) icon.
 
 
-</td></tr><tr><td id="d335648e164">
+</td></tr><tr><td id="d171828e165">
 
 **Use assessments triggered by coaching opportunities**
 

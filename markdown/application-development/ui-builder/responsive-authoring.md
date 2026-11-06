@@ -7,9 +7,9 @@ release: australia
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Manage UI Builder pages and page variants, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Manage UI Builder pages and page variants, Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Responsive authoring
@@ -45,7 +45,7 @@ All existing pages that were created with templates or from scratch use reflow a
 
 \[Omitted image "responsive-author-create-page.png"\] Alt text: New step showing responsive authoring and reflow options when creating a page from scratch.
 
-For a list of UI Builder components that support reflow, see the **Support for reflow** section of the [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/next-experience-components-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/next-experience-components-rn.md).
+For a list of UI Builder components that support reflow, see the **Support for reflow** section of the Next Experience Components release notes.
 
 ## Application and cascading of changes
 

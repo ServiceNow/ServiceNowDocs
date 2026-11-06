@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-09-29"
 reading_time_minutes: 2
-breadcrumb: [Operational Technology Manager AI agents, Operational Technology Manager \(OTM\), AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [Operational Technology Manager AI agents, Operational Technology Manager \(OTM\), AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # OT Excel import task AI agent
@@ -120,4 +120,5 @@ Used in agentic workflows
 Import OT device spreadsheet into OT CMDB
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Operational Technology Manager AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/otm-ai-agents-overview.md)
+

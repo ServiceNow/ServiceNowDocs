@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/opportunity-management-create-quote.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
@@ -22,7 +22,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  Navigate to the **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to the **Workspaces** &gt; **CRM Workspace**.
 
 2.  From the **List** view \[Omitted image "list-outline-24.svg"\] Alt text:, select **Opportunity - All**.
 

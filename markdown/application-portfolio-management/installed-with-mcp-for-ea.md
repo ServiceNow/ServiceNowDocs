@@ -1,6 +1,6 @@
 ---
 title: Components installed with MCP for Enterprise Architecture
-description: The MCP for Enterprise Architecture plugin installs tools, scripted REST APIs, and access controls.
+description: When you install the MCP for Enterprise Architecture plugin, these tools, scripted REST APIs, and access controls are added to your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/installed-with-mcp-for-ea.html
 release: australia
@@ -13,7 +13,7 @@ breadcrumb: [Reference, MCP for Enterprise Architecture, Enterprise Architecture
 
 # Components installed with MCP for Enterprise Architecture
 
-The MCP for Enterprise Architecture plugin installs tools, scripted REST APIs, and access controls.
+When you install the MCP for Enterprise Architecture plugin, these tools, scripted REST APIs, and access controls are added to your instance.
 
 ## Tools installed
 
@@ -21,9 +21,9 @@ The MCP for Enterprise Architecture plugin installs tools, scripted REST APIs, a
 |----------------|-----------|
 |App Rationalization Query \(sn\_ea\_mcp\_server.ea.app\_rationalization\_query\)|Retrieves and scores business applications based on rationalization criteria, supporting portfolio investment and modernization decisions.|
 |Capability Hierarchy App Resolver \(sn\_ea\_mcp\_server.ea.capability\_hierarchy\_resolver\)|Resolves business capability-to-application mappings by traversing the capability hierarchy, identifying which applications support each capability at every level.|
-|Related Entities Resolver \(sn\_ea\_mcp\_server.ea.related\_entities\_resolver\)|Retrieves entities related to a specified business application or architectural element, and returns dependencies and relationships across the EA data model. It also traces multi-level impact and dependency chains from a single configuration item.|
+|Related Entities Resolver \(sn\_ea\_mcp\_server.ea.related\_entities\_resolver\)|Retrieves entities related to a specified business application or architectural element. Returns dependencies and relationships across the EA data model, and traces multi-level impact and dependency chains from a single configuration item.|
 |Get EA Business App Insights \(sn\_ea\_mcp\_server.ea.get\_ea\_business\_app\_insights\)|Generates Now Assist AI-generated insights for a business application, including health scores, rationalization signals, and strategic recommendations.|
-|Diagram change analysis \(sn\_ea\_mcp\_server.diagram\_change\_analysis\)|Compares two versions of an EA diagram and summarizes the architectural changes between them. Can also summarize a single diagram version. Available only when the Enterprise Modeling and Visualization plugin is installed.|
+|Diagram change analysis \(sn\_ea\_mcp\_server.diagram\_change\_analysis\)|Compares two versions of an EA diagram and summarizes the architectural changes between them, or summarizes a single diagram version. Available only when the Enterprise Modeling and Visualization plugin is installed.|
 |Artifact Resolver \(sn\_ea\_mcp\_server.ea.artifact\_resolver\)|Identifies the architectural artifacts, such as documents and diagrams, that are linked to an EA entity, and the entities that a given artifact documents.|
 
 **Note:**
@@ -48,7 +48,7 @@ The MCP for Enterprise Architecture plugin installs tools, scripted REST APIs, a
 **Related topics**  
 
 
-[eaw-installed-with-eaw]
+[Components installed with Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-installed-with-eaw.md)
 
 [Enterprise Architecture Workspace access roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-access-roles.md)
 

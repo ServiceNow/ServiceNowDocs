@@ -7,7 +7,7 @@ release: australia
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Filtering project data, Analyzing and getting process insights, Use, Process Mining, Platform Analytics]
 ---
@@ -25,7 +25,7 @@ You can apply a transition filter in two ways:
 -   By creating a specific condition manually
 -   By applying transition filter on a pre-defined filter
 
--   **[Create a process step filter manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/create-transition-manually.md)**  
+-   **[Create a process step filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/create-transition-manually.md)**  
 Create a process step filter to meet your needs and apply it to view the result on the process graph.
 -   **[Edit a process step filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/edit-transition-filter.md)**  
 Edit a process step filter if you want to make any changes to it.

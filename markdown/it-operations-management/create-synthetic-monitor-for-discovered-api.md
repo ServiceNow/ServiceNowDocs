@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/create-synthetic-monitor-for-discovered-api.html
 release: australia
 topic_type: task
-last_updated: "2026-08-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [synthetic monitoring, discovered API, API insights, HTTP endpoint]
 breadcrumb: [Configure, Synthetic monitoring, ITOM AIOps, IT Operations Management]

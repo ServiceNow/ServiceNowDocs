@@ -1,20 +1,20 @@
 ---
 title: HR e-signature
-description: Sign electronic documents from any desktop or mobile device with e-signature. E-signature is a scoped application that enables users to sign managed documents, knowledge articles, or HR document templates with their typed or drawn e-signature, their credentials, or as an acknowledgment.
+description: Sign electronic documents from any desktop or mobile device with e-signature. E-signature enables users to sign managed documents, knowledge articles, or HR document templates with their typed or drawn e-signature, their credentials, or as an acknowledgment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/hr-service-delivery/hr-e-signature.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [HR Documents, HR Service Delivery, Employee Service Management]
 ---
 
 # HR e-signature
 
-Sign electronic documents from any desktop or mobile device with e-signature. E-signature is a scoped application that enables users to sign managed documents, knowledge articles, or HR document templates with their typed or drawn e-signature, their credentials, or as an acknowledgment.
+Sign electronic documents from any desktop or mobile device with e-signature. E-signature enables users to sign managed documents, knowledge articles, or HR document templates with their typed or drawn e-signature, their credentials, or as an acknowledgment.
 
 **Note:** Find answers to some common questions on E-signature. See this [KB0966931](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0966931).
 

@@ -1,5 +1,5 @@
 ---
-title: Add communication plan in the workbench
+title: Add a communication plan in the workbench
 description: You can create a new communication plan or add a new communication task to an existing communication plan from the workbench. This UI action is helpful when you do not have an existing well-defined communication plan in the system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/add-comm-plan-from-mim-workbench.html
@@ -7,12 +7,12 @@ release: australia
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Major incident workbench, Managing major incidents, Incident Management, IT Service Management]
 ---
 
-# Add communication plan in the workbench
+# Add a communication plan in the workbench
 
 You can create a new communication plan or add a new communication task to an existing communication plan from the workbench. This UI action is helpful when you do not have an existing well-defined communication plan in the system.
 
@@ -24,7 +24,7 @@ Role required: major\_incident\_manager
 
 1.  Navigate to [Major incident workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/major-incident-workbench.md).
 
-2.  Select the **Communications** tab and then select **Add** that appears in Communication Tasks section to display the Adhoc Communication pop-up window.
+2.  Select the **Communications** tab and then select **Add** in the Communication Tasks section to display the Adhoc Communication pop-up window.
 
 3.  On the form, fill in the fields.
 
@@ -50,7 +50,7 @@ Plan Short description
 
 </td><td>
 
-Brief description of what the communication plan is all about.
+Brief description of the communication plan.
 
 </td></tr><tr><td>
 
@@ -58,7 +58,7 @@ Task Short description
 
 </td><td>
 
-Brief description of what the communication task is all about.
+Brief description of the communication task.
 
 </td></tr><tr><td>
 
@@ -66,9 +66,7 @@ Channels
 
 </td><td>
 
-Option for selecting email, SMS, Slack, or conference as the communication method channel for the plan.
-
- **Note:** To use the SMS channel, the Notify plugin \[com.snc.notify\] must be active and configured with a Twilio integration, and a notify number group must be set up. For more information, see [Activate Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/activate-major-incident-management-plugin.md).
+Option for selecting email, SMS, Slack, or conference as the communication method channel for the plan.**Note:** To use the SMS channel, the Notify plugin \[com.snc.notify\] must be active and configured with a Twilio integration, and a notify number group must be set up. For more information, see [Activate Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/activate-major-incident-management-plugin.md).
 
 </td></tr><tr><td>
 
@@ -76,7 +74,7 @@ Frequency
 
 </td><td>
 
-Frequency at which a specific task needs to be executed. A task can be executed only once or on specific durations.
+Frequency at which the task runs. A task can run once or at specified intervals.
 
 </td></tr><tr><td>
 

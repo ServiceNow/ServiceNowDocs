@@ -7,7 +7,7 @@ release: australia
 product: Remote Tables
 classification: remote-tables
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Remote tables, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -69,5 +69,5 @@ Supports use of Transform APIs that are associated with the remote tables.
 **Related topics**  
 
 
-[List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[bundle-platadm.list-of-plugins]
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/dv-chart-interactions.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [How to filter all visualizations on a dashboard by selected value, How to configure URL navigation in data visualization, drilldown]
 breadcrumb: [Configure, Data visualizations, Platform Analytics experience, Platform Analytics]
@@ -17,7 +17,7 @@ You can set what occurs when a user interacts with a visualization, such as by s
 
 \[Omitted video\] Description: Adding a Drill down to visualization interaction to a data visualization
 
-The configuration panel of a data visualization includes a section labeled Chart interaction. In this section, you set what is called "on-click behavior." This term refers to what happens when a user interacts with a segment of the visualization that represents a value. Examples include selecting a point on a time series or a segment of a pie or donut. You can also disable chart interactions for the visualization.
+The configuration panel of a data visualization includes a section labeled Chart interaction. In this section, you set the on-click behavior. On-click behavior defines what happens when a user interacts with a visualization segment that represents a value. Examples include selecting a point on a time series or a segment of a pie or donut. You can also disable chart interactions for the visualization.
 
 **Important:** You cannot configure chart interactions for data visualizations on technical dashboards or other UI Builder pages. You can only enable and configure custom on-click events. Turn on-click events on or off with the **Enable drilldowns** toggle, then configure handlers for them. For information about configuring on-click events from data visualizations on a technical dashboard, see [Add a drilldown event to a data visualization on a technical dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/add-custom-drilldown-event.md).
 
@@ -112,9 +112,9 @@ Table
 
 </td></tr></tbody>
 </table>-   **[Configure visualization interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/configure-go-data.md)**  
-Select what happens when a viewer interacts with a section of a data visualization that you are editing.
+Select what happens when a viewer interacts with a section of a data visualization that you're editing.
 -   **[Data views for different data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/visualization-drilldown-in-config-ws.md)**  
-When the chart interaction for a data visualization is set to Go to data, interacting with a data value on the visualization opens different pages depending on the data source.
+Set the chart interaction for a data visualization to **Go to data** to open a data view. The page that opens depends on the data source.
 
 **Parent Topic:**[Configure data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/configure-data-visualizations.md)
 

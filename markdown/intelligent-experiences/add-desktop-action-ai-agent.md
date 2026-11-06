@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/add-desktop-action-ai-agent.html
 release: australia
 topic_type: task
-last_updated: "2026-07-21"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 keywords: [defined desktop action, deterministic desktop action]
-breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Add a defined desktop action tool to an AI agent for desktop and web-based task
@@ -17,7 +17,7 @@ Add a desktop action as a tool to an AI agent in AI Agent Studio so that AI agen
 
 ## Before you begin
 
-Familiarize yourself with defined path desktop actions. For more information, see [Defined desktop actions for desktop and web-based tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/desktop-actions.md) and [Defined desktop actions in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/desktop-actions-designer-workspace-ad.md).
+Familiarize yourself with defined path desktop actions. For more information, see  and .
 
 Role required: sn\_aia.admin
 
@@ -42,7 +42,7 @@ Defined desktop actions are further categorized into on-screen tasks and backgro
 
 4.  In the **Add tool** drop-down list, select **Desktop action**.
 
-    \[Omitted image "create-web-tool4.png"\] Alt text: Add tool drop-down showing desktop action as an option.
+    \[Omitted image "image.create-web-tool4"\] Alt text: Add tool drop-down showing desktop action as an option.
 
 5.  Select or create a desktop action.
 
@@ -75,12 +75,12 @@ The background task desktop actions are supported for the following applications
 
 1.  On the Add a desktop action modal, select the **Click here to create a desktop action** link.
 
-\[Omitted image "create-web-tool5.png"\] Alt text: Add web-based desktop actions
+\[Omitted image "image.create-web-tool5"\] Alt text: Add web-based desktop actions
 
 2.  Select the option **Record a fixed sequence of steps for desktop and web-based tasks**.
 3.  Select **Open AI Desktop Actions app**.
 
-Record or manually capture the desktop action in AI Desktop Actions Windows application, activate it, and then come back here to add it as a tool. For more information, see [Defined desktop actions in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/desktop-actions-designer-workspace-ad.md).
+Record or manually capture the desktop action in AI Desktop Actions Windows application, activate it, and then come back here to add it as a tool. For more information, see .
 
 The creation process of defined desktop actions ends here.
 
@@ -257,5 +257,5 @@ Message to display to users during tool execution.-   In-progress message: Write
 
 ## What to do next
 
-For more information about executing desktop actions, see [Examples of executing desktop actions using AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/use-agentic-desktop.md).
+For more information about executing desktop actions, see .
 

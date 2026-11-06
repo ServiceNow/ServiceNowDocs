@@ -7,10 +7,10 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [generative AI for Employee Center, generative AI for UEX, Summarization for Employee Center, Summarization]
-breadcrumb: [Use, ServiceNow Otto for Employee Experience, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Use, ServiceNow Otto for Employee Experience, EmployeeWorks, Employee Service Management]
 ---
 
 # View summarization for approvals
@@ -62,6 +62,8 @@ Proceed to [Manage approvals with Approval Assistance AI agent](https://raw.gith
 [Check your approvals by using ServiceNow Otto for Virtual Agent]()
 
 [Check company news and events]()
+
+[Manage approvals with Approval Assistance AI agent]()
 
 [Activate ServiceNow Otto for Employee Experience skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/activate-now-assist-skills-uex.md)
 

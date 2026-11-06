@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hcls-redox-oauth.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Redox Inbound Integration, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -38,7 +38,7 @@ Role required: sn\_hcls.admin or admin
 
     **Note:** You can ignore the **Redirect URL** and **Logo URL** fields, which are not used for this configuration.
 
-    For more information, see [Create an endpoint for clients to access the instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_CreateEndpointforExternalClients.md).
+    For more information, see Create an endpoint for clients to access the instance.
 
 5.  Click **Submit**.
 

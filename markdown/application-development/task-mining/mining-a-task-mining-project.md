@@ -1,0 +1,47 @@
+---
+title: Generating a project data analysis
+description: Generate an analysis of your project data according to your categorization rules, then refine and share the analysis so you can make data-driven decisions.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/task-mining/mining-a-task-mining-project.html
+release: australia
+product: Task Mining
+classification: task-mining
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Use, Task Mining, Discover, AI Workflow Factory Prime, Agentic app development, Building applications]
+---
+
+# Generating a project data analysis
+
+Generate an analysis of your project data according to your categorization rules, then refine and share the analysis so you can make data-driven decisions.
+
+The process to generate a project data analysis is as follows:
+
+1.  Run a mining job on a Task Mining project to generate an analysis of your project data according to your categorization rules so you can make data-driven decisions.
+
+    For more information, see [Run a mining job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/task-mining/mine-project-data.md).
+
+2.  Improve your Task Mining project's analysis before sharing the project to identify gaps in categorization. If you request modifications, you can then run the mining job again to check the result.
+
+    For more information, see [Refine the presentation of your data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/task-mining/preview-data-based-on-categorization-rules.md).
+
+3.  Determine which process owners have access to the project's analysis.
+
+    For more information, see [Share a Task Mining analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/task-mining/share-projects.md).
+
+
+-   **[Run a mining job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/task-mining/mine-project-data.md)**  
+Run a mining job on a Task Mining project to generate an analysis of your project data according to your categorization rules so you can make data-driven decisions.
+-   **[Refine the presentation of your data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/task-mining/preview-data-based-on-categorization-rules.md)**  
+Improve your Task Mining project's analysis before sharing the project to identify gaps in categorization.
+-   **[Share a Task Mining analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/task-mining/share-projects.md)**  
+Determine which process owners have access to the project's analysis.
+
+**Parent Topic:**[Using Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/task-mining/using-task-mining.md)
+
+**Related topics**  
+
+
+[Task Mining analyses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/task-mining/task-mining-dashboard.md)
+

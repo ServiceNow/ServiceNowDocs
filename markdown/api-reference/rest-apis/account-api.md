@@ -7,7 +7,7 @@ release: australia
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The Account API provides endpoints to retrieve Customer Service Management \(CSM\) account records.
 
-This API requires the Customer Service plugin \(com.sn\_customerservice\) and is provided within the `now` namespace.
+This API requires the Case Management Core plugin \(com.sn\_customerservice\) and is provided within the `now` namespace.
 
 Users require the csm\_ws\_integration role for full API access.
 

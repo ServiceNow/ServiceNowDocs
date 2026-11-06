@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/som-create-configurable-prod-offerings.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Create product offerings, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -16,7 +16,7 @@ Create a configurable product offering and generate an associated blueprint usin
 
 ## Before you begin
 
-Role required: sn\_prd\_pm\_product\_catalog\_admin
+Role required: sn\_prd\_pm.product\_catalog\_admin
 
 ## About this task
 
@@ -67,6 +67,8 @@ A configurable product offering, also called a complex product offering, has mul
 4.  When you're ready to publish the offering, select Publish.
 
     Another synchronization occurs, and the product offering is published to the product catalog.
+
+    **Note:** When extended life cycle states are enabled and the CPQ Integration plugin is installed, the synchronization also runs when an offering moves from Draft to In Test. This means the blueprint is updated at the In Test transition, not only at publication. For more information, see [Validating product offerings before publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/extended-product-lifecycle-states.md).
 
 
 **Related topics**  

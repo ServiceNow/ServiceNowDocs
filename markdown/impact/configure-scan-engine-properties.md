@@ -1,23 +1,23 @@
 ---
-title: Configure Scan Engine parameters
+title: Configure Scan Engine properties
 description: Configure the primary scanning capabilities and configuration options for scheduled, on-demand, and real-time scans.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/configure-scan-engine-properties.html
 release: australia
 topic_type: task
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [impact scan engine, scan properties, scheduled scans]
-breadcrumb: [Activate Scan Engine and review settings, Run Impact Guided Setup, Configuring Impact, Impact]
+breadcrumb: [Activate Scan Engine and review settings, Configuring Impact, Impact]
 ---
 
-# Configure Scan Engine parameters
+# Configure Scan Engine properties
 
 Configure the primary scanning capabilities and configuration options for scheduled, on-demand, and real-time scans.
 
 ## Before you begin
 
-Review these properties before you [Run your first scan with the Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/run-scan-engine.md) or to make changes to Scan Engine behavior.
+Review these properties before you [Run Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/run-scan-engine.md) or to make changes to Scan Engine behavior.
 
 Role required: scan\_engine\_admin and Impact \_admin
 
@@ -231,7 +231,7 @@ Real-time scanning properties allow control over which users have access to real
 -   **[Configure real-time code resolution with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-ai-code-fix-for-platform-health.md)**  
 Follow these steps to configure real-time code resolution with AI suggested fixes for Impact Platform Health.
 -   **[Configure exception reason properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/exception-reason-properties.md)**  
-When real-time enforcement, `enforce_real_time_validation` is set to `true`, Recommend level findings require an approved exception reason before the form can be saved.
+When real-time enforcement, `enforce_real_time_validation`, is enabled, exception reasons can be configured for Suggest, Review, Recommend, and Act level findings based on the exception reason scope. The scope controls which finding levels can have exceptions. It doesn't decide which findings block a save.
 
 **Parent Topic:**[Activate Scan Engine and review settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-initial-scan-engine-settings.md)
 

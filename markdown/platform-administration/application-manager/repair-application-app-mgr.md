@@ -7,7 +7,7 @@ release: australia
 product: Application Manager
 classification: application-manager
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Repairing apps and plugins, Application Manager, Administering applications, Get started, Administer the ServiceNow AI Platform]
 ---

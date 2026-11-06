@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/som-using.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Sales Customer Relationship Management]
 ---
@@ -65,12 +65,14 @@ ServiceNow Order Management provides a centralized platform to create and manage
 Learn how to use order operations applications.
 -   **[Using post-sales engagement applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-post-sales-engagement.md)**  
 Learn how to use post-sales engagement applications.
--   **[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-partner-relationship-management.md)**  
-Install the Partner Relationship Management plugin \(com.snc.partner\_relationship\_management\) to enable admins and channel partners to use the self-service Partner portal.
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-partner-relationship-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-partner-relationship-management.md)**  
+
 -   **[Using lead-to-cash foundation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-lead-cash-foundation.md)**  
 Learn how to use lead-to-cash foundation applications.
 -   **[Using Business Portal for self-service workflows in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-business-portal.md)**  
 Business-to-business \(B2B\) customers can use the Business Portal to browse product catalogs, create orders, create and view order cases, manage invoice and invoice cases, and request for quotes.
+-   **[Sales CRM Mobile Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sales-crm-mobile-application.md)**  
+Sales CRM Mobile is a mobile application that lets sales representatives and managers view and manage the Sales CRM application on their mobile phones from anywhere.
 
 **Parent Topic:**[Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-overview.md)
 

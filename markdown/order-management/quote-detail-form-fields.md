@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quote-detail-form-fields.html
 release: australia
 topic_type: reference
-last_updated: "2026-05-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Quote Management reference, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
@@ -88,6 +88,22 @@ The customer account for which the quote is created.
 
 </td></tr><tr><td>
 
+Buyer organization
+
+</td><td>
+
+Identifies the service organization for which the quote is created. When selected, the Account and Consumer fields are hidden.
+
+</td></tr><tr><td>
+
+Buyer organization member
+
+</td><td>
+
+Identifies the member of the buyer organization who is receiving the quoted items.
+
+</td></tr><tr><td>
+
 Enable sales agreement quote
 
 </td><td>
@@ -108,7 +124,7 @@ Sales agreement
 
 </td><td>
 
-A sales agreement that defines the scope, pricing, and conditions under which the quote is created.
+A sales agreement that defines the scope, pricing, and conditions under which the quote is created. When a buyer organization is selected, sales agreements are filtered to show sales agreements for that buyer organization.
 
 </td></tr><tr><td>
 
@@ -196,7 +212,7 @@ Indicates the quote is generated after consolidating multiple contracts, contrac
 </td></tr></tbody>
 </table>|Field|Description|
 |-----|-----------|
-|Currency|The currency for the price matches the currency stated in the account information.|
+|Currency|The currency for the price matches the currency stated in the account information. When a buyer organization is selected, the currency reflects the currency of the buyer organization's country.|
 |Renewal adjustment basis|Specifies the price reference used to calculate renewal pricing adjustments, such as contracted price or price list.|
 |Price list|The Standard Price List field is the default price list for the product catalogs referenced in the quote.|
 |Renewal adjustment type|Specifies the method used to adjust the renewal price, such as applying a markup percentage to the selected renewal adjustment basis. The adjustment type is applied after the renewal adjustment basis is determined.|

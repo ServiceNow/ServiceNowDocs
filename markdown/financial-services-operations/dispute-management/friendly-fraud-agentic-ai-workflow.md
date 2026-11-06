@@ -7,8 +7,8 @@ release: australia
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 keywords: [friendly fraud AI agent, friendly fraud agentic AI, friendly fraud agentic workflow]
 breadcrumb: [Configure, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -53,5 +53,5 @@ The following table lists the agent that is used in the Help resolve friendly fr
 **Related topics**  
 
 
-[Resolve friendly fraud disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/resolve-friendly-fraud.md)
+[Detect friendly fraud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/resolve-friendly-fraud.md)
 

@@ -7,8 +7,8 @@ release: australia
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 46
+last_updated: "2026-09-10"
+reading_time_minutes: 52
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
 
@@ -36,6 +36,8 @@ The Product Inventory Open API is a ServiceNow® implementation of the TM Forum 
 \[Omitted image "tmf-conformance.png"\] Alt text: TMF conformance logo
 
 **Note:** By default, POST /sn\_prd\_invt/product accepts and returns a single JSON object. `GET` endpoints return **status** as a display label, such as `Installation pending`, and the product reference field is named **product**. To change the default behavior, create a system property **sn\_prd\_invt.tmf637.version4** and set the value to `true`. When `true`, POST /sn\_prd\_invt/product accepts and returns a JSON array. `GET` endpoints return **status** as an internal value, such as `installation_pending`, and the product reference field is named **productId**. Set the property to `false` to return to the default behavior.
+
+**Note:** By default, `GET` endpoints on this API return **valueType** as a display value, such as `Choice`. To change the default behavior and return the backend value instead \(for example, `choice`\) — matching the format used by the [Product Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/tmf622_product_ordering-api.md) — create a system property **sn\_prd\_invt.enableseamlessvaluetype** and set the value to `true`. Set the property to `false`, or leave it unset, to return to the default behavior.
 
 **Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/api-rest.md)
 
@@ -140,6 +142,36 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
+account
+
+</td><td>
+
+Filter product inventories by account. Only inventories associated with the specified account are returned in the response.Data type: String
+
+Default: Don't filter by account.
+
+</td></tr><tr><td>
+
+billingAccount
+
+</td><td>
+
+Filter product inventories by billing account. Only inventories associated with the specified billing account are returned in the response.Data type: String
+
+Default: Don't filter by billing account
+
+</td></tr><tr><td>
+
+contact and consumer \(Related Party\)
+
+</td><td>
+
+Filter product inventories by associated contact or related party. Only inventories linked to the specified contact or consumer record are returned in the response.Data type: String
+
+Default: Don't filter by contact or consumer
+
+</td></tr><tr><td>
+
 customer
 
 </td><td>
@@ -147,6 +179,16 @@ customer
 Filter product inventories by customer. Only product offerings with a customer sys\_id or external ID matching the value of this parameter are returned in the response.Data type: String
 
 Default: Don't filter by customer.
+
+</td></tr><tr><td>
+
+externalID
+
+</td><td>
+
+Filter product inventories by external identifier. Only inventories with an externalID matching the value of this parameter are returned in the response. Data type: String
+
+Default: Don't filter by externalID
 
 </td></tr><tr><td>
 
@@ -351,16 +393,6 @@ Table: Product Inventory \[sn\_prd\_invt\_product\_inventory\]
 
 </td></tr><tr><td>
 
-externalId
-
-</td><td>
-
-External ID of the product inventory.Table: Product Inventory \[sn\_prd\_invt\_product\_inventory\]
-
-Data type: String
-
-</td></tr><tr><td>
-
 name
 
 </td><td>
@@ -450,27 +482,28 @@ productCharacteristic.valueType
 
 </td><td>
 
-Type of characteristic value.Accepted values:
+Type of characteristic value.Possible values:
 
--   address
--   array.date
--   array.datetime
--   array.decimal
--   array.integer
--   array.object
--   array.single\_line\_text
--   attachment
--   checkbox
--   choice
--   date
--   date\_time
--   decimal
--   duration
--   email
--   integer
--   object
--   single\_line\_text
--   yes\_no
+-   `Address`
+-   `Array Date`
+-   `Array Datetime`
+-   `Array Decimal`
+-   `Array Integer`
+-   `Array Object`
+-   `Array Single Line Test`
+-   `CheckBox`
+-   `Choice`
+-   `Date`
+-   `Date / Time`
+-   `Email`
+-   `Integer`
+-   `Object`
+-   `Single Line Text`
+-   `Yes / No`
+
+ **Note:** By default, or if this property doesn't exist, this field returns the display values listed above. To return the internal value instead \(matching the value format the TMF622 Product Order API already uses by default\), create a true/false system property named **sn\_prd\_invt.enableseamlessvaluetype** and set it to `true`: `address`, `array.date`, `array.datetime`, `array.decimal`, `array.integer`, `array.object`, `array.single_line_text`, `attachment`, `checkbox`, `choice`, `date`, `date_time`, `decimal`, `duration`, `email`, `integer`, `object`, `single_line_text`, `yes_no`.
+
+Default: `false`
 
 Data type: String
 
@@ -679,7 +712,6 @@ Resource that realizes the product. The realizing resource is a child product in
 ```
 "realizingResource": {
   "id": "String",
-  "name": "String",
   "type": "String"
 }
 ```
@@ -693,14 +725,6 @@ realizingResource.id
 Sys\_id of the realizing resource. Data type: String
 
 Table: Product Inventory \[sn\_prd\_invt\_product\_inventory\]
-
-</td></tr><tr><td>
-
-realizingResource.name
-
-</td><td>
-
-Name of the realizing resource. Data type: String
 
 </td></tr><tr><td>
 
@@ -723,7 +747,6 @@ Service that realizes the product. The realizing service is a child product inve
 ```
 "realizingService": {
   "id": "String",
-  "name": "String",
   "type": "String"
 }
 ```
@@ -735,16 +758,6 @@ realizingService.id
 </td><td>
 
 Sys\_id of the realizing service. Data type: String
-
-Table: Product Inventory \[sn\_prd\_invt\_product\_inventory\]
-
-</td></tr><tr><td>
-
-realizingService.name
-
-</td><td>
-
-Name of the realizing service. Data type: String
 
 Table: Product Inventory \[sn\_prd\_invt\_product\_inventory\]
 
@@ -821,171 +834,58 @@ Response body.
 
 ```
 [
-  {
-    "id": "23562ee2e445b5443110f87235736620",
-    "externalId": "LOC-SF-HQ-2026",
-    "relatedParty": [
-      {
-        "id": "9e2fd2ee11b43110f877366201dea674",
-        "name": "Startech svcs",
-        "@type": "RelatedParty",
-        "@referredType": "Customer"
+   {
+      "id": "037fd87ec3603010abc8b5183c40ddf2",
+      "relatedParty": [
+         {
+            "id": "ffc68911c35420105252716b7d40dd55",
+            "name": "Example Company",
+            "@type": "RelatedParty",
+            "@referredType": "Customer"
+         },
+         {
+            "id": "eaf68911c35420105252716b7d40ddde",
+            "name": "Sally Thomas",
+            "@type": "RelatedParty",
+            "@referredType": "CustomerContact"
+         }
+      ],
+      "name": "Routing and Configuration PI0000318",
+      "productSpecification": {
+         "id": "aec57e981bb420106ba59acf034bcb08",
+         "name": "Routing and Configuration",
+         "version": "",
+         "internalVersion": "1",
+         "internalId": "aec57e981bb420106ba59acf034bcb08"
       },
-      {
-        "id": "dca96eaa11f43110f877366201dea6c1",
-        "name": "Alex Star",
-        "@type": "RelatedParty",
-        "@referredType": "CustomerContact"
-      }
-    ],
-    "name": "test_098 PI0001002",
-    "productSpecification": {
-      "id": "test_123",
-      "name": "test_123",
-      "version": "",
-      "internalVersion": "1",
-      "internalId": "c9b6a51221590f50f877be98c79c230b",
-      "@type": "productSpecificationRef"
-    },
-    "status": "installation_pending",
-    "productOffering": {
-      "id": "test_123",
-      "name": "test_123",
-      "version": "",
-      "internalVersion": "1",
-      "internalId": "0308a5d221590f50f877be98c79c2303",
-      "@type": "productOfferingRef"
-    },
-    "productId": "",
-    "place": [
-      {
-        "id": "6774fee611383110f877366201dea64f",
-        "name": "222 Star St, Santa Clara, CA 94560"
-      }
-    ],
-    "productRelationship": [],
-    "realizingService": [],
-    "realizingResource": [],
-    "horizontalRelationship": [],
-    "@type": "Product",
-    "productPrice": [],
-    "href": "/api/sn_prd_invt/product/testt21313",
-    "billingAccount": "Not Specified."
-  },
-  {
-    "id": "02917c3577b301108e191e599a5a99cf",
-    "relatedParty": [
-      {
-        "id": "ffc68911c35420105252716b7d40dd55",
-        "name": "Funco Intl",
-        "@type": "RelatedParty",
-        "@referredType": "Customer"
+      "status": "Active",
+      "productOffering": {
+         "id": "69017a0f536520103b6bddeeff7b127d",
+         "name": "Premium SD-WAN Offering",
+         "version": "",
+         "internalVersion": "1",
+         "internalId": "69017a0f536520103b6bddeeff7b127d"
       },
-      {
-        "id": "eaf68911c35420105252716b7d40ddde",
-        "name": "Sally Thomas",
-        "@type": "RelatedParty",
-        "@referredType": "CustomerContact"
-      }
-    ],
-    "name": "SD WAN Optimization Service PI0000045",
-    "productSpecification": {
-      "id": "16d79ec3532520103b6bddeeff7b12a6",
-      "name": "SD WAN Optimization Service",
-      "version": "",
-      "internalVersion": "1",
-      "internalId": "16d79ec3532520103b6bddeeff7b12a6",
-      "@type": "productSpecificationRef"
-    },
-    "status": "active",
-    "productOffering": {
-      "id": "ff93e80477f301108b2a1e599a5a9901",
-      "name": "Premium SD-WAN Offering",
-      "version": "",
-      "internalVersion": "2",
-      "internalId": "69017a0f536520103b6bddeeff7b127d",
-      "@type": "productOfferingRef"
-    },
-    "productId": "28adfdf15b7520102dff5e92dc81c75d",
-    "productCharacteristic": [
-      {
-        "name": "SSL Optimization",
-        "valueType": "Choice",
-        "value": "",
-        "@type": "productCharacteristicRef"
-      },
-      {
-        "name": "CIFS Optimization",
-        "valueType": "Choice",
-        "value": "",
-        "@type": "productCharacteristicRef"
-      }
-    ],
-    "productRelationship": [],
-    "realizingService": [
-      {
-        "id": "42917c3577b301108e191e599a5a99ee",
-        "name": "Deduplication and Compression PI0000046",
-        "@type": "realizingServiceRef"
-      }
-    ],
-    "realizingResource": [],
-    "horizontalRelationship": [],
-    "@type": "Product",
-    "productPrice": [],
-    "href": "/api/sn_prd_invt/product/02917c3577b301108e191e599a5a99cf",
-    "billingAccount": "Not Specified."
-  },
-  {
-    "id": "test_post_new_002",
-    "relatedParty": [
-      {
-        "id": "1d253ada77250110531ba8e48f5a996d",
-        "name": "Valeire Hunt",
-        "@type": "RelatedParty",
-        "@referredType": "Consumer"
-      }
-    ],
-    "name": "test_123 PI0001031 PI0001051",
-    "productSpecification": {
-      "id": "268b81f621e9c314f877be98c79c2362",
-      "name": "test_invt",
-      "version": "",
-      "internalVersion": "1",
-      "internalId": "268b81f621e9c314f877be98c79c2362",
-      "@type": "productSpecificationRef"
-    },
-    "status": "active",
-    "productOffering": {
-      "id": "",
-      "name": "",
-      "version": "",
-      "internalVersion": "",
-      "internalId": "",
-      "@type": "productOfferingRef"
-    },
-    "productId": "027ddeb13710200044e0bfc8bcbe5d00",
-    "place": [
-      {
-        "id": "729fd006212d0fd0f877be98c79c23a8",
-        "name": "123"
-      }
-    ],
-    "productRelationship": [],
-    "realizingService": [],
-    "realizingResource": [
-      {
-        "id": "c6d1b09f21edc714f877be98c79c236b",
-        "name": "test_hunt_2 PI0001047",
-        "@type": "realizingResourceRef"
-      }
-    ],
-    "horizontalRelationship": [],
-    "@type": "Product",
-    "productPrice": [],
-    "href": "/api/sn_prd_invt/product/test_post_new_002",
-    "billingAccount": "Not Specified."
-  }
+      "productId": "ce0b52c7532520103b6bddeeff7b12f5",
+      "place": [
+         {
+            "id": "25ab9c4d0a0a0bb300f7dabdc0ca7c1c",
+            "name": "100 South Charles Street, Baltimore, MD"
+         }
+      ],
+      "productCharacteristic": [],
+      "productRelationship": [],
+      "realizingService": [],
+      "realizingResource": [
+         {
+            "id": "9b2fa60b536520103b6bddeeff7b1233",
+            "name": "Route Target"
+         }
+      ],
+      "productPrice": [],
+      "href": "/api/sn_prd_invt/product/037fd87ec3603010abc8b5183c40ddf2",
+      "billingAccount": "Not Specified."
+   }
 ]
 ```
 
@@ -1028,6 +928,36 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
+account
+
+</td><td>
+
+Filter product inventories by account. Only inventories associated with the specified account are returned in the response.Data type: String
+
+Default: Don't filter by account.
+
+</td></tr><tr><td>
+
+billingAccount
+
+</td><td>
+
+Filter product inventories by billing account. Only inventories associated with the specified billing account are returned in the response.Data type: String
+
+Default: Don't filter by billing account
+
+</td></tr><tr><td>
+
+contact and consumer \(Related Party\)
+
+</td><td>
+
+Filter product inventories by associated contact or related party. Only inventories linked to the specified contact or consumer record are returned in the response.Data type: String
+
+Default: Don't filter by contact or consumer
+
+</td></tr><tr><td>
+
 customer
 
 </td><td>
@@ -1035,6 +965,16 @@ customer
 Filter product inventories by customer. Only product offerings with a customer sys\_id or external ID matching the value of this parameter are returned in the response.Data type: String
 
 Default: Don't filer y customer.
+
+</td></tr><tr><td>
+
+externalID
+
+</td><td>
+
+Filter product inventories by external identifier. Only inventories with an externalID matching the value of this parameter are returned in the response. Data type: String
+
+Default: Don't filter by externalID
 
 </td></tr><tr><td>
 
@@ -1159,16 +1099,6 @@ Billing account of the product inventory record.Data type: String
 
 </td></tr><tr><td>
 
-externalId
-
-</td><td>
-
-External ID of the product inventory.Table: Product Inventory \[sn\_prd\_invt\_product\_inventory\]
-
-Data type: String
-
-</td></tr><tr><td>
-
 href
 
 </td><td>
@@ -1276,27 +1206,28 @@ productCharacteristic.valueType
 
 </td><td>
 
-Type of characteristic value.Accepted values:
+Type of characteristic value.Possible values:
 
--   address
--   array.date
--   array.datetime
--   array.decimal
--   array.integer
--   array.object
--   array.single\_line\_text
--   attachment
--   checkbox
--   choice
--   date
--   date\_time
--   decimal
--   duration
--   email
--   integer
--   object
--   single\_line\_text
--   yes\_no
+-   `Address`
+-   `Array Date`
+-   `Array Datetime`
+-   `Array Decimal`
+-   `Array Integer`
+-   `Array Object`
+-   `Array Single Line Test`
+-   `CheckBox`
+-   `Choice`
+-   `Date`
+-   `Date / Time`
+-   `Email`
+-   `Integer`
+-   `Object`
+-   `Single Line Text`
+-   `Yes / No`
+
+ **Note:** By default, or if this property doesn't exist, this field returns the display values listed above. To return the internal value instead \(matching the value format the TMF622 Product Order API already uses by default\), create a true/false system property named **sn\_prd\_invt.enableseamlessvaluetype** and set it to `true`: `address`, `array.date`, `array.datetime`, `array.decimal`, `array.integer`, `array.object`, `array.single_line_text`, `attachment`, `checkbox`, `choice`, `date`, `date_time`, `decimal`, `duration`, `email`, `integer`, `object`, `single_line_text`, `yes_no`.
+
+Default: `false`
 
 Data type: String
 
@@ -1505,7 +1436,6 @@ Resource that realizes the product. The realizing resource is a child product in
 ```
 "realizingResource": {
   "id": "String",
-  "name": "String",
   "type": "String"
 }
 ```
@@ -1519,14 +1449,6 @@ realizingResource.id
 Sys\_id of the realizing resource. Data type: String
 
 Table: Product Inventory \[sn\_prd\_invt\_product\_inventory\]
-
-</td></tr><tr><td>
-
-realizingResource.name
-
-</td><td>
-
-Name of the realizing resource. Data type: String
 
 </td></tr><tr><td>
 
@@ -1549,7 +1471,6 @@ Service that realizes the product. The realizing service is a child product inve
 ```
 "realizingService": {
   "id": "String",
-  "name": "String",
   "type": "String"
 }
 ```
@@ -1561,16 +1482,6 @@ realizingService.id
 </td><td>
 
 Sys\_id of the realizing service. Data type: String
-
-Table: Product Inventory \[sn\_prd\_invt\_product\_inventory\]
-
-</td></tr><tr><td>
-
-realizingService.name
-
-</td><td>
-
-Name of the realizing service. Data type: String
 
 Table: Product Inventory \[sn\_prd\_invt\_product\_inventory\]
 
@@ -1649,68 +1560,56 @@ Output:
 
 ```
 {
-  "id": "209aa30421710354f877be98c79c2364",
-  "externalId": "LOC-SF-HQ-2026",
-  "relatedParty": [
-    {
-      "id": "1d253ada77250110531ba8e48f5a996d",
-      "name": "Valeire Hunt",
-      "@type": "RelatedParty",
-      "@referredType": "Consumer"
-    }
-  ],
-  "name": "trert_terewt PI0001072",
-  "productSpecification": {
-    "id": "e9f13b0421b10354f877be98c79c234e",
-    "name": "test_wert",
-    "version": "",
-    "internalVersion": "1",
-    "internalId": "e9f13b0421b10354f877be98c79c234e",
-    "@type": "productSpecificationRef"
-  },
-  "status": "active",
-  "productOffering": {
-    "id": "9732b34421b10354f877be98c79c2378",
-    "name": "test_wert",
-    "version": "",
-    "internalVersion": "1",
-    "internalId": "9732b34421b10354f877be98c79c2378",
-    "@type": "productOfferingRef"
-  },
-  "productId": "ed44fb4821b10354f877be98c79c23c9",
-  "productCharacteristic": [
-    {
-      "name": "ASN Information",
-      "valueType": "Object",
-      "value": {
-        "ASN Type": "",
-        "ASN": "65500",
-        "Area": "42",
-        "Downstream ASNs": []
+   "id": "037fd87ec3603010abc8b5183c40ddf2",
+   "relatedParty": [
+      {
+         "id": "ffc68911c35420105252716b7d40dd55",
+         "name": "Example Company",
+         "@type": "RelatedParty",
+         "@referredType": "Customer"
       },
-      "@type": "productCharacteristicRef"
-    }
-  ],
-  "productRelationship": [],
-  "realizingService": [
-    {
-      "id": "848de83d21f18f54f877be98c79c2357",
-      "name": "Premium SD-WAN Offering PI0001023 PI0001077",
-      "@type": "realizingServiceRef"
-    }
-  ],
-  "realizingResource": [
-    {
-      "id": "286da0f921f18f54f877be98c79c23b3",
-      "name": "SD WAN INVENTORY PI0001076",
-      "@type": "realizingResourceRef"
-    }
-  ],
-  "horizontalRelationship": [],
-  "@type": "Product",
-  "productPrice": [],
-  "href": "/api/sn_prd_invt/product/209aa30421710354f877be98c79c2364",
-  "billingAccount": "Not Specified."
+      {
+         "id": "eaf68911c35420105252716b7d40ddde",
+         "name": "Sally Thomas",
+         "@type": "RelatedParty",
+         "@referredType": "CustomerContact"
+      }
+   ],
+   "name": "Routing and Configuration PI0000318",
+   "productSpecification": {
+      "id": "aec57e981bb420106ba59acf034bcb08",
+      "name": "Routing and Configuration",
+      "version": "",
+      "internalVersion": "1",
+      "internalId": "aec57e981bb420106ba59acf034bcb08"
+   },
+   "status": "Active",
+   "productOffering": {
+      "id": "69017a0f536520103b6bddeeff7b127d",
+      "name": "Premium SD-WAN Offering",
+      "version": "",
+      "internalVersion": "1",
+      "internalId": "69017a0f536520103b6bddeeff7b127d"
+   },
+   "productId": "ce0b52c7532520103b6bddeeff7b12f5",
+   "place": [
+      {
+         "id": "25ab9c4d0a0a0bb300f7dabdc0ca7c1c",
+         "name": "100 South Charles Street, Baltimore, MD"
+      }
+   ],
+   "productCharacteristic": [],
+   "productRelationship": [],
+   "realizingService": [],
+   "realizingResource": [
+      {
+         "id": "9b2fa60b536520103b6bddeeff7b1233",
+         "name": "Route Target"
+      }
+   ],
+   "productPrice": [],
+   "href": "/api/sn_prd_invt/product/037fd87ec3603010abc8b5183c40ddf2",
+   "billingAccount": "Not Specified."
 }
 ```
 
@@ -1740,6 +1639,36 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
+account
+
+</td><td>
+
+Filter product inventories by account. Only inventories associated with the specified account are returned in the response.Data type: String
+
+Default: Don't filter by account.
+
+</td></tr><tr><td>
+
+billingAccount
+
+</td><td>
+
+Filter product inventories by billing account. Only inventories associated with the specified billing account are returned in the response.Data type: String
+
+Default: Don't filter by billing account
+
+</td></tr><tr><td>
+
+contact and consumer \(Related Party\)
+
+</td><td>
+
+Filter product inventories by associated contact or related party. Only inventories linked to the specified contact or consumer record are returned in the response.Data type: String
+
+Default: Don't filter by contact or consumer
+
+</td></tr><tr><td>
+
 customer
 
 </td><td>
@@ -1747,6 +1676,16 @@ customer
 Filter product inventories by customer. Only product offerings with a customer sys\_id or external ID matching the value of this parameter are returned in the response.Data type: String
 
 Default: Don't filter by customer.
+
+</td></tr><tr><td>
+
+externalID
+
+</td><td>
+
+Filter product inventories by external identifier. Only inventories with an externalID matching the value of this parameter are returned in the response. Data type: String
+
+Default: Don't filter by externalID
 
 </td></tr><tr><td>
 
@@ -1933,16 +1872,6 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-externalId
-
-</td><td>
-
-External ID of the product inventory.Table: Product Inventory \[sn\_prd\_invt\_product\_inventory\]
-
-Data type: String
-
-</td></tr><tr><td>
-
 id
 
 </td><td>
@@ -2036,27 +1965,28 @@ productCharacteristic.valueType
 
 </td><td>
 
-Type of characteristic value.Accepted values:
+Type of characteristic value.Possible values:
 
--   address
--   array.date
--   array.datetime
--   array.decimal
--   array.integer
--   array.object
--   array.single\_line\_text
--   attachment
--   checkbox
--   choice
--   date
--   date\_time
--   decimal
--   duration
--   email
--   integer
--   object
--   single\_line\_text
--   yes\_no
+-   `Address`
+-   `Array Date`
+-   `Array Datetime`
+-   `Array Decimal`
+-   `Array Integer`
+-   `Array Object`
+-   `Array Single Line Test`
+-   `CheckBox`
+-   `Choice`
+-   `Date`
+-   `Date / Time`
+-   `Email`
+-   `Integer`
+-   `Object`
+-   `Single Line Text`
+-   `Yes / No`
+
+ **Note:** By default, or if this property doesn't exist, this field returns the display values listed above. To return the internal value instead \(matching the value format the TMF622 Product Order API already uses by default\), create a true/false system property named **sn\_prd\_invt.enableseamlessvaluetype** and set it to `true`: `address`, `array.date`, `array.datetime`, `array.decimal`, `array.integer`, `array.object`, `array.single_line_text`, `attachment`, `checkbox`, `choice`, `date`, `date_time`, `decimal`, `duration`, `email`, `integer`, `object`, `single_line_text`, `yes_no`.
+
+Default: `false`
 
 Data type: String
 
@@ -2295,7 +2225,6 @@ Response body.
 [
    {
       "id": "075072aec3a83010abc8b5183c40dd44",
-      "externalId": "LOC-SF-HQ-2026",
       "relatedParty": [
          {
             "id": "ffc68911c35420105252716b7d40dd55",
@@ -2466,11 +2395,51 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
+account
+
+</td><td>
+
+Filter product inventories by account. Only inventories associated with the specified account are returned in the response.Data type: String
+
+Default: Don't filter by account.
+
+</td></tr><tr><td>
+
+billingAccount
+
+</td><td>
+
+Filter product inventories by billing account. Only inventories associated with the specified billing account are returned in the response.Data type: String
+
+Default: Don't filter by billing account
+
+</td></tr><tr><td>
+
+contact and consumer \(Related Party\)
+
+</td><td>
+
+Filter product inventories by associated contact or related party. Only inventories linked to the specified contact or consumer record are returned in the response.Data type: String
+
+Default: Don't filter by contact or consumer
+
+</td></tr><tr><td>
+
 customer
 
 </td><td>
 
 Filter product inventories by customer. Only product offerings with a customer sys\_id or external ID matching the value of this parameter are returned in the response.Data type: String
+
+</td></tr><tr><td>
+
+externalID
+
+</td><td>
+
+Filter product inventories by external identifier. Only inventories with an externalID matching the value of this parameter are returned in the response. Data type: String
+
+Default: Don't filter by externalID
 
 </td></tr><tr><td>
 
@@ -2583,16 +2552,6 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-externalId
-
-</td><td>
-
-External ID of the product inventory.Table: Product Inventory \[sn\_prd\_invt\_product\_inventory\]
-
-Data type: String
-
-</td></tr><tr><td>
-
 id
 
 </td><td>
@@ -2686,27 +2645,28 @@ productCharacteristic.valueType
 
 </td><td>
 
-Type of characteristic value.Accepted values:
+Type of characteristic value.Possible values:
 
--   address
--   array.date
--   array.datetime
--   array.decimal
--   array.integer
--   array.object
--   array.single\_line\_text
--   attachment
--   checkbox
--   choice
--   date
--   date\_time
--   decimal
--   duration
--   email
--   integer
--   object
--   single\_line\_text
--   yes\_no
+-   `Address`
+-   `Array Date`
+-   `Array Datetime`
+-   `Array Decimal`
+-   `Array Integer`
+-   `Array Object`
+-   `Array Single Line Test`
+-   `CheckBox`
+-   `Choice`
+-   `Date`
+-   `Date / Time`
+-   `Email`
+-   `Integer`
+-   `Object`
+-   `Single Line Text`
+-   `Yes / No`
+
+ **Note:** By default, or if this property doesn't exist, this field returns the display values listed above. To return the internal value instead \(matching the value format the TMF622 Product Order API already uses by default\), create a true/false system property named **sn\_prd\_invt.enableseamlessvaluetype** and set it to `true`: `address`, `array.date`, `array.datetime`, `array.decimal`, `array.integer`, `array.object`, `array.single_line_text`, `attachment`, `checkbox`, `choice`, `date`, `date_time`, `decimal`, `duration`, `email`, `integer`, `object`, `single_line_text`, `yes_no`.
+
+Default: `false`
 
 Data type: String
 
@@ -2943,7 +2903,6 @@ Output:
 ```
 {
    "id": "074450fc74918d10f877ca57242ff9e3",
-   "externalId": "LOC-SF-HQ-2026",
    "relatedParty": [
       {
          "id": "ffc68911c35420105252716b7d40dd55",
@@ -3730,27 +3689,28 @@ productCharacteristic.valueType
 
 </td><td>
 
-Type of characteristic value.Accepted values:
+Type of characteristic value.Possible values:
 
--   address
--   array.date
--   array.datetime
--   array.decimal
--   array.integer
--   array.object
--   array.single\_line\_text
--   attachment
--   checkbox
--   choice
--   date
--   date\_time
--   decimal
--   duration
--   email
--   integer
--   object
--   single\_line\_text
--   yes\_no
+-   `Address`
+-   `Array Date`
+-   `Array Datetime`
+-   `Array Decimal`
+-   `Array Integer`
+-   `Array Object`
+-   `Array Single Line Test`
+-   `CheckBox`
+-   `Choice`
+-   `Date`
+-   `Date / Time`
+-   `Email`
+-   `Integer`
+-   `Object`
+-   `Single Line Text`
+-   `Yes / No`
+
+ **Note:** By default, or if this property doesn't exist, this field returns the display values listed above. To return the internal value instead \(matching the value format the TMF622 Product Order API already uses by default\), create a true/false system property named **sn\_prd\_invt.enableseamlessvaluetype** and set it to `true`: `address`, `array.date`, `array.datetime`, `array.decimal`, `array.integer`, `array.object`, `array.single_line_text`, `attachment`, `checkbox`, `choice`, `date`, `date_time`, `decimal`, `duration`, `email`, `integer`, `object`, `single_line_text`, `yes_no`.
+
+Default: `false`
 
 Data type: String
 
@@ -3917,7 +3877,6 @@ Resource that realizes the product. The realizing resource is a child product in
 ```
 "realizingResource": {
   "id": "String",
-  "name": "String",
   "type": "String"
 }
 ```
@@ -3951,7 +3910,6 @@ Service that realizes the product. The realizing service is a child product inve
 ```
 "realizingService": {
   "id": "String",
-  "name": "String",
   "type": "String"
 }
 ```
@@ -4377,7 +4335,6 @@ Resource that realizes the product. The realizing resource is a child product in
 ```
 "realizingResource": {
   "id": "String",
-  "name": "String",
   "type": "String"
 }
 ```
@@ -4413,7 +4370,6 @@ Service that realizes the product. The realizing service is a child product inve
 ```
 "realizingService": {
   "id": "String",
-  "name": "String",
   "type": "String"
 }
 ```
@@ -4727,27 +4683,28 @@ productCharacteristic.valueType
 
 </td><td>
 
-Type of characteristic value.Accepted values:
+Type of characteristic value.Possible values:
 
--   address
--   array.date
--   array.datetime
--   array.decimal
--   array.integer
--   array.object
--   array.single\_line\_text
--   attachment
--   checkbox
--   choice
--   date
--   date\_time
--   decimal
--   duration
--   email
--   integer
--   object
--   single\_line\_text
--   yes\_no
+-   `Address`
+-   `Array Date`
+-   `Array Datetime`
+-   `Array Decimal`
+-   `Array Integer`
+-   `Array Object`
+-   `Array Single Line Test`
+-   `CheckBox`
+-   `Choice`
+-   `Date`
+-   `Date / Time`
+-   `Email`
+-   `Integer`
+-   `Object`
+-   `Single Line Text`
+-   `Yes / No`
+
+ **Note:** By default, or if this property doesn't exist, this field returns the display values listed above. To return the internal value instead \(matching the value format the TMF622 Product Order API already uses by default\), create a true/false system property named **sn\_prd\_invt.enableseamlessvaluetype** and set it to `true`: `address`, `array.date`, `array.datetime`, `array.decimal`, `array.integer`, `array.object`, `array.single_line_text`, `attachment`, `checkbox`, `choice`, `date`, `date_time`, `decimal`, `duration`, `email`, `integer`, `object`, `single_line_text`, `yes_no`.
+
+Default: `false`
 
 Data type: String
 

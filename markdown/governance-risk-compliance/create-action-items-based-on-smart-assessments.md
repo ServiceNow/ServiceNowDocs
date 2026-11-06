@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-action-items-based-on-smart-assessments.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 5
-breadcrumb: [Creating action items in crisis events, Structured workflows for Crisis events, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Creating action items, Structured workflows for crisis events, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Create task and assessment-type action items
@@ -85,8 +85,6 @@ Verify that you have created Smart Assessment templates for integrating crisis e
         5.  Publish the assessment template.
         Only when these conditions are met, the template is available for selection in the drop-down of the action item form.
 
-        **Note:** If a BCM administrator publishes a new version of the threat assessment template, future crisis-event assessment-type action items use the new version. Open action items based on the retired version are either retained or canceled depending on the **Assessment handling on version retirement** option configured on the **Threat assessment for crisis events** template category. For minor corrections such as typos or grammar, use **Quick Edit** to update a published template without creating a new version. For more information, see [Using latest assessment template for conducting BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/using-smart-asmt-template.md).
-
         For information on setting up Smart Assessment templates, see [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md).
 
     2.  Add an assignment group or a team member and additional assignee list, select the timeline, and save the record.
@@ -115,7 +113,7 @@ Verify that you have created Smart Assessment templates for integrating crisis e
 
 
 -   **[Create Action item form for crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-new-action-item-crisis-event-form.md)**  
-Use the Create New Action item form in the BCM Configurable Workspace to add action items about a crisis event.
+Use the Create Action item form in the BCM Configurable Workspace to add action items about a crisis event.
 
 **Parent Topic:**[Creating action items in crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/creating-action-items-in-crisis.md)
 

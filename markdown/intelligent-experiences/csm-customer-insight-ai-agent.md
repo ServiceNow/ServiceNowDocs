@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/csm-customer-insight-ai-agent.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Customer Service Management AI agents, Customer Service Management, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [Customer Service Management AI agents, Customer Service Management, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Customer insight AI agent
@@ -19,7 +19,7 @@ This agent is responsible for answering any questions related to the record. The
 The agent helps users complete tasks related to customer insight.
 
 1.  Question analysis and requirements gathering.
-2.  Question analysis validation: Verify that the customer has provided all relevant information.
+2.  Question analysis validation: ensure that the customer has provided all relevant information.
 3.  Use deep research to retrieve comprehensive data and insights.
 4.  Generate a response for the customer and respond to follow-up questions.
 

@@ -7,7 +7,7 @@ release: australia
 product: Asset Management
 classification: asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [transfer order flow, transfer order line flow]
 breadcrumb: [Manage transfer order, Use, Base Asset Management, Common applications, Asset Management]
@@ -42,9 +42,9 @@ In the asset life cycle automation process, when multiple assets are transferred
 
 [Customize transfer order line tasks]()
 
+[Transfer assets using transfer orders]()
+
 [Transfer order line asset tracking]()
 
-[Create a transfer order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/create-a-transfer-order.md)
-
-[Create transfer order line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/create-transfer-order-line.md)
+[Transfer assets using transfer orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/t_TransferAssetsUsingTransferOrders.md)
 

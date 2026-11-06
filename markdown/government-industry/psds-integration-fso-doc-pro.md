@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-integration-fso-doc-pro.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Public Sector Digital Services \(PSDS\)]
 ---
@@ -21,6 +21,8 @@ This application is automatically installed when you install the following Publi
 -   Grants Management
 -   Social Benefits Playbook
 -   License and Permit Playbook
+
+For more information about using the Document Processor, see [Using Document Processor](https://www.servicenow.com/docs/r/financial-services-operations/using-document-processor.html).
 
 An admin can use Document Templates to create HTML and PDF document templates, which can be used to generate standard letters or documents. The templates can be used to automate and simplify the process of filling out, signing, and reviewing documents online. For more information, see [Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/document-templates-overview.md).
 

@@ -7,7 +7,7 @@ release: australia
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
-last_updated: "2026-04-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [RMF step 3 - Implement controls, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---

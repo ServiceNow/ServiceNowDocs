@@ -1,5 +1,5 @@
 ---
-title: Components installed with voice
+title: Components installed with Voice
 description: Information about the roles, tables, and scheduled jobs that are installed with Voice Agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-hrsd/components-installed-voice-agents.html
@@ -7,18 +7,18 @@ release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
-# Components installed with voice
+# Components installed with Voice
 
 Information about the roles, tables, and scheduled jobs that are installed with Voice Agents.
 
 ## AI voice agent roles
 
-The following table lists the roles installed with the HR Voice AI Agents plugin.
+The following table lists the roles installed with the Voice for Now Assist plugin.
 
 |Roles|Description|
 |-----|-----------|
@@ -29,7 +29,7 @@ The following table lists the roles installed with the HR Voice AI Agents plugin
 
 ## AI voice agent attributes
 
-The AI voice agent attributes enable you to configure the authentication functionality for AI voice agents. Navigate to **All** &gt; **System Definition** &gt; **Tables** and search for ServiceNow Otto Deployment Config Attributes table to view the attributes.
+The AI voice agent attributes enable you to configure the authentication functionality for AI voice agents. Navigate to **All** &gt; **System Definition** &gt; **Tables** and search for Now Assist Deployment Config Attributes table to view the attributes.
 
 The following table lists the attributes related to AI voice agent configuration.
 

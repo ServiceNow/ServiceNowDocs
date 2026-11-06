@@ -1,0 +1,184 @@
+---
+title: Administration cards
+description: Administration cards let you monitor and manage applications, including adding, turning on, or turning off cards. Use administration cards to review compliance policies, view DEX users and DEX administrators, and manage metric rules and devices that have Agent Client Collector installed.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/administration-cards.html
+release: australia
+product: Digital End-User Experience \(DEX\)
+classification: digital-end-user-experience-dex
+topic_type: reference
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Operations Management]
+---
+
+# Administration cards
+
+Administration cards let you monitor and manage applications, including adding, turning on, or turning off cards. Use administration cards to review compliance policies, view DEX users and DEX administrators, and manage metric rules and devices that have Agent Client Collector installed.
+
+<table id="table_rjd_p1l_1xb"><thead><tr><th>
+
+Cards
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td colspan="2">
+
+Roles and Access
+
+</td></tr><tr><td>
+
+User roles
+
+</td><td>
+
+View and configure different DEX user roles based on their respective access requirements.
+
+</td></tr><tr><td class="sub-head" colspan="2">
+
+Application and Device Health
+
+</td></tr><tr><td>
+
+Agent deployment on Windows devices
+
+</td><td>
+
+Install Agent Client Collector \(ACC\) to monitor and collect data in a centralized and organized manner, provide insights into system performance, identify issues, and enable proactive maintenance.
+
+</td></tr><tr><td>
+
+Agent deployment on macOS devices
+
+</td><td>
+
+Install ACC to monitor and collect data in a centralized and organized manner, provide insights into system performance, identify issues, and enable proactive maintenance.
+
+</td></tr><tr><td>
+
+Applications management
+
+</td><td>
+
+Look up and configure web and installed applications that are currently being monitored.
+
+</td></tr><tr><td>
+
+Desktop Assistant deployment
+
+</td><td>
+
+Deploy Desktop Assistant \(DA\) using guided steps on the end-user devices. DA is an interface for employees, enabling access to self-service options, IT notifications, and support resources.
+
+</td></tr><tr><td>
+
+Deploy browser extension
+
+</td><td>
+
+Activate the DEX Google ChromeOS or Microsoft Edge extension on your device to collect different operational or performance-based metrics for the web or SaaS applications.
+
+</td></tr><tr><td>
+
+Digital End-user Experience Self-service configuration
+
+</td><td>
+
+Configure and customize Digital End-user Experience Self-service experience to enable employees to check the performance of their device and self-solve issues.
+
+</td></tr><tr><td>
+
+System compliance
+
+</td><td>
+
+Configure compliance system policies, manage applications, and set up metric rules for compliance-related thresholds.For more information, see [Manage your system compliance report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/manage-compliance-report.md).
+
+</td></tr><tr><td>
+
+File management
+
+</td><td>
+
+Configure and manage the executable files available on the end-user devices.For more information, see [Set up file management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/set-up-file-mgmt.md).
+
+</td></tr><tr><td>
+
+Windows registry configuration
+
+</td><td>
+
+Configure the Windows registry keys to identify and manage any mismatch in end-user devices.**Note:** Select the registry key path to edit the key by modifying the path or expected value. You can also delete the key.
+
+For more information, see [Set up Windows registry keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/set-up-win-registry-keys.md).
+
+</td></tr><tr><td>
+
+Agent policies
+
+</td><td>
+
+Manage which DEX metrics are collected based on the device criteria defined.
+
+</td></tr><tr><td>
+
+Metric rules
+
+</td><td>
+
+Create and manage DEX metric rules to establish criteria and thresholds for metrics. Configuring metric rules enables timely alerts and proactive system management.
+
+</td></tr><tr><td>
+
+Create Remedial Actions
+
+</td><td>
+
+Create your custom remedial actions from check definitions to resolve endpoint-related issues using the Playbook.
+
+</td></tr><tr><td colspan="2">
+
+Usage and Health Monitoring
+
+</td></tr><tr><td>
+
+Agent health
+
+</td><td>
+
+Review and manage user devices on which ACC is installed.Agent health also displays the number of agents that are up and the number that are down.
+
+</td></tr><tr><td>
+
+Proactive Engagement workbench
+
+</td><td>
+
+View Proactive Engagement resolutions available to you in the base system. Get an overview of all the PE resolutions and notifications active in your instance.
+
+</td></tr><tr><td>
+
+Desktop Assistant usage
+
+</td><td>
+
+Get insight into Desktop Assistant usage across all your organization's employees. For more information, see [View Desktop Assistant usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/view-da-usage-metrics.md).
+
+</td></tr></tbody>
+</table>To return to the administration details page, see [DEX Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/dex-workspace-administration-tab.md).
+
+-   **[Application management card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/app-mngmt-card.md)**  
+The Application management card lists the applications in use, application type, end-user OS, and whether an application is included in the metrics or compliance monitoring.
+-   **[Add web or installed application form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/admin-new-app-form.md)**  
+Using a custom form, you can add an application to be monitored for compliance or performance metrics.
+-   **[Edit web or installed application form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/admin-edit-app-form.md)**  
+Using a custom form, you can edit an application to be monitored for compliance or performance metrics.
+-   **[Alert rules page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/metric-rule-form.md)**  
+The alert rules page shows information about a specific rule, including its name, app type, rule type, application name, alert severity, and alert status.
+-   **[Agent policies list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/agent-policies-list.md)**  
+The agent policies list shows information about each agent policy including its name, status, cron expressions, and updated time.
+
+**Parent Topic:**[DEX Application and Device Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/dex-console-reference.md)
+

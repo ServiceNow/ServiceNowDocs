@@ -7,8 +7,8 @@ release: australia
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 9
+last_updated: "2026-09-10"
+reading_time_minutes: 10
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
 
@@ -375,6 +375,8 @@ Creates an interaction record in the Interaction \[interaction\] table when an a
 
 Use this endpoint to provide a consistent experience for agents, similar to other native channels such as chat and case, when accepting phone calls.
 
+If the first item in the `relatedRecords` array is a record from the Interaction \[interaction\] table, the endpoint checks for an existing callback interaction. If it finds one, the endpoint returns that interaction instead of creating a new one. This behavior helps avoid duplicate interaction records when an agent calls a customer back from a callback interaction.
+
 ### URL format
 
 Versioned URL: `/api/now/openframe/{api_version}/voice-interaction`
@@ -614,13 +616,40 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-api-explorer/c_RESTAPI.md).
 
-|Status code|Description|
-|-----------|-----------|
-|200|Successful. The request was successfully processed.|
-|400|Bad Request. A bad request type or malformed request was detected.|
-|500|Internal server error. An unexpected error occurred while processing the request. The response contains additional information about the error.|
+<table><thead><tr><th>
 
-### Response body parameters \(JSON or XML\)
+Status code
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+200
+
+</td><td>
+
+Successful. The request was successfully processed.The endpoint also returns the 200 status code when it returns an existing interaction instead of creating a new one.
+
+</td></tr><tr><td>
+
+400
+
+</td><td id="entry-400-status-code">
+
+Bad Request. A bad request type or malformed request was detected.
+
+</td></tr><tr><td>
+
+500
+
+</td><td id="entry-500-status-code">
+
+Internal server error. An unexpected error occurred while processing the request. The response contains additional information about the error.
+
+</td></tr></tbody>
+</table>### Response body parameters \(JSON or XML\)
 
 <table><thead><tr><th>
 
@@ -636,7 +665,7 @@ number
 
 </td><td>
 
-Only returned on success. Interaction number of the newly created voice interaction. Data type: String
+Only returned on success. Interaction number of the voice interaction. If the endpoint reuses an existing interaction, this value is the number of that interaction. Data type: String
 
 </td></tr><tr><td>
 
@@ -646,7 +675,7 @@ status
 
 Status of the record creation.Possible values:
 
--   SUCCESS: The interaction record was successfully created.
+-   SUCCESS: The interaction record was successfully created, or an existing interaction was returned.
 -   FAILURE: The interaction record was not created.
 
 </td></tr><tr><td>
@@ -655,7 +684,7 @@ sysId
 
 </td><td>
 
-Only returned on success. Sys\_id of the newly created voice interaction record. Table: Interaction \[interaction\]
+Only returned on success. Sys\_id of the voice interaction record. If the endpoint reuses an existing interaction, this value is the sys\_id of that interaction. Table: Interaction \[interaction\]
 
 </td></tr></tbody>
 </table>### cURL request
@@ -663,50 +692,50 @@ Only returned on success. Sys\_id of the newly created voice interaction record.
 The following code example shows how to create a new interaction record.
 
 ```
-curl "http://instance.service-now.com/api/now/openframe/voice-interaction" \
+curl "https://<instance-name>.service-now.com/api/now/openframe/voice-interaction" \
 --request POST \
 --header "Accept:application/json" \
 --header "Content-Type:application/json" \
 --data "{
    \"interaction\":{
-      \"userPhoneNumber\":\"+1303506536\",
-      \"clientSessionId\":\"a545t65678\",
-      \"callbackPhoneNumber\":\"+14089965744\",
+      \"userPhoneNumber\":\"+15555550100\",
+      \"clientSessionId\":\"example_session_id\",
+      \"callbackPhoneNumber\":\"+15555550101\",
       \"additionalParams\":{
          \"direction\":\"inbound\",
          \"short_description\":\"New outbound call\",
-         \"assigned_to\":\"a8f98bb0eb32010045e1a5115206fe3a\"
+         \"assigned_to\":\"a1b2c3d4e5f60718293a4b5c6d7e8f90\"
       }
    },
    \"interactionContext\":{
-      \"devicetype\":\"genesys\",
+      \"devicetype\":\"example_provider\",
       \"requester_session_language\":\"en-US\"
    },
    \"phoneLogs\":[
       {
-         \"call_id\":\"2323223\",
-         \"agent\":\"a8f98bb0eb32010045e1a5115206fe3a\",
-         \"start_time\":\"2024-11-04 21:45:00\"
+         \"call_id\":\"call_0001\",
+         \"agent\":\"a1b2c3d4e5f60718293a4b5c6d7e8f90\",
+         \"start_time\":\"2026-01-15 09:00:00\"
       },
       {
-         \"call_id\":\"33535353\",
-         \"agent\":\"a8f98bb0eb32010045e1a5115206fe3a\",
-         \"start_time\":\"2024-11-04 21:45:00\"
+         \"call_id\":\"call_0002\",
+         \"agent\":\"a1b2c3d4e5f60718293a4b5c6d7e8f90\",
+         \"start_time\":\"2026-01-15 09:00:00\"
       },
       {
-         \"call_id\":\"1997654\",
-         \"agent\":\"a8f98bb0eb32010045e1a5115206fe3a\",
-         \"start_time\":\"2024-11-04 21:45:00\"
+         \"call_id\":\"call_0003\",
+         \"agent\":\"a1b2c3d4e5f60718293a4b5c6d7e8f90\",
+         \"start_time\":\"2026-01-15 09:00:00\"
       }
    ],
    \"relatedRecords\":[
       {
          \"documentTable\":\"csm_consumer\",
-         \"documentId\":\"59e788fbdb1b1200b6075200cf9619d2\"
+         \"documentId\":\"b2c3d4e5f60718293a4b5c6d7e8f90a1\"
       },
       {
          \"documentTable\":\"sys_user\",
-         \"documentId\":\"62826bf03710200044e0bfc8bcbe5df1\"
+         \"documentId\":\"c3d4e5f60718293a4b5c6d7e8f90a1b2\"
       }
    ]
 }" \
@@ -720,8 +749,49 @@ Response:
 {
   "result": {
     "status": "SUCCESS",
-    "sysId": "12961fff7fb2d2102d0cd3cf8c86652b",
-    "number": "IMS0000052"
+    "sysId": "d4e5f60718293a4b5c6d7e8f90a1b2c3",
+    "number": "IMS0000001"
+  }
+}
+```
+
+### cURL request with an existing callback interaction
+
+The following code example shows a request where the first related record is an existing interaction. The endpoint returns that interaction instead of creating a new one.
+
+```
+curl "https://<instance-name>.service-now.com/api/now/openframe/voice-interaction" \
+--request POST \
+--header "Accept:application/json" \
+--header "Content-Type:application/json" \
+--data "{
+   \"interaction\":{
+      \"userPhoneNumber\":\"+15555550100\",
+      \"clientSessionId\":\"example_session_id\",
+      \"additionalParams\":{
+         \"direction\":\"outbound\",
+         \"assigned_to\":\"a1b2c3d4e5f60718293a4b5c6d7e8f90\"
+      }
+   },
+   \"relatedRecords\":[
+      {
+         \"documentTable\":\"interaction\",
+         \"documentId\":\"e5f60718293a4b5c6d7e8f90a1b2c3d4\"
+      }
+   ]
+}" \
+--user 'username':'password'
+
+```
+
+Response:
+
+```
+{
+  "result": {
+    "status": "SUCCESS",
+    "sysId": "e5f60718293a4b5c6d7e8f90a1b2c3d4",
+    "number": "IMS0000002"
   }
 }
 ```

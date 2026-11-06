@@ -7,7 +7,7 @@ release: australia
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage financials for planning items, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -38,15 +38,15 @@ The video is recorded using the Strategic Planning view. Navigate to your portfo
 
 4.  Use one of the following options to add an expense line.
 
-<table id="choicetable_n25_2rm_fyb"><thead><tr><th align="left" id="d327815e121">
+<table id="choicetable_n25_2rm_fyb"><thead><tr><th align="left" id="d339993e121">
 
 Choice
 
-</th><th align="left" id="d327815e124">
+</th><th align="left" id="d339993e124">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d327815e130">
+</th></tr></thead><tbody><tr><td id="d339993e130">
 
 **Select a cost plan**
 
@@ -56,7 +56,7 @@ Description
 2.  In the Expense lines side panel, select **New**.
 
 
-</td></tr><tr><td id="d327815e151">
+</td></tr><tr><td id="d339993e151">
 
 **Select options**
 
@@ -66,7 +66,7 @@ Description
 2.  Select **Add expense lines**.
 
 
-</td></tr><tr><td id="d327815e178">
+</td></tr><tr><td id="d339993e178">
 
 **Select new expense line option**
 

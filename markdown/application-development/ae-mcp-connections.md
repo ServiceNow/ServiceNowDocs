@@ -9,7 +9,7 @@ last_updated: "2026-09-23"
 reading_time_minutes: 3
 keywords: [Autonomous Engineer, MCP, Model Context Protocol, external tools, connections]
 audience: programmer
-breadcrumb: [Overview, Autonomous Engineer, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Overview, Autonomous Engineer, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # MCP connections and Autonomous Engineer
@@ -28,16 +28,20 @@ Autonomous Engineer can use MCP connections at any stage of the workflow. For ex
 
 ## Approve and activate MCP servers
 
-Before you can enable an MCP server in Build Agent, an administrator must approve it as an AI asset in AI Control Tower. Each MCP server requires this approval, regardless of whether the server is enabled by default.
+Before you can enable an MCP server in Build Agent, a user with the sn\_ai\_governance.ai\_steward role must approve it as an AI asset in AI Control Tower. An administrator without this role can't approve the server. Each MCP server requires this approval, regardless of whether the server is enabled by default. For the approval steps, see [Onboard MCP server approval playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-onboard-mcp-server-approval-playbook.md).
 
 The end-to-end flow for making an MCP server available is:
 
 1.  The administrator adds the MCP server as a Workflow Data Fabric \(WDF\) connection.
-2.  The administrator approves the server as an AI asset in AI Control Tower.
-3.  You authenticate the connection in Personal Integrations.
+2.  A user with the sn\_ai\_governance.ai\_steward role approves the server as an AI asset in AI Control Tower.
+3.  You authenticate the connection in Personal Integrations.For details, see [Using the Personal Authentication dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/personal-auth-dashboard.md).
 4.  You enable the MCP server in Build Agent settings.
 
-For details on enabling MCP connections, see [Client registration using custom connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mcp-custom.md).
+For details on adding the MCP server connection, see the following topics:
+
+-   [Dynamic client registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mcp-dcr-a.md) for servers that connect with one click
+-   [Manual client registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mcp-mcr-a.md) for servers marked **Manual setup may be required**
+-   [Client registration using custom connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mcp-custom.md) for servers that aren't in the MCP registry
 
 Individual MCP servers are enabled by default, but the complete flow must be completed before any server is available for use.
 
@@ -45,7 +49,7 @@ For details on adding a new MCP connection in Workflow Data Fabric, see [Model C
 
 ## Supported MCP servers
 
-The following MCP connections are currently supported for Build Agent:
+The following MCP connections are currently supported for Autonomous Engineer:
 
 -   Atlassian Rovo
 -   AWS DevOps
@@ -61,6 +65,8 @@ The following MCP connections are currently supported for Build Agent:
 -   Zoom Whiteboard
 
 **Note:** Because Build Agent doesn't support multiple servers connecting to one app, each Zoom integration requires its own app in Zoom.
+
+You can create custom MCP servers on the ServiceNow AI Platform and then have Build Agent connect to them. For information about creating custom MCP servers, see [Create a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-mcp-server.md).
 
 ## View available tools per MCP server
 

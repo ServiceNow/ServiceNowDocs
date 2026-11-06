@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,7 +22,7 @@ Use [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs
 -   Use the Important actions tile on the CMDB Workspace landing page to access data attestation and life cycle approval tasks such as reassignment requests and unassigned overdue tasks. Drill down these task cards to see further details about the tasks.
 -   Use the My work tile on the CMDB Workspace landing page to access all open tasks, which are assigned to you, or to the group assigned in the **Managed by Group** attribute and which you're a member of. For CMDB administrators, any unassigned tasks are also included for reassignment. Review and process all tasks. Review and process attestation tasks by checking the physical existence of IT infrastructure or applications associated with the CIs in the tasks.
 
--   Use the [Insights view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-view.md) to access attestation and non-attestation tasks that are assigned to you or to an assignment group that you belong to in accordance with CMDB Data Manager policies. Overdue attestation tasks appear in a separated **Overdue tasks** list.
+-   Use the [Governance view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/sg-workspace-governance-view.md) to access attestation and non-attestation tasks that are assigned to you or to an assignment group that you belong to in accordance with CMDB Data Manager policies. Overdue attestation tasks appear in a separated **Overdue tasks** list.
 
 
 Manage CMDB Data Manager policies in CMDB Workspace:

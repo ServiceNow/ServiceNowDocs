@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/install-fix-intel.html
 release: australia
 topic_type: task
-last_updated: "2026-08-03"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 keywords: [install Fix Intel, activate plugin, sn\_vul\_fix]
 breadcrumb: [Fix Intelligence for Security Exposure Management, Integrate, Unified Security Exposure Management, Security Operations]
 ---
@@ -21,8 +21,7 @@ Role required: admin
 
 Prerequisites:
 
--   Unified Security Exposure Management and Vulnerability Response, including the Vulnerability Integration Framework, are active on your instance.
--   Your organization is entitled to Armis Centrix™ for Vulnerability Prioritization and Remediation \(ViPR\).
+-   Unified Security Exposure Management, Vulnerability Response, and the Unified Exposure Pipeline applications are active on your instance. Scanner integrations are configured using the Unified exposure pipeline. For information about the unified exposure pipeline, see [Unified Security Exposure Management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/integrating-usem.md).
 
 ## About this task
 
@@ -46,14 +45,4 @@ Activate the Fix Intelligence for Security Exposure Management plugin to install
 ## Result
 
 Fix Intelligence for Security Exposure Management is active. The Fix tables, role, and integration are installed on your instance.
-
-## What to do next
-
-Now Support configures the Armis Centrix™ for ViPR integration for your instance. Allow one to two business days after you install the plugin. If the integration is not configured after that time, raise a support case.
-
-You must also configure inbound authentication. For more information, see [KB article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3139883).
-
-When the integration is configured and the first sync completes, you can review the ingested fixes. See [View fixes in USEM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/view-fixes-in-workspace.md).
-
-**Parent Topic:**[Fix Intelligence for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/fix-intel-for-usem-landing.md)
 

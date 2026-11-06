@@ -7,7 +7,7 @@ release: australia
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -31,15 +31,15 @@ You can create a processing activity in two ways:
 
 1.  Navigate to one of the following.
 
-<table id="choicetable_kjs_yc1_sqb"><thead><tr><th align="left" id="d420066e81">
+<table id="choicetable_kjs_yc1_sqb"><thead><tr><th align="left" id="d423067e81">
 
 Action
 
-</th><th align="left" id="d420066e84">
+</th><th align="left" id="d423067e84">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d420066e90">
+</th></tr></thead><tbody><tr><td id="d423067e90">
 
 **To create a new processing activity**
 
@@ -49,7 +49,7 @@ Procedure
 2.  Click **New**.
 
 
-</td></tr><tr><td id="d420066e126">
+</td></tr><tr><td id="d423067e126">
 
 **To update a processing activity**
 

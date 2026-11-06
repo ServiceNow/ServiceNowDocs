@@ -7,8 +7,8 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Hardware Asset Workspace, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
@@ -137,4 +137,6 @@ When you select any KPI report, the **KPI Details** page appears. This page enab
 |MTBF|Average MTBF of all hardware assets that are tracked, calculated by dividing the total Asset MTBF by the number of assets listed in the Asset availability report.|
 |MTTR|Average MTTR of all hardware assets that are tracked, calculated by dividing the total Asset MTTR by the number of assets listed in the Asset availability report.|
 |Asset availability|Report that lists the availability and other related KPIs of all hardware assets that are tracked.|
+
+**Parent Topic:**[Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/using-ham-workspace.md)
 

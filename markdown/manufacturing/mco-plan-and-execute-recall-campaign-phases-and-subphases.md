@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-plan-and-execute-recall-campaign-phases-and-subphases.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use generative AI, ServiceNow Otto for MCO, Manufacturing Commercial Operations]
+breadcrumb: [Create a campaign, Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Plan and execute recall campaign phases and sub-phases using ServiceNow Otto
@@ -24,7 +24,7 @@ The Plan and Execute Recall Campaign Phases AI agent generates and manages recal
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Recall Management** &gt; **Phases &amp; Sub-phases**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **Lists** &gt; **Recall Management** &gt; **Phases &amp; Sub-phases**.
 
 2.  Select the ServiceNow Otto icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: to launch the ServiceNow Otto panel.
 
@@ -52,6 +52,8 @@ The Plan and Execute Recall Campaign Phases AI agent generates and manages recal
 
     The agent generates a phased roll-out list with phases and subphases. All phases and subphases are displayed.
 
+
+**Parent Topic:**[Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/manufacturing/mco-rc-my-campaigns.md)
 
 **Related topics**  
 

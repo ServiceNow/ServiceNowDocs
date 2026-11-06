@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/offline-setup-options.html
 release: australia
 topic_type: reference
-last_updated: "2026-06-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Offline mode, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---

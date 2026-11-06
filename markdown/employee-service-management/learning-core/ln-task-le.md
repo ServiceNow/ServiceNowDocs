@@ -7,7 +7,7 @@ release: australia
 product: Learning Core
 classification: learning-core
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing course and catalog content, Learning Core, HR Service Delivery, Employee Service Management]
 ---
@@ -24,13 +24,13 @@ Role required: sn\_lc.task\_creator
 
 1.  Navigate to **Learning** &gt; **Tasks** &gt; **Learning Tasks**.
 
-2.  Select **New**.
+2.  Click **New**.
 
 3.  On the form, fill in the fields.
 
     For a description of the field values, see [Learning task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/learning-task-form.md).
 
-4.  Select **Submit**.
+4.  Click **Submit**.
 
 
 **Parent Topic:**[Managing course and catalog content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/manage-ln-content.md)

@@ -7,7 +7,7 @@ release: australia
 product: Web Services
 classification: web-services
 topic_type: task
-last_updated: "2026-03-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ODBC driver, Interactive SQL, iSQL, test connection, Live Connect]
 breadcrumb: [Configure, Access your ServiceNow data using Live Connect, Additional integration resources, Web services, API implementation, API implementation and reference]

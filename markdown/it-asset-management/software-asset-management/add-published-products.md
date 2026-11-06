@@ -7,9 +7,9 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage phase-wise Software Asset Management implementation, Use SAM Workspace, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Manage phase-wise Software Asset Management implementation, Using Software Asset Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Publish a specific set of your software products

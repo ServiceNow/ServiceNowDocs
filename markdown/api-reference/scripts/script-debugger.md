@@ -7,9 +7,9 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Debugging scripts, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Debug scripts, Scripting, API implementation, API implementation and reference]
 ---
 
 # Script Debugger and Session Log
@@ -72,7 +72,7 @@ The Script Debugger user interface \(UI\) displays information about breakpoints
 -   **[Evaluate expressions in runtime using Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/evaluate-expressions.md)**  
 Define, declare, and verify new variables and functions while you debug a script in runtime using Console. The script execution must be paused to use Console.
 -   **[Set or remove breakpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/set-remove-breakpoints.md)**  
-Set breakpoints or conditional breakpoints to pause scripts at specific lines, and remove breakpoints when you are done debugging them.
+Set breakpoints or conditional breakpoints to pause scripts at specific lines, and remove breakpoints when you're done debugging them.
 -   **[Set or remove logpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/set-remove-logpts.md)**  
 Set breakpoints or conditional logpoints to log messages to the console at specific lines, and remove logpoints when you are done debugging them.
 -   **[Script Debugger multiple developer support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/multiple-developer-support.md)**  

@@ -1,65 +1,112 @@
 ---
-title: CRM Workspace list views
-description: The CRM Workspace list views provide filtered lists of cases, interactions, and other records such as accounts and contacts. Agents can also create and save their own lists.
+title: CRM Workspace list pages
+description: List pages in CRM Workspace provide agents with filtered lists of cases, interactions, and other records including accounts and contacts. Agents can use lists to search for records, sort and group records, and select records to view information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-config-workspace-list-views.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-10-26"
 reading_time_minutes: 2
 breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# CRM Workspace list views
+# CRM Workspace list pages
 
-The CRM Workspace list views provide filtered lists of cases, interactions, and other records such as accounts and contacts. Agents can also create and save their own lists.
+List pages in CRM Workspace provide agents with filtered lists of cases, interactions, and other records including accounts and contacts. Agents can use lists to search for records, sort and group records, and select records to view information.
 
-A list displays records from a database table. Each list includes rows and columns of data. Each row is a record in a table and each column is a field from the record. CRM Workspace uses list pages to display list information such as cases and case tasks. These pages are designed to help agents navigate, filter, and manage records.
+\[Omitted image "csm-config-ws-lists.png"\] Alt text: CRM Workspace includes several filtered lists that display database table, record, and field data
 
-CRM Workspace presents the Core UI lists and forms in one interface and consolidates multiple tabs into a single, focused work area. From this single view, agents can:
+A list page is a content page that displays records from a table, such as cases or case tasks. List pages help agents navigate and manage records.
 
--   Work on multiple issues concurrently in an intuitive layout, reducing context and tab switching.
--   Resolve issues faster with automated suggestions powered by machine learning.
--   Get notified of potential major incidents based on issue frequency and impact.
--   Keep informed of updates and surface important insights with a live activity feed and analytics.
+## Using lists in CRM Workspace
 
-## List pages in CRM Workspace
+From a list page, agents can:
 
-List pages for CRM Workspace are created with the List page template in UI Builder. The List page template includes the Record List component bundle and List menu component.
+-   Select a filtered list of records such as **Cases** &gt; **My Cases**.
+-   Create a list of records by selecting the table, the columns to display in the list, and filter conditions that apply to the list.
+-   Search a list of records
+-   Filter, sort, and group records in a list
 
-\[Omitted image "csm-config-ws-lists.png"\] Alt text: CSM Configurable Workspace includes several filtered lists that display database table, record, and field data
+For more information, see the following topics:
 
-## Record List component bundle
+-   [Search and filter lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-ws-search-filter-lists.md)
+-   [Create a customized list of records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-ws-create-custom-list.md)
+-   [Manage customized record lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-ws-manage-custom-list.md)
+-   [Using lists in Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/using-lists-configurable-workspace.md)
 
-The Record List component bundle includes the following components:
+## Configuring lists in CRM Workspace
 
--   Record List Header: Shows contextual information about the list.
--   Presentational List: Displays the list of records from any data source in a tabular format.
+Users with the administrator role can configure [list components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-workspace-list-components.md) in UI Builder.
 
-The Record List component bundle is configured by admins in UI Builder. For more information, see [Record list UIB Setup](https://developer.servicenow.com/dev.do#!/reference/next-experience/zurich/now-components/record%20list/overview).
+Additional list features are configured using system properties. For more information about setting these properties, see [Administering lists for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/administer-lists-configurable-workspace.md).
 
-## List menu component
+## List components
 
-The List menu component displays all available and saved lists for the selected source. It's not included in the Record List component bundle itself but exists within a list page.
+List pages in CRM Workspace are made up of multiple components that present information and enable agents to search, sort and filter, and select records.
 
-The List menu component includes the following tabs:
+<table id="table_owv_yzq_xkc"><thead><tr><th>
 
--   Default lists: This tab displays all available lists based on the selected source. These lists gives agents quick access to relevant records.
--   My lists: This tab enables agents to access their saved lists that help streamline repeat workflows and create their own lists from an existing list or by selecting a new source.
+Component
 
-The List menu component is configured by admins in UI Builder. For information on List menu component configurations, see [List menu UIB Setup](https://developer.servicenow.com/dev.do#!/reference/next-experience/yokohama/now-components/now-record-list-menu-connected/uib-setup).
+</th><th>
 
-## Predicate Builder
+Description
 
-The Predicate Builder component enables agents to set conditions from the list header to filter which records appear in a list.
+</th></tr></thead><tbody><tr><td>
 
-\[Omitted image "configurable-workspace-predicate-builder.png"\] Alt text: Predicate Builder for a Configurable Workspace
+[List menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-workspace-list-components.md)
 
-The Predicate Builder is configured by admins in UI Builder. For more information, see [Predicate Builder UIB Setup](https://developer.servicenow.com/dev.do#!/reference/next-experience/zurich/now-components/now-predicate-builder/overview).
+</td><td>
 
-## Open multiple lists in workspace tabs
+Enables agents to navigate between lists. This component includes two tabs:-   **Default lists**: admin-configured lists
+-   **My lists**: agent-created lists
 
-Agents can open a list in a new workspace primary tab from the list menu by using **Cmd/Ctrl + click**, or by selecting **Open in new session tab** from the list menu or right-click context menu.
+</td></tr><tr><td>
+
+[Record List component bundle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-workspace-list-components.md)
+
+</td><td>
+
+Combines the following components:-   Record list header
+-   Presentational list
+-   Pagination control
+
+</td></tr><tr><td>
+
+[Record list header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-workspace-list-components.md)
+
+</td><td>
+
+Displays the list title, actions agents can take on the list, and a button to create records. Agents can filter, sort, and group list items.
+
+</td></tr><tr><td>
+
+[Predicate Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-workspace-list-components.md)
+
+</td><td>
+
+Enables users to set conditions from the record list header to filter which records appear in a list.
+
+</td></tr><tr><td>
+
+[Presentational list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-workspace-list-components.md)
+
+</td><td>
+
+Displays data from the source table in columns and rows.
+
+</td></tr><tr><td>
+
+[Pagination control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-workspace-list-components.md)
+
+</td><td>
+
+Enables users to navigate pages of records and set the number of records displayed per page.
+
+</td></tr></tbody>
+</table>## Open multiple lists in workspace tabs
+
+Agents can open a list in a new workspace primary tab from the list menu by using **Cmd/Ctrl + click**. Agents can also select **Open in new session tab** from the list menu or right-click the context menu.
 
 For example, an agent may have the Open Cases list open and receive a link to a filtered list for an escalated customer. The agent can open the filtered list in a separate tab and switch between both lists without losing their place. The tab label displays the list name for easy identification.
 
@@ -67,6 +114,7 @@ For example, an agent may have the Open Cases list open and receive a link to a 
 
 For more information about working with lists, see the following topics in the [Configurable Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/workspace-landing-page.md) documentation:
 
+-   [Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/lists-configurable-workspace.md)
 -   [Administering lists for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/administer-lists-configurable-workspace.md)
 -   [Using lists in Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/using-lists-configurable-workspace.md)
 

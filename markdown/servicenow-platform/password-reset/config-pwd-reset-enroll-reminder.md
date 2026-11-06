@@ -7,7 +7,7 @@ release: australia
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure your Password Reset process, Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -27,7 +27,7 @@ The default email content is:
 -   Subject: Reminder: Enroll in the Password Reset program
 -   Body: Select here to enroll in the Password Reset program.
 
-To customize the email, see [Customize the Password Reset enrollment reminder email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/customize-pwd-reset-enroll-reminder.md).
+To customize the email, see [Customize the Password Reset enrollment reminder email]().
 
 ## Procedure
 
@@ -85,7 +85,7 @@ Date and time to send the first message. Click the calendar button to specify th
 
 </td></tr></tbody>
 </table>
--   **[Customize the Password Reset enrollment reminder email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/customize-pwd-reset-enroll-reminder.md)**  
+-   **[Customize the Password Reset enrollment reminder email]()**  
  The email message that reminds users to enroll for the Password Reset process is based on an email template. To customize the message, you can modify the default template or create a custom template.
 
 **Parent Topic:**[Configure your Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/t_CreateAPasswordResetProcess.md)

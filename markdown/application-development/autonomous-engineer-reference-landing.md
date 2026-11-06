@@ -9,7 +9,7 @@ last_updated: "2026-09-08"
 reading_time_minutes: 2
 keywords: [Autonomous Engineer, Build Agent, reference, work item states, agent packs, supported capabilities, plan dashboard]
 audience: programmer
-breadcrumb: [Autonomous Engineer, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Autonomous Engineer, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Autonomous Engineer reference
@@ -45,7 +45,7 @@ Metadata and app file types that Autonomous Engineer can create and manage.
 -   **[Supported file types for Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ae-supported-file-types.md)**  
 Autonomous Engineer accepts images, documents, code files, and file types specific to ServiceNow as uploads. Supported formats, size limits, and general guidelines apply when generating apps and metadata.
 -   **[Autonomous Engineer plan and work item states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
-Plan and work item states appear during planning and execution. Identify where a plan or work item is in the execution process and what action is required.
+Plan and work item states appear during planning and execution. Use this reference to identify where a plan or work item is in the execution process and what action is required.
 
 **Parent Topic:**[Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/autonomous-engineer.md)
 

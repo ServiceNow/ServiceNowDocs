@@ -1,0 +1,111 @@
+---
+title: Customer self-service for Sales Customer Relationship Management release notes
+description: The ServiceNow Business Portal application enables B2B customers to build sales carts, place orders, request quotes, and get support for orders and invoices through a self-service web portal. See the following sections for release notes by version.This release includes enhancements to the Sales Cart REST API for querying cart line items, reading display values, and submitting orders for large carts.This release includes enhancements to the Sales Cart REST API for validating product offerings and tracking submitted orders.REST APIs give an external ordering system programmatic control of a sales cart, from creating the cart through to submitting it as an order, and extend that control to consumers with a billing account and payment profile on each cart line item.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/customer-self-service-sales-crm-rn.html
+release: australia
+topic_type: topic
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Sales Customer Relationship Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
+---
+
+# Customer self-service for Sales Customer Relationship Management release notes
+
+The ServiceNow® Business Portal application enables B2B customers to build sales carts, place orders, request quotes, and get support for orders and invoices through a self-service web portal. See the following sections for release notes by version.
+
+## About Customer self-service for Sales Customer Relationship Management
+
+-   Shorten the sales cycle and accelerate revenue by letting B2B customers browse, configure, and place orders independently.
+-   Speed up quoting by letting customers request and review quotes directly in the Business Portal.
+-   Reduce support costs by deflecting routine order and invoice questions to self-service and AI, escalating only complex cases to a human agent with full context.
+-   Improve billing transparency and speed up dispute resolution by giving customers direct visibility into invoices and a trackable channel to raise disputes.
+-   Extend self-service ordering beyond your portal by letting account contacts and consumers transact from third-party systems through the Sales Cart API.
+
+See [Customer self-service for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-self-service-business-portal.md) for more information.
+
+## Activation and other requirements
+
+-   **Activation information**
+
+    The Business Portal application \(sn\_b2b\_portal\) is automatically installed when you install the Customer Service Portal \(sn\_csm\_portal\). Install the Customer Service Portal by requesting it from the [ServiceNow Store](https://store.servicenow.com/store). For activation and configuration information, see [Configuring the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-management-configure-business-portal.md).
+
+-   **Additional requirements**
+
+    Sales Cart REST APIs require the Billing Account Core \(sn\_billing\_account\) and Order Management \(sn\_ind\_tmt\_orm\) applications for supporting end-to-end ordering, billing, and payment flows.
+
+
+## Accessibility and localization
+
+-   **Localization information**
+
+    Business Portal text is displayed in the language set for the active ServiceNow language pack, including Japanese, with right-to-left rendering support for locales such as Arabic and Hebrew. Language packs are installed automatically when the corresponding ServiceNow base system language plugin is active.
+
+
+**Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/sales-order-management-rn-landing.md)
+
+## November 2026
+
+This release includes enhancements to the Sales Cart REST API for querying cart line items, reading display values, and submitting orders for large carts.
+
+### What's new
+
+-   **Query cart line items**
+
+    Enable external ordering systems to retrieve only the cart line items they need by using the Sales Cart REST API to return the line items that match an encoded query. Results are limited to the specified cart, include only the line item fields that are configured for the cart and that you can read, and return up to 50 line items per request. Both customers \(B2B users\) and consumers \(B2C users\) can use the query.
+
+
+### What's changed
+
+-   **Display values in cart read responses**
+
+    Get readable values in cart responses without extra lookups. Previously, retrieving a cart returned display values only for product offerings and characteristics. Now, display values are returned for every attribute on the cart, its line items, and line item characteristics for cart retrieval, line item retrieval, and cart queries. Create and update requests don't return display values.
+
+-   **Order submission from a sales cart**
+
+    Submit orders faster and keep them ready for downstream processing \(PRB2089913, PRB2109260, PRB2080458\).
+
+    -   Previously, submitting a cart with many line items through the /sn\_sales\_cart/sales\_cart/\{cart\_id\}/submitOrder API waited until the entire order was created before returning. Now, carts with more than 20 line items are submitted asynchronously. The response returns immediately with an inbound queue record ID, and the cart state tracks progress, moving from Processing to Complete or Cancelled. If submission fails, the cart moves to the Cancelled state and can't be resubmitted.
+    -   Previously, customer orders created from a sales cart through the submit order API had no channel, so downstream processes couldn't distinguish self-service orders from agent-assisted orders. Now, orders submitted through the API have the channel set to Self-service portal.
+    -   Previously, the submit order API created customer orders in the Draft state. Now, it creates them in the New state.
+
+## October 2026
+
+This release includes enhancements to the Sales Cart REST API for validating product offerings and tracking submitted orders.
+
+### What's changed
+
+-   **Order number in the submit order response**
+
+    Reference a new order in downstream systems without a follow-up call to retrieve its number. Previously, the /sn\_sales\_cart/sales\_cart/\{cart\_id\}/submitOrder response returned only the order ID, so external ordering systems had to query the order record separately to obtain the order number. Now, the response returns the order number alongside the order ID.
+
+-   **Product offering eligibility validation when creating a cart**
+
+    Prevent ineligible product offerings from reaching order submission by validating them as the cart is created.
+
+    -   Previously, any product offering could be added to a cart regardless of eligibility, and the resulting issues surfaced only after the order was submitted. Now, the product offerings on a cart are validated against the configured eligibility rules, and the cart isn't created when any of them is ineligible.
+    -   Previously, the response gave no indication of which product offerings caused a failure. Now, the response identifies each ineligible product offering so that you can resolve it before retrying.
+
+## Brazil Early Availability
+
+REST APIs give an external ordering system programmatic control of a sales cart, from creating the cart through to submitting it as an order, and extend that control to consumers with a billing account and payment profile on each cart line item.
+
+### What's new
+
+-   **Sales Cart APIs for external ordering systems**
+
+    Create and manage sales carts from third-party consumer portals, partner portals, and headless ordering applications by using the Sales Cart REST API. External systems can create and retrieve carts, add or update line items, delete carts or top-level line items, and submit validated carts to create orders without relying on the Business Portal user interface. Carts created externally use the same records and cart-processing logic as carts created in the Business Portal.
+
+-   **Digital ordering support for B2C consumers**
+
+    Extend digital ordering to B2C consumers by enabling authenticated consumers, in addition to account-and-contact customers \(B2B users\), to build and submit carts through external ordering experiences. Consumer carts derive the currency from the consumer’s country, resolve the price list from that currency, and use address information from the consumer record.
+
+-   **Billing account and payment profile support**
+
+    Complete orders with line-level billing information by assigning a billing account and payment profile to each cart line item. Different lines in the same cart can use different billing accounts, and both values carry to the corresponding order line items when the cart is submitted, eliminating manual re-entry for downstream billing.
+
+-   **View contracts and entitlements on the Business Portal**
+
+    View and access contracts and entitlements associated with your accounts on the Business Portal. Access contract and entitlement details including contract numbers, pricing details, dates, and contract line items.
+
+

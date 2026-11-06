@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-modeling-bp-map.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Working with business process map, Working with Enterprise Modeling and Visualization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
@@ -22,7 +22,7 @@ Role required: sn\_apm.apm\_user
 
 1.  Navigate to **Workspaces** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Modeling page by selecting the Enterprise Modeling and Visualization icon \( \[Omitted image "icon-modeling-logo.png"\] Alt text: \).
+2.  Open the Modeling page by selecting the Enterprise Modeling and Visualization icon \(\[Omitted image "icon-modeling-logo.png"\] Alt text: Modeling\).
 
 3.  Select the **New** drop-down menu.
 
@@ -37,16 +37,15 @@ Role required: sn\_apm.apm\_user
 
 ## Result
 
-The business process map opens in a new tab.
+The business process map gets created and opened in a new tab.
 
 **Note:**
 
--   You can add a shape to the canvas by either selecting the shape or by dragging the shape from the **Shapes** palette to the canvas.
+You can add a shape to the canvas by either selecting the shape or by dragging the shape from the **Shapes** palette to the canvas.
 
--   BPMN shapes are organized into sub-categories in the palette: **General**, **Event**, **Activity**, and **Gateway**. Expand a sub-category to browse its shapes.
+BPMN shapes are organized into sub-categories in the palette: **General**, **Event**, **Activity**, and **Gateway**. Expand a sub-category to browse its shapes.
 
--   When you drag a shape from the palette to the canvas, icon you drag matches the shape's appearance on the canvas. To preview a shape before placing it, hover over it in the palette.
-
+When you drag a shape from the palette to the canvas, the shape displays its actual icon as you drag it. To preview a shape before placing it, hover over it in the palette. All BPMN shapes are compatible with both light and dark diagram themes.
 
 **Parent Topic:**[Working with business process map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-bp-map.md)
 
@@ -58,10 +57,4 @@ The business process map opens in a new tab.
 [Business Process Modeling Notation \(BPMN\) shapes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-modeling-bpmn-shapes.md)
 
 [Business process modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/business-process-modeling.md)
-
-[Business process map diagrams from images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-bpm-diagram-from-image.md)
-
-[Create a business process map diagram from an image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-bpm-diag-from-image.md)
-
-[Review an AI-generated business process map diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-review-ai-generated-bpm-diag.md)
 

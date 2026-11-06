@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/doc-processor-submit-verification-document.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Document Processor, Integrate, Financial Services Operations \(FSO\)]
 ---
@@ -60,11 +60,9 @@ A document verification task is created.
 
 If Document Intelligence is integrated, once a document verification task is created, a record is also created on a Document Intelligence task if the following criteria are met:
 
--   The **OCR processing needed** check box is selected.
+-   The OCR processing needed checkbox is selected.
 -   The document verification task has a document attached.
--   The document verification task shows a current state of Submitted.
-
-The **External ID** field in the document verification task is populated with the ID of the Document Intelligence use case that processes and extracts the data.
+-   The document verification task shows a current stated of Submitted.
 
 ## What to do next
 

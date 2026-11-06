@@ -7,7 +7,7 @@ release: australia
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
@@ -18,7 +18,7 @@ The VoiceTranscriptObject scriptable API provides methods to save third-party vo
 
 When calling the `VoiceTranscriptObject` class, use the `sn_cs` namespace identifier.
 
-\[Omitted image "vir-agent\_workspace.png"\] Alt text: Agent Workspace page with customer details and conversations displayed.
+\[Omitted image "vir-agent\_workspace.png"\] Alt text:
 
 ## Availability
 

@@ -1,18 +1,18 @@
 ---
 title: Track and update projects
-description: Enable your location staff to track projects for their business locations using the Business Location Service Portal \(BLSP\). You can manage projects, enabling efficient monitoring of progress and updates of your locations.
+description: Enable your location staff to track projects for their business organization \(formerly business locations\) using the Business Organization Support Portal \(BOSP\). You can manage projects, enabling efficient monitoring of progress and updates of your locations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/track-and-update-projects.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the Business Location Service Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Business Organization Support Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Track and update projects
 
-Enable your location staff to track projects for their business locations using the Business Location Service Portal \(BLSP\). You can manage projects, enabling efficient monitoring of progress and updates of your locations.
+Enable your location staff to track projects for their business organization \(formerly business locations\) using the Business Organization Support Portal \(BOSP\). You can manage projects, enabling efficient monitoring of progress and updates of your locations.
 
 ## Before you begin
 
@@ -20,7 +20,7 @@ Role required: admin, sn\_bus\_loc.location\_project\_stakeholder, sn\_customers
 
 ## Procedure
 
-1.  Navigate to **Home** &gt; **Your Information** &gt; **Business Locations**.
+1.  Navigate to **Home** &gt; **Your Information** &gt; **Business Organizations**.
 
 2.  On the Business Location Details page, select the business location that you want to track the projects for.
 

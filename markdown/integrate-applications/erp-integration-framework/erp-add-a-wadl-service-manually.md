@@ -1,13 +1,13 @@
 ---
 title: Add a WADL service manually in Zero Copy Connector for ERP
-description: Add an Oracle E-Business Suite \(EBS\) service to a model by supplying its Integrated SOA Gateway alias, when the service you need isn't listed.
+description: Add an Oracle E-Business Suite \(EBS\) service to a model by supplying its Integrated SOA Gateway alias.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erp-add-a-wadl-service-manually.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
-last_updated: "2026-08-24"
+last_updated: "2026-10-15"
 reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, integration, zero, copy, connector, oracle, ebs, wadl, service, entity]
 breadcrumb: [Connecting to Oracle EBS, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
@@ -15,7 +15,7 @@ breadcrumb: [Connecting to Oracle EBS, Configuring, Zero Copy Connector for ERP,
 
 # Add a WADL service manually in Zero Copy Connector for ERP
 
-Add an Oracle E-Business Suite \(EBS\) service to a model by supplying its Integrated SOA Gateway alias, when the service you need isn't listed.
+Add an Oracle E-Business Suite \(EBS\) service to a model by supplying its Integrated SOA Gateway alias.
 
 ## Before you begin
 
@@ -29,7 +29,7 @@ Complete the following before adding a service manually:
 
 ## About this task
 
-Services are normally discovered automatically from the ERP system. Add a service manually when discovery doesn't return the service you need. For background on how WADL services are discovered, see [WADL service support for Oracle E-Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-oracle-ebs-wadl-support.md).
+Oracle EBS services aren't discovered automatically. Add each service you need by its ISG alias. After you add a service, its endpoints appear in the AI Search results when you select an entity. For more information about WADL services, see [WADL service support for Oracle E-Business Suite in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-oracle-ebs-wadl-support.md).
 
 ## Procedure
 

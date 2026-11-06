@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-communication.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Customer Service Management]
 ---
@@ -23,5 +23,5 @@ Prioritize clear, timely, and meaningful customer interactions to ensure satisfa
 |[Using the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/use-the-customer-portal.md)|Search for information about a question or an issue, or request assistance from a customer service agent.|
 |[Using the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/use-consumer-service-portal.md)|The Consumer Service Portal is a web interface that your company can use to provide information and support to consumers.|
 |[Using Conversational Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/conv_appt_booking_using.md)|Customers can initiate an appointment booking conversation in a chat on your support portal using a Virtual Agent, and Agents can use Autopilot to display Virtual Agent topics during conversations.|
-|[Using the Business Location Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/using-blsp-portal.md)|Use the Business Location Service Portal \(BLSP\) available with the Customer Service Management \(CSM\) application as a one-stop shop to manage the internal and external organizations.|
+|[Using the Business Organization Support Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/using-blsp-portal.md)|Use the Business Location Service Portal \(BLSP\) available with the Customer Service Management \(CSM\) application as a one-stop shop to manage the internal and external organizations.|
 

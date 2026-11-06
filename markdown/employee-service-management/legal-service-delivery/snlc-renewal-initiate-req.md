@@ -43,15 +43,15 @@ A sample workflow while submitting a renewal request would be:
 
 1.  Navigate to the contract request form.
 
-<table id="choicetable_renewal-entry-points"><thead><tr><th align="left" id="d163396e138">
+<table id="choicetable_renewal-entry-points"><thead><tr><th align="left" id="d163390e138">
 
 Entry point
 
-</th><th align="left" id="d163396e141">
+</th><th align="left" id="d163390e141">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d163396e147">
+</th></tr></thead><tbody><tr><td id="d163390e147">
 
 **Employee Center \(sn\_cm\_core.contract\_user\)**
 
@@ -62,7 +62,7 @@ Navigation
 3.  Select **Contract Amendment and Renewal request**.
 
 
-</td></tr><tr><td id="d163396e194">
+</td></tr><tr><td id="d163390e194">
 
 **Legal Counsel Center landing page \(sn\_cm\_core.contract\_fulfiller\)**
 
@@ -73,7 +73,7 @@ Navigation
 3.  Select **Contract Amendment and Renewal**.
 
 
-</td></tr><tr><td id="d163396e233">
+</td></tr><tr><td id="d163390e233">
 
 **Legal Counsel Center listing page \(sn\_cm\_core.contract\_fulfiller\)**
 
@@ -91,15 +91,15 @@ Navigation
 
 3.  Enter the contract details.
 
-<table id="choicetable_gh2_3mg_rkc"><thead><tr><th align="left" id="d163396e306">
+<table id="choicetable_gh2_3mg_rkc"><thead><tr><th align="left" id="d163390e306">
 
 Option
 
-</th><th align="left" id="d163396e309">
+</th><th align="left" id="d163390e309">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d163396e315">
+</th></tr></thead><tbody><tr><td id="d163390e315">
 
 **Select an existing contract**
 
@@ -118,7 +118,7 @@ Steps
     -   If the required contract is not listed, choose **Enter contract details manually** and provide the contract and renewal details.
 
 
-</td></tr><tr><td id="d163396e366">
+</td></tr><tr><td id="d163390e366">
 
 **Enter contract details manually**
 
@@ -140,15 +140,15 @@ Steps
 
     -   For own paper renewals: Adding documents is optional. Attached documents are classified as supporting documents.
     -   For third-party paper renewals: Adding documents is required. You must classify the attached document.
-<table id="choicetable_eks_mwq_qkc"><thead><tr><th align="left" id="d163396e446">
+<table id="choicetable_eks_mwq_qkc"><thead><tr><th align="left" id="d163390e446">
 
 Method
 
-</th><th align="left" id="d163396e449">
+</th><th align="left" id="d163390e449">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d163396e455">
+</th></tr></thead><tbody><tr><td id="d163390e455">
 
 **Choose a file**
 
@@ -158,7 +158,7 @@ Actions
 2.  Select the files to attach and select **Open**.
 
 
-</td></tr><tr><td id="d163396e479">
+</td></tr><tr><td id="d163390e479">
 
 **Drag and drop**
 

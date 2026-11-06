@@ -7,7 +7,7 @@ release: australia
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 26
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
@@ -18,7 +18,7 @@ The Contact API provides endpoints that enable you to retrieve and update Custom
 
 In addition, you can generate new social media profile records when creating a contact.
 
-The Contact API requires the Customer Service plugin \(com.sn\_customerservice\) and is provided within the `now` namespace.
+The Contact API requires the Case Management Core plugin \(com.sn\_customerservice\) and is provided within the `now` namespace.
 
 Users need the csm\_ws\_integration role for full API access.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/capacity-management-components.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
 breadcrumb: [Components installed with additional plugins, Reference, Field Service Management]
 ---
@@ -27,7 +27,7 @@ Activation of Field Service Capacity and Reservations Management adds the Capaci
 
 ## Tables
 
-Capacity and Reservations Management adds the following tables.
+Capacity management adds the following tables.
 
 <table id="table_h1q_d3c_vmb"><thead><tr><th>
 
@@ -856,9 +856,6 @@ The Capacity and Reservations Management adds the following roles. To find them,
 |-----|-----------|
 |sn\_fsm\_capacity\_mg.wm\_capacity\_write|Allows CRUD access to all the capacity related tables|
 |sn\_fsm\_capacity\_mg.wm\_capacity\_read|Allows read access to all the capacity related tables and Capacity console workspace|
-
--   **[Capacity and Reservations Management components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/advanced-capacity-components.md)**  
-Several types of components are installed with the Advanced Capacity and Reservations Management feature, including tables, and script includes.
 
 **Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/components-inst-additional-plugin.md)
 

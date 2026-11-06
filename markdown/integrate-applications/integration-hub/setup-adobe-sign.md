@@ -140,10 +140,14 @@ Role required: admin
 
     \[Omitted image "adobe-sign-connection-template.png"\] Alt text: Configure a connection for the Adobe Sign spoke.
 
-6.  Click **Configure and Get OAuth Token**.
+6.  Click **Save and Get OAuth Token**.
 
     The spoke connection is configured.
 
+
+### Result
+
+The Adobe Sign spoke is set up and integrated with the ServiceNow instance.
 
 ## Configure Application Access to ServiceNow tables
 

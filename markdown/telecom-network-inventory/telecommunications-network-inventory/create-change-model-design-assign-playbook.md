@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure Design and Assign function, Configure, Telecommunications Network Inventory]
 ---
@@ -88,7 +88,9 @@ Option to enable this state as the initial state for your model. This field is a
 </td></tr></tbody>
 </table>7.  To save the state and return to the Change Model form, select **Submit**.
 
-8.  To add a transition between the states, select the display/hide hierarchical lists icon \(\[Omitted image "icon-display-hide-hierarchial.png"\] Alt text: Hide/display hierarchical Lists Icon\) for the model state that you want to apply the transition to.
+8.  Select the icon for the model state that you want to apply the transition to.
+
+    To add a transition between the states, select the display/hide hierarchical lists icon \(\[Omitted image "icon-display-hide-hierarchial.png"\] Alt text:\).
 
     The Model State Transitions context menu appears.
 

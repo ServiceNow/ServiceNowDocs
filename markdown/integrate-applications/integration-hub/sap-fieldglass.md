@@ -171,5 +171,5 @@ The SAP Fieldglass spoke adds the SAP Fieldglass Spoke application to your insta
 
 Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r-credentials.md).
 
-Two connection and credential aliases are available along with spoke; one record for supplier and another record for buyer. For information about setting up the spoke, see [Set up the SAP Fieldglass spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/fieldglass-setup.md).
+Two connection and credential aliases are available along with spoke; one record for supplier and another record for buyer. For information about setting up the spoke, see .
 

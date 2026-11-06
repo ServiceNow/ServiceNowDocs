@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
@@ -20,13 +20,13 @@ Identify the root cause of boot time issues and get resolutions such as remedial
 
 Role required: sn\_dex.user
 
-Enable ServiceNow Otto for DEX to access AI-generated boot time diagnostics.
+ServiceNow Otto for DEX must be enabled to access AI-generated boot time diagnostics.
 
 **Note:** This AI skill requires a minimum platform version of Zurich patch 7.
 
 ## About this task
 
-Using ServiceNow Otto for Boot Time, analyze comprehensive boot performance metrics to help you investigate and resolve device startup issues efficiently. This AI-powered capability provides automated insights into boot performance and identifies potential problems affecting device boot times.
+ServiceNow Otto for Boot Time analyzes boot performance metrics to help you investigate and resolve device startup issues. This AI-powered capability provides automated insights into boot performance and identifies potential problems affecting device boot times.
 
 Boot time represents the time a Windows device takes to start and get fully usable after a power-on or restart. The metric is captured from Windows event logs and recorded during a full or real boot. The boot time data is used to identify devices with slow or degraded boot performance and act to improve the end-user experience.
 
@@ -40,7 +40,7 @@ You can view boot time metrics in two locations: the **Insights** page and the *
 
 1.  Navigate to Service Operations Workspace and select **Devices** from the primary navigation pane.
 
-2.  From the device list, select the device that you want to investigate.
+2.  From the device list, select the device to investigate.
 
 3.  In the **Device health** section, select the **Boot time** tab.
 

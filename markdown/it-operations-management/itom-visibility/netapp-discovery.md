@@ -7,7 +7,7 @@ release: australia
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2026-03-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
 keywords: [NetApp, Server, Cluster, Patterns]
 breadcrumb: [Storage discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
@@ -918,7 +918,7 @@ Discovery populates the data in the CMDB when running the NetApp Cluster-Mode Pa
 |Description \[short\_description\]|The value is set to NetApp Storage Disk Shelf Chassis.|
 |Chassis \[chassis\]|References the Chassis \[cmdb\_ci\_chassis\] table.|
 
-**Note:** For more information on NetApp discovery with CIM, see [Storage Discovery via SMI-S and CIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/r_DataCollDiscoStorageviaSMISCIM.md).
+**Note:** For more information on NetApp discovery with CIM, see [Storage discovery via SMI-S and CIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/r_DataCollDiscoStorageviaSMISCIM.md).
 
 ## CI relationships and references
 

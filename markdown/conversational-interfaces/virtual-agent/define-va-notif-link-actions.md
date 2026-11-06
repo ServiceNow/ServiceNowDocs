@@ -7,8 +7,8 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Configuring Virtual Agent notifications, Configure, Virtual Agent, Conversational Interfaces]
 ---
 
@@ -19,10 +19,7 @@ Create the link actions for Virtual Agent notification content to be delivered i
 ## Before you begin
 
 -   Ensure that you have activated the Glide Virtual Agent plugin \(com.glide.cs.chatbot\).
-
-    **Note:** Only Virtual Agent Pro customers can associate actions with notification contents and receive actionable notifications.
-
--   Role required: virtual\_agent\_admin or admin.
+-   Role required: virtual\_agent\_admin or admin
 
 ## About this task
 
@@ -127,6 +124,4 @@ Actions listed in an event parameter.Users and actions cannot both be passed int
 ## What to do next
 
 Enable Virtual Agent notifications. For more information, see [Enable Virtual Agent notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/enable-va-notifications.md).
-
-**Parent Topic:**[Configuring Virtual Agent notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/configuring-va-notifications.md)
 

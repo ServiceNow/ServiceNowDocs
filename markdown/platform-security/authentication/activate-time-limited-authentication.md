@@ -1,26 +1,26 @@
 ---
 title: Activate time limited authentication
-description: Time limited authenication activates through the Integration - Multiple Provider Single Sign-On Installer plugin.
+description: Time limited authentication activates through the Integration - Multiple Provider Single Sign-On Installer plugin.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/activate-time-limited-authentication.html
 release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Time limited authentication, Token based authentication \(User logins\), Authentication, Access Management]
+breadcrumb: [Time limited authentication, Token based authentication \(user logins\), Authentication, Access Management]
 ---
 
 # Activate time limited authentication
 
-Time limited authenication activates through the Integration - Multiple Provider Single Sign-On Installer plugin.
+Time limited authentication activates through the Integration - Multiple Provider Single Sign-On Installer plugin.
 
 ## Before you begin
 
 Role required: admin
 
-**Note:** Time limited authentication is very specific to ServiceNow instance, the customized links for users can only be created within ServiceNow.
+**Note:** Time limited authentication is very specific to ServiceNow instance. The customized links for users can only be created within ServiceNow.
 
 ## Procedure
 

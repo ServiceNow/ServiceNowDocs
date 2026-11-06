@@ -7,7 +7,7 @@ release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Setting up GitHub OAuth 2.0 credentials for DevOps Change Velocity, GitHub, Integrate, DevOps Change Velocity, IT Service Management]
 ---

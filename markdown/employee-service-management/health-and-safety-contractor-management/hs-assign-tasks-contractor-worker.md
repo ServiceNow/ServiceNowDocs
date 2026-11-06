@@ -7,7 +7,7 @@ release: australia
 product: Health and Safety Contractor Management
 classification: health-and-safety-contractor-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage contractors, Health and Safety Contractor Management, Health and Safety, Employee Service Management]
 ---
@@ -26,15 +26,15 @@ Role required: sn\_hs\_crm.contractor\_coordinator
 
 2.  Open a contractor worker record to assign a task.
 
-<table id="choicetable_v4f_5dw_bdc"><thead><tr><th align="left" id="d73936e73">
+<table id="choicetable_v4f_5dw_bdc"><thead><tr><th align="left" id="d74306e73">
 
 Option
 
-</th><th align="left" id="d73936e76">
+</th><th align="left" id="d74306e76">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d73936e82">
+</th></tr></thead><tbody><tr><td id="d74306e82">
 
 **From a contractor company record**
 
@@ -46,7 +46,7 @@ Steps
 4.  In the **Workers** tab, select the worker from the list to assign a task to.
 
 
-</td></tr><tr><td id="d73936e127">
+</td></tr><tr><td id="d74306e127">
 
 **From Health and Safety user profile list**
 

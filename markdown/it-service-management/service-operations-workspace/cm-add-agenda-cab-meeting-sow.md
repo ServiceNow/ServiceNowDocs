@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a CAB meeting, Change Management in Service Operations Workspace, Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_change\_cab.cab\_manager
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Select the list icon \(\[Omitted image "sow-list.png"\] Alt text: List icon.\).
+2.  Select the list icon \(\[Omitted image "sow-list.png"\] Alt text:\).
 
 3.  In the **Change Advisory Board**, select **My upcoming CAB meetings**.
 
@@ -66,7 +66,7 @@ Order
 
 </td><td>
 
-Order in which agenda items will be reviewed during the CAB meeting.
+Order in which agenda items are reviewed during the CAB meeting.
 
 </td></tr><tr><td>
 
@@ -125,7 +125,7 @@ Elapsed time
 Time already spent on the agenda item during the meeting.
 
 </td></tr></tbody>
-</table>8.  Add relevant attachments to the agenda item by selecting the attachments icon \(\[Omitted image "attachment-icon.png"\] Alt text: Attachments icon.\) and uploading files.
+</table>8.  Add relevant attachments to the agenda item by selecting the attachments icon \(\[Omitted image "attachment-icon.png"\] Alt text:\) and uploading files.
 
 9.  Select **Save**.
 
@@ -133,9 +133,9 @@ Time already spent on the agenda item during the meeting.
 
 10. If the newly added agenda item doesn't display in the list, select **Refresh agenda items**.
 
-11. You can choose to send the meeting invite with updated agenda items to attendees by selecting **Yes** in the confirmation message box.
+11. Send the meeting invite with updated agenda items to attendees by selecting **Yes** in the confirmation message box.
 
-    Alternatively, you can send the meeting requests to attendees by selecting the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: More actions icon.\) and then selecting **Send meeting request to attendees**.
+    Alternatively, you can send the meeting requests to attendees by selecting the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text:\) and then selecting **Send meeting request to attendees**.
 
 
 **Parent Topic:**[Create a CAB meeting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/cm-create-cab-meeting-sow.md)

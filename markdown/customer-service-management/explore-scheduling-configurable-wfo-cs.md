@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/explore-scheduling-configurable-wfo-cs.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
@@ -56,8 +56,6 @@ As an agent, you can:
 -   Synchronize your team calendar and events with Microsoft Outlook.
 
 ## Example
-
-Understand how you can set up and publish agent schedules and how your agents can manage their own schedule based on an example.
 
 A manager for a large Customer Service operation is responsible for 12 teams. Each team has from 8 through 15 agents. At any given point, the manager needs visibility into the teams' schedule. The manager must also be able to create shifts, and approve or reject shift-swap or time-off requests from the team.
 

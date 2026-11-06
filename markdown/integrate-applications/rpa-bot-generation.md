@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/rpa-bot-generation.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Now Assist, generative AI]
 breadcrumb: [AI in RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]

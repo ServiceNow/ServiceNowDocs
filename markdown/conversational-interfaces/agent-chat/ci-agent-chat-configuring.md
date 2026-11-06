@@ -7,8 +7,8 @@ release: australia
 product: Agent Chat
 classification: agent-chat
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Agent Chat, Conversational Interfaces]
 ---
 
@@ -24,6 +24,8 @@ Configure Agent Chat to enable live agents to chat with customers and manage var
 Set up the Agent-Initiated Messaging Interface application to enable agents to send messages to customers through different messaging channels.
 -   **[Associating user profiles on messaging interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/associate-user-profiles-messaging-interactions.md)**  
 Use extension points to call custom scripts.
+-   **[Add Agent Chat to a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ac-configure-bot-portal.md)**  
+Give your users a place to interact with your bot and human agents. Choose a Service Portal chat configuration provided with your base system, such as the Service Portal Agent Chat configuration used for Agent Chat and Virtual Agent. Your end users can initiate and maintain a bot or Agent Chat conversation in any page of the portal.
 -   **[Controlling idle live chat sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ci-idle-chats.md)**  
 Configure how active chat sessions are handled by the system when live chats become idle.
 -   **[Controlling the browser experience for chat guest sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ac-anonymous-users.md)**  
@@ -32,12 +34,12 @@ Anonymous users \(unauthenticated guests\) can chat with support agents in the w
 Quick actions are shortcuts that perform Agent Chat tasks. Agents can work more efficiently with customers by using quick actions because they don't have to enter as many characters to perform a task.
 -   **[Sending missed chat activity emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ac-missed-activity-emails.md)**  
 Send email to users with summaries of chat messages sent to them while they were offline.
--   **[Configuring Sensitive Data Handler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ac-configure-sensitive-data-handling.md)**  
-Detect and mask sensitive information that is shared in Agent Chat or Virtual Agent conversations.
 -   **[Configuring Profanity Filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ac-configure-profanity-settings.md)**  
 Configure the Profanity Filter for Agent Chat to detect flagged words in the manner that best suits your company's needs.
 -   **[Configuring Dynamic Translation for Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/configure-dtac.md)**  
 Activate Dynamic Translation for Agent Chat \(DTAC\) so chat conversations can be translated from one language to another.
 -   **[Setting up conversation history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ac-configure-conversation-history.md)**  
 Enable and customize the conversation history options that are available on the conversation history screen.
+-   **[Disable live agent support for a channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/disable-live-agent-support-channel.md)**  
+Add the **disable\_live\_agent** property to the Channel Properties related list to exclude it from live agent support.
 

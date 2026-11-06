@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/retrieve-vr-data.html
 release: australia
 topic_type: task
-last_updated: "2026-07-29"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Use, Unified Security Exposure Management, Security Operations]
 ---
 
@@ -111,8 +111,6 @@ The Security Exposure Management Workspace is supported by Unified Security Expo
     -   Be sure to check the answers for accuracy.
 5.  Enter follow up questions as needed.
 
-    See [Sample queries for the Retrieve Vulnerability Response data agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/now-assist-vr-retrieve-qbank.md) for a list of sample questions to help you get started.
+    See  for a list of sample questions to help you get started.
 
-
-**Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/using-unified-security-exposure-management.md)
 

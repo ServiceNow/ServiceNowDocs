@@ -7,7 +7,7 @@ release: australia
 product: Web Services
 classification: web-services
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Scripting outbound SOAP, SOAP, Outbound, Web services, API implementation, API implementation and reference]
 ---
@@ -18,7 +18,7 @@ Generate a sample script to send the SOAP message.
 
 After you have developed and tested the SOAP message, click the **Preview script usage** related link in the SOAP Message Function form. The dialog box displays an example of how you can invoke the SOAP message from a script.
 
-You can manipulate the resulting XML response body with [XMLDocument](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_XMLDocumentScriptObject.md) or with [gs.getXMLText](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/p_GlideServerAPIs.md) and [gs.getXMLNodeList](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/p_GlideServerAPIs.md).
+You can manipulate the resulting XML response body with [XMLDocument](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_XMLDocumentScriptObject.md) or with [GlideSystem - getXMLText\(String xml, String xpathQuery\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideSystemAPI.md) and [GlideSystem - getXMLNodeList\(String xml\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideSystemAPI.md).
 
 **Parent Topic:**[Scripting outbound SOAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/r_ScriptingOutboundSOAP.md)
 

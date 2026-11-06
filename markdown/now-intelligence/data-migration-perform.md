@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/data-migration-perform.html
 release: australia
 topic_type: task
-last_updated: "2026-03-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Platform Analytics Migration Center, Platform Analytics experience, Platform Analytics]
 ---
@@ -20,7 +20,7 @@ Role required: To perform the full migration and activate Platform Analytics exp
 
 ## About this task
 
-This topic assumes that your instance is not a net new Xanadu, Yokohama, Zurich or Australia instance. The Migration Center is only available on upgrading instances.
+This topic assumes that your instance is not a net new Xanadu, Yokohama, Zurich or Brazil instance. The Migration Center is only available on upgrading instances.
 
 Run and test the migration on a single, non-production instance. After you’re satisfied with the results of a full test migration, launch the migration on the production instance. Select **Try your content** to test the output on a limited number of dashboards.
 

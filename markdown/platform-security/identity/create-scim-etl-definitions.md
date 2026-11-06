@@ -7,7 +7,7 @@ release: australia
 product: Identity
 classification: identity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [SCIM customization, SCIM Provider, System for Cross-domain Identity Management \(SCIM\), Identity]
 ---
@@ -33,7 +33,7 @@ Role required: scim\_config\_admin
 
 2.  Open the newly created record and view the details.
 
-3.  In the ETL Entities section, create an entity by clicking **New**.
+3.  In the ETL Entities section, create an entity by selecting **New**.
 
     You have to create entities for the following users:
 
@@ -48,10 +48,10 @@ Role required: scim\_config\_admin
         |Table|Target table for the ETL entity.|
         |Definition|Selected ETL entity.|
         |Path|Unique path for this entity. Do not specify any path for the entity representing the import set table. When an entity represents a collection, the path must end with an asterisk \[\*\]. This requirement applies to intermediate entries and the target table entity.|
-        |Synchronize Inserts|Option to guarantee only one record with unique coalesced field values by synchronizing record inserts.|
+        |Synchronize Inserts|Option to keep only one record with unique coalesced field values by synchronizing record inserts.|
         |Run business rules|Option to run business rules.|
 
-    2.  Click **Submit**.
+    2.  Select **Submit**.
 
         The ETL entities are created for scim-user and user tables. You have to create ETL entity fields within these ETL entities, and map both entities by creating an RTE Entity Mapping.
 
@@ -61,7 +61,7 @@ Role required: scim\_config\_admin
 
     1.  Open the submitted record \(scim-user and user\).
 
-    2.  In the ETL Entity fields, add the fields by clicking **New**.
+    2.  In the ETL Entity fields, add the fields by selecting **New**.
 
     3.  On the form, fill in the fields.
 
@@ -137,7 +137,7 @@ Option to query the existing records.
 </td></tr></tbody>
 </table>        \[Omitted image "etl-entity-field.png"\] Alt text: ETL Entity field
 
-    4.  Submit the entries by clicking **Submit**.
+    4.  Submit the entries by selecting **Submit**.
 
         You can add multiple entries as your ETL Entity field based on your requirement.
 
@@ -153,9 +153,9 @@ Option to query the existing records.
 
         After the fields are created in both the scim-user and user ETL Entity records, you have to create an RTE Entity mapping record. You must then specify the source and target definition to map both the fields.
 
-5.  In the RTE Entity Mappings section, create an entity mapping by clicking **New**
+5.  In the RTE Entity Mappings section, create an entity mapping by selecting **New**
 
-6.  On the form, fill the fields.
+6.  On the form, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
@@ -171,7 +171,7 @@ Option to query the existing records.
 
     \[Omitted image "etl-definitions-rte.png"\] Alt text: RTE Entity Mapping
 
-7.  Click **Submit**.
+7.  Select **Submit**.
 
     The following example shows a record created for mapping both the scim-user and user ETL Entity records.
 
@@ -179,7 +179,7 @@ Option to query the existing records.
 
 8.  Open the submitted record \(scim-user-mappings\) and create a mapping between the scim-user and user ETL Entity records.
 
-    1.  In the RTE Field Mappings section, click **New**.
+    1.  In the RTE Field Mappings section, select **New**.
 
     2.  On the form, fill in the fields.
 
@@ -197,13 +197,13 @@ Option to query the existing records.
 
         The source field **Home Address - Country** \(scim-user ETL Entity\) maps the target field as **Country** \(user ETL Entity\).
 
-    3.  Submit the entries by clicking **Submit**.
+    3.  Submit the entries by selecting **Submit**.
 
         You can add multiple entries as your RTE Entity mappings based on your requirement.
 
         \[Omitted image "rte-mappings.png"\] Alt text: RTE Entity Mappings
 
-        The source fields and targets fields are mapped as configured. When you perform CRUD operations using SCIM, the customized values are updated in the respective table.
+        The source fields and target fields are mapped as configured. When you perform CRUD operations using SCIM, the customized values are updated in the respective table.
 
 
 ## Result

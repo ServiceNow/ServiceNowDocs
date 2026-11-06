@@ -7,8 +7,8 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
-last_updated: "2026-05-04"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 keywords: [Health Log Analytics, HLA, OpenTelemetry, OTel, MID-less log streaming, integration, ITOM Gateway, JSON Web Token \(JWT\)]
 breadcrumb: [Set up integrations from Integrations Launchpad, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -73,6 +73,19 @@ Before choosing a MID-less integration, review the following:
 ## MID-less integration setup from an MCP Client
 
 Set up MID-less integrations for HLA from an AI-enabled MCP Client without opening the ServiceNow UI. This capability requires the ITOM MCP Server Console to be active on your instance. In addition, your MCP Client must be connected to the ITOM MCP Server Console with valid OAuth credentials. For more information, see [MID-less log ingestion for HLA from an MCP Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-mcp-server-hla-ingest.md).
+
+-   **[MID-less log streaming via ITOM Gateway in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-midless-streaming.md)**  
+Health Log Analytics \(HLA\) can receive log data from external sources directly through the ITOM Gateway, without routing data through a MID Server. This architecture supports cloud-native log sources such as Amazon Data Firehose, Cribl, and OpenTelemetry, and is required for high-volume HLA deployments.
+-   **[Set up an Amazon Data Firehose integration for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/il-connector-hla-firehose.md)**  
+Set up an integration to stream log data from Amazon Data Firehose directly to the ServiceNow datacenter, where it’s queued for Health Log Analytics processing. There’s no need to store AWS keys on your ServiceNow instance.
+-   **[Set up a Cribl Stream \(MID-less\) integration for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/il-connector-hla-cribl-stream.md)**  
+Set up a Cribl Stream integration to stream Cribl log data directly to your ServiceNow instance, without a MID Server.
+-   **[Set up a Microsoft Azure Event Hubs \(MID-less\) integration for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/il-connector-hla-eventhubs-midless.md)**  
+Set up an integration for streaming events from Microsoft Azure Event Hubs to your ServiceNow instance without a MID Server.
+-   **[Set up an OpenTelemetry Collector integration for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/il-connector-hla-otel-collector.md)**  
+Set up an OpenTelemetry Collector integration to stream log data directly to your ServiceNow instance using the OpenTelemetry \(OTLP\) protocol, without a MID Server.
+-   **[Set up a Splunk OpenTelemetry Collector \(MID-less\) integration for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/il-connector-hla-splunk-otel.md)**  
+Set up a Splunk OpenTelemetry Collector integration to stream Splunk log data directly to your ServiceNow instance using the OpenTelemetry \(OTLP\) protocol, without a MID Server.
 
 **Parent Topic:**[Set up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-implement.md)
 

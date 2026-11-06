@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-10-05"
 reading_time_minutes: 4
 keywords: [regulatory risk classification, automated risk classification, risk ratings, AI Risk and Compliance]
-breadcrumb: [Reference, Managing risk and compliance, Govern AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Reference, Managing risk and compliance, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Regulatory risk classification reference

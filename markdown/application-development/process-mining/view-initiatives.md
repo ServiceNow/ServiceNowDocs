@@ -1,0 +1,41 @@
+---
+title: View the initiatives list
+description: View a list of improvement initiatives created for or associated with a process project.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/process-mining/view-initiatives.html
+release: australia
+product: Process Mining
+classification: process-mining
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Creating and tracking improvement initiatives, Use, Process Mining, Discover, AI Workflow Factory Prime, Agentic app development, Building applications]
+---
+
+# View the initiatives list
+
+View a list of improvement initiatives created for or associated with a process project.
+
+## Before you begin
+
+Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, or sn\_process\_mining\_admin
+
+## Procedure
+
+1.  Open the project view.
+
+2.  Select the Initiatives icon \(\[Omitted image "improve-initiative-icon.png"\] Alt text: Initiatives icon\) in the Notes and initiatives panel.
+
+    The initiatives list displays, showing the CIM ID, short description, creation details, and current state for each initiative. You can:
+
+    -   Select whether to show:
+        -   Current Model Initiatives - Shows initiatives created on the process you're currently viewing.
+        -   Main Model Initiatives - From a linked process, shows initiatives created on the main process.
+        -   All Linked Initiatives - Shows all initiatives created on the main and all linked processes.
+    -   Optionally sort the list in ascending or descending order by Created On, Created By, or State.
+    -   Search for a specific initiative by entering into the search field a minimum of three subsequent characters in the short description or CIM number.
+3.  Select the context menu of an initiative to see further details, edit, or remove it.
+
+
+**Parent Topic:**[Creating and tracking improvement initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/process-mining/initiatives-from-process-optimization.md)
+

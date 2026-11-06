@@ -1,20 +1,20 @@
 ---
 title: Copy a KPI group to create a new KPI group in Digital Portfolio Management
-description: Create a new key performance indicator \(KPI\) group by copying an existing KPI group in Digital Portfolio Management \(DPM\). All the KPI records, supporting KPIs, and mappings of the KPI group are copied as well. After you copy the KPI group, you can modify all aspects of it so the new group best fits your needs.
+description: Create a key performance indicator \(KPI\) group by copying an existing KPI group in Digital Portfolio Management \(DPM\). All the KPI records, supporting KPIs, and mappings of the KPI group are copied as well. After you copy the KPI group, you can modify all aspects of it so the new group best fits your needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/digital-portfolio-management/dpm-copy-kpi-group.html
 release: australia
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure KPI groups, Configure, Digital Portfolio Management, IT Service Management]
 ---
 
 # Copy a KPI group to create a new KPI group in Digital Portfolio Management
 
-Create a new key performance indicator \(KPI\) group by copying an existing KPI group in Digital Portfolio Management \(DPM\). All the KPI records, supporting KPIs, and mappings of the KPI group are copied as well. After you copy the KPI group, you can modify all aspects of it so the new group best fits your needs.
+Create a key performance indicator \(KPI\) group by copying an existing KPI group in Digital Portfolio Management \(DPM\). All the KPI records, supporting KPIs, and mappings of the KPI group are copied as well. After you copy the KPI group, you can modify all aspects of it so the new group best fits your needs.
 
 ## Before you begin
 
@@ -36,7 +36,7 @@ This procedure uses the KPI groups **Copy** button. To see the **Copy** button o
 
 4.  Return to the KPI group list to find the copied KPI group.
 
-    The copied KPI group name is the same as the one that you copied with **Copy of** in the front of the name.
+    The copied KPI group name is the same as the one that you copied with **Copy of** at the front of the name.
 
 5.  Open the copied KPI group.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/tables-now-assist-explorer.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [roles, tables, permissions, explorations, AI canvas, notebook, now assist explorer, semantic data layer, workspaces, metadata]
 audience: administrator

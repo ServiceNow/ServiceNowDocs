@@ -20,6 +20,10 @@ You can add an agenda item to your CAB meeting to customize the agenda and make 
 
 Role required: admin
 
+## About this task
+
+The **Agenda Items** related list connects a change request \(RFC\) to the CAB meetings where the change is reviewed. Each agenda item record uses the fields described in the **CAB Agenda Item form** table.
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Change** &gt; **Change Advisory Board** &gt; **All CAB Meetings**.
@@ -29,6 +33,8 @@ Role required: admin
 2.  Select the CAB meeting record that you want to add an agenda item to.
 
 3.  In the **Agenda Items** related list, select **New**.
+
+    The **Agenda Items** related list is on the CAB meeting record.
 
     **Note:** If the **New** button does not appear on the **Agenda Items** related list, confirm that you have a required role and that the CAB meeting is in a state that allows adding agenda items.
 
@@ -56,7 +62,7 @@ Task
 
 </td><td>
 
-Lookup list to select the change request or standard change proposal.**Note:** The standard change proposal is available for selection only from Australia .
+Lookup list to select the change request or standard change proposal.**Note:** The standard change proposal is available for selection only from Brazil.
 
 </td></tr><tr><td>
 
@@ -64,7 +70,7 @@ Order
 
 </td><td>
 
-Order that the agenda items will be reviewed during the CAB meeting.
+Order that the agenda items are reviewed during the CAB meeting.
 
 </td></tr><tr><td>
 

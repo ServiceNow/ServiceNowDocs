@@ -7,7 +7,7 @@ release: australia
 product: Communities
 classification: communities
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Gamification components, Gamification, Using communities, Communities, Customer Service Management]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [Gamification components, Gamification, Using communities, Communiti
 # Points
 
 Users earn gamification points by performing activities in the community.
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Users can earn points within a community, a forum, or a topic. As users accrue points, they achieve level ranges. Point totals appear on leaderboards and on user profiles, in the profile header, and in the Achievement tab. After points are awarded to a user, an entry appears at the top of the Points list and the user's point total is updated.
 

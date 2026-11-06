@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/create-definition-store-apps.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Custom licensing for ISV applications, Application sharing, Administer your apps, Deploying applications, Building applications]
+breadcrumb: [Custom licensing for ISV applications, Application sharing, Administer your apps, Deploying applications, Classic app development, Building applications]
 ---
 
 # Create a definition for your store application

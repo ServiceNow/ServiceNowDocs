@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/formula-building-at-metric-definition-and-entity-level.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -45,8 +45,6 @@ Specify the formula context, the tables, and the identifiers before you can buil
 Directly import any formula that is stored in Microsoft Excel spreadsheets into a calculated metric definition. This import helps in quickly building your formula for performing calculations.
 -   **[Create a formula](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/create-a-formula.md)**  
 Build your own formula using either entities or metric definitions.
--   **[Configure a metric definition setting record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/activate-default-values-for-cmd-calculations.md)**  
-Configure a metric definition setting record to define default values for missing operands in calculated metric definition formulas, or to set a variance base value used when calculating dynamic threshold variance. Activate the default record, or create a new record for a specific metric, metric definition, calculated metric definition, or for all of them.
 -   **[Edit a calculated metric definition formula](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/edit-a-calculated-metric-definition-formula.md)**  
 Edit a formula in a calculated metric definition to update the calculation logic or apply changes to historical data.
 

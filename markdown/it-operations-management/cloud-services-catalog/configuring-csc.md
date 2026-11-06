@@ -7,7 +7,7 @@ release: australia
 product: Cloud Services Catalog
 classification: cloud-services-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -49,7 +49,7 @@ You can install the Cloud Services Catalog application purchased from the Servic
 -   **[Cloud Services Catalog setup for the Day 1 configuration task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-services-catalog/setting-up-cloud-services.md)**  
 You're ready to do the Day 1 configuration task of setting up the Cloud Services Catalog application for the first time. You can do the optional Day 2 setup and configure procedures as needed, in any order.
 -   **[Integrating Azure DevOps and the CI-CD pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-services-catalog/integrating-azure-devops-and-cicd-pipeline.md)**  
-You can process the release request from the Cloud Services Catalog workflow with Azure DevOps for end-to-end automation of the development process, including provisioning the resources, and deploying and monitoring the applications.
+You can process the release request from the Cloud Services Catalog workflow with Azure DevOps for end-to-end automation of the development process. This includes provisioning the resources, and deploying and monitoring the applications.
 -   **[Integrating Ansible with Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-services-catalog/integrating-ansible-with-cloud-services-catalog.md)**  
 Integrate Ansible with Cloud Services Catalog as a Day 1 activity. With this activity, you can deploy an Ansible job template via a ServiceNow catalog item.
 -   **[Cloud Services Catalog administration guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-services-catalog/cloud-services-catalog-administration-guide.md)**  

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configuring-lead-opportunity-mgt.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Sales Customer Relationship Management]
 ---

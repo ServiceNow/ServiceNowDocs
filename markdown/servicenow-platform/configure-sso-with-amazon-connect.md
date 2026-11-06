@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/configure-sso-with-amazon-connect.html
 release: australia
 topic_type: task
-last_updated: "2026-05-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Amazon Connect SSO, single sign-on, SAML, SSO Login URL]
 breadcrumb: [Amazon Connect SSO integration with ServiceNow, Integrate ServiceNow Voice with Amazon Connect, Integrating Voice with other applications, ServiceNow Voice, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]

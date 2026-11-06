@@ -1,5 +1,5 @@
 ---
-title: NLU Workbench roles
+title: \(Legacy\) NLU Workbench roles
 description: NLU Workbench is installed with these roles.Users who have read access to models in NLU Workbench.Users who can edit NLU models assigned to them in NLU Workbench.Users who can use NLU Workbench to manage NLU models.Data labelling \(NLU feedback\) Admin role - to manage data labelling across models also ability to optimize models.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nlu-service/natural-language-understanding-roles.html
@@ -7,12 +7,12 @@ release: australia
 product: NLU Service
 classification: nlu-service
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring Natural Language Understanding, Natural Language Understanding, Enable AI experiences]
+breadcrumb: [\(Legacy\) Exploring Natural Language Understanding, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# NLU Workbench roles
+# \(Legacy\) NLU Workbench roles
 
 NLU Workbench is installed with these roles.
 
@@ -112,7 +112,7 @@ None.
 
 **Important:** Avoid granting an admin role when more specialized roles are available.
 
-This role is installed with NLU Workbench - Advanced Features. For more information, see [NLU Workbench - Advanced Features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/nlu-workbench-advanced-features.md).
+This role is installed with NLU Workbench - Advanced Features. For more information, see [\(Legacy\) NLU Workbench - Advanced Features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/nlu-workbench-advanced-features.md).
 
-This role is used in Expert Feedback Loop modules. For more information, see [NLU Expert Feedback Loop](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/nlu-expert-feedback-loop.md) or [Issue Auto Resolution Tuning in NLU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/issue-auto-resolution-tuning-nlu.md).
+This role is used in Expert Feedback Loop modules. For more information, see [\(Legacy\) NLU Expert Feedback Loop](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/nlu-expert-feedback-loop.md) or [\(Legacy\) Issue Auto Resolution Tuning in NLU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/issue-auto-resolution-tuning-nlu.md).
 

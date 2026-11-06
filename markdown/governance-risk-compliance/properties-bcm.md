@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/properties-bcm.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [General administration setup for BCM, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -270,13 +270,29 @@ Tables referenced by the system to fetch child records when analyzing CMDB asset
 
 </td><td>
 
-Default limit for IRM GlideRecord getter. \[sn\_irm\_shared\_cmn.config.get\_gliderecord\_limit\]
+Default limit for IRM GlideRecord getter. This limit also caps the number of records processed by the Update BIA dependencies snapshot and Update BCP dependencies snapshot scheduled jobs. \[sn\_irm\_shared\_cmn.config.get\_gliderecord\_limit\]
 
 </td><td>
 
 -   Scope: GRC: Risk Shared Common Components
 -   Type: Integer
 -   Default value: 1000
+
+</td></tr><tr><td>
+
+19
+
+</td><td>
+
+Maximum number of levels allowed in a recovery team hierarchy\[sn\_bcm.recovery\_team.max\_hierarchy\_levels\]
+
+</td><td>
+
+-   Scope: GRC: Business Continuity Management - Core
+-   Type: Integer
+-   Default value: 10
+
+ **Note:** Set this property to 0 or leave it blank to disable the hierarchy depth limit. Role required to modify: sn\_bcm.core\_manager.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[General administration setup for BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/set-up-bcm-bcmadmin-tasks.md)

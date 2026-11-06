@@ -7,7 +7,7 @@ release: australia
 product: Audit Management
 classification: audit-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
@@ -44,5 +44,5 @@ When you create an audit plan with advanced planning capabilities and add engage
 After you add engagements to an audit plan, you also have the flexibility to change the parent plan of the engagements. It is important to note the following points:
 
 -   Engagements can be either added or removed from a plan only when the plan is in **Draft**, **Awaiting Approval**, and **Approved** states.
--   The parent plan can only be changed on an engagement when the engagement is in **Scope**, **Validate** and, **Fieldwork** states.
+-   The parent plan can only be changed on an engagement when the engagement is in **Scope**, **Validate**, and **Fieldwork** states.
 

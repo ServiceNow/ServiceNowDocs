@@ -7,10 +7,10 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [contract metadata and obligation extraction in SAM workspace, Initiate contract extraction, initiate contract metadata extraction in SAM workspace, initiate obligation extraction in SAM workspace]
-breadcrumb: [Use manage contract repository agentic workflow, Use SAM Workspace, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Use manage contract repository agentic workflow, Using Software Asset Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Initiate metadata and obligation extraction from a signed contract in the Software Asset Workspace
@@ -51,16 +51,16 @@ Use the Manage contract repository agentic workflow to extract metadata and key 
 
 9.  Select **Initiate contract extraction** and select one of these options in the confirmation message:
 
-    -   To mark your confirmation and proceed with extraction from signed contract, select **OK**.
-    -   To dismiss the extraction from signed contract, select **Cancel**.
-    After you confirm and proceed with extraction, a confirmation message appears indicating extraction initiated for the signed contract.
+    -   To mark your confirmation and proceed with metadata extraction from signed contract, select **OK**.
+    -   To dismiss the metadata extraction from signed contract, select **Cancel**.
+    After you confirm and proceed with metadata extraction, a confirmation message appears indicating metadata extraction initiated for the signed contract.
 
-    After extraction is completed, a confirmation message appears on the contract form and **Playbook** tab is displayed.
+    After metadata extraction is completed, a confirmation message appears on the contract form and **Playbook** tab is displayed.
 
 
 ## Result
 
-After extraction is completed, a confirmation message appears on the contract form and **Playbook** tab is displayed.
+After metadata extraction is completed, a confirmation message appears on the contract form and **Playbook** tab is displayed.
 
 ## What to do next
 

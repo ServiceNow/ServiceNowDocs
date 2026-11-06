@@ -8,7 +8,7 @@ product: User Administration
 classification: user-administration
 topic_type: reference
 last_updated: "2024-03-11"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Managing roles, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -26,7 +26,7 @@ Roles
 
 </th></tr></thead><tbody><tr><td>
 
-[AWA](https://www.servicenow.com/docs/access?context=roles_awa&version=australia&pubname=australia-roles-by-product&ft:locale=en-US)
+[AWA](https://www.servicenow.com/docs/access?context=roles_awa&version=brazil&pubname=brazil-roles-by-product&ft:locale=en-US)
 
 </td><td>
 
@@ -40,7 +40,7 @@ AWA manager \[awa\_manager\]
 
 </td></tr><tr><td>
 
-[Customer Service Management](https://www.servicenow.com/docs/access?context=roles_customerservicemanagement&version=australia&pubname=australia-roles-by-product&ft:locale=en-US)
+[Customer Service Management](https://www.servicenow.com/docs/access?context=roles_customerservicemanagement&version=brazil&pubname=brazil-roles-by-product&ft:locale=en-US)
 
 </td><td>
 
@@ -80,7 +80,7 @@ Recipients list user \[sn\_publications\_recipients\_list\_user\]
 
 </td></tr><tr><td>
 
-[Data Management](https://www.servicenow.com/docs/access?context=roles_datamanagement&version=australia&pubname=australia-roles-by-product&ft:locale=en-US)
+[Data Management](https://www.servicenow.com/docs/access?context=roles_datamanagement&version=brazil&pubname=brazil-roles-by-product&ft:locale=en-US)
 
 </td><td>
 
@@ -88,23 +88,7 @@ Data Management tools admin \[data\_mgt\_tools\_admin\]
 
 </td></tr><tr><td>
 
-[Document Intelligence](https://www.servicenow.com/docs/access?context=roles_documentintelligence&version=australia&pubname=australia-roles-by-product&ft:locale=en-US)
-
-</td><td>
-
-DocIntel Admin \[sn\_docintel.admin\]
-
-DocIntel Viewer \[sn\_docintel.viewer\]
-
-DocIntel Extraction Agent \[sn\_docintel.extraction\_agent\]
-
-DocIntel Creation Agent \[sn\_docintel.creation\_agent\]
-
-DocIntel Manager \[sn\_docintel.manager\]
-
-</td></tr><tr><td>
-
-[Document Services](https://www.servicenow.com/docs/access?context=roles_documentservices&version=australia&pubname=australia-roles-by-product&ft:locale=en-US)
+[Document Services](https://www.servicenow.com/docs/access?context=roles_documentservices&version=brazil&pubname=brazil-roles-by-product&ft:locale=en-US)
 
 </td><td>
 
@@ -112,7 +96,7 @@ Administrator \[platform\_document\_management\_admin\]
 
 </td></tr><tr><td>
 
-[Hermes Messaging Service](https://www.servicenow.com/docs/access?context=roles_hermesmessagingservice&version=australia&pubname=australia-roles-by-product&ft:locale=en-US)
+[Hermes Messaging Service](https://www.servicenow.com/docs/access?context=roles_hermesmessagingservice&version=brazil&pubname=brazil-roles-by-product&ft:locale=en-US)
 
 </td><td>
 
@@ -124,7 +108,7 @@ Kafka namespace administrator \[kafka\_namespace\_admin\]
 
 </td></tr><tr><td>
 
-[IDR](https://www.servicenow.com/docs/access?context=roles_idr&version=australia&pubname=australia-roles-by-product&ft:locale=en-US)
+[IDR](https://www.servicenow.com/docs/access?context=roles_idr&version=brazil&pubname=brazil-roles-by-product&ft:locale=en-US)
 
 </td><td>
 
@@ -136,7 +120,7 @@ IDR rest \[idr\_rest\]
 
 </td></tr><tr><td>
 
-[Knowledge Management](https://www.servicenow.com/docs/access?context=roles_knowledgemanagement&version=australia&pubname=australia-roles-by-product&ft:locale=en-US)
+[Knowledge Management](https://www.servicenow.com/docs/access?context=roles_knowledgemanagement&version=brazil&pubname=brazil-roles-by-product&ft:locale=en-US)
 
 </td><td>
 
@@ -162,7 +146,7 @@ KCS publisher \[kcs\_publisher\]
 
 </td></tr><tr><td>
 
-[MetricBase](https://www.servicenow.com/docs/access?context=roles_metricbase&version=australia&pubname=australia-roles-by-product&ft:locale=en-US)
+[MetricBase](https://www.servicenow.com/docs/access?context=roles_metricbase&version=brazil&pubname=brazil-roles-by-product&ft:locale=en-US)
 
 </td><td>
 
@@ -178,7 +162,7 @@ MetricBase REST put \[clotho\_rest\_put\]
 
 </td></tr><tr><td>
 
-[Predictive Intelligence](https://www.servicenow.com/docs/access?context=roles_predictiveintelligence&version=australia&pubname=australia-roles-by-product&ft:locale=en-US)
+[Predictive Intelligence](https://www.servicenow.com/docs/access?context=roles_predictiveintelligence&version=brazil&pubname=brazil-roles-by-product&ft:locale=en-US)
 
 </td><td>
 
@@ -190,7 +174,7 @@ ML Report User \[ml\_report\_user\]
 
 </td></tr><tr><td>
 
-[Reporting](https://www.servicenow.com/docs/access?context=roles_reporting&version=australia&pubname=australia-roles-by-product&ft:locale=en-US)
+[Reporting](https://www.servicenow.com/docs/access?context=roles_reporting&version=brazil&pubname=brazil-roles-by-product&ft:locale=en-US)
 
 </td><td>
 
@@ -208,7 +192,7 @@ Report description administrator \[report\_description\_admin\]
 
 </td></tr><tr><td>
 
-[Service Catalog](https://www.servicenow.com/docs/access?context=roles_servicecatalog&version=australia&pubname=australia-roles-by-product&ft:locale=en-US)
+[Service Catalog](https://www.servicenow.com/docs/access?context=roles_servicecatalog&version=brazil&pubname=brazil-roles-by-product&ft:locale=en-US)
 
 </td><td>
 
@@ -224,7 +208,7 @@ Catalog builder editor \[catalog\_builder\_editor\]
 
 </td></tr><tr><td>
 
-[Service Portal](https://www.servicenow.com/docs/access?context=roles_serviceportal&version=australia&pubname=australia-roles-by-product&ft:locale=en-US)
+[Service Portal](https://www.servicenow.com/docs/access?context=roles_serviceportal&version=brazil&pubname=brazil-roles-by-product&ft:locale=en-US)
 
 </td><td>
 
@@ -238,7 +222,7 @@ Portal analytics viewer \[portal\_analytics\_viewer\]
 
 </td></tr><tr><td>
 
-[Task Intelligence](https://www.servicenow.com/docs/access?context=roles_taskintelligence&version=australia&pubname=australia-roles-by-product&ft:locale=en-US)
+[Task Intelligence](https://www.servicenow.com/docs/access?context=roles_taskintelligence&version=brazil&pubname=brazil-roles-by-product&ft:locale=en-US)
 
 </td><td>
 
@@ -250,61 +234,41 @@ Task Intelligence Analyst \[tia\_analyst\]
 
 </td></tr><tr><td>
 
-[Virtual Agent](https://www.servicenow.com/docs/access?context=roles_virtualagent&version=australia&pubname=australia-roles-by-product&ft:locale=en-US)
+[Virtual Agent](https://www.servicenow.com/docs/access?context=roles_virtualagent&version=brazil&pubname=brazil-roles-by-product&ft:locale=en-US)
 
 </td><td>
 
 ServiceNow Otto for Creator \[now.assist.creator\]
 
-Issue auto resolution administrator \[iar\_admin\]
+\(Legacy\) Localization requestor \[localization\_requestor\]
 
-Chat survey administrator \[chat\_survey\_admin\]
+\(Legacy\) Localization fulfiller \[localization\_fulfiller\]
 
-Workflow Studio \[action\_designer\]
+\(Legacy\) Localization editor \[localization\_editor\]
 
-EVAM administrator \[evam\_admin\]
+\(Legacy\) Virtual Agent admin \[virtual\_agent\_admin\]
 
-Virtual Agent branding \[va\_branding\]
+\(Legacy\) Virtual Agent administrator \[virtual\_agent\_admin\]
 
-Activity subscriptions administrator \[actsub\_admin\]
+\(Legacy\) Chat analytics administrator \[chat\_analytics\_admin\]
 
-Flow designer \[flow\_designer\]
+\(Legacy\) UI builder administrator \[ui\_builder\_admin\]
+
+\(Legacy\) Chat analytics viewer \[chat\_analytics\_viewer\]
 
 Automated testing framework designer \[atf\_test\_designer\]
 
-NLU Administrator \[nlu\_admin\]
+Chat analytics administrator \[chat\_analytics\_admin\]
 
-External application installation administrator \[external\_app\_install\_admin\]
-
-Automated Customer Experiences \(ACE\) user \[sn\_ace.ace\_user\]
+Chat survey administrator \[chat\_survey\_admin\]
 
 Conversational Interfaces guided setup administrator \[sn\_ci\_gs\_content.ci\_guided\_setup\_admin\]
 
-Localization requestor \[localization\_requestor\]
-
-Self-service manager \[sn\_ssa\_core.self\_service\_manager\]
-
-Image administrator \[image\_admin\]
-
-Search application administrator \[search\_application\_admin\]
-
-Chat analytics administrator \[chat\_analytics\_admin\]
+Issue auto resolution administrator \[iar\_admin\]
 
 Localization requestor \[localization\_requestor\]
 
-Localization fulfiller \[localization\_fulfiller\]
-
-Localization editor \[localization\_editor\]
-
-Virtual Agent admin \[virtual\_agent\_admin\]
-
-Virtual Agent administrator \[virtual\_agent\_admin\]
-
-Chat analytics administrator \[chat\_analytics\_admin\]
-
-UI builder administrator \[ui\_builder\_admin\]
-
-Chat analytics viewer \[chat\_analytics\_viewer\]
+NLU administrator \[nlu\_admin\]
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/user-administration/ua-creating-roles.md)

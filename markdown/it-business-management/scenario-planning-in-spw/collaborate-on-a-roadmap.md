@@ -7,7 +7,7 @@ release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a free-form roadmap, Plan roadmaps, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -32,15 +32,15 @@ Using the Comments side panel, add attachments or notes at the roadmap-level or 
 
 3.  Select the appropriate tab at the roadmap-level or planning item-level.
 
-<table id="choicetable_vbs_zrn_hvb"><thead><tr><th align="left" id="d228148e93">
+<table id="choicetable_vbs_zrn_hvb"><thead><tr><th align="left" id="d235735e93">
 
 Choice
 
-</th><th align="left" id="d228148e96">
+</th><th align="left" id="d235735e96">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d228148e102">
+</th></tr></thead><tbody><tr><td id="d235735e102">
 
 **Roadmap-level**
 
@@ -48,7 +48,7 @@ Action
 
 From the roadmap header, select the **Comments** icon \(\[Omitted image "icon-comments.png"\] Alt text: Comments icon.\)
 
-</td></tr><tr><td id="d228148e123">
+</td></tr><tr><td id="d235735e123">
 
 **Planning item-level**
 
@@ -61,15 +61,15 @@ From the roadmap header, select the **Comments** icon \(\[Omitted image "icon-co
 </td></tr></tbody>
 </table>4.  Add attachments or worknotes.
 
-<table id="choicetable_yrk_wkj_gvb"><thead><tr><th align="left" id="d228148e151">
+<table id="choicetable_yrk_wkj_gvb"><thead><tr><th align="left" id="d235735e151">
 
 Choice
 
-</th><th align="left" id="d228148e154">
+</th><th align="left" id="d235735e154">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d228148e160">
+</th></tr></thead><tbody><tr><td id="d235735e160">
 
 **Attachments**
 
@@ -77,7 +77,7 @@ Action
 
 In the Attachments tab, select **Browse** and upload a file.
 
-</td></tr><tr><td id="d228148e175">
+</td></tr><tr><td id="d235735e175">
 
 **Comments**
 

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/exception-handling-overview.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-22"
+last_updated: "2026-10-28"
 reading_time_minutes: 5
 keywords: [exceptions, exception reasons, exception approval, findings, governance]
-breadcrumb: [Prevent technical debt with real-time code fixes, Prevent and resolve technical debt with AI, Platform Health, Using Impact, Impact]
+breadcrumb: [Prevent technical debt with real-time code fixes, Platform Health, Using Impact, Impact]
 ---
 
 # Exception handling in Scan Engine
@@ -28,57 +28,32 @@ Exception handling serves several key purposes:
 
 ## Exception reason scope
 
-Exception reason scope controls which finding levels can have exception reasons submitted and approved. Administrators configure the scope to match organizational needs. Three scope options are available:
-
-|Scope Option|What it means|
-|------------|-------------|
-|**Recommend only** \(default\)|Exception reasons can only be submitted for Recommend level findings. Suggest, Review, and Act level findings don't display exception submission options.|
-|**Act and Recommend**|Exception reasons can be submitted for both Act and Recommend level findings. Suggest and Review level findings don't display exception submission options.|
-|**All levels**|Exception reasons can be submitted for Suggest, Review, Recommend, and Act level findings. All four levels display exception submission options in the Findings panel.|
+Exception reason scope controls which finding levels can have exception reasons submitted and approved. Administrators configure the scope to match organizational needs. The scope options are Recommend only, which is the default, Act and Recommend, and All levels. The scope controls only which levels can have exceptions, and it doesn't decide which findings block a save. For what each option means, see [Configure exception reason properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/exception-reason-properties.md).
 
 The exception scope you select determines the user experience in the Findings panel. When exception reasons are enabled for a finding level, developers see a **Create exception** button on the finding card. When exceptions aren't enabled for a finding level, the button won't appear.
 
 ## Approval and enforcement
 
-After a developer submits an exception request, designated approval groups review the request and either approve or reject it. Approvers can be different from administrators who configured the exception settings. When an exception is approved, the finding is automatically excluded from technical debt metrics.
+After a developer submits an exception request, designated approval groups review the request and either approve or reject it. Approvers can be different from administrators who configured the exception settings. When an exception is approved, the finding is automatically excluded from technical debt metrics. Certain settings configured by a system administrator can determine whether an exception is approved or rejected automatically.
 
-Key approval behaviors include:
-
--   **Approval groups**
-
-    Administrators assign one or more groups that receive exception requests and notifications. Approvers within these groups review and respond to requests.
-
--   **Auto approval**
-
-    Administrators can configure exception requests to be automatically approved or to require explicit approval.
-
--   **Enforce rejected validations**
-
-    When enabled, if an exception request is rejected, the linked object is set to read-only until the finding is resolved or a new exception is submitted.
-
--   **Re-evaluation on new findings**
-
-    Administrators control whether approved exceptions automatically apply when the same issue is detected in a subsequent scan, or whether they require re-approval.
-
--   **Re-evaluation on line changes**
-
-    Administrators control whether approved exceptions remain valid when the finding's line number changes in the code, for example after a refactor.
-
+Administrators control the approval behavior in Scan Engine Properties. They choose the approval groups, whether exceptions are approved in production, what happens to a linked object when a request is rejected, and whether approved exceptions are re-evaluated when the same issue is found again or the line number changes. For each setting and its values, see [Configure exception reason properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/exception-reason-properties.md).
 
 ## Exception lifecycle
 
-\[Omitted image "image.exception-lifecycle"\] Alt text: The developer lifecycle for submitting an exception.
+\[Omitted image "exception-lifecycle.png"\] Alt text: The developer lifecycle for submitting an exception.
+
+An exception reason moves through four states: Not Yet Requested, Requested, Approved, and Rejected.
 
 ## Finding levels and exception eligibility
 
-The Scan Engine classifies findings into four levels based on severity and risk:
+The Scan Engine classifies findings into four levels based on severity and risk. See [View scan results for Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/viewing-scan-results-scan-engine.md) for additional information on finding levels.
 
 |Level|Severity|Form blocking and exception behavior|
 |-----|--------|------------------------------------|
 |Suggest|Low|Doesn't block form submission. Exception reasons can be submitted if the scope is set to All levels.|
 |Review|Low-Medium|Doesn't block form submission. Exception reasons can be submitted if the scope is set to All levels.|
-|Recommend|Medium-High|Blocks form submission when real-time enforcement is enabled, unless an approved exception reason exists. Exception reasons can be submitted if the scope is set to Recommend only, Act and Recommend, or All levels.|
-|Act|Critical|Blocks form submission when real-time enforcement is enabled, unless an approved exception reason exists. Exception reasons can be submitted if the scope is set to Act and Recommend or All levels.|
+|Recommend|Medium-High|Blocks form submission when real-time enforcement is enabled, unless an exception is submitted for it. The exception can be a draft, and it doesn't need to be approved. Exception reasons can be submitted if the scope is set to Recommend only, Act and Recommend, or All levels.|
+|Act|Critical|Blocks form submission when real-time enforcement is enabled, unless it is resolved, or it is eligible for an exception and has one submitted. The exception can be a draft, and it doesn't need to be approved. Exception reasons can be submitted if the scope is set to Act and Recommend or All levels.|
 
 ## Common use cases
 
@@ -101,7 +76,7 @@ The Scan Engine classifies findings into four levels based on severity and risk:
 
 ## Roles and permissions
 
-Exception handling requires specific roles and permissions. Developers can submit exceptions when they have developer roles. Administrators configure exception settings when they have admin or Scan Engine admin roles. Approvers can be any user assigned to an approval group.
+Exception handling requires specific roles and permissions. Developers can submit exceptions when they have developer roles. Administrators configure exception settings when they have admin or Scan Engine admin roles. Approvers are users in an approval group or users who hold the Scan Engine exception approver role, sn\_se.scan\_engine\_exception\_approver.
 
 See [Roles installed with Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-roles.md) for detailed role descriptions, including roles that manage exception approvals.
 
@@ -109,7 +84,7 @@ See [Roles installed with Impact](https://raw.githubusercontent.com/ServiceNow/S
 
 To implement exception handling in your organization, see:
 
--   [Configure exception approval behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-exception-reasons-scan-engine.md) — Configure the exception reason scope, approval groups, and re-evaluation behavior.
--   [Submit exceptions for Scan Engine findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/submitting-exception-reasons-scan-engine.md) — Submit exception requests for findings that your team has reviewed.
--   [Configure exception reason properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/exception-reason-properties.md) — Configure detailed exception reason settings including enforcement and technical debt exclusion.
+-   [Configure exception approval behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-exception-reasons-scan-engine.md): Set the exception reason options in order.
+-   [Submit exceptions for Scan Engine findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/submitting-exception-reasons-scan-engine.md): Submit exception requests for findings that your team has reviewed.
+-   [Configure exception reason properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/exception-reason-properties.md): Reference for each exception reason setting and its values.
 

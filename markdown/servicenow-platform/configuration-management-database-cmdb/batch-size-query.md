@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, CMDB Query Builder, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -21,7 +21,7 @@ Queries can differ widely as they can be configured to query a wide variety of c
 Batch size is applicable and behaves the same in all query run scenarios, regardless of how the run was initiated:
 
 -   Query Builder user interface \(ad hoc or saved query\)
--   [Query Builder Scriptable API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CMDBQueryBuilderAPI.md)
+-   Query Builder Scriptable API
 -   Scheduled jobs
 -   [CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-groups.md)
 

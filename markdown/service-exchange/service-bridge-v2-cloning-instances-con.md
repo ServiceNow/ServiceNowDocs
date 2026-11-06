@@ -7,7 +7,7 @@ release: australia
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use for consumers, Service Exchange for Consumers, Service Exchange]
 ---
@@ -39,6 +39,8 @@ After you clone your Service Exchange, the inbound and outbound connections move
 4.  In the Process Sync Remote System Provider Instance page, select the **Validate and Activate Remote System** related links.
 
 5.  Activate inactive Capture Definitions.
+
+    **Note:** When the connection goes down after the clone, automatic mitigation can activate inactive capture definitions. Check the state of each capture definition before you change it.
 
     1.  Navigate to **All** &gt; **IntegrationHub** &gt; **Remote Process Sync** &gt; **Process Sync Definitions**.
 

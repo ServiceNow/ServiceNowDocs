@@ -7,9 +7,9 @@ release: australia
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Visual Task Boards, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
 
 # Using Visual Task Boards
@@ -35,5 +35,5 @@ Visual Task Board task cards can represent a personal task or a record on a tabl
 -   **[Visual Task Board checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/visual-task-boards/c_VisualTaskBoardChecklists.md)**  
 Checklists help you track the progress of tasks on your Visual Task Board.
 
-**Parent Topic:**[Configure UIs and portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/configure-uis-and-portals.md)
+**Parent Topic:**[Personalize your experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/personalize-your-experience.md)
 

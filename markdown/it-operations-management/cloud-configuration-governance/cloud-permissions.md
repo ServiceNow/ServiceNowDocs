@@ -7,7 +7,7 @@ release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Cloud Admin Portal, Cloud Provisioning and Governance administratio
 
 Permissions are user group-level access rights to features in the Cloud Provisioning and Governance application and to specific records in the instance, such as blueprints or cloud accounts.
 
-You can refine the actions that are allowed or prohibited for users based on user group. By default, each role includes access rights, but not all users with the same role can see or edit each others records. For example, by default users with the cloud\_designer role have full read and write access to their own blueprints, but they do not have read or write access to blueprints created by other cloud designers. If you want them to have access, you must put the users into a group that has the cloud\_designer role, then give that group read and write access to particular blueprints.
+You can refine the actions that are allowed or prohibited for users based on user group. By default, each role includes access rights, but not all users with the same role can see or edit each others records. For example, by default users with the cloud\_designer role have full read and write access to their own blueprints. They do not have read or write access to blueprints created by other cloud designers. If you want them to have access, you must put the users into a group that has the cloud\_designer role, then give that group read and write access to particular blueprints.
 
 ## Permission types
 
@@ -75,7 +75,7 @@ Access \[read\] or Execute
 
 </td><td>
 
-Catalog items, even after they are published, cannot be seen by users in the Cloud User Portal until you grant a user group to which that user belongs read access to the items. Grant Access and Execute permissions to cloud users on the Blueprint Catalog Item table and the Cloud Account table.
+Catalog items, even after they are published, cannot be seen by users in the Cloud User Portal. Grant read access to the items for a user group to which that user belongs. Grant Access and Execute permissions to cloud users on the Blueprint Catalog Item table and the Cloud Account table.
 
 </td></tr><tr><td>
 

@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SOAP API access policies, API access policy, Authentication, Access Management]
 ---
@@ -47,7 +47,7 @@ Role required: api\_service\_admin, adaptive\_auth\_policy\_admin
     |Type|Type of the authentication available. You can select **Basic Auth**, **ID Token**, **Certificate based Auth**, **OAuth**, or **WSSE** \(In case of WSSE Authentication profile\).|
     |OAuth Entity|OAuth Entity profile. This field appears only when **ID Token** or **OAuth** is selected from **Type**.|
 
-5.  Double-click **Insert a new row**.
+5.  Double-click \(or use the keyboard shortcut\) **Insert a new row**.
 
 6.  Select an authentication policy from the list and select the save icon \[Omitted image "green-checkmark.png"\] Alt text: save icon.
 
@@ -55,7 +55,7 @@ Role required: api\_service\_admin, adaptive\_auth\_policy\_admin
 
     You can add one or more authentication policies for an authentication profile.
 
-    When there’s a change in the authentication profile, the Authorization header returns a value specific to the changes made at that time. To have the ability to get all the authentication schemes returned in the \`WWW-Authenticate\` header, you must activate `glide.security.response.authenticate.header.auth_profile.first_scheme_only` to **false**. The response is returned with multiple headers. For example:
+    When there’s a change in the authentication profile, the Authorization header returns a value specific to the changes made at that time. To get all the authentication schemes returned in the \`WWW-Authenticate\` header, you must activate `glide.security.response.authenticate.header.auth_profile.first_scheme_only` to **false**. The response is returned with multiple headers. For example:
 
     ```
     < WWW-Authenticate: BEARER realm="Service-now"

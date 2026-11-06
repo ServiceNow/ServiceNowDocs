@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/select-aia-llm-new.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-15"
 reading_time_minutes: 2
 keywords: [global LLM, AI agent LLM, use case LLM, agentic workflow LLM, GPT-4, GPT-4o, GPT4, GPT4o]
-breadcrumb: [AI Agent Studio settings, Configure AI Agent Studio, AI Agent Studio, Enable AI experiences]
+breadcrumb: [AI Agent Studio settings, Configure AI Agent Studio, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Select the LLM for AI agents and agentic workflows
@@ -23,7 +23,7 @@ Role required: sn\_aia.admin
 
 LLMs are part of the foundation of agentic AI. Different LLMs can provide slightly different performance and responses. You can select which LLM to use at a global level for agentic AI from the AI Agent Studio to help adjust the response quality to best fit your agentic workflows.
 
-**Note:** If you already have agents built and you change the global LLM, then you must test the agents after making the change. You can test the models in the skill kit without changing the LLM provider for all AI skills. Outside of the Skill kit, skills use whichever provider is set as default for the AI AGent SKills group.
+**Note:** If you already have agents built and you change the global LLM, then you must test the agents after making the change. You can test the models in the skill kit without changing the LLM provider for all AI skills. Outside of the skill kit, skills use whichever provider is set as default for the AI Agent Skills group.
 
 Depending on your region, you may have to consent to using a different service provider.
 
@@ -35,7 +35,7 @@ Depending on your region, you may have to consent to using a different service p
 
     You're directed to the AI Admin Hub Edit model provider page.
 
-    For more information about managing a editing and customizing a model provider, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/edit-model-providers.md).
+    For more information about managing, editing, and customizing a model provider, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/edit-model-providers.md).
 
 3.  In the **Choose a default model provider** field, select from the following choices.
 

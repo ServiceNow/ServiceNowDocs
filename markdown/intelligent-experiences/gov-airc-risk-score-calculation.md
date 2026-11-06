@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-10-05"
 reading_time_minutes: 5
 keywords: [inherent risk, control effectiveness, residual risk, risk aggregation, primary RAM, AI Risk and Compliance]
-breadcrumb: [Reviewing AI risk posture, Reviewing AI governance posture and compliance status, Managing risk and compliance, Govern AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Reviewing AI risk posture, Reviewing AI governance posture and compliance status, Managing risk and compliance, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Risk rating calculation

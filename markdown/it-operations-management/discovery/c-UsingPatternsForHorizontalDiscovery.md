@@ -1,13 +1,13 @@
 ---
 title: Patterns and horizontal discovery
-description: A pattern is a series of operations that tell Discovery which CIs to find on your network and what credentials to use. Patterns also define what tables to populate in the CMDB.Pattern Orchestrator is a process that allows a discovery to trigger multiple patterns related to a collection of data in a hierarchical manner. This is to help address issues with large datasets \(or large payloads\) that can cause slow discoveries and OOM \(out-of-memory\) issues on a MID Server.To use a pattern for the identification and exploration phases of horizontal discovery, add the Horizontal Pattern probe to the relevant classifiers. The classifiers must match the CI types you are trying to discover.If you want to use a new pattern, or if you already have a pattern that you were using for top-down discovery, you can use the pattern for horizontal discovery with a few modifications to the relevant classifier.
+description: A pattern is a series of operations that tell Discovery which CIs to find on your network and what credentials to use. Patterns also define what tables to populate in the CMDB.Pattern Orchestrator is a process that allows a discovery to trigger multiple patterns related to a collection of data in a hierarchical manner. This is to help address issues with large datasets \(or large payloads\) that can cause slow discoveries and OOM \(out-of-memory\) issues on a MID Server.To use a pattern for the identification and exploration phases of horizontal discovery, add the Horizontal Pattern probe to the relevant classifiers. The classifiers must match the CI types you are trying to discover.Use a new or existing top-down discovery pattern for horizontal discovery by modifying the relevant classifier.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -189,7 +189,7 @@ Role required: discovery\_admin
 
 ## Use a pattern for horizontal discovery
 
-If you want to use a new pattern, or if you already have a pattern that you were using for top-down discovery, you can use the pattern for horizontal discovery with a few modifications to the relevant classifier.
+Use a new or existing top-down discovery pattern for horizontal discovery by modifying the relevant classifier.
 
 ### Before you begin
 

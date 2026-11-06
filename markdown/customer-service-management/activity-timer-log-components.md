@@ -1,18 +1,18 @@
 ---
 title: Activity timer log components
-description: The activity timer log feature is available with the Activity Timer Reporting application. This application adds user tables, user roles, UIB page properties, a script include, and a scheduled job.
+description: The activity timer log feature is available with the Activity Timer Reporting application \(sn\_at\_rpt\). This application adds user tables, user roles, UI Builder page properties, a script include, and a scheduled job.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/activity-timer-log-components.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-21"
+last_updated: "2026-09-16"
 reading_time_minutes: 2
 breadcrumb: [Activity timer log, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Activity timer log components
 
-The activity timer log feature is available with the Activity Timer Reporting application. This application adds user tables, user roles, UIB page properties, a script include, and a scheduled job.
+The activity timer log feature is available with the Activity Timer Reporting application \(sn\_at\_rpt\). This application adds user tables, user roles, UI Builder page properties, a script include, and a scheduled job.
 
 ## Tables
 

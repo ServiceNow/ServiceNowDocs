@@ -7,7 +7,7 @@ release: australia
 product: Unified Map
 classification: unified-map
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Unified Map, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -51,7 +51,7 @@ When a user applies a shared preset or a user preset, all filter settings are ov
 
 ## What to do next
 
-To apply the home CI's default filter settings, select **Reset filter**.
+To apply the home CI default filter settings, select **Reset filter**.
 
 Admins can save filter settings as a shared preset that all users can apply. For more information, see [Create or manage a user preset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/unified-map/unified-map-manage-preset-filter.md).
 

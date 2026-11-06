@@ -1,25 +1,28 @@
 ---
 title: Billing account information collector AI agent
-description: This Telecommunications, Media, and Technology \(TMT\) agent retrieves billing case and account details and communicates them to the user in a structured format.
+description: The agent retrieves the details of a billing inquiry case and uses the account number on the case to look up the matching billing account. It returns the billing account number, master plan instance number, and master plan instance description. Other AI agents use this agent to obtain billing account information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/tmt-billing-account-information-collector-ai-agent.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-14"
+last_updated: "2026-10-22"
 reading_time_minutes: 2
-breadcrumb: [Telecommunications, Media and Technology AI agents, Telecom, Media and Tech AI agents, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [Customer Service Problem Management AI agents, Telecommunications, Media and Technology AI agents, Telecom, Media and Tech AI agents, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Billing account information collector AI agent
 
-This Telecommunications, Media, and Technology \(TMT\) agent retrieves billing case and account details and communicates them to the user in a structured format.
+The agent retrieves the details of a billing inquiry case and uses the account number on the case to look up the matching billing account. It returns the billing account number, master plan instance number, and master plan instance description. Other AI agents use this agent to obtain billing account information.
 
 ## Workflow
 
-1.  Fetch the billing inquiry case information using the case number already provided by the user.
-2.  Pull the case account number and account name from the case details, then present them to the user.
-3.  Fetch the billing account details using the case account information. If the billing account can't be found, ask the user to correct the case account number and retry.
-4.  Show the billing account details to the user.
+The agent collects the billing account information for a billing inquiry case and returns it to the orchestrator.
+
+1.  Retrieve the details of the billing inquiry case provided by the orchestrator.
+2.  Extract the case account number and the account name from the case details.
+3.  Look up the billing account details by using the case account number.
+4.  Extract the billing account number, master plan instance number, and master plan instance description from the billing account details.
+5.  Return the collected values to the orchestrator.
 
 <table><thead><tr><th>
 
@@ -59,13 +62,13 @@ Tools
 
 </td><td>
 
--   **Script**
-
-Fetch Billing Account Details
-
 -   **Flow Action**
 
 Fetch Current Billing Inquiry Case Details
+
+-   **Script**
+
+Fetch Billing Account Details
 
 
 </td></tr><tr><td>
@@ -74,7 +77,7 @@ Allowed user roles The specific user roles that can access this AI agent.
 
 </td><td>
 
-sn\_tmt\_agentic\_ai.telco\_billing\_inquiry\_case\_agent
+Not defined.
 
 </td></tr><tr><td>
 
@@ -98,7 +101,7 @@ Channels
 
 </td><td>
 
-Not defined.
+Configure an assistant for Virtual Agent or ServiceNow Otto panel using [Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
 
 </td></tr><tr><td>
 
@@ -109,7 +112,7 @@ Used in agentic workflows
 Help remediate bill issues
 
 </td></tr></tbody>
-</table>Learn more about Supplier Lifecycle Operations at [Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supp-mgmt-landing-page.md).
+</table>Learn more about Customer Service Problem Management at [Customer Service Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/cspm-landing-page.md).
 
-**Parent Topic:**[Telecommunications, Media and Technology AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/tmt-ai-agents-overview.md)
+**Parent Topic:**[Customer Service Problem Management AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/cspm-ai-agents-overview.md)
 

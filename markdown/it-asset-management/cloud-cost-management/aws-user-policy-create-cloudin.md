@@ -7,7 +7,7 @@ release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure Cloud Cost Management for AWS, Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -24,9 +24,8 @@ Use an auto-generated access key. You need the key information when you configur
 
 Roles required:
 
-On the AWS Management Console: AWS Management Console administrator.
-
-Cloud Cost Management: insights\_admin \[sn\_clin\_core.insights\_admin\] or admin.
+-   On the AWS Management Console: AWS Management Console administrator.
+-   Cloud Cost Management: admin.
 
 ## About this task
 

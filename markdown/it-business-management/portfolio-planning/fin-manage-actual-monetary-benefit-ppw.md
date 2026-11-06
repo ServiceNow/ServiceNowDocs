@@ -7,7 +7,7 @@ release: australia
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create monetary benefit plans for your planning items in Portfolio Planning, Manage financials for planning items, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -33,15 +33,15 @@ Capture the actual benefit from the planned benefits to measure revenue and calc
 
 4.  Capture actual monetary benefits using one of the following options.
 
-<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d62369e101">
+<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d62215e101">
 
 Option
 
-</th><th align="left" id="d62369e104">
+</th><th align="left" id="d62215e104">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d62369e110">
+</th></tr></thead><tbody><tr><td id="d62215e110">
 
 **Using Monetary benefit plan related list**
 
@@ -52,7 +52,7 @@ Procedure
 3.  Select the value from the **Entered benefit** field.
 
 
-</td></tr><tr><td id="d62369e140">
+</td></tr><tr><td id="d62215e140">
 
 **Using finanicals record page**
 

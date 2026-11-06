@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/conv-impr-themes-activate.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Conversation Improvement Themes, Enable AI experiences]
+breadcrumb: [Conversation Improvement Themes, Analyzing AI effectiveness, Enable AI Experiences]
 ---
 
 # Activating Conversation Improvement Themes
@@ -22,7 +22,7 @@ Conversation evaluations have to be enabled in AI Control Tower. For more inform
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin Console** &gt; **Now Assist Skills**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills**.
 
 2.  Within the Platform category, select the feature **Conversation Evaluator** and verify that all the skills shipped with the Conversation Evaluator application are activated.
 

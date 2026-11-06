@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/using-search-next-experience.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [global search, next experience global search]
 breadcrumb: [Unified Navigation, Explore, Next Experience UI, Configure UIs and portals, Configure user experiences]
@@ -27,7 +27,7 @@ The search results page reports the total number of records that matched your se
 
 \[Omitted image "pol-search-results-page.png"\] Alt text: Global search results page showing results for an email permissions search query.
 
-For more details on the contents of the Next Experience search results page, see Search results page in Next Experience.
+For more details on the contents of the Next Experience search results page, see [Search results page in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/global-search-polaris-ui.md).
 
 ## Narrow your search by source on the search results page
 
@@ -65,5 +65,5 @@ For example, if the context menu in the illustration was available after you per
 
 Exact matches open in the selected workspace application. For example, if you selected **CSM/FSM Configurable Workspace**, entered a record number, and selected the record preview in the search results, the record would open in CSM/FSM Configurable Workspace.
 
-For information adding a workspace to the Unified Navigation search menu, see .
+For information adding a workspace to the Unified Navigation search menu, see [Add a workspace application to the Unified Navigation search context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/add-app-search-context-polaris-ui.md).
 

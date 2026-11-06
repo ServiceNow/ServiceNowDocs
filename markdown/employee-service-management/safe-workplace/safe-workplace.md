@@ -7,7 +7,7 @@ release: australia
 product: Safe Workplace
 classification: safe-workplace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Health and Safety, Employee Service Management]
 ---
@@ -70,7 +70,7 @@ Screen users before entering the workplace to ensure compliance with the organiz
 -   **[Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace/workplace-safety-mgmt-hr.md)**  
 Use the ServiceNow® Workplace Core application to create safer, managed processes for returning employees to the workplace and staying open. Establish distancing plans, shift assignments, and sanitation scheduling and manage workspace allocation in stages. The Workplace Core is also available as a core application in the Workplace Service Delivery suite.
 -   **[Workplace PPE Inventory Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace/ppe-inventory-management.md)**  
-Use the ServiceNow® Workplace Personal Protective Equipment Inventory Management application to manage PPE inventory to help safeguard the physical safety  of your workforce. Monitor the availability of PPE at different locations, fulfill employee requests for PPE, and track PPE assigned to employees.
+Use the ServiceNow® Workplace Personal Protective Equipment Inventory Management application to manage PPE inventory to help safeguard the physical safety of your workforce. Monitor the availability of PPE at different locations, fulfill employee requests for PPE, and track PPE assigned to employees.
 -   **[Safe Workplace Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/safe-workplace-dashboard/safe-workplace-dashboard.md)**  
 The ServiceNow® Safe Workplace Dashboard provides leaders in HR, Workplace Services, and Health &amp; Safety with a complete view of operations. Leaders have visual insight into the status of work sites and users to determine whether a site is ready to resume a safe operation.
 -   **[Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contact-tracing/contact-tracing.md)**  

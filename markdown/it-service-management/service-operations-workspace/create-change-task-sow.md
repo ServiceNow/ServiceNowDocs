@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Change Management in Service Operations Workspace, Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -24,7 +24,7 @@ Role required: itil or admin
 
 1.  Open a change request.
 
-2.  On the change record page, Click the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) and select **Create Change Task**.
+2.  On the change record page, Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) and select **Create Change Task**.
 
 3.  In the Create Change task dialog box, select the task type.
 
@@ -34,7 +34,7 @@ Role required: itil or admin
     -   Implementation
     -   Testing
     -   Review
-4.  Click **Create**.
+4.  Select **Create**.
 
 5.  On the form, fill in the fields.
 
@@ -156,7 +156,7 @@ Planned end date
 Date the change task is planned to be completed.If the task type is **Implementation**, the **Planned start date** and **Planned end date** values must fall within the planned start and end dates specified in the change request.
 
 </td></tr></tbody>
-</table>6.  Click **Save**.
+</table>6.  Select **Save**.
 
 
 **Parent Topic:**[Change Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/change-sow.md)

@@ -7,7 +7,7 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [HR skills management, Manage HR roles, HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
@@ -33,6 +33,10 @@ Role required: sn\_hr\_core.admin
 4.  Double-click skills in the **Collection** list to move them to the **Skills List**.
 
 5.  Click **Save**.
+
+    Messages are displayed to notify you of the skills that were assigned to each group member.
+
+    \[Omitted image "MessagesForGroupSkillAssignment.png"\] Alt text: Group skill assignment messages
 
 
 **Parent Topic:**[HR skills management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_HRSkillsManagement.md)

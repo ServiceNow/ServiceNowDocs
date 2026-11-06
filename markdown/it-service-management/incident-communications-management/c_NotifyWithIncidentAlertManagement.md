@@ -1,22 +1,22 @@
 ---
 title: Notify with Incident Communications Management
-description: Notify allows you to integrate with the Twilio telephony service to send and receive phone calls and SMS from within your instance. In Incident Communications Management, Notify provides you with SMS and conference as channels.
+description: Notify integrates with the Twilio telephony service so you can send and receive phone calls and SMS messages from your instance. In Incident Communications Management, Notify provides SMS and conference channels.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-communications-management/c\_NotifyWithIncidentAlertManagement.html
 release: australia
 product: Incident Communications Management
 classification: incident-communications-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Incident Communications Management integrations, Incident Communications Management reference, Incident Communications Management, IT Service Management]
 ---
 
 # Notify with Incident Communications Management
 
-Notify allows you to integrate with the Twilio telephony service to send and receive phone calls and SMS from within your instance. In Incident Communications Management, Notify provides you with SMS and conference as channels.
+Notify integrates with the Twilio telephony service so you can send and receive phone calls and SMS messages from your instance. In Incident Communications Management, Notify provides SMS and conference channels.
 
-For more information on how notify works with Incident Communications Management, refer [Using Notify with Incident Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_NotifyWithIncidentAlert.md).
+For details about how Notify works with Incident Communications Management, see [Using Notify with Incident Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_NotifyWithIncidentAlert.md).
 
 **Parent Topic:**[Incident Communications Management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-communications-management/inci-commu-mgmt-integrations.md)
 

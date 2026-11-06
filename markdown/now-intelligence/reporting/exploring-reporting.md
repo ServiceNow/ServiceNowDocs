@@ -1,5 +1,5 @@
 ---
-title: Exploring reporting
+title: Exploring Core UI reporting
 description: Reporting functionality is available by default for all tables, except for system tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/exploring-reporting.html
@@ -7,18 +7,18 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
-# Exploring reporting
+# Exploring Core UI reporting
 
 Reporting functionality is available by default for all tables, except for system tables.
 
 ## Reporting overview
 
-**Note:** On net new Australia instances and instances migrated to Platform Analytics experience, Reporting functionality is replaced with Data Visualizations. For more information, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/analytics-center-data-visualizations.md).
+**Note:** On net new Brazil instances and instances migrated to Platform Analytics experience, Reporting functionality is replaced with Data Visualizations. For more information, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/analytics-center-data-visualizations.md).
 
 Core UI Reporting functionality is in maintenance mode and is no longer being augmented or changed. Only security fixes to this feature will be addressed.
 
@@ -32,10 +32,10 @@ ServiceNow reports are visualizations of your data that you can share with users
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Run a report to view current data in an existing report.|[View a report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/t_RunAReport.md)|itil, report\_user, report\_group, report\_global, report\_admin, or admin|
-|Create a report to visualize and analyze current instance data or temporary data that you have imported.|[Create a report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/t_CreateYourOwnReport.md)| |
+|Run a report to view current data in an existing report.|[View a Core UI report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/t_RunAReport.md)|itil, report\_user, report\_group, report\_global, report\_admin, or admin|
+|Create a report to visualize and analyze current instance data or temporary data that you have imported.|[Create a Core UI report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/t_CreateYourOwnReport.md)| |
 |View a list of reports and create reports from the Reports list.|[View the Reports list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/r_ViewTheReportsList.md)|admin|
-|Users who cannot create their own global reports can modify a global report, and then save a personal version of the report.|[Copy a report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/copy-report.md)|itil, report\_user, report\_group, report\_global, report\_admin, or admin|
-|Delete reports that are no longer used.|[Delete a report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/delete-report.md)|creator, an administrator, or have a managing role of a report to delete|
+|Users who cannot create their own global reports can modify a global report, and then save a personal version of the report.|[Copy a Core UI report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/copy-report.md)|itil, report\_user, report\_group, report\_global, report\_admin, or admin|
+|Delete reports that are no longer used.|[Delete a Core UI report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/delete-report.md)|creator, an administrator, or have a managing role of a report to delete|
 |Keyboard shortcuts enable you to perform certain functions in the Report Designer without using your mouse.|[Report Designer keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/keyboard-shortcuts.md)| |
 

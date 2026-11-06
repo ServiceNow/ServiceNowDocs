@@ -7,7 +7,7 @@ release: australia
 product: Incident Management
 classification: incident-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Incident ticketing integrations, Configuring Incident Management, Incident Management, IT Service Management]
 ---
@@ -16,27 +16,27 @@ breadcrumb: [Incident ticketing integrations, Configuring Incident Management, I
 
 A bi-directional integration exchanges data between your ServiceNow instance and a third-party system so that incident information is synchronized between the systems.
 
-This integration is more complex than a uni-directional integration because it has the following requirements.
+This integration is more complex than a uni-directional integration because it has the following requirements:
 
 -   Comprehensive definitions of field mappings.
 -   Standardization of where transformations take place: inbound, outbound, or both.
 -   Consideration of the ownership of reference data.
--   How updates are performed on an ongoing basis.
+-   Definition of how updates are performed on an ongoing basis.
 
-Implement error handling. Include all these implementations in the integration plan.
+Include error handling and each of these requirements in the integration plan.
 
-While bi-directional implementations are developed on their own merits, you can develop a framework in the ServiceNow AI Platform that can be reused, for example, data driven validation rules.
+Although each bi-directional implementation is developed on its own merits, you can develop a reusable framework in the ServiceNow AI Platform, such as data-driven validation rules.
 
 ## Integration plan contents
 
 -   Plan contents for all the aspects needed for a bi-directional integration.
 -   State models for each organization.
 -   Business rule definitions for keeping the tickets synchronized.
--   Requirements to store history of individual transactions. If this form of audit is a requirement, consider creating an interface table which is populated prior to creating and updating the destination table.
+-   Requirements to store history of individual transactions. If this form of audit is a requirement, consider creating an interface table that is populated before creating or updating the destination table.
 -   Transformation rules for all data elements.
--   Time lines for when reference data is transported to the information system. Include requirements to perform transformations before sending the data to and from each system.
+-   Timelines for when reference data is transported to the information system. Include requirements to perform transformations before sending the data to and from each system.
 -   Statement of reference data ownership at all stages.
--   Update schema definitions.
+-   Schema definition updates.
 
 ## Example using import sets and web services
 
@@ -44,9 +44,9 @@ In this implementation, data authentication is done before insertion into the im
 
 ## Example using import sets and the ECC queue
 
-An implementation variation for the inbound path would be to use an import set table \(in our example, the Incident Interface table\) to store historical data. Data validation is also done now, and you can clear exceptions with processing or manual intervention. The Incident table uses a Third-Party Information table as a reference, and messages are generated based on business rules.
+A variation for the inbound path uses an import set table \(in this example, the Incident Interface table\) to store historical data. Data validation also occurs at this stage, and you can clear exceptions with processing or manual intervention. The Incident table uses a Third-Party Information table as a reference, and messages are generated based on business rules.
 
-Implementing this type of integration involves a web-service component for third-party applications for inbound data. The ECC queue is recommended for outbound data.
+Implementing this type of integration involves a web-service component for third-party applications for inbound data. The External Communication Channel \(ECC\) queue is a common choice for outbound data.
 
 **Parent Topic:**[Incident ticketing integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/c_IncidentTicketingIntegrations.md)
 

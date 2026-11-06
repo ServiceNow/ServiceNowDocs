@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Automated alert grouping, Alert grouping types and creation methods, Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -91,7 +91,7 @@ Learn how alert patterns are discovered, grouped, and displayed in the system.
 
 |Concept|Description|
 |-------|-----------|
-|Pattern discovery|When a set of alert fields matches, the alerts are grouped into a "Learned Pattern." For example, alerts with the same Priority Group and Resource are grouped into a pattern.|
+|Pattern discovery|When alert fields match, the alerts are grouped into a "Learned Pattern" — for example, alerts sharing the same Priority Group and Resource.|
 |Pattern reporting|These patterns are displayed on the Learned Patterns report found under **Event Management** &gt; **Administration** &gt; **Learned Patterns**.|
 
 ## Managing Pattern Attributes and Time Frame

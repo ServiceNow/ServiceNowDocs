@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/group-action-framework.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-10"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 keywords: [gaf]
-breadcrumb: [Explore, AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [Explore, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Group Action Framework
@@ -93,7 +93,7 @@ When you configure GAF, the Grouping inputs record in the Now Assist Skill Confi
 
 To find logs where GAF is used on your instance, go to the Generative AI Log \[sys\_generative\_ai\_log\] table and filter based on the skill that used GAF. You can also filter the Log \[syslog\] table for the scope containing `sn-gaf`. Actions performed by skills, AI agents, and agentic workflows that use GAF all generate logs.
 
-For more information about common errors and possible resolution steps, see [Troubleshooting GAF](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/troubleshooting-gaf.md).
+For more information about common errors and possible resolution steps, see Troubleshooting GAF.
 
 ## Additional information
 

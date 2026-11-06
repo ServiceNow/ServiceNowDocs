@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/explore-demand-forecast-configurable-wfo-cs.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
@@ -19,6 +19,8 @@ Overview of the Demand Forecast application.
 The 15-, 30-, and 60-minute intervals are color-coded to display the status of agent staffing such as understaffing, overstaffing, and well staffed. Understaffed slots are color-coded red, overstaffed slots are color-coded yellow, and well-staffed slots are color-coded green. Slots that do not need staffing are color-coded grey. Managers must ensure adequate staffing in understaffed slots and optimize the resources in overstaffed slots.
 
 For example, a manager of the Service Support group can see that the slot between 07:00 and 07:15 is color-coded red and is understaffed. The demand is for nine resources and the coverage is eight resources. The slot is understaffed by one resource. That slot displays **9** and **-1**. To avoid the understaffing of that slot, the manager allocates a resource who is on a break. The manager reschedules the break of that resource from 07:00 to 07:30. The 07:00 to 07:15 slot is now well staffed and color-coded green.
+
+
 
 \[Omitted image "wfo-demand-forecast1.jpeg"\] Alt text: Schedule page in Manager Workspace displaying the staffing forecast for a team in the Demand Forecast application.
 
@@ -64,7 +66,7 @@ To forecast the demand:
 4.  Associate the formulas to assignment groups.
 5.  View the predicted demand on the calendar.
 
-**Note:** See the Demand Forecast section in [Components installed withWorkforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/components-installed-configurable-wfo-cs.md) for information on the default components and configurations.
+**Note:** See the Demand Forecast section in [Components installed with Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/components-installed-configurable-wfo-cs.md) for information on the default components and configurations.
 
 ## Collect data by defining data collection definitions
 

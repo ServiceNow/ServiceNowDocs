@@ -7,9 +7,9 @@ release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Engagement Messenger, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Set up Engagement Messenger, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Use Engagement Messenger embed Code to integrate proactive recommendations on a web page
@@ -32,7 +32,7 @@ Modify the embed code of Engagement Messenger to enable recommendations and pass
 
 4.  In the Configure Engagement Messenger module, select the **Implement** tab.
 
-5.  In a text editor, open the HTML file of the web page on your website where you integrate Engagement Messenger.
+5.  Open the HTML file of the web page on your website where you integrate Engagement Messenger in a text editor.
 
 6.  In the **Implement** tab, copy the code from the Embed code section.
 
@@ -55,11 +55,11 @@ Modify the embed code of Engagement Messenger to enable recommendations and pass
 
     2.  Select your Engagement Messenger module.
 
-    3.  Click **Edit**.
+    3.  Select **Edit**.
 
     4.  In the Configure Engagement Messenger module, select the **Behavior** tab.
 
-    5.  Enable the **Enable recommendations** toggle switch.
+    5.  Select Recommendations from the left navigation and enable the **Enable recommendations** toggle switch.
 
 10. Add custom logic for passing a search query parameter to the AI Search by passing a function callback as the value for a parameter `getAISRecommendationsContext`.
 

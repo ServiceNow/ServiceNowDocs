@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/customer-360-agentic-contact-center-for-banking.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [customer 360, customer profile, financial overview, account details, transaction history, service cases, ai-generated customer summary, total deposit, total available credit, total money owed, view customer accounts, view customer cases, customer 360 page, b2c customer, b2b account]
 breadcrumb: [Explore, Agentic Contact Center for Banking, Banking applications, Financial Services Operations \(FSO\)]
@@ -155,5 +155,5 @@ The following table shows the available actions in the Customer 360 page.
 
 [Interaction page for Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/interaction-workspace-for-agentic-contact-center-for-banking.md)
 
-[bundle-csm.csm-workspaces-configure]
+[](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/work-on-service-problem-case.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Use, Customer Service Problem Management, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -26,7 +26,7 @@ The service problem case progresses through several stages from start to closure
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **All** &gt; **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List icon.
 
@@ -102,7 +102,7 @@ The service problem case progresses through several stages from start to closure
     -   Select **Create repair task** to manually create a customize repair task.
     A Repair task is created for all failed test cases related to the diagnosed service problem. For each unique service and test specification, only one repair task is created. The agent can then work on it and close this repair task.
 
-    **Note:** Select the refresh icon \(\[Omitted image "form-refresh.png"\] Alt text: Refresh Icon.\) to view the repair task in the Repair task list.
+    **Note:** Select the refresh icon \(\[Omitted image "refresh-sync-new.png"\] Alt text: Refresh Icon.\) to view the repair task in the Repair task list.
 
     1.  Select the repair task that you want to work on, such as RT0001101.
 

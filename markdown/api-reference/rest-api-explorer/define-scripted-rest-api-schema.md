@@ -7,7 +7,7 @@ release: australia
 product: REST API Explorer
 classification: rest-api-explorer
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a scripted REST API, Scripted REST APIs, REST APIs, Web services, API implementation, API implementation and reference]
 ---
@@ -30,15 +30,15 @@ The following procedure describes the process for manual schema definition. For 
 
 1.  Create a REST Schema in one of the following ways.
 
-<table id="choicetable_kbq_szc_j3c"><thead><tr><th align="left" id="d355852e89">
+<table id="choicetable_kbq_szc_j3c"><thead><tr><th align="left" id="d369583e90">
 
 Option
 
-</th><th align="left" id="d355852e92">
+</th><th align="left" id="d369583e93">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d355852e98">
+</th></tr></thead><tbody><tr><td id="d369583e99">
 
 **Navigate through a scripted REST API record**
 
@@ -49,7 +49,7 @@ Procedure
 3.  In the **Schemas** related list, select **New**.
 
 
-</td></tr><tr><td id="d355852e137">
+</td></tr><tr><td id="d369583e138">
 
 **Navigate directly to a new REST Schema record**
 

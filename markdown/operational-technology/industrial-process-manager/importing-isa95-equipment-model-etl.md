@@ -7,9 +7,9 @@ release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, Industrial Process Manager, Operational Technology]
+breadcrumb: [Configure the Industrial Process Manager, Industrial Process Manager, Operational Technology]
 ---
 
 # Importing equipment model data
@@ -22,7 +22,7 @@ Several methods are available for importing the equipment model data into the Se
 
 1.  If you use the spreadsheet to import the data, you must populate the Microsoft Excel spreadsheet with your existing ISA-95 Equipment Model data and run the **SG-Equipment Model Scheduled Import Using Spreadsheet** scheduled import. Many legacy record systems contain functions that enable you to export this data to an Excel spreadsheet, which means that you don't have to populate it manually.
 2.  Several ServiceNow partners are also developing integrations to third-party legacy record systems that store equipment model data.
-    -   When these integrations become available, you can find them on the ServiceNow Store by searching for Operational Technology certified integrations for the Industrial Process Manager.
+    -   When these integrations are available, you can find them on the ServiceNow Store by searching for Operational Technology certified integrations for the Industrial Process Manager.
     -   Install those integrations that are applicable to your environment, and run them as needed.
 
 By using these import methods, you can update existing equipment models in the ServiceNow AI Platform with the data that is stored in your authoritative source when needed. For newly imported data, the ServiceNow AI Platform automatically creates Equipment Model Entity CI class records in the Configuration Management Database \(CMDB\).
@@ -52,8 +52,8 @@ The following system properties affect how you populate your Microsoft Excel spr
 
 -   **[Populating your Microsoft Excel spreadsheet with equipment model data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/populate-excel-spreadsheet-with-isa-equipment-model-data.md)**  
 Create and populate a Microsoft Excel spreadsheet with your existing ISA equipment model data. Positioning your existing data in the correct columns is crucial to the success of your upload.
--   **[Import your equipment model data using the data source and scheduled import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/import-equipment-model-data-using-data-source-and-scheduled-import.md)**  
-After you complete your Microsoft Excel spreadsheet with your equipment model data, import it into the ServiceNow AI Platform by using the data source and scheduled import.
+-   **[Import equipment model data from an Excel spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/import-equipment-model-data-using-data-source-and-scheduled-import.md)**  
+After you enter the equipment model data into your Microsoft Excel spreadsheet, import it into the ServiceNow AI Platform by using the data source and scheduled import.
 
-**Parent Topic:**[Configuring the Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/configuring-manufacturing-process-mgr.md)
+**Parent Topic:**[Configure the Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/configuring-manufacturing-process-mgr.md)
 

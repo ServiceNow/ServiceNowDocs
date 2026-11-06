@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/imp-code-fix-ai-agent.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Impact AI agents, Impact, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [Impact AI agents, Impact, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Code fix AI agent

@@ -1,0 +1,73 @@
+---
+title: Establish a trusted HTTPS connection for SAP S/4HANA Cloud, Private Edition
+description: Export the Root CA certificate from your SAP system and import it into the MID Server's cacerts keystore to establish a trusted HTTPS connection between SAP S/4HANA Cloud, Private Edition and your ServiceNow instance.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/export-root-ca-cert-sap-private-cloud.html
+release: australia
+product: Software Asset Management
+classification: software-asset-management
+topic_type: task
+last_updated: "2026-06-29"
+reading_time_minutes: 2
+keywords: [SAP Private Cloud, Root CA certificate, STRUST, OAuth, SSL, S/4HANA, Export the root CA certificate, Import the certificate into the MID Server's cacerts keystore]
+breadcrumb: [Set up SAP integration to establish a connection with SAP, Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
+---
+
+# Establish a trusted HTTPS connection for SAP S/4HANA Cloud, Private Edition
+
+Export the Root CA certificate from your SAP system and import it into the MID Server's cacerts keystore to establish a trusted HTTPS connection between SAP S/4HANA Cloud, Private Edition and your ServiceNow instance.
+
+## Before you begin
+
+-   You must have the SAP Basis administrator role with authorization to access transaction STRUST.
+-   You must have administrator access to your ServiceNow instance to upload the certificate.
+
+Role required: sam\_admin, SAP Basis administrator
+
+## About this task
+
+**Important:** This task is required for all SAP S/4HANA Cloud, Private Edition integrations, regardless of whether you use Basic Auth or OAuth 2.0 as the connection type.
+
+The Root CA certificate establishes trust between your SAP system and the ServiceNow OAuth endpoint over HTTPS. Without this certificate, the SAP system can't verify the identity of the ServiceNow server during data collection.
+
+## Procedure
+
+1.  Export the certificate from SAP.
+
+    1.  Log in to your SAP S/4HANA Private Cloud system using your SAP credentials.
+
+    2.  In the command field, enter transaction code `STRUST` and press **Enter**.
+
+    3.  In the Trust Manager, expand **SSL Client \(Standard\)** in the left navigation panel.
+
+        \[Omitted image "sap-export-cert-select-standard-ssl-client.png"\] Alt text: Standard SSL Client selected to expand.
+
+    4.  Under Issuer Certificates, locate and select the respective Root CA certificate for the ServiceNow domain.
+
+    5.  In the certificate details panel, select **Export certificate**.
+
+        \[Omitted image "sap-export-root-cert.png"\] Alt text: Icon showing export certificate for root ca certificate.
+
+    6.  In the **Export Certificate** dialog box, select **Base64** as the file format.
+
+        \[Omitted image "sap-export-cert-select-file-format.png"\] Alt text: Dialog box showing two options for file format with Base64 radio button selected.
+
+    7.  Enter a file path and file name for the exported certificate, then select **Save**.
+
+        Save the file in a secure location. You will need it to import the certificate into the MID Server's cacerts keystore.
+
+2.  Import the certificate into the MID Server's cacerts keystore.
+
+    For steps to import, refer to [Add SSL certificates for the MID Server](https://www.servicenow.com/docs/r/servicenow-platform/mid-server/add-ssl-certificates.html).
+
+
+## Result
+
+The Root CA certificate is stored in your ServiceNow instance. The SAP S/4HANA Private Cloud system can now establish a trusted HTTPS connection to your ServiceNow instance during data collection.
+
+## What to do next
+
+After uploading the certificate, select SAP clients to import data. For more information, see [Select SAP clients to import data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/select-sap-clients-import.md).
+
+**Parent Topic:**[Set up SAP integration to establish a connection with SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/setup-sap-integration.md)
+

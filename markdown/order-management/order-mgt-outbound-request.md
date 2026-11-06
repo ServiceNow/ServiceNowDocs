@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/order-mgt-outbound-request.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Managing service orders, Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -20,11 +20,11 @@ Role required: sn\_ind\_tmt\_orm.order\_fulfilment\_agent, sn\_ind\_tmt\_orm.ord
 
 ## About this task
 
-The outbound requests are enabled through the bi-directional integration over a REST API between Order Management for Telecommunications, Media, and Technology and the external systems. To learn more, see [Integrating Order Management with southbound external systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/order-mgt-integrate-southbound.md).
+The outbound requests are enabled through the bi-directional integration over a REST API between Order Management for Telecommunications, Media, and Technology and the external systems.
 
 ## Procedure
 
-1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace** .
+1.  Navigate to  **Workspaces** &gt; **CRM Workspace** .
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 

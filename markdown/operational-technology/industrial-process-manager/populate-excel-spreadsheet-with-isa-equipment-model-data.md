@@ -7,9 +7,9 @@ release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Importing equipment model data, Configure, Industrial Process Manager, Operational Technology]
+breadcrumb: [Importing equipment model data, Configure the Industrial Process Manager, Industrial Process Manager, Operational Technology]
 ---
 
 # Populating your Microsoft Excel spreadsheet with equipment model data
@@ -26,7 +26,7 @@ To create a Microsoft Excel spreadsheet that properly populates the Configuratio
 
 2.  Download the attached Import Equipment Model – Data Source - v2.xlsx spreadsheet to learn more about the template and its worksheets:
 
-    **Note:** If you're an ISA SGC user upgrading from v1 to v2, see the section named **Upgrading from v1 to v2** below.
+    **Note:** If you're an ISA SGC user upgrading from v1 to v2, see the section named **Upgrading from v1 to v2**.
 
     |Worksheet name|Purpose|
     |--------------|-------|
@@ -36,7 +36,7 @@ To create a Microsoft Excel spreadsheet that properly populates the Configuratio
 
 3.  After populating the Microsoft Excel spreadsheet, save it in a known location for easy access when you run the Integration Hub ETL function.
 
-    **Note:** Column names cannot be changed. You can add additional columns to support additional fields to uniquely identify owners, as designated in the **sn\_isa\_model.user\_search\_matching\_attribute** system property.
+    **Note:** Column names can't be changed. You can add additional columns to support additional fields to uniquely identify owners, as designated in the **sn\_isa\_model.user\_search\_matching\_attribute** system property.
 
 
 ## Populating the spreadsheet
@@ -263,7 +263,7 @@ string
 
 </td><td>
 
-The template used to import data. **Note:** After your import your data, you cannot set the template.
+The template used to import data. **Note:** After your import your data, you can't set the template.
 
 </td><td>
 
@@ -272,7 +272,7 @@ Yes
 </td></tr></tbody>
 </table>## Upgrading from v1 to v2
 
-If you're an ISA SGC user upgrading from v1 to v2, you can import new ISA equipment model entities that have a unique path and update existing ISA equipment model entities that already have a path value with a fix script.
+ISA SGC users upgrading from v1 to v2 can import new ISA equipment model entities with unique paths. Use a fix script to update existing entities.
 
 **Parent Topic:**[Importing equipment model data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/importing-isa95-equipment-model-etl.md)
 

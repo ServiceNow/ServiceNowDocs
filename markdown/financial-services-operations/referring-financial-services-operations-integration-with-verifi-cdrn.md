@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/referring-financial-services-operations-integration-with-verifi-cdrn.html
 release: australia
 topic_type: concept
-last_updated: "2026-04-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Verifi, Integrate, Financial Services Operations \(FSO\)]
 ---

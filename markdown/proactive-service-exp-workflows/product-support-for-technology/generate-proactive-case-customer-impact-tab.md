@@ -7,7 +7,7 @@ release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: task
-last_updated: "2026-03-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Identify affected accounts, Use, Proactive Service Experience Workflows, Product Support for Technology]
 ---
@@ -44,15 +44,15 @@ Analyze the service issue in an incident, problem, or change record. Generate a 
 
 8.  Select one of the following.
 
-<table id="choicetable_tkw_f4w_t3c"><thead><tr><th align="left" id="d27158e149">
+<table id="choicetable_tkw_f4w_t3c"><thead><tr><th align="left" id="d27911e149">
 
 Option
 
-</th><th align="left" id="d27158e152">
+</th><th align="left" id="d27911e152">
 
  
 
-</th></tr></thead><tbody><tr><td id="d27158e157">
+</th></tr></thead><tbody><tr><td id="d27911e157">
 
 **Generate proactive records with communication**
 
@@ -64,7 +64,7 @@ When you select **Generate proactive records with communication**, the Create cu
 4.  Select **Create proactive records**.
 A proactive case record is created and an email is sent to the customer or consumer account.
 
-</td></tr><tr><td id="d27158e194">
+</td></tr><tr><td id="d27911e194">
 
 **Generate proactive records**
 
@@ -74,7 +74,7 @@ When you select **Generate proactive records**, the Create new case window appea
 2.  Select **Create proactive records**.
 A proactive case record is created and appears in the Affected customers section.
 
-</td></tr><tr><td id="d27158e219">
+</td></tr><tr><td id="d27911e219">
 
 ** **
 

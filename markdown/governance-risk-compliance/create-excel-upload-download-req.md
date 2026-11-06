@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-excel-upload-download-req.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create Microsoft Excel download and upload request, Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Create Microsoft Excel download and upload request, Use, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Create Excel download/upload request form
@@ -159,7 +159,7 @@ Reference date
 
 </td><td>
 
-ISO 8601 \(yyyy-mm-dd\) as-of date of the data set being reported. For example, 2025-12-31 for a year-end snapshot. The Reference date determines the historical exchange rate used when Enable currency conversion is set. It is the date the regulator expects on each row of the package.
+ISO 8601 \(yyyy-mm-dd\) as-of date of the data set being reported. For example, 2025-12-31 for a year-end snapshot. The Reference date determines the historical exchange rate used when &lt;uicontrol&gt;Enable currency conversion&lt;/uicontrol&gt; is set. It is the date the regulator expects on each row of the package.
 
 </td></tr><tr><td>
 

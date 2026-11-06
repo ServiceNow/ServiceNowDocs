@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Now Assist, agentic AI, AI readiness]
-breadcrumb: [Application readiness, ServiceNow AI implementation, Enable AI experiences]
+breadcrumb: [Application readiness, Assessing your AI readiness, Getting started with AI, Enable AI Experiences]
 ---
 
 # Knowledge Base readiness for AI on the ServiceNow AI Platform

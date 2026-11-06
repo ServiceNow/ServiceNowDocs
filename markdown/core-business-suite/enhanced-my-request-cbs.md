@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/enhanced-my-request-cbs.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Enhanced My Request, Core Business Suite, Health and Safety, Finance, requests]
 breadcrumb: [Use, Core Business Suite]

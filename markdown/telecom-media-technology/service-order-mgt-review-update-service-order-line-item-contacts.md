@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/service-order-mgt-review-update-service-order-line-item-contacts.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Review service order details, Service orders for fulfillment, Use, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -75,15 +75,15 @@ Email address for the customer contact.
 </td></tr></tbody>
 </table>4.  To add or delete a service order customer contact, perform one of the following actions.
 
-<table id="choicetable_sdj_w33_bqb"><thead><tr><th align="left" id="d47261e176">
+<table id="choicetable_sdj_w33_bqb"><thead><tr><th align="left" id="d49446e176">
 
 Action
 
-</th><th align="left" id="d47261e179">
+</th><th align="left" id="d49446e179">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d47261e185">
+</th></tr></thead><tbody><tr><td id="d49446e185">
 
 **Add a service order customer contact**
 
@@ -94,7 +94,7 @@ Description
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d47261e212">
+</td></tr><tr><td id="d49446e212">
 
 **Delete a service order customer contact**
 

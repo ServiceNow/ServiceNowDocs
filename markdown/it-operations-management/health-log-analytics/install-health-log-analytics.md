@@ -7,7 +7,7 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [HLA installation, Health Log Analytics installation, installing HLA, installing Health Log Analytics, installing ServiceNow HLA, installing ServiceNow Health Log Analytics]
 breadcrumb: [Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
@@ -21,7 +21,7 @@ Install Health Log Analytics by requesting ServiceNow HLA installation from Serv
 
 Verify that the Health Log Analytics application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. To obtain the entitlements, contact your ServiceNow Solution Consultant.
 
-The minimum version of the ServiceNow AI Platform required for Health Log Analytics installation is Australia.
+The minimum version of the ServiceNow AI Platform required for Health Log Analytics installation is Brazil.
 
 **Important:** Health Log Analytics uses the default user sn\_occ\_occultus for internal communication. Make sure that this user is active and do not deactivate it.
 

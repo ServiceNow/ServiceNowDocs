@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -311,4 +311,6 @@ User-defined attribute.**Note:** All the other attributes are predefined in the 
 |----|---------------------|-----------|
 |Solid line|\[Omitted image "link-view-solid-line.png"\] Alt text: Solid line linking attributes in Link View.|Solid line linking attributes in Link View, indicating that the attributes share one or more alerts.|
 |Dotted line|\[Omitted image "link-view-dotted-line.png"\] Alt text: Dotted line linking attributes in Link View.|Dotted line linking attributes in Link View, indicating that the attributes are correlated by grouping criteria.|
+
+**Parent Topic:**[Express List reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/express-list-reference.md)
 

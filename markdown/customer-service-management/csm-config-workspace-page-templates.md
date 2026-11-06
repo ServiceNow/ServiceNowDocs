@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-config-workspace-page-templates.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-10-13"
 reading_time_minutes: 2
 breadcrumb: [Record pages and page templates, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -56,7 +56,7 @@ CSM voice interaction record
 
 </td><td>
 
-The CSM voice interaction record template enables customers to create voice interaction record page variants and customize them as needed. This template includes customizable views for different CCaaS providers as well as real-time updates and notifications.Record pages and page variants created with this template enable agents to manage phone calls with customers and external users and to display information that helps agents to resolve issues. Use this template to customize and extend CSM functionality around phone interaction management. Additionally, you can configure a CCaaS provider to integrate features such as call transcript.
+The CSM voice interaction record template enables customers to create voice interaction record page variants and customize them as needed. This template includes customizable views for different CCaaS providers as well as real-time updates and notifications.Record pages and page variants created with this template enable agents to manage phone calls with customers and external users. They also display information that helps agents to resolve issues. Use this template to customize and extend CSM functionality around phone interaction management. Additionally, you can configure a CCaaS provider to integrate features such as call transcript.
 
 </td></tr><tr><td>
 
@@ -64,12 +64,10 @@ CSM centered chat interaction record page
 
 </td><td>
 
-The CSM centered chat interaction record template brings the chat component to the center of the workspace and give agents greater visibility and access to customer chat conversations. This page view enables agents to manage chats and displays information, such as customer history and interaction details, that help agents to resolve issues.
+The CSM centered chat interaction record template moves the chat component to the center of the workspace and gives agents access to customer chat conversations. This page view enables agents to manage chats and displays information, such as customer history and interaction details, that help agents resolve issues.Use the CSM centered chat interaction record template to create chat interaction record page variants and customize them as needed. For more information, see [Creating pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-csm-ws-create-page-variant.md).
 
 </td></tr></tbody>
-</table>For more information, see [Create a page from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/reuse-page-definitions.md) in the UI Builder documentation.
-
-## Record presence feature
+</table>## Record presence feature
 
 Pages that you create from the CSM record page template and the CSM Interaction record page templates have the record presence feature available. This feature lets you see the users who are currently viewing a record. For more information, see [User presence component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-default-record-page.md).
 

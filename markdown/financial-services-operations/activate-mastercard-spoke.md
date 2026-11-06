@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/activate-mastercard-spoke.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Mastercard, Integrate, Financial Services Operations \(FSO\)]
 ---
@@ -24,6 +24,6 @@ Role required: admin
 
 2.  To customize the connection configuration, access the connection settings in **Flow Designer** &gt; **Connections** and select **Mastercard**.
 
-    For more information on how to update the connection configuration, see .
+    For more information on how to update the connection configuration, see [Mastercard Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mastercard-spoke.md).
 
 

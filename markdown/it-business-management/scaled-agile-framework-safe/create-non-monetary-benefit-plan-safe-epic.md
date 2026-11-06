@@ -7,7 +7,7 @@ release: australia
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Define an epic in SAFe, SAFe entities, Essential SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -121,7 +121,7 @@ Field to indicate when the benefits start to be realized. Select any of the foll
 -   **Milestone**: After completion of a milestone.
 -   **Start Date**: At the start of the epic.
 -   **End Date**: After the epic ends.
- If the value in the **Offset type** field changes, the benefit plan start date shifts accordingly. For example, if the **Offset type** field is set to **End Date** and the end date of the epic changes, the start date of the benefit plan shifts to align with the new end date of the epic.
+ If the value in the **Offset type** field changes, the benefit plan start date shifts accordingly. For example, consider the **Offset type** field is set to **End Date** and the end date of the epic changes. Then the start date of the benefit plan shifts to align with the new end date of the epic.
 
 </td></tr><tr><td>
 

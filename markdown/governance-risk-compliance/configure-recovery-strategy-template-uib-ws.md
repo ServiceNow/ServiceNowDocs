@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/configure-recovery-strategy-template-uib-ws.html
 release: australia
 topic_type: task
-last_updated: "2026-05-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Structured workflows for BCPs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_bcm.admin, sn\_bcm.program\_manager, or sn\_bcm.planner
 
 ## About this task
 
-Recovery strategy templates capture the implementation profile of a strategy \(estimated time to implement, maximum duration of use, estimated % of operations achieved, and supporting comments\). The same strategy can then be applied to multiple loss scenarios across plans. When you create a plan from a plan template that references a recovery strategy template, the strategy and task template groups are pre-populated on the loss scenario.
+Recovery strategy templates capture the implementation profile of a strategy. This includes estimated time to implement, maximum duration of use, estimated % of operations achieved, and supporting comments. The same strategy can be applied to multiple loss scenarios across plans. When a plan is created from a plan template that references a recovery strategy template, the strategy and task template groups are pre-populated. This eliminates manual re-entry.
 
 \[Omitted image "recovery-strategy-template-form.png"\] Alt text: Recovery strategy template form showing Name, Description, and Implementation Details section.
 

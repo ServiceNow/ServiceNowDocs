@@ -7,7 +7,7 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-07-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configuring ServiceNow Otto for AI Search, ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -19,7 +19,7 @@ Summary Genius Results use an LLM to generate search and chat responses that syn
 
 ## Summary Genius Results overview
 
-Summary Genius Results is a skill in the Platform workflow. It's included in the Conversational experience skill group.
+Summary Genius Results is a Now Assist skill in the Platform workflow. It's included in the Conversational experience skill group.
 
 You can use this skill in portal search and in global/workspace search in place of the legacy Knowledge base articles Genius Results and Actions Genius Results configurations. It improves on those legacy Genius Result configurations in multiple ways:
 
@@ -122,7 +122,7 @@ If these requirements aren't met, topic citations from global or workspace searc
 
 ## Asking follow-up questions
 
-In portal search, workspace search, and ServiceNow Otto for Virtual Agent enhanced chat, Summary Genius Result answer cards display an **Ask a follow-up** link after the synthesized response.
+In portal search, workspace search, and Now Assist in Virtual Agent enhanced chat, Summary Genius Result answer cards display an **Ask a follow-up** link after the synthesized response.
 
 Selecting this link opens the ServiceNow Otto panel so you can ask follow-up questions in the context of the Genius Result answer.
 
@@ -145,13 +145,15 @@ For details on activating Summary Genius Results in global and workspace search,
 
 .
 
+AI Search Assist doesn't support Summary Genius Results. To display Genius Results in a record producer, use the . AI Search Assist displays only AI Search results. For more information, see [AI Search Assist record producer integration for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/ai-search-assist.md).
+
 ## Large language model \(LLM\) providers
 
 By default, Summary Genius Results use the Azure OpenAI model as the AI service provider. The Now LLM Service is used as a fallback AI service provider.
 
-With the admin role, you can use AI Admin Hub to select a different LLM to use as the AI service provider for Summary Genius Results. For details on selecting the LLM for Platform workflow skills, see [Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md).
+With the admin role, you can use AI Admin Hub to select a different LLM to use as the AI service provider for Summary Genius Results. For details on selecting the LLM for Platform workflow Now Assist skills, see [Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md).
 
-Summary Genius Results supports these LLMs:
+As a Now Assist skill, Summary Genius Results supports these LLMs:
 
 -   AWS Anthropic
 -   Azure OpenAI

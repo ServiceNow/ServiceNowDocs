@@ -7,7 +7,7 @@ release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Reference, Microsoft Azure, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -357,6 +357,18 @@ Set this property to `true` to import Cloud OS Image data to the Cloud Image \[c
 -   Default value: `false`
 -   Location: System Property \[sys\_properties\] table
 
+</td></tr><tr><td>
+
+sn\_cmdb\_ci\_class.use\_single\_cloud\_os\_image
+
+</td><td>
+
+Set this property to `true` to import Cloud OS Image data to the Cloud Image \[cmdb\_ci\_cloud\_os\_image\] table. When this property is set to `false`, Cloud OS Image data is imported to the Image \[cmdb\_ci\_os\_template\] table.For more information, see the [Service Graph Connector For Azure - Cloud OS Image model \[KB2828502\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2828502) article in the Now Support Knowledge Base.
+
+-   Type: true \| false
+-   Default value: `false`
+-   Location: System Property \[sys\_properties\] table
+
 </td></tr></tbody>
 </table>## Custom system properties
 
@@ -393,13 +405,30 @@ Set the property to `false` to filter out Azure Databricks CIs during delta load
 
 </td></tr><tr><td>
 
-sn\_sg\_azure\_integ.sg\_azure\_generic\_resource\_type\_dynamic\_create
+sg\_azure\_generic\_resource\_type\_dynamic\_create
 
 </td><td>
 
-Set the value to `true` to add new resource types to the Service Graph Resource Inclusion Whitelist \[sn\_cmdb\_int\_util\_service\_graph\_resource\_inclusion\_whitelist\] table.-   Type: true \| false
+Set the property to `true` to populate supported resources in the Service Graph Resource Inclusion Whitelist \[sn\_cmdb\_int\_util\_service\_graph\_resource\_inclusion\_whitelist\] table.-   Type: true \| false
 -   Default value: `false`
 -   Location: System Property \[sys\_properties\] table
+
+When the **sg\_azure\_generic\_resource\_type\_dynamic\_create** system property is set to `true`, the connector populates the following generic resources in the Service Graph Resource Inclusion Whitelist \[sn\_cmdb\_int\_util\_service\_graph\_resource\_inclusion\_whitelist\] table.
+
+-   Microsoft.Compute/availabilitySets
+-   Microsoft.Compute/disks
+-   Microsoft.Compute/locations
+-   Microsoft.Compute/virtualMachines
+-   Microsoft.DBforPostgreSQL/servers
+-   Microsoft.Network/loadBalancers
+-   Microsoft.Network/networkInterfaces
+-   Microsoft.Network/networkSecurityGroups
+-   Microsoft.Network/publicIPAddresses
+-   Microsoft.Network/virtualNetworks
+-   Microsoft.ResourceGraph/resources
+-   Microsoft.Sql/servers
+-   Microsoft.Storage/storageAccounts
+-   Microsoft.Web/sites
 
 </td></tr></tbody>
 </table>## Related content

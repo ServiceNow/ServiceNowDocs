@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-recall-claim-submission-use-case.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [recall claim, dealer portal, OEM reimbursement]
 breadcrumb: [Recall campaign, MCO core, Explore, Manufacturing Commercial Operations]

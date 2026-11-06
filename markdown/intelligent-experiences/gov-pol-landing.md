@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/gov-pol-landing.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Govern AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Controlling AI asset usage in AI Control Tower
@@ -31,15 +31,15 @@ Create AI asset usage policies that automatically respond to detected AI threats
 
 </td></tr><tr><td>
 
+[Manage Arc policies\[Omitted image "bus-security.svg"\] Alt text:Control what Arc can do on your users' devices.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-pol-managing-arc-policies.md)
+
+</td><td>
+
 [Review enforcement activity\[Omitted image "bus-discover.svg"\] Alt text:Review and audit policy activity.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-pol-reviewing-enforcement-activity.md)
 
 </td><td>
 
 [Reference\[Omitted image "bus-learn.svg"\] Alt text:Details on threat categories and where policies are enforced.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-pol-reference.md)
-
-</td><td>
-
- 
 
 </td></tr></tbody>
 </table>**Important:**
@@ -60,4 +60,6 @@ This application requires data to be transferred from ServiceNow customers' indi
 ## Data collection
 
 ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+
+For more information, see the [ServiceNow AI documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-products.md).
 

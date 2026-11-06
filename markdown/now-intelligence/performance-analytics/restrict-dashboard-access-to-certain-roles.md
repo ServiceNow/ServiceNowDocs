@@ -1,20 +1,20 @@
 ---
 title: Restrict responsive dashboard access to specific roles
-description: Specify additional roles required to access the dashboard when you share a dashboard with specified users, groups, and roles. Only users who the dashboard has been shared with and who have one of the specified roles are able to access the dashboard.
+description: Specify additional roles required to access the dashboard when you share a dashboard with specified users, groups, and roles. Only users who the dashboard has been shared with and who have one of the specified roles can access the dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/restrict-dashboard-access-to-certain-roles.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Dashboard permissions, Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Core UI dashboard permissions, Administering Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Restrict responsive dashboard access to specific roles
 
-Specify additional roles required to access the dashboard when you share a dashboard with specified users, groups, and roles. Only users who the dashboard has been shared with and who have one of the specified roles are able to access the dashboard.
+Specify additional roles required to access the dashboard when you share a dashboard with specified users, groups, and roles. Only users who the dashboard has been shared with and who have one of the specified roles can access the dashboard.
 
 ## Before you begin
 

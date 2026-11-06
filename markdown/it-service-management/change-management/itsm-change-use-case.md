@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Applying CSDM guidelines to Change Management, Configure, Change Management, IT Service Management]
 ---
@@ -54,7 +54,7 @@ When you use Change Management with other ServiceNow products, you increase the 
 
 ## Products that benefit from Change Management
 
--   **Service Portfolio Management \(Service Portfolio Management\)**
+-   **Service Portfolio Management \(\)**
 
     Services have the context of the business and applications, along with the information and technologies that underpin them.
 

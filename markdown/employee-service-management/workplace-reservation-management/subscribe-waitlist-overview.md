@@ -7,9 +7,9 @@ release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: concept
-last_updated: "2026-06-09"
-reading_time_minutes: 6
-breadcrumb: [Manage employee reservations, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 8
+breadcrumb: [Reserve workplace items, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Manage and configure reservation waitlist
@@ -48,7 +48,7 @@ The following steps describe the waitlist lifecycle:
 6.  Employees receive an email notification and a push notification that a space is assigned for reservation. For all stages of a Waitlist record lifecycle, employees receive an email and push notification \(Queued, Confirmed, Completed, and Expired\).
 7.  Workplace reservation event planners can update the weight or priority of a queued waitlist record to move it up in the queue for confirmation.
 
-    The application fetches the waitlist queue records and assigns a space based on the highest weight or priority assigned for a queued waitlist. If weight or priority is missing for a queued waitlist, the application checks for **Created** column value in the Workplace Reservation table. It prioritizes space assignments based on the first in, first out \(FIFO\) logic or first-come, first-served basis . Based on the start time of a queued waitlist record, space assignment is done. The oldest record or a record with the oldest start time is prioritized. Recent or newly added waitlist records are queued and wait behind all previously queued records. For more information, see [Reservation Waitlist data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/waitlist-configuration.md).
+    The application fetches the waitlist queue records and assigns a space based on the highest weight or priority assigned for a queued waitlist. If weight or priority is missing for a queued waitlist, the application checks for **Created** column value in the Workplace Reservation table. It prioritizes space assignments based on the first in, first out \(FIFO\) logic or first-come, first-served basis. Based on the start time of a queued waitlist record, space assignment is done. The oldest record or a record with the oldest start time is prioritized. Recent or newly added waitlist records are queued and wait behind all previously queued records. For more information, see [Reservation Waitlist data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/waitlist-configuration.md).
 
     For more information, see [Reservation Waitlist data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/waitlist-configuration.md).
 
@@ -61,23 +61,47 @@ The following steps describe the waitlist lifecycle:
 9.  The**Waitlist expiration** scheduled job runs nightly . It removes canceled, expired, or queued waitlist records with an older start time \(timestamp\). If no space is available on the requested start time and date, the waitlist entry expires automatically. The waitlist expiration scheduled job removes or expires stale or past waitlisted records. The expired records aren't permanently removed from the system. For more information, see [Create a schedule job for waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/schedule-job-waitlist.md).
 10. Expired and canceled entries older than one month are permanently deleted from the system . For more information, see [Purge a waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/purge-waitlist.md).
 
-1.  [Reservation Waitlist data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/waitlist-configuration.md)  
-The Reservation Waitlist data model describes the tables and configuration options that support waitlist requests, space allocation, and reservation fulfillment for employees.
-2.  [Create a reservation waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/create-rsv-waitlist.md)  
-When work spaces in a location are fully booked, and employees are unable to find a space, they can join a reservation waitlist.
-3.  [Create a schedule job for waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/schedule-job-waitlist.md)  
-A nightly scheduled job Waitlist Expirations handles expiration of past or stale waitlist records that are in Queued state. The nightly job runs daily and sets the status of any record with an expired or stale stale start time.
-4.  [Purge a waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/purge-waitlist.md)  
+-   **[Create a schedule job for waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/schedule-job-waitlist.md)**  
+A nightly scheduled job Waitlist Expirations handles expiration of past or stale waitlist records that are in Queued state. The nightly job runs daily and sets the status of any record with an expired or stale start time.
+-   **[Purge a waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/purge-waitlist.md)**  
 An auto flush rule on the Reservation Waiting List \(**sn\_wsd\_rsv\_waitlist**\) table purges expired waitlist records older than 30 days to maintain accurate waitlist management reporting.
 
-**Parent Topic:**[Manage employee reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/manage-reservation-requests.md)
+**Parent Topic:**[Reserve workplace items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/reserve-workplace-items.md)
 
 **Related topics**  
 
 
-[View or update reservations]()
+[Create a reservation]()
 
-[Approve a reservation]()
+[Auto-resolve recurring reservations]()
 
-[Print workplace reservations]()
+[Add invitees as collaborators and create a reservation]()
+
+[Set a location as favorite using the Space details page]()
+
+[Reserve a space near your colleague]()
+
+[Create a multi-day reservation]()
+
+[Create multi-building reservations]()
+
+[Create neighborhood reservations]()
+
+[Create reservation for multiple workplace items]()
+
+[Enable shift-based reservation]()
+
+[Create a reservation along with a shared reservation]()
+
+[Create a reservation including a virtual meeting link]()
+
+[Create a shift reservation]()
+
+[Create a group reservation]()
+
+[Share, modify, or cancel a reservation]()
+
+[Reserve a workplace using the Quick Reservation widget]()
+
+[Download an iCalendar for a reservation]()
 

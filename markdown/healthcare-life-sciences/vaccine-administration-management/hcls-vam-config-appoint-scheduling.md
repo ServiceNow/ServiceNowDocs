@@ -7,7 +7,7 @@ release: australia
 product: Vaccine Administration Management
 classification: vaccine-administration-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure the patient portal, Configure, Vaccine Administration Management, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Configure the patient portal, Configure, Vaccine Administration Man
 
 You can configure advanced appointment scheduling for a vaccination center based on the available inventory.
 
-As a user with the sn\_vaccine\_sm.admin role, you can configure the scheduling by updating the **Schedule vaccine appointment** record producer. For details on how to configure a record producer, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_RecordProducer.md).
+As a user with the sn\_vaccine\_sm.admin role, you can configure the scheduling by updating the **Schedule vaccine appointment** record producer. For details on how to configure a record producer, see Record Producer.
 
 Also, you can configure location-specific and inventory-based appointment scheduling. For details, see:
 

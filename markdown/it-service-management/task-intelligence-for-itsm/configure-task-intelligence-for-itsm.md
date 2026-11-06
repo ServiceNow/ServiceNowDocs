@@ -7,7 +7,7 @@ release: australia
 product: Task Intelligence for ITSM
 classification: task-intelligence-for-itsm
 topic_type: concept
-last_updated: "2026-08-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Task Intelligence for ITSM, field level predictions, similar records, actionable recommendations, Service Operations Workspace, prediction model, install application, ServiceNow Store, train prediction model, deploy prediction model, incidents, ITSM]
 audience: administrator

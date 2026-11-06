@@ -7,7 +7,7 @@ release: australia
 product: Knowledge Management
 classification: knowledge-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 33
 breadcrumb: [Knowledge Management reference, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -232,7 +232,7 @@ This property contains the bots' name patterns, which are used to determine whet
 
 Knowledge search properties give you control over the search options available to users and the presentation of search results.
 
-**Note:** Knowledge search properties is only applicable to Zing search. To configure AI search implementation, see [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configuring-ais.md).
+**Note:** Knowledge search properties is only applicable to Zing search. To configure AI search implementation, see Configuring AI Search.
 
 <table id="table_cr4_tb3_54"><thead><tr><th>
 

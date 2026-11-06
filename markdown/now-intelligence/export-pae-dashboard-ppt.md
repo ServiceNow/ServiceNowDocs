@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/export-pae-dashboard-ppt.html
 release: australia
 topic_type: task
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Working with in-line dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -21,61 +21,10 @@ Role required: Any, as long as the user has access to the dashboard.
 **Note:**
 
 -   This task only applies to dashboards created in the inline editor. Technical dashboards don't have the **Export** option in the **More actions** menu. For more information, see [Technical dashboards compared to inline dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/technical-vs-in-line-dashboards.md).
--   Dashboards can be exported only as PowerPoint and PDF, however, in a dashboard some of the data visualizations can't be exported, as shown in the following table:
-
-<table id="table_rfj_tf5_zjc"><thead><tr><th>
-
-File type
-
-</th><th>
-
-Supported DV type
-
-</th><th>
-
-Unsupported DV type
-
-</th></tr></thead><tbody><tr><td>
-
-PDF
-
-</td><td>
-
--   Pivot tables
--   Lists
--   Other data visualizations
-
-
-</td><td>
-
--   Calendar reports
--   Indicator scorecards
--   Geomap
--   Non-data visualization dashboard elements, like Headings
-
-
-</td></tr><tr><td>
-
-PowerPoint \(PPT\)
-
-</td><td>
-
--   Pivot tables
--   Other data visualizations
-
-
-</td><td>
-
--   Calendar reports
--   Indicator scorecards
--   Geomap
--   Non-data visualization dashboard elements, like Headings
-
-
-</td></tr></tbody>
-</table>-   Only the supported data visualizations and Lists are exported, not Headings or Rich Text or any other element.
--   Content is not necessarily exported in the order it appears on the dashboard.
--   Because the length of a list can't be predicted, list visualizations are intentionally placed at the end of exported PDFs.
+-   Calendar, geomap, and indicator scorecard visualizations aren't supported for export. Lists aren't supported for export to PowerPoint. These visualization types will not appear in the exported file.
+-   Only the supported data visualizations and Lists \(PDF\) are exported, not Headings or Rich Text or any other element.
+-   Supported content, except for List visualizations, is exported in the order it appears on the dashboard: Top layout, left to right and top to bottom, and then each tab, left to right and top to bottom. Because the length of a list can't be predicted, list visualizations are intentionally placed at the end of exported PDFs.
+-   If a List visualization has a title, it is used in the export. If it doesn't have a title, the source table name is used instead.
 -   Depending on your entitlements, you may be able export a dashboard conversationally through the ServiceNow Otto panel. See [Export dashboards and data visualizations from the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/export-db-dv-now-assist-panel.md).
 -   Dashboards exported to PowerPoint include the title above and the description below each visualization in an editable format if this information is provided in the source visualization.
 
@@ -96,6 +45,8 @@ PowerPoint \(PPT\)
 5.  If you're exporting to PDF, specify the page format and orientation.
 
     **Note:** For PowerPoint, the export creates a separate slide for each visualization in the dashboard, not one slide for each tab on the dashboard.
+
+    For exported PDFs, each visualization occupies its own page in the PDF.
 
 6.  Set the following options:
 
@@ -121,7 +72,9 @@ Export all visualizations in the top layout
 
 </td><td>
 
-If the dashboard has more than one tab and you aren't exporting all of the tabs, you can set whether to export any visualizations that are in the layout outside the tabs.\[Omitted image "db-top-level-layout-mini.png"\] Alt text: Dashboard with visualizations in a tab and in the top layout.
+If the dashboard has more than one tab and you aren't exporting all of the tabs, you can set whether to export any visualizations that are in the layout outside the tabs.If you are exporting all of the tabs, content in the top layout appears first in the export.
+
+\[Omitted image "db-top-level-layout-mini.png"\] Alt text: Dashboard with visualizations in a tab and in the top layout.
 
 Only the supported data visualizations and Lists \(PDF\) are exported in the top layout. Headings, Rich Text, and other element aren't supported.
 

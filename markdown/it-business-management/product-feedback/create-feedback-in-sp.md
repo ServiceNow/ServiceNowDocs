@@ -7,7 +7,7 @@ release: australia
 product: Product Feedback
 classification: product-feedback
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Feedback in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -28,15 +28,15 @@ Role required: pf\_user
 
 3.  Select **Feedback** and then choose one of these options to create a feedback.
 
-<table id="choicetable_psy_rgg_dbc"><thead><tr><th align="left" id="d241658e87">
+<table id="choicetable_psy_rgg_dbc"><thead><tr><th align="left" id="d250384e87">
 
 Choice
 
-</th><th align="left" id="d241658e90">
+</th><th align="left" id="d250384e90">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d241658e96">
+</th></tr></thead><tbody><tr><td id="d250384e96">
 
 **All feedback**
 
@@ -46,7 +46,7 @@ From the feedback page:-   Select **All feedback** card to view all the feedback
 -   Select **New feedback** from either the overview or list page.
 
 
-</td></tr><tr><td id="d241658e122">
+</td></tr><tr><td id="d250384e122">
 
 **New filter**
 
@@ -57,7 +57,7 @@ From the feedback page:-   Select **New filter** to create a new filter based on
 -   Select **New feedback** from either overview or list page.
 
 
-</td></tr><tr><td id="d241658e155">
+</td></tr><tr><td id="d250384e155">
 
 **Existing filter**
 

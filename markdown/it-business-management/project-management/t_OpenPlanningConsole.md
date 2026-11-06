@@ -7,7 +7,7 @@ release: australia
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Planning console - Legacy, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -24,15 +24,15 @@ Role required: it\_project\_manager
 
 -   Open the planning console using any of the following methods.
 
-<table id="choicetable_tt5_jhn_sdb"><thead><tr><th align="left" id="d295590e68">
+<table id="choicetable_tt5_jhn_sdb"><thead><tr><th align="left" id="d307135e68">
 
 Option
 
-</th><th align="left" id="d295590e71">
+</th><th align="left" id="d307135e71">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d295590e77">
+</th></tr></thead><tbody><tr><td id="d307135e77">
 
 **From project workspace**
 
@@ -42,7 +42,7 @@ Steps
 2.  Select the **Planning** tab.
 
 
-</td></tr><tr><td id="d295590e105">
+</td></tr><tr><td id="d307135e105">
 
 **From a project record**
 
@@ -52,7 +52,7 @@ Steps
 2.  Select the **Planning Console** related link.
 
 
-</td></tr><tr><td id="d295590e129">
+</td></tr><tr><td id="d307135e129">
 
 **From Project Workbench**
 

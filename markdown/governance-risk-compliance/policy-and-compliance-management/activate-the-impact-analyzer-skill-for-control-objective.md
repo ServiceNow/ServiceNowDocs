@@ -7,7 +7,7 @@ release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Otto for Integrated Risk Management \(IRM\), Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -44,6 +44,6 @@ To recommend impacted control objectives, predefined similarity parameters are u
 
     The Review and Activate tab displays information about who can access the skill and the data and resources \(tables and roles\) that the skill can access.
 
-    A skill activation success message appears. After the skill is activated, the **Analyze change** button is available on the citation page for users with the appropriate access.
+    A skill activation success message appears. After the skill is activated, the **Analyze change** button becomes available on the citation page for users with the appropriate access.
 
 

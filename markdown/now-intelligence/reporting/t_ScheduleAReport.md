@@ -7,9 +7,9 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 11
-breadcrumb: [Distribute reports, Core UI Reporting, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+last_updated: "2026-09-10"
+reading_time_minutes: 12
+breadcrumb: [Distribute Core UI reports, Using Core UI reporting, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Schedule emails of Core UI reports
@@ -20,13 +20,13 @@ Generate and distribute scheduled reports via email.
 
 Role required: report\_scheduler, report\_admin, admin
 
-This topic refers to Reporting in the Core UI. For instances migrated to Platform Analytics experience and new Australia instances, see [Schedule the export of data visualizations or dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/schedule-visn-export-vd.md).
+This topic refers to Reporting in the Core UI. For instances migrated to Platform Analytics experience and new Brazil instances, see [Schedule the export of data visualizations or dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/schedule-visn-export-vd.md).
 
 ## About this task
 
 Scheduled reports can be distributed in PDF, CSV, or XLS format. Graphical reports can be distributed in PNG or PDF format. Multilevel pivot reports can only be scheduled in PDF format.
 
-This topic refers to Reporting in the Core UI. If your instance is migrated to Platform Analytics experience, see [Export a data visualization from the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/export-visualization-vd.md).
+This topic refers to Reporting in the Core UI. If your instance is migrated to Platform Analytics experience, see [Export a Platform Analytics data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/export-visualization-vd.md).
 
 **Note:**
 
@@ -38,7 +38,7 @@ This topic refers to Reporting in the Core UI. If your instance is migrated to P
 
 1.  Navigate to **All** &gt; **Platform Analytics experience** &gt; **Schedules** &gt; **Scheduled Reports**.
 
-    On instances with Unified Analytics enabled, and on new Australia instances, both Core UI reports and Platform Analytics experience data visualizations are found in the Platform Analytics library. Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**. For more information, see [Differences between Core UI and Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/differences-between-core-ui-ne-dbs.md).
+    On instances with Unified Analytics enabled, and on new Brazil instances, both Core UI reports and Platform Analytics experience data visualizations are found in the Platform Analytics library. Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**. For more information, see [Differences between Core UI and Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/differences-between-core-ui-ne-dbs.md).
 
 2.  Select **New**.
 
@@ -190,11 +190,21 @@ Duration of the repeat interval for each scheduled job execution. Enter the dura
 
 </td></tr><tr><td>
 
+Advanced
+
+</td><td id="advanced-sched-job">
+
+Enables advanced scheduling options for greater flexibility in job planning and execution. You can configure jobs to start on a future date, end on a particular date, and define how the job should repeat. For more information, see [Advanced options for scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/advanced-options-for-scheduled-jobs.md).
+
+</td></tr><tr><td>
+
 Starting
 
-</td><td>
+</td><td id="starting-field">
 
-Allows you to define the beginning window of time when you would like your job to start running. The job will actually run at the time specified in **Run time**. Select the calendar date and time. The **Starting** field appears only if you select one of the following **Run** types in the **Run** field:-   **Daily**
+Allows you to define the beginning window of time \(date and time\) when you would like your job to start running. Within this window, the job actually starts at the time specified in the **Time** field.The **Starting** field appears only if you select the **Advanced** option and one of the following values in the **Run** field:
+
+-   **Daily**
 -   **Day and Month in Year**
 -   **Day in Week in Month in Year**
 -   **Monthly**
@@ -202,7 +212,29 @@ Allows you to define the beginning window of time when you would like your job t
 -   **Periodically**
 -   **Week in Month**
 -   **Weekly**
-For the run type **Periodically**, the **Starting** time is the date and time of the first scheduled job generation.
+For the run type **Periodically**, the starting time is the date and time of the first scheduled job generation.
+
+For more information, see [Advanced options for scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/advanced-options-for-scheduled-jobs.md#section_byj_fjk_cjc).
+
+</td></tr><tr><td>
+
+Ending
+
+</td><td id="ending-field">
+
+Allows you to define the ending window of time \(date and time\) when you would like your job to stop running. Within this window, the job actually stops at the time specified in the **Time** field.The **Ending** field appears only if you select the **Advanced** option and one of the following values in the **Run** field:
+
+-   **Daily**
+-   **Day and Month in Year**
+-   **Day in Week in Month in Year**
+-   **Monthly**
+-   **Once**
+-   **Periodically**
+-   **Week in Month**
+-   **Weekly**
+For the run type **Periodically**, the ending time is the date and time of the first scheduled job generation.
+
+For more information, see [Advanced options for scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/advanced-options-for-scheduled-jobs.md#section_byj_fjk_cjc).
 
 </td></tr><tr><td>
 
@@ -357,7 +389,7 @@ Shows when **Page size** is set to **Custom**. For non-standard paper sizes, mul
 
 To edit a scheduled email report, open it from the Scheduled Reports list. To delete a report, delete its row from the Scheduled Reports list.
 
-**Parent Topic:**[Distribute reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_DistributeReports.md)
+**Parent Topic:**[Distribute Core UI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_DistributeReports.md)
 
 ## Report output formats
 
@@ -417,5 +449,5 @@ If the data in the scheduled report is different than expected, the user who set
 **Related topics**  
 
 
-[Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/report-view-access-control.md)
+[Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/report-view-access-control.md)
 

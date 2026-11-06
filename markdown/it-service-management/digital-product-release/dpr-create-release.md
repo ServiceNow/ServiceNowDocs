@@ -7,7 +7,7 @@ release: australia
 product: Digital Product Release
 classification: digital-product-release
 topic_type: task
-last_updated: "2026-08-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Use, Digital Product Release, IT Service Management]
 ---
@@ -39,15 +39,15 @@ For creating a release for multiple products using the wizard, see [Create a rel
 
 2.  Create a release for a product version from the Release planning page or the Releases list view.
 
-<table id="choicetable_mxj_fsr_lyb"><thead><tr><th align="left" id="d106627e166">
+<table id="choicetable_mxj_fsr_lyb"><thead><tr><th align="left" id="d160916e166">
 
 Option
 
-</th><th align="left" id="d106627e169">
+</th><th align="left" id="d160916e169">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d106627e175">
+</th></tr></thead><tbody><tr><td id="d160916e175">
 
 **From the Release planning page of a product**
 
@@ -59,7 +59,7 @@ Steps
 4.  Select the sub menu icon \(\[Omitted image "dpr-icon-menu.png"\] Alt text: Sub menu icon.\) on a version lane and select the **Create release** menu option.
 
 
-</td></tr><tr><td id="d106627e226">
+</td></tr><tr><td id="d160916e226">
 
 **From the Releases list view**
 

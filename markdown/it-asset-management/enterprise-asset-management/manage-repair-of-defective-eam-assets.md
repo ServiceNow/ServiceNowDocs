@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
@@ -40,7 +40,7 @@ As an asset manager, you can request repair of assets that are either defective 
 **Note:** You can specify the reason for the asset failure using failure codes in the Troubleshoot asset and Repair asset tasks. You can also specify the solution that you applied to address the asset issue using the resolution codes in the Repair asset task. These details are also available on the repair order line form. For more details, see [Manage failure and resolution codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/manage-failure-res-codes-eam.md).
 
 -   **[Request repair of defective enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/request-repair-defective-eam-assets.md)**  
-As an enterprise asset manager, you can get the defective enterprise assets repaired by creating Repair orders.
+As an enterprise asset manager, you can repair your defective enterprise assets by creating Repair orders.
 -   **[Fulfilling repair orders in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/fulfilling-repair-orders-eam.md)**  
 You can fulfill repair orders for your defective and out-of-warranty enterprise assets by completing all repair asset tasks that are associated with the corresponding repair order lines. You can fulfill these orders either manually or through the help repair enterprise assets agentic workflow.
 -   **[Record time worked on asset repair tasks in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/record-repair-time-eam-ws.md)**  

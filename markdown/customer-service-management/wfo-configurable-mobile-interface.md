@@ -1,16 +1,16 @@
 ---
-title: Mobile Experience for Workforce Optimization for Customer Service
+title: Mobile experience for Workforce Optimization for Customer Service
 description: Manage customer service cases from your mobile device with the Now Mobile Agent application. You can stay connected and access information in real time so that you can complete your tasks quickly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/wfo-configurable-mobile-interface.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
 
-# Mobile Experience for Workforce Optimization for Customer Service
+# Mobile experience for Workforce Optimization for Customer Service
 
 Manage customer service cases from your mobile device with the Now Mobile Agent application. You can stay connected and access information in real time so that you can complete your tasks quickly.
 

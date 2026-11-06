@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-aiadmincenter-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
@@ -385,7 +385,10 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[AI Admin Center Next Experience workspace](https://www.servicenow.com/docs/access?context=now-assist-center-workspace&family=australia&ft:locale=en-US)**
+
+The Next Experience AI Admin Center workspace is planned for deprecation in a future release and will no longer be supported. Lux is the new experience for AI Admin Center.
+
 
 </td></tr></tbody>
 </table>## Activation information

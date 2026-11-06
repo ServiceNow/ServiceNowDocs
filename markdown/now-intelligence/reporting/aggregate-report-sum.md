@@ -7,9 +7,9 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Aggregation in reporting, Reporting reference, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Aggregation in Core UI reporting, Core UI Reporting reference, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Aggregate a report on sum
@@ -42,4 +42,6 @@ Select **Sum** to show the sum of the field you aggregate on. For example, selec
 ## Result
 
 The sections of the visualization are grouped by the sum of the selected records. Select a duration field and the aggregated data is expressed in terms of days, hours, minutes, and seconds. Select an integer field, such as **Priority**, and the data is expressed as whole numbers.
+
+**Parent Topic:**[Aggregation in Core UI reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/aggregation-reporting.md)
 

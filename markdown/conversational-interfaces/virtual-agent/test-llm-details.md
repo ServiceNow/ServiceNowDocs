@@ -7,9 +7,9 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-04-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Testing LLM topics, Getting started with the Asset library in Assistant Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Testing LLM topics, Test and improve, Build conversations, Virtual Agent, Conversational Interfaces]
 ---
 
 # Test details
@@ -25,7 +25,7 @@ The following tabs are available when testing LLM topics:
 -   **Context**: Options for specifying the context \(using context variables\) in which a topic is run.
 -   **Logs**: List of the processing performed.
 
-The following tabs appear when you test their related topic types on the Virtual Agent Designer canvas:
+The following tabs appear when you test their related topic types on the Assistant Designer canvas:
 
 -   The **Analyze test phrases**, **Modify instructions**, **Variables**, and **Logs** tabs appear for all LLM topic types.
 -   The **Edit variables** tab appears for topic blocks and custom controls.
@@ -65,7 +65,7 @@ The **Variables** tab displays a list of all the variables used in the conversat
 
 -   Input variables
 -   Script variables
--   Live Agent variables
+-   Live agent variables
 -   Variables passed between a calling topic and topic block
 
 The list is separated into sections by variable types. The following example shows the Input variables section. Notice that for the static list control, both the display label and value are captured for the selected choice.

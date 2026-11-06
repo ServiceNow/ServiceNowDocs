@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [CI relationships in the CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -31,19 +31,19 @@ Role required:
 
     1.  Navigate to **All** &gt; **Configuration** &gt; **CI Class Manager**.
 
-    2.  Select **Hierarchy** to expand the CI Classes list. Then select the class to add a suggested relationship to.
+    2.  Select **Hierarchy** to expand the CI Classes list and then select the class to add a suggested relationship to.
 
-    3.  In the class navigation bar, click **Suggested Relationships**.
+    3.  In the class navigation bar, select **Suggested Relationships**.
 
-    4.  Click **New**.
+    4.  Select **New**.
 
     5.  In the Add Suggested Relationship dialog box, select a **Relationship** and a **Target Class** for the relationship. **This Class** and the **Target Class** become parent or child in the suggested relationship, based on your selection of the **Relationship**.
 
-    6.  Click **Save**.
+    6.  Select **Save**.
 
 2.  Or, navigate to **All** &gt; **Configuration** &gt; **Relationships** &gt; **Suggested Relationships**:
 
-    1.  Click **New**.
+    1.  Select **New**.
 
     2.  Complete the form.
 

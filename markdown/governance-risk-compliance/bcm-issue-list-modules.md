@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/bcm-issue-list-modules.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [BCM, issues, issue remediation tasks, List view]
 breadcrumb: [Managing issues from Business Continuity Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
@@ -27,7 +27,7 @@ The **Issues** module lists issues associated with your plan and event records, 
 
 ## Issue remediation tasks module
 
-The **Issue remediation tasks** module lists the remediation tasks created against those issues, filtered by the **Open** and **Closed** states.
+The **Issue remediation tasks** module lists remediation tasks created for those issues, filtered by the **Open** and **Closed** states.
 
 ## Issue triage module
 

@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Patterns, Azure, Cloud, Discovery, Visibility, CMDB, Service Graph Connector, Configuration item]
 breadcrumb: [Cloud discovery solutions comparison, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
@@ -866,22 +866,6 @@ Yes
 </td><td>
 
 cmdb\_ci\_linux\_server
-
-</td></tr><tr><td>
-
-microsoft.containerservice/managedclusters
-
-</td><td>
-
-Yes
-
-</td><td>
-
-Yes
-
-</td><td>
-
-cmdb\_ci\_kubernetes\_cluster
 
 </td></tr><tr><td>
 

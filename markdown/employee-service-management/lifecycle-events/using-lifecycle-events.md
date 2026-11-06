@@ -20,7 +20,7 @@ Use Lifecycle Events to automate the fulfillment of HR cases such as new hire on
 
 Each lifecycle event is a collection of activities that often span multiple departments and are organized into activity sets. To configure a lifecycle event, you must first document the business process for your event. Next, you must configure all of the supporting components. You can then configure the lifecycle event and its associated activity sets and activities. Finally, you configure a corresponding HR service so that the lifecycle event can be requested for service.
 
-\[Omitted image ""\] Alt text: In progress
+\[Omitted image "lifecycle-event-builder-ui.gif"\] Alt text: create Hire Onboarding Lifecycle Event in the Lifecycle Event tab with Active check box selected, and a description entered, and the activities selected in the Activity Sets tab.
 
 -   [Building a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/lifecycle-events/hr-lifecycle-event-configuration.md)
 

@@ -7,9 +7,9 @@ release: australia
 product: Emergency Outreach
 classification: emergency-outreach
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Emergency Outreach notifications, Emergency Outreach, Emergency Response Management, Employee Service Management]
+breadcrumb: [Configure Emergency Outreach notifications, Emergency Outreach, Emergency Response Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Modify notifications used with Emergency Outreach

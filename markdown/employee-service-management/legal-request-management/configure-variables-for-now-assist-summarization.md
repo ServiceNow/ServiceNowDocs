@@ -7,7 +7,7 @@ release: australia
 product: Legal Request Management
 classification: legal-request-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Now Assist, ServiceNow Otto, generative AI]
 breadcrumb: [Customize summarization skill, Configure AI capabilities for LSD, Configure, Legal Request Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
@@ -37,15 +37,15 @@ Role required: admin or sn\_lg\_ops.legal\_admin
 
 6.  Add a single variable or multiple variables to an intake form of the practice area.
 
-<table id="choicetable_f5z_wwd_w2c"><thead><tr><th align="left" id="d232234e129">
+<table id="choicetable_f5z_wwd_w2c"><thead><tr><th align="left" id="d232355e129">
 
 Option
 
-</th><th align="left" id="d232234e132">
+</th><th align="left" id="d232355e132">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d232234e138">
+</th></tr></thead><tbody><tr><td id="d232355e138">
 
 **Add a single variable**
 
@@ -56,7 +56,7 @@ Steps
 3.  Select the variable to add.
 
 
-</td></tr><tr><td id="d232234e165">
+</td></tr><tr><td id="d232355e165">
 
 **Add multiple variables**
 

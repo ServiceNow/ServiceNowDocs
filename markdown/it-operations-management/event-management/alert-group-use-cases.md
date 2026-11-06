@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -136,7 +136,9 @@ Users manually select and group related alerts based on their expertise and unde
 
 </td><td>
 
-A system administrator receives multiple alerts about different services failing on a single server. The admin manually groups these alerts, recognizing that they are all related to a single hardware failure on that server, and prioritizes fixing the hardware issue to restore all services.
+A system administrator receives multiple alerts about different services failing on a single server. The admin manually groups these alerts, identifying them as related to a single hardware failure on that server.
+
+ The admin then prioritizes fixing the hardware issue to restore all services.
 
 </td></tr></tbody>
 </table>Manual and rule-based alert grouping differs from algorithm-based grouping mainly in how the parent alert is chosen. In manual, rule-based, or log analytics grouping, one of the real alerts is designated as the parent alert. In Automatic, CMDB, Text-based, Tag Cluster modes, and Network Traffic, a virtual alert, representing the oldest and most severe alert in the group, is created as the parent alert.

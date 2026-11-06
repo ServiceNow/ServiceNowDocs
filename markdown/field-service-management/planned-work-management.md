@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/planned-work-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Explore, Field Service Management]
 ---
 
@@ -17,6 +17,19 @@ The Planned Work Management application works with Field Service Management to h
 With Planned Work Management, organizations can configure recurring activities based on time intervals, meter readings, or specific conditions, ensuring that critical maintenance work is executed consistently and proactively. The application also provides forecasting capabilities and access to maintenance cycle history, enabling better resource planning and improved operational visibility.
 
 Planned Work Management enhances maintenance operations by supporting dynamic scheduling, multi‑asset maintenance plans, and automated adjustments when exceptions occur.
+
+## Example: Quarterly HVAC Maintenance
+
+An organization needs recurring maintenance, inspections, and audits to run consistently without manual scheduling effort. Planned Work Management generates work orders automatically on defined schedules and adjusts future work orders when exceptions occur.
+
+|Step|Actor|Action|
+|----|-----|------|
+|1|Technician or Admin|Creates work plan|
+|2|System|Attaches predefined inspection checklist tasks to work plan|
+|3|System|Schedules automatically|
+|4|Technician|Performs inspection|
+|5|Technician|Updates results|
+|6|Technician|Closes work order|
 
 ## Key benefits
 

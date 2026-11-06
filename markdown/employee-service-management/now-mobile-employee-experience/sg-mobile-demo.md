@@ -7,9 +7,9 @@ release: australia
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Now Mobile app, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Now Mobile app, EmployeeWorks, Employee Service Management]
 ---
 
 # Now Mobile app demo
@@ -175,7 +175,10 @@ The Now Mobile demo displays a launcher screen divided into UI sections. Tap an 
 
 ## Learn more about the Now Mobile app
 
-Use the following link to learn more about on how to use and configure the Now Mobile app: [Configuring the Mobile Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-mobile-platform-landing.md).
+Use the following links to learn more about on how to use and configure the Now Mobile app.
+
+-   Now Mobile app
+-   [Configuring the Mobile Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-mobile-platform-landing.md)
 
 **Parent Topic:**[Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md)
 

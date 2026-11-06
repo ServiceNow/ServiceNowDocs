@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ba-supported-file-types.html
 release: australia
 topic_type: reference
-last_updated: "2026-06-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Reference, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Reference, Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Supported file types for Build Agent
@@ -23,8 +23,6 @@ Build Agent accepts images, documents, code files, and file types specific to Se
 |Specific to ServiceNow|.now.ts \(Fluent DSL\), .xml \(update sets\)|
 
 You can also use MCP server connections, such as for Figma, to provide context for Build Agent. For more information, see [MCP connections and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/accelerate-design-to-development-with-figma-mcp-server.md).
-
-**Note:** You must be on Australia Patch 3 or higher to upload any file types besides images.
 
 ## Size limits
 

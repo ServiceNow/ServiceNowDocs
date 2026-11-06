@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure Major Security Incident status reports, Manage MSIM status reports, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -38,15 +38,15 @@ Role required: sn\_msi.workspace\_manager
 
 5.  On the Report section template form, fill in the fields.
 
-<table id="choicetable_mmr_gym_ysb"><thead><tr><th align="left" id="d183634e121">
+<table id="choicetable_mmr_gym_ysb"><thead><tr><th align="left" id="d184546e121">
 
 Field
 
-</th><th align="left" id="d183634e124">
+</th><th align="left" id="d184546e124">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d183634e130">
+</th></tr></thead><tbody><tr><td id="d184546e130">
 
 **Name**
 
@@ -54,7 +54,7 @@ Description
 
 Name of the Report template section. For example, Summary.
 
-</td></tr><tr><td id="d183634e139">
+</td></tr><tr><td id="d184546e139">
 
 **Table**
 
@@ -62,7 +62,7 @@ Name of the Report template section. For example, Summary.
 
 Name of the report template table.
 
-</td></tr><tr><td id="d183634e148">
+</td></tr><tr><td id="d184546e148">
 
 **Active**
 
@@ -70,7 +70,7 @@ Name of the report template table.
 
 Select the check box to create a report section for the selected template in the MSIM workspace.**Note:** If the check box is unselected, the MSI Manager can’t create a report section for this template in the MSIM workspace.
 
-</td></tr><tr><td id="d183634e160">
+</td></tr><tr><td id="d184546e160">
 
 **MSI report template**
 
@@ -78,7 +78,7 @@ Select the check box to create a report section for the selected template in the
 
 The MSI Report Template name for which the report is divided into sections.
 
-</td></tr><tr><td id="d183634e170">
+</td></tr><tr><td id="d184546e170">
 
 **Order**
 
@@ -86,7 +86,7 @@ The MSI Report Template name for which the report is divided into sections.
 
 The order in which the report sections will be rendered.
 
-</td></tr><tr><td id="d183634e179">
+</td></tr><tr><td id="d184546e179">
 
 **Icon**
 
@@ -94,7 +94,7 @@ The order in which the report sections will be rendered.
 
 Use the icon to display system icons in the report.
 
-</td></tr><tr><td id="d183634e188">
+</td></tr><tr><td id="d184546e188">
 
 **Hint**
 
@@ -102,7 +102,7 @@ Use the icon to display system icons in the report.
 
 Use the hint text to guide the report creation. Within the report, the hint text is displayed under the section title.
 
-</td></tr><tr><td id="d183634e197">
+</td></tr><tr><td id="d184546e197">
 
 **Editor - Body**
 

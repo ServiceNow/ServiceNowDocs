@@ -7,7 +7,7 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ACC-V, web usage, monitoring, visibility content]
 breadcrumb: [ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
@@ -49,7 +49,7 @@ For details on URL Discovery, see [URL Discovery insights dashboard](https://raw
 
 3.  Set the **Value** field to `true`.
 
-    Setting this property to true automatically activates the VISC Get URL Metrics monitoring policy and enables full monitoring of web usage data for all websites visited on Chromium-based browsers. Setting it to false deactivates the policy.
+    Setting this property to true automatically activates the VISC Get URL Metrics monitoring policy. Full monitoring of web usage data is then enabled for all websites visited on Chromium-based browsers. Setting it to false deactivates the policy.
 
 4.  Select **Update**.
 
@@ -66,7 +66,7 @@ The ACC agent on each managed device monitors URL activity from Chromium-based b
 
 ## What to do next
 
-After enabling web usage collection, you can view the collected data in the User Web Usage \(sn\_acc\_vis\_content\_user\_web\_usage\) table and monitor aggregated domain-level statistics in the Application Domain \(sn\_acc\_vis\_content\_application\_domain\) table. Data aggregates from the User Web Usage table to the Application Domain table, including total page views, total unique users, last accessed time, and daily page view trends. By default, this job runs daily.
+After enabling web usage collection, you can view the collected data in the User Web Usage \(sn\_acc\_vis\_content\_user\_web\_usage\) table. Monitor aggregated domain-level statistics in the Application Domain \(sn\_acc\_vis\_content\_application\_domain\) table. Data aggregates from the User Web Usage table to the Application Domain table, including total page views, total unique users, last accessed time, and daily page view trends. By default, this job runs daily.
 
 For details on these tables, see [Web usage data collection tables and fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/web-usage-collection-tables.md).
 

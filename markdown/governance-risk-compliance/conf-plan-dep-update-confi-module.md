@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/conf-plan-dep-update-confi-module.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring planning dependency updates, Dependency Configuration records, General administration setup for BCM, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -34,13 +34,13 @@ Role required: sn\_bcm.admin, sn\_bcp.plan\_admin
 
 4.  Select **Submit**.
 
-    According to the sources and preferences set up by the BCM administrator, the planning dependency updates are auto-updated for the plan record.
+    Based on the sources and preferences configured in the Planning dependency update configuration record, the planning dependency updates are automatically updated for the plan record.
 
     The BCP owner and approver review the updated dependencies and complete the BCP workflow.
 
 
 -   **[Planning dependency update configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/pla-dep-update-confi-form.md)**  
-Use the Planning dependency update configuration form to configure the plan record, its sources, and preferences such as the plan record name, sources, and notification preferences. You can then schedule an auto-update of the related assets in the plans.
+Use the Planning dependency update configuration form to configure the plan record, its sources, and preferences such as the plan record name, sources, and notification preferences. You can also schedule an auto-update of the related assets in the plans.
 
 **Parent Topic:**[Configuring planning dependency updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/confi-planning-dep-updates.md)
 

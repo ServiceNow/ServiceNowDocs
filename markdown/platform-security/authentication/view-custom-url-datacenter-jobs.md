@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Custom instance URLs, Authentication, Access Management]
 ---
@@ -20,8 +20,8 @@ Every custom URL that is associated to your instance has a corresponding Service
 |---------|-----------|
 |Job ID|Unique ID of the job that checks the domain of the custom URL.|
 |Last Run At|Date and time when the job last ran.|
-|Payload|List of domains or custom URLs that were sent to the datacenter for CERT provisioning.|
-|Poll Count|Number of times that the results have polled for this job.|
-|Result|Verifies and validates each domain or custom URL sent in a payload.|
+|Payload|List of domains or custom URLs that are sent to the datacenter for CERT provisioning.|
+|Poll Count|Number of times that the results have been polled for this job.|
+|Result|Verification and validation of each domain or custom URL sent in a payload.|
 |Status|Status of the datacenter job.|
 

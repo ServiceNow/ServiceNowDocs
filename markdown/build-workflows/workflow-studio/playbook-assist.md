@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Creating and managing Playbooks, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -24,7 +24,7 @@ Playbook generation is a skill that is installed with the ServiceNow Otto for Cr
 
 ## Supported user interfaces
 
-Access the Playbook generation skill when you’re creating a playbook in Workflow Studio.
+Access the Playbook generation skill when you're creating a playbook in Workflow Studio.
 
 \[Omitted image "new-playbook-otto.png"\] Alt text: Build a new playbook using AI.
 

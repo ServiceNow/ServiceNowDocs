@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/create-publish-product-offering-version-somt.html
 release: australia
 topic_type: task
-last_updated: "2026-04-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Product offering versions, Product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -40,15 +40,15 @@ Role required: sn\_prd\_pm.product-catalog\_manager
 
 5.  When you finish creating the product offering version, do one of the following actions.
 
-<table id="choicetable_product_offering"><thead><tr><th align="left" id="d29739e138">
+<table id="choicetable_product_offering"><thead><tr><th align="left" id="d29592e138">
 
 Action
 
-</th><th align="left" id="d29739e141">
+</th><th align="left" id="d29592e141">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d29739e147">
+</th></tr></thead><tbody><tr><td id="d29592e147">
 
 **Publish**
 
@@ -58,7 +58,7 @@ Publish the draft product offering so that you can use it in a product catalog:-
 -   After you publish a product offering, you can't change or delete it, unless you create a version for it.
 
 
-</td></tr><tr><td id="d29739e165">
+</td></tr><tr><td id="d29592e165">
 
 **Update**
 
@@ -66,7 +66,7 @@ Publish the draft product offering so that you can use it in a product catalog:-
 
 Update the product offering with the new data that you added, but don't publish it for use in a product catalog.
 
-</td></tr><tr><td id="d29739e174">
+</td></tr><tr><td id="d29592e174">
 
 **Copy**
 

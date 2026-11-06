@@ -7,7 +7,7 @@ release: australia
 product: Legal Simple Contracts
 classification: legal-simple-contracts
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Non-disclosure agreement requests in Legal Simple Contracts, Requests, Legal Simple Contracts, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -36,15 +36,15 @@ As a collaborator added to a request, you can access and work on the request jus
 
 3.  In the **Lists** tab, open a legal request by selecting an option under **Legal Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d375188e120">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d374363e120">
 
 Option
 
-</th><th align="left" id="d375188e123">
+</th><th align="left" id="d374363e123">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d375188e129">
+</th></tr></thead><tbody><tr><td id="d374363e129">
 
 **As an assignee**
 
@@ -56,7 +56,7 @@ Steps
 
 The state of the legal request is Work in progress and the document is Legal review.
 
-</td></tr><tr><td id="d375188e158">
+</td></tr><tr><td id="d374363e158">
 
 **As a collaborator**
 

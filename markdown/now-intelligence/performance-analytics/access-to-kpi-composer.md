@@ -7,7 +7,7 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 3
 breadcrumb: [Design your indicator solution, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [Design your indicator solution, Configure fundamentals, Performance
 # Access to KPI Composer
 
 The level of access to KPI Composer determines whether a user can create, edit, or only view a KPI Composer project. It also determines which projects a user can access and whether they can access the underlying records or only the UI.
+
+**Important:**
+
+This application is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 Access to KPI Composer depends on the following things, singly or in combination:
 

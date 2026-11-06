@@ -7,7 +7,7 @@ release: australia
 product: EMR Help
 classification: emr-help
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -36,7 +36,7 @@ As an administrator, you can use the EMR Help service portal for enabling clinic
 
 To use a dedicated service portal, you can create a record producer to define the fields for the help form in the record producer and then embed the form in your service portal. Clinicians can use this help form to submit IT service requests.
 
-By default, the **EMR Incident** record producer is available for submitting IT service requests associated with incidents. You can use the default record producer to add more variables or create your own record producer. For more information, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_RecordProducer.md).
+By default, the **EMR Incident** record producer is available for submitting IT service requests associated with incidents. You can use the default record producer to add more variables or create your own record producer. For more information, see Record Producer.
 
 When embedding the form in your service portal, note the following points:
 

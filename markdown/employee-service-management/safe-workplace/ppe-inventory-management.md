@@ -1,24 +1,26 @@
 ---
 title: Workplace PPE Inventory Management
-description: Use the ServiceNow Workplace Personal Protective Equipment Inventory Management application to manage PPE inventory to help safeguard the physical safety  of your workforce. Monitor the availability of PPE at different locations, fulfill employee requests for PPE, and track PPE assigned to employees.
+description: Use the ServiceNow Workplace Personal Protective Equipment Inventory Management application to manage PPE inventory to help safeguard the physical safety of your workforce. Monitor the availability of PPE at different locations, fulfill employee requests for PPE, and track PPE assigned to employees.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/safe-workplace/ppe-inventory-management.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Safe Workplace, Health and Safety, Employee Service Management]
 ---
 
 # Workplace PPE Inventory Management
 
-Use the ServiceNow® Workplace Personal Protective Equipment Inventory Management application to manage PPE inventory to help safeguard the physical safety  of your workforce. Monitor the availability of PPE at different locations, fulfill employee requests for PPE, and track PPE assigned to employees.
+Use the ServiceNow® Workplace Personal Protective Equipment Inventory Management application to manage PPE inventory to help safeguard the physical safety of your workforce. Monitor the availability of PPE at different locations, fulfill employee requests for PPE, and track PPE assigned to employees.
 
 \[Omitted image "ppe.png"\] Alt text: PPE setup and use
 
-PPE supplies can easily be ordered from the self-service portal via mobile or desktop.  A dashboard provides  a comprehensive view  of inventory  by facility, an  aggregate look at the  entire workplace, and  historical data on how  equipment  levels have changed over time.  Inventory levels can be updated  daily for accurate, real-time inventory management.
+**Note:** Starting with the Brazil release, Workplace PPE Inventory Management is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
+
+PPE supplies can be ordered from the self-service portal via mobile or desktop. A dashboard provides a comprehensive view of inventory by facility and an aggregate look at the entire workplace. Historical data shows how equipment levels have changed over time. Inventory levels can be updated daily for accurate, real-time inventory management.
 
 -   **Use guided setup to implement Safe Workplace suite apps**
 

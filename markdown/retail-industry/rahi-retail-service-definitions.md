@@ -27,6 +27,8 @@ By using service definitions to identify the requested service, category and sub
 
 Use a service definition when different work types share the same required attributes and automations within a single case type. Create a new case case type when the process requires fundamentally different fields, state models, or automation logic. For a full decision framework, see [Extending the Retail base case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-extending-retail-base-case.md).
 
+**Parent Topic:**[Retail case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-retail-case-types-revamp.md)
+
 **Related topics**  
 
 

@@ -32,6 +32,8 @@ Enable campaigns to let data owners and approvers move groups of metrics through
 
 5.  Enable bulk submission, approval, and rejection of campaign tasks.
 
+    **Note:** If you enable bulk actions, you must also enable the Real-time CMD Recalculation \(`sn_grc_metric.synchronize_updates`\) property.
+
     1.  In the Name field, enter `sn_esg.campaign_bulk_action_enabled`, and select it.
 
     2.  In the **Value** field, enter `true`.

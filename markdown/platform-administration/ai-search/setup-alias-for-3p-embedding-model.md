@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring an external or custom embedding model, Semantic index configuration for indexed sources, Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configuring your embedding model, AI Search RAG \(Retrieval-Augmented Generation\), Semantic index configuration for indexed sources, Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Set up connection and credential alias for third-party embedding model
@@ -34,15 +34,15 @@ The system provides the default connection and credential alias for Azure OpenAI
     -   To set up the embedding model alias for Google Gemini Text Embedding, select **Google Gemini API**.
 3.  Create a connection record for your alias.
 
-<table id="choicetable_hql_2zg_1gc"><thead><tr><th align="left" id="d309529e107">
+<table id="choicetable_hql_2zg_1gc"><thead><tr><th align="left" id="d310576e107">
 
 Option
 
-</th><th align="left" id="d309529e110">
+</th><th align="left" id="d310576e110">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d309529e116">
+</th></tr></thead><tbody><tr><td id="d310576e116">
 
 **Update the existing connection record**
 
@@ -55,7 +55,7 @@ Procedure
 3.  Select **Update**.
 
 
-</td></tr><tr><td id="d309529e163">
+</td></tr><tr><td id="d310576e163">
 
 **Create a new connection record**
 
@@ -74,15 +74,15 @@ For a description of the field values, see [Create an HTTP\(s\) connection](http
 
 4.  Create a credential record for your alias.
 
-<table id="choicetable_xp4_ykh_1gc"><thead><tr><th align="left" id="d309529e208">
+<table id="choicetable_xp4_ykh_1gc"><thead><tr><th align="left" id="d310576e208">
 
 Option
 
-</th><th align="left" id="d309529e211">
+</th><th align="left" id="d310576e211">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d309529e217">
+</th></tr></thead><tbody><tr><td id="d310576e217">
 
 **Update the existing credential record**
 
@@ -100,7 +100,7 @@ The API Key Credentials record opens.
 5.  Select **Update**.
 
 
-</td></tr><tr><td id="d309529e275">
+</td></tr><tr><td id="d310576e275">
 
 **Create a new credential record**
 

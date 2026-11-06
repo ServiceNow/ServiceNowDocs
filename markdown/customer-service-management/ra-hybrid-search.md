@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ra-hybrid-search.html
 release: australia
 topic_type: concept
-last_updated: "2026-04-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Hybrid search, Hybrid search in Recommended Actions, Semantic search, Hybrid search in AI search]
 breadcrumb: [AI search, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
@@ -36,5 +36,5 @@ The **Enable hybrid search** check box on the **\[CSM AIS\] Configurable Workspa
 
 This configuration is specific to the CSM AI search application. Search configurations for portals or other workspaces are managed separately. If you do not find the **Enable hybrid search** check box for other workspaces, see the [KB2735151](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2735151) article to know how to enable hybrid search when the hybrid search check box is not available on the search configuration record.
 
-**Note:** The total result count and facet counts aren't displayed in the Search results tab of the Recommended Actions contextual side panel, when Hybrid Search is active.
+**Note:** When Hybrid Search is active, the total result counts and facet counts are not displayed in the search results tab of the Recommended Actions contextual side panel.
 

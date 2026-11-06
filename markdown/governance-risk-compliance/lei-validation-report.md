@@ -5,17 +5,17 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/lei-validation-report.html
 release: australia
 topic_type: reference
-last_updated: "2026-05-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [LEI validation, GLEIF, DORA, Level 4 LEI Validation Report]
-breadcrumb: [Validate LEI codes, Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Validate LEI codes, Use, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Level 4 LEI Validation Report columns
 
 The Level 4 LEI Validation Report \(`Level4_LEI_Validation_Report.csv`\) is generated during Plain-CSV Reporting Package download. It lists the validation result for each Legal Entity Identifier \(LEI\) code found in the reporting package.
 
-The report is included in `Consolidated_Reports.zip` alongside the Level 3 DPM Validation Summary. It covers LEI codes sourced from the DORA reporting tables that contain LEI fields. This includes Legal entities \(B.01.02\), ICT third-party service providers \(B.05.01\), and other sheets where LEI codes appear. Each row in the report represents a single LEI code occurrence, ordered by sheet name and then row number.
+The report is included in `Consolidated_Reports.zip` alongside the Level 3 DPM Validation Summary. It covers LEI codes sourced from the DORA reporting tables that contain LEI fields. These tables include Legal entities \(B.01.02\), ICT third-party service providers \(B.05.01\), and other sheets where LEI codes appear. Each row in the report represents a single LEI code occurrence, ordered by sheet name and then row number.
 
 For information on how to review and resolve validation results, see [Validate Legal Entity Identifier codes for DORA reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/validate-lei.md).
 
@@ -167,7 +167,7 @@ Validation Result
 
 The overall validation outcome for this LEI code. Values: `Pass`, `Warning`, `Fail`, or `N/A`. Validation logic:
 
--   `Fail`: LEI Conditions apply: Format Valid = No, Checksum Valid = No, LEI Found = No, Entity Status is not ACTIVE, or Registration Status not ACTIVE or ISSUED.
+-   `Fail`: Any of the following conditions apply: LEI Format Valid = No, LEI Checksum Valid = No, LEI Found = No, Entity Status is not ACTIVE, or Registration Status is not ACTIVE or ISSUED.
 -   `Warning`: LEI is found and active/issued, but Name Match or Country Match is `No match`.
 -   `Pass`: All validation checks pass and Name and Country match GLEIF data.
 -   `N/A`: GLEIF API was unavailable during validation.

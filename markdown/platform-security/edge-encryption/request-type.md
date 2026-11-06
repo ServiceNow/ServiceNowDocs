@@ -7,7 +7,7 @@ release: australia
 product: Edge Encryption
 classification: edge-encryption
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Define a custom encryption rule, Configuring Edge Encryption, Edge Encryption, Encryption]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Because encryption rules iterate over client requests and determine what, if anything, needs to be encrypted, you must understand the type of request you're creating a rule for. The format of the client request determines the structure of your encryption rule and the APIs available for use in the rule.
+Because encryption rules iterate over client requests and determine what, if anything, needs to be encrypted, you must understand the type of request you are creating a rule for. The format of the client request determines the structure of your encryption rule and the APIs available for use in the rule.
 
 ## Procedure
 
@@ -70,7 +70,7 @@ Use an HTTP protocol analyzer to inspect the request. Useful tools include:
     -   The URL parameters
     -   The POST parameters, if any
     -   The format of the request body, if included
-    \[Omitted image "client-request-2.png"\] Alt text: Client request example
+    \[Omitted image "client-request-2.png"\] Alt text: Example
 
 
 ## Result

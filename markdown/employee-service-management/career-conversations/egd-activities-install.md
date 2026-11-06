@@ -7,7 +7,7 @@ release: australia
 product: Career Conversations
 classification: career-conversations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Install and configure Career Conversations, Career Conversations, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
@@ -26,7 +26,7 @@ Dependent plugins and apps for Career Conversations
 -   See [Install the Talent Development Core application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/talent-development-core/egd-core-install.md).
 
 
-Role required: sn\_egd\_core.admin
+Role required: admin
 
 ## About this task
 

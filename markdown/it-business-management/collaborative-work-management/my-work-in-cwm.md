@@ -7,7 +7,7 @@ release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -26,6 +26,7 @@ Project tasks from Project Workspace also appear in My Work when they are assign
 
 -   Any task record created in a table that doesn’t extend the Task \[task\] table, such as VTask, won't show up in My Work.
 -   If you’re added as **Additional assignee** to a task, work with your admin to enable the display of such tasks in My Work. See [Properties installed with CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/properties-installed-with-cwm.md).
+-   Tasks stored in tables that the CWM application doesn't have cross-scope access to, such as the sn\_hr\_core\_task table, don't appear in My Work.
 
 \[Omitted image "cwm-my-work.png"\] Alt text: My Work filters in CWM.
 

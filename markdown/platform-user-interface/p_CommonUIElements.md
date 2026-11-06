@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/p\_CommonUIElements.html
 release: australia
 topic_type: topic
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -33,7 +33,7 @@ You can enable \(show\) or disable \(hide\) an application menu or module in the
 -   **[Tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_Tags.md)**  
 Tags are text labels that you can associate with items like records and pages. Tags enable you to group and organize the items. Tags can be visible to any user \(global\), visible only to specific groups or users \(shared\), or visible to a single user \(private\).
 -   **[User presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/c_UserPresence.md)**  
-User presence is a Core UI feature that lets you see who is online when you're working in an instance.
+User presence is a Core UI feature that lets you see who is online when you are working in an instance.
 
 **Parent Topic:**[Working in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/working-in-ui16-and-ui15.md)
 

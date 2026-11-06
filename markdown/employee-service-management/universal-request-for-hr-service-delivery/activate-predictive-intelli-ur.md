@@ -7,7 +7,7 @@ release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Universal Request plugins, Setting up and configuring Universal Request, Universal Request, Employee Service Management]
 ---
@@ -28,7 +28,7 @@ The application includes demo data and installs related applications and plugins
     -   **Required ServiceNow plugins**
         -   **Predictive Intelligence**
 
-            Install this plugin to enable the creation of machine learning solutions using data in your instance. The plugin provides various capabilities and solution types for training the system to predict, recommend, and drive data outcomes. A trained solution can be invoked by any application through the use of a prediction API..
+            Install this plugin to enable the creation of machine learning solutions using data in your instance. The plugin provides various capabilities and solution types for training the system to predict, recommend, and drive data outcomes. A trained solution can be invoked by any application through the use of a prediction API.
 
     -   **Universal Request**
 

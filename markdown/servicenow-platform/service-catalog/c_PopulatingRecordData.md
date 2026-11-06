@@ -7,7 +7,7 @@ release: australia
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Record Producer, Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -19,11 +19,11 @@ You can enter data for all records created by the record producer, and redirect 
 To enter data with a record producer, use any combination of the following methods:
 
 -   Create a variable on the record producer with the same name as the field in the target record. For example, a variable named caller\_id on a **Create a New Incident** record producer populates the `caller_id` field on the new incident record. Use a [variable type that corresponds to the field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/service-catalog/r_CreatingVariablesForFieldTypes.md).
--   Define a [template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_Templates.md) to assign a static field value for all records created by the record producer.
+-   Define a template to assign a static field value for all records created by the record producer.
 -   Define a script that uses any variable or server-side objects and functions to assign values.
     -   Use `current.*FIELD_NAME*` to reference fields on the record being created.
     -   Use `producer.*VARIABLE_NAME*` to reference values entered by the end user.
-    -   Use [RP.getParameterValue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/RenderProperties-Scoped-API.md) to return specified parameter values passed on the URL. The RP stands for Render Properties, not Record Producer.
+    -   Use RP.getParameterValue to return specified parameter values passed on the URL. The RP stands for Render Properties, not Record Producer.
 
 ## Redirect after submitting a record producer
 

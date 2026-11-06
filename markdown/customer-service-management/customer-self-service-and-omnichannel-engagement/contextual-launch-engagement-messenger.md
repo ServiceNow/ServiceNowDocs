@@ -7,9 +7,9 @@ release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Engagement Messenger, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Set up Engagement Messenger, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Deep linking feature in Engagement Messenger
@@ -22,7 +22,7 @@ The deep linking capability enables you to customize the home page of Engagement
 
 The deep linking capability supports the launch of View Article, New Case, Case List, Search, Case Search, Catalog Item, New Appointment, New Work Order, Default Home, Work Order, Virtual Agent and Live Agent chat features and display in Engagement Messenger.
 
-**Note:** Beginning with the Australia release, in Virtual Agent and Live Agent chats, if a user is engaged in an ongoing conversation and tries to contextually open a topic then the following options are shown:
+**Note:** Beginning with the Brazil release, in Virtual Agent and Live Agent chats, if a user is engaged in an ongoing conversation and tries to contextually open a topic then the following options are shown:
 
 -   Continue chat
 -   New Chat

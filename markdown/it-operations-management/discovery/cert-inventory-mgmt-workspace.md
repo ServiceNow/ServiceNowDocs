@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Explore, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
@@ -24,7 +24,7 @@ The Certificate Management workspace provides centralized visibility into your o
 
 ## Accessing the Certificate Management workspace
 
-To open the workspace, navigate to **Workspaces** &gt; **Certificate Management Workspace**.
+To open the workspace, navigate to **Workspaces** &gt; **Certificate Management**.
 
 The Certificate Management workspace has five tabs:
 
@@ -50,7 +50,7 @@ Displays key insights about all certificates including certificates that are act
 
 </td><td>
 
-Displays manage tasks to track the upcoming tasks that will expire soon. These tasks are organized into four categories: Renewals, Requests, Expirations, and Automation trends.
+Displays tasks to track the upcoming tasks that will expire soon. These tasks are organized into four categories: Renewals, Requests, Expirations, and Automation trends.
 
 </td></tr><tr><td>
 

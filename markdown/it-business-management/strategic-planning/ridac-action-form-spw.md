@@ -7,7 +7,7 @@ release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: reference
-last_updated: "2026-08-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [RIDAC, action, action item, form, planning item]
 breadcrumb: [Reference, RIDAC, Strategic Planning, Strategic Portfolio Management]

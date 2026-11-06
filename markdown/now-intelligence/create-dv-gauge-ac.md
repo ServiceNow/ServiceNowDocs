@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/create-dv-gauge-ac.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 9
+last_updated: "2026-09-10"
+reading_time_minutes: 8
 keywords: [Create gauge report, Create gauge visualization]
 breadcrumb: [Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -17,23 +17,37 @@ A gauge visualization shows where a value lies between expected minimum and maxi
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
-For information about the use of a Gauge visualization in a dashboard, see [the Developer Site.](https://developer.servicenow.com/dev.do#!/reference/now-experience/xanadu/shared-components/now-vis-gauge-wrapper/usage) This site gives information about Gauge data visualization components in the UI Builder, and some configuration options may differ from the Visualization Designer.
+For information about the use of a Gauge visualization in a dashboard, see [the Developer Site.](https://developer.servicenow.com/dev.do#!/reference/now-experience/xanadu/shared-components/now-vis-gauge-wrapper/usage)
 
-**Note:** Workflow Data Fabric sources do not support real-time update on single score, dial, and gauge visualizations.
+The site gives information about Gauge data visualization components in the UI Builder. Some configuration options may differ from the Visualization Designer.
+
+**Note:** Workflow Data Fabric sources don't support real-time update on single score, dial, and gauge visualizations.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**, or open an in-line dashboard and select **Edit**.
+1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**.
 
 2.  Select **Create data visualization**.
 
-3.  Select the Gauge \(\[Omitted image "icon-dial-gauge-ac.png"\] Alt text: dial gauge icon\) visualization type.
+3.  Provide a name and useful description for the visualization and select **Create data visualization**.
 
-4.  Configure the **Header and border**. Header and border options are the same for all data sources.
+    The description enables users to find the visualization more easily in the library.
+
+4.  Select the Gauge \(\[Omitted image "icon-dial-gauge-ac.png"\] Alt text: dial gauge icon\) visualization type.
+
+5.  Select **Add a data source**.
+
+    For general descriptions of the data sources, see [Data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/data-sources-visualizations.md).
+
+    The **Suggested** data sources are the indicators and tables you have recently selected.
+
+    When you select a data source, you see a preview of the information in the source. Add conditions to the data source and then select **Add this source**.
+
+6.  Configure the **Header and border**. Header and border options are the same for all data sources.
 
     None of the **Header and border** fields is required.
 
@@ -139,7 +153,7 @@ Show refresh option
 
 </td><td>
 
-Option to show or hide the refresh option from data visualizations. If cache is enabled on a dashboard, the Refresh option is always hidden.
+Option to show or hide the refresh option from data visualizations. If cache is enabled on a dashboard, the Refresh option is hidden.
 
 </td></tr><tr id="ac-dv-show-export-option"><td>
 
@@ -166,39 +180,14 @@ Title color
 Specify the text color of the title. The default title color is black, but you can choose a color that contrasts better with the header background. Only available when **Header background color** is selected.
 
 </td></tr></tbody>
-</table>5.  Choose a data source.
-
-    For general descriptions of the data sources, see [Data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/data-sources-visualizations.md).
-
-    -   Table \(available in the base system\). When you select a table, you can filter it by custom or preconfigured conditions. Custom conditions can include questions or Service Catalog variables.
-
-        Configured report sources appear in the **Predefined conditions** list. For more information, see [Report sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_ReportSources.md).
-
-        To help you create a custom filter, there is a preview list of records that would be included in the visualization. You can change which fields are shown as columns and the width of columns in the list actions.
-
-        \[Omitted image "dv-preview-edit-cols.png"\] Alt text: Preview record list for table source data visualization with list actions shown.
-
-    -   Indicator \(available in the base system\). You can filter the indicator scores by breakdowns and elements. Automated indicators can be configured with selected breakdowns. Formula indicators inherit their breakdowns from the parent indicators. Data snapshots indicator breakdowns are configured in the indicator. In both cases, only those breakdowns are available when you configure a visualization based on those indicators.
-
-        **Note:** Benchmark indicators aren't supported.
-
-        \[Omitted image "dv-ind-source-con-filter.png"\] Alt text: Conditional filter for indicator data source on data visualization.
-
-        **Note:**
-
-        You might have a multiple select \(is one of\) or dynamic \(is \(dynamic\)\) operator on the breakdown element filter. These operators require the indicator and breakdown to support them. For more information about the configurations that support these operators, see ["Is one of" and "Is \(Dynamic\)" operators on breakdown conditions in data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/condition-operators-ind-bkdowns.md).
-
-        Indicator types include Automated, Formula, and Manual indicators as well as Automated and Formula Data Snapshots. The Indicator Preview shows an example of the visualization and a list of the indicator's properties.
-
-        \[Omitted image "dv-indicator-source-preview.png"\] Alt text: Indicator preview example with visualization example and list of properties including source type, indicator source, indicator type, additional conditions and available breakdowns.
-
-    -   Usage Insights \(available with the User Experience PAR Integration application, to users with a required role\). Choose one of up to three KPIs included with this application, depending on the visualization type. For more information, see [Usage Insights data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/uxa-data-sources.md).
-6.  Select the options for your data source.
+</table>7.  Configure the metric, data update, and no data message options for your data source.
 
     -   If your visualization represents table data, go to [Table data options for gauge data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/config-dv-gauge-table-data.md).
     -   If your visualization represents indicator data, go to [Indicator data options for gauge data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/config-dv-gauge-ind-data.md).
     -   If your visualization represents Usage Insights data, go to [Usage Insights data options for gauge visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/config-dv-gauge-uxa-data.md).
-7.  Under **Presentation**, provide display and color information.
+8.  Under **Presentation**, provide display and color information.
+
+    None of the **Presentation** fields is required.
 
 <table id="table_gvk_2mr_qtb"><thead><tr><th>
 
@@ -235,14 +224,6 @@ Inner radius
 </td><td>
 
 Specify the ratio of the visualization's inner radius to the outer. Allowed values are 0.7–0.95.
-
-</td></tr><tr><td>
-
-Show data table
-
-</td><td>
-
-Shows a table with chart and graph data for easier screen reader access. Data includes the percentage of the total for each value, when appropriate.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -360,7 +341,7 @@ Show label as primary
 Available when the score label is configured as Range label. Changes the places of the score value and label to make the score value small and emphasize the range value.
 
 </td></tr></tbody>
-</table>8.  Under **Chart interaction**, set what if anything happens when a viewer selects a chart or a chart segment on the visualization.
+</table>9.  Under **Chart interaction**, set what if anything happens when a viewer selects a chart or a chart segment on the visualization.
 
 <table id="table_qnp_d2d_b1c"><thead><tr><th>
 
@@ -376,7 +357,7 @@ Allow chart interaction
 
 </td><td>
 
-Enable an event to occur when a user clicks in a visualization or one of its segments.
+Enable an event to occur when a user selects a visualization or one of its segments.
 
 </td></tr><tr><td>
 
@@ -384,15 +365,18 @@ Action
 
 </td><td>
 
-Choose the event that occurs when a user clicks in a chart or one of its segments. Choices depend on the visualization type and data source. Applies only when **Allow chart interaction** \[chartInteractionEnabled\] is true. -   **Go to data view** opens the records view in a Core UI list or KPI Details relevant to the associated segment or visualization. Records do not open in Workspace embedded lists.
+Choose the event that occurs when a user selects in a visualization or one of its segments. Choices depend on the visualization type and data source. Applies only when **Allow chart interaction** is on. For more information, see [Chart interactions in a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/dv-chart-interactions.md).
 
-Usage Insights data sources redirect to the appropriate user, sessions, page, event pages that are based on corresponding usage data.
-
+-   **Go to data view** opens a list view, KPI Details page, or Usage Insights overview page relevant to the associated segment or visualization. For table data, a system property determines whether a Core UI list or a Platform Analytics list opens. For more information, see [Data views for different data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/visualization-drilldown-in-config-ws.md).
 -   **Go to URL** opens the specified URL, which can be on the instance or external. You have the option of specifying a page name to appear in the tooltip, for those visualizations with tooltips.
+-   **Drill down to chart** \(Visualization Designer only\) Opens a different data visualization that is filtered by the selected data. You can add a drill-down visualization for each metric on the parent visualization.
 
+**Note:** The last level of drill down in the Platform Analytics experience is always a Core UI list. Records don't open in Workspace embedded lists.
+
+**Drill down to chart** supports only table data sources.
 
 </td></tr></tbody>
-</table>9.  Select **Save** to continue editing the visualization, or **Save and close** to return to the Analytics Overview main screen.
+</table>10. Select **Save** to continue editing the visualization, or **Save and close** to return to the Analytics Overview main screen.
 
 
 ## What to do next

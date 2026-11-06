@@ -7,7 +7,7 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Product Hub for Software Asset Management, Software Asset Management installation methods, Configuring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -33,17 +33,13 @@ Use this procedure the first time you install the Software Asset Management appl
 
 ## Procedure
 
-1.  Navigate to **Admin** &gt; **Admin Home**.
+1.  Navigate to **Manage Platform** &gt; **Software Asset Management**.
 
-    The Admin Home page opens automatically when you log in to your ServiceNow instance.
-
-2.  In the **Manage your products** section of the Admin Home page, select the Software Asset Management card to open the Product Hub.
-
-3.  Choose the install option that fits your instance.
+2.  Choose the install option that fits your instance.
 
     -   To install on a new instance, select **Start setup**. The Product Hub installs the core application and the dependent components and applies the default configurations.
     -   To move an existing setup from another instance, select **Upload update set**. Upload the batch update set as an XML file, preview the changes in a new tab, and commit the batch.
-4.  Follow the guided flow through **Choose what to install in this app bundle**, **Apply default configurations**, and **Ready to configure**.
+3.  Follow the guided flow through **Choose what to install in this app bundle**, **Apply default configurations**, and **Ready to configure**.
 
     The Product Hub tracks progress on each step. For a visual walkthrough of the guided flow, see the Product Hub installation video or workflow diagram.
 

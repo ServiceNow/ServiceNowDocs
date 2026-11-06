@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/test-agent-use.html
 release: australia
 topic_type: task
-last_updated: "2026-04-21"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Test Agent, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Test Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Author, execute, and troubleshoot tests and test suites with Test Agent
@@ -38,7 +38,7 @@ Role required: admin
 
         **Note:** If you want to execute an existing ATF test/test suite using Test Agent, you're expected to create the ATF test/test suite before this process. You can now use ServiceNow Otto to create an ATF test/test suite. Select the **Create with Otto** button on the ATF tests/test suites list page. If you have Build Agent installed on your instance, you are redirected to the ServiceNow IDE interface. You will see the following message if you don't have Build Agent installed on your instance.
 
-        \[Omitted image "ta-ba-install.png"\] Alt text: Screenshot showing the banner message
+        \[Omitted image "image.ta-ba-install"\] Alt text: Screenshot showing the banner message
 
         See [Create new test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-tut-build-first.md) for more information.
 
@@ -66,4 +66,11 @@ Role required: admin
 
     When a test/test suite fails, the Test Agent automatically starts the troubleshooting process. It identifies the step where the failure occurred and analyzes the root cause. The Test Agent then recommends possible fixes. After you select a recommended option, the Test Agent applies the fix, updates the test/test suite code, and reruns the test/test suite automatically. When the test/test suite passes, it provides a summary of the changes made to resolve the failure.
 
+
+-   **[ATF test generation in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/test-agent-atf-test-gen-ba.md)**  
+The Build Agent can generate Automated Test Framework \(ATF\) tests while you create or edit applications. This capability helps validate your builds with consistent, automated test coverage.
+-   **[UI Test Script in Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/test-agent-ui-test-script-atf.md)**  
+UI Test Script enables you to create test code for custom user interfaces exposing elements of Testing Library within the Automated Test Framework \(ATF\). Generate test scripts through conversational interaction with Build Agent and run them alongside other ATF tests.
+
+**Parent Topic:**[Test Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/test-agent-landing-page.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2026-09-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [add break, schedule break, embedded break, Manager Workforce]
 breadcrumb: [Using the team calendar, Managing agents and tasks from Workforce, Managing workforce, Use, Field Service Management]
@@ -29,7 +29,7 @@ Role required: wm\_manager.
 
 3.  Select the shift that you want to add a break to.
 
-4.  Select the **Edit** \[Omitted image "image.edit-schedule"\] Alt text: Edit icon, then choose an option.
+4.  Select the **Edit** \[Omitted image "edit-schedule.png"\] Alt text: Edit icon, then choose an option.
 
 5.  Select **Add break**.
 

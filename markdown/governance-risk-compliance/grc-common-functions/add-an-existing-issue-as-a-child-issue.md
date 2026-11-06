@@ -7,7 +7,7 @@ release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-09-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Group issues, Manage issues, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -28,7 +28,7 @@ Role required: risk\_admin, risk\_manager, or sn\_risk.user
 
 2.  Select **Add**.
 
-3.  In the Add Child Issues dialog, select the check box next to each issue you want to add.
+3.  In the Add Child Issues dialog, select the checkbox next to each issue you want to add.
 
 4.  Select **Add**.
 

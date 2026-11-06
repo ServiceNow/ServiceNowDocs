@@ -7,7 +7,7 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-08-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [HAM integrations, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [HAM integrations, Hardware Asset Management, IT Asset Management, A
 
 Use the Hardware Asset Management \(HAM\) and Contract Management Pro integration to perform contract and obligation extraction from signed contract documents.
 
-**Important:** This feature is available only with Hardware Asset Management Prime SKU, starting from Hardware Asset Management version 16.0.0 and Australia patch 6.
+**Important:** This feature is available only with Hardware Asset Management Prime SKU.
 
 ## Types of hardware contract obligations
 
@@ -77,9 +77,4 @@ With the Obligation Management \(sn\_cm\_obligation\) plugin activated, the foll
 |sn\_cm\_gen\_ai.ai\_contract\_admin|Provides administrative access to the Manage contract repository agentic workflow. Installs ServiceNow Otto for Contract Management Pro \(sn\_cm\_gen\_ai\) plugin and activates the required skills.|
 
 **Parent Topic:**[Hardware Asset Management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/ham-integrations.md)
-
-**Related topics**  
-
-
-[Hardware Asset Management integration with Zero Touch Mobility]()
 

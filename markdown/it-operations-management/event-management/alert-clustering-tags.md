@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Tag cluster alert grouping, Mixed alert grouping, Alert grouping types and creation methods, Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -28,12 +28,14 @@ Role required: evt\_mgmt\_admin
 
 1.  Navigate to **All** &gt; **Event Management** &gt; **Tag Based Alert Clustering Engine** &gt; **Alert Clustering Tags**.
 
-2.  Select **New**.
+2.  Click **New**.
 
 3.  Fill in the values on the [Event Management tag based alert clustering tag form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/tag-based-alert-clustering-tag-form.md).
 
 4.  Select **Submit**.
 
-    The tag appears in the Tag Based Alert Clustering Tags table.
 
+## Result
+
+The tag appears in the Tag Based Alert Clustering Tags table.
 

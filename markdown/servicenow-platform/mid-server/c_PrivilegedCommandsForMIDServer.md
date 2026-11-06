@@ -7,7 +7,7 @@ release: australia
 product: MID Server
 classification: mid-server
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [MID Server reference, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ To discover certain information on a host server, the MID Server must run SSH co
 
 <table id="table_y14_tv4_nhb"><tbody><tr><td>
 
-![Links to each of the MID Server sections](../image/MIDRefIconBar.png)
+![MID Server reference navigation](../image/MIDRefIconBar.png)
 
 </td></tr></tbody>
 </table>An example of information that requires elevated privileges is information about storage disks on a host server, retrieved with the `fdisk -l` command. If your system cannot use sudo commands, you must configure the hosts in your network to use one of the other privileged commands. You can configure different privileged commands for different hosts. However, Discovery supports only one privileged command per host.

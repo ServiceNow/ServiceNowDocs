@@ -7,7 +7,7 @@ release: australia
 product: Workplace Central
 classification: workplace-central
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Working with Space Planning, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -36,15 +36,15 @@ Role required: sn\_wsd\_core.workplace\_manager or sn\_wsd\_spcmgmt.space\_plann
 
 4.  Manage the spaces based on your requirement.
 
-<table id="choicetable_d2c_yt5_g3c"><thead><tr><th align="left" id="d324745e101">
+<table id="choicetable_d2c_yt5_g3c"><thead><tr><th align="left" id="d324219e101">
 
 Action
 
-</th><th align="left" id="d324745e104">
+</th><th align="left" id="d324219e104">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d324745e110">
+</th></tr></thead><tbody><tr><td id="d324219e110">
 
 **Create a space**
 
@@ -55,7 +55,7 @@ Steps
 3.  Select **Save**.
  **Important:** If you have Workplace Space Management installed, the Create New Space form contains fields from the `Space` form. For more information about the Space form, see [Add a space using Workplace Space Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-space-management/add-a-space.md).
 
-</td></tr><tr><td id="d324745e156">
+</td></tr><tr><td id="d324219e156">
 
 **Edit spaces**
 
@@ -70,7 +70,7 @@ Steps
 4.  Select **Update**.
 
 
-</td></tr><tr><td id="d324745e194">
+</td></tr><tr><td id="d324219e194">
 
 **Edit space allocations**
 
@@ -95,7 +95,7 @@ If you have Workplace Space Management, you can select the Cost Center, Departme
 6.  Select **Apply**.
 
 
-</td></tr><tr><td id="d324745e258">
+</td></tr><tr><td id="d324219e258">
 
 **Remove space allocations**
 
@@ -110,7 +110,7 @@ Allocation types are available only if you have the Workplace Space Management.
 4.  Review the current allocation details, then select **Save**.
 
 
-</td></tr><tr><td id="d324745e297">
+</td></tr><tr><td id="d324219e297">
 
 **Export space details**
 

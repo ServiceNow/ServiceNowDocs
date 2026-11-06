@@ -7,9 +7,9 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-keywords: [ServiceNow, Health Log Analytics, HLA, data input, configuration]
+keywords: [ServiceNow, Health Log Analytics, HLA, manual, data input, configuration]
 breadcrumb: [Manual data input configuration, Set up data inputs manually, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
@@ -27,7 +27,7 @@ Set up a REST API data input for streaming log data to your ServiceNow instance.
 
     On the MID Web Server Context form, in the **Execute on** field, select Specific MID Server and not the cluster option. In the **MID Server** field, select the specific MID Server to which the log data is pulled.
 
--   Unless the MID Server and external clients are on the same network, the MID Server must have a public IP address. This is required when its IP is exposed through network address translation \(NAT\), a load balancer, or a similar device. The public IP address enables external clients, such as Filebeat agents located outside its network, to reach the MID Server. Private IP addresses aren't routable over the internet. Without a public IP, external clients can't connect to the MID Server even if they are configured with its address. In the MID Server properties, add a property named **mid.public\_ip** with the public IP address as the value. For more information, see [Create a MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerProperties.md). If the MID Server and external clients are on the same network, connections can be made using the private IP address.
+-   Unless the MID Server and external clients are on the same network, verify that the MID Server has a public IP address. This is required when its IP is exposed through network address translation \(NAT\), a load balancer, or a similar device. The public IP address enables external clients, such as Filebeat agents located outside its network, to reach the MID Server. Private IP addresses aren't routable over the internet. Without a public IP, external clients can't connect to the MID Server even if they are configured with its address. In the MID Server properties, add a property named **mid.public\_ip** with the public IP address as the value. For more information, see [Create a MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerProperties.md). If the MID Server and external clients are on the same network, connections can be made using the private IP address.
 
 Role required: evt\_mgmt\_admin
 
@@ -45,16 +45,14 @@ Role required: evt\_mgmt\_admin
 
 5.  Select **Save**.
 
-    -   Health Log Analytics adds the data input record to the **Data Inputs** table.
-    -   The system automatically generates the REST API data input URL for sending logs to the MID Server. The generated URL will be in this format: `http://(MID_SERVER_IP):(MID_WEB_SERVER_PORT)/ap1/mid/hla/raw`. HLA replaces `(MID_SERVER_IP)` and `(MID_WEB_SERVER_PORT)` with the values you configured.
-6.  Copy the generated URL.
+    Health Log Analytics adds the data input record to the **Data Inputs** table.
 
-7.  Instruct your API client to send log messages to the MID Server.
+6.  Instruct your API client to send log messages to the MID Server.
 
     1.  In the API client, configure a request with the following parameters:
 
         -   HTTP Method: POST.
-        -   URL: The URL you copied in the previous step.
+        -   URL: A URL with the following format: `http://(MID_SERVER_IP):(MID_WEB_SERVER_PORT)/api/mid/hla/raw`. The format of the URL for a secure connection is: `https://(MID_SERVER_IP):(MID_WEB_SERVER_PORT)/api/mid/hla/raw` Here `/aps/mid/hla/raw` is the endpoint. Replace `(MID_SERVER_IP)` with the IP address of the MID Server and `(MID_WEB_SERVER_PORT)` with the port of the MID Web Server.
         -   Authentication: The required authentication credentials. For example, Basic authentication \(username and password\).
 
             **Note:** The authentication method must be the same as the method configured on the MID Web Server.

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/clone-exclusions-guidelines.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -34,6 +34,7 @@ A reference topic that includes general guidelines to exclude a table from cloni
 
     -   sys\_user
     -   sys\_user\_role
+    -   sys\_user\_has\_role
     -   sys\_user\_group
     -   sys\_user\_grmember
     -   sys\_group\_has\_role

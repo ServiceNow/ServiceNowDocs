@@ -7,7 +7,7 @@ release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage financials for planning items, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -38,15 +38,15 @@ Create and manage monetary benefit plans to capture the potential benefits while
 
 4.  Create a monetary benefit plan using one of the following options.
 
-<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d306221e138">
+<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d317847e138">
 
 Option
 
-</th><th align="left" id="d306221e141">
+</th><th align="left" id="d317847e141">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d306221e147">
+</th></tr></thead><tbody><tr><td id="d317847e147">
 
 **Using Monetary benefit plan related list**
 
@@ -56,7 +56,7 @@ Procedure
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d306221e171">
+</td></tr><tr><td id="d317847e171">
 
 **Using finanicals record page**
 

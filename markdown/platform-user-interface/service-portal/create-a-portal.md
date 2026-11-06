@@ -7,7 +7,7 @@ release: australia
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -262,7 +262,7 @@ Search Application
 
 </td><td>
 
-Defines the search experience settings for your portal, such as the search engine, search results limit, and suggestions limit. For more information on defining a search application configuration, see Defining search application configurations.
+Defines the search experience settings for your portal, such as the search engine, search results limit, and suggestions limit. For more information on defining a search application configuration, see [Defining search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/defining-search-app-cfgs-ais.md).
 
 </td></tr><tr><td>
 
@@ -270,7 +270,7 @@ Search Results Configuration
 
 </td><td>
 
-Defines how search results are displayed in the portal. For more information on defining a search results configuration, see Define a composite dataset.
+Defines how search results are displayed in the portal. For more information on defining a search results configuration, see [Define a composite dataset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/define-composite-dataset.md).
 
 </td></tr></tbody>
 </table>3.  Save the form.

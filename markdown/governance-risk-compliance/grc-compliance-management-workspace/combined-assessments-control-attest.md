@@ -7,7 +7,7 @@ release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create control objective, Manage control objectives and policies, Use, GRC Compliance workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -20,19 +20,7 @@ Control attestation feature is enhanced to display all the control related infor
 
 The **GRC attestation** template for control category of assessment had two targets as Control and Entity to display the control and entity related information on the assessment template. With the referential information of the assessment engine, Entity information is no longer displayed. Instead, all the relevant information about the control are added as Assessment reference in the GRC attestation template.
 
-When you open an assessment in the **Details** pane on the right, the following contextual information is displayed:
-
--   Name
--   Description
--   Entity
--   Control objective
--   Status
--   Owner
--   Current compliance score
--   Tier value
--   Tiering assessor
--   Enforcement
--   Classification
+The contextual information such as its name, description, entity, control objective, status, owner, current compliance score, tier value, tiering assessor, enforcement, classification, and others are populated and displayed as you open an assessment in the Details pane on the right.
 
 ## Grouping control attestations
 

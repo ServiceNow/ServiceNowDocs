@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2026-05-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enterprise Asset Management data model, Explore, Enterprise Asset Management, Asset Management]
 ---
@@ -28,7 +28,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Consumable models
+Consumable model
 
 </td><td>
 
@@ -36,7 +36,7 @@ Represents consumable assets that you can track by quantity, such as safety glov
 
 </td></tr><tr><td>
 
-Simple models
+Simple model
 
 </td><td>
 
@@ -44,19 +44,19 @@ Represents standalone enterprise assets that you can track individually, such as
 
 </td></tr><tr><td>
 
-Pre-assembled models
+Pre-assembled model
 
 </td><td>
 
-Represents equipment that you receive as complete, pre-configured assemblies from a vendor. You must define each assembly component in the corresponding enterprise model record before creating any assets that represent those components.
+Type of multi-component model that represents equipment that you receive as complete, pre-configured assemblies from a vendor. You must define each assembly component in the corresponding enterprise model record before creating any assets that represent those components.For more information about multi-component models, see [Multi-component models and assets in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/complex-models.md).
 
 </td></tr><tr><td>
 
-User-assembled models
+User-assembled model
 
 </td><td>
 
-Represents equipment that you must assemble on-site using components from your existing inventory. With this model type, all required components must be readily available in your stockrooms before any assembly begins.
+Type of multi-component model that represents equipment that you must assemble on-site using components from your existing inventory. With this model type, all required components must be readily available in your stockrooms before any assembly begins.For more information about multi-component models, see [Multi-component models and assets in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/complex-models.md).
 
 </td></tr></tbody>
 </table>-   **[Multi-component models and assets in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/complex-models.md)**  

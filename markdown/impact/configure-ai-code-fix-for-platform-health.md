@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/configure-ai-code-fix-for-platform-health.html
 release: australia
 topic_type: task
-last_updated: "2026-07-15"
-reading_time_minutes: 1
-breadcrumb: [Configure Scan Engine parameters, Activate Scan Engine and review settings, Run Impact Guided Setup, Configuring Impact, Impact]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Configure Scan Engine properties, Activate Scan Engine and review settings, Configuring Impact, Impact]
 ---
 
 # Configure real-time code resolution with AI
@@ -34,13 +34,15 @@ The following are minimum prerequisites:
 ## Procedure
 
 1.  Set system to enforce real-time validation.
-2.  Navigate to Scan Engine Properties System properties \(`sn_se_properties.list`\).
+2.  Navigate to **All** &gt; **** &gt; **Impact** &gt; **** &gt; **Configuration** &gt; **Scan Engine Properties**.
 
-3.  On the Real Time Scanning related list, enable **Enforce real-time validation** .
+3.  On the **Real Time Scanning** related list, select **Enforce real-time validation**.
 
-    Real-time Messaging must be activated, as the feature is tied to findings being present.
+    Real-time Messaging must not be disabled, as the feature is tied to findings being present for either All users or Only users with role scan\_engine\_user.
 
-4.  Activate the ServiceNow Otto for Setup Skill for Fix code in real-time.
+    \[Omitted image "real-time-messaging-enabled.png"\] Alt text: Real time messaging visiblity enabled options.
+
+4.  Activate the ServiceNow Otto for Setup Skill for Fix code in real-time. See [Activate Now Assist Skills for Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/activate-now-assist-skills-in-now-assist-for-impact.md) for additional information.
 5.  Navigate to **All** &gt; **ServiceNow Otto for Setup** &gt; **Skills**.
 
 6.  On the Skills tab, select **Impact** from the navigation menu.
@@ -49,7 +51,7 @@ The following are minimum prerequisites:
 
     The button on the tile updates to **Deactivate skill** when the option has been selected and the status will show **Active**.
 
-8.  Ensure the `sn_impact_gen_ai.ai_fix.enabled` property is enabled.
+8.  Select the `sn_impact_gen_ai.ai_fix.enabled` property.
 
     **Note:** Enables the **Generate fixes with AI** button to display on script records.
 
@@ -57,15 +59,13 @@ The following are minimum prerequisites:
 
 10. Set the value to `true`.
 
-    This value is set to `false` by default.
+    This value is disabled by default.
 
-11. Assign users to have access to the Fix code in real-time panel.
+11. Assign users to have access to the Fix code in real-time panel. See [Roles installed with Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-roles.md) for details.
 12. Navigate to **All****sys\_user\_role.list**.
 
-13. In the roles table search for `sn_impact_gen` and select the `sn_impact_gen_ai.ai_fix_user` role from the table to open the role details.
-
-14. Assign the `sn_impact_gen_ai_.ai_fix_user` role to relevant users or groups.
+13. Assign the role to relevant users or groups.
 
 
-**Parent Topic:**[Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-scan-engine-properties.md)
+**Parent Topic:**[Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-scan-engine-properties.md)
 

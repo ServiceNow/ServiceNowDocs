@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/manage-integration.html
 release: australia
 topic_type: task
-last_updated: "2025-10-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage AI models, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Manage AI models, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Manage Integration
@@ -22,13 +22,13 @@ With **Bring Your Own Key \(BYOK\)** option, you can apply your own license key 
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Admin Hub**.
+1.  Navigate to **All** &gt; **Now Assist Admin**.
 
 2.  Navigate to **Settings** &gt; **Manage integration**.
 
-3.  Change the model provider to use either the ServiceNow® key or **Bring Your Own Key \(BYOK\)** across all the third-party model providers.
+3.  Change the model provider to use either the ServiceNow® key or **Bring Your Own Key \(BYOK\)** across all the third party model providers.
 
-    This enables **Bring Your Own Key \(BYOK\)** selection for third-party model providers across all features except AI Agents.
+    This enables **Bring Your Own Key \(BYOK\)** selection for third party model providers across all features except AI Agents.
 
 4.  Select the integration type for the providers that allow such a configuration.
 

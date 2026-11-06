@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd
 topic_type: concept
-last_updated: "2026-07-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
@@ -131,12 +131,12 @@ The Help manage workplace reservations agentic AI workflow enables Workplace Eve
 The Optimize cleaning activities agent performs cleaning activities on a workplace location based on the space utilization threshold data.
 -   **[Automate map updates agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/automate-map-updates-agent-ai.md)**  
 This AI agent helps map admins configure the map during bulk updates to Indoor Mapping.
--   **[Workplace Advisor Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/workplace-advisor-overview.md)**  
-Workplace Advisor is an AI-powered solution designed to help Space Planners and Facilities Managers optimize workplace management through intelligent insights and conversational support.
 -   **[Workplace Concierge agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/workplace-concierge-ai-agent.md)**  
 Use the Workplace Concierge agentic workflow to register visitors from existing communication tools like emails, calendars, or the Virtual Agent.
+-   **[Process image to record agent for workplace case creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/process-image-to-record-agent-for-workplace-case-creation.md)**  
+The Process image for new tasks workflow enables workplace users to report workplace issues by capturing and uploading images through the virtual agent interface. The system automatically analyzes the image and creates a workplace case with populated fields including short description, description, and priority.
 -   **[Implement Autonomous L1 Agent for Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/implement-autonomous-l1-agent-for-workplace.md)**  
-Use the Autonomous L1 Agent for Workplace agent that automatically resolves General Inquiry workplace cases without requiring manual agent intervention.
+Use the Autonomous L1 Agent for Workplace agent that automatically resolves frequently asked General Inquiry workplace cases without requiring manual agent intervention.
 
 **Parent Topic:**[ServiceNow Otto for Workplace Service Delivery \(WSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/now-assist-wsd-landing.md)
 

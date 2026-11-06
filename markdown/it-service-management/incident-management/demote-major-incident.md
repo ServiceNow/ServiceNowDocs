@@ -1,20 +1,20 @@
 ---
 title: Demote a major incident
-description: When an incident is incorrectly evaluated to be a major incident, you can demote the major incident even after it is accepted so that the incident can be handled as a regular incident.
+description: Demote an incorrectly evaluated major incident, even after it is accepted. The incident is then handled as a regular incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/incident-management/demote-major-incident.html
 release: australia
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working on major incident management, Managing major incidents, Incident Management, IT Service Management]
 ---
 
 # Demote a major incident
 
-When an incident is incorrectly evaluated to be a major incident, you can demote the major incident even after it is accepted so that the incident can be handled as a regular incident.
+Demote an incorrectly evaluated major incident, even after it is accepted. The incident is then handled as a regular incident.
 
 ## Before you begin
 
@@ -28,7 +28,7 @@ Role required: major\_incident\_manager
 
 2.  Open the major incident that you want to demote.
 
-3.  Click the additional actions icon \[Omitted image "context-menu.png"\] Alt text: Additional actions icon and select **Demote Major Incident**.
+3.  Select the Additional actions icon \[Omitted image "context-menu.png"\] Alt text: and select **Demote Major Incident**.
 
 4.  Enter the reason for the demotion.
 

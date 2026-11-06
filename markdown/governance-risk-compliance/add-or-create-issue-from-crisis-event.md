@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/add-or-create-issue-from-crisis-event.html
 release: australia
 topic_type: task
-last_updated: "2026-08-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Structured workflows for Crisis events, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Structured workflows for crisis events, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Add or create an issue from a crisis event
@@ -26,15 +26,15 @@ The **Issues** related list appears on a crisis event record when GRC: Profiles 
 
 2.  Complete the following steps to create or manage an issue from a crisis event.
 
-<table id="choicetable_p55_b3s_jkc"><thead><tr><th align="left" id="d398542e97">
+<table id="choicetable_p55_b3s_jkc"><thead><tr><th align="left" id="d401179e97">
 
 Step
 
-</th><th align="left" id="d398542e100">
+</th><th align="left" id="d401179e100">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d398542e106">
+</th></tr></thead><tbody><tr><td id="d401179e106">
 
 **Create or add an issue from the event record**
 
@@ -61,11 +61,13 @@ The classification, issue source, and issue source reference are set automatical
 
 Use this option when you want to associate an existing issue with the crisis event as an additional source. The event is recorded as a secondary source of the issue.
 
+\[Omitted image "add-button-event.png"\] Alt text: Add button in Crisis event record.
+
 5.  To remove an issue, select it from the list and select **Remove**.
 
 The issue association is removed from the event; the issue record isn't deleted from the instance.
 
-</td></tr><tr><td id="d398542e176">
+</td></tr><tr><td id="d401179e181">
 
 **Link a crisis event from the issue record**
 
@@ -87,5 +89,5 @@ The issue association is removed from the event; the issue record isn't deleted 
     \[Omitted image "issues-section-in-pdf-events.png"\] Alt text: Issues section in the PDF.
 
 
-**Parent Topic:**[Structured workflows for Crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/perform-tasks-to-manage-crisis-events.md)
+**Parent Topic:**[Structured workflows for crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/perform-tasks-to-manage-crisis-events.md)
 

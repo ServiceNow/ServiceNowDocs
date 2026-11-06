@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/config-awa-queue-for-proxy-contact.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [AWA for CSM, Case routing and assignment, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -33,12 +33,12 @@ Modify the following AWA queues:
 
 3.  In the **Work item routing condition** field, add the following OR condition: **Internal Contact is not empty**.
 
-4.  Click **Update**.
+4.  Select **Update**.
 
 5.  Select the **Customer Service** queue.
 
-6.  In the **Work item routing condition** field, add the following OR condition: **Roles is sn\_customerservice.proxy\_contact**.
+6.  In the **Work item routing condition** field, add the following OR condition: **Roles is sn\_csm\_proxy\_cont**.
 
-7.  Click **Update**.
+7.  Select **Update**.
 
 

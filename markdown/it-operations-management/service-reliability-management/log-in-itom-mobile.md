@@ -7,7 +7,7 @@ release: australia
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, ITOM Mobile Agent, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
@@ -30,7 +30,7 @@ Role required: srm\_manager, srm\_responder, or srm\_admin
 
 2.  Enter the address of your instance manually or with a QR code.
 
-<table id="choicetable_o5x_tby_q2c"><tbody><tr><td id="d375449e120">
+<table id="choicetable_o5x_tby_q2c"><tbody><tr><td id="d401769e120">
 
 **Manual entry**
 
@@ -38,7 +38,7 @@ Role required: srm\_manager, srm\_responder, or srm\_admin
 
 Replace `example.service-now.com` with the address of your instance. You don't need to include `service-now.com`. For example, enter `nebula-dev` for `nebula-dev.service-now.com`.
 
-</td></tr><tr><td id="d375449e149">
+</td></tr><tr><td id="d401769e149">
 
 **QR code**
 

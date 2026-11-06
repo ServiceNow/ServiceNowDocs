@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/contact-seller.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [servicenow store, store, app store, application store, app store user documentation, servicenow app store, message seller, contact app provider, message app provider, app provider contact info, app seller contact info]
 breadcrumb: [Getting apps, ServiceNow Store, Administering applications, Get started, Administer the ServiceNow AI Platform]
@@ -31,15 +31,15 @@ If you have questions about an app offered by ServiceNow, contact your account e
 
 2.  On the contact form, fill in the fields, which depend on whether you're logged in with your Now Support credentials.
 
-<table id="choicetable_z3s_bpn_bdc"><thead><tr><th align="left" id="d313310e155">
+<table id="choicetable_z3s_bpn_bdc"><thead><tr><th align="left" id="d314602e155">
 
 Logged in status
 
-</th><th align="left" id="d313310e158">
+</th><th align="left" id="d314602e158">
 
 Fields displayed
 
-</th></tr></thead><tbody><tr><td id="d313310e164">
+</th></tr></thead><tbody><tr><td id="d314602e164">
 
 **Logged in**
 
@@ -47,7 +47,7 @@ Fields displayed
 
 Provide the reason for contacting the seller and your message.
 
-</td></tr><tr><td id="d313310e173">
+</td></tr><tr><td id="d314602e173">
 
 **Not logged in**
 

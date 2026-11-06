@@ -7,9 +7,9 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Reference, Manager Hub, HR Service Delivery, Employee Service Management]
+breadcrumb: [Reference for Manager Hub, Manager Hub, HR Service Delivery, Employee Service Management]
 ---
 
 # Default configurations for To do's
@@ -20,8 +20,8 @@ To dos filters is a module within Employee Center. For more details on how to co
 
 |Name|Description|
 |----|-----------|
-|Approvals|Filters to display requests that require approval of a manager.|
-|My team tasks|Filter to display team tasks to a manager.|
+|Approvals|Filters to display requests that require approval of a manager in Manager Hub.|
+|My team tasks|Filter to display team tasks to a manager in Manager Hub.|
 
 The following filter conditions are also available: HR approvals, HR tasks, HR tasks for UR, Journey accelerator to-dos, Journey accelerator to-dos- Adhoc, Request approvals, Universal task, and UR approvals.
 

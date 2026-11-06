@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-governance/esg-domain-separation.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Operational Sustainability Management \(formerly ESG\) reference, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -36,7 +36,7 @@ Domain separation is useful for users who:
 
 These users can choose to expand or collapse the domain scope to show or hide data from other domains.
 
-**Note:** Users have access to data from domains that have been explicitly granted to them by domain visibility.
+**Note:** Users always have access to data from domains that have been explicitly granted to them by domain visibility.
 
 ## How domain separation works in Operational Sustainability Management
 
@@ -49,9 +49,9 @@ For example, suppose you have domains that look like:
     -   Domain A
     -   Domain B
 
-If you have operational sustainability goals, material topics and targets that you want to be assessed by users in domains A and B, the goals, material topics and targets should be manually created at the global level. If goals, material topics and targets are created in Domain B, you will not be able to use them in Domain A due to indexing.
+If you have ESG goals, material topics and targets that you want to be assessed by users in domains A and B, the ESG goals, material topics and targets should be manually created at the global level. If ESG goals, material topics and targets are created in Domain B, you will not be able to use them in Domain A due to indexing.
 
-If you have operational sustainability goals, material topics and targets that you want to be assessed by users in Top and Domain A, you can create the risk or control in Domain A. Unless the goals, material topics and targets are in the Global domain, users must not assign risks or controls in a higher domain to users in a lower domain. In the example given, if you have a goal in the Top domain, you should not assign it to program manager in Domains A or B since those users would not have access to the this goal.
+If you have ESG goals, material topics and targets that you want to be assessed by users in Top and Domain A, you can create the risk or control in Domain A. Unless the ESG goals, material topics and targets are in the Global domain, users must not assign risks or controls in a higher domain to users in a lower domain. In the example given, if you have an ESG goal in the Top domain, you should not assign it to program manager in Domains A or B since those users would not have access to the this goal.
 
 ## Domain separated tables
 
@@ -88,7 +88,7 @@ For more information on these tables, see [Components installed with Operational
 
 ## Use case
 
-Operational sustainability data can be separated from the data of other departments. Each business area using the Operational Sustainability Management application can have separate data that cannot be shared with other departments. Therefore, each department can have its own goals, targets, material topics, and so on. When looking at a goal from the operational sustainability domain, the user can choose to expand the domain scope to show values from the operational sustainability domain or collapse the domain scope to show only goals that match the operational sustainability domain. By default, domain separation adds a domain field to the Task \[task\]and Configuration Items \[cmdb\_ci\] tables and their extensions. You can extend domain separation to any new tables you create by adding a sys\_domain field to the table's dictionary definition. By default, the system only domain-separates platform and baseline application tables where appropriate.
+ESG data can be separated from the data of other departments. Each business area using the Operational Sustainability Management application can have separate data that cannot be shared with other departments. Therefore, each department can have its own goals, targets, material topics, and so on. When looking at a goal from the ESG domain, the user can choose to expand the domain scope to show values from the ESG domain or collapse the domain scope to show only goals that match the ESG domain. By default, domain separation adds a domain field to the Task \[task\]and Configuration Items \[cmdb\_ci\] tables and their extensions. You can extend domain separation to any new tables you create by adding a sys\_domain field to the table's dictionary definition. By default, the system only domain-separates platform and baseline application tables where appropriate.
 
 **Note:** ServiceNow® does not recommend domain separating platform tables such as any table with the sys\_ prefix such as the Dictionary Entry \[sys\_dictionary\] and Dictionary Entry Override \[sys\_dictionary\_override\] tables because it can produce unexpected results.
 

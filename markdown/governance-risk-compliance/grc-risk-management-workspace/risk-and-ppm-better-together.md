@@ -7,7 +7,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Integrate, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -18,7 +18,9 @@ Manage your project risks by using the Project Risk Assessment capability. Risk 
 
 As your organization grows, it is important to perform risk assessments of your projects. Because each project is unique, it is important to customize the project risk management process according to the unique project requirements. Determining the right level of project risk management process constitutes the risk management plan. The project risk life cycle consists of phases such as project risk identification, project risk assessment, project risk mitigation, and project risk monitoring.
 
-With version 11.0.1, you can use Governance, Risk, and Compliance \(GRC\) Advanced Risk Assessment to assess your project risks. The feature is integrated with a strong risk assessment engine which you can use with strong project risk management requirements. This feature also provides efficient visibility and reporting of the project risks posture by using tools such as aggregated project risk ratings and heatmaps. The integration also ensures that when a project risk threatens to affect the enterprise, the risk can be easily reported to the enterprise risk team. The enterprise risk team can then define the necessary mitigating actions.
+You can use Governance, Risk, and Compliance \(GRC\) Advanced Risk Assessment to assess your project risks. It is built on a strong risk assessment engine for projects with demanding risk management requirements. It gives efficient visibility and reporting of the project risk posture through aggregated project risk ratings and heatmaps. If a project risk threatens to affect the enterprise, you can report it to the enterprise risk team, which then defines the necessary mitigating actions.
+
+Project risk assessment on the Project form requires the Project Portfolio Management plugin \(com.snc.financial\_planning\_pmo\) to be active, in addition to Advanced Risk Assessment. To enable the integration behavior, such as aggregate risk scores and retiring GRC risks when the PPM risk closes or is deleted, set the sn\_risk\_advanced.enable\_advanced\_risk\_ppm\_integration property to true. The property is false by default.
 
 ## Benefits of the GRC and Project Portfolio Management integration for managers
 

@@ -7,7 +7,7 @@ release: australia
 product: Recommended Actions for OTSM
 classification: recommended-actions-for-otsm
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Recommended Actions for OTSM, Operational Technology]
 ---

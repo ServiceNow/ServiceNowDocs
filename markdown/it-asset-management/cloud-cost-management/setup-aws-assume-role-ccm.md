@@ -7,7 +7,7 @@ release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2026-05-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure Cloud Cost Management for AWS, Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -278,7 +278,7 @@ Grants access to Trusted Advisor checks and Reservation Purchase Recommendations
 
     4.  Select **Add permissions** to confirm.
 
-    \[Omitted image "aws-permission-policy.png"\] Alt text: AWS permission for IAM role in the AWS portal
+    \[Omitted image "aws-permission-policy.png"\] Alt text: AWS permissions for the IAM role on AWS portal
 
 5.  Grant permission to assume the role.
 
@@ -325,7 +325,7 @@ Grants access to Trusted Advisor checks and Reservation Purchase Recommendations
 
     4.  Select **Update policy**.
 
-    \[Omitted image "aws-trust-policy.png"\] Alt text: AWS trust policy in the AWS portal
+    \[Omitted image "aws-trust-policy.png"\] Alt text: AWS trust policy on AWS portal
 
 
 ## Result

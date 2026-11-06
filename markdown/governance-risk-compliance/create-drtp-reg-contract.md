@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-drtp-reg-contract.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Use, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Create a contract and enhance digital resilience data
@@ -62,7 +62,7 @@ You can navigate to the contracts from the Contracts menu item in Digital resili
 
     For more information, see [Create Contractual arrangement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-new-cont-arrange-form.md).
 
-    **Note:** When you open the linked legal entity, third party, or third-party engagement record from the Specific information section of a contract, a parent path is displayed so you can navigate back to the contract record.
+    **Note:** Third party, Third-party engagement, and Contractual arrangement Digital resilience information records include a reference field back to their parent record.
 
 9.  Select **Save**.
 
@@ -144,7 +144,7 @@ You can navigate to the contracts from the Contracts menu item in Digital resili
 
 
 -   **[Create Contract form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-new-contract-form.md)**  
-On the Create Contract form, fill in the fields.
+On the Create New Contract form, fill in the fields.
 -   **[Create Contractual arrangement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-new-cont-arrange-form.md)**  
 On the Create Contractual arrangement form, fill in the fields. For each contract, a separate form would be required.
 

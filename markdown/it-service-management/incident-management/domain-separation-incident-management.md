@@ -7,7 +7,7 @@ release: australia
 product: Incident Management
 classification: incident-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Incident Management, IT Service Management]
 ---
@@ -27,16 +27,13 @@ Sample use case: An admin must be able to make comments required when a record c
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
-## Incident Management overview
+## Incident Management purpose
 
--   The goal of Incident Management is to restore normal service operation as quickly as possible, while minimizing impact to business operations and ensuring quality is maintained.
+-   The goal of Incident Management is to restore normal service operation as quickly as possible, while minimizing impact to business operations and maintaining quality.
+-   Typically, end users log incidents when a service they are using is impacted or not available. Users with the itil role in your organization classify these incidents, route them as appropriate, and work to resolve them.
+-   The incident and incident task tables support domain separation. So, the fulfillers see only incidents or incident tasks that have been created within the \(tenant\) domain that they belong to.
 
--   Typically, end users log incidents when a service they are using is impacted or not available. ITIL / Fulfiller users in your organization classify these incidents, route them as appropriate and work on resolving the incident.
-
--   The incident and incident task tables support domain separation. Therefore, a Fulfiller sees only incidents or incident tasks that have been created within the \(tenant\) domain that they belong to.
-
-
-## How domain separation works in Incident Management
+## Domain separation behavior in Incident Management
 
 Fulfillers see only incidents and incident tasks that have been created within the \(tenant\) domain that they belong to.
 
@@ -47,13 +44,13 @@ Fulfillers see only incidents and incident tasks that have been created within t
 
 ## Incident Management use cases
 
--   An ESS user belonging to “Initech” domain, creates an incident. Only those ITIL users belonging to “Initech” domain or global domain can see this incident.
+-   An employee self-service \(ESS\) user in the Initech domain creates an incident. Only ITIL users in the Initech domain or the global domain can see this incident.
 -   An ITIL user belonging to a parent domain can see incidents of all its child domains as well.
 -   An ITIL user belonging to a specific domain can create incidents only on behalf of the domains that they have access to.
 -   An ITIL user can associate child incidents only of those domains that they have access to.
 -   If a user has access to multiple domains, the domain specified on the current record drives the functionality of that record and reference fields.
 
-**Parent Topic:**[Reference section for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/reference-section-for-incident-management.md)
+**Parent Topic:**[Incident Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/incident-management/reference-section-for-incident-management.md)
 
 **Related topics**  
 

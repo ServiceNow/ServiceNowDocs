@@ -7,7 +7,7 @@ release: australia
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: task
-last_updated: "2026-08-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [PostgreSQL discovery, PostgreSQL instance name, horizontal discovery, cmdb\_ci\_db\_postgresql\_instance, MID Server property]
 breadcrumb: [PostgreSQL, Database discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
@@ -19,7 +19,7 @@ You can make multiple PostgreSQL instances on the same host distinguishable by p
 
 ## Before you begin
 
-Verify that you have at least version 1.35.0 of Discovery and Service Mapping Patterns.
+Verify that you have at least version 1.35.1 of Discovery and Service Mapping Patterns.
 
 Role required: mid\_server, agent\_admin, or agent\_security\_admin
 

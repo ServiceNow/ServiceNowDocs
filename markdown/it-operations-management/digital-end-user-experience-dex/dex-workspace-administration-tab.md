@@ -1,0 +1,26 @@
+---
+title: DEX Administration
+description: The DEX Application and Device Health Administration tab provides tools to manage and monitor the system.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/dex-workspace-administration-tab.html
+release: australia
+product: Digital End-User Experience \(DEX\)
+classification: digital-end-user-experience-dex
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Administer, Digital End-User Experience, IT Operations Management]
+---
+
+# DEX Administration
+
+The DEX Application and Device Health Administration tab provides tools to manage and monitor the system.
+
+To access the Administration tab, navigate to **Workspaces** &gt; **Service Operations Workspace** and select the Administration icon \[Omitted image "icon-administration.png"\] Alt text: in the primary navigation pane.
+
+**Note:** To view the **Administration** tab, you must have the sn\_dex.admin role.
+
+Use the DEX Administration tab to monitor and manage applications. Use Application management, Agent policies, User roles, System compliance, Metric rules, File management, Windows registry management, Remedial Actions, and Administrator cards to find more information. Track Agent Client Collector installations in Agent health. For more information about each card, see [Administration cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/administration-cards.md).
+
+[View Desktop Assistant usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/view-da-usage-metrics.md) to monitor your Desktop Assistant connection status verifying communication with the ServiceNow instance. For more information about Desktop Assistant, see [DEX Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/use-dex-desktop-exp.md).
+

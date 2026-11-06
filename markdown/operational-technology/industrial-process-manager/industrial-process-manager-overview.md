@@ -7,7 +7,7 @@ release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Operational Technology]
 ---
@@ -37,4 +37,14 @@ Watch an overview about the Industrial Process Manager application.\[Omitted vid
 [Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about related information and applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/manufacturing-process-mgr-reference.md)
 
 </td></tr></tbody>
-</table>
+</table>-   **[Explore Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/exploring-manufacturing-process-mgr.md)**  
+Learn more about the common terminology, acronyms, and ISA-95 Equipment Model industry standard used in the Industrial Process Manager.
+-   **[Configure the Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/configuring-manufacturing-process-mgr.md)**  
+Configure the Industrial Process Manager application so that you can create the Equipment Model data foundation that is required for the ServiceNow® Operational Technology solution.
+-   **[Using Industrial Process Manager with the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/using-manufacturing-process-manager.md)**  
+After you complete all required set up tasks, including importing equipment models, you can use the Operational Technology Manager and Industrial Process Manager functions on the Industrial Workspace Admin menu. These functions include the Equipment Model Manager and the Industrial Workspace.
+-   **[Industrial Process Manager reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/manufacturing-process-mgr-reference.md)**  
+Reference topics provide additional information about the Industrial Process Manager application.
+
+**Parent Topic:**[Operational Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/operational-technology-overview.md)
+

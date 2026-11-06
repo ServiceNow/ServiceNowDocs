@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/deactivate-offline.html
 release: australia
 topic_type: task
-last_updated: "2026-05-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Install and enable, Offline mode setup options, Offline mode, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---

@@ -7,7 +7,7 @@ release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Plan sprints, Agile in CWM, Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -32,15 +32,15 @@ Role required: sn\_cwm.cwm\_user
 
 5.  If there are existing sprints, choose an option to create a new sprint.
 
-<table id="choicetable_pfn_qym_zfc"><thead><tr><th align="left" id="d282814e99">
+<table id="choicetable_pfn_qym_zfc"><thead><tr><th align="left" id="d293493e99">
 
 Choice
 
-</th><th align="left" id="d282814e102">
+</th><th align="left" id="d293493e102">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d282814e108">
+</th></tr></thead><tbody><tr><td id="d293493e108">
 
 **Create a sprint with the same duration and story points capacity as the existing sprint**
 
@@ -48,7 +48,7 @@ Steps
 
 Select **Add another Sprint**.
 
-</td></tr><tr><td id="d282814e120">
+</td></tr><tr><td id="d293493e120">
 
 **Create a sprint with different duration or story point capacity**
 

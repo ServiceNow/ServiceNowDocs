@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/create-group-life-service-case.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Group Life Servicing, Life Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -34,15 +34,15 @@ Contributors and processors can submit group policy service requests for custome
 
 3.  Create a case from the group life service case list or an interaction record.
 
-<table><thead><tr><th align="left" id="d45071e125">
+<table><thead><tr><th align="left" id="d45139e125">
 
 Option
 
-</th><th align="left" id="d45071e128">
+</th><th align="left" id="d45139e128">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d45071e134">
+</th></tr></thead><tbody><tr><td id="d45139e134">
 
 **Group life case from the group life case list**
 
@@ -52,7 +52,7 @@ Steps
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d45071e164">
+</td></tr><tr><td id="d45139e164">
 
 **Group life case from an interaction record**
 

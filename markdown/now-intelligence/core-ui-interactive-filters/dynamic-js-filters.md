@@ -7,7 +7,7 @@ release: australia
 product: Core UI Interactive Filters
 classification: core-ui-interactive-filters
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Custom interactive filters, Interactive Filters, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -260,8 +260,8 @@ Textual representation of a complete or partial field name value.For the "is one
 1.  Perform one of the following actions:
 
     -   On an upgraded instance that has not been fully migrated to Platform Analytics, navigate to **All** &gt; **Reports** &gt; **View / Run**.
-    -   On a new instance or one that has been fully migrated to Platform Analytics, navigate to **All** &gt; **Platform Analytics Administration** &gt; **Usage and governance** &gt; **Reports**.
-2.  Open the report visualization that you want to add the dynamic filter to.
+    -   On a new instance or one that has been fully migrated to Platform Analytics, navigate to **All** &gt; **Platform Analytics** &gt; **Library**.
+2.  Open the Core UI report visualization that you want to add the dynamic filter to.
 
 3.  Select the filter icon \(\[Omitted image "icon-filter.png"\] Alt text:\) to expand the condition builder.
 

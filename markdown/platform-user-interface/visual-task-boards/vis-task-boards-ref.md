@@ -7,9 +7,9 @@ release: australia
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Visual Task Boards, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
 
 # Visual Task Boards reference
@@ -23,5 +23,5 @@ The system supports Visual Task Boards on most modern browsers.
 -   **[Installed with Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/visual-task-boards/r_InstalledWithVisualTaskBoards.md)**  
 Several types of components are installed with Visual Task Boards.
 
-**Parent Topic:**[Configure UIs and portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/configure-uis-and-portals.md)
+**Parent Topic:**[Personalize your experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/personalize-your-experience.md)
 

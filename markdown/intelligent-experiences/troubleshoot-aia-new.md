@@ -5,16 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/troubleshoot-aia-new.html
 release: australia
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-10-16"
 reading_time_minutes: 4
-breadcrumb: [Reference, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Reference, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Troubleshoot AI agents
 
 Use this troubleshooting guide to resolve issues with AI agents' roles, testing procedures, silent failure diagnosis and reference resources.
 
-## Required roles assignments
+## Required role assignments
 
 Role assignments control access to AI Agent Studio and determine what tables and tools an agent or an agentic workflow can access.
 
@@ -33,7 +33,7 @@ Some of the individual ServiceNow AI Platform AI agent roles include:
 
 To identify the roles currently assigned to:
 
--   AI agents: Navigate to **All** &gt; **AI Agent Studio** &gt; **Agentic Solutions**.
+-   AI agents: Navigate to **All** &gt; **AI Agent Studio** &gt; **Agentic solutions**.
 -   Select an AI agent, and navigate to the **Access rules** section.
 
     For more information, see [Define access rules for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/define-sec-aia-new.md).
@@ -48,7 +48,7 @@ To identify the roles currently assigned to:
 
 -   **Test agents and workflows**
 
-    Test your all your AI agents and agentic workflows to make sure they have the correct access. When an AI agent role does not have required resource access, verify that the agent is assigned the correct role. Verify the role has resource access records for all required tables and confirm that role filtering does not override the resource access.
+    Test all your AI agents and agentic workflows to make sure they have the correct access. When an AI agent role does not have required resource access, verify that the agent is assigned the correct role. Verify the role has resource access records for all required tables and confirm that role filtering does not override the resource access.
 
     Supporting tables for diagnosing AI agent's failures:
 
@@ -74,11 +74,11 @@ To identify the roles currently assigned to:
     |Column name|Troubleshooting use|
     |-----------|-------------------|
     |user\_role|Shows what role the agent has; compare to what's required|
-    |error\_message|Direct indication of permission versus natural-language mismatch|
+    |error\_message|Shows whether the error is a permission problem or a wording mismatch in the request|
     |permission\_denied|Boolean flag to quickly filter permission failures|
     |table\_name|Target table the agent was accessing when it failed|
     |operation\_type|Type of operation attempted: `read`, `write`, `execute`, `query`|
-    |action|Shows exactly which step failed \(e.g. "update\_incident", "create\_change", "query\_table"\)|
+    |action|Shows exactly which step failed, for example "update\_incident," "create\_change," or "query\_table"|
     |execution\_log|Full context; shows agent's reasoning before failure|
     |acl\_rule|References the specific ACL that denied access|
 
@@ -94,7 +94,7 @@ Use the following documentation resources for more information:
 -   Agent library: [ServiceNow AI agents library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-agent-landing-page.md).
 -   Knowledge base: [AI agent advanced scenarios and runtime issues playbook](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3042061).
 -   [AI Agents FAQ and Troubleshooting](https://www.servicenow.com/community/servicenow-otto-articles/ai-agents-faq-and-troubleshooting/ta-p/3200454).
--   [Access control Security enhancements for AI agents and Skill Kit](https://www.servicenow.com/community/servicenow-otto-articles/latest-access-control-security-enhancements-for-ai-agents-and/ta-p/3374036).
+-   [Access control security enhancements for AI agents and Skill Kit](https://www.servicenow.com/community/servicenow-otto-articles/latest-access-control-security-enhancements-for-ai-agents-and/ta-p/3374036).
 -   [Common solutions for ServiceNow AI Agent, MCP Server, and AI Agent Fabric](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2076278).
 -   [Accessing AI Agent Studio after upgrading the ServiceNow Otto AI Agents plugin](https://www.servicenow.com/community/servicenow-otto-for-creator/access-denied-to-ai-agent-studio-after-upgrading-sn-aia-plugin/td-p/3453111).
 

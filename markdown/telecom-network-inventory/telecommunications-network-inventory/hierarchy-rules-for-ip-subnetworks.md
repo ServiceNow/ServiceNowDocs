@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
@@ -24,7 +24,7 @@ These rules apply only when creating or updating an IP Subnetwork \(which always
 
 ## Overlap advisory
 
-When a subnetwork’s CIDR overlaps with — but is not identical to — an existing sibling under the same parent, the system displays a warning but does not block the save. The user can acknowledge the warning and continue.
+When a subnetwork’s CIDR overlaps with — but is not identical to — an existing sibling under the same parent, the system displays a warning. The save is not blocked. The user can acknowledge the warning and continue.
 
 Warning text:
 

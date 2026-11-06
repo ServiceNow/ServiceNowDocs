@@ -7,7 +7,7 @@ release: australia
 product: System Import Sets
 classification: system-import-sets
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Importing data using import sets, Import sets, Imports, Workflow Data Fabric]
 ---
@@ -26,7 +26,7 @@ Role required: import\_admin
 
 2.  Review the **Type** and **State** of each parent import set job.
 
-<table id="choicetable_x4w_hjd_vfb"><tbody><tr><td id="d333414e73">
+<table id="choicetable_x4w_hjd_vfb"><tbody><tr><td id="d328963e73">
 
 **Type**
 
@@ -37,7 +37,7 @@ Type of concurrent import set job:-   **Regular** if you are running the schedul
 -   **Resuming** if you are resuming a scheduled import that had an error
 
 
-</td></tr><tr><td id="d333414e100">
+</td></tr><tr><td id="d328963e100">
 
 **State**
 

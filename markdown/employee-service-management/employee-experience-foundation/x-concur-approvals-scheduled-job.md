@@ -7,9 +7,9 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Approvals hub integration with SAP Concur, Approval hub integrations, Approvals hub, Setup task management, Configuring Employee Center Pro, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Approvals hub integration with SAP Concur, Approval hub integrations, Approvals hub, Setup task management, Configuring Employee Center Pro, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Populate SAP Concur report and metadata
@@ -40,7 +40,7 @@ When you sync requests, you can view, track, and manage the pending requests fro
 
 2.  Verify the progress of the job from **All** &gt; **Integrations Framework** &gt; **Job Tracker.**
 
-3.  Check the populated data from the following tables.
+3.  Check the populated data from the following tables:
 
     -   Concur Expense Report Staging \(sn\_ex\_cnc\_concur\_report\_staging\)​​
     -   Concur Expense Report \(sn\_ex\_cnc\_concur\_report\)​​

@@ -7,9 +7,9 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Manage stockrooms, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Inventory and stockroom operations, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # View stockroom details
@@ -61,5 +61,22 @@ Role required: admin or asset
     **Note:** The tabs related to the enterprise assets appear only if the Enterprise Asset Management application is installed on your ServiceNow® instance. If you select an enterprise asset, you’re automatically redirected to the corresponding record in the Enterprise Asset Workspace. If you have access to an enterprise asset, you also have access to the Enterprise Asset Workspace. For more details, see [Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/using-eam-workspace.md).
 
 
-**Parent Topic:**[Manage stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/manage-your-stockrooms.md)
+**Parent Topic:**[Inventory and stockroom operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/manage-your-stockrooms.md)
+
+**Related topics**  
+
+
+[Manage the receiving of assets at stockrooms in the Hardware Asset Workspace]()
+
+[Manage picking hardware assets within your stockroom for Hardware Asset Management workflows]()
+
+[Manage asset put away using the Hardware Asset Workspace]()
+
+[Audit hardware asset inventory]()
+
+[View RFID information of assets]()
+
+[Track asset location using indoor maps]()
+
+[Manage your inventory through pallet assets]()
 

@@ -1,16 +1,16 @@
 ---
-title: Activating Zero Trust Access
+title: Activate Zero Trust access
 description: Activate the Zero Trust - Policy Based Session Access com.snc.zero\_trust\_session\_access plugin to enable security admins to reduce or limit user access in a session based on IP address, location, Identity Provider attributes, and user attributes using adaptive authentication policies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/activate-session-access.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Zero Trust Access, Access Management]
 ---
 
-# Activating Zero Trust Access
+# Activate Zero Trust access
 
 Activate the **Zero Trust - Policy Based Session Access** `com.snc.zero_trust_session_access` plugin to enable security admins to reduce or limit user access in a session based on IP address, location, Identity Provider attributes, and user attributes using adaptive authentication policies.
 

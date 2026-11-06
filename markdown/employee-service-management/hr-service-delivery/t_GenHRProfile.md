@@ -30,18 +30,16 @@ Role required: sn\_hr\_core.basic or sn\_hr\_core.manager
 
     |Field|Description|
     |-----|-----------|
-    |Filter Users|Click and select the conditions that must be met for an employee to be assigned the profile.|
-    |Profiles|Click and select the type of profile for employees that meet the conditions.|
+    |Filter Users|Select the conditions that must be met for an employee to be assigned the profile.|
+    |Profiles|Select the type of profile for employees that meet the conditions.|
 
-3.  Click **Create Profiles**.
+3.  Select **Create Profiles**.
 
     **Note:**
 
     In the HR profile table when the External flag in the Employee App Access Criteria record is set to False; it indicates that the HR profile belongs to a local user.
 
     In the HR profile table when the External flag in the Employee App Access Criteria record is set to True; it indicates that the HR profile belongs to a remote user.
-
-    Users are not charged for licensing when their HR profiles are created with External flag = True, or when their existing HR profiles are overridden with External flag = True.
 
 
 **Parent Topic:**[HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/c_HRProfileRecords.md)

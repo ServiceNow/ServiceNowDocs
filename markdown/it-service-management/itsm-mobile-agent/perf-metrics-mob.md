@@ -1,29 +1,29 @@
 ---
-title: Performance metrics
-description: Access the performance data of your team directly from your mobile with the ITSM Mobile Agent app.
+title: Performance metrics in ITSM Mobile Agent
+description: Access your team's performance data directly from your mobile device with the ITSM Mobile Agent app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-mobile-agent/perf-metrics-mob.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing teams and incidents using My Team applet, ITSM Mobile Agent, IT Service Management]
+breadcrumb: [Managing teams and incidents using the My Team applet, ITSM Mobile Agent, IT Service Management]
 ---
 
-# Performance metrics
+# Performance metrics in ITSM Mobile Agent
 
-Access the performance data of your team directly from your mobile with the ITSM Mobile Agent app.
+Access your team's performance data directly from your mobile device with the ITSM Mobile Agent app.
 
-As a group manager, with the My team dashboard, gain insights into the work of the groups you are managing by accessing metrics like MTTR \(Mean Time To Resolution\), CSAT, breached SLAs and so on.
+As a group manager, use the My team dashboard to monitor the groups you manage. Track metrics including mean time to resolution \(MTTR\), customer satisfaction \(CSAT\), and breached service level agreements \(SLAs\).
 
-Also view the graphical representation of the incidents raised in a week.
+You can also view a graphical representation of the incidents raised in a week.
 
-\[Omitted image "itsm-ma-performance-metric.png"\] Alt text: performance metrics mobile
+\[Omitted image "itsm-ma-performance-metric.png"\] Alt text: My team dashboard on a mobile device showing team performance metrics and a chart of incidents raised in a week
 
 **Note:**
 
--   The data visualization changes for Performance metrics are available in the base system for both the new or upgrade customers. You can also view mobile analytics in Platform analytics workspace to configure or create new data visualization. For more information, see [Create a mobile analytics preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-dashboard-preview.md).
--   For the upgrade customers who have already customized the analytics sections, the data visualizations changes are not available by default. You can enable the new analytics section records from the Mobile Agent section of the Mobile App Builder to view the visualized changes.
+-   The data visualizations for performance metrics are available in the base system for both new customers and customers who upgrade. You can also view mobile analytics in the Platform Analytics workspace to configure or create data visualizations. For more information, see [Create a mobile analytics preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-dashboard-preview.md).
+-   If you upgrade and have already customized the analytics sections, the updated data visualizations aren't available by default. To view them, enable the analytics section records in the Mobile Agent section of the Mobile App Builder.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/email-notifications-in-bcm.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [BCM, email, notifications]
 breadcrumb: [Reference, Business Continuity Management, Governance, Risk, and Compliance]

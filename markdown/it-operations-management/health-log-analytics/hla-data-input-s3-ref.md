@@ -7,7 +7,7 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Data input configuration fields, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -15,8 +15,6 @@ breadcrumb: [Data input configuration fields, Health Log Analytics reference, He
 # Amazon S3 data input configuration fields
 
 Description of the fields on the Amazon S3 data input configuration form.
-
-## Basic configuration
 
 <table id="table_rdw_xvb_x4b"><thead><tr><th>
 
@@ -40,7 +38,7 @@ Description
 
 </td><td>
 
-Description of the data input.
+Optional description of the data input.
 
 </td></tr><tr><td>
 
@@ -48,7 +46,7 @@ Execute on
 
 </td><td>
 
-Option to select whether to use a specific MID Server or a MID Server cluster. This field is required.
+Option to select whether to use a specific MID Server or a specific MID Server cluster. This field is required.
 
 </td></tr><tr><td>
 
@@ -58,13 +56,10 @@ MID
 
 \(Only when the **Execute on** field is set to Specific MID Server\)
 
- MID Server to which log data from Amazon S3 is pulled. **Note:**
+The MID Server to which log data from Amazon S3 is pulled. This field is required.**Note:**
 
--   You can select only MID Servers that support basic authentication. MID Servers that support mTLS are not listed.
 -   The default maximum number of data inputs streaming logs to a single MID Server is 10. You can modify this number in the MID Server properties.
 -   If log ingestion is not enabled for the selected MID Server, Health Log Analytics enables it automatically.
-
-This field is required.
 
 </td></tr><tr><td>
 
@@ -90,14 +85,12 @@ Service instance
 
 </td><td>
 
-The service instance to which to bind the log data. **Note:** If no relevant service instance exists, [Create an service instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-it-services.md) and add CIs to it. Set the status of the new service instance to Operational.
+The service instance to which to bind the log data. This field is required.Selecting the service instance enables HLA to correlate CIs and service instances in the CMDB for root cause analysis.
 
-This field is required.
+**Note:** If no appropriate service instance exists, create one, add CIs to it, and set its status to Operational. For more information, see [Create a Service instance \(application service\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-it-services.md).
 
 </td></tr></tbody>
-</table>The following fields show read-only information:
-
-<table id="table_x1v_nlt_y4b"><thead><tr><th>
+</table><table id="table_x1v_nlt_y4b"><thead><tr><th>
 
 Field
 
@@ -111,7 +104,7 @@ Status
 
 </td><td>
 
-Status of the data input.
+Status of the data input. This field is read-only.
 
 </td></tr><tr><td>
 
@@ -119,7 +112,7 @@ Transport
 
 </td><td>
 
-Protocol used to stream the log data.This data input uses Amazon S3 to stream log data to your instance.
+Protocol used to stream the log data. This field is read-only.This data input uses Amazon S3 to stream log data to your instance.
 
 </td></tr><tr><td>
 
@@ -127,7 +120,7 @@ Sources count
 
 </td><td>
 
-The number of log sources this data input has created.
+The number of log sources this data input has created. This field is read-only.
 
 </td></tr><tr><td>
 
@@ -135,11 +128,11 @@ Disabled since
 
 </td><td>
 
-Time when the data input stopped or failed.
+Time when the data input stopped or failed. This field is read-only.
 
 </td></tr><tr><td>
 
-Last log time
+MID last receiving time
 
 </td><td>
 
@@ -152,6 +145,14 @@ Error message
 </td><td>
 
 The streaming error.This field is populated automatically. It displays only when a streaming error has occurred.
+
+</td></tr><tr><td>
+
+Advanced
+
+</td><td>
+
+Option to display the **Advanced** tab for advanced configuration.
 
 </td></tr></tbody>
 </table><table id="table_glh_4nt_y4b"><thead><tr><th>
@@ -172,13 +173,11 @@ From/To
 
 </td><td>
 
-Starting and ending dates and time for reading the data.-   From: Data older than this date and time is not read.
+Starting and ending dates and time for reading the data. This field is required.-   From: Data older than this date and time is not read.
 
 **Note:** Setting this value to a past date might require the system to read large amounts of data, causing congestion.
 
 -   To: Data newer than this date and time is not read. For live data, set this date far into the future.
-
-This field is required.
 
 </td><td>
 
@@ -251,18 +250,14 @@ Field that refers to the AWS Credentials list \(aws\_credentials.list\). The lis
 
 </td></tr><tr><td>
 
-AWS region
+Region
 
 </td><td>
 
-The AWS region where the Amazon S3 bucket is located, for example, us-west-1. For a list of AWS regions, see [https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html\#concepts-regions](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html#concepts-regions)
-
- This field is required.
+The AWS region where the Amazon S3 bucket is located, for example, us-west-1. This field is required. For a list of AWS regions, see [https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html\#concepts-regions](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html#concepts-regions)
 
 </td></tr></tbody>
-</table>## Advanced configuration
-
-|Field|Description|Default value|
+</table>|Field|Description|Default value|
 |-----|-----------|-------------|
 |Anonymous|Option to force accessing the Amazon S3 bucket without credentials, while ignoring default credentials if they exist.|False|
 |Traverse|Option to access each directory in the bucket.|False|
@@ -271,16 +266,15 @@ The AWS region where the Amazon S3 bucket is located, for example, us-west-1. Fo
 |Threadpool size|The number of concurrent threads that are downloading files from the bucket.|1|
 |Buffer size|Size of the download buffer, in bytes.|100MB|
 |Socket timeout|The number of milliseconds to wait before timing out data transfer over an established connection.|10000|
-|Max retry for file|The maximum number of times to retry file processing in case of failure.|10|
-|Default timezone|The default timezone if the log doesn't include timezone information.|UTC|
+|Max retry per file|The maximum number of times to retry file processing in case of failure.|10|
+|Default timezone|The default time zone used when a log doesn't include time zone information.|GMT|
 |Sub sample drop ratio|The number of events to batch together, out of which one will be discarded. This setting is used to reduce the number of fetched events.|-1|
 |Sub sample receive ratio|The number of events to batch together, out of which all but one will be discarded. This setting is used to decrease the number of received events.|-1|
-|Rate limit|The maximum number of events per second that this data input processes.|-1|
 |Max length in bytes|The maximum length, in bytes, of events.|32766|
-|Character encoding|The character encoding for this data input.|UTF-8|
-|Sleep interval|The interval, in seconds, to wait before querying again after a query has returned no events.|60|
+|Character encoding|The character encoding for this data input. This field is read-only.|UTF-8|
+|Sleep interval \(seconds\)|The interval, in seconds, to wait before querying again after a query has returned no events.|60|
 |Polling interval|The interval, in seconds, to wait before polling for new events.|0|
-|Drop if queue is full|Option to discard logs if there is a load on the MID Server.|False|
+|Drop if queue is full|Option to discard logs if many processes are waiting in the queue to access the MID Server.|Clear|
 
 **Parent Topic:**[Data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)
 

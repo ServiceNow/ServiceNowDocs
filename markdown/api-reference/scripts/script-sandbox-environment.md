@@ -7,9 +7,9 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-05-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Server-side scripting, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Write server-side scripts, Scripting, API implementation, API implementation and reference]
 ---
 
 # Script sandbox environment
@@ -34,11 +34,11 @@ Within the sandbox, the following restrictions apply to scripts:
 -   Certain API calls, mostly limited to ones dealing with direct database access, aren’t allowed.
 -   Data can’t be inserted, updated, or deleted from within the sandbox. For example, any calls to current.update\(\) are ignored.
 
-**Note:** Beginning with the Xanadu release, script includes marked as **Glide AJAX enabled** \(previously named **Client callable**\) aren’t accessible within the sandbox. Only those marked **Sandbox enabled** are available within the sandbox. When upgrading to the Australia release from the Washington DC release or earlier, any script includes marked as **Client callable** are also marked as **Sandbox enabled**.
+**Note:** Beginning with the Xanadu release, script includes marked as **Glide AJAX enabled** \(previously named **Client callable**\) aren’t accessible within the sandbox. Only those marked **Sandbox enabled** are available within the sandbox. When upgrading to the Brazil release from the Washington DC release or earlier, any script includes marked as **Client callable** are also marked as **Sandbox enabled**.
 
 ## Script sandbox evaluators
 
-Beginning with the Australia Patch 2 release, the sandbox uses two evaluators to enforce different levels of restrictions:
+The sandbox uses two evaluators to enforce different levels of restrictions:
 
 -   Guarded script evaluator: Enhances instance security by supporting only a restricted scripting language and rejecting untrusted scripts that are incompatible. Guest transactions are fully enforced immediately. Scripts sent by authenticated users are evaluated differently depending on the instance type.
 -   Script sandbox evaluator: Helps prevent executing untrusted scripts on an instance by limiting the APIs available to scripts.
@@ -112,5 +112,5 @@ The guarded script evaluator enhances instance security by supporting only a res
 -   **[Script sandbox evaluator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/script-sandbox.md)**  
 The script sandbox evaluator helps prevent executing untrusted scripts on an instance by limiting the APIs available to scripts.
 
-**Parent Topic:**[Server-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/c_ServerScripting.md)
+**Parent Topic:**[Writing server-side scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/server-side-scripting-overview.md)
 

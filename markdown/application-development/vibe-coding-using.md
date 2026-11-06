@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/vibe-coding-using.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [use, Vibe coding, AI-assisted development, conversational interface, autonomous app development, development tools, application development]
-breadcrumb: [Agentic development, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Agentic development on the ServiceNow AI Platform

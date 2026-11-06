@@ -7,9 +7,9 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Conversational Integration with Facebook Messenger, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Facebook Messenger, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Configure Conversational Integration with Facebook Messenger
@@ -47,7 +47,7 @@ Integrate Facebook Messenger with your ServiceNow instance using the Conversatio
 Enable agents to effectively manage their active Facebook Messenger chat conversations by automatically closing conversations after they have been inactive for a pre-configured amount of time.
 -   **[Integrating the Facebook Messenger messaging app with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/messg-fbm-integrating-apps.md)**  
 Review this topic to see which ServiceNow applications and features can use the Conversational Integration with Facebook Messenger application.
--   **[Remove Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/remove-conv-integ-fbm.md)**  
+-   **[Uninstall Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/remove-conv-integ-fbm.md)**  
 Users can remove the Conversational Integration with Facebook Messenger application when the app is no longer needed.
 -   **[Legacy setup and configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/legacy-va-fb-messenger-setup.md)**  
 Set up and configure Conversational Integration with Facebook Messenger \(Legacy\).

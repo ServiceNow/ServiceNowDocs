@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/open-ticket-native-ai-itsm.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Employee experience in Employee Center, Employee experience, Simplified IT Service Management, IT Service Management]
 ---
@@ -38,15 +38,15 @@ Role required: none
 
 6.  Perform one of the following actions.
 
-<table id="choicetable_mky_ybb_xhc"><thead><tr><th align="left" id="d255069e124">
+<table id="choicetable_mky_ybb_xhc"><thead><tr><th align="left" id="d439678e124">
 
 Choice
 
-</th><th align="left" id="d255069e127">
+</th><th align="left" id="d439678e127">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d255069e133">
+</th></tr></thead><tbody><tr><td id="d439678e133">
 
 **If the related content is relevant**
 
@@ -54,7 +54,7 @@ Description
 
 Select **Solution found**.
 
-</td></tr><tr><td id="d255069e145">
+</td></tr><tr><td id="d439678e145">
 
 **If the related content is not relevant**
 

@@ -7,7 +7,7 @@ release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Scheduling, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -34,11 +34,7 @@ The manager and their team can manage schedules by performing the following step
 
 6.  Approve requests
 
-Get an overview of how to you can create shift plans and assign agents to the shifts using the schedule plan in this video.
-
-Get an overview of how you can monitor shifts and schedule for your entire team from a single location in this video.
-
-Get an overview of how agents use the workspace to manage their schedule.
+Get an overview of how you can create shift plans and assign agents to the shifts using the schedule plan in this video.\[Omitted video\] Description: Get an overview of how to create shift plans, monitor shifts, and manage schedules.
 
 For detailed information on creating and managing schedules using Workforce Optimization for ITSM, refer to [Scheduling in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-scheduling-reference.md).
 

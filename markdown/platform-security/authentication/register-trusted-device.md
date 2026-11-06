@@ -7,9 +7,9 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Adaptive authentication for Trusted Mobile apps, Adaptive authentication, Authentication, Access Management]
+breadcrumb: [Adaptive authentication for Trusted mobile apps, Adaptive authentication, Authentication, Access Management]
 ---
 
 # Register a trusted device
@@ -28,14 +28,14 @@ Role required: none
 
     -   On the ServiceNow AI Platform, navigate to **All** &gt; **Self-Service** &gt; **My Profile**.
 
-        **Note:** You can also access your profile by clicking your user name in the instance header.
+        **Note:** You can also access your profile by selecting your user name in the instance header.
 
-    -   On the Now Support, click the profile and select **Trusted Device**.
-2.  In your user profile, click **Register a trusted mobile device** in the Related Links section.
+    -   On the Now Support, select the profile and select **Trusted Device**.
+2.  In your user profile, select **Register a trusted mobile device** in the Related Links section.
 
     The Register Trusted Devices page is displayed.
 
-3.  Register a new device by clicking **Add a new trusted mobile device**.
+3.  Register a new device by selecting **Add a new trusted mobile device**.
 
     \[Omitted image "register-trusted-device-qr-code.jpg"\] Alt text: Add New Trusted Device
 
@@ -54,7 +54,7 @@ Role required: none
 
 ## Result
 
-In the Register Trusted Devices page on your laptop or desktop, the registered device is displayed. You can use the \[Omitted image "delete-icon.png"\] Alt text: Delete icon icon if you want to remove the registered device from the page.
+In the Register Trusted Devices page on your laptop or desktop, the registered device is displayed. You can use the \[Omitted image "delete-icon.png"\] Alt text: Delete icon icon to remove the registered device from the page.
 
 ## What to do next
 

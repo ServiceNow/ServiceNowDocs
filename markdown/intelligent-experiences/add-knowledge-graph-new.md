@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/add-knowledge-graph-new.html
 release: australia
 topic_type: task
-last_updated: "2026-06-05"
+last_updated: "2026-10-23"
 reading_time_minutes: 2
-breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Add a knowledge graph tool to an AI agent
@@ -20,7 +20,7 @@ Role required: sn\_aia.admin
 
 ## About this task
 
-A Knowledge Graph is a semantic layer that connects data, relationships, and context across your enterprise. It structures information as a graph of entities and their connections, transforming raw data into actionable knowledge. A Knowledge Graph allows AI agents to understand the relationships between real-world entities and retrieve insights, facts, and relationships directly to automate actions and improve accuracy. When adding a Knowledge Graph tool, you can configure its query instruction, conversation history, execution mode, output display, and processing messages to ensure the tool works effectively within your AI agent's workflow.
+A Knowledge Graph is a semantic layer that connects data, relationships, and context across your enterprise. It structures information as a graph of entities and their connections. This lets AI agents understand how real-world entities relate to each other and retrieve the facts they need to take action accurately. When adding a Knowledge Graph tool, you can configure its query instruction, conversation history, execution mode, output display, and processing messages to ensure the tool works effectively within your AI agent's workflow.
 
 ## Procedure
 

@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Connector domain personalization, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -62,15 +62,15 @@ Role required: evt\_mgmt\_admin
 
 9.  In the Connector Instance Values list, provide a value in the **Value** field of the parameters.
 
-<table id="choicetable_bfv_4yr_3zb"><thead><tr><th align="left" id="d751461e292">
+<table id="choicetable_bfv_4yr_3zb"><thead><tr><th align="left" id="d804214e292">
 
 Parameter
 
-</th><th align="left" id="d751461e295">
+</th><th align="left" id="d804214e295">
 
 Value
 
-</th></tr></thead><tbody><tr><td id="d751461e301">
+</th></tr></thead><tbody><tr><td id="d804214e301">
 
 **__payloadDomainInfoFieldValue__**
 
@@ -78,7 +78,7 @@ Value
 
 The value that will be used to match the domain record. For example, ServiceNow.
 
-</td></tr><tr><td id="d751461e311">
+</td></tr><tr><td id="d804214e311">
 
 **__payloadDomainInfoFieldName__**
 

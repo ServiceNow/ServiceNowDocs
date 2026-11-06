@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Manage and monitor alerts, Configure, Event Management, ITOM AIOps,
 
 Event Management supports the creation of SLAs for application services and for CIs.
 
-You can monitor and manage the quality of the application services offered by your organization. For example, you might want to set up an SLA that is triggered when the max alert severity of an application service or CI is **Critical**, and measure the time it takes to bring the application service or CI back to the **OK** state, when the conditions that caused the alert have been resolved.
+You can monitor and manage the quality of the application services offered by your organization. For example, set up an SLA that triggers when the max alert severity of a service or CI reaches **Critical**, and measure the time to restore it to **OK**.
 
 ## SLAs and the Task table
 

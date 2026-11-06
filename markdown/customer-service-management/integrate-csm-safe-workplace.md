@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/integrate-csm-safe-workplace.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrating with Safe Workplace applications, Integrate, Customer Service Management]
 ---
@@ -16,7 +16,7 @@ Enable the integration with Safe Workplace applications to help contacts or cons
 
 ## Before you begin
 
-Ensure that the Customer Service plugin \(com.sn\_customerservice\) is installed.
+Ensure that the Case Management Core plugin \(com.sn\_customerservice\) is installed.
 
 If you are supporting business-to-consumer \(B2C\) customers, ensure that the Consumer Service Portal plugin \(com.glide.service-portal.consumer-portal\) is installed.
 

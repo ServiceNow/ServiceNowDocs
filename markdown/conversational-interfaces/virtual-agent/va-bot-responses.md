@@ -7,9 +7,9 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Assistant Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Assistant Designer bot responses
@@ -33,7 +33,7 @@ Use the Multi-response bot response control in a Virtual Agent topic to sequenti
 -   **[Script bot response control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-script-output.md)**  
 Use the Script bot response control in a Virtual Agent topic to run a script that returns a single response or a multi-part response.
 -   **[Card bot response control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-card-output.md)**  
-Use the Card bot response control in a Virtual Agent topic to upload and display selected information from a record on your instance. You can include rich content, such as a video or image.
+Use the Card bot response control in a Virtual Agent topic to upload and display selected information from a record on your instance, along with rich content, such as a video or image.
 -   **[Table bot response control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/table-bot-response.md)**  
 Use the Table bot response control in a Virtual Agent topic to display a bot response as a table.
 -   **[Video bot response control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-video-bot-response.md)**  

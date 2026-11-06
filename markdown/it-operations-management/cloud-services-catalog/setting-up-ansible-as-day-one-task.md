@@ -1,20 +1,20 @@
 ---
 title: Set up Ansible as a Day 1 task
-description: Set up the Ansible console as a Day 1 task before running Discovery and deploying job templates.
+description: Set up the Ansible console as a Day 1 task before running Discovery and deploying job templates via catalog items.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-services-catalog/setting-up-ansible-as-day-one-task.html
 release: australia
 product: Cloud Services Catalog
 classification: cloud-services-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrating Ansible, Configure, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Set up Ansible as a Day 1 task
 
-Set up the Ansible console as a Day 1 task before running Discovery and deploying job templates.
+Set up the Ansible console as a Day 1 task before running Discovery and deploying job templates via catalog items.
 
 ## Before you begin
 

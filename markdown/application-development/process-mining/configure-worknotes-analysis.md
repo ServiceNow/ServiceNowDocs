@@ -1,0 +1,90 @@
+---
+title: Configure work notes analysis
+description: Configure work notes analysis for a process table to view the work notes analysis for a project based on that process table.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/application-development/process-mining/configure-worknotes-analysis.html
+release: australia
+product: Process Mining
+classification: process-mining
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Work notes analysis, Analyzing and getting process insights, Use, Process Mining, Discover, AI Workflow Factory Prime, Agentic app development, Building applications]
+---
+
+# Configure work notes analysis
+
+Configure work notes analysis for a process table to view the work notes analysis for a project based on that process table.
+
+## Before you begin
+
+**Note:**
+
+-   You can create one configuration for one process table.
+-   Role required:
+    -   The sn\_process\_mining\_admin and sn\_process\_mining\_power\_user roles can associate work note analysis definition with a project, but can’t create a definition.
+    -   The sn\_process\_mining\_analyst role can view a work note analysis definition, but can’t create, edit, associate, or delete a definition.
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Process Mining** &gt; **Process Configurations**.
+
+2.  Select a table from the list if you want to configure work notes analysis for a table available in the list.
+
+    If you don’t have the table listed, select **New**. For more information, see [Create process configuration using Classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/process-mining/create-process-config.md).
+
+    **Note:** For information on configuring work notes analysis using the Process Configuration Builder, see [Configure investigative features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/process-mining/investigative-features.md).
+
+    \[Omitted image "worknotes-configure.png"\] Alt text: Configure Work notes Analysis
+
+3.  In the **Work Note Analysis** tab, fill in the fields.
+
+<table id="table_ug1_3sp_5bc"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Work Note Field
+
+</td><td>
+
+Select the work notes field that will be considered for analysis. The available options are:-   None: The analysis will not be available.
+-   Additional comments: The analysis is available and the comments are visible to the requester.
+-   Work notes: The analysis is available and the comments are visible only to the fulfiller.
+
+
+</td></tr><tr><td>
+
+Include Comment Field for Analysis
+
+</td><td>
+
+Select if you want to analyze the comments along with notes.
+
+</td></tr><tr><td>
+
+Work Note Time Range \(in seconds\)
+
+</td><td>
+
+Enter the time interval in seconds for retrieving work notes before and after the transition. For example, if you specify 60 seconds, then the analysis will capture work notes posted 60 seconds before and after the transition time. This helps to capture recent and relevant work notes for analysis.
+
+</td></tr><tr><td>
+
+System Generated Users
+
+</td><td>
+
+Enter user names that are associated with system-generated work notes to exclude work notes or comments created by those specific system users. System-generated work notes often lack explanations for transitions.
+
+</td></tr></tbody>
+</table>4.  Select **Submit**.
+
+
+**Parent Topic:**[Work notes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/process-mining/worknotes-analysis.md)
+

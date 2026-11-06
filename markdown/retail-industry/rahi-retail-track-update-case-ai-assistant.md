@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-23"
 reading_time_minutes: 2
 keywords: [break-fix, store inquiry, AI assistant, accept resolution, reject resolution]
-breadcrumb: [Retail MCP Server, Configure, Retail]
+breadcrumb: [Retail MCP Server, ServiceNow Otto for Retail Service Management \(RSM\), Retail]
 ---
 
 # Track and update your cases from your AI assistant
@@ -59,5 +59,5 @@ You can't change a case that's Closed or Cancelled. You also can't change a case
 
 [Respond to resolutions through Portal or Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/breakfix-respond-resolution.md)
 
-[moveworks-breakfix-case-operations]
+[Submit and track break-fix cases via Moveworks Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/moveworks-breakfix-case-operations.md)
 

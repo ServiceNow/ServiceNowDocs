@@ -7,7 +7,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use Risk Workspace, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -28,7 +28,7 @@ In most organizations, the second line of risk managers is responsible for coord
 
 1.  Navigate to **All** &gt; **Risk** &gt; **Risk Workspace**.
 
-2.  Select the list \[Omitted image "list-icon-risk-workspace.png"\] Alt text:.
+2.  Select the list \[Omitted image "list-icon-risk-workspace.png"\] Alt text: List icon..
 
 3.  Navigate to **Risk assessment planning** &gt; **Scheduled assessments**.
 

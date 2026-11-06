@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-10-06"
 reading_time_minutes: 2
-breadcrumb: [Enterprise Architecture AI agents, Enterprise Architecture, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [Enterprise Architecture AI agents, Enterprise Architecture, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Enterprise Architecture explorer for analysis and queries AI agent

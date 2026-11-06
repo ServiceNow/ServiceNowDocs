@@ -7,9 +7,9 @@ release: australia
 product: Walk-Up Experience
 classification: walk-up-experience
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [View Walk-up Experience location stockroom and assets, Manage Walk-up Experience queue and interaction, Walk-up Experience, IT Service Management]
+breadcrumb: [View Walk-up Experience location stockroom and assets, Manage Walk-up Experience queue and interactions, Walk-up Experience, IT Service Management]
 ---
 
 # Use platform view to fulfill a Walk-up Experience request from a stockroom

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/t\_CreateARoutingRule.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure case routing and assignment, Route and assign cases, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -151,7 +151,7 @@ For **Scripted** matching. use this field to create a customized script for iden
 
 8.  In the **Use for** field, specify how you want the matching criterion to be used.
 
-<table id="choicetable_wzv_ztm_sx"><tbody><tr><td id="d124856e355">
+<table id="choicetable_wzv_ztm_sx"><tbody><tr><td id="d127096e355">
 
 **Ranking and display**
 
@@ -159,7 +159,7 @@ For **Scripted** matching. use this field to create a customized script for iden
 
 Use the criterion to determine agent ranking and displays it in a column on the workbench.
 
-</td></tr><tr><td id="d124856e364">
+</td></tr><tr><td id="d127096e364">
 
 **Display only**
 
@@ -167,7 +167,7 @@ Use the criterion to determine agent ranking and displays it in a column on the 
 
 Displays the criterion in a column on the workbench but does not use it to determine agent ranking.
 
-</td></tr><tr><td id="d124856e373">
+</td></tr><tr><td id="d127096e373">
 
 **Ranking only**
 
@@ -178,7 +178,7 @@ Uses the criterion to determine agent ranking but does not display it on the wor
 </td></tr></tbody>
 </table>9.  Select a **Ranking Method**.
 
-<table id="choicetable_ccn_j5m_sx"><tbody><tr><td id="d124856e394">
+<table id="choicetable_ccn_j5m_sx"><tbody><tr><td id="d127096e394">
 
 **More is better**
 
@@ -186,7 +186,7 @@ Uses the criterion to determine agent ranking but does not display it on the wor
 
 For example, more availability is better when determining the agent ranking.
 
-</td></tr><tr><td id="d124856e403">
+</td></tr><tr><td id="d127096e403">
 
 **Less is better**
 

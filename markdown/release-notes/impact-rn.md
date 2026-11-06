@@ -1,199 +1,135 @@
 ---
 title: Impact release notes
-description: ServiceNow Impact is built on the ServiceNow AI Platform and combines customized service with a digital interface to provide tailored recommendations and guidance. Impact Store App was enhanced and updated in the Australia release.ServiceNow Impact is built on the ServiceNow AI Platform and combines customized service with a digital interface to provide tailored recommendations and guidance. Impact Store App was enhanced and updated in the Australia release.ServiceNow Impact is built on the ServiceNow AI Platform and combines customized service with a digital interface to provide tailored recommendations and guidance. Impact Store App was enhanced and updated in the Australia release.ServiceNow Impact is built on the ServiceNow AI Platform and combines customized service with a digital interface to provide tailored recommendations and guidance. Impact Store App was enhanced and updated in the Australia release.ServiceNow Impact is built on the ServiceNow AI Platform and combines customized service with a digital interface to provide tailored recommendations and guidance. Impact Store App was enhanced and updated in the Australia release.ServiceNow Impact is built on the ServiceNow AI Platform and combines customized service with a digital interface to provide tailored recommendations and guidance. Impact Store App was enhanced and updated in the Australia release.
+description: ServiceNow Impact is built on the ServiceNow AI Platform and combines customized service with a digital interface to provide tailored recommendations and guidance. Impact was enhanced and updated in the Brazil release. See the following sections for release notes by version.Version 12.0.0 introduces a new Setup Hub onboarding experience, multi-participant maturity assessments, Scan Engine performance improvements, and Business Value Management enhancements.Version 11.0.0 introduces standalone product adoption functionality, new Accelerators across multiple domains, Scan Engine API and exception workflow enhancements, and Business Outcomes improvements. It also retires legacy Accelerators and Impact Health Diagnostics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/impact-rn.html
 release: australia
 topic_type: topic
-last_updated: "2026-03-12"
-reading_time_minutes: 7
-breadcrumb: [Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Impact release notes
 
-ServiceNow® Impact is built on the ServiceNow AI Platform and combines customized service with a digital interface to provide tailored recommendations and guidance. Impact Store App was enhanced and updated in the Australia release.
+ServiceNow® Impact is built on the ServiceNow AI Platform and combines customized service with a digital interface to provide tailored recommendations and guidance. Impact was enhanced and updated in the Brazil release. See the following sections for release notes by version.
 
 ## About Impact
 
--   Version 9.0.0
-    -   [Initiate update set scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/initiate-update-set-scans.md): Use Full Scan or Suite Scan to validate update sets against all active definitions or a curated suite.
-    -   View the full financial story behind every product outcome using product value. The new [Product value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/product-value-overview.md) page brings together operational metrics, monetized value, trend charts, calculation transparency, and the assumptions behind them.
--   Version 8.0.0
-    -   Identify problematic lines and receive proposed solutions by engaging an AI analysis panel with the [Use Real-time prevention monitoring while coding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/real-time-prevention-monitoring.md) feature.
-    -   Submit exception requests directly from Recommend-level findings [Submit exceptions for Scan Engine findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/submitting-exception-reasons-scan-engine.md)
-    -   Get a high-level estimate of your Impact app storage usage so you can proactively plan your storage management.
-    -   Discover, filter, launch, and complete accelerators independently and also download a self-served 90-day action plan with On-demand accelerators.
-    -   Manage Impact accounts with the dedicated partner role support where partners can manage Impact on behalf of customers without manual intervention.
--   Version 7.0.0:
-    -   Streamline the Impact Store Application configuration with the updated Impact guided setup.
-    -   Proactively identify, prioritize, and resolve technical debt with the Impact Health Agent, a collection of AI-native tools embedded within the Impact Platform Health experience.
-    -   Provide access to partners with the impact\_partner\_role.
-    -   View true applications capabilities organized by product lines.
+-   Achieve success your way with tailored resources, driving outcomes aligned to your business priorities.
+-   Accelerate business outcomes faster with AI Control Tower, reducing time to measurable impact.
+-   Adopt ServiceNow products and AI innovations rapidly, ensuring your team moves at the speed of transformation.
+-   Maximize your ServiceNow investment, proving its value to stakeholders through measurable adoption and outcomes.
+-   Improve platform health with proactive guidance, keeping your instance optimized and future-ready.
 
 See [Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-landing-page.md) for more information.
 
 ## Activation and other requirements
 
-**Important:** Impact is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
-
 -   **Activation information**
-    -   **[Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-landing-page.md)**
 
-        For information on package entitlement and features activation, see .
-
-        For details on configuring Impact and its features, see .
+    Install Impact by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 -   **Upgrade information**
 
-    The Impact Store Application configuration requires a sequence of tasks in a unified registration process. See [Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact-platform.md).
+    Impact configuration requires a sequence of tasks in a unified registration process. See [Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact-platform.md).
 
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/new-features-changes.md)
 
-## August 2026
+## October 2026 Store \(v12.0.0\)
 
-ServiceNow® Impact is built on the ServiceNow AI Platform and combines customized service with a digital interface to provide tailored recommendations and guidance. Impact Store App was enhanced and updated in the Australia release.
+Version 12.0.0 introduces a new Setup Hub onboarding experience, multi-participant maturity assessments, Scan Engine performance improvements, and Business Value Management enhancements.
 
 ### What's new
 
--   **[Product value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/product-value-overview.md)**
+-   ****
 
-    Version 9.0.0
+    Configure Impact through an interactive Setup Hub UI that replaces the previous linear guided setup. Setup progress persists across upgrades.
 
-    -   Explore product-level outcome performance in the Product Value  page. You can use it to review operational metrics, monetized value, trend charts, calculation transparency, and assumptions. 
-    -   Explore Enhanced outcomes built on current ServiceNow platform capabilities, with updated data instrumentation and calculation logic. 
-    -   Enhanced outcomes are currently only available for IT Service Management
+-   **[Latest Accelerators by Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/new-accelerators-australia-release.md)**
+
+    ServiceNow Impact now includes new self-service maturity assessment accelerators that help customers evaluate their maturity across key domains. With this release you can:
+
+    -   generate prioritized action plans with domain-specific tasks, assigned owners, and completion criteria aligned to business priorities
+    -   address the identified gaps
+-   **[Value management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-in-platform-business-outcomes.md)**
+    -   Use the Impact Product Console to view and customize estimated data definitions switch any estimated metric to real, verified data, connected directly to Manage Objectives and Outcomes.
+    -   Configure an Estimated data definition using a two step flow. The first step explains the current approximation and what you're about to change. The second step maps the metric to the Performance Analytics indicator and updates the metric status from Not configured to Configured.
+    -   Map Tier 1 and Tier 2 groups and apply the mapping across IT Service Management, Customer Service Management, and HR Service Delivery metrics. Adding or removing a group from any product updates the mapping for all products.
+    -   Track an outcome that uses an Estimated data definition only after you configure its definition in the Impact Store App Store App and enable Service Exchange.
 
 ### What's changed
 
--   **[Now Assist&gt;ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/prevent-resolve-technical-debt-ai.md)**
+-   ****
 
-    ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including Impact. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+    Defects and UI improvements are resolved across all assessment steps, including Overview, Assess, Review, Prioritize, and Action Plan. Additional UI changes include:
+
+    -   Domain categories in the Assess Maturity questionnaire display in a reorganized layout with updated task labeling for clearer navigation during assessments.
+    -   The target-setting step in the Prioritize and Target decision table uses a consolidated decision table with an improved UI for specifying target values.
+-   **[Platform Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/platform-health-idi.md)**
+
+    On-demand definition scans complete in under one minute on average per instance, reducing wait times for Scan Engine operations.
 
 
-## June 2026
+-   **[Manage objectives and outcomes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/manage-objectives-and-outcomes.md)**
+    -   Explore improved outcomes for CSM and HR Service Delivery, built on current ServiceNow platform capabilities with updated data instrumentation and calculation logic.
+    -   Find all Impact Value Management \(IVM\) data collection apps in one place, grouped by product line, on both the Impact Store App and Impact Delivery Instance.
 
-ServiceNow® Impact is built on the ServiceNow AI Platform and combines customized service with a digital interface to provide tailored recommendations and guidance. Impact Store App was enhanced and updated in the Australia release.
+## September 2026 store \(v11.0.0\)
+
+Version 11.0.0 introduces standalone product adoption functionality, new Accelerators across multiple domains, Scan Engine API and exception workflow enhancements, and Business Outcomes improvements. It also retires legacy Accelerators and Impact Health Diagnostics.
+
+### What's new
+
+-   **[Product adoption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/product-adoption.md)**
+
+    Access core product adoption functionality, capabilities map and product adoption roadmap, without connecting to Service Exchange.
+
+    -   View the capabilities map with a list of capabilities and their entitlement status. You can also edit the usage status manually for relevant capabilities.
+    -   Create product adoption roadmaps using templates or manually, and manage capabilities for those new product adoption roadmaps.
+    -   Receive a consistent message when functionality is limited by unavailable status or inability to edit existing product adoption roadmaps until Service Exchange connects with Guided Setup.
+-   **[Latest Accelerators by Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/new-accelerators-australia-release.md)**
+    -   Accelerate AI adoption and time to value by generating complete applications, surfacing automation opportunities, measuring AI investment impact, and migrating Virtual Agent topics.
+    -   Reduce onboarding friction and technical risk by orienting teams to scoped app development and enabling secure, integration-free access to external data sources. Activate Field Encryption Enterprise as a core part of your Vault Suite security strategy.
+    -   Strengthen your governance foundation by structuring your CSDM data model, establishing sound IRM Entity Framework design, managing your demand pipeline, and improving Knowledge Management process maturity.
+-   **[Platform Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/platform-health-idi.md)**
+    -   Call the Scan Engine API to provide trigger scans on demand, check scan status and results, and integrate findings into pipeline approval gates.
+    -   Use exception approval workflows with explicit **Save Draft** and **Submit** actions.
+    -   Use configurable exception reason scope controls.
+-   **[Value management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-in-platform-business-outcomes.md)**
+    -   View the same product line label in the Impact Delivery Instance as in the Impact Store Application for the same product. For example, IT Service Management instead of ITSM. Both legacy and current models in the Impact Delivery Instance now map to the correct product line taxonomy.
+    -   Filter outcomes by version using the new Outcome version filter, available on the Objectives &amp; Outcomes landing page and the Outcome Insights page in Impact Delivery Instance.
 
 ### What's changed
 
--   **[Optimization Accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/optimization-accelerators.md)**
+-   **[Accelerator catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-catalog.md)**
+    -   Success Readiness Assessment changed to Success Foundation Review.
+    -   UX Accelerators moved from Architecture to the Technical sub-catalog.
+    -   AI Readiness Assessment moved from Architecture to the Technical sub-catalog.
+    -   Tuneup Your IT Asset Management changed to Tuneup Your ITSM Asset Management.
+    -   Jumpstart Your App Engine changed to Jumpstart Your App Deployment Governance.
+-   **[Platform Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/platform-health-idi.md)**
+    -   Exception workflows in update set scans provide multiple governance improvements.
+    -   Assign a dedicated exception approver role for governance separation.
+    -   Control which finding levels are eligible for exception reasons, as an instance administrator.
+    -   Access update set origin tracking on all scan findings.
+    -   View the captured update set data that contains the violating code whenever a full or delta scan runs and produces a finding.
+    -   Full-scan scope updates so only definitions explicitly configured for single-finding-per-table scanning are included.
+    -   The Scan Engine Properties page now displays a dedicated warning when the company code is unset, with a link to the system property for resolution.
+-   **[Value management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-in-platform-business-outcomes.md)**
 
-    Optimization accelerators catalog displays across dashboards, catalog filter and navigation, accelerator creation flows, and accelerator detail views inline with the other accelerator catalogs Flash cards now reflect the Optimization accelerator catalog category, and dashboards include platform optimization usage and consumption metrics.
-
--   ****
-
-    Open the Real-time Messaging panel directly alongside the development workspace; a slide-in side panel that stays visible until dismissed. Findings are organized into tabs by severity level, each showing a total count, and ordered by impact to the instance.Hover over the Level of Finding field in the findings table and definition records now displays a tooltip explaining Act, Recommend, Suggest, and Review.Select and open a filtered back-end list view for donut chart segments.
-
--   ****
-
-    Dashboard data refresh timing and status jobs trigger at the enhanced time frame and frequency for near real-time data. The dashboard also displays status messaging about job progress and any delays.
+    Access Hardware Asset Management \(HAM\) and Software Asset Management \(SAM\) functionality through a single, unified ITAM app, grouped under IT Asset Management. All previously collected data and configuration is carried over with no manual reinstallation, reconfiguration, required during the upgrade.
 
 
 ### What's deprecated or removed
 
-On-demand value report and Value potential accelerators have been removed.
+-   **Accelerators retirement**
 
-## Australia General Availability
+    Jumpstart Your Virtual Agent, Jumpstart Your Natural Language Understanding \(NLU\), Jumpstart Your Multi-Lingual Virtual Agent, Jumpstart Your Issue Auto Resolution, and Jumpstart Your CSDM - Crawl technical Accelerators are no longer available.
 
-ServiceNow® Impact is built on the ServiceNow AI Platform and combines customized service with a digital interface to provide tailored recommendations and guidance. Impact Store App was enhanced and updated in the Australia release.
+-   **Impact Proactive Code Check**
 
-### What's new
-
--   **[Alert card to capture long pending jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-long-pending-job-alert-card.md)**
-
-    Get timely notifications of pending jobs based on their lateness duration and act on them to reduce the risk of downstream failures and SLA misses. The Long Pending Jobs alert card identifies jobs that breach predefined lateness thresholds.
-
--   **[Configure alert notifications for an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-receive-notification-customer-conf-webhook.md)**
-
-    Receive timely notifications on failures in customer-configured webhook integrations caused by invalid URLs or credentials that go unnoticed until runtime.
-
-    -   All URLs are now validated before integrations.
-    -   Daily system notifications are indicated by a bell icon and through email notifications.
-    -   Alert Console alerts provide real-time visibility.
-
-## Australia Early Availability
-
-ServiceNow® Impact is built on the ServiceNow AI Platform and combines customized service with a digital interface to provide tailored recommendations and guidance. Impact Store App was enhanced and updated in the Australia release.
-
-### What's new
-
--   **[Roles installed with Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-roles.md)**
-
-    Grant selected users with partner accounts access to the Impact Store Application through the new **Impact Partner** role. Users assigned with the partner role can efficiently manage Impact for their customers. You can view the users added as partners on the Impact homepage.
-
--   **[Manage capabilities maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/manage-capability-maps.md)**
-
-    Version 7.0.0: The Capabilities Map homepage now shows true application capabilities organized by product line.
-
-
-### What's changed
-
--   **[Run Impact Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/guided-setup-impact-in-app.md)**
-
-    The Impact Guided Setup provides a more efficient, streamlined way for you to configure the Impact Store Application. For information about how to upgrade, see [Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact-platform.md).
-
--   **[Prevent and resolve technical debt with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/prevent-resolve-technical-debt-ai.md)**
-
-    Review enforcement messages for Update Set completion: Enforcement messages clarify which suite or scan type is required to meet completion criteria.Fix violations from JPMC issue analysis: Use new Scan Engine definitions that address real-world JPMC-identified violations.Deactivate base system Scan Engine definitions: Remove OOTB definitions from your instance without requiring an override.Sync exception reasons across instances: Synchronize exception reasons across multi-instance environments.Register your instance with streamlined guidance: Follow improved setup instructions for initial Scan Engine configuration.
-
-
--   **[Entitlements and usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/capabilities-map.md)**
-
-    Recommended capabilities has been renamed Squad-prioritized capabilities.
-
-
-## Australia
-
-ServiceNow® Impact is built on the ServiceNow AI Platform and combines customized service with a digital interface to provide tailored recommendations and guidance. Impact Store App was enhanced and updated in the Australia release.
-
-### What's new
-
--   ****
-
-    Version 9.00
-
-    -   Directly deactivate base system definitions without requiring an override record or approval.
-    -   Use Full Scan or Suite Scan to validate update sets against all active definitions or a curated suite.
-    Version 8.0.0
-
-    -   Access summarized findings in one line grouped by findings level. Use the statistical and sys property scan types to view scan results in a statistical section.
-    -   Create exceptions directly from Recommend-level findings and view approved exceptions which are required for every Recommend-level finding. Previously, the logic confirmed only that at least one approved exception existed, leaving a gap when multiple findings were present.
-    Version 7.0.0
-
-    -   Proactively identify, prioritize, and resolve technical debt by using the collection of AI-native tools embedded within the Impact Platform Health experience.
-    -   Track and resolve issues in developer code throughout the end-to-end workflow by reviewing and applying AI-recommended fixes to  , which provides AI-generated code fixes for leading practice violations.
--   **[New Accelerators in the Australia Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/new-accelerators-australia-release.md)**
-
-    Version 8.0.0
-
-    -   Explore AI data, learn AI governance, and improve Virtual Agent performance.
-    -   Configure ServiceNow Vault, optimize HR and service management, and build skills for the EA Workspace.
-    -   Explore AI data, learn AI governance, and improve Virtual Agent performance.
-    -   Configure ServiceNow Vault, optimize HR and service management, and build skills for the EA Workspace.
-    -   Evaluate and improve the performance of your platform teams and assess their AI governance with On-demand accelerators.
-    -   Sustain ServiceNow platform adoption and business value using OCM accelerators that offer structured coaching in alignment with the OCM Readiness framework.
-    -   Enhance platform capabilities and drive product adoption through focused engagements including Capability Design and Capability Configuration with Optimization Accelerators.
-    Version 7.0.0
-
-    -   Accelerate Platform health, Data privacy, Walk-up experience, Digital product release, Modern change management, Major incident management, CSDM for service operations, and Integration hub with technical accelerators.
-    -   Improve your change readiness by using the OCM: Preparing for change and adopt AI governance impact strategy accelerators.
-    -   Assess CSDM maturity, improve CSDM Data modeling, and accelerate portal’s user experience with usage insights and virtual agent experience design from the architecture accelerators.
--   **[Self-serve Accelerator fulfillment process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/on-demand-accelerators.md)**
-    -   Provide Self-service capabilities with improved session persistence, an entitlement-aware catalog, and a downloadable 90-day action plan.
-    -   Access engagement-type filtering, progress tracking, questionnaire persistence, and self-serve directly within the catalog.
--   **[Impact Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-conversations_store.md)**
-
-    Collaborate with your Impact squad through organized, category-based conversations where you can ask questions, get expert guidance, and share files without leaving your ServiceNow instance.
-
-
-### Plugin information
-
--   **Plugins planned for deprecation**
-
-    The following plugins are planned for deprecation in a future release.
-
-    Impact Health \(com.sn\_impact\_health\): Planned for deprecation in a future release. For this functionality,  to use the Scan Engine application.
+    Impact Proactive Code Check/Health Diagnostics UI artifacts, navigation entries, and background jobs are being removed. Ensure your customizations don't depend on Impact Health Diagnostics navigation or diagnostics-specific tables.
 
 

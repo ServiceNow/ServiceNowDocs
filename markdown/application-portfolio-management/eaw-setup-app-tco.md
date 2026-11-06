@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-setup-app-tco.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure EA Workspace using the Setup page, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -24,6 +24,8 @@ Create a source cost type for the TCO source. Specify the type of cost being ing
 Create a cost type as capital expense \(Capex\) or operating expense \(Opex\) for Application TCO. Specify the type of cost being ingested in Enterprise Architecture Workspace.
 -   **[Set the fiscal period property for TCO dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-set-property-tco-dashboards.md)**  
 Set the system property \(**com.glide.fiscal\_calendar.fiscal\_unit**\) to view TCO dashboards for a specific duration of the fiscal period in the Dashboard page of the Enterprise Architecture Workspace.
+-   **[Run a scheduled job to update the TCO score range](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-run-job-update-score-range-indicator-score.md)**  
+Run the **Update Score Range in Indicator Score Table** scheduled job to populate the Total Cost of Ownership \(TCO\) score range on existing **Indicator Score** \(apm\_app\_indicator\_score\) records when the **Score range** field is not populated.
 
 **Parent Topic:**[Configure EA Workspace using the Setup page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-config-eaw-using-setup-page.md)
 

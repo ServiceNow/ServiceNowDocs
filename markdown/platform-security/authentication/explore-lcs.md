@@ -1,5 +1,5 @@
 ---
-title: Explore limit concurrent sessions
+title: Concurrent session limits
 description: You can limit the number of concurrent interactive sessions for a user or role on an instance across all nodes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/explore-lcs.html
@@ -7,12 +7,12 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Limit concurrent sessions, Authentication, Access Management]
+breadcrumb: [Concurrent session limits, Authentication, Access Management]
 ---
 
-# Explore limit concurrent sessions
+# Concurrent session limits
 
 You can limit the number of concurrent interactive sessions for a user or role on an instance across all nodes.
 
@@ -22,14 +22,14 @@ With the Jakarta release, you can limit the number of active concurrent sessions
 
 **Note:** The **Limit concurrent sessions** plugin must be active to enable a maximum session limit. Limits are set through the glide.authenticate.max.concurrent.interactive.sessions property. A maximum limit value applies to any user or role that has the limit property active. A user or a role connected to the user must have the limit\_concurrent\_sessions value set to true for the limit on sessions to initiate. For the Jakarta release, this feature does not support sessions created through the native mobile app or non-interactive mechanisms.
 
-A typical use case if a maximum concurrent session of 1 is set:
+A typical use case is when a maximum concurrent session of 1 is set:
 
 1.  The user accesses the initial ServiceNow instance through Chrome.
 2.  After the user successfully logs in, ServiceNow creates session 1 \(S1\) for the user.
 3.  The user decides to initiate another access to the ServiceNow instance through Firefox.
 4.  After the user successfully logs in, ServiceNow creates session 2 \(S2\) for the user.
 5.  Since the user has a maximum concurrent session limit of 1, the S1 session invalidates when S2 is created.
-6.  When the user goes back through Chrome to access the S1 ServiceNow instance, the user is redirected to the login page as S1 is invalid.
+6.  When the user goes back through Chrome to access the S1 ServiceNow instance, the user is redirected to the login page because S1 is invalid.
 
 Concurrent session limits work with all the ServiceNow authentication mechanisms: SAML, LDAP, and local database authentication. It also works with Multi-factor authentication and all interactive ServiceNow authentication mechanisms. The source of the session is viewable through the **sys\_user\_session** table, under the column **Type**. The values can be:
 

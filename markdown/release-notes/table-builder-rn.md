@@ -1,51 +1,50 @@
 ---
 title: Table Builder release notes
-description: The ServiceNow Table Builder application is a centralized way to build tables, forms, and display logic. Table Builder was enhanced and updated in the Australia release.The ServiceNow Table Builder application is a centralized way to build tables, forms, and display logic. Table Builder was enhanced and updated in the Australia release.
+description: The ServiceNow Table Builder application is a centralized way to build tables, forms, and display logic. See the following sections for release notes by version.Table Builder was enhanced in the Brazil patch X release to address issues with the formula editor.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/table-builder-rn.html
 release: australia
 topic_type: topic
-last_updated: "2026-03-12"
+last_updated: "2026-10-22"
 reading_time_minutes: 1
-breadcrumb: [Workflow Studio release notes, App development and low-code release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
+breadcrumb: [App development and low-code release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Table Builder release notes
 
-The ServiceNow® Table Builder application is a centralized way to build tables, forms, and display logic. Table Builder was enhanced and updated in the Australia release.
+The ServiceNow® Table Builder application is a centralized way to build tables, forms, and display logic. See the following sections for release notes by version.
 
 ## About Table Builder
 
-[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-5.md)
+-   Build your app’s tables, forms, and display logic from one place, without switching between separate tools.
+-   Edit table structure and records together in one view, so you can see how data changes as you build.
+-   Bring existing data into your app by importing it from a spreadsheet into a new or existing table.
+-   Connect your data by adding reference fields that relate one table to another.
+-   Control who can access your data by configuring table permissions as you build.
 
--   ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
--   Starting with the Australia release, Form Designer is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. Features within Form Designer will be available in the Form Builder.
-
--   Read-only behavior is now controlled by the **Read only option** \[`read_only_option`\] choice field, which provides options such as **Display Read Only** or **Strict Read Only**.
--   The existing **Read only** field will no longer be editable in the UI.
-
-See [Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/tb-landing-page.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
-**Important:** Table Builder is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
-
 -   **Activation information**
+
+    Install Table Builder by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
 -   **Browser requirements**
 
-    Internet Explorer isn’t supported.
+    Internet Explorer isn't supported.
 
 
-**Parent Topic:**[Workflow Studio release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/workflow-studio-rn-landing.md)
+**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/build-automate-rn-landing.md)
 
-## Australia
+## Brazil patch X
 
-The ServiceNow® Table Builder application is a centralized way to build tables, forms, and display logic. Table Builder was enhanced and updated in the Australia release.
+Table Builder was enhanced in the Brazil patch X release to address issues with the formula editor.
 
-### What's changed
+### What's new
 
--   **[Field configuration in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/field-parameters.md)**
+-   **New role required to add a formula to a column**
 
-    A new **Read Only Option** has been added to the dictionary tables \(`sys_dictionary` and `sys_dictionary_override`\). The existing **read\_only** field is now locked and cannot be edited in the UI. Field behavior depends on the selected option. With **Display Read Only**, the field appears read-only but can still be updated through APIs. With **Strict Read Only**, the field can't be changed in the UI or by client scripts such as \[`g_form.setValue()`\]. A new system property,`glide.read_only.legacy_read_only_behavior`, controls whether the old behavior, where client scripts could override read-only settings, is retained.
+    Accessing the formula editor in Table Builder now requires the formula\_read role. Previously, the formula editor stalled in the loading state. This issue is related to PRB2093578.
 
 

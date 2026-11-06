@@ -7,9 +7,9 @@ release: australia
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-21"
 reading_time_minutes: 1
-keywords: [manage attachments, card data security attachments, issuer tab, merchant tab, contextual side panel attachments, download documents vault, secure attachments, dispute transaction attachments, view documents tokenizer vault]
+keywords: [manage attachments, card data security attachments, issuer tab, merchant tab, contextual side panel attachments, download documents vault, secure attachments, dispute transaction attachments, view documents tokenizer vault, zip file viewer, view files in zip attachment]
 breadcrumb: [Use, Card Data Security, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
@@ -39,4 +39,8 @@ Files that are received from card networks and stored in the tokenizer service a
 The files in the **Merchant** tab aren't stored in the ServiceNow instance; they are references to files that are stored in the tokenizer service vault to maintain PCI compliance. You can download these files to your device, or preview them directly from the tokenizer service vault so that they are not stored in your instance.
 
 \[Omitted image "card-data-security-merchant-attachments.png"\] Alt text: Transaction review page showing the Merchant tab in Attachments.
+
+When a file in the **Merchant** tab is a ZIP archive, select it to open a viewer that lists the files inside the archive. Select a file from the list to preview it in the viewer, then select **Download** to save that file to your device.
+
+\[Omitted image "card-data-security-zip-contents.png"\] Alt text: Screenshot of ZIP file viewer showing three files listed, and a Download button to download the selected file.
 

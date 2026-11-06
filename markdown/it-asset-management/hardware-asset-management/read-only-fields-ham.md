@@ -7,7 +7,7 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [Read-only fields in Hardware Asset Management, Client script modifiable fields in Hardware Asset Management, Hardware Asset Management, Hardware Asset Management tables]
 breadcrumb: [Reference, Hardware Asset Management, IT Asset Management, Asset Management]

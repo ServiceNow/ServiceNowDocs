@@ -7,7 +7,7 @@ release: australia
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Inventory, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
@@ -32,15 +32,15 @@ Role required: wm\_agent or wm\_dispatcher
 
 5.  Do one of the following.
 
-<table id="choicetable_xjd_bdv_khb"><thead><tr><th align="left" id="d119092e99">
+<table id="choicetable_xjd_bdv_khb"><thead><tr><th align="left" id="d121890e99">
 
 To
 
-</th><th align="left" id="d119092e102">
+</th><th align="left" id="d121890e102">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d119092e108">
+</th></tr></thead><tbody><tr><td id="d121890e108">
 
 **View all work orders related to this asset**
 
@@ -52,7 +52,7 @@ Do this
     -   To view all upcoming work orders, click **Upcoming Work Orders**.
 
 
-</td></tr><tr><td id="d119092e143">
+</td></tr><tr><td id="d121890e143">
 
 **Create a work order for this asset**
 

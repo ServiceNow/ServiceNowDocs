@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -76,5 +76,5 @@ Examples from CPU Usage will vary among the matrix of thousands of combinations 
 
 Your mix of these variables will determine your unique level of CPU consumption.
 
-You can identify unique builds using internal templates and discover them by watching the performance impact, or lack of performance impact that your Discovery tool has on your system.
+Use internal templates to identify unique builds. Monitor the performance impact that Discovery has on your system.
 

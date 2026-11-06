@@ -7,7 +7,7 @@ release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: concept
-last_updated: "2026-05-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Getting started, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -16,15 +16,15 @@ breadcrumb: [Getting started, Workforce Optimization for ITSM, IT Service Manage
 
 As a manager, you can manage and optimize your entire workforce using Workforce Optimization for ITSM from one central location. Organizing your teams, for example, different levels of employees in your organizational chart, into groups is the foundation on which Workforce Optimization for ITSM operates.
 
-**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
-
 Therefore, after you set up your teams as groups in Workforce Optimization for ITSM, as a manager, you can route work, set up schedules, train your teams, and analyze all aspects of your workforce from one location.
 
 ## Planning for your Workforce Optimization for ITSM implementation
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 Before you start implementing Workforce Optimization for ITSM, make sure you do the following:
 
-**Important:** Groups are synonymous with assignment groups. A team member can belong to multiple groups but must have one group identified as their primary assignment group. If not, that team member cannot view their schedules in Service Operations Workspace. For more information on Schedules in Service Operations Workspace, see [Service Operations Workspace - Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/itsm-sow-workspace-scheduling.md).
+**Note:** Groups are synonymous with assignment groups. A team member can belong to multiple groups but must have one group identified as their primary assignment group. If not, that team member cannot view their schedules in Service Operations Workspace. For more information on Schedules in Service Operations Workspace, see [Service Operations Workspace - Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/itsm-sow-workspace-scheduling.md).
 
 1.  **Identify your teams**
 

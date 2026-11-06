@@ -7,7 +7,7 @@ release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Get started, Configure, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
@@ -51,7 +51,7 @@ If you are currently using Connect Support APIs, see [AWA Routing API](https://r
 
 5.  In [Agent Chat settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ac-configure-agent-chat.md), access the Chat Setup form to specify Agent Workspace as the fulfiller interface for live chat and enable other live chat features.
 
-6.  Activate the [chat client on your end user Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/ac-configure-bot-portal.md).
+6.  Activate the [chat client on your end user Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/agent-chat/ac-configure-bot-portal.md).
 
 
 Troubleshooting suggestions include these common problems and solutions:

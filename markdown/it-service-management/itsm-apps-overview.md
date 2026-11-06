@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-apps-overview.html
 release: australia
 topic_type: reference
-last_updated: "2026-02-11"
-reading_time_minutes: 8
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 keywords: [ITSM, IT Service Management applications, ITSM applications]
 breadcrumb: [IT Service Management]
 ---
@@ -27,7 +27,7 @@ ITSM manages access and availability of services, fulfills service requests, and
 |[Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/continual-improvement-management/cim-landing-page.md)|Request improvement opportunities and implement phases and tasks to meet performance goals.|
 |[DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-change-velocity/devops-landing-page-new.md)|Import data from your DevOps tool chain to the ServiceNow platform and deliver changes faster without sacrificing compliance.|
 |[DevOps Config](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/devops-config-landing-page.md)|Validate and manage configuration data of enterprise applications across every stage of the DevOps pipeline.|
-|[Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-end-user-experience-dex/dex-landing.md)|Monitor applications, networks, and devices to promote optimal performance across all channels.|
+||Monitor applications, networks, and devices to promote optimal performance across all channels.|
 |[Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-landing.md)|Manage and maintain all your solutions from a single workspace.|
 |[Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-product-release/dpr-landing-page.md)|Help release managers, product managers, and program managers plan and manage the release process.|
 |[Expense Line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/expense-line/c_ExpenseLine.md)|Track costs and manage point-in-time expenses incurred for IT assets.|

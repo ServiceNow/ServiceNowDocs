@@ -7,7 +7,7 @@ release: australia
 product: Tag Governance
 classification: tag-governance
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Tag Governance, ITOM Visibility, IT Operations Management]
 ---
@@ -57,7 +57,7 @@ View-only permissions:-   Monitor reports from audit runs
 |Benefit|Feature|Users|
 |-------|-------|-----|
 |Implement cloud event processing and configure a tag policy to automatically update cloud resource tags in real time.|[Performing real-time updates to tags for cloud resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/tag-governance/tag-governance-real-time-updates.md)|Cloud admins|
-|Tag Governance supports domain separation, allowing you to logically group and segregate data, processes, and administrative tasks into distinct domains. This enables precise control over aspects like user access and data visibility.|[Domain separation and Tag Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/tag-governance/tag-governance-domain-separation.md)|Cloud admins|
+|Tag Governance supports domain separation, allowing you to logically group and segregate data, processes, and administrative tasks into distinct domains. This enables precise control over aspects like user access and data visibility.|[Domain separation in Tag Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/tag-governance/tag-governance-domain-separation.md)|Cloud admins|
 |Review non-compliant CIs flagged by tag audits and resolve them by adding the required tags.|[Preview and remediate tag audit failures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/tag-governance/perform-remediations-tag-governance.md)|Tag admins|
 
 ## Exploring

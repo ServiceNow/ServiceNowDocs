@@ -7,9 +7,9 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Work with hardware normalization, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Configure Hardware Model Normalization, Integrations and advanced configuration, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Revert normalization of hardware and consumable models
@@ -30,15 +30,15 @@ Hardware and consumable models with a status of **Fully Normalized**, **Partiall
 
 1.  Navigate to a normalized hardware or consumable record.
 
-<table id="choicetable_dsq_fhg_ywb"><thead><tr><th align="left" id="d300192e98">
+<table id="choicetable_dsq_fhg_ywb"><thead><tr><th align="left" id="d305291e98">
 
 Interface
 
-</th><th align="left" id="d300192e101">
+</th><th align="left" id="d305291e101">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d300192e107">
+</th></tr></thead><tbody><tr><td id="d305291e107">
 
 **Core UI**
 
@@ -48,7 +48,7 @@ Action
 -   For consumable models, navigate to **All** &gt; **Product Catalog** &gt; **Product Models** &gt; **Consumable models**.
 
 
-</td></tr><tr><td id="d300192e155">
+</td></tr><tr><td id="d305291e155">
 
 **Hardware Asset Workspace**
 
@@ -76,5 +76,5 @@ After the revert normalization process is complete, the following changes take p
 -   The deactivated rule can no longer normalize any more models. The deactivated rule can't be reactivated. It’s a one-time procedure.
 -   The **Revert Normalization** option on the model record is replaced with the **Normalize** option.
 
-**Parent Topic:**[Work with hardware normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/Work-with-hardware-normalization.md)
+**Parent Topic:**[Configure Hardware Model Normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/Work-with-hardware-normalization.md)
 

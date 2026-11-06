@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Change Management, IT Service Management]
 ---
@@ -16,14 +16,14 @@ breadcrumb: [Reference, Change Management, IT Service Management]
 
 You can integrate Change Management with other ServiceNow applications such as Discovery, Software Asset Management, and Hardware Asset Management.
 
-The following topics provides information about integration of different applications with Change Management, prerequisites, and way to enable functionality of those integrated applications.
+The following topics describe how Change Management integrates with other applications, the prerequisites for each integration, and how to enable it.
 
 -   **[Change Management integration with ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-mgmt-integ-wth-Discovery.md)**  
 If your organization is subscribed to ITOM Discovery or ITOM Visibility, integration with these ITOM products is automatically enabled. With this integration, any configuration item \(CI\) with an IP address that is part of a change request process can be maintained automatically. Change request fulfillers can also manually request the discovery process for a CI.
 -   **[Change Management integration with Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-mgmt-integ-wth-SAM.md)**  
 The Change Management integration with Software Asset Management \(SAM\) displays the projected licensing cost implication of a change.
 -   **[Change Management integration with Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change_mgmt-integ-with-HWAM.md)**  
-The Change Management integration with Hardware Asset Management helps in determining the asset action that must be performed on the configuration item \(CI\) that is associated with a hardware asset. Using this capability, change implementers can quickly update asset records directly from change and the Asset Manager can see current state on all assets that were updated by the change request.
+The Change Management integration with Hardware Asset Management helps determine the asset action that must be performed on the configuration item \(CI\) that is associated with a hardware asset. Using this capability, change implementers can update asset records directly from change and asset managers can see the current state of all assets that were updated by the change request.
 
 **Parent Topic:**[Reference section for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/reference-change-management.md)
 

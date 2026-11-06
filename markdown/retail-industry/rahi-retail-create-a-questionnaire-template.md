@@ -39,6 +39,10 @@ Retail Operations supports various types of questionnaire templates designed for
 
 -   **[Smart Assessment questionnaires for Retail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-smart-assessment-questionnaires.md)**  
 Smart Assessment enables users with the sn\_rtl\_hq\_ops.plan\_author role to create smart assessment templates and associate them with store tasks.
+-   **[Create questionnaire for a store plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-create-questionnaire.md)**  
+Create questionnaire for a store plan on CSM/FSM Worskpace.
+-   **[Using smart assessment template designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/using-smart-assessment-template-designer.md)**  
+You can create assessment templates and add instructions, questions, and reference information by using the template designer in the Smart Assessment Engine application. Smart assessments can help you to evaluate various situations, aspects, or records.
 
 **Parent Topic:**[Retail store plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/retail-industry/rahi-retail-retail-multistore-operational-planning.md)
 

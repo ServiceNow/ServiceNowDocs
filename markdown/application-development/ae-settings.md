@@ -9,7 +9,7 @@ last_updated: "2026-09-16"
 reading_time_minutes: 1
 keywords: [Autonomous Engineer, Build Agent, settings, configure]
 audience: programmer
-breadcrumb: [Configure, Autonomous Engineer, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Configure, Autonomous Engineer, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Configuring Autonomous Engineer settings in Build Agent

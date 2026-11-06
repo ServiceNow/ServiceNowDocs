@@ -7,14 +7,18 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Design your indicator solution, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Analysis and the KPI tree
 
 In the Analysis tab of KPI Composer, design your KPI tree. Specify your business goals, their associated critical success factors, and the measurement related to those factors. Chart the logical relationship between these factors and the personas who are responsible for them.
+
+**Important:**
+
+This application is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 A KPI tree contains the following hierarchically related artifacts:
 
@@ -65,6 +69,10 @@ Add artifacts to the KPI tree by using the drag-and-drop tiles at the bottom of 
 
 ### Before you begin
 
+**Important:**
+
+This application is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
+
 Think about your business goal and critical success factors before you begin to work on a project.
 
 Role required: sn\_kpi\_composer.user \(own project\), sn\_kpi\_composer.admin \(any project\), admin. No role required for responsible user or user with edit access from project sharing.
@@ -107,6 +115,10 @@ If you change your mind about the relationships in a tree, you can select and dr
 ## Artifact properties
 
 Each artifact in a KPI tree can reference knowledge base articles, personas, or breakdown definitions.
+
+**Important:**
+
+This application is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 <table id="table_p4n_z4d_mjb"><thead><tr><th>
 

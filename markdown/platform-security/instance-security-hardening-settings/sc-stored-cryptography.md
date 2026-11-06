@@ -7,7 +7,7 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Hardening settings, Platform Security]
 ---
@@ -20,7 +20,7 @@ This category focuses on the encryption of stored data. It encompasses several k
 Manage the encrypters used for Password2 fields on your instance.
 -   **[Disable use of TripleDES/3DES encryption algorithm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-disable-use-of-tripledes-3des-encryption-algorithm.md)**  
 Avoid the security risks of outdated encryption methods by disabling the use of the TripleDES/3DES encryption algorithm.
--   **[Prevent usage of 3DES keys \[New in Security Center 7.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-prevent-usage-of-3des-keys.md)**  
+-   **[Prevent usage of 3DES keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-prevent-usage-of-3des-keys.md)**  
 Disable the use of 3DES static keys on your instance with a system property.
 
 **Parent Topic:**[Hardening settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/security-hardening-settings.md)

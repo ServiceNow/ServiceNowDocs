@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-aisearch-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-10-09"
-reading_time_minutes: 18
+last_updated: "2026-11-06"
+reading_time_minutes: 19
 breadcrumb: [Products combined by family]
 ---
 
@@ -157,14 +157,23 @@ Zurich
 
 </td><td>
 
--   **[ServiceNow Otto for AI Search](https://www.servicenow.com/docs/access?context=now-assist-ais&family=zurich&ft:locale=en-US)**
+-   **[Display search suggestion links as standard HTML anchors](https://www.servicenow.com/docs/access?context=display-search-suggestion-links-standard-html-anchors&family=zurich&ft:locale=en-US)**
+
+Preserve your search state in portal search and global/workspace search by configuring display of search suggestion links as standard HTML anchors. With this setting configured, you can open search suggestions in new browser tabs using your browser's native right-click or long-press functionality.
+
+-   **[Display search result title links as standard HTML anchors](https://www.servicenow.com/docs/access?context=display-search-result-links-standard-html-anchors&family=zurich&ft:locale=en-US)**
+
+Preserve your search state in portal search and global/workspace search by configuring display of search result title links as standard HTML anchors. With this setting configured, you can open search results in new browser tabs using your browser's native right-click or long-press functionality.
+
+
+ -   **[ServiceNow Otto for AI Search](https://www.servicenow.com/docs/access?context=now-assist-ais&family=zurich&ft:locale=en-US)**
 
 ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows. Name changes include but aren't limited to:
 
     -   Now Assist in AI Search is now ServiceNow Otto for AI Search.
     -   Now Assist Actions is now Actions.
-    -   Now Assist Q &amp; A is now Knowledge base articles.
-    -   Now Assist Multi Content Response is now Summary.
+    -   Now Assist Q&amp;A is now Knowledge base articles.
+    -   Now Assist Multi-Content Response is now Summary.
 
  -   **[Generate multi-content synthesized responses](https://www.servicenow.com/docs/access?context=generate-multi-content-synthesized-sources&family=zurich&ft:locale=en-US)**
 
@@ -203,7 +212,16 @@ Australia
 
 </td><td>
 
--   **[ServiceNow Otto for AI Search](https://www.servicenow.com/docs/access?context=now-assist-ais&family=australia&ft:locale=en-US)**
+-   **[Display search suggestion links as standard HTML anchors](https://www.servicenow.com/docs/access?context=display-search-suggestion-links-standard-html-anchors&family=australia&ft:locale=en-US)**
+
+Preserve your search state in portal search and global/workspace search by configuring display of search suggestion links as standard HTML anchors. With this setting configured, you can open search suggestions in new browser tabs using your browser's native right-click or long-press functionality.
+
+-   **[Display search result title links as standard HTML anchors](https://www.servicenow.com/docs/access?context=display-search-result-links-standard-html-anchors&family=australia&ft:locale=en-US)**
+
+Preserve your search state in portal search and global/workspace search by configuring display of search result title links as standard HTML anchors. With this setting configured, you can open search results in new browser tabs using your browser's native right-click or long-press functionality.
+
+
+ -   **[ServiceNow Otto for AI Search](https://www.servicenow.com/docs/access?context=now-assist-ais&family=australia&ft:locale=en-US)**
 
 ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows. Name changes include but aren't limited to:
 
@@ -230,9 +248,9 @@ Multimodal captioning automatically generates searchable descriptive captions fo
 
 Beginning with Now Assist in AI Search 15.0, administrators on instances with Now Assist in AI Search installed can enable the new hybrid search mode. Hybrid search combines keyword-based search with semantic understanding to deliver more accurate and relevant search results, with fewer zero-result searches.
 
--   **[Configure AI Search as the source for Ask ServiceNow Otto suggestions](https://www.servicenow.com/docs/access?context=configure-ai-search-source-ask-now-assist-suggestions&family=australia&ft:locale=en-US)**
+-   **[Configure AI Search as the source for Ask ServiceNow Otto® suggestions](https://www.servicenow.com/docs/access?context=configure-ai-search-source-ask-now-assist-suggestions&family=australia&ft:locale=en-US)**
 
-Admins can configure the system to use AI Search as the source for Ask Now Assist suggestions in enhanced chat. Making this change activates suggestion term highlighting in Ask Now Assist and provides improvements such as wildcard searching and lemmatization for suggestions.
+Admins can configure the system to use AI Search as the source for Ask ServiceNow Otto® suggestions in enhanced chat. Making this change activates suggestion term highlighting in Ask ServiceNow Otto® and provides improvements such as wildcard searching and lemmatization for suggestions.
 
 
 </td></tr></tbody>
@@ -348,7 +366,7 @@ Australia
 
 -   **[Summary Genius Results](https://www.servicenow.com/docs/access?context=now-assist-multi-content-qna-genius-results&family=australia&ft:locale=en-US)**
 
-If you have Now Assist in AI Search installed, Now Assist Multi-Content Response Genius Results are supported in global and workspace search. Activating Now Assist Multi-Content Response Genius Results in global or workspace search profiles overrides all other Genius Result configurations, so that global and workspace searches only display Genius Result answers from Now Assist Multi-Content Response Genius Results. Virtual Agent topic citations from Now Assist Multi-Content Response Genius Result answers in global or workspace search open the selected topic in the Now Assist panel so the user can continue their conversation on that topic.
+If you have ServiceNow Otto for AI Search installed, ServiceNow Otto® Summary Genius Results are supported in global and workspace search. Activating ServiceNow Otto® Summary Genius Results in global or workspace search profiles overrides all other Genius Result configurations, so that global and workspace searches only display Genius Result answers from Summary Genius Results. Virtual Agent topic citations from ServiceNow Otto® Summary Genius Result answers in global or workspace search open the selected topic in the ServiceNow Otto® panel so the user can continue their conversation on that topic.
 
 -   **[Search Suggestions](https://www.servicenow.com/docs/access?context=search-suggestions-overview&family=australia&ft:locale=en-US)**
 

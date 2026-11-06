@@ -1,5 +1,5 @@
 ---
-title: Set up Moveworks for EmployeeWorks Web App
+title: Set up Moveworks for Employee Slate
 description: Set up Moveworks for Employee Slate by connecting the Moveworks AI Assistant and configuring the portal in the Product Configuration console.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/empworks-set-up-moveworks.html
@@ -10,10 +10,10 @@ topic_type: task
 last_updated: "2026-04-28"
 reading_time_minutes: 1
 keywords: [Moveworks setup, Moveworks assistant, Product Configuration console, EmployeeWorks Web App]
-breadcrumb: [EmployeeWorks Web App, Configuration flow, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [EmployeeWorks Web App, Configuration flow, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
-# Set up Moveworks for EmployeeWorks Web App
+# Set up Moveworks for Employee Slate
 
 Set up Moveworks for Employee Slate by connecting the Moveworks AI Assistant and configuring the portal in the Product Configuration console.
 
@@ -23,7 +23,7 @@ Set up Moveworks for Employee Slate by connecting the Moveworks AI Assistant and
 -   The EmployeeWorks Web App Extended plugin is installed if the deployment requires the advanced experience.
 -   You have the Moveworks entitlement for the organization.
 
-Role required: System administrator
+Role required: System administrator.
 
 ## About this task
 

@@ -7,9 +7,9 @@ release: australia
 product: Workplace Core
 classification: workplace-core
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing workplace reservations for employees, Manage workplace safety activities, Workplace Core, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Managing workplace reservations for employees, Manage, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Define the capacity of workplace areas

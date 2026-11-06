@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/exploring-unified-sales-order-management-somt.html
 release: australia
 topic_type: concept
-last_updated: "2025-07-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 keywords: [unified sales and order management, USAM, PSR catalog, quote to order, order decomposition, domain orders, product inventory, TMF622, TMF641, TMF637, inflight changes]
 breadcrumb: [Explore, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
@@ -15,9 +15,11 @@ breadcrumb: [Explore, Sales Customer Relationship Management for Telecommunicati
 
 Sales CRM for Telecommunications consolidates product catalog, sales, and order fulfillment on one platform. It carries quote line items through to fulfilled services and decomposes customer orders into domain orders using catalog-defined rules.
 
-The Unified Sales and Order Management \(USAM\) platform in Sales CRM for Telecommunications brings product catalog, sales, and order fulfillment together in one system. A unified Product, Service, and Resource \(PSR\) catalog serves as the single source of truth for all definitions across sales and fulfillment. This removes the need to synchronize data between separate systems.
+The Unified Sales Customer Relationship Management \(USAM\) platform in Sales CRM for Telecommunications brings product catalog, sales, and order fulfillment together in one system. A unified Product, Service, and Resource \(PSR\) catalog serves as the single source of truth for all definitions across sales and fulfillment. This removes the need to synchronize data between separate systems.
 
 When a customer accepts a quote, the platform creates a customer order directly no intermediate transformation required. Quote line items carry forward to order line items, preserving commercial terms, pricing, and configuration through fulfillment. After approval, the platform decomposes the order into domain orders and routes them to the appropriate fulfillment system. The flow covers the full customer journey from lead capture through service activation. It supports inflight changes, product inventory management, and multi-domain orchestration aligned to TM Forum \(TMF\) Open API standards.
+
+\[Omitted image "mmasset0022310-customer-lifecycle.png"\] Alt text: Infographic showing the customer lifecycle from lead capture through service activation. Details are described in the surrounding text.
 
 ## Benefits
 

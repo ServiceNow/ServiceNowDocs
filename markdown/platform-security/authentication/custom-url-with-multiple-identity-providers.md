@@ -1,20 +1,20 @@
 ---
-title: Custom URL with Identity Provider
-description: Set your custom URL with the Identity Provider to enable the user to login with their IdP's.
+title: Configure a custom URL with an identity provider
+description: Set your custom URL with the Identity Provider to enable the user to log in with their IdPs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/custom-url-with-multiple-identity-providers.html
 release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Custom instance URLs, Authentication, Access Management]
 ---
 
-# Custom URL with Identity Provider
+# Configure a custom URL with an identity provider
 
-Set your custom URL with the Identity Provider to enable the user to login with their IdP's.
+Set your custom URL with the Identity Provider to enable the user to log in with their IdPs.
 
 ## Before you begin
 
@@ -24,13 +24,13 @@ Role required: custom\_url\_admin
 
 1.  Navigate to **All** &gt; **Custom URL** &gt; **Custom URLs**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  Provide the details of the IdP in the **Identity Provider** field.
 
-    For information about other fields, see [Set a custom URL as the instance URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/configure-custom-url.md). \[Omitted image "new-custom-url-idp.png"\] Alt text: A Custom URL"configuration interface with fields for domain name, status, service portal, and identity provider \(set to "GOOGLE OIDC"\), along with helpful setup links.
+    For information about other fields, see [Set a custom URL as the instance URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/configure-custom-url.md). \[Omitted image "new-custom-url-idp.png"\] Alt text: A Custom URL configuration interface with fields for domain name, status, service portal, and identity provider \(set to "GOOGLE OIDC"\), along with helpful setup links.
 
-4.  Click **Create**.
+4.  Select **Create**.
 
     The record is created and displayed on the Custom URL page.
 
@@ -43,6 +43,6 @@ Role required: custom\_url\_admin
     -   If the Service Portal field is empty and the Identity Provider field is defined, when the user accesses the custom URL, the user is directly navigated to the configured Identity Provider.
     -   If both the Service Portal and Identity Provider field is defined, when the user accesses the custom URL with the Service Portal that is defined, the user is navigated to the configured Identity Provider.
     -   If both the Service Portal and Identity Provider field is defined, when the user accesses the custom URL with the different portal that is not defined, the user is navigated to the auto-redirect Identity Provider if configured on the instance.
-5.  Use the credentials to login to the application.
+5.  Use the credentials to log in to the application.
 
 

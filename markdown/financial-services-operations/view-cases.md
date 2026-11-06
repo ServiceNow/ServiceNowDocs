@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/view-cases.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [view banking customer cases, banking service cases, banking customer 360 page, banking customer 360 filter cases, banking customer 360 sort cases, banking customer 360 open case record, banking customer 360 case number, banking customer 360 account activity, banking customer 360 historical service requests]
 breadcrumb: [Use, Agentic Contact Center for Banking, Banking applications, Financial Services Operations \(FSO\)]

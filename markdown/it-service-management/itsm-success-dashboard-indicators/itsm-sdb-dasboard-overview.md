@@ -7,7 +7,7 @@ release: australia
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Explore, ITSM Success Dashboard indicators, IT Service Management]
 ---
@@ -16,19 +16,21 @@ breadcrumb: [Explore, ITSM Success Dashboard indicators, IT Service Management]
 
 Analyze the performance and self-solve data visually and drive business outcomes with the help of the dashboard components.
 
-## ServiceNow Otto for IT Service Management \(ITSM\) for Success Dashboard
+## Now Assist for ITSM Success Dashboard
 
-With the ServiceNow Otto for IT Service Management \(ITSM\) for Success Dashboard, you can summarize the chat conversations and incident details. You can generate the incident resolution notes to share with other agents, and wrap up incidents faster.
+With the Now Assist for Success Dashboard, you can summarize chat conversations and incident details, and generate incident resolution notes to share with other agents.
 
-The **Self-solved using QnA** KPI in the ITSM Success Dashboard uses Now Assist and AI search QnA as contributing indicators. You can interact with a Virtual Agent, read the Knowledge base article, get a summarized/succinct response by Now LLM in Virtual Agent or on the portal. This interaction, subsequently does not create an incident, access any knowledge base article, or interact with a live agent in the next 24 hours.
+These capabilities help you wrap up incidents faster.
 
-To update the live agent script include see, [Update the live agent script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-success-dashboard-indicators/update-live-agent-script-include.md).
+The **Self-solved using QnA** KPI in the ITSM Success Dashboard uses Now Assist and AI search QnA as contributing indicators. You can interact with a Virtual Agent, read the Knowledge base article, get a summarized/succinct response by Now LLM in Virtual Agent or on the portal. This interaction does not subsequently create an incident, access any knowledge base article, or interact with a live agent in the next 24 hours.
+
+To update the live agent script include, see, [Update the live agent script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-success-dashboard-indicators/update-live-agent-script-include.md).
 
 ## Proactive Engagement for DEX
 
-The **Self-solved using Proactive Engagement for DEX** KPI listed under the self-solved percentage, helps the users resolve their digital experience issues. It proactively suggests the resolutions and resolves the issue.
+The **Self-solved using Proactive Engagement for DEX** KPI listed under the self-solved percentage helps the users resolve their digital experience issues. It proactively displays resolutions and resolves the issue.
 
-## Getting started with the Admin Console
+## Getting started with the admin console
 
 With the Admin Console, you can access the ITSM Success Dashboard, Operational Success, and Benchmarks dashboard. The Admin Console displays all the admin-related work at a glance and tasks that need attention, including installation of the related application and configuration settings.
 
@@ -81,7 +83,7 @@ View the trend of the aggregated scores for the selected metric scorecard.
 
 \[Omitted image "sdb-trend-1.png"\] Alt text: Call deflection percentage trend example.
 
-\[Omitted image "sdb-structured-trend.png"\] Alt text: structured tickets completed trend.
+\[Omitted image "sdb-structured-trend.png"\] Alt text: Structured tickets completed trend.
 
 ## View details in the ITSM Success Dashboard indicators
 
@@ -91,7 +93,7 @@ See the constituent drill-down views and their contextual descriptions for KPIs.
 
     \[Omitted image "sdb-view-details.png"\] Alt text: Information on view details breakdown.
 
-    You can replace or add new indicators to suit your implementation in addition to the base system indicators. See [Configure Success Dashboard indicators KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-success-dashboard-indicators/config-kpis-sdb.md) for more details.
+    You can replace or add new indicators to suit your implementation alongside the base system indicators. See [KPI configuration for Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-success-dashboard-indicators/config-kpis-sdb.md) for more details.
 
 -   View the contributing indicators.
 
@@ -104,7 +106,7 @@ See the constituent drill-down views and their contextual descriptions for KPIs.
     \[Omitted image "view-record-level-sdb.png"\] Alt text: Record-level information on view details breakdown.
 
 
-This level of drill down helps you view the record-level details of the indicator when you have the `sn_sd.success_dashboard_details_read` user permissions. See [KPI details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details.md) for more information.
+This level of drill-down detail helps you view the record-level details of the indicator when you have the `sn_sd.success_dashboard_details_read` user permissions. See [KPI details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details.md) for more information.
 
 ## View cost saving details in the ITSM Success Dashboard indicators
 
@@ -117,7 +119,7 @@ Enable Cost savings and view the drill-down views and their contextual descripti
 
 View the contextual formula and definitions, insights, and cost savings in the **More information**, **Insights**, and **Cost Savings** side panel respectively for the selected metric or KPI.
 
-More Information side panel.
+More information side panel.
 
 \[Omitted image "more-info.png"\] Alt text: Side panel with more information.
 

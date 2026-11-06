@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/approve-request-from-cust-portal.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Customer Service Portal, Customer communication, Use, Customer Service Management]
 ---
@@ -24,7 +24,7 @@ A registration request or a change request may require approval from another emp
 
 ## Procedure
 
-1.  In the Customer Service Portal header, click **Notification** &gt; **View all notifications**.
+1.  In the Customer Service Portal header, select **Notification** &gt; **View all notifications**.
 
 2.  Select a record in the Approvals section of the Notifications page.
 

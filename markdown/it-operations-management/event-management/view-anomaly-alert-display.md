@@ -7,9 +7,9 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Respond to alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Responding to and working with alerts in Express List, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # View Log Analytics anomaly alert charts on the preview panel in Express List
@@ -32,15 +32,15 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
 4.  Choose where to view the anomaly chart.
 
-<table id="choicetable_kfx_rzl_33c"><thead><tr><th align="left" id="d406786e111">
+<table id="choicetable_kfx_rzl_33c"><thead><tr><th align="left" id="d434975e111">
 
 Option
 
-</th><th align="left" id="d406786e114">
+</th><th align="left" id="d434975e114">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d406786e120">
+</th></tr></thead><tbody><tr><td id="d434975e120">
 
 **View the chart in the preview panel**
 
@@ -51,7 +51,7 @@ Procedure
 
 A chart with a visual representation of the anomaly appears.
 
-</td></tr><tr><td id="d406786e146">
+</td></tr><tr><td id="d434975e146">
 
 **View the chart in the alert record**
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/install-synthetic-monitoring.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Synthetic monitoring, ITOM AIOps, IT Operations Management]
 ---
@@ -21,7 +21,7 @@ You can install the synthetic monitoring application \(`com.snc.uib.sow_syntheti
 -   Confirm that the Configuration items \(CI\) that you want to monitor exist in the CMDB HTTP Endpoints \[cmdb\_ci\_endpoint\_http\] table.
 -   Confirm that configured credentials exist in the Credentials \[discovery\_credentials\] table if your endpoint requires authentication.
 
-    **Note:** OAuth credentials are not supported for Agent Client Collector \(ACC\) locations.
+    **Note:** Synthetic monitoring supports API key credentials, basic authentication credentials, and OAuth.
 
 
 Role required: sn\_sow\_synthetics.synthetics\_admin

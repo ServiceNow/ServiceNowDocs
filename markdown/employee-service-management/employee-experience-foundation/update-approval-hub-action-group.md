@@ -7,9 +7,9 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Action framework, Setup task management, Configuring Employee Center, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Action framework, Setup task management, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure action group
@@ -28,7 +28,7 @@ Action group provides quick access to action items such as approve or reject the
 
 1.  Navigate to **All** &gt; **Employee Center** &gt; **Action framework** &gt; **Action Groups**.
 
-2.  Select **New** or edit an existing record such as **Approvals action group**.
+2.  Click **New** or edit an existing record such as **Approvals action group**.
 
 3.  Edit the **Action group name** or click save or update.
 

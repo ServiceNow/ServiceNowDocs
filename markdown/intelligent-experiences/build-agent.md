@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-09-30"
 reading_time_minutes: 2
 keywords: [Build Agent]
-breadcrumb: [ServiceNow Otto for Creator AI agents, ServiceNow Otto for Creator, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [ServiceNow Otto for Creator AI agents, ServiceNow Otto for Creator, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Build Agent
@@ -88,5 +88,21 @@ Custom instructions control how Build Agent behaves during a session.-   Rules a
 The **Applies To** setting determines which sessions use an instruction: all sessions on the instance, sessions within a specific application scope, or only the sessions of the user who created it. For more information, see [Configure custom skills and rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ba-configure-custom-skills-rules.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ServiceNow Otto for Creator AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/platform-creator-ai-agents-overview.md)
+</table>## Access roles
+
+Build Agent uses the following existing roles for access control and feature masking.
+
+-   **sn\_glider.admin**
+
+    Users with this role have the following
+
+    -   Access control lists \(ACLs\) on all Build Agent tables
+    -   Read and write access on operational system properties
+    -   Role masking for the Build Agent and Build Agent Preprocessor ServiceNow Otto skills
+-   **admin**
+
+    Users with this role have read access on protected system properties, such as prompt limits and tier overrides.
+
+
+**Parent Topic:**[ServiceNow Otto for Creator AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/platform-creator-ai-agents-overview.md)
 

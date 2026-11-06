@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-05-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Insights view, Explore, CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -23,7 +23,7 @@ Access the CMDB success advisor insights dashboard in CMDB Workspace to monitor 
 3.  On the Insights page navigation pane, select the &gt; icon to expand **CMDB success advisor**.
 4.  Select the dashboard for the outcome you want to monitor: **Data Foundations** or **Hardware Asset Management** \(**HAM**\).
 
-    **Note:** Each dashboard is available only when CMDB success advisor is installed and the setup process for that outcome is complete. For more information, see [CMDB success advisor for Data Foundations setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-config-settings.md) and [CMDB success advisor for HAM setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cmdb-sa-ham-config-settings.md).
+    **Note:** Each dashboard is available only when CMDB success advisor is installed and the setup process for that outcome is complete. For more information, see [CMDB success advisor for Data Foundations setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-config-settings.md) and .
 
 
 Role required: sn\_cmdb\_admin

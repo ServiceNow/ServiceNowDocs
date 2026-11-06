@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/r\_ExtendedFunctions.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure the HTML toolbar, Configure a field editor for the HTML field, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -24,7 +24,7 @@ HTML Icon
 
 </th><th>
 
-TinyMCE v6.8.3 Icon
+TinyMCE v8.3.0 Icon
 
 </th><th>
 
@@ -40,7 +40,7 @@ Accordion\*
 
 </td><td>
 
-\[Omitted image "TinyMCEV6-accordion\_icon.png"\] Alt text: TinyMCE v6.8.3 Accordion
+\[Omitted image "TinyMCEV6-accordion\_icon.png"\] Alt text: TinyMCE v8.3.0 Accordion
 
 </td><td>
 
@@ -56,7 +56,7 @@ Add character map\*
 
 </td><td>
 
-\[Omitted image "TinyMCEV6-add-character-map\_icon.png"\] Alt text: TinyMCE v6.8.3 Add character map
+\[Omitted image "TinyMCEV6-add-character-map\_icon.png"\] Alt text: TinyMCE v8.3.0 Add character map
 
 </td><td>
 
@@ -72,7 +72,7 @@ Anchor\*
 
 </td><td>
 
-\[Omitted image "TinyMCEv6-anchor\_icon.png"\] Alt text: TinyMCE v6.8.3 Anchor
+\[Omitted image "TinyMCEv6-anchor\_icon.png"\] Alt text: TinyMCE v8.3.0 Anchor
 
 </td><td>
 
@@ -104,7 +104,7 @@ Edit HTML Source/Code
 
 </td><td>
 
-\[Omitted image "TinyMCEV6-code\_icon.png"\] Alt text: TinyMCE v6.8.3 Code
+\[Omitted image "TinyMCEV6-code\_icon.png"\] Alt text: TinyMCE v8.3.0 Code
 
 </td><td>
 
@@ -120,7 +120,7 @@ Emoticons\*
 
 </td><td>
 
-\[Omitted image "TinyMCEV6-emoticons\_icon.png"\] Alt text: TinyMCE v6.8.3 Emoticons
+\[Omitted image "TinyMCEV6-emoticons\_icon.png"\] Alt text: TinyMCE v8.3.0 Emoticons
 
 </td><td>
 
@@ -136,7 +136,7 @@ Insert date/time\*
 
 </td><td>
 
-\[Omitted image "TinyMCEV6-insertdatetime\_icon.png"\] Alt text: TinyMCE v6.8.3 Insert date/time
+\[Omitted image "TinyMCEV6-insertdatetime\_icon.png"\] Alt text: TinyMCE v8.3.0 Insert date/time
 
 </td><td>
 
@@ -152,7 +152,7 @@ Insert/Edit Embedded Media
 
 </td><td>
 
-\[Omitted image "TinyMCEV6-embed\_icon.png"\] Alt text: TinyMCE v6.8.3 Embed media
+\[Omitted image "TinyMCEV6-embed\_icon.png"\] Alt text: TinyMCE v8.3.0 Embed media
 
 </td><td>
 
@@ -168,7 +168,7 @@ Insert/Edit Image
 
 </td><td>
 
-\[Omitted image "TinyMCEV6-image\_icon.png"\] Alt text: TinyMCE v6.8.3 Image
+\[Omitted image "TinyMCEV6-image\_icon.png"\] Alt text: TinyMCE v8.3.0 Image
 
 </td><td>
 
@@ -184,7 +184,7 @@ Insert/Edit Link
 
 </td><td>
 
-\[Omitted image "TinyMCEV6-link\_icon.png"\] Alt text: TinyMCE v6.8.3 Link
+\[Omitted image "TinyMCEV6-link\_icon.png"\] Alt text: TinyMCE v8.3.0 Link
 
 </td><td>
 
@@ -234,7 +234,7 @@ Print\*
 
 </td><td>
 
-\[Omitted image "TinyMCEV6-print\_icon.png"\] Alt text: TinyMCE v6.8.3 Print
+\[Omitted image "TinyMCEV6-print\_icon.png"\] Alt text: TinyMCE v8.3.0 Print
 
 </td><td>
 
@@ -250,7 +250,7 @@ Remove link\*
 
 </td><td>
 
-\[Omitted image "TinyMCEV6-unlink\_icon.png"\] Alt text: TinyMCE v6.8.3 Unlink
+\[Omitted image "TinyMCEV6-unlink\_icon.png"\] Alt text: TinyMCE v8.3.0 Unlink
 
 </td><td>
 
@@ -282,7 +282,7 @@ Toggle Full Screen Mode\*
 
 </td><td>
 
-\[Omitted image "TinyMCEV6-fullscreen\_icon.png"\] Alt text: TinyMCE v6.8.3 Full screen
+\[Omitted image "TinyMCEV6-fullscreen\_icon.png"\] Alt text: TinyMCE v8.3.0 Full screen
 
 </td><td>
 
@@ -298,7 +298,7 @@ Visual blocks\*
 
 </td><td>
 
-\[Omitted image "TinyMCEV6-blocks\_icon.png"\] Alt text: TinyMCE v6.8.3 Visual blocks
+\[Omitted image "TinyMCEV6-blocks\_icon.png"\] Alt text: TinyMCE v8.3.0 Visual blocks
 
 </td><td>
 

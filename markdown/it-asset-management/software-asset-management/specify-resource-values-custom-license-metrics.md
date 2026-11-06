@@ -7,9 +7,9 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Add a custom license metric, SAM Administration, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Add a custom license metric, Software Asset Management administration, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Specify resource values for your custom license metrics

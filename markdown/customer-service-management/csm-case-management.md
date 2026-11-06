@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-case-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Customer Service Management]
 ---
@@ -53,7 +53,7 @@ To learn more about the service definitions, see [Service definitions](https://r
 
 Playbooks provide agents with a visual guide, including step-by-step guidance for the various tasks that the agents can use to resolve the specific type of customer service cases. A playbook helps to improve agent productivity and your customer experience by digitizing and automating complex customer service processes.
 
-To learn more about playbooks, see [Playbooks in Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/setting-up-csm-playbooks.md).
+To learn more about playbooks, see [Playbooks for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-service-case-playbooks.md).
 
 ## Major issue management
 

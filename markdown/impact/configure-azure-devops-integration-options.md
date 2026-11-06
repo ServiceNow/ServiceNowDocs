@@ -1,28 +1,30 @@
 ---
 title: Configure Azure DevOps story integration
-description: Perform the following procedure to configure your Azure DevOps integration options.Script variables, field paths, and leading practices for writing field mapping scripts in the Azure DevOps story integration.
+description: Configure the Azure DevOps story integration to create work items in an Azure DevOps project directly from Scan Engine finding records.Script variables, field paths, and leading practices for writing field mapping scripts in the Azure DevOps story integration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/configure-azure-devops-integration-options.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [User story integration, Configure Scan Engine integrations, Configuring Impact, Impact]
+breadcrumb: [User story integration, Scan Engine integrations, Activate Scan Engine and review settings, Configuring Impact, Impact]
 ---
 
 # Configure Azure DevOps story integration
 
-Perform the following procedure to configure your Azure DevOps integration options.
+Configure the Azure DevOps story integration to create work items in an Azure DevOps project directly from Scan Engine finding records.
 
 ## Before you begin
 
--   Before you begin, gather the following from your Azure DevOps environment:
+-   The following information from your Azure DevOps environment is required:
 
     -   Organization name
     -   Project name
     -   Work item type
 
 Role required: Scan Engine admin \(sn\_se.scan\_engine\_admin\).
+
+Configure this integration on the instance where Scan Engine runs and the findings are generated. No My SN Instances record is required.
 
 ## Procedure
 
@@ -36,9 +38,9 @@ Role required: Scan Engine admin \(sn\_se.scan\_engine\_admin\).
 
     Create one basic auth record per user who will create Azure DevOps work items. Set **Username** to the user's email address and paste the API token in **Password**.
 
-6.  Navigate to **ALL** &gt; **Impact** &gt; **Configuration** &gt; **Scan Engine Properties** and select the **User Story Integration** properties tab.
+6.  Navigate to **All** &gt; **Impact** &gt; **Configuration** &gt; **Scan Engine Properties** and select the **User Story Integration** properties tab.
 
-7.  Set **Integration Type** to `Azure DevOps` and populate the following fields: **Organization name**, **Project name**, **Work item type**.
+7.  Set **Integration** to `Azure DevOps` and populate the following fields: **Organization name**, **Project name**, **Work item type**.
 
 8.  Select **Update**.
 

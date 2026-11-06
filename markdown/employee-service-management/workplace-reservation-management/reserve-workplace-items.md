@@ -7,7 +7,7 @@ release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [room booking, desk booking]
 breadcrumb: [Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
@@ -19,10 +19,10 @@ Make a reservation for a workplace location or any reservable item of your organ
 
 -   **[Create a reservation]()**  
 Create reservations across multiple buildings, campuses, neighborhoods, or sites, spanning a single day or multiple days. Add attendees, visitors, and workplace services such as room configurations and catering, and synchronize details or resolve conflicts for recurring reservations.
--   **[Add invitees as collaborators and create a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/add-colleagues-rsv-search.md)**  
-Employee can add their colleagues as collaborators while making a reservation. Employees can view availability of their colleagues on the reservation portal search page while making a reservation to find an available space.
 -   **[Auto-resolve recurring reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/recurring-reservations.md)**  
 While making a recurring reservation, only the availability of the first occurrence is checked. It’s possible that a future occurrence of the meeting may run into conflicts. To avoid such conflicts, while scheduling a recurring reservation, the Workplace Reservation Management application tries to auto-resolve any recurring conflicts.
+-   **[Add invitees as collaborators and create a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/add-colleagues-rsv-search.md)**  
+Employee can add their colleagues as collaborators while making a reservation. Employees can view availability of their colleagues on the reservation portal search page while making a reservation to find an available space.
 -   **[Set a location as favorite using the Space details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/set-a-location-as-favorite.md)**  
 Mark your most reserved workplace location as favorite in the Workplace Service Portal. Once the location is set as favorite, it is displayed first whenever you search for locations to make a reservation.
 -   **[Reserve a space near your colleague](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/browse-near-person-rsv.md)**  
@@ -51,6 +51,8 @@ You can view, modify \(update\), or cancel a reservation. Update the reserved wo
 Reserve a workplace quickly by using the Quick Reservation widget in the Workplace Service Portal. The widget enables you to select from a list of available time slots instead of specifying the start and end times.
 -   **[Download an iCalendar for a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/generate-ical.md)**  
 Add the reservation to your office calendar by downloading the iCalendar of the reservation.
+-   **[Manage and configure reservation waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/subscribe-waitlist-overview.md)**  
+A reservation waitlist lets employees queue for a preferred space, duration, and location. The waitlist record is held until the preferred space is available.
 
 **Parent Topic:**[Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/workplace-rsv-mgmt-feat.md)
 

@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-10-05"
 reading_time_minutes: 3
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup, performance]
-breadcrumb: [View AI assets usage and performance \(Lux UI\), Monitor, AI Admin Center, Enable AI experiences]
+breadcrumb: [View AI assets usage and performance \(Lux UI\), Monitor, AI Admin Center, Getting started with AI, Enable AI Experiences]
 ---
 
 # Performance Explorer dashboard in AI Admin Center \(Lux UI\)
@@ -17,7 +17,7 @@ Use the Performance Explorer dashboard on the Analytics page to review and analy
 
 **Important:** Lux is the new user experience for AI Admin Center. For more information on the Lux experience, see [AI Admin Center user experience \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-admin-center-lux-user-experience.md).
 
-The Next Experience AI Admin Center workspace is being prepared for deprecation in the November store release and will no longer be supported. For more information on the Next Experience UI, see [AI Admin Center workspace \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-workspace.md).
+The Next Experience AI Admin Center workspace is being prepared for future deprecation and will no longer be supported. For more information on the Next Experience UI, see [AI Admin Center workspace \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-workspace.md).
 
 In AI Admin Center version 6.1, the Next Experience and Lux user interfaces are both available.
 
@@ -33,7 +33,7 @@ The Performance Explorer dashboard includes the following sub-tabs: **Skills**, 
 
 The **Skills** tab displays a list of individual generative AI skill executions. Use the **Date**, **Type**, and **Product** filters, or the **Search name** field, to narrow results. Select **Reset Filters** to clear all applied filters.
 
-\[Omitted image "ai-admin-center-lux-analytics-performance-explorer-skills.png"\] Alt text: \[Omitted image ""\] Alt text: Skills tab on the AI Admin Center Analytics page.
+\[Omitted image "ai-admin-center-lux-analytics-performance-explorer-skills.png"\] Alt text: Skills tab on the AI Admin Center Analytics page.
 
 -   **Skill Name**
 

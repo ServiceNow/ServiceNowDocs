@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Customizing the result-card interface of an AI Search application by using EVAM, Using AI Search Admin console, AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -23,7 +23,7 @@ Role required: admin or ais\_admin
 
 ## About this task
 
-An EVAM is a data source type tool that helps standardize how data appears in lists and cards. An EVAM allows users to combine data from multiple sources, configure views for each source, and navigate through large data sets. By creating or editing an EVAM definition, you can combine the conditions, fields, and declarative actions with an associated view template to customize the result-card interface to your needs.
+An EVAM is a data source type tool that helps standardize how data appears in lists and cards. An EVAM lets you combine data from multiple sources, set up views for each source, and browse large data sets more easily. When you create or edit an EVAM definition, you can define which conditions, fields, and declarative actions to use and pair them with a view template. This setup lets you customize the result-card interface to your needs.
 
 ## Procedure
 
@@ -33,12 +33,12 @@ An EVAM is a data source type tool that helps standardize how data appears in li
 
 3.  In the left pane, select **Result-card Interface**.
 
-    The result-card Interface shows the configured EVAM definition. You can modify the existing EVAM definition or if you’re configuring your application for the first time, you can add a new EVAM definition. For more information, see step 4.
+    The result-card Interface shows the configured EVAM definition. You can modify the existing EVAM definition or if you’re configuring your application for the first time, you can add an EVAM definition. For more information, see step 4.
 
-4.  Update an existing EVAM definition or add a new definition.
+4.  Update an existing EVAM definition or add a definition.
 
     -   To update the existing EVAM definition for the result-card interface, select **Change**.
-    -   To add a new EVAM definition and configure the result-card interface for the first time, select **Choose**.
+    -   To add an EVAM definition and configure the result-card interface for the first time, select **Choose**.
     1.  Create or update an EVAM definition for the result-card interface.
 
 <table id="table_rq1_hrd_1dc"><thead><tr><th>
@@ -76,19 +76,19 @@ Add a new result-card interface for your search application
 
     You can link more bundles to the selected EVAM definition by selecting **Advanced configuration**. For more information, see [Create an EVAM definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/define-composite-dataset.md).
 
-    The list of view configurations that are associated with the selected bundle appear.
+    The list of view configurations that are associated with the selected bundle are displayed.
 
 6.  Manage the EVAM view configuration.
 
-<table id="choicetable_s32_yx1_cdc"><thead><tr><th align="left" id="d379327e349">
+<table id="choicetable_s32_yx1_cdc"><thead><tr><th align="left" id="d381791e391">
 
 Option
 
-</th><th align="left" id="d379327e352">
+</th><th align="left" id="d381791e394">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d379327e358">
+</th></tr></thead><tbody><tr><td id="d381791e400">
 
 **Create an EVAM view configuration**
 
@@ -98,7 +98,7 @@ Procedure
 2.  In the Create new view config dialog box, review the auto-populated values, and then select **Create**.
 
 
-</td></tr><tr><td id="d379327e386">
+</td></tr><tr><td id="d381791e428">
 
 **Edit the existing EVAM view configuration**
 
@@ -114,6 +114,10 @@ Procedure
     For a description of the field values, see [Edit view config form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/ais-edit-view-config-form.md).
 
 8.  In the Preview Card section, review the auto-generated JSON to verify the edits that you made to the view configuration.
+
+    The following example shows the Edit view config form that helps you review the layout of your result-card interface in the Preview Card section.
+
+    \[Omitted image "edit-view-config1.png"\] Alt text: Edit view config form showing the preview card. \[Omitted image ""\] Alt text:
 
 9.  Select **Save**.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/import-record-types-from-everbridge-uib-ws.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setup for Everbridge notifications, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -24,7 +24,7 @@ Record types are information stored in Everbridge that are required to create th
 
 ## Procedure
 
-1.  Navigate to **Business Continuity** &gt; **Everbridge Notification Configuration** &gt; **Record Types**.
+1.  Navigate to **Business Continuity** &gt; **Everbridge notification Configuration** &gt; **Record Types**.
 
 2.  Select **Import**.
 

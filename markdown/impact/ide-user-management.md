@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/ide-user-management.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setup for the Impact Delivery Instance, Impact Delivery Instance reference, Impact reference, Impact]
 ---
@@ -29,7 +29,7 @@ Role required: Impact admin
 3.  Enter the relevant information including:
 
     -   User email \(required\)
-    -   User First and Last names \(required\)
+    -   User first and last names \(required\)
     -   Impact role
     -   Impact feature access
     -   ServiceNow University access role
@@ -37,23 +37,22 @@ Role required: Impact admin
 
     The new user is created.
 
-5.  Edit or remove user permissions
-6.  Navigate to **Impact** &gt; **User Profile Menu** &gt; **Manage Users**.
+5.  Navigate to **Impact** &gt; **User Profile Menu** &gt; **Manage Users**.
 
-7.  Select **View all users**.
+6.  Select **View all users**.
 
-8.  Enter the users name into the **Search users** field.
+7.  In the **Search users** field, enter the user's name.
 
-9.  Select **Actions** &gt; **Edit role\(s\)**.
+8.  Select **Actions** &gt; **Edit role\(s\)**.
 
-10. Edit the user role and access accordingly.
+9.  Edit the user role and access.
 
     Set the user role to **None** to remove IDI access.
 
-11. Select **Confirm**.
+10. Select **Confirm**.
 
-    -   A confirmation message displays then you are returned to the company users page.
-    -   An email will be sent to the user with information on how to log in to Impact.
+    -   A confirmation message displays and the company users page opens.
+    -   An email is sent to the user with information on how to log in to Impact.
 
 **Parent Topic:**[Setup for the Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configuring-impact-idi.md)
 

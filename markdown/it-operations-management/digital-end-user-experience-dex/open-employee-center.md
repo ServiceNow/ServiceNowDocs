@@ -1,0 +1,35 @@
+---
+title: Open Employee Center from Desktop Assistant
+description: Open Employee Center from Desktop Assistant to access a unified portal for finding information, getting help, and requesting services.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/open-employee-center.html
+release: australia
+product: Digital End-User Experience \(DEX\)
+classification: digital-end-user-experience-dex
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Desktop Assistant, Solve issues, Digital End-User Experience, IT Operations Management]
+---
+
+# Open Employee Center from Desktop Assistant
+
+Open Employee Center from Desktop Assistant to access a unified portal for finding information, getting help, and requesting services.
+
+## Before you begin
+
+-   DEX Desktop Assistant \[sn\_dex\_desktop\] application must be installed. For more information, see [Install Application and Device Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/install-app-device-health.md) and [Download and install Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/download-desktop-experience.md).
+
+-   The Employee Center card must be mapped to your organization's Employee Center portal.
+
+Role required: sn\_dex\_desktop.user or sn\_dex\_desktop.admin
+
+## Procedure
+
+1.  Log in to Desktop Assistant.
+
+    For more information, see [Open and log in to Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/open-desktop-exp.md).
+
+2.  On the Desktop Assistant home page, select **Employee Center** to open the Employee Center portal.
+
+

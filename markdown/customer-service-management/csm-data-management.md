@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-data-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Explore, Customer Service Management]
 ---
@@ -74,11 +74,11 @@ To learn more about the contributor users, see [Contributor users](https://raw.g
 
 ## Service Model Foundation
 
-Service Model Foundation refers to a set of pre-designed business and technical data frameworks that helps set up and manage how services are delivered and supported, confirming consistency and efficiency in handling customer and operational requests. It provides a standardized way to configure, monitor, and support service requests, incidents, cases, and workflows across various business locations or service organizations.
+Service Model Foundation refers to a set of pre-designed business and technical data frameworks. It helps set up and manage how services are delivered and supported, confirming consistency and efficiency in handling customer and operational requests. It provides a standardized way to configure, monitor, and support service requests, incidents, cases, and workflows across various business locations or service organizations.
 
 To learn how to configure Service Model Foundation, see the [Configure Service Model Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-industry-data-model.md).
 
-For guidance on using the BLSP portal to add staff to your business organization \(formerly business location\), create cases, work orders, and more, refer to the [Using the Business Location Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/using-blsp-portal.md).
+For guidance on using the BLSP portal to add staff to your business location, create cases, work orders, and more, refer to the [Using the Business Organization Support Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/using-blsp-portal.md).
 
 ## Internal user data
 
@@ -102,7 +102,7 @@ To learn more about customer access management, see [Configuring customer access
 
 ## Install Base Management
 
-Install base management captures details of a customer’s purchased or installed products. It enables you to:
+Install base management captures details of a customer’s purchased or installed products. Activating the Customer Install Base Management \(com.snc.install\_base\) plugin enables you to:
 
 -   Track products and services at different customer locations
 -   Enable up-sell and cross-sell opportunities

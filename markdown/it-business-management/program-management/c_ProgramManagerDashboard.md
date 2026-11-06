@@ -7,7 +7,7 @@ release: australia
 product: Program Management
 classification: program-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Program Management, Project Portfolio Management, Strategic Portfolio Management]
 ---

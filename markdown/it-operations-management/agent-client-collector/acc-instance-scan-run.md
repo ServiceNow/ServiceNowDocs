@@ -7,7 +7,7 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-05-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ACC health instance scan suite, ACC deployment - shared between servers and endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -48,6 +48,4 @@ This procedure describes how to schedule an ACC health instance scan. Alternativ
 The results of the job are compiled in the Scan Results \(scan\_result\) table. Errors are compiled in the Agents issue \(sn\_agent\_acc\_error\_msg\) table.
 
 For details on the ACC health instance scan suite checks, see [Agent Client Collector health instance scan checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-instance-scan-checks.md).
-
-**Parent Topic:**[Agent Client Collector health instance scan suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-instance-scan-suite.md)
 

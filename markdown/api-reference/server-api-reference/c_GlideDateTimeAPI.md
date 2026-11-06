@@ -7,7 +7,7 @@ release: australia
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 45
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
@@ -22,7 +22,7 @@ Use the GlideDateTime methods to perform date-time operations, such as instantia
 
 When working with database columns of type glide\_date\_time in GlideDateTime methods, you must first convert the field value into a `GlideDateTime` object before performing date and time calculations. A `glide_date_time` field is represented as a GlideElement; calling Glide Element - getGlideObject\(\) returns a `GlideDateTime` object that supports date manipulation methods such as `addMonthsUTC()`. See [GlideElement - getGlideObject\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_GlideElementAPI.md) for more information.
 
-For guidance on date time input strings with a list of common format conflicts, refer to [Date and time format guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/p_GlideServerAPIs.md).
+For guidance on date time input strings with a list of common format conflicts, refer to [Date and time format guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/scripts/useful-server-side-scripts.md).
 
 **Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/api-server.md)
 

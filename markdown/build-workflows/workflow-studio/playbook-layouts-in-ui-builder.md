@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-05-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Design Playbook Experience, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -20,7 +20,7 @@ Choose a bundle based on how you want end users to move through the playbook. So
 
 You add bundles to a page from the Content panel, then select **Components** and filter by **Playbook**. Select the bundle you want and drop it onto the page. The bundle auto-wires its controller and components.
 
-\[Omitted image "playbook-all-layouts.png"\] Alt text: Screenshot showing all playbook layouts in the UI Builder.
+\[Omitted image "playbook-all-layouts.png"\] Alt text: Playbook layouts in the UI Builder.
 
 -   **Playbook**
 

@@ -7,16 +7,16 @@ release: australia
 product: Process Mining
 classification: process-mining
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [SPM, Activate content packs, Activate, Process Mining, Platform Analytics]
+breadcrumb: [SPM, Automatic content pack delivery, Activate content packs, Activate, Process Mining, Platform Analytics]
 ---
 
 # Cluster analysis configurations for SPM work items
 
 The Process Mining application provides solution definitions for demands, that you can use to configure cluster analysis.
 
-**Important:** This feature is available with the ServiceNow Store Process Mining SPM content pack v1.0. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+**Important:** This feature is included with the Process Mining SPM content pack, which is delivered automatically when SPM is installed on your instance. For more information, see [Automatic delivery of content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/process-mining-content-pack-delivery.md).
 
 ## Clustering solution definition configurations
 

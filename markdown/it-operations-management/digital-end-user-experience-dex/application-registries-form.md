@@ -1,0 +1,138 @@
+---
+title: Application Registries form
+description: The Application Registries form contains the OAuth client settings for an application registry, such as the client ID, client secret, redirect URL, and token lifespans.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/application-registries-form.html
+release: australia
+product: Digital End-User Experience \(DEX\)
+classification: digital-end-user-experience-dex
+topic_type: reference
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+keywords: [application registries form fields, oauth client registration, client id field, client secret field, redirect url field, public client, access token lifespan, refresh token lifespan, default grant type, application registry configuration, oauth client configuration]
+breadcrumb: [DEX Desktop Assistant reference, Reference, Digital End-User Experience, IT Operations Management]
+---
+
+# Application Registries form
+
+The Application Registries form contains the OAuth client settings for an application registry, such as the client ID, client secret, redirect URL, and token lifespans.
+
+You must have the Desktop Assistant administrator \[sn\_dex\_desktop.admin\] role to access the form.
+
+<table id="table_vjt_js4_1xb"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Name
+
+</td><td>
+
+Name of the application.
+
+</td></tr><tr><td>
+
+Client ID
+
+</td><td>
+
+Unique identifier for your application that is issued by the service provider.
+
+</td></tr><tr><td>
+
+Client Secret
+
+</td><td>
+
+Secret key that is used to authenticate your application with the service provider's API.
+
+</td></tr><tr><td>
+
+Redirect URL
+
+</td><td>
+
+URIs that the service provider should redirect the user to after authentication is complete. This is where your application receives the authorization code or access token.
+
+</td></tr><tr><td>
+
+Logo URL
+
+</td><td>
+
+URL of your application's logo image.
+
+</td></tr><tr><td>
+
+Public Client
+
+</td><td>
+
+Option to indicate whether the application is publicly accessible. Examples of public clients include mobile apps, web applications, and JavaScript-based applications.
+
+</td></tr><tr><td>
+
+Comments
+
+</td><td>
+
+Additional context or information about a particular request or response.
+
+</td></tr><tr><td>
+
+Application
+
+</td><td>
+
+Client application that is requesting authorization to access a protected resource or service on behalf of a user.
+
+</td></tr><tr><td>
+
+Accessible from
+
+</td><td>
+
+IP addresses or domains that are authorized to access your OAuth client.When you register your OAuth client, you may be required to provide a list of IP addresses or domains allowed to make requests to the service provider's API.
+
+</td></tr><tr><td>
+
+Active
+
+</td><td>
+
+Status of an access token. When you grant your application permission to access your resources using OAuth, the service provider issues an access token that your application uses to make API requests.
+
+</td></tr><tr><td>
+
+Refresh Token Lifespan
+
+</td><td>
+
+The duration \(in seconds\) of a user's session before requiring reauthentication in your application.
+
+</td></tr><tr><td>
+
+Access Token Lifespan
+
+</td><td>
+
+The duration \(in seconds\) for which an access token is considered valid for use by an application.
+
+</td></tr><tr><td>
+
+Default Grant type
+
+</td><td>
+
+Default method used by an OAuth 2.0 authorization server to grant access tokens to client applications.
+
+</td></tr></tbody>
+</table>To return to the OAuth details page, see [Configure Open Authorization details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/configure-oauth-details.md).
+
+**Parent Topic:**[DEX Desktop Assistant reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/dex-desktop-experience-reference.md)
+

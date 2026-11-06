@@ -7,9 +7,9 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Otto for Employee Experience, Unified Employee Experience, Employee Service Management]
+breadcrumb: [ServiceNow Otto for Employee Experience, EmployeeWorks, Employee Service Management]
 ---
 
 # Using ServiceNow Otto for Employee Experience
@@ -24,6 +24,8 @@ Check the approvals that are assigned to you by using the ServiceNow Otto for Vi
 Stay connected and informed on company updates, events, announcements, and more with the help of the AI Agent in the Employee Center ServiceNow Otto for Virtual Agent.
 -   **[View summarization for approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/view-summarization-approvals.md)**  
 Check the generated approval summaries for cases, requested items, and requests for approvals. Based on the trigger selection by your admin, you can see contextual summary of the approval.
+-   **[Manage approvals with Approval Assistance AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/manage-approvals-with-approvals-agent.md)**  
+Manage the approvals that are assigned to you by using the **Approval Assistance Agent** for REQ and RITM.
 
 **Parent Topic:**[ServiceNow Otto for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/now-assisit-employee-exp.md)
 

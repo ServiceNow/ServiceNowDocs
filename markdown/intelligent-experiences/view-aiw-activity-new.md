@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/view-aiw-activity-new.html
 release: australia
 topic_type: task
-last_updated: "2026-08-12"
+last_updated: "2026-10-13"
 reading_time_minutes: 2
-keywords: [AI specialist activity]
-breadcrumb: [Use in AI Agent Studio, Use, Autonomous Workforce, Enable AI experiences]
+keywords: [AI specialist activity, AI specialist records]
+breadcrumb: [Use in AI Agent Studio, Use, Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # View the activity of an AI specialist in AI Agent Studio
@@ -29,13 +29,13 @@ For a given execution, you can rate the work of the AI specialist as either help
 
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Agentic solutions**.
 
-2.  Select the AI specialist you want to preview.
+2.  Select the AI specialist you want to view the activity of.
 
 3.  In the node view, select the first node of the AI specialist.
 
     The first node contains the main configuration settings for the AI specialist. The other nodes represent the individual agents that comprise the underlying architecture and don't require access to view the AI specialist's activity.
 
-4.  Scroll down to the **Activity** section in the AI specialist guided setup.
+4.  Select the **Activity** section in the AI specialist guided setup.
 
     \[Omitted image "aiw-aias-2-activity.png"\] Alt text: Activity page of an AI specialist with columns for associated record, state, state reason, assigned to, created time, and feedback
 
@@ -47,15 +47,15 @@ For a given execution, you can rate the work of the AI specialist as either help
 
     If the execution state is not **Completed**, a reason is given to explain the state. Possible reasons include "failed execution" or "no activity."
 
-    You can give feedback on any given activity item. Select the thumbs up icon \[Omitted image "nap-thumbs-up.png"\] for positive feedback or the thumbs down icon \[Omitted image "nap-thumbs-down.png"\] to give negative feedback. If you select the thumbs down icon, you can specify exactly why you have given it that rating. After selecting a reason, you can also add a comment to detail the issue further.
+    You can give feedback on any given activity item. Select the thumbs up icon \[Omitted image "nap-thumbs-up.png"\] Alt text: for positive feedback or the thumbs down icon \[Omitted image "nap-thumbs-down.png"\] Alt text: to give negative feedback. If you select the thumbs down icon, you can specify exactly why you have given it that rating. After selecting a reason, you can also add a comment to detail the issue further.
 
-    \[Omitted image "aiw-aias-activity-neg-feedback.png"\] Alt text: Negative feedback response form
+    \[Omitted image "aiw-aias-activity-neg-feedback.png"\] Alt text: Negative feedback form with checkboxes for the reason for the rating, a comment field, and a Submit button
 
     Possible reasons for negative feedback include:
 
     -   Missed important details
     -   Included irrelevant details
-    -   Put details in wrong places
+    -   Put details in the wrong places
     -   Made up things that didn't happen
     -   Other
 

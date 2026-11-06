@@ -7,7 +7,7 @@ release: australia
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [CyberArk integration configuration, CyberArk credential storage integration, External credential storage, Get started with credentials, Connections and Credentials, Access Management]
 ---
@@ -56,7 +56,7 @@ Before starting this procedure, ensure that the External Credential Storage plug
 
     2.  Enter the **Name** of the CyberArk SNMPv3 privacy account in the **Privacy Credential ID** field.
 
-    **Note:** Character limits for Credential ID and Privacy Credential ID vary by vault. ServiceNow supports up to 180 characters. CyberArk supports 160. Verify the limit in your vault.
+        **Note:** Character limits for Credential ID and Privacy Credential ID vary by vault. ServiceNow supports up to 180 characters. CyberArk supports 160. Verify the limit in your vault.
 
 8.  Click **Submit**.
 

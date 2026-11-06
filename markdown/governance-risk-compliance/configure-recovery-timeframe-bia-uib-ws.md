@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/configure-recovery-timeframe-bia-uib-ws.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [General administration setup for BCM, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -26,11 +26,17 @@ Role required: sn\_bcm.admin
 
 3.  In the **Name** field, enter the name for the recovery timeframe.
 
-4.  In the **Starts at** field, enter the start of the timeline for the recovery timeframe in days, hours, minutes, seconds.
+4.  Create the timeframes.
+
+    For example, enter `1–4 hours` with **Starts at** set to `1 hour`, `4–24 hours` with **Starts at** set to `4 hours`, and `1–3 days` with **Starts at** set to `1 day`.
+
+    **Note:** Each timeframe belongs to one recovery tier.
+
+5.  In the **Starts at** field, enter the start of the timeline for the recovery timeframe in days, hours, minutes, or seconds.
 
     The example shows the configuration of a recovery timeframe in the Business Continuity Management application. \[Omitted image "new-recovery-timeframe.png"\] Alt text: New recovery timeframe.
 
-5.  Select **Submit**.
+6.  Select **Submit**.
 
 
 **Parent Topic:**[General administration setup for BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/set-up-bcm-bcmadmin-tasks.md)

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-create-crm-task.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Microsoft Dynamics CRM integration, Customer success, Configure, Customer Success Management]
 ---
@@ -34,7 +34,7 @@ Role required: sn\_acct\_lc.customer\_success\_agent
 
     **Note:** If you modify or update Priority or Status fields in the task that was created, the updates are displayed as worknotes in your ServiceNow instance.
 
-5.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** and select the **List** icon.
+5.  Navigate to **Workspaces** &gt; **CRM Workspace** and select the **List** icon.
 
 6.  Navigate to **Customer Success** &gt; **All Risks and Issues** and open an risk record.
 

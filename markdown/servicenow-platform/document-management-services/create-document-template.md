@@ -7,7 +7,7 @@ release: australia
 product: Document Management Services
 classification: document-management-services
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Digital signature for PDF documents using CAC or PIV smart cards, Use, Document Management, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ Set up a document template for PDF using a Common Access Card \(CAC\) or Persona
 
 Adobe Acrobat Reader must be installed on your desktop.
 
-The Document Templates application must be installed. For more information, see [Configuring Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/set-up-doc-temp.md).
+The Document Templates application must be installed. For more information, see .
 
 Role required: sn\_doc.admin, sn\_doc.reader, or admin
 
@@ -28,15 +28,15 @@ Role required: sn\_doc.admin, sn\_doc.reader, or admin
 
 1.  Create a document template.
 
-    1.  [Configure a PDF document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/configure-editable-pdf.md).
+    1.  Configure a PDF document template.
 
         **Note:** The **Signing type** field should be **Digital Signature Smart Cards**.
 
-    2.  [Map fields for the PDF document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/edit-pdf-mappings.md)
+    2.  Map fields for the PDF document template
 
     3.  Select **Edit Document Preview** to define the label and placement of the button to submit the signature.
 
-    4.  [Create participants for the PDF document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/create-participant.md).
+    4.  Create participants for the PDF document template.
 
     5.  To map templates to participants, go to the **Template Mapping** tab, select the field name, and add the participant name, and to map fields, select the field from the **Mapping field** drop-down menu.
 

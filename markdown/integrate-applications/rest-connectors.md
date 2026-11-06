@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/rest-connectors.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Zero Copy Connectors, Workflow Data Fabric]
 ---

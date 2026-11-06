@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/now-assist-som-summarize-opportunity.html
 release: australia
 topic_type: task
-last_updated: "2026-08-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [opportunity summarization, generative AI]
 breadcrumb: [Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]

@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd
 topic_type: task
-last_updated: "2026-02-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
@@ -65,7 +65,7 @@ Role required: admin
 -   Create a reservable module to group similar workplace items into a category. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/config-reservable-module.md).
     -   Enable virtual meeting links for your reservation by configuring a virtual meeting provider. For more information, see [Configure virtual meeting providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/configure-virtual-meeting-providers.md).
     -   Provide extra services, such as catering, for the reservations by creating workplace services and adding them to workplace locations. For more information, see [Create a workplace service to provide an extra service for a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/create-workplace-service-to-provide-extra-service.md).
--   Select the portals and channels that the ServiceNow Otto for Virtual Agent is displayed on. For more information, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
+-   Select the portals and channels that the ServiceNow Otto for Virtual Agent is displayed on. For more information, see [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
 
     **Note:** Selecting the Workplace Service Portal for ServiceNow Otto for Virtual Agent replaces the existing NLU experience.
 

@@ -7,9 +7,9 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Work with alert groups, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Working with alert groups in Express List, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Remove alerts from an alert group in Express List
@@ -32,15 +32,15 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
     You can remove alerts from a group regardless of whether you are working in the main pane or in the preview panel. The preview panel opens only when a single alert or alert group is selected.
 
-<table id="choicetable_p5t_wdl_5bc"><thead><tr><th align="left" id="d226671e104">
+<table id="choicetable_p5t_wdl_5bc"><thead><tr><th align="left" id="d238721e104">
 
 Location
 
-</th><th align="left" id="d226671e107">
+</th><th align="left" id="d238721e107">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d226671e113">
+</th></tr></thead><tbody><tr><td id="d238721e113">
 
 **The Express List pane**
 
@@ -52,7 +52,7 @@ Action
 
 **Note:** When you are trying to remove the only secondary alert from an alert group, thereby ungrouping the group, a message displays that enables you to undo the action.
 
-</td></tr><tr><td id="d226671e151">
+</td></tr><tr><td id="d238721e151">
 
 **The Express List preview panel for a group of alerts**
 

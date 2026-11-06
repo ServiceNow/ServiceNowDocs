@@ -7,60 +7,67 @@ release: australia
 product: ReleaseOps
 classification: releaseops
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-23"
 reading_time_minutes: 3
 keywords: [ReleaseOps, deploy changes, update sets, pipeline, ATF, schedule a release, deployment request, deployment analyzer]
-breadcrumb: [Use, ReleaseOps, Deploying applications, Building applications]
+breadcrumb: [Use, ReleaseOps, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Create a deployment request for a scheduled release
 
 Create a deployment request for a scheduled release to contain your update set and enable your changes to move through the pipeline for deployment.
 
-## Before you begin
+## About this task
 
-Role required: developer or release\_admin
+You can associate deployment requests for scheduled releases with either a release or a pipeline the release will use. This enables deployment requests to begin assessment independent of the release being created, which can be useful for assessments that require more time. The deployment request must eventually be associated with a release to move to production.
+
+## Before you begin
 
 This procedure applies to deployment requests for scheduled releases. To create a deployment request for an on-demand release, see the procedure in [Create a deployment request for an on-demand release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/create-a-deployment-request-for-on-demand-release.md).
 
+Role required: developer or release\_admin
+
 ## Procedure
 
-1.  On the **Deploy an update set** form, select the check box for **Create new deployment request**.
+1.  On the Deploy an update set form, select the check box for **Create new deployment request**.
 
-    Additional fields appear on the **Deploy an update set** form, which enable you to define the properties of the new deployment request.
+    Additional fields appear on the Deploy an update set form, which enable you to define the properties of the new deployment request.
 
-2.  Enter a short description for the deployment request in the **Short description** field.
+2.  In the **Short description** field, enter a description for the deployment request.
 
 3.  Assign the deployment request to either an assignment group or a user.
 
-    You can assign a deployment request to both an assignment group and a user, depending on who in your organization might need to be notified about issues with the deployment request. You must select at least one of the assignment options in order to complete the deployment request form.
+    You can assign a deployment request to both an assignment group and a user, depending on who in your organization might need to be notified about issues. You must select at least one of the assignment options to complete the deployment request form.
 
     -   To assign the deployment request to an assignment group, select the **Assignment group** field, then select the group that you want to assign the deployment request to from the list.
     -   To assign the deployment request to a user, select the **Assigned to** field, then select the user that you want to assign the deployment request to from the list.
 4.  Select the **Source environment** field, then select your development environment from the list.
 
-5.  Select the **Release** field, then select the release that you want to want your deployment request to apply to from the list.
+5.  Select either a release or a pipeline to associate the deployment request with.
 
-    **Note:** Releases must be activated in order to select them in a deployment request form.
+    -   To associate the deployment request with a release, select the **Release** field, then select the release from the list.
 
-    If your deployment request applies to a release that hasn’t already been created, ask your release admin to create a release for you. The procedure for creating a release is outlined in [Create a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/create-a-release.md). You can only select releases that have been activated.
+        **Note:** When creating the deployment request, you can select releases that are in **Draft** or **Active** states. However, to start the assessment process, the selected release must be **Active**. For more information, see [Release states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/release-states.md).
 
-    If your deployment request applies to an on-demand release, see the procedure in [Create a deployment request for an on-demand release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/create-a-deployment-request-for-on-demand-release.md).
-
+    -   To associate the deployment request with a pipeline, select the **Pipeline** field and select the pipeline from the list.
 6.  Select the **ATF suites** field, then select the tests that you want to run for your deployment request.
 
     The list of ATF suites is populated by the tests that are available on your production instance. The ATF suites that you select within the deployment request form aren't the only tests that might run for your deployment request. Additional tests might be defined at the pipeline level, depending on the pipeline that your organization has configured.
 
-7.  Select **Submit** to create your deployment request.
+7.  Create your deployment request by selecting **Submit**.
 
-    Your deployment request is created. You can make additional changes to the deployment request as needed, such as adding additional update sets to the request.
+    Your deployment request is created. You can make additional changes to the deployment request as needed, such as adding more update sets.
 
 8.  When you're ready to submit your deployment request through the pipeline, select the **Ready to assess** button.
 
     **Warning:** When you select **Ready to assess**, assessment of the deployment request begins immediately, and making additional changes to the deployment request isn't recommended. Only select **Ready to assess** when you're ready to deploy your changes to the pipeline.
 
-    When you have selected **Ready to assess**, ReleaseOps automatically begins assessing your deployment request. You can see how the assessment is running and any issues that the assessment encountered in the **Activity** section of the deployment request form. Once your deployment request has passed the assessment checks, your deployment request will be moved into the pipeline that your organization has configured.
+    After you select **Ready to assess**, ReleaseOps automatically begins assessing your deployment request. You can see how the assessment is running and any issues that the assessment encountered in the Activity section of the deployment request form. After your deployment request passes the assessment checks, your deployment request moves into the pipeline that your organization has configured.
 
+
+## What to do next
+
+If your deployment request is associated with a pipeline \(not a release\), you must add a release to the deployment request record before it can move to production. For more information, see [Add a release to a deployment request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/add-release-to-deployment-request.md).
 
 **Parent Topic:**[Using ReleaseOps to manage deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/releaseops/using-releaseops-to-manage-deployments.md)
 

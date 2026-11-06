@@ -7,7 +7,7 @@ release: australia
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Risk assessments, Explore, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -28,7 +28,7 @@ The Privacy Management application provides the following RAMs in the Draft stat
 -   Criticality assessment
 -   Privacy Risk Assessment
 
-**Note:** Starting with the Australia release, you can publish up to three Risk Assessment Methodologies.
+**Note:** Starting with the Brazil release, you can publish up to three Risk Assessment Methodologies.
 
 **Parent Topic:**[Risk assessments in Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/risk-assessments-in-privacy-management.md)
 

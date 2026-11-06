@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/dv-local-data-instance.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Technical dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -18,7 +18,7 @@ For finer grained control of the data source than you have with preconfigured da
 
 **Important:** This is an advanced procedure. Consider carefully whether you need a local data instance or can use a standard data source.
 
-Before proceeding, review .
+Before proceeding, review [Dynamically expose data in UI Builder pages \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/data-resources.md).
 
 Role required: ui\_builder\_admin, admin
 

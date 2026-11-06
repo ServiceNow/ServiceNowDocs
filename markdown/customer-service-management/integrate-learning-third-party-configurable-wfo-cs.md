@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/integrate-learning-third-party-configurable-wfo-cs.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Setting up Workforce Optimization Coaching, Optimize workforce operations, Extend capabilities, Configure, Customer Service Management]
 ---
@@ -38,10 +38,10 @@ Activating the Coaching with Learning \(sn\_coach\_lrn\) plugin enables the foll
     **Note:** Cornerstone, Pluralsight, and Udemy integrations are available by default.
 
     1.  Navigate to **Integrations Framework** &gt; **Source**
-    2.  Select **New**.
+    2.  Click **New**.
     3.  In the **Name** field, enter the name of the integration source, for example, Pluralsight.
-    4.  Right-click the form header and select **Save**.
-    5.  In the Integration Services related list that appears, select **New**.
+    4.  Right-click the form header and click **Save**.
+    5.  In the Integration Services related list that appears, click **New**.
     6.  On the form, fill in the fields:
 
 <table id="table_kfz_z3j_ppb"><thead><tr><th>
@@ -125,18 +125,18 @@ Retry policy
 Configuration set to push a record if the last push fails.**Note:** This field appears only when an Ondemand Push service is selected in the **Service type** field.
 
 </td></tr></tbody>
-</table>    7.  Select **Submit**.
+</table>    7.  Click **Submit**.
 2.  Integrate your ServiceNow instance with your third-party learning source accounts.
 
-<table id="choicetable_bzs_wvn_rpb"><thead><tr><th align="left" id="d137542e302">
+<table id="choicetable_bzs_wvn_rpb"><thead><tr><th align="left" id="d140849e302">
 
 To integrate with this third-party learning source
 
-</th><th align="left" id="d137542e305">
+</th><th align="left" id="d140849e305">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d137542e311">
+</th></tr></thead><tbody><tr><td id="d140849e311">
 
 **Pluralsight Skills account**
 
@@ -144,7 +144,7 @@ Do this
 
 Use an API key to authenticate the ServiceNow requests. Follow the steps in [Set up the Pluralsight spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-pluralsight-spk.md) to perform the integration.
 
-</td></tr><tr><td id="d137542e324">
+</td></tr><tr><td id="d140849e324">
 
 **Cornerstone application**
 
@@ -152,7 +152,7 @@ Use an API key to authenticate the ServiceNow requests. Follow the steps in [Set
 
 Register an OAuth application in Cornerstone and authenticate requests from ServiceNow. Follow the steps in [Set up the Cornerstone spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-cornerstone.md) to perform the integration.
 
-</td></tr><tr><td id="d137542e337">
+</td></tr><tr><td id="d140849e337">
 
 **Udemy application**
 
@@ -172,7 +172,7 @@ Register an OAuth application in Cornerstone and authenticate requests from Serv
 3.  Activate schedule flows to integrate third-party learning content.
 
     1.  Navigate to **Process Automation** &gt; **Flow Designer**
-    2.  In the **Flows** section, select each of the following flows and select **Activate**:
+    2.  In the **Flows** section, select each of the following flows and click **Activate**:
         -   Trigger Cornerstone Learning Sync
         -   Trigger Pluralsight Learning Sync
         -   Trigger Udemy Learning Sync
@@ -188,7 +188,7 @@ Register an OAuth application in Cornerstone and authenticate requests from Serv
 
     -   To synchronize new and updated services, set the **full\_pull** property to **false**.
     1.  Open any integration source for which you want to pull content.
-    2.  Select **Run Job**.
+    2.  Click **Run Job**.
     The integration framework pulls the corresponding third-party learning courses into the Learning External Content \[sn\_lc\_external\_content\] table on your ServiceNow instance.
 
     When synchronizing new and updated services, the content is populated as described in the table.

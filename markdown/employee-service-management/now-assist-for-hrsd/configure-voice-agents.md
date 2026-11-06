@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
@@ -28,7 +28,7 @@ Verify you have the following applications installed:
 
 ## About this task
 
-HR AI voice agents are conversational agents designed to handle routine employee inquiries and HR transactions through voice interactions. To enable AI voice agent functionality, you must complete configuration steps on the ServiceNow® AI Platform. Then, you will activate the specific HR AI voice agents you want to deploy. If you will enable AI voice agents that use data from third-party apps like Oracle HCM, configure the integration. After activation, you can test agent functionality by calling the assigned telephony number. This validates voice interaction quality, agent responses, and integration workflows before end-user rollout.
+HR AI voice agents handle routine employee inquiries and HR transactions through voice interactions. To enable AI voice agent functionality, complete the configuration steps on the ServiceNow® AI Platform. Then, activate the specific HR AI voice agents you want to deploy. If you enable AI voice agents that use data from third-party apps like Oracle HCM, configure the integration. After activation, test agent functionality by calling the assigned telephony number. This validates voice interaction quality, agent responses, and integration workflows before end-user rollout.
 
 ## Procedure
 
@@ -94,7 +94,7 @@ Employee Details Updater, Holiday Calendar, Retrieve Worker Profile, Time off Re
 
 ## What to do next
 
-Assign roles to admins and users to grant them access to Voice features. See [Components installed with voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/components-installed-voice-agents.md).
+Assign roles to admins and users to grant them access to Voice features. See [Components installed with Voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/components-installed-voice-agents.md).
 
 **Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 

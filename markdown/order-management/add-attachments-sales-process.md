@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/add-attachments-sales-process.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Lead-to-Cash Process Management, Order operations apps, Use, Sales Customer Relationship Management]
 ---
@@ -24,7 +24,7 @@ You can attach files only to a sales process record. To add attachments to child
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -38,15 +38,15 @@ You can attach files only to a sales process record. To add attachments to child
 
     **Note:** The default maximum file size is 1 GB, but this may vary based on the size limit set by your admin on your ServiceNow instance.
 
-<table id="choicetable_rbm_fqz_bgc"><thead><tr><th align="left" id="d175565e129">
+<table id="choicetable_rbm_fqz_bgc"><thead><tr><th align="left" id="d180876e130">
 
 Method
 
-</th><th align="left" id="d175565e132">
+</th><th align="left" id="d180876e133">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d175565e138">
+</th></tr></thead><tbody><tr><td id="d180876e139">
 
 **Drag and drop**
 
@@ -54,7 +54,7 @@ Action
 
 Drag and drop the file from your system to the Attachments pane.
 
-</td></tr><tr><td id="d175565e147">
+</td></tr><tr><td id="d180876e148">
 
 **Select a file from your system**
 

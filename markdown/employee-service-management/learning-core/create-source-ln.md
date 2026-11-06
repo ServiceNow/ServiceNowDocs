@@ -7,9 +7,9 @@ release: australia
 product: Learning Core
 classification: learning-core
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Administration tasks in Learning Core, Configuring Learning Core, Learning Core, HR Service Delivery, Employee Service Management]
+breadcrumb: [Administration tasks in Learning Core, Configure, Learning Core, HR Service Delivery, Employee Service Management]
 ---
 
 # Configure a learning system
@@ -36,7 +36,7 @@ Role required: learning\_admin
     |Sync course activity days|Option to specify the number of days that is considered for synchronizing course progress between the external learning management system and a ServiceNow application.|
     |Logo|Option to include a logo of the source.|
 
-3.  Select **Update**.
+3.  Click **Update**.
 
 
 **Parent Topic:**[Administration tasks in Learning Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/learning-core/ln-administration.md)

@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 29
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -67,7 +67,7 @@ Source system administrator configures access settings for your external content
 -   [Configure monday.com for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-monday-com-external-content-indexing.md)
 -   [Configure Notion for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-notion-external-content-indexing.md)
 -   [Configure SAP DMS for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-sap-dms-external-content-indexing.md)
--   [Configure your ServiceNow AI Platform instance for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-sn-aip-instance-external-content-indexing.md)
+-   [Configure your ServiceNow AI Platform source instance for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-sn-aip-instance-external-content-indexing.md)
 -   [Configure Slack for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/cfg-src-sys-settings-slack-ext-cont-connector.md)
 -   [Configure Smartsheet for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-smartsheet-external-content-indexing.md)
 -   [Configure Trello for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-trello-external-content-indexing.md)
@@ -186,7 +186,7 @@ The Adobe Experience Manager as a Cloud Service external content connector retri
 -   **[Aha! Roadmaps external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/aha-roadmaps-external-content-connector.md)**  
 The Aha! Roadmaps external content connector retrieves Features, Goals, Ideas, Notes, and Releases from workspaces in your Aha! Roadmaps source system and makes their content and metadata searchable in AI Search applications.
 -   **[Amazon S3 external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/amazon-s3-external-content-connector.md)**  
-The Amazon S3 external content connector retrieves files from buckets in your Amazon S3 source system and makes their content and metadata searchable in AI Search applications.
+The Amazon S3 external content connector makes content and metadata from your Amazon S3 buckets searchable in AI Search applications.
 -   **[Asana external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/asana-external-content-connector.md)**  
 The Asana external content connector retrieves projects, tasks, and comments from your Asana source system and makes their content and metadata searchable in AI Search applications.
 -   **[Atlassian Confluence Cloud external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/atlassian-confluence-cloud-external-content-connector.md)**  
@@ -197,6 +197,8 @@ The Atlassian Jira Cloud external content connector retrieves work items and att
 The Box external content connector retrieves files and attachments from your Box source system and makes their content and metadata searchable in AI Search applications.
 -   **[Cornerstone external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/cornerstone-external-content-connector.md)**  
 The Cornerstone external content connector retrieves Catalogue and Learning objects from organization units in your Cornerstone Learning Management System \(LMS\) and makes their content and metadata searchable in AI Search applications.
+-   **[Custom Connector Gateway external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/custom-connector-gateway-external-content-connector.md)**  
+The Custom Connector Gateway external content connector makes a source system's content and metadata searchable in AI Search applications. Retrieve content, metadata, and users with your own custom connector and push that data to the gateway connector using the Custom Connector Gateway API.
 -   **[Docusign external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/docusign-external-content-connector.md)**  
 The Docusign external content connector retrieves agreements from envelopes in your Docusign source system and makes their content and metadata searchable in AI Search applications.
 -   **[Dropbox external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/dropbox-external-content-connector.md)**  
@@ -234,7 +236,7 @@ The SAP DMS external content connector retrieves documents from repositories in 
 -   **[SAP SuccessFactors external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/sap-successfactors-external-content-connector.md)**  
 The SAP SuccessFactors external content connector parses trainings exported from your SAP SuccessFactors Learning environment and makes their content and metadata searchable in AI Search applications.
 -   **[ServiceNow instance external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/servicenow-instance-external-content-connector.md)**  
-The ServiceNow instance external content connector retrieves KB article records \(and their attachments\) from your ServiceNow AI Platform source instance and makes their content and metadata searchable in AI Search applications in your ServiceNow AI Platform destination instance.
+The ServiceNow instance external content connector retrieves KB article, Service Catalog item, and incident records \(and their attachments\) from an ServiceNow AI Platform source instance and makes their content and metadata searchable in AI Search applications in your ServiceNow AI Platform destination instance.
 -   **[ServiceNow product documentation external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/servicenow-product-documentation-external-content-connector.md)**  
 The ServiceNow® product documentation external content connector retrieves topics from the ServiceNow product documentation and makes their content and metadata searchable in AI Search applications.
 -   **[Slack external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/slack-external-content-connector.md)**  
@@ -261,7 +263,7 @@ Change the name of an existing external content connector.
 Deactivate an external connector to pause its scheduled crawls while retaining all of the content and metadata that it has already crawled. Reactivate a deactivated connector to resume its scheduled crawls. Delete an external content connector to remove the connector's definition along with all content and metadata that it has crawled.
 -   **[Edit connection or crawl settings for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/edit-connection-crawl-settings-external-content-connector.md)**  
 Connector administrators can modify the connection settings and crawl settings for an existing external content connector. If your changes to a connector's settings invalidate its current crawl results, the system prompts you to run a new content crawl.
--   **[Configure user permission settings for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-user-mapping-settings-external-content-connector.md)**  
+-   **[Configure user mapping settings for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-user-mapping-settings-external-content-connector.md)**  
 Override the default field mappings for an external content connector's user permission crawls. Specify the fields that uniquely identify user security principals in your source system and users in your ServiceNow AI Platform® instance. Optionally execute a custom script to transform security principal IDs before they're compared with the IDs of users in your instance.
 -   **[Connect an external content connector to a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/connect-external-content-connector-search-profile.md)**  
 Make results from an external content connector searchable in your portals and search applications by connecting its search sources to your existing search profiles.

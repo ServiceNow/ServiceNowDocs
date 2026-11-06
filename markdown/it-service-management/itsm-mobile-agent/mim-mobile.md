@@ -1,30 +1,31 @@
 ---
-title: Managing major incidents using Major Incident applet
-description: As a major incident manager you can quickly review active major incidents or proposed major incidents and act upon them.
+title: Managing major incidents using the Major Incident applet
+description: As a major incident manager, you can review active or proposed major incidents and act on them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/itsm-mobile-agent/mim-mobile.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [major incident applet]
 breadcrumb: [ITSM Mobile Agent, IT Service Management]
 ---
 
-# Managing major incidents using Major Incident applet
+# Managing major incidents using the Major Incident applet
 
-As a major incident manager you can quickly review active major incidents or proposed major incidents and act upon them.
+As a major incident manager, you can review active or proposed major incidents and act on them.
 
-As a major incident manager, you can also view and access the ongoing conference calls for current major incidents with the ability to start, join or end conference calls.
+As a major incident manager, you can also view ongoing conference calls for current major incidents and start, join, or end them.
 
-The major incident application contains the applets and folders as in the below table.
+The Major Incident application contains the applets and folders described in the following table.
 
-|Applet/Folder|Description|
-|-------------|-----------|
-|Active major incidents|View, filter and act upon active major incidents.|
+|Applet or folder|Description|
+|----------------|-----------|
+|Active major incidents|View, filter, and act on active major incidents.|
 |Major incident candidates|Review the incidents that are proposed as major incidents and add comments.|
 |Resolved major incidents|View resolved major incidents and add comments.|
-|Major incident dashboard|Gain insights on the major incidents worked on by your group, like number of major incidents, Mean time to identify, and mean time to resolve.|
+|Major incident dashboard|Gain insights into the major incidents that your group works on, such as the number of major incidents, mean time to identify, and mean time to resolve.|
 |Performance metrics|View a non-interactive graph of major incidents opened per week.|
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/asynchronous-order-processing.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Order management, Configure, Sales Customer Relationship Management]
 ---

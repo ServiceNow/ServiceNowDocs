@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/how-now-platform-works.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Get started, Administer the ServiceNow AI Platform]
 ---
@@ -13,6 +13,8 @@ breadcrumb: [Get started, Administer the ServiceNow AI Platform]
 # How the ServiceNow AI Platform works
 
 The ServiceNow AI Platform is the unified foundation for every ServiceNow product, bringing together AI, data, workflows, and security on a single data model.
+
+## Video overview
 
 \[Omitted video\] Description: Overview of ServiceNow AI Platform architecture
 

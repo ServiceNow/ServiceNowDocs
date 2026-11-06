@@ -7,9 +7,9 @@ release: australia
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 4
-breadcrumb: [Now Mobile app, Unified Employee Experience, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [EmployeeWorks, Employee Service Management]
 ---
 
 # Configuring Now Mobile
@@ -109,5 +109,5 @@ Activate the Chat quick action to allow your users to ask for help from a virtua
 -   **[Populate search suggestions in the mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-mobile-employee-experience/populate-search-suggestions-me.md)**  
 If you are upgrading from a previous release, run a script to populate search suggestions with data from a platform search table to provide search suggestions to your users. Alternatively, you can wait until users search for keywords instead of running this script.
 
-**Parent Topic:**[Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md)
+**Parent Topic:**[EmployeeWorks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/ec-and-ecpro-landing-page.md)
 

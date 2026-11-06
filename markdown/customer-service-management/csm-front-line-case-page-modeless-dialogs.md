@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-front-line-case-page-modeless-dialogs.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 16
+last_updated: "2026-09-10"
+reading_time_minutes: 15
 breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
@@ -74,19 +74,6 @@ To post a comment or work note, select one of the following actions from the Com
 -   **Post Work notes**
 
 The system posts the comment or work note to the activity stream. Saving the case record also posts the comment or work note to the activity stream.
-
-</td></tr><tr><td>
-
-Add a link to a knowledge article
-
-</td><td>
-
-To add a link to a knowledge article:1.  Select the Recommended Actions tab in the contextual side panel.
-2.  View the list of knowledge articles or search for an article.
-3.  Select the More Actions menu on the knowledge article card.
-4.  Select **Attach and add link in comment** or **Add link in work note** or **Attach and add link in email**.
-
-The workspace switches to the relevant tab. The inserted link displays the knowledge article title and article number as a hyperlink, in the format `Article Title: KB0012345`.
 
 </td></tr><tr><td>
 
@@ -233,7 +220,7 @@ To add a link to a knowledge article:1.  Select the Recommended Actions tab in t
 3.  Select the More Actions menu on the knowledge article card.
 4.  Select **Attach and add link in email**.
 
-The system inserts the knowledge article title and article number as a hyperlink in the body of the email, in the format `Article Title: KB0012345`.
+The system adds a link to the knowledge article in the body of the email.
 
 </td></tr><tr><td>
 

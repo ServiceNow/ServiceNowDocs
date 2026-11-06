@@ -7,9 +7,9 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Use HR Case Management, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Use, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Create an HR case
@@ -38,15 +38,15 @@ Role required: sn\_hr\_core.case\_writer
 
 2.  Determine the person for whom you are filing the case.
 
-<table id="choicetable_iql_hwq_yqb"><thead><tr><th align="left" id="d472184e101">
+<table id="choicetable_iql_hwq_yqb"><thead><tr><th align="left" id="d471342e101">
 
 Status of the person related to the case
 
-</th><th align="left" id="d472184e104">
+</th><th align="left" id="d471342e104">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d472184e110">
+</th></tr></thead><tbody><tr><td id="d471342e110">
 
 **Anonymous employee or external individual**
 
@@ -58,7 +58,7 @@ Select **Skip verification** to create the case without having to enter an emplo
 
  **Note:** The **Skip verification** option is displayed only if **Allow skipping verification** was selected during the configuration of HR case creation.
 
-</td></tr><tr><td id="d472184e143">
+</td></tr><tr><td id="d471342e143">
 
 **An employee**
 

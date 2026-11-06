@@ -7,7 +7,7 @@ release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
@@ -22,7 +22,7 @@ The Home page is the starting point in exploring Agent Workspace for HR Case Man
 
 The Home page shows high priority cases, cases at risk for violating service level agreements \(SLA\), and cases with recent changes.
 
-\[Omitted image "aws-landing-page.png"\] Alt text: Home page displaying high priority HR cases, cases at risk for SLA violations, and cases with recent changes, with navigation icons on the left
+\[Omitted image "aws-landing-page.png"\] Alt text: Agent Workspace for HR Case Management - Home page
 
 <table id="table_ymb_jw3_gvb"><thead><tr><th>
 
@@ -148,7 +148,7 @@ Displays a graphical representation of the data related to the teams you belong 
 </td></tr></tbody>
 </table>## My team
 
-\[Omitted image "my-teams-tab.png"\] Alt text: Dashboard showing graphical representation of HR cases assigned to your team, including priority cases and SLA status
+\[Omitted image "my-teams-tab.png"\] Alt text: My teams tab
 
 Information related to the teams your HR agents belong to display in the **My team** section.
 

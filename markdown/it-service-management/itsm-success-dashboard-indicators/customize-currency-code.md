@@ -7,9 +7,9 @@ release: australia
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Success Dashboard indicators KPIs, ITSM Success Dashboard Admin console, Configure, ITSM Success Dashboard indicators, IT Service Management]
+breadcrumb: [KPI configuration for Success Dashboard indicators, ITSM Success Dashboard Admin console, Configure, ITSM Success Dashboard indicators, IT Service Management]
 ---
 
 # Modify the currency code for ITSM Success Dashboard indicators
@@ -30,10 +30,10 @@ Role required: sn\_sd.success\_dashboard\_admin
 
     If a message appears indicating that you need to change to the Success Dashboard Core application, select the word **here** in the message
 
-4.  Modify the **Value** field, enter your desired currency code.
+4.  In the **Value** field, enter your desired currency code.
 
 5.  Select **Update**.
 
 
-**Parent Topic:**[Configure Success Dashboard indicators KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-success-dashboard-indicators/config-kpis-sdb.md)
+**Parent Topic:**[KPI configuration for Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-success-dashboard-indicators/config-kpis-sdb.md)
 

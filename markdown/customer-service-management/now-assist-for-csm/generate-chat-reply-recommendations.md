@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Use generative AI, ServiceNow Otto for CSM, Customer Service Management]
@@ -34,7 +34,7 @@ You can do these actions by using the AI icon:
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Open the inbox and accept the chat interaction.
 
@@ -46,15 +46,17 @@ You can do these actions by using the AI icon:
 
 4.  In the chat message window, either type a response, or leave blank, and then select the AI icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist.
 
-<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d34555e146">
+    \[Omitted image "now-assist-chat-reply-recommendation.png"\] Alt text: Modal that shows a chat recommendation from the agent.
+
+<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d34744e162">
 
 Chat message window
 
-</th><th align="left" id="d34555e149">
+</th><th align="left" id="d34744e165">
 
 AI icon
 
-</th></tr></thead><tbody><tr><td id="d34555e155">
+</th></tr></thead><tbody><tr><td id="d34744e171">
 
 **Typed response**
 
@@ -71,7 +73,7 @@ Provides the option to refine your response:
 -   Sympathetic
 
 
-</td></tr><tr><td id="d34555e189">
+</td></tr><tr><td id="d34744e205">
 
 **Left blank**
 

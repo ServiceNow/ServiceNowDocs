@@ -7,7 +7,7 @@ release: australia
 product: Cloud Encryption
 classification: cloud-encryption
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Quorum Control Policy, Cloud Encryption with Key Management, Encryption]
 ---
@@ -22,7 +22,7 @@ Roles required: sn\_kmf.admin
 
 ## About this task
 
-**Warning:** You must sign a legal addendum to activate the key withdrawal functionality. The Quorum Control Policy Settings option is available once the withdrawal feature is enabled, otherwise the module is not visible on the app menu. After key withdrawal, your instance is no longer available until the encryption key is active again.
+**Warning:** You must sign a legal addendum to activate the key withdrawal functionality. The Quorum Control Policy Settings option becomes available when the withdrawal feature is enabled, otherwise the module is not visible on the app menu. After key withdrawal, your instance is no longer available until the encryption key is active again.
 
 ## Procedure
 
@@ -32,23 +32,19 @@ Roles required: sn\_kmf.admin
 
 3.  Select the **Quorum control enabled** check box.\[Omitted image "quorum-control-policy-activate.png"\] Alt text: Displays the Quorum control enabled selection.
 
-    \[Omitted image "quorum-control-policy-activate.png"\] Alt text: Displays the Quorum control enabled selection.
-
-    Additional fields appear that are required to configure quorum control.
-
-    \[Omitted image "quorum-config-settings.png"\] Alt text: Quorum Control Policy Settings configuration.
+    Additional fields appear that are required to configure quorum control.\[Omitted image "quorum-config-settings.png"\] Alt text: Quorum Control Policy Settings configuration.
 
 4.  Fill in the fields to complete the form.
 
-<table id="choicetable_jby_cys_lrb"><thead><tr><th align="left" id="d106212e110">
+<table id="choicetable_jby_cys_lrb"><thead><tr><th align="left" id="d109827e104">
 
 Field
 
-</th><th align="left" id="d106212e113">
+</th><th align="left" id="d109827e107">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d106212e119">
+</th></tr></thead><tbody><tr><td id="d109827e113">
 
 **Approvers**
 
@@ -56,7 +52,7 @@ Description
 
 Designate the members of the quorum from the list of users. Select the lock icon \[Omitted image "lock-icon.png"\] Alt text: Lock icon. to open the user directory. There is no limit to the number of approvers that can be selected.
 
-</td></tr><tr><td id="d106212e134">
+</td></tr><tr><td id="d109827e128">
 
 **Minimum number of approvers to achieve quorum**
 
@@ -64,7 +60,7 @@ Designate the members of the quorum from the list of users. Select the lock icon
 
 Designate the minimum number of approvers required to achieve quorum. For example, if there are nine approvers selected, a minimum of five may be configured for quorum. When five approvals are received in the system, quorum is reached and the withdraw operation starts.**Note:** The minimum number of required approvers is two.
 
-</td></tr><tr><td id="d106212e146">
+</td></tr><tr><td id="d109827e140">
 
 **Requests expire after the specified duration \(hours\)**
 

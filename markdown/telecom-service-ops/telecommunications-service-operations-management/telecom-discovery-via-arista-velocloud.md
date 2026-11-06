@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-06-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Indirect Discovery with SGCs, Telecom Discovery, Telecom Visibility, Explore, Telecommunications Service Operations Management]
 ---
@@ -61,7 +61,7 @@ The main differences between the two modes are described in the following table.
 
 Regardless of the mode, the connector builds the same inventory — organizations, network sites, edge devices, and network service instances. The connector establishes the relationships between organizations and their network sites.
 
-For the full list of VeloCloud Orchestrator endpoints called during discovery, with sample responses, see [Arista VeloCloud Service Graph Connector API Endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/arista-velocloud-service-graph-connector-api-endpoints.md).
+For the full list of VeloCloud Orchestrator endpoints called during discovery, with sample responses, see [Arista VeloCloud Service Graph Connector API endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-service-ops/telecommunications-service-operations-management/arista-velocloud-service-graph-connector-api-endpoints.md).
 
 ## CMDB Integrations Dashboard
 

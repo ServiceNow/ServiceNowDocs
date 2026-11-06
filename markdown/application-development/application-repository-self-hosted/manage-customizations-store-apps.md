@@ -7,9 +7,9 @@ release: australia
 product: Application Repository \(Self-Hosted\)
 classification: application-repository-self-hosted
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow application repository, Application sharing, Administer your apps, Deploying applications, Building applications]
+breadcrumb: [ServiceNow application repository, Application sharing, Administer your apps, Deploying applications, Classic app development, Building applications]
 ---
 
 # Manage customizations to applications
@@ -42,6 +42,8 @@ There are two ways to create application-customizations.
 1.  Use these steps to create application-customizations from ServiceNow Studio.
 
     1.  Open the Store application or the application installed via plugin from ServiceNow Studio.
+
+        To learn more, see [Access ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/access-servicenow-studio.md).
 
         The application opens in Studio.
 

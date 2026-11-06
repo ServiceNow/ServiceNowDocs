@@ -7,7 +7,7 @@ release: australia
 product: System Events
 classification: system-events
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure core features, Administer the ServiceNow AI Platform]
 ---

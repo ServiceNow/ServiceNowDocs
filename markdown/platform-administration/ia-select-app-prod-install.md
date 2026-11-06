@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ia-select-app-prod-install.html
 release: australia
 topic_type: task
-last_updated: "2026-08-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Mandatory and optional app selection modal, Administer, ServiceNow Otto for Setup, Get started, Administer the ServiceNow AI Platform]
 ---

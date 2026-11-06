@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/now-assist-for-financial-services-operations-domain-separation.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [generative AI for financial services operations domain separation, generative AI for FSO domain separation]
 breadcrumb: [AI in FSO, Explore, Financial Services Operations \(FSO\)]

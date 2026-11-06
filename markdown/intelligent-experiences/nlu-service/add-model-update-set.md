@@ -1,5 +1,5 @@
 ---
-title: Add an NLU model to an update set
+title: \(Legacy\) Add an NLU model to an update set
 description: Use update sets to move your Natural Language Understanding \(NLU\) models from one instance to another. Update sets include all records needed for your model to function on the target instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nlu-service/add-model-update-set.html
@@ -7,12 +7,12 @@ release: australia
 product: NLU Service
 classification: nlu-service
 topic_type: task
-last_updated: "2026-04-17"
-reading_time_minutes: 4
-breadcrumb: [Creating models, Model management, Natural Language Understanding, Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [\(Legacy\) Creating models, \(Legacy\) Model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Add an NLU model to an update set
+# \(Legacy\) Add an NLU model to an update set
 
 Use update sets to move your Natural Language Understanding \(NLU\) models from one instance to another. Update sets include all records needed for your model to function on the target instance.
 
@@ -44,7 +44,9 @@ If the model contains records from multiple scopes, such as vocabulary tables, i
 
 When models \(either Global or scoped\) are moved using update sets, their training and publishing state remains the same after transfer. So a model that is trained and published before it is added to an update set does not require retraining or republishing on the target instance.
 
-For information about parent-child update sets, see [Working with batched update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/us-hier-overview.md).
+For information about parent-child update sets, see [Working with batched update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/us-hier-overview.md). The following video provides a demonstration of this process.
+
+\[Omitted video\] Description: A video walkthrough of migrating NLU models by update sets in the Vancouver release.
 
 ## Procedure
 

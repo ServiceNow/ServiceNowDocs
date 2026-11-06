@@ -7,7 +7,7 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2026-03-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ACC-F reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
@@ -19,7 +19,7 @@ The following table outlines the structure and modularity of the golden image mo
 | |Linux|macOS|Windows|
 |---|-----|-----|-------|
 |**Trigger type**|marker file|plist key|msi property|
-|**Fresh install handling**|supported, no action required|supported|supported|
+|**Fresh install handling**|none|supported|supported|
 |**Service control**|stop and disable|skip load|stop and disable|
 |**Identity handling**|cache wipe|skip restore|skip restore|
 |**Certificate handling**|cert wip|skip restore|cert wipe|

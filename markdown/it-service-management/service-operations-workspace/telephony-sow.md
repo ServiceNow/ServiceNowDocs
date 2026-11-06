@@ -1,5 +1,5 @@
 ---
-title: Use Twilio to make conference calls in Service Operations Workspace
+title: Conference calls with Twilio in Service Operations Workspace
 description: Use Twilio to schedule conference calls with stakeholders to resolve incidents in Service Operations Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/telephony-sow.html
@@ -7,16 +7,16 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Notify in Service Operations Workspace, Collaboration in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
-# Use Twilio to make conference calls in Service Operations Workspace
+# Conference calls with Twilio in Service Operations Workspace
 
 Use Twilio to schedule conference calls with stakeholders to resolve incidents in Service Operations Workspace.
 
-Ensure that Twilio is configured to make conference calls from Service Operations Workspace. To configure Twilio, refer [Configure Notify with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ConfigureNotifyWithTwilio.md).
+Ensure that Twilio is configured to make conference calls from Service Operations Workspace. To configure Twilio, see [Configure Notify with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ConfigureNotifyWithTwilio.md).
 
 -   **[Start and end a conference call from Twilio in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/start-conference-call-telephony.md)**  
 Start a conference call using Twilio to collaborate with others to work toward the resolution of an incident. End the call when the discussion is over.

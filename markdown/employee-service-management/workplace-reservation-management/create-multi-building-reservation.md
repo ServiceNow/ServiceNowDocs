@@ -7,7 +7,7 @@ release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Reserve workplace items, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -25,6 +25,8 @@ Role required: sn\_wsd\_core.workplace\_user
 Reserve multiple spaces belonging to different buildings in a single reservation using the **Add another building** option on the Make a reservation page. For example, if you want to have a meeting where your colleagues are joining from different locations, you can create a single reservation with multiple locations from different time zones. Some of your colleagues may join from California while others may join from Amsterdam, and so on. Workplace Reservation Management automatically takes care of the timezone conversion based on the buildings selected and their associated timezones.
 
 The **Allow multiple building reservations** option should be configured by your administrator to make a multi-building reservation. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-reservation-management/config-reservable-module.md).
+
+\[Omitted video\] Description: Make a multi-building reservation.
 
 ## Procedure
 
@@ -86,9 +88,9 @@ The **Allow multiple building reservations** option should be configured by your
 
 [Create a reservation]()
 
-[Add invitees as collaborators and create a reservation]()
-
 [Auto-resolve recurring reservations]()
+
+[Add invitees as collaborators and create a reservation]()
 
 [Set a location as favorite using the Space details page]()
 
@@ -115,4 +117,6 @@ The **Allow multiple building reservations** option should be configured by your
 [Reserve a workplace using the Quick Reservation widget]()
 
 [Download an iCalendar for a reservation]()
+
+[Manage and configure reservation waitlist]()
 

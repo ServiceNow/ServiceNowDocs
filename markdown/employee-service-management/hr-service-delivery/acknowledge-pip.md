@@ -7,9 +7,9 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Performance Improvement Plan \(PIP\) service, Using HR Service Delivery Employee Relations, Employee Relations, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Performance Improvement Plan \(PIP\) service, Use, Employee Relations, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Acknowledge a PIP request
@@ -22,7 +22,7 @@ Role required: none
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Employee Center** &gt; **My tasks**.
+1.  Navigate to **All** &gt; **Self Service** &gt; **Employee Center** &gt; **My tasks**.
 
 2.  Sign the PIP acknowledgement form that is sent by your manager.
 

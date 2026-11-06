@@ -1,30 +1,30 @@
 ---
 title: Refresh impacted services properties
-description: Use the refresh impacted services properties to enable or disable the refresh impacted services capability, and to configure the criteria for additional refresh impacted services properties.
+description: Use the refresh impacted services properties to turn on or turn off the refresh impacted services capability, and to configure the criteria for additional refresh impacted services properties.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/refreshing-impacted-services-properties.html
 release: australia
 product: Change Management
 classification: change-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Refresh impacted services and CIs for Change, Process a change request, Use, Change Management, IT Service Management]
 ---
 
 # Refresh impacted services properties
 
-Use the refresh impacted services properties to enable or disable the refresh impacted services capability, and to configure the criteria for additional refresh impacted services properties.
+Use the refresh impacted services properties to turn on or turn off the refresh impacted services capability, and to configure the criteria for additional refresh impacted services properties.
 
 By configuring these properties, you can control the capabilities, such as:
 
--   Include the primary configuration item or all the items in the Affected CIs related list.
+-   Inclusion of the primary configuration item or all the items in the Affected CIs related list.
 -   Processing of refreshing the impacted services as an event.
 -   Populate Service Offerings and Business Applications from the Impacted Services related list.
 
-The following properties can be found in sys\_properties.list and on the Change properties page.
+The following properties are available in sys\_properties.list and on the Change properties page.
 
-The `com.snc.change_request.populate_service-offering` and `com.snc.change_request.populate_business_application` properties rely on CMDB relationships between the impacted service and its service offerings or business applications. For an offering or application to be added it its related list, it must be associated with an impacted configuration item identified by the refresh process. For more information on how, affected CIs roll up to impacted services, see [Associated CIs on a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_AffectedCIsAndImpactedServices.md).
+The `com.snc.change_request.populate_service-offering` and `com.snc.change_request.populate_business_application` properties rely on CMDB relationships between the impacted service and its service offerings or business applications. For an offering or application to be added to its related list, it must be associated with an impacted configuration item identified by the refresh process. For more information on how affected CIs roll up to impacted services, see [Associated CIs on a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_AffectedCIsAndImpactedServices.md).
 
 <table id="table_ydl_qdx_v4b"><thead><tr><th>
 
@@ -40,12 +40,12 @@ Description
 
 </td><td>
 
--   When true, all the configuration items listed in the Affected CIs related list are checked. These configuration items are checked against the Application services mapping table \(svc\_ci\_assoc\) as this is a faster process, and also returns a more concise relationship picture. All the services from svc\_ci\_assoc table are retrieved.
+-   When true, all the configuration items listed in the Affected CIs related list are checked. These configuration items are checked against the Application services mapping table \(svc\_ci\_assoc\) because this process is faster and returns a more concise relationship picture. All the services from svc\_ci\_assoc table are retrieved.
 -   If the property is false, only the CI on the change form is used. This uses the method of traversing the cmdb tree structure to find the services. The services are retrieved from `CIUtils` script include.
 
- **Note:** If dynamic CI groups are used on the Change form, then this property must be set to true as the associations are located in the svc\_ci\_assoc table.
+ **Note:** If dynamic CI groups are used on the Change form, then this property must be set to true because the associations are located in the svc\_ci\_assoc table.
 
- When a business service is converted to an application service \(as an example\), all the levels included in the svc\_ci\_assoc table are considered at the time of conversion.
+ When a business service is converted to an application service \(for example\), all the levels included in the svc\_ci\_assoc table are considered at the time of conversion.
 
 </td></tr><tr><td>
 
@@ -53,7 +53,7 @@ Description
 
 </td><td>
 
-If this property is set to true, then the `ChangeCollisionHelper` script include checks the configuration items that have been identified in the list of conflicts against the Application services mapping table \(svc\_ci\_assoc\) and also table \(cmdb\_ci\_service\) to check if there are any business services that are directly impacted.
+If this property is set to true, then the `ChangeCollisionHelper` script include checks the configuration items that have been identified in the list of conflicts against the Application services mapping table \(svc\_ci\_assoc\) and the Service \[cmdb\_ci\_service\] table to check if there are any business services that are directly impacted.
 
 </td></tr><tr><td>
 
@@ -61,8 +61,8 @@ If this property is set to true, then the `ChangeCollisionHelper` script include
 
 </td><td>
 
--   When true, the process of refreshing the impacted services is done through an event. This process is run in the background and you will be notified through a message in Notify that the process has been complete.
--   When false, this is run in your session. As this is not run in background, there is no notification on completion.
+-   When true, the process of refreshing the impacted services is done through an event. This process is run in the background and you're notified through a message in Notify when the process is complete.
+-   When false, this is run in your session. Because this process doesn't run in the background, there's no notification on completion.
 
 </td></tr><tr><td>
 

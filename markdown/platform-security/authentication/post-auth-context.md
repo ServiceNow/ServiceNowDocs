@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Authentication policy contexts, Adaptive authentication, Authentication, Access Management]
 ---
@@ -18,7 +18,7 @@ The Post Authentication policy context defines how and when a policy is enforced
 
 ## Post-authentication context record
 
-Policies in the post-authorization context execute after your users enter their credentials or SSO response. Your instance allows or denies access based on your selected policy. Because your users have identified themselves via their login credentials, the policy can use user information such as role or group to determine whether to grant access.
+Policies in the post-authentication context execute after your users enter their credentials or SSO response. Your instance allows or denies access based on your selected policy. Because your users have identified themselves by using their login credentials, the policy can use user information such as role or group to determine whether to grant access.
 
 Use the fields in the Post-authentication policy context record to define how your instance uses your policy.
 
@@ -52,7 +52,7 @@ Default Policy
 
 </td><td>
 
-Defines the default behavior of this context when evaluating the policy. Select from the following options.-   **Allow Policy**
+Default behavior of this context when evaluating the policy. Available options:-   **Allow Policy**
 
 Denies access to all users by default, and only allows access when the conditions the policy selected in the **Allow Policy** field evaluate to true.
 
@@ -67,7 +67,7 @@ Allow Policy
 
 </td><td>
 
-The policy used for this context uses. This field appears only when the **Default Policy** field is set to **Allow Policy**.
+The policy that this context uses. This field appears only when the **Default Policy** field is set to **Allow Policy**.
 
 </td></tr><tr><td>
 
@@ -75,7 +75,7 @@ Deny Policy
 
 </td><td>
 
-The policy used for this context uses. This field appears only when the **Default Policy** field is set to **Deny Policy**.
+The policy that this context uses. This field appears only when the **Default Policy** field is set to **Deny Policy**.
 
 </td></tr></tbody>
 </table>## Policy inputs and conditions

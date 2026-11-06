@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/explore-order-management.html
 release: australia
 topic_type: concept
-last_updated: "2025-12-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 keywords: [explore]
 breadcrumb: [Explore, Sales Customer Relationship Management]

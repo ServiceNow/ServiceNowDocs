@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/using-customer-engagement-sequences.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Sales automation apps, Use, Sales Customer Relationship Management]
 ---
@@ -102,6 +102,8 @@ View sequence tasks assigned to you from the CRM Workspace.
 Execute predefined sequence steps in your sequence tasks in the CRM Workspace to engage with your prospective customers.
 -   **[Fulfill a telesales sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/complete-telesales-sequences.md)**  
 Connect with leads or customers using the click-to-call outbound calling capability in telesales flows.
+-   **[Customize the Lead nurturing email sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/customize-lead-nurturing-email-sequence.md)**  
+Adapt the Lead nurturing email sequence available with the Customer Engagement Sequences app to match your organization's email and call outreach cadence.
 
 **Parent Topic:**[Using sales automation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-lead-opportunity-mgt.md)
 
