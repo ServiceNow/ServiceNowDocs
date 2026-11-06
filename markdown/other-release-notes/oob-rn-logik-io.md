@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/other-release-notes/oob-rn-logi
 release: other
 topic_type: reference
 last_updated: "2023-08-24"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [OOB Other release notes]
 ---
 
@@ -111,6 +111,16 @@ ServiceNow CPQ 2026/09/04 release notes includes minor bug fixes.
 ServiceNow CPQ 2026/09/11 release notes includes minor bug fixes.
 -   **[ServiceNow CPQ 2026/09/18 release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/other/markdown)**  
 ServiceNow CPQ 2026/09/11 release notes includes minor bug fixes.
+-   **[ServiceNow CPQ 2026/10/09 release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/other/markdown/other-release-notes/oob-rn-logik-ai-2026-10-09-.md)**  
+ServiceNow CPQ 2026/10/09 release notes include new enhancements and bug fixes.
+-   **[ServiceNow CPQ 2026/10/16 release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/other/markdown/other-release-notes/oob-rn-logik-ai-2026-10-16-.md)**  
+ServiceNow CPQ October 16, 2026 release notes include new enhancements and bug fixes.
+-   **[ServiceNow CPQ 2026/10/23 release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/other/markdown/other-release-notes/oob-rn-logik-ai-2026-10-23-.md)**  
+ServiceNow CPQ October 23, 2026 release notes include bug fixes.
+-   **[ServiceNow CPQ 2026/10/30 release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/other/markdown/other-release-notes/oob-rn-logik-ai-2026-10-30-.md)**  
+ServiceNow CPQ October 30, 2026 release notes include new enhancements and bug fixes.
+-   **[ServiceNow CPQ 2026/11/06 release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/other/markdown/other-release-notes/oob-rn-logik-ai-2026-11-06-.md)**  
+ServiceNow CPQ November 6, 2026 release notes include bug fixes.
 
 **Parent Topic:**[OOB Other release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/other/markdown/other-release-notes/sn-oob-rn.md)
 
